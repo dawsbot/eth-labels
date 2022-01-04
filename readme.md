@@ -14,3 +14,7 @@
 
 > Pulled from [Etherscan's "exchange" label](https://etherscan.io/accounts/label/exchange?subcatid=undefined&size=100&start=0&col=1&order=asc) last on January 4, 2022
 
+
+* **[View the CSV](./src/all-addresses.csv)**
+
+* **[View the JSON](./src/all-addresses.json)**
