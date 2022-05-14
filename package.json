@@ -2,9 +2,16 @@
   "name": "cex-addresses-ethereum",
   "version": "1.0.0",
   "description": "> Pulled from https://etherscan.io/accounts/label/exchange?subcatid=undefined&size=100&start=0&col=1&order=asc",
-  "main": "pull-script.js",
+  "main": "lib/index.js",
+  "types": "types/index.d.ts",
+  "files": [
+    "lib",
+    "types",
+    "src"
+  ],
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
+    "build": "tsc --declaration --declarationDir types",
     "build:json": "node scripts/build-json.js"
   },
   "repository": {
@@ -20,5 +27,8 @@
   "homepage": "https://github.com/dawsbot/cex-addresses-ethereum#readme",
   "dependencies": {
     "csv-parse": "^5.0.4"
+  },
+  "devDependencies": {
+    "typescript": "^4.6.4"
   }
 }
