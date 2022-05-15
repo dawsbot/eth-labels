@@ -1790,7 +1790,7 @@ address,nameTag,balance,txnCount
 0xd32357b1e1c0d1b469e2eef5baa0ebd3d02c2e51,Fake_Phishing2579,0 Ether,7
 0x51dcd13361c5d921d2c4818e419011301e7be34e,Fake_Phishing258,0 Ether,2
 0x3841eb6910fb442f82aaf50eba5da9b275619ee0,Fake_Phishing2580,0 Ether,0
-0xb547027a4ccd46ec98199fa88aaedf5aa981db26,Fake_Phishing2581,1 wei,3,154
+0xb547027a4ccd46ec98199fa88aaedf5aa981db26,Fake_Phishing2581,1 wei,3154
 0x91442fd15202bd77d7e42e59a87bae18f7fc3ae3,Fake_Phishing2582,0 Ether,3
 0xa9072b454364d1e767f8cc006eb53ff59bc95587,Fake_Phishing2583,0.00029686 Ether,3
 0x5416400b0d5798dfdcefa2d22335f18982ee22fa,Fake_Phishing2584,0 Ether,6
@@ -1979,7 +1979,7 @@ address,nameTag,balance,txnCount
 0xe6bf49e5ba7787a3550be485f074ec07f9c86403,Fake_Phishing2750,0 Ether,21
 0xd305a960c2ebcff51c26c6a29b1129dcd2a54fdc,Fake_Phishing2751,0.00558 Ether,5
 0x41eb894bc0bde242ccd2c1321b3d78835b9cf48a,Fake_Phishing2752,0.00256765 Ether,28
-0xf2401fa52bcaacfdc67fd7f2b8983ddd15092fa9,Fake_Phishing2753,1,164.74805949 Ether,26
+0xf2401fa52bcaacfdc67fd7f2b8983ddd15092fa9,Fake_Phishing2753,1164.74805949 Ether,26
 0x5b2b8b9c674e67f718bb54cc62c2a2e13308229c,Fake_Phishing2754,0 Ether,20
 0x2abe6dbc3d9a3d731db69a23dfc58827c0447cb9,Fake_Phishing2755,0 Ether,8
 0x1032d236da2bfc0c0bdeb59a36242b459e0a6f66,Fake_Phishing2756,0 Ether,4
@@ -3642,7 +3642,7 @@ address,nameTag,balance,txnCount
 0x919c570a707c322dcecb43f474b1aeff9bd29bd4,Fake_Phishing4283,0 Ether,29
 0x45be5c265cee05d129932e0e45a831fd0f02845c,Fake_Phishing4285,0.00225386 Ether,6
 0xcf45624eb75be6252402312d030a7d3e04c557ef,Fake_Phishing4286,0 Ether,20
-0x95e525f434315eab8268fdc0cfd0555eb87a48cc,Fake_Phishing4287,1,348.60778875 Ether,13
+0x95e525f434315eab8268fdc0cfd0555eb87a48cc,Fake_Phishing4287,1348.60778875 Ether,13
 0xf774aef374312bb59e8c447a2315e8a273f6f1b4,Fake_Phishing4288,0.00046453 Ether,53
 0x1aa18a80822b3fbed557f279b8666bb4962ad6de,Fake_Phishing4289,0 Ether,1050
 0x69f8e87518129498da751f26ea2309db05e7270b,Fake_Phishing429,16.50183052 Ether,421
@@ -3969,7 +3969,7 @@ address,nameTag,balance,txnCount
 0xc9a08162b95915edf6570f0439757e1f655de576,Fake_Phishing458,0 Ether,2
 0xffcc89233015b37a136e95525905fb4fd1256777,Fake_Phishing4580,0.82845964 Ether,4
 0x4d5a7d6ecda9df9e89d4dc2410ae2776e3481c03,Fake_Phishing4581,0 Ether,39
-0x3018c81dcb9caa2554d226d5a1a929dd319f085d,Fake_Phishing4582,1,300 Ether,6
+0x3018c81dcb9caa2554d226d5a1a929dd319f085d,Fake_Phishing4582,1300 Ether,6
 0x8b1deff8d7d0eeb1869f9e3e52169f19cabdbb5b,Fake_Phishing4583,0 Ether,70
 0xfeefcde74ea44efbdf9a16e2a524da54f5cf2221,Fake_Phishing4584,0 Ether,18
 0x8bf812ec596bce575963accb13ce3e6586b6cb93,Fake_Phishing4585,0 Ether,44
