@@ -1387,9 +1387,9 @@
   },
   {
     "address": "0x41467711f2d1f6021119ffb113ae0e78251b45fa",
-    "balance": "0 Ether",
+    "balance": "0.00498692 Ether",
     "nameTag": "Fake_Phishing1170",
-    "txnCount": "93"
+    "txnCount": "97"
   },
   {
     "address": "0x860b62006ea05a05c7638d16a106858450bde336",
@@ -22303,9 +22303,9 @@
   },
   {
     "address": "0x8babc460731cc581bf7cc2d819069cb747077d55",
-    "balance": "0 Ether",
+    "balance": "0.04717101 Ether",
     "nameTag": "Fake_Phishing4353",
-    "txnCount": "443"
+    "txnCount": "444"
   },
   {
     "address": "0x7f830793a16e8380dc6d7477dded435c7bee499b",
@@ -24459,7 +24459,7 @@
     "address": "0xa2065164a26ecd3775dcf22510ad1d2daef8bd2a",
     "balance": "0 Ether",
     "nameTag": "Fake_Phishing4684",
-    "txnCount": "1,115"
+    "txnCount": "1,117"
   },
   {
     "address": "0x113acf282eeb4d71bec61ad83e934bf75bf8253f",
@@ -24955,9 +24955,9 @@
   },
   {
     "address": "0xd8db936e060ad8a4d1a435289a8ad1be05b22878",
-    "balance": "0.00978784 Ether",
+    "balance": "0.00098187 Ether",
     "nameTag": "Fake_Phishing4762",
-    "txnCount": "70"
+    "txnCount": "71"
   },
   {
     "address": "0x8e9c9d40cd0867fd17ce7d45781c9145d95b8dac",
@@ -25417,9 +25417,9 @@
   },
   {
     "address": "0xdb29dc01828be7e7764888ca7e675b2b584ff262",
-    "balance": "0.08899407 Ether",
+    "balance": "0.00230681 Ether",
     "nameTag": "Fake_Phishing4834",
-    "txnCount": "46"
+    "txnCount": "47"
   },
   {
     "address": "0x5b5d45172f7354f1aee3dd2187f0127924b22dd4",
@@ -25507,9 +25507,9 @@
   },
   {
     "address": "0xc88b5f4aae1c8f2778def2257b6baf1ba62e4b09",
-    "balance": "0.02006221 Ether",
+    "balance": "0.00425624 Ether",
     "nameTag": "Fake_Phishing4848",
-    "txnCount": "47"
+    "txnCount": "48"
   },
   {
     "address": "0x02745ad75e786f0b2efbd99504e22c3cace354c1",
@@ -25621,9 +25621,9 @@
   },
   {
     "address": "0x23dd18fc61248395ad63cb8c25f8136652908295",
-    "balance": "0.63400616 Ether",
+    "balance": "0.65214036 Ether",
     "nameTag": "Fake_Phishing4865",
-    "txnCount": "77"
+    "txnCount": "79"
   },
   {
     "address": "0xfb5c7aa982ebced4384eec4d5e732a28759ebdf8",
@@ -26091,7 +26091,7 @@
     "address": "0x34278f6f40079eae344cbac61a764bcf85afc949",
     "balance": "0 Ether",
     "nameTag": "Fake_Phishing4953",
-    "txnCount": "610"
+    "txnCount": "613"
   },
   {
     "address": "0x2ceee24f8d03fc25648c68c8e6569aa0512f6ac3",
@@ -26401,9 +26401,9 @@
   },
   {
     "address": "0xda3f8db5f3ecb711a5c6952f0b14eb0005ebf63c",
-    "balance": "0.00020937 Ether",
+    "balance": "0 Ether",
     "nameTag": "Fake_Phishing5002",
-    "txnCount": "1,604"
+    "txnCount": "1,610"
   },
   {
     "address": "0xa36a4c4a7cbfa24d087e02e49a0a600b2aaf5ee8",
@@ -28321,9 +28321,9 @@
   },
   {
     "address": "0x86c620ab6ece77634e5a41ea530bfcc3a23f032b",
-    "balance": "0.21017033 Ether",
+    "balance": "0.00065723 Ether",
     "nameTag": "Fake_Phishing5313",
-    "txnCount": "61"
+    "txnCount": "62"
   },
   {
     "address": "0x710d92c2265204517d5804fa006860bb921269ad",
@@ -29041,9 +29041,9 @@
   },
   {
     "address": "0x30663d16931e23690e7a9877fc2ad5ad98fee9c1",
-    "balance": "0.07349526 Ether",
+    "balance": "0.01968282 Ether",
     "nameTag": "Fake_Phishing5440",
-    "txnCount": "31"
+    "txnCount": "34"
   },
   {
     "address": "0x047b83e0efb9203667a1fca927b0c4746d7ff6cf",
@@ -29539,9 +29539,9 @@
   },
   {
     "address": "0xf4fac38cf840d2bdd528ab8503a44d582fc59d25",
-    "balance": "14.59009733 Ether",
+    "balance": "14.89009733 Ether",
     "nameTag": "Fake_Phishing5561",
-    "txnCount": "65"
+    "txnCount": "66"
   },
   {
     "address": "0x67542f6e4ea651f4c72ab24abf2eb9c2c202fce1",
@@ -29827,9 +29827,9 @@
   },
   {
     "address": "0xd86f5b3739913b99fcf6e51c6e5e8f1f714bd187",
-    "balance": "23.11837115 Ether",
+    "balance": "29.69923279 Ether",
     "nameTag": "Fake_Phishing5644",
-    "txnCount": "93"
+    "txnCount": "109"
   },
   {
     "address": "0x7e074b4df5e6d80fe06353d1c3027900fb8d6f87",
@@ -29851,9 +29851,9 @@
   },
   {
     "address": "0x80191032fb4d309501d2ebc09a1a7d7f2941c8c1",
-    "balance": "2.52865493 Ether",
+    "balance": "2.5631504 Ether",
     "nameTag": "Fake_Phishing5648",
-    "txnCount": "61"
+    "txnCount": "63"
   },
   {
     "address": "0x8ac5a96121b5cdbe08865021762967252d93fdce",
@@ -30205,9 +30205,9 @@
   },
   {
     "address": "0xdc6ca6b05a405d19f298642670fc3e29d82455a5",
-    "balance": "18.041 Ether",
+    "balance": "18.466 Ether",
     "nameTag": "Fake_Phishing5708",
-    "txnCount": "129"
+    "txnCount": "133"
   },
   {
     "address": "0x27ac71ead8fd1d0377b042218bc222b622d6469e",
@@ -30235,9 +30235,9 @@
   },
   {
     "address": "0x7dcba78bec1b32f5ba59523abddead778fdca530",
-    "balance": "5.40048292 Ether",
+    "balance": "0 Ether",
     "nameTag": "Fake_Phishing5712",
-    "txnCount": "39"
+    "txnCount": "40"
   },
   {
     "address": "0xaff940e5b3fe128df0b03185e523b0b070379525",
@@ -30271,9 +30271,9 @@
   },
   {
     "address": "0xd3888a7e6d6a05c6b031f05ddaf3d3dcab92fc5b",
-    "balance": "0.56787732 Ether",
+    "balance": "0.00015839 Ether",
     "nameTag": "Fake_Phishing5718",
-    "txnCount": "36"
+    "txnCount": "37"
   },
   {
     "address": "0x8aba2a758f0f7e8d36f872ddebe430e1d00ad3e3",
@@ -30307,9 +30307,9 @@
   },
   {
     "address": "0xb41e4d93568e16e8458fd58ff42d49d3068082cf",
-    "balance": "26.261 Ether",
+    "balance": "27.261 Ether",
     "nameTag": "Fake_Phishing5724",
-    "txnCount": "92"
+    "txnCount": "96"
   },
   {
     "address": "0x29d83caace6ad072f4d21f62ba74b50c17f0560c",
@@ -30331,9 +30331,9 @@
   },
   {
     "address": "0x0d0cf406ee0677a0202c6292227bfb22a19e225d",
-    "balance": "1.25886416 Ether",
+    "balance": "0.00412858 Ether",
     "nameTag": "Fake_Phishing5728",
-    "txnCount": "23"
+    "txnCount": "25"
   },
   {
     "address": "0x30fe7f968acc9e384fcaa55c54a3cd78b03aeb9b",
@@ -32737,9 +32737,9 @@
   },
   {
     "address": "0xC74bde36961894C53662Bee82Cdf351f168ceb22",
-    "balance": "0 Ether",
+    "balance": "0.00059073 Ether",
     "nameTag": "Fake_Phishing932",
-    "txnCount": "10"
+    "txnCount": "12"
   },
   {
     "address": "0x174b85710B6b371e472970a9c28A352329a6D39a",

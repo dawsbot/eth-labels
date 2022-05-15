@@ -3,24 +3,27 @@
 </p>
 <p align="center">
   <b>
-    Centralized Exchanges
+    Etherscan Labels
   </b>
   <br>
-  <i>A code-friendly way to determine if an address is from a centralized-exchange</i>
+  <i>A public dataset of <a href="https://etherscan.io/labelcloud">Etherscan labels</a></i>
   <br>
 </p>
 
 <br/>
 
-## ces addresses
+| Label                              | CSV                                  | JSON                                   | Updated      |
+| ---------------------------------- | ------------------------------------ | -------------------------------------- | ------------ |
+| `exchange` (Centralized Exchanges) | [View CSV](./src/cex-addresses.csv)  | [View JSON](./src/cex-addresses.json)  | May 9, 2022  |
+| `phish-hack` (Phishing/Hacking)    | [View CSV](./src/hack-addresses.csv) | [View JSON](./src/hack-addresses.json) | May 15, 2022 |
 
-> Pulled from [Etherscan's "exchange" label](https://etherscan.io/accounts/label/exchange?subcatid=undefined&size=100&start=0&col=1&order=asc) last on May 9, 2022
+<br/>
 
-- **[View the CSV](./src/cex-addresses.csv)**
+## Contributing
 
-- **[View the JSON](./src/cex-addresses.json)**
+Each label is currently pulled with custom scripts. Partially documented, partially not.
 
-## Phish / Hack addresses
+### Phish / Hack addresses
 
 1. install [tampermonkey](https://chrome.google.com/webstore/detail/tampermonkey/dhdgffkkebhmkfjojejmpbldmpobfkfo?utm_source=chrome-ntp-icon)
 2. copy userscript to tampermonkey extension
