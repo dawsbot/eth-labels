@@ -28,6 +28,10 @@
 3. open the URL `https://etherscan.io/accounts/label/phish-hack?subcatid=undefined&size=100&start=0&col=1&order=asc`. only support size = 100
 4. open the chrome dev tool. copy log to `hack-addresses.json`
 
+> Pulled from [Etherscan's "Phish / Hack" label](https://etherscan.io/accounts/label/phish-hack?subcatid=undefined&size=100&start=0&col=1&order=asc) last on May 15, 2022
+
+- **[View the JSON](./src/hack-addresses.json)**
+
 ## Install
 
 > TODO
