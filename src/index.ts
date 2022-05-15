@@ -1,12 +1,12 @@
-import cexs from './cex-addresses.json';
-import hacks from './hack-addresses.json';
+import cexs from "./cex-addresses.json";
+import hacks from "./hack-addresses.json";
 
 interface CEX {
   address: string;
   nameTag: string;
 }
 
-interface HACK{
+interface HACK {
   address: string;
   balance: string;
   nameTag: string;
