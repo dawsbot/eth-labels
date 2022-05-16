@@ -49,20 +49,6 @@
           orderable: false,
           search: { value: "", regex: false },
         },
-        {
-          data: "balance",
-          name: "",
-          searchable: true,
-          orderable: true,
-          search: { value: "", regex: false },
-        },
-        {
-          data: "txnCount",
-          name: "",
-          searchable: true,
-          orderable: true,
-          search: { value: "", regex: false },
-        },
       ],
     },
   };
@@ -74,7 +60,7 @@
   async function run() {
     const values = [];
     const hacks = [];
-    const csv = [["address", "nameTag", "balance", "txnCount"]];
+    const csv = [["address", "nameTag"]];
 
     for (let index = 1; index <= pages; index++) {
       console.log(`Fetching page ${index} of ${pages}`);
@@ -92,10 +78,8 @@
       const data = json.d.data;
       const newData = data.map((v) => {
         return {
-          address: v.address.replace(/<[^<>]+>/g, ""),
+          address: v.address.replace(/<[^<>]+>/g, "").toLowerCase(),
           balance: v.balance.replace(/<[^<>]+>/g, ""),
-          nameTag: v.nameTag,
-          txnCount: v.txnCount,
         };
       });
       values.push(newData);
@@ -105,7 +89,7 @@
     values.forEach((v) => {
       v.forEach((k) => {
         hacks.push(k);
-        csv.push([k.address, k.nameTag, k.balance, k.txnCount]);
+        csv.push([k.address, k.nameTag]);
       });
     });
 
