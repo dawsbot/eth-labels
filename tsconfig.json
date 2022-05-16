@@ -11,10 +11,11 @@
     "resolveJsonModule": true,
     "target": "es2017",
     "module": "es6",
-    "outDir": "./lib",
-    "rootDir": "src"
+    "rootDir": "src",
+    "declaration": true
+    // "emitDeclarationOnly": false,
+    // "outDir": "dist"
   },
-  "compileOnSave": false,
-  "exclude": ["node_modules/*", "dist/*"],
-  "include": ["src/**/*"]
+  "exclude": ["node_modules"],
+  "include": ["src"]
 }
