@@ -4,27 +4,15 @@ import json from "@rollup/plugin-json";
 const plugins = [json(), typescript()];
 export default [
   {
-    input: "./src/exchange/index.ts",
-    output: {
-      file: "dist/cjs/exchange.js",
-      format: "cjs",
-    },
-    output: {
-      file: "dist/esm/exchange.js",
-      format: "esm",
-    },
-    plugins,
-  },
-  {
-    input: "./src/phish-hack/index.ts",
+    input: "./src/index.ts",
     output: [
       {
-        file: "dist/cjs/phish-hack.js",
+        file: "dist/cjs/index.js",
         format: "cjs",
         exports: "auto",
       },
       {
-        file: "dist/esm/phish-hack.js",
+        file: "dist/esm/index.js",
         format: "esm",
       },
     ],
