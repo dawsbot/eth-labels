@@ -1,7 +1,7 @@
 {
-  "name": "cex-addresses-ethereum",
-  "version": "1.0.0",
-  "description": "> Pulled from https://etherscan.io/accounts/label/exchange?subcatid=undefined&size=100&start=0&col=1&order=asc",
+  "name": "etherscan-labels",
+  "version": "0.0.0",
+  "description": "A public dataset of Etherscan labels",
   "main": "lib/index.js",
   "types": "types/index.d.ts",
   "files": [
@@ -10,7 +10,7 @@
     "src"
   ],
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1",
+    "test": "npm run build",
     "build": "tsc --declaration --declarationDir types",
     "build:json": "node scripts/build-json.js",
     "prepare": "husky install"
