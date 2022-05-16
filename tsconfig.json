@@ -1,13 +1,11 @@
 {
   "compilerOptions": {
     "allowSyntheticDefaultImports": true,
-    "experimentalDecorators": true,
     "moduleResolution": "node",
-    "noImplicitAny": false,
+    "strict": true,
+    "noImplicitAny": true,
     "noUnusedLocals": true,
     "noUnusedParameters": true,
-    "preserveConstEnums": true,
-    "skipLibCheck": true,
     "sourceMap": true,
     "strictNullChecks": true,
     "resolveJsonModule": true,
