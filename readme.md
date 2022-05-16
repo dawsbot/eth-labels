@@ -14,8 +14,19 @@
 
 | Label                              | CSV                                  | JSON                                   | Updated      |
 | ---------------------------------- | ------------------------------------ | -------------------------------------- | ------------ |
-| `exchange` (Centralized Exchanges) | [View CSV](./src/cex-addresses.csv)  | [View JSON](./src/cex-addresses.json)  | May 9, 2022  |
-| `phish-hack` (Phishing/Hacking)    | [View CSV](./src/hack-addresses.csv) | [View JSON](./src/hack-addresses.json) | May 15, 2022 |
+| `exchange` (Centralized Exchanges) | [View CSV](./src/exchange/all.csv)   | [View JSON](./lib/exchange/all.json)   | May 9, 2022  |
+| `phish-hack` (Phishing/Hacking)    | [View CSV](./src/phish-hack/all.csv) | [View JSON](./lib/phish-hack/all.json) | May 15, 2022 |
+
+<br/>
+
+## Install
+
+```sh
+npm install --save etherscan-labels
+
+// or with yarn
+yarn add etherscan-labels
+```
 
 <br/>
 
@@ -31,9 +42,3 @@ Each label is currently pulled with custom scripts. Partially documented, partia
 4. open the chrome dev tool. copy log to `hack-addresses.json`
 
 > Pulled from [Etherscan's "Phish / Hack" label](https://etherscan.io/accounts/label/phish-hack?subcatid=undefined&size=100&start=0&col=1&order=asc) last on May 15, 2022
-
-- **[View the JSON](./src/hack-addresses.json)**
-
-## Install
-
-> TODO

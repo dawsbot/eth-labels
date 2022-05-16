@@ -1,5 +1,7 @@
-import cexs from "./cex-addresses.json";
-import hacks from "./hack-addresses.json";
+import allCEX from "./exchange/all.json";
+import cexAddresses from "./exchange/addresses.json";
+import allHacks from "./phish-hack/all.json";
+import hackAddresses from "./phish-hack/addresses.json";
 
 interface CEX {
   address: string;
@@ -8,10 +10,16 @@ interface CEX {
 
 interface HACK {
   address: string;
-  balance: string;
   nameTag: string;
-  txnCount: string;
 }
 
-export const CEXS: CEX[] = cexs;
-export const HACKS: HACK[] = hacks;
+module.exports = {
+  exchange: {
+    all: allCEX as CEX[],
+    addresses: cexAddresses,
+  },
+  phishHack: {
+    all: allHacks as HACK[],
+    addresses: hackAddresses,
+  },
+};
