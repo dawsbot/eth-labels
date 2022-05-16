@@ -36,9 +36,7 @@ Each label is currently pulled with custom scripts. Partially documented, partia
 
 ### Phish / Hack addresses
 
-1. install [tampermonkey](https://chrome.google.com/webstore/detail/tampermonkey/dhdgffkkebhmkfjojejmpbldmpobfkfo?utm_source=chrome-ntp-icon)
-2. copy userscript to tampermonkey extension
-3. open the URL `https://etherscan.io/accounts/label/phish-hack?subcatid=undefined&size=100&start=0&col=1&order=asc`. only support size = 100
-4. open the chrome dev tool. copy log to `hack-addresses.json`
-
-> Pulled from [Etherscan's "Phish / Hack" label](https://etherscan.io/accounts/label/phish-hack?subcatid=undefined&size=100&start=0&col=1&order=asc) last on May 15, 2022
+1. Install [tampermonkey](https://chrome.google.com/webstore/detail/tampermonkey/dhdgffkkebhmkfjojejmpbldmpobfkfo?utm_source=chrome-ntp-icon)
+2. Copy userscript to tampermonkey extension
+3. Open the URL `https://etherscan.io/accounts/label/phish-hack?subcatid=undefined&size=100&start=0&col=1&order=asc`. only support size = 100
+4. Open the chrome dev tools. Copy the outputted csv and json to `src/phish-hack`
