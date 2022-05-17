@@ -2,10 +2,12 @@
   "name": "etherscan-labels",
   "version": "0.0.0",
   "description": "A public dataset of Etherscan labels",
-  "main": "lib/index.js",
-  "types": "types/index.d.ts",
+  "main": "./dist/cjs/index.js",
+  "license": "MIT",
+  "sideEffects": false,
+  "module": "./dist/esm/index.js",
   "files": [
-    "lib"
+    "dist"
   ],
   "scripts": {
     "test": "npm run build",
@@ -19,23 +21,19 @@
   },
   "keywords": [],
   "author": "",
-  "license": "ISC",
   "bugs": {
     "url": "https://github.com/dawsbot/cex-addresses-ethereum/issues"
   },
   "homepage": "https://github.com/dawsbot/cex-addresses-ethereum#readme",
-  "dependencies": {
-    "csv-parse": "^5.0.4"
-  },
   "devDependencies": {
     "@rollup/plugin-json": "^4.1.0",
     "@rollup/plugin-typescript": "^8.3.2",
     "@types/node": "^17.0.33",
+    "csv-parse": "^5.0.4",
     "husky": "^8.0.1",
     "lint-staged": "^12.4.1",
     "prettier": "^2.6.2",
     "rollup": "^2.73.0",
-    "rollup-plugin-typescript2": "^0.31.2",
     "tslib": "^2.4.0",
     "typescript": "^4.6.4"
   },
