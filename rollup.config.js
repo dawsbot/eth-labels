@@ -1,21 +1,35 @@
-// import pluginTypescript from "@rollup/plugin-typescript";
-import typescript from "rollup-plugin-typescript2";
+import typescript from "@rollup/plugin-typescript";
 import json from "@rollup/plugin-json";
-const plugins = [json(), typescript()];
+const plugins = [json(), typescript({ sourceMap: true })];
 export default [
   {
-    input: "./src/index.ts",
+    input: "./src/exchange/index.ts",
     output: [
       {
-        file: "dist/cjs/index.js",
+        file: "dist/cjs/exchange.js",
         format: "cjs",
         exports: "auto",
       },
       {
-        file: "dist/esm/index.js",
+        file: "dist/esm/exchange.js",
         format: "esm",
       },
     ],
     plugins,
   },
+  // {
+  //   input: "./src/index.ts",
+  //   output: [
+  //     {
+  //       file: "dist/cjs/index.js",
+  //       format: "cjs",
+  //       exports: "auto",
+  //     },
+  //     {
+  //       file: "dist/esm/index.js",
+  //       format: "esm",
+  //     },
+  //   ],
+  //   plugins,
+  // },
 ];
