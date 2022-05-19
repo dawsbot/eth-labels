@@ -2,8 +2,12 @@ const fs = require("fs");
 const { parse } = require("csv-parse/sync");
 const path = require("path");
 
-const csvPath = path.join(__dirname, "..", "src", "cex-addresses.csv");
-const jsonOutputPath = path.join(__dirname, "..", "src", "cex-addresses.json");
+const csvPath = path.join(__dirname, "..", "src/mainnet/exchange/all.csv");
+const jsonOutputPath = path.join(
+  __dirname,
+  "..",
+  "src/mainnet/exchange/all.json"
+);
 
 const csvContents = fs.readFileSync(csvPath);
 

@@ -1,38 +1,44 @@
 {
-  "name": "cex-addresses-ethereum",
-  "version": "1.0.0",
-  "description": "> Pulled from https://etherscan.io/accounts/label/exchange?subcatid=undefined&size=100&start=0&col=1&order=asc",
-  "main": "lib/index.js",
-  "types": "types/index.d.ts",
+  "name": "evm-labels",
+  "version": "0.0.0",
+  "description": "A public dataset of Etherscan labels",
+  "license": "MIT",
+  "sideEffects": false,
+  "main": "./lib/cjs/index.js",
+  "module": "./lib/esm/index.js",
   "files": [
-    "lib",
-    "types",
-    "src"
+    "lib/"
   ],
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1",
-    "build": "tsc --declaration --declarationDir types",
+    "test": "npm run build",
+    "build": "rm -rf lib && npm run compile",
     "build:json": "node scripts/build-json.js",
-    "prepare": "husky install"
+    "prepare": "husky install",
+    "compile": "npm-run-all --parallel tsc:esm tsc:cjs",
+    "tsc:esm": "tsc -p tsconfig.json",
+    "tsc:cjs": "tsc -p tsconfig-cjs.json",
+    "postversion": "git push --follow-tags",
+    "prepublishOnly": "npm run build"
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/dawsbot/cex-addresses-ethereum.git"
+    "url": "git+https://github.com/dawsbot/evm-labels.git"
   },
   "keywords": [],
   "author": "",
-  "license": "ISC",
   "bugs": {
-    "url": "https://github.com/dawsbot/cex-addresses-ethereum/issues"
+    "url": "https://github.com/dawsbot/evm-labels/issues"
   },
-  "homepage": "https://github.com/dawsbot/cex-addresses-ethereum#readme",
-  "dependencies": {
-    "csv-parse": "^5.0.4"
-  },
+  "homepage": "https://github.com/dawsbot/evm-labels#readme",
   "devDependencies": {
+    "@types/node": "^17.0.33",
+    "csv-parse": "^5.0.4",
     "husky": "^8.0.1",
     "lint-staged": "^12.4.1",
+    "npm-run-all": "^4.1.5",
     "prettier": "^2.6.2",
+    "rollup": "^2.73.0",
+    "tslib": "^2.4.0",
     "typescript": "^4.6.4"
   },
   "lint-staged": {
