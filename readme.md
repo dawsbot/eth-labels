@@ -14,10 +14,10 @@
 
 ## Ethereum
 
-| Label                              | CSV                                  | JSON                                   | Updated      |
-| ---------------------------------- | ------------------------------------ | -------------------------------------- | ------------ |
-| `exchange` (Centralized Exchanges) | [View CSV](./src/exchange/all.csv)   | [View JSON](./lib/exchange/all.json)   | May 9, 2022  |
-| `phish-hack` (Phishing/Hacking)    | [View CSV](./src/phish-hack/all.csv) | [View JSON](./lib/phish-hack/all.json) | May 15, 2022 |
+| Label                              | CSV                                          | JSON                                           | Updated      |
+| ---------------------------------- | -------------------------------------------- | ---------------------------------------------- | ------------ |
+| `exchange` (Centralized Exchanges) | [View CSV](./src/mainnet/exchange/all.csv)   | [View JSON](./src/mainnet/exchange/all.json)   | May 9, 2022  |
+| `phish-hack` (Phishing/Hacking)    | [View CSV](./src/mainnet/phish-hack/all.csv) | [View JSON](./src/mainnet/phish-hack/all.json) | May 15, 2022 |
 
 More chains coming soon
 
