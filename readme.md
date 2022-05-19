@@ -3,19 +3,70 @@
 </p>
 <p align="center">
   <b>
-    Etherscan Labels
+    EVM Labels
   </b>
   <br>
-  <i>A public dataset of <a href="https://etherscan.io/labelcloud">Etherscan labels</a></i>
+  <i>A public dataset of crypto addresses labeled (<a href="https://etherscan.io/labelcloud">Ethereum and more</a></i>)
   <br>
 </p>
 
 <br/>
 
+## Ethereum
+
 | Label                              | CSV                                  | JSON                                   | Updated      |
 | ---------------------------------- | ------------------------------------ | -------------------------------------- | ------------ |
-| `exchange` (Centralized Exchanges) | [View CSV](./src/cex-addresses.csv)  | [View JSON](./src/cex-addresses.json)  | May 9, 2022  |
-| `phish-hack` (Phishing/Hacking)    | [View CSV](./src/hack-addresses.csv) | [View JSON](./src/hack-addresses.json) | May 15, 2022 |
+| `exchange` (Centralized Exchanges) | [View CSV](./src/exchange/all.csv)   | [View JSON](./lib/exchange/all.json)   | May 9, 2022  |
+| `phish-hack` (Phishing/Hacking)    | [View CSV](./src/phish-hack/all.csv) | [View JSON](./lib/phish-hack/all.json) | May 15, 2022 |
+
+More chains coming soon
+
+<br/>
+
+## Install
+
+```sh
+npm install --save evm-labels
+
+// or with yarn
+yarn add evm-labels
+```
+
+<br/>
+
+## Use
+
+You can install the CSV or JSON manually if you are not a dev. If you want to use this in code:
+
+### Exchange (CEX's)
+
+```js
+import { exchange } from "evm-labels";
+
+// A Coinbase hot wallet
+const COINBASE_ADDRESS = "0x71660c4005ba85c37ccec55d0c4493e66fe775d3";
+exchange.isExchangeAddress(COINBASE_ADDRESS);
+// true
+
+const NULL_ADDRESS = "0x0000000000000000000000000000000000000000";
+exchange.isExchangeAddress(NULL_ADDRESS);
+// false
+```
+
+### Phish/Hack (Addresses that performed phishing or hacks)
+
+```js
+import { phishHack } from "evm-labels";
+
+// A Nexus Mutual Hacker
+const HACKER_ADDRESS = "0x09923e35f19687a524bbca7d42b92b6748534f25";
+phishHack.isPhishHackAddress(HACKER_ADDRESS);
+// true
+
+const NULL_ADDRESS = "0x0000000000000000000000000000000000000000";
+phishHack.isPhishHackAddress(NULL_ADDRESS);
+// false
+```
 
 <br/>
 
@@ -25,15 +76,7 @@ Each label is currently pulled with custom scripts. Partially documented, partia
 
 ### Phish / Hack addresses
 
-1. install [tampermonkey](https://chrome.google.com/webstore/detail/tampermonkey/dhdgffkkebhmkfjojejmpbldmpobfkfo?utm_source=chrome-ntp-icon)
-2. copy userscript to tampermonkey extension
-3. open the URL `https://etherscan.io/accounts/label/phish-hack?subcatid=undefined&size=100&start=0&col=1&order=asc`. only support size = 100
-4. open the chrome dev tool. copy log to `hack-addresses.json`
-
-> Pulled from [Etherscan's "Phish / Hack" label](https://etherscan.io/accounts/label/phish-hack?subcatid=undefined&size=100&start=0&col=1&order=asc) last on May 15, 2022
-
-- **[View the JSON](./src/hack-addresses.json)**
-
-## Install
-
-> TODO
+1. Install [tampermonkey](https://chrome.google.com/webstore/detail/tampermonkey/dhdgffkkebhmkfjojejmpbldmpobfkfo?utm_source=chrome-ntp-icon)
+2. Copy userscript to tampermonkey extension
+3. Open the URL `https://etherscan.io/accounts/label/phish-hack?subcatid=undefined&size=100&start=0&col=1&order=asc`. only support size = 100
+4. Open the chrome dev tools. Copy the outputted csv and json to `src/phish-hack`
