@@ -6,7 +6,7 @@ interface AllData {
   address: string;
   nameTag: string;
 }
-export default {
+export const exchange = {
   all: exchangeAll as AllData[],
   addresses: exchangeAddresses,
   isExchangeAddress,

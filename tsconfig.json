@@ -1,20 +1,23 @@
 {
+  "ts-node": {
+    "compilerOptions": {
+      "module": "commonjs"
+    }
+  },
   "compilerOptions": {
-    "allowSyntheticDefaultImports": true,
+    "target": "ES2015",
+    "module": "ES2020",
     "moduleResolution": "node",
     "strict": true,
-    "noImplicitAny": true,
-    "noUnusedLocals": true,
-    "noUnusedParameters": true,
-    "sourceMap": true,
-    "strictNullChecks": true,
-    "resolveJsonModule": true,
-    "target": "es2017",
-    "module": "es6",
-    "rootDir": "src",
+    "esModuleInterop": true,
+    "forceConsistentCasingInFileNames": true,
+    "outDir": "./lib/esm",
     "declaration": true,
-    "outDir": "dist"
+    "removeComments": true,
+    "skipLibCheck": true,
+    "resolveJsonModule": true
   },
-  "exclude": ["node_modules"],
-  "include": ["src"]
+  "include": ["./src"],
+  "types": ["node"],
+  "exclude": []
 }
