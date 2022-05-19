@@ -1,6 +1,6 @@
 {
   "name": "evm-labels",
-  "version": "0.0.0",
+  "version": "0.0.1",
   "description": "A public dataset of Etherscan labels",
   "license": "MIT",
   "sideEffects": false,
