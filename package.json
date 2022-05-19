@@ -16,7 +16,9 @@
     "prepare": "husky install",
     "compile": "npm-run-all --parallel tsc:esm tsc:cjs",
     "tsc:esm": "tsc -p tsconfig.json",
-    "tsc:cjs": "tsc -p tsconfig-cjs.json"
+    "tsc:cjs": "tsc -p tsconfig-cjs.json",
+    "postversion": "git push --follow-tags",
+    "prepublishOnly": "npm run build"
   },
   "repository": {
     "type": "git",

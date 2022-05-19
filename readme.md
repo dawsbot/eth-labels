@@ -38,16 +38,34 @@ yarn add evm-labels
 
 You can install the CSV or JSON manually if you are not a dev. If you want to use this in code:
 
+### Exchange (CEX's)
+
 ```js
 import { exchange } from "evm-labels";
+
+// A Coinbase hot wallet
+const COINBASE_ADDRESS = "0x71660c4005ba85c37ccec55d0c4493e66fe775d3";
+exchange.isExchangeAddress(COINBASE_ADDRESS);
+// true
 
 const NULL_ADDRESS = "0x0000000000000000000000000000000000000000";
 exchange.isExchangeAddress(NULL_ADDRESS);
 // false
+```
 
-const COINBASE_ADDRESS = "";
-exchange.isExchangeAddress(COINBASE_ADDRESS);
+### Phish/Hack (Addresses that performed phishing or hacks)
+
+```js
+import { phishHack } from "evm-labels";
+
+// A Nexus Mutual Hacker
+const HACKER_ADDRESS = "0x09923e35f19687a524bbca7d42b92b6748534f25";
+phishHack.isPhishHackAddress(HACKER_ADDRESS);
 // true
+
+const NULL_ADDRESS = "0x0000000000000000000000000000000000000000";
+phishHack.isPhishHackAddress(NULL_ADDRESS);
+// false
 ```
 
 <br/>
