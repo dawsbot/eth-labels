@@ -76,11 +76,11 @@ phishHack.isPhishHackAddress(NULL_ADDRESS);
 import { genesis } from "evm-labels";
 
 const GENESIS_ADDRESS = "0x0000000000000000000000000000000000000002";
-genesis.isExchangeAddress(GENESIS_ADDRESS);
+genesis.isGenesisAddress(GENESIS_ADDRESS);
 // true
 
 const OATHER_ADDRESS = "0x09923e35f19687a524bbca7d42b92b6748534f25";
-genesis.isExchangeAddress(OATHER_ADDRESS);
+genesis.isGenesisAddress(OATHER_ADDRESS);
 // false
 ```
 
