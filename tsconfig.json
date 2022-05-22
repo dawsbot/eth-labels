@@ -5,7 +5,7 @@
     }
   },
   "compilerOptions": {
-    "target": "ES2016",
+    "target": "ES2015",
     "module": "ES2020",
     "moduleResolution": "node",
     "strict": true,
