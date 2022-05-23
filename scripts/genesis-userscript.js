@@ -1,35 +1,28 @@
 // ==UserScript==
-// @name         evm-labels
+// @name         genesis
 // @namespace    http://tampermonkey.net/
 // @version      0.1
 // @description  try to take over the world!
 // @author       icepy
-// @match        https://etherscan.io/accounts/label/phish-hack?subcatid=undefined&size=100&start=0&col=1&order=asc
+// @match        https://etherscan.io/accounts/label/genesis?subcatid=1&size=100&start=0&col=1&order=asc
 // @icon         https://www.google.com/s2/favicons?sz=64&domain=etherscan.io
 // @grant        none
 // ==/UserScript==
 
 (function () {
   "use strict";
-  const pathname = window.location.pathname;
-  const key = pathname.split('/').filter(v => v === "phish-hack" || v === "genesis")[0];
 
-  alert(`Starting Etherscan userscripts for tag "${key}"`);
+  alert(`Starting Etherscan userscripts for tag "genesis"`);
 
   let draw = 1;
-  let pages = 1;
-  let label = "genesis";
-  
-  if (key === "phish-hack") {
-    pages = 56;
-    label = "phish-hack";
-  }
-  
+  const pages = 1;
+
   const length = 100;
 
   const payload = {
     labelModel: {
-      label,
+      label: "genesis",
+      subCategoryId: "1",
     },
     dataTableModel: {
       draw,
@@ -64,10 +57,6 @@
     },
   };
 
-  if (key === "genesis"){
-    payload.labelModel.subCategoryId = "1";
-  }
-
   function sleep(ms) {
     return new Promise((resolve) => setTimeout(resolve, ms));
   }
@@ -94,7 +83,7 @@
       const newData = data.map((v) => {
         return {
           address: v.address.replace(/<[^<>]+>/g, "").toLowerCase(),
-          nameTag: v.nameTag
+          nameTag: v.nameTag,
         };
       });
       values.push(newData);
@@ -115,7 +104,7 @@
       .join("\n");
 
     alert(
-      `Finished Etherscan userscripts for tag "${key}". Check console for csv`
+      `Finished Etherscan userscripts for tag "genesis". Check console for csv`
     );
     console.log(JSON.stringify(hacks));
     console.log(JSON.stringify(createCSVData));

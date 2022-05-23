@@ -91,14 +91,13 @@ Each label is currently pulled with custom scripts. Partially documented, partia
 ### Phish / Hack addresses
 
 1. Install [tampermonkey](https://chrome.google.com/webstore/detail/tampermonkey/dhdgffkkebhmkfjojejmpbldmpobfkfo?utm_source=chrome-ntp-icon)
-2. Copy userscript to tampermonkey extension
+2. Copy phishhack-userscript to tampermonkey extension
 3. Open the URL `https://etherscan.io/accounts/label/phish-hack?subcatid=undefined&size=100&start=0&col=1&order=asc`. only support size = 100
 4. Open the chrome dev tools. Copy the outputted csv and json to `src/phish-hack`
 
 ### Genesis addresses
 
 1. Install [tampermonkey](https://chrome.google.com/webstore/detail/tampermonkey/dhdgffkkebhmkfjojejmpbldmpobfkfo?utm_source=chrome-ntp-icon)
-2. Copy userscript to tampermonkey extension
+2. Copy genesis-userscript to tampermonkey extension
 3. Open the URL `https://etherscan.io/accounts/label/genesis?subcatid=1&size=100&start=0&col=1&order=asc`. only support size = 100
-4. Set User Match `https://etherscan.io/accounts/label/genesis?subcatid=1&size=100&start=0&col=1&order=asc` to on the tampermonkey
-5. Open the chrome dev tools. Copy the outputted csv and json to `src/genesis`
+4. Open the chrome dev tools. Copy the outputted csv and json to `src/genesis`
