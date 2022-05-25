@@ -14,12 +14,12 @@
 
 ## Ethereum
 
-| Label                                                                              | CSV                                              | JSON                                               | Updated      |
-| ---------------------------------------------------------------------------------- | ------------------------------------------------ | -------------------------------------------------- | ------------ |
-| [`exchange`](https://etherscan.io/accounts/label/exchange) (Centralized Exchanges) | [View CSV](./src/mainnet/exchange/all.csv)       | [View JSON](./src/mainnet/exchange/all.json)       | May 9, 2022  |
-| [`phish-hack`](https://etherscan.io/accounts/label/phish-hack) (Phishing/Hacking)  | [View CSV](./src/mainnet/phish-hack/all.csv)     | [View JSON](./src/mainnet/phish-hack/all.json)     | May 15, 2022 |
-| [`genesis`](https://etherscan.io/accounts/label/genesis)                           | [View CSV](./src/mainnet/genesis/all.csv)        | [View JSON](./src/mainnet/genesis/all.json)        | May 21, 2022 |
-| [`token-contract`](https://etherscan.io/accounts/label/token-contract)             | [View CSV](./src/mainnet/token-contract/all.csv) | [View JSON](./src/mainnet/token-contract/all.json) | May 25, 2022 |
+| Label                                                                                              | CSV                                              | JSON                                               | Updated      |
+| -------------------------------------------------------------------------------------------------- | ------------------------------------------------ | -------------------------------------------------- | ------------ |
+| [`exchange`](https://etherscan.io/accounts/label/exchange) (Centralized Exchanges)                 | [View CSV](./src/mainnet/exchange/all.csv)       | [View JSON](./src/mainnet/exchange/all.json)       | May 9, 2022  |
+| [`phish-hack`](https://etherscan.io/accounts/label/phish-hack) (Phishing/Hacking)                  | [View CSV](./src/mainnet/phish-hack/all.csv)     | [View JSON](./src/mainnet/phish-hack/all.json)     | May 15, 2022 |
+| [`genesis`](https://etherscan.io/accounts/label/genesis) (Null/black hole addresses)               | [View CSV](./src/mainnet/genesis/all.csv)        | [View JSON](./src/mainnet/genesis/all.json)        | May 21, 2022 |
+| [`token-contract`](https://etherscan.io/accounts/label/token-contract) (ERC-20 and similar tokens) | [View CSV](./src/mainnet/token-contract/all.csv) | [View JSON](./src/mainnet/token-contract/all.json) | May 25, 2022 |
 
 More chains coming soon
 
@@ -30,7 +30,7 @@ More chains coming soon
 ```sh
 npm install --save evm-labels
 
-// or with yarn
+# or with yarn
 yarn add evm-labels
 ```
 
@@ -70,8 +70,6 @@ phishHack.isPhishHackAddress(NULL_ADDRESS);
 // false
 ```
 
-<br/>
-
 ### Genesis
 
 ```js
@@ -100,6 +98,8 @@ tokenContract.isTokenContractAddress(OATHER_ADDRESS);
 // false
 ```
 
+<br/>
+
 ## Contributing
 
 Each label is currently pulled with custom scripts. Partially documented, partially not.
@@ -107,20 +107,20 @@ Each label is currently pulled with custom scripts. Partially documented, partia
 ### Phish / Hack addresses
 
 1. Install [tampermonkey](https://chrome.google.com/webstore/detail/tampermonkey/dhdgffkkebhmkfjojejmpbldmpobfkfo?utm_source=chrome-ntp-icon)
-2. Copy phishhack-userscript to tampermonkey extension
+2. Copy [scripts/phishhack-userscript.js](scripts/phishhack-userscript.js) to tampermonkey extension
 3. Open the URL `https://etherscan.io/accounts/label/phish-hack?subcatid=undefined&size=100&start=0&col=1&order=asc`. only support size = 100
 4. Open the chrome dev tools. Copy the outputted csv and json to `src/phish-hack`
 
 ### Genesis addresses
 
 1. Install [tampermonkey](https://chrome.google.com/webstore/detail/tampermonkey/dhdgffkkebhmkfjojejmpbldmpobfkfo?utm_source=chrome-ntp-icon)
-2. Copy genesis-userscript to tampermonkey extension
+2. Copy [scripts/genesis-userscript.js](scripts/genesis-userscript.js) to tampermonkey extension
 3. Open the URL `https://etherscan.io/accounts/label/genesis?subcatid=1&size=100&start=0&col=1&order=asc`. only support size = 100
 4. Open the chrome dev tools. Copy the outputted csv and json to `src/genesis`
 
 ### Token Contract addresses
 
 1. Install [tampermonkey](https://chrome.google.com/webstore/detail/tampermonkey/dhdgffkkebhmkfjojejmpbldmpobfkfo?utm_source=chrome-ntp-icon)
-2. Copy tokencontract-userscript to tampermonkey extension
+2. Copy [scripts/tokencontract-userscript.js](scripts/tokencontract-userscript.js) to tampermonkey extension
 3. Open the URL `https://etherscan.io/accounts/label/token-contract?subcatid=undefined&size=100&start=0&col=1&order=asc`. only support size = 100
 4. Open the chrome dev tools. Copy the outputted csv and json to `src/token-contract`
