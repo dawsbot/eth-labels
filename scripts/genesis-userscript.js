@@ -107,7 +107,7 @@
       `Finished Etherscan userscripts for tag "genesis". Check console for csv`
     );
     console.log(JSON.stringify(hacks));
-    console.log(JSON.stringify(createCSVData));
+    console.log(createCSVData);
   }
 
   run();
