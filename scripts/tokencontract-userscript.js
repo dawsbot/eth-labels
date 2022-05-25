@@ -1,10 +1,10 @@
 // ==UserScript==
-// @name         phish-hack
+// @name         token-contract
 // @namespace    http://tampermonkey.net/
 // @version      0.1
 // @description  try to take over the world!
 // @author       icepy
-// @match        https://etherscan.io/accounts/label/phish-hack?subcatid=undefined&size=100&start=0&col=1&order=asc
+// @match        https://etherscan.io/accounts/label/token-contract?subcatid=undefined&size=100&start=0&col=1&order=asc
 // @icon         https://www.google.com/s2/favicons?sz=64&domain=etherscan.io
 // @grant        none
 // ==/UserScript==
@@ -12,16 +12,16 @@
 (function () {
   "use strict";
 
-  alert(`Starting Etherscan userscripts for tag "phish-hack"`);
+  alert(`Starting Etherscan userscripts for tag "token-contract"`);
 
   let draw = 1;
-  const pages = 56;
+  const pages = 116;
 
   const length = 100;
 
   const payload = {
     labelModel: {
-      label: "phish-hack",
+      label: "token-contract",
     },
     dataTableModel: {
       draw,
@@ -103,7 +103,7 @@
       .join("\n");
 
     alert(
-      `Finished Etherscan userscripts for tag "phish-hack". Check console for csv`
+      `Finished Etherscan userscripts for tag "token-contract". Check console for csv`
     );
     console.log(JSON.stringify(hacks));
     console.log(createCSVData);
