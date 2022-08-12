@@ -14,12 +14,12 @@
 
 ## Ethereum
 
-| Label                                                                                              | CSV                                              | JSON                                               | Updated      |
-| -------------------------------------------------------------------------------------------------- | ------------------------------------------------ | -------------------------------------------------- | ------------ |
-| [`exchange`](https://etherscan.io/accounts/label/exchange) (Centralized Exchanges)                 | [View CSV](./src/mainnet/exchange/all.csv)       | [View JSON](./src/mainnet/exchange/all.json)       | May 9, 2022  |
-| [`phish-hack`](https://etherscan.io/accounts/label/phish-hack) (Phishing/Hacking)                  | [View CSV](./src/mainnet/phish-hack/all.csv)     | [View JSON](./src/mainnet/phish-hack/all.json)     | May 15, 2022 |
-| [`genesis`](https://etherscan.io/accounts/label/genesis) (Null/black hole addresses)               | [View CSV](./src/mainnet/genesis/all.csv)        | [View JSON](./src/mainnet/genesis/all.json)        | May 21, 2022 |
-| [`token-contract`](https://etherscan.io/accounts/label/token-contract) (ERC-20 and similar tokens) | [View CSV](./src/mainnet/token-contract/all.csv) | [View JSON](./src/mainnet/token-contract/all.json) | May 25, 2022 |
+| Label                                                                                              | CSV                                              | JSON                                               | Updated         |
+| -------------------------------------------------------------------------------------------------- | ------------------------------------------------ | -------------------------------------------------- | --------------- |
+| [`exchange`](https://etherscan.io/accounts/label/exchange) (Centralized Exchanges)                 | [View CSV](./src/mainnet/exchange/all.csv)       | [View JSON](./src/mainnet/exchange/all.json)       | May 9, 2022     |
+| [`phish-hack`](https://etherscan.io/accounts/label/phish-hack) (Phishing/Hacking)                  | [View CSV](./src/mainnet/phish-hack/all.csv)     | [View JSON](./src/mainnet/phish-hack/all.json)     | August 11, 2022 |
+| [`genesis`](https://etherscan.io/accounts/label/genesis) (Null/black hole addresses)               | [View CSV](./src/mainnet/genesis/all.csv)        | [View JSON](./src/mainnet/genesis/all.json)        | May 21, 2022    |
+| [`token-contract`](https://etherscan.io/accounts/label/token-contract) (ERC-20 and similar tokens) | [View CSV](./src/mainnet/token-contract/all.csv) | [View JSON](./src/mainnet/token-contract/all.json) | May 25, 2022    |
 
 More chains coming soon
 
