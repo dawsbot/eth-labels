@@ -50,7 +50,7 @@ async function getSingleLabel(label) {
         console.log('Table Data length:', tableData.length)
 
         // STEP 2: Loop through and extract address:name pair from td element
-        console.time('(getLabel)(getTextAll)')
+        console.time(`(getLabel)(getTextAll)${index}`)
         // Start i from 4 to ignore header row
         for (let i = 4; i + 4 <= tableData.length; i += 4) {
             address = await tableData[i].getText()
@@ -58,7 +58,7 @@ async function getSingleLabel(label) {
             console.log(i, address, nameTag)
             labelJSON[address] = nameTag
         }
-        console.timeEnd('(getLabel)(getTextAll)')
+        console.timeEnd(`(getLabel)(getTextAll)${index}`)
 
         // STEP 3: Break out of loop if addresses found != 100
         if (tableData.length < 400) break
@@ -75,17 +75,17 @@ async function main() {
     try {
 
         driver = await new Builder().forBrowser('chrome').build();
-        var existingLabels = fs.readdirSync('../src/mainnet/all-json/').map(label => label.slice(0, -5))
-        console.log(existingLabels)
         await login()
+        var existingLabels = fs.readdirSync('../src/mainnet/all-json/').map(label => label.slice(0, -5))
+        // Large size: Eth2/gnsos , Bugged: Liqui , NoData: Remaining labels
+        var ignore_list = ['eth2-depositor', 'gnosis-safe-multisig', 'liqui.io', 'education', 'electronics', 'flashbots', 'media', 'music', 'network', 'prediction-market', 'real-estate', 'vpn']
         var labels = await getLabels()
-        for (let i = 0; i < labels.length; i++) {
-            if (existingLabels.includes(labels[i])) {
-                console.log(`Skipping ${labels[i]} as it already exists.`)
-                continue
-            }
-            await getSingleLabel(labels[i])
-        }
+        var filteredLabels = labels.filter(label => !existingLabels.includes(label) && !ignore_list.includes(label))
+        console.log(`Labels to extract ${filteredLabels.length}/${labels.length} after filtering`)
+
+        for (let i = 0; i < filteredLabels.length; i++)
+            await getSingleLabel(filteredLabels[i])
+
     }
     finally {
         await driver.quit();
