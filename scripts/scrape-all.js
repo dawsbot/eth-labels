@@ -39,27 +39,53 @@ async function getLabels() {
 async function getSingleLabel(label) {
     var index = 0
     var labelJSON = {}
+    console.time(`(getLabel)${label}`)
     while (true) {
+        console.log(`${label} : Index ${index}-${index + 100}`)
         await driver.get(`https://etherscan.io/accounts/label/${label}?subcatid=undefined&size=100&start=${index}`)
         // STEP 1: READ TABLE FROM PAGE SOURCE (NOT SURE JS EQUIVALENT OF pandas.read_html)
+        console.time('(getLabel)(FindAllTd)')
+        var tableData = await driver.findElements(By.tagName("td"))
+        console.timeEnd('(getLabel)(FindAllTd)')
+        console.log('Table Data length:', tableData.length)
 
-        // STEP 2: Loop through and extract address:name pair
+        // STEP 2: Loop through and extract address:name pair from td element
+        console.time('(getLabel)(getTextAll)')
+        // Start i from 4 to ignore header row
+        for (let i = 4; i + 4 <= tableData.length; i += 4) {
+            address = await tableData[i].getText()
+            nameTag = await tableData[i + 1].getText()
+            console.log(i, address, nameTag)
+            labelJSON[address] = nameTag
+        }
+        console.timeEnd('(getLabel)(getTextAll)')
 
         // STEP 3: Break out of loop if addresses found != 100
-
+        if (tableData.length < 400) break
         index += 100
     }
+    console.timeEnd(`(getLabel) ${label}`)
+    console.log(`Total pairs retrieved: ${Object.keys(labelJSON).length}`)
 
     // Dump labelJSON / CSV to relevant file location
-    // fs.writeFileSync(`../src/mainnet/{label}.json`,labelJSON)
+    fs.writeFileSync(`../src/mainnet/all-json/${label}.json`, JSON.stringify(labelJSON))
 }
 
 async function main() {
     try {
+
         driver = await new Builder().forBrowser('chrome').build();
+        var existingLabels = fs.readdirSync('../src/mainnet/all-json/').map(label => label.slice(0, -5))
+        console.log(existingLabels)
         await login()
-        //var labels = await getLabels()
-        //for (let i=0;i<labels.length;i++) await getSingleLabel(labels[i])
+        var labels = await getLabels()
+        for (let i = 0; i < labels.length; i++) {
+            if (existingLabels.includes(labels[i])) {
+                console.log(`Skipping ${labels[i]} as it already exists.`)
+                continue
+            }
+            await getSingleLabel(labels[i])
+        }
     }
     finally {
         await driver.quit();
