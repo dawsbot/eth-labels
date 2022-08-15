@@ -10,4 +10,4 @@ fs.readdirSync('../src/mainnet/all-json/').forEach(labelFile => {
     }
 })
 
-fs.writeFileSync(`../src/mainnet/all-json/all.json`, JSON.stringify(combinedLabelsJSON))
+fs.writeFileSync(`../src/mainnet/combined-labels/all.json`, JSON.stringify(combinedLabelsJSON))
