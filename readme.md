@@ -40,21 +40,6 @@ yarn add evm-labels
 
 You can install the CSV or JSON manually if you are not a dev. If you want to use this in code:
 
-### allLabels (Consolidated label data ~966kb)
-
-```js
-import { allLabel } from "evm-labels";
-
-// A Coinbase hot wallet
-const COINBASE_ADDRESS = "0x71660c4005ba85c37ccec55d0c4493e66fe775d3";
-allLabel.hasLabel(COINBASE_ADDRESS,'exchange');
-// true
-
-const NULL_ADDRESS = "0x0000000000000000000000000000000000000000";
-allLabel.hasLabel(NULL_ADDRESS,'exchange');
-// false
-```
-
 ### Exchange (CEX's)
 
 ```js
@@ -125,7 +110,7 @@ Each label is currently pulled with custom scripts. Partially documented, partia
 2. Run scraper located at `scripts` with command `node scrape-all` (ExtractAll) or `node scrape-all labelName`(ExtractSingle) saved at `src/mainnet/all-json`
 4. Login to etherscan. (ENV variables support for quick login, `ETHERSCAN_USER` `ETHERSCAN_PASS`) Eg.`export ETHERSCAN_USER=username123`
 5. Wait for completion ~20-30 minutes
-6. To generate combined-labels after scraping all, run `node combined-all-json` located at `scripts` which will save combinedJson at `src/mainnet/combined-labels`
+6. To generate combined-labels after scraping all, run `node combined-all-json` located at `scripts` which will save as `all.json` at `src/mainnet/all-json`
 
 ### Phish / Hack addresses
 
