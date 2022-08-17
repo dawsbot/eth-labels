@@ -39,12 +39,10 @@
     "prettier": "^2.6.2",
     "rollup": "^2.73.0",
     "tslib": "^2.4.0",
-    "typescript": "^4.6.4"
+    "typescript": "^4.6.4",
+    "selenium-webdriver": "^4.4.0"
   },
   "lint-staged": {
     "*": "prettier -u --write"
-  },
-  "dependencies": {
-    "selenium-webdriver": "^4.4.0"
   }
 }
