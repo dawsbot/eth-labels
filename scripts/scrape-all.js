@@ -54,7 +54,7 @@ async function getSingleLabel(label) {
             // STEP 2: Loop through and extract address:name pair from td element
             console.time(`(getLabel)(getTextAll)${index}`)
             // Start i from 4 to ignore header row
-            for (let i = 4; i + 4 <= tableData.length; i += 4) {
+            for (let i = 0; i + 4 <= tableData.length; i += 4) {
                 address = await tableData[i].getText()
                 nameTag = await tableData[i + 1].getText()
                 console.log(i, address, nameTag)
