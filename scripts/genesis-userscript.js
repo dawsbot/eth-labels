@@ -76,7 +76,7 @@
           method: "POST",
           headers: [["Content-Type", "application/json; charset=utf-8"]],
           body: JSON.stringify(payload),
-        }
+        },
       );
       const json = await response.json();
       const data = json.d.data;
@@ -104,7 +104,7 @@
       .join("\n");
 
     alert(
-      `Finished Etherscan userscripts for tag "genesis". Check console for csv`
+      `Finished Etherscan userscripts for tag "genesis". Check console for csv`,
     );
     console.log(JSON.stringify(hacks));
     console.log(createCSVData);
