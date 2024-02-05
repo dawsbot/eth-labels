@@ -6,7 +6,7 @@ const csvPath = path.join(__dirname, "..", "src/mainnet/exchange/all.csv");
 const jsonOutputPath = path.join(
   __dirname,
   "..",
-  "src/mainnet/exchange/all.json"
+  "src/mainnet/exchange/all.json",
 );
 
 const csvContents = fs.readFileSync(csvPath);

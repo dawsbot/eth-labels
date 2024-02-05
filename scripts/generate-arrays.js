@@ -8,6 +8,6 @@ folders.forEach((folder) => {
   const addressOnly = src.map(({ address }) => address.toLowerCase());
   fs.writeFileSync(
     path.join(srcFolder, "addresses.json"),
-    JSON.stringify({ addresses: addressOnly }, null, 2)
+    JSON.stringify({ addresses: addressOnly }, null, 2),
   );
 });
