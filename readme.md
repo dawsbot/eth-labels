@@ -102,25 +102,6 @@ tokenContract.isTokenContractAddress(OATHER_ADDRESS);
 
 ## Contributing
 
-Each label is currently pulled with custom scripts. Partially documented, partially not.
+The pulling method from Etherscan involves running a TypeScript file locally which performs the browser automation and data pulling + writing to your local filesystem.
 
-### Phish / Hack addresses
-
-1. Install [tampermonkey](https://chrome.google.com/webstore/detail/tampermonkey/dhdgffkkebhmkfjojejmpbldmpobfkfo?utm_source=chrome-ntp-icon)
-2. Copy [scripts/phishhack-userscript.js](scripts/phishhack-userscript.js) to tampermonkey extension
-3. Open the URL `https://etherscan.io/accounts/label/phish-hack?subcatid=undefined&size=100&start=0&col=1&order=asc`. only support size = 100
-4. Open the chrome dev tools. Copy the outputted csv and json to `src/phish-hack`
-
-### Genesis addresses
-
-1. Install [tampermonkey](https://chrome.google.com/webstore/detail/tampermonkey/dhdgffkkebhmkfjojejmpbldmpobfkfo?utm_source=chrome-ntp-icon)
-2. Copy [scripts/genesis-userscript.js](scripts/genesis-userscript.js) to tampermonkey extension
-3. Open the URL `https://etherscan.io/accounts/label/genesis?subcatid=1&size=100&start=0&col=1&order=asc`. only support size = 100
-4. Open the chrome dev tools. Copy the outputted csv and json to `src/genesis`
-
-### Token Contract addresses
-
-1. Install [tampermonkey](https://chrome.google.com/webstore/detail/tampermonkey/dhdgffkkebhmkfjojejmpbldmpobfkfo?utm_source=chrome-ntp-icon)
-2. Copy [scripts/tokencontract-userscript.js](scripts/tokencontract-userscript.js) to tampermonkey extension
-3. Open the URL `https://etherscan.io/accounts/label/token-contract?subcatid=undefined&size=100&start=0&col=1&order=asc`. only support size = 100
-4. Open the chrome dev tools. Copy the outputted csv and json to `src/token-contract`
+The file of concern is `scripts/puppeteer-fetch-all.ts` and can be executed with `npx tsx scripts/puppeteer-fetch-all.ts`
