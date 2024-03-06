@@ -123,6 +123,7 @@ function selectAllAddresses(html: string): AddressesInfo {
   const allLabels = await fetchAllLabels(browser);
   // console.log(allLabels);
   for (const url of allLabels.accounts.slice(0, 3)) {
+    // TODO: Select 100 instead of 25 per-page
     const addressesHtml = await fetchPageHtml(url, browser);
     const allAddresses = selectAllAddresses(addressesHtml);
     console.dir({ url, allAddresses });
