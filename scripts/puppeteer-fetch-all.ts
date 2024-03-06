@@ -1,6 +1,8 @@
 import * as puppeteer from "puppeteer-core";
 import z from "zod";
 import * as cheerio from "cheerio";
+import { hostname } from "os";
+import { parseError } from "./error-parse";
 
 function sleep(ms: number): Promise<void> {
   return new Promise((resolve) => {
@@ -62,8 +64,7 @@ export const fetchAllLabels = async (
 
 function openBrowser(): Promise<puppeteer.Browser> {
   return puppeteer.connect({
-    browserWSEndpoint:
-      "ws://127.0.0.1:9222/devtools/browser/af1a102b-63b1-41f8-bb83-7e4f6d4d1f22",
+    browserWSEndpoint: `ws://${hostname()}:9222/devtools/browser/af1a102b-63b1-41f8-bb83-7e4f6d4d1f22`,
   });
 }
 function closeBrowser(browser: puppeteer.Browser) {
@@ -119,14 +120,18 @@ function selectAllAddresses(html: string): AddressesInfo {
 
 (async () => {
   // await fetchAllLabels();
-  const browser = await openBrowser();
-  const allLabels = await fetchAllLabels(browser);
-  // console.log(allLabels);
-  for (const url of allLabels.accounts.slice(0, 3)) {
-    // TODO: Select 100 instead of 25 per-page
-    const addressesHtml = await fetchPageHtml(url, browser);
-    const allAddresses = selectAllAddresses(addressesHtml);
-    console.dir({ url, allAddresses });
+  try {
+    const browser = await openBrowser();
+    const allLabels = await fetchAllLabels(browser);
+    // console.log(allLabels);
+    for (const url of allLabels.accounts.slice(0, 3)) {
+      // TODO: Select 100 instead of 25 per-page
+      const addressesHtml = await fetchPageHtml(url, browser);
+      const allAddresses = selectAllAddresses(addressesHtml);
+      console.dir({ url, allAddresses });
+    }
+    await closeBrowser(browser);
+  } catch (error) {
+    parseError(error);
   }
-  await closeBrowser(browser);
 })();
