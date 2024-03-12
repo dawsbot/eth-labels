@@ -1,0 +1,22 @@
+[
+  {
+    "address": "0x637e110a6c61cfd3a8838ec25a2dbf75a0f34b30",
+    "nameTag": "Syscoin: Battle Manager"
+  },
+  {
+    "address": "0x8230de6a088b455b5b83a629b0843746ed1ac5b6",
+    "nameTag": "Syscoin: Claim Manager"
+  },
+  {
+    "address": "0x8d827cf5515718a79be1dc38152873bc0c1ca263",
+    "nameTag": "Syscoin: Deployer"
+  },
+  {
+    "address": "0x6100c8e90c4295de37f2c1114b03735193484cfd",
+    "nameTag": "Syscoin: ERC20 Manager"
+  },
+  {
+    "address": "0xd1e95176a81671c7aebe68135ba63073aa3b642a",
+    "nameTag": "Syscoin: Superblocks"
+  }
+]

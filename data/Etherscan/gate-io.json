@@ -1,0 +1,30 @@
+[
+  {
+    "address": "0x0d0707963952f2fba59dd06f2b425ace40b492fe",
+    "nameTag": "Gate.io"
+  },
+  {
+    "address": "0x7793cd85c11a924478d358d49b05b37e91b5810f",
+    "nameTag": "Gate.io 2"
+  },
+  {
+    "address": "0x1c4b70a3968436b9a0a9cf5205c787eb81bb558c",
+    "nameTag": "Gate.io 3"
+  },
+  {
+    "address": "0x234ee9e35f8e9749a002fc42970d570db716453b",
+    "nameTag": "Gate.io 4"
+  },
+  {
+    "address": "0xc882b111a75c0c657fc507c04fbfcd2cc984f071",
+    "nameTag": "Gate.io 5"
+  },
+  {
+    "address": "0xd793281182a0e3e023116004778f45c29fc14f19",
+    "nameTag": "Gate.io: Contract"
+  },
+  {
+    "address": "0x6596da8b65995d5feacff8c2936f0b7a2051b0d0",
+    "nameTag": "Gate.io: Deposit Funder"
+  }
+]

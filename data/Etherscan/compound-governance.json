@@ -1,0 +1,122 @@
+[
+  {
+    "address": "0xb0325dbe7fa891436e83a094f9f12848c78e449b",
+    "nameTag": ""
+  },
+  {
+    "address": "0x5d8908afee1df9f7f0830105f8be828f97ce9e68",
+    "nameTag": "Argent"
+  },
+  {
+    "address": "0xbe1f4dc51e89cf3f72cc4039bb0104eb96f85733",
+    "nameTag": "Compound Voting: 1inch.exchange"
+  },
+  {
+    "address": "0x8e97201ad6ad1dbaea6d23d86540fda033932bff",
+    "nameTag": "Compound Voting: 1kx"
+  },
+  {
+    "address": "0xf25f26a42adcb153b1966a4bf5df6d0c9e27197f",
+    "nameTag": "Compound Voting: a16z"
+  },
+  {
+    "address": "0x9695cfaa368718dd6790a6f57b633d83f565893e",
+    "nameTag": "Compound Voting: Alameda Research"
+  },
+  {
+    "address": "0x54a37d93e57c5da659f508069cf65a381b61e189",
+    "nameTag": "Compound Voting: blck"
+  },
+  {
+    "address": "0xa8c6f6e2dfbdededd157a5363d38d7d074d83985",
+    "nameTag": "Compound Voting: ConsenSys"
+  },
+  {
+    "address": "0xcfae402f6ced5a476554235b5026c005c85c135a",
+    "nameTag": "Compound Voting: DeFi Rate"
+  },
+  {
+    "address": "0x50495480cce225c8476e90466d8615a9e6a5e004",
+    "nameTag": "Compound Voting: Dragonfly Capital"
+  },
+  {
+    "address": "0x8169522c2c57883e8ef80c498aab7820da539806",
+    "nameTag": "Compound Voting: Geoffrey Hayes"
+  },
+  {
+    "address": "0xd061ba96195923e49e619bc1c758568fe47a1fb1",
+    "nameTag": "Compound Voting: IDEO CoLab Ventures"
+  },
+  {
+    "address": "0x8703028934b24b47496ad84afd635ea7938487be",
+    "nameTag": "Compound Voting: Jacob"
+  },
+  {
+    "address": "0x879d430d8eba1de4cf1bad4e20da5e559c030f11",
+    "nameTag": "Compound Voting: Jayson Hobby"
+  },
+  {
+    "address": "0x5b97680e165b4dbf5c45f4ff4241e85f418c66c2",
+    "nameTag": "Compound Voting: Kain Synthetix"
+  },
+  {
+    "address": "0x7f89077b122afaaf6ab50aa12e9cb46bb9a058c4",
+    "nameTag": "Compound Voting: Max Wolff"
+  },
+  {
+    "address": "0x8fe1a0b56c62f79a7bd8b45fe08b0e03c4af572d",
+    "nameTag": "Compound Voting: New Form Capital"
+  },
+  {
+    "address": "0xe5b5cf0e5d044c3e984b910dbc89b19186d24b03",
+    "nameTag": "Compound Voting: Pantera Capital"
+  },
+  {
+    "address": "0xa1b61405791170833070c0ea61ed28728a840241",
+    "nameTag": "Compound Voting: Paradigm"
+  },
+  {
+    "address": "0xe5a52921901c58971ba60725651dc28bde98beb9",
+    "nameTag": "Compound Voting: ParaFi Capital"
+  },
+  {
+    "address": "0xed409c9ff60f3020abf9012bcd45fc294f5608ff",
+    "nameTag": "Compound Voting: Polychain Capital"
+  },
+  {
+    "address": "0xac5720d6ee2d7872b88914c9c5fa9bf38e72faf6",
+    "nameTag": "Compound Voting: Robert Leshner"
+  },
+  {
+    "address": "0xaf7eaf66b5f1fa23158784fb4c17dba90727afad",
+    "nameTag": "Compound Voting: Zerion"
+  },
+  {
+    "address": "0x7e4a8391c728fed9069b2962699ab416628b19fa",
+    "nameTag": "Dharma: Deployer"
+  },
+  {
+    "address": "0x6626593c237f530d15ae9980a95ef938ac15c35c",
+    "nameTag": "Gauntlet Network"
+  },
+  {
+    "address": "0x1d29756e8f7b091ce6c11a35980de79c7eda5d1f",
+    "nameTag": "InstaDApp: Wallet"
+  },
+  {
+    "address": "0x2fd6181541bebe30d17cf3a5d9f40ebcecbdba43",
+    "nameTag": "Kyber: MultiSig 2"
+  },
+  {
+    "address": "0x87887cf0e37d937f989ab76b99e4f4682da044c4",
+    "nameTag": "Opyn: Proxy"
+  },
+  {
+    "address": "0x98ea2d8438f70ce876c2db26fc494cfed10b4cd7",
+    "nameTag": "PoolTogether: MultiSig"
+  },
+  {
+    "address": "0x2b384212edc04ae8bb41738d05ba20e33277bf33",
+    "nameTag": "Sybil Delegate: Arr00"
+  }
+]

@@ -1,0 +1,54 @@
+[
+  {
+    "address": "0xd24400ae8bfebb18ca49be86258a3c749cf46853",
+    "nameTag": "Gemini"
+  },
+  {
+    "address": "0x6fc82a5fe25a5cdb58bc74600a40a69c065263f8",
+    "nameTag": "Gemini 2"
+  },
+  {
+    "address": "0x61edcdf5bb737adffe5043706e7c5bb1f1a56eea",
+    "nameTag": "Gemini 3"
+  },
+  {
+    "address": "0x5f65f7b609678448494de4c87521cdf6cef1e932",
+    "nameTag": "Gemini 4"
+  },
+  {
+    "address": "0xb302bfe9c246c6e150af70b1caaa5e3df60dac05",
+    "nameTag": "Gemini 5"
+  },
+  {
+    "address": "0x8d6f396d210d385033b348bcae9e4f9ea4e045bd",
+    "nameTag": "Gemini 6"
+  },
+  {
+    "address": "0xd69b0089d9ca950640f5dc9931a41a5965f00303",
+    "nameTag": "Gemini 7"
+  },
+  {
+    "address": "0x07ee55aa48bb72dcc6e9d78256648910de513eca",
+    "nameTag": "Gemini: Contract 1"
+  },
+  {
+    "address": "0xdd51f01d9fc0fd084c1a4737bbfa5becb6ced9bc",
+    "nameTag": "Gemini: Deployer 1"
+  },
+  {
+    "address": "0x4c2f150fc90fed3d8281114c2349f1906cde5346",
+    "nameTag": "Gemini: Deployer 2"
+  },
+  {
+    "address": "0x4b7ee45f30767f36f06f79b32bf1fca6f726deda",
+    "nameTag": "Gemini: eFIL Token"
+  },
+  {
+    "address": "0x056fd409e1d7a124bd7017459dfea2f387b6d5cd",
+    "nameTag": "Gemini: GUSD Token"
+  },
+  {
+    "address": "0xdec042a90de005b22754e94a8a979c4b8c67fde5",
+    "nameTag": "Gemini: Old Contract 1"
+  }
+]

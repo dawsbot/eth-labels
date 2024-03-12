@@ -1,0 +1,46 @@
+[
+  {
+    "address": "0x078bebc744b819657e1927bf41ab8c74cbbf912d",
+    "nameTag": "Aragon: ANT Migrator"
+  },
+  {
+    "address": "0x80fbb6122b8e023988e640db1ae348a10a7933e8",
+    "nameTag": "Aragon: ANT Redemption Contract"
+  },
+  {
+    "address": "0xc4e15973e6ff2a35cc804c2cf9d2a1b817a8b40f",
+    "nameTag": "Badger: ibBTC Token"
+  },
+  {
+    "address": "0xb618f903ad1d00d6f7b92f5b0954dcdc056fc533",
+    "nameTag": "Balancer: DAO"
+  },
+  {
+    "address": "0xa042c9143c8758d2ad5a3fcc08dec39f6964453e",
+    "nameTag": "FriendsFingers DAO Platform"
+  },
+  {
+    "address": "0x49bdd8854481005bba4acebabf6e06cd5f6312e9",
+    "nameTag": "Kyber: DAO"
+  },
+  {
+    "address": "0x1fd169a4f5c59acf79d0fd5d91d1201ef1bce9f1",
+    "nameTag": "MolochDAO: Moloch Treasury"
+  },
+  {
+    "address": "0x519f9662798c2e07fbd5b30c1445602320c5cf5b",
+    "nameTag": "MolochDAO: Moloch Treasury V3"
+  },
+  {
+    "address": "0x1722800c0f1bfdf916ef948ef7790a861e90d558",
+    "nameTag": "multiDAO"
+  },
+  {
+    "address": "0xda490e9acc7f7418293cfea1ff2085c60d573626",
+    "nameTag": "necDAO"
+  },
+  {
+    "address": "0x0eebf2126b67924a2785687aaf64abfa4b2ea76f",
+    "nameTag": "The Culture DAO: MultiSig"
+  }
+]

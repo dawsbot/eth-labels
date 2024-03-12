@@ -1,0 +1,26 @@
+[
+  {
+    "address": "0x121a7b80d7e73dbe928f783d4009074063bf659d",
+    "nameTag": "Bancor: Converter 213"
+  },
+  {
+    "address": "0xa9ce8204c3a882c412dab5cd4c114674e4498762",
+    "nameTag": "Streamity: Ecosystem"
+  },
+  {
+    "address": "0x0e22734e078d6e399bcee40a549db591c4ea46cb",
+    "nameTag": "Streamity: STM Token"
+  },
+  {
+    "address": "0x46c635b772115ad2c3df7abe0d35eb908abad4b8",
+    "nameTag": "Streamity: STM Wallet App"
+  },
+  {
+    "address": "0x9bf25700727d10a857099d1033ce2cc493c3b61a",
+    "nameTag": "Streamity: StreamDesk"
+  },
+  {
+    "address": "0xb4f584ecbdce12cca1259e5faf4d9cfb9fc4045f",
+    "nameTag": "Uniswap V2: STM"
+  }
+]

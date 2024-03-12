@@ -1,0 +1,2010 @@
+[
+  {
+    "address": "0xeb4c5ab9b36437f969888be99af42fc9087005a5",
+    "nameTag": "AMB Flashbot Helper"
+  },
+  {
+    "address": "0x9799b475dec92bd99bbdd943013325c36157f383",
+    "nameTag": "Fund: 0x979...383"
+  },
+  {
+    "address": "0x4b8c0a0df725750aeb948816b4dffecd32ee9008",
+    "nameTag": "Maestro: Router"
+  },
+  {
+    "address": "0x00000007f7a9056880d057f611e80c419f9b20c8",
+    "nameTag": "MEV Bot: 0x00...0c8"
+  },
+  {
+    "address": "0x000000000005af2ddc1a93a03e9b7014064d3b8d",
+    "nameTag": "MEV Bot: 0x00...b8D"
+  },
+  {
+    "address": "0x0000009076d16e15bb69d35f4717e9d4268efc7b",
+    "nameTag": "MEV Bot: 0x00...c7B"
+  },
+  {
+    "address": "0x0000000000036414940324055c43e75f56b7d016",
+    "nameTag": "MEV Bot: 0x000...016"
+  },
+  {
+    "address": "0x0000000009cb38fb8a1bbb8ada23c8261118f019",
+    "nameTag": "MEV Bot: 0x000...019"
+  },
+  {
+    "address": "0x000000000085359dbc0eb45911e5f3f7a532a07e",
+    "nameTag": "MEV Bot: 0x000...07E"
+  },
+  {
+    "address": "0x000000000000084e91743124a982076c59f10084",
+    "nameTag": "MEV Bot: 0x000...084"
+  },
+  {
+    "address": "0x000000000a08a7ca00e4239dd97d8542c51b9086",
+    "nameTag": "MEV Bot: 0x000...086"
+  },
+  {
+    "address": "0x0000007c68390193776e8b44df3b698d311070b9",
+    "nameTag": "MEV Bot: 0x000...0B9"
+  },
+  {
+    "address": "0x00000000000123685885532dcb685c442dc83126",
+    "nameTag": "MEV Bot: 0x000...126"
+  },
+  {
+    "address": "0x0000000023191c8382251c0a1ae2f4db983d414c",
+    "nameTag": "MEV Bot: 0x000...14C"
+  },
+  {
+    "address": "0x00000000003eea204b86b877632d9ee88b179150",
+    "nameTag": "MEV Bot: 0x000...150"
+  },
+  {
+    "address": "0x000000004b614af95d1bb7c236a3aa800b722173",
+    "nameTag": "MEV Bot: 0x000...173"
+  },
+  {
+    "address": "0x0000000000d41c96294ccdac8612bdfe29c641af",
+    "nameTag": "MEV Bot: 0x000...1af"
+  },
+  {
+    "address": "0x000000d40b595b94918a28b27d1e2c66f43a51d3",
+    "nameTag": "MEV Bot: 0x000...1d3"
+  },
+  {
+    "address": "0x0000000084f794716fa5485d1424b8bd562291f9",
+    "nameTag": "MEV Bot: 0x000...1f9"
+  },
+  {
+    "address": "0x00000000000c66b8cb2836c3620f88a9c812d208",
+    "nameTag": "MEV Bot: 0x000...208"
+  },
+  {
+    "address": "0x0000000000b92ac90d898eba87fa5f2483f32234",
+    "nameTag": "MEV Bot: 0x000...234"
+  },
+  {
+    "address": "0x00000000000a47b1298f18cf67de547bbe0d723f",
+    "nameTag": "MEV Bot: 0x000...23F"
+  },
+  {
+    "address": "0x0000000000a84d1a9b0063a910315c7ffa9cd248",
+    "nameTag": "MEV Bot: 0x000...248"
+  },
+  {
+    "address": "0x0000004f2f05a8223b89edb700848d70970742bf",
+    "nameTag": "MEV Bot: 0x000...2bF"
+  },
+  {
+    "address": "0x000000000dfde7deaf24138722987c9a6991e2d4",
+    "nameTag": "MEV Bot: 0x000...2D4"
+  },
+  {
+    "address": "0x00000000f6e788341c1acb3c2d49fa9263b8a2f7",
+    "nameTag": "MEV Bot: 0x000...2F7"
+  },
+  {
+    "address": "0x0000000050fd1220ecf21d84687ebad194fd537f",
+    "nameTag": "MEV Bot: 0x000...37F"
+  },
+  {
+    "address": "0x000000000b8a22fdae0233faa785df7974ff0391",
+    "nameTag": "MEV Bot: 0x000...391"
+  },
+  {
+    "address": "0x0000000000e43e0c383403dd18066ff60d5003b3",
+    "nameTag": "MEV Bot: 0x000...3b3"
+  },
+  {
+    "address": "0x0000000000710a9c1f6db5f504be77ffb3b583ec",
+    "nameTag": "MEV Bot: 0x000...3ec"
+  },
+  {
+    "address": "0x000000004b5ad44f70781462233d177d32d993f1",
+    "nameTag": "MEV Bot: 0x000...3f1"
+  },
+  {
+    "address": "0x000000d2fde48b949e34473ba3244763c4c0e43b",
+    "nameTag": "MEV Bot: 0x000...43b"
+  },
+  {
+    "address": "0x0000000000208d4805eb97db796e74b48547445d",
+    "nameTag": "MEV Bot: 0x000...45d"
+  },
+  {
+    "address": "0x000000000000660def84e69995117c0176ba446e",
+    "nameTag": "MEV Bot: 0x000...46E"
+  },
+  {
+    "address": "0x00000000000062f06c7007906b2a4034fa5c4818",
+    "nameTag": "MEV Bot: 0x000...4818"
+  },
+  {
+    "address": "0x000000000003c42172c0bdd69d6afb6b0bf4b488",
+    "nameTag": "MEV Bot: 0x000...488"
+  },
+  {
+    "address": "0x000000000025d4386f7fb58984cbe110aee3a4c4",
+    "nameTag": "MEV Bot: 0x000...4c4"
+  },
+  {
+    "address": "0x0000000096b674bb0ea9c74c28be782bb48724de",
+    "nameTag": "MEV Bot: 0x000...4de"
+  },
+  {
+    "address": "0x000000000000f0bc41c73af48f022f8c27b5350e",
+    "nameTag": "MEV Bot: 0x000...50e"
+  },
+  {
+    "address": "0x0000000000cbba74c365869ae50225f5596ad59c",
+    "nameTag": "MEV Bot: 0x000...59c"
+  },
+  {
+    "address": "0x00000000b7ca7e12dcc72290d1fe47b2ef14c607",
+    "nameTag": "MEV Bot: 0x000...607"
+  },
+  {
+    "address": "0x00000000726422a6fecb4759b44d47e48cf746aa",
+    "nameTag": "MEV Bot: 0x000...6aa"
+  },
+  {
+    "address": "0x000000dce08f643423c0bec02b0799e37f076781",
+    "nameTag": "MEV Bot: 0x000...781"
+  },
+  {
+    "address": "0x00000000000080c886232e9b7ebbfb942b5987aa",
+    "nameTag": "MEV Bot: 0x000...7AA"
+  },
+  {
+    "address": "0x000000005736775feb0c8568e7dee77222a26880",
+    "nameTag": "MEV Bot: 0x000...880"
+  },
+  {
+    "address": "0x00000000174b0ba12b89da994258020837ad8818",
+    "nameTag": "MEV Bot: 0x000...8818"
+  },
+  {
+    "address": "0x00000000a991c429ee2ec6df19d40fe0c80088b8",
+    "nameTag": "MEV Bot: 0x000...8B8"
+  },
+  {
+    "address": "0x00000000c2cf7648c169b25ef1c217864bfa38cc",
+    "nameTag": "MEV Bot: 0x000...8cC"
+  },
+  {
+    "address": "0x0000000000d9455cc7eb92d06e00582a982f68fe",
+    "nameTag": "MEV Bot: 0x000...8fe"
+  },
+  {
+    "address": "0x00000000002d383933aa1609f11d0afa4d5ea90a",
+    "nameTag": "MEV Bot: 0x000...90A"
+  },
+  {
+    "address": "0x000000000035b5e5ad9019092c665357240f594e",
+    "nameTag": "MEV Bot: 0x000...94e"
+  },
+  {
+    "address": "0x00000000116579a5ba59e2f22e77ede26809b970",
+    "nameTag": "MEV Bot: 0x000...970"
+  },
+  {
+    "address": "0x0000000099cb7fc48a935bceb9f05bbae54e8987",
+    "nameTag": "MEV Bot: 0x000...987"
+  },
+  {
+    "address": "0x00000000005b84b558de194b242f92b11f1469ca",
+    "nameTag": "MEV Bot: 0x000...9CA"
+  },
+  {
+    "address": "0x0000000089341e263b85d84a0eea39f47c37a9d2",
+    "nameTag": "MEV Bot: 0x000...9d2"
+  },
+  {
+    "address": "0x00000000000f45b418291a68f2646d0b1a303a1c",
+    "nameTag": "MEV Bot: 0x000...A1C"
+  },
+  {
+    "address": "0x00000000003b3cc22af3ae1eac0440bcee416b40",
+    "nameTag": "MEV Bot: 0x000...B40"
+  },
+  {
+    "address": "0x0000000f9c4e004706afdca3b2f0c8f08838eb58",
+    "nameTag": "MEV Bot: 0x000...b58"
+  },
+  {
+    "address": "0x00000000500e2fece27a7600435d0c48d64e0c00",
+    "nameTag": "MEV Bot: 0x000...C00"
+  },
+  {
+    "address": "0x00000000cce816c69bfb52ffa225cb1f3ee04c71",
+    "nameTag": "MEV Bot: 0x000...c71"
+  },
+  {
+    "address": "0x0000000000e4cc48a5427ca0b9ed03b5bc501c97",
+    "nameTag": "MEV Bot: 0x000...C97"
+  },
+  {
+    "address": "0x0000000dc0cc877153e7e93870ad2a3382e99ca0",
+    "nameTag": "MEV Bot: 0x000...ca0"
+  },
+  {
+    "address": "0x000000000042c71e9b847fb1533270360a7b2cbf",
+    "nameTag": "MEV Bot: 0x000...Cbf"
+  },
+  {
+    "address": "0x00000000000747d525e898424e8774f7eb317d00",
+    "nameTag": "MEV Bot: 0x000...d00"
+  },
+  {
+    "address": "0x0000000765306855601b70d930ac579b23a18d44",
+    "nameTag": "MEV Bot: 0x000...D44"
+  },
+  {
+    "address": "0x0000000000005117dd3a72e64a705198753fdd54",
+    "nameTag": "MEV Bot: 0x000...d54"
+  },
+  {
+    "address": "0x000000a60073b3ab5258ec72f46c002ad912ed76",
+    "nameTag": "MEV Bot: 0x000...d76"
+  },
+  {
+    "address": "0x000000090629d24e9ebbd5bb2a714f21ecd6ed9a",
+    "nameTag": "MEV Bot: 0x000...d9a"
+  },
+  {
+    "address": "0x00000000009c7f96284472465e1b5c44e8cfcda1",
+    "nameTag": "MEV Bot: 0x000...DA1"
+  },
+  {
+    "address": "0x00000000000e1d0dabf7b7c7b68866fc940d0db8",
+    "nameTag": "MEV Bot: 0x000...Db8"
+  },
+  {
+    "address": "0x000000e1fddf4fe15db5f23ae3ee83c6a11e8dd1",
+    "nameTag": "MEV Bot: 0x000...Dd1"
+  },
+  {
+    "address": "0x0000000000590b74eb97457bf7b3ff6d63c6fde2",
+    "nameTag": "MEV Bot: 0x000...de2"
+  },
+  {
+    "address": "0x00000000032962b51589768828ad878876299e14",
+    "nameTag": "MEV Bot: 0x000...e14"
+  },
+  {
+    "address": "0x00000000008c4fb1c916e0c88fd4cc402d935e7d",
+    "nameTag": "MEV Bot: 0x000...e7D"
+  },
+  {
+    "address": "0x000000000000006f6502b7f2bbac8c30a3f67e9a",
+    "nameTag": "MEV Bot: 0x000...E9a"
+  },
+  {
+    "address": "0x0000000000000eb4ec62758aae93400b3e5f7f18",
+    "nameTag": "MEV Bot: 0x000...f18"
+  },
+  {
+    "address": "0x0000000000007f150bd6f54c40a34d7c3d5e9f56",
+    "nameTag": "MEV Bot: 0x000...f56"
+  },
+  {
+    "address": "0x000000000755567f4924bf483bdf5a53ebc8ef64",
+    "nameTag": "MEV Bot: 0x000...f64"
+  },
+  {
+    "address": "0x0000000000a18ba8ff557c143927bd3b2593bf7a",
+    "nameTag": "MEV Bot: 0x000...F7A"
+  },
+  {
+    "address": "0x0000000000126f0ba49fbb414edc7041d1166ff4",
+    "nameTag": "MEV Bot: 0x000...FF4"
+  },
+  {
+    "address": "0x00000081c57cbc967248bea482c417207e84cffb",
+    "nameTag": "MEV Bot: 0x000...ffb"
+  },
+  {
+    "address": "0x000000000017ccc71033cfacf601232002591831",
+    "nameTag": "MEV Bot: 0x0000...831"
+  },
+  {
+    "address": "0x0000e0ca771e21bd00057f54a68c30d400000000",
+    "nameTag": "MEV Bot: 0x0000E0C...000"
+  },
+  {
+    "address": "0x0000008682fa8c3aa14b11894e90e3dcbbff715b",
+    "nameTag": "MEV Bot: 0x000…15b"
+  },
+  {
+    "address": "0x000000000055217587f821917562867172942189",
+    "nameTag": "MEV Bot: 0x000…189"
+  },
+  {
+    "address": "0x00000000000a6d473a66abe3dbaab9e1388223bd",
+    "nameTag": "MEV Bot: 0x000…3bd"
+  },
+  {
+    "address": "0x00000000000006b2ab6decbc6fc7ec6bd2fbc720",
+    "nameTag": "MEV Bot: 0x000…720"
+  },
+  {
+    "address": "0x00000000003d71e9fc20fdeb46fb86afbbee4772",
+    "nameTag": "MEV Bot: 0x000…772"
+  },
+  {
+    "address": "0x00000000de337b4fff5fcbe4df67a85d0bad5d16",
+    "nameTag": "MEV Bot: 0x000…d16"
+  },
+  {
+    "address": "0x000000000003750173a03a9055296acc36c6afb7",
+    "nameTag": "MEV Bot: 0x000…fb7"
+  },
+  {
+    "address": "0x0055ae46f700bcc53b1b00483d64000d47007200",
+    "nameTag": "MEV Bot: 0x005...200"
+  },
+  {
+    "address": "0x0074fb0000177e3a00534a0000f8f17300caf0e7",
+    "nameTag": "MEV Bot: 0x007…0e7"
+  },
+  {
+    "address": "0x00af19b40000546f0000ca91acdb0048c1002e0a",
+    "nameTag": "MEV Bot: 0x00a…e0a"
+  },
+  {
+    "address": "0x00b99605162bf57ccf97086c67411bab443e0616",
+    "nameTag": "MEV Bot: 0x00b…616"
+  },
+  {
+    "address": "0x00f3f73f07d9e9e797b82b00536e010018000000",
+    "nameTag": "MEV Bot: 0x00f3f...000"
+  },
+  {
+    "address": "0x018d5c4783f5317815f6e8168942a12adde3cd3c",
+    "nameTag": "MEV Bot: 0x018...D3C"
+  },
+  {
+    "address": "0x01a1527a5127f721a4c9ff955c93f6faef2f6deb",
+    "nameTag": "MEV Bot: 0x01a...deb"
+  },
+  {
+    "address": "0x01ba6660c1bf555cc1455a961dc8b4e5a95b0159",
+    "nameTag": "MEV Bot: 0x01b...159"
+  },
+  {
+    "address": "0x030f11dcba56b8038c3c94f056ea68dc7668630e",
+    "nameTag": "MEV Bot: 0x030...30E"
+  },
+  {
+    "address": "0x030d1cad9f917cab7356b6a266f8ea0b31093ae1",
+    "nameTag": "MEV Bot: 0x030...AE1"
+  },
+  {
+    "address": "0x0352086e5ce73fc2ec4c41fef56361f7def6ea91",
+    "nameTag": "MEV Bot: 0x035...a91"
+  },
+  {
+    "address": "0x03c609c569993913aab877a94c8e58aec13e67cc",
+    "nameTag": "MEV Bot: 0x03c...7cc"
+  },
+  {
+    "address": "0x04eb85ad427e7e6b3ffb67e049872210fd3fbae9",
+    "nameTag": "MEV Bot: 0x04e...aE9"
+  },
+  {
+    "address": "0x053f661abf26d086194540f20f312e0d90a61302",
+    "nameTag": "MEV Bot: 0x053...302"
+  },
+  {
+    "address": "0x05e31b564e800d7da3389b1fb37835fc4bdb6fbf",
+    "nameTag": "MEV Bot: 0x05e...FBf"
+  },
+  {
+    "address": "0x063256feb7d31177d4a65f5b7e1d70fde85bc99d",
+    "nameTag": "MEV Bot: 0x06...99D"
+  },
+  {
+    "address": "0x07197a25bf7297c2c41dd09a79160d05b6232bcf",
+    "nameTag": "MEV Bot: 0x071...BcF"
+  },
+  {
+    "address": "0x07489b607c34a12a9b90f4f283b9d46720258644",
+    "nameTag": "MEV Bot: 0x074...644"
+  },
+  {
+    "address": "0x07bae765074790b76c791834ab873be27493c163",
+    "nameTag": "MEV Bot: 0x07b...163"
+  },
+  {
+    "address": "0x09d5dad5a97e0431b974b211fc0082efb172cab7",
+    "nameTag": "MEV Bot: 0x09...AB7"
+  },
+  {
+    "address": "0x098fdb32ace942edc1355c0a78af2332b1ec6fef",
+    "nameTag": "MEV Bot: 0x098...Fef"
+  },
+  {
+    "address": "0x09850f8f1338a0b8c7d94dcc361e965b78d0175a",
+    "nameTag": "MEV Bot: 0x098…75a"
+  },
+  {
+    "address": "0x0a482d6499a3ea0d01bc60e42e6f1774ca7faf60",
+    "nameTag": "MEV Bot: 0x0A4...f60"
+  },
+  {
+    "address": "0x0b22bf9516db5bcd0070b9f27ce22de9b31d99f6",
+    "nameTag": "MEV Bot: 0x0B2...9f6"
+  },
+  {
+    "address": "0x0bd30c34e4524df28d368d00c2feb534696d0bb7",
+    "nameTag": "MEV Bot: 0x0bd...bb7"
+  },
+  {
+    "address": "0x0bff3f4dd1adf7355353079d99a836443a49811b",
+    "nameTag": "MEV Bot: 0x0bf...11B"
+  },
+  {
+    "address": "0x0c3de458b51a11da7d4616f42f66c861e3859d3e",
+    "nameTag": "MEV Bot: 0x0c3...D3E"
+  },
+  {
+    "address": "0x0e0b0000834dcefa2c00003d239ce6340c2c9866",
+    "nameTag": "MEV Bot: 0x0e0…866"
+  },
+  {
+    "address": "0x0eae044f00b0af300500f090ea00027097d03000",
+    "nameTag": "MEV Bot: 0x0ea...000"
+  },
+  {
+    "address": "0x0ef8b4525c69bfa7bdece3ab09f95bbf0944b783",
+    "nameTag": "MEV Bot: 0x0ef...783"
+  },
+  {
+    "address": "0x12b6eba545e4a9666cb7a77d1da25df9ffb172f3",
+    "nameTag": "MEV Bot: 0x12b...2f3"
+  },
+  {
+    "address": "0x1316abcc2ab4ce7e937cd27707c54f6f6688a91b",
+    "nameTag": "MEV Bot: 0x131...91b"
+  },
+  {
+    "address": "0x136f79961b7ab2a91104ec892c288e225e100214",
+    "nameTag": "MEV Bot: 0x136...214"
+  },
+  {
+    "address": "0x13c6f604be370863a1eab3b2059dea1baaa071da",
+    "nameTag": "MEV Bot: 0x13c…1da"
+  },
+  {
+    "address": "0x14fcc715dfa45f9a2790e85d7f54cd06b5f61b07",
+    "nameTag": "MEV Bot: 0x14f...B07"
+  },
+  {
+    "address": "0x160f5f00288e9e1cc8655b327e081566e580a71d",
+    "nameTag": "MEV Bot: 0x16...71D"
+  },
+  {
+    "address": "0x195acb4ef662cbae48db6a26c88b603c65090803",
+    "nameTag": "MEV Bot: 0x195...803"
+  },
+  {
+    "address": "0x19f241a4fa79c0be2a592bb824d2d490437c5dc9",
+    "nameTag": "MEV Bot: 0x19f…dc9"
+  },
+  {
+    "address": "0x1a6155ff9305f6e8a83f40736029b50078c187f0",
+    "nameTag": "MEV Bot: 0x1a6…7f0"
+  },
+  {
+    "address": "0x1bea639199d4d37f4307b0e4441f4479bd9970e9",
+    "nameTag": "MEV Bot: 0x1Be...0E9"
+  },
+  {
+    "address": "0x1d6e8bac6ea3730825bde4b005ed7b2b39a2932d",
+    "nameTag": "MEV Bot: 0x1d6...32d"
+  },
+  {
+    "address": "0x1e1efdc771a99dd892c10ef24d565149b337f210",
+    "nameTag": "MEV Bot: 0x1E1...210"
+  },
+  {
+    "address": "0x1ebadd3e0bb6d4e9edb574c5f0b0edc23c815d95",
+    "nameTag": "MEV Bot: 0x1Eb...D95"
+  },
+  {
+    "address": "0x1fb421310ceacd0afb2a429bbb4682e522b38ecb",
+    "nameTag": "MEV Bot: 0x1fB...EcB"
+  },
+  {
+    "address": "0x21dec254be248af0293a3c4f5bdb06d77c7e9e07",
+    "nameTag": "MEV Bot: 0x21...e07"
+  },
+  {
+    "address": "0x2242a7461c7bbd9202a97e967a0fbb8336ac863d",
+    "nameTag": "MEV Bot: 0x224...63d"
+  },
+  {
+    "address": "0x24587e3c20ae309943589782dfa25478fa6e0e11",
+    "nameTag": "MEV Bot: 0x245…e11"
+  },
+  {
+    "address": "0x247b69f78d2a590bec1ac0a4a4066debe3fca2b8",
+    "nameTag": "MEV Bot: 0x247...2b8"
+  },
+  {
+    "address": "0x257a38b4015d852ae11d08cb8fafbef3cb339581",
+    "nameTag": "MEV Bot: 0x257…581"
+  },
+  {
+    "address": "0x274700009ed289003a8650db7200c50060f00000",
+    "nameTag": "MEV Bot: 0x27...000"
+  },
+  {
+    "address": "0x273ed890a071a566bc38fe3d3ae415e429532303",
+    "nameTag": "MEV Bot: 0x273...303"
+  },
+  {
+    "address": "0x27c6e7ac7f9ef8c0dc06b74cacfd3f3c5834383e",
+    "nameTag": "MEV Bot: 0x27c…83e"
+  },
+  {
+    "address": "0x294e453c3f5758e562aa13c76ec376c70c0bdbad",
+    "nameTag": "MEV Bot: 0x294...bAD"
+  },
+  {
+    "address": "0x2ad9142941514c9550fd5d1b20baf9cb93a86847",
+    "nameTag": "MEV Bot: 0x2AD...847"
+  },
+  {
+    "address": "0x2b9a170381ad539bb51c53e05db2f792ab5e9f54",
+    "nameTag": "MEV Bot: 0x2B9...F54"
+  },
+  {
+    "address": "0x2c094bc2b7807888d866964f033902c059125aae",
+    "nameTag": "MEV Bot: 0x2c0…aae"
+  },
+  {
+    "address": "0x2d0f3b2abe9d61a21812023bb28cd2da7c3f30b9",
+    "nameTag": "MEV Bot: 0x2d0...0b9"
+  },
+  {
+    "address": "0x2deae6ce94d65ac1de19a1fc4bb160c4e02c92ef",
+    "nameTag": "MEV Bot: 0x2de...2EF"
+  },
+  {
+    "address": "0x2ed5003ebb8c00002c20000d00004b3500f4398b",
+    "nameTag": "MEV Bot: 0x2e...98b"
+  },
+  {
+    "address": "0x2f1d79860cf6ea3f4b3b734153b52815773c0638",
+    "nameTag": "MEV Bot: 0x2f1...638"
+  },
+  {
+    "address": "0x2f7c1f1460aed2594a9977c58fa31c465591b287",
+    "nameTag": "MEV Bot: 0x2f7…287"
+  },
+  {
+    "address": "0x305c4d71deb259e976a64f38d07fdf03df905559",
+    "nameTag": "MEV Bot: 0x305…559"
+  },
+  {
+    "address": "0x33a330a68d824bf56c7dbc42d4cd827368441321",
+    "nameTag": "MEV Bot: 0x33a...321"
+  },
+  {
+    "address": "0x33f4c006e6541cbaa3179b0978143e3ac3d70220",
+    "nameTag": "MEV Bot: 0x33F...220"
+  },
+  {
+    "address": "0x340f820684dec78c59068aabc9f8c99a2ce6b69c",
+    "nameTag": "MEV Bot: 0x340...69C"
+  },
+  {
+    "address": "0x3445c9ee4d17ba579061beec736f81b6d96754cd",
+    "nameTag": "MEV Bot: 0x344...4cD"
+  },
+  {
+    "address": "0x34744e2c314fb4e59c16afb7a8bd3c87e0389309",
+    "nameTag": "MEV Bot: 0x347...309"
+  },
+  {
+    "address": "0x3471f5e6c39e9fa462ba485692ae3050d2c068de",
+    "nameTag": "MEV Bot: 0x347...8dE"
+  },
+  {
+    "address": "0x35137b4c325c115a704cd23d5f2faf8777370d06",
+    "nameTag": "MEV Bot: 0x351...d06"
+  },
+  {
+    "address": "0x356cfd6e6d0000400000003900b415f80669009e",
+    "nameTag": "MEV Bot: 0x356...09e"
+  },
+  {
+    "address": "0x3700006fbcde59a8b3af2c134d00e9530000e379",
+    "nameTag": "MEV Bot: 0x370...379"
+  },
+  {
+    "address": "0x3773e380e06c6ec156116f77021862c45c6022bb",
+    "nameTag": "MEV Bot: 0x377...2bb"
+  },
+  {
+    "address": "0x387d058d208e1b49bd192b0a14c4a75f171f0172",
+    "nameTag": "MEV Bot: 0x387…172"
+  },
+  {
+    "address": "0x39dbb8f23001445e43c269f1246809091be7da60",
+    "nameTag": "MEV Bot: 0x39d...A60"
+  },
+  {
+    "address": "0x39ee28ec61a63147fc822b9e40757be530eefa65",
+    "nameTag": "MEV Bot: 0x39e...a65"
+  },
+  {
+    "address": "0x3af4ea5614f21e23b2398a62e1e20fe3d8b2fb7f",
+    "nameTag": "MEV Bot: 0x3AF...B7F"
+  },
+  {
+    "address": "0x3b654e30633d44b05847aaf65cf1ad0c92bed248",
+    "nameTag": "MEV Bot: 0x3B6...248"
+  },
+  {
+    "address": "0x3c0756ba2b1d702f8f63629555625b11be81546f",
+    "nameTag": "MEV Bot: 0x3C0...46F"
+  },
+  {
+    "address": "0x3c005ba2000f0000ba000d69000ac8ec003800bc",
+    "nameTag": "MEV Bot: 0x3c0…0bc"
+  },
+  {
+    "address": "0x3caa313178b3d34f1a635203b3b4f768b41350fa",
+    "nameTag": "MEV Bot: 0x3ca…0fa"
+  },
+  {
+    "address": "0x3d31b3f71b338b0cc4ce0ba9f376196b692e6411",
+    "nameTag": "MEV Bot: 0x3D3...411"
+  },
+  {
+    "address": "0x3de8eb830000f1d914294d000051000031a81d00",
+    "nameTag": "MEV Bot: 0x3de…d00"
+  },
+  {
+    "address": "0x3e2766167aa2acb097c311d5a2e9eb17cad38b06",
+    "nameTag": "MEV Bot: 0x3E...B06"
+  },
+  {
+    "address": "0x4024fe8187f0f31e72914a7d5014b29a88f07747",
+    "nameTag": "MEV Bot: 0x402...747"
+  },
+  {
+    "address": "0x4083d4ef32631ed3394cc1b11efb03ceebcd2f6c",
+    "nameTag": "MEV Bot: 0x408...F6C"
+  },
+  {
+    "address": "0x40e645bc65035286de2009d717365d9640cc2b09",
+    "nameTag": "MEV Bot: 0x40E...b09"
+  },
+  {
+    "address": "0x41f6b7bef8831b2e1b8343153ea664ce938c08ed",
+    "nameTag": "MEV Bot: 0x41F...8Ed"
+  },
+  {
+    "address": "0x42b2c65db7f9e3b6c26bc6151ccf30cce0fb99ea",
+    "nameTag": "MEV Bot: 0x42B...9EA"
+  },
+  {
+    "address": "0x43f53cc7eaa8526601a28eb7130b153d5c5fcc4f",
+    "nameTag": "MEV Bot: 0x43...c4f"
+  },
+  {
+    "address": "0x43cc953fb952d10c8f810267092fb12145d56d40",
+    "nameTag": "MEV Bot: 0x43...D40"
+  },
+  {
+    "address": "0x43f2dfc9f99eba7a52fdffe7f3ea2182324e8896",
+    "nameTag": "MEV Bot: 0x43F...896"
+  },
+  {
+    "address": "0x445947140f5e1b742439f6ee24a7690d077bbb89",
+    "nameTag": "MEV Bot: 0x445...B89"
+  },
+  {
+    "address": "0x44ccdcd59984848a749e9f999b08f2b68153e123",
+    "nameTag": "MEV Bot: 0x44c...123"
+  },
+  {
+    "address": "0x456804481f237bbb1b0baf5bd606d481ad672048",
+    "nameTag": "MEV Bot: 0x456...048"
+  },
+  {
+    "address": "0x45716d9eddbc332df1d42b9f540fbebed671b20f",
+    "nameTag": "MEV Bot: 0x457...20F"
+  },
+  {
+    "address": "0x45f02235cb7f59122a813a19274ef6b2c0ca70c6",
+    "nameTag": "MEV Bot: 0x45f...0C6"
+  },
+  {
+    "address": "0x467c197bf259fe46232c142acda389fc0795c7f4",
+    "nameTag": "MEV Bot: 0x467...7f4"
+  },
+  {
+    "address": "0x469f63223076d1e9e6f729fed620cd47b4241912",
+    "nameTag": "MEV Bot: 0x469...912"
+  },
+  {
+    "address": "0x46aa587c29aef0c5ca51e8e5716dc1be822d6f46",
+    "nameTag": "MEV Bot: 0x46a...F46"
+  },
+  {
+    "address": "0x46c4128981525aa446e02ffb2ff762f1d6a49170",
+    "nameTag": "MEV Bot: 0x46C...170"
+  },
+  {
+    "address": "0x475689d37309e829c3e646c863b1efec3734472a",
+    "nameTag": "MEV Bot: 0x475…72a"
+  },
+  {
+    "address": "0x48802e0ce5045beb5f00e19dab7174384c7e5b35",
+    "nameTag": "MEV Bot: 0x48...b35"
+  },
+  {
+    "address": "0x49307d775728daf1d4736ab762de0cefd035e323",
+    "nameTag": "MEV Bot: 0x493...323"
+  },
+  {
+    "address": "0x493f461aead031cee2027f1b95370a692611acb9",
+    "nameTag": "MEV Bot: 0x493...CB9"
+  },
+  {
+    "address": "0x498e84899558545a0f6d4036bdb3a3842cf9b6d0",
+    "nameTag": "MEV Bot: 0x498...6D0"
+  },
+  {
+    "address": "0x499ac6f42c3d92a381437b63735ef7b547c31022",
+    "nameTag": "MEV Bot: 0x499...022"
+  },
+  {
+    "address": "0x499dd900f800fd0a2ed300006000a57f00fa009b",
+    "nameTag": "MEV Bot: 0x499...09b"
+  },
+  {
+    "address": "0x49bc3cec1fb7978746f742a4e485d0d601831cea",
+    "nameTag": "MEV Bot: 0x49b…cea"
+  },
+  {
+    "address": "0x4a137fd5e7a256ef08a7de531a17d0be0cc7b6b6",
+    "nameTag": "MEV Bot: 0x4a1...6b6"
+  },
+  {
+    "address": "0x4a47615f0b239063992dddbee6844033c172f2b6",
+    "nameTag": "MEV Bot: 0x4A4...2B6"
+  },
+  {
+    "address": "0x4b06dca23845adc723bd059a7d73333195894bf6",
+    "nameTag": "MEV Bot: 0x4b0...bF6"
+  },
+  {
+    "address": "0x4b4867541f6e756be4119a171b7da17a1558c463",
+    "nameTag": "MEV Bot: 0x4b4…463"
+  },
+  {
+    "address": "0x4cadecc51feb5c1f6d9a902ecc817a1b8c2246f9",
+    "nameTag": "MEV Bot: 0x4ca…6F9"
+  },
+  {
+    "address": "0x4cb18386e5d1f34dc6eea834bf3534a970a3f8e7",
+    "nameTag": "MEV Bot: 0x4Cb...8e7"
+  },
+  {
+    "address": "0x4ddbf6140cedfcb2bd75874f9d82d60715e44086",
+    "nameTag": "MEV Bot: 0x4d...086"
+  },
+  {
+    "address": "0x4d246be90c2f36730bb853ad41d0a189061192d3",
+    "nameTag": "MEV Bot: 0x4d2...2d3"
+  },
+  {
+    "address": "0x4d638adb8c07a78655e9ae88641c4202774e6584",
+    "nameTag": "MEV Bot: 0x4d6...584"
+  },
+  {
+    "address": "0x4e69a51f24f5a46919113cc78ab262da74a4611d",
+    "nameTag": "MEV Bot: 0x4e6…11d"
+  },
+  {
+    "address": "0x4fce027bc57d7530b84527f4848983cece4df15e",
+    "nameTag": "MEV Bot: 0x4Fc...15e"
+  },
+  {
+    "address": "0x5050e08626c499411b5d0e0b5af0e83d3fd82edf",
+    "nameTag": "MEV Bot: 0x50...EDF"
+  },
+  {
+    "address": "0x507888e987257a8dde6f8afa46375cefe2cbf504",
+    "nameTag": "MEV Bot: 0x507...504"
+  },
+  {
+    "address": "0x51399b32cd0186bb32230e24167489f3b2f47870",
+    "nameTag": "MEV Bot: 0x513...870"
+  },
+  {
+    "address": "0x52a8aa269bea924379d08945c351232c5cc41581",
+    "nameTag": "MEV Bot: 0x52...581"
+  },
+  {
+    "address": "0x52ca1cb9fc6fbd1cfe5630e74de8738b517a367a",
+    "nameTag": "MEV Bot: 0x52...67a"
+  },
+  {
+    "address": "0x5463f5758093e6f5b33b13eaee4ca8ec2753733c",
+    "nameTag": "MEV Bot: 0x546...33C"
+  },
+  {
+    "address": "0x548dd74ff71a2070f2495076e73834576b8d50c1",
+    "nameTag": "MEV Bot: 0x548...0C1"
+  },
+  {
+    "address": "0x5492a302991751fd6b5c051d85be48acc9fec4d3",
+    "nameTag": "MEV Bot: 0x549...4D3"
+  },
+  {
+    "address": "0x54eeb92cf8ad49c2cb4dc8c9eb5dc9538836016b",
+    "nameTag": "MEV Bot: 0x54e...16b"
+  },
+  {
+    "address": "0x5519935e51fc403f6c69894e683f268c1883e938",
+    "nameTag": "MEV Bot: 0x551…938"
+  },
+  {
+    "address": "0x553eea17185e5ae6bb72f9528a4c3fc1a844b859",
+    "nameTag": "MEV Bot: 0x553...859"
+  },
+  {
+    "address": "0x55eb58655f8202ff839487886fedba2a1eb7b2d7",
+    "nameTag": "MEV Bot: 0x55e...2d7"
+  },
+  {
+    "address": "0x563bdabaa8846ec445b25bfbed88d160890a02ed",
+    "nameTag": "MEV Bot: 0x563...2ed"
+  },
+  {
+    "address": "0x57c1e0c2adf6eecdb135bcf9ec5f23b319be2c94",
+    "nameTag": "MEV Bot: 0x57C...c94"
+  },
+  {
+    "address": "0x585c3d4da9b533c7e3df8ac7356c882859298cee",
+    "nameTag": "MEV Bot: 0x585...cEe"
+  },
+  {
+    "address": "0x596d13aba9d144fd092d2fb661ff24ed40e24694",
+    "nameTag": "MEV Bot: 0x596...694"
+  },
+  {
+    "address": "0x5a2227c3da137cf47a91d0b9df81570fa33cfbe2",
+    "nameTag": "MEV Bot: 0x5a2…be2"
+  },
+  {
+    "address": "0x5aa3393e361c2eb342408559309b3e873cd876d6",
+    "nameTag": "MEV Bot: 0x5AA...6d6"
+  },
+  {
+    "address": "0x5cacdfb236e4bfdd5f9ed992a998cc99aed5b4d9",
+    "nameTag": "MEV Bot: 0x5ca...4d9"
+  },
+  {
+    "address": "0x5dbb2765a9f0016889066ce3dc41a91879ca30de",
+    "nameTag": "MEV Bot: 0x5dB...0de"
+  },
+  {
+    "address": "0x5df6434986b285143b060c0e07e1a8d79f5d1b8b",
+    "nameTag": "MEV Bot: 0x5df...b8b"
+  },
+  {
+    "address": "0x5e767aa6204ece873c7d9405c4bca49cd3e0bf39",
+    "nameTag": "MEV Bot: 0x5E7...F39"
+  },
+  {
+    "address": "0x5f05a1e43e738efcd5227e65660a874050dda64c",
+    "nameTag": "MEV Bot: 0x5F0...64C"
+  },
+  {
+    "address": "0x60a1d9d5f6346aae41a18b08dcd0be48a74a3021",
+    "nameTag": "MEV Bot: 0x60a...021"
+  },
+  {
+    "address": "0x615c8c3675e6f683e201553939508e6ade823634",
+    "nameTag": "MEV Bot: 0x615…634"
+  },
+  {
+    "address": "0x634ccb596def40fad8dde810a8f98d286a2a5b27",
+    "nameTag": "MEV Bot: 0x634...b27"
+  },
+  {
+    "address": "0x63756a3c3bf677baab9d9e06457402ed05be8570",
+    "nameTag": "MEV Bot: 0x637…570"
+  },
+  {
+    "address": "0x63deabf35a837314849d8be3e4557307a9f16a09",
+    "nameTag": "MEV Bot: 0x63d...a09"
+  },
+  {
+    "address": "0x64eb3f16bcc7cf02d4d9ace45535bf90ccb1d324",
+    "nameTag": "MEV Bot: 0x64...324"
+  },
+  {
+    "address": "0x64e6d37c95c066c4f2401e28c2e3bdeec06e2ed8",
+    "nameTag": "MEV Bot: 0x64E...ED8"
+  },
+  {
+    "address": "0x65212a50c96db98085b453013fab30f41e61ea9a",
+    "nameTag": "MEV Bot: 0x652…a9a"
+  },
+  {
+    "address": "0x65ab5193c173ce757c18d485c2812ed61df37080",
+    "nameTag": "MEV Bot: 0x65a...080"
+  },
+  {
+    "address": "0x66f049111958809841bbe4b81c034da2d953aa0c",
+    "nameTag": "MEV Bot: 0x66f...A0c"
+  },
+  {
+    "address": "0x689209519e78947d52b862748e059fad1238d689",
+    "nameTag": "MEV Bot: 0x689...689"
+  },
+  {
+    "address": "0x6916d3ee3cbdd26b382309dd7a0ae160bf57d9ff",
+    "nameTag": "MEV Bot: 0x691…9ff"
+  },
+  {
+    "address": "0x696713eaba8d603bab45e2c5820ef4c175c7a5e8",
+    "nameTag": "MEV Bot: 0x696...5e8"
+  },
+  {
+    "address": "0x6980a47bee930a4584b09ee79ebe46484fbdbdd0",
+    "nameTag": "MEV Bot: 0x698...DD0"
+  },
+  {
+    "address": "0x6a3d5bf2e4f12e9fb1098dd2692556cf6a0b2428",
+    "nameTag": "MEV Bot: 0x6a3…428"
+  },
+  {
+    "address": "0x6af1a16fde7346e7729fa921ad2ddf6a462061e2",
+    "nameTag": "MEV Bot: 0x6aF...1e2"
+  },
+  {
+    "address": "0x6af49606d941cda32de1ee94397dc821ceb09dac",
+    "nameTag": "MEV Bot: 0x6af…dac"
+  },
+  {
+    "address": "0x6b58007b960016b2f559dbfd809ac4dcb1febdfe",
+    "nameTag": "MEV Bot: 0x6B5...Dfe"
+  },
+  {
+    "address": "0x6b75d8af000000e20b7a7ddf000ba900b4009a80",
+    "nameTag": "MEV Bot: 0x6b7...A80"
+  },
+  {
+    "address": "0x6c6b87d44d239b3750bf9badce26a9a0a3d2364e",
+    "nameTag": "MEV Bot: 0x6C6...64e"
+  },
+  {
+    "address": "0x6d660980b00c3405c2dec173cf2259b15572b9b5",
+    "nameTag": "MEV Bot: 0x6d6...9B5"
+  },
+  {
+    "address": "0x6db01031355fbf8eea0c06a5d56217ba1967f0df",
+    "nameTag": "MEV Bot: 0x6dB...0Df"
+  },
+  {
+    "address": "0x6dce52e318338b0cc30969ada8e0c95d24c37a28",
+    "nameTag": "MEV Bot: 0x6dc…a28"
+  },
+  {
+    "address": "0x6e8d76bf316eb70d2ffe4ce5480449c65ea4b22a",
+    "nameTag": "MEV Bot: 0x6e8…22a"
+  },
+  {
+    "address": "0x6ed51e4acca56d74076cdeb58337225b8aaf4abc",
+    "nameTag": "MEV Bot: 0x6ED...ABC"
+  },
+  {
+    "address": "0x6ee33c4a192118ea664612aec6f7b6e4aef78b87",
+    "nameTag": "MEV Bot: 0x6eE...b87"
+  },
+  {
+    "address": "0x6f2b0237841de68dd6c3de2616fc8459a83d3615",
+    "nameTag": "MEV Bot: 0x6f...615"
+  },
+  {
+    "address": "0x6f87f1fbf96c1bb0b0cc9bf6a456566919900d3e",
+    "nameTag": "MEV Bot: 0x6f...d3E"
+  },
+  {
+    "address": "0x6f1cdbbb4d53d226cf4b917bf768b94acbab6168",
+    "nameTag": "MEV Bot: 0x6f1…168"
+  },
+  {
+    "address": "0x70d772361eb567eb45da56e147e5224e2abedeba",
+    "nameTag": "MEV Bot: 0x70d...EbA"
+  },
+  {
+    "address": "0x7293035f0eade9919a14b26702050c01e58b15f1",
+    "nameTag": "MEV Bot: 0x723...5F1"
+  },
+  {
+    "address": "0x72bd67d7406d0c490b0ad0b8968f4beccdd494db",
+    "nameTag": "MEV Bot: 0x72b...4dB"
+  },
+  {
+    "address": "0x731ea79a1b2b90683507da2aab498bd8ff8f7ff1",
+    "nameTag": "MEV Bot: 0x731...ff1"
+  },
+  {
+    "address": "0x73f78d23370386cbcecd24ab3fa5da63be80f0e8",
+    "nameTag": "MEV Bot: 0x73F...0e8"
+  },
+  {
+    "address": "0x7404c78fc91908ee47b349224ed7715dfa40c4ba",
+    "nameTag": "MEV Bot: 0x74...4BA"
+  },
+  {
+    "address": "0x7436a14a8dbf6eba14f114cb71a3b6d4527b222a",
+    "nameTag": "MEV Bot: 0x743...22a"
+  },
+  {
+    "address": "0x74d8353a2ce55b41828075f406b0e42001bcd00b",
+    "nameTag": "MEV Bot: 0x74D...00b"
+  },
+  {
+    "address": "0x752e87b5f1397e171d5383cec3d4c51a8d3c114b",
+    "nameTag": "MEV Bot: 0x752…14b"
+  },
+  {
+    "address": "0x752e93ea9aa43309980b13d22d1f5541b15802bd",
+    "nameTag": "MEV Bot: 0x752…2bd"
+  },
+  {
+    "address": "0x761d80987a36fc271875ea4de17539e8c82ae51d",
+    "nameTag": "MEV Bot: 0x761...51D"
+  },
+  {
+    "address": "0x775c559d9a48ce5a8444c1035c3a8921ab477b8e",
+    "nameTag": "MEV Bot: 0x77...b8e"
+  },
+  {
+    "address": "0x770e2e68000065ac970382fe3af0d500bb00a200",
+    "nameTag": "MEV Bot: 0x770…200"
+  },
+  {
+    "address": "0x7719494eb8f3ca261f5c806d754853dc5ce2edf7",
+    "nameTag": "MEV Bot: 0x771...Df7"
+  },
+  {
+    "address": "0x7777777580290cede6e2121b846023fa1a1e4978",
+    "nameTag": "MEV Bot: 0x777...978"
+  },
+  {
+    "address": "0x77b285fbdb277e53ed29c9dda7c0aa6f2591b09d",
+    "nameTag": "MEV Bot: 0x77b...09d"
+  },
+  {
+    "address": "0x793ff66b5435a6de9d6d7e70c4c68522e8cd24e1",
+    "nameTag": "MEV Bot: 0x793...4E1"
+  },
+  {
+    "address": "0x7931d2c37045fa4620b02693bfb59dbf408c336d",
+    "nameTag": "MEV Bot: 0x793…36d"
+  },
+  {
+    "address": "0x797a05dd6a8bfc1e1eaaa62e744d3aff197c46b1",
+    "nameTag": "MEV Bot: 0x797…6b1"
+  },
+  {
+    "address": "0x79dd6397b1ce40d6ac14f361ff9f9836d0cff6e1",
+    "nameTag": "MEV Bot: 0x79D...6e1"
+  },
+  {
+    "address": "0x7a70e27e10dc7e860bc92e0817b64feab4c777d3",
+    "nameTag": "MEV Bot: 0x7a7...7D3"
+  },
+  {
+    "address": "0x7b08aec3a699904908a34526935974c214b58798",
+    "nameTag": "MEV Bot: 0x7b0...798"
+  },
+  {
+    "address": "0x7b577a879665ef6ad344da61de7ec2371f6ff68f",
+    "nameTag": "MEV Bot: 0x7B5...68f"
+  },
+  {
+    "address": "0x7c2347f23e11310e976532ff606688a57a77a535",
+    "nameTag": "MEV Bot: 0x7c2...535"
+  },
+  {
+    "address": "0x7c28e0977f72c5d08d5e1ac7d52a34db378282b3",
+    "nameTag": "MEV Bot: 0x7c2…2B3"
+  },
+  {
+    "address": "0x7cf09d7a9a74f746edcb06949b9d64bcd9d1604f",
+    "nameTag": "MEV Bot: 0x7Cf...04f"
+  },
+  {
+    "address": "0x7d00a2bc1370b9005eb100004da500924600a2e1",
+    "nameTag": "MEV Bot: 0x7d0...2e1"
+  },
+  {
+    "address": "0x7d32c90762e22379235fc311fdb16fab399ed40a",
+    "nameTag": "MEV Bot: 0x7d3...40A"
+  },
+  {
+    "address": "0x7efd91c8ca31e7452c5c4de00a8ca1c18910a35f",
+    "nameTag": "MEV Bot: 0x7E...35F"
+  },
+  {
+    "address": "0x7e00009e6d00258407c50094680080f5830a00d9",
+    "nameTag": "MEV Bot: 0x7e0...0d9"
+  },
+  {
+    "address": "0x7f35eda215e381b44e5e6a0934fea2e9b7545e06",
+    "nameTag": "MEV Bot: 0x7f3…e06"
+  },
+  {
+    "address": "0x7f9a1c279e8bdbb326e453aebb3abba140458362",
+    "nameTag": "MEV Bot: 0x7F9...362"
+  },
+  {
+    "address": "0x8032eaede5c55f744387ca53aaf0499abcd783e5",
+    "nameTag": "MEV Bot: 0x803...3e5"
+  },
+  {
+    "address": "0x80d4230c0a68fc59cb264329d3a717fcaa472a13",
+    "nameTag": "MEV Bot: 0x80d...a13"
+  },
+  {
+    "address": "0x811213d2d0e26ecf65714074cef59119dd7f36d9",
+    "nameTag": "MEV Bot: 0x811...6D9"
+  },
+  {
+    "address": "0x81153f0889ab398c4acb42cb58b565a5392bba95",
+    "nameTag": "MEV Bot: 0x811...a95"
+  },
+  {
+    "address": "0x815b2ad3c669df996fc55a9472ad251312476898",
+    "nameTag": "MEV Bot: 0x815...898"
+  },
+  {
+    "address": "0x818a81cc5a577092c9457884facbd7d69b82540a",
+    "nameTag": "MEV Bot: 0x818...40a"
+  },
+  {
+    "address": "0x828a2d99bb1a31ca0eba80f3e01db8dae652a1e3",
+    "nameTag": "MEV Bot: 0x828...1E3"
+  },
+  {
+    "address": "0x8385c093657503aebd55bac4a9bb0df5d3528835",
+    "nameTag": "MEV Bot: 0x838...835"
+  },
+  {
+    "address": "0x83d159b6e661f7f7e56ee3cd35d8b45f73187967",
+    "nameTag": "MEV Bot: 0x83D...967"
+  },
+  {
+    "address": "0x842b9aa0e8e6eb77f16782bd27cb02a97002c4fc",
+    "nameTag": "MEV Bot: 0x842...4Fc"
+  },
+  {
+    "address": "0x8472ee188899569cf6ef42bb2038facae66972d2",
+    "nameTag": "MEV Bot: 0x847...2d2"
+  },
+  {
+    "address": "0x84783f7e102ac1e28abe254c7c27d4c01891ca2e",
+    "nameTag": "MEV Bot: 0x847...a2E"
+  },
+  {
+    "address": "0x84ea596cf25dee016c53767e407b9a99863088c9",
+    "nameTag": "MEV Bot: 0x84e…8c9"
+  },
+  {
+    "address": "0x8512a66d249e3b51000b772047c8545ad010f27c",
+    "nameTag": "MEV Bot: 0x851…27c"
+  },
+  {
+    "address": "0x85db6b36e3d7704d7f747430124af1af33c35ee1",
+    "nameTag": "MEV Bot: 0x85d...eE1"
+  },
+  {
+    "address": "0x85e5c6cffd260a7f153b1f34b36f6dbeba3e279e",
+    "nameTag": "MEV Bot: 0x85e...79e"
+  },
+  {
+    "address": "0x86ecd42504fead01409901f41cda45a0f8c54e71",
+    "nameTag": "MEV Bot: 0x86...e71"
+  },
+  {
+    "address": "0x860bd2dba9cd475a61e6d1b45e16c365f6d78f66",
+    "nameTag": "MEV Bot: 0x860...F66"
+  },
+  {
+    "address": "0x8698d9d5ea99809c00426484a80be2add4e54581",
+    "nameTag": "MEV Bot: 0x869...581"
+  },
+  {
+    "address": "0x875012b086cca9976463e18ea1d76b6c5e43e487",
+    "nameTag": "MEV Bot: 0x875...487"
+  },
+  {
+    "address": "0x8788a7cfd63cf06d0d7716c6a66f54b58248c896",
+    "nameTag": "MEV Bot: 0x878...896"
+  },
+  {
+    "address": "0x87d9da48db6e1f925cb67d3b7d2a292846c24cf7",
+    "nameTag": "MEV Bot: 0x87d...cf7"
+  },
+  {
+    "address": "0x88651612bfd48e9cda5b9b6f65d2fa9fe18105af",
+    "nameTag": "MEV Bot: 0x886…5af"
+  },
+  {
+    "address": "0x89633a6d12200f0ad9ad2219782adf0f54e9065c",
+    "nameTag": "MEV Bot: 0x896...65C"
+  },
+  {
+    "address": "0x8a9bc155740b096575bfe1ee80f5783eefbbf1d2",
+    "nameTag": "MEV Bot: 0x8a9...1d2"
+  },
+  {
+    "address": "0x8aff5ca996f77487a4f04f1ce905bf3d27455580",
+    "nameTag": "MEV Bot: 0x8aF...580"
+  },
+  {
+    "address": "0x8b3400cf2dd7aa70f26b8a28b70c1d707e7945ff",
+    "nameTag": "MEV Bot: 0x8b3...5FF"
+  },
+  {
+    "address": "0x8b46e02e2ce66c041ddebeed9734a8deebf1a3ab",
+    "nameTag": "MEV Bot: 0x8b4...3Ab"
+  },
+  {
+    "address": "0x8c3635482f23bd108cfd941736fd15fbd59d53bc",
+    "nameTag": "MEV Bot: 0x8C3...3BC"
+  },
+  {
+    "address": "0x8db64ee50717a0418adf9ad99d8685318d4d4579",
+    "nameTag": "MEV Bot: 0x8db…579"
+  },
+  {
+    "address": "0x8e60b2b96ea901beb2cafd79b8d0ed249a5efd95",
+    "nameTag": "MEV Bot: 0x8e6...d95"
+  },
+  {
+    "address": "0x8f44e22ac221cc25a46289d1c307d4f34a4dd6c2",
+    "nameTag": "MEV Bot: 0x8f4...6c2"
+  },
+  {
+    "address": "0x901996e18a3b15359a62ceb247647665fb8ade89",
+    "nameTag": "MEV Bot: 0x901...e89"
+  },
+  {
+    "address": "0x91d63ec594be1d1cf809682688c69a6ae3cb83f7",
+    "nameTag": "MEV Bot: 0x91...3f7"
+  },
+  {
+    "address": "0x91000060399502550000007bbfba0052f47b008a",
+    "nameTag": "MEV Bot: 0x910...08a"
+  },
+  {
+    "address": "0x911605012f87a3017322c81fcb4c90ada7c09116",
+    "nameTag": "MEV Bot: 0x911...116"
+  },
+  {
+    "address": "0x91a7ca5c4d7eabc7c8f878dc49eed3a4cb28ea8e",
+    "nameTag": "MEV Bot: 0x91A...a8e"
+  },
+  {
+    "address": "0x93680291442381845d043e222790203ed34d20f4",
+    "nameTag": "MEV Bot: 0x93...0F4"
+  },
+  {
+    "address": "0x966d8c1f61bae657d577077abfbd7d896c09e242",
+    "nameTag": "MEV Bot: 0x966...242"
+  },
+  {
+    "address": "0x98c3d3183c4b8a650614ad179a1a98be0a8d6b8e",
+    "nameTag": "MEV Bot: 0x98c...b8e"
+  },
+  {
+    "address": "0x99999999d116ffa7d76590de2f427d8e15aeb0b8",
+    "nameTag": "MEV Bot: 0x999...0b8"
+  },
+  {
+    "address": "0x9a0ef593dcc6a77f80699c9fa00d1e138b67d832",
+    "nameTag": "MEV Bot: 0x9A0...832"
+  },
+  {
+    "address": "0x9aa954706326d900fd55e0928a92e3b93ad34dc9",
+    "nameTag": "MEV Bot: 0x9aa...Dc9"
+  },
+  {
+    "address": "0x9b64fcfb07a270c652b2faa06ce7e88606ff7a07",
+    "nameTag": "MEV Bot: 0x9b...A07"
+  },
+  {
+    "address": "0x9be4dd4724d9f13cc05ce25416d9f9bfccd443e0",
+    "nameTag": "MEV Bot: 0x9Be...3e0"
+  },
+  {
+    "address": "0x9cbe7f7a95aeff6c4d5dfe55aea426292cfaab49",
+    "nameTag": "MEV Bot: 0x9cb…b49"
+  },
+  {
+    "address": "0x9dd864d39fbfdf7648402746263e451cd4f36af0",
+    "nameTag": "MEV Bot: 0x9DD...Af0"
+  },
+  {
+    "address": "0x9ea3cda5c2adf0370454b9ee28786a068227b1a4",
+    "nameTag": "MEV Bot: 0x9E...1a4"
+  },
+  {
+    "address": "0x9e244643b91ecc1498718cb4f5d22d14a9b121a1",
+    "nameTag": "MEV Bot: 0x9e2...1a1"
+  },
+  {
+    "address": "0x9e9346e082d445f08fab1758984a31648c89241a",
+    "nameTag": "MEV Bot: 0x9E9...41A"
+  },
+  {
+    "address": "0x9f6551f1bfc4ee578801af5f7d778949ab0b507a",
+    "nameTag": "MEV Bot: 0x9F...07a"
+  },
+  {
+    "address": "0x9f5d5f14a17c68c12b956d3fd73b8adc32fe0bc6",
+    "nameTag": "MEV Bot: 0x9F5...bc6"
+  },
+  {
+    "address": "0xa0b18cdf5f395d98c061b753d8dedb28c7aee450",
+    "nameTag": "MEV Bot: 0xa0b…450"
+  },
+  {
+    "address": "0xa0cdf33c150b936d0091969c694da3cfeae18446",
+    "nameTag": "MEV Bot: 0xa0c...446"
+  },
+  {
+    "address": "0xa1dd4a2dce5cbaff022685a30ac7970ade5322eb",
+    "nameTag": "MEV Bot: 0xa1...2eb"
+  },
+  {
+    "address": "0xa1ba2e31d3b58c44293e54a90aaa817b14304e07",
+    "nameTag": "MEV Bot: 0xA1B...E07"
+  },
+  {
+    "address": "0xa3093b3469877d3ad3f8e51ddb30a80dbf1c5150",
+    "nameTag": "MEV Bot: 0xA3...150"
+  },
+  {
+    "address": "0xa3274568f95c628d2a2383fac9de1fac220fad48",
+    "nameTag": "MEV Bot: 0xa32...d48"
+  },
+  {
+    "address": "0xa57bd00134b2850b2a1c55860c9e9ea100fdd6cf",
+    "nameTag": "MEV Bot: 0xa57...6CF"
+  },
+  {
+    "address": "0xa5db73941cfd6d94821b5ce83d2aa35418bb72d6",
+    "nameTag": "MEV Bot: 0xa5d…2d6"
+  },
+  {
+    "address": "0xa69babef1ca67a37ffaf7a485dfff3382056e78c",
+    "nameTag": "MEV Bot: 0xA69...78C"
+  },
+  {
+    "address": "0xa75af537fb853bb432f6a51d47d70e349fffc6ba",
+    "nameTag": "MEV Bot: 0xA75...6Ba"
+  },
+  {
+    "address": "0xa9fc82856828ab8ce69d0af76acb62d09f5cc453",
+    "nameTag": "MEV Bot: 0xa9f…453"
+  },
+  {
+    "address": "0xaba28b9b82999ba782c536d545dd88e579326cf0",
+    "nameTag": "MEV Bot: 0xaba…cf0"
+  },
+  {
+    "address": "0xac682edd8729d679d6c044cf44e975d5b8fcf90f",
+    "nameTag": "MEV Bot: 0xAc6...90f"
+  },
+  {
+    "address": "0xac9df97f9cd7a5f66913d107cddd00f40ac9ab4c",
+    "nameTag": "MEV Bot: 0xac9...b4c"
+  },
+  {
+    "address": "0xacd4ec996aad815efe72a11944188c6db6c30176",
+    "nameTag": "MEV Bot: 0xAcD...176"
+  },
+  {
+    "address": "0xace84676f40438cd12d6708ae5eb25ce817fc207",
+    "nameTag": "MEV Bot: 0xacE...207"
+  },
+  {
+    "address": "0xaddce577484aa0806a668e814bc0aa3624698c3a",
+    "nameTag": "MEV Bot: 0xAdd...c3A"
+  },
+  {
+    "address": "0xaed01433a5f897d7f41cb3a447b9963a65ed8514",
+    "nameTag": "MEV Bot: 0xaed…514"
+  },
+  {
+    "address": "0xaf9642bc3b0daf66a8930d17b99865944df4d60b",
+    "nameTag": "MEV Bot: 0xAf9...60b"
+  },
+  {
+    "address": "0xb0bababe78a9be0810fadf99dd2ed31ed12568be",
+    "nameTag": "MEV Bot: 0xb0...8bE"
+  },
+  {
+    "address": "0xb3fcd22ffd34d75c979d49e2e5fb3a3405644831",
+    "nameTag": "MEV Bot: 0xB3f...831"
+  },
+  {
+    "address": "0xb4247d5978060387c0fe91d13a90d5711f65b7ce",
+    "nameTag": "MEV Bot: 0xb42...7CE"
+  },
+  {
+    "address": "0xb4262e8560f874ddb0a508fb5c13b5cdb673acee",
+    "nameTag": "MEV Bot: 0xb42...Cee"
+  },
+  {
+    "address": "0xb481c05290ee2e1528acde18e938260143c80d67",
+    "nameTag": "MEV Bot: 0xb48…d67"
+  },
+  {
+    "address": "0xb4990d3044641456a2509ed0bd709f1176a6a7af",
+    "nameTag": "MEV Bot: 0xb49...7af"
+  },
+  {
+    "address": "0xb5c7ad3cb6506c65da01f2fac2e667dcb9e66e9c",
+    "nameTag": "MEV Bot: 0xB5c...e9c"
+  },
+  {
+    "address": "0xb5f7a671e91dd753c30e4179841278d6a83349f5",
+    "nameTag": "MEV Bot: 0xb5f…9f5"
+  },
+  {
+    "address": "0xb6569481dccddd527c2b0e8ba32f494e52224ca1",
+    "nameTag": "MEV Bot: 0xb6...CA1"
+  },
+  {
+    "address": "0xb78dfc0c14016ebb4678d7949ad6e4b8ba14e634",
+    "nameTag": "MEV Bot: 0xb78…634"
+  },
+  {
+    "address": "0xb807aca3615bb8c93d32d7fb418e69370e1a7c86",
+    "nameTag": "MEV Bot: 0xb80...c86"
+  },
+  {
+    "address": "0xb91d9b045f8a64bca4c69625b00001109932be34",
+    "nameTag": "MEV Bot: 0xb91...e34"
+  },
+  {
+    "address": "0xba3f5c056500ce033e9d74494b820d495efcf19d",
+    "nameTag": "MEV Bot: 0xBA3...19d"
+  },
+  {
+    "address": "0xba71b56fd0b590ed2a6992ed57a34c1391940513",
+    "nameTag": "MEV Bot: 0xBA7...513"
+  },
+  {
+    "address": "0xbadc0defafcf6d4239bdf0b66da4d7bd36fcf05a",
+    "nameTag": "MEV Bot: 0xbaD…05A"
+  },
+  {
+    "address": "0xbb552d1c03268594b673112009cdd46de0d3a02c",
+    "nameTag": "MEV Bot: 0xbB...02c"
+  },
+  {
+    "address": "0xbb5acd74d889da9102d97d5a14de49e6ce710851",
+    "nameTag": "MEV Bot: 0xbB5...851"
+  },
+  {
+    "address": "0xbc76a754f91b1fa7c4f2b74fa153c6ceb0a85912",
+    "nameTag": "MEV Bot: 0xBc7...912"
+  },
+  {
+    "address": "0xbce7c64180659b4e2e541183b5e2453937b5e541",
+    "nameTag": "MEV Bot: 0xbce…541"
+  },
+  {
+    "address": "0xbd519007f706981781128624169ca574cc232980",
+    "nameTag": "MEV Bot: 0xbD5...980"
+  },
+  {
+    "address": "0xbee161c7ee275cc3c665bfc5370301b84cb4c356",
+    "nameTag": "MEV Bot: 0xbe...356"
+  },
+  {
+    "address": "0xbe69dde0a051e72e18871be52cf506e419058f11",
+    "nameTag": "MEV Bot: 0xBE6...f11"
+  },
+  {
+    "address": "0xbeefbabeea323f07c59926295205d3b7a17e8638",
+    "nameTag": "MEV Bot: 0xBEE...638"
+  },
+  {
+    "address": "0xbf17ca35f34932aa7ed21b2ccdd90ceba190be40",
+    "nameTag": "MEV Bot: 0xbF1...E40"
+  },
+  {
+    "address": "0xbf61595c0f53f01e92cc210663dccd7ab237b1d9",
+    "nameTag": "MEV Bot: 0xBf6...1d9"
+  },
+  {
+    "address": "0xbf971824421fa3778cb638bdeb79b8d5223e0fe6",
+    "nameTag": "MEV Bot: 0xbF9...fE6"
+  },
+  {
+    "address": "0xbfef411d9ae30c5b471d529c838f1abb7b65d67f",
+    "nameTag": "MEV Bot: 0xbfe...67f"
+  },
+  {
+    "address": "0xc0d0144f7887ae4d756270219d67f2de603193eb",
+    "nameTag": "MEV Bot: 0xC0D...3EB"
+  },
+  {
+    "address": "0xc0d1b1193032dd558fad75915813b3342e7c7b6b",
+    "nameTag": "MEV Bot: 0xc0d…b6b"
+  },
+  {
+    "address": "0xc11ce44147c9f6149fbe54adb0588523c38718d7",
+    "nameTag": "MEV Bot: 0xc11...8d7"
+  },
+  {
+    "address": "0xc1374db508b7a3e0cdf061c8d8c1f7a260f231cd",
+    "nameTag": "MEV Bot: 0xc13...1cD"
+  },
+  {
+    "address": "0xc1f4f106273a82d6ced74550292b24cdde958fd8",
+    "nameTag": "MEV Bot: 0xc1f...fd8"
+  },
+  {
+    "address": "0xc21b472e150669a9e20a1233cad67eced2851ec5",
+    "nameTag": "MEV Bot: 0xc21...ec5"
+  },
+  {
+    "address": "0xc2a54f74ebbbba5ed92d6a0b5dcb0b0ffb96f36e",
+    "nameTag": "MEV Bot: 0xc2A...36e"
+  },
+  {
+    "address": "0xc38e6c5a5ee6a4dcb05d864c4112341bc9daef9e",
+    "nameTag": "MEV Bot: 0xC3...F9E"
+  },
+  {
+    "address": "0xc35d77d25d81be78ad60ce14fea7c92d438782e3",
+    "nameTag": "MEV Bot: 0xc35...2e3"
+  },
+  {
+    "address": "0xc358848e138ab73bd5b9ffcced25517f71101fb0",
+    "nameTag": "MEV Bot: 0xc35...fb0"
+  },
+  {
+    "address": "0xc35d0251737afd7efb83e4104260e2b60b99d752",
+    "nameTag": "MEV Bot: 0xc35…752"
+  },
+  {
+    "address": "0xc3b89ff2dd9128e9e77e20441b2536a7b0eef6c8",
+    "nameTag": "MEV Bot: 0xc3b…6c8"
+  },
+  {
+    "address": "0xc412560803c267517b6453103db75e231bd925df",
+    "nameTag": "MEV Bot: 0xc41...5Df"
+  },
+  {
+    "address": "0xc4595e3966e0ce6e3c46854647611940a09448d3",
+    "nameTag": "MEV Bot: 0xc459...8d3"
+  },
+  {
+    "address": "0xc5b97cc7718bc82cee93143d26fcfce2b6db96fd",
+    "nameTag": "MEV Bot: 0xc5...6FD"
+  },
+  {
+    "address": "0xc5a854bb08819db9f7ab61b7b25b55935504212b",
+    "nameTag": "MEV Bot: 0xc5a…12b"
+  },
+  {
+    "address": "0xc5a87e6c6fb14daad332614d8b727bdf80d7c801",
+    "nameTag": "MEV Bot: 0xc5a…801"
+  },
+  {
+    "address": "0xc5cfc9abcc7d45209bca2f52e115747e5e2df185",
+    "nameTag": "MEV Bot: 0xc5c…185"
+  },
+  {
+    "address": "0xc5ecee6d94f72b6c456e3032f383284cca36b70a",
+    "nameTag": "MEV Bot: 0xC5E...70a"
+  },
+  {
+    "address": "0xc5fba88735f1944c44a5fa96070a41461f37dbb1",
+    "nameTag": "MEV Bot: 0xc5f...bb1"
+  },
+  {
+    "address": "0xc6ccae10c4ce08ec0f604645ffd0daa3a6c9307a",
+    "nameTag": "MEV Bot: 0xC6c...07A"
+  },
+  {
+    "address": "0xc6fecdf760af24095cded954de7d81ab49f8bae1",
+    "nameTag": "MEV Bot: 0xc6f...ae1"
+  },
+  {
+    "address": "0xc758d5718147c8c5bc440098d623cf8d96b95b83",
+    "nameTag": "MEV Bot: 0xC75...b83"
+  },
+  {
+    "address": "0xc7f23c771883d363638450dc07c56a6e494bc3a9",
+    "nameTag": "MEV Bot: 0xC7F...3a9"
+  },
+  {
+    "address": "0xc8046263d5b5544f6413a98b4693488499195a46",
+    "nameTag": "MEV Bot: 0xC80...A46"
+  },
+  {
+    "address": "0xc83d02d366b882202828f47a1c6fecb8fee1192e",
+    "nameTag": "MEV Bot: 0xc83...92e"
+  },
+  {
+    "address": "0xc8b2bc817d049d2307cabf6eacbbc2603b011acf",
+    "nameTag": "MEV Bot: 0xc8b...ACf"
+  },
+  {
+    "address": "0xc90bffb8955e2d69780de7a43a11cf113d5e476d",
+    "nameTag": "MEV Bot: 0xc90...76d"
+  },
+  {
+    "address": "0xcab0197f41056857990da4cf3f964089bb5a103c",
+    "nameTag": "MEV Bot: 0xcab…03c"
+  },
+  {
+    "address": "0xcadf4ffa3c2fc4784ba064928f403aee7b02d80e",
+    "nameTag": "MEV Bot: 0xCaD...80e"
+  },
+  {
+    "address": "0xcb3702bc25b0f284b032e5edf1a1ebea2fe43255",
+    "nameTag": "MEV Bot: 0xcb3...255"
+  },
+  {
+    "address": "0xcb3a0940df2781ed8c0d07c536f7cc39ed4d933b",
+    "nameTag": "MEV Bot: 0xcb3...33b"
+  },
+  {
+    "address": "0xcbd75d63f98c5ff5d7157edf06abef8a8325c24d",
+    "nameTag": "MEV Bot: 0xCbD...24d"
+  },
+  {
+    "address": "0xcc2687c14915fd68226ccf388842515739a739bd",
+    "nameTag": "MEV Bot: 0xcc2…9bd"
+  },
+  {
+    "address": "0xcc8b749ef4438810dbb2c581c0c88167a351dc26",
+    "nameTag": "MEV Bot: 0xCc8...C26"
+  },
+  {
+    "address": "0xcda3d75a1a247bf3fa9efd0727db54d7cf0c90c2",
+    "nameTag": "MEV Bot: 0xCD...0C2"
+  },
+  {
+    "address": "0xcd9e13b2f3bfc26cd99989fb849a2751932595c4",
+    "nameTag": "MEV Bot: 0xCD9...5C4"
+  },
+  {
+    "address": "0xcec7be682732877075b1f04575bd13a221e32ecb",
+    "nameTag": "MEV Bot: 0xceC...Ecb"
+  },
+  {
+    "address": "0xcf60a6a8386278a833a7a8da016bb9b2ba23dc5f",
+    "nameTag": "MEV Bot: 0xcf6…c5f"
+  },
+  {
+    "address": "0xcf8b6eaaeb64aa685caada339ebe326d6c5feb66",
+    "nameTag": "MEV Bot: 0xcf8…b66"
+  },
+  {
+    "address": "0xcf99a481076186a44070c3158cf75c8cf00f84fc",
+    "nameTag": "MEV Bot: 0xCF9...4FC"
+  },
+  {
+    "address": "0xcfd4176f7975c70f800d87aeaca316270521595a",
+    "nameTag": "MEV Bot: 0xcFD...95a"
+  },
+  {
+    "address": "0xd050e0a4838d74769228b49dff97241b4ef3805d",
+    "nameTag": "MEV Bot: 0xD0...05d"
+  },
+  {
+    "address": "0xd234ca832efbd43819dcc96e25d0586d4e5d976f",
+    "nameTag": "MEV Bot: 0xd23...76F"
+  },
+  {
+    "address": "0xd241ed81b52a1b67098072b73f22fda9d253e827",
+    "nameTag": "MEV Bot: 0xD24...827"
+  },
+  {
+    "address": "0xd434cea7207d2e330dd1129d777191dee6b7c37d",
+    "nameTag": "MEV Bot: 0xD43...37D"
+  },
+  {
+    "address": "0xd542b64ba3da971d7fc29138ccb4bc88a09794a8",
+    "nameTag": "MEV Bot: 0xd54…4a8"
+  },
+  {
+    "address": "0xd59e5b41482ee6283c22e1a6a20756da512ffa97",
+    "nameTag": "MEV Bot: 0xd59...a97"
+  },
+  {
+    "address": "0xd7f3fbe8c72a961a5515203eada59750437fa762",
+    "nameTag": "MEV Bot: 0xD7f...762"
+  },
+  {
+    "address": "0xd89a0a4f088d9e47710e14257d4c5a7f9fd63c6d",
+    "nameTag": "MEV Bot: 0xd89...c6d"
+  },
+  {
+    "address": "0xd8c07491caa1edf960db3ceff387426d53942ea0",
+    "nameTag": "MEV Bot: 0xd8c...ea0"
+  },
+  {
+    "address": "0xd911560979b78821d7b045c79e36e9cbfc2f6c6f",
+    "nameTag": "MEV Bot: 0xD91...C6F"
+  },
+  {
+    "address": "0xda1ee2f81e5fc1c242343141f82ae3ac748e84aa",
+    "nameTag": "MEV Bot: 0xDA1...4aa"
+  },
+  {
+    "address": "0xdd28d64e40e00af54a0b5147539a515c4a0bc1c5",
+    "nameTag": "MEV Bot: 0xDD2...1c5"
+  },
+  {
+    "address": "0xdd4d3ed43e53185f4dbc467151ab2cb3142def52",
+    "nameTag": "MEV Bot: 0xDd4...f52"
+  },
+  {
+    "address": "0xdfee68a9adb981cd08699891a11cabe10f25ec44",
+    "nameTag": "MEV Bot: 0xDFe...c44"
+  },
+  {
+    "address": "0xdff523be6002e59a4a2242d99afccb502d4ed020",
+    "nameTag": "MEV Bot: 0xDfF...020"
+  },
+  {
+    "address": "0xe0966747fa192d165414d76f016ce9aafc153bf8",
+    "nameTag": "MEV Bot: 0xe0...bf8"
+  },
+  {
+    "address": "0xe06ffa8146bbdeccbaaf72b6043b29091071aeb8",
+    "nameTag": "MEV Bot: 0xE06...EB8"
+  },
+  {
+    "address": "0xe07025d4ce7881b7f50d4d6b954e43590dcb1092",
+    "nameTag": "MEV Bot: 0xe07...092"
+  },
+  {
+    "address": "0xe08beb8c48e71fd08560db2fbaaa0701b187c7a7",
+    "nameTag": "MEV Bot: 0xe08...7A7"
+  },
+  {
+    "address": "0xe0a9efe32985cc306255b395a1bd06d21ccead42",
+    "nameTag": "MEV Bot: 0xe0a...d42"
+  },
+  {
+    "address": "0xe1f08d771fb7b248b3266b7f79a9eafba3147c2d",
+    "nameTag": "MEV Bot: 0xe1f...c2D"
+  },
+  {
+    "address": "0xe27baebd7b14602de3797974db9f5f4f8dcb6679",
+    "nameTag": "MEV Bot: 0xe27…679"
+  },
+  {
+    "address": "0xe35f24470730f5a488da9721548c1ab0b65b53d5",
+    "nameTag": "MEV Bot: 0xe35...3d5"
+  },
+  {
+    "address": "0xe37b5e4de6c4c6e3a1b5d914722a7daaf37590d0",
+    "nameTag": "MEV Bot: 0xE37...0d0"
+  },
+  {
+    "address": "0xe6061c39edfd292b59ee34396ec367862225a801",
+    "nameTag": "MEV Bot: 0xE60...801"
+  },
+  {
+    "address": "0xe6ae75be7c9317af842b8f2c2cd6dc7f49f17184",
+    "nameTag": "MEV Bot: 0xe6A…184"
+  },
+  {
+    "address": "0xe70d15266f4f837cdb22bf8c394e2e6304615100",
+    "nameTag": "MEV Bot: 0xE7...100"
+  },
+  {
+    "address": "0xe756c0dd3e09f50b1d912826eef4b4751bdf9e8c",
+    "nameTag": "MEV Bot: 0xe75...E8C"
+  },
+  {
+    "address": "0xe7af5a2af83012c2b3298089b72f1369dbb0d63b",
+    "nameTag": "MEV Bot: 0xe7a…63b"
+  },
+  {
+    "address": "0xe8c060f8052e07423f71d445277c61ac5138a2e5",
+    "nameTag": "MEV Bot: 0xE8c...2e5"
+  },
+  {
+    "address": "0xe911519dc7f35996c6ad5c8a53e82b101af790d6",
+    "nameTag": "MEV Bot: 0xE9...0d6"
+  },
+  {
+    "address": "0xe9cbfec52ef797624ed941b0ed157607560f5167",
+    "nameTag": "MEV Bot: 0xE9...167"
+  },
+  {
+    "address": "0xe9137b423713667f6c3ac6565b81aa005640212c",
+    "nameTag": "MEV Bot: 0xe91...12C"
+  },
+  {
+    "address": "0xeaabd0e75e930f9f36b68be30202d47fd9b58b92",
+    "nameTag": "MEV Bot: 0xeaa…b92"
+  },
+  {
+    "address": "0xeb00c80f00ca1585000000b84f00940000ed40e5",
+    "nameTag": "MEV Bot: 0xEB0..0e5"
+  },
+  {
+    "address": "0xed77777586d73c58eb4d6bebdf9c85c2d5f56c2d",
+    "nameTag": "MEV Bot: 0xED7...C2d"
+  },
+  {
+    "address": "0xede2fafba9e23418485f49f052d0e1d332853e0f",
+    "nameTag": "MEV Bot: 0xEdE...E0F"
+  },
+  {
+    "address": "0xeeaa83b2d581a3a790774d4dae7bf354fffe3376",
+    "nameTag": "MEV Bot: 0xeEA...376"
+  },
+  {
+    "address": "0xeef86c2e49e11345f1a693675df9a38f7d880c8f",
+    "nameTag": "MEV Bot: 0xeef...c8f"
+  },
+  {
+    "address": "0xef1de056b83032d6d19796ef85e7e60d72281968",
+    "nameTag": "MEV Bot: 0xef1...968"
+  },
+  {
+    "address": "0xef6e90098e54aa0cbb26c5cc68e040a59fad8758",
+    "nameTag": "MEV Bot: 0xef6...758"
+  },
+  {
+    "address": "0xefe8abfb9684f621acc2524b841ead4a712e1fbb",
+    "nameTag": "MEV Bot: 0xeFe...FBB"
+  },
+  {
+    "address": "0xf095709c1bb6c2f241211506e1c2e7b7c6b6bd45",
+    "nameTag": "MEV Bot: 0xf09...d45"
+  },
+  {
+    "address": "0xf1243ea5b8b1ec27ee03c1c158a86470726e2905",
+    "nameTag": "MEV Bot: 0xf12...905"
+  },
+  {
+    "address": "0xf1645de0e8a40e99ebdfd0d03b0a1f5dab6a9976",
+    "nameTag": "MEV Bot: 0xf16…976"
+  },
+  {
+    "address": "0xf17131e60edb07d73f812058d50992639987665b",
+    "nameTag": "MEV Bot: 0xF17...65B"
+  },
+  {
+    "address": "0xf249cec5882bf45c028550de230aeb1a8f905597",
+    "nameTag": "MEV Bot: 0xF24...597"
+  },
+  {
+    "address": "0xf2a0aaecaeef1a00d1eb6178fb30de5695519abf",
+    "nameTag": "MEV Bot: 0xF2a...aBF"
+  },
+  {
+    "address": "0xf2bdcb1ec8810c35bf9b947371820c199bd775db",
+    "nameTag": "MEV Bot: 0xf2b...5dB"
+  },
+  {
+    "address": "0xf332720d9daded8da18740851dc38b84d0d74742",
+    "nameTag": "MEV Bot: 0xF33...742"
+  },
+  {
+    "address": "0xf35be9a9a0d4b67e776115fa3b6381986379894d",
+    "nameTag": "MEV Bot: 0xf35…94d"
+  },
+  {
+    "address": "0xf3676cdb9208ec6bba074d0c9aea6e59acd2ea0d",
+    "nameTag": "MEV Bot: 0xF36...A0D"
+  },
+  {
+    "address": "0xf3b2d1395cb4536a931b2fa53dc7687e4c6f5411",
+    "nameTag": "MEV Bot: 0xf3B...411"
+  },
+  {
+    "address": "0xf592225866662817e4b5a97028223b808bcc64d2",
+    "nameTag": "MEV Bot: 0xF59...4d2"
+  },
+  {
+    "address": "0xf5bf5dcdaa83fd358b5a4eced76f3b947542175a",
+    "nameTag": "MEV Bot: 0xf5b...75A"
+  },
+  {
+    "address": "0xf63c1cb797b78b54780df7efdf35378442d8392a",
+    "nameTag": "MEV Bot: 0xf6...92a"
+  },
+  {
+    "address": "0xf6d78d9c50ffbc2917e374fd185b8ff89c55effc",
+    "nameTag": "MEV Bot: 0xf6d...FFC"
+  },
+  {
+    "address": "0xf71530c1f043703085b42608ff9dcccc43210a8e",
+    "nameTag": "MEV Bot: 0xF71...a8E"
+  },
+  {
+    "address": "0xf76a6285f6342ecf1cb644a3bc10cbd6cc538f4e",
+    "nameTag": "MEV Bot: 0xf76…f4e"
+  },
+  {
+    "address": "0xf7c517e7e545d8f3286d336372b65995b81b91c2",
+    "nameTag": "MEV Bot: 0xf7c...1c2"
+  },
+  {
+    "address": "0xf8b721bff6bf7095a0e10791ce8f998baa254fd0",
+    "nameTag": "MEV Bot: 0xf8...Fd0"
+  },
+  {
+    "address": "0xf89bfb98e9a677ecd5b7606474c9cbe28b6735c4",
+    "nameTag": "MEV Bot: 0xF89...5c4"
+  },
+  {
+    "address": "0xfb5185b7f8c61f815b57de679bbc857f510352f7",
+    "nameTag": "MEV Bot: 0xfb5…2f7"
+  },
+  {
+    "address": "0xfbeedcfe378866dab6abbafd8b2986f5c1768737",
+    "nameTag": "MEV Bot: 0xfbe…737"
+  },
+  {
+    "address": "0xfbf6b914a5c1355db7a6aa63df81f24aca987358",
+    "nameTag": "MEV Bot: 0xFbf...358"
+  },
+  {
+    "address": "0xff2fbc735d33ae830f056107f1b551783ec4ed5b",
+    "nameTag": "MEV Bot: 0xFf2...d5B"
+  },
+  {
+    "address": "0xff62dfadca3b5643d0b283571fe154d886580c0c",
+    "nameTag": "MEV Bot: 0xFf6...c0c"
+  },
+  {
+    "address": "0xf4b7090a6dca5240c2b41abcb4f5b32443fbb4f8",
+    "nameTag": "MEV Bot: Blox Router V1"
+  },
+  {
+    "address": "0x93f9a668dccc090f63b0ec27d809527dc2f0ebba",
+    "nameTag": "Multichain (Anyswap): Whitehat Rescue 3"
+  }
+]

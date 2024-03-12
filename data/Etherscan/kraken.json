@@ -1,0 +1,154 @@
+[
+  {
+    "address": "0x2910543af39aba0cd09dbb2d50200b3e800a63d2",
+    "nameTag": "Kraken"
+  },
+  {
+    "address": "0xae2d4617c862309a3d75a0ffb358c7a5009c673f",
+    "nameTag": "Kraken 10"
+  },
+  {
+    "address": "0x43984d578803891dfa9706bdeee6078d80cfc79e",
+    "nameTag": "Kraken 11"
+  },
+  {
+    "address": "0x66c57bf505a85a74609d2c83e94aabb26d691e1f",
+    "nameTag": "Kraken 12"
+  },
+  {
+    "address": "0xda9dfa130df4de4673b89022ee50ff26f6ea73cf",
+    "nameTag": "Kraken 13"
+  },
+  {
+    "address": "0xa83b11093c858c86321fbc4c20fe82cdbd58e09e",
+    "nameTag": "Kraken 14"
+  },
+  {
+    "address": "0xce27fc71139d02f9a3d5cc1356add185750660ac",
+    "nameTag": "Kraken 15"
+  },
+  {
+    "address": "0x0d0452f487d1edc869d1488ae984590ca2900d2f",
+    "nameTag": "Kraken 16"
+  },
+  {
+    "address": "0x6d0cf1f651f5ae585d24dcaa188d44e389e93d26",
+    "nameTag": "Kraken 17"
+  },
+  {
+    "address": "0x735fd3c55a8be1aeb3544c7e29eba3ea23500a1c",
+    "nameTag": "Kraken 18"
+  },
+  {
+    "address": "0xfedac45de308e24b8282193c512f029250943d8a",
+    "nameTag": "Kraken 19"
+  },
+  {
+    "address": "0x0a869d79a7052c7f1b55a8ebabbea3420f0d1e13",
+    "nameTag": "Kraken 2"
+  },
+  {
+    "address": "0x098cbdd8eb01b19d37539644821772e9bde12d55",
+    "nameTag": "Kraken 20"
+  },
+  {
+    "address": "0x9ee32359b180ff684a315053e418aaf223932cb9",
+    "nameTag": "Kraken 21"
+  },
+  {
+    "address": "0x491f5512751f5db45c5415049d423affaae70392",
+    "nameTag": "Kraken 22"
+  },
+  {
+    "address": "0x34036f30371847c9fd8036b7ea5af1b3126306dc",
+    "nameTag": "Kraken 23"
+  },
+  {
+    "address": "0x62ac55b745f9b08f1a81dcbbe630277095cf4be1",
+    "nameTag": "Kraken 24"
+  },
+  {
+    "address": "0x10593a64b7b7bb0ea29b8c01f1619ca8ff294b2f",
+    "nameTag": "Kraken 25"
+  },
+  {
+    "address": "0x60637c83bd6aea40d637d91cca8d724272b2d5fa",
+    "nameTag": "Kraken 26"
+  },
+  {
+    "address": "0xa939bffb33bed18dc0063737cb9ea41a1fdb2fe3",
+    "nameTag": "Kraken 27"
+  },
+  {
+    "address": "0x5c5f75b6fba2903adf66c7bddcea99b4cce44a8a",
+    "nameTag": "Kraken 28"
+  },
+  {
+    "address": "0xa861678bee80035114b47615142e9302139a8c32",
+    "nameTag": "Kraken 29"
+  },
+  {
+    "address": "0xe853c56864a2ebe4576a807d26fdc4a0ada51919",
+    "nameTag": "Kraken 3"
+  },
+  {
+    "address": "0xe52ecf8d97e290dad5963296c5d1f81472f2ec48",
+    "nameTag": "Kraken 30"
+  },
+  {
+    "address": "0x5203aeaaee721195707b01e613b6c3259b3a5cf6",
+    "nameTag": "Kraken 31"
+  },
+  {
+    "address": "0x71beefcf9f31872ccec0bc9789f211609685205a",
+    "nameTag": "Kraken 32"
+  },
+  {
+    "address": "0x16b2b042f15564bb8585259f535907f375bdc415",
+    "nameTag": "Kraken 33"
+  },
+  {
+    "address": "0x8ab54f9e6df35b26168847ea93dab9659ecf286d",
+    "nameTag": "Kraken 34"
+  },
+  {
+    "address": "0x267be1c1d684f78cb4f6a176c4911b741e4ffdc0",
+    "nameTag": "Kraken 4"
+  },
+  {
+    "address": "0xfa52274dd61e1643d2205169732f29114bc240b3",
+    "nameTag": "Kraken 5"
+  },
+  {
+    "address": "0x53d284357ec70ce289d6d64134dfac8e511c8a3d",
+    "nameTag": "Kraken 6"
+  },
+  {
+    "address": "0x89e51fa8ca5d66cd220baed62ed01e8951aa7c40",
+    "nameTag": "Kraken 7"
+  },
+  {
+    "address": "0xc6bed363b30df7f35b601a5547fe56cd31ec63da",
+    "nameTag": "Kraken 8"
+  },
+  {
+    "address": "0x29728d0efd284d85187362faa2d4d76c2cfc2612",
+    "nameTag": "Kraken 9"
+  },
+  {
+    "address": "0x2e7542ec36df6429d8c397f88c4cf0c925948f44",
+    "nameTag": "Kraken: Deployer 1"
+  },
+  {
+    "address": "0xa24787320ede4cc19d800bf87b41ab9539c4da9d",
+    "nameTag": "Kraken: Deployer 2"
+  },
+  {
+    "address": "0xe9f7ecae3a53d2a67105292894676b00d1fab785",
+    "nameTag": "Kraken: Hot Wallet"
+  },
+  {
+    "address": "0xe1498a9ef5c6aa51790a642f70c31238326b1724",
+    "nameTag": "Kraken: MANA Token Wallet"
+  }
+]
