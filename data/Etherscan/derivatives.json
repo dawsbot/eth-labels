@@ -1,0 +1,82 @@
+[
+  {
+    "address": "0x03bdf69b1322d623836afbd27679a1c0afa067e9",
+    "nameTag": "AscendEX 1"
+  },
+  {
+    "address": "0xab83d182f3485cf1d6ccdd34c7cfef95b4c08da4",
+    "nameTag": "Binance JEX"
+  },
+  {
+    "address": "0x904cc2b2694ffa78f04708d6f7de205108213126",
+    "nameTag": "Deribit"
+  },
+  {
+    "address": "0xa0f6121319a34f24653fb82addc8dd268af5b9e1",
+    "nameTag": "Deribit 2"
+  },
+  {
+    "address": "0x062448f804191128d71fc72e10a1d13bd7308e7e",
+    "nameTag": "Deribit 3"
+  },
+  {
+    "address": "0xa7e15ef7c01b58ebe5ef74aa73625ae4b11fe754",
+    "nameTag": "Deribit 4"
+  },
+  {
+    "address": "0x6b378be3c9642ccf25b1a27facb8ace24ac34a12",
+    "nameTag": "Deribit 5"
+  },
+  {
+    "address": "0x2eed6a08fb89a5cd111efa33f8dca46cfbeb370f",
+    "nameTag": "Deribit 6"
+  },
+  {
+    "address": "0xcfee6efec3471874022e205f4894733c42cbbf64",
+    "nameTag": "Deribit 7"
+  },
+  {
+    "address": "0x5f397b62502e255f68382791947d54c4b2d37f09",
+    "nameTag": "Deribit 8"
+  },
+  {
+    "address": "0x77021d475e36b3ab1921a0e3a8380f069d3263de",
+    "nameTag": "Deribit 9"
+  },
+  {
+    "address": "0x0d0707963952f2fba59dd06f2b425ace40b492fe",
+    "nameTag": "Gate.io"
+  },
+  {
+    "address": "0xab5c66752a9e8167967685f1450532fb96d5d24f",
+    "nameTag": "HTX 1"
+  },
+  {
+    "address": "0xe3c29ce0c36863fd682f1afe464781df6bebaa0a",
+    "nameTag": "MCDEX: BTC Perpetual"
+  },
+  {
+    "address": "0xfa203e643d1fddc5d8b91253ea23b3bd826cae9e",
+    "nameTag": "MCDEX: COMP Perpetual"
+  },
+  {
+    "address": "0x220a9f0dd581cbc58fcfb907de0454cbf3777f76",
+    "nameTag": "MCDEX: ETH Perpetual"
+  },
+  {
+    "address": "0xd48c88a18bfa81486862c6d1d172a39f1365e8ac",
+    "nameTag": "MCDEX: LEND Perpetual"
+  },
+  {
+    "address": "0xa04197e5f7971e7aef78cf5ad2bc65aac1a967aa",
+    "nameTag": "MCDEX: LINK Perpetual"
+  },
+  {
+    "address": "0x4cc89906db523af7c3bb240a959be21cb812b434",
+    "nameTag": "MCDEX: SNX Perpetual"
+  },
+  {
+    "address": "0x6cc5f688a315f3dc28a7781717a9a798a59fda7b",
+    "nameTag": "OKX"
+  }
+]

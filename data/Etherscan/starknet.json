@@ -1,0 +1,70 @@
+[
+  {
+    "address": "0x9f96fe0633ee838d0298e8b8980e6716be81388d",
+    "nameTag": "StarkGate: DAI Bridge"
+  },
+  {
+    "address": "0x659a00c33263d9254fed382de81349426c795bb6",
+    "nameTag": "StarkGate: Deprecated - DAI Bridge"
+  },
+  {
+    "address": "0xbf67f59d2988a46fbff7ed79a621778a3cd3985b",
+    "nameTag": "StarkGate: wstETH Bridge"
+  },
+  {
+    "address": "0xc662c410c0ecf747543f5ba90660f6abebd9c8c4",
+    "nameTag": "Starknet: Core Contract"
+  },
+  {
+    "address": "0x0437465dfb5b79726e35f08559b0cbea55bb585c",
+    "nameTag": "StarkNet: L1 Escrow"
+  },
+  {
+    "address": "0x96375087b2f6efc59e5e0dd5111b4d090ebfdd8b",
+    "nameTag": "StarkNet: Memory Page Fact Registry"
+  },
+  {
+    "address": "0x2c169dfe5fbba12957bdd0ba47d9cedbfe260ca7",
+    "nameTag": "StarkNet: Operator"
+  },
+  {
+    "address": "0xae0ee0a63a2ce6baeeffe56e7714fb4efe48d419",
+    "nameTag": "Starknet: StarkGate ETH Bridge"
+  },
+  {
+    "address": "0xdc687e1e0b85cb589b2da3c47c933de9db3d1ebb",
+    "nameTag": "Starknet: StarkGate FRAX Bridge"
+  },
+  {
+    "address": "0x66ba83ba3d3ad296424a2258145d9910e9e40b7c",
+    "nameTag": "Starknet: StarkGate FXS Bridge"
+  },
+  {
+    "address": "0xf3f62f23df9c1d2c7c63d9ea6b90e8d24c7e3df5",
+    "nameTag": "Starknet: StarkGate LUSD Bridge"
+  },
+  {
+    "address": "0xb27d0dcafd63db302c155c8864886f33bd2a41e5",
+    "nameTag": "Starknet: StarkGate R Bridge"
+  },
+  {
+    "address": "0xcf58536d6fab5e59b654228a5a4ed89b13a876c2",
+    "nameTag": "Starknet: StarkGate rETH Bridge"
+  },
+  {
+    "address": "0xd8e8531fdd446df5298819d3bc9189a5d8948ee8",
+    "nameTag": "Starknet: StarkGate sfrxETH Bridge"
+  },
+  {
+    "address": "0xf6080d9fbeebcd44d89affbfd42f098cbff92816",
+    "nameTag": "Starknet: StarkGate USDC Bridge"
+  },
+  {
+    "address": "0xbb3400f107804dfb482565ff1ec8d8ae66747605",
+    "nameTag": "Starknet: StarkGate USDT Bridge"
+  },
+  {
+    "address": "0x283751a21eafbfcd52297820d27c1f1963d9b5b4",
+    "nameTag": "Starknet: StarkGate WBTC Bridge"
+  }
+]

@@ -1,0 +1,26 @@
+[
+  {
+    "address": "0x4946fcea7c692606e8908002e55a582af44ac121",
+    "nameTag": "FOAM: FOAM Token"
+  },
+  {
+    "address": "0x3061cfbae69bff0f933353cea20de6c89ab16acc",
+    "nameTag": "FOAM: MultiSig"
+  },
+  {
+    "address": "0x2832373dddad96bbfb44f1b7da11b6541026bf40",
+    "nameTag": "FOAM: Registry"
+  },
+  {
+    "address": "0x36f16a0d35b866cdd0f3c3fa39e2ba8f48b099d2",
+    "nameTag": "FOAM: Signal"
+  },
+  {
+    "address": "0x66f27365d66c0e8ad4ef87db8cb4af63ce874b7b",
+    "nameTag": "FOAM: TCR Voting"
+  },
+  {
+    "address": "0x01ed068115ba99b94c65c7791d4ac5dee1253835",
+    "nameTag": "FOAM: Treasure Hunt"
+  }
+]

@@ -1,0 +1,14 @@
+[
+  {
+    "address": "0x1e9f6746147e937e8e1c29180e15af0bd5fd64bb",
+    "nameTag": "Giveth: Escape Hatch Caller"
+  },
+  {
+    "address": "0x16fda2fcc887dd7ac65c46be144473067cff8654",
+    "nameTag": "Giveth: Escape Hatch Destination"
+  },
+  {
+    "address": "0x30f938fed5de6e06a9a7cd2ac3517131c317b1e7",
+    "nameTag": "Giveth: Trace Bridge"
+  }
+]

@@ -1,0 +1,238 @@
+[
+  {
+    "address": "0x13c2263e534bd27149d96b8cb9961ea1beb560ef",
+    "nameTag": "Enzyme Finance: Idle Price Feed"
+  },
+  {
+    "address": "0x0bad0886c5976072549687d5ffcd26803c5ba167",
+    "nameTag": "Enzyme Finance: Aave Integration Adapter"
+  },
+  {
+    "address": "0x4e49a272dc42e26c8772de366aaa93d1ac816794",
+    "nameTag": "Enzyme Finance: Aave Price Feed"
+  },
+  {
+    "address": "0xa2a031b137452986b0e8fa32c9430d29b9b0494f",
+    "nameTag": "Enzyme Finance: Adapter Blacklist"
+  },
+  {
+    "address": "0x306f571110c5441a8481d3cd7e8b16a7e2e967e3",
+    "nameTag": "Enzyme Finance: Adapter Whitelist"
+  },
+  {
+    "address": "0x2e45f9b3fd5871ccaf4eb415dfccbdd126f57c4f",
+    "nameTag": "Enzyme Finance: Aggregated Derivative Price Feed"
+  },
+  {
+    "address": "0x63765ae5df9bb8af9d8bc976e595b79907cf341c",
+    "nameTag": "Enzyme Finance: AlphaHomora V1 Adapter"
+  },
+  {
+    "address": "0x1a8b4f6d469ee775d5982c4d4aab46677c2c92d4",
+    "nameTag": "Enzyme Finance: AlphaHomora V1 Price Feed"
+  },
+  {
+    "address": "0xdc1e40174ad831e505e8191881a66e90c3681e33",
+    "nameTag": "Enzyme Finance: Asset Blacklist"
+  },
+  {
+    "address": "0xa3b7b872407452e38dffaca8da2db3ed6d756ad1",
+    "nameTag": "Enzyme Finance: Asset Whitelist"
+  },
+  {
+    "address": "0xbc91dcc90ccdd0b51e3c623528cb886358c60105",
+    "nameTag": "Enzyme Finance: Buy Shares Caller Whitelist"
+  },
+  {
+    "address": "0x1fad8faf11e027f8630f394599830dbeb97004ee",
+    "nameTag": "Enzyme Finance: Chainlink Price Feed"
+  },
+  {
+    "address": "0xb7bfd3582582a82ef2a2f0df0adf705f35a07d4b",
+    "nameTag": "Enzyme Finance: Compound Adapter"
+  },
+  {
+    "address": "0x6d7f71cc3109d4132ad6124d84e72e353b979880",
+    "nameTag": "Enzyme Finance: Compound Price Feed"
+  },
+  {
+    "address": "0x1a7cbedf13e25818dc377d2b1277e03e5d496300",
+    "nameTag": "Enzyme Finance: ComptrollerLib"
+  },
+  {
+    "address": "0x1990d8bc382d38fa21ee3b570e9d1e6272152165",
+    "nameTag": "Enzyme Finance: Curve Exchange Adapter"
+  },
+  {
+    "address": "0x78ba80c8517a4f3146fd76a3642fa57b77f331eb",
+    "nameTag": "Enzyme Finance: Curve Liquidity Aave Adapter"
+  },
+  {
+    "address": "0xee91e3bb4752f358ddaac6ab825536698b239546",
+    "nameTag": "Enzyme Finance: Curve Liquidity Seth Adapter"
+  },
+  {
+    "address": "0x6367bb496390ddf0ef508db2992f53dbf376b1f4",
+    "nameTag": "Enzyme Finance: Curve Liquidity Steth Adapter"
+  },
+  {
+    "address": "0xc106f1b01017c854a9cd2d88db733408236dd809",
+    "nameTag": "Enzyme Finance: Curve Price Feed"
+  },
+  {
+    "address": "0x0d580ae50b58fe08514deab4e38c0dfdb0d30adc",
+    "nameTag": "Enzyme Finance: Deployer"
+  },
+  {
+    "address": "0xc3dc853dd716bd5754f421ef94fdcbac3902ab32",
+    "nameTag": "Enzyme Finance: Dispatcher"
+  },
+  {
+    "address": "0x27f74b89b29508091014487253d8d9b88aa0264a",
+    "nameTag": "Enzyme Finance: Entrance Rate Burn Fee"
+  },
+  {
+    "address": "0x30a398eb63b62bf2865f90e37752c8300ef22f05",
+    "nameTag": "Enzyme Finance: Entrance Rate Direct Fee"
+  },
+  {
+    "address": "0x5d0a363e9a17fb839e2843ffa93c808cdafccb67",
+    "nameTag": "Enzyme Finance: Fee Manger"
+  },
+  {
+    "address": "0xbc9a63cad5a825bd5854abca4f3d42d6acf9bffa",
+    "nameTag": "Enzyme Finance: Fund Actions Wrapper"
+  },
+  {
+    "address": "0x7e6d3b1161df9c9c7527f68d651b297d2fdb820b",
+    "nameTag": "Enzyme Finance: Fund Deployer"
+  },
+  {
+    "address": "0x08d4225f0995d770c4c8ea85380602b3499164a9",
+    "nameTag": "Enzyme Finance: Guaranteed Redemption"
+  },
+  {
+    "address": "0x649b6cc835c8fe3d3b94b6a9c155f791bf500dfe",
+    "nameTag": "Enzyme Finance: Idle Adapter"
+  },
+  {
+    "address": "0x965ca477106476b4600562a2ebe13536581883a6",
+    "nameTag": "Enzyme Finance: Integration Manager"
+  },
+  {
+    "address": "0x11d8d414724281bd702838ba16c8f15f7c473e9a",
+    "nameTag": "Enzyme Finance: Lido Steth Price Feed"
+  },
+  {
+    "address": "0x45f1b268cc6412b454dae20f8971fc4a36af0d29",
+    "nameTag": "Enzyme Finance: Management Fee"
+  },
+  {
+    "address": "0xdee63b253432a443a09bf8461f20256d184319de",
+    "nameTag": "Enzyme Finance: Max Concentration"
+  },
+  {
+    "address": "0x016a7287f0fdbdce5f903334f574b2238be3fa25",
+    "nameTag": "Enzyme Finance: Min Max Investment"
+  },
+  {
+    "address": "0xec67005c4e498ec7f55e092bd1d35cbc47c91892",
+    "nameTag": "Enzyme Finance: MLN Token"
+  },
+  {
+    "address": "0x8ea6ca02274e1b05b70c11058213adc667258c3d",
+    "nameTag": "Enzyme Finance: ParaSwap V4 Adapter"
+  },
+  {
+    "address": "0x3c3f9143a15042b69eb314cac211688a4e71a087",
+    "nameTag": "Enzyme Finance: Performance Fee"
+  },
+  {
+    "address": "0x0bd9f0465d21d4c300c7b8d781a013bdc87a31e8",
+    "nameTag": "Enzyme Finance: Policy Manager"
+  },
+  {
+    "address": "0xd3c515ead7bcc7451cd920e066c4a1849b827dfd",
+    "nameTag": "Enzyme Finance: Stakehound Eth Price Feed"
+  },
+  {
+    "address": "0x07698c3fa26a62ec6320872bf2950ba160a2dd7c",
+    "nameTag": "Enzyme Finance: Synthetix Adapter"
+  },
+  {
+    "address": "0x2e8b6455cb06463a523d3318f2cdc6a55ed45118",
+    "nameTag": "Enzyme Finance: Tracked Assets Adapter"
+  },
+  {
+    "address": "0x8481150a0f36c98ee859e6c7b46d61fdd836768f",
+    "nameTag": "Enzyme Finance: Uniswap V2 Adapter"
+  },
+  {
+    "address": "0x37ffb1842ef012d83a6ffdc92a6353044ae0e3e8",
+    "nameTag": "Enzyme Finance: Uniswap V2 Pool Price Feed"
+  },
+  {
+    "address": "0x10a5624840ac07287f756777df1dec34d2c2d654",
+    "nameTag": "Enzyme Finance: Value Interpreter"
+  },
+  {
+    "address": "0x1b3694907ed7459c7b0116e7c6a4b7788288577f",
+    "nameTag": "Enzyme Finance: Vault Lib"
+  },
+  {
+    "address": "0x76b548553d4e729c81e8ae8ab826795bd88ba9e7",
+    "nameTag": "Enzyme Finance: Wdgld Price Feed"
+  },
+  {
+    "address": "0x2c7cf699e9e2bf78020ad8a6b4faa28ee6722b7b",
+    "nameTag": "Melon Fund: Authority"
+  },
+  {
+    "address": "0x3875151e877cb7c048d9b8f5045debf46babe02b",
+    "nameTag": "Melon Fund: Canonical Price Feed"
+  },
+  {
+    "address": "0x9c76c260d4e72b87b398635313d3fab11e83b7b3",
+    "nameTag": "Melon Fund: Compliance"
+  },
+  {
+    "address": "0x630f5e265112db10d1e7820e26718172a12bd084",
+    "nameTag": "Melon Fund: Governance"
+  },
+  {
+    "address": "0x752e85ae6297b17f42c1619008ad8c2271f1c30f",
+    "nameTag": "Melon Fund: Matching Market Adapter"
+  },
+  {
+    "address": "0xb4daca5ea0de976da3304ba86e806ecb293d49bf",
+    "nameTag": "Melon Fund: Olympiad"
+  },
+  {
+    "address": "0xe52ee3db0587170deb20b1c71b17229a28b79a9b",
+    "nameTag": "Melon Fund: Ranking"
+  },
+  {
+    "address": "0xdb0e414f86f94e69b5be00b5df8a85f793f94aca",
+    "nameTag": "Melon Fund: Risk Mgmt"
+  },
+  {
+    "address": "0x073c4ea5a89d0e5aa0408a1b6dd8bbfcdba985c0",
+    "nameTag": "Melon Fund: Version"
+  },
+  {
+    "address": "0x4a3943269c581efcbd0875a7c60da1c35a7c85c2",
+    "nameTag": "Melon Fund: ZeroEx V1 Adapter"
+  },
+  {
+    "address": "0xbeb9ef514a379b997e0798fdcc901ee474b6d9a1",
+    "nameTag": "Melon: Old Token"
+  },
+  {
+    "address": "0x3c75d37b579e0e4896f02c0122baa4de05383a6a",
+    "nameTag": "Melon: Spender Address"
+  },
+  {
+    "address": "0x3bf541f87056d134e0109be1be92978b26cb09e0",
+    "nameTag": "Melonport: Token Sale"
+  }
+]

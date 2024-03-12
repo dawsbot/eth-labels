@@ -1,0 +1,34 @@
+[
+  {
+    "address": "0xb1690c08e213a35ed9bab7b318de14420fb57d8c",
+    "nameTag": "CryptoKitties: Sales Auction"
+  },
+  {
+    "address": "0xc7af99fe5513eb6710e6d5f44f9989da40f27f26",
+    "nameTag": "CryptoKitties: Siring Auction"
+  },
+  {
+    "address": "0x096be08d7d1caeea6583eab6b75a0f5eaab012a5",
+    "nameTag": "Devcon 5: Auction"
+  },
+  {
+    "address": "0x1d0dcc8d8bcafa8e8502beaeef6cbd49d3affcdc",
+    "nameTag": "Gnosis: Dutch Auction"
+  },
+  {
+    "address": "0x9d9bcdd249e439aaab545f59a33812e39a8e3072",
+    "nameTag": "Metronome: Auctions"
+  },
+  {
+    "address": "0xb5e5585d0057501c91c48094029a6f4fb10b5a01",
+    "nameTag": "Raiden: Token Auction"
+  },
+  {
+    "address": "0xe23fb31dd2edacebf7d92720358bb92445f47fdb",
+    "nameTag": "Set: Rebalance Auction Module"
+  },
+  {
+    "address": "0x7255e01f934307ffb7a41fc78b6b1688f5dc6845",
+    "nameTag": "Trustlines: Validator Auction"
+  }
+]

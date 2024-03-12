@@ -37,7 +37,7 @@ const selectAllAnchors = (html: string): ReadonlyArray<string> => {
 };
 
 type AllLabels = {
-  accounts: ReadonlyArray<string>;
+  accounts: Array<string>;
   tokens: ReadonlyArray<string>;
   blocks: ReadonlyArray<string>;
 };
@@ -91,7 +91,12 @@ async function fetchPageHtml(
   await page.goto(url);
 
   // console.log({ url });
-  await page.waitForSelector(waitForSelector, { timeout: 10_000 });
+  try{
+    await page.waitForSelector(waitForSelector, { timeout: 10_000 });
+  }catch(error){
+    parseError(error);
+  }
+
 
   // Get the HTML content of the entire page
   const pageContent = await page.content();
@@ -140,21 +145,28 @@ async function signInToEtherscan(page: Page) {
   await page.waitForNavigation();
 }
 
+async function pullFromTable(url,page){
+  const addressesHtml = await fetchPageHtml(
+    url,
+    page,
+    `a[aria-label="Copy Address"]`,
+  );
+  const allAddresses = selectAllAddresses(addressesHtml);
+  return allAddresses
+}
+
 (async () => {
   try {
     const { browser, page } = await openBrowser();
     await signInToEtherscan(page);
     const allLabels = await fetchAllLabels(page);
     for (const url of allLabels.accounts) {
-      const addressesHtml = await fetchPageHtml(
-        url,
-        page,
-        `a[aria-label="Copy Address"]`,
-      );
-      const allAddresses = selectAllAddresses(addressesHtml);
+      
+      await sleep(Math.random() * 4000 + 1000);
+      const allAddresses = await pullFromTable(url,page);
       const labelName = url.split("/").pop()?.split("?")[0];
       fs.writeFileSync(
-        path.join(__dirname, "..", "data", `${labelName}.json`),
+        path.join(__dirname, "..", "data","Etherscan", `${labelName}.json`),
         JSON.stringify(allAddresses, null, 2),
       );
       console.dir({ url, allAddresses, length: allAddresses.length });

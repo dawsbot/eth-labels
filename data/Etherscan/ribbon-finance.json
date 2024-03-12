@@ -1,0 +1,58 @@
+[
+  {
+    "address": "0xe63151a0ed4e5fafdc951d877102cf0977abd365",
+    "nameTag": "Ribbon Finance: AAVE Covered Call V2"
+  },
+  {
+    "address": "0xea26a24cd2a56314ebc87fa7838f08f918a03adb",
+    "nameTag": "Ribbon Finance: Corporate Property"
+  },
+  {
+    "address": "0x69fe2573cef2837f5ce9b9c9fad81a107df50bbd",
+    "nameTag": "Ribbon Finance: Deployer"
+  },
+  {
+    "address": "0x25751853eab4d0eb3652b5eb6ecb102a2789644b",
+    "nameTag": "Ribbon Finance: ETH Covered Call V2"
+  },
+  {
+    "address": "0x0fabaf48bbf864a3947bdd0ba9d764791a60467a",
+    "nameTag": "Ribbon Finance: ETH Covered Call Vault"
+  },
+  {
+    "address": "0x16772a7f4a3ca291c21b8ace76f9332ddffbb5ef",
+    "nameTag": "Ribbon Finance: ETH Put-Selling Vault"
+  },
+  {
+    "address": "0xcc323557c71c0d1d20a1861dc69c06c5f3cc9624",
+    "nameTag": "Ribbon Finance: ETH Put-Selling Vault V2"
+  },
+  {
+    "address": "0x8fe74471f198e426e96be65f40eed1f8ba96e54f",
+    "nameTag": "Ribbon Finance: ETH Put-Selling yvUSDC Vault V2"
+  },
+  {
+    "address": "0xdaeada3d210d2f45874724beea03c7d4bbd41674",
+    "nameTag": "Ribbon Finance: Multisig"
+  },
+  {
+    "address": "0x6123b0049f904d730db3c36a31167d9d4121fa6b",
+    "nameTag": "Ribbon Finance: RBN Token"
+  },
+  {
+    "address": "0x53773e034d9784153471813dacaff53dbbb78e8c",
+    "nameTag": "Ribbon Finance: stETH Covered Call Vault"
+  },
+  {
+    "address": "0x6adeb4fddb63f08e03d6f5b9f653be8b65341b35",
+    "nameTag": "Ribbon Finance: Treasury"
+  },
+  {
+    "address": "0x65a833afdc250d9d38f8cd9bc2b1e3132db13b2f",
+    "nameTag": "Ribbon Finance: WBTC Covered Call V2"
+  },
+  {
+    "address": "0x8b5876f5b0bf64056a89aa7e97511644758c3e8c",
+    "nameTag": "Ribbon Finance: WBTC Covered Call Vault"
+  }
+]

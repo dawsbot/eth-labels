@@ -1,0 +1,42 @@
+[
+  {
+    "address": "0x0e13ab042ec5ab9fc6f43979406088b9028f66fa",
+    "nameTag": "Unit Protocol: CDP Manager 01"
+  },
+  {
+    "address": "0xad3617d11f4c1d30603551ea75e9ace9cb386e15",
+    "nameTag": "Unit Protocol: CDP Manager01_Fallback"
+  },
+  {
+    "address": "0x921985f4220e33c202fbb3b7ddc92f46fb219a09",
+    "nameTag": "Unit Protocol: Deployer"
+  },
+  {
+    "address": "0xf827ac3a510eca8d7f356c9c9d78699d5848cabf",
+    "nameTag": "Unit Protocol: Deployer 1"
+  },
+  {
+    "address": "0x92e187a03b6cd19cb6af293ba17f2745fd2357d5",
+    "nameTag": "Unit Protocol: DUCK Token"
+  },
+  {
+    "address": "0xb1cff81b9305166ff1efc49a129ad2afcd7bcf19",
+    "nameTag": "Unit Protocol: FTM Vault"
+  },
+  {
+    "address": "0xaef1ed4c492bf4c57221be0706def67813d79955",
+    "nameTag": "Unit Protocol: Liquidation Auction 02"
+  },
+  {
+    "address": "0x1456688345527be1f37e9e627da0837d6f08c925",
+    "nameTag": "Unit Protocol: USDP Stablecoin"
+  },
+  {
+    "address": "0x203153522b9eaef4ae17c6e99851ee7b2f7d312e",
+    "nameTag": "Unit Protocol: Vault Manager Parameters"
+  },
+  {
+    "address": "0xb46f8cf42e504efe8bef895f848741daa55e9f1d",
+    "nameTag": "Unit Protocol: Vault Parameters"
+  }
+]

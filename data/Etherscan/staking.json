@@ -1,0 +1,150 @@
+[
+  {
+    "address": "0x887e81cab04461620a5ff196048bba38d9dc96e4",
+    "nameTag": "UNCX Network: Staking pool Tier 1"
+  },
+  {
+    "address": "0x2a17c35ff147b32f13f19f2e311446eeb02503f3",
+    "nameTag": "0x: Staking"
+  },
+  {
+    "address": "0xa26e80e7dea86279c6d778d702cc413e6cffa777",
+    "nameTag": "0x: Staking Proxy V3"
+  },
+  {
+    "address": "0xba7f8b5fb1b19c1211c5d49550fcd149177a5eaf",
+    "nameTag": "0x: ZRX Vault V3"
+  },
+  {
+    "address": "0xe194d30afdbae89b3118b8b7bc7b331cc3333b88",
+    "nameTag": "Accumulated Finance: stACME Staking Rewards"
+  },
+  {
+    "address": "0x5954ab967bc958940b7eb73ee84797dc8a2afbb9",
+    "nameTag": "Apecoin: Staking"
+  },
+  {
+    "address": "0x1ce8aafb51e79f6bdc0ef2ebd6fd34b00620f6db",
+    "nameTag": "diva: stETH Vault"
+  },
+  {
+    "address": "0x18305daae09ea2f4d51faa33318be5978d251abd",
+    "nameTag": "Fei Protocol: Staking"
+  },
+  {
+    "address": "0x12f208476f64de6e6f933e55069ba9596d818e08",
+    "nameTag": "Flexacoin: Staking"
+  },
+  {
+    "address": "0x3f56dcb73924f3f96be5b98916be80dfe5bdff9b",
+    "nameTag": "FlipToken: Staking"
+  },
+  {
+    "address": "0xc68844cd3ba9d3ad88f2cc278213f64b8c0bcddf",
+    "nameTag": "KawaFarm Staking Contract"
+  },
+  {
+    "address": "0xecf0bdb7b3f349abfd68c3563678124c5e8aaea3",
+    "nameTag": "Kyber: Staking"
+  },
+  {
+    "address": "0x55032650b14df07b85bf18a3a3ec8e0af2e028d5",
+    "nameTag": "Lido: Curated Staking Module"
+  },
+  {
+    "address": "0xfddf38947afb03c621c71b06c9c70bce73f12999",
+    "nameTag": "Lido: Staking Router"
+  },
+  {
+    "address": "0xf4662bb1c4831fd411a95b8050b3a5998d8a4a5b",
+    "nameTag": "Loopring: Staking Pool"
+  },
+  {
+    "address": "0xb67d7a6644d9e191cac4da2b88d6817351c7ff62",
+    "nameTag": "LuaSwap: Master Farmer LP Staking Pool"
+  },
+  {
+    "address": "0x154bc860a7a4668bca3b801ddb01d606baf7f8f5",
+    "nameTag": "Lumos.Finance: Staking Contract"
+  },
+  {
+    "address": "0x640747c84736f9c2390613089c66fe418c658cf7",
+    "nameTag": "Lyfcoin.Club: Staking Pool"
+  },
+  {
+    "address": "0x4b2d86cc0609ac8e7bc025957fc95ebffb85be1c",
+    "nameTag": "Mandox: Staking"
+  },
+  {
+    "address": "0x9d9418803f042ccd7647209b0ffd617981d5c619",
+    "nameTag": "MITH Cash: Staking Contract"
+  },
+  {
+    "address": "0x61048cf69333ac0a7311f60cfd94cafff1da9079",
+    "nameTag": "Nacdaq: Staking Pool"
+  },
+  {
+    "address": "0xbfcffaa83d6604d2b246e3526b56c8b9bb082a3e",
+    "nameTag": "Nacdaq: Staking Pool 2"
+  },
+  {
+    "address": "0x8ffa901bf4bd099eddfa16d5d66b7743dda69019",
+    "nameTag": "Nacdaq: Staking Pool 3"
+  },
+  {
+    "address": "0xd1a6f3fad1d269672f7e740eee820f01f4a64529",
+    "nameTag": "Nacdaq: Staking Pool 4"
+  },
+  {
+    "address": "0x157833a3e5746633c5efd95a86260abfc41d10c5",
+    "nameTag": "Nacdaq: Staking Pool 5"
+  },
+  {
+    "address": "0x742c548e103588db659af4ee3bf12b14d068b562",
+    "nameTag": "Nacdaq: Staking Pool 6"
+  },
+  {
+    "address": "0x84edffa16bb0b9ab1163abb0a13ff0744c11272f",
+    "nameTag": "Nexus Mutual: Pooled Staking Proxy"
+  },
+  {
+    "address": "0xc626f08cf88972332cfcb48b227409658be67a1c",
+    "nameTag": "Origin Story Staking: Fee Vault"
+  },
+  {
+    "address": "0xcce8e784c777fb9435f89f4e45f8b7fc49f7669f",
+    "nameTag": "Origin Story Staking: Series"
+  },
+  {
+    "address": "0x60ab11fe605d2a2c3cf351824816772a131f8782",
+    "nameTag": "RenVM: Darknode Staking"
+  },
+  {
+    "address": "0x2317a661a2206ebe20c9a7002316e2a8944fa198",
+    "nameTag": "Shibarium DAO : Staking"
+  },
+  {
+    "address": "0xc2edad668740f1aa35e4d8f227fb8e17dca888cd",
+    "nameTag": "SushiSwap: MasterChef LP Staking Pool"
+  },
+  {
+    "address": "0x069ae2af79903198a65b63811c2e053eabab1c15",
+    "nameTag": "SwapHub: MasterChef LP Staking Pool"
+  },
+  {
+    "address": "0xe7f3e646b34588764918b0ebb8d9708bf361d35b",
+    "nameTag": "The Lacedameon: Staking"
+  },
+  {
+    "address": "0x73f5876ecd9fabf7d359daf7be7610b276641549",
+    "nameTag": "UNCX Network: Staking pool Tier 2"
+  },
+  {
+    "address": "0xf4868e785457280dd48b10a02d8f03bbfd5b721f",
+    "nameTag": "UNCX Network: Staking pool Tier 3"
+  },
+  {
+    "address": "0xba37b002abafdd8e89a1995da52740bbc013d992",
+    "nameTag": "Ygov.finance: Governance Staking"
+  }
+]

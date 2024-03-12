@@ -1,0 +1,34 @@
+[
+  {
+    "address": "0x794888116a9f1bf8111e325122dd864f6dbd6ed5",
+    "nameTag": "Swipe: Deployer"
+  },
+  {
+    "address": "0xb4ddb0c9a2a11b7cf5dcc441efb21110c500c2c7",
+    "nameTag": "Swipe: Ecosystem Rewards"
+  },
+  {
+    "address": "0xaf04c95b6a5efa851136049203093468c197517c",
+    "nameTag": "Swipe: Founders"
+  },
+  {
+    "address": "0x8ce9137d39326ad0cd6491fb5cc0cba0e089b6a9",
+    "nameTag": "Swipe: SXP Token"
+  },
+  {
+    "address": "0x98f32f86c831b54bf3f5bbc15e4132940ea3b950",
+    "nameTag": "Swipe: Treasury 1"
+  },
+  {
+    "address": "0x0b8b5406d013d88cedd682515a4a18563548fef2",
+    "nameTag": "Swipe: Treasury 2"
+  },
+  {
+    "address": "0x6c42c72e80481ad654e63d364bb9d86c90819a25",
+    "nameTag": "Swipe: Treasury 3"
+  },
+  {
+    "address": "0x03dc1ccc9559fb309b56275be427ebcff0d1766f",
+    "nameTag": "Swipe: WBTC Merchant Deposit Address"
+  }
+]

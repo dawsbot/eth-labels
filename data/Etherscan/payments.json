@@ -1,0 +1,26 @@
+[
+  {
+    "address": "0x20dc0b9520cc2c2be89f247061a2c8e310045949",
+    "nameTag": "B2BinPay"
+  },
+  {
+    "address": "0x09942b2409079d9cb3b36dba8d6a60118e270746",
+    "nameTag": "CryptoProWorld.com"
+  },
+  {
+    "address": "0x5d9fe07813a260857cf60639dac710ebb9531a20",
+    "nameTag": "Paykassa Inc."
+  },
+  {
+    "address": "0xc148548ebc5fea18d17778e7d00d7ddfda02d7c2",
+    "nameTag": "SoTradeFX"
+  },
+  {
+    "address": "0x3cadbeb58cb5162439908eda08df0a305b016da8",
+    "nameTag": "Transak"
+  },
+  {
+    "address": "0xd0e4e3a739a454386da9957432b170c006327b0d",
+    "nameTag": "WooCommerce: Payment Gateway v4"
+  }
+]

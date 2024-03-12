@@ -1,0 +1,18 @@
+[
+  {
+    "address": "0xdc41bbb87200d4e28a244e008cfe39a459a87fde",
+    "nameTag": "Saffron: DAI Pool"
+  },
+  {
+    "address": "0x82c7b218eba69bfceee54ea5daa3bdb8a2848109",
+    "nameTag": "Saffron: DAI/Compound Adapter"
+  },
+  {
+    "address": "0xb753428af26e81097e7fd17f40c88aaa3e04902c",
+    "nameTag": "Saffron: SFI Token"
+  },
+  {
+    "address": "0xf601912923d5fc15ad10bfdf5bbde949363fa703",
+    "nameTag": "Saffron: Strategy"
+  }
+]

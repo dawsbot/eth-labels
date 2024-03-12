@@ -1,0 +1,42 @@
+[
+  {
+    "address": "0x1074f62d7019c3184a2f7ea8c6a8acd6780beb48",
+    "nameTag": "Gitcoin Grants: POA Network"
+  },
+  {
+    "address": "0x88ad09518695c6c3712ac10a214be5109a655671",
+    "nameTag": "Gnosis Chain: ETH-xDAI Omni Bridge"
+  },
+  {
+    "address": "0x4aa42145aa6ebf72e164c9bbc74fbd3788045016",
+    "nameTag": "Gnosis Chain: xDai Bridge"
+  },
+  {
+    "address": "0x2140ecdc45c89ca112523637824513bae72c8671",
+    "nameTag": "POA Network: AMB-ETH-POA"
+  },
+  {
+    "address": "0x4c36d2919e407f0cc2ee3c993ccf8ac26d9ce64e",
+    "nameTag": "POA Network: AMB-ETH-XDAI"
+  },
+  {
+    "address": "0xbf3d6f830ce263cae987193982192cd990442b53",
+    "nameTag": "POA Network: Deployer"
+  },
+  {
+    "address": "0xcdb858ce72a31735bff85579603bbdcf85e5e081",
+    "nameTag": "POA Network: Deployer 2"
+  },
+  {
+    "address": "0x803ad3f50b9e1ff68615e8b053a186e1be288943",
+    "nameTag": "POA Network: Deployer 3"
+  },
+  {
+    "address": "0x04c62019ab478bff5874e7b7d9bc84fcf7e30025",
+    "nameTag": "POA Network: MultiSig"
+  },
+  {
+    "address": "0x6758b7d441a9739b98552b373703d8d3d14f9e62",
+    "nameTag": "POA Network: POA20 Token"
+  }
+]

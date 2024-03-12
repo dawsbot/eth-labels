@@ -1,0 +1,178 @@
+[
+  {
+    "address": "0xd7df5bf3b8d2bd159664df54a30101d7faf6ca26",
+    "nameTag": "Gnosis Safe: Deployer"
+  },
+  {
+    "address": "0xf48f2b2d2a534e402487b3ee7c18c33aec0fe5e4",
+    "nameTag": "Safe: Compatibility Fallback Handler 1.3.0"
+  },
+  {
+    "address": "0xe74d6af1670fb6560dd61ee29eb57c7bc027ce4e",
+    "nameTag": "Safe: Create And Add Modules 0.1.0"
+  },
+  {
+    "address": "0x1a56ae690ab0818af5ca349b7d21f1d7e76a3d36",
+    "nameTag": "Safe: Create And Add Modules 1.0.0"
+  },
+  {
+    "address": "0x5fb29eea20b764b8908fd7477a91314397cd3b9d",
+    "nameTag": "Safe: Create And Add Modules 1.1.0"
+  },
+  {
+    "address": "0xf61a721642b0c0c8b334ba3763ba1326f53798c0",
+    "nameTag": "Safe: Create And Add Modules 1.1.1"
+  },
+  {
+    "address": "0x293ebbb6983cf50bdc3e0e4c363ab3e8bfc0f2d3",
+    "nameTag": "Safe: Create Call 1.1.0"
+  },
+  {
+    "address": "0x8538fcbccba7f5303d2c679fa5d7a629a8c9bf4a",
+    "nameTag": "Safe: Create Call 1.1.1"
+  },
+  {
+    "address": "0x7cbb62eaa69f79e6873cd1ecb2392971036cfaa4",
+    "nameTag": "Safe: Create Call 1.3.0"
+  },
+  {
+    "address": "0x40a930851bd2e590bd5a5c981b436de25742e980",
+    "nameTag": "Safe: Default Callback Handler 1.1.0"
+  },
+  {
+    "address": "0xd5d82b6addc9027b22dca772aa68d5d74cdbdf44",
+    "nameTag": "Safe: Default Callback Handler 1.1.1"
+  },
+  {
+    "address": "0x13b9c9cb389f5ba7cd5ffb2cec60749ff04ab94a",
+    "nameTag": "Safe: Deployer 1"
+  },
+  {
+    "address": "0xd20db445a971598688e5c02bd577e21fd3577f04",
+    "nameTag": "Safe: Deployer 2"
+  },
+  {
+    "address": "0x1aa7451dd11b8cb16ac089ed7fe05efa00100a6a",
+    "nameTag": "Safe: Deployer 3"
+  },
+  {
+    "address": "0x8942595a2dc5181df0465af0d7be08c8f23c93af",
+    "nameTag": "Safe: Mastercopy 0.1.0"
+  },
+  {
+    "address": "0xb6029ea3b2c51d09a50b53ca8012feeb05bda35a",
+    "nameTag": "Safe: Mastercopy 1.0.0"
+  },
+  {
+    "address": "0xae32496491b53841efb51829d6f886387708f99b",
+    "nameTag": "Safe: Mastercopy 1.1.0"
+  },
+  {
+    "address": "0x34cfac646f301356faa8b21e94227e3583fe3f5f",
+    "nameTag": "Safe: Mastercopy 1.1.1"
+  },
+  {
+    "address": "0x6851d6fdfafd08c0295c392436245e5bc78b0185",
+    "nameTag": "Safe: Mastercopy 1.2.0"
+  },
+  {
+    "address": "0xcbf223ccb3264e447167d4772c312df403ab87f0",
+    "nameTag": "Safe: Multi Send 0.1.0"
+  },
+  {
+    "address": "0xd4b7b161e4779629c2717385114bf78d612aea72",
+    "nameTag": "Safe: Multi Send 1.0.0"
+  },
+  {
+    "address": "0xb522a9f781924ed250a11c54105e51840b138add",
+    "nameTag": "Safe: Multi Send 1.1.0"
+  },
+  {
+    "address": "0x8d29be29923b68abfdd21e541b9374737b49cdad",
+    "nameTag": "Safe: Multi Send 1.1.1"
+  },
+  {
+    "address": "0xa238cbeb142c10ef7ad8442c6d1f9e89e07e7761",
+    "nameTag": "Safe: Multi Send 1.3.0"
+  },
+  {
+    "address": "0x40a2accbd92bca938b02010e17a5b8929b49130d",
+    "nameTag": "Safe: Multi Send Call Only 1.3.0"
+  },
+  {
+    "address": "0x88cd603a5dc47857d02865bbc7941b588c533263",
+    "nameTag": "Safe: Proxy Factory 0.1.0"
+  },
+  {
+    "address": "0x12302fe9c02ff50939baaaaf415fc226c078613c",
+    "nameTag": "Safe: Proxy Factory 1.0.0"
+  },
+  {
+    "address": "0x50e55af101c777ba7a1d560a774a82ef002ced9f",
+    "nameTag": "Safe: Proxy Factory 1.1.0"
+  },
+  {
+    "address": "0x76e2cfc1f5fa8f6a5b3fc4c8f4788f0116861f9b",
+    "nameTag": "Safe: Proxy Factory 1.1.1"
+  },
+  {
+    "address": "0xa6b71e26c5e0845f74c812102ca7114b6a896ab2",
+    "nameTag": "Safe: Proxy Factory 1.3.0"
+  },
+  {
+    "address": "0x07f455f30e862e13e3e3d960762cb11c4f744d52",
+    "nameTag": "Safe: Relay service - Deployment"
+  },
+  {
+    "address": "0x4d953115678b15ce0b0396bcf95db68003f86fb5",
+    "nameTag": "Safe: Relay service - Transactions"
+  },
+  {
+    "address": "0x29067f28306419923bcff96e37f95e0f58abdbbe",
+    "nameTag": "Safe: Safe Ecosystem Airdrop"
+  },
+  {
+    "address": "0x1d4f25bc16b68c50b78e1040bc430a8097fd6f45",
+    "nameTag": "Safe: SAFE Foundation Treasury"
+  },
+  {
+    "address": "0x5afe3855358e112b5647b952709e6165e1c1eeee",
+    "nameTag": "Safe: SAFE Token"
+  },
+  {
+    "address": "0x96b71e2551915d98d22c448b040a3bc4801ea4ff",
+    "nameTag": "Safe: SAFE Token Vesting"
+  },
+  {
+    "address": "0xa0b937d5c8e32a80e3a8ed4227cd020221544ee6",
+    "nameTag": "Safe: Safe User Airdrop"
+  },
+  {
+    "address": "0xc0fde70a65c7569fe919be57492228dee8cdb585",
+    "nameTag": "Safe: Safe User Airdrop SEP5"
+  },
+  {
+    "address": "0xd28b432f06cb64692379758b88b5fcdfc4f56922",
+    "nameTag": "Safe: SafeDAO and GnosisDAO Joint Treasury"
+  },
+  {
+    "address": "0x0b00b3227a5f3df3484f03990a87e02ebad2f888",
+    "nameTag": "Safe: SafeDAO Treasury"
+  },
+  {
+    "address": "0x1337a824f3131c718b7a336e18cadb4ba0fafffc",
+    "nameTag": "Safe: Secure Factory 1.1.1"
+  },
+  {
+    "address": "0x59ad6735bcd8152b84860cb256dd9e96b85f69da",
+    "nameTag": "Safe: Simulate Tx Accesor 1.3.0"
+  },
+  {
+    "address": "0xd9db270c1b5e3bd161e8c8503c55ceabee709552",
+    "nameTag": "Safe: Singleton 1.3.0"
+  },
+  {
+    "address": "0x3e5c63644e683549055b9be8653de26e0b4cd36e",
+    "nameTag": "Safe: Singleton L2 1.3.0"
+  }
+]

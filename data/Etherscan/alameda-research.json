@@ -1,0 +1,118 @@
+[
+  {
+    "address": "0x073dca8acbc11ffb0b5ae7ef171e4c0b065ffa47",
+    "nameTag": "Alameda Research 1"
+  },
+  {
+    "address": "0x882a812d75aee53efb8a144f984b258b6c4807f0",
+    "nameTag": "Alameda Research 10"
+  },
+  {
+    "address": "0xbefe4f86f189c1c817446b71eb6ac90e3cb68e60",
+    "nameTag": "Alameda Research 11"
+  },
+  {
+    "address": "0xb78e90e2ec737a2c0a24d68a0e54b410fff3bd6b",
+    "nameTag": "Alameda Research 12"
+  },
+  {
+    "address": "0x964d9d1a532b5a5daeacbac71d46320de313ae9c",
+    "nameTag": "Alameda Research 13"
+  },
+  {
+    "address": "0xfa453aec042a837e4aebbadab9d4e25b15fad69d",
+    "nameTag": "Alameda Research 14"
+  },
+  {
+    "address": "0x4deb3edd991cfd2fcdaa6dcfe5f1743f6e7d16a6",
+    "nameTag": "Alameda Research 15"
+  },
+  {
+    "address": "0x477573f212a7bdd5f7c12889bd1ad0aa44fb82aa",
+    "nameTag": "Alameda Research 16"
+  },
+  {
+    "address": "0xce31190a03fc3c5f23167e88e75066824823222d",
+    "nameTag": "Alameda Research 17"
+  },
+  {
+    "address": "0x73c0ae50756c7921d1f32ada71b8e50c5de7ff9c",
+    "nameTag": "Alameda Research 19"
+  },
+  {
+    "address": "0x712d0f306956a6a4b4f9319ad9b9de48c5345996",
+    "nameTag": "Alameda Research 2"
+  },
+  {
+    "address": "0x60ae578abdfded1fb0555f54148fdd7b400a34ed",
+    "nameTag": "Alameda Research 20"
+  },
+  {
+    "address": "0x0c0fe4e0236480e16b679ee1fd0c5247f9cf35f0",
+    "nameTag": "Alameda Research 22"
+  },
+  {
+    "address": "0x0f4ee9631f4be0a63756515141281a3e2b293bbe",
+    "nameTag": "Alameda Research 23"
+  },
+  {
+    "address": "0x97137466bc8018531795217f0ecc4ba24dcba5c1",
+    "nameTag": "Alameda Research 24"
+  },
+  {
+    "address": "0x84d34f4f83a87596cd3fb6887cff8f17bf5a7b83",
+    "nameTag": "Alameda Research 25"
+  },
+  {
+    "address": "0x78835265ac857bf3420830c71987b1a55f73c2dc",
+    "nameTag": "Alameda Research 26"
+  },
+  {
+    "address": "0x4c8cfe078a5b989cea4b330197246ced82764c63",
+    "nameTag": "Alameda Research 27"
+  },
+  {
+    "address": "0x93c08a3168fc469f3fc165cd3a471d19a37ca19e",
+    "nameTag": "Alameda Research 3"
+  },
+  {
+    "address": "0xca436e14855323927d6e6264470ded36455fc8bd",
+    "nameTag": "Alameda Research 4"
+  },
+  {
+    "address": "0x83a127952d266a6ea306c40ac62a4a70668fe3bd",
+    "nameTag": "Alameda Research 5"
+  },
+  {
+    "address": "0xc5ed2333f8a2c351fca35e5ebadb2a82f5d254c3",
+    "nameTag": "Alameda Research 6"
+  },
+  {
+    "address": "0x89183c0a8965c0299997be9af700a801bdccc2da",
+    "nameTag": "Alameda Research 7"
+  },
+  {
+    "address": "0xe5d0ef77aed07c302634dc370537126a2cd26590",
+    "nameTag": "Alameda Research 8"
+  },
+  {
+    "address": "0x5d13f4bf21db713e17e04d711e0bf7eaf18540d6",
+    "nameTag": "Alameda Research 9"
+  },
+  {
+    "address": "0x3507e4978e0eb83315d20df86ca0b976c0e40ccb",
+    "nameTag": "Alameda Research: Binance Deposit"
+  },
+  {
+    "address": "0xa726c00cda1f60aaab19bc095d02a46556837f31",
+    "nameTag": "Alameda Research: WBTC Merchant Deposit Address"
+  },
+  {
+    "address": "0x345c9ae61ff6e68b319d61082a017ba854892488",
+    "nameTag": "InsurAce Protocol: Deployer"
+  },
+  {
+    "address": "0x544c42fbb96b39b21df61cf322b5edc285ee7429",
+    "nameTag": "InsurAce Protocol: INSUR Token"
+  }
+]

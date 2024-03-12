@@ -1,0 +1,110 @@
+[
+  {
+    "address": "0x525419ff5707190389bfb5c87c375d710f5fcb0e",
+    "nameTag": "Livepeer Grants: Governance Bot"
+  },
+  {
+    "address": "0x1161f84e66fd7e810f0bd81c9d17d19007b13dc9",
+    "nameTag": "Livepeer Grants: Hh Xhh"
+  },
+  {
+    "address": "0x8e871de3d7e48d7a058602b52deca63579ef66c5",
+    "nameTag": "Livepeer Grants: Yondon Fu"
+  },
+  {
+    "address": "0x8dddb96cf36ac8860f1de5c7c4698fd499fab405",
+    "nameTag": "Livepeer: Bridge Minter"
+  },
+  {
+    "address": "0xf96d54e490317c557a967abfa5d6e33006be69b3",
+    "nameTag": "Livepeer: Controller"
+  },
+  {
+    "address": "0xb5af4138f0f33be0d6414eb25271b9c2dc245fb5",
+    "nameTag": "Livepeer: Deployer"
+  },
+  {
+    "address": "0x3a9543d4767b2c914ea22fd0b07e17b0901aaebf",
+    "nameTag": "Livepeer: Genesis Manager"
+  },
+  {
+    "address": "0xfc3cbed6a3476f7616cc70f078397700136eebfd",
+    "nameTag": "Livepeer: Governor"
+  },
+  {
+    "address": "0x6a23f4940bd5ba117da261f98aae51a8bffa210a",
+    "nameTag": "Livepeer: L1 Escrow"
+  },
+  {
+    "address": "0x1d24838b35a9c138ac157a852e19e948ad6323d7",
+    "nameTag": "Livepeer: L1 LPT Data Cache"
+  },
+  {
+    "address": "0x21146b872d3a95d2cf9afed03ee5a783dae9a89a",
+    "nameTag": "Livepeer: L1 Migrator"
+  },
+  {
+    "address": "0x58b6a8a3302369daec383334672404ee733ab239",
+    "nameTag": "Livepeer: LPT Token"
+  },
+  {
+    "address": "0x8e306b005773bee6ba6a6e8972bc79d766cc15c8",
+    "nameTag": "Livepeer: Merkle Mine"
+  },
+  {
+    "address": "0x24ebed82c681f435e944beebfaeeaae443d08438",
+    "nameTag": "Livepeer: Merkle Snapshot"
+  },
+  {
+    "address": "0x505f8c2ee81f1c6fa0d88e918ef0491222e05818",
+    "nameTag": "Livepeer: Minter"
+  },
+  {
+    "address": "0x182ebf4c80b28efc45ad992ecbb9f730e31e8c7f",
+    "nameTag": "Livepeer: Multi Merkle Mine"
+  },
+  {
+    "address": "0xbf824edb6b94d9b52d972d5b25bcc19b4e6e3f3c",
+    "nameTag": "Livepeer: Poll Creator"
+  },
+  {
+    "address": "0x511bc4556d823ae99630ae8de28b9b80df90ea2e",
+    "nameTag": "Livepeer: Proxy Bonding Manager"
+  },
+  {
+    "address": "0x3984fc4ceeef1739135476f625d36d6c35c40dc3",
+    "nameTag": "Livepeer: Proxy Rounds Manager"
+  },
+  {
+    "address": "0x406a112f3218b988c66778fd72fc8467f2601366",
+    "nameTag": "Livepeer: Proxy Service Registry"
+  },
+  {
+    "address": "0x5b1ce829384eebfa30286f12d1e7a695ca45f5d2",
+    "nameTag": "Livepeer: Proxy Ticket Broker"
+  },
+  {
+    "address": "0x780c98cbb0cc21d6617c05332bd5cf6f847c71c2",
+    "nameTag": "Livepeer: Refunder"
+  },
+  {
+    "address": "0x1a0b2ca69ca2c7f96e2529faa6d63f881655d81a",
+    "nameTag": "Livepeer: Sorted Doubly LL"
+  },
+  {
+    "address": "0x5fe3565db7f1dd8d6a9e968d45bd2aee3836a1d4",
+    "nameTag": "Livepeer: Target Bonding Manager"
+  },
+  {
+    "address": "0xc89fe48382f8fda6992dc590786a84275bcd1c57",
+    "nameTag": "Livepeer: Target Rounds Manager"
+  },
+  {
+    "address": "0x72d9dfa25f75a5f2c27b7336e643a559ae6aeb8e",
+    "nameTag": "Livepeer: Target Service Registry"
+  },
+  {
+    "address": "0x6f582e2bb19ac31d4b1e6edd0c2efeabd700f808",
+    "nameTag": "Livepeer: Target Ticket Broker"
+  }
+]

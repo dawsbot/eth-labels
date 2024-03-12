@@ -1,0 +1,18 @@
+[
+  {
+    "address": "0x39246c4f3f6592c974ebc44f80ba6dc69b817c71",
+    "nameTag": "Opyn: Options Exchange"
+  },
+  {
+    "address": "0xcc5d905b9c2c8c9329eb4e25dc086369d6c7777c",
+    "nameTag": "Opyn: Options Factory"
+  },
+  {
+    "address": "0x7054e08461e3ecb7718b63540addb3c3a1746415",
+    "nameTag": "Opyn: Oracle"
+  },
+  {
+    "address": "0x87887cf0e37d937f989ab76b99e4f4682da044c4",
+    "nameTag": "Opyn: Proxy"
+  }
+]
