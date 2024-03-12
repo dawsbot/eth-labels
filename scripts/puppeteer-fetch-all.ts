@@ -2,6 +2,8 @@ import { Browser, Page, firefox } from "playwright";
 import z from "zod";
 import * as cheerio from "cheerio";
 import { parseError } from "./error-parse";
+import "dotenv/config";
+import { time } from "console";
 
 function sleep(ms: number): Promise<void> {
   return new Promise((resolve) => {
@@ -118,11 +120,25 @@ function selectAllAddresses(html: string): AddressesInfo {
   return addressesInfo;
 }
 
+async function signInToEtherscan(page: Page) {
+  page.goto("https://etherscan.io/login");
+  await page.fill(
+    "#ContentPlaceHolder1_txtUserName",
+    z.string().parse(process.env.ETHERSCAN_EMAIL),
+  );
+  await page.fill(
+    "#ContentPlaceHolder1_txtPassword",
+    z.string().parse(process.env.ETHERSCAN_PASSWORD),
+  );
+  await page.waitForNavigation();
+}
+
 (async () => {
   try {
     const { browser, page } = await openBrowser();
+    await signInToEtherscan(page);
     const allLabels = await fetchAllLabels(page);
-    for (const url of allLabels.accounts.slice(0, 3)) {
+    for (const url of allLabels.accounts.slice(0, 1)) {
       // TODO: Select 100 instead of 25 per-page
       const addressesHtml = await fetchPageHtml(
         url,
@@ -130,7 +146,7 @@ function selectAllAddresses(html: string): AddressesInfo {
         `a[aria-label="Copy Address"]`,
       );
       const allAddresses = selectAllAddresses(addressesHtml);
-      console.dir({ url, allAddresses });
+      console.dir({ url, allAddresses, length: allAddresses.length });
     }
     await closeBrowser(browser);
   } catch (error) {
