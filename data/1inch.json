@@ -1,0 +1,26 @@
+[
+  {
+    "address": "0x111111125434b319222cdbf8c261674adb56f3ae",
+    "nameTag": "1inch v2: Aggregation Router"
+  },
+  {
+    "address": "0x11111112542d85b3ef69ae05771c2dccff4faa26",
+    "nameTag": "1inch v3: Aggregation Router"
+  },
+  {
+    "address": "0x1111111254fb6c44bac0bed2854e76f90643097d",
+    "nameTag": "1inch v4: Aggregation Router"
+  },
+  {
+    "address": "0x0000000000004946c0e9f43f4dee607b0ef1fa1c",
+    "nameTag": "1inch: CHI Token"
+  },
+  {
+    "address": "0x11111254369792b2ca5d084ab5eea397ca8fa48b",
+    "nameTag": "1inch: Exchange 2"
+  },
+  {
+    "address": "0xe069cb01d06ba617bcdf789bf2ff0d5e5ca20c71",
+    "nameTag": "1inch: Router 2"
+  }
+]
