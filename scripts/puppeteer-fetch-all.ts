@@ -20,9 +20,16 @@ const selectAllAnchors = (html: string): ReadonlyArray<string> => {
   let anchors: ReadonlyArray<string> = [];
   parent.find("div > div > ul > li > a").each((index, element) => {
     const pathname = $(element).attr("href");
-    const href = `https://etherscan.io${pathname}`;
-    if (typeof pathname === "string") {
-      anchors = [...anchors, href];
+    let size = $(element).text();
+    const regex = /\((.*?)\)/;
+    //@ts-ignore
+    const matches = Number(regex.exec(size)[1]);
+    const maxRecordsLength = 3000;
+    if (matches<maxRecordsLength){
+      const href = `https://etherscan.io${pathname}?size=1000`;
+      if (typeof pathname === "string") {
+        anchors = [...anchors, href];
+      }
     }
   });
   return anchors;
@@ -139,7 +146,7 @@ async function signInToEtherscan(page: Page) {
     await signInToEtherscan(page);
     const allLabels = await fetchAllLabels(page);
     for (const url of allLabels.accounts.slice(0, 1)) {
-      // TODO: Select 100 instead of 25 per-page
+      
       const addressesHtml = await fetchPageHtml(
         url,
         page,
