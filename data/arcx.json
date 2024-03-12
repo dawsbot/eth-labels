@@ -1,0 +1,118 @@
+[
+  {
+    "address": "0x1debbc50322150eb44de3b663d5faa89c12b07ff",
+    "nameTag": "ARCx: ARCx Emissions Distributor"
+  },
+  {
+    "address": "0xc434c28da5940462213c0057660a7132337205c1",
+    "nameTag": "ARCx: ARCx Guardian DAO"
+  },
+  {
+    "address": "0x859a95b2b50c1fc25560a2c6dad5b3d0ba34b6e9",
+    "nameTag": "ARCx: ARCx Protocol DAO"
+  },
+  {
+    "address": "0x1321f1f1aa541a56c31682c57b80ecfccd9bb288",
+    "nameTag": "ARCx: ARCx Token"
+  },
+  {
+    "address": "0x4317d259fcce32ebbb508c27b12f4afaca074ae3",
+    "nameTag": "ARCx: ARCx Treasury DAO"
+  },
+  {
+    "address": "0x84ead9ce2e36b3e6cdf41c94d5397e5056b3d8d6",
+    "nameTag": "ARCx: cUSDC-STABLEx-CoreProxy"
+  },
+  {
+    "address": "0xd1902581868163bef61776cfd27228ee5074be8f",
+    "nameTag": "ARCx: Farm 1"
+  },
+  {
+    "address": "0xa9a9300ab9a70c43c19d6f42e3308be24d73d885",
+    "nameTag": "ARCx: Farm 2"
+  },
+  {
+    "address": "0x580836540ca183ab71aa4c58253f5eeaad2552dc",
+    "nameTag": "ARCx: Farm 2.1"
+  },
+  {
+    "address": "0x38b25c0a9e61e226023b700ce4a6a4134ecaeedf",
+    "nameTag": "ARCx: Farm 3"
+  },
+  {
+    "address": "0x8016f490d76346ebec91707fd4fb56a7fe64f694",
+    "nameTag": "ARCx: Farm 4"
+  },
+  {
+    "address": "0xd41a21f6a3debfe28b06ace2312a69c53107cee5",
+    "nameTag": "ARCx: Farm 5"
+  },
+  {
+    "address": "0x1960afc89ff98f4ee64d29a5082eb5002b376e35",
+    "nameTag": "ARCx: Farm 6"
+  },
+  {
+    "address": "0xa85333da5e5a48498f0a65a1a6521e0ceadd3efd",
+    "nameTag": "ARCx: Farm 6.1"
+  },
+  {
+    "address": "0x8f1155447ee97b5ae147a01a5c420b0fddf0370d",
+    "nameTag": "ARCx: Farm 7"
+  },
+  {
+    "address": "0x3043b623632ff1ac88b3a17113e39c0b964381c5",
+    "nameTag": "ARCx: Farm 8"
+  },
+  {
+    "address": "0xab0bca3ff56d891cc8b22a5d9705f7088ce3bf3b",
+    "nameTag": "ARCx: Farm 9"
+  },
+  {
+    "address": "0x81f16e6b58738daaa4c5d493a240cca49c240f04",
+    "nameTag": "ARCx: ibETH-STABLEx-CoreProxy"
+  },
+  {
+    "address": "0x066b7660b2003793fb2ffd0b8152158c016fbfef",
+    "nameTag": "ARCx: imUSD-STABLEx-CoreProxy"
+  },
+  {
+    "address": "0xed30dd7e50edf3581ad970efc5d9379ce2614adb",
+    "nameTag": "ARCx: Old ARCx Token"
+  },
+  {
+    "address": "0xcd91538b91b4ba7797d39a2f66e63810b50a33d0",
+    "nameTag": "ARCx: STABLEx Token"
+  },
+  {
+    "address": "0x3252efd4ea2d6c78091a1f43982ee2c3659cc3d1",
+    "nameTag": "ARCx: STABLEx-3CRV-f-2"
+  },
+  {
+    "address": "0xeb739e889e74383562695d94c495f5f69f9e2559",
+    "nameTag": "ARCx: SynthRegistryV2"
+  },
+  {
+    "address": "0x562423f830582b6f704e175c439e132e59058284",
+    "nameTag": "ARCx: TokenClaim"
+  },
+  {
+    "address": "0x2d6c5b9ff886bb4eefed33b2065366f4caa0e6fe",
+    "nameTag": "ARCx: WhitelistSale-Phase1"
+  },
+  {
+    "address": "0xf2057de81eb26c09d4421cb6b0c222b9a656f8f3",
+    "nameTag": "ARCx: WhitelistSale-Phase2"
+  },
+  {
+    "address": "0xc466ec062d554beb42f1766488f7345261c63616",
+    "nameTag": "ARCx: wstETH-STABLEx-CoreProxy"
+  },
+  {
+    "address": "0xc3a5a0dc6241c922937c5cd90f5bace23716afb7",
+    "nameTag": "ARCx: xSUSHI-STABLEx-CoreProxy"
+  },
+  {
+    "address": "0xebfd7b965e1b4c5719a006de1acaf82a7c3a142c",
+    "nameTag": "ARCx: yUSD-STABLEx-CoreProxy"
+  }
+]

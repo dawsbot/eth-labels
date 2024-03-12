@@ -3,7 +3,8 @@ import z from "zod";
 import * as cheerio from "cheerio";
 import { parseError } from "./error-parse";
 import "dotenv/config";
-import { time } from "console";
+import fs from "fs";
+import path from "path";
 
 function sleep(ms: number): Promise<void> {
   return new Promise((resolve) => {
@@ -25,7 +26,7 @@ const selectAllAnchors = (html: string): ReadonlyArray<string> => {
     //@ts-ignore
     const matches = Number(regex.exec(size)[1]);
     const maxRecordsLength = 3000;
-    if (matches<maxRecordsLength){
+    if (matches < maxRecordsLength) {
       const href = `https://etherscan.io${pathname}?size=1000`;
       if (typeof pathname === "string") {
         anchors = [...anchors, href];
@@ -115,8 +116,7 @@ function selectAllAddresses(html: string): AddressesInfo {
 
     const anchorWithDataBsTitle = $(tds[0]).find("a[data-bs-title]");
 
-    const address = anchorWithDataBsTitle.attr("data-bs-title");
-    // console.log({ address });
+    const address = anchorWithDataBsTitle.attr("data-bs-title") || "";
     const newAddressInfo: AddressInfo = {
       address: z.string().parse(address),
       nameTag: $(tds[1]).text(),
@@ -145,14 +145,18 @@ async function signInToEtherscan(page: Page) {
     const { browser, page } = await openBrowser();
     await signInToEtherscan(page);
     const allLabels = await fetchAllLabels(page);
-    for (const url of allLabels.accounts.slice(0, 1)) {
-      
+    for (const url of allLabels.accounts) {
       const addressesHtml = await fetchPageHtml(
         url,
         page,
         `a[aria-label="Copy Address"]`,
       );
       const allAddresses = selectAllAddresses(addressesHtml);
+      const labelName = url.split("/").pop()?.split("?")[0];
+      fs.writeFileSync(
+        path.join(__dirname, "..", "data", `${labelName}.json`),
+        JSON.stringify(allAddresses, null, 2),
+      );
       console.dir({ url, allAddresses, length: allAddresses.length });
     }
     await closeBrowser(browser);

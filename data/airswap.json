@@ -1,0 +1,66 @@
+[
+  {
+    "address": "0x4572f2554421bd64bef1c22c8a81840e8d496bea",
+    "nameTag": "AirSwap"
+  },
+  {
+    "address": "0x27054b13b1b798b345b591a4d22e6562d47ea75a",
+    "nameTag": "AirSwap: AST Token"
+  },
+  {
+    "address": "0x60b47716d3893b06cc43b66d7c8221e0cac63a9b",
+    "nameTag": "Airswap: DAO Multisig"
+  },
+  {
+    "address": "0x072073f78a2d58610ee3d5e170ca7ac9cb58a345",
+    "nameTag": "AirSwap: Delegate"
+  },
+  {
+    "address": "0x7eeab4f134fcfa6fcaf3987d391f1d626f75f6e1",
+    "nameTag": "AirSwap: Deployer"
+  },
+  {
+    "address": "0x1ff808e34e4df60326a3fc4c2b0f80748a3d60c2",
+    "nameTag": "AirSwap: Deployer 2"
+  },
+  {
+    "address": "0x7f18bb4dd92cf2404c54cba1a9be4a1153bdb078",
+    "nameTag": "AirSwap: Deployer 3"
+  },
+  {
+    "address": "0xba9ab9710bd461f30c247f4ca2cb7f453c22570e",
+    "nameTag": "AirSwap: Indexer"
+  },
+  {
+    "address": "0x8fd3121013a07c57f0d69646e86e7a4880b467b7",
+    "nameTag": "AirSwap: Legacy"
+  },
+  {
+    "address": "0xc549a5c701cb6e6cbc091007a80c089c49595468",
+    "nameTag": "AirSwap: Light"
+  },
+  {
+    "address": "0xebbd58cd1c31c08ef7a17337c264ba502762e993",
+    "nameTag": "AirSwap: MultiSig"
+  },
+  {
+    "address": "0x54d2690e97e477a4b33f40d6e4afdd4832c07c57",
+    "nameTag": "AirSwap: Old Contract"
+  },
+  {
+    "address": "0x579120871266ccd8de6c85ef59e2ff6743e7cd15",
+    "nameTag": "AirSwap: sAST Token"
+  },
+  {
+    "address": "0xa42d613d8b8b6cb9507f46a5dd3fd98276570fd7",
+    "nameTag": "AirSwap: Types"
+  },
+  {
+    "address": "0xfaf0708d1aed2566205d61f471d7e4aeb10910ea",
+    "nameTag": "AirSwap: WBTC Merchant Deposit Address"
+  },
+  {
+    "address": "0x28de5c5f56b6216441ee114e832808d5b9d4a775",
+    "nameTag": "AirSwap: Wrapper"
+  }
+]
