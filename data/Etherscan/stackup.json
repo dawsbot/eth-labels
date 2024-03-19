@@ -1,42 +1,6 @@
 [
   {
-    "address": "0x07660c06338b78eaa9e529fcef5e11ac56b25cdb",
-    "nameTag": ""
-  },
-  {
-    "address": "0x8f508cef7c94883655751408b9ba80c94937288b",
-    "nameTag": ""
-  },
-  {
-    "address": "0xab97d6a3174b8bf60d0f017c8453f543ea835d36",
-    "nameTag": ""
-  },
-  {
-    "address": "0x65c51459258464020e850fba27b427bd708da638",
-    "nameTag": ""
-  },
-  {
-    "address": "0xa5fdfcbceeceb5741ef73f86cf3ed6e80e5e920d",
-    "nameTag": ""
-  },
-  {
-    "address": "0x226a22889b7f842fb1426b3e81130b461abda8a5",
-    "nameTag": ""
-  },
-  {
-    "address": "0x4a5f132a89f32cda81f3e8faac3c2d0f993effe2",
-    "nameTag": ""
-  },
-  {
-    "address": "0x791b1689526b5560145f99cb9d3b7f24eca2591a",
-    "nameTag": ""
-  },
-  {
-    "address": "0x20e9695f25413f14e5807b530d0698bd4f155074",
-    "nameTag": ""
-  },
-  {
-    "address": "0x4a28e5ec811a13a11f0a0e3f535472fbed0d4fea",
+    "address": "0x9831d6f598729bf41055a0af96396cea91eab18b",
     "nameTag": ""
   },
   {
@@ -44,7 +8,43 @@
     "nameTag": ""
   },
   {
-    "address": "0x9831d6f598729bf41055a0af96396cea91eab18b",
+    "address": "0x4a28e5ec811a13a11f0a0e3f535472fbed0d4fea",
+    "nameTag": ""
+  },
+  {
+    "address": "0x20e9695f25413f14e5807b530d0698bd4f155074",
+    "nameTag": ""
+  },
+  {
+    "address": "0x791b1689526b5560145f99cb9d3b7f24eca2591a",
+    "nameTag": ""
+  },
+  {
+    "address": "0x4a5f132a89f32cda81f3e8faac3c2d0f993effe2",
+    "nameTag": ""
+  },
+  {
+    "address": "0x226a22889b7f842fb1426b3e81130b461abda8a5",
+    "nameTag": ""
+  },
+  {
+    "address": "0xa5fdfcbceeceb5741ef73f86cf3ed6e80e5e920d",
+    "nameTag": ""
+  },
+  {
+    "address": "0x65c51459258464020e850fba27b427bd708da638",
+    "nameTag": ""
+  },
+  {
+    "address": "0xab97d6a3174b8bf60d0f017c8453f543ea835d36",
+    "nameTag": ""
+  },
+  {
+    "address": "0x8f508cef7c94883655751408b9ba80c94937288b",
+    "nameTag": ""
+  },
+  {
+    "address": "0x07660c06338b78eaa9e529fcef5e11ac56b25cdb",
     "nameTag": ""
   },
   {

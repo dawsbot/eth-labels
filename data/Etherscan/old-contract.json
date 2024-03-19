@@ -1,10 +1,10 @@
 [
   {
-    "address": "0x31bb711de2e457066c6281f231fb473fc5c2afd3",
+    "address": "0xf3db7560e820834658b590c96234c333cd3d5e5e",
     "nameTag": ""
   },
   {
-    "address": "0xc7cbd25da431758d42877d0bba8b504383de475e",
+    "address": "0xafa260bc59bcec0bc03f18c8a6b7da4a97772a74",
     "nameTag": ""
   },
   {
@@ -12,7 +12,7 @@
     "nameTag": ""
   },
   {
-    "address": "0xb4467e8d621105312a914f1d42f10770c0ffe3c8",
+    "address": "0xbbbfd95e5b8f1f4bd0694071fb3133be5b5d1ef6",
     "nameTag": ""
   },
   {
@@ -20,19 +20,23 @@
     "nameTag": ""
   },
   {
+    "address": "0x35b9ae15eeb12ea934942a36754192a9bb219742",
+    "nameTag": ""
+  },
+  {
     "address": "0xeec53a9fba80f129565bb6ada539ede5e4792da5",
     "nameTag": ""
   },
   {
-    "address": "0xbbbfd95e5b8f1f4bd0694071fb3133be5b5d1ef6",
+    "address": "0xb4467e8d621105312a914f1d42f10770c0ffe3c8",
     "nameTag": ""
   },
   {
-    "address": "0xce8b9fbceff263d054cbd7311cb37af8ea5df19e",
+    "address": "0xc7cbd25da431758d42877d0bba8b504383de475e",
     "nameTag": ""
   },
   {
-    "address": "0xf3db7560e820834658b590c96234c333cd3d5e5e",
+    "address": "0x31bb711de2e457066c6281f231fb473fc5c2afd3",
     "nameTag": ""
   },
   {
@@ -48,20 +52,8 @@
     "nameTag": ""
   },
   {
-    "address": "0xafa260bc59bcec0bc03f18c8a6b7da4a97772a74",
+    "address": "0xce8b9fbceff263d054cbd7311cb37af8ea5df19e",
     "nameTag": ""
-  },
-  {
-    "address": "0x35b9ae15eeb12ea934942a36754192a9bb219742",
-    "nameTag": ""
-  },
-  {
-    "address": "0xaf585c15dab8c363087c572758ac75e82c467579",
-    "nameTag": "HomeCoin: Old HOME Token"
-  },
-  {
-    "address": "0x59e0520c300657a8218e6c21a2a48682f9942b66",
-    "nameTag": "TokenMaker.app: Old Contract"
   },
   {
     "address": "0x4f8b986ecffe7bed5dbeb2b49310fb00ca85a539",
@@ -216,11 +208,11 @@
     "nameTag": "Aligator Finance: Old Aligator Token 2"
   },
   {
-    "address": "0xf4e447c390167e5a17a95ab2475b71d4ea785200",
+    "address": "0x4bebdd7312e81b184274d75e4c37a6d4a4d23163",
     "nameTag": "ALL BEST ICO.com: Old ALLBI Token"
   },
   {
-    "address": "0x4bebdd7312e81b184274d75e4c37a6d4a4d23163",
+    "address": "0xf4e447c390167e5a17a95ab2475b71d4ea785200",
     "nameTag": "ALL BEST ICO.com: Old ALLBI Token"
   },
   {
@@ -2062,6 +2054,10 @@
   {
     "address": "0xd7c17edfb2cf730306d83f863116f7f37c781c28",
     "nameTag": "Homebloc: Old Token"
+  },
+  {
+    "address": "0xaf585c15dab8c363087c572758ac75e82c467579",
+    "nameTag": "HomeCoin: Old HOME Token"
   },
   {
     "address": "0x952aa09109e3ce1a66d41dc806d9024a91dd5684",
@@ -4714,6 +4710,10 @@
   {
     "address": "0x131c83801f4d9236f4416a0319ce7a02a76caf94",
     "nameTag": "TokenBot: Old TKB Token"
+  },
+  {
+    "address": "0x59e0520c300657a8218e6c21a2a48682f9942b66",
+    "nameTag": "TokenMaker.app: Old Contract"
   },
   {
     "address": "0x0c963a1b52eb97c5e457c7d76696f8b95c3087ed",

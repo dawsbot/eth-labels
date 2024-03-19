@@ -1,13 +1,5 @@
 [
   {
-    "address": "0x3623387773010d9214b10c551d6e7fc375d31f58",
-    "nameTag": "Cream.Finance: crMTA Token"
-  },
-  {
-    "address": "0x338286c0bc081891a4bda39c7667ae150bf5d206",
-    "nameTag": "Cream.Finance: crSUSHI Token"
-  },
-  {
     "address": "0x780f75ad0b02afeb6039672e6a6cede7447a8b45",
     "nameTag": "Cream.Finance: 1 Year Staking"
   },
@@ -152,6 +144,10 @@
     "nameTag": "Cream.Finance: crMLN Token"
   },
   {
+    "address": "0x3623387773010d9214b10c551d6e7fc375d31f58",
+    "nameTag": "Cream.Finance: crMTA Token"
+  },
+  {
     "address": "0x7c3297cfb4c4bbd5f44b450c0872e0ada5203112",
     "nameTag": "Cream.Finance: crOCEAN Token"
   },
@@ -210,6 +206,10 @@
   {
     "address": "0x25555933a8246ab67cbf907ce3d1949884e82b55",
     "nameTag": "Cream.Finance: crSUSD Token"
+  },
+  {
+    "address": "0x338286c0bc081891a4bda39c7667ae150bf5d206",
+    "nameTag": "Cream.Finance: crSUSHI Token"
   },
   {
     "address": "0x98e329eb5aae2125af273102f3440de19094b77c",

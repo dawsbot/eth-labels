@@ -192,35 +192,26 @@ function printFailedSummary() {
 }
 
 function sortAllAdresses(allAddresses: AddressesInfo) {
-  const sortedAddresses = allAddresses
-    .sort((a: AddressInfo, b: AddressInfo) => {
-      if (a.nameTag === "") {
-        return -1;
-      }
-      if (b.nameTag === "") {
-        return 1;
-      }
-      const addressA = a.address.toLowerCase();
-      const addressB = b.address.toLowerCase();
-      if (addressA < addressB) {
-        return -1;
-      }
-      if (addressA > addressB) {
-        return 1;
-      }
-      return 0;
-    })
-    .sort((a: AddressInfo, b: AddressInfo) => {
-      const nameTagA = a.nameTag.toLowerCase();
-      const nameTagB = b.nameTag.toLowerCase();
-      if (nameTagA < nameTagB) {
-        return -1;
-      }
-      if (nameTagA > nameTagB) {
-        return 1;
-      }
-      return 0;
-    });
+  const sortedAddresses = allAddresses.sort((a, b) => {
+    const nameTagA = a.nameTag.toLowerCase();
+    const nameTagB = b.nameTag.toLowerCase();
+    if (nameTagA < nameTagB) {
+      return -1;
+    }
+    if (nameTagA > nameTagB) {
+      return 1;
+    }
+    // If nameTags are the same, sort by address
+    const addressA = a.address.toLowerCase();
+    const addressB = b.address.toLowerCase();
+    if (addressA < addressB) {
+      return -1;
+    }
+    if (addressA > addressB) {
+      return 1;
+    }
+    return 0;
+  });
   return sortedAddresses;
 }
 function clearErrorFile() {

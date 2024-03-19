@@ -1,10 +1,10 @@
 [
   {
-    "address": "0x43764f5b8973f62a6f10914516131c1489e3190d",
+    "address": "0x253ef258563e146f685e60219da56a6b75178e19",
     "nameTag": ""
   },
   {
-    "address": "0x253ef258563e146f685e60219da56a6b75178e19",
+    "address": "0x43764f5b8973f62a6f10914516131c1489e3190d",
     "nameTag": ""
   },
   {
@@ -14,18 +14,6 @@
   {
     "address": "0x6d4bbc0387dd4759eee30f6a482ac6dc2df3facf",
     "nameTag": "RTFKT X NIKE MONOLITH: Token"
-  },
-  {
-    "address": "0x86825dfca7a6224cfbd2da48e85df2fc3aa7c4b1",
-    "nameTag": "RTFKT: MNLTH Token"
-  },
-  {
-    "address": "0x9a06ef3a841316a9e2c1c93b9c21a7342abe484f",
-    "nameTag": "RTFKT: SKIN VIAL Token"
-  },
-  {
-    "address": "0xa49a0e5ef83cf89ac8aae182f22e6464b229efc8",
-    "nameTag": "RTFKT: Token"
   },
   {
     "address": "0xa4ea8b820aabc2569ce42a88252a36a51103d0b1",
@@ -56,6 +44,10 @@
     "nameTag": "RTFKT: FT Token"
   },
   {
+    "address": "0x86825dfca7a6224cfbd2da48e85df2fc3aa7c4b1",
+    "nameTag": "RTFKT: MNLTH Token"
+  },
+  {
     "address": "0xf661d58cfe893993b11d53d11148c4650590c692",
     "nameTag": "RTFKT: MNLTHRVLD Token"
   },
@@ -66,6 +58,14 @@
   {
     "address": "0x029af5c555807c2b5d337478e5f895e8f3b557e2",
     "nameTag": "RTFKT: SDR Token"
+  },
+  {
+    "address": "0x9a06ef3a841316a9e2c1c93b9c21a7342abe484f",
+    "nameTag": "RTFKT: SKIN VIAL Token"
+  },
+  {
+    "address": "0xa49a0e5ef83cf89ac8aae182f22e6464b229efc8",
+    "nameTag": "RTFKT: Token"
   },
   {
     "address": "0xbf2f2a7128e9a0531402c99366383834655418d2",
