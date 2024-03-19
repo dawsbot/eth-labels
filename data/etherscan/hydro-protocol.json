@@ -8,6 +8,10 @@
     "nameTag": "DDEX: Margin"
   },
   {
+    "address": "0xe269e891a2ec8585a378882ffa531141205e92e9",
+    "nameTag": "DDEX: Old Address"
+  },
+  {
     "address": "0x9af839687f6c94542ac5ece2e317daae355493a1",
     "nameTag": "Hydro Protocol Token"
   },
@@ -22,5 +26,9 @@
   {
     "address": "0xb15367df8a39ea06f8f81ed35d49e056ee05f3b7",
     "nameTag": "Hydro: MultiSig"
+  },
+  {
+    "address": "0x2cb4b49c0d6e9db2164d94ce48853bf77c4d883e",
+    "nameTag": "Hydro: Old Exchange Contract"
   }
 ]

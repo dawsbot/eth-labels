@@ -8,8 +8,16 @@
     "nameTag": "Aave: aAAVE Token V2"
   },
   {
+    "address": "0x1e6bb68acec8fefbd87d192be09bb274170a0548",
+    "nameTag": "Aave: aAMPL Token V2"
+  },
+  {
     "address": "0xf7dba49d571745d9d7fcb56225b05bea803ebf3c",
     "nameTag": "Aave: Aave Variable Debt V2"
+  },
+  {
+    "address": "0x272f97b7a56a387ae942350bbc7df5700f8a4576",
+    "nameTag": "Aave: aBAL Token V2"
   },
   {
     "address": "0x05ec93c0365baaeabf7aeffb0972ea7ecdd39cf1",
@@ -56,8 +64,16 @@
     "nameTag": "Aave: AMPL Variable Debt V2"
   },
   {
+    "address": "0x2e8f4bdbe3d47d7d7de490437aea9915d930f1a3",
+    "nameTag": "Aave: aPAX Token V2"
+  },
+  {
     "address": "0xcc12abe4ff81c9378d670de1b57f8e0dd228d77a",
     "nameTag": "Aave: aREN Token V2"
+  },
+  {
+    "address": "0x514cd6756ccbe28772d4cb81bc3156ba9d1744aa",
+    "nameTag": "Aave: aRENFIL Token"
   },
   {
     "address": "0x35f6b052c598d933d69a4eec4d04c73a191fe6c2",
@@ -164,6 +180,10 @@
     "nameTag": "Aave: ENJ Variable Debt V2"
   },
   {
+    "address": "0x4a49985b14bd0ce42c25efde5d8c379a48ab02f3",
+    "nameTag": "Aave: Genesis Team"
+  },
+  {
     "address": "0x2893405d64a7bc8db02fa617351a5399d59ecf8d",
     "nameTag": "Aave: GUSD Interest Rate Strategy V2"
   },
@@ -186,6 +206,26 @@
   {
     "address": "0x6b05d1c608015ccb8e205a690cb86773a96f39f1",
     "nameTag": "Aave: KNC Variable Debt V2"
+  },
+  {
+    "address": "0x311bb771e4f8952e6da169b425e7e92d6ac45756",
+    "nameTag": "Aave: Lending Pool Configurator V2"
+  },
+  {
+    "address": "0xb53c1a33016b2dc2ff3653530bff1848a515c8c5",
+    "nameTag": "Aave: Lending Pool Provider V2"
+  },
+  {
+    "address": "0x52d306e36e3b6b02c153d0266ff0f85d18bcd413",
+    "nameTag": "Aave: Lending Pool Registry V2"
+  },
+  {
+    "address": "0x7d2768de32b0b80b7a3454c06bdac94a69ddc7a9",
+    "nameTag": "Aave: Lending Pool V2"
+  },
+  {
+    "address": "0x8a32f49ffba88aba6eff96f45d8bd1d4b3f35c7d",
+    "nameTag": "Aave: Lending Rate Oracle V2"
   },
   {
     "address": "0xed6547b83276b076b771b88fccbd68bdedb3927f",
@@ -226,6 +266,18 @@
   {
     "address": "0xfdb93b3b10936cf81fa59a02a7523b6e2149b2b7",
     "nameTag": "Aave: PAX Variable Debt V2"
+  },
+  {
+    "address": "0xb9062896ec3a615a4e4444df183f0531a77218ae",
+    "nameTag": "Aave: Pool Admin V2"
+  },
+  {
+    "address": "0xa50ba011c48153de246e5192c8f9258a2ba79ca9",
+    "nameTag": "Aave: Price Oracle V2"
+  },
+  {
+    "address": "0x057835ad21a177dbdd3090bb1cae03eacf78fc6d",
+    "nameTag": "Aave: Protocol Data Provider V2"
   },
   {
     "address": "0xa7d4df837926cd55036175afef38395d56a64c22",
@@ -282,6 +334,10 @@
   {
     "address": "0xdc6a3ab17299d9c2a412b0e0a4c1f55446ae0817",
     "nameTag": "Aave: SUSD Variable Debt V2"
+  },
+  {
+    "address": "0x4a75f0ae51a5d616ada4db52be140d89302aaf78",
+    "nameTag": "Aave: Team Gnosis Safe"
   },
   {
     "address": "0x0ddec679166c367ae45036c8b2c169c5fb2dcee1",
@@ -354,6 +410,10 @@
   {
     "address": "0xf63b34710400cad3e044cffdcab00a0f32e33ecf",
     "nameTag": "Aave: WETH Variable Debt V2"
+  },
+  {
+    "address": "0xdcd33426ba191383f1c9b431a342498fdac73488",
+    "nameTag": "Aave: WETHGateway V2"
   },
   {
     "address": "0xb49034ada4be5c6bb3823a623c6250267110b06b",

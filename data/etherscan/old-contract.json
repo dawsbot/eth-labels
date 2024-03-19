@@ -140,6 +140,10 @@
     "nameTag": "Adapp.Games: Old Dice Contract"
   },
   {
+    "address": "0x4470bb87d77b963a013db939be332f927f2b992e",
+    "nameTag": "AdEx: Old Token"
+  },
+  {
     "address": "0x1aa11f0feafb5db797764916f0d67a4fe8132985",
     "nameTag": "Adonx One: Old ADONX Token"
   },
@@ -3018,6 +3022,10 @@
   {
     "address": "0xf287de2ae9c655ab9c10dddc8eed4e61969d4a5b",
     "nameTag": "NIX Bridge: Old NBT Token"
+  },
+  {
+    "address": "0xfc858154c0b2c4a3323046fb505811f110ebda57",
+    "nameTag": "NOIA Token Old"
   },
   {
     "address": "0x961760ad1bed52bf4d79aa4b1558e7f9d72071e4",

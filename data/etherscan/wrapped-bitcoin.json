@@ -1,0 +1,22 @@
+[
+  {
+    "address": "0xca06411bd7a7296d7dbdd0050dfc846e95febeb7",
+    "nameTag": "Wrapped BTC: Controller"
+  },
+  {
+    "address": "0x8b41783ad99fcbeb8d575fa7a7b5a04fa0b8d80b",
+    "nameTag": "Wrapped BTC: Deployer"
+  },
+  {
+    "address": "0xe5a5f138005e19a3e6d0fe68b039397eeef2322b",
+    "nameTag": "Wrapped BTC: Factory"
+  },
+  {
+    "address": "0x3e8640574aa764763291ed733672d3a105107ac5",
+    "nameTag": "Wrapped BTC: Members"
+  },
+  {
+    "address": "0x2260fac5e5542a773aa44fbcfedf7c193bc2c599",
+    "nameTag": "Wrapped BTC: WBTC Token"
+  }
+]

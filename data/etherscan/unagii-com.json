@@ -1,5 +1,37 @@
 [
   {
+    "address": "0x6c7c332a090c8d2085857cf3220ea01c6d45a723",
+    "nameTag": "unagii.com: Deployer"
+  },
+  {
+    "address": "0x86d10751b18f3fe331c146546868a07224a8598b",
+    "nameTag": "unagii.com: Deployer 2"
+  },
+  {
+    "address": "0x017ff603cc711008772d32c03091d3cba371bcd3",
+    "nameTag": "unagii.com: Old KNC pool"
+  },
+  {
+    "address": "0x4ad0b81f92b16624bbcf46fc0030cfbbf8d02376",
+    "nameTag": "unagii.com: Old uDAI Token"
+  },
+  {
+    "address": "0x77607588222e01bf892a29abab45796a2047fc7b",
+    "nameTag": "unagii.com: Old uETH Token"
+  },
+  {
+    "address": "0xbc5991ccd8caceba01edc44c2bb9832712c29cab",
+    "nameTag": "unagii.com: Old uUSDC Token"
+  },
+  {
+    "address": "0x178bf8fd04b47d2de3ef3f6b3d112106375ad584",
+    "nameTag": "unagii.com: Old uUSDT Token"
+  },
+  {
+    "address": "0x3af5ba94c29a8407785f5f6d90ef5d69a8eb2436",
+    "nameTag": "unagii.com: Old uWBTC Token"
+  },
+  {
     "address": "0x634b0273d7060313faa60f96705116c9de50fa1f",
     "nameTag": "unagii.com: uDAIv2 Token"
   },

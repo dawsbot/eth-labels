@@ -1,5 +1,9 @@
 [
   {
+    "address": "0x9e68b67660c223b3e0634d851f5df821e0e17d84",
+    "nameTag": "Opyn: Deployer"
+  },
+  {
     "address": "0x39246c4f3f6592c974ebc44f80ba6dc69b817c71",
     "nameTag": "Opyn: Options Exchange"
   },

@@ -4,6 +4,10 @@
     "nameTag": "Nuo Network: Account"
   },
   {
+    "address": "0xf5a38fbc26c720c79350b99d9c0bd42b3e9b8316",
+    "nameTag": "Nuo Network: Account Factory"
+  },
+  {
     "address": "0x4e9d7f37eadc6fef64b5f5dccc4deb6224667677",
     "nameTag": "Nuo Network: Account Factory v2"
   },
@@ -14,6 +18,10 @@
   {
     "address": "0x2929e21109901461659c0f26ad7f0e7633ea6539",
     "nameTag": "Nuo Network: DateTime"
+  },
+  {
+    "address": "0x3e990e787a88cd4426fb3af9b90dd1d951e2cb87",
+    "nameTag": "Nuo Network: Deployer"
   },
   {
     "address": "0xde4a88ef731cc55450c76e9307a64e94146006f7",

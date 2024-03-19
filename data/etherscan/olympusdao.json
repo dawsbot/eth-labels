@@ -16,8 +16,24 @@
     "nameTag": "OlympusDAO: aOHM V1"
   },
   {
+    "address": "0xc60a6656e08b62dd2644dc703d7855301363cc38",
+    "nameTag": "OlympusDAO: Bond Depository V1"
+  },
+  {
+    "address": "0x9025046c6fb25fb39e720d97a8fd881ed69a1ef6",
+    "nameTag": "OlympusDAO: Bond Depository V2"
+  },
+  {
     "address": "0x3df5a355457db3a4b5c744b8623a7721bf56df78",
     "nameTag": "OlympusDAO: Convex Allocator V1"
+  },
+  {
+    "address": "0x6754c69fe02178f54ada19ebf1c5569826021920",
+    "nameTag": "OlympusDAO: CVX Bond V1"
+  },
+  {
+    "address": "0x767e3459a35419122e5f6274fb1223d75881e0a9",
+    "nameTag": "OlympusDAO: CVX Bond V2"
   },
   {
     "address": "0xa64ed1b66cb2838ef2a198d8345c0ce6967a2a3c",
@@ -34,6 +50,10 @@
   {
     "address": "0x245cc372c84b3645bf0ffe6538620b04a217988b",
     "nameTag": "OlympusDAO: DAO Funds"
+  },
+  {
+    "address": "0xd7c4208aeb0961972b3ea717be25f2194d5f0331",
+    "nameTag": "OlympusDAO: Deployer"
   },
   {
     "address": "0x7464a65aa3fc15a625e2adfb8b340277d804d90d",
@@ -62,6 +82,10 @@
   {
     "address": "0x64aa3364f17a4d01c6f1751fd97c2bd3d7e7f1d5",
     "nameTag": "OlympusDAO: OHM Token"
+  },
+  {
+    "address": "0x383518188c0c6d7730d91b2c03a03c837814a899",
+    "nameTag": "OlympusDAO: OHM V1 Token"
   },
   {
     "address": "0xd27001d1aaed5f002c722ad729de88a91239ff29",
@@ -128,6 +152,10 @@
     "nameTag": "OlympusDAO: StakeDAO Custom Treasury"
   },
   {
+    "address": "0xfd31c7d00ca47653c6ce64af53c1571f9c36566a",
+    "nameTag": "OlympusDAO: Staking"
+  },
+  {
     "address": "0xbe731507810c8747c3e01e62c676b1ca6f93242f",
     "nameTag": "OlympusDAO: Staking Distributor V1"
   },
@@ -142,5 +170,21 @@
   {
     "address": "0xc58e923bf8a00e4361fe3f4275226a543d7d3ce6",
     "nameTag": "OlympusDAO: Staking Distributor V4"
+  },
+  {
+    "address": "0xc8c436271f9a6f10a5b80c8b8ed7d0e8f37a612d",
+    "nameTag": "OlympusDAO: Staking Helper"
+  },
+  {
+    "address": "0x31f8cc382c9898b273eff4e0b7626a6987c846e8",
+    "nameTag": "OlympusDAO: Treasury"
+  },
+  {
+    "address": "0x886ce997aa9ee4f8c2282e182ab72a705762399d",
+    "nameTag": "OlympusDAO: Treasury 2"
+  },
+  {
+    "address": "0xca76543cf381ebbb277be79574059e32108e3e65",
+    "nameTag": "OlympusDAO: wsOHM"
   }
 ]

@@ -1,5 +1,161 @@
 [
   {
+    "address": "0x0e936b11c2e7b601055e58c7e32417187af4de4a",
+    "nameTag": "Bancor Network"
+  },
+  {
+    "address": "0x6e1d23c4a06159986a852b540254e231589fdeb8",
+    "nameTag": "Bancor Network: bn1INCH Token"
+  },
+  {
+    "address": "0xd53c78ae13807b7b7d12ff09dd8419f3d0283582",
+    "nameTag": "Bancor Network: bn1ONE Token"
+  },
+  {
+    "address": "0xa11f858a06bdcc797c8824a01ef154b311576e03",
+    "nameTag": "Bancor Network: bnAAVE Token"
+  },
+  {
+    "address": "0xf1ec79472f74a393f250b9bc5ed65ebdb3df812a",
+    "nameTag": "Bancor Network: bnALCX Token"
+  },
+  {
+    "address": "0x47e0876c3af1540d55381168605ab4a453b24094",
+    "nameTag": "Bancor Network: bnALEPH Token"
+  },
+  {
+    "address": "0x87a5b58d14bd04e7f1443d2819ab7d6a4acee7d1",
+    "nameTag": "Bancor Network: bnALPHA Token"
+  },
+  {
+    "address": "0x9c6a15350fe6af286302497a4c2026254980511a",
+    "nameTag": "Bancor Network: bnAMP Token"
+  },
+  {
+    "address": "0x260a4d74cd0a207fc98290bdc7c51700e59de432",
+    "nameTag": "Bancor Network: bnANKR Token"
+  },
+  {
+    "address": "0x0ddacad0d1f0ad2d2866f9aa73745d0da203897f",
+    "nameTag": "Bancor Network: bnANT Token"
+  },
+  {
+    "address": "0x0a95920cd600478e2af01b900e185cab29c92bc2",
+    "nameTag": "Bancor Network: bnAPW Token"
+  },
+  {
+    "address": "0xd3584d9fdff3f6a23e2bad04d3cb6ad56ed5f2ce",
+    "nameTag": "Bancor Network: bnARCONA Token"
+  },
+  {
+    "address": "0x26d9cc4a2076d426af14fae0012c1c4367d42eeb",
+    "nameTag": "Bancor Network: bnARMOR Token"
+  },
+  {
+    "address": "0xf4bcd8701708c07d63d38137cbdcd50d6f4671fe",
+    "nameTag": "Bancor Network: bnAST Token"
+  },
+  {
+    "address": "0x0a8999e064ae4954dae9a7758aa4dc9995218576",
+    "nameTag": "Bancor Network: bnAUC Token"
+  },
+  {
+    "address": "0xb67f01c0488e075423f21b29b4b417bf3198a100",
+    "nameTag": "Bancor Network: bnBAL Token"
+  },
+  {
+    "address": "0xc70d66889c6cd013cc549daf0bdc96127ab1c9f0",
+    "nameTag": "Bancor Network: bnBAT Token"
+  },
+  {
+    "address": "0x42316766112f4fd08907985d1a4990fef4d0fad5",
+    "nameTag": "Bancor Network: bnbBADGER Token"
+  },
+  {
+    "address": "0xf07708f391ab7bb44f256d71a3220fc77cff2cfa",
+    "nameTag": "Bancor Network: bnBBS Token"
+  },
+  {
+    "address": "0x2d7533f457036e3de1ae5749ccbac1acbd73bd13",
+    "nameTag": "Bancor Network: bnbDIGG Token"
+  },
+  {
+    "address": "0xc9f704d7fc239a8fd795f8a57b66b83498558175",
+    "nameTag": "Bancor Network: bnBMI Token"
+  },
+  {
+    "address": "0x586592d68a0164e9aada246076cab0b20dba761d",
+    "nameTag": "Bancor Network: bnBOBA Token"
+  },
+  {
+    "address": "0x958c2baedca82fdf9c178492c8b2a4f77ace4aea",
+    "nameTag": "Bancor Network: bnBOND Token"
+  },
+  {
+    "address": "0x9c0517d3426ab7d835223192891b7d6ea7a711d7",
+    "nameTag": "Bancor Network: bnBORING Token"
+  },
+  {
+    "address": "0x718bdbaa2d58bb782204de639718cce3e3b005da",
+    "nameTag": "Bancor Network: bnBZRX Token"
+  },
+  {
+    "address": "0x9d660785ad7b846354958a72d4de19abc7c35424",
+    "nameTag": "Bancor Network: bnCEL Token"
+  },
+  {
+    "address": "0x67d4c471b6348b21cf0842991ec4dfafc2d68e58",
+    "nameTag": "Bancor Network: bnCHZ Token"
+  },
+  {
+    "address": "0x739682ef459f2288d64d15a16890804b715c058e",
+    "nameTag": "Bancor Network: bnCOMP Token"
+  },
+  {
+    "address": "0x4155b61b6008f511871035f8d5a6496885b77f22",
+    "nameTag": "Bancor Network: bnCOT Token"
+  },
+  {
+    "address": "0x0881cb3128839bd5f366d3dbbf942c2e311ef4fb",
+    "nameTag": "Bancor Network: bnCRO Token"
+  },
+  {
+    "address": "0x9b6092672708eb6322c91e5ff39f6961669f908e",
+    "nameTag": "Bancor Network: bnCRV Token"
+  },
+  {
+    "address": "0xfdf6b075735c3799da21d141b8d2bbfcced48202",
+    "nameTag": "Bancor Network: bnCTSI Token"
+  },
+  {
+    "address": "0x1e750736aa78fa8992b6d04f6aae6d002980e72f",
+    "nameTag": "Bancor Network: bnDAO Token"
+  },
+  {
+    "address": "0xe29f00006a4276f698fa259cbd7edbe44e4da33e",
+    "nameTag": "Bancor Network: bnDAPP Token"
+  },
+  {
+    "address": "0x82031b1fc4469c4895fb4fdcf37a73e122190455",
+    "nameTag": "Bancor Network: bnDATA Token"
+  },
+  {
+    "address": "0xa76acb9ec942a2a47689dce280111e9c9a0ea636",
+    "nameTag": "Bancor Network: bnDDX Token"
+  },
+  {
+    "address": "0x89caa8224b1df9f8be2bf43befc34b91773832d2",
+    "nameTag": "Bancor Network: bnDEXE Token"
+  },
+  {
+    "address": "0xbb309a037c5f2a6a3b84f54ac8754c90e77349d0",
+    "nameTag": "Bancor Network: bnDIP Token"
+  },
+  {
+    "address": "0x7956190e453b955b4410f003c479f8dfeee944e3",
+    "nameTag": "Bancor Network: bnDRC Token"
+  },
+  {
     "address": "0x7537b8914d96f44c58d700e6be6b97be05afb3df",
     "nameTag": "Bancor Network: bnDUSK Token"
   },
@@ -136,8 +292,968 @@
     "nameTag": "Bancor Network: bnMASK Token"
   },
   {
+    "address": "0xadf829f541a57ef2af4d8a07a7920f7229684dda",
+    "nameTag": "Bancor Network: bnMATIC Token"
+  },
+  {
+    "address": "0xa3d1cf298a0de8784e4adcfc3d1cd95f28488ac4",
+    "nameTag": "Bancor Network: bnMFG Token"
+  },
+  {
+    "address": "0x547623ce82320e9f5cb6b2e2ebd191d0ab746332",
+    "nameTag": "Bancor Network: bnMFI Token"
+  },
+  {
+    "address": "0x40dfb80a253414c07e8189b863424fb19521749b",
+    "nameTag": "Bancor Network: bnMKR Token"
+  },
+  {
+    "address": "0x1d8c75890ced80f10b18234158b0f39cd0df9c67",
+    "nameTag": "Bancor Network: bnMLN Token"
+  },
+  {
+    "address": "0x9cebc8bcf891243b25eadf25c9f034a9d7dccd5b",
+    "nameTag": "Bancor Network: bnMONA Token"
+  },
+  {
+    "address": "0x8cdce5c7e8738da11c66385347dcd928a3530c77",
+    "nameTag": "Bancor Network: bnMPH Token"
+  },
+  {
+    "address": "0x69bd8a94453aad1674b79baef2bb4c063c08a7a5",
+    "nameTag": "Bancor Network: bnMTA Token"
+  },
+  {
+    "address": "0xc6dc200a627d6c8e91179b2619f2ad17d6656677",
+    "nameTag": "Bancor Network: bnNDX Token"
+  },
+  {
+    "address": "0x579841862145d9b4f21fd75d2d31dcae8f50580a",
+    "nameTag": "Bancor Network: bnNEXO Token"
+  },
+  {
+    "address": "0x40153a12b125f37d43d7cce0c701d7aedc0b85d4",
+    "nameTag": "Bancor Network: bnNMR Token"
+  },
+  {
+    "address": "0x67584702b54eb035c3262f99a5557a66a3f675fb",
+    "nameTag": "Bancor Network: bnNOIA Token"
+  },
+  {
+    "address": "0xd96d254af167c1730a563f251a12d6bc232fc388",
+    "nameTag": "Bancor Network: bnOMG Token"
+  },
+  {
+    "address": "0xb334194c16c0a79884a0d5ebd24b4fcab3dfdabc",
+    "nameTag": "Bancor Network: bnOPIUM Token"
+  },
+  {
+    "address": "0x8296961a86c3bd1214a953ea801bc28e45bb3938",
+    "nameTag": "Bancor Network: bnPATH Token"
+  },
+  {
+    "address": "0x471f060dc1e87c114aac7f58d36962869f8ceb8f",
+    "nameTag": "Bancor Network: bnPERP Token"
+  },
+  {
+    "address": "0x5be7b2244fb0f4aeddcdfa2dfaebad54990adbf3",
+    "nameTag": "Bancor Network: bnPHTR Token"
+  },
+  {
+    "address": "0x3bcc0ceb27b94526c46c126c84992939e32a384c",
+    "nameTag": "Bancor Network: bnPLR Token"
+  },
+  {
+    "address": "0x82a726fac512ebf60c9fa49e8790a46d00643855",
+    "nameTag": "Bancor Network: bnPOOLZ Token"
+  },
+  {
+    "address": "0x3289aedc9320a5d5a730503a71ffb0cd62872680",
+    "nameTag": "Bancor Network: bnPOWR Token"
+  },
+  {
+    "address": "0xb3093387e3d7da06d17ba1e4538219a06bed31b3",
+    "nameTag": "Bancor Network: bnPSP Token"
+  },
+  {
+    "address": "0x8b2368faf88a4dd5b61c52b5862952331293b349",
+    "nameTag": "Bancor Network: bnQNT Token"
+  },
+  {
+    "address": "0xf28b45ee5cc3279976820327238764d56961956d",
+    "nameTag": "Bancor Network: bnQUICK Token"
+  },
+  {
+    "address": "0x680d95629fda70cdf8b5f72e96ca8891e730d6d8",
+    "nameTag": "Bancor Network: bnRAIL Token"
+  },
+  {
+    "address": "0x6d223e23c9f945bcf87c6c151a4dda69589d33ca",
+    "nameTag": "Bancor Network: bnRARI Token"
+  },
+  {
+    "address": "0x49bdfdf9d103610413be6ecb25c194ce1d803bd3",
+    "nameTag": "Bancor Network: bnREN Token"
+  },
+  {
+    "address": "0x651e0a4bc7f13889a0d38dd72f399b4b8d2927b5",
+    "nameTag": "Bancor Network: bnrenBTC Token"
+  },
+  {
+    "address": "0x20cc6afdac62f6f618688e14456de01c5a8ac729",
+    "nameTag": "Bancor Network: bnrenZEC Token"
+  },
+  {
+    "address": "0x465ed8e9f989d509efa38437f7bf610873d91309",
+    "nameTag": "Bancor Network: bnREQ Token"
+  },
+  {
+    "address": "0xcdd8d805553899d9c89ffabb03b42a1f6ad983fc",
+    "nameTag": "Bancor Network: bnrETH Token"
+  },
+  {
+    "address": "0x2d9d99d4aac96987637f0be8d1fa9930e0c4447d",
+    "nameTag": "Bancor Network: bnRLC Token"
+  },
+  {
+    "address": "0x9a870b9263554d3d4725a5f7f0df7ea6a860bc82",
+    "nameTag": "Bancor Network: bnRNB Token"
+  },
+  {
+    "address": "0xe4becd393ed7cfdeef9f513a3fe6bbaac923caa9",
+    "nameTag": "Bancor Network: bnROOK Token"
+  },
+  {
+    "address": "0x7bb2464326e623a353e00a37fa557628e865f014",
+    "nameTag": "Bancor Network: bnRPL Token"
+  },
+  {
+    "address": "0xe366509d226badcd6e4c20d669d736a40200ffd5",
+    "nameTag": "Bancor Network: bnRUNE Token"
+  },
+  {
+    "address": "0xcaf22463e210bd5e177d1a07a5b9afc8eec54ba8",
+    "nameTag": "Bancor Network: bnSATA Token"
+  },
+  {
+    "address": "0xb70fa6a2ddb5185756bc016f96d96c2201015972",
+    "nameTag": "Bancor Network: bnSFI Token"
+  },
+  {
+    "address": "0x71a2940c098c3a0222c796fc36ba7917ad4c2529",
+    "nameTag": "Bancor Network: bnSHEESHA Token"
+  },
+  {
+    "address": "0xb0bf2da95a49d247331b713b0a2f3161f0e35de1",
+    "nameTag": "Bancor Network: bnSHIBGF Token"
+  },
+  {
+    "address": "0x197e6794963d5f9febd9c456cf3e9c7a63214e43",
+    "nameTag": "Bancor Network: bnSMARTCREDIT Token"
+  },
+  {
+    "address": "0xd01ba6a1662437ff2a0c008498f9edb98c49d68c",
+    "nameTag": "Bancor Network: bnSNX Token"
+  },
+  {
+    "address": "0xec21f2ba8b3b6b7ea2782f0fc1e649a8c40558b3",
+    "nameTag": "Bancor Network: bnSTAKE Token"
+  },
+  {
+    "address": "0x4c2d348faf409df7ea99f3f32aadd2a9d4318d51",
+    "nameTag": "Bancor Network: bnSUSHI Token"
+  },
+  {
+    "address": "0x90872554ca8beaa24fa1e29111428f8581a5dc3f",
+    "nameTag": "Bancor Network: bnTEMP Token"
+  },
+  {
+    "address": "0xe783e6a78431e07379a5a1ad77da04dddd1785a8",
+    "nameTag": "Bancor Network: bnTHALES Token"
+  },
+  {
+    "address": "0x5a0a4442c00566100af66ba0f0c56a408a3400cf",
+    "nameTag": "Bancor Network: bnTOMOE Token"
+  },
+  {
+    "address": "0x23dbfe6e3104d059fd6f1ad3eafe06be448e4ca8",
+    "nameTag": "Bancor Network: bnTRAC Token"
+  },
+  {
+    "address": "0xdd43ef15fe2a10faa27954a92e8bf2b16b63addd",
+    "nameTag": "Bancor Network: bnTRU Token"
+  },
+  {
+    "address": "0xb381673456120e95f8ff54ba987ecf4388ec3dcc",
+    "nameTag": "Bancor Network: bnUMA Token"
+  },
+  {
+    "address": "0x05bf6ca5f348d9575f360d6e29775f2477047a8d",
+    "nameTag": "Bancor Network: bnUNI Token"
+  },
+  {
+    "address": "0x8efae5a67f3d1805ac592b95afb21cb3a7f54cb5",
+    "nameTag": "Bancor Network: bnUOS Token"
+  },
+  {
+    "address": "0xad7bec56506d181f994ec380b1ba34fb3fbfbad3",
+    "nameTag": "Bancor Network: bnUSDC Token"
+  },
+  {
+    "address": "0x056b4873dcfe68041448bfd40262aec8c3a09bb8",
+    "nameTag": "Bancor Network: bnvBNT Token"
+  },
+  {
+    "address": "0x67a5ab7c64334b8969dbb7668881ebd0a586ef21",
+    "nameTag": "Bancor Network: bnVISION Token"
+  },
+  {
+    "address": "0xdf0ee5acba19c92769eb2f51ffa4866daa8e3f1f",
+    "nameTag": "Bancor Network: bnVITA Token"
+  },
+  {
+    "address": "0x7a471625b42e63496fd82077573594ecd0ba88d5",
+    "nameTag": "Bancor Network: bnVLX Token"
+  },
+  {
+    "address": "0x2ce37087559cbe8022fa5d70a0c502b7ae03f290",
+    "nameTag": "Bancor Network: bnWBTC Token"
+  },
+  {
+    "address": "0xa72279697db11f6f1ca9c3e666707edfc477c6d1",
+    "nameTag": "Bancor Network: bnwNXM Token"
+  },
+  {
+    "address": "0x2fc8bc3ee171ed5610ba3093909421e90b47fc07",
+    "nameTag": "Bancor Network: bnWOO Token"
+  },
+  {
+    "address": "0x5cc2c42bb9ff433eee306ffce898c2de7866a0cd",
+    "nameTag": "Bancor Network: bnwstETH Token"
+  },
+  {
+    "address": "0xfe5ff0fda76eae4fc1fd361aa2ae69a05ab7c503",
+    "nameTag": "Bancor Network: bnWXT Token"
+  },
+  {
+    "address": "0xb89bc052d590a56b5062d6f0022faa8c005566e6",
+    "nameTag": "Bancor Network: bnxSUSHI Token"
+  },
+  {
+    "address": "0x71240f297d4e1dcd8e78bfd0c082b5a8c3e398ff",
+    "nameTag": "Bancor Network: bnYFI Token"
+  },
+  {
+    "address": "0xb6279f7ca49876f9529fdc7983d65a03a819e2d0",
+    "nameTag": "Bancor Network: bnZCN Token"
+  },
+  {
+    "address": "0x56cd6b34008213b1e27345c60473c8a559b4fb46",
+    "nameTag": "Bancor Network: bnZRX Token"
+  },
+  {
+    "address": "0x8e303d296851b320e6a697bacb979d13c9d6e760",
+    "nameTag": "Bancor: Bancor Network Info V3"
+  },
+  {
+    "address": "0xeef417e1d5cc832e619ae18d2f140de2999dd4fb",
+    "nameTag": "Bancor: Bancor Network V3"
+  },
+  {
+    "address": "0x9f292ccb69ff9a0644475c7bc8d4651039e133d5",
+    "nameTag": "Bancor: Bancor Portal V3"
+  },
+  {
+    "address": "0xd761d538240e23b465c9c08236d781029dc3cc96",
+    "nameTag": "Bancor: Bancor V1 Migration V3"
+  },
+  {
+    "address": "0x3b8c052c93549517a30ae010a7dee675238b692c",
+    "nameTag": "Bancor: bnACRE Token"
+  },
+  {
+    "address": "0xab05cf7c6c3a288cd36326e4f7b8600e7268e344",
+    "nameTag": "Bancor: bnBNT Token"
+  },
+  {
+    "address": "0x356d286a49f484b73e58d757d85fc5abc9ebf4f2",
+    "nameTag": "Bancor: bnCROWN Token"
+  },
+  {
+    "address": "0xd1d99e7bc649d2b8e01eca22908dba5813ae6f10",
+    "nameTag": "Bancor: BNLM Token"
+  },
+  {
+    "address": "0x61932d71eb18ff8e918ce0b620d703f56d089064",
+    "nameTag": "Bancor: bnPDI Token"
+  },
+  {
+    "address": "0x50fd9efd669982d02d54d41c78ebbf9da2cdc9a6",
+    "nameTag": "Bancor: bnPOOL Token"
+  },
+  {
+    "address": "0x02651e355d26f3506c1e644ba393fdd9ac95eaca",
+    "nameTag": "Bancor: BNT Pool V3"
+  },
+  {
+    "address": "0x1f573d6fb3f13d689ff844b4ce37794d79a7ff1c",
+    "nameTag": "Bancor: BNT Token"
+  },
+  {
+    "address": "0x9537d07406ca6c35b846ffdb99ae0e85040e8f91",
+    "nameTag": "Bancor: BNTEE Token"
+  },
+  {
+    "address": "0xfa60aa4cd80b1e7aed9abdc5c63b5e21aee603ca",
+    "nameTag": "Bancor: BNVT Token"
+  },
+  {
+    "address": "0x77a77eca75445841875ebb67a33d0a97dc34d924",
+    "nameTag": "Bancor: Buyer"
+  },
+  {
+    "address": "0xca83bd8c4c7b1c0409b25fbd7e70b1ef57629ff4",
+    "nameTag": "Bancor: Changer"
+  },
+  {
+    "address": "0x52ae12abe5d8bd778bd5397f99ca900624cfadd4",
+    "nameTag": "Bancor: Contract Registry"
+  },
+  {
     "address": "0x7f913e9deef8efe8d09a2e67d18ced9be4ad1dc7",
     "nameTag": "Bancor: Converter"
+  },
+  {
+    "address": "0x3839416bd0095d97be9b354cbfb0f6807d4d609e",
+    "nameTag": "Bancor: Converter #1"
+  },
+  {
+    "address": "0x079cf5c7b29067708bf653fbb93d7f619d9287a9",
+    "nameTag": "Bancor: Converter #10"
+  },
+  {
+    "address": "0xa6f89e1d3de44691ef031706e13c1ad091fd60f6",
+    "nameTag": "Bancor: Converter #101"
+  },
+  {
+    "address": "0xef21c67740da0b286ab3a431f1dd5409a41eff2d",
+    "nameTag": "Bancor: Converter #104"
+  },
+  {
+    "address": "0xd0c1bdb51514f144f11169140d408c26bd89f9e5",
+    "nameTag": "Bancor: Converter #105"
+  },
+  {
+    "address": "0x6c722b811ea96f2ea89436aeea70a3bcd91f669b",
+    "nameTag": "Bancor: Converter #106"
+  },
+  {
+    "address": "0x8cfcd76160a695303ec6f8dfacaa347fd6ae6f6f",
+    "nameTag": "Bancor: Converter #107"
+  },
+  {
+    "address": "0x0c41f4e6339e9c8635062f39d976789dbd832b09",
+    "nameTag": "Bancor: Converter #108"
+  },
+  {
+    "address": "0xaa8cec9cbd7d051ba86d9deff1ec0775bd4b13c5",
+    "nameTag": "Bancor: Converter #109"
+  },
+  {
+    "address": "0xedcc9346d266c78364f21b1aca88641be7ca73e1",
+    "nameTag": "Bancor: Converter #11"
+  },
+  {
+    "address": "0x46ffcdc6d8e6ed69f124d944bbfe0ac74f8fcf7f",
+    "nameTag": "Bancor: Converter #111"
+  },
+  {
+    "address": "0xc02d4bd00f642d2821e4279c810dd7b6e49264f8",
+    "nameTag": "Bancor: Converter #112"
+  },
+  {
+    "address": "0x751b934e7496e437503d74d0679a45e49c0b7071",
+    "nameTag": "Bancor: Converter #114"
+  },
+  {
+    "address": "0x73314db8f62312e6a1fb365c3a98599119a91c74",
+    "nameTag": "Bancor: Converter #117"
+  },
+  {
+    "address": "0xc18166e01970be040d8c7761cdd1c3372ae1edf0",
+    "nameTag": "Bancor: Converter #118"
+  },
+  {
+    "address": "0x69e37aba9b520a204bb0baebd76b0ac1a2390b37",
+    "nameTag": "Bancor: Converter #119"
+  },
+  {
+    "address": "0xc893f7e271d1436ae3758cd59d5242884c02fb7f",
+    "nameTag": "Bancor: Converter #12"
+  },
+  {
+    "address": "0x2596aada3c9290293433adcb3359c9a04112eb16",
+    "nameTag": "Bancor: Converter #120"
+  },
+  {
+    "address": "0xf346a9884bf8f858848268fb9d8ab31dae4b323f",
+    "nameTag": "Bancor: Converter #121"
+  },
+  {
+    "address": "0x07cff9c779702a57a4da4b15ef9a0af58e9472d3",
+    "nameTag": "Bancor: Converter #122"
+  },
+  {
+    "address": "0x593a70c88a14188f05636f9173a63128540a5890",
+    "nameTag": "Bancor: Converter #123"
+  },
+  {
+    "address": "0x587044b74004e3d5ef2d453b7f8d198d9e4cb558",
+    "nameTag": "Bancor: Converter #124"
+  },
+  {
+    "address": "0xf4327c919854cb099ac574a22f5fba901e2025c4",
+    "nameTag": "Bancor: Converter #127"
+  },
+  {
+    "address": "0xfa968bc2e4768d431ffec4ee64307f8152e1c9f1",
+    "nameTag": "Bancor: Converter #128"
+  },
+  {
+    "address": "0xe86d3a9bada1b7adcc32abde0522861b1dc7973a",
+    "nameTag": "Bancor: Converter #13"
+  },
+  {
+    "address": "0x445556b7215349b205997aaaf6c6dfa258eb029d",
+    "nameTag": "Bancor: Converter #130"
+  },
+  {
+    "address": "0x645a3f2fa86be27a4d9a3cc93a73f27b33df766f",
+    "nameTag": "Bancor: Converter #131"
+  },
+  {
+    "address": "0xb5a5a031d8b8577871384be6055b2ea29fac064c",
+    "nameTag": "Bancor: Converter #132"
+  },
+  {
+    "address": "0x0d8746c7bfac7494904d4133c550c72b02c7cdbb",
+    "nameTag": "Bancor: Converter #133"
+  },
+  {
+    "address": "0x9f547e89078b24d0e2269ba08eb411102e98ca14",
+    "nameTag": "Bancor: Converter #135"
+  },
+  {
+    "address": "0x2723a5af933ff0a3522a301015544be366e6ee31",
+    "nameTag": "Bancor: Converter #137"
+  },
+  {
+    "address": "0xc44330a585c3408392afb85b7018178bd4bae219",
+    "nameTag": "Bancor: Converter #138"
+  },
+  {
+    "address": "0x38ef8fd7cfd46d615ebf7788bc7225906b58406f",
+    "nameTag": "Bancor: Converter #140"
+  },
+  {
+    "address": "0xe88d6d63389d5c91e6348e379913f330739ad2c4",
+    "nameTag": "Bancor: Converter #143"
+  },
+  {
+    "address": "0xc6aacdf2cb021515009098025a0ece472608918e",
+    "nameTag": "Bancor: Converter #144"
+  },
+  {
+    "address": "0xb19710f3bdb4df4c781b9dc3cd62979921878280",
+    "nameTag": "Bancor: Converter #145"
+  },
+  {
+    "address": "0xc7151af2e9d1a702a61fcb655e2334bfee5b5faf",
+    "nameTag": "Bancor: Converter #146"
+  },
+  {
+    "address": "0x14609cca8a69c734f7ba6dca3f723c4fbbeb6b43",
+    "nameTag": "Bancor: Converter #147"
+  },
+  {
+    "address": "0xe9800c0b73a71be61d49a61fa3b2320ee524fb3d",
+    "nameTag": "Bancor: Converter #148"
+  },
+  {
+    "address": "0xcde79f10b689a716029d0edb54de78b1bbc14957",
+    "nameTag": "Bancor: Converter #149"
+  },
+  {
+    "address": "0x94c654fef85b8b0a982909a6ca45b66bb2384236",
+    "nameTag": "Bancor: Converter #15"
+  },
+  {
+    "address": "0x6411a822850dcfe2fae215248e47de77b1738bea",
+    "nameTag": "Bancor: Converter #150"
+  },
+  {
+    "address": "0xbafc0bf857ae9b8feaed937ac90e44d90a487c72",
+    "nameTag": "Bancor: Converter #151"
+  },
+  {
+    "address": "0x72844ab8b5f59c0251bcce6ef5f2be92d7528c1a",
+    "nameTag": "Bancor: Converter #152"
+  },
+  {
+    "address": "0x0fec04a7526f601a1019edcd5d5b003101c46a0c",
+    "nameTag": "Bancor: Converter #153"
+  },
+  {
+    "address": "0x6b431a7a99780819473722161ee9145e5649c5e2",
+    "nameTag": "Bancor: Converter #157"
+  },
+  {
+    "address": "0x11614c5f1eb215ecffe657da56d3dd12df395dc8",
+    "nameTag": "Bancor: Converter #159"
+  },
+  {
+    "address": "0xff79b6660b02b4625e4faef219f297cb58c878c6",
+    "nameTag": "Bancor: Converter #16"
+  },
+  {
+    "address": "0x08cf6f1d9c2ad6d255485aed627d701ca29c8007",
+    "nameTag": "Bancor: Converter #160"
+  },
+  {
+    "address": "0x2ac0e433c3c9ad816db79852d6f933b0b117aefe",
+    "nameTag": "Bancor: Converter #161"
+  },
+  {
+    "address": "0x2769eb86e3acdda921c4f36cfe6cad035d95d31b",
+    "nameTag": "Bancor: Converter #162"
+  },
+  {
+    "address": "0x8c2036ce61648fcddffb06d6d11fe0b479ed63fe",
+    "nameTag": "Bancor: Converter #163"
+  },
+  {
+    "address": "0x8fd5bfbc2f61a450400ae275e64d1e171c05b639",
+    "nameTag": "Bancor: Converter #164"
+  },
+  {
+    "address": "0x8e7fc617e87b39bd5fe1767a95afa53d2c79f147",
+    "nameTag": "Bancor: Converter #166"
+  },
+  {
+    "address": "0x8b30e174bddb3c0376e666afb8a4196e2f53182d",
+    "nameTag": "Bancor: Converter #168"
+  },
+  {
+    "address": "0xf2859ea69231af73609a1f22efd1059892915c77",
+    "nameTag": "Bancor: Converter #17"
+  },
+  {
+    "address": "0xc31db08240a11df6a4c159ff4e6d69f484fc3828",
+    "nameTag": "Bancor: Converter #171"
+  },
+  {
+    "address": "0xfe75413e059eecf6eb2b92f06456276e8596862b",
+    "nameTag": "Bancor: Converter #172"
+  },
+  {
+    "address": "0x599485dc0f3d8b308b973b2db5cd44bae46d31c4",
+    "nameTag": "Bancor: Converter #173"
+  },
+  {
+    "address": "0xd3a3bace3d61f6f5d16a9b415d51813cd2ea3887",
+    "nameTag": "Bancor: Converter #174"
+  },
+  {
+    "address": "0xbb9859dca5b269e787e9dd6042db46b07515fc4b",
+    "nameTag": "Bancor: Converter #176"
+  },
+  {
+    "address": "0xdb9272880400e0ae8e522994f6a959122d94c7b7",
+    "nameTag": "Bancor: Converter #177"
+  },
+  {
+    "address": "0x2f3cdf19a7ed0352f96440dac92a6d2959719c07",
+    "nameTag": "Bancor: Converter #178"
+  },
+  {
+    "address": "0x0b1bb711524f9d43515b5424c029f2e3beed1ffc",
+    "nameTag": "Bancor: Converter #18"
+  },
+  {
+    "address": "0xce1e2b5ffe4d441abafd136768f24867101dfa50",
+    "nameTag": "Bancor: Converter #180"
+  },
+  {
+    "address": "0xb952ccbc1893c4dd1701bde249e62fc3ed357967",
+    "nameTag": "Bancor: Converter #181"
+  },
+  {
+    "address": "0x58c46d06cfdcf9ca2cb590d7b79b12ffa8adce04",
+    "nameTag": "Bancor: Converter #182"
+  },
+  {
+    "address": "0xa7a402266ceea0652ea8eafd919d619d16bee134",
+    "nameTag": "Bancor: Converter #183"
+  },
+  {
+    "address": "0x0cfbed1bd80bd8a740f24ec5fca8e8d1a9f87052",
+    "nameTag": "Bancor: Converter #187"
+  },
+  {
+    "address": "0x66906318f947e519da5e6a0f8c88ddd1610d3621",
+    "nameTag": "Bancor: Converter #19"
+  },
+  {
+    "address": "0x2dad2c84f6c3957ef4b83a5df6f1339dfd9e6080",
+    "nameTag": "Bancor: Converter #190"
+  },
+  {
+    "address": "0x7172c5b24bdce3b93a78c53ef1ece011b0472c1b",
+    "nameTag": "Bancor: Converter #192"
+  },
+  {
+    "address": "0x83e240d1cbc6ec7f394cd6ba5ed01b7fcdf44ed5",
+    "nameTag": "Bancor: Converter #193"
+  },
+  {
+    "address": "0x0d1fa37b1dfd006e8f6fab6fa0d2351856030ef5",
+    "nameTag": "Bancor: Converter #194"
+  },
+  {
+    "address": "0x9a3487c0d300c4d3a7b3ff38d7a18c53c66f1c49",
+    "nameTag": "Bancor: Converter #195"
+  },
+  {
+    "address": "0xa2630fc0233940779f25dfdcff3abbdc85682a4c",
+    "nameTag": "Bancor: Converter #196"
+  },
+  {
+    "address": "0x9571c052c01fa73e58334c02a57e421045f7ab9a",
+    "nameTag": "Bancor: Converter #198"
+  },
+  {
+    "address": "0x37c88474b5d6c593bbd2e4ce16635c08f8215b1e",
+    "nameTag": "Bancor: Converter #2"
+  },
+  {
+    "address": "0xfd9e980adb3d1f9e9ff515aff99e454ad839bdfa",
+    "nameTag": "Bancor: Converter #20"
+  },
+  {
+    "address": "0xb2bc3b9558a22a73edd531c590593f5e4e3370a7",
+    "nameTag": "Bancor: Converter #21"
+  },
+  {
+    "address": "0xc3a60d674712019611fd68febb45a89ba766c8ef",
+    "nameTag": "Bancor: Converter #22"
+  },
+  {
+    "address": "0xea8d77d7328fb6b9b9bb5df4bd16e390d07ca4ff",
+    "nameTag": "Bancor: Converter #23"
+  },
+  {
+    "address": "0x1d9d9670351d7a05c19ed7c06d3085dcbef68264",
+    "nameTag": "Bancor: Converter #24"
+  },
+  {
+    "address": "0x578f3c8454f316293dbd31d8c7806050f3b3e2d8",
+    "nameTag": "Bancor: Converter #25"
+  },
+  {
+    "address": "0x8b56ef96c1cc67dac0a57ccea197a2ef1568ad33",
+    "nameTag": "Bancor: Converter #26"
+  },
+  {
+    "address": "0x34e4e501dfa903c7c1c7b7f82a56b870838b5274",
+    "nameTag": "Bancor: Converter #27"
+  },
+  {
+    "address": "0x4c789df2c1e21bb17c5ab24ed95d6abeb114726b",
+    "nameTag": "Bancor: Converter #28"
+  },
+  {
+    "address": "0xd9f5599c07be8eb4bb420fb258af6c25c7154866",
+    "nameTag": "Bancor: Converter #29"
+  },
+  {
+    "address": "0xc6725ae749677f21e4d8f85f41cfb6de49b9db29",
+    "nameTag": "Bancor: Converter #3"
+  },
+  {
+    "address": "0x02b5e0c10862c8d24585c00282bde99d09831a6c",
+    "nameTag": "Bancor: Converter #31"
+  },
+  {
+    "address": "0xec64bd6efff779637f10b58109ff74e4f4212918",
+    "nameTag": "Bancor: Converter #32"
+  },
+  {
+    "address": "0x7dfebdd6902f3df5a0f247d18f7895116f640bd1",
+    "nameTag": "Bancor: Converter #33"
+  },
+  {
+    "address": "0xee5f5354f261383e67a45a65307e636bfda2d100",
+    "nameTag": "Bancor: Converter #34"
+  },
+  {
+    "address": "0xf3ed5b15618494ddbd0a57b3bca8b2686ac0bc04",
+    "nameTag": "Bancor: Converter #35"
+  },
+  {
+    "address": "0x68c41a0bbe7c936f68764f01b170154b657a194c",
+    "nameTag": "Bancor: Converter #36"
+  },
+  {
+    "address": "0x02f8fa04877be844e073eb8effeb48c420b33abe",
+    "nameTag": "Bancor: Converter #37"
+  },
+  {
+    "address": "0xd7169672b25271d379cc2c022dfe0ceebb3f006f",
+    "nameTag": "Bancor: Converter #38"
+  },
+  {
+    "address": "0xecc17838dcc6ed1be59c7b3aadc015c7299c72ec",
+    "nameTag": "Bancor: Converter #39"
+  },
+  {
+    "address": "0x7768a2e685da843a7dcf9a0f09b4d03d8d7fb6c4",
+    "nameTag": "Bancor: Converter #4"
+  },
+  {
+    "address": "0x07d30104ba4d9eb4a845db1142bf9aa1f5a93d97",
+    "nameTag": "Bancor: Converter #40"
+  },
+  {
+    "address": "0x42d2c774b30f53b81a1468f894d8405cdff07b83",
+    "nameTag": "Bancor: Converter #41"
+  },
+  {
+    "address": "0x9bd60265d6e894dbbbba55eb76c6c9dd09efb22e",
+    "nameTag": "Bancor: Converter #42"
+  },
+  {
+    "address": "0x4ccd6c8da3e35f60c3328388d46f64f1be49b41f",
+    "nameTag": "Bancor: Converter #43"
+  },
+  {
+    "address": "0x6a4ebd8ce47b1362ea809d93f1beb744c4ffd7ee",
+    "nameTag": "Bancor: Converter #44"
+  },
+  {
+    "address": "0x315b9696cd3c83bb3e082f5c7f612cd2126f90d1",
+    "nameTag": "Bancor: Converter #45"
+  },
+  {
+    "address": "0xa8ace92ea2d9174f75208ee44495f459e0491a96",
+    "nameTag": "Bancor: Converter #46"
+  },
+  {
+    "address": "0x2b2ed53e664d3616a20347cc0ff8940521784d47",
+    "nameTag": "Bancor: Converter #47"
+  },
+  {
+    "address": "0x08bba7fb279915d7bfd08670571cc978e88a03f6",
+    "nameTag": "Bancor: Converter #48"
+  },
+  {
+    "address": "0xde6a1e3702c31ae9e13ec316fce463278c8962d3",
+    "nameTag": "Bancor: Converter #51"
+  },
+  {
+    "address": "0xe103038c907625be740aa467cf597c7e89d5c5ad",
+    "nameTag": "Bancor: Converter #52"
+  },
+  {
+    "address": "0x8ea7865cdf06ed8bfaf3826fdd34ecb6d596d612",
+    "nameTag": "Bancor: Converter #53"
+  },
+  {
+    "address": "0x51907923c3280c24b6b69b0d217ea34cabde684d",
+    "nameTag": "Bancor: Converter #54"
+  },
+  {
+    "address": "0x788ca5935759c06ea223d0e2cf5ea5729d669c18",
+    "nameTag": "Bancor: Converter #55"
+  },
+  {
+    "address": "0xe53730216bafc67e12d371047fa9f18fa4cfd93c",
+    "nameTag": "Bancor: Converter #56"
+  },
+  {
+    "address": "0xb316cb2de8f2e6aed5a78a586f1c8dcc80c48802",
+    "nameTag": "Bancor: Converter #57"
+  },
+  {
+    "address": "0xf458fd28e012e4a36f744384acc244d7bc38bb96",
+    "nameTag": "Bancor: Converter #58"
+  },
+  {
+    "address": "0x50dc56ae4dd8cdeded5a88a6670792d343645c28",
+    "nameTag": "Bancor: Converter #59"
+  },
+  {
+    "address": "0x90944f5091801c2d12aea94575287c68734b0a63",
+    "nameTag": "Bancor: Converter #60"
+  },
+  {
+    "address": "0x25d4aef414ea092fbcbd83fd30e89e15cf820d0a",
+    "nameTag": "Bancor: Converter #61"
+  },
+  {
+    "address": "0x9c3a65ef4dae8655d7725ada3dd7711cfcc19ef5",
+    "nameTag": "Bancor: Converter #63"
+  },
+  {
+    "address": "0x123e3506bc08c14b15f1a967e27c26b108557db2",
+    "nameTag": "Bancor: Converter #64"
+  },
+  {
+    "address": "0xf692c39b488e12ce9f9c926fe047ed77b07a18d3",
+    "nameTag": "Bancor: Converter #65"
+  },
+  {
+    "address": "0x2b9eab2098e4a363a114aa6934f5c3cdea8149a3",
+    "nameTag": "Bancor: Converter #66"
+  },
+  {
+    "address": "0xa3a89db39f4cbfb8753259456332ce8373ff5bad",
+    "nameTag": "Bancor: Converter #67"
+  },
+  {
+    "address": "0xa0db892affca7ec5ba3cea5d03fc0bc53db34036",
+    "nameTag": "Bancor: Converter #68"
+  },
+  {
+    "address": "0xac1b275f272f15c226b4e099a4cbf4e53b366cc7",
+    "nameTag": "Bancor: Converter #69"
+  },
+  {
+    "address": "0xff8d1014da6382f4c07461fbd5f3bed733b229f1",
+    "nameTag": "Bancor: Converter #7"
+  },
+  {
+    "address": "0x2c2d1113dd9f40fad1b04cf23af9da84c37efcf3",
+    "nameTag": "Bancor: Converter #70"
+  },
+  {
+    "address": "0xcbc7e6dccfaaf6ed2e8346ceda633f77247eb84c",
+    "nameTag": "Bancor: Converter #71"
+  },
+  {
+    "address": "0x3524bf63a3c97ed21f13f7621d14d2fe486d994c",
+    "nameTag": "Bancor: Converter #72"
+  },
+  {
+    "address": "0xce194c194cda85d93557867c2e88dc9f5bcd01f1",
+    "nameTag": "Bancor: Converter #73"
+  },
+  {
+    "address": "0x0da2dafba09ff64d3ee93e0ed03df74f4236597e",
+    "nameTag": "Bancor: Converter #74"
+  },
+  {
+    "address": "0xfec548e321d1776867821bd8697e147eda5e8f20",
+    "nameTag": "Bancor: Converter #75"
+  },
+  {
+    "address": "0x60dfa58865b9cce905cf570d6e2bfa7899ce0b2b",
+    "nameTag": "Bancor: Converter #76"
+  },
+  {
+    "address": "0x4d0e06c099dcb0ee61d0f937844376b9ab1edcc7",
+    "nameTag": "Bancor: Converter #77"
+  },
+  {
+    "address": "0x30e6800ed789eae132c6897e78b38b3d389e97bf",
+    "nameTag": "Bancor: Converter #78"
+  },
+  {
+    "address": "0xe18e79a0e53fd57aea0e748c8d8da54b85a68d51",
+    "nameTag": "Bancor: Converter #79"
+  },
+  {
+    "address": "0x287565333c9cafd57ad7241ccb1d29de976bb5f8",
+    "nameTag": "Bancor: Converter #8"
+  },
+  {
+    "address": "0x9a41b63664fd1bdf52024e8a3998d7c6a3839d62",
+    "nameTag": "Bancor: Converter #80"
+  },
+  {
+    "address": "0xa4eeb26d8a0d30b748d3a29705e51e5325f2914a",
+    "nameTag": "Bancor: Converter #82"
+  },
+  {
+    "address": "0x39a23012c065e0a93a6e268717c8b0f25f0430e9",
+    "nameTag": "Bancor: Converter #83"
+  },
+  {
+    "address": "0xfcce45b7768df12df0ca94d2765983540d366b3f",
+    "nameTag": "Bancor: Converter #84"
+  },
+  {
+    "address": "0x6467738e59dac6ca0675cca98a9ec2e45a3f774c",
+    "nameTag": "Bancor: Converter #85"
+  },
+  {
+    "address": "0x58b249b613ce917b6ccc2f66787856ef39f4f0b6",
+    "nameTag": "Bancor: Converter #86"
+  },
+  {
+    "address": "0x8606704880234178125b2d44cbbe190ccdbde015",
+    "nameTag": "Bancor: Converter #87"
+  },
+  {
+    "address": "0xa2537d2efd038b90b192ecabb8126e282cd538e0",
+    "nameTag": "Bancor: Converter #88"
+  },
+  {
+    "address": "0x83c1ded540d8b6b734885ed9083a5c4e4f142e73",
+    "nameTag": "Bancor: Converter #89"
+  },
+  {
+    "address": "0xdf76e7e26f6ee937f09a3f17f1d7047c0f928e12",
+    "nameTag": "Bancor: Converter #9"
+  },
+  {
+    "address": "0xa9aabbfa7d2f1a7e946186cdfe056c9693fe3841",
+    "nameTag": "Bancor: Converter #90"
+  },
+  {
+    "address": "0xaf6a5b0998ff41355f3b4fe1ab96d89bd2c487d3",
+    "nameTag": "Bancor: Converter #91"
+  },
+  {
+    "address": "0xab2b2957d734d069b93227dfab93f1302f1930ab",
+    "nameTag": "Bancor: Converter #92"
+  },
+  {
+    "address": "0x82c970c55711dc5f33aa40fee6614fbb857ceb83",
+    "nameTag": "Bancor: Converter #93"
+  },
+  {
+    "address": "0xb33f5f5172fce076e9355afcf2529982260b7a4b",
+    "nameTag": "Bancor: Converter #94"
+  },
+  {
+    "address": "0x7da9fcec7d8cd0e13d0dac193fffe4cbe888814c",
+    "nameTag": "Bancor: Converter #95"
+  },
+  {
+    "address": "0x60f3eb9a29a9f5bcac65491cab1638e9675a3f43",
+    "nameTag": "Bancor: Converter #96"
+  },
+  {
+    "address": "0xed3e80e059b0ab32b55048fe01c6c3386386e20c",
+    "nameTag": "Bancor: Converter #97"
+  },
+  {
+    "address": "0x09ce1ba1bd31b1395c3e7560afd393b0e014e344",
+    "nameTag": "Bancor: Converter #98"
+  },
+  {
+    "address": "0x874d5e5654811af020bf3530d8fd49abb7fdf7a7",
+    "nameTag": "Bancor: Converter #99"
   },
   {
     "address": "0xa00655976c5c9a1ed58b3707b190867069babee5",
@@ -3090,5 +4206,129 @@
   {
     "address": "0xdc59242010e2d29617bfeec57e62c7c00a5acb52",
     "nameTag": "Bancor: Converter 99"
+  },
+  {
+    "address": "0xc1933ed6a18c175a7c2058807f25e55461cd92f5",
+    "nameTag": "Bancor: Converter Registry"
+  },
+  {
+    "address": "0x20412bd6d146309c55cc607d30c5aad07fbf6148",
+    "nameTag": "Bancor: Converter Upgrader"
+  },
+  {
+    "address": "0xdfee8dc240c6cadc2c7f7f9c257c259914dea84e",
+    "nameTag": "Bancor: Deployer"
+  },
+  {
+    "address": "0x009bb5e9fcf28e5e601b7d0e9e821da6365d0a9c",
+    "nameTag": "Bancor: Deployer 2"
+  },
+  {
+    "address": "0xc8021b971e69e60c5deede19528b33dcd52cdbd8",
+    "nameTag": "Bancor: Deployer 3"
+  },
+  {
+    "address": "0xf2ad4572ce38408ac846852a8a2b361ecb76e4fb",
+    "nameTag": "Bancor: Deployer 4"
+  },
+  {
+    "address": "0x054a731a80f58ceb5f4ab0ace2a22f8d5e8132cf",
+    "nameTag": "Bancor: Deployer 5"
+  },
+  {
+    "address": "0xc0829421c1d260bd3cb3e0f06cfe2d52db2ce315",
+    "nameTag": "Bancor: ETH Token"
+  },
+  {
+    "address": "0xb1cd6e4153b2a390cf00a6556b0fc1458c4a5533",
+    "nameTag": "Bancor: ETHBNT Token"
+  },
+  {
+    "address": "0x2a2a2be5ccf20f3633c6ca2d429ac51186a631e1",
+    "nameTag": "Bancor: External Rewards Vault V3"
+  },
+  {
+    "address": "0x607a5c47978e2eb6d59c6c6f51bc0bf411f4b85a",
+    "nameTag": "Bancor: Gas Price Limit"
+  },
+  {
+    "address": "0x892f481bd6e9d7d26ae365211d9b45175d5d00e4",
+    "nameTag": "Bancor: Governance"
+  },
+  {
+    "address": "0x853c2d147a1bd7eda8fe0f58fb3c5294db07220e",
+    "nameTag": "Bancor: Liquidity Protection"
+  },
+  {
+    "address": "0x649765821d9f64198c905ec0b2b037a4a52bc373",
+    "nameTag": "Bancor: Master Vault V3"
+  },
+  {
+    "address": "0x5894110995b8c8401bd38262ba0c8ee41d4e4658",
+    "nameTag": "Bancor: Multisig 1"
+  },
+  {
+    "address": "0x67e4bbe50fbc74633dfd9f7683465c02af896541",
+    "nameTag": "Bancor: MultiSig 2"
+  },
+  {
+    "address": "0xcc1aac4513f751effc94e259daf8a37b76f9db75",
+    "nameTag": "Bancor: Multisig 3"
+  },
+  {
+    "address": "0x4f8af8e8734d02a21d73e2a4fb29941f35cbbeac",
+    "nameTag": "Bancor: Multisig 4"
+  },
+  {
+    "address": "0xc39e562defc6ddd1f44ee698cf9303092b86051d",
+    "nameTag": "Bancor: Multisig 5"
+  },
+  {
+    "address": "0x83e1814ba31f7ea95d216204bb45fe75ce09b14f",
+    "nameTag": "Bancor: Network Settings Info V3"
+  },
+  {
+    "address": "0xd76b5c2a23ef78368d8e34288b5b65d616b746ae",
+    "nameTag": "Bancor: Old ETH Token"
+  },
+  {
+    "address": "0x857eb0eb2572f7092c417cd386ba82e45eba9b8a",
+    "nameTag": "Bancor: Pending Withdrawals V3"
+  },
+  {
+    "address": "0xec9596e0eb67228d61a12cfdb4b3608281f261b3",
+    "nameTag": "Bancor: Pool Collection V3"
+  },
+  {
+    "address": "0x97cec0f2d355bf073619a5093f989709cae4a191",
+    "nameTag": "Bancor: Pool Migrator V3"
+  },
+  {
+    "address": "0x7ec6a713197fcbb4cfe7213800470b0940268549",
+    "nameTag": "Bancor: Price Floor"
+  },
+  {
+    "address": "0xb0b958398abb0b5db4ce4d7598fb868f5a00f372",
+    "nameTag": "Bancor: Standard Rewards V3"
+  },
+  {
+    "address": "0x2f9ec37d6ccfff1cab21733bdadede11c823ccb0",
+    "nameTag": "Bancor: Swaps"
+  },
+  {
+    "address": "0xbbc79794599b19274850492394004087cbf89710",
+    "nameTag": "Bancor: Token Sale"
+  },
+  {
+    "address": "0x29551fc9c39a95d8f93ad4209944ff05846a05f3",
+    "nameTag": "Bancor: White Hat Safe Wallet"
+  },
+  {
+    "address": "0xda96eb2fa67642c171650c428f93abdfb8a63a2d",
+    "nameTag": "BancorX"
+  },
+  {
+    "address": "0x98a741591049b6a92d7266a0668a26aaf61a1b5e",
+    "nameTag": "BancorX: Old Contract"
   }
 ]

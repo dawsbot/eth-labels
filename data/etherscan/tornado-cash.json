@@ -176,6 +176,14 @@
     "nameTag": "Tornado.Cash: Mixer 2"
   },
   {
+    "address": "0x905b63fff465b9ffbf41dea908ceb12478ec7601",
+    "nameTag": "Tornado.Cash: Old Proxy"
+  },
+  {
+    "address": "0x43a3be4ae954d9869836702afd10393d3a7ea417",
+    "nameTag": "Tornado.Cash: Old Trees"
+  },
+  {
     "address": "0x94c92f096437ab9958fc0a37f09348f30389ae79",
     "nameTag": "Tornado.Cash: Poseidon 2"
   },
@@ -230,6 +238,10 @@
   {
     "address": "0x653477c392c16b0765603074f157314cc4f40c32",
     "nameTag": "Tornado.Cash: Tree Update Verifier"
+  },
+  {
+    "address": "0x527653ea119f3e6a1f5bd18fbf4714081d7b31ce",
+    "nameTag": "Tornado.Cash: Trees"
   },
   {
     "address": "0x3efa30704d2b8bbac821307230376556cf8cc39e",

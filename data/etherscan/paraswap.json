@@ -14,5 +14,25 @@
   {
     "address": "0xf90e98f3d8dce44632e5020abf2e122e0f99dfab",
     "nameTag": "ParaSwap V3"
+  },
+  {
+    "address": "0x60fb0b38ff0fcb98462e70aa5da4dff047635ec3",
+    "nameTag": "ParaSwap: Deployer"
+  },
+  {
+    "address": "0xe6b692dcc972b9a5c3c414ac75ddc420b9edc92d",
+    "nameTag": "ParaSwap: Deployer 2"
+  },
+  {
+    "address": "0x6b158039b9678b7452f311deb12dd08c579dad26",
+    "nameTag": "ParaSwap: Old Contract"
+  },
+  {
+    "address": "0x72338b82800400f5488eca2b5a37270ba3b7a111",
+    "nameTag": "ParaSwap: Old Contract 2"
+  },
+  {
+    "address": "0xf92c1ad75005e6436b4ee84e88cb23ed8a290988",
+    "nameTag": "ParaSwap: Old Contract 3"
   }
 ]

@@ -8,7 +8,15 @@
     "nameTag": "BitMart 2"
   },
   {
+    "address": "0x3ab28ecedea6cdb6feed398e93ae8c7b316b1182",
+    "nameTag": "BitMart 3"
+  },
+  {
     "address": "0x986ee2b944c42d017f52af21c4c69b84dbea35d8",
     "nameTag": "BitMart: BMC Token"
+  },
+  {
+    "address": "0x1aac8bc17da523b9bc7470b0c9ed47a83760acef",
+    "nameTag": "BitMart: Deployer"
   }
 ]

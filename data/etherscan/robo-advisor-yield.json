@@ -12,6 +12,14 @@
     "nameTag": "Robo-Advisor Yield: Compound Opportunity"
   },
   {
+    "address": "0xd9fd8ae74d33dfc6883c01d2f5fb0dcb82384854",
+    "nameTag": "Robo-Advisor Yield: Deployer"
+  },
+  {
+    "address": "0x5a2890b14b49e5a2ad9718f7c74973c3297a571c",
+    "nameTag": "Robo-Advisor Yield: Deployer 2"
+  },
+  {
     "address": "0xc830217bd3000e92ce846c549de6a2a36aea8954",
     "nameTag": "Robo-Advisor Yield: DSR Opportunity"
   },

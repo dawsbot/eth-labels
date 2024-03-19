@@ -1,7 +1,55 @@
 [
   {
+    "address": "0x29483d288845aa883693cff207cd02b828b6177c",
+    "nameTag": "Kyber Network: Deployer"
+  },
+  {
+    "address": "0x9fb131efbac23b735d7764ab12f9e52cc68401ca",
+    "nameTag": "Kyber Network: Fee Handler 2"
+  },
+  {
+    "address": "0x7ec8fcc26be7e9e85b57e73083e5fe0550d8a7fe",
+    "nameTag": "Kyber Network: Governance"
+  },
+  {
+    "address": "0xdefa4e8a7bcba345f687a2f1456f5edd9ce97202",
+    "nameTag": "Kyber Network: KNC Token"
+  },
+  {
+    "address": "0x6758a66cd25fef7767a44895041678fc4ae9afd0",
+    "nameTag": "Kyber Network: Long Executor"
+  },
+  {
     "address": "0x31de05f28568e3d3d612bfa6a78b356676367470",
     "nameTag": "Kyber Network: Rainmaker"
+  },
+  {
+    "address": "0x5ec0dcf4f6f55f28550c70b854082993fdc0d3b2",
+    "nameTag": "Kyber Network: Reward Distributor"
+  },
+  {
+    "address": "0xd2d0a0557e5b78e29542d440ec968f9253daa2e2",
+    "nameTag": "Kyber Network: Reward Pool"
+  },
+  {
+    "address": "0x41f5d722e6471c338392884088bd03340f50b3b5",
+    "nameTag": "Kyber Network: Short Executor"
+  },
+  {
+    "address": "0xeadb96f1623176144eba2b24e35325220972b3bd",
+    "nameTag": "Kyber Network: Staking 2"
+  },
+  {
+    "address": "0x0e590bb5f02a0c38888bffb45dee050b8fb60bda",
+    "nameTag": "Kyber Network: Treasury"
+  },
+  {
+    "address": "0xfbd73581af42b26295cf4b88b74a5af71f209f8b",
+    "nameTag": "Kyber Network: Voting Power Strategy"
+  },
+  {
+    "address": "0x1fc3607fa67b58deddb0faf7a116f417a20c551c",
+    "nameTag": "Kyber: Aggregation Router"
   },
   {
     "address": "0x65bf64ff5f51272f729bdcd7acfb00677ced86cd",
@@ -20,8 +68,60 @@
     "nameTag": "Kyber: DAO"
   },
   {
+    "address": "0x8007ce15acda724689760b4ba493d4766f973649",
+    "nameTag": "Kyber: Deployer"
+  },
+  {
+    "address": "0xe79bc2c998ff2a154ae35bb7ce68555e7fc94ef9",
+    "nameTag": "Kyber: Deployer 2"
+  },
+  {
+    "address": "0xbdd33f411da0b40018922a3bc69001b458227f5c",
+    "nameTag": "Kyber: Deployer 3"
+  },
+  {
+    "address": "0x346fbe5d02c89fb4599f33bdce987981d573740a",
+    "nameTag": "Kyber: Deployer 4"
+  },
+  {
+    "address": "0x61639d6ec06c13a96b5eb9560b359d7c648c7759",
+    "nameTag": "Kyber: DMM ETH-KNC"
+  },
+  {
+    "address": "0xce9874c42dce7fffbe5e48b026ff1182733266cb",
+    "nameTag": "Kyber: DMM ETH-USDT"
+  },
+  {
+    "address": "0xa97642500517c728ce1339a466de0f10c19034cd",
+    "nameTag": "Kyber: DMM REQ-ETH"
+  },
+  {
+    "address": "0x38ff2ea1a930478f002af766e63774fc02f04fdf",
+    "nameTag": "Kyber: DMM UND-KNC"
+  },
+  {
+    "address": "0xe0ca51b6cfac04b215c3b6e473e3ec1412c93fc7",
+    "nameTag": "Kyber: DMM UND-USDC"
+  },
+  {
+    "address": "0x306121f1344ac5f84760998484c0176d7bfb7134",
+    "nameTag": "Kyber: DMM USDC-USDT"
+  },
+  {
+    "address": "0x1cf68bbc2b6d3c6cfe1bd3590cf0e10b06a05f17",
+    "nameTag": "Kyber: DMM WBTC-ETH"
+  },
+  {
+    "address": "0xd343d5dba2fba55eef58189619c05e33cab95ca1",
+    "nameTag": "Kyber: DMM WBTC-USDT"
+  },
+  {
     "address": "0x1982131c7d6959ff7768ee39c023ad002d8c9759",
     "nameTag": "Kyber: ENS Resolver"
+  },
+  {
+    "address": "0xe69ba3f5ffe577bba3a2bf8ce949f7875d4c67db",
+    "nameTag": "Kyber: ETH-EVRY"
   },
   {
     "address": "0x8007aa43792a392b221dc091bdb2191e5ff626d1",
@@ -42,6 +142,18 @@
   {
     "address": "0xa1c0fa73c39cfbcc11ec9eb1afc665aba9996e2c",
     "nameTag": "Kyber: Matching Engine"
+  },
+  {
+    "address": "0x3eb01b3391ea15ce752d01cf3d3f09dec596f650",
+    "nameTag": "Kyber: MultiSig"
+  },
+  {
+    "address": "0x2fd6181541bebe30d17cf3a5d9f40ebcecbdba43",
+    "nameTag": "Kyber: MultiSig 2"
+  },
+  {
+    "address": "0x9ae49c0d7f8f9ef4b864e004fe86ac8294e20950",
+    "nameTag": "Kyber: Old Contract"
   },
   {
     "address": "0xdd974d5c2e2928dea5f71b9825b8b646686bd200",
@@ -264,6 +376,10 @@
     "nameTag": "Kyber: Reserve WETH"
   },
   {
+    "address": "0x9a56f30ff04884cb06da80cb3aef09c6132f5e77",
+    "nameTag": "Kyber: SIPHER-WETH"
+  },
+  {
     "address": "0x0d8c194e877af78bea7d1a7b00f593aeed7be709",
     "nameTag": "Kyber: SNX Pricing"
   },
@@ -280,6 +396,126 @@
     "nameTag": "Kyber: sUSD Pricing"
   },
   {
+    "address": "0xd6cd31f283d24cfb442cba1bcf42290c07c15792",
+    "nameTag": "Kyber: Token Sale"
+  },
+  {
+    "address": "0xdeb01e683ff0d2e3adb852a03df28e1ba7c99774",
+    "nameTag": "Kyber: USDT-EVRY"
+  },
+  {
+    "address": "0xfdf28bf25779ed4ca74e958d54653260af604c20",
+    "nameTag": "Kyber: WBTC Merchant Deposit Address"
+  },
+  {
+    "address": "0xf4c408835de8c68232f4746b5ed598608b17e98d",
+    "nameTag": "Kyber: XTK-ETH"
+  },
+  {
+    "address": "0xe6a7338cba0a1070adfb22c07115299605454713",
+    "nameTag": "KyberDAO Operator Multisig"
+  },
+  {
+    "address": "0x7ad1aa614094bbd85dd2a03e7c791c348f81793b",
+    "nameTag": "KyberSwap Stake LP: SIPHER-ETH"
+  },
+  {
+    "address": "0xdf1a1b60f2d438842916c0adc43748768353ec25",
+    "nameTag": "KyberSwap: Aggregation Router 2"
+  },
+  {
+    "address": "0x8180a5ca4e3b94045e05a9313777955f7518d757",
+    "nameTag": "KyberSwap: Deployer"
+  },
+  {
+    "address": "0xcab2fa2eeab7065b45cbcf6e3936dde2506b4f6c",
+    "nameTag": "KyberSwap: Double Signatures Limit Order"
+  },
+  {
+    "address": "0xe222fbe074a436145b255442d919e4e3a6c6a480",
+    "nameTag": "KyberSwap: Elastic Anti-Snipping Position Manager"
+  },
+  {
+    "address": "0xc7a590291e07b9fe9e64b86c58fd8fc764308c4a",
+    "nameTag": "KyberSwap: Elastic Factory"
+  },
+  {
+    "address": "0x5f1dddbf348ac2fbe22a163e30f99f9ece3dd50a",
+    "nameTag": "KyberSwap: Elastic Legacy Factory"
+  },
+  {
+    "address": "0xda474537ce9b687b78b236452a05631f09b6eb6a",
+    "nameTag": "KyberSwap: Elastic Legacy Position Desc"
+  },
+  {
+    "address": "0x8abd8c92f1901cf204590c16b5ef690a35b3741e",
+    "nameTag": "KyberSwap: Elastic Legacy Position Desc Proxy"
+  },
+  {
+    "address": "0x2b1c7b41f6a8f2b2bc45c3233a5d5fb3cd6dc9a8",
+    "nameTag": "KyberSwap: Elastic Legacy Position Manager"
+  },
+  {
+    "address": "0x0d125c15d54ca1f8a813c74a81aee34ebb508c1f",
+    "nameTag": "KyberSwap: Elastic Legacy Quoter V2"
+  },
+  {
+    "address": "0xc1e7dfe73e1598e3910ef4c7845b68a9ab6f4c83",
+    "nameTag": "KyberSwap: Elastic Legacy Router"
+  },
+  {
+    "address": "0xb85ebe2e4ea27526f817ff33fb55fb240057c03f",
+    "nameTag": "KyberSwap: Elastic Liquidity Mining"
+  },
+  {
+    "address": "0x5c503d4b7de0633f031229bbaa6a5e4a31cc35d8",
+    "nameTag": "KyberSwap: Elastic Liquidity Mining 2"
+  },
+  {
+    "address": "0x7d5ba536ab244aaa1ea42ab88428847f25e3e676",
+    "nameTag": "KyberSwap: Elastic LM v1"
+  },
+  {
+    "address": "0x049beffdb026d6d1d64cfc8fe29bd12142967b09",
+    "nameTag": "KyberSwap: Elastic Pool Oracle"
+  },
+  {
+    "address": "0xd8ac7f696ae99cd7b689726cf03c5711dd8dcdb4",
+    "nameTag": "KyberSwap: Elastic Pool Oracle Proxy"
+  },
+  {
+    "address": "0x98565fcad2080c5c19c3136fa367ce371cd40bd6",
+    "nameTag": "KyberSwap: Elastic Position Desc"
+  },
+  {
+    "address": "0x58f1d0f9bff9d695010c92fb93d100cef5113f3e",
+    "nameTag": "KyberSwap: Elastic Position Desc Proxy"
+  },
+  {
+    "address": "0x4d47fd5a29904dae0ef51b1c450c9750f15d7856",
+    "nameTag": "KyberSwap: Elastic Quoter V2"
+  },
+  {
+    "address": "0xf9c2b5746c946ef883ab2660bbbb1f10a5bdeab4",
+    "nameTag": "KyberSwap: Elastic Router"
+  },
+  {
+    "address": "0xf2bcdf38baa52f6b0c1db5b025dfff01ae1d6dbd",
+    "nameTag": "KyberSwap: Elastic Static Farm 4"
+  },
+  {
+    "address": "0xd7ab1699280980e756c446769b4c0f04550f88c9",
+    "nameTag": "KyberSwap: Elastic Tick Fees Reader"
+  },
+  {
+    "address": "0x8fd8cb948965d9305999d767a02bf79833eadbb3",
+    "nameTag": "KyberSwap: Elastic Ticks Fees Reader"
+  },
+  {
+    "address": "0x35be3f4fd8239a35a7f120756d4d69e5c5e10870",
+    "nameTag": "KyberSwap: ElasticLM Helper"
+  },
+  {
     "address": "0x833e4083b7ae46cea85695c4f7ed25cdad8886de",
     "nameTag": "KyberSwap: Factory"
   },
@@ -288,15 +524,67 @@
     "nameTag": "KyberSwap: Fair Launch 2"
   },
   {
+    "address": "0x0feea33c4de6f37a0fc550028fdda2401b2ee5ce",
+    "nameTag": "KyberSwap: Fair Launch 3"
+  },
+  {
+    "address": "0xc0601973451d9369252aee01397c0270cd2ecd60",
+    "nameTag": "KyberSwap: Fair Launch Sipher"
+  },
+  {
+    "address": "0x1c758af0688502e49140230f6b0ebd376d429be5",
+    "nameTag": "KyberSwap: KSFactory"
+  },
+  {
+    "address": "0x5649b4dd00780e99bab7abb4a3d581ea1aeb23d0",
+    "nameTag": "KyberSwap: KSRouter"
+  },
+  {
+    "address": "0x227b0c196ea8db17a665ea6824d972a64202e936",
+    "nameTag": "KyberSwap: Limit Order"
+  },
+  {
+    "address": "0x617dee16b86534a5d792a4d7a62fb491b544111e",
+    "nameTag": "KyberSwap: Meta Aggregation Router"
+  },
+  {
+    "address": "0x6131b5fae19ea4f9d964eac0408e4408b66337b5",
+    "nameTag": "KyberSwap: Meta Aggregation Router v2"
+  },
+  {
     "address": "0x6a65e062ce8290007301296f3c6ae446af7bdeec",
     "nameTag": "KyberSwap: Migrator"
+  },
+  {
+    "address": "0xaa96267806d5be3941bf9d8e4efc3dc8eb2bda0f",
+    "nameTag": "KyberSwap: Operations"
+  },
+  {
+    "address": "0x6a4c79289fb5b7a7ddb71f7eff6a2cbe59be5e60",
+    "nameTag": "KyberSwap: Reward Distributor"
   },
   {
     "address": "0xfab5186a194588f5ad5074bd52659302906b4522",
     "nameTag": "Kyberswap: Reward Locker"
   },
   {
+    "address": "0xbbd817b146f73f4b8022dc998b2c275ddda166bf",
+    "nameTag": "Kyberswap: Reward Locker Fair Launch 3"
+  },
+  {
     "address": "0x1c87257f5e8609940bc751a07bb085bb7f8cdbe6",
     "nameTag": "KyberSwap: Router"
+  },
+  {
+    "address": "0x83d4908c1b4f9ca423bee264163bc1d50f251c31",
+    "nameTag": "KyberSwap: ZapIn"
+  },
+  {
+    "address": "0x2abe8750e4a65584d7452316356128c936273e0d",
+    "nameTag": "KyberSwap: ZapIn V2"
+  },
+  {
+    "address": "0x165c68077ac06c83800d19200e6e2b08d02de75d",
+    "nameTag": "yberSwap: Elastic Legacy Ticks Fees Reader"
   }
 ]

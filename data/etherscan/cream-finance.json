@@ -20,6 +20,14 @@
     "nameTag": "Cream.Finance: Comptroller"
   },
   {
+    "address": "0x85759961b116f1d36fd697855c57a6ae40793d9b",
+    "nameTag": "Cream.Finance: cr1INCH Token"
+  },
+  {
+    "address": "0x3225e3c669b39c7c8b3e204a8614bb218c5e31bc",
+    "nameTag": "Cream.Finance: crAAVE Token"
+  },
+  {
     "address": "0x65883978ada0e707c3b2be2a6825b1c4bdf76a90",
     "nameTag": "Cream.Finance: crAKRO Token"
   },
@@ -52,12 +60,28 @@
     "nameTag": "Cream.Finance: crBBADGER Token"
   },
   {
+    "address": "0x7ea9c63e216d5565c3940a2b3d150e59c2907db3",
+    "nameTag": "Cream.Finance: crBBTC Token"
+  },
+  {
     "address": "0x81e346729723c4d15d0fb1c5679b9f2926ff13c6",
     "nameTag": "Cream.Finance: crBNT Token"
   },
   {
+    "address": "0xf55bbe0255f7f4e70f63837ff72a577fbddbe924",
+    "nameTag": "Cream.Finance: crBOND Token"
+  },
+  {
+    "address": "0x8b3ff1ed4f36c2c2be675afb13cc3aa5d73685a5",
+    "nameTag": "Cream.Finance: crCEL Token"
+  },
+  {
     "address": "0x19d1666f543d42ef17f66e376944a22aea1a8e46",
     "nameTag": "Cream.Finance: crCOMP Token"
+  },
+  {
+    "address": "0x21011bc93d9e515b9511a817a1ed1d6d468f49fc",
+    "nameTag": "Cream.Finance: crCOVER Token"
   },
   {
     "address": "0x3ba3c0e8a9e5f4a01ce8e086b3d8e8a603a2129e",
@@ -72,8 +96,20 @@
     "nameTag": "Cream.Finance: crCREAM/crYFI"
   },
   {
+    "address": "0xfd609a03b393f1a1cfcacedabf068cad09a924e2",
+    "nameTag": "Cream.Finance: crCRETH2 Token"
+  },
+  {
     "address": "0xc7fd8dcee4697ceef5a2fd4608a7bd6a94c77480",
     "nameTag": "Cream.Finance: crCRV Token"
+  },
+  {
+    "address": "0x92b767185fb3b04f881e3ac8e5b0662a027a1d9f",
+    "nameTag": "Cream.Finance: crDAI Token"
+  },
+  {
+    "address": "0x2a537fa9ffaea8c1a41d3c2b68a9cb791529366d",
+    "nameTag": "Cream.Finance: crDPI Token"
   },
   {
     "address": "0x2ba592f78db6436527729929aaf6c908497cb200",
@@ -96,8 +132,16 @@
     "nameTag": "Cream.Finance: CREAM/WETH Pool"
   },
   {
+    "address": "0x3c6c553a95910f9fc81c98784736bd628636d296",
+    "nameTag": "Cream.Finance: crESD"
+  },
+  {
     "address": "0xd06527d5e56a3495252a528c4987003b712860ee",
     "nameTag": "Cream.Finance: crETH Token"
+  },
+  {
+    "address": "0x2689008dcda0c2b744b344b9e5a3d5a042c227da",
+    "nameTag": "Cream.Finance: CRETH/WETH Staking Reward Pool"
   },
   {
     "address": "0x8c3b7a4320ba70f8239f83770c4015b5bc4e6f91",
@@ -120,8 +164,28 @@
     "nameTag": "Cream.Finance: crGNO Token"
   },
   {
+    "address": "0x054b7ed3f45714d3091e82aad64a1588dc4096ed",
+    "nameTag": "Cream.Finance: crHBTC Token"
+  },
+  {
+    "address": "0x10a3da2bb0fae4d591476fd97d6636fd172923a8",
+    "nameTag": "Cream.Finance: crHEGIC"
+  },
+  {
+    "address": "0xd5103afcd0b3fa865997ef2984c66742c51b2a8b",
+    "nameTag": "Cream.Finance: crHFIL Token"
+  },
+  {
+    "address": "0xd692ac3245bb82319a31068d6b8412796ee85d2c",
+    "nameTag": "Cream.Finance: crHUSD"
+  },
+  {
     "address": "0x2a867fd776b83e1bd4e13c6611afd2f6af07ea6d",
     "nameTag": "Cream.Finance: crIBBTC Token"
+  },
+  {
+    "address": "0x903560b1cce601794c584f58898da8a8b789fc5d",
+    "nameTag": "Cream.Finance: crKP3R Token"
   },
   {
     "address": "0x8b86e0598616a8d4f1fdae8b59e55fb5bc33d0d6",
@@ -154,6 +218,10 @@
   {
     "address": "0x59089279987dd76fc65bf94cb40e186b96e03cb3",
     "nameTag": "Cream.Finance: crOGN Token"
+  },
+  {
+    "address": "0x7aaa323d7e398be4128c7042d197a2545f0f1fea",
+    "nameTag": "Cream.Finance: crOMG Token"
   },
   {
     "address": "0xd7394428536f63d5659cc869ef69d10f9e66314b",
@@ -196,6 +264,30 @@
     "nameTag": "Cream.Finance: crSFI Token"
   },
   {
+    "address": "0x38f27c03d6609a86ff7716ad03038881320be4ad",
+    "nameTag": "Cream.Finance: crSLP-DAI-ETH Token"
+  },
+  {
+    "address": "0x5c291bc83d15f71fb37805878161718ea4b6aee9",
+    "nameTag": "Cream.Finance: crSLP-ETH-USDT Token"
+  },
+  {
+    "address": "0x6ba0c66c48641e220cf78177c144323b3838d375",
+    "nameTag": "Cream.Finance: crSLP-SUSHI-ETH Token"
+  },
+  {
+    "address": "0x5ecad8a75216cea7dff978525b2d523a251eea92",
+    "nameTag": "Cream.Finance: crSLP-USDC-ETH Token"
+  },
+  {
+    "address": "0x73f6cba38922960b7092175c0add22ab8d0e81fc",
+    "nameTag": "Cream.Finance: crSLP-WBTC-ETH Token"
+  },
+  {
+    "address": "0xd532944df6dfd5dd629e8772f03d4fc861873abf",
+    "nameTag": "Cream.Finance: crSLP-YFI-ETH Token"
+  },
+  {
     "address": "0xc25eae724f189ba9030b2556a1533e7c8a732e14",
     "nameTag": "Cream.Finance: crSNX Token"
   },
@@ -212,12 +304,36 @@
     "nameTag": "Cream.Finance: crSUSHI Token"
   },
   {
+    "address": "0x22b243b96495c547598d9042b6f94b01c22b2e9e",
+    "nameTag": "Cream.Finance: crSWAG Token"
+  },
+  {
     "address": "0x98e329eb5aae2125af273102f3440de19094b77c",
     "nameTag": "Cream.Finance: crSWAP Token"
   },
   {
+    "address": "0xf047d4be569fb770db143a6a90ef203fc1295922",
+    "nameTag": "Cream.Finance: crTBTC Token"
+  },
+  {
     "address": "0xe89a6d0509faf730bd707bf868d9a2a744a363c7",
     "nameTag": "Cream.Finance: crUNI Token"
+  },
+  {
+    "address": "0xcd22c4110c12ac41acefa0091c432ef44efaafa0",
+    "nameTag": "Cream.Finance: crUNI-V2-DAI-ETH Token"
+  },
+  {
+    "address": "0xe6c3120f38f56deb38b69b65cc7dcaf916373963",
+    "nameTag": "Cream.Finance: crUNI-V2-ETH-USDT Token"
+  },
+  {
+    "address": "0x4fe11bc316b6d7a345493127fbe298b95adaad85",
+    "nameTag": "Cream.Finance: crUNI-V2-USDC-ETH Token"
+  },
+  {
+    "address": "0x011a014d5e8eb4771e575bb1000318d509230afa",
+    "nameTag": "Cream.Finance: crUNI-V2-WBTC-ETH Token"
   },
   {
     "address": "0x44fbebd2f576670a6c33f6fc0b00aa8c5753b322",
@@ -244,12 +360,24 @@
     "nameTag": "Cream.Finance: crWBTC Token"
   },
   {
+    "address": "0xeff039c3c1d668f408d09dd7b63008622a77532c",
+    "nameTag": "Cream.Finance: crWNXM Token"
+  },
+  {
     "address": "0xe585c76573d7593abf21537b607091f76c996e73",
     "nameTag": "Cream.Finance: crWOO Token"
   },
   {
+    "address": "0x228619cca194fbe3ebeb2f835ec1ea5080dafbb2",
+    "nameTag": "Cream.Finance: crXSUSHI Token"
+  },
+  {
     "address": "0x9baf8a5236d44ac410c0186fe39178d5aad0bb87",
     "nameTag": "Cream.Finance: crYCRV Token"
+  },
+  {
+    "address": "0x01da76dea59703578040012357b81ffe62015c2d",
+    "nameTag": "Cream.Finance: crYETH Token"
   },
   {
     "address": "0xb3284f2f22563f27cef2912637b6a00f162317c4",
@@ -296,8 +424,40 @@
     "nameTag": "Cream.Finance: crYYECRV Token"
   },
   {
+    "address": "0x09bdcce2593f0bef0991188c25fb744897b6572d",
+    "nameTag": "Cream.Finance: cyBUSD Token"
+  },
+  {
+    "address": "0x4f12c9dabb5319a252463e6028ca833f1164d045",
+    "nameTag": "Cream.Finance: cyCDAI Token"
+  },
+  {
     "address": "0x9d029cd7cedcb194e2c361948f279f1788135bb2",
     "nameTag": "Cream.Finance: cyCREAM Token"
+  },
+  {
+    "address": "0x950027632fbd6adadfe82644bfb64647642b6c09",
+    "nameTag": "Cream.Finance: cyCUSDC Token"
+  },
+  {
+    "address": "0xbb4b067cc612494914a902217cb6078ab4728e36",
+    "nameTag": "Cream.Finance: cyCUSDT Token"
+  },
+  {
+    "address": "0x297d4da727fbc629252845e96538fc46167e453a",
+    "nameTag": "Cream.Finance: cyDUSD Token"
+  },
+  {
+    "address": "0xa0e5a19e091bbe241e655997e50da82da676b083",
+    "nameTag": "Cream.Finance: cyGUSD Token"
+  },
+  {
+    "address": "0xbe86e8918dfc7d3cb10d295fc220f941a1470c5c",
+    "nameTag": "Cream.Finance: cyMUSD Token"
+  },
+  {
+    "address": "0x4e3a36a633f63aee0ab57b5054ec78867cb3c0b8",
+    "nameTag": "Cream.Finance: cySUSD Token"
   },
   {
     "address": "0x0b471a71c3f6d4aadc7eb20aab7d730ae385e150",
@@ -316,8 +476,24 @@
     "nameTag": "Cream.Finance: cyUSDP Token"
   },
   {
+    "address": "0x7589c9e17bcfce1ccaa1f921196fda177f0207fc",
+    "nameTag": "Cream.Finance: cyY3CRV Token"
+  },
+  {
+    "address": "0x197939c1ca20c2b506d6811d8b6cdb3394471074",
+    "nameTag": "Cream.Finance: Deployer"
+  },
+  {
+    "address": "0x6d5a7597896a703fe8c85775b23395a48f971305",
+    "nameTag": "Cream.Finance: MultiSig"
+  },
+  {
     "address": "0x4b7dba23bea9d1a2d652373bcd1b78b0e9e0188a",
     "nameTag": "Cream.Finance: Price Oracle"
+  },
+  {
+    "address": "0x0cd8fd90bacc7a676fcc7c0d7573b970f8784b50",
+    "nameTag": "Cream.Finance: Team"
   },
   {
     "address": "0x1e5fe7bad3672d0d0cc041b7154331ee461c3349",
@@ -344,8 +520,60 @@
     "nameTag": "Cream.Finance: yyCRV/USDC"
   },
   {
+    "address": "0x8e595470ed749b85c6f7669de83eae304c2ec68f",
+    "nameTag": "Iron Bank: cyDAI"
+  },
+  {
+    "address": "0x7736ffb07104c0c400bb0cc9a7c228452a732992",
+    "nameTag": "Iron Bank: cyDPI"
+  },
+  {
+    "address": "0xa8caea564811af0e92b1e044f3edd18fa9a73e4f",
+    "nameTag": "Iron Bank: cyEURS"
+  },
+  {
+    "address": "0x00e5c0774a5f065c285068170b20393925c84bf3",
+    "nameTag": "Iron Bank: cyIBEUR"
+  },
+  {
+    "address": "0xe7bff2da8a2f619c2586fb83938fa56ce803aa16",
+    "nameTag": "Iron Bank: cyLINK"
+  },
+  {
+    "address": "0xca55f9c4e77f7b8524178583b0f7c798de17fd54",
+    "nameTag": "Iron Bank: cySEUR"
+  },
+  {
+    "address": "0x12a9cc33a980daa74e00cc2d1a0e74c57a93d12c",
+    "nameTag": "Iron Bank: cySNX"
+  },
+  {
+    "address": "0xa7c4054afd3dbbbf5bfe80f41862b89ea05c9806",
+    "nameTag": "Iron Bank: cySUSD"
+  },
+  {
     "address": "0xfeeb92386a055e2ef7c2b598c872a4047a7db59f",
     "nameTag": "Iron Bank: cyUNI"
+  },
+  {
+    "address": "0x76eb2fe28b36b3ee97f3adae0c69606eedb2a37c",
+    "nameTag": "Iron Bank: cyUSDC"
+  },
+  {
+    "address": "0x48759f220ed983db51fa7a8c0d2aab8f3ce4166a",
+    "nameTag": "Iron Bank: cyUSDT"
+  },
+  {
+    "address": "0x8fc8bfd80d6a9f17fb98a373023d72531792b431",
+    "nameTag": "Iron Bank: cyWBTC"
+  },
+  {
+    "address": "0x41c84c0e2ee0b740cf0d31f63f3b6f627dc6b393",
+    "nameTag": "Iron Bank: cyWETH"
+  },
+  {
+    "address": "0xfa3472f7319477c9bfecdd66e4b948569e7621b9",
+    "nameTag": "Iron Bank: cyYFI"
   },
   {
     "address": "0x30190a3b52b5ab1daf70d46d72536f5171f22340",

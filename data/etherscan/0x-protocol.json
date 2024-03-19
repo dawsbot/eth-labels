@@ -1,7 +1,19 @@
 [
   {
+    "address": "0xda6d9fc5998f550a094585cf9171f0e8ee3ac59f",
+    "nameTag": "0x: Affiliate Fee Transformer"
+  },
+  {
     "address": "0xdffe798c7172dd6deb32baee68af322e8f495ce0",
     "nameTag": "0x: Asset Proxy Owner"
+  },
+  {
+    "address": "0xd4690a51044db77d91d7aa8f7a3a5ad5da331af0",
+    "nameTag": "0x: Broker V3"
+  },
+  {
+    "address": "0xe66b31678d6c16e9ebf358268a790b763c133750",
+    "nameTag": "0x: Coinbase Wallet Proxy"
   },
   {
     "address": "0x45797531b873fd5e519477a070a955764c1a5b07",
@@ -12,8 +24,28 @@
     "nameTag": "0x: Coordinator V3"
   },
   {
+    "address": "0xa3b2d1087bcebe59d188a23f75620612d967df72",
+    "nameTag": "0x: Deployer"
+  },
+  {
+    "address": "0x2d7dc2ef7c6f6a2cbc3dba4db97b2ddb40e20713",
+    "nameTag": "0x: Deployer 2"
+  },
+  {
+    "address": "0x3b39078f2a3e1512eecc8d6792fdc7f33e1cd2cf",
+    "nameTag": "0x: Deployer 3"
+  },
+  {
     "address": "0xccc2431a7335f21d9268ba62f0b32b0f2efc463f",
     "nameTag": "0x: Dev Utils"
+  },
+  {
+    "address": "0x74134cf88b21383713e096a5ecf59e297dc7f547",
+    "nameTag": "0x: Dev Utils 2"
+  },
+  {
+    "address": "0x161793cdca4ff9e766a706c2c49c36ac1340bbcd",
+    "nameTag": "0x: Dev Utils V3"
   },
   {
     "address": "0x7eefbd48fd63d441ec7435d024ec7c5131019add",
@@ -22,6 +54,10 @@
   {
     "address": "0x8ed95d1746bf1e4dab58d8ed4724f1ef95b20db0",
     "nameTag": "0x: Erc20 Bridge Proxy"
+  },
+  {
+    "address": "0xd8c38704c9937ea3312de29f824b4ad3450a5e61",
+    "nameTag": "0x: ERC20 Bridge Sampler"
   },
   {
     "address": "0x95e6f48254609a6ee006f7d493c8e5fb97094cef",
@@ -44,6 +80,26 @@
     "nameTag": "0x: Exchange Proxy Allowance Target"
   },
   {
+    "address": "0x22f9dcf4647084d6c31b2765f6910cd85c178c18",
+    "nameTag": "0x: Exchange Proxy Flash Wallet"
+  },
+  {
+    "address": "0x618f9c67ce7bf1a50afa1e7e0238422601b0ff6e",
+    "nameTag": "0x: Exchange Proxy Governor"
+  },
+  {
+    "address": "0x407b4128e9ecad8769b2332312a9f655cb9f5f3a",
+    "nameTag": "0x: Exchange Proxy Liquidity Provider Sandbox"
+  },
+  {
+    "address": "0x39dce47a67ad34344eab877eae3ef1fa2a1d50bb",
+    "nameTag": "0x: Exchange Proxy Transformer Deployer"
+  },
+  {
+    "address": "0x12459c951127e0c374ff9105dda097662a027093",
+    "nameTag": "0x: Exchange v1"
+  },
+  {
     "address": "0x080bf510fcbf18b91105470639e9561022937712",
     "nameTag": "0x: Exchange v2.1"
   },
@@ -56,8 +112,16 @@
     "nameTag": "0x: Ext Dev Pool"
   },
   {
+    "address": "0xb4fa284689c9784a60d840eb136bb16c5246191f",
+    "nameTag": "0x: Fill Quote Transformer"
+  },
+  {
     "address": "0xa3ac9844514b96bb502627ca9dceb57c4be289e3",
     "nameTag": "0x: Forwarder 2"
+  },
+  {
+    "address": "0x6958f5e95332d93d21af0d7b9ca85b8212fee0a5",
+    "nameTag": "0x: Forwarder V3"
   },
   {
     "address": "0x7d3455421bbc5ed534a83c88fd80387dc8271392",
@@ -68,8 +132,56 @@
     "nameTag": "0x: Multi Asset Proxy V3"
   },
   {
+    "address": "0x606af0bd4501855914b50e2672c5926b896737ef",
+    "nameTag": "0x: MultiSig"
+  },
+  {
+    "address": "0x01d9f4d104668cdc0b6d13c45dff5e15d58d8f28",
+    "nameTag": "0x: MultiSig 2"
+  },
+  {
+    "address": "0x17992e4ffb22730138e4b62aaa6367fa9d3699a6",
+    "nameTag": "0x: Old Asset Proxy Owner"
+  },
+  {
+    "address": "0x2240dab907db71e64d3e0dba4800c83b5c502d4e",
+    "nameTag": "0x: Old ERC20 Proxy"
+  },
+  {
+    "address": "0x208e41fb445f1bb1b6780d58356e81405f3e6127",
+    "nameTag": "0x: Old ERC721 Proxy"
+  },
+  {
+    "address": "0x4f833a24e1f95d70f028921e27040ca56e09ab0b",
+    "nameTag": "0x: Old Exchange v2.0"
+  },
+  {
+    "address": "0x7afc2d5107af94c462a194d2c21b5bdd238709d6",
+    "nameTag": "0x: Old Forwarder"
+  },
+  {
+    "address": "0x5468a1dc173652ee28d249c271fa9933144746b1",
+    "nameTag": "0x: Old Forwarder 2"
+  },
+  {
+    "address": "0xdc4587cb17d2a1829512e2cfec621f8066290e6a",
+    "nameTag": "0x: Old Forwarder 3"
+  },
+  {
+    "address": "0x9463e518dea6810309563c81d5266c1b1d149138",
+    "nameTag": "0x: Old Order Validator"
+  },
+  {
     "address": "0xa09329c6003c9a5402102e226417738ee22cf1f2",
     "nameTag": "0x: Order Validator"
+  },
+  {
+    "address": "0x4638a7ebe75b911b995d0ec73a81e4f85f41f24e",
+    "nameTag": "0x: Pay Taker Transformer"
+  },
+  {
+    "address": "0xa9416ce1dbde8d331210c07b5c253d94ee4cc3fd",
+    "nameTag": "0x: Positive Slippage Fee Transformer"
   },
   {
     "address": "0x2a17c35ff147b32f13f19f2e311446eeb02503f3",
@@ -84,8 +196,16 @@
     "nameTag": "0x: Static Call Proxy V3"
   },
   {
+    "address": "0xdb63d40c033d35e79cdbb21430f0fe10e9d97303",
+    "nameTag": "0x: Team Vesting"
+  },
+  {
     "address": "0x926a74c5c36adf004c87399e65f75628b0f98d2c",
     "nameTag": "0x: Token Registry"
+  },
+  {
+    "address": "0xd4fd252d7d2c9479a8d616f510eac6243b5dddf9",
+    "nameTag": "0x: Token Sale"
   },
   {
     "address": "0x8da0d80f5007ef1e431dd2127178d224e32c2ef4",
@@ -94,6 +214,14 @@
   {
     "address": "0xa6baaed2053058a3c8f11e0c7a9716304454b09e",
     "nameTag": "0x: Uniswap Bridge"
+  },
+  {
+    "address": "0x06adaff9c864eb59ade310bc21150a8f4d5d4ab4",
+    "nameTag": "0x: WBTC Merchant Deposit Address"
+  },
+  {
+    "address": "0xb2bc06a4efb20fc6553a69dbfa49b7be938034a7",
+    "nameTag": "0x: WETH Transformer"
   },
   {
     "address": "0xe41d2489571d322189246dafa5ebde1f4699f498",

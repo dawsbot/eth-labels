@@ -48,6 +48,14 @@
     "nameTag": "Loopring: LRC Token"
   },
   {
+    "address": "0x8d8812b72d1e4ffcec158d25f56748b7d67c1e78",
+    "nameTag": "Loopring: Old Contract"
+  },
+  {
+    "address": "0xef68e7c694f40c8202821edf525de3782458639f",
+    "nameTag": "Loopring: Old Token"
+  },
+  {
     "address": "0xdd2a08a1c1a28c1a571e098914ca10f2877d9c97",
     "nameTag": "Loopring: Proxy Admin"
   },

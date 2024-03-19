@@ -80,6 +80,10 @@
     "nameTag": "Augmented Finance: Stake configurator"
   },
   {
+    "address": "0xddca3420e4db83746a547216271ef3928aa3f141",
+    "nameTag": "Augmented Finance: Stake DAI"
+  },
+  {
     "address": "0x039b8f6c4ab5d61f6f656730ef95abe9875e4567",
     "nameTag": "Augmented Finance: Stake Uni v2 AGF-ETH"
   },

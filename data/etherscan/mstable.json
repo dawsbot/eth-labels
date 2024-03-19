@@ -1,11 +1,35 @@
 [
   {
+    "address": "0xd082363752d08c54ab47c248fd5a11f8ee634bb9",
+    "nameTag": ""
+  },
+  {
+    "address": "0xd7c346c228bddd8a6a4c1a69e6cc82292909dcad",
+    "nameTag": ""
+  },
+  {
     "address": "0xdc66115be4eaa30fe8ca3b262bb8e3ff889f3a35",
     "nameTag": ""
   },
   {
+    "address": "0xe036cce08cf4e23d33bc6b18e53caf532afa8513",
+    "nameTag": "Balancer: ETH/mUSD 50/50 #2"
+  },
+  {
+    "address": "0x003a70265a3662342010823bea15dc84c6f7ed54",
+    "nameTag": "Balancer: mUSD/MTA 20/80 #2"
+  },
+  {
+    "address": "0x72cd8f4504941bf8c5a21d1fd83a96499fd71d2c",
+    "nameTag": "Balancer: mUSD/USDC 50/50 #5"
+  },
+  {
     "address": "0x4094aec22f40f11c29941d144c3dc887b33f5504",
     "nameTag": "mStable: Aave V2 Integration FEI Feeder Pool"
+  },
+  {
+    "address": "0x8cc6a1ae38743d453f2522c5228b775d145f43b7",
+    "nameTag": "mStable: Aave V2 Integration for RAI Feeder Pool"
   },
   {
     "address": "0xd658d5fde0917cdc9b10caadf10e20d942572a7b",
@@ -28,6 +52,10 @@
     "nameTag": "mStable: alUSD fPool Savings Vault Logic"
   },
   {
+    "address": "0xc0da8f7ecb0db9403bbbba35b8c040de341e722c",
+    "nameTag": "mStable: alUSD fPool Savings Vault Logic 2"
+  },
+  {
     "address": "0xf43b1f4ace6727ae9ce0a7f89c0a013a565017aa",
     "nameTag": "mStable: Aragon Token"
   },
@@ -40,8 +68,16 @@
     "nameTag": "mStable: BasketManager"
   },
   {
+    "address": "0x66126b4aa2a1c07536ef8e5e8bd4efda1fdea96d",
+    "nameTag": "mStable: BasketManagerProxy"
+  },
+  {
     "address": "0x8892d7a5e018cddb631f4733b5c1654e9de10aaf",
     "nameTag": "mStable: Boost Director"
+  },
+  {
+    "address": "0xba05fd2f20ae15b0d3f20ddc6870feca6acd3592",
+    "nameTag": "mStable: Boost Director V2"
   },
   {
     "address": "0x1c728f1bda86cd8d19f56e36eb9e24ed3e572a39",
@@ -76,6 +112,10 @@
     "nameTag": "mStable: BUSD fPool Savings Vault Logic"
   },
   {
+    "address": "0x080d00268cb4c672ffa0871170a59d92a5e365f6",
+    "nameTag": "mStable: BUSD fPool Savings Vault Logic 2"
+  },
+  {
     "address": "0x5c8eb57b44c1c6391fc7a8a0cf44d26896f92386",
     "nameTag": "mStable: DelayedProxyAdmin"
   },
@@ -108,6 +148,18 @@
     "nameTag": "mStable: EARN Pool 6"
   },
   {
+    "address": "0xe6e6e25efda5f69687aa9914f8d750c523a1d261",
+    "nameTag": "mStable: EARN Pool Curve mUSD/3Pool"
+  },
+  {
+    "address": "0x6de3a957b0344e6adeeab4648b02108f35651fb5",
+    "nameTag": "mStable: EARN Pool SushiSwap mBTC/WETH"
+  },
+  {
+    "address": "0x71061e3f432fc5bee3a6763cd35f50d3c77a0434",
+    "nameTag": "mStable: Ejector"
+  },
+  {
     "address": "0x98c54fd8c98eaf0938c4a00e7935a66341f7ba0e",
     "nameTag": "mStable: Feeder Interest Validator"
   },
@@ -120,6 +172,14 @@
     "nameTag": "mStable: Feeder Manager"
   },
   {
+    "address": "0xf1049aed858c4ead6df1de4dbe63ef607cff3262",
+    "nameTag": "mStable: Feeder Pool Interest Validator"
+  },
+  {
+    "address": "0x7c1fd068ce739a4687bee9f69e5fd2275c7372d4",
+    "nameTag": "mStable: Feeder Wrapper"
+  },
+  {
     "address": "0x2f1423d27f9b20058d9d1843e342726fdf985eb4",
     "nameTag": "mStable: FEI Feeder Pool"
   },
@@ -130,6 +190,10 @@
   {
     "address": "0xd24099eb4cd604198071958655e4f2d263a5539b",
     "nameTag": "mStable: FEI Feeder Pool Vault"
+  },
+  {
+    "address": "0x74310a3b2e727fe61dd13d390aa76011f5f40b63",
+    "nameTag": "mStable: FEI Feeder Pool Vault Logic"
   },
   {
     "address": "0xbb90d06371030ffa150e463621c22950b212eaa1",
@@ -146,6 +210,10 @@
   {
     "address": "0x437e8c54db5c66bb3d80d2ff156e9bfe31a017db",
     "nameTag": "mStable: Fund Manager 3"
+  },
+  {
+    "address": "0x3f63e5bbb53e46f8b21f67c25bf2dd78bc6c0e43",
+    "nameTag": "mStable: Governance Collector"
   },
   {
     "address": "0x85306936842eb09d9cea45bffaec7a81d126508d",
@@ -176,6 +244,10 @@
     "nameTag": "mStable: GUSD fPool Savings Vault Logic"
   },
   {
+    "address": "0x56b08c6dc24c16d3021123f3425f6a0c654eb8ab",
+    "nameTag": "mStable: GUSD fPool Savings Vault Logic 2"
+  },
+  {
     "address": "0x48c59199da51b7e30ea200a74ea07974e62c4ba7",
     "nameTag": "mStable: HBTC feeder pool"
   },
@@ -192,12 +264,36 @@
     "nameTag": "mStable: HBTC fPool Savings Vault Logic"
   },
   {
+    "address": "0x7b87bfdd7db94e5c0df92c07a538f1131693f03c",
+    "nameTag": "mStable: HBTC fPool Savings Vault Logic 2"
+  },
+  {
+    "address": "0xd2192aa940588851541086d03942572e02cf71b4",
+    "nameTag": "mStable: Idle Finance Dial Recipient"
+  },
+  {
     "address": "0xf38522f63f40f9dd81abafd2b8efc2ec958a3016",
     "nameTag": "mStable: imBTC Savings Vault"
   },
   {
     "address": "0xce128488b560632056d9811dd24a59688dd33dc4",
     "nameTag": "mStable: imBTC Savings Vault Logic"
+  },
+  {
+    "address": "0xc9bf66ba70b3a33bc4df7fa5994bb08022394864",
+    "nameTag": "mStable: imBTC Savings Vault Logic 2"
+  },
+  {
+    "address": "0x8313ef47d1c54bab08b913c5e18130ec75329ac8",
+    "nameTag": "mStable: imBTC Savings Vault Logic 3"
+  },
+  {
+    "address": "0x80fee0bfd2b3ccbd4052fbe0ad1b02191b30146b",
+    "nameTag": "mStable: imUSD Savings Vault Logic"
+  },
+  {
+    "address": "0x0addca57a3a4de31cf9d5e779e26d383dc012055",
+    "nameTag": "mStable: imUSD Savings Vault Logic 2"
   },
   {
     "address": "0x4186c5aed424876f7ebe52f9148552a45e17f287",
@@ -216,6 +312,14 @@
     "nameTag": "mStable: Logic contract for Emissions Controller 2"
   },
   {
+    "address": "0x48a91eb6d623bbc1b9c350dc40a671e72e1d4cdd",
+    "nameTag": "mStable: Logic contract for Emissions Controller 3"
+  },
+  {
+    "address": "0x0ca7a25181fc991e3cc62bac511e62973991f325",
+    "nameTag": "mStable: mAsset Save Wrapper"
+  },
+  {
     "address": "0x945facb997494cc2570096c74b5f66a3507330a1",
     "nameTag": "mStable: mBTC"
   },
@@ -232,8 +336,20 @@
     "nameTag": "mStable: mBTC Logic"
   },
   {
+    "address": "0x1e91f826fa8aa4fa4d3f595898af3a64dd188848",
+    "nameTag": "mStable: mBTC Manager"
+  },
+  {
     "address": "0x17d8cbb6bce8cee970a4027d1198f6700a7a6c24",
     "nameTag": "mStable: mBTC Savings Contract"
+  },
+  {
+    "address": "0x95a62dfc1bbf11179905b40ca072e8f60aa962e4",
+    "nameTag": "mStable: mBTC Savings Contract Logic"
+  },
+  {
+    "address": "0x783cc67242fd639a7621ea1a1c511e4c64d7c66d",
+    "nameTag": "mStable: MerkleDrop BAL"
   },
   {
     "address": "0xb8541e73aa47a847fa39e803d19a3f9b1bbc5a6c",
@@ -252,8 +368,16 @@
     "nameTag": "mStable: mUSD Aave Integration"
   },
   {
+    "address": "0xb9b0cfa90436c3fcbf8d8eb6ed8d0c2e3da47ca9",
+    "nameTag": "mStable: mUSD Aave V2 Vault"
+  },
+  {
     "address": "0xf617346a0fb6320e9e578e0c9b2a4588283d9d39",
     "nameTag": "mStable: mUSD Aave Vault"
+  },
+  {
+    "address": "0x2732e2a7bfaa8e5a21c07f4f1c167bbfbf7a2ac1",
+    "nameTag": "mStable: mUSD Aave Vault Logic"
   },
   {
     "address": "0x645b0b80f31f635a1511e0de1fbbcac0a29f65a6",
@@ -266,6 +390,10 @@
   {
     "address": "0xd55684f4369040c12262949ff78299f2bc9db735",
     "nameTag": "mStable: mUSD Compound Vault"
+  },
+  {
+    "address": "0xd4c14e145111e28a7694612978b9f5e9684afffa",
+    "nameTag": "mStable: mUSD Compound Vault Logic"
   },
   {
     "address": "0xeb2bf7f5a441b43ed197a8b4d347b275652a879e",
@@ -284,6 +412,10 @@
     "nameTag": "mStable: mUSD Savings Contract Logic"
   },
   {
+    "address": "0xe056181e4dc08965aec83fa691cf96c68ab0ec0d",
+    "nameTag": "mStable: mUSD Savings Contract Logic 2"
+  },
+  {
     "address": "0x78befca7de27d07dc6e71da295cc2946681a6c7b",
     "nameTag": "mStable: mUSD Savings Vault"
   },
@@ -296,8 +428,28 @@
     "nameTag": "mStable: mUSD Token"
   },
   {
+    "address": "0xe4c5b1765bf420016027177289908c5a3ea7668e",
+    "nameTag": "mStable: mUSD Token Logic"
+  },
+  {
     "address": "0xafce80b19a8ce13dec0739a1aab7a028d6845eb3",
     "nameTag": "mStable: Nexus"
+  },
+  {
+    "address": "0xe428c5460b1fbc7d15d1da7c9d162cb1b9a44046",
+    "nameTag": "mStable: OLD FEI Feeder Pool Vault Logic"
+  },
+  {
+    "address": "0xcf3f73290803fc04425bee135a4caeb2bab2c2a1",
+    "nameTag": "mStable: Old mUSD Savings Contract"
+  },
+  {
+    "address": "0xbae7b2507a9df82c6c5225930a993ba170a14fb5",
+    "nameTag": "mStable: OLD RAI Feeder Pool Vault Logic"
+  },
+  {
+    "address": "0xcefcbb45be41331337d49a131faf424d1e50234f",
+    "nameTag": "mStable: Old Savings Manager 1.0"
   },
   {
     "address": "0xeb7d7f4cc139d09d4759d21eb92e6976d00af1f7",
@@ -316,6 +468,10 @@
     "nameTag": "mStable: Poker of Boosted Vaults"
   },
   {
+    "address": "0x1f1f6dfbf150933c62cde0a75a6d6f31acf246b8",
+    "nameTag": "mStable: Polygon Balancer Pool Bridge Forwarder 2"
+  },
+  {
     "address": "0xf6ff1f7fceb2ce6d26687eaab5988b445d0b94a2",
     "nameTag": "mStable: Protocol DAO - Safe"
   },
@@ -332,8 +488,28 @@
     "nameTag": "mStable: Quest Manager Logic"
   },
   {
+    "address": "0x36f944b7312eac89381bd78326df9c84691d8a5b",
+    "nameTag": "mStable: RAI Feeder Pool"
+  },
+  {
+    "address": "0xd6da8a19ac09b1166246deede77f713d6c21edc7",
+    "nameTag": "mStable: RAI Feeder Pool Logic"
+  },
+  {
+    "address": "0xf93e0dde0f7c48108abbd880db7697a86169f13b",
+    "nameTag": "mStable: RAI Feeder Pool Vault"
+  },
+  {
     "address": "0xf2a2d2cc0605edd277415873a2046b84100151f3",
     "nameTag": "mStable: RAI Feeder Pool Vault Logic"
+  },
+  {
+    "address": "0xa7824292efdee1177a1c1bed0649cfdd6114fed5",
+    "nameTag": "mStable: Revenue Recipient"
+  },
+  {
+    "address": "0x0e423505a4eb417a75b21f7a35e84ae378e665b9",
+    "nameTag": "mStable: Revenue Split Buy Back"
   },
   {
     "address": "0x04dfdfa471b79cc9e6e8c355e6c71f8ec4916c50",
@@ -344,12 +520,24 @@
     "nameTag": "mStable: Sablier Controller"
   },
   {
+    "address": "0x1f2d51eadf24bfcc6eeb8318d0408dfd9fbd05d9",
+    "nameTag": "mStable: Save Wrapper"
+  },
+  {
+    "address": "0x7046b0bfc4c5eeb90559c0805dd9c1a6f4815370",
+    "nameTag": "mStable: Savings Manager 1.1"
+  },
+  {
     "address": "0x9781c4e9b9cc6ac18405891df20ad3566fb6b301",
     "nameTag": "mStable: SavingsManager v1.3"
   },
   {
     "address": "0xc973413fe4944682910b97b261456eb9633a4756",
     "nameTag": "mStable: Signature Verifier"
+  },
+  {
+    "address": "0xb40dc45576cb3b70a1a56e91a120768f76a82042",
+    "nameTag": "mStable: Staked Token Batcher"
   },
   {
     "address": "0xae8bc96da4f9a9613c323478be181fdb2aa0e1bf",
@@ -362,6 +550,14 @@
   {
     "address": "0x5187c177256ba82660e0a78b69c40e4e4408675d",
     "nameTag": "mStable: Staking Token BPT Logic"
+  },
+  {
+    "address": "0x24083ee3919421e7477ff7a0b4b550ece0e5d87e",
+    "nameTag": "mStable: Staking Token BPT Logic 2"
+  },
+  {
+    "address": "0xc63a48d85cce7c3bd4d18db9c0972a4d223e4193",
+    "nameTag": "mStable: Staking Token BPT Logic 3"
   },
   {
     "address": "0x8f2326316ec696f6d023e37a9931c2b2c177a3d7",
@@ -390,5 +586,21 @@
   {
     "address": "0xa283fcb3c2b8dc908f93f17627e9f90fc8559d5d",
     "nameTag": "mStable: TBTC fPool Savings Vault Logic"
+  },
+  {
+    "address": "0x61daebeb539a470b79c4be99b06011d83e8bd240",
+    "nameTag": "mStable: TBTC fPool Savings Vault Logic 2"
+  },
+  {
+    "address": "0xc1443cb9ce81915fb914c270d74b0d57d1c87be0",
+    "nameTag": "mStable: Unwrapper"
+  },
+  {
+    "address": "0x849b0586cb4ac9873e095939d5a076719f354968",
+    "nameTag": "mStable: Vesper Finance dial recipient"
+  },
+  {
+    "address": "0x0d0d65e7a7db277d3e0f5e1676325e75f3340455",
+    "nameTag": "Uniswap V2: MTA 6"
   }
 ]

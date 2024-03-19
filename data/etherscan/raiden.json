@@ -1,5 +1,9 @@
 [
   {
+    "address": "0x2d07731e878e4c59bda93ea3fe93e34fb0172bd0",
+    "nameTag": ""
+  },
+  {
     "address": "0xa5c9ecf54790334b73e5dfa1ff5668eb425dc474",
     "nameTag": ""
   },
@@ -9,10 +13,6 @@
   },
   {
     "address": "0xc7e1802da418f159151a40b1b8a1c43f2630bb05",
-    "nameTag": ""
-  },
-  {
-    "address": "0x2d07731e878e4c59bda93ea3fe93e34fb0172bd0",
     "nameTag": ""
   }
 ]
