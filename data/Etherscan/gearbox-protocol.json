@@ -1,6 +1,46 @@
 [
   {
-    "address": "",
-    "nameTag": ""
+    "address": "0x444cd42baeddeb707eed823f7177b9abcc779c04",
+    "nameTag": "Gearbox Protocol: Account Factory"
+  },
+  {
+    "address": "0x7b1aaf21ac0d420666b5966338ff9aee763c29df",
+    "nameTag": "Gearbox Protocol: Account Miner"
+  },
+  {
+    "address": "0x523da3a8961e4dd4f6206dbf7e6c749f51796bb3",
+    "nameTag": "Gearbox Protocol: ACL"
+  },
+  {
+    "address": "0xcf64698aff7e5f27a11dff868af228653ba53be0",
+    "nameTag": "Gearbox Protocol: Address Provier"
+  },
+  {
+    "address": "0xa50d4e7d8946a7c90652339cdbd262c375d54d99",
+    "nameTag": "Gearbox Protocol: Contracts Register"
+  },
+  {
+    "address": "0x20da9f3d7d5cb96c2822338830cfd6dee6d508d8",
+    "nameTag": "Gearbox Protocol: Deployer"
+  },
+  {
+    "address": "0xba3335588d9403515223f109edc4eb7269a9ab5d",
+    "nameTag": "Gearbox Protocol: GEAR Token"
+  },
+  {
+    "address": "0x0e74a08443c5e39108520589176ac12ef65ab080",
+    "nameTag": "Gearbox Protocol: Price Oracle"
+  },
+  {
+    "address": "0xa7d5ddc1b8557914f158076b228aa91ef613f1d5",
+    "nameTag": "Gearbox Protocol: Technical Multisig"
+  },
+  {
+    "address": "0x7b065fcb0760df0cea8cfd144e08554f3cea73d1",
+    "nameTag": "Gearbox Protocol: Treasury Multisig"
+  },
+  {
+    "address": "0x4f952c4c5415b2609899abdc2f8f352f600d14d6",
+    "nameTag": "Gearbox Protocol: WETH Gateway"
   }
 ]

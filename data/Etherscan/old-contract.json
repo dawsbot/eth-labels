@@ -1,21 +1,5 @@
 [
   {
-    "address": "0x9638189d7d55a66e6a02e3f6c1e1b2d3f32f096d",
-    "nameTag": ""
-  },
-  {
-    "address": "0xeec53a9fba80f129565bb6ada539ede5e4792da5",
-    "nameTag": ""
-  },
-  {
-    "address": "0xce8b9fbceff263d054cbd7311cb37af8ea5df19e",
-    "nameTag": ""
-  },
-  {
-    "address": "0xb4467e8d621105312a914f1d42f10770c0ffe3c8",
-    "nameTag": ""
-  },
-  {
     "address": "0x31bb711de2e457066c6281f231fb473fc5c2afd3",
     "nameTag": ""
   },
@@ -24,15 +8,11 @@
     "nameTag": ""
   },
   {
-    "address": "0xcf8048b2d336c569a3985bd93cbb91b758ded178",
+    "address": "0xcacef23c1ea3c72777f9615b0a4ced1982af9eef",
     "nameTag": ""
   },
   {
-    "address": "0xcf20dfb8b66fcfb4a1dfcc00f45cfb3c6d852996",
-    "nameTag": ""
-  },
-  {
-    "address": "0xafa260bc59bcec0bc03f18c8a6b7da4a97772a74",
+    "address": "0xb4467e8d621105312a914f1d42f10770c0ffe3c8",
     "nameTag": ""
   },
   {
@@ -40,19 +20,39 @@
     "nameTag": ""
   },
   {
-    "address": "0xf3db7560e820834658b590c96234c333cd3d5e5e",
-    "nameTag": ""
-  },
-  {
-    "address": "0x35b9ae15eeb12ea934942a36754192a9bb219742",
-    "nameTag": ""
-  },
-  {
-    "address": "0xcacef23c1ea3c72777f9615b0a4ced1982af9eef",
+    "address": "0xeec53a9fba80f129565bb6ada539ede5e4792da5",
     "nameTag": ""
   },
   {
     "address": "0xbbbfd95e5b8f1f4bd0694071fb3133be5b5d1ef6",
+    "nameTag": ""
+  },
+  {
+    "address": "0xce8b9fbceff263d054cbd7311cb37af8ea5df19e",
+    "nameTag": ""
+  },
+  {
+    "address": "0xf3db7560e820834658b590c96234c333cd3d5e5e",
+    "nameTag": ""
+  },
+  {
+    "address": "0xcf20dfb8b66fcfb4a1dfcc00f45cfb3c6d852996",
+    "nameTag": ""
+  },
+  {
+    "address": "0xcf8048b2d336c569a3985bd93cbb91b758ded178",
+    "nameTag": ""
+  },
+  {
+    "address": "0x9638189d7d55a66e6a02e3f6c1e1b2d3f32f096d",
+    "nameTag": ""
+  },
+  {
+    "address": "0xafa260bc59bcec0bc03f18c8a6b7da4a97772a74",
+    "nameTag": ""
+  },
+  {
+    "address": "0x35b9ae15eeb12ea934942a36754192a9bb219742",
     "nameTag": ""
   },
   {
@@ -2046,10 +2046,6 @@
   {
     "address": "0x71fbecb11e291f824fd5dc9e760f56a5239e4702",
     "nameTag": "Hodl DAO: Old Token"
-  },
-  {
-    "address": "0xc40af1e4fecfa05ce6bab79dcd8b373d2e436c4e",
-    "nameTag": "Hokkaidu Inu: Old HOKK Token"
   },
   {
     "address": "0x96006f60b452526481a26eab55265ecdf82e7361",

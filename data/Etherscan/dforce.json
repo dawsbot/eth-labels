@@ -1,6 +1,34 @@
 [
   {
-    "address": "",
-    "nameTag": ""
+    "address": "0x02285acaafeb533e03a7306c55ec031297df9224",
+    "nameTag": "dForce: dDAI Token"
+  },
+  {
+    "address": "0x431ad2ff6a9c365805ebad47ee021148d6f7dbe0",
+    "nameTag": "dForce: DF Token"
+  },
+  {
+    "address": "0x16c9cf62d8dac4a38fb50ae5fa5d51e9170f3179",
+    "nameTag": "dForce: dUSDC Token"
+  },
+  {
+    "address": "0x868277d475e0e475e38ec5cda2d9c83b5e1d9fc8",
+    "nameTag": "dForce: dUSDT Token"
+  },
+  {
+    "address": "0x355c665e101b9da58704a8fddb5feef210ef20c0",
+    "nameTag": "dForce: GOLDx Token"
+  },
+  {
+    "address": "0x786bf554473f9ab733fd683c528212492a23d895",
+    "nameTag": "dForce: Stablecoin Pool"
+  },
+  {
+    "address": "0x03ef3f37856bd08eb47e2de7abc4ddd2c19b60f2",
+    "nameTag": "dForce: Swap"
+  },
+  {
+    "address": "0xeb269732ab75a6fd61ea60b06fe994cd32a83549",
+    "nameTag": "dForce: USDX Token"
   }
 ]

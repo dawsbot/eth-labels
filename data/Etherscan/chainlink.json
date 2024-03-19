@@ -1,6 +1,26 @@
 [
   {
-    "address": "",
-    "nameTag": ""
+    "address": "0x98c63b7b319dfbdf3d811530f2ab9dfe4983af9d",
+    "nameTag": "Chainlink: Node Operators"
+  },
+  {
+    "address": "0x75398564ce69b7498da10a11ab06fd8ff549001c",
+    "nameTag": "Chainlink: Team Wallet 1"
+  },
+  {
+    "address": "0x5560d001f977df5e49ead7ab0bdd437c4ee3a99e",
+    "nameTag": "Chainlink: Team Wallet 2"
+  },
+  {
+    "address": "0xbe6977e08d4479c0a6777539ae0e8fa27be4e9d6",
+    "nameTag": "Chainlink: Team Wallet 3"
+  },
+  {
+    "address": "0xdad22a85ef8310ef582b70e4051e543f3153e11f",
+    "nameTag": "Chainlink: Team Wallet 4"
+  },
+  {
+    "address": "0xe0362f7445e3203a496f6f8b3d51cbb413b69be2",
+    "nameTag": "Chainlink: Team Wallet 5"
   }
 ]

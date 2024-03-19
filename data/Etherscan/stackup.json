@@ -1,5 +1,25 @@
 [
   {
+    "address": "0x07660c06338b78eaa9e529fcef5e11ac56b25cdb",
+    "nameTag": ""
+  },
+  {
+    "address": "0x8f508cef7c94883655751408b9ba80c94937288b",
+    "nameTag": ""
+  },
+  {
+    "address": "0xab97d6a3174b8bf60d0f017c8453f543ea835d36",
+    "nameTag": ""
+  },
+  {
+    "address": "0x65c51459258464020e850fba27b427bd708da638",
+    "nameTag": ""
+  },
+  {
+    "address": "0xa5fdfcbceeceb5741ef73f86cf3ed6e80e5e920d",
+    "nameTag": ""
+  },
+  {
     "address": "0x226a22889b7f842fb1426b3e81130b461abda8a5",
     "nameTag": ""
   },
@@ -25,26 +45,6 @@
   },
   {
     "address": "0x9831d6f598729bf41055a0af96396cea91eab18b",
-    "nameTag": ""
-  },
-  {
-    "address": "0x07660c06338b78eaa9e529fcef5e11ac56b25cdb",
-    "nameTag": ""
-  },
-  {
-    "address": "0x8f508cef7c94883655751408b9ba80c94937288b",
-    "nameTag": ""
-  },
-  {
-    "address": "0xab97d6a3174b8bf60d0f017c8453f543ea835d36",
-    "nameTag": ""
-  },
-  {
-    "address": "0x65c51459258464020e850fba27b427bd708da638",
-    "nameTag": ""
-  },
-  {
-    "address": "0xa5fdfcbceeceb5741ef73f86cf3ed6e80e5e920d",
     "nameTag": ""
   },
   {

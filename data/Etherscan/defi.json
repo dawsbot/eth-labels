@@ -1,6 +1,14 @@
 [
   {
-    "address": "",
-    "nameTag": ""
+    "address": "0xfe842e95f8911dcc21c943a1daa4bd641a1381c6",
+    "nameTag": "mStable: BUSD feeder pool"
+  },
+  {
+    "address": "0x4fb30c5a3ac8e85bc32785518633303c4590752d",
+    "nameTag": "mStable: GUSD feeder pool"
+  },
+  {
+    "address": "0xb61a6f928b3f069a68469ddb670f20eeeb4921e0",
+    "nameTag": "mStable: tBTC feeder pool"
   }
 ]

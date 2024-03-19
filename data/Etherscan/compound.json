@@ -1,6 +1,42 @@
 [
   {
-    "address": "",
-    "nameTag": ""
+    "address": "0xe65cdb6479bac1e22340e4e755fae7e509ecd06c",
+    "nameTag": "Compound: cAAVE Token"
+  },
+  {
+    "address": "0x70e36f6bf80a52b3b46b3af8e106cc0ed743e8e4",
+    "nameTag": "Compound: cCOMP Token"
+  },
+  {
+    "address": "0xface851a4921ce59e912d19329929ce6da6eb0c7",
+    "nameTag": "Compound: cLink Token"
+  },
+  {
+    "address": "0x95b4ef2869ebd94beb4eee400a99824bf5dc325b",
+    "nameTag": "Compound: cMKR Token"
+  },
+  {
+    "address": "0xf5dce57282a584d2746faf1593d3121fcac444dc",
+    "nameTag": "Compound: cSAI Token"
+  },
+  {
+    "address": "0x4b0181102a0112a2ef11abee5563bb4a3176c9d7",
+    "nameTag": "Compound: cSushi Token"
+  },
+  {
+    "address": "0x12392f67bdf24fae0af363c24ac620a2f67dad86",
+    "nameTag": "Compound: cTUSD Token"
+  },
+  {
+    "address": "0xccf4429db6322d5c611ee964527d42e5d685dd6a",
+    "nameTag": "Compound: cWBTC2 Token"
+  },
+  {
+    "address": "0x80a2ae356fc9ef4305676f7a3e2ed04e12c33946",
+    "nameTag": "Compound: cYFI Token"
+  },
+  {
+    "address": "0x6d903f6003cca6255d85cca4d3b5e5146dc33925",
+    "nameTag": "Compound: Timelock"
   }
 ]
