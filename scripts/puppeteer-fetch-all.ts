@@ -90,7 +90,7 @@ async function fetchPageHtml(
   // Navigate to the desired URL
   await page.goto(url);
   try {
-    await page.waitForSelector(waitForSelector, { timeout: 5_000 });
+    await page.waitForSelector(waitForSelector, { timeout: 15_000 });
   } catch (error) {
     parseError(error);
   }
@@ -109,7 +109,7 @@ function selectAllAddresses(html: string): AddressesInfo {
   const $ = cheerio.load(html);
   const table0 = $("#table-subcatid-0 > tbody");
   const table1 = $("#table-subcatid-1 > tbody");
-  const parent = table0.length > 0 ? table0 : table1;
+  const parent = table1.length > 0 ? table1 : table0;
 
   let addressesInfo: AddressesInfo = [];
   parent.find("tr").each((index, trElement) => {
@@ -201,7 +201,7 @@ function printFailedSummary() {
     const { browser, page } = await openBrowser();
     await signInToEtherscan(page);
     const allLabels = await fetchAllLabels(page);
-    const sleepRange = 1 / 3; //max seconds to wait before fetching next page
+    const sleepRange = 1 / 2; //max seconds to wait before fetching next page
 
     // clear failed-list.txt
     fs.writeFileSync(
@@ -210,13 +210,15 @@ function printFailedSummary() {
     );
 
     for (const url of allLabels.accounts) {
-      await sleep(Math.random() * (sleepRange * 1000) + 250);
+      await sleep(Math.random() * (sleepRange * 1000) + 500);
       const allAddresses = await pullFromTable(url, page);
       const labelName = url.split("/").pop()?.split("?")[0];
-      fs.writeFileSync(
-        path.join(__dirname, "..", "data", "Etherscan", `${labelName}.json`),
-        JSON.stringify(allAddresses, null, 2),
-      );
+      if (allAddresses.length > 0) {
+        fs.writeFileSync(
+          path.join(__dirname, "..", "data", "Etherscan", `${labelName}.json`),
+          JSON.stringify(allAddresses, null, 2),
+        );
+      }
       const lengthCheck = (await confirmLength(
         allAddresses.length,
         url,
@@ -225,12 +227,24 @@ function printFailedSummary() {
       ))
         ? "PASSED"
         : "FAILED";
+
       console.dir({
         url,
         allAddresses,
         length: allAddresses.length,
         lengthCheck: lengthCheck,
       });
+      if (
+        !(await confirmLength(
+          allAddresses.length,
+          url,
+          page,
+          z.string().parse(labelName),
+        ))
+      ) {
+        // throw new Error(`length check failed for ${labelName}`);
+        await sleep(600000);
+      }
     }
     await closeBrowser(browser);
     printFailedSummary();
