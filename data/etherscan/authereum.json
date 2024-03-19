@@ -1,0 +1,262 @@
+[
+  {
+    "address": "0xae1710e83211decb356f031a9346a24ef55055e0",
+    "nameTag": "Authereum: Account V1.0.0"
+  },
+  {
+    "address": "0xd8cab604bdd8cbb7c3eb0c26f7dc3abffb005a92",
+    "nameTag": "Authereum: Account V2019102500"
+  },
+  {
+    "address": "0x185c46c8d3ef5155f3678e69c827db7a2116a6cd",
+    "nameTag": "Authereum: Account v2019111500"
+  },
+  {
+    "address": "0x211deb5c0a28a213fcf5976ac22c70ff96b9004c",
+    "nameTag": "Authereum: Account v2019122000"
+  },
+  {
+    "address": "0x79fee076b1bcd4054dff0b4364c26899492198dc",
+    "nameTag": "Authereum: Account v2020010900"
+  },
+  {
+    "address": "0x2e1723d1dfa2947f0d08d5c5d214b71def4f951f",
+    "nameTag": "Authereum: Account v2020020200"
+  },
+  {
+    "address": "0x20af9e54a3670ef6a601bca1f1ec22b1f93cbe23",
+    "nameTag": "Authereum: Account v2020021700"
+  },
+  {
+    "address": "0x237edcdd43349227ef511581cc834962ecf23076",
+    "nameTag": "Authereum: Account v2020060100"
+  },
+  {
+    "address": "0xe45a5176bc0f2c1198e2451c4e4501d4ed9b65a6",
+    "nameTag": "Authereum: Account v2020070100"
+  },
+  {
+    "address": "0xccfe999a3bb7922a5f4595e5d5f95c43fff0692e",
+    "nameTag": "Authereum: Delegate Key Module v2020070100"
+  },
+  {
+    "address": "0x36c7539fa5846eb7553a46d8c306f41e6004cc4f",
+    "nameTag": "Authereum: ENS Manager V1.0.0"
+  },
+  {
+    "address": "0x6dcc6577650bbf5b70e9eee7cfd1364410867206",
+    "nameTag": "Authereum: ENS Manager V2019102500"
+  },
+  {
+    "address": "0x9442a2eff399a9e97bcc6b2a4194399496f76e59",
+    "nameTag": "Authereum: ENS Manager V2019111500"
+  },
+  {
+    "address": "0xd2df497a03a67ebcf9c0cf62e9165d52f634a2ae",
+    "nameTag": "Authereum: ENS Manager v2020020200"
+  },
+  {
+    "address": "0xcb586ea6f8804003e8b51832c8789b5ac9720d24",
+    "nameTag": "Authereum: ENS Manager v2020070100"
+  },
+  {
+    "address": "0x4da86a24e30a188608e1364a2d262166a87fcb7c",
+    "nameTag": "Authereum: ENS Resolver Proxy V2019111500"
+  },
+  {
+    "address": "0xd54ffab6df175a7751e6e50373d213242de938c3",
+    "nameTag": "Authereum: ENS Resolver V1.0.0"
+  },
+  {
+    "address": "0xa42d000187bd8d997df54267e4b27c08329fdfe1",
+    "nameTag": "Authereum: ENS Resolver V2019111500"
+  },
+  {
+    "address": "0x4af9d139b2e6739fd05fc5b9a06fa8b4df0a8d20",
+    "nameTag": "Authereum: Login Key Validator v2020070100"
+  },
+  {
+    "address": "0xd6a22dd9ca760c76993b7ba175a640caa6515867",
+    "nameTag": "Authereum: Proxy Admin V1.0.0"
+  },
+  {
+    "address": "0x5ffe9ab0a508d8640a46bb892499803bc7bec3ea",
+    "nameTag": "Authereum: Proxy Factory V1.0.0"
+  },
+  {
+    "address": "0x0d54d0f1c1f5fe7a525713b85f36de8fb6014046",
+    "nameTag": "Authereum: Proxy Factory V2019102500"
+  },
+  {
+    "address": "0x69c0047531fd1cc24daa9eccd221cb66b53c63f8",
+    "nameTag": "Authereum: Proxy Factory V2019111500"
+  },
+  {
+    "address": "0x260ba21bc0ae8df6495fb0bc6de5d4d9b2814a1a",
+    "nameTag": "Authereum: Proxy Factory v2020070100"
+  },
+  {
+    "address": "0x891c1a794164c0ddab3182c2b1b436b51b1f8b64",
+    "nameTag": "Authereum: Recovery Key Module v2020070100"
+  },
+  {
+    "address": "0x06a65beafc02635bf85aa2fc3b86a7f236c0ae9d",
+    "nameTag": "Authereum: Relayer 0000"
+  },
+  {
+    "address": "0x84abea9c66d30d00549429f5f687e16708aa20c0",
+    "nameTag": "Authereum: Relayer 0001"
+  },
+  {
+    "address": "0xa7c0946dbfe11ac8fcc2df3c588dad7818708f61",
+    "nameTag": "Authereum: Relayer 0002"
+  },
+  {
+    "address": "0xa50ccc944da2c59c23f484bdfce09abf9577c1f1",
+    "nameTag": "Authereum: Relayer 0003"
+  },
+  {
+    "address": "0x7a54eb72c9a9cfa4a039e1dae73317c4bd6d822f",
+    "nameTag": "Authereum: Relayer 0004"
+  },
+  {
+    "address": "0x61369c6c30ee29ebaef97f2601c9f14d86ada469",
+    "nameTag": "Authereum: Relayer 0005"
+  },
+  {
+    "address": "0xe5cc95202572fa429948fa0fa65f3da11476a6cf",
+    "nameTag": "Authereum: Relayer 0006"
+  },
+  {
+    "address": "0xe4662e6460cc8f866bf87d696124163e330ca323",
+    "nameTag": "Authereum: Relayer 0007"
+  },
+  {
+    "address": "0xcb5d8f2b12279f188f007da0bef2b1f3e0e4224a",
+    "nameTag": "Authereum: Relayer 0008"
+  },
+  {
+    "address": "0x4ed63e3f54e5ae38cad009b108e7c7c8f3300d42",
+    "nameTag": "Authereum: Relayer 0009"
+  },
+  {
+    "address": "0x0407f80e9f3473bba4f55271c7b236ee81ed24b4",
+    "nameTag": "Authereum: Relayer 0010"
+  },
+  {
+    "address": "0x5db9ded487437e0a96391b704885d547756efe68",
+    "nameTag": "Authereum: Relayer 0011"
+  },
+  {
+    "address": "0xc39db8ea388b534b7892f0c82f9d32b22283fc7a",
+    "nameTag": "Authereum: Relayer 0012"
+  },
+  {
+    "address": "0x5a7a4838043285c5dcffc234ac77141968c558b7",
+    "nameTag": "Authereum: Relayer 0013"
+  },
+  {
+    "address": "0xb1571b981bc888a171eaa5c7ad470c4e24b91aa5",
+    "nameTag": "Authereum: Relayer 0014"
+  },
+  {
+    "address": "0x463fcea4a64d3d78beff934fcdf7999930fd093b",
+    "nameTag": "Authereum: Relayer 0015"
+  },
+  {
+    "address": "0x3b44a94c5cc59f13e6e1bf7d021a908c4c993344",
+    "nameTag": "Authereum: Relayer 0016"
+  },
+  {
+    "address": "0xb37d85cd1ee48cf525c9a266f868e959d22b4cce",
+    "nameTag": "Authereum: Relayer 0017"
+  },
+  {
+    "address": "0xf1d37b75da9755d2e1ac90e71299821ffdd45017",
+    "nameTag": "Authereum: Relayer 0018"
+  },
+  {
+    "address": "0x430129b092650efe25f352b1d169c53b92192479",
+    "nameTag": "Authereum: Relayer 0019"
+  },
+  {
+    "address": "0x59e61f1e00a9d53e2b5891446e17a7332694eeda",
+    "nameTag": "Authereum: Relayer 0020"
+  },
+  {
+    "address": "0xc754b1f4460153b280ae4e48383914a3dfc6f19d",
+    "nameTag": "Authereum: Relayer 0021"
+  },
+  {
+    "address": "0x6709cb1c250f856ea1b41686fa4bceb39b1a8add",
+    "nameTag": "Authereum: Relayer 0022"
+  },
+  {
+    "address": "0x2b105414de79df52cfb73aecb473ae07aff002c8",
+    "nameTag": "Authereum: Relayer 0023"
+  },
+  {
+    "address": "0xe03895df5be13994a01d4ea6e90ba723e873cb98",
+    "nameTag": "Authereum: Relayer 0024"
+  },
+  {
+    "address": "0x4f369eaba6e3d00aef8569ef49404b860f23e6ee",
+    "nameTag": "Authereum: Relayer 0025"
+  },
+  {
+    "address": "0xeeb02e419ad963860dfc0e287f49ba56498fed85",
+    "nameTag": "Authereum: Relayer 0026"
+  },
+  {
+    "address": "0x26b5237be32b3761ec0ee667879d5eb82621a275",
+    "nameTag": "Authereum: Relayer 0027"
+  },
+  {
+    "address": "0x5efcea71a489a75cb71d4bbc68b547ce70ee12fc",
+    "nameTag": "Authereum: Relayer 0028"
+  },
+  {
+    "address": "0x89680b9b2fd3ea947adbd034da0a030e35fc4217",
+    "nameTag": "Authereum: Relayer 0029"
+  },
+  {
+    "address": "0x125a616f947a2bf6be001f6617cded814ec07769",
+    "nameTag": "Authereum: Relayer 0030"
+  },
+  {
+    "address": "0x945ef3a290b93997eb2f7e54cf7230087c15d298",
+    "nameTag": "Authereum: Relayer 0031"
+  },
+  {
+    "address": "0x22efbf9a299e827b66ecf5a219db67c42daeb0bf",
+    "nameTag": "Authereum: Relayer 0032"
+  },
+  {
+    "address": "0x51185219886f81ff1a402a4107d8b7b02693a515",
+    "nameTag": "Authereum: Relayer 0033"
+  },
+  {
+    "address": "0xdcbb60132ecd2c1abf3370380509e7a029de1d0e",
+    "nameTag": "Authereum: Relayer 0034"
+  },
+  {
+    "address": "0x320e04391b4bfd664109c07c2b87359d66b56624",
+    "nameTag": "Authereum: Relayer 0035"
+  },
+  {
+    "address": "0x77aa642382de77be938239a6720ae4011073657c",
+    "nameTag": "Authereum: Relayer 0036"
+  },
+  {
+    "address": "0xb42077783692c0c660fc5bfe20963bdc0e5f096b",
+    "nameTag": "Authereum: Relayer 0037"
+  },
+  {
+    "address": "0x951466b45ca3b16401557bf6bc6883de52952e92",
+    "nameTag": "Authereum: Relayer 0038"
+  },
+  {
+    "address": "0xd8a062eb4cb766cfdb10ac5551ed511445926068",
+    "nameTag": "Authereum: Relayer 0039"
+  }
+]

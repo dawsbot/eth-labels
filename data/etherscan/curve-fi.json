@@ -1,0 +1,162 @@
+[
+  {
+    "address": "0x3b3ac5386837dc563660fb6a0937dfaa5924333b",
+    "nameTag": "Curve.fi: bCrv Token"
+  },
+  {
+    "address": "0xb6c057591e073249f2d9d88ba59a46cfc9b59edb",
+    "nameTag": "Curve.fi: BUSD Deposit"
+  },
+  {
+    "address": "0x69fb7c45726cfe2badee8317005d3f94be838840",
+    "nameTag": "Curve.fi: bUSD Liquidity Gauge"
+  },
+  {
+    "address": "0x79a8c46dea5ada233abaffd40f3a0a2b1e5a4f27",
+    "nameTag": "Curve.fi: BUSD Swap"
+  },
+  {
+    "address": "0x7ca5b0a2910b33e9759dc7ddb0413949071d7575",
+    "nameTag": "Curve.fi: cCRV Liquidity Gauge"
+  },
+  {
+    "address": "0x845838df265dcd2c412a1dc9e959c7d08537f8a2",
+    "nameTag": "Curve.fi: cCrv Token"
+  },
+  {
+    "address": "0xeb21209ae4c2c9ff2a86aca31e123764a3b6bc06",
+    "nameTag": "Curve.fi: Compound Deposit"
+  },
+  {
+    "address": "0xa2b47e3d5c44877cca798226b7b8118f9bfb7a56",
+    "nameTag": "Curve.fi: Compound Swap"
+  },
+  {
+    "address": "0xd533a949740bb3306d119cc777fa900ba034cd52",
+    "nameTag": "Curve.fi: CRV Token"
+  },
+  {
+    "address": "0xc1db00a8e5ef7bfa476395cdbcc98235477cde4e",
+    "nameTag": "Curve.fi: Curve Calculator"
+  },
+  {
+    "address": "0x2f50d538606fa9edd2b11e2446beb18c9d5846bb",
+    "nameTag": "Curve.fi: Gauge Controller"
+  },
+  {
+    "address": "0xa50ccc70b6a011cffddf45057e39679379187287",
+    "nameTag": "Curve.fi: PAX Deposit"
+  },
+  {
+    "address": "0x06364f10b501e868329afbc005b3492902d6c763",
+    "nameTag": "Curve.fi: PAX Swap"
+  },
+  {
+    "address": "0xd905e2eaebe188fc92179b6350807d8bd91db0d8",
+    "nameTag": "Curve.fi: pCrv Token"
+  },
+  {
+    "address": "0x64e3c23bfc40722d3b649844055f1d51c1ac041d",
+    "nameTag": "Curve.fi: pPAX Liquidity Gauge"
+  },
+  {
+    "address": "0x7002b727ef8f5571cb5f9d70d13dbeeb4dfae9d1",
+    "nameTag": "Curve.fi: Registry"
+  },
+  {
+    "address": "0x9fe350dfa5f66bc086243f21a8f0932514316627",
+    "nameTag": "Curve.fi: Ren Adapter"
+  },
+  {
+    "address": "0x26d9980571e77ffb0349f9c801dd7ca9951fb656",
+    "nameTag": "Curve.fi: Ren Adapter 2"
+  },
+  {
+    "address": "0x73ab2bd10ad10f7174a1ad5afae3ce3d991c5047",
+    "nameTag": "Curve.fi: Ren Adapter 3"
+  },
+  {
+    "address": "0x93054188d876f558f4a66b2ef1d97d16edf0895b",
+    "nameTag": "Curve.fi: REN Swap"
+  },
+  {
+    "address": "0xb1f2cdec61db658f091671f5f199635aef202cac",
+    "nameTag": "Curve.fi: renBTC Liquidity Gauge"
+  },
+  {
+    "address": "0x49849c98ae39fff122806c06791fa73784fb3675",
+    "nameTag": "Curve.fi: renCrv Token"
+  },
+  {
+    "address": "0x104c1e66c67c385e6095ffcc6227d75c761dc019",
+    "nameTag": "Curve.fi: sBTC Adapter"
+  },
+  {
+    "address": "0x02b3f51ac9202aa19be63d61a8c681579d6e3a51",
+    "nameTag": "Curve.fi: sBTC Adapter 2"
+  },
+  {
+    "address": "0xaeade605d01fe9a8e9c4b3aa0130a90d62167029",
+    "nameTag": "Curve.fi: sBTC Adapter 3"
+  },
+  {
+    "address": "0x705350c4bcd35c9441419ddd5d2f097d7a55410f",
+    "nameTag": "Curve.fi: sBTC Liquidity Gauge"
+  },
+  {
+    "address": "0x7fc77b5c7614e1533320ea6ddc2eb61fa00a9714",
+    "nameTag": "Curve.fi: sBTC Swap"
+  },
+  {
+    "address": "0x075b1bb99792c9e1041ba13afef80c91a1e70fb3",
+    "nameTag": "Curve.fi: sbtcCrv Token"
+  },
+  {
+    "address": "0xc25a3a3b969415c80451098fa907ec722572917f",
+    "nameTag": "Curve.fi: sCRV Token"
+  },
+  {
+    "address": "0xfcba3e75865d2d561be8d220616520c171f12851",
+    "nameTag": "Curve.fi: sUSD v2 Deposit"
+  },
+  {
+    "address": "0xa5407eae9ba41422680e2e00537571bcc53efbfd",
+    "nameTag": "Curve.fi: sUSD v2 Swap"
+  },
+  {
+    "address": "0xa90996896660decc6e997655e065b23788857849",
+    "nameTag": "Curve.fi: sUSDv2 Liquidity Gauge"
+  },
+  {
+    "address": "0x9fc689ccada600b6df723d9e47d84d76664a1f23",
+    "nameTag": "Curve.fi: tCrv Token"
+  },
+  {
+    "address": "0xd061d61a4d941c39e5453435b6345dc261c2fce0",
+    "nameTag": "Curve.fi: Token Minter"
+  },
+  {
+    "address": "0xac795d2c97e60df6a99ff1c814727302fd747a80",
+    "nameTag": "Curve.fi: USDT Deposit"
+  },
+  {
+    "address": "0x52ea46506b9cc5ef470c5bf89f17dc28bb35d85c",
+    "nameTag": "Curve.fi: USDT Swap"
+  },
+  {
+    "address": "0xbbc81d23ea2c3ec7e56d39296f0cbb648873a5d3",
+    "nameTag": "Curve.fi: y Deposit"
+  },
+  {
+    "address": "0x45f783cce6b7ff23b2ab2d70e416cdb7d6055f51",
+    "nameTag": "Curve.fi: y Swap"
+  },
+  {
+    "address": "0xfa712ee4788c042e2b7bb55e6cb8ec569c4530c1",
+    "nameTag": "Curve.fi: yCRV Liquidity Gauge"
+  },
+  {
+    "address": "0xdf5e0e81dff6faf3a7e52ba697820c5e32d806a8",
+    "nameTag": "Curve.fi: yCrv Token"
+  }
+]

@@ -1,0 +1,22 @@
+[
+  {
+    "address": "0x7c84124f0f7ff8adfab6c4c51ebc09c439ca91c1",
+    "nameTag": "AVA Labs: Payment Master"
+  },
+  {
+    "address": "0xb3ee3fb3f8c856adf9ce64ad691469ba533f5a37",
+    "nameTag": "AVA Labs: Wallet"
+  },
+  {
+    "address": "0xdac7bb7ce4ff441a235f08408e632fa1d799a147",
+    "nameTag": "Avalanche: Avalanche-Ethereum Bridge"
+  },
+  {
+    "address": "0x8eb8a3b98659cce290402893d0123abb75e3ab28",
+    "nameTag": "Avalanche: Bridge"
+  },
+  {
+    "address": "0xe78388b4ce79068e89bf8aa7f218ef6b9ab0e9d0",
+    "nameTag": "Avalanche: Old Bridge"
+  }
+]

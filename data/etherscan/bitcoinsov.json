@@ -1,0 +1,18 @@
+[
+  {
+    "address": "0x26946ada5ecb57f3a1f91605050ce45c482c9eb1",
+    "nameTag": "BitcoinSoV: BSOV Token"
+  },
+  {
+    "address": "0x19e6bf254abf5abc925ad72d32bac44c6c03d3a4",
+    "nameTag": "BitcoinSoV: Time Lock Contract"
+  },
+  {
+    "address": "0xabb58af7e64eb324895cb1c15c1865bb125e953f",
+    "nameTag": "BSoV Pool: Minting"
+  },
+  {
+    "address": "0xde0d47fa92b4d616b100f5dd027fc91704b24b73",
+    "nameTag": "BSoV Pool: Payments"
+  }
+]

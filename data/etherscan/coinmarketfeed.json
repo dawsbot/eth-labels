@@ -1,0 +1,26 @@
+[
+  {
+    "address": "0xcd25a9c4a1de5fbf3ed0acac8be96eb1e26dd743",
+    "nameTag": "CoinMarketFeed: : CMF Token"
+  },
+  {
+    "address": "0x7e760ad2a3e901bf034daa53222286524a4fbcf6",
+    "nameTag": "CoinMarketFeed: Airdrop & Liquidity"
+  },
+  {
+    "address": "0x0894ffd6d9c801a6e8d3ffcf9c97dfdeb21d3d26",
+    "nameTag": "CoinMarketFeed: Company Reserve"
+  },
+  {
+    "address": "0xb45220922049bcaef98c909957fec078a315e354",
+    "nameTag": "CoinMarketFeed: Founders & Team"
+  },
+  {
+    "address": "0xb12846ea71cce9d334648d1dde8cadb56d475076",
+    "nameTag": "CoinMarketFeed: Token Sale"
+  },
+  {
+    "address": "0x8d54f4d597a8a6fffd751564276dcbc6b22c5007",
+    "nameTag": "CoinMarketFeed: User Reward Pool"
+  }
+]
