@@ -41,7 +41,7 @@ type AllLabels = {
   tokens: ReadonlyArray<string>;
   blocks: ReadonlyArray<string>;
 };
-const fetchAllLabels = async (page: Page): Promise<AllLabels> => {
+const fetchAllLabelsEtherscan = async (page: Page): Promise<AllLabels> => {
   const PAGE_URL = "https://etherscan.io/labelcloud";
 
   const labelCloudHtml = await fetchPageHtml(
@@ -111,13 +111,8 @@ function selectAllAddresses(
 ): AddressesInfo {
   const $ = cheerio.load(html);
   const selector = `#table-subcatid-${subcatId} > tbody`;
-  console.log({ subcatId, selector });
   const tableElements = $(selector);
   const parent = tableElements.last();
-  // const table0 = $("#table-subcatid-0 > tbody");
-  // const table1 = $("#table-subcatid-1 > tbody");
-
-  // const parent = table1.length > 0 ? table1 : table0;
 
   let addressesInfo: AddressesInfo = [];
   parent.find("tr").each((index, trElement) => {
@@ -150,7 +145,7 @@ async function signInToEtherscan(page: Page) {
   await page.waitForNavigation();
 }
 
-async function pullFromTable(url, page) {
+async function pullFromTableEtherscan(url, page) {
   const addressesHtml = await fetchPageHtml(
     url,
     page,
@@ -185,46 +180,6 @@ async function pullFromTable(url, page) {
   }
   return allAddresses;
 }
-async function confirmLength(
-  length: number,
-  url: string,
-  page: Page,
-  labelName: string,
-): Promise<boolean> {
-  const textDiv = "#table-subcatid-0_info";
-  let element = await page.$(textDiv);
-  if (!element) {
-    element = await page.$("#table-subcatid-1_info");
-  }
-  if (!element) {
-    return 0 == length;
-  }
-  const text = await element.innerText();
-  if (text.split(" ")[3].replace(",", "") != length.toString()) {
-    fs.appendFileSync(
-      path.join(__dirname, "..", "data", "error", `failed-list.txt`),
-      `${labelName.padEnd(25)} --> expected: ${text.split(" ")[3]} got: ${length.toString()}\n`,
-    );
-    return false;
-  }
-  return true;
-}
-function printFailedSummary() {
-  const failedListContent = fs.readFileSync(
-    path.join(__dirname, "..", "data", "error", "failed-list.txt"),
-    "utf-8",
-  );
-  console.log(
-    "\n\n_________________________ FAILED_TESTS _________________________",
-  );
-  console.log(failedListContent); // show all failed labels
-  console.log(
-    `total failed labels: ${failedListContent.split("\n").length - 1}`,
-  );
-  console.log(
-    "________________________ FAILED_TESTS_END ________________________",
-  );
-}
 
 function sortAllAdresses(allAddresses: AddressesInfo) {
   const sortedAddresses = allAddresses.sort((a, b) => {
@@ -258,10 +213,14 @@ async function fetchEtherscan(page) {
   }
 
   await signInToEtherscan(page);
-  const allLabels = await fetchAllLabels(page);
+  const allLabels = await fetchAllLabelsEtherscan(page);
+
   for (const url of allLabels.accounts) {
+    // delay between 0.5 and 1 seconds for processing
     await sleep(Math.random() * (sleepRange * 1000) + 500);
-    const allAddresses = await pullFromTable(url, page);
+
+    // fetch all addresses from all tables
+    const allAddresses = await pullFromTableEtherscan(url, page);
     const labelName = url.split("/").pop()?.split("?")[0];
     if (allAddresses.length > 0) {
       const sortedAddresses = sortAllAdresses(allAddresses);
@@ -270,20 +229,10 @@ async function fetchEtherscan(page) {
         JSON.stringify(sortedAddresses, null, 2),
       );
     }
-    // const lengthCheck = (await confirmLength(
-    //   allAddresses.length,
-    //   url,
-    //   page,
-    //   z.string().parse(labelName),
-    // ))
-    //   ? "PASSED"
-    //   : "FAILED";
-
     console.dir({
       url,
       allAddresses,
       length: allAddresses.length,
-      // lengthCheck: lengthCheck,
     });
   }
 }
