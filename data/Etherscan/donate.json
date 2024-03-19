@@ -1,5 +1,9 @@
 [
   {
+    "address": "0x0c60c6ab49dc7a0ec91b6bc856b753afa072b375",
+    "nameTag": ""
+  },
+  {
     "address": "0xf8843981e7846945960f53243ca2fd42a579f719",
     "nameTag": "0xSplits: Donate"
   },
@@ -46,10 +50,6 @@
   {
     "address": "0x66a836664adc7c525c0cc4527dee8619d4faf669",
     "nameTag": "boxswap: Donate"
-  },
-  {
-    "address": "0x0c60c6ab49dc7a0ec91b6bc856b753afa072b375",
-    "nameTag": "ChainSafe: Donate"
   },
   {
     "address": "0xa8cc2b4bd58c778a45dee62bb0714e2da37ca95c",

@@ -1,0 +1,38 @@
+abracadabra-money         --> expected: 14 got: 1
+augmented-finance         --> expected: 50 got: 1
+bancor                    --> expected: 773 got: 1
+bridged-token             --> expected: UNKNOWN likely 0, got 0
+celer-network             --> expected: 5 got: 1
+chainlink                 --> expected: 6 got: 1
+compound                  --> expected: 10 got: 1
+defi                      --> expected: 3 got: 1
+deprecated                --> expected: 9 got: 1
+dforce                    --> expected: 8 got: 1
+education                 --> expected: UNKNOWN likely 0, got 0
+electronics               --> expected: UNKNOWN likely 0, got 0
+erc-4337-bundler          --> expected: UNKNOWN likely 0, got 0
+ftx                       --> expected: 7 got: 1
+furucombo                 --> expected: 12 got: 1
+gearbox-protocol          --> expected: 11 got: 1
+genesis                   --> expected: 12 got: 1
+gitcoin-grants            --> expected: 9 got: 1
+layer-2                   --> expected: 49 got: 1
+lido                      --> expected: UNKNOWN likely 0, got 0
+liqui.io                  --> expected: UNKNOWN likely 0, got 0
+media                     --> expected: UNKNOWN likely 0, got 0
+multisig                  --> expected: 11 got: 1
+multisig-owner            --> expected: 9 got: 1
+music                     --> expected: UNKNOWN likely 0, got 0
+network                   --> expected: UNKNOWN likely 0, got 0
+olympusdao                --> expected: 36 got: 1
+onyx-to                   --> expected: UNKNOWN likely 0, got 0
+optimism                  --> expected: 15 got: 1
+polygon                   --> expected: 27 got: 1
+prediction-market         --> expected: UNKNOWN likely 0, got 0
+real-estate               --> expected: UNKNOWN likely 0, got 0
+set-protocol              --> expected: UNKNOWN likely 0, got 0
+synapse                   --> expected: 5 got: 1
+the-graph                 --> expected: UNKNOWN likely 0, got 0
+upbit                     --> expected: 4 got: 1
+v2                        --> expected: 97 got: 1
+vpn                       --> expected: UNKNOWN likely 0, got 0

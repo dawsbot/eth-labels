@@ -27,7 +27,7 @@ const selectAllAnchors = (html: string): ReadonlyArray<string> => {
     const matches = Number(regex.exec(size)[1]);
     const maxRecordsLength = 3000;
     if (matches < maxRecordsLength) {
-      const href = `https://etherscan.io${pathname}?size=1000`;
+      const href = `https://etherscan.io${pathname}?size=${maxRecordsLength}`;
       if (typeof pathname === "string") {
         anchors = [...anchors, href];
       }
@@ -72,7 +72,7 @@ const fetchAllLabels = async (page: Page): Promise<AllLabels> => {
 
 async function openBrowser(): Promise<{ browser: Browser; page: Page }> {
   const browser = await firefox.launch({ headless: false });
-  // Create a new browser context
+  // Create a new browser context with viewport options
   const context = await browser.newContext();
 
   // Create a new page
@@ -89,15 +89,11 @@ async function fetchPageHtml(
 ): Promise<string> {
   // Navigate to the desired URL
   await page.goto(url);
-
-  // console.log({ url });
-  try{
-    await page.waitForSelector(waitForSelector, { timeout: 10_000 });
-  }catch(error){
+  try {
+    await page.waitForSelector(waitForSelector, { timeout: 5_000 });
+  } catch (error) {
     parseError(error);
   }
-
-
   // Get the HTML content of the entire page
   const pageContent = await page.content();
   return pageContent;
@@ -145,14 +141,59 @@ async function signInToEtherscan(page: Page) {
   await page.waitForNavigation();
 }
 
-async function pullFromTable(url,page){
+async function pullFromTable(url, page) {
   const addressesHtml = await fetchPageHtml(
     url,
     page,
     `a[aria-label="Copy Address"]`,
   );
   const allAddresses = selectAllAddresses(addressesHtml);
-  return allAddresses
+  return allAddresses;
+}
+async function confirmLength(
+  length: number,
+  url: string,
+  page: Page,
+  labelName: string,
+): Promise<boolean> {
+  const textDiv = "#table-subcatid-0_info";
+  let element = await page.$(textDiv);
+  if (!element) {
+    element = await page.$("#table-subcatid-1_info");
+  }
+  if (!element) {
+    // fs.appendFileSync(
+    //   path.join(__dirname, "..", "data","error", `failed-list.txt`),
+    //   `${labelName.padEnd(25)} --> UNKNOWN got: ${length.toString()}\n`
+    // );
+    return 0 == length;
+  }
+  const text = await element.innerText();
+  // console.log(text.split(" ")[3], length.toString(), (text.split(" ")[3].replace(",","")==length.toString()), (text.split(" ")[3]===length.toString()))
+  if (text.split(" ")[3].replace(",", "") != length.toString()) {
+    fs.appendFileSync(
+      path.join(__dirname, "..", "data", "error", `failed-list.txt`),
+      `${labelName.padEnd(25)} --> expected: ${text.split(" ")[3]} got: ${length.toString()}\n`,
+    );
+    return false;
+  }
+  return true;
+}
+function printFailedSummary() {
+  const failedListContent = fs.readFileSync(
+    path.join(__dirname, "..", "data", "error", "failed-list.txt"),
+    "utf-8",
+  );
+  console.log(
+    "\n\n_________________________ FAILED_TESTS _________________________",
+  );
+  console.log(failedListContent); // show all failed labels
+  console.log(
+    `total failed labels: ${failedListContent.split("\n").length - 1}`,
+  );
+  console.log(
+    "________________________ FAILED_TESTS_END ________________________",
+  );
 }
 
 (async () => {
@@ -160,21 +201,41 @@ async function pullFromTable(url,page){
     const { browser, page } = await openBrowser();
     await signInToEtherscan(page);
     const allLabels = await fetchAllLabels(page);
+    const sleepRange = 1 / 3; //max seconds to wait before fetching next page
+
+    // clear failed-list.txt
+    fs.writeFileSync(
+      path.join(__dirname, "..", "data", "error", "failed-list.txt"),
+      "",
+    );
+
     for (const url of allLabels.accounts) {
-      
-      await sleep(Math.random() * 4000 + 1000);
-      const allAddresses = await pullFromTable(url,page);
+      await sleep(Math.random() * (sleepRange * 1000) + 250);
+      const allAddresses = await pullFromTable(url, page);
       const labelName = url.split("/").pop()?.split("?")[0];
       fs.writeFileSync(
-        path.join(__dirname, "..", "data","Etherscan", `${labelName}.json`),
+        path.join(__dirname, "..", "data", "Etherscan", `${labelName}.json`),
         JSON.stringify(allAddresses, null, 2),
       );
-      console.dir({ url, allAddresses, length: allAddresses.length });
+      const lengthCheck = (await confirmLength(
+        allAddresses.length,
+        url,
+        page,
+        z.string().parse(labelName),
+      ))
+        ? "PASSED"
+        : "FAILED";
+      console.dir({
+        url,
+        allAddresses,
+        length: allAddresses.length,
+        lengthCheck: lengthCheck,
+      });
     }
     await closeBrowser(browser);
+    printFailedSummary();
   } catch (error) {
     parseError(error);
-    // without this the process hangs
     process.exit(1);
   }
 })();
