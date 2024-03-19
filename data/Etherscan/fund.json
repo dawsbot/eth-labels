@@ -1,5 +1,9 @@
 [
   {
+    "address": "0x60009b78da046ac64ef789c29ca05b79cdf73c10",
+    "nameTag": ""
+  },
+  {
     "address": "0xb5848748157052ac0dfefc167b566c0b00739ce9",
     "nameTag": ""
   },
@@ -170,10 +174,6 @@
   {
     "address": "0x1157a2076b9bb22a85cc2c162f20fab3898f4101",
     "nameTag": "FalconX: 0x115...101"
-  },
-  {
-    "address": "0x60009b78da046ac64ef789c29ca05b79cdf73c10",
-    "nameTag": "FalconX: Foster City"
   },
   {
     "address": "0x85464b207d7c1fce8da13d2f3d950c796e399a9c",

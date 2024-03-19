@@ -1,5 +1,9 @@
 [
   {
+    "address": "0xdc66115be4eaa30fe8ca3b262bb8e3ff889f3a35",
+    "nameTag": ""
+  },
+  {
     "address": "0x4094aec22f40f11c29941d144c3dc887b33f5504",
     "nameTag": "mStable: Aave V2 Integration FEI Feeder Pool"
   },
@@ -386,9 +390,5 @@
   {
     "address": "0xa283fcb3c2b8dc908f93f17627e9f90fc8559d5d",
     "nameTag": "mStable: TBTC fPool Savings Vault Logic"
-  },
-  {
-    "address": "0xdc66115be4eaa30fe8ca3b262bb8e3ff889f3a35",
-    "nameTag": "OLD mStable: Feeder Wrapper"
   }
 ]

@@ -80,6 +80,14 @@
     "nameTag": "Manifold Finance: Builder"
   },
   {
+    "address": "0x00066282d9fac206f8f0fd0b935958ae55e13333",
+    "nameTag": "MEV Builder: 0x000...333"
+  },
+  {
+    "address": "0x00000000a991c429ee2ec6df19d40fe0c80088b8",
+    "nameTag": "MEV Builder: 0x000...8B8"
+  },
+  {
     "address": "0x000e633ddef00da46abd5044779257a64ead9bce",
     "nameTag": "MEV Builder: 0x000...bce"
   },
@@ -250,6 +258,10 @@
   {
     "address": "0x7e2a2fa2a064f693f0a55c5639476d913ff12d05",
     "nameTag": "MEV Builder: 0x7e2...D05"
+  },
+  {
+    "address": "0x88c6c46ebf353a52bdbab708c23d0c81daa8134a",
+    "nameTag": "MEV Builder: 0x88c...34A"
   },
   {
     "address": "0x8d5998a27b3cdf33479b65b18f075e20a7aa05b9",

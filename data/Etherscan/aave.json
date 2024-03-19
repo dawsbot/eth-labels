@@ -1,5 +1,9 @@
 [
   {
+    "address": "0xe3a3de71b827cb73663a24cdb6243ba7f986cc3b",
+    "nameTag": ""
+  },
+  {
     "address": "0x317625234562b1526ea2fac4030ea499c5291de4",
     "nameTag": "Aave: LEND To AAVE Migrator"
   },
@@ -258,10 +262,6 @@
   {
     "address": "0x279af5b99540c1a3a7e3cdd326e19659401ef99e",
     "nameTag": "Aave: GUSD Variable Debt V2"
-  },
-  {
-    "address": "0xe3a3de71b827cb73663a24cdb6243ba7f986cc3b",
-    "nameTag": "Aave: Interest Rate Strategy V2"
   },
   {
     "address": "0xfdbda42d2ac1bfbbc10555eb255de8387b8977c4",

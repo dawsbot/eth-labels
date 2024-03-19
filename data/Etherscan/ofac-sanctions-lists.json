@@ -1,62 +1,10 @@
 [
   {
-    "address": "0x3e37627deaa754090fbfbb8bd226c1ce66d255e9",
+    "address": "0x1da5821544e25c636c1417ba96ade4cf6d2f9b5a",
     "nameTag": ""
   },
   {
-    "address": "0x4f47bc496083c727c5fbe3ce9cdf2b0f6496270c",
-    "nameTag": ""
-  },
-  {
-    "address": "0x6f1ca141a28907f78ebaa64fb83a9088b02a8352",
-    "nameTag": ""
-  },
-  {
-    "address": "0x7f19720a857f834887fc9a7bc0a0fbe7fc7f8102",
-    "nameTag": ""
-  },
-  {
-    "address": "0xc2a3829f459b3edd87791c74cd45402ba0a20be3",
-    "nameTag": ""
-  },
-  {
-    "address": "0x35fb6f6db4fb05e6a4ce86f2c93691425626d4b1",
-    "nameTag": ""
-  },
-  {
-    "address": "0xf7b31119c2682c88d88d455dbb9d5932c65cf1be",
-    "nameTag": ""
-  },
-  {
-    "address": "0x3cffd56b47b7b41c56258d9c7731abadc360e073",
-    "nameTag": ""
-  },
-  {
-    "address": "0x48549a34ae37b12f6a30566245176994e17c6b4a",
-    "nameTag": ""
-  },
-  {
-    "address": "0x5512d943ed1f7c8a43f3435c85f7ab68b30121b0",
-    "nameTag": ""
-  },
-  {
-    "address": "0x6acdfba02d390b97ac2b2d42a63e85293bcc160e",
-    "nameTag": ""
-  },
-  {
-    "address": "0x7db418b5d567a4e0e8c59ad71be1fce48f3e6107",
-    "nameTag": ""
-  },
-  {
-    "address": "0x8576acc5c05d6ce88f4e49bf65bdf0c62f91353c",
-    "nameTag": ""
-  },
-  {
-    "address": "0xa0e1c89ef1a489c9c7de96311ed5ce5d32c20e4b",
-    "nameTag": ""
-  },
-  {
-    "address": "0x08723392ed15743cc38513c4925f5e6be5c17243",
+    "address": "0x2f389ce8bd8ff92de3402ffce4691d17fc4f6535",
     "nameTag": ""
   },
   {
@@ -92,11 +40,15 @@
     "nameTag": ""
   },
   {
-    "address": "0x1da5821544e25c636c1417ba96ade4cf6d2f9b5a",
+    "address": "0xf7b31119c2682c88d88d455dbb9d5932c65cf1be",
     "nameTag": ""
   },
   {
-    "address": "0xfec8a60023265364d066a1212fde3930f6ae8da7",
+    "address": "0x19aa5fe80d33a56d56c78e82ea5e50e5d80b4dff",
+    "nameTag": ""
+  },
+  {
+    "address": "0x3ad9db589d201a710ed237c829c7860ba86510fc",
     "nameTag": ""
   },
   {
@@ -112,7 +64,67 @@
     "nameTag": ""
   },
   {
-    "address": "0x3ad9db589d201a710ed237c829c7860ba86510fc",
+    "address": "0x35fb6f6db4fb05e6a4ce86f2c93691425626d4b1",
+    "nameTag": ""
+  },
+  {
+    "address": "0x3e37627deaa754090fbfbb8bd226c1ce66d255e9",
+    "nameTag": ""
+  },
+  {
+    "address": "0x4f47bc496083c727c5fbe3ce9cdf2b0f6496270c",
+    "nameTag": ""
+  },
+  {
+    "address": "0x6f1ca141a28907f78ebaa64fb83a9088b02a8352",
+    "nameTag": ""
+  },
+  {
+    "address": "0x7f19720a857f834887fc9a7bc0a0fbe7fc7f8102",
+    "nameTag": ""
+  },
+  {
+    "address": "0xc2a3829f459b3edd87791c74cd45402ba0a20be3",
+    "nameTag": ""
+  },
+  {
+    "address": "0xfec8a60023265364d066a1212fde3930f6ae8da7",
+    "nameTag": ""
+  },
+  {
+    "address": "0x08723392ed15743cc38513c4925f5e6be5c17243",
+    "nameTag": ""
+  },
+  {
+    "address": "0x3cffd56b47b7b41c56258d9c7731abadc360e073",
+    "nameTag": ""
+  },
+  {
+    "address": "0x48549a34ae37b12f6a30566245176994e17c6b4a",
+    "nameTag": ""
+  },
+  {
+    "address": "0x5512d943ed1f7c8a43f3435c85f7ab68b30121b0",
+    "nameTag": ""
+  },
+  {
+    "address": "0x6acdfba02d390b97ac2b2d42a63e85293bcc160e",
+    "nameTag": ""
+  },
+  {
+    "address": "0x7db418b5d567a4e0e8c59ad71be1fce48f3e6107",
+    "nameTag": ""
+  },
+  {
+    "address": "0x8576acc5c05d6ce88f4e49bf65bdf0c62f91353c",
+    "nameTag": ""
+  },
+  {
+    "address": "0xa0e1c89ef1a489c9c7de96311ed5ce5d32c20e4b",
+    "nameTag": ""
+  },
+  {
+    "address": "0xe7aa314c77f4233c18c6cc84384a9247c0cf367b",
     "nameTag": ""
   },
   {
@@ -120,20 +132,8 @@
     "nameTag": "Gitcoin Grants: Tornado.cash"
   },
   {
-    "address": "0x19aa5fe80d33a56d56c78e82ea5e50e5d80b4dff",
-    "nameTag": "OFAC SDN: 0x19a...dff"
-  },
-  {
-    "address": "0x2f389ce8bd8ff92de3402ffce4691d17fc4f6535",
-    "nameTag": "OFAC SDN: 0x2f3...535"
-  },
-  {
     "address": "0x308ed4b7b49797e1a98d3818bff6fe5385410370",
     "nameTag": "OFAC SDN: 0x308...370"
-  },
-  {
-    "address": "0xe7aa314c77f4233c18c6cc84384a9247c0cf367b",
-    "nameTag": "OFAC SDN: 0xe7a...67b"
   },
   {
     "address": "0x098b716b8aaf21512996dc57eb0615e2383e2f96",
