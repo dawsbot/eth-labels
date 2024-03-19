@@ -1,0 +1,98 @@
+[
+  {
+    "address": "0x0e3a2a1f2146d86a604adc220b4967a898d7fe07",
+    "nameTag": "Gods Unchained: CARD"
+  },
+  {
+    "address": "0xbea8c2f97fa34dc1cfdd7acbdc8226fb1c8c7473",
+    "nameTag": "Gods Unchained: Deployer 1"
+  },
+  {
+    "address": "0xef536c805482feb3d838426ed48320f77fd5f82b",
+    "nameTag": "Gods Unchained: Deployer 2"
+  },
+  {
+    "address": "0x6ebeaf8e8e946f0716e6533a6f2cefc83f60e8ab",
+    "nameTag": "Gods Unchained: GODS"
+  },
+  {
+    "address": "0x9b45b116b68c388e49610c9be585dbee201467a7",
+    "nameTag": "GU: Auction Pack"
+  },
+  {
+    "address": "0x91b9d2835ad914bc1dcfe09bd1816febd04fd689",
+    "nameTag": "GU: Capped Vault"
+  },
+  {
+    "address": "0x6e0051c750b81f583f42f93a48d56497779992d8",
+    "nameTag": "GU: Epic Pack"
+  },
+  {
+    "address": "0x482cf6a9d6b23452c81d4d0f0f139c1414963f89",
+    "nameTag": "GU: Epic Pack Four"
+  },
+  {
+    "address": "0x84487e50db6317e5e834d89d0e81fd873462ea47",
+    "nameTag": "GU: Epic Pack Three"
+  },
+  {
+    "address": "0xe5dc9d1b58fd5a95fc20a6c6afaa76d44d70a7df",
+    "nameTag": "GU: Epic Pack Two"
+  },
+  {
+    "address": "0x5789e2b5460cae9329d93a78511e2ac49f98a1f6",
+    "nameTag": "GU: Legendary Pack"
+  },
+  {
+    "address": "0xc47d7d42e44b2e04c83a45cf45898e597a0c2311",
+    "nameTag": "GU: Legendary Pack Four"
+  },
+  {
+    "address": "0x80b3075410ee52c520dd203f60206f633d27a109",
+    "nameTag": "GU: Legendary Pack Three"
+  },
+  {
+    "address": "0x6c5dc1dcda3d309a6e919e6d0965f197e0fc1913",
+    "nameTag": "GU: Legendary Pack Two"
+  },
+  {
+    "address": "0x015531a044bae03bf4dab1ceabfc232a969b7175",
+    "nameTag": "GU: Rare Pack"
+  },
+  {
+    "address": "0x0777f76d195795268388789343068e4fcd286919",
+    "nameTag": "GU: Rare Pack Four"
+  },
+  {
+    "address": "0x08dbf4f942ba8cd7871c13addefdffef3e5a8035",
+    "nameTag": "GU: Rare Pack Three"
+  },
+  {
+    "address": "0xca6746f65d53d2df5022b5d775817e62e8462690",
+    "nameTag": "GU: Rare Pack Two"
+  },
+  {
+    "address": "0x000983ba1a675327f0940b56c2d49cd9c042dfbf",
+    "nameTag": "GU: Shiny Legendary Pack"
+  },
+  {
+    "address": "0x1e891c587b345ab02a31b57c1f926fb08913d10d",
+    "nameTag": "GU: Shiny Legendary Pack Four"
+  },
+  {
+    "address": "0x314495517f380ceb7c498a35739e40864240adcf",
+    "nameTag": "GU: Shiny Legendary Pack Three"
+  },
+  {
+    "address": "0x80391307f1b08cc068fa1d1b77513b98c36dfbfa",
+    "nameTag": "GU: Shiny Legendary Pack Two"
+  },
+  {
+    "address": "0x22365168c8705e95b2d08876c23a8c13e3ad72e2",
+    "nameTag": "GU: Tournament Pass"
+  },
+  {
+    "address": "0xe7e02be77d46ca4def893d1d05198f4be5c1ecd8",
+    "nameTag": "GU: Vault"
+  }
+]

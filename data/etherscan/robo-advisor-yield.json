@@ -1,0 +1,26 @@
+[
+  {
+    "address": "0x3d6fa1331e142504ba0b7965cd801c7f3b21b6c0",
+    "nameTag": "Robo-Advisor Yield: Aave Opportunity"
+  },
+  {
+    "address": "0x759a728653c4d0483d897dccf3a343fe2bbbb54a",
+    "nameTag": "Robo-Advisor Yield: Bzx Opportunity"
+  },
+  {
+    "address": "0xea5ee32f3a63c3fabb311c6e8c985d308a53dcc1",
+    "nameTag": "Robo-Advisor Yield: Compound Opportunity"
+  },
+  {
+    "address": "0xc830217bd3000e92ce846c549de6a2a36aea8954",
+    "nameTag": "Robo-Advisor Yield: DSR Opportunity"
+  },
+  {
+    "address": "0xeb6394f817b498c423c44bd72c3d7f8ed5deec6e",
+    "nameTag": "Robo-Advisor Yield: Dydx Opportunity"
+  },
+  {
+    "address": "0x06a5bf70bff314177488864fe03576ff608e6aec",
+    "nameTag": "Robo-Advisor Yield: Portfolio Manager"
+  }
+]

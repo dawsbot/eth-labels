@@ -1,0 +1,42 @@
+[
+  {
+    "address": "0x7b138cc83ecccd6331cd7651c75ee3eb2ec6682e",
+    "nameTag": "Bitpie: Batch Sender"
+  },
+  {
+    "address": "0x3b7e71a9f15eebb541c82f88ef020ae7040484f1",
+    "nameTag": "Bitpie: Batch Sender v2"
+  },
+  {
+    "address": "0xf64edd94558ca8b3a0e3b362e20bb13ff52ea513",
+    "nameTag": "Bitpie: Bitpie 1"
+  },
+  {
+    "address": "0x5c9f3fff6ee846a83080f373f8cea1451bb4a3d9",
+    "nameTag": "Bitpie: Bitpie 2"
+  },
+  {
+    "address": "0x8979d1e0ecab3cf5ae8a5a7b2d792aa119f34be1",
+    "nameTag": "Bitpie: Bitpie 3"
+  },
+  {
+    "address": "0x346b46826be175c943a45cdbec2e9d95dc52fb38",
+    "nameTag": "Bitpie: Bitpie 4"
+  },
+  {
+    "address": "0xb685d0daea607fe75e02c1a7679261eac661b9bc",
+    "nameTag": "Bitpie: Bitpie 5"
+  },
+  {
+    "address": "0xadef6b2c5e848a4f04145ee88f20ac079f17beab",
+    "nameTag": "Bitpie: Bitpie 6"
+  },
+  {
+    "address": "0x19e460ac0a23706f156909b545de9d5072802065",
+    "nameTag": "Bitpie: Bitpie 7"
+  },
+  {
+    "address": "0x48fc0b223b818b55f2a6feb3ab329ff816edd2bc",
+    "nameTag": "Bitpie: Deployer"
+  }
+]

@@ -1,0 +1,26 @@
+[
+  {
+    "address": "0x420167d87d35c3a249b32ef6225872fbd9ab85d2",
+    "nameTag": "MESG Token"
+  },
+  {
+    "address": "0x7be1a4d7ea5b1a9e74762f388a06912c3ea0935b",
+    "nameTag": "MESG: ATD Contract"
+  },
+  {
+    "address": "0xd3bc9441cf03872211e20e3b65753b987e4902c4",
+    "nameTag": "MESG: Partners & Bounties"
+  },
+  {
+    "address": "0x7b1a474d224594abaf887868729ac2933704d050",
+    "nameTag": "MESG: Reserve"
+  },
+  {
+    "address": "0xc99dd69a565d9d64a8b1ba2d76cf49023913bdcc",
+    "nameTag": "MESG: Sale Allocation"
+  },
+  {
+    "address": "0xc3f32eac394231fa48197b6751dfab3ad5d98f07",
+    "nameTag": "MESG: Team & Founders"
+  }
+]
