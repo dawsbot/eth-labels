@@ -1,5 +1,9 @@
 [
   {
+    "address": "0x3f8e527af4e0c6e763e8f368ac679c44c45626ae",
+    "nameTag": "Saddle Finance: Multisig"
+  },
+  {
     "address": "0xf5d2e84e816175dfb2c38bd7549d4bd37b1c0559",
     "nameTag": "Saddle.finance: Allowlist"
   },
@@ -10,6 +14,10 @@
   {
     "address": "0x2b7a5a5923eca5c00c6572cf3e8e08384f563f93",
     "nameTag": "Saddle.finance: BTC Pool SwapUtils"
+  },
+  {
+    "address": "0x5bdb37d0ddea3a90f233c7b7f6b9394b6b2eef34",
+    "nameTag": "Saddle.finance: Deployer"
   },
   {
     "address": "0xc0409ec303b727bc1f511d7f8c71fd5ead96de1c",

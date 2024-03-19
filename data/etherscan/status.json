@@ -8,7 +8,19 @@
     "nameTag": "Status: Community MultiSig"
   },
   {
+    "address": "0x6b9ef02657339310e28a7a9d4b5f25f7c1f68d61",
+    "nameTag": "Status: Deployer 1"
+  },
+  {
+    "address": "0xd248b0d48e44aaf9c49aea0312be7e13a6dc1468",
+    "nameTag": "Status: Old Genesis Token"
+  },
+  {
     "address": "0xa646e29877d52b9e2de457eca09c724ff16d0a2b",
     "nameTag": "Status: Research & Development MultiSig"
+  },
+  {
+    "address": "0x55d34b686aa8c04921397c5807db9ecedba00a4c",
+    "nameTag": "Status: Token Sale"
   }
 ]

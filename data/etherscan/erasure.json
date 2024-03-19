@@ -4,6 +4,10 @@
     "nameTag": "Erasure: Agreements"
   },
   {
+    "address": "0x13370c1947ba2d27a420bb8e27017952c80a6e6e",
+    "nameTag": "Erasure: Deployer"
+  },
+  {
     "address": "0x409ea12e73a10ef166bc063f94aa9bc952835e93",
     "nameTag": "Erasure: Escrows"
   },

@@ -4,6 +4,10 @@
     "nameTag": "mStable: Liquidator Logic v1.2"
   },
   {
+    "address": "0x2732e2a7bfaa8e5a21c07f4f1c167bbfbf7a2ac1",
+    "nameTag": "mStable: mUSD Aave Vault Logic"
+  },
+  {
     "address": "0x645b0b80f31f635a1511e0de1fbbcac0a29f65a6",
     "nameTag": "mStable: mUSD Aave Vault Logic v1.2"
   },
@@ -12,11 +16,19 @@
     "nameTag": "mStable: mUSD BasketManager Logic v2.0"
   },
   {
+    "address": "0xd4c14e145111e28a7694612978b9f5e9684afffa",
+    "nameTag": "mStable: mUSD Compound Vault Logic"
+  },
+  {
     "address": "0xeb2bf7f5a441b43ed197a8b4d347b275652a879e",
     "nameTag": "mStable: mUSD Compound Vault Logic v2.0"
   },
   {
     "address": "0xe0d0d052d5b1082e52c6b8422acd23415c3df1c4",
     "nameTag": "mStable: mUSD Logic v2.0"
+  },
+  {
+    "address": "0xe4c5b1765bf420016027177289908c5a3ea7668e",
+    "nameTag": "mStable: mUSD Token Logic"
   }
 ]

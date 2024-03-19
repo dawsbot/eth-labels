@@ -524,6 +524,14 @@
     "nameTag": "Balancer: AXIA-V2/TRB/BAND/ZAP/LINK 30/10/10/10/40"
   },
   {
+    "address": "0x5c6ee304399dbdb9c8ef030ab642b10820db8f56",
+    "nameTag": "Balancer: B-80BAL-20WETH Token"
+  },
+  {
+    "address": "0xde4a25a0b9589689945d842c5ba0cf4f0d4eb3ac",
+    "nameTag": "Balancer: BActions"
+  },
+  {
     "address": "0xba100000625a3754423978a60c9317c58a424e3d",
     "nameTag": "Balancer: BAL Token"
   },
@@ -1266,6 +1274,10 @@
   {
     "address": "0x19ad4a5cc014ef70bc10f3cc2aa0288237425ad1",
     "nameTag": "Balancer: COL/ETH 50/50"
+  },
+  {
+    "address": "0xc99317ceef9ed2ab9ff0ec99f64f3dd61b09a6b2",
+    "nameTag": "Balancer: COMBO LBP"
   },
   {
     "address": "0xedcbad088e7f6418ecac3bf352f401709b388ca1",
@@ -2776,6 +2788,10 @@
     "nameTag": "Balancer: DAO"
   },
   {
+    "address": "0x10a19e7ee7d7f8a52822f6817de8ea18204f2e4f",
+    "nameTag": "Balancer: DAO Multisig"
+  },
+  {
     "address": "0x874aa0ef89b15c9a9a6a1903ce409549365fb8d3",
     "nameTag": "Balancer: DAOfi/ETH 80/20"
   },
@@ -2822,6 +2838,18 @@
   {
     "address": "0x5704ded131e36a3e171e317057ca7c894bf5b423",
     "nameTag": "Balancer: DELTA rLP/USDC 50/50"
+  },
+  {
+    "address": "0x6e9eef9b53a69f37efcab8489706e8b2bd82608b",
+    "nameTag": "Balancer: Deployer"
+  },
+  {
+    "address": "0x24a12fa313f57af541d447c594072a992c605dcf",
+    "nameTag": "Balancer: Deployer 2"
+  },
+  {
+    "address": "0x9098b50ee2d9e4c3c69928a691da3b192b4c9673",
+    "nameTag": "Balancer: Deployer 4"
   },
   {
     "address": "0xa5e4c914f7c929de7d9b21f722fe9ed6b76255cc",
@@ -2890,6 +2918,10 @@
   {
     "address": "0x600fd9b55d197483ad68403860ae1351bb164ca3",
     "nameTag": "Balancer: DIP/ETH 50/50 #2"
+  },
+  {
+    "address": "0x6d19b2bf3a36a61530909ae65445a906d98a2fa8",
+    "nameTag": "Balancer: Distribution"
   },
   {
     "address": "0xc309d1f7da3ed7b8ea824ee35d76066f65c78782",
@@ -5108,6 +5140,10 @@
     "nameTag": "Balancer: FUN/ETH 50/50 #2"
   },
   {
+    "address": "0xb129f73f1afd3a49c701241f374db17ae63b20eb",
+    "nameTag": "Balancer: Future Fundraise"
+  },
+  {
     "address": "0x20dc817e27e9ffdaa2f9ad4b2ddcd6ab0b4fafc5",
     "nameTag": "Balancer: FX/ETH 70/30"
   },
@@ -5796,6 +5832,10 @@
     "nameTag": "Balancer: LINA/ETH 60/40"
   },
   {
+    "address": "0x75a52c0e32397a3fc0c052e2ceb3479802713cf4",
+    "nameTag": "Balancer: Linear Pool Control"
+  },
+  {
     "address": "0x4939e1557613b6e84b92bf4c5d2db4061bd1a7c7",
     "nameTag": "Balancer: LINK/AAVE/YFI/UNI/xSNXa 20/20/20/20/20"
   },
@@ -6000,6 +6040,10 @@
     "nameTag": "Balancer: LINKUSD/USDC 50/50"
   },
   {
+    "address": "0xc38c5f97b34e175ffd35407fc91a937300e33860",
+    "nameTag": "Balancer: Liquidity Mining Safe"
+  },
+  {
     "address": "0x57d365c82f5c1c659f3e76af324e5e34239e03ed",
     "nameTag": "Balancer: LMY/ETH 98/2 #2"
   },
@@ -6072,6 +6116,10 @@
     "nameTag": "Balancer: MAD/POE 80/20"
   },
   {
+    "address": "0xf4a80929163c5179ca042e1b292f5efbbe3d89e6",
+    "nameTag": "Balancer: Mainnet Fee Setter"
+  },
+  {
     "address": "0x8f7867f87b1bc1adb4074136e81b9cf36a465307",
     "nameTag": "Balancer: MALTA1/MALTA2 10/90"
   },
@@ -6086,6 +6134,10 @@
   {
     "address": "0x83218d02abb6acdfd4c972e9c8b13754bc2e23d0",
     "nameTag": "Balancer: MANA/OCEAN/LRC/ENJ 30/30/20/20"
+  },
+  {
+    "address": "0x0efccbb9e2c09ea29551879bd9da32362b32fc89",
+    "nameTag": "Balancer: Managed Treasury"
   },
   {
     "address": "0xce8ceb18cbe8ec490401110795b3e7928807d4ed",
@@ -6122,6 +6174,10 @@
   {
     "address": "0x5c7e6cb2102ec8f28a3ab93ed31ad4f027f49912",
     "nameTag": "Balancer: MATIC/RUNE/ETH/FTM 43/16/8/33"
+  },
+  {
+    "address": "0x166f54f44f271407f24aa1be415a730035637325",
+    "nameTag": "Balancer: Maxi Payments"
   },
   {
     "address": "0x6e378d2c530532c2f72b2d4eb3ef3987e6b7c5ac",
@@ -6640,6 +6696,10 @@
     "nameTag": "Balancer: OM/ETH 50/50"
   },
   {
+    "address": "0x7226daaf09b3972320db05f5ab81ff38417dd687",
+    "nameTag": "Balancer: Onchain Registry"
+  },
+  {
     "address": "0x26bd10af71ea2c262cad5961fb71c24a7a4a2ccf",
     "nameTag": "Balancer: ONE/ETH 87/13 #2"
   },
@@ -6762,6 +6822,10 @@
   {
     "address": "0xf54025af2dc86809be1153c1f20d77adb7e8ecf4",
     "nameTag": "Balancer: PERP/USDC 80/20"
+  },
+  {
+    "address": "0xbfb4b21887ebb3542bde0a9997d481debc6e072b",
+    "nameTag": "Balancer: PERP/USDC LP pool"
   },
   {
     "address": "0x74ca0f21819518a698b99f171c9327e4f6e2405d",
@@ -8628,6 +8692,10 @@
     "nameTag": "Balancer: POWR/GRID/ETH 33.33/33.33/33.33 #2"
   },
   {
+    "address": "0x7c68c42de679ffb0f16216154c996c354cf1161b",
+    "nameTag": "Balancer: Protocol Fees Multisig"
+  },
+  {
     "address": "0x3217bee1f4a2f6140e551c8d32bfc4ad8d9f621e",
     "nameTag": "Balancer: PROXI/USDC 80/20"
   },
@@ -8952,6 +9020,10 @@
     "nameTag": "Balancer: RGT/ETH 20/80"
   },
   {
+    "address": "0x0f811b1af2b6b447b008eff31ecceee5a0b1d842",
+    "nameTag": "Balancer: RightsManager"
+  },
+  {
     "address": "0x9dcc2104f25d40db2f455b458fcbe538c6812bbc",
     "nameTag": "Balancer: RLC/ETH 80/20 #2"
   },
@@ -9128,6 +9200,10 @@
     "nameTag": "Balancer: SAFE2/YFI 50/50"
   },
   {
+    "address": "0xcfe28868f6e0a24b7333d22d8943279e76ac2cdc",
+    "nameTag": "Balancer: SafeMath (Library)"
+  },
+  {
     "address": "0x548b5c92a5e0006628f69c60e0085373fd5b63d9",
     "nameTag": "Balancer: SAI/ETH 50/50"
   },
@@ -9176,6 +9252,210 @@
     "nameTag": "Balancer: SFI/ETH 80/20"
   },
   {
+    "address": "0x7d64f03a7a15e6082d1371c82c59770d73b4f8aa",
+    "nameTag": "Balancer: Shareholder"
+  },
+  {
+    "address": "0x5d217dcc8cb22eafec2dbc372d91e2f6dbb80d26",
+    "nameTag": "Balancer: Shareholder 10"
+  },
+  {
+    "address": "0x736fe4555184778765e4a42d181f6dc2b0b7bf3c",
+    "nameTag": "Balancer: Shareholder 11"
+  },
+  {
+    "address": "0x79e970f953c7cfbbb74e05b6df54f75db4a3cad6",
+    "nameTag": "Balancer: Shareholder 12"
+  },
+  {
+    "address": "0x84525d09fc9a0a3978e12a00e684d5cac1f52c79",
+    "nameTag": "Balancer: Shareholder 13"
+  },
+  {
+    "address": "0xb79ae2655a5884e9c474ab9015d662bb825e58ce",
+    "nameTag": "Balancer: Shareholder 14"
+  },
+  {
+    "address": "0xbba5ebe53e7ea486c527b901e02761a74d4be07f",
+    "nameTag": "Balancer: Shareholder 15"
+  },
+  {
+    "address": "0xbe7760adb8e08218d984d50822e7656d46effd40",
+    "nameTag": "Balancer: Shareholder 16"
+  },
+  {
+    "address": "0xbf8dce5bc97da4ad219b2005e6a61d52cf7e69fb",
+    "nameTag": "Balancer: Shareholder 17"
+  },
+  {
+    "address": "0xc0735dc9bd6a7d16826dbce01863970cf3881397",
+    "nameTag": "Balancer: Shareholder 18"
+  },
+  {
+    "address": "0xca054c84ea710f7e0b71c781cf1809b2a261ab99",
+    "nameTag": "Balancer: Shareholder 19"
+  },
+  {
+    "address": "0xc9cd5d64fde8919b6a274ad7f31b5a0c7e4b24b6",
+    "nameTag": "Balancer: Shareholder 2"
+  },
+  {
+    "address": "0xf227494f11fdcfe35b49dcce220928c86c62a571",
+    "nameTag": "Balancer: Shareholder 20"
+  },
+  {
+    "address": "0xfa98226f05b1db1a454d0d4b0dd2efebb80e74d2",
+    "nameTag": "Balancer: Shareholder 21"
+  },
+  {
+    "address": "0x197fdc04553f243b17344534d5cc23fa7bf969f0",
+    "nameTag": "Balancer: Shareholder 22"
+  },
+  {
+    "address": "0x46692225bd0c88f901b88fd279a1d59e69e23a3b",
+    "nameTag": "Balancer: Shareholder 23"
+  },
+  {
+    "address": "0x4f21734ad1c41affc712da0ed4a43edd1fc9219b",
+    "nameTag": "Balancer: Shareholder 24"
+  },
+  {
+    "address": "0x5d0ce4389bcb2975c80de0c996ad532eb85ba3bc",
+    "nameTag": "Balancer: Shareholder 25"
+  },
+  {
+    "address": "0x5fa9ebc0d504429509deccb5c9d2147b4ff8cd26",
+    "nameTag": "Balancer: Shareholder 26"
+  },
+  {
+    "address": "0x7b556f4405120d270a0321ab55cd35b5957cf519",
+    "nameTag": "Balancer: Shareholder 27"
+  },
+  {
+    "address": "0xb24247d8b7681a2d419ebb8a2796ad385ceac728",
+    "nameTag": "Balancer: Shareholder 28"
+  },
+  {
+    "address": "0xb96d57a1d9876913afc1ec2f335f610178893553",
+    "nameTag": "Balancer: Shareholder 29"
+  },
+  {
+    "address": "0x06808e6d257e06236bfe1db74fd62c1f582806af",
+    "nameTag": "Balancer: Shareholder 3"
+  },
+  {
+    "address": "0xc82c28a1478de97dc06438690ae19798951b837e",
+    "nameTag": "Balancer: Shareholder 30"
+  },
+  {
+    "address": "0xc8a59ba261f36dd2d1d27c0337bd4e328f004563",
+    "nameTag": "Balancer: Shareholder 31"
+  },
+  {
+    "address": "0xdd14f3b17c08f9183d5390c31280bbb321491bda",
+    "nameTag": "Balancer: Shareholder 32"
+  },
+  {
+    "address": "0xe1f385da68f138aec8bc5af65ffa39960e34cac7",
+    "nameTag": "Balancer: Shareholder 33"
+  },
+  {
+    "address": "0xef3cb1d826a8940f526b45264be7f47c99770cc2",
+    "nameTag": "Balancer: Shareholder 34"
+  },
+  {
+    "address": "0xf01e2b33cb2eb0ff45628acebabb5f6daac3849d",
+    "nameTag": "Balancer: Shareholder 35"
+  },
+  {
+    "address": "0x2509dc0b4d696a2261d47307a017f88f83295029",
+    "nameTag": "Balancer: Shareholder 36"
+  },
+  {
+    "address": "0xfac58bcb27dabe2077aa807fc47b91f6646d4b90",
+    "nameTag": "Balancer: Shareholder 37"
+  },
+  {
+    "address": "0x000844e0f9f187569d2e8b49b8260fd4a24328fa",
+    "nameTag": "Balancer: Shareholder 38"
+  },
+  {
+    "address": "0x40672889535566711346829a2dfe16e3d060b8be",
+    "nameTag": "Balancer: Shareholder 39"
+  },
+  {
+    "address": "0x1090cdfd5e7aac76248665d530b0a63d4da3f9a5",
+    "nameTag": "Balancer: Shareholder 4"
+  },
+  {
+    "address": "0x4279ffe314dbf5d8fcced919235a72003f871f14",
+    "nameTag": "Balancer: Shareholder 40"
+  },
+  {
+    "address": "0x4501042eb39ae9185919f94533df5324d8232be5",
+    "nameTag": "Balancer: Shareholder 41"
+  },
+  {
+    "address": "0x97ff8a30118bbd80c219bf1f8d5ae8c6a71a1dcf",
+    "nameTag": "Balancer: Shareholder 42"
+  },
+  {
+    "address": "0xd4d8583fdb310107dc6f936db23b2d0142139ab8",
+    "nameTag": "Balancer: Shareholder 43"
+  },
+  {
+    "address": "0xe2c1c3fd3e5d67473dbe01fc9cf8f73624f778bf",
+    "nameTag": "Balancer: Shareholder 44"
+  },
+  {
+    "address": "0xef287b8ad0ead84a6c7007ea56c6d46fd06af1a0",
+    "nameTag": "Balancer: Shareholder 45"
+  },
+  {
+    "address": "0xf0bc36fa47a052b92da4f50bd042d9e047192a65",
+    "nameTag": "Balancer: Shareholder 46"
+  },
+  {
+    "address": "0xd4b46b14604f8ca35c8e80e497a3f22b85752149",
+    "nameTag": "Balancer: Shareholder 47"
+  },
+  {
+    "address": "0x2da40d78e7b3af22bbd672a8f3146682faec9641",
+    "nameTag": "Balancer: Shareholder 48"
+  },
+  {
+    "address": "0x42967fe8f5a4fc9afb31558378b77d61cb8ce56a",
+    "nameTag": "Balancer: Shareholder 49"
+  },
+  {
+    "address": "0x1542326f181340ea035687c604f2c99803c62c32",
+    "nameTag": "Balancer: Shareholder 5"
+  },
+  {
+    "address": "0x10780f38d60c2ff38137ff17d114b453cd460bf4",
+    "nameTag": "Balancer: Shareholder 50"
+  },
+  {
+    "address": "0xcf8bcac27f0b7a32fd9ec07b81cd2cf4d14e32a1",
+    "nameTag": "Balancer: Shareholder 51"
+  },
+  {
+    "address": "0x1e26fe447505d58c35c7fbce2f197099c58a06a4",
+    "nameTag": "Balancer: Shareholder 6"
+  },
+  {
+    "address": "0x3650cde7403d45f09e34f2d3704ad8e1c02b5c58",
+    "nameTag": "Balancer: Shareholder 7"
+  },
+  {
+    "address": "0x41431b29eca702002a779c8b7f6f9364774c9621",
+    "nameTag": "Balancer: Shareholder 8"
+  },
+  {
+    "address": "0x4d34c08f9bed000df0fdee895fceca5373b39daf",
+    "nameTag": "Balancer: Shareholder 9"
+  },
+  {
     "address": "0x8ee78e0f644643f943c621341009b0d9e6b173d2",
     "nameTag": "Balancer: Show/ETH 2.17/97.83"
   },
@@ -9190,6 +9470,14 @@
   {
     "address": "0x6f03e12cf846989a8b795c9fdc6ed7e406503d5b",
     "nameTag": "Balancer: sLTC/pLTC 50/50"
+  },
+  {
+    "address": "0xed52d8e202401645edad1c0aa21e872498ce47d0",
+    "nameTag": "Balancer: Smart Pool Factory"
+  },
+  {
+    "address": "0xa3f9145cb0b50d907930840bb2dcff4146df8ab4",
+    "nameTag": "Balancer: Smart Pool Manager"
   },
   {
     "address": "0x1bbbf2704f905d9821a336aa2eadf27f483eb763",
@@ -9586,6 +9874,10 @@
   {
     "address": "0x076a61995653c2a4b95bc13da80c6eb1aedef23d",
     "nameTag": "Balancer: tDAO/tusd 66.67/33.33"
+  },
+  {
+    "address": "0xcdcebf1f28678eb4a1478403ba7f34c94f7ddbc5",
+    "nameTag": "Balancer: Team"
   },
   {
     "address": "0x6cb5c5cb789fae62ce5ce280e1fbc5dd3bbdad81",
@@ -10474,6 +10766,10 @@
   {
     "address": "0x6ad69f29454114a2b883cda1e4cdb34f9d4f0023",
     "nameTag": "Balancer: VALUE/SUSAFE 97/3"
+  },
+  {
+    "address": "0xba12222222228d8ba445958a75a0704d566bf2c8",
+    "nameTag": "Balancer: Vault"
   },
   {
     "address": "0x095757776565bb611013d768fc53a78aec3731a6",

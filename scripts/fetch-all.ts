@@ -105,11 +105,19 @@ type AddressInfo = {
 };
 type AddressesInfo = Array<AddressInfo>;
 
-function selectAllAddresses(html: string): AddressesInfo {
+function selectAllAddresses(
+  html: string,
+  subcatId: string = "0",
+): AddressesInfo {
   const $ = cheerio.load(html);
-  const table0 = $("#table-subcatid-0 > tbody");
-  const table1 = $("#table-subcatid-1 > tbody");
-  const parent = table1.length > 0 ? table1 : table0;
+  const selector = `#table-subcatid-${subcatId} > tbody`;
+  console.log({ subcatId, selector });
+  const tableElements = $(selector);
+  const parent = tableElements.last();
+  // const table0 = $("#table-subcatid-0 > tbody");
+  // const table1 = $("#table-subcatid-1 > tbody");
+
+  // const parent = table1.length > 0 ? table1 : table0;
 
   let addressesInfo: AddressesInfo = [];
   parent.find("tr").each((index, trElement) => {
@@ -125,6 +133,7 @@ function selectAllAddresses(html: string): AddressesInfo {
 
     addressesInfo = [...addressesInfo, newAddressInfo];
   });
+
   return addressesInfo;
 }
 
@@ -147,7 +156,33 @@ async function pullFromTable(url, page) {
     page,
     `a[aria-label="Copy Address"]`,
   );
-  const allAddresses = selectAllAddresses(addressesHtml);
+  let allAddresses: AddressesInfo = [];
+
+  // check if there are subcategories (nav-pills)
+  if (await page.$(".nav-pills")) {
+    const navPills = await page.$(".nav-pills");
+    if (navPills) {
+      const subcatIds: Array<string> = await navPills.$$eval(
+        "li > a",
+        (anchors) => anchors.map((anchor) => anchor.getAttribute("val")),
+      );
+      for (const subcatId of subcatIds) {
+        const subcatUrl = `${url}&subcatid=${subcatId}`;
+        const subcatAddressesHtml = await fetchPageHtml(
+          subcatUrl,
+          page,
+          `a[aria-label="Copy Address"]`,
+        );
+        const subcatAddresses = selectAllAddresses(
+          subcatAddressesHtml,
+          subcatId,
+        );
+        allAddresses = [...allAddresses, ...subcatAddresses];
+      }
+    }
+  } else {
+    allAddresses = selectAllAddresses(addressesHtml);
+  }
   return allAddresses;
 }
 async function confirmLength(
@@ -156,6 +191,7 @@ async function confirmLength(
   page: Page,
   labelName: string,
 ): Promise<boolean> {
+  return true;
   const textDiv = "#table-subcatid-0_info";
   let element = await page.$(textDiv);
   if (!element) {

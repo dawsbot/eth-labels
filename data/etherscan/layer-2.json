@@ -1,11 +1,75 @@
 [
   {
+    "address": "0x58772d1a8415cc377ed678ea86aaa2a0c8d05125",
+    "nameTag": ""
+  },
+  {
+    "address": "0xb8563ad5af1f79dd04937be8b572318c8e6f43ac",
+    "nameTag": ""
+  },
+  {
+    "address": "0x96e471b5945373de238963b4e032d3574be4d195",
+    "nameTag": "0xHabitat: Rollup Bridge"
+  },
+  {
+    "address": "0x71d78dc7ccc0e037e12de1e50f5470903ce37148",
+    "nameTag": "Arbitrum Nova: Core Proxy Admin"
+  },
+  {
+    "address": "0x6ad1dc4ab5475d9f8cd10118c9d28b06f0c8a2d9",
+    "nameTag": "Arbitrum One: Challenge"
+  },
+  {
+    "address": "0xcee284f754e854890e311e3280b767f80797180d",
+    "nameTag": "Arbitrum One: L1 Arb - Custom Gateway"
+  },
+  {
+    "address": "0xd3b5b60020504bc3489d6949d545893982ba3011",
+    "nameTag": "Arbitrum One: L1 DAI Gateway"
+  },
+  {
+    "address": "0xa3a7b6f88361f48403514059f1f16c8e78d60eec",
+    "nameTag": "Arbitrum One: L1 ERC20 Gateway"
+  },
+  {
+    "address": "0x72ce9c846789fdb6fc1f34ac4ad25dd9ef7031ef",
+    "nameTag": "Arbitrum One: L1 Gateway Router"
+  },
+  {
+    "address": "0x4812be53be02b9f38063cf55fef0a19d2ba8bb3a",
+    "nameTag": "Arbitrum One: One Step Proof"
+  },
+  {
+    "address": "0x2df287a3b2fd0916c0b3d4882201ff360acd6ec3",
+    "nameTag": "Arbitrum One: One Step Proof 2"
+  },
+  {
+    "address": "0xce81e7d009e53c02242b724819df1869da5e9fd8",
+    "nameTag": "Arbitrum One: One Step Proof Hash"
+  },
+  {
+    "address": "0xd92023e9d9911199a6711321d1277285e6d4e2db",
+    "nameTag": "Arbitrum One: Wrapped Ether Gateway"
+  },
+  {
     "address": "0x2f06e43d850ac75926fa2866e40139475b58cb16",
     "nameTag": "Arbitrum: Bridge 2"
   },
   {
     "address": "0x84efa170dc6d521495d7942e372b8e4b2fb918ec",
     "nameTag": "Arbitrum: Bridge Utils"
+  },
+  {
+    "address": "0x1e13bb8cf5f44c4c7fc585797336eaae3935113c",
+    "nameTag": "Arbitrum: Challenge Factory"
+  },
+  {
+    "address": "0x554723262467f125ac9e1cdfa9ce15cc53822dbd",
+    "nameTag": "Arbitrum: Core Proxy Admin"
+  },
+  {
+    "address": "0x4dbd4fc535ac27206064b68ffcf827b0a60bab3f",
+    "nameTag": "Arbitrum: Delayed Inbox"
   },
   {
     "address": "0x048cc108763de75e080ad717bd284003aa49ea15",
@@ -24,8 +88,20 @@
     "nameTag": "Arbitrum: L1 Gateway Router 2"
   },
   {
+    "address": "0x27a6cf5e8350b44273fb10f98d78525c5dad6d8a",
+    "nameTag": "Arbitrum: Node Factory"
+  },
+  {
+    "address": "0x667e23abd27e623c11d4cc00ca3ec4d0bd63337a",
+    "nameTag": "Arbitrum: Outbox"
+  },
+  {
     "address": "0xb91f4be773f5a1b9b0dc1085663b3535a6ebeee2",
     "nameTag": "Arbitrum: Outbox 2"
+  },
+  {
+    "address": "0x14797f5432f699cb4d4db04df599b74952d78d7b",
+    "nameTag": "Arbitrum: Outbox Entry"
   },
   {
     "address": "0x171a2624302775ef943f4f62e76fd22a6813d7c4",
@@ -40,8 +116,16 @@
     "nameTag": "Arbitrum: Rollup 2"
   },
   {
+    "address": "0xc8c3194ed3be7b2393fefe811a2cc39297442c0b",
+    "nameTag": "Arbitrum: Rollup Event Bridge"
+  },
+  {
     "address": "0xb872ea300edba3872873fa1aa33db897c4d2cb66",
     "nameTag": "Arbitrum: Rollup Event Bridge 2"
+  },
+  {
+    "address": "0x1c479675ad559dc151f6ec7ed3fbf8cee79582b6",
+    "nameTag": "Arbitrum: Sequencer Inbox"
   },
   {
     "address": "0x9685e7281fb1507b6f141758d80b08752faf0c43",
@@ -54,6 +138,22 @@
   {
     "address": "0xe17d8fa6bc62590f840c5dd35f300f77d55cc178",
     "nameTag": "Arbitrum: Validator Wallet Creator"
+  },
+  {
+    "address": "0x41a57f5581adf11b25f3edb7c1db19f18bb76734",
+    "nameTag": "Aztec: Fee Distributor"
+  },
+  {
+    "address": "0x737901bea3eeb88459df9ef1be8ff3ae1b42a2ba",
+    "nameTag": "Aztec: Private Rollup Bridge"
+  },
+  {
+    "address": "0x3937f965e824fe4e7885b8662669821966d3f293",
+    "nameTag": "Aztec: Turbo Verifier 2"
+  },
+  {
+    "address": "0xdc1664458d2f0b6090bea60a8793a4e66c2f1c00",
+    "nameTag": "Boba Network: Gateway"
   },
   {
     "address": "0x2742a152be5032dafbc885ba1801ffbc2345de7b",
@@ -72,8 +172,136 @@
     "nameTag": "Deversifi: Merkle Statement"
   },
   {
+    "address": "0x2c0df87e073755139101b35c0a51e065291cc2d3",
+    "nameTag": "dydx: Bridge"
+  },
+  {
+    "address": "0xf6b83ccadeee478fc372af6ca7069b14fbc5e1b1",
+    "nameTag": "dydx: FRI Statement"
+  },
+  {
+    "address": "0x8129b737912e17212c8693b781928f5d0303390a",
+    "nameTag": "dYdX: L2 On-Chain Operator"
+  },
+  {
+    "address": "0xd54f502e184b6b739d7d27a6410a67dc462d69c8",
+    "nameTag": "dYdX: L2 Perpetual Smart Contract"
+  },
+  {
     "address": "0xefbcce4659db72ec6897f46783303708cf9acef8",
     "nameTag": "dYdX: Memory Page Fact Registry"
+  },
+  {
+    "address": "0x0d62bac5c346c78dc1b27107cabc5f4de057a830",
+    "nameTag": "dYdX: Merkle Statement"
+  },
+  {
+    "address": "0x6880f6fd960d1581c2730a451a22eed1081cfd72",
+    "nameTag": "Fuel: Bridge"
+  },
+  {
+    "address": "0x75ace7a086ea0fb1a79e43cc6331ad053d8c67cb",
+    "nameTag": "Gluon Network"
+  },
+  {
+    "address": "0x563052914fd973a2305763269a106a7b0b6d50cc",
+    "nameTag": "Gluon Network: Derivatives Data"
+  },
+  {
+    "address": "0xdfbfe895e07e5115773cb9631cb2148114589cac",
+    "nameTag": "Gluon Network: Derivatives Logic"
+  },
+  {
+    "address": "0xda88efa53c85afa30564bb651a2e76b99a232082",
+    "nameTag": "Gluon Network: Legacy Tokens Extension"
+  },
+  {
+    "address": "0x0fc25c7931679b838209c484d49df0cb9e633c41",
+    "nameTag": "Gluon Network: Registry Data"
+  },
+  {
+    "address": "0x385827ac8d1ac7b2960d4abc303c843d9f87bb0c",
+    "nameTag": "Gluon Network: Registry Logic"
+  },
+  {
+    "address": "0x0d283d685f0a741c463846176e4c8eff90d3f9ec",
+    "nameTag": "Gluon Network: Spot Data"
+  },
+  {
+    "address": "0x2d627ff93d32f5febb04d68409a889895b4aef2d",
+    "nameTag": "Gluon Network: Spot Logic"
+  },
+  {
+    "address": "0xab3ac436d66cbeedc734ed2c1562c3a213c9bc77",
+    "nameTag": "Gluon Network: Stake Data"
+  },
+  {
+    "address": "0x84e34fd82fc368f1a072075114adc4b552a7a1f4",
+    "nameTag": "Gluon Network: Stake Logic"
+  },
+  {
+    "address": "0x5fdcca53617f4d2b9134b29090c87d01058e27e9",
+    "nameTag": "Immutable X: Bridge"
+  },
+  {
+    "address": "0x16ba0f221664a5189cf2c1a7af0d3abfc70aa295",
+    "nameTag": "ImmutableX: Committee"
+  },
+  {
+    "address": "0xe74999fbc71455462c8143b56797d3bb84c1064b",
+    "nameTag": "ImmutableX: FRI Statement"
+  },
+  {
+    "address": "0x45769d52d47e9cbfac9a2df68c2051adb0630f17",
+    "nameTag": "ImmutableX: Generic Proving Service Verifier"
+  },
+  {
+    "address": "0x076cf2113b6eed19883a92454c473998fc8479e5",
+    "nameTag": "ImmutableX: Memory Fact Registry"
+  },
+  {
+    "address": "0x26ec188f555f0c491083d280cf8162e9d5e0d386",
+    "nameTag": "ImmutableX: Merkle Statement"
+  },
+  {
+    "address": "0x50002cdfe7ccb0c41f519c6eb0653158d11cd907",
+    "nameTag": "Layer Zero: Aptos Bridge"
+  },
+  {
+    "address": "0xfe81ab6930a30bdae731fe7b6c6abfbeafc014a8",
+    "nameTag": "Layer2Finance: Registry"
+  },
+  {
+    "address": "0xf86fd6735f88d5b6aa709b357ad5be22cedf1a05",
+    "nameTag": "Layer2Finance: Rollup Chain"
+  },
+  {
+    "address": "0x5d3c0f4ca5ee99f8e8f59ff9a5fab04f6a7e007f",
+    "nameTag": "Layer2Finance: Transition Disputor"
+  },
+  {
+    "address": "0x39b9bf169a7e225ba037c443a40460c77438ea14",
+    "nameTag": "Loopring: Agent Registry"
+  },
+  {
+    "address": "0x6150343e0f43a17519c0327c41edd9ebe88d01ef",
+    "nameTag": "Loopring: Block Verifier"
+  },
+  {
+    "address": "0x0baba1ad5be3a5c0a66e7ac838a129bf948f1ea4",
+    "nameTag": "Loopring: Exchange v2"
+  },
+  {
+    "address": "0x674bdf20a0f284d710bc40872100128e2d66bd3f",
+    "nameTag": "Loopring: Exchange v2 Deposit"
+  },
+  {
+    "address": "0xec3cc6cf0252565b56fc7ac396017df5b9b78a31",
+    "nameTag": "Loopring: Exchange v2 Fast Withdrawal"
+  },
+  {
+    "address": "0xe56d6ccab6551932c0356e4e8d5daf0630920c71",
+    "nameTag": "Loopring: Loopring V3"
   },
   {
     "address": "0xbc1bcc29edf605095bf4fe7a953b7c115ecc8cad",
@@ -82,6 +310,34 @@
   {
     "address": "0xcc8d82f6ba952966e63001c7b320eef2ae729099",
     "nameTag": "nahmii: Client Fund"
+  },
+  {
+    "address": "0x070cb1270a4b2ba53c81cef89d0fd584ed4f430b",
+    "nameTag": "OMG Network V1: ERC-20 Vault"
+  },
+  {
+    "address": "0x3eed23ea148d356a72ca695dbce2fceb40a32ce0",
+    "nameTag": "OMG Network V1: ETH Vault"
+  },
+  {
+    "address": "0x48d7a6bbc428bca019a560cf3e8ea5364395aad3",
+    "nameTag": "OMG Network V1: Exit Game"
+  },
+  {
+    "address": "0x0d4c1222f5e839a911e2053860e45f18921d72ac",
+    "nameTag": "OMG Network V1: Plasma Framework"
+  },
+  {
+    "address": "0x649f37203c365de759c8fc8ca35bebf5448f70be",
+    "nameTag": "OMG Network: ETH Deposit Verifier"
+  },
+  {
+    "address": "0x5e4e65926ba27467555eb562121fac00d24e9dd2",
+    "nameTag": "Optimism: Canonical Transaction Chain"
+  },
+  {
+    "address": "0x10e6593cdda8c58a1d0f14c5164b376352a55f2f",
+    "nameTag": "Optimism: DAI Bridge"
   },
   {
     "address": "0x042065416c5c665dc196076745326af3cd840d15",
@@ -148,8 +404,60 @@
     "nameTag": "Optimism: Proxy OVM L1 Cross Domain Messenger"
   },
   {
+    "address": "0xbe5dab4a2e9cd0f27300db4ab94bee3a233aeb19",
+    "nameTag": "Optimism: State Commitment Chain"
+  },
+  {
+    "address": "0x401f6c983ea34274ec46f84d70b31c151321188b",
+    "nameTag": "Polygon (Matic): Plasma Bridge"
+  },
+  {
+    "address": "0x9d62cdc389caab35ada830a7c6ae847d5e8512c6",
+    "nameTag": "Polygon Hermez: Auction Protocol Implementation"
+  },
+  {
+    "address": "0x6d85d79d69b7e190e671c16e8611997152bd3e95",
+    "nameTag": "Polygon Hermez: Hermez"
+  },
+  {
+    "address": "0x392361427ef5e17b69cfdd1294f31ab555c86124",
+    "nameTag": "Polygon Hermez: Withdrawal"
+  },
+  {
+    "address": "0xa68d85df56e733a06443306a095646317b5fa633",
+    "nameTag": "Polygon: Hermez"
+  },
+  {
+    "address": "0x5d22045daceab03b158031ecb7d9d06fad24609b",
+    "nameTag": "Rhino.fi: Bridge"
+  },
+  {
     "address": "0x28780349a33eee56bb92241baab8095449e24306",
     "nameTag": "Rhino.fi: Committee"
+  },
+  {
+    "address": "0xf5c9f957705bea56a7e806943f98f7777b995826",
+    "nameTag": "Sorare: L2 Bridge"
+  },
+  {
+    "address": "0x045e507925d2e05d114534d0810a1abd94aca8d6",
+    "nameTag": "Synthetix: L2 Bridge"
+  },
+  {
+    "address": "0xcd9d4988c0ae61887b075ba77f08cbfad2b65068",
+    "nameTag": "Synthetix: L2 Deposit"
+  },
+  {
+    "address": "0x5fd79d46eba7f351fe49bff9e87cdea6c821ef9f",
+    "nameTag": "Synthetix: L2 Deposit Escrow"
+  },
+  {
+    "address": "0x39ea01a0298c315d149a490e34b59dbf2ec7e48f",
+    "nameTag": "Synthetix: Synthetix Bridge To Optimism"
+  },
+  {
+    "address": "0x8eca806aecc86ce90da803b080ca4e3a9b8097ad",
+    "nameTag": "ZKSwap"
   },
   {
     "address": "0x86e527bc3c43e6ba3eff3a8cad54a7ed09cd8e8b",
@@ -176,12 +484,40 @@
     "nameTag": "ZKSwap: Upgrade Gatekeeper"
   },
   {
+    "address": "0x6de5bdc580f55bc9dacafcb67b91674040a247e3",
+    "nameTag": "ZKSwap: V2 Bridge"
+  },
+  {
     "address": "0x2f70f6d864f8f597a0ef57addf24323dfab5797f",
     "nameTag": "ZKSwap: ZKSync"
   },
   {
+    "address": "0xabea9132b05a70803a4e85094fd0e1800777fbef",
+    "nameTag": "zkSync"
+  },
+  {
+    "address": "0x32400084c286cf3e17e7b677ea9583e60a000324",
+    "nameTag": "zkSync Era: Diamond Proxy"
+  },
+  {
+    "address": "0x3db52ce065f728011ac6732222270b3f2360d919",
+    "nameTag": "zkSync Era: Validator Timelock"
+  },
+  {
     "address": "0x9a97008cccbdec3413f9304602427e66895996a0",
     "nameTag": "zkSync: Governance"
+  },
+  {
+    "address": "0x18c208921f7a741510a7fc0cfa51e941735dae54",
+    "nameTag": "zkSync: L2 Operator"
+  },
+  {
+    "address": "0x01c3a1a6890a146ac187a019f9863b3ab2bff91e",
+    "nameTag": "zkSync: L2 Operator V1"
+  },
+  {
+    "address": "0xda7357bbce5e8c616bc7b0c3c86f0c71c5b4eabb",
+    "nameTag": "zkSync: Old L2 Operator"
   },
   {
     "address": "0x5290e9582b4fb706eadf87bb1c129e897e04d06d",

@@ -4,6 +4,10 @@
     "nameTag": "BitcoinSoV: BSOV Token"
   },
   {
+    "address": "0x6bff432b1d4982b8199bc01145b7e99c725b9196",
+    "nameTag": "BitcoinSoV: Deployer"
+  },
+  {
     "address": "0x19e6bf254abf5abc925ad72d32bac44c6c03d3a4",
     "nameTag": "BitcoinSoV: Time Lock Contract"
   },

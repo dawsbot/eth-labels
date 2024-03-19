@@ -36,6 +36,14 @@
     "nameTag": "Rari Capital: DAI Rari Pool Token"
   },
   {
+    "address": "0xdbda819b4166eddd54e4f98b48550bc43a3de2ad",
+    "nameTag": "Rari Capital: Deployer"
+  },
+  {
+    "address": "0xb8f02248d53f7edfa38e79263e743e9390f81942",
+    "nameTag": "Rari Capital: Deployer 2"
+  },
+  {
     "address": "0x3f4931a8e9d4cdf8f56e7e8a8cfe3bede0e43657",
     "nameTag": "Rari Capital: Ether Rari Pool Controller"
   },
@@ -108,12 +116,20 @@
     "nameTag": "Rari Capital: Nova Approval Escrow"
   },
   {
+    "address": "0xb5b64c2216a134f3731d66acace03c7e221afa2d",
+    "nameTag": "Rari Capital: Nova Execution Manager"
+  },
+  {
     "address": "0xd9f223a36c2e398b0886f945a7e556b41ef91a3c",
     "nameTag": "Rari Capital: Old REPT Fund Controller"
   },
   {
     "address": "0x6afe6c37bf75f80d512b9d89c19ec0b346b09a8d",
     "nameTag": "Rari Capital: Old RYPT Fund Controller"
+  },
+  {
+    "address": "0xa422890cbbe5eaa8f1c88590fbab7f319d7e24b6",
+    "nameTag": "Rari Capital: REPT Fund Controller"
   },
   {
     "address": "0xd6e194af3d9674b62d1b30ec676030c23961275e",
@@ -126,6 +142,10 @@
   {
     "address": "0xcda4770d65b4211364cb870ad6be19e7ef1d65f4",
     "nameTag": "Rari Capital: REPT Token"
+  },
+  {
+    "address": "0x5ea4a9a7592683bf0bc187d6da706c6c4770976f",
+    "nameTag": "Rari Capital: RGT Reserves"
   },
   {
     "address": "0xd291e7a03283640fdc51b121ac401383a46cc623",
@@ -148,6 +168,10 @@
     "nameTag": "Rari Capital: RSPT Fund Price Consumer"
   },
   {
+    "address": "0xe4dee94233dd4d7c2504744ee6d34f3875b3b439",
+    "nameTag": "Rari Capital: RSPT Fund Proxy"
+  },
+  {
     "address": "0x016bf078abcacb987f0589a6d3beadd4316922b0",
     "nameTag": "Rari Capital: RSPT Token"
   },
@@ -158,6 +182,10 @@
   {
     "address": "0x00815e0e9d118769542ce24be95f8e21c60e5561",
     "nameTag": "Rari Capital: RYPT Fund Price Consumer"
+  },
+  {
+    "address": "0x35ddefa2a30474e64314aaa7370abe14c042c6e8",
+    "nameTag": "Rari Capital: RYPT Fund Proxy"
   },
   {
     "address": "0x3baa6b7af0d72006d3ea770ca29100eb848559ae",

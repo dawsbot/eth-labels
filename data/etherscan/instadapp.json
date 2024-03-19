@@ -28,6 +28,14 @@
     "nameTag": "InstaDApp: Connectors"
   },
   {
+    "address": "0xb579d4f1546d51980499aa96a2e411be3e449197",
+    "nameTag": "InstaDApp: Deployer"
+  },
+  {
+    "address": "0x8aab375c1a880c9400371dabf5616d568eba2b47",
+    "nameTag": "InstaDApp: Deployer 2"
+  },
+  {
     "address": "0x2af7ea6cb911035f3eb1ed895cb6692c39ecba97",
     "nameTag": "InstaDApp: Event"
   },

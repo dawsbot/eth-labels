@@ -1,5 +1,9 @@
 [
   {
+    "address": "0xa38afc5c1e33f85b06d4b8c2b4312c1dc1054882",
+    "nameTag": "NEST Protocol: Deployer"
+  },
+  {
     "address": "0xc2cdf3457819a61720166d524f6e320c5451092c",
     "nameTag": "NEST Protocol: ETH Revenue Savings"
   },
@@ -20,6 +24,10 @@
     "nameTag": "NEST Protocol: Mining Pool"
   },
   {
+    "address": "0xcd6926193308d3b371fdd6a6219067e550000000",
+    "nameTag": "NEST Protocol: NEST Token"
+  },
+  {
     "address": "0x99bd363a144fb61feae863b182f1f200667a1879",
     "nameTag": "NEST Protocol: nToken Oracle"
   },
@@ -34,6 +42,14 @@
   {
     "address": "0x385111f23a00aed181b0774e6900c846c0336dd4",
     "nameTag": "NEST Protocol: nToken Oracle Auction"
+  },
+  {
+    "address": "0x4f391c202a906eed9e2b63fdd387f28e952782e2",
+    "nameTag": "NEST Protocol: Old Oracle"
+  },
+  {
+    "address": "0x607b80a3498f01f87b889486f4e7f82c98cf0584",
+    "nameTag": "NEST Protocol: Old Revenue Pool"
   },
   {
     "address": "0x43d99d54f14c64994fd9666beab6023b0069de20",

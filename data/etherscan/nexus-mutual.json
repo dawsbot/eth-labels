@@ -1,11 +1,59 @@
 [
   {
+    "address": "0xcafeaa5f9c401b7295890f309168bbb8173690a3",
+    "nameTag": "Nexus Mutual: Assessment"
+  },
+  {
+    "address": "0xdc2d359f59f6a26162972c3bd0cfbfd8c9ef43af",
+    "nameTag": "Nexus Mutual: Claims Data"
+  },
+  {
+    "address": "0x586b9b2f8010b284a0197f392156f1a7eb5e86e9",
+    "nameTag": "Nexus Mutual: Community Fund"
+  },
+  {
+    "address": "0xcafeac0ff5da0a2777d915531bfa6b29d282ee62",
+    "nameTag": "Nexus Mutual: Cover"
+  },
+  {
+    "address": "0xcafeac41b010299a9bec5308cce6afc2c4df8d39",
+    "nameTag": "Nexus Mutual: Cover Migrator"
+  },
+  {
+    "address": "0xcafeaca76be547f14d0220482667b42d8e7bc3eb",
+    "nameTag": "Nexus Mutual: Cover NFT"
+  },
+  {
+    "address": "0xcafea84e199c85e44f34cd75374188d33fb94b4b",
+    "nameTag": "Nexus Mutual: Cover Viewer"
+  },
+  {
+    "address": "0x1b541c2dc0653fd060e8320d2f763733ba8cffe3",
+    "nameTag": "Nexus Mutual: Deployer"
+  },
+  {
     "address": "0xfc64382c9ce89ba1c21692a68000366a35ff0336",
     "nameTag": "Nexus Mutual: Foundation"
   },
   {
+    "address": "0x089ab1536d032f54dfbc194ba47529a4351af1b5",
+    "nameTag": "Nexus Mutual: Gateway"
+  },
+  {
     "address": "0x4a5c681ddc32acc6cca51ac17e9d461e6be87900",
     "nameTag": "Nexus Mutual: Governance Proxy"
+  },
+  {
+    "address": "0xcafeac12fee6b65a710fa9299a98d65b4fde7a62",
+    "nameTag": "Nexus Mutual: Individual Claims"
+  },
+  {
+    "address": "0xcafea81b73dab8f42c5eca7d2e821a82660b6775",
+    "nameTag": "Nexus Mutual: Legacy Claim Proofs"
+  },
+  {
+    "address": "0xcafeadcacaa2cd81b3c54833d6896596d218bfab",
+    "nameTag": "Nexus Mutual: Legacy Claims Reward"
   },
   {
     "address": "0x01bfd82675dbcc7762c84019ca518e701c0cd07e",
@@ -16,8 +64,20 @@
     "nameTag": "Nexus Mutual: MCR"
   },
   {
+    "address": "0xcafea444db21dc06f34570185cf0014701c7d62e",
+    "nameTag": "Nexus Mutual: MCR V2"
+  },
+  {
     "address": "0x548bf2610c1f15ec6bb78914aa7f90c59a82f492",
     "nameTag": "Nexus Mutual: Member Roles"
+  },
+  {
+    "address": "0x055cc48f7968fd8640ef140610dd4038e1b03926",
+    "nameTag": "Nexus Mutual: Member Roles 2"
+  },
+  {
+    "address": "0xcafea86a02ab9f43198f1bdfcff35ce16dedfdfa",
+    "nameTag": "Nexus Mutual: Membership Proxy"
   },
   {
     "address": "0xd7c49cee7e9188cca6ad8ff264c1da2e69d4cf3b",
@@ -32,12 +92,28 @@
     "nameTag": "Nexus Mutual: Pool 2"
   },
   {
+    "address": "0xcafea112db32436c2390f5ec988f3adb96870627",
+    "nameTag": "Nexus Mutual: Pool V2"
+  },
+  {
     "address": "0x84edffa16bb0b9ab1163abb0a13ff0744c11272f",
     "nameTag": "Nexus Mutual: Pooled Staking Proxy"
   },
   {
+    "address": "0xcafeaf0a0672360941b7f0b6d015797292e842c6",
+    "nameTag": "Nexus Mutual: Price Feed Oracle"
+  },
+  {
+    "address": "0xcafeab02966fdc69ce5afdd532dd51466892e32b",
+    "nameTag": "Nexus Mutual: Products V1"
+  },
+  {
     "address": "0x6a313ff2a3e66db968ee3984bff178973e589322",
     "nameTag": "Nexus Mutual: Proposal Category"
+  },
+  {
+    "address": "0x888ea6ab349c854936b98586ce6a17e98bf254b2",
+    "nameTag": "Nexus Mutual: Proposal Category 2"
   },
   {
     "address": "0x9dae0663f252d05314b7352403fa9c16f16f25ee",
@@ -46,6 +122,26 @@
   {
     "address": "0x1776651f58a17a50098d31ba3c3cd259c1903f7a",
     "nameTag": "Nexus Mutual: Quotation Data"
+  },
+  {
+    "address": "0xcafea508a477d94c502c253a58239fb8f948e97f",
+    "nameTag": "Nexus Mutual: Staking NFT"
+  },
+  {
+    "address": "0xcafeafb97bf8831d95c0fc659b8eb3946b101cb3",
+    "nameTag": "Nexus Mutual: Staking Pool Factory"
+  },
+  {
+    "address": "0xcafea573fbd815b5f59e8049e71e554bde3477e4",
+    "nameTag": "Nexus Mutual: Staking Products"
+  },
+  {
+    "address": "0xcafea970135c07b07a3eca76c6c00aac849767b3",
+    "nameTag": "Nexus Mutual: Staking Viewer"
+  },
+  {
+    "address": "0xcafea5c050e74a21c11af78c927e17853153097d",
+    "nameTag": "Nexus Mutual: Swap Operator V2"
   },
   {
     "address": "0x80b72ce39b3d73c46b2b8b9ef3acbf300a0077e7",
@@ -62,5 +158,9 @@
   {
     "address": "0xdf50a17bf58dea5039b73683a51c4026f3c7224e",
     "nameTag": "Nexus Mutual: Token Functions"
+  },
+  {
+    "address": "0xcafeac831dc5ca0d7ef467953b7822d2f44c8f83",
+    "nameTag": "Nexus Mutual: Yield Token Incidents"
   }
 ]

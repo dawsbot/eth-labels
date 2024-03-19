@@ -1,5 +1,9 @@
 [
   {
+    "address": "0xc67810de5816917f1dbc618c084b82441921f55f",
+    "nameTag": "LUKSO: LYXe Genesis Funds"
+  },
+  {
     "address": "0x0000000000000000000000000000000000000000",
     "nameTag": "Null: 0x000...000"
   },

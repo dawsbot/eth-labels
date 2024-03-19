@@ -28,6 +28,14 @@
     "nameTag": "DeFi Saver: MCD Subscriptions v2"
   },
   {
+    "address": "0x5e8f91ceb8a4b361cd4f2ec14278e63ea0c3ba3f",
+    "nameTag": "DeFi Saver: Old Automation Bot"
+  },
+  {
+    "address": "0xe8bfddae8f041e34b7688057cb761e7d08513fd6",
+    "nameTag": "DeFi Saver: Old Automation Bot 2"
+  },
+  {
     "address": "0x0528a32fda5bedf89ba9ad67296db83c9452f28c",
     "nameTag": "DeFi Saver: Owner"
   },

@@ -60,8 +60,36 @@
     "nameTag": "ENS: Offchain Resolver"
   },
   {
+    "address": "0xfac7bea255a6990f749363002136af6556b31e04",
+    "nameTag": "ENS: Old ENS Token"
+  },
+  {
     "address": "0x283af0b28c62c092c9727f1ee09c02ca627eb7f5",
     "nameTag": "ENS: Old ETH Registrar Controller"
+  },
+  {
+    "address": "0xf0ad5cad05e10572efceb849f6ff0c68f9700455",
+    "nameTag": "ENS: Old ETH Registrar Controller 1"
+  },
+  {
+    "address": "0xb22c1c159d12461ea124b0deb4b5b93020e6ad16",
+    "nameTag": "ENS: Old ETH Registrar Controller 2"
+  },
+  {
+    "address": "0x1da022710df5002339274aadee8d58218e9d6ab5",
+    "nameTag": "ENS: Old Public Resolver 1"
+  },
+  {
+    "address": "0x226159d592e2b063810a10ebf6dcbada94ed68b8",
+    "nameTag": "ENS: Old Public Resolver 2"
+  },
+  {
+    "address": "0x6090a6e47849629b7245dfa1ca21d94cd15878ef",
+    "nameTag": "ENS: Old Registrar"
+  },
+  {
+    "address": "0x9062c0a6dbd6108336bcbe4593a3d1ce05512069",
+    "nameTag": "ENS: Old Reverse Registrar"
   },
   {
     "address": "0x084b1c3c81545d370f3634392de611caabff8148",

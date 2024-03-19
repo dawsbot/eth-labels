@@ -20,6 +20,10 @@
     "nameTag": "ForTube: CoreUtils"
   },
   {
+    "address": "0x00ad504d2c02e0ddbf660bc35926712d0f0fea9e",
+    "nameTag": "ForTube: Deployer"
+  },
+  {
     "address": "0x1721460a888e7a6698909e61bd65f07865064f01",
     "nameTag": "ForTube: NameGen"
   },
