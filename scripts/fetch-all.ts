@@ -191,7 +191,6 @@ async function confirmLength(
   page: Page,
   labelName: string,
 ): Promise<boolean> {
-  return true;
   const textDiv = "#table-subcatid-0_info";
   let element = await page.$(textDiv);
   if (!element) {
@@ -250,64 +249,50 @@ function sortAllAdresses(allAddresses: AddressesInfo) {
   });
   return sortedAddresses;
 }
-function clearErrorFile() {
-  fs.writeFileSync(
-    path.join(__dirname, "..", "data", "error", "failed-list.txt"),
-    "",
-  );
+
+async function fetchEtherscan(page) {
+  const sleepRange = 1 / 2;
+
+  if (!fs.existsSync(path.join(__dirname, "..", "data", "etherscan"))) {
+    fs.mkdirSync(path.join(__dirname, "..", "data", "etherscan"));
+  }
+
+  await signInToEtherscan(page);
+  const allLabels = await fetchAllLabels(page);
+  for (const url of allLabels.accounts) {
+    await sleep(Math.random() * (sleepRange * 1000) + 500);
+    const allAddresses = await pullFromTable(url, page);
+    const labelName = url.split("/").pop()?.split("?")[0];
+    if (allAddresses.length > 0) {
+      const sortedAddresses = sortAllAdresses(allAddresses);
+      fs.writeFileSync(
+        path.join(__dirname, "..", "data", "etherscan", `${labelName}.json`),
+        JSON.stringify(sortedAddresses, null, 2),
+      );
+    }
+    // const lengthCheck = (await confirmLength(
+    //   allAddresses.length,
+    //   url,
+    //   page,
+    //   z.string().parse(labelName),
+    // ))
+    //   ? "PASSED"
+    //   : "FAILED";
+
+    console.dir({
+      url,
+      allAddresses,
+      length: allAddresses.length,
+      // lengthCheck: lengthCheck,
+    });
+  }
 }
 
 (async () => {
   try {
-    const sleepRange = 1 / 2; //max seconds to wait before fetching next page
-
     const { browser, page } = await openBrowser();
-    await signInToEtherscan(page);
-    const allLabels = await fetchAllLabels(page);
-
-    // clear failed-list.txt
-    clearErrorFile();
-
-    for (const url of allLabels.accounts) {
-      await sleep(Math.random() * (sleepRange * 1000) + 500);
-      const allAddresses = await pullFromTable(url, page);
-      const labelName = url.split("/").pop()?.split("?")[0];
-      if (allAddresses.length > 0) {
-        const sortedAddresses = sortAllAdresses(allAddresses);
-        fs.writeFileSync(
-          path.join(__dirname, "..", "data", "etherscan", `${labelName}.json`),
-          JSON.stringify(sortedAddresses, null, 2),
-        );
-      }
-      const lengthCheck = (await confirmLength(
-        allAddresses.length,
-        url,
-        page,
-        z.string().parse(labelName),
-      ))
-        ? "PASSED"
-        : "FAILED";
-
-      console.dir({
-        url,
-        allAddresses,
-        length: allAddresses.length,
-        lengthCheck: lengthCheck,
-      });
-      if (
-        !(await confirmLength(
-          allAddresses.length,
-          url,
-          page,
-          z.string().parse(labelName),
-        ))
-      ) {
-        // throw new Error(`length check failed for ${labelName}`);
-        await sleep(600000);
-      }
-    }
+    await fetchEtherscan(page);
     await closeBrowser(browser);
-    printFailedSummary();
   } catch (error) {
     parseError(error);
     process.exit(1);
