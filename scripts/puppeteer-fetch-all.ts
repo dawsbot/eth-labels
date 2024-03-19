@@ -103,7 +103,7 @@ type AddressInfo = {
   address: string;
   nameTag: string;
 };
-type AddressesInfo = ReadonlyArray<AddressInfo>;
+type AddressesInfo = Array<AddressInfo>;
 
 function selectAllAddresses(html: string): AddressesInfo {
   const $ = cheerio.load(html);
@@ -162,14 +162,9 @@ async function confirmLength(
     element = await page.$("#table-subcatid-1_info");
   }
   if (!element) {
-    // fs.appendFileSync(
-    //   path.join(__dirname, "..", "data","error", `failed-list.txt`),
-    //   `${labelName.padEnd(25)} --> UNKNOWN got: ${length.toString()}\n`
-    // );
     return 0 == length;
   }
   const text = await element.innerText();
-  // console.log(text.split(" ")[3], length.toString(), (text.split(" ")[3].replace(",","")==length.toString()), (text.split(" ")[3]===length.toString()))
   if (text.split(" ")[3].replace(",", "") != length.toString()) {
     fs.appendFileSync(
       path.join(__dirname, "..", "data", "error", `failed-list.txt`),
@@ -196,27 +191,65 @@ function printFailedSummary() {
   );
 }
 
+function sortAllAdresses(allAddresses: AddressesInfo) {
+  const sortedAddresses = allAddresses
+    .sort((a: AddressInfo, b: AddressInfo) => {
+      if (a.nameTag === "") {
+        return -1;
+      }
+      if (b.nameTag === "") {
+        return 1;
+      }
+      const addressA = a.address.toLowerCase();
+      const addressB = b.address.toLowerCase();
+      if (addressA < addressB) {
+        return -1;
+      }
+      if (addressA > addressB) {
+        return 1;
+      }
+      return 0;
+    })
+    .sort((a: AddressInfo, b: AddressInfo) => {
+      const nameTagA = a.nameTag.toLowerCase();
+      const nameTagB = b.nameTag.toLowerCase();
+      if (nameTagA < nameTagB) {
+        return -1;
+      }
+      if (nameTagA > nameTagB) {
+        return 1;
+      }
+      return 0;
+    });
+  return sortedAddresses;
+}
+function clearErrorFile() {
+  fs.writeFileSync(
+    path.join(__dirname, "..", "data", "error", "failed-list.txt"),
+    "",
+  );
+}
+
 (async () => {
   try {
+    const sleepRange = 1 / 2; //max seconds to wait before fetching next page
+
     const { browser, page } = await openBrowser();
     await signInToEtherscan(page);
     const allLabels = await fetchAllLabels(page);
-    const sleepRange = 1 / 2; //max seconds to wait before fetching next page
 
     // clear failed-list.txt
-    fs.writeFileSync(
-      path.join(__dirname, "..", "data", "error", "failed-list.txt"),
-      "",
-    );
+    clearErrorFile();
 
     for (const url of allLabels.accounts) {
       await sleep(Math.random() * (sleepRange * 1000) + 500);
       const allAddresses = await pullFromTable(url, page);
       const labelName = url.split("/").pop()?.split("?")[0];
       if (allAddresses.length > 0) {
+        const sortedAddresses = sortAllAdresses(allAddresses);
         fs.writeFileSync(
-          path.join(__dirname, "..", "data", "Etherscan", `${labelName}.json`),
-          JSON.stringify(allAddresses, null, 2),
+          path.join(__dirname, "..", "data", "etherscan", `${labelName}.json`),
+          JSON.stringify(sortedAddresses, null, 2),
         );
       }
       const lengthCheck = (await confirmLength(
