@@ -1,11 +1,11 @@
 [
   {
-    "address": "0x19e34d09c2664d4f0829b1431ea73dac1b2bea93",
-    "nameTag": "Axelar: Relayer (Legacy)"
-  },
-  {
     "address": "0xe743a49f04f2f77eb2d3b753ae3ad599de8cea84",
     "nameTag": "Axelar: Express Relayer 1"
+  },
+  {
+    "address": "0x19e34d09c2664d4f0829b1431ea73dac1b2bea93",
+    "nameTag": "Axelar: Relayer (Legacy)"
   },
   {
     "address": "0x7ef822c622c49d1272a51c29d25d6340755eccf5",

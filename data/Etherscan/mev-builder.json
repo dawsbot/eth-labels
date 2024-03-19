@@ -1,9 +1,5 @@
 [
   {
-    "address": "0x5f927395213ee6b95de97bddcb1b2b1c0f16844f",
-    "nameTag": "Manta-builder"
-  },
-  {
     "address": "0xc9d945721ed37c6451e457b3c7f1e0cec42417fb",
     "nameTag": "antbuilder"
   },
@@ -78,6 +74,10 @@
   {
     "address": "0x57865ba267d48671a41431f471933aec32a7c7d1",
     "nameTag": "Manifold Finance: Builder"
+  },
+  {
+    "address": "0x5f927395213ee6b95de97bddcb1b2b1c0f16844f",
+    "nameTag": "Manta-builder"
   },
   {
     "address": "0x00066282d9fac206f8f0fd0b935958ae55e13333",

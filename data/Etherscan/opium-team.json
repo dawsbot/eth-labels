@@ -48,10 +48,6 @@
     "nameTag": "Opium.Team: Token Spender V1"
   },
   {
-    "address": "0x85d9c3784b277bc10e1504aa8f647132ba17a674",
-    "nameTag": "Opium: Registry V2"
-  },
-  {
     "address": "0xd60f0a53c7e97f78fe4ac9013f5749920c601494",
     "nameTag": "Opium: Core V1"
   },
@@ -78,6 +74,10 @@
   {
     "address": "0x7f5f4087006ba4f4985b32f9d1079ee2f8594af8",
     "nameTag": "Opium: Registry V1"
+  },
+  {
+    "address": "0x85d9c3784b277bc10e1504aa8f647132ba17a674",
+    "nameTag": "Opium: Registry V2"
   },
   {
     "address": "0x2f92ae7f568c1fe3379ee47daa7819e1362bf25d",

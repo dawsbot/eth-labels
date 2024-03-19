@@ -1,9 +1,5 @@
 [
   {
-    "address": "0xdd2a08a1c1a28c1a571e098914ca10f2877d9c97",
-    "nameTag": "Loopring: Proxy Admin"
-  },
-  {
     "address": "0x39b9bf169a7e225ba037c443a40460c77438ea14",
     "nameTag": "Loopring: Agent Registry"
   },
@@ -50,6 +46,10 @@
   {
     "address": "0xbbbbca6a901c926f240b89eacb641d8aec7aeafd",
     "nameTag": "Loopring: LRC Token"
+  },
+  {
+    "address": "0xdd2a08a1c1a28c1a571e098914ca10f2877d9c97",
+    "nameTag": "Loopring: Proxy Admin"
   },
   {
     "address": "0xf4662bb1c4831fd411a95b8050b3a5998d8a4a5b",

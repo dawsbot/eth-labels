@@ -1,9 +1,5 @@
 [
   {
-    "address": "0x60c7c2a24b5e86c38639fd1586917a8fef66a56d",
-    "nameTag": "ENS: Registrar Migration"
-  },
-  {
     "address": "0x57f1887a8bf19b14fc0df6fd9b2acc9af147ea85",
     "nameTag": "ENS: Base Registrar Implementation"
   },
@@ -78,6 +74,10 @@
   {
     "address": "0x4976fb03c32e5b8cfe2b6ccb31c09ba78ebaba41",
     "nameTag": "ENS: Public Resolver 2"
+  },
+  {
+    "address": "0x60c7c2a24b5e86c38639fd1586917a8fef66a56d",
+    "nameTag": "ENS: Registrar Migration"
   },
   {
     "address": "0x00000000000c2e074ec69a0dfb2997ba6c7d2e1e",

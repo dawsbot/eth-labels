@@ -524,16 +524,16 @@
     "nameTag": "Orbiter Finance: Bridge 2"
   },
   {
-    "address": "0xeec0fb4913119567cdfc0c5fc2bf8f9f9b226c2d",
-    "nameTag": "Phala Network: Phala Chain Bridge"
-  },
-  {
     "address": "0xcd38b15a419491c7c1238b0659f65c755792e257",
     "nameTag": "Phala Network: ERC20 Bridge Handler"
   },
   {
     "address": "0x8f92e7353b180937895e0c5937d616e8ea1a2bb9",
     "nameTag": "Phala Network: Main Bridge Contract"
+  },
+  {
+    "address": "0xeec0fb4913119567cdfc0c5fc2bf8f9f9b226c2d",
+    "nameTag": "Phala Network: Phala Chain Bridge"
   },
   {
     "address": "0x2140ecdc45c89ca112523637824513bae72c8671",

@@ -8,50 +8,6 @@
     "nameTag": "Index Protocol: 0x Flash Mint"
   },
   {
-    "address": "0x5c0d0a9a0c3a0a5b591496ff894686893b69faa2",
-    "nameTag": "Index Protocol: Compound Flash Mint"
-  },
-  {
-    "address": "0xa0a98eb7af028be00d04e46e1316808a62a8fd59",
-    "nameTag": "Index Protocol: Debt Issuance Module v2"
-  },
-  {
-    "address": "0xd2463675a099101e36d85278494268261a66603a",
-    "nameTag": "Index Protocol: Index Protocol Controller"
-  },
-  {
-    "address": "0xb9083dee5e8273e54b9db4c31ba9d4ab7c6b28d3",
-    "nameTag": "Index Protocol: Integration Registry"
-  },
-  {
-    "address": "0x9da9992b5d01bd0efb1ee8310e8011dc837bd476",
-    "nameTag": "Index Protocol: Notional Flash Mint"
-  },
-  {
-    "address": "0x600d9950c6ecaef98cc42fa207e92397a6c43416",
-    "nameTag": "Index Protocol: Notional Trade Module"
-  },
-  {
-    "address": "0x2758bf6af0ec63f1710d3d7890e1c263a247b75e",
-    "nameTag": "Index Protocol: Set Token Creator"
-  },
-  {
-    "address": "0x165edf07bb61904f47800e13f5120e64c4b9a186",
-    "nameTag": "Index Protocol: Streaming Fee Module"
-  },
-  {
-    "address": "0x64177fd4dfad1a6cff95e1ebba403bb73c6a8e41",
-    "nameTag": "Index Protocol: Synthetix Exchange Adapter"
-  },
-  {
-    "address": "0x0f5c21d4929f6f17119f43b0c51e665f12367a19",
-    "nameTag": "Index Protocol: Uniswap v2 Exchange Adapter v2"
-  },
-  {
-    "address": "0xe6382d2d44402bad8a03f11170032abcf1df1102",
-    "nameTag": "Index Protocol: Uniswap v3 Exchange Adapter v2"
-  },
-  {
     "address": "0x902d2282ab8e336bd1675bbe451ebdb3bf1a7c2e",
     "nameTag": "Index Protocol: 4626 Wrap Adapter v2"
   },
@@ -84,8 +40,16 @@
     "nameTag": "Index Protocol: Community Treasury Year 3 Vesting"
   },
   {
+    "address": "0x5c0d0a9a0c3a0a5b591496ff894686893b69faa2",
+    "nameTag": "Index Protocol: Compound Flash Mint"
+  },
+  {
     "address": "0x79530caa46b1bb1cdd1b19e418af4d7347c5fcdf",
     "nameTag": "Index Protocol: Curve stETH Exchange Adapter"
+  },
+  {
+    "address": "0xa0a98eb7af028be00d04e46e1316808a62a8fd59",
+    "nameTag": "Index Protocol: Debt Issuance Module v2"
   },
   {
     "address": "0x04b59f9f09750c044d7cfbc177561e409085f0f3",
@@ -144,6 +108,10 @@
     "nameTag": "Index Protocol: Index Methodologist Vesting"
   },
   {
+    "address": "0xd2463675a099101e36d85278494268261a66603a",
+    "nameTag": "Index Protocol: Index Protocol Controller"
+  },
+  {
     "address": "0x0954906da0bf32d5479e25f46056d22f08464cab",
     "nameTag": "Index Protocol: INDEX Token"
   },
@@ -152,12 +120,24 @@
     "nameTag": "Index Protocol: Initial Liquidity Mining Rewards"
   },
   {
+    "address": "0xb9083dee5e8273e54b9db4c31ba9d4ab7c6b28d3",
+    "nameTag": "Index Protocol: Integration Registry"
+  },
+  {
     "address": "0x72e364f2abdc788b7e918bc238b21f109cd634d7",
     "nameTag": "Index Protocol: Metaverse Index"
   },
   {
     "address": "0x9467cfadc9de245010df95ec6a585a506a8ad5fc",
     "nameTag": "Index Protocol: MultiSig"
+  },
+  {
+    "address": "0x9da9992b5d01bd0efb1ee8310e8011dc837bd476",
+    "nameTag": "Index Protocol: Notional Flash Mint"
+  },
+  {
+    "address": "0x600d9950c6ecaef98cc42fa207e92397a6c43416",
+    "nameTag": "Index Protocol: Notional Trade Module"
   },
   {
     "address": "0xf64d061106054fe63b0aca68916266182e77e9bc",
@@ -172,6 +152,18 @@
     "nameTag": "Index Protocol: Set Labs Year 3 Vesting"
   },
   {
+    "address": "0x2758bf6af0ec63f1710d3d7890e1c263a247b75e",
+    "nameTag": "Index Protocol: Set Token Creator"
+  },
+  {
+    "address": "0x165edf07bb61904f47800e13f5120e64c4b9a186",
+    "nameTag": "Index Protocol: Streaming Fee Module"
+  },
+  {
+    "address": "0x64177fd4dfad1a6cff95e1ebba403bb73c6a8e41",
+    "nameTag": "Index Protocol: Synthetix Exchange Adapter"
+  },
+  {
     "address": "0xfaab3f8f3678f68aa0d307b66e71b636f82c28bf",
     "nameTag": "Index Protocol: Trade Module"
   },
@@ -182,6 +174,14 @@
   {
     "address": "0xfafd604d1cc8b6b3b6cc859cf80fd902972371c1",
     "nameTag": "Index Protocol: Treasury Operations"
+  },
+  {
+    "address": "0x0f5c21d4929f6f17119f43b0c51e665f12367a19",
+    "nameTag": "Index Protocol: Uniswap v2 Exchange Adapter v2"
+  },
+  {
+    "address": "0xe6382d2d44402bad8a03f11170032abcf1df1102",
+    "nameTag": "Index Protocol: Uniswap v3 Exchange Adapter v2"
   },
   {
     "address": "0xbfe0f7b4f9537a25d7c498161d6f24b38699a075",

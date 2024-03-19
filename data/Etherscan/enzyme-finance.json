@@ -1,9 +1,5 @@
 [
   {
-    "address": "0x13c2263e534bd27149d96b8cb9961ea1beb560ef",
-    "nameTag": "Enzyme Finance: Idle Price Feed"
-  },
-  {
     "address": "0x0bad0886c5976072549687d5ffcd26803c5ba167",
     "nameTag": "Enzyme Finance: Aave Integration Adapter"
   },
@@ -114,6 +110,10 @@
   {
     "address": "0x649b6cc835c8fe3d3b94b6a9c155f791bf500dfe",
     "nameTag": "Enzyme Finance: Idle Adapter"
+  },
+  {
+    "address": "0x13c2263e534bd27149d96b8cb9961ea1beb560ef",
+    "nameTag": "Enzyme Finance: Idle Price Feed"
   },
   {
     "address": "0x965ca477106476b4600562a2ebe13536581883a6",

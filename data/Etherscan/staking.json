@@ -1,9 +1,5 @@
 [
   {
-    "address": "0x887e81cab04461620a5ff196048bba38d9dc96e4",
-    "nameTag": "UNCX Network: Staking pool Tier 1"
-  },
-  {
     "address": "0x2a17c35ff147b32f13f19f2e311446eeb02503f3",
     "nameTag": "0x: Staking"
   },
@@ -134,6 +130,10 @@
   {
     "address": "0xe7f3e646b34588764918b0ebb8d9708bf361d35b",
     "nameTag": "The Lacedameon: Staking"
+  },
+  {
+    "address": "0x887e81cab04461620a5ff196048bba38d9dc96e4",
+    "nameTag": "UNCX Network: Staking pool Tier 1"
   },
   {
     "address": "0x73f5876ecd9fabf7d359daf7be7610b276641549",

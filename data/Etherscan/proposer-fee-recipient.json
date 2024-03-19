@@ -1,19 +1,15 @@
 [
   {
-    "address": "0x7fe2547bcb8fce1d51f2a2c0d9d93174cd05b3f9",
+    "address": "0x811395405be7af1ae48bc61659cb69067f42c0e8",
     "nameTag": ""
   },
   {
-    "address": "0x811395405be7af1ae48bc61659cb69067f42c0e8",
+    "address": "0x7fe2547bcb8fce1d51f2a2c0d9d93174cd05b3f9",
     "nameTag": ""
   },
   {
     "address": "0xaa6a397654d1e74ab8061992a3ad7956951ec0a7",
     "nameTag": ""
-  },
-  {
-    "address": "0xd4e96ef8eee8678dbff4d535e033ed1a4f7605b7",
-    "nameTag": "Rocket Pool Smoothing Pool"
   },
   {
     "address": "0xb364e75b1189dcbbf7f0c856456c1ba8e4d6481b",
@@ -994,6 +990,10 @@
   {
     "address": "0x5ea87b8dc1a0d35ef37adde68e4568450aaeede6",
     "nameTag": "Proposer Fee Recipient: 0x5Ea...De6"
+  },
+  {
+    "address": "0xd4e96ef8eee8678dbff4d535e033ed1a4f7605b7",
+    "nameTag": "Rocket Pool Smoothing Pool"
   },
   {
     "address": "0x24b1d27b0f6b5a2aa052acf59817a8d9e7a8600a",
