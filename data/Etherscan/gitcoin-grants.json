@@ -1,6 +1,38 @@
 [
   {
-    "address": "",
-    "nameTag": ""
+    "address": "0x7d655c57f71464b6f83811c55d84009cd9f5221c",
+    "nameTag": "Gitcoin: Bulk Checkout"
+  },
+  {
+    "address": "0x3ba9df642f5e895dc76d3aa9e4ce8291108e65b1",
+    "nameTag": "Gitcoin: Donate"
+  },
+  {
+    "address": "0xf2354570be2fb420832fb7ff6ff0ae0df80cf2c6",
+    "nameTag": "Gitcoin: GR8 Match Payout"
+  },
+  {
+    "address": "0xdf869fad6db91f437b59f1edefab319493d4c4ce",
+    "nameTag": "Gitcoin: Grants"
+  },
+  {
+    "address": "0xde30da39c46104798bb5aa3fe8b9e0e1f348163f",
+    "nameTag": "Gitcoin: GTC Token"
+  },
+  {
+    "address": "0x00de4b13153673bcae2616b67bf822500d325fc3",
+    "nameTag": "Gitcoin: Maintainer"
+  },
+  {
+    "address": "0xde21f729137c5af1b01d73af1dc21effa2b8a0d6",
+    "nameTag": "Gitcoin: MultiSig"
+  },
+  {
+    "address": "0x358bcf43fe7ec2659ad829f3604c72781fc93a9e",
+    "nameTag": "Gitcoin: Personal Token Factory"
+  },
+  {
+    "address": "0x9d37f793e5ed4ebd66d62d505684cd9f756504f6",
+    "nameTag": "Gitcoin: zkSync Batch Deposit"
   }
 ]

@@ -1,6 +1,18 @@
 [
   {
-    "address": "",
-    "nameTag": ""
+    "address": "0x390de26d772d2e2005c6d1d24afc902bae37a4bb",
+    "nameTag": "Upbit"
+  },
+  {
+    "address": "0xba826fec90cefdf6706858e5fbafcb27a290fbe0",
+    "nameTag": "Upbit 2"
+  },
+  {
+    "address": "0x5e032243d507c743b061ef021e2ec7fcc6d3ab89",
+    "nameTag": "Upbit 3"
+  },
+  {
+    "address": "0xc9cf0ec93d764f5c9571fd12f764bae7fc87c84e",
+    "nameTag": "Upbit: Cold Wallet"
   }
 ]

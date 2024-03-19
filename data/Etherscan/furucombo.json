@@ -1,6 +1,50 @@
 [
   {
-    "address": "",
-    "nameTag": ""
+    "address": "0xa013afbb9a92cef49e898c87c060e6660e050569",
+    "nameTag": "Furucombo Proxy v1.0.0-1"
+  },
+  {
+    "address": "0x59daa74f2d15c87aac435ec18cb559f92490c100",
+    "nameTag": "Furucombo Proxy v1.6.0"
+  },
+  {
+    "address": "0xffffffff2ba8f66d4e51811c5190992176930278",
+    "nameTag": "Furucombo: COMBO Token"
+  },
+  {
+    "address": "0xbcb909975715dc8fde643ee44b89e3fd6a35a259",
+    "nameTag": "Furucombo: Deployer"
+  },
+  {
+    "address": "0xf5009b0ffc904a9ba007e2b6d6d5959a16c3a127",
+    "nameTag": "Furucombo: Deployer 2"
+  },
+  {
+    "address": "0x52f9eea36f57d86a0f051419fd11e4a256359c8f",
+    "nameTag": "Furucombo: Proxy v0.1"
+  },
+  {
+    "address": "0xeebec7874f46c4452610a11fa6be0264f7f0557f",
+    "nameTag": "Furucombo: Proxy v0.13.1"
+  },
+  {
+    "address": "0x710b80571db3792fbf4df7763efa6548c25a1635",
+    "nameTag": "Furucombo: Proxy v0.2"
+  },
+  {
+    "address": "0x9cc76b94c005d7ce45623ce5707a5f19dc513662",
+    "nameTag": "Furucombo: Proxy v0.4"
+  },
+  {
+    "address": "0x57805e5a227937bac2b0fdacaa30413ddac6b8e1",
+    "nameTag": "Furucombo: Proxy v0.4.1"
+  },
+  {
+    "address": "0x17e8ca1b4798b97602895f63206afcd1fc90ca5f",
+    "nameTag": "Furucombo: Proxy v1.0.0"
+  },
+  {
+    "address": "0xefa99fa2703430a38d095a29f6dc32dd9fdc5a01",
+    "nameTag": "Furucombo: Proxy v1.5.1"
   }
 ]
