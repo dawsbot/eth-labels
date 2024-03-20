@@ -23,7 +23,7 @@ void (async () => {
       baseUrl: "https://etherscan.io",
       directoryName: "etherscan",
     });
-    await etherscanPuller.fetchEtherscan(page);
+    await etherscanPuller.pullAndWriteAllAddresses(page);
     await closeBrowser(browser);
   } catch (error) {
     parseError(error);

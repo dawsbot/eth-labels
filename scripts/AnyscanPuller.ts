@@ -69,7 +69,7 @@ export class AnyscanPuller {
     return anchors;
   };
 
-  private fetchAllLabelsEtherscan = async (page: Page): Promise<AllLabels> => {
+  private fetchAllLabels = async (page: Page): Promise<AllLabels> => {
     const PAGE_URL = `${this.#baseUrl}/labelcloud`;
 
     const labelCloudHtml = await this.fetchPageHtml(
@@ -224,7 +224,7 @@ export class AnyscanPuller {
     return sortedAddresses;
   }
 
-  public async fetchEtherscan(page: Page) {
+  public async pullAndWriteAllAddresses(page: Page) {
     const randomDelay = Math.random() * 500 + 500;
 
     const outputDirectory = path.join(
@@ -238,7 +238,7 @@ export class AnyscanPuller {
     }
 
     await this.login(page);
-    const allLabels = await this.fetchAllLabelsEtherscan(page);
+    const allLabels = await this.fetchAllLabels(page);
 
     for (const url of allLabels.accounts) {
       // delay between 0.5 and 1 seconds for processing
