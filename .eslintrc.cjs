@@ -15,7 +15,4 @@ module.exports = {
   env: {
     node: true,
   },
-  rules: {
-    "@typescript-eslint/no-floating-promises": "warn",
-  },
 };

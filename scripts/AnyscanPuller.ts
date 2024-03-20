@@ -29,12 +29,21 @@ type AddressesInfo = Array<AddressInfo>;
 
 export class AnyscanPuller {
   #baseUrl: string;
+  #directoryName: string;
   /**
    * @example
-   * const etherscanPuller = new AnyscanPuller('https:://etherscan.io');
+   * const etherscanPuller = new AnyscanPuller({baseUrl: 'https:://etherscan.io', directoryName: 'etherscan'});
    */
-  constructor(baseUrl: string) {
+  constructor({
+    baseUrl,
+    directoryName,
+  }: {
+    baseUrl: string;
+    directoryName: string;
+  }) {
     this.#baseUrl = z.string().url().startsWith("https://").parse(baseUrl);
+    const filenameRegex = /^[a-z0-9_\-.]+$/;
+    this.#directoryName = z.string().regex(filenameRegex).parse(directoryName);
   }
 
   private selectAllAnchors = (html: string): ReadonlyArray<string> => {
@@ -123,8 +132,8 @@ export class AnyscanPuller {
 
       const address = anchorWithDataBsTitle.attr("data-bs-title") || "";
       const newAddressInfo: AddressInfo = {
-        address: z.string().parse(address),
-        nameTag: $(tds[1]).text(),
+        address: z.string().parse(address).trim(),
+        nameTag: $(tds[1]).text().trim(),
       };
 
       addressesInfo = [...addressesInfo, newAddressInfo];
@@ -218,7 +227,12 @@ export class AnyscanPuller {
   public async fetchEtherscan(page: Page) {
     const randomDelay = Math.random() * 500 + 500;
 
-    const outputDirectory = path.join(__dirname, "..", "data", "etherscan");
+    const outputDirectory = path.join(
+      __dirname,
+      "..",
+      "data",
+      this.#directoryName,
+    );
     if (!fs.existsSync(outputDirectory)) {
       fs.mkdirSync(outputDirectory);
     }

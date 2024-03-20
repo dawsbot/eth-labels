@@ -1,9 +1,5 @@
 [
   {
-    "address": "0x97f991971a37d4ca58064e6a98fc563f03a71e5c",
-    "nameTag": ""
-  },
-  {
     "address": "0x25eaff5b179f209cf186b1cdcbfa463a69df4c45",
     "nameTag": "Blockfolio"
   },
@@ -38,6 +34,10 @@
   {
     "address": "0x2f5e2c9002c058c063d21a06b6cabb50950130c8",
     "nameTag": "FTX: 3X Short Ethereum Token"
+  },
+  {
+    "address": "0x97f991971a37d4ca58064e6a98fc563f03a71e5c",
+    "nameTag": "FTX: Cold 1"
   },
   {
     "address": "0x772589e99bc9c54dd40acb7d73f88ccbc9d9cf47",

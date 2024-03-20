@@ -128,15 +128,15 @@
     "nameTag": "1inch: UP Token"
   },
   {
+    "address": "0x03d1b1a56708fa298198dd5e23651a29b76a16d2",
+    "nameTag": "1inch: v1INCH Token"
+  },
+  {
     "address": "0xcb8308fcb7bc2f84ed1bea2c016991d34de5cc77",
     "nameTag": "1inch: Whitelist"
   },
   {
     "address": "0xf779bdde38c39138dcaf1514b8a6b8a6c165642d",
     "nameTag": "1inch: Whitelist info"
-  },
-  {
-    "address": "0x03d1b1a56708fa298198dd5e23651a29b76a16d2",
-    "nameTag": "1inch: v1INCH Token"
   }
 ]
