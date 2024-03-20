@@ -9,7 +9,10 @@ function parseErrorShorthand(error: Error) {
   console.log("------ ERROR SHORTHAND END ------");
 }
 
-export function parseError(error: Error) {
+export function parseError(error: unknown) {
+  if (!(error instanceof Error)) {
+    return;
+  }
   const stackLines = error.stack?.split("\n");
   if (!stackLines) {
     console.error("Error stack trace not available.");

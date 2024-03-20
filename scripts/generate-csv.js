@@ -1,5 +1,5 @@
-const path = require("path");
-const fs = require("fs");
+import path from "path";
+import fs from "fs";
 
 const folders = ["token-contract"];
 const csv = [["address", "nameTag"]];

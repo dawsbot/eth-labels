@@ -1,9 +1,4 @@
 {
-  "ts-node": {
-    "compilerOptions": {
-      "module": "commonjs"
-    }
-  },
   "compilerOptions": {
     "target": "ESNext",
     "module": "ESNext",
@@ -17,7 +12,7 @@
     "skipLibCheck": true,
     "resolveJsonModule": true
   },
-  "include": ["./src"],
+  "include": ["./src", "./scripts", "./data"],
   "types": ["node"],
   "exclude": []
 }

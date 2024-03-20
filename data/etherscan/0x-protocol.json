@@ -52,10 +52,6 @@
     "nameTag": "0x: ERC1155 Proxy V3"
   },
   {
-    "address": "0x8ed95d1746bf1e4dab58d8ed4724f1ef95b20db0",
-    "nameTag": "0x: Erc20 Bridge Proxy"
-  },
-  {
     "address": "0xd8c38704c9937ea3312de29f824b4ad3450a5e61",
     "nameTag": "0x: ERC20 Bridge Sampler"
   },
@@ -66,6 +62,10 @@
   {
     "address": "0xefc70a1b18c432bdc64b596838b4d138f6bc6cad",
     "nameTag": "0x: ERC721 Proxy V3"
+  },
+  {
+    "address": "0x8ed95d1746bf1e4dab58d8ed4724f1ef95b20db0",
+    "nameTag": "0x: Erc20 Bridge Proxy"
   },
   {
     "address": "0x0ac2d6f5f5afc669d3ca38f830dad2b4f238ad3f",
