@@ -4,13 +4,15 @@
   "description": "A public dataset of Etherscan labels",
   "license": "MIT",
   "sideEffects": false,
+  "type": "module",
   "main": "./lib/cjs/index.js",
   "module": "./lib/esm/index.js",
   "files": [
     "lib/"
   ],
   "scripts": {
-    "test": "npm run build",
+    "test": "npm run lint && npm run build",
+    "lint": "eslint . --fix --cache",
     "build": "rm -rf lib && npm run compile",
     "build:json": "node scripts/build-json.js",
     "prepare": "husky install",
@@ -31,17 +33,21 @@
   },
   "homepage": "https://github.com/dawsbot/evm-labels#readme",
   "devDependencies": {
-    "@types/node": "^17.0.33",
+    "@types/node": "^20.11.30",
     "cheerio": "^1.0.0-rc.12",
     "csv-parse": "^5.0.4",
     "dotenv": "^16.4.5",
-    "husky": "^8.0.1",
+    "eslint": "^8.57.0",
+    "eslint-config-prettier": "^9.1.0",
+    "husky": "^9.0.11",
     "lint-staged": "^15.2.2",
     "npm-run-all": "^4.1.5",
     "playwright": "^1.42.1",
     "prettier": "^3.2.5",
-    "rollup": "^2.73.0",
+    "prettier-plugin-organize-imports": "^3.2.4",
+    "rollup": "^4.13.0",
     "typescript": "^5.3.3",
+    "typescript-eslint": "^7.3.1",
     "zod": "^3.22.4"
   },
   "lint-staged": {

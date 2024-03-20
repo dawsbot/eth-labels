@@ -4,5 +4,6 @@
     "module": "CommonJS",
     "outDir": "./lib/cjs",
     "removeComments": false
-  }
+  },
+  "exclude": ["scripts"]
 }
