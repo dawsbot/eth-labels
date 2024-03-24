@@ -1,0 +1,35 @@
+[
+  { "address": "0x3ab9c31148789570f51180a3ef7107e16c4b234c", "nameTag": "" },
+  {
+    "address": "0xf5238462e7235c7b62811567e63dd17d12c2eaa0",
+    "nameTag": "CACHE Gold: CGT Token"
+  },
+  {
+    "address": "0x10583948905d768880ba6c5a17847556da49305a",
+    "nameTag": "CACHE Gold: Deployer"
+  },
+  {
+    "address": "0x5b7820e62778c7317403d892f6501dd816f82730",
+    "nameTag": "CACHE Gold: Locked Gold Oracle"
+  },
+  {
+    "address": "0x6522b05fe48d274f14559e0391be3675e6a1ac91",
+    "nameTag": "CACHE Gold: Old Backed Treasury"
+  },
+  {
+    "address": "0x7ea9b52e9f8673f3e22b4eec2c4c7a7e2d1b6636",
+    "nameTag": "CACHE Gold: Old Fee Address"
+  },
+  {
+    "address": "0xc8bf2dbde1d69d174fd40581f5177f684fa26eda",
+    "nameTag": "CACHE Gold: Redeem Address"
+  },
+  {
+    "address": "0x8dcfa60a1fb2429a7afc0266523f1bf7fbf42a1a",
+    "nameTag": "CACHE Gold: Storage Fee Enforcer"
+  },
+  {
+    "address": "0xd4033ea2ec53a26d6295f6f375d5c6afbe788660",
+    "nameTag": "CACHE Gold: Unbacked Treasury"
+  }
+]

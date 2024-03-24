@@ -1,0 +1,776 @@
+[
+  { "address": "0x04d73c87b20d372cb3240c72eefb9d79ba5e4959", "nameTag": "" },
+  { "address": "0x2d407ddb06311396fe14d4b49da5f0471447d45c", "nameTag": "" },
+  { "address": "0x61f46c65e403429266e8b569f23f70dd75d9bee7", "nameTag": "" },
+  { "address": "0x6ede7f19df5df6ef23bd5b9cedb651580bdf56ca", "nameTag": "" },
+  { "address": "0x8a0889d47f9aa0fac1cc718ba34e26b867437880", "nameTag": "" },
+  { "address": "0xc97511a1ddb162c8742d39ff320cfdcd13fbcf7e", "nameTag": "" },
+  {
+    "address": "0x1cc481ce2bd2ec7bf67d1be64d4878b16078f309",
+    "nameTag": "Fixed Forex: ibCHF Token"
+  },
+  {
+    "address": "0xbb3bf20822507c70eafdf11c7469c98fc752ccca",
+    "nameTag": "Iron Bank Fixed Forex: Deployer"
+  },
+  {
+    "address": "0x96e61422b6a9ba0e068b6c5add4ffabc6a4aae27",
+    "nameTag": "Iron Bank Fixed Forex: ibEUR Token"
+  },
+  {
+    "address": "0xdb25ca703181e7484a155dd612b06f57e12be5f0",
+    "nameTag": "Year: yvYFI Token"
+  },
+  {
+    "address": "0xdf5e4e54d212f7a01cf94b3986f40933fcff589f",
+    "nameTag": "Yearn Finance: Buyback"
+  },
+  {
+    "address": "0x6903223578806940bd3ff0c51f87aa43968424c8",
+    "nameTag": "Yearn Finance: Buyback 2"
+  },
+  {
+    "address": "0x03403154afc09ce8e44c3b185c82c6ad5f86b9ab",
+    "nameTag": "Yearn Finance: yCRV/Aave Vault"
+  },
+  {
+    "address": "0x46afc2dfbd1ea0c0760cad8262a5838e803a37e5",
+    "nameTag": "Yearn Finance: yCRV/HBTC Vault"
+  },
+  {
+    "address": "0xcb550a6d4c8e3517a939bc79d0c7093eb7cf56b5",
+    "nameTag": "Yearn Finance: yCRV/WBTC Vault"
+  },
+  {
+    "address": "0xa696a63cc78dffa1a63e9e50587c197387ff6c7e",
+    "nameTag": "Yearn Finance: yvWBTC Token"
+  },
+  {
+    "address": "0xc454f4e1ddb39c8de9663287d52b0e4feb4ca45e",
+    "nameTag": "Yearn.Finance: Stealth Vault"
+  },
+  {
+    "address": "0x35f5a420ef9bcc748329021fbd4ed0986abdf201",
+    "nameTag": "Yearn.Finance: The Blue Pill"
+  },
+  {
+    "address": "0x8e6741b456a074f0bc45b8b82a755d4af7e965df",
+    "nameTag": "yearn: 3CRV/DUSD Vault"
+  },
+  {
+    "address": "0x710295b5f326c2e47e6dd2e7f6b5b0f7c5ac2f24",
+    "nameTag": "yearn: Deployer 1"
+  },
+  {
+    "address": "0x7d96ab1f847c3564b8f9a93f35e1027ada74aec2",
+    "nameTag": "Yearn: Deployer 4"
+  },
+  {
+    "address": "0x7bacf22f747f2f4b983081c0aa76dddfecd008ab",
+    "nameTag": "yearn: Deployer 5"
+  },
+  {
+    "address": "0xe15461b18ee31b7379019dc523231c57d1cbc18c",
+    "nameTag": "yearn: Deployer 6"
+  },
+  {
+    "address": "0x50c1a2ea0a861a967d9d0ffe2ae4012c2e053804",
+    "nameTag": "yearn: Deployer 7"
+  },
+  {
+    "address": "0x2cced4ffa804adbe1269cdfc22d7904471abde63",
+    "nameTag": "Yearn: ETH Pool"
+  },
+  {
+    "address": "0xc97232527b62efb0d8ed38cf3ea103a6cca4037e",
+    "nameTag": "Yearn: lp-yCRV Token"
+  },
+  {
+    "address": "0x27b5739e22ad9033bcbf192059122d163b60349d",
+    "nameTag": "Yearn: st-yCRV Token"
+  },
+  {
+    "address": "0x0a61c2146a7800bdc278833f21ebf56cd660ee2a",
+    "nameTag": "Yearn: Stealth Relayer"
+  },
+  {
+    "address": "0xa069e33994dcc24928d99f4bbeda83aaef00b5f3",
+    "nameTag": "yearn: Strategy Curve YCRV"
+  },
+  {
+    "address": "0x93a62da5a14c80f265dabc077fcee437b1a0efde",
+    "nameTag": "yearn: Treasury Vault"
+  },
+  {
+    "address": "0x9ca85572e6a3ebf24dedd195623f188735a5179f",
+    "nameTag": "yearn: y3Crv Vault"
+  },
+  {
+    "address": "0x29e240cfd7946ba20895a7a02edb25c210f9f324",
+    "nameTag": "yearn: yaLINK Vault"
+  },
+  {
+    "address": "0x04bc0ab673d88ae9dbc9da2380cb6b79c4bca9ae",
+    "nameTag": "yearn: yBUSD Token"
+  },
+  {
+    "address": "0xfcc5c47be19d06bf83eb04298b026f81069ff65b",
+    "nameTag": "Yearn: yCRV Token"
+  },
+  {
+    "address": "0x5dbcf33d8c2e976c6b560249878e6f1491bca25c",
+    "nameTag": "yearn: yCRV Vault"
+  },
+  {
+    "address": "0x27b7b1ad7288079a66d12350c828d3c00a6f07d7",
+    "nameTag": "yearn: yCRV-IB Vault"
+  },
+  {
+    "address": "0x7047f90229a057c13bf847c0744d646cfb6c9e1a",
+    "nameTag": "yearn: yCRV-renBTC Vault"
+  },
+  {
+    "address": "0x5533ed0a3b83f70c3c4a1f69ef5546d3d4713e44",
+    "nameTag": "yearn: yCRV/ DAI-USDC-USDT-sUSD Vault"
+  },
+  {
+    "address": "0xb8c3b7a2a618c552c23b1e4701109a9e756bab67",
+    "nameTag": "yearn: yCRV/1Inch Vault"
+  },
+  {
+    "address": "0xe625f5923303f1ce7a43acfefd11fd12f30dbca4",
+    "nameTag": "yearn: yCRV/aETH Vault"
+  },
+  {
+    "address": "0xa8b1cb4ed612ee179bdea16cca6ba596321ae52d",
+    "nameTag": "yearn: yCRV/bBTC Vault"
+  },
+  {
+    "address": "0x2994529c0652d127b7842094103715ec5299bbed",
+    "nameTag": "yearn: yCRV/BUSD Vault"
+  },
+  {
+    "address": "0x629c759d1e83efbf63d84eb3868b564d9521c129",
+    "nameTag": "yearn: yCRV/Compound Vault"
+  },
+  {
+    "address": "0x98b058b2cbacf5e99bc7012df757ea7cfebd35bc",
+    "nameTag": "yearn: yCRV/EURS Vault"
+  },
+  {
+    "address": "0xcc7e70a958917cce67b4b87a8c30e6297451ae98",
+    "nameTag": "yearn: yCRV/GUSD Vault"
+  },
+  {
+    "address": "0x625b7df2fa8abe21b0a976736cda4775523aed1e",
+    "nameTag": "yearn: yCRV/HBTC Vault"
+  },
+  {
+    "address": "0x39546945695dcb1c037c836925b355262f551f55",
+    "nameTag": "Yearn: yCRV/HUSD Vault"
+  },
+  {
+    "address": "0x96ea6af74af09522fcb4c28c269c26f59a31ced6",
+    "nameTag": "yearn: yCRV/Link Vault"
+  },
+  {
+    "address": "0x0fcdaedfb8a7dfda2e9838564c5a1665d856afdf",
+    "nameTag": "yearn: yCRV/MUSD Vault"
+  },
+  {
+    "address": "0x7f83935ecfe4729c4ea592ab2bc1a32588409797",
+    "nameTag": "yearn: yCRV/oBTC Vault"
+  },
+  {
+    "address": "0x123964ebe096a920dae00fb795ffbfa0c9ff4675",
+    "nameTag": "yearn: yCRV/pBTC Vault"
+  },
+  {
+    "address": "0x5334e150b938dd2b6bd040d9c4a03cff0ced3765",
+    "nameTag": "yearn: yCRV/renBTC Vault"
+  },
+  {
+    "address": "0x7ff566e1d69deff32a7b244ae7276b9f90e9d0f6",
+    "nameTag": "yearn: yCRV/renBTC/wBTC/sBTC Vault"
+  },
+  {
+    "address": "0xbacb69571323575c6a5a3b4f9eede1dc7d31fbc1",
+    "nameTag": "yearn: yCRV/sAave Vault"
+  },
+  {
+    "address": "0xb4d1be44bff40ad6e506edf43156577a3f8672ec",
+    "nameTag": "yearn: yCRV/sAave Vault 2"
+  },
+  {
+    "address": "0x8414db07a7f743debafb402070ab01a4e0d2e45e",
+    "nameTag": "yearn: yCRV/sBTC Vault"
+  },
+  {
+    "address": "0x986b4aff588a109c09b50a03f42e4110e29d353f",
+    "nameTag": "yearn: yCRV/sETH Vault"
+  },
+  {
+    "address": "0xdcd90c7f6324cfa40d7169ef80b12031770b4325",
+    "nameTag": "yearn: yCRV/stETH Vault"
+  },
+  {
+    "address": "0x07fb4756f67bd46b748b16119e802f1f880fb2cc",
+    "nameTag": "yearn: yCRV/tBTC Vault"
+  },
+  {
+    "address": "0xfe39ce91437c76178665d64d7a2694b0f6f17fe3",
+    "nameTag": "yearn: yCRV/USDN Vault"
+  },
+  {
+    "address": "0x1b5eb1173d2bf770e50f10410c9a96f7a8eb6e75",
+    "nameTag": "yearn: yCRV/USDP Vault"
+  },
+  {
+    "address": "0xf6c9e9af314982a4b38366f4abfaa00595c5a6fc",
+    "nameTag": "yearn: yCRV/UST Vault"
+  },
+  {
+    "address": "0xa9fe4601811213c340e850ea305481aff02f5b28",
+    "nameTag": "yearn: yCRV/WETH Vault"
+  },
+  {
+    "address": "0xe14d13d8b3b85af791b2aadd661cdbd5e6097db1",
+    "nameTag": "yearn: yCRV/YFI Vault"
+  },
+  {
+    "address": "0x975f1bc238303593efab00d63cf0fc5f519a8de0",
+    "nameTag": "yearn: yCurve Zap In"
+  },
+  {
+    "address": "0xed03415e5705c5abbf8e94c491b715df526cad55",
+    "nameTag": "yearn: yCurve Zap Out"
+  },
+  {
+    "address": "0x2c3a2558e9b91e893e53bce94de3457a29f6b262",
+    "nameTag": "yearn: yCurve Zap Swap"
+  },
+  {
+    "address": "0x16de59092dae5ccf4a1e6439d611fd0653f0bd01",
+    "nameTag": "yearn: yDAI Token"
+  },
+  {
+    "address": "0x9d25057e62939d3408406975ad75ffe834da4cdd",
+    "nameTag": "yearn: yDAI Token 2"
+  },
+  {
+    "address": "0xc2cb1040220768554cf699b0d863a3cd4324ce32",
+    "nameTag": "yearn: yDAI Token 3"
+  },
+  {
+    "address": "0xacd43e627e64355f1861cec6d3a6688b31a6f952",
+    "nameTag": "yearn: yDAI Vault"
+  },
+  {
+    "address": "0x19d3364a399d251e894ac732651be8b0e4e85001",
+    "nameTag": "yearn: yDAI Vault V2"
+  },
+  {
+    "address": "0x020171085bcd43b6fd36ad8c95ad61848b1211a2",
+    "nameTag": "Yearn: yGifts"
+  },
+  {
+    "address": "0xec0d8d3ed5477106c6d4ea27d90a60e594693c90",
+    "nameTag": "yearn: yGUSD Vault"
+  },
+  {
+    "address": "0x881b06da56bb5675c54e4ed311c21e54c5025298",
+    "nameTag": "yearn: yLINK Vault"
+  },
+  {
+    "address": "0xf61718057901f84c4eec4339ef8f0d86d2b45600",
+    "nameTag": "yearn: ySUSD Token"
+  },
+  {
+    "address": "0x36324b8168f960a12a8fd01406c9c78143d41380",
+    "nameTag": "yearn: ySUSD Token 2"
+  },
+  {
+    "address": "0x73a052500105205d34daf004eab301916da8190f",
+    "nameTag": "yearn: yTUSD Token"
+  },
+  {
+    "address": "0x37d19d1c4e1fa9dc47bd1ea12f742a0887eda74a",
+    "nameTag": "yearn: yTUSD Vault"
+  },
+  {
+    "address": "0x4b5bfd52124784745c1071dcb244c6688d2533d3",
+    "nameTag": "yearn: yUSD Token"
+  },
+  {
+    "address": "0xd6ad7a6750a7593e092a9b218d66c0a814a3436e",
+    "nameTag": "yearn: yUSDC Token"
+  },
+  {
+    "address": "0xa2609b2b43ac0f5ebe27deb944d2a399c201e3da",
+    "nameTag": "yearn: yUSDC Token 2"
+  },
+  {
+    "address": "0x26ea744e5b887e5205727f55dfbe8685e3b21951",
+    "nameTag": "yearn: yUSDC Token 3"
+  },
+  {
+    "address": "0x597ad1e0c13bfe8025993d9e79c69e1c0233522e",
+    "nameTag": "yearn: yUSDC Vault"
+  },
+  {
+    "address": "0x5f18c75abdae578b483e5f43f12a39cf75b973a9",
+    "nameTag": "yearn: yUSDC Vault V2"
+  },
+  {
+    "address": "0x83f798e925bcd4017eb265844fddabb448f1707d",
+    "nameTag": "yearn: yUSDT Token"
+  },
+  {
+    "address": "0xa1787206d5b1be0f432c4c4f96dc4d1257a1dd14",
+    "nameTag": "yearn: yUSDT Token 2"
+  },
+  {
+    "address": "0xe6354ed5bc4b393a5aad09f21c46e101e692d447",
+    "nameTag": "yearn: yUSDT Token 3"
+  },
+  {
+    "address": "0x2f08119c6f07c006695e079aafc638b8789faf18",
+    "nameTag": "yearn: yUSDT Vault"
+  },
+  {
+    "address": "0xd9788f3931ede4d5018184e198699dc6d66c1915",
+    "nameTag": "yearn: yvAAVE Token"
+  },
+  {
+    "address": "0x4213458c69c19e6792510e1153cb0c5834665fdc",
+    "nameTag": "yearn: yvBalancer-BoostedAaveUSD Token"
+  },
+  {
+    "address": "0xc5f3d11580c41cd07104e9af154fc6428bb93c73",
+    "nameTag": "yearn: yvBalancer-BoostedAaveUSD Token 2"
+  },
+  {
+    "address": "0xa9412ffd7e0866755ae0dda3318470a61f62abe8",
+    "nameTag": "yearn: yvBlpFUD Token"
+  },
+  {
+    "address": "0x9d409a0a012cfba9b15f6d4b36ac57a46966ab9a",
+    "nameTag": "yearn: yvBOOST Vault"
+  },
+  {
+    "address": "0x4a3fe75762017db0ed73a71c9a06db7768db5e66",
+    "nameTag": "yearn: yvCOMP Token"
+  },
+  {
+    "address": "0xe537b5cc158eb71037d4125bdd7538421981e6aa",
+    "nameTag": "yearn: yvCurve-3Crypto Token"
+  },
+  {
+    "address": "0x8078198fc424986ae89ce4a910fc109587b6abf3",
+    "nameTag": "yearn: yvCurve-3Crypto-f Token"
+  },
+  {
+    "address": "0x5ab64c599fcc59f0f2726a300b03166a395578da",
+    "nameTag": "yearn: yvCurve-3EUR Token"
+  },
+  {
+    "address": "0x82c83dda32db09f63f9a59a129278f3fdc3eee67",
+    "nameTag": "yearn: yvCurve-3EUR-f Token"
+  },
+  {
+    "address": "0x84e13785b5a27879921d6f685f041421c7f482da",
+    "nameTag": "yearn: yvCurve-3pool Token"
+  },
+  {
+    "address": "0x39caf13a104ff567f71fd2a4c68c026fdb6e740b",
+    "nameTag": "yearn: yvCurve-Aave Token"
+  },
+  {
+    "address": "0x321d570790fd2f109fe4e55aa419adf2fce0c842",
+    "nameTag": "yearn: yvCurve-agEUR-EUROC-f Token"
+  },
+  {
+    "address": "0x718abe90777f5b778b52d553a5abaa148dd0dc5d",
+    "nameTag": "yearn: yvCurve-alETH Token"
+  },
+  {
+    "address": "0xa74d4b67b3368e83797a35382afb776baae4f5c8",
+    "nameTag": "yearn: yvCurve-alUSD Token"
+  },
+  {
+    "address": "0x4cbb6a5ec00ceec252a7091559484f7adb83165f",
+    "nameTag": "yearn: yvCurve-alUSD-f Token"
+  },
+  {
+    "address": "0x132d8d2c76db3812403431facb00f3453fc42125",
+    "nameTag": "yearn: yvCurve-ankrETH Token"
+  },
+  {
+    "address": "0x8fa3a9ecd9efb07a8ce90a6eb014cf3c0e3b32ef",
+    "nameTag": "yearn: yvCurve-BBTC Token"
+  },
+  {
+    "address": "0x2d59aa422a7aae58038cf8ae6ed07330cc7d3ae8",
+    "nameTag": "yearn: yvCurve-bLUSDLUSD3-f-f Token"
+  },
+  {
+    "address": "0x8ee57c05741aa9db947a744e713c15d4d19d8822",
+    "nameTag": "yearn: yvCurve-BUSD Token"
+  },
+  {
+    "address": "0xf614d3864ef53510909a94c618a5ec1ff75103bf",
+    "nameTag": "yearn: yvCurve-cbETH-f Token"
+  },
+  {
+    "address": "0xd6ea40597be05c201845c0bfd2e96a60bacde267",
+    "nameTag": "yearn: yvCurve-Compound Token"
+  },
+  {
+    "address": "0x6f0ace0f94f4b9890dfa99a4175b3ef0288c16b3",
+    "nameTag": "yearn: yvCurve-CRV-ETH-f Token"
+  },
+  {
+    "address": "0x6a5468752f8db94134b6508dabac54d3b45efce6",
+    "nameTag": "yearn: yvCurve-CRVETH Token"
+  },
+  {
+    "address": "0x75a291f0232add37d72dd1dcff55b715755ecdee",
+    "nameTag": "yearn: yvCurve-CVX-ETH-f Token"
+  },
+  {
+    "address": "0x4560b99c904aad03027b5178cca81584744ac01f",
+    "nameTag": "yearn: yvCurve-cvxCRV Token"
+  },
+  {
+    "address": "0x1635b506a88fbf428465ad65d00e8d6b6e5846c3",
+    "nameTag": "yearn: yvCurve-CVXETH Token"
+  },
+  {
+    "address": "0xd88dbba3f9c4391ee46f5ff548f289054db6e51c",
+    "nameTag": "yearn: yvCurve-DOLA Token"
+  },
+  {
+    "address": "0xe5f625e8f4d2a038ae9583da254945285e5a77a4",
+    "nameTag": "yearn: yvCurve-DOLAFRAXBP3CRV-f-f Token"
+  },
+  {
+    "address": "0x30fcf7c6cdfc46ec237783d94fc78553e79d4e9c",
+    "nameTag": "yearn: yvCurve-DUSD Token"
+  },
+  {
+    "address": "0x8b9c0c24307344b6d7941ab654b2aeee25347473",
+    "nameTag": "yearn: yvCurve-EURN Token"
+  },
+  {
+    "address": "0x25212df29073fffa7a67399acefc2dd75a831a1a",
+    "nameTag": "yearn: yvCurve-EURS Token"
+  },
+  {
+    "address": "0x801ab06154bf539dea4385a39f5fa8534fb53073",
+    "nameTag": "yearn: yvCurve-EURSUSDC Token"
+  },
+  {
+    "address": "0x0d4ea8536f9a13e4fba16042a46c30f092b06aa5",
+    "nameTag": "yearn: yvCurve-EURT Token"
+  },
+  {
+    "address": "0xbcbb5b54fa51e7b7dc920340043b203447842a6b",
+    "nameTag": "yearn: yvCurve-EURTUSD Token"
+  },
+  {
+    "address": "0xb4ada607b9d6b2c9ee07a275e9616b84ac560139",
+    "nameTag": "yearn: yvCurve-FRAX Token"
+  },
+  {
+    "address": "0xb37094c1b5614bd6ece40afb295c26f4377069d3",
+    "nameTag": "yearn: yvCurve-FRAX-f Token"
+  },
+  {
+    "address": "0x1a5ebff0e881aec34837845e4d0eb430a1b4b737",
+    "nameTag": "yearn: yvCurve-FRAXBP-f Token"
+  },
+  {
+    "address": "0x2a38b9b0201ca39b17b460ed2f11e4929559071e",
+    "nameTag": "yearn: yvCurve-GUSD Token"
+  },
+  {
+    "address": "0x054af22e1519b020516d72d749221c24756385c9",
+    "nameTag": "yearn: yvCurve-HUSD Token"
+  },
+  {
+    "address": "0x1b905331f7de2748f4d6a0678e1521e20347643f",
+    "nameTag": "yearn: yvCurve-ibAUD Token"
+  },
+  {
+    "address": "0x1025b1641d1f23c289412dd5e5701e9810103a93",
+    "nameTag": "yearn: yvCurve-ibAUD-USDC Token"
+  },
+  {
+    "address": "0x5e69e8b51b71c8596817fd442849bd44219bb095",
+    "nameTag": "yearn: yvCurve-ibBTC Token"
+  },
+  {
+    "address": "0x490bd0886f221a5f79713d3e84404355a9293c50",
+    "nameTag": "yearn: yvCurve-ibCHF Token"
+  },
+  {
+    "address": "0x2e5c7e9b1da0d9cb2832ebb06241d18552a85400",
+    "nameTag": "yearn: yvCurve-ibCHF-USDC Token"
+  },
+  {
+    "address": "0x67e019bfbd5a67207755d04467d6a70c0b75bf60",
+    "nameTag": "yearn: yvCurve-ibEUR Token"
+  },
+  {
+    "address": "0xd347e7a3ddf5ce4c42e19a4f30eeaa761795c72b",
+    "nameTag": "yearn: yvCurve-ibEUR-f Token"
+  },
+  {
+    "address": "0xe5edce53e39cbc6d819e2c340bcf295e0084ff7c",
+    "nameTag": "yearn: yvCurve-ibEUR-USDC Token"
+  },
+  {
+    "address": "0x595a68a8c9d5c230001848b69b1947ee2a607164",
+    "nameTag": "yearn: yvCurve-ibGBP Token"
+  },
+  {
+    "address": "0x6b5ce31af687a671a804d8070ddda99cab926dfe",
+    "nameTag": "yearn: yvCurve-ibGBP-USDC Token"
+  },
+  {
+    "address": "0x59518884eebfb03e90a18adbaaab770d4666471e",
+    "nameTag": "yearn: yvCurve-ibJPY Token"
+  },
+  {
+    "address": "0x9a39f31dd5edf5919a5c0c2433ce053fad2e0336",
+    "nameTag": "yearn: yvCurve-ibJPY-USDC Token"
+  },
+  {
+    "address": "0x528d50dc9a333f01544177a924893fa1f5b9f748",
+    "nameTag": "yearn: yvCurve-ibKRW Token"
+  },
+  {
+    "address": "0xf6b9dfe6bc42ed2eab44d6b829017f7b78b29f88",
+    "nameTag": "yearn: yvCurve-ibKRW-USDC Token"
+  },
+  {
+    "address": "0xa8e0c42f45c877e611c76f2d4bf57476f2014381",
+    "nameTag": "yearn: yvCurve-IronBank-f Token"
+  },
+  {
+    "address": "0xf2db9a7c0acd427a680d640f02d90f6186e71725",
+    "nameTag": "yearn: yvCurve-LINK Token"
+  },
+  {
+    "address": "0x5fa5b62c8af877cb37031e0a3b2f34a78e3c56a6",
+    "nameTag": "yearn: yvCurve-LUSD Token"
+  },
+  {
+    "address": "0xad86df2e8f989c828b25a7da5eb1ec363283fa3f",
+    "nameTag": "yearn: yvCurve-LUSD-f Token"
+  },
+  {
+    "address": "0x2dfb14e32e2f8156ec15a2c21c3a6c053af52be8",
+    "nameTag": "yearn: yvCurve-MIM Token"
+  },
+  {
+    "address": "0xa540744dedbda9ef64cf753f0e851efe4a419ea9",
+    "nameTag": "yearn: yvCurve-MIM-f Token"
+  },
+  {
+    "address": "0xd8c620991b8e626c099eaab29b1e3eea279763bb",
+    "nameTag": "yearn: yvCurve-MIMUST Token"
+  },
+  {
+    "address": "0x133cb5cf617a33f5d02cffff579435776ef29fb0",
+    "nameTag": "yearn: yvCurve-multibtc3CRV-f-f Token"
+  },
+  {
+    "address": "0x8cc94ccd0f3841a468184aca3cc478d2148e1757",
+    "nameTag": "yearn: yvCurve-mUSD Token"
+  },
+  {
+    "address": "0xe9dc63083c464d6edccff23444ff3cfc6886f6fb",
+    "nameTag": "yearn: yvCurve-oBTC Token"
+  },
+  {
+    "address": "0xf59d66c1d593fb10e2f8c2a6fd2c958792434b9c",
+    "nameTag": "yearn: yvCurve-OUSD Token"
+  },
+  {
+    "address": "0x80bbee2fa460da291e796b9045e93d19ef948c6a",
+    "nameTag": "yearn: yvCurve-Pax Token"
+  },
+  {
+    "address": "0x2d5d4869381c4fce34789bc1d38acce747e295ae",
+    "nameTag": "yearn: yvCurve-RAI Token"
+  },
+  {
+    "address": "0xbfedbcbe27171c418cdabc2477042554b1904857",
+    "nameTag": "yearn: yvCurve-rETH Token"
+  },
+  {
+    "address": "0x5c0a86a32c129538d62c106eb8115a8b02358d57",
+    "nameTag": "yearn: yvCurve-rETHwstETH Token"
+  },
+  {
+    "address": "0xc116df49c02c5fd147de25baa105322ebf26bd97",
+    "nameTag": "yearn: yvCurve-RSV Token"
+  },
+  {
+    "address": "0xb5de7250128775a317b3f775a7afcec73571b732",
+    "nameTag": "yearn: yvCurve-sETH-f Token"
+  },
+  {
+    "address": "0x5b8c556b8b2a78696f0b9b830b3d67623122e270",
+    "nameTag": "yearn: yvCurve-stETH-f Token"
+  },
+  {
+    "address": "0x5faf6a2d186448dfa667c51cb3d695c7a6e52d8e",
+    "nameTag": "yearn: yvCurve-stETH-WETH Token"
+  },
+  {
+    "address": "0x341bb10d8f5947f3066502dc8125d9b8949fd3d6",
+    "nameTag": "yearn: yvCurve-STG-USDC Token"
+  },
+  {
+    "address": "0x5a770dbd3ee6baf2802d29a901ef11501c44797a",
+    "nameTag": "yearn: yvCurve-sUSD Token"
+  },
+  {
+    "address": "0x5b2384d566d2e4a0b29b8eccb642c63199cd393c",
+    "nameTag": "yearn: yvCurve-sUSD-f Token"
+  },
+  {
+    "address": "0x23d3d0f1c697247d5e0a9efb37d8b0ed0c464f7f",
+    "nameTag": "yearn: yvCurve-tBTC Token"
+  },
+  {
+    "address": "0x3d980e50508cfd41a13837a60149927a11c03731",
+    "nameTag": "yearn: yvCurve-triCrypto Token"
+  },
+  {
+    "address": "0x3d27705c64213a5dcd9d26880c1bcfa72d5b6b0e",
+    "nameTag": "yearn: yvCurve-USDK Token"
+  },
+  {
+    "address": "0x6fafca7f49b4fd9dc38117469cd31a1e5aec91f5",
+    "nameTag": "yearn: yvCurve-USDM Token"
+  },
+  {
+    "address": "0x8cdf57760be305f32e03b3d231e5a81e550c6295",
+    "nameTag": "yearn: yvCurve-USDN-f Token"
+  },
+  {
+    "address": "0xc4daf3b5e2a9e93861c3fbdd25f1e943b8d87417",
+    "nameTag": "yearn: yvCurve-USDP Token"
+  },
+  {
+    "address": "0x28a5b95c101df3ded0c0d9074db80c438774b6a9",
+    "nameTag": "yearn: yvCurve-USDT Token"
+  },
+  {
+    "address": "0x1c6a9783f812b3af3abbf7de64c3cd7cc7d1af44",
+    "nameTag": "yearn: yvCurve-UST Token"
+  },
+  {
+    "address": "0x790a60024bc3aea28385b60480f15a0771f26d09",
+    "nameTag": "yearn: yvCurve-YFIETH Token"
+  },
+  {
+    "address": "0xda816459f1ab5631232fe5e97a05bbbb94970c95",
+    "nameTag": "Yearn: yvDAI Vault"
+  },
+  {
+    "address": "0xc5bddf9843308380375a611c18b50fb9341f502a",
+    "nameTag": "yearn: yveCRV-DAO Vault"
+  },
+  {
+    "address": "0xe11ba472f74869176652c35d30db89854b5ae84d",
+    "nameTag": "yearn: yvHEGIC Vault"
+  },
+  {
+    "address": "0xb09f2a67a731466182518fae980feae96479d80b",
+    "nameTag": "yearn: yvKP3RETH-f Token"
+  },
+  {
+    "address": "0x671a912c10bba0cfa74cfc2d6fba9ba1ed9530b2",
+    "nameTag": "yearn: yvLINK Token"
+  },
+  {
+    "address": "0x378cb52b00f9d0921cb46dfc099cff73b42419dc",
+    "nameTag": "yearn: yvLUSD Token"
+  },
+  {
+    "address": "0xe0db48b4f71752c4bef16de1dbd042b82976b8c7",
+    "nameTag": "yearn: yvmUSD Vault"
+  },
+  {
+    "address": "0x873fb544277fd7b977b196a826459a69e27ea4ea",
+    "nameTag": "yearn: yvRAI Token"
+  },
+  {
+    "address": "0xf29ae508698bdef169b89834f76704c3b205aedf",
+    "nameTag": "yearn: yvSNX Token"
+  },
+  {
+    "address": "0xa5ca62d95d24a4a350983d5b8ac4eb8638887396",
+    "nameTag": "yearn: yvsUSD Token"
+  },
+  {
+    "address": "0x6d765cbe5bc922694afe112c140b8878b9fb0390",
+    "nameTag": "yearn: yvSUSHI Token"
+  },
+  {
+    "address": "0xfd0877d9095789caf24c98f7cce092fa8e120775",
+    "nameTag": "yearn: yvTUSD Token"
+  },
+  {
+    "address": "0xfbeb78a723b8087fd2ea7ef1afec93d35e8bed42",
+    "nameTag": "yearn: yvUNI Token"
+  },
+  {
+    "address": "0xa354f35829ae975e850e23e9615b11da1b3dc4de",
+    "nameTag": "Yearn: yvUSDC Vault"
+  },
+  {
+    "address": "0x7da96a3891add058ada2e826306d812c638d87a7",
+    "nameTag": "yearn: yvUSDT Token"
+  },
+  {
+    "address": "0x3b27f92c0e212c671ea351827edf93db27cc0c65",
+    "nameTag": "yearn: yvUSDT Token 2"
+  },
+  {
+    "address": "0xe1237aa7f535b0cc33fd973d66cbf830354d16c7",
+    "nameTag": "yearn: yWETH Vault"
+  },
+  {
+    "address": "0x04aa51bbcb46541455ccf1b8bef2ebc5d3787ec9",
+    "nameTag": "yearn: yWTBC Token"
+  },
+  {
+    "address": "0xba2e7fed597fd0e3e70f5130bcdbbfe06bb94fe1",
+    "nameTag": "yearn: yYFI Vault"
+  },
+  {
+    "address": "0x033e52f513f9b98e129381c6708f9faa2dee5db5",
+    "nameTag": "Ygov.finance: Balancer"
+  },
+  {
+    "address": "0xb01419e74d8a2abb1bbad82925b19c36c191a701",
+    "nameTag": "Ygov.finance: Fee Rewards"
+  },
+  {
+    "address": "0x3a22df48d84957f907e67f4313e3d43179040d6e",
+    "nameTag": "Ygov.finance: Governance"
+  },
+  {
+    "address": "0x0001fb050fe7312791bf6475b96569d83f695c9f",
+    "nameTag": "Ygov.finance: yearn"
+  },
+  {
+    "address": "0x0bc529c00c6401aef6d220be8c6ea1667f6ad93e",
+    "nameTag": "Ygov.finance: YFI Token"
+  }
+]

@@ -1,0 +1,1171 @@
+[
+  { "address": "0xe3a3de71b827cb73663a24cdb6243ba7f986cc3b", "nameTag": "" },
+  {
+    "address": "0x5300a1a15135ea4dc7ad5a167152c01efc9b192a",
+    "nameTag": "Aave : Executor Lvl1"
+  },
+  {
+    "address": "0x17dd33ed0e3dd2a80e37489b8a63063161be6957",
+    "nameTag": "Aave : Executor Lvl2"
+  },
+  {
+    "address": "0xba3d9687cf50fe253cd2e1cfeede1d6787344ed5",
+    "nameTag": "Aave: aAAVE Token V1"
+  },
+  {
+    "address": "0xffc97d72e13e01096502cb8eb52dee56f74dad7b",
+    "nameTag": "Aave: aAAVE Token V2"
+  },
+  {
+    "address": "0xd109b2a304587569c84308c55465cd9ff0317bfb",
+    "nameTag": "Aave: aAmmBptBALWETH Token V2"
+  },
+  {
+    "address": "0x358bd0d980e031e23eba9aa793926857703783bd",
+    "nameTag": "Aave: aAmmBptWBTCWETH Token V2"
+  },
+  {
+    "address": "0x79be75ffc64dd58e66787e4eae470c8a1fd08ba4",
+    "nameTag": "AAVE: aAmmDAI Token V2"
+  },
+  {
+    "address": "0xe59d2ff6995a926a574390824a657eed36801e55",
+    "nameTag": "Aave: aAmmUniAAVEWETH Token V2"
+  },
+  {
+    "address": "0xa1b0edf4460cc4d8bfaa18ed871bff15e5b57eb4",
+    "nameTag": "Aave: aAmmUniBATWETH Token V2"
+  },
+  {
+    "address": "0x0ea20e7ffb006d4cfe84df2f72d8c7bd89247db0",
+    "nameTag": "Aave: aAmmUniCRVWETH Token V2"
+  },
+  {
+    "address": "0xe340b25fe32b1011616bb8ec495a4d503e322177",
+    "nameTag": "Aave: aAmmUniDAIUSDC Token V2"
+  },
+  {
+    "address": "0x9303eabc860a743aabcc3a1629014cabcc3f8d36",
+    "nameTag": "Aave: aAmmUniDAIWETH Token V2"
+  },
+  {
+    "address": "0xb8db81b84d30e2387de0ff330420a4aaa6688134",
+    "nameTag": "Aave: aAmmUniLINKWETH Token V2"
+  },
+  {
+    "address": "0x370adc71f67f581158dc56f539df5f399128ddf9",
+    "nameTag": "Aave: aAmmUniMKRWETH Token V2"
+  },
+  {
+    "address": "0xa9e201a4e269d6cd5e9f0fcbcb78520cf815878b",
+    "nameTag": "Aave: aAmmUniRENWETH Token V2"
+  },
+  {
+    "address": "0x38e491a71291cd43e8de63b7253e482622184894",
+    "nameTag": "Aave: aAmmUniSNXWETH Token V2"
+  },
+  {
+    "address": "0x3d26dcd840fcc8e4b2193ace8a092e4a65832f9f",
+    "nameTag": "Aave: aAmmUniUNIWETH Token V2"
+  },
+  {
+    "address": "0x391e86e2c002c70dee155eaceb88f7a3c38f5976",
+    "nameTag": "Aave: aAmmUniUSDCWETH Token V2"
+  },
+  {
+    "address": "0x2365a4890ed8965e564b7e2d27c38ba67fec4c6f",
+    "nameTag": "Aave: aAmmUniWBTCUSDC Token V2"
+  },
+  {
+    "address": "0xc58f53a8adff2fb4eb16ed56635772075e2ee123",
+    "nameTag": "Aave: aAmmUniWBTCWETH Token V2"
+  },
+  {
+    "address": "0x5394794be8b6ed5572fcd6b27103f46b5f390e8f",
+    "nameTag": "Aave: aAmmUniYFIWETH Token V2"
+  },
+  {
+    "address": "0x17a79792fe6fe5c95dfe95fe3fcee3caf4fe4cb7",
+    "nameTag": "Aave: aAmmUSDT Token V2"
+  },
+  {
+    "address": "0x13b2f6928d7204328b0e8e4bcd0379aa06ea21fa",
+    "nameTag": "Aave: aAmmWBTC Token V2"
+  },
+  {
+    "address": "0xf9fb4ad91812b704ba883b11d2b576e890a6730a",
+    "nameTag": "Aave: aAmmWETH Token V2"
+  },
+  {
+    "address": "0x1e6bb68acec8fefbd87d192be09bb274170a0548",
+    "nameTag": "Aave: aAMPL Token V2"
+  },
+  {
+    "address": "0x464c71f6c2f760dda6093dcb91c24c39e5d6e18c",
+    "nameTag": "Aave: Aave Collector V2"
+  },
+  {
+    "address": "0x7fc66500c84a76ad7e9c93437bfc5ac33e2ddae9",
+    "nameTag": "Aave: AAVE Token"
+  },
+  {
+    "address": "0xf7dba49d571745d9d7fcb56225b05bea803ebf3c",
+    "nameTag": "Aave: Aave Variable Debt V2"
+  },
+  {
+    "address": "0x272f97b7a56a387ae942350bbc7df5700f8a4576",
+    "nameTag": "Aave: aBAL Token V2"
+  },
+  {
+    "address": "0xe1ba0fb44ccb0d11b80f92f4f8ed94ca3ff51d00",
+    "nameTag": "Aave: aBAT Token V1"
+  },
+  {
+    "address": "0x05ec93c0365baaeabf7aeffb0972ea7ecdd39cf1",
+    "nameTag": "Aave: aBAT Token V2"
+  },
+  {
+    "address": "0x41a08648c3766f9f9d85598ff102a08f4ef84f84",
+    "nameTag": "Aave: ABPT Token"
+  },
+  {
+    "address": "0x6ee0f7bb50a54ab5253da0667b0dc2ee526c30a8",
+    "nameTag": "Aave: aBUSD Token V1"
+  },
+  {
+    "address": "0xa361718326c15715591c299427c62086f69923d9",
+    "nameTag": "Aave: aBUSD Token V2"
+  },
+  {
+    "address": "0xee56e2b3d491590b5b31738cc34d5232f378a8d5",
+    "nameTag": "Aave: ACL Admin V3"
+  },
+  {
+    "address": "0xc2aacf6553d20d1e9d78e365aaba8032af9c85b0",
+    "nameTag": "Aave: ACL Manager V3"
+  },
+  {
+    "address": "0x8dae6cb04688c62d939ed9b68d32bc62e49970b1",
+    "nameTag": "Aave: aCRV Token V2"
+  },
+  {
+    "address": "0xfc1e690f61efd961294b3e1ce3313fbd8aa4f85d",
+    "nameTag": "Aave: aDAI Token V1"
+  },
+  {
+    "address": "0x028171bca77440897b824ca71d1c56cac55b68a3",
+    "nameTag": "Aave: aDAI Token V2"
+  },
+  {
+    "address": "0x712db54daa836b53ef1ecbb9c6ba3b9efb073f40",
+    "nameTag": "Aave: aENJ Token V1"
+  },
+  {
+    "address": "0xac6df26a590f08dcc95d5a4705ae8abbc88509ef",
+    "nameTag": "Aave: aENJ Token V2"
+  },
+  {
+    "address": "0x3a3a65aab0dd2a17e3f1947ba16138cd37d08c04",
+    "nameTag": "Aave: aETH Token"
+  },
+  {
+    "address": "0xd37ee7e4f452c6638c96536e68090de8cbcdb583",
+    "nameTag": "Aave: aGUSD Token V2"
+  },
+  {
+    "address": "0x9d91be44c06d373a8a226e1f3b146956083803eb",
+    "nameTag": "Aave: aKNC Token V1"
+  },
+  {
+    "address": "0x39c6b3e42d6a679d7d776778fe880bc9487c2eda",
+    "nameTag": "Aave: aKNC Token V2"
+  },
+  {
+    "address": "0x7d2d3688df45ce7c552e19c27e007673da9204b8",
+    "nameTag": "Aave: aLEND Token"
+  },
+  {
+    "address": "0xa64bd6c70cb9051f6a9ba1f163fdc07e0dfb5f84",
+    "nameTag": "Aave: aLINK Token V1"
+  },
+  {
+    "address": "0xa06bc25b5805d5f8d82847d191cb4af5a3e873e0",
+    "nameTag": "Aave: aLINK Token V2"
+  },
+  {
+    "address": "0x6fce4a401b6b80ace52baaefe4421bd188e76f6f",
+    "nameTag": "Aave: aMANA Token V1"
+  },
+  {
+    "address": "0xa685a61171bb30d4072b338c80cb7b2c865c873e",
+    "nameTag": "Aave: aMANA Token V2"
+  },
+  {
+    "address": "0x7deb5e830be29f91e298ba5ff1356bb7f8146998",
+    "nameTag": "Aave: aMKR Token V1"
+  },
+  {
+    "address": "0xc713e5e149d5d0715dcd1c156a020976e7e56b88",
+    "nameTag": "Aave: aMKR Token V2"
+  },
+  {
+    "address": "0x9a8ca7e1d64afff2664443b3803f280345f5336b",
+    "nameTag": "Aave: AMPL Interest Rate Strategy V2"
+  },
+  {
+    "address": "0xf013d90e4e4e3baf420dfea60735e75dbd42f1e1",
+    "nameTag": "Aave: AMPL Variable Debt V2"
+  },
+  {
+    "address": "0x2e8f4bdbe3d47d7d7de490437aea9915d930f1a3",
+    "nameTag": "Aave: aPAX Token V2"
+  },
+  {
+    "address": "0xc9bc48c72154ef3e5425641a3c747242112a46af",
+    "nameTag": "Aave: aRAI Token V2"
+  },
+  {
+    "address": "0x69948cc03f478b95283f7dbf1ce764d0fc7ec54c",
+    "nameTag": "Aave: aREN Token V1"
+  },
+  {
+    "address": "0xcc12abe4ff81c9378d670de1b57f8e0dd228d77a",
+    "nameTag": "Aave: aREN Token V2"
+  },
+  {
+    "address": "0x514cd6756ccbe28772d4cb81bc3156ba9d1744aa",
+    "nameTag": "Aave: aRENFIL Token"
+  },
+  {
+    "address": "0x71010a9d003445ac60c4e6a7017c1e89a477b438",
+    "nameTag": "Aave: aREP Token"
+  },
+  {
+    "address": "0x328c4c80bc7aca0834db37e6600a6c49e12da4de",
+    "nameTag": "Aave: aSNX Token V1"
+  },
+  {
+    "address": "0x35f6b052c598d933d69a4eec4d04c73a191fe6c2",
+    "nameTag": "Aave: aSNX Token V2"
+  },
+  {
+    "address": "0x625ae63000f46200499120b906716420bd059240",
+    "nameTag": "Aave: aSUSD Token V1"
+  },
+  {
+    "address": "0x6c5024cd4f8a59110119c56f8933403a539555eb",
+    "nameTag": "Aave: aSUSD Token V2"
+  },
+  {
+    "address": "0x4da9b813057d04baef4e5800e36083717b4a0341",
+    "nameTag": "Aave: aTUSD Token V1"
+  },
+  {
+    "address": "0x101cc05f4a51c0319f570d5e146a8c625198e636",
+    "nameTag": "Aave: aTUSD Token V2"
+  },
+  {
+    "address": "0xb124541127a0a657f056d9dd06188c4f1b0e5aab",
+    "nameTag": "Aave: aUNI Token V1"
+  },
+  {
+    "address": "0xb9d7cb55f463405cdfbe4e90a6d2df01c2b92bf1",
+    "nameTag": "Aave: aUNI Token V2"
+  },
+  {
+    "address": "0x9ba00d6856a4edf4665bca2c2309936572473b7e",
+    "nameTag": "Aave: aUSDC Token V1"
+  },
+  {
+    "address": "0xbcca60bb61934080951369a648fb03df4f96263c",
+    "nameTag": "Aave: aUSDC Token V2"
+  },
+  {
+    "address": "0x71fc860f7d3a592a4a98740e39db31d25db65ae8",
+    "nameTag": "Aave: aUSDT Token V1"
+  },
+  {
+    "address": "0x3ed3b47dd13ec9a98b44e6204a523e766b225811",
+    "nameTag": "Aave: aUSDT Token V2"
+  },
+  {
+    "address": "0xfc4b8ed459e00e5400be803a9bb3954234fd50e3",
+    "nameTag": "Aave: aWBTC Token V1"
+  },
+  {
+    "address": "0x9ff58f4ffb29fa2266ab25e75e2a8b3503311656",
+    "nameTag": "Aave: aWBTC Token V2"
+  },
+  {
+    "address": "0x030ba81f1c18d280636f32af80b9aad02cf0854e",
+    "nameTag": "Aave: aWETH Token V2"
+  },
+  {
+    "address": "0xf256cc7847e919fac9b808cc216cac87ccf2f47a",
+    "nameTag": "Aave: aXSUSHI Token V2"
+  },
+  {
+    "address": "0x12e51e77daaa58aa0e9247db7510ea4b46f9bead",
+    "nameTag": "Aave: aYFI Token V1"
+  },
+  {
+    "address": "0x5165d24277cd063f5ac44efd447b27025e888f37",
+    "nameTag": "Aave: aYFI Token V2"
+  },
+  {
+    "address": "0x6fb0855c404e09c47c3fbca25f08d4e41f9f062f",
+    "nameTag": "Aave: aZRX Token V1"
+  },
+  {
+    "address": "0xdf7ff54aacacbff42dfe29dd6144a69b629f8c9e",
+    "nameTag": "Aave: aZRX Token V2"
+  },
+  {
+    "address": "0xfc0eace19aa7498e0f36ef1607d282a8d6debbdd",
+    "nameTag": "Aave: BAL Interest Rate Strategy V2"
+  },
+  {
+    "address": "0x13210d4fe0d5402bd7ecbc4b5bc5cfca3b71adb0",
+    "nameTag": "Aave: BAL Variable Debt V2"
+  },
+  {
+    "address": "0xbdfc85b140edf1feafd6ed664027aa4c23b4a29f",
+    "nameTag": "Aave: BAT Interest Rate Strategy V2"
+  },
+  {
+    "address": "0x277f8676facf4daa5a6ea38ba511b7f65aa02f9f",
+    "nameTag": "Aave: BAT Stable Debt V2"
+  },
+  {
+    "address": "0xfc218a6dfe6901cb34b1a5281fc6f1b8e7e56877",
+    "nameTag": "Aave: BAT Variable Debt V2"
+  },
+  {
+    "address": "0x26d40544447f68a3de69005822195549934624b9",
+    "nameTag": "Aave: BUSD Interest Rate Strategy V2"
+  },
+  {
+    "address": "0x4a7a63909a72d268b1d8a93a9395d098688e0e5c",
+    "nameTag": "Aave: BUSD Stable Debt V2"
+  },
+  {
+    "address": "0xba429f7011c9fa04cdd46a2da24dc0ff0ac6099c",
+    "nameTag": "Aave: BUSD Variable Debt V2"
+  },
+  {
+    "address": "0x9288059a74f589c919c7cf1db433251cdfeb874b",
+    "nameTag": "Aave: CRV Stable Debt V2"
+  },
+  {
+    "address": "0x00ad8ebf64f141f1c81e9f8f792d3d1631c6c684",
+    "nameTag": "Aave: CRV Variable Debt V2"
+  },
+  {
+    "address": "0xfffe32106a68aa3ed39ccce673b646423eeab62a",
+    "nameTag": "Aave: DAI Interest Rate Strategy V2"
+  },
+  {
+    "address": "0x778a13d3eeb110a4f7bb6529f99c000119a08e92",
+    "nameTag": "Aave: DAI Stable Debt V2"
+  },
+  {
+    "address": "0x6c3c78838c761c6ac7be9f59fe808ea2a6e4379d",
+    "nameTag": "Aave: DAI Variable Debt V2"
+  },
+  {
+    "address": "0x8f30adaa6950b31f675bf8a709bc23f55aa24735",
+    "nameTag": "Aave: Debt Swap Adapter V3"
+  },
+  {
+    "address": "0xfe1a6056ee03235f30f7a48407a5673bbf25ed48",
+    "nameTag": "Aave: Deployer"
+  },
+  {
+    "address": "0x2fbb0c60a41cb7ea5323071624dcead3d213d0fa",
+    "nameTag": "Aave: Deployer 2"
+  },
+  {
+    "address": "0x51f22ac850d29c879367a77d241734acb276b815",
+    "nameTag": "Aave: Deployer 3"
+  },
+  {
+    "address": "0x25f2226b597e8f9514b3f68f00f494cf4f286491",
+    "nameTag": "Aave: Ecosystem Reserve"
+  },
+  {
+    "address": "0x3d569673daa0575c936c7c67c4e6aeda69cc630c",
+    "nameTag": "Aave: Ecosystem Reserve Controller"
+  },
+  {
+    "address": "0x223d844fc4b006d67c0cdbd39371a9f73f69d974",
+    "nameTag": "Aave: Emission Manager V3"
+  },
+  {
+    "address": "0x4a4fb6b26e7f516594b7242240039ea8faac897a",
+    "nameTag": "Aave: ENJ Interest Rate Strategy V2"
+  },
+  {
+    "address": "0x943dcca156b5312aa24c1a08769d67fece4ac14c",
+    "nameTag": "Aave: ENJ Stable Debt V2"
+  },
+  {
+    "address": "0x38995f292a6e31b78203254fe1cdd5ca1010a446",
+    "nameTag": "Aave: ENJ Variable Debt V2"
+  },
+  {
+    "address": "0x71aef7b30728b9bb371578f36c5a1f1502a5723e",
+    "nameTag": "Aave: Ethereum 1INCH"
+  },
+  {
+    "address": "0xa700b4eb416be35b2911fd5dee80678ff64ff6c9",
+    "nameTag": "Aave: Ethereum AAVE V3"
+  },
+  {
+    "address": "0x2516e7b3f76294e03c42aa4c5b5b4dce9c436fb8",
+    "nameTag": "Aave: Ethereum BAL"
+  },
+  {
+    "address": "0x977b6fc5de62598b08c85ac8cf2b745874e8b78c",
+    "nameTag": "Aave: Ethereum cbETH"
+  },
+  {
+    "address": "0x7b95ec873268a6bfc6427e7a28e396db9d0ebc65",
+    "nameTag": "Aave: Ethereum CRV"
+  },
+  {
+    "address": "0x018008bfb33d285247a21d44e50697654f754e63",
+    "nameTag": "Aave: Ethereum DAI V3"
+  },
+  {
+    "address": "0x545bd6c032efdde65a377a6719def2796c8e0f2e",
+    "nameTag": "Aave: Ethereum ENS"
+  },
+  {
+    "address": "0xd4e245848d6e1220dbe62e155d89fa327e43cb06",
+    "nameTag": "Aave: Ethereum FRAX"
+  },
+  {
+    "address": "0x00907f9921424583e7ffbfedf84f92b7b2be4977",
+    "nameTag": "Aave: Ethereum GHO"
+  },
+  {
+    "address": "0x9a44fd41566876a39655f74971a3a6ea0a17a454",
+    "nameTag": "Aave: Ethereum LDO"
+  },
+  {
+    "address": "0x5e8c8a7243651db1384c0ddfdbe39761e8e7e51a",
+    "nameTag": "Aave: Ethereum LINK V3"
+  },
+  {
+    "address": "0x3fe6a295459fae07df8a0cecc36f37160fe86aa9",
+    "nameTag": "Aave: Ethereum LUSD"
+  },
+  {
+    "address": "0xcc9ee9483f662091a1de4795249e24ac0ac2630f",
+    "nameTag": "Aave: Ethereum rETH"
+  },
+  {
+    "address": "0xb76cf92076adbf1d9c39294fa8e7a67579fde357",
+    "nameTag": "Aave: Ethereum RPL"
+  },
+  {
+    "address": "0x4c612e3b15b96ff9a6faed838f8d07d479a8dd4c",
+    "nameTag": "Aave: Ethereum sDAI"
+  },
+  {
+    "address": "0xc7b4c17861357b8abb91f25581e7263e08dcb59c",
+    "nameTag": "Aave: Ethereum SNX"
+  },
+  {
+    "address": "0x4b62bfaff61ab3985798e5202d2d167f567d0bcd",
+    "nameTag": "Aave: Ethereum Stable Debt 1INCH"
+  },
+  {
+    "address": "0x268497bf083388b1504270d0e717222d3a87d6f2",
+    "nameTag": "Aave: Ethereum Stable Debt AAVE"
+  },
+  {
+    "address": "0xb368d45aaaa07ee2c6275cb320d140b22de43cdd",
+    "nameTag": "Aave: Ethereum Stable Debt BAL"
+  },
+  {
+    "address": "0x82be6012cea6d147b968ebaea5ceecf6a5b4f493",
+    "nameTag": "Aave: Ethereum Stable Debt cbETH"
+  },
+  {
+    "address": "0x90d9cd005e553111eb8c9c31abe9706a186b6048",
+    "nameTag": "Aave: Ethereum Stable Debt CRV"
+  },
+  {
+    "address": "0x413adac9e2ef8683adf5ddaece8f19613d60d1bb",
+    "nameTag": "Aave: Ethereum Stable Debt DAI"
+  },
+  {
+    "address": "0x7617d02e311cde347a0cb45bb7df2926bbaf5347",
+    "nameTag": "Aave: Ethereum Stable Debt ENS"
+  },
+  {
+    "address": "0x219640546c0dfddcb9ab3bcda89b324e0a376367",
+    "nameTag": "Aave: Ethereum Stable Debt FRAX"
+  },
+  {
+    "address": "0x3f3df7266da30102344a813f1a3d07f5f041b5ac",
+    "nameTag": "Aave: Ethereum Stable Debt GHO"
+  },
+  {
+    "address": "0xa0a5bf5781aeb548db9d4226363b9e89287c5fd2",
+    "nameTag": "Aave: Ethereum Stable Debt LDO"
+  },
+  {
+    "address": "0x63b1129ca97d2b9f97f45670787ac12a9df1110a",
+    "nameTag": "Aave: Ethereum Stable Debt LINK"
+  },
+  {
+    "address": "0x37a6b708fdb1483c231961b9a7f145261e815fc3",
+    "nameTag": "Aave: Ethereum Stable Debt LUSD"
+  },
+  {
+    "address": "0x0496372be7e426d28e89debf01f19f014d5938be",
+    "nameTag": "Aave: Ethereum Stable Debt MKR"
+  },
+  {
+    "address": "0x1d1906f909cae494c7441604dafdddbd0485a925",
+    "nameTag": "Aave: Ethereum Stable Debt rETH"
+  },
+  {
+    "address": "0x41e330fd8f7ea31e2e8f02cc0c9392d1403597b4",
+    "nameTag": "Aave: Ethereum Stable Debt RPL"
+  },
+  {
+    "address": "0x48bc45f084988bc01933ea93eeffebc0416534f6",
+    "nameTag": "Aave: Ethereum Stable Debt sDAI"
+  },
+  {
+    "address": "0x478e1ec1a2beed94c1407c951e4b9e22d53b2501",
+    "nameTag": "Aave: Ethereum Stable Debt SNX"
+  },
+  {
+    "address": "0x2fec76324a0463c46f32e74a86d1cf94c02158dc",
+    "nameTag": "Aave: Ethereum Stable Debt UNI"
+  },
+  {
+    "address": "0xb0fe3d292f4bd50de902ba5bdf120ad66e9d7a39",
+    "nameTag": "Aave: Ethereum Stable Debt USDC"
+  },
+  {
+    "address": "0x822fa72df1f229c3900f5ad6c3fa2c424d691622",
+    "nameTag": "Aave: Ethereum Stable Debt USDT"
+  },
+  {
+    "address": "0xa1773f1ccf6db192ad8fe826d15fe1d328b03284",
+    "nameTag": "Aave: Ethereum Stable Debt WBTC"
+  },
+  {
+    "address": "0x102633152313c81cd80419b6ecf66d14ad68949a",
+    "nameTag": "Aave: Ethereum Stable Debt WETH"
+  },
+  {
+    "address": "0x39739943199c0fbfe9e5f1b5b160cd73a64cb85d",
+    "nameTag": "Aave: Ethereum Stable Debt wstETH"
+  },
+  {
+    "address": "0xf6d2224916ddfbbab6e6bd0d1b7034f4ae0cab18",
+    "nameTag": "Aave: Ethereum UNI"
+  },
+  {
+    "address": "0x23878914efe38d27c4d67ab83ed1b93a74d4086a",
+    "nameTag": "Aave: Ethereum USDT"
+  },
+  {
+    "address": "0xa38fca8c6bf9bda52e76eb78f08caa3be7c5a970",
+    "nameTag": "Aave: Ethereum Variable Debt 1INCH"
+  },
+  {
+    "address": "0xbae535520abd9f8c85e58929e0006a2c8b372f74",
+    "nameTag": "Aave: Ethereum Variable Debt AAVE"
+  },
+  {
+    "address": "0x3d3efceb4ff0966d34d9545d3a2fa2dcdbf451f2",
+    "nameTag": "Aave: Ethereum Variable Debt BAL"
+  },
+  {
+    "address": "0x0c91bca95b5fe69164ce583a2ec9429a569798ed",
+    "nameTag": "Aave: Ethereum Variable Debt cbETH"
+  },
+  {
+    "address": "0x1b7d3f4b3c032a5ae656e30eea4e8e1ba376068f",
+    "nameTag": "Aave: Ethereum Variable Debt CRV"
+  },
+  {
+    "address": "0xcf8d0c70c850859266f5c338b38f9d663181c314",
+    "nameTag": "Aave: Ethereum Variable Debt DAI"
+  },
+  {
+    "address": "0xd180d7fdd4092f07428efe801e17bc03576b3192",
+    "nameTag": "Aave: Ethereum Variable Debt ENS"
+  },
+  {
+    "address": "0x88b8358f5bc87c2d7e116cca5b65a9eeb2c5ea3f",
+    "nameTag": "Aave: Ethereum Variable Debt FRAX"
+  },
+  {
+    "address": "0x786dbff3f1292ae8f92ea68cf93c30b34b1ed04b",
+    "nameTag": "Aave: Ethereum Variable Debt GHO"
+  },
+  {
+    "address": "0xc30808705c01289a3d306ca9cab081ba9114ec82",
+    "nameTag": "Aave: Ethereum Variable Debt LDO"
+  },
+  {
+    "address": "0x4228f8895c7dda20227f6a5c6751b8ebf19a6ba8",
+    "nameTag": "Aave: Ethereum Variable Debt LINK"
+  },
+  {
+    "address": "0x33652e48e4b74d18520f11bfe58edd2ed2cec5a2",
+    "nameTag": "Aave: Ethereum Variable Debt LUSD"
+  },
+  {
+    "address": "0x6efc73e54e41b27d2134ff9f98f15550f30df9b1",
+    "nameTag": "Aave: Ethereum Variable Debt MKR"
+  },
+  {
+    "address": "0xae8593dd575fe29a9745056aa91c4b746eee62c8",
+    "nameTag": "Aave: Ethereum Variable Debt rETH"
+  },
+  {
+    "address": "0x8988eca19d502fd8b9ccd03fa3bd20a6f599bc2a",
+    "nameTag": "Aave: Ethereum Variable Debt RPL"
+  },
+  {
+    "address": "0x8db9d35e117d8b93c6ca9b644b25bad5d9908141",
+    "nameTag": "Aave: Ethereum Variable Debt sDAI"
+  },
+  {
+    "address": "0x8d0de040e8aad872ec3c33a3776de9152d3c34ca",
+    "nameTag": "Aave: Ethereum Variable Debt SNX"
+  },
+  {
+    "address": "0xf64178ebd2e2719f2b1233bcb5ef6db4bcc4d09a",
+    "nameTag": "Aave: Ethereum Variable Debt UNI"
+  },
+  {
+    "address": "0x72e95b8931767c79ba4eee721354d6e99a61d004",
+    "nameTag": "Aave: Ethereum Variable Debt USDC"
+  },
+  {
+    "address": "0x6df1c1e379bc5a00a7b4c6e67a203333772f45a8",
+    "nameTag": "Aave: Ethereum Variable Debt USDT"
+  },
+  {
+    "address": "0x40aabef1aa8f0eec637e0e7d92fbffb2f26a8b7b",
+    "nameTag": "Aave: Ethereum Variable Debt WBTC"
+  },
+  {
+    "address": "0xea51d7853eefb32b6ee06b1c12e6dcca88be0ffe",
+    "nameTag": "Aave: Ethereum Variable Debt WETH"
+  },
+  {
+    "address": "0x5ee5bf7ae06d1be5997a1a72006fe6c607ec6de8",
+    "nameTag": "Aave: Ethereum WBTC V3"
+  },
+  {
+    "address": "0x4d5f47fa6a74757f35c14fd3a6ef8e3c9bc514e8",
+    "nameTag": "Aave: Ethereum WETH V3"
+  },
+  {
+    "address": "0x0b925ed163218f6662a35e0f0371ac234f9e9371",
+    "nameTag": "Aave: Ethereum wstETH V3"
+  },
+  {
+    "address": "0x4a49985b14bd0ce42c25efde5d8c379a48ab02f3",
+    "nameTag": "Aave: Genesis Team"
+  },
+  {
+    "address": "0x9aee0b04504cef83a65ac3f0e838d0593bcb2bc7",
+    "nameTag": "Aave: Governance"
+  },
+  {
+    "address": "0x2893405d64a7bc8db02fa617351a5399d59ecf8d",
+    "nameTag": "Aave: GUSD Interest Rate Strategy V2"
+  },
+  {
+    "address": "0xf8ac64ec6ff8e0028b37eb89772d21865321bce0",
+    "nameTag": "Aave: GUSD Stable Debt V2"
+  },
+  {
+    "address": "0x279af5b99540c1a3a7e3cdd326e19659401ef99e",
+    "nameTag": "Aave: GUSD Variable Debt V2"
+  },
+  {
+    "address": "0xd784927ff2f95ba542bfc824c8a8a98f3495f6b5",
+    "nameTag": "Aave: Incentives Controller"
+  },
+  {
+    "address": "0x8164cc65827dcfe994ab23944cbc90e0aa80bfcb",
+    "nameTag": "Aave: Incentives V3"
+  },
+  {
+    "address": "0xd9d85499449f26d2a2c240defd75314f23920089",
+    "nameTag": "Aave: Interest Rate Strategy BAL"
+  },
+  {
+    "address": "0x76884cafecf1f7d4146da6c4053b18b76bf6ed14",
+    "nameTag": "Aave: Interest Rate Strategy CRV"
+  },
+  {
+    "address": "0x9a158802cd924747ef336ca3f9de3bdb60cf43d3",
+    "nameTag": "Aave: Interest Rate Strategy DAI"
+  },
+  {
+    "address": "0x694d4cfdaee639239df949b6e24ff8576a00d1f2",
+    "nameTag": "Aave: Interest Rate Strategy FRAX"
+  },
+  {
+    "address": "0x24701a6368ff6d2874d6b8cdadd461552b8a5283",
+    "nameTag": "Aave: Interest Rate Strategy LINK"
+  },
+  {
+    "address": "0x349684da30f8c9affeaf21afab3a1ad51f5d95a3",
+    "nameTag": "Aave: Interest Rate Strategy LUSD"
+  },
+  {
+    "address": "0x27efe5db315b71753b2a38ed3d5dd7e9362ba93f",
+    "nameTag": "Aave: Interest Rate Strategy MKR"
+  },
+  {
+    "address": "0xd87974e8ed49ab16d5053ba793f4e17078be0426",
+    "nameTag": "Aave: Interest Rate Strategy RPL"
+  },
+  {
+    "address": "0xdef8f50155a6cf21181e29e400e8cffae2d50968",
+    "nameTag": "Aave: Interest Rate Strategy sDAI"
+  },
+  {
+    "address": "0xa6459195d60a797d278f58ffbd2ba62fb3f7fa1e",
+    "nameTag": "Aave: Interest Rate Strategy SNX"
+  },
+  {
+    "address": "0x8f183ee74c790cb558232a141099b316d6c8ba6e",
+    "nameTag": "Aave: Interest Rate Strategy USDC"
+  },
+  {
+    "address": "0xc82df96432346cfb632473eb619db3b8ac280234",
+    "nameTag": "Aave: Interest Rate Strategy USDT"
+  },
+  {
+    "address": "0xb02381b1d27aa9845e5012083ca288c1818884f0",
+    "nameTag": "Aave: Interest Rate Strategy WETH"
+  },
+  {
+    "address": "0x7b8fa4540246554e77fcff140f9114de00f8bb8d",
+    "nameTag": "Aave: Interest Rate Strategy wstETH"
+  },
+  {
+    "address": "0xfdbda42d2ac1bfbbc10555eb255de8387b8977c4",
+    "nameTag": "Aave: KNC Interest Rate Strategy V2"
+  },
+  {
+    "address": "0x9915dfb872778b2890a117da1f35f335eb06b54f",
+    "nameTag": "Aave: KNC Stable Debt V2"
+  },
+  {
+    "address": "0x6b05d1c608015ccb8e205a690cb86773a96f39f1",
+    "nameTag": "Aave: KNC Variable Debt V2"
+  },
+  {
+    "address": "0x317625234562b1526ea2fac4030ea499c5291de4",
+    "nameTag": "Aave: LEND To AAVE Migrator"
+  },
+  {
+    "address": "0x80fb784b7ed66730e8b1dbd9820afd29931aab03",
+    "nameTag": "Aave: LEND Token"
+  },
+  {
+    "address": "0x7937d4799803fbbe595ed57278bc4ca21f3bffcb",
+    "nameTag": "Aave: Lending Pool"
+  },
+  {
+    "address": "0x311bb771e4f8952e6da169b425e7e92d6ac45756",
+    "nameTag": "Aave: Lending Pool Configurator V2"
+  },
+  {
+    "address": "0x3dfd23a6c5e8bbcfc9581d2e864a68feb6a076d3",
+    "nameTag": "Aave: Lending Pool Core V1"
+  },
+  {
+    "address": "0x24a42fd28c976a61df5d00d0599c34c4f90748c8",
+    "nameTag": "Aave: Lending Pool Provider V1"
+  },
+  {
+    "address": "0xb53c1a33016b2dc2ff3653530bff1848a515c8c5",
+    "nameTag": "Aave: Lending Pool Provider V2"
+  },
+  {
+    "address": "0x52d306e36e3b6b02c153d0266ff0f85d18bcd413",
+    "nameTag": "Aave: Lending Pool Registry V2"
+  },
+  {
+    "address": "0x398ec7346dcd622edc5ae82352f02be94c62d119",
+    "nameTag": "Aave: Lending Pool V1"
+  },
+  {
+    "address": "0x7d2768de32b0b80b7a3454c06bdac94a69ddc7a9",
+    "nameTag": "Aave: Lending Pool V2"
+  },
+  {
+    "address": "0x8a32f49ffba88aba6eff96f45d8bd1d4b3f35c7d",
+    "nameTag": "Aave: Lending Rate Oracle V2"
+  },
+  {
+    "address": "0xed6547b83276b076b771b88fccbd68bdedb3927f",
+    "nameTag": "Aave: Link Interest Rate Strategy V2"
+  },
+  {
+    "address": "0xfb4aec4cc858f2539ebd3d37f2a43eae5b15b98a",
+    "nameTag": "Aave: Link Stable Debt V2"
+  },
+  {
+    "address": "0x0b8f12b1788bfde65aa1ca52e3e9f3ba401be16d",
+    "nameTag": "Aave: Link Variable Debt V2"
+  },
+  {
+    "address": "0xe202f2fc4b6a37ba53cfd15be42a762a645fca07",
+    "nameTag": "Aave: Listing Engine V3"
+  },
+  {
+    "address": "0x004fc239848d8a8d3304729b78ba81d73d83c99f",
+    "nameTag": "Aave: Mana Interest Rate Strategy V2"
+  },
+  {
+    "address": "0xd86c74ea2224f4b8591560652b50035e4e5c0a3b",
+    "nameTag": "Aave: MANA Stable Debt V2"
+  },
+  {
+    "address": "0x0a68976301e46ca6ce7410db28883e309ea0d352",
+    "nameTag": "Aave: Mana Variable Debt V2"
+  },
+  {
+    "address": "0xb748952c7bc638f31775245964707bcc5ddfabfc",
+    "nameTag": "Aave: Migration Helper Mainnet V3"
+  },
+  {
+    "address": "0xc01c8e4b12a89456a9fd4e4e75b72546bf53f0b5",
+    "nameTag": "Aave: MKR Stable Debt V2"
+  },
+  {
+    "address": "0xba728ead5e496be00dcf66f650b6d7758ecb50f8",
+    "nameTag": "Aave: MKR Variable Debt V2"
+  },
+  {
+    "address": "0x54586be62e3c3580375ae3723c145253060ca0c2",
+    "nameTag": "Aave: Oracle V3"
+  },
+  {
+    "address": "0x872fbcb1b582e8cd0d0dd4327fbfa0b4c2730995",
+    "nameTag": "Aave: ParaSwap Liquidity Swap Adapter"
+  },
+  {
+    "address": "0x1809f186d680f239420b56948c58f8dbbcdf1e18",
+    "nameTag": "Aave: ParaSwap Repay Adapter"
+  },
+  {
+    "address": "0x404d396fc42e20d14585a1a10cd64bddc6c6574a",
+    "nameTag": "Aave: PAX Interest Rate Strategy V2"
+  },
+  {
+    "address": "0xfdb93b3b10936cf81fa59a02a7523b6e2149b2b7",
+    "nameTag": "Aave: PAX Variable Debt V2"
+  },
+  {
+    "address": "0xdabad81af85554e9ae636395611c58f7ec1aaec5",
+    "nameTag": "Aave: Payloads Controller"
+  },
+  {
+    "address": "0xbaa999ac55eace41ccae355c77809e68bb345170",
+    "nameTag": "Aave: Pool Address Provider Registry V3"
+  },
+  {
+    "address": "0x2f39d218133afab8f2b819b1066c7e434ad94e9e",
+    "nameTag": "Aave: Pool Address Provider V3"
+  },
+  {
+    "address": "0xb9062896ec3a615a4e4444df183f0531a77218ae",
+    "nameTag": "Aave: Pool Admin V2"
+  },
+  {
+    "address": "0x64b761d848206f447fe2dd461b0c635ec39ebb27",
+    "nameTag": "Aave: Pool Configurator V3"
+  },
+  {
+    "address": "0x7b4eb56e7cd4b454ba8ff71e4518426369a138a3",
+    "nameTag": "Aave: Pool Data Provider"
+  },
+  {
+    "address": "0x87870bca3f3fd6335c3f4ce8392d69350b4fa4e2",
+    "nameTag": "Aave: Pool V3"
+  },
+  {
+    "address": "0xa50ba011c48153de246e5192c8f9258a2ba79ca9",
+    "nameTag": "Aave: Price Oracle V2"
+  },
+  {
+    "address": "0x057835ad21a177dbdd3090bb1cae03eacf78fc6d",
+    "nameTag": "Aave: Protocol Data Provider V2"
+  },
+  {
+    "address": "0x4965f6fa20fe9728decf5165016fc338a5a85abf",
+    "nameTag": "Aave: Proxy"
+  },
+  {
+    "address": "0xa7d4df837926cd55036175afef38395d56a64c22",
+    "nameTag": "Aave: RAI Interest Rate Strategy V2"
+  },
+  {
+    "address": "0xb5385132ee8321977fff44b60cde9fe9ab0b4e6b",
+    "nameTag": "Aave: RAI Variable Debt V2"
+  },
+  {
+    "address": "0xcc47c4fe1f7f29ff31a8b62197023ac8553c7896",
+    "nameTag": "Aave: Rates Factory V3"
+  },
+  {
+    "address": "0x9b1e3c7483f0f21abfeae3aebc9b47b5f23f5bb0",
+    "nameTag": "Aave: REN Interest Rate Strategy V2"
+  },
+  {
+    "address": "0x3356ec1efa75d9d150da1ec7d944d9edf73703b7",
+    "nameTag": "Aave: REN Stable Debt V2"
+  },
+  {
+    "address": "0xcd9d82d33bd737de215cdac57fe2f7f04df77fe0",
+    "nameTag": "Aave: REN Variable Debt V2"
+  },
+  {
+    "address": "0xb140cb1306b396c658a5438602b6857842e1e98a",
+    "nameTag": "Aave: RenFIL Interest Rate Strategy V2"
+  },
+  {
+    "address": "0xcaad05c49e14075077915cb5c820eb3245afb950",
+    "nameTag": "Aave: RenFIL Stable Debt V2"
+  },
+  {
+    "address": "0x348e2ebd5e962854871874e444f4122399c02755",
+    "nameTag": "Aave: RenFIL Variable Debt V2"
+  },
+  {
+    "address": "0x02e7b8511831b1b02d9018215a0f8f500ea5c6b3",
+    "nameTag": "Aave: Repay With Collateral Adapter V3"
+  },
+  {
+    "address": "0x82dccf206ae2ab46e2099e663f70dee77cae7778",
+    "nameTag": "Aave: Risk Steward V3"
+  },
+  {
+    "address": "0xcc92073dde8ae03baa1812ac5cf22e69b5e76914",
+    "nameTag": "Aave: SNX Interest Rate Strategy V2"
+  },
+  {
+    "address": "0x8575c8ae70bdb71606a53aea1c6789cb0fbf3166",
+    "nameTag": "Aave: SNX Stable Debt V2"
+  },
+  {
+    "address": "0x267eb8cf715455517f9bd5834aeae3cea1ebdbd8",
+    "nameTag": "Aave: SNX Variable Debt V2"
+  },
+  {
+    "address": "0x4da27a545c0c5b758a6ba100e3a049001de870f5",
+    "nameTag": "Aave: Staked Aave"
+  },
+  {
+    "address": "0x17d0d723a6741c8e154594a8850d29d58bcc9218",
+    "nameTag": "Aave: Static A Token Factory V3"
+  },
+  {
+    "address": "0xeb708639e8e518b86a916db3685f90216b1c1c67",
+    "nameTag": "Aave: Static Aave Ethereum DAI"
+  },
+  {
+    "address": "0x02c2d189b45ce213a40097b62d311cf0dd16ec92",
+    "nameTag": "Aave: Static Aave Ethereum USDC"
+  },
+  {
+    "address": "0x65799b9fd4206cdaa4a1db79254fcbc2fd2ffee6",
+    "nameTag": "Aave: Static Aave Ethereum USDT"
+  },
+  {
+    "address": "0x03928473f25bb2da6bc880b07ecbadc636822264",
+    "nameTag": "Aave: Static Aave Ethereum WETH"
+  },
+  {
+    "address": "0xa1116930326d21fb917d5a27f1e9943a9595fb47",
+    "nameTag": "Aave: stkABPT Token"
+  },
+  {
+    "address": "0x3082d0a473385ed2cbd1f16087ab8b7bf79f0355",
+    "nameTag": "Aave: SUSD Interest Rate Strategy V2"
+  },
+  {
+    "address": "0x30b0f7324fedf89d8eff397275f8983397efe4af",
+    "nameTag": "Aave: SUSD Stable Debt V2"
+  },
+  {
+    "address": "0xdc6a3ab17299d9c2a412b0e0a4c1f55446ae0817",
+    "nameTag": "Aave: SUSD Variable Debt V2"
+  },
+  {
+    "address": "0xadc0a53095a0af87f3aa29fe0715b5c28016364e",
+    "nameTag": "Aave: Swap Collateral Adapter V3"
+  },
+  {
+    "address": "0x4a75f0ae51a5d616ada4db52be140d89302aaf78",
+    "nameTag": "Aave: Team Gnosis Safe"
+  },
+  {
+    "address": "0xe3d9988f676457123c5fd01297605efdd0cba1ae",
+    "nameTag": "Aave: Token Burner Address"
+  },
+  {
+    "address": "0x89c51828427f70d77875c6747759fb17ba10ceb0",
+    "nameTag": "Aave: Treasury"
+  },
+  {
+    "address": "0x0ddec679166c367ae45036c8b2c169c5fb2dcee1",
+    "nameTag": "Aave: TUSD Interest Rate Strategy V2"
+  },
+  {
+    "address": "0x7f38d60d94652072b2c44a18c0e14a481ec3c0dd",
+    "nameTag": "Aave: TUSD Stable Debt V2"
+  },
+  {
+    "address": "0x01c0eb1f8c6f1c1bf74ae028697ce7aa2a8b0e92",
+    "nameTag": "Aave: TUSD Variable Debt V2"
+  },
+  {
+    "address": "0x162a7ac02f547ad796ca549f757e2b8d1d9b10a6",
+    "nameTag": "Aave: UI Incentive Data Provider V3"
+  },
+  {
+    "address": "0x91c0ea31b49b69ea18607702c5d9ac360bf3de7d",
+    "nameTag": "Aave: UI Pool Data Provider V3"
+  },
+  {
+    "address": "0x24abfac8dd8f270d752837fdfe3b3c735361f4ee",
+    "nameTag": "Aave: UNI Interest Rate Strategy V2"
+  },
+  {
+    "address": "0xd939f7430dc8d5a427f156de1012a56c18acb6aa",
+    "nameTag": "Aave: UNI Stable Debt V2"
+  },
+  {
+    "address": "0x5bdb050a92cadccfcdcccbfc17204a1c9cc0ab73",
+    "nameTag": "Aave: UNI Variable Debt V2"
+  },
+  {
+    "address": "0x8cae0596bc1ed42dc3f04c4506cfe442b3e74e27",
+    "nameTag": "Aave: USDC Interest Rate Strategy V2"
+  },
+  {
+    "address": "0xe4922afab0bbadd8ab2a88e0c79d884ad337fca6",
+    "nameTag": "Aave: USDC Stable Debt V2"
+  },
+  {
+    "address": "0x98c23e9d8f34fefb1b7bd6a91b7ff122f4e16f5c",
+    "nameTag": "Aave: USDC V3"
+  },
+  {
+    "address": "0x619beb58998ed2278e08620f97007e1116d5d25b",
+    "nameTag": "Aave: USDC Variable Debt V2"
+  },
+  {
+    "address": "0x515e87cb3fec986050f202a2bbfa362a2188bc3f",
+    "nameTag": "Aave: USDT Interest Rate Strategy V2"
+  },
+  {
+    "address": "0xe91d55ab2240594855abd11b3faae801fd4c4687",
+    "nameTag": "Aave: USDT Stable Debt V2"
+  },
+  {
+    "address": "0x531842cebbdd378f8ee36d171d6cc9c4fcf475ec",
+    "nameTag": "Aave: USDT Variable Debt V2"
+  },
+  {
+    "address": "0x617332a777780f546261247f621051d0b98975eb",
+    "nameTag": "Aave: Voting Machine"
+  },
+  {
+    "address": "0xc7be5307ba715ce89b152f3df0658295b3dba8e2",
+    "nameTag": "Aave: Wallet Balance Provider V3"
+  },
+  {
+    "address": "0xf41e8f817e6c399d1ade102059c454093b24f35b",
+    "nameTag": "Aave: WBTC Interest Rate Strategy V2"
+  },
+  {
+    "address": "0x51b039b9afe64b78758f8ef091211b5387ea717c",
+    "nameTag": "Aave: WBTC Stable Debt V2"
+  },
+  {
+    "address": "0x9c39809dec7f95f5e0713634a4d0701329b3b4d2",
+    "nameTag": "Aave: WBTC Variable Debt V2"
+  },
+  {
+    "address": "0xcc9a0b7c43dc2a5f023bb9b738e45b0ef6b06e04",
+    "nameTag": "Aave: WETH Gateway"
+  },
+  {
+    "address": "0x4ce076b9dd956196b814e54e1714338f18fde3f4",
+    "nameTag": "Aave: WETH Interest Rate Strategy V2"
+  },
+  {
+    "address": "0x4e977830ba4bd783c0bb7f15d3e243f73ff57121",
+    "nameTag": "Aave: WETH Stable Debt V2"
+  },
+  {
+    "address": "0xf63b34710400cad3e044cffdcab00a0f32e33ecf",
+    "nameTag": "Aave: WETH Variable Debt V2"
+  },
+  {
+    "address": "0xdcd33426ba191383f1c9b431a342498fdac73488",
+    "nameTag": "Aave: WETHGateway V2"
+  },
+  {
+    "address": "0x78f8bd884c3d738b74b420540659c82f392820e0",
+    "nameTag": "Aave: Withdraw Swap Adapter V3"
+  },
+  {
+    "address": "0xd322a49006fc828f9b5b37ab215f99b4e5cab19c",
+    "nameTag": "Aave: Wrapped Token Gateway V3"
+  },
+  {
+    "address": "0xb49034ada4be5c6bb3823a623c6250267110b06b",
+    "nameTag": "Aave: xSushi Interest Rate Strategy V2"
+  },
+  {
+    "address": "0xfafedf95e21184e3d880bd56d4806c4b8d31c69a",
+    "nameTag": "Aave: xSushi Variable Debt V2"
+  },
+  {
+    "address": "0xfd71623d7f41360aefe200de4f17e20a29e1d58c",
+    "nameTag": "Aave: YFI Interest Rate Strategy V2"
+  },
+  {
+    "address": "0xca823f78c2dd38993284bb42ba9b14152082f7bd",
+    "nameTag": "Aave: YFI Stable Debt V2"
+  },
+  {
+    "address": "0x7ebd09022be45ad993baa1cec61166fcc8644d97",
+    "nameTag": "Aave: YFI Variable Debt V2"
+  },
+  {
+    "address": "0x1a4babc0e20d892167792ac79618273711afd3e7",
+    "nameTag": "Aave: ZRX Interest Rate Strategy V2"
+  },
+  {
+    "address": "0x071b4323a24e73a5afeebe34118cd21b8faaf7c3",
+    "nameTag": "Aave: ZRX Stable Debt V2"
+  },
+  {
+    "address": "0x85791d117a392097590bded3bd5abb8d5a20491a",
+    "nameTag": "Aave: ZRX Variable Debt V2"
+  }
+]
