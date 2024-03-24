@@ -18,14 +18,21 @@ function sleep(ms: number): Promise<void> {
 
 type AllLabels = {
   accounts: Array<string>;
-  tokens: ReadonlyArray<string>;
+  tokens: Array<string>;
   blocks: ReadonlyArray<string>;
 };
-type AddressInfo = {
+type AccountRow = {
   address: string;
   nameTag: string;
 };
-type AddressesInfo = Array<AddressInfo>;
+type TokenRow = {
+  address: string;
+  tokenName: string;
+  tokenSymbol: string;
+  website: string;
+};
+type AccountRows = Array<AccountRow>;
+type TokenRows = Array<TokenRow>;
 
 export class AnyscanPuller {
   #baseUrl: string;
@@ -55,15 +62,19 @@ export class AnyscanPuller {
     let anchors: ReadonlyArray<string> = [];
     parent.find("div > div > ul > li > a").each((index, element) => {
       const pathname = $(element).attr("href");
+      if (typeof pathname !== "string") {
+        console.log(`returning early because "${pathname}" is not a string`);
+        return;
+      }
+      // tokens has a max page size of 100 while accounts seems to allow 10,000+
+      const maxRecordsLength = pathname.includes("tokens") ? 100 : 10_000;
       const size = $(element).text();
       const regex = /\((.*?)\)/;
-      const matches = Number(regex.exec(size)?.[1]);
-      const maxRecordsLength = 3000;
-      if (matches < maxRecordsLength) {
+      const recordCount = Number(regex.exec(size)?.[1]);
+      // if statement needed because otherwise we freeze forever on URL's like "beacon-depositor"
+      if (recordCount < maxRecordsLength) {
         const href = `${this.#baseUrl}${pathname}?size=${maxRecordsLength}`;
-        if (typeof pathname === "string") {
-          anchors = [...anchors, href];
-        }
+        anchors = [...anchors, href];
       }
     });
     return anchors;
@@ -91,7 +102,7 @@ export class AnyscanPuller {
         // ignore these for now
       } else {
         throw new Error(
-          `url does not belong to "accounts" nor "tokens": "${url}"`,
+          `url "${url}" does not belong to "accounts", "tokens", "blocks", nor "txs"`,
         );
       }
     });
@@ -107,6 +118,7 @@ export class AnyscanPuller {
     await page.goto(url);
     try {
       await page.waitForSelector(waitForSelector, { timeout: 15_000 });
+      await this.randomSleep();
     } catch (error) {
       parseError(error);
     }
@@ -115,23 +127,57 @@ export class AnyscanPuller {
     return pageContent;
   }
 
-  private selectAllAddresses(
+  private selectAllTokenAddresses(html: string): TokenRows {
+    const $ = cheerio.load(html);
+    const selector = `#table-subcatid-0 > tbody`;
+    const tableElements = $(selector);
+    const parent = tableElements.last();
+
+    let addressesInfo: TokenRows = [];
+    parent.find("tr").each((index, trElement) => {
+      const tds = $(trElement).find("td");
+
+      const anchorWithDataBsTitle = $(tds[1]).find("a[data-bs-title]");
+
+      const address = anchorWithDataBsTitle.attr("data-bs-title") || "";
+      const tokenNameColumn = $(tds[2]).text().trim();
+      // const regex = /^(.*)\\n\s*\((\w+)\)/;
+      const regex = /^(.*)\n\s*\((.*)\)/;
+      const match = tokenNameColumn.match(regex);
+      console.dir({ tokenNameColumn: `"${tokenNameColumn}"`, match });
+      const tokenName = match?.[1];
+      const tokenSymbol = match?.[2];
+      const website = $(tds[5]).text().trim().toLowerCase();
+      const tokenRow: TokenRow = {
+        address: z.string().parse(address).trim(),
+        tokenName: tokenName || "",
+        tokenSymbol: tokenSymbol || "",
+        website,
+      };
+      console.dir(tokenRow);
+
+      addressesInfo = [...addressesInfo, tokenRow];
+    });
+
+    return addressesInfo;
+  }
+  private selectAllAccountAddresses(
     html: string,
     subcatId: string = "0",
-  ): AddressesInfo {
+  ): AccountRows {
     const $ = cheerio.load(html);
     const selector = `#table-subcatid-${subcatId} > tbody`;
     const tableElements = $(selector);
     const parent = tableElements.last();
 
-    let addressesInfo: AddressesInfo = [];
+    let addressesInfo: AccountRows = [];
     parent.find("tr").each((index, trElement) => {
       const tds = $(trElement).find("td");
 
       const anchorWithDataBsTitle = $(tds[0]).find("a[data-bs-title]");
 
       const address = anchorWithDataBsTitle.attr("data-bs-title") || "";
-      const newAddressInfo: AddressInfo = {
+      const newAddressInfo: AccountRow = {
         address: z.string().parse(address).trim(),
         nameTag: $(tds[1]).text().trim(),
       };
@@ -158,28 +204,31 @@ export class AnyscanPuller {
     await page.waitForNavigation();
   }
 
-  private pullAllAddresses = async (url: string, page: Page) => {
+  private pullAllTokenAddresses = async (url: string, page: Page) => {
+    const addressesHtml = await this.fetchPageHtml(
+      url,
+      page,
+      `a[aria-label="Copy Address"]`,
+    );
+    const allAddresses = this.selectAllTokenAddresses(addressesHtml);
+    return allAddresses;
+  };
+  private pullAllAccountAddresses = async (url: string, page: Page) => {
     const addressesHtml = await this.fetchPageHtml(
       url,
       page,
       `a[aria-label="Copy Address"]`,
     );
     const $ = cheerio.load(addressesHtml);
-    let allAddresses: AddressesInfo = [];
+    let allAddresses: AccountRows = [];
 
     const navPills = $(".nav-pills");
     // check if there are subcategories (nav-pills)
-    if (navPills) {
+    if (navPills.length > 0) {
       const anchors = navPills.find("li > a");
       const subcatIds: Array<string> = anchors.toArray().map((anchor) => {
         const subcatId = z.string().parse($(anchor).attr("val"));
         return subcatId;
-        // return
-        // console.log({ anchor });
-        // // eslint-disable-next-line @typescript-eslint/no-unsafe-assignment, @typescript-eslint/no-unsafe-member-access
-        // console.log({ anchor, ga: anchor.getAttribute });
-        // // eslint-disable-next-line @typescript-eslint/no-unsafe-call, @typescript-eslint/no-unsafe-member-access
-        // return z.string().parse(anchor.getAttribute("val"));
       });
       for (const subcatId of subcatIds) {
         const subcatUrl = `${url}&subcatid=${subcatId}`;
@@ -188,19 +237,21 @@ export class AnyscanPuller {
           page,
           `a[aria-label="Copy Address"]`,
         );
-        const subcatAddresses = this.selectAllAddresses(
+        const subcatAddresses = this.selectAllAccountAddresses(
           subcatAddressesHtml,
           subcatId,
         );
         allAddresses = [...allAddresses, ...subcatAddresses];
       }
     } else {
-      allAddresses = this.selectAllAddresses(addressesHtml);
+      console.log(`no navpills for ${url}`);
+      allAddresses = this.selectAllAccountAddresses(addressesHtml);
+      console.dir({ allAddresses });
     }
     return allAddresses;
   };
 
-  private sortAllAdresses(allAddresses: AddressesInfo) {
+  private sortAllAdresses(allAddresses: AccountRows) {
     const sortedAddresses = allAddresses.sort((a, b) => {
       const nameTagA = a.nameTag.toLowerCase();
       const nameTagB = b.nameTag.toLowerCase();
@@ -223,42 +274,76 @@ export class AnyscanPuller {
     });
     return sortedAddresses;
   }
+  private async randomSleep() {
+    const randomDelay = Math.random() * 600;
+    await sleep(randomDelay + 500);
+  }
 
   public async pullAndWriteAllAddresses(page: Page) {
-    const randomDelay = Math.random() * 500 + 500;
-
-    const outputDirectory = path.join(
+    const rootDirectory = path.join(
       __dirname,
       "..",
       "data",
       this.#directoryName,
     );
-    if (!fs.existsSync(outputDirectory)) {
-      fs.mkdirSync(outputDirectory);
+    if (!fs.existsSync(rootDirectory)) {
+      fs.mkdirSync(rootDirectory);
     }
 
     await this.login(page);
     const allLabels = await this.fetchAllLabels(page);
 
-    for (const url of allLabels.accounts) {
+    /*
+    for (const url of allLabels.tokens.reverse()) {
       // delay between 0.5 and 1 seconds for processing
       await sleep(randomDelay);
 
       // fetch all addresses from all tables
-      const allAddresses = await this.pullAllAddresses(url, page);
+      const allAddresses = await this.pullAllTokenAddresses(url, page);
       const labelName = z.string().parse(url.split("/").pop()?.split("?")[0]);
+
       if (allAddresses.length > 0) {
-        const sortedAddresses = this.sortAllAdresses(allAddresses);
+        const outputDirectory = path.join(rootDirectory, labelName);
+        if (!fs.existsSync(outputDirectory)) {
+          fs.mkdirSync(outputDirectory);
+        }
         fs.writeFileSync(
-          path.join(outputDirectory, `${labelName}.json`),
-          JSON.stringify(sortedAddresses, null, 2),
+          path.join(outputDirectory, "tokens.json"),
+          JSON.stringify(allAddresses)
         );
       }
-      console.dir({
-        url,
-        allAddresses,
-        length: allAddresses.length,
-      });
+      // console.dir({
+      //   url,
+      //   allAddresses,
+      //   length: allAddresses.length,
+      // });
+    }
+    */
+    for (const url of allLabels.accounts.reverse()) {
+      // delay between 0.5 and 1 seconds for processing
+
+      // fetch all addresses from all tables
+      const allAddresses = await this.pullAllAccountAddresses(url, page);
+      const labelName = z.string().parse(url.split("/").pop()?.split("?")[0]);
+
+      console.dir({ allAddresses, labelName });
+      if (allAddresses.length > 0) {
+        const outputDirectory = path.join(rootDirectory, labelName);
+        if (!fs.existsSync(outputDirectory)) {
+          fs.mkdirSync(outputDirectory);
+        }
+        const sortedAddresses = this.sortAllAdresses(allAddresses);
+        fs.writeFileSync(
+          path.join(outputDirectory, "accounts.json"),
+          // TODO: use prettier instead of "null", 2
+          JSON.stringify(sortedAddresses),
+        );
+      }
+      // console.dir({
+      //   url,
+      //   allAddresses,
+      //   length: allAddresses.length,
+      // });
     }
   }
 }

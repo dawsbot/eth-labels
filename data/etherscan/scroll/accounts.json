@@ -1,0 +1,155 @@
+[
+  { "address": "0xbda143d49da40c2cda27c40edfbbe8a0d4ae0cbc", "nameTag": "" },
+  {
+    "address": "0xcf2898225ed05be911d3709d9417e86e0b4cfc8f",
+    "nameTag": "Scroll: Batch Committer"
+  },
+  {
+    "address": "0x356483dc32b004f32ea0ce58f7f88879886e9074",
+    "nameTag": "Scroll: Batch Finalizer"
+  },
+  {
+    "address": "0x0a47cec6657570831ae93db36367656e5597c310",
+    "nameTag": "Scroll: Deployer"
+  },
+  {
+    "address": "0xf9062b8a30e0d7722960e305049fa50b86ba6253",
+    "nameTag": "Scroll: Deployer 2"
+  },
+  {
+    "address": "0x1a658b88fd0a3c82fa1a0609fcdbd32e7dd4ab9c",
+    "nameTag": "Scroll: L1 14D Timelock"
+  },
+  {
+    "address": "0x0e58939204eeda84f796fbc86840a50af10ec4f4",
+    "nameTag": "Scroll: L1 1D Timelock"
+  },
+  {
+    "address": "0xdc1d1189da69ae2016e4976a43de20972d349b1b",
+    "nameTag": "Scroll: L1 7D Timelock"
+  },
+  {
+    "address": "0xbad002fb13adffcbcba57a4d4a43886f3f4c56cb",
+    "nameTag": "Scroll: L1 Custom ERC20 Gateway Implementation"
+  },
+  {
+    "address": "0xb2b10a289a229415a124efdef310c10cb004b6ff",
+    "nameTag": "Scroll: L1 Custom ERC20 Gateway Proxy"
+  },
+  {
+    "address": "0x642af405bf64660665b37977449c9c536b806318",
+    "nameTag": "Scroll: L1 Enforced Tx Gateway Implementation"
+  },
+  {
+    "address": "0x72cacbcfde2d1e19122f8a36a4d6676cd39d7a5d",
+    "nameTag": "Scroll: L1 Enforced Tx Gateway Proxy"
+  },
+  {
+    "address": "0xcb4638620e4c6decef26374e71b0dd4871863593",
+    "nameTag": "Scroll: L1 ERC1155 Gateway Implementation"
+  },
+  {
+    "address": "0xb94f7f6abcb811c5ac709de14e37590fccd975b6",
+    "nameTag": "Scroll: L1 ERC1155 Gateway Proxy"
+  },
+  {
+    "address": "0xde3be7c2aa151d1e152ddfcbf0962fcdf5323dae",
+    "nameTag": "Scroll: L1 ERC721 Gateway Implementation"
+  },
+  {
+    "address": "0x6260af48e8948617b8fa17f4e5cea2d21d21554b",
+    "nameTag": "Scroll: L1 ERC721 Gateway Proxy"
+  },
+  {
+    "address": "0x1fcbe079c4bbab37406dab7dfd35acae37d5c55d",
+    "nameTag": "Scroll: L1 ETH Gateway Implementation"
+  },
+  {
+    "address": "0x7f2b8c31f88b6006c382775eea88297ec1e3e905",
+    "nameTag": "Scroll: L1 ETH Gateway Proxy"
+  },
+  {
+    "address": "0x5300000000000000000000000000000000000002",
+    "nameTag": "Scroll: L1 Gas Price Oracle"
+  },
+  {
+    "address": "0xb93ac04010bd61f45bf492022a5b49a902f798f3",
+    "nameTag": "Scroll: L1 Gateway Router Implementation"
+  },
+  {
+    "address": "0xf8b1378579659d8f7ee5f3c929c2f3e332e41fd6",
+    "nameTag": "Scroll: L1 Gateway Router Proxy"
+  },
+  {
+    "address": "0x0d7e906bd9cafa154b048cfa766cc1e54e39af9b",
+    "nameTag": "Scroll: L1 Message Queue Proxy"
+  },
+  {
+    "address": "0xa2ab526e5c5491f10fc05a55f064bf9f7cef32a0",
+    "nameTag": "Scroll: L1 Multiple Version Rollup"
+  },
+  {
+    "address": "0x4b8aa8a96078689384dab49691e9ba51f9d2f9e1",
+    "nameTag": "Scroll: L1 Plonk Verifier"
+  },
+  {
+    "address": "0xeb803eb3f501998126bf37bb823646ed3d59d072",
+    "nameTag": "Scroll: L1 Proxy Admin"
+  },
+  {
+    "address": "0x2e07f0fba71709bb5e1f045b02152e45b451d75f",
+    "nameTag": "Scroll: L1 Scroll Chain Implementation"
+  },
+  {
+    "address": "0xa13baf47339d63b743e7da8741db5456dac1e556",
+    "nameTag": "Scroll: L1 Scroll Chain Proxy"
+  },
+  {
+    "address": "0xaf2f898a8680cb52766abe0588ebe6b9bfe37845",
+    "nameTag": "Scroll: L1 Scroll Messenger Implementation"
+  },
+  {
+    "address": "0x6774bcbd5cecef1336b5300fb5186a12ddd8b367",
+    "nameTag": "Scroll: L1 Scroll Messenger Proxy"
+  },
+  {
+    "address": "0x798576400f7d662961ba15c6b3f3d813447a26a6",
+    "nameTag": "Scroll: L1 Scroll Owner"
+  },
+  {
+    "address": "0xd8a791fe2be73eb6e6cf1eb0cb3f36adc9b3f8f9",
+    "nameTag": "Scroll: L1 Standard ERC20 Gateway Proxy"
+  },
+  {
+    "address": "0x6667123b5017aab9945f73345848b82d7a953aa8",
+    "nameTag": "Scroll: L1 USDC Gateway Implementation"
+  },
+  {
+    "address": "0xf1af3b23de0a5ca3cab7261cb0061c0d779a5c7b",
+    "nameTag": "Scroll: L1 USDC Gateway Proxy"
+  },
+  {
+    "address": "0xd3c42158682d55e082eabe08a29f7515a97ca307",
+    "nameTag": "Scroll: L1 WETH Gateway Implementation"
+  },
+  {
+    "address": "0x7ac440cae8eb6328de4fa621163a792c1ea9d4fe",
+    "nameTag": "Scroll: L1 WETH Gateway Proxy"
+  },
+  {
+    "address": "0x259204ddd2ba29bd9b1b9a5c9b093f73d7eacf37",
+    "nameTag": "Scroll: L1 Whitelist"
+  },
+  {
+    "address": "0xfdf1ee0098168eaa61bf87db68c39c85151a4e9e",
+    "nameTag": "Scroll: L2 Gas Price Oracle Implementation"
+  },
+  {
+    "address": "0x987e300fdfb06093859358522a79098848c33852",
+    "nameTag": "Scroll: Old L2 Gas Price Oracle Proxy"
+  },
+  {
+    "address": "0x585dfad7bf4099e011d185e266907a8ab60dad2d",
+    "nameTag": "Scroll: zkEVM Verifier V1"
+  }
+]
