@@ -24,7 +24,7 @@ type AllLabels = {
   tokens: Array<string>;
   blocks: ReadonlyArray<string>;
 };
-type AccountRow = {
+export type AccountRow = {
   address: string;
   nameTag: string;
 };
@@ -34,7 +34,7 @@ export type TokenRow = {
   tokenSymbol: string;
   website: string;
 };
-type AccountRows = Array<AccountRow>;
+export type AccountRows = Array<AccountRow>;
 export type TokenRows = Array<TokenRow>;
 const bar1: SingleBar = new cliProgress.SingleBar(
   {},
@@ -132,36 +132,6 @@ export class AnyscanPuller {
     return pageContent;
   }
 
-  private selectAllAccountAddresses(
-    html: string,
-    subcatId: string = "0",
-  ): AccountRows {
-    const $ = cheerio.load(html);
-    const selector = `#table-subcatid-${subcatId} > tbody`;
-    const tableElements = $(selector);
-    const parent = tableElements.last();
-
-    let addressesInfo: AccountRows = [];
-    parent.find("tr").each((index, tableRow) => {
-      const tableCells = $(tableRow).find("td");
-
-      const anchorWithDataBsTitle = $(tableCells[0]).find("a[data-bs-title]");
-
-      const address = anchorWithDataBsTitle.attr("data-bs-title");
-      if (typeof address !== "string") {
-        return;
-      }
-      const newAddressInfo: AccountRow = {
-        address: address.trim(),
-        nameTag: $(tableCells[1]).text().trim(),
-      };
-
-      addressesInfo = [...addressesInfo, newAddressInfo];
-    });
-
-    return addressesInfo;
-  }
-
   /**
    * Enters a username and password, but submit is not automated so that operator can submit captcha.
    */
@@ -213,7 +183,7 @@ export class AnyscanPuller {
           page,
           addressSelector,
         );
-        const subcatAddresses = this.selectAllAccountAddresses(
+        const subcatAddresses = this.#htmlParser.selectAllAccountAddresses(
           subcatAddressesHtml,
           subcatId,
         );
@@ -221,7 +191,7 @@ export class AnyscanPuller {
       }
     } else {
       console.log(`no navpills for ${url}`);
-      allAddresses = this.selectAllAccountAddresses(addressesHtml);
+      allAddresses = this.#htmlParser.selectAllAccountAddresses(addressesHtml);
       console.dir({ allAddresses });
     }
     return allAddresses;
