@@ -19,10 +19,7 @@ function closeBrowser(browser: Browser) {
 void (async () => {
   try {
     const { browser, page } = await openBrowser();
-    const etherscanPuller = new AnyscanPuller({
-      baseUrl: "https://etherscan.io",
-      directoryName: "etherscan",
-    });
+    const etherscanPuller = new AnyscanPuller("etherscan");
     await etherscanPuller.pullAndWriteAllAddresses(page);
     await closeBrowser(browser);
   } catch (error) {

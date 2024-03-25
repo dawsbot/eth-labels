@@ -1,4 +1,5 @@
 import { z } from "zod";
+import cliProgress, { SingleBar } from "cli-progress";
 import * as cheerio from "cheerio";
 import fs from "fs";
 import path from "path";
@@ -7,6 +8,7 @@ import { parseError } from "./error-parse";
 
 // dirname does not exist in esm, so we need to polyfill
 import { fileURLToPath } from "url";
+import { blockExplorers } from "./block-explorers";
 const __filename = fileURLToPath(import.meta.url);
 const __dirname = path.dirname(__filename);
 
@@ -33,21 +35,20 @@ type TokenRow = {
 };
 type AccountRows = Array<AccountRow>;
 type TokenRows = Array<TokenRow>;
+const bar1: SingleBar = new cliProgress.SingleBar(
+  {},
+  cliProgress.Presets.shades_classic,
+);
 
 export class AnyscanPuller {
   #baseUrl: string;
   #directoryName: string;
   /**
    * @example
-   * const etherscanPuller = new AnyscanPuller({baseUrl: 'https:://etherscan.io', directoryName: 'etherscan'});
+   * const etherscanPuller = new AnyscanPuller(etherscan);
    */
-  constructor({
-    baseUrl,
-    directoryName,
-  }: {
-    baseUrl: string;
-    directoryName: string;
-  }) {
+  constructor(directoryName: keyof typeof blockExplorers) {
+    const baseUrl = blockExplorers[directoryName];
     this.#baseUrl = z.string().url().startsWith("https://").parse(baseUrl);
     const filenameRegex = /^[a-z0-9_\-.]+$/;
     this.#directoryName = z.string().regex(filenameRegex).parse(directoryName);
@@ -55,12 +56,10 @@ export class AnyscanPuller {
 
   private selectAllAnchors = (html: string): ReadonlyArray<string> => {
     const $ = cheerio.load(html);
-    const parent = $(
-      "#content > div.container-xxl.pb-12.mb-1.mt-4 > div > div > div.row.mb-3",
-    );
+    const parent = $("div > div > div.row.mb-3");
 
     let anchors: ReadonlyArray<string> = [];
-    parent.find("div > div > ul > li > a").each((index, element) => {
+    parent.find("a").each((index, element) => {
       const pathname = $(element).attr("href");
       if (typeof pathname !== "string") {
         console.log(`returning early because "${pathname}" is not a string`);
@@ -86,7 +85,7 @@ export class AnyscanPuller {
     const labelCloudHtml = await this.fetchPageHtml(
       PAGE_URL,
       page,
-      `button[data-url="0x-protocol"]`, // requires that 0x-protocol is one of the labels
+      `button[data-url]`,
     );
 
     const allAnchors = this.selectAllAnchors(labelCloudHtml);
@@ -134,27 +133,27 @@ export class AnyscanPuller {
     const parent = tableElements.last();
 
     let addressesInfo: TokenRows = [];
-    parent.find("tr").each((index, trElement) => {
-      const tds = $(trElement).find("td");
+    parent.find("tr").each((index, tableRow) => {
+      const tableCells = $(tableRow).find("td");
 
-      const anchorWithDataBsTitle = $(tds[1]).find("a[data-bs-title]");
+      const anchorWithDataBsTitle = $(tableCells[1]).find("a[data-bs-title]");
 
-      const address = anchorWithDataBsTitle.attr("data-bs-title") || "";
-      const tokenNameColumn = $(tds[2]).text().trim();
-      // const regex = /^(.*)\\n\s*\((\w+)\)/;
+      const address = anchorWithDataBsTitle.attr("data-bs-title");
+      if (typeof address !== "string") {
+        return;
+      }
+      const tokenNameColumn = $(tableCells[2]).text().trim();
       const regex = /^(.*)\n\s*\((.*)\)/;
       const match = tokenNameColumn.match(regex);
-      console.dir({ tokenNameColumn: `"${tokenNameColumn}"`, match });
       const tokenName = match?.[1];
       const tokenSymbol = match?.[2];
-      const website = $(tds[5]).text().trim().toLowerCase();
+      const website = $(tableCells[5]).text().trim().toLowerCase();
       const tokenRow: TokenRow = {
-        address: z.string().parse(address).trim(),
+        address: address.trim(),
         tokenName: tokenName || "",
         tokenSymbol: tokenSymbol || "",
         website,
       };
-      console.dir(tokenRow);
 
       addressesInfo = [...addressesInfo, tokenRow];
     });
@@ -171,15 +170,18 @@ export class AnyscanPuller {
     const parent = tableElements.last();
 
     let addressesInfo: AccountRows = [];
-    parent.find("tr").each((index, trElement) => {
-      const tds = $(trElement).find("td");
+    parent.find("tr").each((index, tableRow) => {
+      const tableCells = $(tableRow).find("td");
 
-      const anchorWithDataBsTitle = $(tds[0]).find("a[data-bs-title]");
+      const anchorWithDataBsTitle = $(tableCells[0]).find("a[data-bs-title]");
 
-      const address = anchorWithDataBsTitle.attr("data-bs-title") || "";
+      const address = anchorWithDataBsTitle.attr("data-bs-title");
+      if (typeof address !== "string") {
+        return;
+      }
       const newAddressInfo: AccountRow = {
-        address: z.string().parse(address).trim(),
-        nameTag: $(tds[1]).text().trim(),
+        address: address.trim(),
+        nameTag: $(tableCells[1]).text().trim(),
       };
 
       addressesInfo = [...addressesInfo, newAddressInfo];
@@ -201,10 +203,13 @@ export class AnyscanPuller {
       "#ContentPlaceHolder1_txtPassword",
       process.env.ETHERSCAN_PASSWORD || "",
     );
+    console.log(`🐢 Waiting for operator to complete login...`);
+    // TODO: Update this deprecated function to instead use "page.waitForURL" (https://playwright.dev/docs/api/class-page#page-wait-for-url)
     await page.waitForNavigation();
+    console.log(`✅ Login completed!`);
   }
 
-  private pullAllTokenAddresses = async (url: string, page: Page) => {
+  private pullAllTokenRows = async (url: string, page: Page) => {
     const addressesHtml = await this.fetchPageHtml(
       url,
       page,
@@ -213,12 +218,9 @@ export class AnyscanPuller {
     const allAddresses = this.selectAllTokenAddresses(addressesHtml);
     return allAddresses;
   };
-  private pullAllAccountAddresses = async (url: string, page: Page) => {
-    const addressesHtml = await this.fetchPageHtml(
-      url,
-      page,
-      `a[aria-label="Copy Address"]`,
-    );
+  private pullAccountRows = async (url: string, page: Page) => {
+    const addressSelector = "tr > td > span a";
+    const addressesHtml = await this.fetchPageHtml(url, page, addressSelector);
     const $ = cheerio.load(addressesHtml);
     let allAddresses: AccountRows = [];
 
@@ -235,7 +237,7 @@ export class AnyscanPuller {
         const subcatAddressesHtml = await this.fetchPageHtml(
           subcatUrl,
           page,
-          `a[aria-label="Copy Address"]`,
+          addressSelector,
         );
         const subcatAddresses = this.selectAllAccountAddresses(
           subcatAddressesHtml,
@@ -251,8 +253,22 @@ export class AnyscanPuller {
     return allAddresses;
   };
 
-  private sortAllAdresses(allAddresses: AccountRows) {
-    const sortedAddresses = allAddresses.sort((a, b) => {
+  private sortTokenRows(tokenRows: TokenRows) {
+    const sortedAddresses = tokenRows.sort((a, b) => {
+      const addressA = a.address.toLowerCase();
+      const addressB = b.address.toLowerCase();
+      if (addressA < addressB) {
+        return -1;
+      }
+      if (addressA > addressB) {
+        return 1;
+      }
+      return 0;
+    });
+    return sortedAddresses;
+  }
+  private sortAccountAdresses(accountAddresses: AccountRows) {
+    const sortedAddresses = accountAddresses.sort((a, b) => {
       const nameTagA = a.nameTag.toLowerCase();
       const nameTagB = b.nameTag.toLowerCase();
       if (nameTagA < nameTagB) {
@@ -293,23 +309,24 @@ export class AnyscanPuller {
     await this.login(page);
     const allLabels = await this.fetchAllLabels(page);
 
-    /*
-    for (const url of allLabels.tokens.reverse()) {
-      // delay between 0.5 and 1 seconds for processing
-      await sleep(randomDelay);
+    bar1.start(allLabels.tokens.length + allLabels.accounts.length, 0);
 
+    console.log(`🐌 Pulling all of tokens started...`);
+    for (const [index, url] of allLabels.tokens.entries()) {
+      bar1.update(index);
       // fetch all addresses from all tables
-      const allAddresses = await this.pullAllTokenAddresses(url, page);
+      const tokenRows = await this.pullAllTokenRows(url, page);
       const labelName = z.string().parse(url.split("/").pop()?.split("?")[0]);
 
-      if (allAddresses.length > 0) {
+      if (tokenRows.length > 0) {
         const outputDirectory = path.join(rootDirectory, labelName);
+        const sortedTokenRows = this.sortTokenRows(tokenRows);
         if (!fs.existsSync(outputDirectory)) {
           fs.mkdirSync(outputDirectory);
         }
         fs.writeFileSync(
           path.join(outputDirectory, "tokens.json"),
-          JSON.stringify(allAddresses)
+          JSON.stringify(sortedTokenRows),
         );
       }
       // console.dir({
@@ -318,25 +335,24 @@ export class AnyscanPuller {
       //   length: allAddresses.length,
       // });
     }
-    */
-    for (const url of allLabels.accounts.reverse()) {
-      // delay between 0.5 and 1 seconds for processing
-
+    console.log(`✅ Pulling all of tokens completed!`);
+    console.log(`🐌 Pulling all of accounts started...`);
+    for (const [index, url] of allLabels.accounts.entries()) {
+      bar1.update(allLabels.tokens.length + index);
       // fetch all addresses from all tables
-      const allAddresses = await this.pullAllAccountAddresses(url, page);
+      const accountRows = await this.pullAccountRows(url, page);
       const labelName = z.string().parse(url.split("/").pop()?.split("?")[0]);
 
-      console.dir({ allAddresses, labelName });
-      if (allAddresses.length > 0) {
+      if (accountRows.length > 0) {
         const outputDirectory = path.join(rootDirectory, labelName);
         if (!fs.existsSync(outputDirectory)) {
           fs.mkdirSync(outputDirectory);
         }
-        const sortedAddresses = this.sortAllAdresses(allAddresses);
+        const sortedAccountRows = this.sortAccountAdresses(accountRows);
         fs.writeFileSync(
           path.join(outputDirectory, "accounts.json"),
           // TODO: use prettier instead of "null", 2
-          JSON.stringify(sortedAddresses),
+          JSON.stringify(sortedAccountRows),
         );
       }
       // console.dir({
@@ -345,5 +361,8 @@ export class AnyscanPuller {
       //   length: allAddresses.length,
       // });
     }
+    console.log(`✅ Pulling all of accounts completed!`);
+    console.log(`✅ Pulling all of ${this.#directoryName} completed!`);
+    bar1.stop();
   }
 }
