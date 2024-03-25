@@ -9,6 +9,7 @@ import { parseError } from "./error-parse";
 // dirname does not exist in esm, so we need to polyfill
 import { fileURLToPath } from "url";
 import { blockExplorers } from "./block-explorers";
+import { HtmlParser } from "./HtmlParser/HtmlParser";
 const __filename = fileURLToPath(import.meta.url);
 const __dirname = path.dirname(__filename);
 
@@ -27,14 +28,14 @@ type AccountRow = {
   address: string;
   nameTag: string;
 };
-type TokenRow = {
+export type TokenRow = {
   address: string;
   tokenName: string;
   tokenSymbol: string;
   website: string;
 };
 type AccountRows = Array<AccountRow>;
-type TokenRows = Array<TokenRow>;
+export type TokenRows = Array<TokenRow>;
 const bar1: SingleBar = new cliProgress.SingleBar(
   {},
   cliProgress.Presets.shades_classic,
@@ -43,15 +44,20 @@ const bar1: SingleBar = new cliProgress.SingleBar(
 export class AnyscanPuller {
   #baseUrl: string;
   #directoryName: string;
+  #htmlParser: HtmlParser;
   /**
    * @example
    * const etherscanPuller = new AnyscanPuller(etherscan);
    */
-  constructor(directoryName: keyof typeof blockExplorers) {
+  constructor(
+    directoryName: keyof typeof blockExplorers,
+    htmlParser: HtmlParser,
+  ) {
     const baseUrl = blockExplorers[directoryName];
     this.#baseUrl = z.string().url().startsWith("https://").parse(baseUrl);
     const filenameRegex = /^[a-z0-9_\-.]+$/;
     this.#directoryName = z.string().regex(filenameRegex).parse(directoryName);
+    this.#htmlParser = htmlParser;
   }
 
   private selectAllAnchors = (html: string): ReadonlyArray<string> => {
@@ -126,40 +132,6 @@ export class AnyscanPuller {
     return pageContent;
   }
 
-  private selectAllTokenAddresses(html: string): TokenRows {
-    const $ = cheerio.load(html);
-    const selector = `#table-subcatid-0 > tbody`;
-    const tableElements = $(selector);
-    const parent = tableElements.last();
-
-    let addressesInfo: TokenRows = [];
-    parent.find("tr").each((index, tableRow) => {
-      const tableCells = $(tableRow).find("td");
-
-      const anchorWithDataBsTitle = $(tableCells[1]).find("a[data-bs-title]");
-
-      const address = anchorWithDataBsTitle.attr("data-bs-title");
-      if (typeof address !== "string") {
-        return;
-      }
-      const tokenNameColumn = $(tableCells[2]).text().trim();
-      const regex = /^(.*)\n\s*\((.*)\)/;
-      const match = tokenNameColumn.match(regex);
-      const tokenName = match?.[1];
-      const tokenSymbol = match?.[2];
-      const website = $(tableCells[5]).text().trim().toLowerCase();
-      const tokenRow: TokenRow = {
-        address: address.trim(),
-        tokenName: tokenName || "",
-        tokenSymbol: tokenSymbol || "",
-        website,
-      };
-
-      addressesInfo = [...addressesInfo, tokenRow];
-    });
-
-    return addressesInfo;
-  }
   private selectAllAccountAddresses(
     html: string,
     subcatId: string = "0",
@@ -215,12 +187,14 @@ export class AnyscanPuller {
       page,
       `a[aria-label="Copy Address"]`,
     );
-    const allAddresses = this.selectAllTokenAddresses(addressesHtml);
+    const allAddresses =
+      this.#htmlParser.selectAllTokenAddresses(addressesHtml);
     return allAddresses;
   };
   private pullAccountRows = async (url: string, page: Page) => {
     const addressSelector = "tr > td > span a";
     const addressesHtml = await this.fetchPageHtml(url, page, addressSelector);
+
     const $ = cheerio.load(addressesHtml);
     let allAddresses: AccountRows = [];
 
@@ -311,7 +285,7 @@ export class AnyscanPuller {
 
     bar1.start(allLabels.tokens.length + allLabels.accounts.length, 0);
 
-    console.log(`🐌 Pulling all of tokens started...`);
+    console.log(`\n🐌 Pulling all of tokens started...`);
     for (const [index, url] of allLabels.tokens.entries()) {
       bar1.update(index);
       // fetch all addresses from all tables
@@ -335,8 +309,8 @@ export class AnyscanPuller {
       //   length: allAddresses.length,
       // });
     }
-    console.log(`✅ Pulling all of tokens completed!`);
-    console.log(`🐌 Pulling all of accounts started...`);
+    console.log(`\n✅ Pulling all of tokens completed!`);
+    console.log(`\n🐌 Pulling all of accounts started...`);
     for (const [index, url] of allLabels.accounts.entries()) {
       bar1.update(allLabels.tokens.length + index);
       // fetch all addresses from all tables
@@ -361,8 +335,8 @@ export class AnyscanPuller {
       //   length: allAddresses.length,
       // });
     }
+    bar1.stop();
     console.log(`✅ Pulling all of accounts completed!`);
     console.log(`✅ Pulling all of ${this.#directoryName} completed!`);
-    bar1.stop();
   }
 }
