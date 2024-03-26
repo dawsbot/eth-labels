@@ -25,6 +25,24 @@ function combineFiles(dataDir: string) {
   );
 }
 
+function combineLabels(providerPath: string, labels: ReadonlyArray<string>) {
+  let combine: Array<string> = [];
+  labels.forEach((label) => {
+    if (!label.includes(".")) {
+      const labelPath: string = path.join(providerPath, label);
+      const data: string = fs.readFile(path.join(labelPath, "combined.json"));
+      const jsonData: ReadonlyArray<string> = JSON.parse(
+        data.toString(),
+      ) as ReadonlyArray<string>;
+      combine = combine.concat(jsonData);
+    }
+  });
+  fs.writeFile(
+    path.join(providerPath, "combined.json"),
+    JSON.stringify(combine, null, 2),
+  );
+}
+
 function runCombine() {
   const dataFolderPath: string = path.join("..", "data");
   const providers = fs.readDir(dataFolderPath);
@@ -32,13 +50,14 @@ function runCombine() {
     const providerPath: string = path.join(dataFolderPath, provider);
     if (!provider.includes(".")) {
       console.log("Processing folder:", providerPath);
-      const files: Array<string> = fs.readDir(providerPath);
-      files.forEach((label) => {
+      const labels: Array<string> = fs.readDir(providerPath);
+      labels.forEach((label) => {
         const labelPath: string = path.join(providerPath, label);
         if (!label.includes(".")) {
           combineFiles(labelPath);
         }
       });
+      combineLabels(providerPath, labels);
     }
   });
   console.log("combine.json file created successfully!");
