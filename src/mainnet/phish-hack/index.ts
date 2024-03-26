@@ -7,7 +7,7 @@ interface AllData {
   nameTag: string;
 }
 export const phishHack = {
-  all: phishHackAll as AllData[],
+  all: phishHackAll as Array<AllData>,
   addresses: phishHackAddresses,
   isPhishHackAddress,
 };

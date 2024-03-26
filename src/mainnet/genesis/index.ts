@@ -7,7 +7,7 @@ interface AllData {
   nameTag: string;
 }
 export const genesis = {
-  all: genesisAll as AllData[],
+  all: genesisAll as Array<AllData>,
   addresses: genesisAddresses,
   isGenesisAddress,
 };

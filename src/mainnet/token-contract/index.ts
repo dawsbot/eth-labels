@@ -7,7 +7,7 @@ interface AllData {
   nameTag: string;
 }
 export const tokenContract = {
-  all: tokenContractAll as AllData[],
+  all: tokenContractAll as Array<AllData>,
   addresses: tokenContractAddresses,
   isTokenContractAddress,
 };

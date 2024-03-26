@@ -7,7 +7,7 @@ interface AllData {
   nameTag: string;
 }
 export const exchange = {
-  all: exchangeAll as AllData[],
+  all: exchangeAll as Array<AllData>,
   addresses: exchangeAddresses,
   isExchangeAddress,
 };
