@@ -18,4 +18,12 @@ export class FileUtilities {
     const fullPath = path.join(this.__dirname, filePath);
     return fs.readFileSync(fullPath, "utf8");
   }
+  readDir(dirPath: string): Array<string> {
+    const fullPath = path.join(this.__dirname, dirPath);
+    return fs.readdirSync(fullPath, "utf8");
+  }
+  writeFile(filePath: string, data: string): void {
+    const fullPath = path.join(this.__dirname, filePath);
+    fs.writeFileSync(fullPath, data);
+  }
 }
