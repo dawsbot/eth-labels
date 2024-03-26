@@ -1,15 +1,16 @@
-import { z } from "zod";
-import cliProgress, { SingleBar } from "cli-progress";
 import * as cheerio from "cheerio";
+import type { SingleBar } from "cli-progress";
+import cliProgress from "cli-progress";
 import fs from "fs";
 import path from "path";
-import { Page } from "playwright";
+import type { Page } from "playwright";
+import { z } from "zod";
 import { parseError } from "./error-parse";
 
 // dirname does not exist in esm, so we need to polyfill
 import { fileURLToPath } from "url";
+import type { HtmlParser } from "./HtmlParser/HtmlParser";
 import { blockExplorers } from "./block-explorers";
-import { HtmlParser } from "./HtmlParser/HtmlParser";
 const __filename = fileURLToPath(import.meta.url);
 const __dirname = path.dirname(__filename);
 

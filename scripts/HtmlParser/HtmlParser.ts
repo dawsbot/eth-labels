@@ -1,17 +1,22 @@
 import * as cheerio from "cheerio";
-import { TokenRows, TokenRow, AccountRow, AccountRows } from "../AnyscanPuller";
+import type {
+  AccountRow,
+  AccountRows,
+  TokenRow,
+  TokenRows,
+} from "../AnyscanPuller";
 export class HtmlParser {
   /**
    * Find all the label urls on a labelcloud page
-   * @param html: the labelcloud page content
-   * @param baseUrl: the "scan" of interest.
+   * @param html - the labelcloud page content
+   * @param baseUrl - the "scan" of interest.
    * @example
    * ```ts
    *  const allAnchors = htmlParser.selectAllLabels(
-        labelCloudHtml,
-        'https://etherscan.io',
-    );
-    ```
+   *    labelCloudHtml,
+   *    'https://etherscan.io',
+   * );
+   * ```
    */
   public selectAllLabels = (
     html: string,

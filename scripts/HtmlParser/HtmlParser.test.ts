@@ -1,8 +1,8 @@
-import { expect, test, describe } from "vitest";
-import { HtmlParser } from "./HtmlParser";
 import fs from "fs";
 import path from "path";
 import { fileURLToPath } from "url";
+import { describe, expect, test } from "vitest";
+import { HtmlParser } from "./HtmlParser";
 const __filename = fileURLToPath(import.meta.url);
 const __dirname = path.dirname(__filename);
 
