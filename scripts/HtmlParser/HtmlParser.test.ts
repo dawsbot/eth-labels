@@ -13,6 +13,7 @@ const basescanMocks = {
   mockAccountsHtml: fileUtilities.readFile(
     `${basescanDirectory}/accounts.html`,
   ),
+  mockTokensHtml: fileUtilities.readFile(`${basescanDirectory}/tokens.html`),
 };
 const etherscanMocks = {
   mockLabelCloudHtml: fileUtilities.readFile(
@@ -37,15 +38,24 @@ describe("basescan", () => {
     expect(allLabels[0]).toBe(`${baseUrl}/accounts/label/aave?size=10000`);
   });
   test("should parse account addresses", () => {
-    const tokenRows = basescanParser.selectAllAccountAddresses(
+    const accountRows = basescanParser.selectAllAccountAddresses(
       basescanMocks.mockAccountsHtml,
     );
 
-    expect(tokenRows).toHaveLength(2);
-    // expect(tokenRows).toContainEqual({
-    //   address: "0x0e8ba001a821f3ce0734763d008c9d7c957f5852",
-    //   nameTag: "AmadeusRelay",
-    // });
+    expect(accountRows).toHaveLength(2);
+  });
+  test("should parse token addresses", () => {
+    const tokenRows = basescanParser.selectAllTokenAddresses(
+      basescanMocks.mockTokensHtml,
+    );
+
+    expect(tokenRows).toHaveLength(3);
+    expect(tokenRows).toContainEqual({
+      address: "0x0a1d576f3efef75b330424287a95a366e8281d54",
+      tokenName: "Aave Base USDbC",
+      tokenSymbol: "aBasUSDbC",
+      website: "https://aave.com/",
+    });
   });
 });
 

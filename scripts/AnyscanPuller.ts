@@ -131,7 +131,7 @@ export class AnyscanPuller {
     const addressesHtml = await this.fetchPageHtml(
       url,
       page,
-      `a[aria-label="Copy Address"]`,
+      "tr > td > div > a",
     );
     const allAddresses =
       this.#htmlParser.selectAllTokenAddresses(addressesHtml);
