@@ -1,7 +1,7 @@
 import { Browser, Page, firefox } from "playwright";
 import z from "zod";
 import * as cheerio from "cheerio";
-import { parseError } from "./error-parse";
+import { parseError } from "./components/error/error-parse";
 import "dotenv/config";
 import fs from "fs";
 import path from "path";

@@ -84,10 +84,6 @@
     "nameTag": "MEV Builder: 0x000...333"
   },
   {
-    "address": "0x00000000a991c429ee2ec6df19d40fe0c80088b8",
-    "nameTag": "MEV Builder: 0x000...8B8"
-  },
-  {
     "address": "0x000e633ddef00da46abd5044779257a64ead9bce",
     "nameTag": "MEV Builder: 0x000...bce"
   },
@@ -282,6 +278,10 @@
   {
     "address": "0xae08c571e771f360c35f5715e36407ecc89d91ed",
     "nameTag": "MEV Builder: 0xae...1ed"
+  },
+  {
+    "address": "0xb279d48442aafcf8f2af6d9e7d5d9c23f63b4e16",
+    "nameTag": "MEV Builder: 0xB27...e16"
   },
   {
     "address": "0xb4c9e4617a16be36b92689b9e07e9f64757c1792",
