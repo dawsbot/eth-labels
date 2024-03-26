@@ -9,6 +9,9 @@ const basescanMocks = {
   mockLabelCloudHtml: fileUtilities.readFile(
     `${basescanDirectory}/labelcloud.html`,
   ),
+  mockAccountsHtml: fileUtilities.readFile(
+    `${basescanDirectory}/accounts.html`,
+  ),
 };
 const etherscanMocks = {
   mockLabelCloudHtml: fileUtilities.readFile(
@@ -31,6 +34,17 @@ describe("basescan", () => {
 
     expect(allLabels).toHaveLength(66);
     expect(allLabels[0]).toBe(`${baseUrl}/accounts/label/aave?size=10000`);
+  });
+  test("should parse account addresses", () => {
+    const tokenRows = parser.selectAllAccountAddresses(
+      basescanMocks.mockAccountsHtml,
+    );
+
+    expect(tokenRows).toHaveLength(2);
+    // expect(tokenRows).toContainEqual({
+    //   address: "0x0e8ba001a821f3ce0734763d008c9d7c957f5852",
+    //   nameTag: "AmadeusRelay",
+    // });
   });
 });
 describe("etherscan", () => {
