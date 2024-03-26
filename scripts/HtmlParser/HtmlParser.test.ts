@@ -1,32 +1,22 @@
-import fs from "fs";
-import path from "path";
-import { fileURLToPath } from "url";
 import { describe, expect, test } from "vitest";
+import { FileUtilities } from "../FileSystem/FileSystem";
 import { HtmlParser } from "./HtmlParser";
-const __filename = fileURLToPath(import.meta.url);
-const __dirname = path.dirname(__filename);
+const fileUtilities = new FileUtilities(import.meta.url);
 
-const mocksDirectory = path.join(__dirname, "mocks");
-const etherscanDirectory = path.join(mocksDirectory, "etherscan");
-const basescanDirectory = path.join(mocksDirectory, "basescan");
+const etherscanDirectory = "mocks/etherscan";
+const basescanDirectory = "mocks/basescan";
 const basescanMocks = {
-  mockLabelCloudHtml: fs.readFileSync(
-    path.join(basescanDirectory, "labelcloud.html"),
-    "utf8",
+  mockLabelCloudHtml: fileUtilities.readFile(
+    `${basescanDirectory}/labelcloud.html`,
   ),
 };
 const etherscanMocks = {
-  mockLabelCloudHtml: fs.readFileSync(
-    path.join(etherscanDirectory, "labelcloud.html"),
-    "utf8",
+  mockLabelCloudHtml: fileUtilities.readFile(
+    `${etherscanDirectory}/labelcloud.html`,
   ),
-  mockTokensHtml: fs.readFileSync(
-    path.join(etherscanDirectory, "tokens.html"),
-    "utf8",
-  ),
-  mockAccountsHtml: fs.readFileSync(
-    path.join(etherscanDirectory, "accounts.html"),
-    "utf8",
+  mockTokensHtml: fileUtilities.readFile(`${etherscanDirectory}/tokens.html`),
+  mockAccountsHtml: fileUtilities.readFile(
+    `${etherscanDirectory}/accounts.html`,
   ),
 };
 
