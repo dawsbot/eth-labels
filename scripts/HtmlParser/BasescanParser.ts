@@ -48,11 +48,14 @@ export class BasescanParser extends HtmlParser {
         return;
       }
       const tokenNameColumn = $(tableCells[2]).text().trim();
-      const regex = /^(.*)\n\s*\((.*)\)/;
+
+      const regex = /^(.*)\s\((.*)\)/;
       const match = tokenNameColumn.match(regex);
       const tokenName = match?.[1];
       const tokenSymbol = match?.[2];
-      const website = $(tableCells[5]).text().trim().toLowerCase();
+      const website = (
+        $(tableCells[5]).find("a").attr("data-original-title") || ""
+      ).toLowerCase();
       const tokenRow: TokenRow = {
         address: address.trim(),
         tokenName: tokenName || "",
