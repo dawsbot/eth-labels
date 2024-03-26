@@ -38,6 +38,10 @@ More chains coming soon (March/April 2024)
 - Where does this data come from?
   - This data is already organized by the kind folks at Etherscan. Unfortunately that data is not accessible for researchers, so we've copied the data out and into a more shareable format here.
 
+## Roadmap
+
+[View roadmap here](https://github.com/users/dawsbot/projects/3)
+
 <!-- ## Install
 
 ```sh
