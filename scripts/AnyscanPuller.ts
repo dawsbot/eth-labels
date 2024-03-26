@@ -171,7 +171,6 @@ export class AnyscanPuller {
         addressesHtml,
         "0",
       );
-      console.dir({ allAddresses });
     }
     return allAddresses;
   };
