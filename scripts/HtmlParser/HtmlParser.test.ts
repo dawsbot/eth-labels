@@ -6,24 +6,50 @@ import { fileURLToPath } from "url";
 const __filename = fileURLToPath(import.meta.url);
 const __dirname = path.dirname(__filename);
 
-const mockLabelCloudHtml = fs.readFileSync(
-  path.join(__dirname, "mocks", "etherscan", "labelcloud.html"),
-  "utf8",
-);
-const mockTokensHtml = fs.readFileSync(
-  path.join(__dirname, "mocks", "etherscan", "tokens.html"),
-  "utf8",
-);
-const mockAccountsHtml = fs.readFileSync(
-  path.join(__dirname, "mocks", "etherscan", "accounts.html"),
-  "utf8",
-);
+const mocksDirectory = path.join(__dirname, "mocks");
+const etherscanDirectory = path.join(mocksDirectory, "etherscan");
+const basescanDirectory = path.join(mocksDirectory, "basescan");
+const basescanMocks = {
+  mockLabelCloudHtml: fs.readFileSync(
+    path.join(basescanDirectory, "labelcloud.html"),
+    "utf8",
+  ),
+};
+const etherscanMocks = {
+  mockLabelCloudHtml: fs.readFileSync(
+    path.join(etherscanDirectory, "labelcloud.html"),
+    "utf8",
+  ),
+  mockTokensHtml: fs.readFileSync(
+    path.join(etherscanDirectory, "tokens.html"),
+    "utf8",
+  ),
+  mockAccountsHtml: fs.readFileSync(
+    path.join(etherscanDirectory, "accounts.html"),
+    "utf8",
+  ),
+};
 
+const parser = new HtmlParser();
+describe("basescan", () => {
+  test("should parse labelcloud", () => {
+    const baseUrl = "https://basescan.io";
+    const allLabels = parser.selectAllLabels(
+      basescanMocks.mockLabelCloudHtml,
+      baseUrl,
+    );
+
+    expect(allLabels).toHaveLength(66);
+    expect(allLabels[0]).toBe(`${baseUrl}/accounts/label/aave?size=10000`);
+  });
+});
 describe("etherscan", () => {
-  const parser = new HtmlParser();
   test("should parse labelcloud", () => {
     const baseUrl = "https://etherscan.io";
-    const allLabels = parser.selectAllLabels(mockLabelCloudHtml, baseUrl);
+    const allLabels = parser.selectAllLabels(
+      etherscanMocks.mockLabelCloudHtml,
+      baseUrl,
+    );
 
     expect(allLabels).toHaveLength(899);
     expect(allLabels[0]).toBe(
@@ -31,7 +57,9 @@ describe("etherscan", () => {
     );
   });
   test("should parse account addresses", () => {
-    const tokenRows = parser.selectAllAccountAddresses(mockAccountsHtml);
+    const tokenRows = parser.selectAllAccountAddresses(
+      etherscanMocks.mockAccountsHtml,
+    );
 
     expect(tokenRows).toHaveLength(12);
     expect(tokenRows).toContainEqual({
@@ -40,7 +68,9 @@ describe("etherscan", () => {
     });
   });
   test("should parse token addresses", () => {
-    const tokenRows = parser.selectAllTokenAddresses(mockTokensHtml);
+    const tokenRows = parser.selectAllTokenAddresses(
+      etherscanMocks.mockTokensHtml,
+    );
 
     expect(tokenRows).toHaveLength(11);
     expect(tokenRows).toContainEqual({
