@@ -7,10 +7,9 @@ import type { Page } from "playwright";
 import { z } from "zod";
 import { parseError } from "./error-parse";
 
-// dirname does not exist in esm, so we need to polyfill
 import { fileURLToPath } from "url";
 import type { HtmlParser } from "./HtmlParser/HtmlParser";
-import { scanConfig } from "./block-explorers";
+import { scanConfig } from "./scan-config";
 const __filename = fileURLToPath(import.meta.url);
 const __dirname = path.dirname(__filename);
 
@@ -67,10 +66,13 @@ export class AnyscanPuller {
       `button[data-url]`,
     );
 
-    const allAnchors = this.#htmlParser.selectAllLabels(
-      labelCloudHtml,
-      this.#baseUrl,
-    );
+    const allAnchors = z
+      .array(z.string().url().startsWith("https://"))
+      .parse(
+        this.#htmlParser
+          .selectAllLabels(labelCloudHtml)
+          .map((anchor) => `${this.#baseUrl}${anchor}`),
+      );
     const allLabels: AllLabels = { accounts: [], tokens: [], blocks: [] };
     allAnchors.forEach((url) => {
       if (url.includes("/accounts/")) {

@@ -1,0 +1,2963 @@
+<!-- originally from https://optimistic.etherscan.io/tokens/label/aave -->
+<html lang="en">
+  <script
+    src="chrome-extension://dlcobpjiigpikoobohmabehhmhfoodbb/inpage.js"
+    id="argent-x-extension"
+    data-extension-id="dlcobpjiigpikoobohmabehhmhfoodbb"
+  ></script>
+  <head>
+    <title>Token Tracker | Optimism</title>
+    <meta charset="utf-8" />
+    <meta
+      name="viewport"
+      content="width=device-width, initial-scale=1, shrink-to-fit=no"
+    />
+    <meta name="author" content="optimistic.etherscan.io" />
+    <meta
+      name="keywords"
+      content="ethereum, explorer, ether, L2, search, blockchain, crypto, currency"
+    />
+    <meta name="format-detection" content="telephone=no" />
+    <meta
+      name="Description"
+      content="OP Etherscan allows you to explore and search the Optimism Network for transactions, addresses, tokens, prices and other activities taking place on the OP Mainnet Network"
+    />
+    <meta name="author" content="optimistic.etherscan.io" />
+    <meta
+      name="keywords"
+      content="OP Mainnet, Optimism, explorer, search, blockchain, crypto, currency"
+    />
+    <meta property="og:title" content="Token Tracker | Optimism" />
+    <meta
+      property="og:description"
+      content="The list of ERC-20 Tokens and their Prices, Market Capitalizations and the Number of Holders in the Ethereum Blockchain on Optimism."
+    />
+    <meta property="og:type" content="website" />
+    <meta property="og:site_name" content="OP Mainnet Explorer" />
+    <meta property="og:url" content="http://optimistic.etherscan.io/tokens" />
+    <meta
+      property="og:image"
+      content="https://optimistic.etherscan.io/images/brandassets/logo.jpg?v=24.3.2.1"
+    />
+    <meta property="og:image:alt" content="Visit optimistic.etherscan.io" />
+    <meta name="twitter:card" content="summary" />
+    <meta name="twitter:site" content="@OP Mainnet" />
+    <meta name="twitter:title" content="Token Tracker | Optimism" />
+    <meta
+      property="twitter:description"
+      content="The list of ERC-20 Tokens and their Prices, Market Capitalizations and the Number of Holders in the Ethereum Blockchain on Optimism."
+    />
+    <meta
+      property="twitter:image"
+      content="https://optimistic.etherscan.io/images/brandassets/logo.jpg?v=24.3.2.1"
+    />
+    <style>
+      .card-header.sticky-card-header {
+        position: sticky;
+        top: 0;
+        z-index: 10;
+      }
+
+      .dataTable > thead > tr > th[class*="remove-icon"]:before,
+      .dataTable > thead > tr > th[class*="remove-icon"]:after {
+        content: "" !important;
+      }
+
+      table.dataTable thead th.sorting:before,
+      table.dataTable thead th.sorting_asc:before,
+      table.dataTable thead th.sorting_desc:before,
+      table.dataTable thead th.sorting:after,
+      table.dataTable thead th.sorting_asc:after,
+      table.dataTable thead th.sorting_desc:after {
+        content: none;
+      }
+
+      .dataTables_processing {
+        z-index: 100;
+      }
+
+      .fadeout {
+        position: relative;
+        bottom: 4em;
+        height: 4em;
+        background: -webkit-linear-gradient(
+          rgba(255, 255, 255, 0) 0%,
+          rgba(255, 255, 255, 1) 100%
+        );
+        background-image: -moz-linear-gradient(
+          rgba(255, 255, 255, 0) 0%,
+          rgba(255, 255, 255, 1) 100%
+        );
+        background-image: -o-linear-gradient(
+          rgba(255, 255, 255, 0) 0%,
+          rgba(255, 255, 255, 1) 100%
+        );
+        background-image: linear-gradient(
+          rgba(255, 255, 255, 0) 0%,
+          rgba(255, 255, 255, 1) 100%
+        );
+        background-image: -ms-linear-gradient(
+          rgba(255, 255, 255, 0) 0%,
+          rgba(255, 255, 255, 1) 100%
+        );
+      }
+    </style>
+    <link rel="shortcut icon" href="/images/favicon.ico?v=24.3.2.1" />
+    <script
+      async=""
+      src="https://www.googletagmanager.com/gtag/js?id=G-XPR6BMZXSN"
+    ></script>
+    <script>
+      window.dataLayer = window.dataLayer || [];
+      function gtag() {
+        dataLayer.push(arguments);
+      }
+      gtag("js", new Date());
+      gtag("config", "G-XPR6BMZXSN", { anonymize_ip: true });
+    </script>
+    <script>
+      //Search box text ad
+      var availableAd = [];
+      var gotAd = [];
+
+      availableAd = [];
+      gotAd = ["ShowAds					"];
+    </script>
+
+    <link
+      rel="stylesheet"
+      href="/assets/vendor/font-awesome/css/fontawesome-all.min.css?v=24.3.2.1"
+    />
+    <link
+      rel="stylesheet"
+      href="/assets/vendor/animate.css/animate.min.css?v=24.3.2.1"
+    />
+    <link
+      rel="stylesheet"
+      href="/assets/vendor/hs-megamenu/src/hs.megamenu.css?v=24.3.2.1"
+    />
+    <link
+      rel="stylesheet"
+      href="/assets/vendor/malihu-custom-scrollbar-plugin/jquery.mCustomScrollbar.css?v=24.3.2.1"
+    />
+    <link
+      rel="stylesheet"
+      href="/assets/vendor/select2/dist/css/select2.min.css?v=24.3.2.1"
+    />
+    <link rel="stylesheet" href="/assets/css/theme.min.css?v=24.3.2.1" />
+    <link rel="stylesheet" href="/assets/css/custom.css?v=24.3.2.1" />
+    <script src="/assets/vendor/jquery/dist/jquery.min.js?v=24.3.2.1"></script>
+    <script type="text/javascript" src="/jss/blockies.js?v=24.3.2.1"></script>
+    <style>
+      .ui-autocomplete {
+        position: absolute;
+        top: 0;
+        left: 0;
+        cursor: default;
+      }
+      .ui-state-active {
+        border-color: #e7eaf3;
+        background: #f8fafd;
+      }
+      body.dark-mode .ui-state-active {
+        background-color: #132a47;
+        border-color: #18365b;
+      }
+      .autolink-safari a {
+        pointer-events: none !important;
+        text-decoration: none !important;
+        color: inherit !important;
+      }
+    </style>
+    <link
+      href="/assets/vendor/hs-sticky-thead/src/hs.sticky-thead.css?v=24.3.2.1"
+      rel="stylesheet"
+    />
+    <style>
+      .custwidth {
+        width: 295px !important;
+      }
+
+      @media all and (max-width: 576px) {
+        .freeze_column_wrapper th:first-child,
+        .freeze_column_wrapper td:first-child,
+        .freeze_column_wrapper th:nth-child(2),
+        .freeze_column_wrapper td:nth-child(2) {
+          position: -webkit-sticky;
+          position: sticky;
+          background-color: white;
+        }
+        .freeze_column_wrapper .sticky-thead-cloned-table th:first-child,
+        .freeze_column_wrapper td:first-child {
+          left: 0;
+          width: 60px;
+          min-width: 60px;
+        }
+        .freeze_column_wrapper .sticky-thead-cloned-table th:first-child {
+          z-index: 4;
+          padding: 0.625rem 10px;
+          text-align: left;
+          width: 60px;
+          min-width: 60px;
+        }
+        .freeze_column_wrapper .sticky-thead-cloned-table th:nth-child(2) {
+          padding: 0.625rem 0;
+          left: 60px !important;
+          width: 130px;
+          min-width: 146px;
+        }
+
+        .freeze_column_wrapper td:first-child {
+          border-bottom: 1.4px solid #e7eaf3;
+        }
+        .freeze_column_wrapper td:nth-child(2) {
+          padding: 0.625rem 0;
+          left: 50px !important;
+          width: 146px;
+          min-width: 146px;
+          border-bottom: 1.4px solid #e7eaf3;
+          padding-left: 10px;
+          padding-right: 10px;
+        }
+        .freeze_column_wrapper td:nth-child(3) {
+          left: 130px !important;
+        }
+        .freeze_column_wrapper td:nth-child(3) {
+          left: 130px !important;
+          width: 80px;
+          min-width: 80px;
+        }
+        .freeze_column_wrapper td:nth-child(4) {
+          left: 80px !important;
+          width: 90px;
+          min-width: 90px;
+        }
+        .freeze_column_wrapper td:nth-child(5) {
+          left: 90px !important;
+          width: 100px;
+          min-width: 100px;
+        }
+        .freeze_column_wrapper td:nth-child(6) {
+          left: 100px !important;
+          width: 135px;
+          min-width: 135px;
+        }
+        .freeze_column_wrapper td:nth-child(7) {
+          left: 135px !important;
+          width: 80px;
+          min-width: 80px;
+        }
+        .freeze_column_wrapper .table-text-normal td:first-child {
+          width: 50px;
+          min-width: 50px;
+          padding: 0.625rem 10px;
+          left: 0 !important;
+        }
+        .freeze_column_wrapper .sticky-thead-original-thead {
+          display: none;
+        }
+        .freeze_column_wrapper .sticky-thead-cloned-table thead {
+          border-bottom: 1px solid #e7eaf3;
+        }
+        .freeze_column_wrapper .sticky-thead-cloned-table thead th {
+          border-bottom-width: 0;
+        }
+        .freeze_column_wrapper .table tr td {
+          border-top: 1px solid #e7eaf3;
+        }
+        .freeze_column_wrapper .table tr:nth-child(1) td {
+          border-top: 0;
+        }
+        .freeze_column_wrapper .table tr:last-child td {
+          border-bottom: 0;
+        }
+        .freeze_column_wrapper .token-sticky-header {
+          background-color: #f8fafd !important;
+        }
+        .custom-control-label::before {
+          height: 1.2rem;
+        }
+        .custom-switch .custom-control-label::after {
+          top: 8px;
+          width: 12px;
+          height: 12px;
+          left: -43px !important;
+        }
+        .custom-switch
+          .custom-control-input:checked
+          ~ .custom-control-label::after {
+          -webkit-transform: translateX(1.2rem);
+          transform: translateX(1.2rem);
+          top: 8px;
+          width: 12px;
+          height: 12px;
+        }
+        .custom-control-label::before {
+          height: 1.5rem;
+          border-radius: 40px !important;
+        }
+        #divSTContainer #stickyy th:nth-child(1),
+        .sticky-header-cloned-table th:nth-child(1) {
+          z-index: 4;
+          padding: 0.625rem 10px;
+          text-align: left;
+          width: 60px !important;
+          min-width: 60px;
+          left: 0;
+        }
+        #divSTContainer #stickyy th:nth-child(2),
+        .sticky-header-cloned-table th:nth-child(2) {
+          padding: 0.625rem 0;
+          left: 60px !important;
+          width: 135px !important;
+          min-width: 135px;
+        }
+        .table-text-normal td:nth-child(1) {
+          min-width: 50px;
+          padding-left: 10px;
+          padding-right: 10px;
+        }
+        .table-text-normal td:nth-child(2) {
+          min-width: 146px;
+        }
+      }
+    </style>
+    <link
+      rel="stylesheet"
+      type="text/css"
+      href="/assets/vendor/datatables/datatables.min.css?v=24.3.2.1"
+    />
+    <script
+      type="text/javascript"
+      src="/assets/vendor/datatables/datatables.min.js?v=24.3.2.1"
+    ></script>
+    <script>
+      function showSignInPopUp(tableid) {
+        if ($("#signInPopUp").attr("style")) {
+          $("#signInPopUp").removeAttr("style");
+        }
+
+        if (!$(".add-paywall").hasClass("paywall-mask")) {
+          $(".add-paywall").addClass("paywall-mask");
+        }
+
+        return;
+      }
+
+      function hideSignInPopUp(tableid) {
+        if (!$("#signInPopUp").attr("style")) {
+          $("#signInPopUp").attr("style", "display:none;");
+        }
+
+        if ($("#paywall_mask_" + tableid).hasClass("paywall-mask")) {
+          $("#paywall_mask_" + tableid).removeClass("paywall-mask");
+        }
+
+        return;
+      }
+    </script>
+    <meta
+      name="description"
+      content="The list of ERC-20 Tokens and their Prices, Market Capitalizations and the Number of Holders in the Ethereum Blockchain on Optimism."
+    />
+    <script src="https://optimistic.etherscan.io/assets/vendor/jquery-mousewheel/3.1.13/jquery.mousewheel.min.js"></script>
+  </head>
+  <body
+    id="body"
+    class="__bm__extension"
+    data-new-gr-c-s-check-loaded="14.1163.0"
+    data-gr-ext-installed=""
+  >
+    <div class="wrapper">
+      <header id="header" class="u-header u-scrolled">
+        <div class="u-header__section">
+          <div id="logoAndNav" class="container">
+            <nav
+              class="js-mega-menu navbar navbar-expand-md u-header__navbar u-header__navbar--no-space hs-menu-initialized hs-menu-horizontal"
+            >
+              <div class="w-lg-auto">
+                <a
+                  class="navbar-brand pt-md-0"
+                  href="/"
+                  target="_parent"
+                  aria-label="Etherscan"
+                >
+                  <img
+                    id="logo-header"
+                    width="140"
+                    src="/images/logo-ether.svg?v=24.3.2.1"
+                    alt="Site Logo"
+                  />
+                </a>
+                <div id="ethPrice">
+                  <div
+                    class="d-none d-md-inline-block u-label u-label--price rounded mt-1 ml-n1 text-nowrap"
+                  >
+                    <span class="text-dark">Eth: $3,564.56</span
+                    ><span
+                      data-toggle="tooltip"
+                      data-placement="top"
+                      data-title="Changes in the last 24 hours"
+                      data-original-title=""
+                      title=""
+                      ><span class="text-danger"> (-2.07%)</span></span
+                    >
+                  </div>
+                </div>
+              </div>
+              <div>
+                <button
+                  type="button"
+                  class="navbar-toggler btn u-hamburger"
+                  aria-label="Toggle navigation"
+                  aria-expanded="false"
+                  aria-controls="navBar"
+                  data-toggle="collapse"
+                  data-target="#navBar"
+                >
+                  <span id="hamburgerTrigger" class="u-hamburger__box">
+                    <span class="u-hamburger__inner"></span>
+                  </span>
+                </button>
+              </div>
+              <div class="d-flex flex-column w-100">
+                <div
+                  id="navBar"
+                  class="collapse navbar-collapse u-header__navbar-collapse order-md-2"
+                >
+                  <ul class="navbar-nav u-header__navbar-nav px-2 px-md-0">
+                    <li
+                      id="LI_default"
+                      class="nav-item u-header__nav-item"
+                      data-event="hover"
+                      data-animation-in="slideInUp"
+                      data-animation-out="fadeOut"
+                    >
+                      <a
+                        class="nav-link u-header__nav-link"
+                        href="/"
+                        aria-haspopup="true"
+                        aria-expanded="false"
+                        aria-labelledby="pagesSubMenu"
+                        >Home</a
+                      >
+                    </li>
+                    <li
+                      id="LI_blockchain"
+                      class="nav-item hs-has-sub-menu u-header__nav-item"
+                      data-event="hover"
+                      data-animation-in="slideInUp"
+                      data-animation-out="fadeOut"
+                    >
+                      <a
+                        id="blockchainMegaMenu"
+                        class="nav-link u-header__nav-link u-header__nav-link-toggle"
+                        href="javascript:;"
+                        aria-haspopup="true"
+                        aria-expanded="false"
+                        aria-labelledby="pagesSubMenu"
+                        >Blockchain</a
+                      >
+                      <ul
+                        id="blockchainSubMenu"
+                        class="hs-sub-menu u-header__sub-menu u-header__sub-menu--spacer animated fadeOut"
+                        aria-labelledby="blockchainMegaMenu"
+                        style="min-width: 230px; display: none"
+                      >
+                        <li id="LI12">
+                          <a
+                            href="/txs"
+                            class="nav-link u-header__sub-menu-nav-link"
+                            >Transactions</a
+                          >
+                        </li>
+                        <li id="LI41">
+                          <a
+                            href="/txsEnqueued"
+                            class="nav-link u-header__sub-menu-nav-link"
+                            >Latest L1→L2 Transactions</a
+                          >
+                        </li>
+                        <li id="LI66">
+                          <a
+                            href="/txsExit"
+                            class="nav-link u-header__sub-menu-nav-link"
+                            >Latest L2→L1 Transactions</a
+                          >
+                        </li>
+                        <li id="LI14">
+                          <a
+                            href="/txsInternal"
+                            class="nav-link u-header__sub-menu-nav-link"
+                            >Contract Internal Transactions</a
+                          >
+                        </li>
+                        <li class="dropdown-divider"></li>
+                        <li id="LI_blocks">
+                          <a
+                            id="navBlocks"
+                            class="nav-link u-header__sub-menu-nav-link"
+                            href="/blocks"
+                            aria-haspopup="true"
+                            aria-expanded="false"
+                            aria-controls="navSubBlocks"
+                            >View Blocks</a
+                          >
+                        </li>
+                        <li id="LI_batches">
+                          <a
+                            id="navBatches"
+                            class="nav-link u-header__sub-menu-nav-link"
+                            href="/batches"
+                            aria-haspopup="true"
+                            aria-expanded="false"
+                            aria-controls="navSubBlocks"
+                            >View L1 Transaction Batches</a
+                          >
+                        </li>
+                        <li id="LI_statebatches">
+                          <a
+                            id="navStateBatch"
+                            class="nav-link u-header__sub-menu-nav-link"
+                            href="/statebatches"
+                            aria-haspopup="true"
+                            aria-expanded="false"
+                            aria-controls="navSubBlocks"
+                            >View L1 State Batches</a
+                          >
+                        </li>
+                        <li class="dropdown-divider"></li>
+                        <li id="LI_accountall">
+                          <a
+                            href="/accounts"
+                            class="nav-link u-header__sub-menu-nav-link"
+                            >Top Accounts</a
+                          >
+                        </li>
+                        <li id="LI_contract_verified">
+                          <a
+                            href="/contractsVerified"
+                            class="nav-link u-header__sub-menu-nav-link"
+                            >Verified Contracts</a
+                          >
+                        </li>
+                      </ul>
+                    </li>
+                    <li
+                      id="LI_tokens"
+                      class="nav-item hs-has-sub-menu u-header__nav-item active"
+                      data-event="hover"
+                      data-animation-in="slideInUp"
+                      data-animation-out="fadeOut"
+                    >
+                      <a
+                        id="tokensMegaMenu"
+                        class="nav-link u-header__nav-link u-header__nav-link-toggle"
+                        href="javascript:;"
+                        aria-haspopup="true"
+                        aria-expanded="false"
+                        aria-labelledby="tokensSubMenu"
+                        >Tokens</a
+                      >
+
+                      <ul
+                        id="tokensSubMenu"
+                        class="hs-sub-menu u-header__sub-menu u-header__sub-menu--spacer animated fadeOut"
+                        aria-labelledby="tokensMegaMenu"
+                        style="min-width: 230px; display: none"
+                      >
+                        <li id="LI21">
+                          <a
+                            class="nav-link u-header__sub-menu-nav-link"
+                            href="/tokens"
+                            >ERC20 Top Tokens</a
+                          >
+                        </li>
+                        <li id="LI1">
+                          <a
+                            class="nav-link u-header__sub-menu-nav-link"
+                            href="/tokentxns"
+                            >View ERC20 Transfers</a
+                          >
+                        </li>
+                        <li class="dropdown-divider"></li>
+                        <li id="LI42">
+                          <a
+                            class="nav-link u-header__sub-menu-nav-link"
+                            href="/tokens-nft"
+                            >ERC721 Top Tokens</a
+                          >
+                        </li>
+                        <li id="LI40">
+                          <a
+                            class="nav-link u-header__sub-menu-nav-link"
+                            href="/tokentxns-nft"
+                            >View ERC721 Transfers</a
+                          >
+                        </li>
+                        <li class="dropdown-divider"></li>
+                        <li id="LI30">
+                          <a
+                            class="nav-link u-header__sub-menu-nav-link"
+                            href="/tokens-nft1155"
+                            >ERC1155 Top Tokens</a
+                          >
+                        </li>
+                        <li id="LI33">
+                          <a
+                            class="nav-link u-header__sub-menu-nav-link"
+                            href="/tokentxns-nft1155"
+                            >View ERC1155 Transfers <sup></sup
+                          ></a>
+                        </li>
+                      </ul>
+                    </li>
+                    <li
+                      id="LI_resources"
+                      class="nav-item hs-has-sub-menu u-header__nav-item"
+                      data-event="hover"
+                      data-animation-in="slideInUp"
+                      data-animation-out="fadeOut"
+                    >
+                      <a
+                        id="resourcesMegaMenu"
+                        class="nav-link u-header__nav-link u-header__nav-link-toggle"
+                        href="javascript:;"
+                        aria-haspopup="true"
+                        aria-expanded="false"
+                        aria-labelledby="resourcesSubMenu"
+                        >Resources</a
+                      >
+                      <ul
+                        id="resourcesSubMenu"
+                        class="hs-sub-menu u-header__sub-menu u-header__sub-menu--spacer"
+                        aria-labelledby="resourcesMegaMenu"
+                        style="min-width: 230px; display: none"
+                      >
+                        <li id="LI_charts2">
+                          <a
+                            class="nav-link u-header__sub-menu-nav-link"
+                            href="/charts"
+                            >Charts &amp; Stats</a
+                          >
+                        </li>
+                      </ul>
+                    </li>
+                    <li
+                      id="LI_services2"
+                      class="nav-item hs-has-mega-menu u-header__nav-item"
+                      data-event="hover"
+                      data-animation-in="slideInUp"
+                      data-animation-out="fadeOut"
+                      data-position="right"
+                    >
+                      <a
+                        id="moreMegaMenu"
+                        class="nav-link u-header__nav-link u-header__nav-link-toggle"
+                        href="javascript:;"
+                        aria-haspopup="true"
+                        aria-expanded="false"
+                        >More</a
+                      >
+                      <div
+                        class="hs-mega-menu w-80 u-header__sub-menu"
+                        aria-labelledby="moreMegaMenu"
+                        style="display: none"
+                      >
+                        <div class="row u-header__mega-menu-wrapper">
+                          <div class="col-sm-6 col-md-4 col-lg mb-4 mb-lg-0">
+                            <span class="u-header__sub-menu-title"
+                              >Developers</span
+                            >
+                            <ul class="u-header__sub-menu-nav-group mb-3">
+                              <li id="LI_OP_MAINNET_Docs">
+                                <a
+                                  class="nav-link u-header__sub-menu-nav-link"
+                                  href="/apis"
+                                  ><i class="fa fa-angle-right small mr-1"></i
+                                  >APIs</a
+                                >
+                              </li>
+                              <li id="LI17">
+                                <a
+                                  class="nav-link u-header__sub-menu-nav-link"
+                                  href="/verifyContract"
+                                  ><i class="fa fa-angle-right small mr-1"></i
+                                  >Verify Contract</a
+                                >
+                              </li>
+                              <li id="LI24">
+                                <a
+                                  class="nav-link u-header__sub-menu-nav-link"
+                                  href="/opcode-tool"
+                                  ><i class="fa fa-angle-right small mr-1"></i
+                                  >Byte to Opcode</a
+                                >
+                              </li>
+                              <li id="LI54">
+                                <a
+                                  class="nav-link u-header__sub-menu-nav-link"
+                                  href="/contractdiffchecker"
+                                  ><i class="fa fa-angle-right small mr-1"></i
+                                  >Contract Diff Checker<sup
+                                    ><span
+                                      class="badge badge-success font-size-default ml-1"
+                                      >New</span
+                                    ></sup
+                                  ></a
+                                >
+                              </li>
+                              <li id="LI27">
+                                <a
+                                  class="nav-link u-header__sub-menu-nav-link"
+                                  href="/vyper"
+                                  ><i class="fa fa-angle-right small mr-1"></i
+                                  >Vyper Online Compiler</a
+                                >
+                              </li>
+                            </ul>
+                          </div>
+                          <div class="col-sm-6 col-md-4 col-lg mb-4 mb-lg-0">
+                            <span class="u-header__sub-menu-title">Tools</span>
+                            <ul class="u-header__sub-menu-nav-group mb-3">
+                              <li id="LI2">
+                                <a
+                                  class="nav-link u-header__sub-menu-nav-link"
+                                  href="/labelcloud"
+                                  ><i class="fa fa-angle-right small mr-1"></i
+                                  >Label Word Cloud</a
+                                >
+                              </li>
+                              <li id="LI22">
+                                <a
+                                  class="nav-link u-header__sub-menu-nav-link"
+                                  href="/verifiedSignatures"
+                                  ><i class="fa fa-angle-right small mr-1"></i
+                                  >Verified Signature</a
+                                >
+                              </li>
+                              <li id="LI29">
+                                <a
+                                  class="nav-link u-header__sub-menu-nav-link"
+                                  href="/advanced-filter"
+                                  ><i class="fa fa-angle-right small mr-1"></i
+                                  >Advanced Filter
+                                  <sup
+                                    ><span class="badge badge-secondary ml-1"
+                                      >Beta</span
+                                    ></sup
+                                  ></a
+                                >
+                              </li>
+                              <li id="LI5">
+                                <a
+                                  class="nav-link u-header__sub-menu-nav-link"
+                                  href="/exportDataMain"
+                                  ><i class="fa fa-angle-right small mr-1"></i
+                                  >Export Data</a
+                                >
+                              </li>
+                              <li id="LI4">
+                                <a
+                                  class="nav-link u-header__sub-menu-nav-link"
+                                  href="/messagerelayer"
+                                  ><i class="fa fa-angle-right small mr-1"></i
+                                  >L2 to L1 Relayer</a
+                                >
+                              </li>
+                              <li id="LI9">
+                                <a
+                                  class="nav-link u-header__sub-menu-nav-link"
+                                  href="/tokenapprovalchecker"
+                                  ><i class="fa fa-angle-right small mr-1"></i
+                                  >Token Approvals
+                                  <sup
+                                    ><span
+                                      class="badge badge-secondary font-size-default ml-1"
+                                    >
+                                      Beta</span
+                                    ></sup
+                                  ></a
+                                >
+                              </li>
+                            </ul>
+                          </div>
+                        </div>
+                      </div>
+                    </li>
+                    <li class="u-header__nav-separator"></li>
+                    <li
+                      class="nav-item hs-has-sub-menu u-header__nav-item my-2 my-md-0"
+                      data-event="hover"
+                      data-animation-in="slideInUp"
+                      data-animation-out="fadeOut"
+                      data-position="right"
+                    >
+                      <a
+                        id="dropdownUser"
+                        class="nav-link u-header__nav-link u-header__nav-link-toggle"
+                        href="javascript:;"
+                        aria-haspopup="true"
+                        aria-expanded="false"
+                        aria-labelledby="dropwdownUserMenu"
+                        ><i class="fa fa-user-circle mr-1"></i>BOLDDD123232</a
+                      >
+                      <ul
+                        id="dropwdownUserMenu"
+                        class="hs-sub-menu u-header__sub-menu u-header__sub-menu--spacer"
+                        aria-labelledby="dropdownUser"
+                        style="min-width: 190px; display: none"
+                      >
+                        <li>
+                          <a
+                            class="nav-link u-header__sub-menu-nav-link"
+                            href="/myaccount"
+                            >My Profile</a
+                          >
+                        </li>
+                        <li class="dropdown-divider"></li>
+                        <li>
+                          <a
+                            class="nav-link u-header__sub-menu-nav-link"
+                            href="/myaddress"
+                            >Watch List</a
+                          >
+                        </li>
+                        <li>
+                          <a
+                            class="nav-link u-header__sub-menu-nav-link"
+                            href="/mynotes_tx"
+                            >Txn Private Notes</a
+                          >
+                        </li>
+                        <li>
+                          <a
+                            class="nav-link u-header__sub-menu-nav-link"
+                            href="/mynotes_address"
+                            >Private Name Tags</a
+                          >
+                        </li>
+                        <li>
+                          <a
+                            class="nav-link u-header__sub-menu-nav-link"
+                            href="/mytokenignore"
+                            >Token Ignore List</a
+                          >
+                        </li>
+                        <li class="dropdown-divider"></li>
+                        <li>
+                          <a
+                            class="nav-link u-header__sub-menu-nav-link"
+                            href="/myapikey"
+                            >API Keys</a
+                          >
+                        </li>
+                        <li>
+                          <a
+                            class="nav-link u-header__sub-menu-nav-link"
+                            href="/myverify_address"
+                            >Verified Address</a
+                          >
+                        </li>
+                        <li>
+                          <a
+                            class="nav-link u-header__sub-menu-nav-link"
+                            href="/mycustomabi"
+                            >Custom ABI</a
+                          >
+                        </li>
+                        <li>
+                          <a
+                            class="nav-link u-header__sub-menu-nav-link"
+                            href="/myadvancedfilters"
+                            >Advanced Filter</a
+                          >
+                        </li>
+                        <li class="dropdown-divider mb-3"></li>
+                        <li class="px-3">
+                          <a
+                            class="btn btn-xs btn-block btn-soft-primary"
+                            href="/login?cmd=logout"
+                            >Sign Out</a
+                          >
+                        </li>
+                      </ul>
+                    </li>
+                    <li class="u-header__nav-separator"></li>
+                    <li
+                      class="nav-item hs-has-sub-menu u-header__nav-item my-md-n1"
+                      data-event="hover"
+                      data-animation-in="slideInUp"
+                      data-animation-out="fadeOut"
+                    >
+                      <a
+                        id="explorersWithDropdown"
+                        class="nav-link u-header__nav-link u-header__nav-link-toggle u-header__nav-link-toggle--mobile pr-0"
+                        href="javascript:;"
+                        aria-haspopup="true"
+                        aria-expanded="false"
+                        aria-labelledby="explorersDropdown"
+                      >
+                        <span
+                          class="btn btn-sm btn-icon btn-soft-primary cursor-pointer d-none d-md-inline-block"
+                        >
+                          <img
+                            id="logo-header-icon"
+                            img=""
+                            class="u-xs-avatar btn-icon__inner"
+                            src="/images/svg/brands/main.svg?v=24.3.2.1"
+                            alt="Logo"
+                          />
+                        </span>
+                        <span class="d-inline-block d-md-none">Explorers</span>
+                      </a>
+                      <ul
+                        id="explorersDropdown"
+                        class="hs-sub-menu u-header__sub-menu u-header__sub-menu--spacer dropdown-menu-md-right animated fadeOut"
+                        aria-labelledby="explorersWithDropdown"
+                        style="min-width: 170px; display: none"
+                      >
+                        <li id="LI_Mainnet">
+                          <a
+                            class="nav-link u-header__sub-menu-nav-link"
+                            href="https://optimistic.etherscan.io/"
+                            >OP Mainnet</a
+                          >
+                        </li>
+                        <li id="LI_Sepolia_testnet">
+                          <a
+                            class="nav-link u-header__sub-menu-nav-link"
+                            href="https://sepolia-optimism.etherscan.io/"
+                            >OP Sepolia Testnet</a
+                          >
+                        </li>
+                      </ul>
+                    </li>
+                  </ul>
+                </div>
+                <div id="form1">
+                  <form
+                    class="w-100 w-lg-60 order-md-1 ml-md-auto mt-2 mb-2 mb-md-0"
+                    action="/search"
+                    method="GET"
+                    autocomplete="off"
+                    spellcheck="false"
+                  >
+                    <div class="input-group input-group-sm">
+                      <div class="input-group-prepend d-none d-md-block">
+                        <select
+                          name="f"
+                          class="custom-select custom-select-sm custom-arrow-select input-group-text font-size-base filterby text-left"
+                        >
+                          <option selected="" value="0">All Filters</option>
+                          <option value="1">Addresses</option>
+                          <option value="2">Tokens</option>
+                          <option value="5">Websites</option>
+                        </select>
+                      </div>
+                      <input
+                        type="text"
+                        class="form-control searchautocomplete ui-autocomplete-input list-unstyled py-3 mb-0"
+                        autocomplete="off"
+                        spellcheck="false"
+                        id="txtSearchInput"
+                        name="q"
+                        placeholder="Search by Address / Txn Hash / Batch / Token"
+                        aria-label="Search by Address / Txhash / Batch / Token"
+                        aria-describedby="button-header-search"
+                        onkeyup="handleSearchText(this);"
+                        maxlength="68"
+                      />
+                      <input type="hidden" value="" id="hdnSearchText" />
+                      <input type="hidden" value="" id="hdnSearchLabel" />
+                      <input id="hdnIsTestNet" value="False" type="hidden" />
+                      <div class="input-group-append">
+                        <button class="btn btn-primary" type="submit">
+                          <span class="fas fa-search"></span>
+                        </button>
+                      </div>
+                    </div>
+                  </form>
+                </div>
+              </div>
+            </nav>
+          </div>
+        </div>
+      </header>
+      <main id="content" role="main">
+        <input type="hidden" name="hdnAgeText" id="hdnAgeText" value="Age" />
+        <input
+          type="hidden"
+          name="hdnDateTimeText"
+          id="hdnDateTimeText"
+          value="Date Time (UTC)"
+        />
+        <input
+          type="hidden"
+          name="hdnAgeTitle"
+          id="hdnAgeTitle"
+          value="Click to show Age Format"
+        />
+        <input
+          type="hidden"
+          name="hdnDateTimeTitle"
+          id="hdnDateTimeTitle"
+          value="Click to show Datetime Format"
+        />
+        <input
+          type="hidden"
+          name="hdnTxnText"
+          id="hdnTxnText"
+          value="Txn Fee"
+        />
+        <input
+          type="hidden"
+          name="hdnGasPriceText"
+          id="hdnGasPriceText"
+          value="Gas Price"
+        />
+        <input
+          type="hidden"
+          name="hdnTxnFeeTitle"
+          id="hdnTxnFeeTitle"
+          value="(Gas Price * Gas) in ETH"
+        />
+        <input
+          type="hidden"
+          name="hdnGasPriceTitle"
+          id="hdnGasPriceTitle"
+          value="Gas Price in Gwei"
+        />
+
+        <div class="container">
+          <div
+            id="ContentPlaceHolder1_divTokensTitle"
+            class="d-md-flex justify-content-between align-items-center py-3"
+          >
+            <div class="mb-1 mb-md-0">
+              <h1
+                id="ContentPlaceHolder1_h1Tag"
+                class="h4 font-weight-normal mb-0"
+              >
+                Token Tracker<span class="small text-secondary ml-1">Aave</span>
+              </h1>
+            </div>
+            <nav aria-label="breadcrumb">
+              <ol class="breadcrumb small p-0 mb-0">
+                <li class="breadcrumb-item">
+                  <a href="/labelcloud"
+                    ><i class="fa fa-cloud"></i> Label Cloud</a
+                  >
+                </li>
+                <li class="breadcrumb-item active">Aave</li>
+              </ol>
+            </nav>
+          </div>
+          <div class="border-top"></div>
+        </div>
+
+        <div class="container space-bottom-2">
+          <div class="d-flex align-items-center my-3">
+            <span class="font-weight-bold mr-3">Related labels:</span
+            ><a
+              class="u-label u-label--sm u-label--secondary mr-2"
+              href="/accounts/label/aave"
+              >Accounts (47)</a
+            >
+          </div>
+          <div class="card mb-3">
+            <div class="card-body">
+              <span
+                ><strong
+                  ><a href="https://aave.com/" rel="nofollow" target="_blank"
+                    >Aave</a
+                  > </strong
+                >is an Open Source and Non-Custodial protocol to earn interest
+                on deposits &amp; borrow assets.</span
+              >
+            </div>
+          </div>
+
+          <div class="card">
+            <div class="card-body">
+              <div class="tab-content" id="myTabContent">
+                <div
+                  class="tab-pane fade show active"
+                  id="transfers"
+                  role="tabpanel"
+                  aria-labelledby="tokens-tab"
+                >
+                  <div
+                    id="ContentPlaceHolder1_divpagingpanel"
+                    class="d-md-flex justify-content-between align-items-center"
+                  >
+                    <p class="mb-2 mb-lg-0"></p>
+                    <nav
+                      class="mb-4 mb-md-0"
+                      aria-label="page navigation"
+                    ></nav>
+                  </div>
+                  <div class="js-sticky-header" id="divSTContainer"></div>
+                  <div class="tab-content" id="tabContent">
+                    <div
+                      class="tab-pane fade show active"
+                      id="subcattab-0"
+                      role="tabpanel"
+                      aria-labelledby="0-tab"
+                    >
+                      <div
+                        class="table-responsive"
+                        id="paywall_mask_table-subcatid-0"
+                      >
+                        <div
+                          id="table-subcatid-0_wrapper"
+                          class="dataTables_wrapper dt-bootstrap4 no-footer"
+                        >
+                          <div
+                            class="top d-md-flex justify-content-between mb-3"
+                          >
+                            <div class="text-secondary d-flex">
+                              <div
+                                class="dataTables_info"
+                                id="table-subcatid-0_info"
+                                role="status"
+                                aria-live="polite"
+                              >
+                                A total of <strong>13</strong> Token Contracts
+                                found
+                              </div>
+                            </div>
+                            <div class="pagination-sm d-flex">
+                              <div
+                                class="dataTables_paginate paging_full"
+                                id="table-subcatid-0_paginate"
+                              >
+                                <ul class="pagination">
+                                  <li
+                                    class="paginate_button page-item first disabled"
+                                    id="table-subcatid-0_first"
+                                  >
+                                    <a
+                                      href="#"
+                                      aria-controls="table-subcatid-0"
+                                      data-dt-idx="0"
+                                      tabindex="0"
+                                      class="page-link"
+                                      >First</a
+                                    >
+                                  </li>
+                                  <li
+                                    class="paginate_button page-item previous disabled"
+                                    id="table-subcatid-0_previous"
+                                  >
+                                    <a
+                                      href="#"
+                                      aria-controls="table-subcatid-0"
+                                      data-dt-idx="1"
+                                      tabindex="0"
+                                      class="page-link"
+                                      ><i class="fa fa-chevron-left small"></i
+                                    ></a>
+                                  </li>
+                                  <li class="page-item disabled">
+                                    <span class="page-link"
+                                      >Page
+                                      <strong class="font-weight-medium"
+                                        >1</strong
+                                      >
+                                      of
+                                      <strong class="font-weight-medium"
+                                        >1</strong
+                                      ></span
+                                    >
+                                  </li>
+                                  <li
+                                    class="paginate_button page-item next disabled"
+                                    id="table-subcatid-0_next"
+                                  >
+                                    <a
+                                      href="#"
+                                      aria-controls="table-subcatid-0"
+                                      data-dt-idx="2"
+                                      tabindex="0"
+                                      class="page-link"
+                                      ><i class="fa fa-chevron-right small"></i
+                                    ></a>
+                                  </li>
+                                  <li
+                                    class="paginate_button page-item last disabled"
+                                    id="table-subcatid-0_last"
+                                  >
+                                    <a
+                                      href="#"
+                                      aria-controls="table-subcatid-0"
+                                      data-dt-idx="3"
+                                      tabindex="0"
+                                      class="page-link"
+                                      >Last</a
+                                    >
+                                  </li>
+                                </ul>
+                              </div>
+                            </div>
+                          </div>
+                          <div
+                            id="table-subcatid-0_processing"
+                            class="dataTables_processing card"
+                            style="display: none"
+                          >
+                            Processing...
+                          </div>
+                          <table
+                            class="table table-align-middle table-hover dataTable no-footer"
+                            id="table-subcatid-0"
+                            aria-describedby="table-subcatid-0_info"
+                            role="grid"
+                          >
+                            <thead class="thead-light">
+                              <tr role="row">
+                                <th
+                                  scope="col"
+                                  id="th_number"
+                                  runat="server"
+                                  width="30"
+                                  class="sorting_disabled"
+                                  rowspan="1"
+                                  colspan="1"
+                                  aria-label="#"
+                                  style="width: 30px"
+                                >
+                                  #
+                                </th>
+                                <th
+                                  scope="col"
+                                  id="th_tokenAddress"
+                                  runat="server"
+                                  width="370"
+                                  class="sorting_disabled"
+                                  rowspan="1"
+                                  colspan="1"
+                                  aria-label="Contract Address"
+                                  style="width: 370px"
+                                >
+                                  Contract Address
+                                </th>
+                                <th
+                                  scope="col"
+                                  class="text-nowrap sorting"
+                                  id="th_tokenName"
+                                  runat="server"
+                                  tabindex="0"
+                                  aria-controls="table-subcatid-0"
+                                  rowspan="1"
+                                  colspan="1"
+                                  aria-label="Token Name: activate to sort column ascending"
+                                  style="width: 417.828px"
+                                >
+                                  <i class="fad fa-sort"></i> Token Name
+                                </th>
+                                <th
+                                  scope="col"
+                                  class="text-nowrap default-sort sorting_desc"
+                                  id="th_marketcap"
+                                  runat="server"
+                                  tabindex="0"
+                                  aria-controls="table-subcatid-0"
+                                  rowspan="1"
+                                  colspan="1"
+                                  aria-sort="descending"
+                                  aria-label="Market Cap: activate to sort column ascending"
+                                  style="width: 143.32px"
+                                >
+                                  <i class="fad fa-sort-down"></i> Market Cap
+                                </th>
+                                <th
+                                  scope="col"
+                                  class="text-nowrap sorting"
+                                  id="th_holders"
+                                  tabindex="0"
+                                  aria-controls="table-subcatid-0"
+                                  rowspan="1"
+                                  colspan="1"
+                                  aria-label="Holders: activate to sort column descending"
+                                  style="width: 106.258px"
+                                >
+                                  <i class="fad fa-sort"></i> Holders
+                                </th>
+                                <th
+                                  scope="col"
+                                  class="text-nowrap sorting_disabled"
+                                  id="th_website"
+                                  rowspan="1"
+                                  colspan="1"
+                                  aria-label="Website"
+                                  style="width: 96.5938px"
+                                >
+                                  Website
+                                </th>
+                              </tr>
+                            </thead>
+                            <tbody>
+                              <tr class="odd" role="row">
+                                <td>1</td>
+                                <td>
+                                  <div class="d-block">
+                                    <a
+                                      href="/address/0x00b8d5a5e1ac97cb4341c4bc4367443c8776e8d9"
+                                      >0x00b8d5a5e1ac97cb4341c4bc4367443c8776e8d9</a
+                                    >
+                                  </div>
+                                </td>
+                                <td>
+                                  <div class="media align-items-center">
+                                    <div class="mr-2">
+                                      <img
+                                        src="/token/images/synthetix_32.png"
+                                        width="20px"
+                                      />
+                                    </div>
+                                    <div class="media-body">
+                                      <a
+                                        href="/token/0x00b8d5a5e1ac97cb4341c4bc4367443c8776e8d9"
+                                        >Synth sAAVE (sAAVE)</a
+                                      >
+                                    </div>
+                                  </div>
+                                </td>
+                                <td class="sorting_1">$0</td>
+                                <td>-</td>
+                                <td>
+                                  <a
+                                    rel="nofollow"
+                                    target="_blank"
+                                    class="btn btn-sm btn-icon btn-soft-secondary btn-pill"
+                                    data-toggle="tooltip"
+                                    title=""
+                                    href="https://synthetix.io/"
+                                    data-original-title="https://synthetix.io/"
+                                    ><i
+                                      class="fa fa-external-link-alt btn-icon__inner"
+                                    ></i
+                                  ></a>
+                                </td>
+                              </tr>
+                              <tr class="even" role="row">
+                                <td>2</td>
+                                <td>
+                                  <div class="d-block">
+                                    <a
+                                      href="/address/0x625e7708f30ca75bfd92586e17077590c60eb4cd"
+                                      >0x625e7708f30ca75bfd92586e17077590c60eb4cd</a
+                                    >
+                                  </div>
+                                </td>
+                                <td>
+                                  <div class="media align-items-center">
+                                    <div class="mr-2">
+                                      <img
+                                        src="/token/images/aaveusdc_32.png"
+                                        width="20px"
+                                      />
+                                    </div>
+                                    <div class="media-body">
+                                      <a
+                                        href="/token/0x625e7708f30ca75bfd92586e17077590c60eb4cd"
+                                        >Aave Optimism USDC (aOptUSDC)</a
+                                      >
+                                    </div>
+                                  </div>
+                                </td>
+                                <td class="sorting_1">$0</td>
+                                <td>36,070</td>
+                                <td>
+                                  <a
+                                    rel="nofollow"
+                                    target="_blank"
+                                    class="btn btn-sm btn-icon btn-soft-secondary btn-pill"
+                                    data-toggle="tooltip"
+                                    title=""
+                                    href="https://aave.com/"
+                                    data-original-title="https://aave.com/"
+                                    ><i
+                                      class="fa fa-external-link-alt btn-icon__inner"
+                                    ></i
+                                  ></a>
+                                </td>
+                              </tr>
+                              <tr class="odd" role="row">
+                                <td>3</td>
+                                <td>
+                                  <div class="d-block">
+                                    <a
+                                      href="/address/0x6ab707aca953edaefbc4fd23ba73294241490620"
+                                      >0x6ab707aca953edaefbc4fd23ba73294241490620</a
+                                    >
+                                  </div>
+                                </td>
+                                <td>
+                                  <div class="media align-items-center">
+                                    <div class="mr-2">
+                                      <img
+                                        src="/token/images/aaveusdt_32.png"
+                                        width="20px"
+                                      />
+                                    </div>
+                                    <div class="media-body">
+                                      <a
+                                        href="/token/0x6ab707aca953edaefbc4fd23ba73294241490620"
+                                        >Aave Optimism USDT (aOptUSDT)</a
+                                      >
+                                    </div>
+                                  </div>
+                                </td>
+                                <td class="sorting_1">$0</td>
+                                <td>21,672</td>
+                                <td>
+                                  <a
+                                    rel="nofollow"
+                                    target="_blank"
+                                    class="btn btn-sm btn-icon btn-soft-secondary btn-pill"
+                                    data-toggle="tooltip"
+                                    title=""
+                                    href="https://aave.com/"
+                                    data-original-title="https://aave.com/"
+                                    ><i
+                                      class="fa fa-external-link-alt btn-icon__inner"
+                                    ></i
+                                  ></a>
+                                </td>
+                              </tr>
+                              <tr class="even" role="row">
+                                <td>4</td>
+                                <td>
+                                  <div class="d-block">
+                                    <a
+                                      href="/address/0x82e64f49ed5ec1bc6e43dad4fc8af9bb3a2312ee"
+                                      >0x82e64f49ed5ec1bc6e43dad4fc8af9bb3a2312ee</a
+                                    >
+                                  </div>
+                                </td>
+                                <td>
+                                  <div class="media align-items-center">
+                                    <div class="mr-2">
+                                      <img
+                                        src="/token/images/aavedai_32.png"
+                                        width="20px"
+                                      />
+                                    </div>
+                                    <div class="media-body">
+                                      <a
+                                        href="/token/0x82e64f49ed5ec1bc6e43dad4fc8af9bb3a2312ee"
+                                        >Aave Optimism DAI (aOptDAI)</a
+                                      >
+                                    </div>
+                                  </div>
+                                </td>
+                                <td class="sorting_1">$0</td>
+                                <td>8,084</td>
+                                <td>
+                                  <a
+                                    rel="nofollow"
+                                    target="_blank"
+                                    class="btn btn-sm btn-icon btn-soft-secondary btn-pill"
+                                    data-toggle="tooltip"
+                                    title=""
+                                    href="https://aave.com/"
+                                    data-original-title="https://aave.com/"
+                                    ><i
+                                      class="fa fa-external-link-alt btn-icon__inner"
+                                    ></i
+                                  ></a>
+                                </td>
+                              </tr>
+                              <tr class="odd" role="row">
+                                <td>5</td>
+                                <td>
+                                  <div class="d-block">
+                                    <a
+                                      href="/address/0x191c10aa4af7c30e871e70c95db0e4eb77237530"
+                                      >0x191c10aa4af7c30e871e70c95db0e4eb77237530</a
+                                    >
+                                  </div>
+                                </td>
+                                <td>
+                                  <div class="media align-items-center">
+                                    <div class="mr-2">
+                                      <img
+                                        src="/token/images/aavelink_32.png"
+                                        width="20px"
+                                      />
+                                    </div>
+                                    <div class="media-body">
+                                      <a
+                                        href="/token/0x191c10aa4af7c30e871e70c95db0e4eb77237530"
+                                        >Aave Optimism LINK (aOptLINK)</a
+                                      >
+                                    </div>
+                                  </div>
+                                </td>
+                                <td class="sorting_1">$0</td>
+                                <td>623</td>
+                                <td>
+                                  <a
+                                    rel="nofollow"
+                                    target="_blank"
+                                    class="btn btn-sm btn-icon btn-soft-secondary btn-pill"
+                                    data-toggle="tooltip"
+                                    title=""
+                                    href="https://aave.com/"
+                                    data-original-title="https://aave.com/"
+                                    ><i
+                                      class="fa fa-external-link-alt btn-icon__inner"
+                                    ></i
+                                  ></a>
+                                </td>
+                              </tr>
+                              <tr class="even" role="row">
+                                <td>6</td>
+                                <td>
+                                  <div class="d-block">
+                                    <a
+                                      href="/address/0xe50fa9b3c56ffb159cb0fca61f5c9d750e8128c8"
+                                      >0xe50fa9b3c56ffb159cb0fca61f5c9d750e8128c8</a
+                                    >
+                                  </div>
+                                </td>
+                                <td>
+                                  <div class="media align-items-center">
+                                    <div class="mr-2">
+                                      <img
+                                        src="/token/images/aaveweth_32.png"
+                                        width="20px"
+                                      />
+                                    </div>
+                                    <div class="media-body">
+                                      <a
+                                        href="/token/0xe50fa9b3c56ffb159cb0fca61f5c9d750e8128c8"
+                                        >Aave Optimism WETH (aOptWETH)</a
+                                      >
+                                    </div>
+                                  </div>
+                                </td>
+                                <td class="sorting_1">$0</td>
+                                <td>48,378</td>
+                                <td>
+                                  <a
+                                    rel="nofollow"
+                                    target="_blank"
+                                    class="btn btn-sm btn-icon btn-soft-secondary btn-pill"
+                                    data-toggle="tooltip"
+                                    title=""
+                                    href="https://aave.com/"
+                                    data-original-title="https://aave.com/"
+                                    ><i
+                                      class="fa fa-external-link-alt btn-icon__inner"
+                                    ></i
+                                  ></a>
+                                </td>
+                              </tr>
+                              <tr class="odd" role="row">
+                                <td>7</td>
+                                <td>
+                                  <div class="d-block">
+                                    <a
+                                      href="/address/0x078f358208685046a11c85e8ad32895ded33a249"
+                                      >0x078f358208685046a11c85e8ad32895ded33a249</a
+                                    >
+                                  </div>
+                                </td>
+                                <td>
+                                  <div class="media align-items-center">
+                                    <div class="mr-2">
+                                      <img
+                                        src="/token/images/aavewbtc_32.png"
+                                        width="20px"
+                                      />
+                                    </div>
+                                    <div class="media-body">
+                                      <a
+                                        href="/token/0x078f358208685046a11c85e8ad32895ded33a249"
+                                        >Aave Optimism WBTC (aOptWBTC)</a
+                                      >
+                                    </div>
+                                  </div>
+                                </td>
+                                <td class="sorting_1">$0</td>
+                                <td>1,192</td>
+                                <td>
+                                  <a
+                                    rel="nofollow"
+                                    target="_blank"
+                                    class="btn btn-sm btn-icon btn-soft-secondary btn-pill"
+                                    data-toggle="tooltip"
+                                    title=""
+                                    href="https://aave.com/"
+                                    data-original-title="https://aave.com/"
+                                    ><i
+                                      class="fa fa-external-link-alt btn-icon__inner"
+                                    ></i
+                                  ></a>
+                                </td>
+                              </tr>
+                              <tr class="even" role="row">
+                                <td>8</td>
+                                <td>
+                                  <div class="d-block">
+                                    <a
+                                      href="/address/0x6d80113e533a2c0fe82eabd35f1875dcea89ea97"
+                                      >0x6d80113e533a2c0fe82eabd35f1875dcea89ea97</a
+                                    >
+                                  </div>
+                                </td>
+                                <td>
+                                  <div class="media align-items-center">
+                                    <div class="mr-2">
+                                      <img
+                                        src="/token/images/aavesusd_32.png"
+                                        width="20px"
+                                      />
+                                    </div>
+                                    <div class="media-body">
+                                      <a
+                                        href="/token/0x6d80113e533a2c0fe82eabd35f1875dcea89ea97"
+                                        >Aave Optimism SUSD (aOptSUSD)</a
+                                      >
+                                    </div>
+                                  </div>
+                                </td>
+                                <td class="sorting_1">$0</td>
+                                <td>16,969</td>
+                                <td>
+                                  <a
+                                    rel="nofollow"
+                                    target="_blank"
+                                    class="btn btn-sm btn-icon btn-soft-secondary btn-pill"
+                                    data-toggle="tooltip"
+                                    title=""
+                                    href="https://aave.com/"
+                                    data-original-title="https://aave.com/"
+                                    ><i
+                                      class="fa fa-external-link-alt btn-icon__inner"
+                                    ></i
+                                  ></a>
+                                </td>
+                              </tr>
+                              <tr class="odd" role="row">
+                                <td>9</td>
+                                <td>
+                                  <div class="d-block">
+                                    <a
+                                      href="/address/0x724dc807b04555b71ed48a6896b6f41593b8c637"
+                                      >0x724dc807b04555b71ed48a6896b6f41593b8c637</a
+                                    >
+                                  </div>
+                                </td>
+                                <td>
+                                  <div class="media align-items-center">
+                                    <div class="mr-2">
+                                      <img
+                                        src="/token/images/aavereth_32.png"
+                                        width="20px"
+                                      />
+                                    </div>
+                                    <div class="media-body">
+                                      <a
+                                        href="/token/0x724dc807b04555b71ed48a6896b6f41593b8c637"
+                                        >Aave Optimism rETH (aOptrETH)</a
+                                      >
+                                    </div>
+                                  </div>
+                                </td>
+                                <td class="sorting_1">$0</td>
+                                <td>390</td>
+                                <td>
+                                  <a
+                                    rel="nofollow"
+                                    target="_blank"
+                                    class="btn btn-sm btn-icon btn-soft-secondary btn-pill"
+                                    data-toggle="tooltip"
+                                    title=""
+                                    href="https://aave.com/"
+                                    data-original-title="https://aave.com/"
+                                    ><i
+                                      class="fa fa-external-link-alt btn-icon__inner"
+                                    ></i
+                                  ></a>
+                                </td>
+                              </tr>
+                              <tr class="even" role="row">
+                                <td>10</td>
+                                <td>
+                                  <div class="d-block">
+                                    <a
+                                      href="/address/0xf329e36c7bf6e5e86ce2150875a84ce77f477375"
+                                      >0xf329e36c7bf6e5e86ce2150875a84ce77f477375</a
+                                    >
+                                  </div>
+                                </td>
+                                <td>
+                                  <div class="media align-items-center">
+                                    <div class="mr-2">
+                                      <img
+                                        src="/token/images/aaveaave_32.png"
+                                        width="20px"
+                                      />
+                                    </div>
+                                    <div class="media-body">
+                                      <a
+                                        href="/token/0xf329e36c7bf6e5e86ce2150875a84ce77f477375"
+                                        >Aave Optimism AAVE (aOptAAVE)</a
+                                      >
+                                    </div>
+                                  </div>
+                                </td>
+                                <td class="sorting_1">$0</td>
+                                <td>13,336</td>
+                                <td>
+                                  <a
+                                    rel="nofollow"
+                                    target="_blank"
+                                    class="btn btn-sm btn-icon btn-soft-secondary btn-pill"
+                                    data-toggle="tooltip"
+                                    title=""
+                                    href="https://aave.com/"
+                                    data-original-title="https://aave.com/"
+                                    ><i
+                                      class="fa fa-external-link-alt btn-icon__inner"
+                                    ></i
+                                  ></a>
+                                </td>
+                              </tr>
+                              <tr class="odd" role="row">
+                                <td>11</td>
+                                <td>
+                                  <div class="d-block">
+                                    <a
+                                      href="/address/0xc45a479877e1e9dfe9fcd4056c699575a1045daa"
+                                      >0xc45a479877e1e9dfe9fcd4056c699575a1045daa</a
+                                    >
+                                  </div>
+                                </td>
+                                <td>
+                                  <div class="media align-items-center">
+                                    <div class="mr-2">
+                                      <img
+                                        src="/token/images/aavesteth_32.png"
+                                        width="20px"
+                                      />
+                                    </div>
+                                    <div class="media-body">
+                                      <a
+                                        href="/token/0xc45a479877e1e9dfe9fcd4056c699575a1045daa"
+                                        >Aave Optimism wstETH (aOptwstETH)</a
+                                      >
+                                    </div>
+                                  </div>
+                                </td>
+                                <td class="sorting_1">$0</td>
+                                <td>1,705</td>
+                                <td>
+                                  <a
+                                    rel="nofollow"
+                                    target="_blank"
+                                    class="btn btn-sm btn-icon btn-soft-secondary btn-pill"
+                                    data-toggle="tooltip"
+                                    title=""
+                                    href="https://aave.com/"
+                                    data-original-title="https://aave.com/"
+                                    ><i
+                                      class="fa fa-external-link-alt btn-icon__inner"
+                                    ></i
+                                  ></a>
+                                </td>
+                              </tr>
+                              <tr class="even" role="row">
+                                <td>12</td>
+                                <td>
+                                  <div class="d-block">
+                                    <a
+                                      href="/address/0x8eb270e296023e9d92081fdf967ddd7878724424"
+                                      >0x8eb270e296023e9d92081fdf967ddd7878724424</a
+                                    >
+                                  </div>
+                                </td>
+                                <td>
+                                  <div class="media align-items-center">
+                                    <div class="mr-2">
+                                      <img
+                                        src="/token/images/aavelusd_32.png"
+                                        width="20px"
+                                      />
+                                    </div>
+                                    <div class="media-body">
+                                      <a
+                                        href="/token/0x8eb270e296023e9d92081fdf967ddd7878724424"
+                                        >Aave Optimism LUSD (aOptLUSD)</a
+                                      >
+                                    </div>
+                                  </div>
+                                </td>
+                                <td class="sorting_1">$0</td>
+                                <td>115</td>
+                                <td>
+                                  <a
+                                    rel="nofollow"
+                                    target="_blank"
+                                    class="btn btn-sm btn-icon btn-soft-secondary btn-pill"
+                                    data-toggle="tooltip"
+                                    title=""
+                                    href="https://aave.com/"
+                                    data-original-title="https://aave.com/"
+                                    ><i
+                                      class="fa fa-external-link-alt btn-icon__inner"
+                                    ></i
+                                  ></a>
+                                </td>
+                              </tr>
+                              <tr class="odd" role="row">
+                                <td>13</td>
+                                <td>
+                                  <div class="d-block">
+                                    <a
+                                      href="/address/0x513c7e3a9c69ca3e22550ef58ac1c0088e918fff"
+                                      >0x513c7e3a9c69ca3e22550ef58ac1c0088e918fff</a
+                                    >
+                                  </div>
+                                </td>
+                                <td>
+                                  <div class="media align-items-center">
+                                    <div class="mr-2">
+                                      <img
+                                        src="/token/images/aaveop_32.png"
+                                        width="20px"
+                                      />
+                                    </div>
+                                    <div class="media-body">
+                                      <a
+                                        href="/token/0x513c7e3a9c69ca3e22550ef58ac1c0088e918fff"
+                                        >Aave Optimism OP (aOptOP)</a
+                                      >
+                                    </div>
+                                  </div>
+                                </td>
+                                <td class="sorting_1">$0</td>
+                                <td>8,451</td>
+                                <td>
+                                  <a
+                                    rel="nofollow"
+                                    target="_blank"
+                                    class="btn btn-sm btn-icon btn-soft-secondary btn-pill"
+                                    data-toggle="tooltip"
+                                    title=""
+                                    href="https://aave.com/"
+                                    data-original-title="https://aave.com/"
+                                    ><i
+                                      class="fa fa-external-link-alt btn-icon__inner"
+                                    ></i
+                                  ></a>
+                                </td>
+                              </tr>
+                            </tbody>
+                          </table>
+                          <div class="bottom d-md-flex justify-content-between">
+                            <div class="text-secondary d-flex">
+                              <div
+                                class="dataTables_length"
+                                id="table-subcatid-0_length"
+                              >
+                                <label
+                                  >Show
+                                  <select
+                                    name="table-subcatid-0_length"
+                                    aria-controls="table-subcatid-0"
+                                    class="custom-select custom-select-xs mx-2"
+                                  >
+                                    <option value="10">10</option>
+                                    <option value="25">25</option>
+                                    <option value="50">50</option>
+                                    <option value="100">100</option>
+                                  </select>
+                                  Records</label
+                                >
+                              </div>
+                            </div>
+                            <div class="pagination-sm d-flex">
+                              <div class="dataTables_paginate paging_full">
+                                <ul class="pagination">
+                                  <li
+                                    class="paginate_button page-item first disabled"
+                                  >
+                                    <a
+                                      href="#"
+                                      aria-controls="table-subcatid-0"
+                                      data-dt-idx="0"
+                                      tabindex="0"
+                                      class="page-link"
+                                      >First</a
+                                    >
+                                  </li>
+                                  <li
+                                    class="paginate_button page-item previous disabled"
+                                  >
+                                    <a
+                                      href="#"
+                                      aria-controls="table-subcatid-0"
+                                      data-dt-idx="1"
+                                      tabindex="0"
+                                      class="page-link"
+                                      ><i class="fa fa-chevron-left small"></i
+                                    ></a>
+                                  </li>
+                                  <li class="page-item disabled">
+                                    <span class="page-link"
+                                      >Page
+                                      <strong class="font-weight-medium"
+                                        >1</strong
+                                      >
+                                      of
+                                      <strong class="font-weight-medium"
+                                        >1</strong
+                                      ></span
+                                    >
+                                  </li>
+                                  <li
+                                    class="paginate_button page-item next disabled"
+                                  >
+                                    <a
+                                      href="#"
+                                      aria-controls="table-subcatid-0"
+                                      data-dt-idx="2"
+                                      tabindex="0"
+                                      class="page-link"
+                                      ><i class="fa fa-chevron-right small"></i
+                                    ></a>
+                                  </li>
+                                  <li
+                                    class="paginate_button page-item last disabled"
+                                  >
+                                    <a
+                                      href="#"
+                                      aria-controls="table-subcatid-0"
+                                      data-dt-idx="3"
+                                      tabindex="0"
+                                      class="page-link"
+                                      >Last</a
+                                    >
+                                  </li>
+                                </ul>
+                              </div>
+                            </div>
+                          </div>
+                          <div class="clear"></div>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                  <form method="post" action="./aave" id="ctl00">
+                    <div class="aspNetHidden">
+                      <input
+                        type="hidden"
+                        name="__VIEWSTATE"
+                        id="__VIEWSTATE"
+                        value="IZzrrO3xtUX4569EJh6FPUbTYns2/Ov+JlfDQBDgO1quzUYKZRIJX1aw8tTWCiz552QC3NPrsk1dhakMWLnGM8o9NZmxoYq54CQ4IZlloJY="
+                      />
+                    </div>
+                    <div class="aspNetHidden">
+                      <input
+                        type="hidden"
+                        name="__VIEWSTATEGENERATOR"
+                        id="__VIEWSTATEGENERATOR"
+                        value="3C86B011"
+                      />
+                    </div>
+                    <script type="text/javascript">
+                      //<![CDATA[
+                      $("#spinwheel").remove(); //]]>
+                    </script>
+                  </form>
+                </div>
+              </div>
+            </div>
+          </div>
+
+          <div
+            id="js-column_freeze_id"
+            class="d-sm-none d-flex justify-content-between align-items-center mt-3"
+          >
+            <p class="mb-0">Turn Column Freeze on/off:</p>
+            <div id="js-column_freeze_id_inner">
+              <div class="js-mainbtn custom-control custom-switch mt-n3">
+                <input
+                  type="checkbox"
+                  class="custom-control-input"
+                  id="js-customSwitch1"
+                />
+                <label
+                  class="custom-control-label"
+                  for="js-customSwitch1"
+                ></label>
+              </div>
+            </div>
+          </div>
+          <div class="text-right text-secondary px-3 mt-3">
+            <span
+              >Note : Labels source attribution required if used
+              externally</span
+            >
+          </div>
+        </div>
+        <script type="text/javascript">
+          var tokensFlag = false;
+          $(document).ready(function () {
+            if ($("#ContentPlaceHolder1_searchBarDiv").length) {
+              (function ($) {
+                $.fn.customAutocomplete = function () {
+                  this.autocomplete({
+                    source: function (request, response) {
+                      var searchTerm = request.term;
+                      $.ajax({
+                        dataType: "json",
+                        type: "Get",
+                        url: "/searchHandler?t=t",
+                        data: { term: searchTerm, filterby: "2" },
+                        success: function (data) {
+                          response(
+                            $.map(data, function (item) {
+                              return {
+                                label: item.split("\t")[0],
+                                value: item.split("\t")[1],
+                                desc: item.split("\t")[2],
+                                typeval: item.split("\t")[3],
+                                checkMark: item.split("\t")[4],
+                                logo: item.split("\t")[5],
+                              };
+                            }),
+                          );
+                        },
+                        error: function (
+                          XMLHttpRequest,
+                          textStatus,
+                          errorThrown,
+                        ) {
+                          console.log(textStatus);
+                        },
+                      });
+                    },
+                    autoFocus: true,
+                    delay: 100,
+                    minLength: 1,
+                    select: function (event, ui) {
+                      event.preventDefault();
+                      var typeval = ui.item.typeval;
+                      if (typeval == "") {
+                        typeval = 1;
+                        ui.item.label = $("#hdnSearchText").val();
+                      }
+
+                      //$(this).val(ui.item.label);
+                      if (typeval == 1) {
+                        event.preventDefault();
+                        window.location.href = "/token/" + ui.item.label;
+                      } else if (typeval == 2) {
+                        event.preventDefault();
+                        window.location.href = "/token/" + ui.item.value;
+                      } else if (typeval == 4) {
+                        event.preventDefault();
+                        window.location.href = "/token/" + ui.item.label;
+                      }
+                    },
+                  })
+                    .focus(function (event) {
+                      $(".ui-helper-hidden-accessible").hide();
+                      event.preventDefault();
+                    })
+                    .addClass("list-unstyled py-3 mb-0")
+                    .data("ui-autocomplete")._renderItem = function (ul, item) {
+                    if (!tokensFlag) {
+                      tokensFlag = true;
+                      ul.addClass("list-unstyled bg-white-content p-2 mb-0");
+                    }
+
+                    ul.addClass("custwidth");
+                    var tickMark = "";
+                    var imglogo = "";
+
+                    if (item.checkMark === "1") {
+                      tickMark =
+                        "<i class='fa fa-badge-check text-info ml-auto'></i>";
+                    }
+
+                    if (item.logo !== "") {
+                      imglogo =
+                        "<img class='u-xs-avatar' style='margin-top: 1px;' src='/token/images/" +
+                        item.logo +
+                        "'>";
+                    } else {
+                      imglogo =
+                        "<img class='u-xs-avatar' style='margin-top: 1px;' src='/images/main/empty-token.png'>";
+                    }
+                    //return $("<li>")
+                    //    .append("<div>" + imglogo + item.label.substring(0, 28) + tickMark + "<br><font size='1'>" + item.desc + "</font></div>")
+                    //    .appendTo(ul);
+                    if (
+                      item.desc == "" &&
+                      item.typeval == "" &&
+                      item.checkMark == "" &&
+                      item.logo == ""
+                    ) {
+                      return $("<li class='mb-2 ether-search-heading'>")
+                        .append(
+                          "<h5 class='h6 font-weight-bold bg-light px-2 py-1 rounded mb-2'>" +
+                            item.label +
+                            "</h5>",
+                        )
+                        .appendTo(ul);
+                    } else {
+                      if (searchAddress == false) {
+                        if (item.typeval == 1 || item.typeval == 4) {
+                          $("#hdnSearchText").val(item.label);
+                        } else {
+                          $("#hdnSearchText").val(item.value);
+                        }
+                        searchAddress = true;
+                      }
+
+                      var website =
+                        item.desc.split("~")[1] != undefined
+                          ? "<div class='text-secondary font-size-1 text-truncate'>" +
+                            item.desc.split("~")[1] +
+                            "</div>"
+                          : "";
+                      var tokenType = item.desc.split("~")[2];
+                      var price =
+                        tokenType != "2"
+                          ? item.desc.split("~")[3] != undefined
+                            ? "<span class='badge bg-soft-secondary mr-2'>" +
+                              item.desc.split("~")[3] +
+                              "</span>"
+                            : ""
+                          : "";
+
+                      return $("<li class='mb-2'>")
+                        .append(
+                          "<a class='ether-search media rounded p-2' href='javascript:;'><div class='mr-2'>" +
+                            imglogo +
+                            "</div><div class='media-body text-truncate'><h6 class='d-flex align-items-center text-size-1 mb-0'><div class='text-truncate mr-2'>" +
+                            item.label +
+                            "</div>" +
+                            price +
+                            tickMark +
+                            "</h6><span class='text-secondary text-truncate font-size-1'>" +
+                            item.value +
+                            "</span>" +
+                            website +
+                            "</div></a>",
+                        )
+                        .appendTo(ul);
+                    }
+                  };
+                  return this;
+                };
+              })(jQuery);
+              var urlParams = new URLSearchParams(window.location.search);
+              if (urlParams.has("l") == false) {
+                $("#searchtoken").customAutocomplete();
+              }
+            }
+          });
+        </script>
+        <input type="hidden" id="hdnLabelFilter" value="aave" />
+      </main>
+      <div id="push"></div>
+      <div
+        class="modal fade"
+        tabindex="-1"
+        role="dialog"
+        aria-labelledby="myModalLabel"
+        id="emailSubscribeModalBox"
+        aria-hidden="true"
+      >
+        <div class="modal-dialog modal-sm" role="document">
+          <div class="modal-content">
+            <div class="modal-body">
+              <button
+                type="button"
+                class="close close-md"
+                data-dismiss="modal"
+                aria-label="Close"
+              >
+                <span aria-hidden="true">×</span>
+              </button>
+              <div class="text-center py-5-alt px-4">
+                <div id="emailSubscribeModalBoxText"></div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+    <footer class="bg-dark py-4">
+      <div class="container">
+        <div class="row justify-content-sm-between align-items-center">
+          <div class="col-sm-6 mb-3 mb-sm-0">
+            <div class="d-flex align-items-center">
+              <img
+                width="25"
+                src="/images/svg/brands/main.svg?v=24.3.2.1"
+                alt="Logo"
+              />
+              <span class="h5 text-white mb-0 ml-3">Powered by OP Mainnet</span>
+            </div>
+          </div>
+          <div class="col-sm-6 align-self-bottom">
+            <div class="d-flex justify-content-sm-end align-items-center mb-4">
+              <span>
+                <button
+                  type="button"
+                  class="btn btn-xss btn-soft-light text-nowrap d-flex align-items-center mr-2"
+                  onclick="addNetwork('web3');"
+                >
+                  <img
+                    class="mr-1"
+                    width="15"
+                    src="/images/svg/brands/metamask.svg"
+                    alt="Metamask"
+                  />Add OP Mainnet
+                </button>
+              </span>
+              <a class="btn btn-xss btn-soft-light mr-2" href="/settings">
+                <i class="fa fa-cogs mr-1"></i>Preferences
+              </a>
+              <button
+                id="darkModaBtn"
+                type="button"
+                data-toggle="tooltip"
+                data-title="Day/Night Mode"
+                class="btn btn-sm btn-icon btn-soft-light"
+                data-original-title=""
+                title=""
+              >
+                <i id="darkModaBtnIcon" class="fa fa-moon"></i>
+              </button>
+            </div>
+          </div>
+        </div>
+
+        <hr class="opacity-md" />
+        <div class="row justify-content-between align-items-center font-size-1">
+          <div class="col-md-6 mb-2 mb-md-0 d-flex">
+            <p class="mb-0 text-white">
+              OP Mainnet © 2024 (OP-A1) <span class="mx-1">|</span> ⛏ Built by
+              the same team behind
+              <a
+                class="text-primary"
+                href="https://etherscan.io/"
+                target="_blank"
+                ><b>Etherscan</b></a
+              >
+              <span class="mx-1">|</span>
+              <a
+                class="text-white-70"
+                href="/address/0x71c7656ec7ab88b098defb751b7401b5f6d8976f"
+                >Donate</a
+              >
+              <i class="fas fa-heart text-danger"></i>
+            </p>
+          </div>
+          <div class="col-md-6 text-md-right">
+            <ul class="list-inline mb-0">
+              <li class="list-inline-item">
+                <a
+                  class="unordered-list-text"
+                  rel="nofollow noopener"
+                  target="_blank"
+                  href="/terms"
+                  >Terms of Service</a
+                >
+              </li>
+              <li class="list-inline-item">
+                <a
+                  class="unordered-list-text"
+                  rel="nofollow noopener"
+                  target="_blank"
+                  href="https://optimistic.freshstatus.io/"
+                  >Network Status</a
+                >
+              </li>
+              <li class="list-inline-item">
+                <a
+                  class="btn btn-sm btn-icon btn-soft-light btn-pill"
+                  href="/contactus"
+                  data-toggle="tooltip"
+                  data-placement="top"
+                  title=""
+                  data-original-title="Contact Us"
+                >
+                  <i class="far fa-envelope btn-icon__inner"></i>
+                </a>
+              </li>
+            </ul>
+          </div>
+        </div>
+      </div>
+    </footer>
+    <div
+      id="divcookie"
+      class="fixed-bottom w-md-75 w-xl-60 mx-md-auto mx-3"
+      style="display: block"
+    >
+      <div class="alert alert-light border shadow p-3" role="alert">
+        <div class="d-md-flex justify-content-center-alt1 align-items-center">
+          <span>
+            <p class="text-dark mr-3 mb-2 mb-md-0">
+              <i class="far fa-cookie-bite text-secondary mr-1"></i>This website
+              <a href="/terms#cookiestatement" target="_blank"
+                >uses cookies to improve your experience</a
+              >. By continuing to use this website, you agree to its
+              <a href="/terms" target="_blank">Terms</a> and
+              <a href="/privacyPolicy">Privacy Policy</a>.
+            </p>
+          </span>
+          <div>
+            <button
+              id="btnCookie"
+              class="btn btn-sm btn-primary text-nowrap py-1"
+              data-dismiss="alert"
+              aria-label="Close"
+            >
+              Got It
+            </button>
+          </div>
+        </div>
+      </div>
+    </div>
+    <a
+      class="js-go-to u-go-to animated"
+      href="#"
+      data-position='{"bottom": 20, "right": 15 }'
+      data-type="fixed"
+      data-offset-top="400"
+      data-compensation="#header"
+      data-show-effect="slideInUp"
+      data-hide-effect="slideOutDown"
+      style="
+        display: inline-block;
+        position: fixed;
+        opacity: 0;
+        bottom: 20px;
+        right: 15px;
+      "
+    >
+      <span class="fa fa-arrow-up u-go-to__inner"></span>
+    </a>
+    <script src="/assets/vendor/jquery-ui/jquery-ui.min.js?v=24.3.2.1"></script>
+    <script src="/assets/vendor/jquery-migrate/dist/jquery-migrate.min.js?v=24.3.2.1"></script>
+    <script src="/assets/vendor/popper.js/dist/umd/popper.min.js?v=24.3.2.1"></script>
+    <script src="/assets/vendor/bootstrap/bootstrap.min.js?v=24.3.2.1"></script>
+
+    <script src="/assets/vendor/hs-megamenu/src/hs.megamenu.js?v=24.3.2.1"></script>
+    <script src="/assets/vendor/malihu-custom-scrollbar-plugin/jquery.mCustomScrollbar.concat.min.js?v=24.3.2.1"></script>
+    <script src="/assets/vendor/cubeportfolio/js/jquery.cubeportfolio.min.js?v=24.3.2.1"></script>
+
+    <script src="/assets/js/hs.core.js?v=24.3.2.1"></script>
+    <script src="/assets/js/components/hs.header.js?v=24.3.2.1"></script>
+    <script src="/assets/js/components/hs.unfold.js?v=24.3.2.1"></script>
+    <script src="/assets/js/components/hs.malihu-scrollbar.js?v=24.3.2.1"></script>
+    <script src="/assets/js/components/hs.focus-state.js?v=24.3.2.1"></script>
+    <script src="/assets/js/components/hs.go-to.js?v=24.3.2.1"></script>
+    <script src="/assets/js/components/hs.cubeportfolio.js?v=24.3.2.1"></script>
+    <script src="/assets/js/custom/combine-js-bottom2.js?v=24.3.2.1"></script>
+
+    <script>
+      $(window).on("load", function () {
+        // initialization of HSMegaMenu component
+        $(".js-mega-menu").HSMegaMenu({
+          event: "hover",
+          pageContainer: $(".container"),
+          breakpoint: 767.98,
+          hideTimeOut: 0,
+        });
+        myfn_subscribeNewsletter.startFn(
+          "#btnSubscribeNewsletter",
+          "#signupSrEmail",
+        );
+      });
+
+      $(document).on("ready", function () {
+        // initialization of header
+        $.HSCore.components.HSHeader.init($("#header"));
+
+        // initialization of unfold component
+        $.HSCore.components.HSUnfold.init($("[data-unfold-target]"), {
+          afterOpen: function () {
+            $(this).find('input[type="search"]').focus();
+          },
+        });
+
+        // initialization of malihu scrollbar
+        $.HSCore.components.HSMalihuScrollBar.init($(".js-scrollbar"));
+
+        // initialization of focus state
+        $.HSCore.components.HSFocusState.init();
+
+        // initialization of go to
+        $.HSCore.components.HSGoTo.init(".js-go-to");
+
+        // initialization of cubeportfolio
+        //$.HSCore.components.HSCubeportfolio.init('.cbp');
+      });
+    </script>
+    <script type="text/javascript">
+      var sid = "1f53c75fb5f55b92af113dae7edfa6fd";
+      var strGlobal = getCookie("site_switch_age_datetime");
+      var strGlobalFee = sessionStorage.getItem("ShowFee");
+      var cookieconsent = getCookie("Optimism" + "_cookieconsent");
+      if (cookieconsent !== "True") {
+        document.getElementById("divcookie").style.display = "block";
+      }
+      function getCookie(cname) {
+        var name = cname + "=";
+        var ca = document.cookie.split(";");
+        for (var i = 0; i < ca.length; i++) {
+          var c = ca[i];
+          while (c.charAt(0) === " ") {
+            c = c.substring(1);
+          }
+          if (c.indexOf(name) === 0) {
+            return c.substring(name.length, c.length);
+          }
+        }
+        return "";
+      }
+      $("#btnCookie").click(function () {
+        $("#divcookie").fadeOut("slow", function () {
+          var d = new Date();
+          d.setTime(d.getTime() + 1095 * 24 * 60 * 60 * 1000);
+          var expires = "expires=" + d.toUTCString();
+          document.cookie =
+            "Optimism" + "_cookieconsent=True" + ";" + expires + ";path=/";
+        });
+      });
+      function handleSearchText(data) {
+        searchAddress = false;
+        if ($("txtSearchInput").val() == "") {
+          $("#hdnSearchText").val("");
+          $("#hdnSearchLabel").val("");
+        }
+      }
+    </script>
+    <script src="/assets/js/custom/web3.min.js?v=0.5.2.2"></script>
+    <script type="text/javascript">
+      var web3Obj;
+      var isTestnet = "false";
+      var SiteNetID = "10";
+      var SiteNetChainID = "0xA";
+      var SiteNetName = "OP Mainnet";
+      var SiteName = "OP Mainnet";
+      var SiteErc20 = "ERC20";
+      var SiteErc721 = "ERC721";
+      var SiteErc1155 = "ERC1155";
+      var sv = "24.3.2.1";
+      var allowErc1155 = "";
+
+      async function addNetwork(type) {
+        if (type === "web3") {
+          if (typeof ethereum !== "undefined") {
+            if (window.ethereum.providers?.length) {
+              if (window.ethereum.isMetaMask) {
+                ethereum = window.ethereum.providers.find(
+                  (provider) => provider.isMetaMask,
+                );
+                web3Obj = new Web3(ethereum);
+              }
+            } else {
+              web3Obj = new Web3(ethereum);
+            }
+          } else if (typeof web3 !== "undefined") {
+            web3Obj = new Web3(web3.givenProvider);
+          } else {
+            web3Obj = new Web3(ethereum);
+          }
+        }
+
+        if (typeof web3Obj !== "undefined") {
+          var network = 0;
+          network = await web3Obj.eth.getChainId();
+          netID = network.toString();
+          var params;
+          if (netID == SiteNetID) {
+            alert(
+              "OP Mainnet Network Network has already been added to Metamask.",
+            );
+            return;
+          } else {
+            params = [
+              {
+                chainId: SiteNetChainID,
+                chainName: "OP Mainnet",
+                nativeCurrency: {
+                  name: "ETH",
+                  symbol: "ETH",
+                  decimals: 18,
+                },
+                rpcUrls: ["https://mainnet.optimism.io"],
+                blockExplorerUrls: ["https://optimistic.etherscan.io"],
+              },
+            ];
+          }
+
+          window.ethereum
+            .request({ method: "wallet_addEthereumChain", params })
+            .then(() => console.log("Success"))
+            .catch((error) => console.log("Error", error.message));
+        } else {
+          alert("Unable to locate a compatible web3 browser!");
+        }
+      }
+    </script>
+    <script src="/assets/vendor/hs-sticky-thead/src/hs.sticky-thead.js?v=24.3.2.1"></script>
+    <script>
+      $(document).on("ready", function () {
+        if ($("#tblResult").length > 0) {
+          // initialization of sticky header
+          $(".js-sticky-header").HSStickyHeader();
+        }
+
+        renderDataTable();
+        //$("[data-toggle-second='tooltip']").tooltip();
+
+        $("#js-column_freeze_id_inner").click(function () {
+          $("#divSTContainer").toggleClass("freeze_column_wrapper");
+          if ($("#divSTContainer").hasClass("freeze_column_wrapper")) {
+            $("#js-customSwitch1").attr("checked");
+            $(".js-mainbtn").replaceWith(
+              '<div class="js-mainbtn2 custom-control custom-switch  mt-n3"><input type="checkbox" checked class="custom-control-input" id="customSwitch1"><label class="custom-control-label" for="customSwitch1"></label></div>',
+            );
+            sessionStorage.setItem("freezeToogle", true);
+          } else {
+            $(".js-mainbtn2").replaceWith(
+              '<div class="js-mainbtn custom-control custom-switch  mt-n3"><input type="checkbox" class="custom-control-input" id="customSwitch1"><label class="custom-control-label" for="customSwitch1"></label></div>',
+            );
+            $("#divSTContainer").removeClass("freeze_column_wrapper");
+            sessionStorage.setItem("freezeToogle", false);
+          }
+        });
+      });
+
+      window.onload = function () {
+        $("#divSTContainer").toggleClass("freeze_column_wrapper");
+        if (sessionStorage.getItem("freezeToogle") === "true") {
+          $("#js-customSwitch1").attr("checked");
+          $(".js-mainbtn").replaceWith(
+            '<div class="js-mainbtn2 custom-control custom-switch  mt-n3"><input type="checkbox" checked class="custom-control-input" id="customSwitch1"><label class="custom-control-label" for="customSwitch1"></label></div>',
+          );
+        } else if (
+          sessionStorage.getItem("freezeToogle") === "false" ||
+          sessionStorage.getItem("freezeToogle") === null
+        ) {
+          $(".js-mainbtn2").replaceWith(
+            '<div class="js-mainbtn custom-control custom-switch  mt-n3"><input type="checkbox" class="custom-control-input" id="customSwitch1"><label class="custom-control-label" for="customSwitch1"></label></div>',
+          );
+          $("#divSTContainer").removeClass("freeze_column_wrapper");
+        }
+      };
+
+      function handleTokenSearch(data) {
+        searchAddress = false;
+        if ($("searchtoken").val() == "") {
+          $("#hdnSearchText").val("");
+        }
+      }
+
+      function updateUrl(subCatId) {
+        var queryString = "";
+        queryString += "subcatid=" + subCatId;
+
+        var length = queryStringDictionary["length_" + subCatId];
+        if (length) {
+          if (length < 0) {
+            length = 7;
+          }
+          queryString += "&size=" + length;
+        }
+
+        var start = queryStringDictionary["start_" + subCatId];
+        if (start !== undefined) {
+          queryString += "&start=" + start;
+        }
+
+        var col = queryStringDictionary["col_" + subCatId];
+        if (col !== undefined) {
+          queryString += "&col=" + col;
+        }
+
+        var order = queryStringDictionary["order_" + subCatId];
+        if (order !== undefined) {
+          queryString += "&order=" + order;
+        }
+
+        var baseUrl = window.location.href.split("?")[0];
+        history.pushState("", document.title, baseUrl + "?" + queryString);
+      }
+
+      var resetSortAfterClickDictionary = {};
+      var resetSortDictionary = {};
+      var resetPageDictionary = {};
+      var visitedTabDictionary = {};
+      var queryStringDictionary = {};
+      var currentLengthDictionary = {};
+      var currentTab = "0";
+      var refreshToDefaultDictionary = { "table-subcatid-0": false };
+      var defaultLength = 50;
+      var defaultSort = { column: 3, dir: "desc" };
+
+      function selectTab(el) {
+        $(".nav-link.active").removeClass("active");
+        el.classList.add("active");
+
+        var id = $(".nav-link.active").attr("val");
+        $("#subcattab-" + currentTab)
+          .removeClass("show")
+          .removeClass("active");
+
+        $("#subcattab-" + id)
+          .addClass("show")
+          .addClass("active");
+
+        if (!visitedTabDictionary["subCat_" + id]) {
+          visitedTabDictionary["subCat_" + id] = true;
+          $("#table-subcatid-" + id)
+            .DataTable()
+            .ajax.reload();
+        }
+
+        updateUrl(id);
+        currentTab = id;
+      }
+
+      function generateLabelModel() {
+        var id = $("#hdnId").val();
+        var label = $("#hdnLabelFilter").val();
+        var subCategoryId = $(".nav-link.active").attr("val");
+
+        return { id: id, label: label, subCategoryId: subCategoryId };
+      }
+
+      function renderDataTable() {
+        visitedTabDictionary["subCat_" + currentTab] = true;
+        resetSortAfterClickDictionary["table-subcatid-" + currentTab] = false;
+
+        var config = {
+          dom: '<"top d-md-flex justify-content-between mb-3"<"text-secondary d-flex"i><"pagination-sm d-flex"p>>rt<"bottom d-md-flex justify-content-between"<"text-secondary d-flex"l><"pagination-sm d-flex"p>><"clear">',
+          language: {
+            paginate: {
+              next: '<i class="fa fa-chevron-right small"></i>',
+              previous: '<i class="fa fa-chevron-left small"></i>',
+            },
+            lengthMenu: "Show _MENU_ Records",
+            info: "A total of \<strong\>_MAX_\</strong\> Token Contracts found",
+          },
+          columnDefs: [
+            {
+              orderable: true,
+              targets: 2,
+              orderSequence: ["asc", "desc", "reset"],
+            },
+            { orderable: true, targets: 3, orderSequence: ["desc", "asc"] },
+            {
+              orderable: true,
+              targets: 4,
+              orderSequence: ["desc", "asc", "reset"],
+            },
+            { orderable: false, targets: "_all" },
+          ],
+          columns: [
+            { data: "number" },
+            { data: "contractAddress" },
+            { data: "tokenName" },
+            { data: "marketCap" },
+            { data: "holders" },
+            { data: "website" },
+          ],
+          order: [[3, "desc"]],
+          searching: false,
+          pagingType: "full",
+          drawCallback: function (settings) {
+            //change sorting icon and position
+            $("#" + this.attr("id") + " th.sorting_asc")
+              .not(".remove-icon")
+              .each(function () {
+                var text = $(this).text();
+                text = '<i class="fad fa-sort-up"></i> ' + text;
+                $(this).html(text);
+              });
+
+            $("#" + this.attr("id") + " th.sorting_desc")
+              .not(".remove-icon")
+              .each(function () {
+                if (!$(this).hasClass("no-login")) {
+                  var text = $(this).text();
+                  text = '<i class="fad fa-sort-down"></i> ' + text;
+                  $(this).html(text);
+                }
+              });
+
+            $("#" + this.attr("id") + " th.sorting")
+              .not(".remove-icon")
+              .each(function () {
+                var text = $(this).text();
+                text = '<i class="fad fa-sort"></i> ' + text;
+                $(this).html(text);
+              });
+
+            var api = this.api();
+            var json = api.ajax.json();
+            if (!json) {
+              var currentPageDisp = "1";
+
+              //reload state if querystring is available
+              var urlParams = new URLSearchParams(window.location.search);
+              var existLength = urlParams.get("size");
+              if (existLength) {
+                api.page.len(existLength);
+                currentLengthDictionary[this.attr("id")] =
+                  parseInt(existLength);
+
+                var existStart = urlParams.get("start");
+
+                if (!existStart) {
+                  existStart = 0;
+                }
+                currentPage = Math.floor(existStart / existLength);
+                api.page(currentPage);
+                currentPageDisp = currentPage + 1;
+              }
+
+              var existCol = urlParams.get("col");
+              var existOrder = urlParams.get("order");
+
+              if (existCol && existOrder) {
+                this.api().order([parseInt(existCol), existOrder]);
+              }
+
+              $(".custom-select.custom-select-sm.form-control.form-control-sm")
+                .removeAttr("class")
+                .addClass("custom-select custom-select-xs mx-2");
+              var totalPage = 1;
+              $(
+                "#" + this.attr("id") + "_wrapper .paginate_button.previous",
+              ).after(
+                "<li class='page-item disabled'><span class='page-link'>Page <strong class='font-weight-medium'>" +
+                  currentPageDisp +
+                  "</strong> of <strong class='font-weight-medium'>" +
+                  totalPage +
+                  "</strong></span></li>",
+              );
+              return;
+            } else {
+              $(
+                "#" + this.attr("id") + "_wrapper .paginate_button.previous",
+              ).after(
+                "<li class='page-item disabled'><span class='page-link'>Page <strong class='font-weight-medium'>" +
+                  json.currentPage +
+                  "</strong> of <strong class='font-weight-medium'>" +
+                  json.totalPage +
+                  "</strong></span></li>",
+              );
+
+              if (
+                refreshToDefaultDictionary[settings.nTable.getAttribute("id")]
+              ) {
+                refreshToDefaultDictionary[settings.nTable.getAttribute("id")] =
+                  false;
+                this.api().page.len(defaultLength);
+                this.api().order([defaultSort["column"], defaultSort["dir"]]);
+                $("#" + this.attr("id") + " .default-sort")
+                  .not("no-login")
+                  .removeClass("sorting")
+                  .addClass("sorting_desc");
+                $("#" + this.attr("id") + " .sorting_desc")
+                  .not(".default-sort")
+                  .removeClass("sorting_desc")
+                  .addClass("sorting")
+                  .removeAttr("aria-sort");
+                $("#" + this.attr("id") + " .sorting_asc")
+                  .not(".default-sort")
+                  .removeClass("sorting_asc")
+                  .addClass("sorting")
+                  .removeAttr("aria-sort");
+              }
+
+              //bypass standard datatables sorting selection
+              if (
+                resetSortDictionary[this.attr("id")] ||
+                resetSortAfterClickDictionary[this.attr("id")]
+              ) {
+                this.api().order([3, "desc"]); //the default sorting is column 3
+                resetSortAfterClickDictionary[this.attr("id")] = false;
+                $("#" + this.attr("id") + " .default-sort")
+                  .not("no-login")
+                  .removeClass("sorting")
+                  .addClass("sorting_desc");
+                $("#" + this.attr("id") + " .sorting_desc")
+                  .not(".default-sort")
+                  .removeClass("sorting_desc")
+                  .addClass("sorting")
+                  .removeAttr("aria-sort");
+                $("#" + this.attr("id") + " .sorting_asc")
+                  .not(".default-sort")
+                  .removeClass("sorting_asc")
+                  .addClass("sorting")
+                  .removeAttr("aria-sort");
+              }
+
+              if (resetPageDictionary[this.attr("id")]) {
+                this.api().page(0);
+                resetPageDictionary[this.attr("id")] = false;
+              }
+
+              $("#" + this.attr("id") + " th.sorting_asc")
+                .not(".remove-icon")
+                .each(function () {
+                  var text = $(this).text();
+                  text = '<i class="fad fa-sort-up"></i> ' + text;
+                  $(this).html(text);
+                });
+
+              $("#" + this.attr("id") + " th.sorting_desc")
+                .not("")
+                .each(function () {
+                  if (!$(this).hasClass("no-login")) {
+                    var text = $(this).text();
+                    text = '<i class="fad fa-sort-down"></i> ' + text;
+                    $(this).html(text);
+                  }
+                });
+
+              $("#" + this.attr("id") + " th.sorting")
+                .not(".remove-icon")
+                .each(function () {
+                  var text = $(this).text();
+                  text = '<i class="fad fa-sort"></i> ' + text;
+                  $(this).html(text);
+                });
+
+              //maybe can be removed
+              if (json.showPopUp) {
+                showSignInPopUp(this.attr("id"));
+              } else {
+                hideSignInPopUp(this.attr("id"));
+              }
+              //End - maybe can be removed
+            }
+
+            var subCatId = $(".nav-link.active").attr("val");
+
+            //get page info
+            var pageInfo = this.api().page.info();
+
+            if (pageInfo.length) {
+              queryStringDictionary["length_" + subCatId] = pageInfo.length;
+            }
+
+            if (pageInfo.start !== undefined) {
+              queryStringDictionary["start_" + subCatId] = pageInfo.start;
+            }
+
+            //get ordering info
+            var orderInfo = this.api().order();
+            queryStringDictionary["col_" + subCatId] = orderInfo[0][0];
+            queryStringDictionary["order_" + subCatId] = orderInfo[0][1];
+
+            updateUrl(subCatId);
+            $('[data-toggle="tooltip"]').tooltip();
+          },
+          processing: true,
+          serverSide: true,
+          ajax: {
+            type: "POST",
+            contentType: "application/json",
+            url: "/tokens.aspx/GetTokensBySubLabel",
+            dataType: "json",
+            dataFilter: function (res) {
+              var parsed = JSON.parse(res);
+              var morp = parsed.d;
+              return JSON.stringify(morp);
+            },
+            data: function (d, settings) {
+              var labelModel = generateLabelModel();
+
+              if (
+                refreshToDefaultDictionary[settings.nTable.getAttribute("id")]
+              ) {
+                d.length = defaultLength;
+                d.order[0] = defaultSort;
+              }
+
+              if (
+                currentLengthDictionary[settings.nTable.getAttribute("id")] !=
+                d.length
+              ) {
+                if (
+                  currentLengthDictionary[settings.nTable.getAttribute("id")] !=
+                  undefined
+                ) {
+                  d.start = 0;
+                  resetPageDictionary[settings.nTable.getAttribute("id")] =
+                    true;
+                }
+                currentLengthDictionary[settings.nTable.getAttribute("id")] =
+                  d.length;
+              }
+
+              if (
+                (d.order[0] && d.order[0].dir === "reset") ||
+                resetSortAfterClickDictionary[
+                  settings.nTable.getAttribute("id")
+                ]
+              ) {
+                d.order[0] = { column: 3, dir: "desc" };
+                resetSortDictionary[settings.nTable.getAttribute("id")] = true;
+              } else {
+                resetSortDictionary[settings.nTable.getAttribute("id")] = false;
+              }
+              return JSON.stringify({
+                dataTableModel: d,
+                labelModel: labelModel,
+              });
+            },
+          },
+
+          pageLength: 50,
+          displayStart: 0,
+          deferLoading: 13,
+        };
+
+        $("#table-subcatid-0").DataTable(config);
+      }
+    </script>
+
+    <ul
+      id="ui-id-1"
+      tabindex="0"
+      class="ui-menu ui-widget ui-widget-content ui-autocomplete ui-front"
+      style="display: none"
+    ></ul>
+    <div
+      role="status"
+      aria-live="assertive"
+      aria-relevant="additions"
+      class="ui-helper-hidden-accessible"
+    ></div>
+    <div
+      class="calendly-frame-tag"
+      manager_id="ec57231b-cae1-4d62-984f-b1f5baaece9a"
+      id="ec57231b-cae1-4d62-984f-b1f5baaece9a"
+      style="height: 0px; width: 0px; visibility: hidden"
+    ></div>
+  </body>
+  <div style="all: initial !important"></div>
+  <grammarly-desktop-integration
+    data-grammarly-shadow-root="true"
+  ></grammarly-desktop-integration>
+</html>
