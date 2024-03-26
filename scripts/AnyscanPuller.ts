@@ -60,31 +60,6 @@ export class AnyscanPuller {
     this.#htmlParser = htmlParser;
   }
 
-  private selectAllAnchors = (html: string): ReadonlyArray<string> => {
-    const $ = cheerio.load(html);
-    const parent = $("div > div > div.row.mb-3");
-
-    let anchors: ReadonlyArray<string> = [];
-    parent.find("a").each((index, element) => {
-      const pathname = $(element).attr("href");
-      if (typeof pathname !== "string") {
-        console.log(`returning early because "${pathname}" is not a string`);
-        return;
-      }
-      // tokens has a max page size of 100 while accounts seems to allow 10,000+
-      const maxRecordsLength = pathname.includes("tokens") ? 100 : 10_000;
-      const size = $(element).text();
-      const regex = /\((.*?)\)/;
-      const recordCount = Number(regex.exec(size)?.[1]);
-      // if statement needed because otherwise we freeze forever on URL's like "beacon-depositor"
-      if (recordCount < maxRecordsLength) {
-        const href = `${this.#baseUrl}${pathname}?size=${maxRecordsLength}`;
-        anchors = [...anchors, href];
-      }
-    });
-    return anchors;
-  };
-
   private fetchAllLabels = async (page: Page): Promise<AllLabels> => {
     const PAGE_URL = `${this.#baseUrl}/labelcloud`;
 
@@ -94,7 +69,10 @@ export class AnyscanPuller {
       `button[data-url]`,
     );
 
-    const allAnchors = this.selectAllAnchors(labelCloudHtml);
+    const allAnchors = this.#htmlParser.selectAllLabels(
+      labelCloudHtml,
+      this.#baseUrl,
+    );
     const allLabels: AllLabels = { accounts: [], tokens: [], blocks: [] };
     allAnchors.forEach((url) => {
       if (url.includes("/accounts/")) {

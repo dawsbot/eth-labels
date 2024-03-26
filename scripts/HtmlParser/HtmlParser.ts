@@ -1,6 +1,34 @@
 import * as cheerio from "cheerio";
 import { TokenRows, TokenRow, AccountRow, AccountRows } from "../AnyscanPuller";
 export class HtmlParser {
+  public selectAllLabels = (
+    html: string,
+    baseUrl: string,
+  ): ReadonlyArray<string> => {
+    const $ = cheerio.load(html);
+    const parent = $("div > div > div.row.mb-3");
+
+    let anchors: ReadonlyArray<string> = [];
+    parent.find("a").each((index, element) => {
+      const pathname = $(element).attr("href");
+      if (typeof pathname !== "string") {
+        console.log(`returning early because "${pathname}" is not a string`);
+        return;
+      }
+      // tokens has a max page size of 100 while accounts seems to allow 10,000+
+      const maxRecordsLength = pathname.includes("tokens") ? 100 : 10_000;
+      const size = $(element).text();
+      const regex = /\((.*?)\)/;
+      const recordCount = Number(regex.exec(size)?.[1]);
+      // if statement needed because otherwise we freeze forever on URL's like "beacon-depositor"
+      if (recordCount < maxRecordsLength) {
+        const href = `${baseUrl}${pathname}?size=${maxRecordsLength}`;
+        anchors = [...anchors, href];
+      }
+    });
+    return anchors;
+  };
+
   public selectAllTokenAddresses(html: string): TokenRows {
     const $ = cheerio.load(html);
     const selector = `#table-subcatid-0 > tbody`;

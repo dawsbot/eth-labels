@@ -6,6 +6,10 @@ import { fileURLToPath } from "url";
 const __filename = fileURLToPath(import.meta.url);
 const __dirname = path.dirname(__filename);
 
+const mockLabelCloudHtml = fs.readFileSync(
+  path.join(__dirname, "mocks", "etherscan", "labelcloud.html"),
+  "utf8",
+);
 const mockTokensHtml = fs.readFileSync(
   path.join(__dirname, "mocks", "etherscan", "tokens.html"),
   "utf8",
@@ -16,8 +20,17 @@ const mockAccountsHtml = fs.readFileSync(
 );
 
 describe("etherscan", () => {
+  const parser = new HtmlParser();
+  test("should parse labelcloud", () => {
+    const baseUrl = "https://etherscan.io";
+    const allLabels = parser.selectAllLabels(mockLabelCloudHtml, baseUrl);
+
+    expect(allLabels).toHaveLength(899);
+    expect(allLabels[0]).toBe(
+      `${baseUrl}/accounts/label/0x-protocol?size=10000`,
+    );
+  });
   test("should parse account addresses", () => {
-    const parser = new HtmlParser();
     const tokenRows = parser.selectAllAccountAddresses(mockAccountsHtml);
 
     expect(tokenRows).toHaveLength(12);
@@ -27,7 +40,6 @@ describe("etherscan", () => {
     });
   });
   test("should parse token addresses", () => {
-    const parser = new HtmlParser();
     const tokenRows = parser.selectAllTokenAddresses(mockTokensHtml);
 
     expect(tokenRows).toHaveLength(11);
