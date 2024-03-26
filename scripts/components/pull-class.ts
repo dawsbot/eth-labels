@@ -4,6 +4,8 @@ abstract class PullComponent {
   browser: any;
   page: any;
   isDebug: boolean;
+
+  abstract baseUrl: string;
   abstract name: string;
 
   constructor(browser: any, page: any, isDebug: boolean) {
@@ -20,7 +22,17 @@ abstract class PullComponent {
     }
   }
 
-  public async fetchPageHtml(
+  protected async sleep(ms: number): Promise<void> {
+    return new Promise((resolve) => {
+      setTimeout(resolve, ms);
+    });
+  }
+  protected async randomSleep() {
+    const randomDelay = Math.random() * 600;
+    await this.sleep(randomDelay + 500);
+  }
+
+  protected async fetchPageHtml(
     url: string,
     waitForSelector: string,
   ): Promise<string> {
