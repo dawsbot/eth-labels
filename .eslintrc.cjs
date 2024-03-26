@@ -1,7 +1,7 @@
 module.exports = {
   ignorePatterns: ["lib/**", "**/*.js"],
   parser: "@typescript-eslint/parser",
-  plugins: ["@typescript-eslint"],
+  plugins: ["@typescript-eslint", "tsdoc"],
   extends: [
     "eslint:recommended",
     "plugin:@typescript-eslint/recommended-type-checked",
@@ -9,10 +9,38 @@ module.exports = {
   ],
   parserOptions: {
     project: ["./tsconfig.json"],
-    //   tsconfigRootDir: __dirname,
-    //   project: ['./tsconfig.base.json', './packages/*/tsconfig.json'], // Specify it only for TypeScript files
   },
   env: {
     node: true,
+  },
+  rules: {
+    "@typescript-eslint/consistent-type-imports": "error",
+    "@typescript-eslint/naming-convention": [
+      "error",
+      {
+        selector: "variable",
+        types: ["boolean"],
+        format: ["PascalCase", "UPPER_CASE"],
+        prefix: [
+          "is",
+          "should",
+          "has",
+          "can",
+          "did",
+          "will",
+          "does",
+          "IS",
+          "SHOULD",
+          "HAS",
+        ],
+      },
+      {
+        selector: "typeLike",
+        format: ["PascalCase"],
+      },
+    ],
+    "@typescript-eslint/array-type": ["error", { default: "generic" }],
+    "new-cap": "error",
+    "tsdoc/syntax": "error",
   },
 };

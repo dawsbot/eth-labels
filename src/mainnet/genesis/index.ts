@@ -1,5 +1,5 @@
-import genesisAll from "./all.json";
 import genesisAddresses from "./addresses.json";
+import genesisAll from "./all.json";
 import { isGenesisAddress } from "./is-genesis-address";
 
 interface AllData {
@@ -7,7 +7,7 @@ interface AllData {
   nameTag: string;
 }
 export const genesis = {
-  all: genesisAll as AllData[],
+  all: genesisAll as Array<AllData>,
   addresses: genesisAddresses,
   isGenesisAddress,
 };
