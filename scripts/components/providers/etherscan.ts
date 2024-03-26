@@ -1,4 +1,4 @@
-import PullComponent from "./../pull-class.ts";
+import PullComponent from "../pull-class.ts";
 import { parseError } from "../error/error-parse.ts";
 
 class etherscan extends PullComponent {
