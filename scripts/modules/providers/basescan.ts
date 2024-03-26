@@ -5,47 +5,31 @@ import fs from "fs";
 import { z } from "zod";
 import cliProgress, { SingleBar } from "cli-progress";
 import * as cheerio from "cheerio";
+import {
+  AccountRow,
+  AllLabels,
+  TokenRow,
+  TokenRows,
+  AccountRows,
+} from "../types";
 
 // dirname does not exist in esm, so we need to polyfill
 import { fileURLToPath } from "url";
+
 const __filename = fileURLToPath(import.meta.url);
 const __dirname = path.dirname(__filename);
-
-function sleep(ms: number): Promise<void> {
-  return new Promise((resolve) => {
-    setTimeout(resolve, ms);
-  });
-}
-
-type AllLabels = {
-  accounts: Array<string>;
-  tokens: Array<string>;
-  blocks: ReadonlyArray<string>;
-};
-type AccountRow = {
-  address: string;
-  nameTag: string;
-};
-type TokenRow = {
-  address: string;
-  tokenName: string;
-  tokenSymbol: string;
-  website: string;
-};
-type AccountRows = Array<AccountRow>;
-type TokenRows = Array<TokenRow>;
 const bar1: SingleBar = new cliProgress.SingleBar(
   {},
   cliProgress.Presets.shades_classic,
 );
 
-class etherscan extends PullComponent {
-  name = "etherscan";
-  baseUrl = "https://etherscan.io";
+class basescan extends PullComponent {
+  name = "basescan";
+  baseUrl = "https://basescan.org";
   constructor(browser: any, page: any, isDebug: boolean) {
     super(browser, page, isDebug);
     this.baseUrl = z.string().url().startsWith("https://").parse(this.baseUrl);
-    this.log("Etherscan created");
+    this.log("Basescan created");
   }
   public async pull() {
     const rootDirectory = path.join(
@@ -62,10 +46,10 @@ class etherscan extends PullComponent {
 
     await this.login();
     const allLabels = await this.fetchAllLabels();
-
-    bar1.start(allLabels.tokens.length + allLabels.accounts.length, 0);
-
     console.log(`🐌 Pulling all of tokens started...`);
+
+    bar1.start(allLabels.tokens.length + allLabels.accounts.length - 1, 1);
+
     for (const [index, url] of allLabels.tokens.entries()) {
       bar1.update(index);
       // fetch all addresses from all tables
@@ -80,11 +64,11 @@ class etherscan extends PullComponent {
         }
         fs.writeFileSync(
           path.join(outputDirectory, "tokens.json"),
-          JSON.stringify(sortedTokenRows),
+          JSON.stringify(sortedTokenRows, null, 2),
         );
       }
     }
-    console.log(`✅ Pulling all of tokens completed!`);
+    console.log(`\n✅ Pulling all of tokens completed!`);
     console.log(`🐌 Pulling all of accounts started...`);
     for (const [index, url] of allLabels.accounts.entries()) {
       bar1.update(allLabels.tokens.length + index);
@@ -101,13 +85,13 @@ class etherscan extends PullComponent {
         fs.writeFileSync(
           path.join(outputDirectory, "accounts.json"),
           // TODO: use prettier instead of "null", 2
-          JSON.stringify(sortedAccountRows),
+          JSON.stringify(sortedAccountRows, null, 2),
         );
       }
     }
+    bar1.stop();
     console.log(`✅ Pulling all of accounts completed!`);
     console.log(`✅ Pulling all of ${this.name} completed!`);
-    bar1.stop();
   }
   private selectAllAnchors = (html: string): ReadonlyArray<string> => {
     const $ = cheerio.load(html);
@@ -172,9 +156,9 @@ class etherscan extends PullComponent {
     parent.find("tr").each((index, tableRow) => {
       const tableCells = $(tableRow).find("td");
 
-      const anchorWithDataBsTitle = $(tableCells[1]).find("a[data-bs-title]");
+      const anchorWithDataBsTitle = $(tableCells[1]).find("a");
 
-      const address = anchorWithDataBsTitle.attr("data-bs-title");
+      const address = anchorWithDataBsTitle.text();
       if (typeof address !== "string") {
         return;
       }
@@ -209,9 +193,9 @@ class etherscan extends PullComponent {
     parent.find("tr").each((index, tableRow) => {
       const tableCells = $(tableRow).find("td");
 
-      const anchorWithDataBsTitle = $(tableCells[0]).find("a[data-bs-title]");
+      const anchorWithDataBsTitle = $(tableCells[0]).find("a");
 
-      const address = anchorWithDataBsTitle.attr("data-bs-title");
+      const address = anchorWithDataBsTitle.text();
       if (typeof address !== "string") {
         return;
       }
@@ -241,14 +225,14 @@ class etherscan extends PullComponent {
     );
     console.log(`🐢 Waiting for operator to complete login...`);
     // TODO: Update this deprecated function to instead use "this.page.waitForURL" (https://playwright.dev/docs/api/class-this.page#this.page-wait-for-url)
-    await this.page.waitForNavigation();
+    await this.page.waitForNavigation({ timeout: 60000 });
     console.log(`✅ Login completed!`);
   }
 
   private pullAllTokenRows = async (url: string) => {
     const addressesHtml = await this.fetchPageHtml(
       url,
-      `a[aria-label="Copy Address"]`,
+      `#table-subcatid-0 > tbody a`,
     );
     const allAddresses = this.selectAllTokenAddresses(addressesHtml);
     return allAddresses;
@@ -280,9 +264,9 @@ class etherscan extends PullComponent {
         allAddresses = [...allAddresses, ...subcatAddresses];
       }
     } else {
-      console.log(`no navpills for ${url}`);
+      //   console.log(`no navpills for ${url}`);
       allAddresses = this.selectAllAccountAddresses(addressesHtml);
-      console.dir({ allAddresses });
+      //   console.dir({ allAddresses });
     }
     return allAddresses;
   };
@@ -325,4 +309,4 @@ class etherscan extends PullComponent {
     return sortedAddresses;
   }
 }
-export default etherscan;
+export default basescan;

@@ -1,9 +1,24 @@
 [
-  { "address": "0x05d4ed0f8c3265134d94aaa5c508b6c1cb7095fd", "nameTag": "" },
-  { "address": "0x61edfa7f7bb97b0baad7c6ade3eec15ecebd7dcb", "nameTag": "" },
-  { "address": "0x8a0a04f0bed364ccba553b79b01072dcf4ee153b", "nameTag": "" },
-  { "address": "0xacbeb5fc062cc66ae51ee63eaae088cfddc9586a", "nameTag": "" },
-  { "address": "0xb4cbf6e1f7489e773e28edcc7cde19f0175e16d9", "nameTag": "" },
+  {
+    "address": "0x05d4ed0f8c3265134d94aaa5c508b6c1cb7095fd",
+    "nameTag": ""
+  },
+  {
+    "address": "0x61edfa7f7bb97b0baad7c6ade3eec15ecebd7dcb",
+    "nameTag": ""
+  },
+  {
+    "address": "0x8a0a04f0bed364ccba553b79b01072dcf4ee153b",
+    "nameTag": ""
+  },
+  {
+    "address": "0xacbeb5fc062cc66ae51ee63eaae088cfddc9586a",
+    "nameTag": ""
+  },
+  {
+    "address": "0xb4cbf6e1f7489e773e28edcc7cde19f0175e16d9",
+    "nameTag": ""
+  },
   {
     "address": "0xbbbfc46566e5f0302cef913af8c8f423070ce6a1",
     "nameTag": "Gitcoin Grants: DeFiZap"

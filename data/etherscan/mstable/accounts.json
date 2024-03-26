@@ -1,7 +1,16 @@
 [
-  { "address": "0xd082363752d08c54ab47c248fd5a11f8ee634bb9", "nameTag": "" },
-  { "address": "0xd7c346c228bddd8a6a4c1a69e6cc82292909dcad", "nameTag": "" },
-  { "address": "0xdc66115be4eaa30fe8ca3b262bb8e3ff889f3a35", "nameTag": "" },
+  {
+    "address": "0xd082363752d08c54ab47c248fd5a11f8ee634bb9",
+    "nameTag": ""
+  },
+  {
+    "address": "0xd7c346c228bddd8a6a4c1a69e6cc82292909dcad",
+    "nameTag": ""
+  },
+  {
+    "address": "0xdc66115be4eaa30fe8ca3b262bb8e3ff889f3a35",
+    "nameTag": ""
+  },
   {
     "address": "0xe036cce08cf4e23d33bc6b18e53caf532afa8513",
     "nameTag": "Balancer: ETH/mUSD 50/50 #2"

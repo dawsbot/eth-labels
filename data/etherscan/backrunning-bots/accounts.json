@@ -1,4 +1,10 @@
 [
-  { "address": "0x78a55b9b3bbeffb36a43d9905f654d2769dc55e8", "nameTag": "" },
-  { "address": "0xf443253607dbde5bda77c358c9b9f244d819e25c", "nameTag": "" }
+  {
+    "address": "0x78a55b9b3bbeffb36a43d9905f654d2769dc55e8",
+    "nameTag": ""
+  },
+  {
+    "address": "0xf443253607dbde5bda77c358c9b9f244d819e25c",
+    "nameTag": ""
+  }
 ]

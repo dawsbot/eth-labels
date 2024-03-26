@@ -1,0 +1,70 @@
+[
+  {
+    "address": "0xbe2f0354d970265bfc36d383af77f72736b81b54",
+    "nameTag": "KyberSwap: Deployer"
+  },
+  {
+    "address": "0x8180a5ca4e3b94045e05a9313777955f7518d757",
+    "nameTag": "KyberSwap: Deployer 2"
+  },
+  {
+    "address": "0xcab2fa2eeab7065b45cbcf6e3936dde2506b4f6c",
+    "nameTag": "KyberSwap: Double Signatures Limit Order"
+  },
+  {
+    "address": "0xe222fbe074a436145b255442d919e4e3a6c6a480",
+    "nameTag": "KyberSwap: Elastic Anti-Snipping Position Manager"
+  },
+  {
+    "address": "0xc7a590291e07b9fe9e64b86c58fd8fc764308c4a",
+    "nameTag": "KyberSwap: Elastic Factory"
+  },
+  {
+    "address": "0x049beffdb026d6d1d64cfc8fe29bd12142967b09",
+    "nameTag": "KyberSwap: Elastic Pool Oracle"
+  },
+  {
+    "address": "0xd8ac7f696ae99cd7b689726cf03c5711dd8dcdb4",
+    "nameTag": "KyberSwap: Elastic Pool Oracle Proxy"
+  },
+  {
+    "address": "0x98565fcad2080c5c19c3136fa367ce371cd40bd6",
+    "nameTag": "KyberSwap: Elastic Position Desc"
+  },
+  {
+    "address": "0x58f1d0f9bff9d695010c92fb93d100cef5113f3e",
+    "nameTag": "KyberSwap: Elastic Position Desc Proxy"
+  },
+  {
+    "address": "0x4d47fd5a29904dae0ef51b1c450c9750f15d7856",
+    "nameTag": "KyberSwap: Elastic Quoter V2"
+  },
+  {
+    "address": "0xf9c2b5746c946ef883ab2660bbbb1f10a5bdeab4",
+    "nameTag": "KyberSwap: Elastic Router"
+  },
+  {
+    "address": "0x8fd8cb948965d9305999d767a02bf79833eadbb3",
+    "nameTag": "KyberSwap: Elastic Ticks Fees Reader"
+  },
+  {
+    "address": "0x28fe69ff6864c1c218878bdca01482d36b9d57b1",
+    "nameTag": "KyberSwap: KNC Token"
+  },
+  {
+    "address": "0x6131b5fae19ea4f9d964eac0408e4408b66337b5",
+    "nameTag": "KyberSwap: Meta Aggregation Router v2"
+  },
+  {
+    "address": "0xaa96267806d5be3941bf9d8e4efc3dc8eb2bda0f",
+    "nameTag": "KyberSwap: Operations"
+  },
+  {
+    "address": "0x30c5322e4e08ad500c348007f92f120ab4e2b79e",
+    "nameTag": "KyberSwap: Zap In Router"
+  },
+  {
+    "address": "0xf0096e5b4aafeea1df557264091569ba125c1172",
+    "nameTag": "KyberSwap: Zap In Validator"
+  }
+]

@@ -1,11 +1,32 @@
 [
-  { "address": "0x11e4857bb9993a50c685a79afad4e6f65d518dda", "nameTag": "" },
-  { "address": "0x4d37f28d2db99e8d35a6c725a5f1749a085850a3", "nameTag": "" },
-  { "address": "0x7859821024e633c5dc8a4fcf86fc52e7720ce525", "nameTag": "" },
-  { "address": "0x8688a84fcfd84d8f78020d0fc0b35987cc58911f", "nameTag": "" },
-  { "address": "0x910119d96fcc68fc898a02b07b3a6316992af800", "nameTag": "" },
-  { "address": "0xd277a99c0d08ded3bdb253024bff81e41496465c", "nameTag": "" },
-  { "address": "0xdb4d88080ed478c729b07e23f8e0ccd1f57d3f9b", "nameTag": "" },
+  {
+    "address": "0x11e4857bb9993a50c685a79afad4e6f65d518dda",
+    "nameTag": ""
+  },
+  {
+    "address": "0x4d37f28d2db99e8d35a6c725a5f1749a085850a3",
+    "nameTag": ""
+  },
+  {
+    "address": "0x7859821024e633c5dc8a4fcf86fc52e7720ce525",
+    "nameTag": ""
+  },
+  {
+    "address": "0x8688a84fcfd84d8f78020d0fc0b35987cc58911f",
+    "nameTag": ""
+  },
+  {
+    "address": "0x910119d96fcc68fc898a02b07b3a6316992af800",
+    "nameTag": ""
+  },
+  {
+    "address": "0xd277a99c0d08ded3bdb253024bff81e41496465c",
+    "nameTag": ""
+  },
+  {
+    "address": "0xdb4d88080ed478c729b07e23f8e0ccd1f57d3f9b",
+    "nameTag": ""
+  },
   {
     "address": "0x323e5692152cdf04d84ea8aed57ec8a8caf43e92",
     "nameTag": "Axiom Finance"

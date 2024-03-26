@@ -1,5 +1,8 @@
 [
-  { "address": "0x7f0a3c8127c06429ddf21482a63788d200f19d65", "nameTag": "" },
+  {
+    "address": "0x7f0a3c8127c06429ddf21482a63788d200f19d65",
+    "nameTag": ""
+  },
   {
     "address": "0x464c71f6c2f760dda6093dcb91c24c39e5d6e18c",
     "nameTag": "Aave: Aave Collector V2"

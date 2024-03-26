@@ -1,5 +1,8 @@
 [
-  { "address": "0x9a534628b4062e123ce7ee2222ec20b86e16ca8f", "nameTag": "" },
+  {
+    "address": "0x9a534628b4062e123ce7ee2222ec20b86e16ca8f",
+    "nameTag": ""
+  },
   {
     "address": "0x4e5ccc337da5f0ec75ef9089303c51fab0967752",
     "nameTag": "MekaVerse: Deployer"

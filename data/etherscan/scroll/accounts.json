@@ -1,5 +1,8 @@
 [
-  { "address": "0xbda143d49da40c2cda27c40edfbbe8a0d4ae0cbc", "nameTag": "" },
+  {
+    "address": "0xbda143d49da40c2cda27c40edfbbe8a0d4ae0cbc",
+    "nameTag": ""
+  },
   {
     "address": "0xcf2898225ed05be911d3709d9417e86e0b4cfc8f",
     "nameTag": "Scroll: Batch Committer"

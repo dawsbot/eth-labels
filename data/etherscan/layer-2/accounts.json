@@ -1,6 +1,12 @@
 [
-  { "address": "0x58772d1a8415cc377ed678ea86aaa2a0c8d05125", "nameTag": "" },
-  { "address": "0xb8563ad5af1f79dd04937be8b572318c8e6f43ac", "nameTag": "" },
+  {
+    "address": "0x58772d1a8415cc377ed678ea86aaa2a0c8d05125",
+    "nameTag": ""
+  },
+  {
+    "address": "0xb8563ad5af1f79dd04937be8b572318c8e6f43ac",
+    "nameTag": ""
+  },
   {
     "address": "0x96e471b5945373de238963b4e032d3574be4d195",
     "nameTag": "0xHabitat: Rollup Bridge"
