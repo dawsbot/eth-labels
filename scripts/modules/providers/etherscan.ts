@@ -1,5 +1,5 @@
 import PullComponent from "../pull-class";
-import { parseError } from "../error/error-parse";
+// import { parseError } from "../error/error-parse";
 import path from "path";
 import fs from "fs";
 import { z } from "zod";
@@ -15,6 +15,7 @@ import {
 
 // dirname does not exist in esm, so we need to polyfill
 import { fileURLToPath } from "url";
+import { Browser, Page } from "playwright";
 
 const __filename = fileURLToPath(import.meta.url);
 const __dirname = path.dirname(__filename);
@@ -26,7 +27,7 @@ const bar1: SingleBar = new cliProgress.SingleBar(
 class etherscan extends PullComponent {
   name = "etherscan";
   baseUrl = "https://etherscan.io";
-  constructor(browser: any, page: any, isDebug: boolean) {
+  constructor(browser: Browser, page: Page, isDebug: boolean) {
     super(browser, page, isDebug);
     this.baseUrl = z.string().url().startsWith("https://").parse(this.baseUrl);
     this.log("Etherscan created");

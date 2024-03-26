@@ -1,5 +1,6 @@
 import PullComponent from "../pull-class";
-import { parseError } from "../error/error-parse";
+import { Browser, Page } from "playwright";
+// import { parseError } from "../error/error-parse";
 import path from "path";
 import fs from "fs";
 import { z } from "zod";
@@ -26,7 +27,7 @@ const bar1: SingleBar = new cliProgress.SingleBar(
 class basescan extends PullComponent {
   name = "basescan";
   baseUrl = "https://basescan.org";
-  constructor(browser: any, page: any, isDebug: boolean) {
+  constructor(browser: Browser, page: Page, isDebug: boolean) {
     super(browser, page, isDebug);
     this.baseUrl = z.string().url().startsWith("https://").parse(this.baseUrl);
     this.log("Basescan created");
