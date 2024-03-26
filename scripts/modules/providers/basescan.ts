@@ -1,17 +1,18 @@
+import type { Browser, Page } from "playwright";
 import PullComponent from "../pull-class";
-import { Browser, Page } from "playwright";
 // import { parseError } from "../error/error-parse";
-import path from "path";
-import fs from "fs";
-import { z } from "zod";
-import cliProgress, { SingleBar } from "cli-progress";
 import * as cheerio from "cheerio";
-import {
+import type { SingleBar } from "cli-progress";
+import cliProgress from "cli-progress";
+import fs from "fs";
+import path from "path";
+import { z } from "zod";
+import type {
   AccountRow,
+  AccountRows,
   AllLabels,
   TokenRow,
   TokenRows,
-  AccountRows,
 } from "../types";
 
 // dirname does not exist in esm, so we need to polyfill
@@ -24,7 +25,7 @@ const bar1: SingleBar = new cliProgress.SingleBar(
   cliProgress.Presets.shades_classic,
 );
 
-class basescan extends PullComponent {
+class Basescan extends PullComponent {
   name = "basescan";
   baseUrl = "https://basescan.org";
   constructor(browser: Browser, page: Page, isDebug: boolean) {
@@ -310,4 +311,4 @@ class basescan extends PullComponent {
     return sortedAddresses;
   }
 }
-export default basescan;
+export default Basescan;

@@ -1,7 +1,9 @@
-import { Browser, Page, firefox } from "playwright";
-import { parseError } from "./error-parse";
 import "dotenv/config";
+import type { Browser, Page } from "playwright";
+import { firefox } from "playwright";
 import { AnyscanPuller } from "./AnyscanPuller";
+import { HtmlParser } from "./HtmlParser/HtmlParser";
+import { parseError } from "./error-parse";
 
 async function openBrowser(): Promise<{ browser: Browser; page: Page }> {
   const browser = await firefox.launch({ headless: false });
@@ -19,7 +21,7 @@ function closeBrowser(browser: Browser) {
 void (async () => {
   try {
     const { browser, page } = await openBrowser();
-    const etherscanPuller = new AnyscanPuller("etherscan");
+    const etherscanPuller = new AnyscanPuller("etherscan", new HtmlParser());
     await etherscanPuller.pullAndWriteAllAddresses(page);
     await closeBrowser(browser);
   } catch (error) {

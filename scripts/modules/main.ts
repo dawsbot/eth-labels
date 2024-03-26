@@ -1,12 +1,13 @@
-import { Browser, Page, firefox } from "playwright";
-import { parseError } from "./error/error-parse";
 import "dotenv/config";
-import PullComponent from "./pull-class";
+import type { Browser, Page } from "playwright";
+import { firefox } from "playwright";
+import { parseError } from "./error/error-parse";
+import type PullComponent from "./pull-class";
 
 // scraping modules
-import etherscan from "./providers/etherscan";
-import basescan from "./providers/basescan";
 import { exec } from "child_process";
+import Basescan from "./providers/basescan";
+import Etherscan from "./providers/etherscan";
 
 class Main {
   private browser: Browser | null;
@@ -14,9 +15,9 @@ class Main {
   private isDebug: boolean;
   private testOne: boolean;
   private testProvider: string;
-  private providers: PullComponent[] = []; // Add more providers here as we develop
+  private providers: Array<PullComponent> = []; // Add more providers here as we develop
 
-  constructor(args: string[]) {
+  constructor(args: Array<string>) {
     this.browser = null;
     this.page = null;
     this.isDebug =
@@ -37,7 +38,7 @@ class Main {
     await this.closeBrowser();
   }
 
-  private log(...args: string[]): void {
+  private log(...args: Array<string>): void {
     if (this.isDebug) {
       console.log(...args);
     }
@@ -51,8 +52,8 @@ class Main {
 
     // ################# ADD NEW PROVIDERS HERE #################
     this.log("\n------ Adding providers ------");
-    this.providers.push(new etherscan(this.browser, this.page, this.isDebug));
-    this.providers.push(new basescan(this.browser, this.page, this.isDebug));
+    this.providers.push(new Etherscan(this.browser, this.page, this.isDebug));
+    this.providers.push(new Basescan(this.browser, this.page, this.isDebug));
     this.log("------ Providers added -------");
     // ##########################################################
 

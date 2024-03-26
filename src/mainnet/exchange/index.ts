@@ -1,5 +1,5 @@
-import exchangeAll from "./all.json";
 import exchangeAddresses from "./addresses.json";
+import exchangeAll from "./all.json";
 import { isExchangeAddress } from "./is-exchange-address";
 
 interface AllData {
@@ -7,7 +7,7 @@ interface AllData {
   nameTag: string;
 }
 export const exchange = {
-  all: exchangeAll as AllData[],
+  all: exchangeAll as Array<AllData>,
   addresses: exchangeAddresses,
   isExchangeAddress,
 };

@@ -1,21 +1,22 @@
 import PullComponent from "../pull-class";
 // import { parseError } from "../error/error-parse";
-import path from "path";
-import fs from "fs";
-import { z } from "zod";
-import cliProgress, { SingleBar } from "cli-progress";
 import * as cheerio from "cheerio";
-import {
+import type { SingleBar } from "cli-progress";
+import cliProgress from "cli-progress";
+import fs from "fs";
+import path from "path";
+import { z } from "zod";
+import type {
   AccountRow,
+  AccountRows,
   AllLabels,
   TokenRow,
   TokenRows,
-  AccountRows,
 } from "../types";
 
 // dirname does not exist in esm, so we need to polyfill
+import type { Browser, Page } from "playwright";
 import { fileURLToPath } from "url";
-import { Browser, Page } from "playwright";
 
 const __filename = fileURLToPath(import.meta.url);
 const __dirname = path.dirname(__filename);
@@ -24,7 +25,7 @@ const bar1: SingleBar = new cliProgress.SingleBar(
   cliProgress.Presets.shades_classic,
 );
 
-class etherscan extends PullComponent {
+class Etherscan extends PullComponent {
   name = "etherscan";
   baseUrl = "https://etherscan.io";
   constructor(browser: Browser, page: Page, isDebug: boolean) {
@@ -310,4 +311,4 @@ class etherscan extends PullComponent {
     return sortedAddresses;
   }
 }
-export default etherscan;
+export default Etherscan;

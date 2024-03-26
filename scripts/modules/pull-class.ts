@@ -1,4 +1,4 @@
-import { Browser, Page } from "playwright";
+import type { Browser, Page } from "playwright";
 import { parseError } from "./error/error-parse";
 
 abstract class PullComponent {
@@ -17,7 +17,7 @@ abstract class PullComponent {
 
   abstract pull(): Promise<void>;
 
-  protected log(...args: string[]): void {
+  protected log(...args: Array<string>): void {
     if (this.isDebug) {
       console.log(...args);
     }

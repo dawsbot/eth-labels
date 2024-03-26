@@ -1,5 +1,5 @@
-import tokenContractAll from "./all.json";
 import tokenContractAddresses from "./addresses.json";
+import tokenContractAll from "./all.json";
 import { isTokenContractAddress } from "./is-token-contract-address";
 
 interface AllData {
@@ -7,7 +7,7 @@ interface AllData {
   nameTag: string;
 }
 export const tokenContract = {
-  all: tokenContractAll as AllData[],
+  all: tokenContractAll as Array<AllData>,
   addresses: tokenContractAddresses,
   isTokenContractAddress,
 };
