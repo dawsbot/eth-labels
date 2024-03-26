@@ -1,5 +1,5 @@
-import exchangeAll from "./all.json";
 import exchangeAddresses from "./addresses.json";
+import exchangeAll from "./all.json";
 import { isExchangeAddress } from "./is-exchange-address";
 
 interface AllData {

@@ -1,5 +1,5 @@
-import tokenContractAll from "./all.json";
 import tokenContractAddresses from "./addresses.json";
+import tokenContractAll from "./all.json";
 import { isTokenContractAddress } from "./is-token-contract-address";
 
 interface AllData {

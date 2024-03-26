@@ -1,7 +1,7 @@
 module.exports = {
   ignorePatterns: ["lib/**", "**/*.js"],
   parser: "@typescript-eslint/parser",
-  plugins: ["@typescript-eslint"],
+  plugins: ["@typescript-eslint", "tsdoc"],
   extends: [
     "eslint:recommended",
     "plugin:@typescript-eslint/recommended-type-checked",
@@ -14,6 +14,7 @@ module.exports = {
     node: true,
   },
   rules: {
+    "@typescript-eslint/consistent-type-imports": "error",
     "@typescript-eslint/naming-convention": [
       "error",
       {
@@ -40,5 +41,6 @@ module.exports = {
     ],
     "@typescript-eslint/array-type": ["error", { default: "generic" }],
     "new-cap": "error",
+    "tsdoc/syntax": "error",
   },
 };
