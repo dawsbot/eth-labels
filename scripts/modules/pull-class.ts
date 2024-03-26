@@ -38,9 +38,11 @@ abstract class PullComponent {
   ): Promise<string> {
     await this.page.goto(url);
     try {
-      await this.page.waitForSelector(waitForSelector, { timeout: 15_000 });
+      await this.page.waitForSelector(waitForSelector, { timeout: 10_000 });
     } catch (error: any) {
-      parseError(error);
+      if (this.isDebug) {
+        parseError(error);
+      }
     }
     // Get the HTML content of the entire page
     const pageContent = await this.page.content();

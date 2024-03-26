@@ -3,7 +3,10 @@
     "address": "0x25eaff5b179f209cf186b1cdcbfa463a69df4c45",
     "nameTag": "Blockfolio"
   },
-  { "address": "0x2faf487a4414fe77e2327f0bf4ae2a264a776ad2", "nameTag": "FTX" },
+  {
+    "address": "0x2faf487a4414fe77e2327f0bf4ae2a264a776ad2",
+    "nameTag": "FTX"
+  },
   {
     "address": "0xc098b2a3aa256d2140208c3de6543aaef5cd3a94",
     "nameTag": "FTX 2"

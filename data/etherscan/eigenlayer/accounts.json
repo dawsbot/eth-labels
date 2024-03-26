@@ -1,5 +1,8 @@
 [
-  { "address": "0x0fe4f44bee93503346a3ac9ee5a26b130a5796d6", "nameTag": "" },
+  {
+    "address": "0x0fe4f44bee93503346a3ac9ee5a26b130a5796d6",
+    "nameTag": ""
+  },
   {
     "address": "0xfea47018d632a77ba579846c840d5706705dc598",
     "nameTag": "EigenLayer: Community Multisig"

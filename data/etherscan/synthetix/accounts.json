@@ -1,7 +1,16 @@
 [
-  { "address": "0x10a5f7d9d65bcc2734763444d4940a31b109275f", "nameTag": "" },
-  { "address": "0x80d65bb7b9436a86c1928f93d6e7cc186987ac54", "nameTag": "" },
-  { "address": "0xdc883b9d9ee16f74be08826e68df4c9d9d26e8bd", "nameTag": "" },
+  {
+    "address": "0x10a5f7d9d65bcc2734763444d4940a31b109275f",
+    "nameTag": ""
+  },
+  {
+    "address": "0x80d65bb7b9436a86c1928f93d6e7cc186987ac54",
+    "nameTag": ""
+  },
+  {
+    "address": "0xdc883b9d9ee16f74be08826e68df4c9d9d26e8bd",
+    "nameTag": ""
+  },
   {
     "address": "0x75a0c1597137aa36b40b6a515d997f9a6c6eefeb",
     "nameTag": "Fake_Phishing284301"

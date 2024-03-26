@@ -1,10 +1,28 @@
 [
-  { "address": "0x5b97680e165b4dbf5c45f4ff4241e85f418c66c2", "nameTag": "" },
-  { "address": "0x8fe1a0b56c62f79a7bd8b45fe08b0e03c4af572d", "nameTag": "" },
-  { "address": "0xaf7eaf66b5f1fa23158784fb4c17dba90727afad", "nameTag": "" },
-  { "address": "0xb0325dbe7fa891436e83a094f9f12848c78e449b", "nameTag": "" },
-  { "address": "0xbe1f4dc51e89cf3f72cc4039bb0104eb96f85733", "nameTag": "" },
-  { "address": "0xcfae402f6ced5a476554235b5026c005c85c135a", "nameTag": "" },
+  {
+    "address": "0x5b97680e165b4dbf5c45f4ff4241e85f418c66c2",
+    "nameTag": ""
+  },
+  {
+    "address": "0x8fe1a0b56c62f79a7bd8b45fe08b0e03c4af572d",
+    "nameTag": ""
+  },
+  {
+    "address": "0xaf7eaf66b5f1fa23158784fb4c17dba90727afad",
+    "nameTag": ""
+  },
+  {
+    "address": "0xb0325dbe7fa891436e83a094f9f12848c78e449b",
+    "nameTag": ""
+  },
+  {
+    "address": "0xbe1f4dc51e89cf3f72cc4039bb0104eb96f85733",
+    "nameTag": ""
+  },
+  {
+    "address": "0xcfae402f6ced5a476554235b5026c005c85c135a",
+    "nameTag": ""
+  },
   {
     "address": "0x5d8908afee1df9f7f0830105f8be828f97ce9e68",
     "nameTag": "Argent"

@@ -1,5 +1,8 @@
 [
-  { "address": "0x9091dda480b232133a7d2e4cb23336b4f0293196", "nameTag": "" },
+  {
+    "address": "0x9091dda480b232133a7d2e4cb23336b4f0293196",
+    "nameTag": ""
+  },
   {
     "address": "0xc832c1cb2fec8cb783737dadfbc9b5695ba1111d",
     "nameTag": "Mirror: Optimism"

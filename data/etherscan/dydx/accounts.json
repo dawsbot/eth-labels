@@ -299,5 +299,8 @@
     "address": "0xa26d16a21805b14b2977555ffdea34e5e6fc43ba",
     "nameTag": "dYdX: ZeroEx V2 Exchange Wrapper"
   },
-  { "address": "0x059550a1ca3c46a2adb803e9e3ea4585a34f004a", "nameTag": "Expo" }
+  {
+    "address": "0x059550a1ca3c46a2adb803e9e3ea4585a34f004a",
+    "nameTag": "Expo"
+  }
 ]

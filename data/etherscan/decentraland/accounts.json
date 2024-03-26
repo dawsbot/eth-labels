@@ -1,6 +1,12 @@
 [
-  { "address": "0x4c290f486bae507719c562b6b524bdb71a2570c9", "nameTag": "" },
-  { "address": "0xecf073f91101ce5628669c487aee8f5822a101b1", "nameTag": "" },
+  {
+    "address": "0x4c290f486bae507719c562b6b524bdb71a2570c9",
+    "nameTag": ""
+  },
+  {
+    "address": "0xecf073f91101ce5628669c487aee8f5822a101b1",
+    "nameTag": ""
+  },
   {
     "address": "0x9a6ebe7e2a7722f8200d0ffb63a1f6406a0d7dce",
     "nameTag": "Decentraland: DAO Agent"

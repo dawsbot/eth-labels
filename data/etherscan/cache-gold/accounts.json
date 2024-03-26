@@ -1,5 +1,8 @@
 [
-  { "address": "0x3ab9c31148789570f51180a3ef7107e16c4b234c", "nameTag": "" },
+  {
+    "address": "0x3ab9c31148789570f51180a3ef7107e16c4b234c",
+    "nameTag": ""
+  },
   {
     "address": "0xf5238462e7235c7b62811567e63dd17d12c2eaa0",
     "nameTag": "CACHE Gold: CGT Token"

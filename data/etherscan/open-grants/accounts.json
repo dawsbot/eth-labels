@@ -1,6 +1,12 @@
 [
-  { "address": "0x05067ca799773955624b6848bfe052e083c0c179", "nameTag": "" },
-  { "address": "0xb4fa08c48b180fc944efbb3dba6d501338a74ea1", "nameTag": "" },
+  {
+    "address": "0x05067ca799773955624b6848bfe052e083c0c179",
+    "nameTag": ""
+  },
+  {
+    "address": "0xb4fa08c48b180fc944efbb3dba6d501338a74ea1",
+    "nameTag": ""
+  },
   {
     "address": "0x53e7daa8e3aa23cd30c75b2f599c303bada17064",
     "nameTag": "Open Grants: ETH2 Development (Dec 2020)"

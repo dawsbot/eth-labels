@@ -1,5 +1,8 @@
 [
-  { "address": "0xc0c704bfc375b3fc657bc378b1cfee009194e2b3", "nameTag": "LCX" },
+  {
+    "address": "0xc0c704bfc375b3fc657bc378b1cfee009194e2b3",
+    "nameTag": "LCX"
+  },
   {
     "address": "0x4631018f63d5e31680fb53c11c9e1b11f1503e6f",
     "nameTag": "LCX 2"

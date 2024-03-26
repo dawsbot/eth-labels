@@ -1,10 +1,28 @@
 [
-  { "address": "0x04d73c87b20d372cb3240c72eefb9d79ba5e4959", "nameTag": "" },
-  { "address": "0x2d407ddb06311396fe14d4b49da5f0471447d45c", "nameTag": "" },
-  { "address": "0x61f46c65e403429266e8b569f23f70dd75d9bee7", "nameTag": "" },
-  { "address": "0x6ede7f19df5df6ef23bd5b9cedb651580bdf56ca", "nameTag": "" },
-  { "address": "0x8a0889d47f9aa0fac1cc718ba34e26b867437880", "nameTag": "" },
-  { "address": "0xc97511a1ddb162c8742d39ff320cfdcd13fbcf7e", "nameTag": "" },
+  {
+    "address": "0x04d73c87b20d372cb3240c72eefb9d79ba5e4959",
+    "nameTag": ""
+  },
+  {
+    "address": "0x2d407ddb06311396fe14d4b49da5f0471447d45c",
+    "nameTag": ""
+  },
+  {
+    "address": "0x61f46c65e403429266e8b569f23f70dd75d9bee7",
+    "nameTag": ""
+  },
+  {
+    "address": "0x6ede7f19df5df6ef23bd5b9cedb651580bdf56ca",
+    "nameTag": ""
+  },
+  {
+    "address": "0x8a0889d47f9aa0fac1cc718ba34e26b867437880",
+    "nameTag": ""
+  },
+  {
+    "address": "0xc97511a1ddb162c8742d39ff320cfdcd13fbcf7e",
+    "nameTag": ""
+  },
   {
     "address": "0x1cc481ce2bd2ec7bf67d1be64d4878b16078f309",
     "nameTag": "Fixed Forex: ibCHF Token"

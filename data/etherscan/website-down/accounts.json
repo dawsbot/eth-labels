@@ -1,6 +1,12 @@
 [
-  { "address": "0x0fbbfd1243552c8a66ab05c1f9530fb116e9fff4", "nameTag": "" },
-  { "address": "0x91268aba147d738fa8665b342ef519e0c4541c07", "nameTag": "" },
+  {
+    "address": "0x0fbbfd1243552c8a66ab05c1f9530fb116e9fff4",
+    "nameTag": ""
+  },
+  {
+    "address": "0x91268aba147d738fa8665b342ef519e0c4541c07",
+    "nameTag": ""
+  },
   {
     "address": "0x3df616ee25ba3fa146544ab595f106bff5ac4397",
     "nameTag": "12daily.club"

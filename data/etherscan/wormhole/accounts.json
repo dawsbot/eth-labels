@@ -1,5 +1,8 @@
 [
-  { "address": "0xe3adaa4fb7c92ab833ee08b3561d9c434aa2a3ee", "nameTag": "" },
+  {
+    "address": "0xe3adaa4fb7c92ab833ee08b3561d9c434aa2a3ee",
+    "nameTag": ""
+  },
   {
     "address": "0xb9f747162ab1e95d07361f9048bcdf6edda9eea7",
     "nameTag": "Wormhole: ATLAS Token"

@@ -1,5 +1,8 @@
 [
-  { "address": "0xe3a3de71b827cb73663a24cdb6243ba7f986cc3b", "nameTag": "" },
+  {
+    "address": "0xe3a3de71b827cb73663a24cdb6243ba7f986cc3b",
+    "nameTag": ""
+  },
   {
     "address": "0xffc97d72e13e01096502cb8eb52dee56f74dad7b",
     "nameTag": "Aave: aAAVE Token V2"

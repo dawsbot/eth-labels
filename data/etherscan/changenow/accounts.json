@@ -1,5 +1,8 @@
 [
-  { "address": "0x48c04ed5691981c42154c6167398f95e8f38a7ff", "nameTag": "" },
+  {
+    "address": "0x48c04ed5691981c42154c6167398f95e8f38a7ff",
+    "nameTag": ""
+  },
   {
     "address": "0x2c35df41a8abeac6438b709bbc1bee872a8210e3",
     "nameTag": "ChangeNOW: Deployer"

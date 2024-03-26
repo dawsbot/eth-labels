@@ -1,6 +1,12 @@
 [
-  { "address": "0x60009b78da046ac64ef789c29ca05b79cdf73c10", "nameTag": "" },
-  { "address": "0xb5848748157052ac0dfefc167b566c0b00739ce9", "nameTag": "" },
+  {
+    "address": "0x60009b78da046ac64ef789c29ca05b79cdf73c10",
+    "nameTag": ""
+  },
+  {
+    "address": "0xb5848748157052ac0dfefc167b566c0b00739ce9",
+    "nameTag": ""
+  },
   {
     "address": "0x05e793ce0c6027323ac150f6d45c2344d28b6019",
     "nameTag": "a16z"

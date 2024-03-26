@@ -1,6 +1,12 @@
 [
-  { "address": "0x3d7f0933ac403773d219cf0519de8082946dc10f", "nameTag": "" },
-  { "address": "0x5c08b51ddbe8ba76e07be79975906c39aef2893a", "nameTag": "" },
+  {
+    "address": "0x3d7f0933ac403773d219cf0519de8082946dc10f",
+    "nameTag": ""
+  },
+  {
+    "address": "0x5c08b51ddbe8ba76e07be79975906c39aef2893a",
+    "nameTag": ""
+  },
   {
     "address": "0xf99d58e463a2e07e5692127302c20a191861b4d6",
     "nameTag": "AnySwap: ANY Token"
