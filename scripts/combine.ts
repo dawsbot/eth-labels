@@ -7,7 +7,7 @@ function combineFiles(dataDir: string) {
   const files: ReadonlyArray<string> = fs.readDir(dataDir);
   let combine: Array<string> = [];
   files.forEach((file) => {
-    if (file.endsWith(".json") && file !== "combine.json") {
+    if (file.endsWith(".json") && file !== "combined.json") {
       const filePath: string = path.join(dataDir, file);
       const data: string = fs.readFile(filePath);
       const jsonData: ReadonlyArray<{ address: string }> = JSON.parse(
@@ -20,7 +20,7 @@ function combineFiles(dataDir: string) {
     }
   });
   fs.writeFile(
-    path.join(dataDir, "combine.json"),
+    path.join(dataDir, "combined.json"),
     JSON.stringify(combine, null, 2),
   );
 }
