@@ -1,0 +1,18 @@
+[
+  {
+    "address": "0xea2a41c02fa86a4901826615f9796e603c6a4491",
+    "nameTag": "Base: BRIDGETOBASE Token"
+  },
+  {
+    "address": "0x3885226c26c467b342220132ec9d0b311b2dd43c",
+    "nameTag": "Base: Deployer"
+  },
+  {
+    "address": "0x9652721d02b9db43f4311102820158abb4ecc95b",
+    "nameTag": "Base: Deployer 1"
+  },
+  {
+    "address": "0xd9aaec86b65d86f6a7b5b1b0c42ffa531710b6ca",
+    "nameTag": "Base: USDbC Token"
+  }
+]

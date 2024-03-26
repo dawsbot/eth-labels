@@ -10,7 +10,7 @@ import { parseError } from "./error-parse";
 // dirname does not exist in esm, so we need to polyfill
 import { fileURLToPath } from "url";
 import type { HtmlParser } from "./HtmlParser/HtmlParser";
-import { blockExplorers } from "./block-explorers";
+import { scanConfig } from "./block-explorers";
 const __filename = fileURLToPath(import.meta.url);
 const __dirname = path.dirname(__filename);
 
@@ -50,15 +50,12 @@ export class AnyscanPuller {
    * @example
    * const etherscanPuller = new AnyscanPuller(etherscan);
    */
-  constructor(
-    directoryName: keyof typeof blockExplorers,
-    htmlParser: HtmlParser,
-  ) {
-    const baseUrl = blockExplorers[directoryName];
+  constructor(directoryName: keyof typeof scanConfig) {
+    const baseUrl: string = scanConfig[directoryName].website;
     this.#baseUrl = z.string().url().startsWith("https://").parse(baseUrl);
     const filenameRegex = /^[a-z0-9_\-.]+$/;
     this.#directoryName = z.string().regex(filenameRegex).parse(directoryName);
-    this.#htmlParser = htmlParser;
+    this.#htmlParser = scanConfig[directoryName].htmlParser;
   }
 
   private fetchAllLabels = async (page: Page): Promise<AllLabels> => {
@@ -134,7 +131,7 @@ export class AnyscanPuller {
     const addressesHtml = await this.fetchPageHtml(
       url,
       page,
-      `a[aria-label="Copy Address"]`,
+      "tr > td > div > a",
     );
     const allAddresses =
       this.#htmlParser.selectAllTokenAddresses(addressesHtml);
@@ -170,8 +167,10 @@ export class AnyscanPuller {
       }
     } else {
       console.log(`no navpills for ${url}`);
-      allAddresses = this.#htmlParser.selectAllAccountAddresses(addressesHtml);
-      console.dir({ allAddresses });
+      allAddresses = this.#htmlParser.selectAllAccountAddresses(
+        addressesHtml,
+        "0",
+      );
     }
     return allAddresses;
   };
