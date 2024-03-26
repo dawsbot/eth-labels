@@ -8,15 +8,11 @@ export abstract class HtmlParser {
    * @example
    * ```ts
    *  const allAnchors = htmlParser.selectAllLabels(
-   *    labelCloudHtml,
-   *    'https://etherscan.io',
+   *    labelCloudHtml
    * );
    * ```
    */
-  public selectAllLabels = (
-    html: string,
-    baseUrl: string,
-  ): ReadonlyArray<string> => {
+  public selectAllLabels = (html: string): ReadonlyArray<string> => {
     const $ = cheerio.load(html);
     const parent = $("div > div > div.row.mb-3");
 
@@ -34,7 +30,7 @@ export abstract class HtmlParser {
       const recordCount = Number(regex.exec(size)?.[1]);
       // if statement needed because otherwise we freeze forever on URL's like "beacon-depositor"
       if (recordCount < maxRecordsLength) {
-        const href = `${baseUrl}${pathname}?size=${maxRecordsLength}`;
+        const href = `${pathname}?size=${maxRecordsLength}`;
         anchors = [...anchors, href];
       }
     });

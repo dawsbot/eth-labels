@@ -1,0 +1,2634 @@
+[
+  {
+    "address": "0x95a6a3f44a70172e7d50a9e28c85dfd712756b8c",
+    "nameTag": "Synthetix: Address Resolver"
+  },
+  {
+    "address": "0x136b1ec699c62b0606854056f02dc7bb80482d63",
+    "nameTag": "Synthetix: Bridge To Base"
+  },
+  {
+    "address": "0x803fd1d99c3a6cbcbabab79c44e108dc2fb67102",
+    "nameTag": "Synthetix: Circuit Breaker"
+  },
+  {
+    "address": "0x308ad16ef90fe7cacb85b784a603cb6e71b1a41a",
+    "nameTag": "Synthetix: Collateral ETH"
+  },
+  {
+    "address": "0x15e7d4972a3e477878a5867a47617122be2d1ff0",
+    "nameTag": "Synthetix: Collateral Manager"
+  },
+  {
+    "address": "0xba10526cd8742acc73aedef5f7dbb2477bf86922",
+    "nameTag": "Synthetix: Collateral Manager State"
+  },
+  {
+    "address": "0xeb4b5abce7310855319440d936cd3add77dfa193",
+    "nameTag": "Synthetix: Collateral Short"
+  },
+  {
+    "address": "0xd21969a86ce5c41aab2d492a0f802aa3e015cd9a",
+    "nameTag": "Synthetix: Collateral Util"
+  },
+  {
+    "address": "0x54581a23f62d147ac76d454f0b3ef77f9d766058",
+    "nameTag": "Synthetix: Dapp Maintenance"
+  },
+  {
+    "address": "0x17628a557d1fc88d1c35989dcbac3f3e275e2d2b",
+    "nameTag": "Synthetix: Debt Cache"
+  },
+  {
+    "address": "0xa6bc30d854c2647574921c4af442008db7d32ad5",
+    "nameTag": "Synthetix: Debt Migrator On Optimism"
+  },
+  {
+    "address": "0x2a23bc0ea97a89abd91214e8e4d20f02fe14743f",
+    "nameTag": "Synthetix: Delegate Approvals"
+  },
+  {
+    "address": "0x02f7fb66b55e6ca476d126d96f14c5732eeb4363",
+    "nameTag": "Synthetix: Delegate Approvals Eternal Storage"
+  },
+  {
+    "address": "0x186c50515e6ee95cec381d7f6fe72c67085dbcb4",
+    "nameTag": "Synthetix: Direct Integration Manager"
+  },
+  {
+    "address": "0xcdb7d0a946223255d39a6e29b54f08f3291cc118",
+    "nameTag": "Synthetix: Escrow Checker"
+  },
+  {
+    "address": "0x76d2de36936005a0182a1bb61da501a8a044d477",
+    "nameTag": "Synthetix: Eternal Storage Liquidations"
+  },
+  {
+    "address": "0xc8e91c926e04be1cb94e51c5379d14774d51ae6c",
+    "nameTag": "Synthetix: Ether Collateral"
+  },
+  {
+    "address": "0xc0c66470e766ae2026e6695966c56c90741811aa",
+    "nameTag": "Synthetix: Ether Collateral sUSD"
+  },
+  {
+    "address": "0xc3ee42cabd773a608fa9ec951982c94bd6f33d59",
+    "nameTag": "Synthetix: Ether Wrapper"
+  },
+  {
+    "address": "0x7322e8f6cb6c6a7b4e6620c486777fcb9ea052a4",
+    "nameTag": "Synthetix: Exchange Circuit Breaker"
+  },
+  {
+    "address": "0x913bd76f7e1572cc8278cef2d6b06e2140ca9ce2",
+    "nameTag": "Synthetix: Exchange Rates"
+  },
+  {
+    "address": "0xffa3635f5844ea0f2fccb03cb936828f508f558b",
+    "nameTag": "Synthetix: Exchange Settlement Lib"
+  },
+  {
+    "address": "0x7ef87c14f50cffe2e73d2c87916c3128c56593a8",
+    "nameTag": "Synthetix: Exchange State"
+  },
+  {
+    "address": "0x24b4b6703a2ee7ba75a4fc859b606f0bbaeef4ea",
+    "nameTag": "Synthetix: Exchanger"
+  },
+  {
+    "address": "0xf9fe3607e6d19d8dc690dd976061a91d4a0db30b",
+    "nameTag": "Synthetix: Fee Pool"
+  },
+  {
+    "address": "0x41140bf6498a36f2e44efd49f21dae3bbb7367c8",
+    "nameTag": "Synthetix: Fee Pool Eternal Storage"
+  },
+  {
+    "address": "0x6e0d26cffc3a63d763f1546f749bf62ebc7d72d8",
+    "nameTag": "Synthetix: Fee Pool State"
+  },
+  {
+    "address": "0x47649022380d182da8010ae5d257fea4227b21ff",
+    "nameTag": "Synthetix: Flexible Storage"
+  },
+  {
+    "address": "0xc704c9aa89d1ca60f67b3075d05fbb92b3b00b3b",
+    "nameTag": "Synthetix: Future Market Manager"
+  },
+  {
+    "address": "0x001b7876f567f0b3a639332ed1e363839c6d85e2",
+    "nameTag": "Synthetix: Futures Market AAVE"
+  },
+  {
+    "address": "0xfe00395ec846240dc693e92ab2dd720f94765aa3",
+    "nameTag": "Synthetix: Futures Market APE"
+  },
+  {
+    "address": "0x4ff54624d5fb61c34c634c3314ed3bfe4dbb665a",
+    "nameTag": "Synthetix: Futures Market AVAX"
+  },
+  {
+    "address": "0x4aa0dabd22bc0894975324bec293443c8538bd08",
+    "nameTag": "Synthetix: Futures Market BNB"
+  },
+  {
+    "address": "0xee8804d8ad10b0c3ad1bd57ac3737242ad24bb95",
+    "nameTag": "Synthetix: Futures Market BTC"
+  },
+  {
+    "address": "0xc51aedbec3acd26650a7e85b6909e8aec4d0f19e",
+    "nameTag": "Synthetix: Futures Market Data"
+  },
+  {
+    "address": "0xd325b17d5c9c3f2b6853a760afcf81945b0184d3",
+    "nameTag": "Synthetix: Futures Market Debt Ratio"
+  },
+  {
+    "address": "0x9f231dbe53d460f359b2b8cc47574493caa5b7bf",
+    "nameTag": "Synthetix: Futures Market DOGE"
+  },
+  {
+    "address": "0x10305c1854d6db8a1060df60bdf8a8b2981249cf",
+    "nameTag": "Synthetix: Futures Market DYDX"
+  },
+  {
+    "address": "0xf86048dff23cf130107dfb4e6386f574231a5c65",
+    "nameTag": "Synthetix: Futures Market ETH"
+  },
+  {
+    "address": "0xad44873632840144ffc97b2d1de716f6e2cf0366",
+    "nameTag": "Synthetix: Futures Market EUR"
+  },
+  {
+    "address": "0x1228c7d8bbc5bc53db181bd7b1fce765aa83bf8a",
+    "nameTag": "Synthetix: Futures Market LINK"
+  },
+  {
+    "address": "0xd30bdfd7e7a65fe109d5de1d4e95f3b800fb7463",
+    "nameTag": "Synthetix: Futures Market Manager"
+  },
+  {
+    "address": "0xbcb2d435045e16b059b2130b28be70b5ca47bfe5",
+    "nameTag": "Synthetix: Futures Market MATIC"
+  },
+  {
+    "address": "0x9f1c2f0071bc3b31447aeda9fa3a68d651eb4632",
+    "nameTag": "Synthetix: Futures Market OP"
+  },
+  {
+    "address": "0xae55f163337a2a46733aa66da9f35299f9a46e9e",
+    "nameTag": "Synthetix: Futures Market Settings"
+  },
+  {
+    "address": "0xcf853f7f8f78b2b801095b66f8ba9c5f04db1640",
+    "nameTag": "Synthetix: Futures Market SOL"
+  },
+  {
+    "address": "0x5af0072617f7f2aeb0e314e2fad1de0231ba97cd",
+    "nameTag": "Synthetix: Futures Market UNI"
+  },
+  {
+    "address": "0xb147c69bee211f57290a6cde9d1babfd0dcf3ea3",
+    "nameTag": "Synthetix: Futures Market XAG"
+  },
+  {
+    "address": "0x4434f56ddbde28fab08c4ae71970a06b300f8881",
+    "nameTag": "Synthetix: Futures Market XAU"
+  },
+  {
+    "address": "0x3ed04ceff4c91872f19b1da35740c0be9ca21558",
+    "nameTag": "Synthetix: Futures Market XMR"
+  },
+  {
+    "address": "0xeb66fc1bfdf3284cb0ca1de57149dcf3cefa5453",
+    "nameTag": "Synthetix: Issuer"
+  },
+  {
+    "address": "0x14e6f8e6da00a32c069b11b64e48ea1fef2361d4",
+    "nameTag": "Synthetix: Liquidations"
+  },
+  {
+    "address": "0xb589af3f2e3377a9a57da74be1b6598926479505",
+    "nameTag": "Synthetix: Liquidator"
+  },
+  {
+    "address": "0xf4eebdd0704021ef2a6bbe993fdf93030cd784b4",
+    "nameTag": "Synthetix: Liquidator Rewards"
+  },
+  {
+    "address": "0x0b3a73ee0740b3130e40b2a6b5aaf59e7e3ef74c",
+    "nameTag": "Synthetix: Math"
+  },
+  {
+    "address": "0x8518f879a2b8138405e947a48326f55ff9d5f3ad",
+    "nameTag": "Synthetix: Mintable Synthetix"
+  },
+  {
+    "address": "0xebce9728e2fddc26c9f4b00df5180bdc5e184953",
+    "nameTag": "Synthetix: Old Collateral Short"
+  },
+  {
+    "address": "0x1b9d6cd65ddc981410cb93af91b097667e0bc7ee",
+    "nameTag": "Synthetix: Old Exchange Rates"
+  },
+  {
+    "address": "0x059681217e9186e007864aa16893b65a0589718b",
+    "nameTag": "Synthetix: Old Exchanger"
+  },
+  {
+    "address": "0xd3739a5f06747e148e716dcb7147b9ba15b70fcc",
+    "nameTag": "Synthetix: Old Fee Pool"
+  },
+  {
+    "address": "0xadad43be81e2206f6d1af4299ca2a029e16af7ab",
+    "nameTag": "Synthetix: Old Issuer"
+  },
+  {
+    "address": "0x374f2d3353bd664a2b25508df4a3b58939999e1b",
+    "nameTag": "Synthetix: Old Perps V2 Delayed Execution DOGEPERP"
+  },
+  {
+    "address": "0x5374761526175b59f1e583246e20639909e189ce",
+    "nameTag": "Synthetix: Old Perps V2 Proxy AXSPERP"
+  },
+  {
+    "address": "0xfbbbfa96af2980ae4014d5d5a2ef14bd79b2a299",
+    "nameTag": "Synthetix: Old Perps V2 Proxy XTZPERP"
+  },
+  {
+    "address": "0x2ea06e73083f1b3314fa090eae4a5f70eb058f2e",
+    "nameTag": "Synthetix: Old Perps V2 Proxy YFIPERP"
+  },
+  {
+    "address": "0x6110df298b411a46d6edce72f5caca9ad826c1de",
+    "nameTag": "Synthetix: Old Perps V2 Proxy ZECPERP"
+  },
+  {
+    "address": "0x28224ef515d01709916f5ac4d8a72664a7b56e98",
+    "nameTag": "Synthetix: Old System Settings"
+  },
+  {
+    "address": "0x478d479bac034f89fa28d8d2ab430ec973a3a0ac",
+    "nameTag": "Synthetix: Old System Settings Lib"
+  },
+  {
+    "address": "0xa408d8e01c8e084b67559226c5b55d6f0b7074e2",
+    "nameTag": "Synthetix: One Net Aggregator Debt Ratio"
+  },
+  {
+    "address": "0xe152a2dbce62e6c0bd387ffd1bb8086f44c5fd04",
+    "nameTag": "Synthetix: One Net Aggregator Issued Synths"
+  },
+  {
+    "address": "0x6330d5f08f51057f36f46d6751ecdc0c65ef7e9e",
+    "nameTag": "Synthetix: OP Reward Escrow V2"
+  },
+  {
+    "address": "0x0aaf300e148378489a8a471dd3e9e53e30cb42e3",
+    "nameTag": "Synthetix: Oracle Manager"
+  },
+  {
+    "address": "0x6d4a64c57612841c2c6745db2a4e4db34f002d20",
+    "nameTag": "Synthetix: Owner Relay On Optimism"
+  },
+  {
+    "address": "0xdc7a51f5c32909acd5d03d11944c4480bee1cd47",
+    "nameTag": "Synthetix: Perps V2 Delayed Execution 1INCH PERP"
+  },
+  {
+    "address": "0xf73fa296df4c46b7182b14ac7862f6e08da84150",
+    "nameTag": "Synthetix: Perps V2 Delayed Execution AAVE PERP"
+  },
+  {
+    "address": "0x18970122d688b97023edc44da27a51230dc6799c",
+    "nameTag": "Synthetix: Perps V2 Delayed Execution ADA PERP"
+  },
+  {
+    "address": "0x799654ecaf87e769c56f722c82fbc7bbcc4f621c",
+    "nameTag": "Synthetix: Perps V2 Delayed Execution AL GOPERP"
+  },
+  {
+    "address": "0xddeb6cb0d6050c9221d037aa099a2d11c443548a",
+    "nameTag": "Synthetix: Perps V2 Delayed Execution APEPERP"
+  },
+  {
+    "address": "0xfd9e252cd1fa456aad9fc592608e86fabcf40f77",
+    "nameTag": "Synthetix: Perps V2 Delayed Execution APTPERP"
+  },
+  {
+    "address": "0x31ec26de77aa4c859b7a15a37d2fc9eb61289c14",
+    "nameTag": "Synthetix: Perps V2 Delayed Execution ARBPERP"
+  },
+  {
+    "address": "0x76fb9f147d40480b6e030c09cd53fdf912c6178f",
+    "nameTag": "Synthetix: Perps V2 Delayed Execution ATOMPERP"
+  },
+  {
+    "address": "0x0d8121e17b74e537286304c7804a5bc592a7964f",
+    "nameTag": "Synthetix: Perps V2 Delayed Execution AUDPERP"
+  },
+  {
+    "address": "0xc56a0198c08c3610980340660c39f6d6c7ea765a",
+    "nameTag": "Synthetix: Perps V2 Delayed Execution AVAX PERP"
+  },
+  {
+    "address": "0x2b8ce8a8abf039db01b2ad7f512b9157467eb264",
+    "nameTag": "Synthetix: Perps V2 Delayed Execution AXSPERP"
+  },
+  {
+    "address": "0x8d51bf0759e1a01c15f91940baaad08b6b45a637",
+    "nameTag": "Synthetix: Perps V2 Delayed Execution BALPERP"
+  },
+  {
+    "address": "0xa14849ad93999d8b184a1d61fba7b4ffbd24f96c",
+    "nameTag": "Synthetix: Perps V2 Delayed Execution BCHPERP"
+  },
+  {
+    "address": "0x2214cd24c13d7b36432c66e73984bc44d479cd51",
+    "nameTag": "Synthetix: Perps V2 Delayed Execution BLURPERP"
+  },
+  {
+    "address": "0x210ba565130f2af399fd8435a279b22894e8d096",
+    "nameTag": "Synthetix: Perps V2 Delayed Execution BNBPERP"
+  },
+  {
+    "address": "0x33c8daf48c691c54897070c3621fdecc249c7202",
+    "nameTag": "Synthetix: Perps V2 Delayed Execution BTCPERP"
+  },
+  {
+    "address": "0x5dca1c6c75f6410cb4020a4ab5657fef716fcfc3",
+    "nameTag": "Synthetix: Perps V2 Delayed Execution CELOPERP"
+  },
+  {
+    "address": "0x9f3be6be18e8d0613f87c86a0b1875b74f404a11",
+    "nameTag": "Synthetix: Perps V2 Delayed Execution COMPPERP"
+  },
+  {
+    "address": "0x53bd23eed35c00ef09d4ebd8f71005b0dcc97e1a",
+    "nameTag": "Synthetix: Perps V2 Delayed Execution CRVPERP"
+  },
+  {
+    "address": "0xe6ac817cfdd83073aec079cd9ebb9c35479b7665",
+    "nameTag": "Synthetix: Perps V2 Delayed Execution DOGEPERP"
+  },
+  {
+    "address": "0x5c4fd006f3dc9c6a2259b2fb82cfd500056978ec",
+    "nameTag": "Synthetix: Perps V2 Delayed Execution DOTPERP"
+  },
+  {
+    "address": "0xe7b44e0411307b637a1b3b75af8c37d752857ae1",
+    "nameTag": "Synthetix: Perps V2 Delayed Execution ENJPERP"
+  },
+  {
+    "address": "0x15f71cb39f39a3b30ef610a15ce1cbe766cb069c",
+    "nameTag": "Synthetix: Perps V2 Delayed Execution EOSPERP"
+  },
+  {
+    "address": "0x98d601e04527a0acbb603bad845d9b7b8840de1c",
+    "nameTag": "Synthetix: Perps V2 Delayed Execution ETCPERP"
+  },
+  {
+    "address": "0xb16a8b06318c78c274f3bbc5cc5c9191b0d0c1a3",
+    "nameTag": "Synthetix: Perps V2 Delayed Execution ETHBTCPERP"
+  },
+  {
+    "address": "0x2227af48ec971e3c786f3e06064cba455724d6ba",
+    "nameTag": "Synthetix: Perps V2 Delayed Execution ETHPERP"
+  },
+  {
+    "address": "0xeaacada91015c11d43bd788f09b2d54decfdc2e8",
+    "nameTag": "Synthetix: Perps V2 Delayed Execution EURPERP"
+  },
+  {
+    "address": "0x530f4a84e99ef78a5c2a4e64cd5d126b40c99242",
+    "nameTag": "Synthetix: Perps V2 Delayed Execution FILPERP"
+  },
+  {
+    "address": "0xf52df12dd62731a11180403212ee67cb5f4d6345",
+    "nameTag": "Synthetix: Perps V2 Delayed Execution FLOKIPERP"
+  },
+  {
+    "address": "0x19ba5013824a45ee0f9e4738c8618d40ba11234a",
+    "nameTag": "Synthetix: Perps V2 Delayed Execution FLOWPERP"
+  },
+  {
+    "address": "0x50197701bd09f8dbdd6716b1b9080574819a3776",
+    "nameTag": "Synthetix: Perps V2 Delayed Execution FTMPERP"
+  },
+  {
+    "address": "0xcce2c84c91e6c4de7e87704b3d5c4fba10626234",
+    "nameTag": "Synthetix: Perps V2 Delayed Execution FXSPERP"
+  },
+  {
+    "address": "0xd3d59d4b8b504ea6e49c5788fe1bc7505c6f61ea",
+    "nameTag": "Synthetix: Perps V2 Delayed Execution GBPPERP"
+  },
+  {
+    "address": "0x3382a15bd1956e908a1ef2d027f92b2bfc84558c",
+    "nameTag": "Synthetix: Perps V2 Delayed Execution GMXPERP"
+  },
+  {
+    "address": "0xe72f5c2b7c8e8697affe886497d22ad47d832085",
+    "nameTag": "Synthetix: Perps V2 Delayed Execution ICPERP"
+  },
+  {
+    "address": "0x53bad7c8ce47fa070e5bb25adea796409e0e8058",
+    "nameTag": "Synthetix: Perps V2 Delayed Execution INJPERP"
+  },
+  {
+    "address": "0xe1264b2b97be89755fbce7a280fd276c55f661d1",
+    "nameTag": "Synthetix: Perps V2 Delayed Execution KNCPERP"
+  },
+  {
+    "address": "0x8d08a8a066e9606f854a3c68fcc730e406319996",
+    "nameTag": "Synthetix: Perps V2 Delayed Execution LDOPERP"
+  },
+  {
+    "address": "0xd3f1bddc7f25eafdb939d6b4f62cb9d5b19d346f",
+    "nameTag": "Synthetix: Perps V2 Delayed Execution LINKPERP"
+  },
+  {
+    "address": "0x869d17fd46f76f0e439bec2992f2d45b40253f88",
+    "nameTag": "Synthetix: Perps V2 Delayed Execution LTCPERP"
+  },
+  {
+    "address": "0x8e1b638ef5e796504be87fb81943e613875ecabe",
+    "nameTag": "Synthetix: Perps V2 Delayed Execution MATICPERP"
+  },
+  {
+    "address": "0xfc6895ff4756985bca9df2aabb5f31651c591bef",
+    "nameTag": "Synthetix: Perps V2 Delayed Execution MAVPERP"
+  },
+  {
+    "address": "0xe0d1a14ebc3bc4460feeb67a45c8198063ccc7c7",
+    "nameTag": "Synthetix: Perps V2 Delayed Execution MKRPERP"
+  },
+  {
+    "address": "0x3403a3430e4a62577e70fb48e070268d84a8f910",
+    "nameTag": "Synthetix: Perps V2 Delayed Execution NEARPERP"
+  },
+  {
+    "address": "0xbe0f35e3d0ffe514969333b4d07a279d3d66a494",
+    "nameTag": "Synthetix: Perps V2 Delayed Execution ONEPERP"
+  },
+  {
+    "address": "0xbf1e06facb51b8a9223f266f303a88d3dfc46226",
+    "nameTag": "Synthetix: Perps V2 Delayed Execution OPPERP"
+  },
+  {
+    "address": "0xe9e46a7323d54af1550b931c8bd6f8615f079379",
+    "nameTag": "Synthetix: Perps V2 Delayed Execution PEPEPERP"
+  },
+  {
+    "address": "0x692c746f443031559e9816b50c99165fd452982d",
+    "nameTag": "Synthetix: Perps V2 Delayed Execution PERPPERP"
+  },
+  {
+    "address": "0x097b1ec678f135fa31c7d4c0d92b34940db06251",
+    "nameTag": "Synthetix: Perps V2 Delayed Execution RNDRPERP"
+  },
+  {
+    "address": "0xf0671cf8a1a0b3308e84852308f9624b9ec2e28f",
+    "nameTag": "Synthetix: Perps V2 Delayed Execution RPLPERP"
+  },
+  {
+    "address": "0xb4d55ae3a6b3b73633f622ef89e94e4bad05c08f",
+    "nameTag": "Synthetix: Perps V2 Delayed Execution RUNEPERP"
+  },
+  {
+    "address": "0xb2e9642f96a1b576ab0232ec35cb0d7d07d1172f",
+    "nameTag": "Synthetix: Perps V2 Delayed Execution SEIPERP"
+  },
+  {
+    "address": "0x62137897f2b09c588327d80cbbfb9c6018c352ef",
+    "nameTag": "Synthetix: Perps V2 Delayed Execution SHIBPERP"
+  },
+  {
+    "address": "0x9a90c6fa8828bacd5b9edd513f77ba7e4528c7e8",
+    "nameTag": "Synthetix: Perps V2 Delayed Execution SOLPERP"
+  },
+  {
+    "address": "0x4c0f7b167e7d280d97471f5a17f4eb214e15a440",
+    "nameTag": "Synthetix: Perps V2 Delayed Execution STETHETHPERP"
+  },
+  {
+    "address": "0x02e85b8dd638a5fabd9d67802a92721d2e18fc6d",
+    "nameTag": "Synthetix: Perps V2 Delayed Execution STETHPERP"
+  },
+  {
+    "address": "0xa2c0843c8cb9f29fa40fc0ffd2b4995a0f05c15c",
+    "nameTag": "Synthetix: Perps V2 Delayed Execution SUIPERP"
+  },
+  {
+    "address": "0xdb87f699ae4045c290033240f22c0cbe80d95724",
+    "nameTag": "Synthetix: Perps V2 Delayed Execution SUSHIPERP"
+  },
+  {
+    "address": "0xc20e63ab2f1303079a6cc31013534e3989cfc8dc",
+    "nameTag": "Synthetix: Perps V2 Delayed Execution TRXPERP"
+  },
+  {
+    "address": "0x581fa71eb5b5d704d0c268eed58e48f801338f7b",
+    "nameTag": "Synthetix: Perps V2 Delayed Execution UMAPERP"
+  },
+  {
+    "address": "0x418d195155058abc4a26d59c8a6ce83a7d52288a",
+    "nameTag": "Synthetix: Perps V2 Delayed Execution UNIPERP"
+  },
+  {
+    "address": "0x244c689bfa19f046124e75339887f9918317b919",
+    "nameTag": "Synthetix: Perps V2 Delayed Execution USDTPERP"
+  },
+  {
+    "address": "0x695fdda0e1546ca369df3cabe8ed33407cf62341",
+    "nameTag": "Synthetix: Perps V2 Delayed Execution WLDPERP"
+  },
+  {
+    "address": "0x546ee4a4299dc3d3b64d6a889759e04acef6b92d",
+    "nameTag": "Synthetix: Perps V2 Delayed Execution XAGPERP"
+  },
+  {
+    "address": "0x1a83bbccfab68a8bf901c298c5db5acb8a2c7b05",
+    "nameTag": "Synthetix: Perps V2 Delayed Execution XAUPERP"
+  },
+  {
+    "address": "0x2aef3f9e57e2695c32beac56d79bfe4efb55bf63",
+    "nameTag": "Synthetix: Perps V2 Delayed Execution XLMPERP"
+  },
+  {
+    "address": "0x926b1148dafe298ff7fdc2d01ae1bc3fa3b4fae4",
+    "nameTag": "Synthetix: Perps V2 Delayed Execution XMRPERP"
+  },
+  {
+    "address": "0x28bde5c67624b2ef7fa27c9c9b0678fe3009913e",
+    "nameTag": "Synthetix: Perps V2 Delayed Execution XRPPERP"
+  },
+  {
+    "address": "0x4fb59e8dafcd398b2ca7fe2af5a7405cd0d22278",
+    "nameTag": "Synthetix: Perps V2 Delayed Execution XTZPERP"
+  },
+  {
+    "address": "0x7af6be46f83d25902cfa49c9e16bec54893f25cb",
+    "nameTag": "Synthetix: Perps V2 Delayed Execution YFIPERP"
+  },
+  {
+    "address": "0x3f9917995e1a55060b984dbee9d7358d9eb7ac8c",
+    "nameTag": "Synthetix: Perps V2 Delayed Execution ZECPERP"
+  },
+  {
+    "address": "0x89698dc9ecd95337ad64fda7df773da5007926a8",
+    "nameTag": "Synthetix: Perps V2 Delayed Execution ZILPERP"
+  },
+  {
+    "address": "0x08bcea94194a1d63379123073cb254b77f7721a5",
+    "nameTag": "Synthetix: Perps V2 Delayed Execution ZRXPERP"
+  },
+  {
+    "address": "0x6d5403b5b195f0f26aaf5e2a7fd58ab1d0fb2f3e",
+    "nameTag": "Synthetix: Perps V2 Delayed Intent 1INCHPERP"
+  },
+  {
+    "address": "0xc4786c4484c06bd463f124ebef2175f67759ea1a",
+    "nameTag": "Synthetix: Perps V2 Delayed Intent AAVEPERP"
+  },
+  {
+    "address": "0x59798c3ec713213c274bd8827642daf2a798181e",
+    "nameTag": "Synthetix: Perps V2 Delayed Intent ADAPERP"
+  },
+  {
+    "address": "0x9baedd40fae33ce9022d39a9bd71f325e626a06e",
+    "nameTag": "Synthetix: Perps V2 Delayed Intent ALGOPERP"
+  },
+  {
+    "address": "0x3cf1be829c5ee73630482d2e92bf9461adf1b213",
+    "nameTag": "Synthetix: Perps V2 Delayed Intent APEPERP"
+  },
+  {
+    "address": "0xd681cf2419bb3f85732412164b6542843e9a64a5",
+    "nameTag": "Synthetix: Perps V2 Delayed Intent APTPERP"
+  },
+  {
+    "address": "0x99ae21feb485a89252b9bfb394e6eb8c736436bd",
+    "nameTag": "Synthetix: Perps V2 Delayed Intent ARBPERP"
+  },
+  {
+    "address": "0x2c5fc227af9100f8d6fc963549de3e3bada8c3a9",
+    "nameTag": "Synthetix: Perps V2 Delayed Intent ATOMPERP"
+  },
+  {
+    "address": "0x010a2f40b3b09fdbc60cb06f1b7f1a2a757d0ef2",
+    "nameTag": "Synthetix: Perps V2 Delayed Intent AUDPERP"
+  },
+  {
+    "address": "0x9d6db4d562d670a987b5d9e07db71bab33eb1428",
+    "nameTag": "Synthetix: Perps V2 Delayed Intent AVAXPERP"
+  },
+  {
+    "address": "0x6fbcabaa42ce1818f23a0b909dbd9bc7691fc1e6",
+    "nameTag": "Synthetix: Perps V2 Delayed Intent AXSPERP"
+  },
+  {
+    "address": "0xbc5b0a6dcadd4fc27665601401d6f03d97375b24",
+    "nameTag": "Synthetix: Perps V2 Delayed Intent BALPERP"
+  },
+  {
+    "address": "0x9f77af45f13738be8d3bb772a86310f4e452afd4",
+    "nameTag": "Synthetix: Perps V2 Delayed Intent BCHPERP"
+  },
+  {
+    "address": "0xff82e4012816cc01093565c6d2ee2af83f3cb3ae",
+    "nameTag": "Synthetix: Perps V2 Delayed Intent BLURPERP"
+  },
+  {
+    "address": "0x2ae5608ab3fb3863a713715f3f59216bcabc5150",
+    "nameTag": "Synthetix: Perps V2 Delayed Intent BNBPERP"
+  },
+  {
+    "address": "0x527b99e3d31f71d2414cc2dbabe0d527f9160926",
+    "nameTag": "Synthetix: Perps V2 Delayed Intent BTCPERP"
+  },
+  {
+    "address": "0x32a357ade8497ea57446b4bf5099fa9f0918592f",
+    "nameTag": "Synthetix: Perps V2 Delayed Intent CELOPERP"
+  },
+  {
+    "address": "0x6172289961007908442a0437891dcd966f368563",
+    "nameTag": "Synthetix: Perps V2 Delayed Intent COMPPERP"
+  },
+  {
+    "address": "0x9e3c1f1f5868701a4d8caa58d61df2f74aefe926",
+    "nameTag": "Synthetix: Perps V2 Delayed Intent CRVPERP"
+  },
+  {
+    "address": "0x128d0eb5e26cf95128aa9ac395f88dce705aedac",
+    "nameTag": "Synthetix: Perps V2 Delayed Intent DOGEPERP"
+  },
+  {
+    "address": "0x4d178b91a3b16a124d2a90d944db8c70a334fbda",
+    "nameTag": "Synthetix: Perps V2 Delayed Intent DOTPERP"
+  },
+  {
+    "address": "0xdfaebe6a2b2bdac52ac2e172e0175988d7472c60",
+    "nameTag": "Synthetix: Perps V2 Delayed Intent DYDXPERP"
+  },
+  {
+    "address": "0xf23df6328a8edcfb34b9905715a32181e72964c3",
+    "nameTag": "Synthetix: Perps V2 Delayed Intent ENJPERP"
+  },
+  {
+    "address": "0x02a26df328e08c12ce3a5ed428b83dc5e4c2ee67",
+    "nameTag": "Synthetix: Perps V2 Delayed Intent EOSPERP"
+  },
+  {
+    "address": "0xad35498d97f3b1a0b99de42da7ad81c91156ba77",
+    "nameTag": "Synthetix: Perps V2 Delayed Intent ETCPERP"
+  },
+  {
+    "address": "0x978d4b5438d3e4edf4f03682e5a53b48e56604c5",
+    "nameTag": "Synthetix: Perps V2 Delayed Intent ETHBTCPERP"
+  },
+  {
+    "address": "0x3ada6d040314676b1e8a4bc1a0a16060b42a00ef",
+    "nameTag": "Synthetix: Perps V2 Delayed Intent ETHPERP"
+  },
+  {
+    "address": "0x4ba1bdbc15281775a8437eacdbaf8fbfd3a6a224",
+    "nameTag": "Synthetix: Perps V2 Delayed Intent EURPERP"
+  },
+  {
+    "address": "0x6f910a87565c581e101fbba25fe5b2570181794c",
+    "nameTag": "Synthetix: Perps V2 Delayed Intent FILPERP"
+  },
+  {
+    "address": "0x3fcc706dd9ab9ac3daf6f205abe26712ddcbbd3e",
+    "nameTag": "Synthetix: Perps V2 Delayed Intent FLOKIPERP"
+  },
+  {
+    "address": "0x81b5c28e3905233bc4b96b182160593779d2cb83",
+    "nameTag": "Synthetix: Perps V2 Delayed Intent FLOWPERP"
+  },
+  {
+    "address": "0x88b7bd7a245f2fb597de88a6eda0caee047f607a",
+    "nameTag": "Synthetix: Perps V2 Delayed Intent FTMPERP"
+  },
+  {
+    "address": "0x4022ab250b5c32c286a3953bc740368d6b68b067",
+    "nameTag": "Synthetix: Perps V2 Delayed Intent FXSPERP"
+  },
+  {
+    "address": "0xc8590aeb1484e642f7321bd0586b6db3165a862c",
+    "nameTag": "Synthetix: Perps V2 Delayed Intent GBPPERP"
+  },
+  {
+    "address": "0x9053e51047ba7f0141f3d1f23ac7ec6861bf9fba",
+    "nameTag": "Synthetix: Perps V2 Delayed Intent GMXPERP"
+  },
+  {
+    "address": "0xcad243fa79de8acb3b0336dd9793a16d8e6a3aa5",
+    "nameTag": "Synthetix: Perps V2 Delayed Intent ICPERP"
+  },
+  {
+    "address": "0x0cdfdbf84ac56d54657d3895602bb2982fd1efe4",
+    "nameTag": "Synthetix: Perps V2 Delayed Intent INJPERP"
+  },
+  {
+    "address": "0xe6bf793b3ed4b42f8c3fb883a60e49f976a1791e",
+    "nameTag": "Synthetix: Perps V2 Delayed Intent KNCPERP"
+  },
+  {
+    "address": "0x6bad3be3a7b3853739729833425a8b22737d0dac",
+    "nameTag": "Synthetix: Perps V2 Delayed Intent LDOPERP"
+  },
+  {
+    "address": "0x560f562be696baefa0029c954cc69352bfb33e41",
+    "nameTag": "Synthetix: Perps V2 Delayed Intent LINKPERP"
+  },
+  {
+    "address": "0x7733b88bf971b9c77cc3c1b64a2ef4fc06b08017",
+    "nameTag": "Synthetix: Perps V2 Delayed Intent LTCPERP"
+  },
+  {
+    "address": "0x7f059e5faa4972b098c7539a6721c596bdc942de",
+    "nameTag": "Synthetix: Perps V2 Delayed Intent MATICPERP"
+  },
+  {
+    "address": "0x6a5a1e32216377fc03bffdc9b33fe29c2f14ec84",
+    "nameTag": "Synthetix: Perps V2 Delayed Intent MAVPERP"
+  },
+  {
+    "address": "0xdebc936c5adfd1331e5fa4ae76db7197283342d0",
+    "nameTag": "Synthetix: Perps V2 Delayed Intent MKRPERP"
+  },
+  {
+    "address": "0x699c039c9e21d49b8c38768619942dfab6e8e38d",
+    "nameTag": "Synthetix: Perps V2 Delayed Intent NEARPERP"
+  },
+  {
+    "address": "0x66f916cc0b0b26c1783974a60cef9b0afc382825",
+    "nameTag": "Synthetix: Perps V2 Delayed Intent ONEPERP"
+  },
+  {
+    "address": "0xf9f70f783be3ee6ebde9504ba0ac0730151b0a22",
+    "nameTag": "Synthetix: Perps V2 Delayed Intent OPPERP"
+  },
+  {
+    "address": "0x41ae759b8e75f4ee544cd08b4369e5f4719561fe",
+    "nameTag": "Synthetix: Perps V2 Delayed Intent PEPEPERP"
+  },
+  {
+    "address": "0x5e51817910c53a01e7ee90b8640a66768075bf2e",
+    "nameTag": "Synthetix: Perps V2 Delayed Intent PERPPERP"
+  },
+  {
+    "address": "0xc81e43b6fb257760cb655c5b3ea0b87d93cf01b5",
+    "nameTag": "Synthetix: Perps V2 Delayed Intent RNDRPERP"
+  },
+  {
+    "address": "0xc9c64cf6d1ce4b41d087f08edaa9de23262f1eda",
+    "nameTag": "Synthetix: Perps V2 Delayed Intent RPLPERP"
+  },
+  {
+    "address": "0xdaf440cdea843762c6d4ecfa7c2f64aed832319e",
+    "nameTag": "Synthetix: Perps V2 Delayed Intent RUNEPERP"
+  },
+  {
+    "address": "0x9d81f2898127f812751dc09c210d839a7db651aa",
+    "nameTag": "Synthetix: Perps V2 Delayed Intent SEIPERP"
+  },
+  {
+    "address": "0xf037641c69c1156530c182b970045eba6289553b",
+    "nameTag": "Synthetix: Perps V2 Delayed Intent SHIBPERP"
+  },
+  {
+    "address": "0xa5baff7d9928ae32c5e1ff441e4575951cb01111",
+    "nameTag": "Synthetix: Perps V2 Delayed Intent SOLPERP"
+  },
+  {
+    "address": "0xff5cfdb5b9640eaea8d23c1d72014346ae8174fd",
+    "nameTag": "Synthetix: Perps V2 Delayed Intent STETHETHPERP"
+  },
+  {
+    "address": "0x9b0071d4ee4a078dbdd5100799d8ea700a6da709",
+    "nameTag": "Synthetix: Perps V2 Delayed Intent STETHPERP"
+  },
+  {
+    "address": "0x700edd66fb75516427c793f5fe376f6fe1acc932",
+    "nameTag": "Synthetix: Perps V2 Delayed Intent SUIPERP"
+  },
+  {
+    "address": "0xd01a18c2edb9f411a8329ef9b2905f3cf7d35408",
+    "nameTag": "Synthetix: Perps V2 Delayed Intent SUSHIPERP"
+  },
+  {
+    "address": "0xc254f4a4bc16218ed30a3d674d8fae3f25b6af5d",
+    "nameTag": "Synthetix: Perps V2 Delayed Intent TRXPERP"
+  },
+  {
+    "address": "0xd60e490fbf42a43e67f1e8d74debd7bcb5240f80",
+    "nameTag": "Synthetix: Perps V2 Delayed Intent UMAPERP"
+  },
+  {
+    "address": "0xb0b6b79fbb09290b0663d6d767ffcee7ea742428",
+    "nameTag": "Synthetix: Perps V2 Delayed Intent UNIPERP"
+  },
+  {
+    "address": "0xd53c50b644aa4e29fe2b633e97187e2aa3cbd6fc",
+    "nameTag": "Synthetix: Perps V2 Delayed Intent USDTPERP"
+  },
+  {
+    "address": "0x81891ebc7cf265b87d8658ec2e703fb703392845",
+    "nameTag": "Synthetix: Perps V2 Delayed Intent WLDPERP"
+  },
+  {
+    "address": "0xf40e46c74ca3e72d8dc490493fa9499999c6256e",
+    "nameTag": "Synthetix: Perps V2 Delayed Intent XAGPERP"
+  },
+  {
+    "address": "0x76c6c768ac45f0a3d266ff3e73257937fc962fe6",
+    "nameTag": "Synthetix: Perps V2 Delayed Intent XAUPERP"
+  },
+  {
+    "address": "0x9576b1104c0fa29f76b3559b77e0fd0a6b450213",
+    "nameTag": "Synthetix: Perps V2 Delayed Intent XLMPERP"
+  },
+  {
+    "address": "0x239847700d9134ceeaec306daa40b569cee1d5a0",
+    "nameTag": "Synthetix: Perps V2 Delayed Intent XMRPERP"
+  },
+  {
+    "address": "0x7f4b56a8fe268666d95e64f16a96bbdcfb89df54",
+    "nameTag": "Synthetix: Perps V2 Delayed Intent XRPPERP"
+  },
+  {
+    "address": "0xa7912822c220cda3596cabfe9077769576e2b46e",
+    "nameTag": "Synthetix: Perps V2 Delayed Intent XTZPERP"
+  },
+  {
+    "address": "0xf7af14838789093ccd01c67cf9bc5f602501ced0",
+    "nameTag": "Synthetix: Perps V2 Delayed Intent YFIPERP"
+  },
+  {
+    "address": "0xd21257d00e06621b1946532a2410db1aba75c638",
+    "nameTag": "Synthetix: Perps V2 Delayed Intent ZECPERP"
+  },
+  {
+    "address": "0x0e1a5c48f3ae7c629155afabbbcd5442627c7ef6",
+    "nameTag": "Synthetix: Perps V2 Delayed Intent ZILPERP"
+  },
+  {
+    "address": "0x58e178b0cacd1bc56a2cc408030a1f69edc315f7",
+    "nameTag": "Synthetix: Perps V2 Delayed Intent ZRXPERP"
+  },
+  {
+    "address": "0x2c15259d4886e2c0946f9ab7a5e389c86b3c3b04",
+    "nameTag": "Synthetix: Perps V2 Exchange Rate"
+  },
+  {
+    "address": "0x06ba4e6246a0c4bcbb53ec860be5372fc40629ab",
+    "nameTag": "Synthetix: Perps V2 Market 1INCHPERP"
+  },
+  {
+    "address": "0x42aaa33a13bdac31d8b9e04d9d5db7f9fc8c0119",
+    "nameTag": "Synthetix: Perps V2 Market AAVEPERP"
+  },
+  {
+    "address": "0x6a071d06b9e317a5bc0780dd5e7ee8c41c5c3cb8",
+    "nameTag": "Synthetix: Perps V2 Market ADAPERP"
+  },
+  {
+    "address": "0x949404d0ac66430842145204fb83c1ab9c21f35b",
+    "nameTag": "Synthetix: Perps V2 Market ALGOPERP"
+  },
+  {
+    "address": "0x74eb1e2efaddde923f92f31c209a788475a20a1c",
+    "nameTag": "Synthetix: Perps V2 Market APEPERP"
+  },
+  {
+    "address": "0x9b1c2055465e1f1aaea14d68fc688175cf46cdfe",
+    "nameTag": "Synthetix: Perps V2 Market APTPERP"
+  },
+  {
+    "address": "0x5b37d50f3b7f03884d7cd005cdc7120f5060808c",
+    "nameTag": "Synthetix: Perps V2 Market ARBPERP"
+  },
+  {
+    "address": "0x9597494f1675f1d62edb03dee40d84828ef5b295",
+    "nameTag": "Synthetix: Perps V2 Market ATOMPERP"
+  },
+  {
+    "address": "0xaf89069dc03d65c1b3091d770a8d3b4d02126849",
+    "nameTag": "Synthetix: Perps V2 Market AUDPERP"
+  },
+  {
+    "address": "0xe4bc6fce51de6198ac13edb55e60b5ca67a4d7c9",
+    "nameTag": "Synthetix: Perps V2 Market AVAXPERP"
+  },
+  {
+    "address": "0x4eb7ce307de597f854124d018ec9ede0a8d57931",
+    "nameTag": "Synthetix: Perps V2 Market AXSPERP"
+  },
+  {
+    "address": "0x27b9c4af1bacd39fb216a3a27c9f1e3cd8570b19",
+    "nameTag": "Synthetix: Perps V2 Market BALPERP"
+  },
+  {
+    "address": "0xcb9208c6091df778bf405f3938b6a6bef427e37e",
+    "nameTag": "Synthetix: Perps V2 Market BCHPERP"
+  },
+  {
+    "address": "0x4fc5bed961d41ba5f198de7484637800dac78eb1",
+    "nameTag": "Synthetix: Perps V2 Market BLURPERP"
+  },
+  {
+    "address": "0xf4aa6bf149873cb965061f845407091ef9f50722",
+    "nameTag": "Synthetix: Perps V2 Market BNBPERP"
+  },
+  {
+    "address": "0x352b138d7f6500fc71a014f3c7ed48b6d99fbe4d",
+    "nameTag": "Synthetix: Perps V2 Market BTCPERP"
+  },
+  {
+    "address": "0x4334dfcb85eab5da80b162f930b56f47ebb156f1",
+    "nameTag": "Synthetix: Perps V2 Market CELOPERP"
+  },
+  {
+    "address": "0xa154ecfffb46380991751de890956b245142e10c",
+    "nameTag": "Synthetix: Perps V2 Market COMPPERP"
+  },
+  {
+    "address": "0xca3af1757f1ce97956c289ccc6b171a14acd85ca",
+    "nameTag": "Synthetix: Perps V2 Market CRVPERP"
+  },
+  {
+    "address": "0x340b5d664834113735730ad4afb3760219ad9112",
+    "nameTag": "Synthetix: Perps V2 Market Data"
+  },
+  {
+    "address": "0xdcf2d2c4949d6358bf05cfd88dae83276cf7552b",
+    "nameTag": "Synthetix: Perps V2 Market DOGEPERP"
+  },
+  {
+    "address": "0x9cd7ccac32231ccb842f14368b3da3b33f20d3be",
+    "nameTag": "Synthetix: Perps V2 Market DOTPERP"
+  },
+  {
+    "address": "0x65df3ec0d5fd06a2f29c68e7894804b496945ef2",
+    "nameTag": "Synthetix: Perps V2 Market DYDXPERP"
+  },
+  {
+    "address": "0x9651de67fd8c3003a56b25dc24c73c317f00251d",
+    "nameTag": "Synthetix: Perps V2 Market ENJPERP"
+  },
+  {
+    "address": "0x4f9c7ce72255cc04ca2159793a59efe3e6f40aa5",
+    "nameTag": "Synthetix: Perps V2 Market EOSPERP"
+  },
+  {
+    "address": "0x79ae4aac073c6f153644647af14f202ca8cc39c5",
+    "nameTag": "Synthetix: Perps V2 Market ETCPERP"
+  },
+  {
+    "address": "0x3091acaeaf27985f33a8a4b0eefea49dc60c8506",
+    "nameTag": "Synthetix: Perps V2 Market ETHBTCPERP"
+  },
+  {
+    "address": "0x7c1560f20907ed41ac740873facf9e3dce4f18dd",
+    "nameTag": "Synthetix: Perps V2 Market ETHPERP"
+  },
+  {
+    "address": "0xce8bcb110101d6cde21d6c76bd799261385aa950",
+    "nameTag": "Synthetix: Perps V2 Market EURPERP"
+  },
+  {
+    "address": "0x2dc99068ad1d5b437b63c2afa5c3d30a23084764",
+    "nameTag": "Synthetix: Perps V2 Market FILPERP"
+  },
+  {
+    "address": "0x47f99a380cc020b5db4b000af445a232081ceee7",
+    "nameTag": "Synthetix: Perps V2 Market FLOKIPERP"
+  },
+  {
+    "address": "0x661c2479bffe01eb99eec9169149baa5dabeb883",
+    "nameTag": "Synthetix: Perps V2 Market FLOWPERP"
+  },
+  {
+    "address": "0x1454ba0f1c5fcb401cfe72e028114fee022990ee",
+    "nameTag": "Synthetix: Perps V2 Market FTMPERP"
+  },
+  {
+    "address": "0x29601bafee838f75679e0024e9b8e44d6f1b6f2c",
+    "nameTag": "Synthetix: Perps V2 Market FXSPERP"
+  },
+  {
+    "address": "0x7690af487c06674785daef91ef6576464b46d249",
+    "nameTag": "Synthetix: Perps V2 Market GBPPERP"
+  },
+  {
+    "address": "0x222eb6ce2461798382d044abe53edcf8752b47f7",
+    "nameTag": "Synthetix: Perps V2 Market GMXPERP"
+  },
+  {
+    "address": "0x7221d65b8e46a380102ebe986c01a9481e75bd9e",
+    "nameTag": "Synthetix: Perps V2 Market ICPPERP"
+  },
+  {
+    "address": "0x84e12ccea1311da4090002279c2f46ec828199f3",
+    "nameTag": "Synthetix: Perps V2 Market INJPERP"
+  },
+  {
+    "address": "0xf9c0122a38c6b85fdaff3065f3d0822d9802e03e",
+    "nameTag": "Synthetix: Perps V2 Market KNCPERP"
+  },
+  {
+    "address": "0xdcb4ec61fee47955462fd1f3fa89a6f32cc6a800",
+    "nameTag": "Synthetix: Perps V2 Market LDOPERP"
+  },
+  {
+    "address": "0x885b3ff84a0fe82eb97a23093421504e42cc8f74",
+    "nameTag": "Synthetix: Perps V2 Market LINKPERP"
+  },
+  {
+    "address": "0x08e52251d4434eadf1f2ce01d419b6249694d9e5",
+    "nameTag": "Synthetix: Perps V2 Market Liquidate 1INCHPERP"
+  },
+  {
+    "address": "0xfcce7f97100c0bdd63c3d53ce0ac35be1f900a5e",
+    "nameTag": "Synthetix: Perps V2 Market Liquidate AAVEPERP"
+  },
+  {
+    "address": "0x4a74fc79618b018b0db1dfeea225b38666d32871",
+    "nameTag": "Synthetix: Perps V2 Market Liquidate ADAPERP"
+  },
+  {
+    "address": "0xc0929a879906af158b63230bc7a60144f2e26839",
+    "nameTag": "Synthetix: Perps V2 Market Liquidate ALGOPERP"
+  },
+  {
+    "address": "0x0b1e9543c3cda15d431dcdc94724f3ff3cadac1f",
+    "nameTag": "Synthetix: Perps V2 Market Liquidate APEPERP"
+  },
+  {
+    "address": "0xf6af0f6e69a24bc753382a9c53d568d83515f167",
+    "nameTag": "Synthetix: Perps V2 Market Liquidate APTPERP"
+  },
+  {
+    "address": "0xef7f0bc2d93caeaa824ee56592e3c2e9d5bf0c34",
+    "nameTag": "Synthetix: Perps V2 Market Liquidate ARBPERP"
+  },
+  {
+    "address": "0xcc60342649c58a9d5a5293030ccbc230b1231127",
+    "nameTag": "Synthetix: Perps V2 Market Liquidate ATOMPERP"
+  },
+  {
+    "address": "0xd1b73c8251acf068ea03a42177bd1e3f610f9fb4",
+    "nameTag": "Synthetix: Perps V2 Market Liquidate AUDPERP"
+  },
+  {
+    "address": "0xb1ad6dd82d086f31d2143080b0064abc44cf2b5b",
+    "nameTag": "Synthetix: Perps V2 Market Liquidate AVAXPERP"
+  },
+  {
+    "address": "0x73d3c278be973624aea70ef89c61113e55317ab6",
+    "nameTag": "Synthetix: Perps V2 Market Liquidate AXSPERP"
+  },
+  {
+    "address": "0x797c42ff20162b806b813b78e5ced6d69e06a09a",
+    "nameTag": "Synthetix: Perps V2 Market Liquidate BALPERP"
+  },
+  {
+    "address": "0xe0c39e7b896e7fd1f9fd221079502bda23e81115",
+    "nameTag": "Synthetix: Perps V2 Market Liquidate BCHPERP"
+  },
+  {
+    "address": "0x325a0fa8e3a0a40fa82bc6d222b1af765ab77b36",
+    "nameTag": "Synthetix: Perps V2 Market Liquidate BLURPERP"
+  },
+  {
+    "address": "0xe7c25f3e803c7eb5a08d0332d0c28417241d5462",
+    "nameTag": "Synthetix: Perps V2 Market Liquidate BNBPERP"
+  },
+  {
+    "address": "0x0679e0fa9ecd77e2bd900555cbe10a5dd519a5fd",
+    "nameTag": "Synthetix: Perps V2 Market Liquidate BTCPERP"
+  },
+  {
+    "address": "0xf4edc15ccf3be5833db3753aa91782a601f9aeda",
+    "nameTag": "Synthetix: Perps V2 Market Liquidate CELOPERP"
+  },
+  {
+    "address": "0x6e7209c0db7110fc5606baac492ce4dea2efed8e",
+    "nameTag": "Synthetix: Perps V2 Market Liquidate COMPPERP"
+  },
+  {
+    "address": "0xb2e26d988a5557b571bf9833a8a60d25799293e1",
+    "nameTag": "Synthetix: Perps V2 Market Liquidate CRVPERP"
+  },
+  {
+    "address": "0x277efafccb3683fd0dd5facca8f37e3130d359fb",
+    "nameTag": "Synthetix: Perps V2 Market Liquidate DOGEPERP"
+  },
+  {
+    "address": "0x4c2a2390c2908e0e489f8a487ce332f7cd6c1357",
+    "nameTag": "Synthetix: Perps V2 Market Liquidate DOTPERP"
+  },
+  {
+    "address": "0x1f6b92eb7aa3daca3dccbad74928827cf003f9a4",
+    "nameTag": "Synthetix: Perps V2 Market Liquidate DYDXPERP"
+  },
+  {
+    "address": "0x03c0544195a86028abdd8e69239a03b7ca0bc283",
+    "nameTag": "Synthetix: Perps V2 Market Liquidate ENJPERP"
+  },
+  {
+    "address": "0xb997edbe18f7e8a9904ec7e6a945f2940de5193d",
+    "nameTag": "Synthetix: Perps V2 Market Liquidate EOSPERP"
+  },
+  {
+    "address": "0x86770a2940eff6a778768592b42a6668ffb162a4",
+    "nameTag": "Synthetix: Perps V2 Market Liquidate ETCPERP"
+  },
+  {
+    "address": "0x0daea0367d7b82644c4db4d992cf4ba39c8a359c",
+    "nameTag": "Synthetix: Perps V2 Market Liquidate ETH BTCPERP"
+  },
+  {
+    "address": "0xb474425297945da2f38423cdab98f63860412f14",
+    "nameTag": "Synthetix: Perps V2 Market Liquidate ETHPERP"
+  },
+  {
+    "address": "0x2a77e3382e205d586ca6e4c9f8d7dc6e6bb2054d",
+    "nameTag": "Synthetix: Perps V2 Market Liquidate EURPERP"
+  },
+  {
+    "address": "0xceec52eae64958a7f469d2cf919102bd198092dc",
+    "nameTag": "Synthetix: Perps V2 Market Liquidate FILPERP"
+  },
+  {
+    "address": "0xfc328bb84082aae68cc47d7f032b177b8da348bc",
+    "nameTag": "Synthetix: Perps V2 Market Liquidate FLOKIPERP"
+  },
+  {
+    "address": "0xdacbfd99bb915739b58ac9312c78a23acbacb6db",
+    "nameTag": "Synthetix: Perps V2 Market Liquidate FLOWPERP"
+  },
+  {
+    "address": "0x6680180094df2421a9c5140b207f95759c9080dc",
+    "nameTag": "Synthetix: Perps V2 Market Liquidate FTMPERP"
+  },
+  {
+    "address": "0xebbeb518d4b4e488f45913a9ef72ea57be676f1a",
+    "nameTag": "Synthetix: Perps V2 Market Liquidate FXSPERP"
+  },
+  {
+    "address": "0x6cb4eece70ef0eb8e7f81f4a0de0fb1521e77f74",
+    "nameTag": "Synthetix: Perps V2 Market Liquidate GBPPERP"
+  },
+  {
+    "address": "0xfafe2ec4999aefd162aa3c0aba16d08235662606",
+    "nameTag": "Synthetix: Perps V2 Market Liquidate GMXPERP"
+  },
+  {
+    "address": "0x4f7d521a7cf8fa3b6ebf5d960907ae83e2888fc7",
+    "nameTag": "Synthetix: Perps V2 Market Liquidate ICPPERP"
+  },
+  {
+    "address": "0xc2aa78b6d0d2a72557edd79845b43bee4ea4dd10",
+    "nameTag": "Synthetix: Perps V2 Market Liquidate INJPERP"
+  },
+  {
+    "address": "0x959a4309f7d82e3d34c353a405200d8277032115",
+    "nameTag": "Synthetix: Perps V2 Market Liquidate KNCPERP"
+  },
+  {
+    "address": "0x7784b850922d995965846d8a89b0c90bef470f15",
+    "nameTag": "Synthetix: Perps V2 Market Liquidate LDOPERP"
+  },
+  {
+    "address": "0x7d5bf858398dea0186988a2bfdcf86ae22dd8612",
+    "nameTag": "Synthetix: Perps V2 Market Liquidate LINKPERP"
+  },
+  {
+    "address": "0x556f920a83faba9be8019a33cba4898fdb38d130",
+    "nameTag": "Synthetix: Perps V2 Market Liquidate LTCPERP"
+  },
+  {
+    "address": "0xe37858391bc66b1b8838a7459e59a802642284fa",
+    "nameTag": "Synthetix: Perps V2 Market Liquidate MATICPERP"
+  },
+  {
+    "address": "0x7e62c949f55305c0679b4e883198f93ac4d8e2e9",
+    "nameTag": "Synthetix: Perps V2 Market Liquidate MAVPERP"
+  },
+  {
+    "address": "0x740444afa4f5a7cd569a7714d5252a35dc1fe299",
+    "nameTag": "Synthetix: Perps V2 Market Liquidate MKRPERP"
+  },
+  {
+    "address": "0x767f446fbd3f2e5c91292d9fa51a44102a89117d",
+    "nameTag": "Synthetix: Perps V2 Market Liquidate NEARPERP"
+  },
+  {
+    "address": "0x9c3a582cb712c8cdb067456b993f0234edb185bd",
+    "nameTag": "Synthetix: Perps V2 Market Liquidate ONEPERP"
+  },
+  {
+    "address": "0xe9dc2c1008b1322c21c1fb45cd101f1b7a0c9f73",
+    "nameTag": "Synthetix: Perps V2 Market Liquidate OPPERP"
+  },
+  {
+    "address": "0x4dfb42753f735fbbbb2b1312f72eb05d905365ad",
+    "nameTag": "Synthetix: Perps V2 Market Liquidate PEPEPERP"
+  },
+  {
+    "address": "0xc765dca9d0e77b01b2bb74febae2cf89e038092b",
+    "nameTag": "Synthetix: Perps V2 Market Liquidate PERPPERP"
+  },
+  {
+    "address": "0x70ee22558a577c9c3c7be0a5f9fb494c20e0545b",
+    "nameTag": "Synthetix: Perps V2 Market Liquidate RNDRPERP"
+  },
+  {
+    "address": "0x15df53aecf14f4525be5f7ac8240968cbf5bcaaf",
+    "nameTag": "Synthetix: Perps V2 Market Liquidate RPLPERP"
+  },
+  {
+    "address": "0xa26677434188db65e42dd5606ee297366361cc2d",
+    "nameTag": "Synthetix: Perps V2 Market Liquidate RUNEPERP"
+  },
+  {
+    "address": "0x73575b75c222bb2d6c2240e725caa654b8ec6bad",
+    "nameTag": "Synthetix: Perps V2 Market Liquidate SEIPERP"
+  },
+  {
+    "address": "0x640cca1164154b7f5e7b5c2eef6d757246cd3e2b",
+    "nameTag": "Synthetix: Perps V2 Market Liquidate SHIBPERP"
+  },
+  {
+    "address": "0x80cbc948c5dba55dc829472373e9f20203e13eb2",
+    "nameTag": "Synthetix: Perps V2 Market Liquidate SOLPERP"
+  },
+  {
+    "address": "0x89f16bffd72166807a18faba307cd21ec6143563",
+    "nameTag": "Synthetix: Perps V2 Market Liquidate STETHETHPERP"
+  },
+  {
+    "address": "0xfd306a2b2e78e35f573f8593aeed50d07ceab6bd",
+    "nameTag": "Synthetix: Perps V2 Market Liquidate STETHPERP"
+  },
+  {
+    "address": "0xcfe154521ab1fc995a6bc68880af9888221fd27c",
+    "nameTag": "Synthetix: Perps V2 Market Liquidate SUIPERP"
+  },
+  {
+    "address": "0x21f660512a18dead0664f189af73d74373ddc45f",
+    "nameTag": "Synthetix: Perps V2 Market Liquidate SUSHIPERP"
+  },
+  {
+    "address": "0x5076c4fa56fb78b28ef4a542c7ef2b0f95186e58",
+    "nameTag": "Synthetix: Perps V2 Market Liquidate TRXPERP"
+  },
+  {
+    "address": "0x14a3f810db4e4ec74906d2538de00a4c995f229e",
+    "nameTag": "Synthetix: Perps V2 Market Liquidate UMAPERP"
+  },
+  {
+    "address": "0xb63bef5ccc5e9316961cdcd54129743ae8455bc4",
+    "nameTag": "Synthetix: Perps V2 Market Liquidate UNIPERP"
+  },
+  {
+    "address": "0xa552049a9f320b6a8622a003fe1108595061e223",
+    "nameTag": "Synthetix: Perps V2 Market Liquidate USDTPERP"
+  },
+  {
+    "address": "0xd8ad261b4dea3ce25642d909d2f3cbf9d4632caf",
+    "nameTag": "Synthetix: Perps V2 Market Liquidate WLDPERP"
+  },
+  {
+    "address": "0x35b9d048d4cb99bb34d59fbf962e86b8ee44760f",
+    "nameTag": "Synthetix: Perps V2 Market Liquidate XAGPERP"
+  },
+  {
+    "address": "0x2493291196f02794465b89ef50f80c60fa8d0e89",
+    "nameTag": "Synthetix: Perps V2 Market Liquidate XAUPERP"
+  },
+  {
+    "address": "0xece9613025f970f1d56b2ba749e1170976465088",
+    "nameTag": "Synthetix: Perps V2 Market Liquidate XLMPERP"
+  },
+  {
+    "address": "0x5d79eeb57a35ec8b6b9ef55052c5c9f919c3c3ee",
+    "nameTag": "Synthetix: Perps V2 Market Liquidate XMRPERP"
+  },
+  {
+    "address": "0x95366ac32995d4c31f72c2d0029211e19bf6eb7d",
+    "nameTag": "Synthetix: Perps V2 Market Liquidate XRPPERP"
+  },
+  {
+    "address": "0xe96097de5d8d168fc46b52874df0a474e4a293d6",
+    "nameTag": "Synthetix: Perps V2 Market Liquidate XTZPERP"
+  },
+  {
+    "address": "0x579e622b355ac69a3a772d29a98379044cbf7722",
+    "nameTag": "Synthetix: Perps V2 Market Liquidate YFIPERP"
+  },
+  {
+    "address": "0x8649fdb91a47281ea1ee67b83967b0d00f79a560",
+    "nameTag": "Synthetix: Perps V2 Market Liquidate ZECPERP"
+  },
+  {
+    "address": "0x0194e4bbd724633546d543a28125c579dfec057c",
+    "nameTag": "Synthetix: Perps V2 Market Liquidate ZILPERP"
+  },
+  {
+    "address": "0x67e010545133038292d124e49d1db6459fff82af",
+    "nameTag": "Synthetix: Perps V2 Market Liquidate ZRXPERP"
+  },
+  {
+    "address": "0x61a7ae08b9061f96934a2093cbe59f839355fff5",
+    "nameTag": "Synthetix: Perps V2 Market LTCPERP"
+  },
+  {
+    "address": "0x496b1c5eef77e6ea7ff98bb22b5ec01dd4cfdeda",
+    "nameTag": "Synthetix: Perps V2 Market MATICPERP"
+  },
+  {
+    "address": "0xeef768df33e01bcd395612601569f4ac5daf2363",
+    "nameTag": "Synthetix: Perps V2 Market MAVPERP"
+  },
+  {
+    "address": "0x0b08d567d1893d9e0b48e61d1f9ecd9d7c6b11ee",
+    "nameTag": "Synthetix: Perps V2 Market MKRPERP"
+  },
+  {
+    "address": "0x4df6e29c07c51e5e7f7a98ab90547861aba42b56",
+    "nameTag": "Synthetix: Perps V2 Market NEARPERP"
+  },
+  {
+    "address": "0x66f541d5f16f2451de9de5098d241774a33093f4",
+    "nameTag": "Synthetix: Perps V2 Market ONEPERP"
+  },
+  {
+    "address": "0x102aff35c746b44a639a1ce344a1461306835e86",
+    "nameTag": "Synthetix: Perps V2 Market OPPERP"
+  },
+  {
+    "address": "0x5be1c70475422255684e4f312e57fe782a5102f4",
+    "nameTag": "Synthetix: Perps V2 Market PEPEPERP"
+  },
+  {
+    "address": "0x6d9bde78d5562b6be4b6a70f4f2511fb1a8f9e10",
+    "nameTag": "Synthetix: Perps V2 Market PERPPERP"
+  },
+  {
+    "address": "0x3942722d61d784347f38caa493b1e073ab321b22",
+    "nameTag": "Synthetix: Perps V2 Market RNDRPERP"
+  },
+  {
+    "address": "0x89fe4828bf24cafbe96f804885506a7111065541",
+    "nameTag": "Synthetix: Perps V2 Market RPLPERP"
+  },
+  {
+    "address": "0x18f763fd61efd3d9884981cc2cbd6845351e4b70",
+    "nameTag": "Synthetix: Perps V2 Market RUNEPERP"
+  },
+  {
+    "address": "0xd0de1cc5849e07c03d1d7a2589a8d56d092dfeaf",
+    "nameTag": "Synthetix: Perps V2 Market SEIPERP"
+  },
+  {
+    "address": "0x649f44cac3276557d03223dbf6395af65b11c11c",
+    "nameTag": "Synthetix: Perps V2 Market Settings"
+  },
+  {
+    "address": "0xa198d00dc35f8367beb48f27de9032c8209dc22c",
+    "nameTag": "Synthetix: Perps V2 Market SHIBPERP"
+  },
+  {
+    "address": "0x00fc152c7dc2df709161dcc8ba541eb77e612d4e",
+    "nameTag": "Synthetix: Perps V2 Market SOLPERP"
+  },
+  {
+    "address": "0x26a035d9a2ed696eacc3816674c66a7eb73aab70",
+    "nameTag": "Synthetix: Perps V2 Market State 1INCHPERP"
+  },
+  {
+    "address": "0x3773dfbbc894bfa9df22855fcec1d1572efc5e0a",
+    "nameTag": "Synthetix: Perps V2 Market State AAVEPERP"
+  },
+  {
+    "address": "0xae3d1b55cbffc11693257fb5dc41de32f1e9ec7a",
+    "nameTag": "Synthetix: Perps V2 Market State ADAPERP"
+  },
+  {
+    "address": "0xd856b45d4d9671482e53e705058af3ff09000a28",
+    "nameTag": "Synthetix: Perps V2 Market State ALGOPERP"
+  },
+  {
+    "address": "0x089af032687993426a628184cb3d0610d2cda6f2",
+    "nameTag": "Synthetix: Perps V2 Market State APEPERP"
+  },
+  {
+    "address": "0x91a4f7125a6f7ec14c41d39f0ac681e8e387da1c",
+    "nameTag": "Synthetix: Perps V2 Market State APTPERP"
+  },
+  {
+    "address": "0x6393113a43a4a88b9f3d53b4b21e7feeb5d3d821",
+    "nameTag": "Synthetix: Perps V2 Market State ARBPERP"
+  },
+  {
+    "address": "0xe46ef097d2cf6ff95ad172d5da0e65a0de9e2468",
+    "nameTag": "Synthetix: Perps V2 Market State ATOMPERP"
+  },
+  {
+    "address": "0x6d62aa1535c7c33d7f6592562f091d193e180c57",
+    "nameTag": "Synthetix: Perps V2 Market State AUDPERP"
+  },
+  {
+    "address": "0xc02af29944301c8fba606a7df8ef446dc103238c",
+    "nameTag": "Synthetix: Perps V2 Market State AVAXPERP"
+  },
+  {
+    "address": "0xcfdc039bdb8e4b578857b759f27d6baa2617edd3",
+    "nameTag": "Synthetix: Perps V2 Market State AXSPERP"
+  },
+  {
+    "address": "0x982bb9880295ecbc34a56772fef81e964aee4a9f",
+    "nameTag": "Synthetix: Perps V2 Market State BALPERP"
+  },
+  {
+    "address": "0xa664fca1879c9ca2e6cfed49c3c855352016e4c5",
+    "nameTag": "Synthetix: Perps V2 Market State BCHPERP"
+  },
+  {
+    "address": "0x6acc3519d10e46e5a228615c9d4b57cc0113a212",
+    "nameTag": "Synthetix: Perps V2 Market State BLURPERP"
+  },
+  {
+    "address": "0x3dfbb7d0770e6eb77fbec89c0840e9a0f29c76ff",
+    "nameTag": "Synthetix: Perps V2 Market State BNBPERP"
+  },
+  {
+    "address": "0x68287419fcfa1c186515e99a35ff3c970b3b3c66",
+    "nameTag": "Synthetix: Perps V2 Market State BTCPERP"
+  },
+  {
+    "address": "0xb8bc48ed3d08a3ac02d62174652369d3279705de",
+    "nameTag": "Synthetix: Perps V2 Market State CELOPERP"
+  },
+  {
+    "address": "0xf8dbef33111a37879f35ee15507769ca927cf9c0",
+    "nameTag": "Synthetix: Perps V2 Market State COMPPERP"
+  },
+  {
+    "address": "0x5a155c378d66d8eba2262e744738a76d913e5945",
+    "nameTag": "Synthetix: Perps V2 Market State CRVPERP"
+  },
+  {
+    "address": "0x0a0a22189c8732ca089d6fb6709e65140a446a41",
+    "nameTag": "Synthetix: Perps V2 Market State DOGEPERP"
+  },
+  {
+    "address": "0xcf33a35f0f2095abdd0c81dbde3a1cd37be0c5cc",
+    "nameTag": "Synthetix: Perps V2 Market State DOTPERP"
+  },
+  {
+    "address": "0xac3f9a2753f185731324907e6802395d59bb62a2",
+    "nameTag": "Synthetix: Perps V2 Market State DYDXPERP"
+  },
+  {
+    "address": "0x8327aa139bd7eee62730a2cb9b9a86821810d4db",
+    "nameTag": "Synthetix: Perps V2 Market State ENJPERP"
+  },
+  {
+    "address": "0x1f53699b435326b6e264727b5504cc28006bed8b",
+    "nameTag": "Synthetix: Perps V2 Market State EOSPERP"
+  },
+  {
+    "address": "0x04412b2ae241c602be87bc1114238d50d08398fb",
+    "nameTag": "Synthetix: Perps V2 Market State ETCPERP"
+  },
+  {
+    "address": "0xd10cd91683301c8c15eda40f59e73d1b0bcfecdd",
+    "nameTag": "Synthetix: Perps V2 Market State ETHBTCPERP"
+  },
+  {
+    "address": "0x6abc19f21d5ce23abf392329ef7b118c7b5f2aa8",
+    "nameTag": "Synthetix: Perps V2 Market State ETHPERP"
+  },
+  {
+    "address": "0x4ed08210706f5b74584cc7f03b38d800dc27936b",
+    "nameTag": "Synthetix: Perps V2 Market State EURPERP"
+  },
+  {
+    "address": "0x71fd2f49f289d75d0c1e108c97fcb2a4c54ab424",
+    "nameTag": "Synthetix: Perps V2 Market State FILPERP"
+  },
+  {
+    "address": "0x94a1d572bae06a31c029d4c26e1fa705f54286ef",
+    "nameTag": "Synthetix: Perps V2 Market State FLOKIPERP"
+  },
+  {
+    "address": "0xecc8a6af92d825acc5b871993fc83d86cced5a19",
+    "nameTag": "Synthetix: Perps V2 Market State FLOWPERP"
+  },
+  {
+    "address": "0x1951c6b2d9dd9a3cf10aac5e79a7eca0a5300bb5",
+    "nameTag": "Synthetix: Perps V2 Market State FTMPERP"
+  },
+  {
+    "address": "0xd9ac5ecbb704f0bdb0a96bebfa3b79be829d2bc1",
+    "nameTag": "Synthetix: Perps V2 Market State FXSPERP"
+  },
+  {
+    "address": "0x733a69d080b10bc897452ef783020cdfe012974a",
+    "nameTag": "Synthetix: Perps V2 Market State GBPPERP"
+  },
+  {
+    "address": "0x9f564ffb60945dec03fb8ddef491465dd9b4c9fb",
+    "nameTag": "Synthetix: Perps V2 Market State GMXPERP"
+  },
+  {
+    "address": "0x4bd5674a720c212ff515dd51d4e5d304ff16b3d0",
+    "nameTag": "Synthetix: Perps V2 Market State ICPPERP"
+  },
+  {
+    "address": "0x4c35c27ff8f0dd039b4c4f0d670f2d58f6215c9c",
+    "nameTag": "Synthetix: Perps V2 Market State INJPERP"
+  },
+  {
+    "address": "0x325af017a497953734cb7b1f51580ff9ad1122b1",
+    "nameTag": "Synthetix: Perps V2 Market State KNCPERP"
+  },
+  {
+    "address": "0x1d46c117e7e9a5dd242724a1952911ece78e0831",
+    "nameTag": "Synthetix: Perps V2 Market State LDOPERP"
+  },
+  {
+    "address": "0xeed3618dd59163cc6849758f07fa9369823aa710",
+    "nameTag": "Synthetix: Perps V2 Market State LINKPERP"
+  },
+  {
+    "address": "0xf5826f24805c162c696b79ba31ebc6fb8003d475",
+    "nameTag": "Synthetix: Perps V2 Market State LTCPERP"
+  },
+  {
+    "address": "0x82f962af60e6627d3ea5db5fd7e1a57f7e1ef2b8",
+    "nameTag": "Synthetix: Perps V2 Market State MATICPERP"
+  },
+  {
+    "address": "0xb241af12256998a0051b93e02027e73ca7e5388d",
+    "nameTag": "Synthetix: Perps V2 Market State MAVPERP"
+  },
+  {
+    "address": "0xf963a0fc0bfc38fefe08c6062f2ad9a11affdeeb",
+    "nameTag": "Synthetix: Perps V2 Market State MKRPERP"
+  },
+  {
+    "address": "0x779f424d3b3a617beb4a0db1c21d5505de297a8a",
+    "nameTag": "Synthetix: Perps V2 Market State NEARPERP"
+  },
+  {
+    "address": "0xedb8f5e51e5b11e73bea72600aa2de7a4a2eafa4",
+    "nameTag": "Synthetix: Perps V2 Market State ONEPERP"
+  },
+  {
+    "address": "0xbdd0d09f73ac6f8ef59a71baab283c12dcab06fa",
+    "nameTag": "Synthetix: Perps V2 Market State OPPERP"
+  },
+  {
+    "address": "0x2365d3e91e585c974c28a5b82d6aa266f68a44ad",
+    "nameTag": "Synthetix: Perps V2 Market State PEPEPERP"
+  },
+  {
+    "address": "0x6941ad5ac604d2329f96bea75c7b25d19cc06701",
+    "nameTag": "Synthetix: Perps V2 Market State PERPPERP"
+  },
+  {
+    "address": "0x82dcd3e7224dda8df6a746d70f1cce80df4384c2",
+    "nameTag": "Synthetix: Perps V2 Market State RNDRPERP"
+  },
+  {
+    "address": "0xf606e99d6f6a003623ea5764da119baecb2e8c99",
+    "nameTag": "Synthetix: Perps V2 Market State RPLPERP"
+  },
+  {
+    "address": "0x2cc4707f6aef86cdba05f45da98d365a66dfd5d7",
+    "nameTag": "Synthetix: Perps V2 Market State RUNEPERP"
+  },
+  {
+    "address": "0x9f6aa1c141838df56ef82be286cabd2616c8b309",
+    "nameTag": "Synthetix: Perps V2 Market State SEIPERP"
+  },
+  {
+    "address": "0xc2c71156d9dde42f412e83a3e169283cd70f3e9d",
+    "nameTag": "Synthetix: Perps V2 Market State SHIBPERP"
+  },
+  {
+    "address": "0x435e6e499610b6de3510f0cb047d3575c7bca6e1",
+    "nameTag": "Synthetix: Perps V2 Market State SOLPERP"
+  },
+  {
+    "address": "0x2ec454957c0e66266398076f066faac77c48d88d",
+    "nameTag": "Synthetix: Perps V2 Market State STETHETHPERP"
+  },
+  {
+    "address": "0x777a913412d576532120ac1d266d4c908e584db2",
+    "nameTag": "Synthetix: Perps V2 Market State STETHPERP"
+  },
+  {
+    "address": "0x2ccaf0500142f8e563ff361c3b34abee16b6205d",
+    "nameTag": "Synthetix: Perps V2 Market State SUIPERP"
+  },
+  {
+    "address": "0x854a3500f1443ba99f746ca605d8fc25f0d06f32",
+    "nameTag": "Synthetix: Perps V2 Market State SUSHIPERP"
+  },
+  {
+    "address": "0x52cca59bfa0228f41ab69558f5f2ee3739323c02",
+    "nameTag": "Synthetix: Perps V2 Market State TRXPERP"
+  },
+  {
+    "address": "0x595f37e1b21870571ee99fbe815d6790d817c0ba",
+    "nameTag": "Synthetix: Perps V2 Market State UMAPERP"
+  },
+  {
+    "address": "0x0db1b224c5203fa22cfdfa3f92519d150ad86612",
+    "nameTag": "Synthetix: Perps V2 Market State UNIPERP"
+  },
+  {
+    "address": "0xc2231d2caddbee015aedddd3f0ee3874e3bd1d59",
+    "nameTag": "Synthetix: Perps V2 Market State USDTPERP"
+  },
+  {
+    "address": "0xd4b10c896d82b3158a9a9fcb8f6fbc5a8d833c04",
+    "nameTag": "Synthetix: Perps V2 Market State WLDPERP"
+  },
+  {
+    "address": "0x28e1ce29acdfe1e74e6fa18591e1d5481d2085a1",
+    "nameTag": "Synthetix: Perps V2 Market State XAGPERP"
+  },
+  {
+    "address": "0xc564040630d6929070d85df237fdf60f6bfe4b5f",
+    "nameTag": "Synthetix: Perps V2 Market State XAUPERP"
+  },
+  {
+    "address": "0xeafa65b829b37277a14fe43de9fada0d9e897e4d",
+    "nameTag": "Synthetix: Perps V2 Market State XLMPERP"
+  },
+  {
+    "address": "0x3d869950817920eda9fc9a633ab7f06b97444dd7",
+    "nameTag": "Synthetix: Perps V2 Market State XMRPERP"
+  },
+  {
+    "address": "0x0ea666319f4f0eaa7f16711f2fe7f4b159957f48",
+    "nameTag": "Synthetix: Perps V2 Market State XRPPERP"
+  },
+  {
+    "address": "0xaf621161755c601c1469e3487ce971f39ae507bc",
+    "nameTag": "Synthetix: Perps V2 Market State XTZPERP"
+  },
+  {
+    "address": "0x2107a107d1043b2c442b8de40d6696c29bd2c5b8",
+    "nameTag": "Synthetix: Perps V2 Market State YFIPERP"
+  },
+  {
+    "address": "0xe94afded9cb9ab143e8ccc8c7439794e8c41f1a6",
+    "nameTag": "Synthetix: Perps V2 Market State ZECPERP"
+  },
+  {
+    "address": "0x5acd4abf5ddfb7f27b5940d1aef640d6b67a2cba",
+    "nameTag": "Synthetix: Perps V2 Market State ZILPERP"
+  },
+  {
+    "address": "0x0e4695edb83fb23e6b12afa3660bef09610791de",
+    "nameTag": "Synthetix: Perps V2 Market State ZRXPERP"
+  },
+  {
+    "address": "0xea0324cc8d9fd70b8000bafbac7e3ff7c15275ed",
+    "nameTag": "Synthetix: Perps V2 Market STETHETHPERP"
+  },
+  {
+    "address": "0x69125856cfbadba925ce8345d0a5de98f375920e",
+    "nameTag": "Synthetix: Perps V2 Market STETHPERP"
+  },
+  {
+    "address": "0xb7c04aa1e49bbef0a5d7a0e7885b54c9e9309704",
+    "nameTag": "Synthetix: Perps V2 Market SUIPERP"
+  },
+  {
+    "address": "0x070e7b0447e096704c54923826ac0cb6c6472400",
+    "nameTag": "Synthetix: Perps V2 Market SUSHIPERP"
+  },
+  {
+    "address": "0x093583d2135af25ab49a4e148698ee0125bcf2f8",
+    "nameTag": "Synthetix: Perps V2 Market TRXPERP"
+  },
+  {
+    "address": "0xecafbac3221160337a3a8dcb25a955f50618feeb",
+    "nameTag": "Synthetix: Perps V2 Market UMAPERP"
+  },
+  {
+    "address": "0xd5ea02e6324693bacbde3e63a3c72e5a227a4ddb",
+    "nameTag": "Synthetix: Perps V2 Market UNIPERP"
+  },
+  {
+    "address": "0xb7d7605f814da681cc299a9ac9abbfc1ea65e40a",
+    "nameTag": "Synthetix: Perps V2 Market USDTPERP"
+  },
+  {
+    "address": "0x23d5291fea095d8851ce3bb711a10b4982923d9a",
+    "nameTag": "Synthetix: Perps V2 Market Views 1INCHPERP"
+  },
+  {
+    "address": "0x619676df5c402d0eb008104e9a658c1f65dbf702",
+    "nameTag": "Synthetix: Perps V2 Market Views AAVE PERP"
+  },
+  {
+    "address": "0x703f070bc98f835edc5de183a537d837a7c65c9f",
+    "nameTag": "Synthetix: Perps V2 Market Views ADA PERP"
+  },
+  {
+    "address": "0xfd9f2393634fae33099503b45719d8ebf1da7744",
+    "nameTag": "Synthetix: Perps V2 Market Views ALGO PERP"
+  },
+  {
+    "address": "0x2891452e2068ac9471e3610e956510c46b4effe5",
+    "nameTag": "Synthetix: Perps V2 Market Views APE PERP"
+  },
+  {
+    "address": "0xe44179cb9623c3bb7a9bcf54b4b1dd5ad8c672e3",
+    "nameTag": "Synthetix: Perps V2 Market Views APT PERP"
+  },
+  {
+    "address": "0x23b2558318e4955dfc3402567e22b1ff102db3dd",
+    "nameTag": "Synthetix: Perps V2 Market Views ARB PERP"
+  },
+  {
+    "address": "0xa92c0142c3239e8e07cbb9f33e4c0dd4fc19089b",
+    "nameTag": "Synthetix: Perps V2 Market Views ATOM PERP"
+  },
+  {
+    "address": "0x7d0256e0936103b32aad59e80257b59e988e75e2",
+    "nameTag": "Synthetix: Perps V2 Market Views AUD PERP"
+  },
+  {
+    "address": "0xbb1250d0d96a22cf62ee12aecc2fa684f3ca04e8",
+    "nameTag": "Synthetix: Perps V2 Market Views AVAX PERP"
+  },
+  {
+    "address": "0xcadd53c5faae5111c7a0429ee1f99a695433fb17",
+    "nameTag": "Synthetix: Perps V2 Market Views AXS PERP"
+  },
+  {
+    "address": "0x3ffbc2f1029ccb193d011757e2bbd57538711d86",
+    "nameTag": "Synthetix: Perps V2 Market Views BAL PERP"
+  },
+  {
+    "address": "0x0bb16a341eda6b5e0768b55eb091cd914be96bc1",
+    "nameTag": "Synthetix: Perps V2 Market Views BCH PERP"
+  },
+  {
+    "address": "0xed20040b21fdf6d68336f6e61ad05f235e3ea9f3",
+    "nameTag": "Synthetix: Perps V2 Market Views BLUR PERP"
+  },
+  {
+    "address": "0xa227c833786e46d53cf9e9a14cff906477335d91",
+    "nameTag": "Synthetix: Perps V2 Market Views BNB PERP"
+  },
+  {
+    "address": "0xe662e0af5fcabe78aaaf4cff0a13ca69512fc481",
+    "nameTag": "Synthetix: Perps V2 Market Views BTC PERP"
+  },
+  {
+    "address": "0x19bd719105008c82da4b4fd8112c9d2a97c0930c",
+    "nameTag": "Synthetix: Perps V2 Market Views CELO PERP"
+  },
+  {
+    "address": "0xbaacf0f9dea6b17d8667a34b7f69f60591c8d68d",
+    "nameTag": "Synthetix: Perps V2 Market Views COMP PERP"
+  },
+  {
+    "address": "0x94cf2bb95bdc525f90311ddb2edcd1c481e81a9d",
+    "nameTag": "Synthetix: Perps V2 Market Views CRV PERP"
+  },
+  {
+    "address": "0x9c79c19ff4d1a6531d9a4f91e96534f5d002df8b",
+    "nameTag": "Synthetix: Perps V2 Market Views DOGE PERP"
+  },
+  {
+    "address": "0x29533e33226e5383a36eb4bf515ff067379ed841",
+    "nameTag": "Synthetix: Perps V2 Market Views DOT PERP"
+  },
+  {
+    "address": "0x2e26d4bec1464409c154f653a238ce5baaa00198",
+    "nameTag": "Synthetix: Perps V2 Market Views DYDX PERP"
+  },
+  {
+    "address": "0x04631b9297919e98334c5abaa762c48af071b4ef",
+    "nameTag": "Synthetix: Perps V2 Market Views ENJ PERP"
+  },
+  {
+    "address": "0x86508410fd82c863920f194da49a0835717c3673",
+    "nameTag": "Synthetix: Perps V2 Market Views EOS PERP"
+  },
+  {
+    "address": "0x4e8f55f1948d3e61a1fd3cd38ce05efc77bffeb5",
+    "nameTag": "Synthetix: Perps V2 Market Views ETC PERP"
+  },
+  {
+    "address": "0x989d359dbf9c531ae6c305c37ac37220b8dd99eb",
+    "nameTag": "Synthetix: Perps V2 Market Views ETH PERP"
+  },
+  {
+    "address": "0xe082bd0ac75c78196f312150a298ade27aebecb0",
+    "nameTag": "Synthetix: Perps V2 Market Views ETHBTC PERP"
+  },
+  {
+    "address": "0x5ade35cedded082bdb27a94e2a20ac327a67172e",
+    "nameTag": "Synthetix: Perps V2 Market Views EUR PERP"
+  },
+  {
+    "address": "0x836804b2c489704068185d190c1763b9a5adda93",
+    "nameTag": "Synthetix: Perps V2 Market Views FIL PERP"
+  },
+  {
+    "address": "0xab5745e6cd602742636491409e18a73e223c8aff",
+    "nameTag": "Synthetix: Perps V2 Market Views FLOKI PERP"
+  },
+  {
+    "address": "0x73d8fd1dc5e38cef6754fc5009015caaee218461",
+    "nameTag": "Synthetix: Perps V2 Market Views FLOW PERP"
+  },
+  {
+    "address": "0xab0d9e3ff817faa88f4bbc783cfa6d55e5f10f3e",
+    "nameTag": "Synthetix: Perps V2 Market Views FTM PERP"
+  },
+  {
+    "address": "0x6a15ee080c2fde246b674918bff3b52d414525cb",
+    "nameTag": "Synthetix: Perps V2 Market Views FXS PERP"
+  },
+  {
+    "address": "0x3f30190416ebde7f50749cf3579af1beef2e7fa8",
+    "nameTag": "Synthetix: Perps V2 Market Views GBP PERP"
+  },
+  {
+    "address": "0x9a05f2f00ca385ba7d4368737ec1485384ca8874",
+    "nameTag": "Synthetix: Perps V2 Market Views GMX PERP"
+  },
+  {
+    "address": "0xdd1122620688c25df27dd405cf467cc9e5c0cc82",
+    "nameTag": "Synthetix: Perps V2 Market Views ICP PERP"
+  },
+  {
+    "address": "0x3713bc72567a6c797ac69678f72a5a0d80c56dc9",
+    "nameTag": "Synthetix: Perps V2 Market Views INJ PERP"
+  },
+  {
+    "address": "0xccff378f3aa9e4abb36fdcb03371a59008c28708",
+    "nameTag": "Synthetix: Perps V2 Market Views KNC PERP"
+  },
+  {
+    "address": "0xebf81425e81e2a879c139db3b3891b0a635dcf7f",
+    "nameTag": "Synthetix: Perps V2 Market Views LDO PERP"
+  },
+  {
+    "address": "0x2903c913bbbac9fbb6c4a080210ced9eec1f66a6",
+    "nameTag": "Synthetix: Perps V2 Market Views LINK PERP"
+  },
+  {
+    "address": "0x184d5a9f37d0ca2151102958d174e21db6605069",
+    "nameTag": "Synthetix: Perps V2 Market Views LTC PERP"
+  },
+  {
+    "address": "0x2f94942764c997e777f7ded68679a5ecc6b7514c",
+    "nameTag": "Synthetix: Perps V2 Market Views MATIC PERP"
+  },
+  {
+    "address": "0x04915c122eba1cd7629a2a00d9ae2a4c145ab21b",
+    "nameTag": "Synthetix: Perps V2 Market Views MAV PERP"
+  },
+  {
+    "address": "0xb1204d3fffeaea354f2f04779bedcd0d8f3598fa",
+    "nameTag": "Synthetix: Perps V2 Market Views MKR PERP"
+  },
+  {
+    "address": "0xc314cfb9c5706f316f3916543ad2f3e4c3aa2d02",
+    "nameTag": "Synthetix: Perps V2 Market Views NEAR PERP"
+  },
+  {
+    "address": "0xa4d53f6cbcf314f318f316ae61cdd400c974085d",
+    "nameTag": "Synthetix: Perps V2 Market Views ONE PERP"
+  },
+  {
+    "address": "0x2fffebed35931abd9014a39ae41fa26d511e31f4",
+    "nameTag": "Synthetix: Perps V2 Market Views OPP PERP"
+  },
+  {
+    "address": "0x17ccefad2ae2784af7012af04c76bdafaa4e7b37",
+    "nameTag": "Synthetix: Perps V2 Market Views PEPE PERP"
+  },
+  {
+    "address": "0x24d29234e34793476000fa068e858de4380646e6",
+    "nameTag": "Synthetix: Perps V2 Market Views PERP PERP"
+  },
+  {
+    "address": "0xaeb7205c613c1e1ad34e077ebe86fdb9da16cecf",
+    "nameTag": "Synthetix: Perps V2 Market Views RNDR PERP"
+  },
+  {
+    "address": "0x882e4a84cbd9b55052c85e1ff05289aa577659b9",
+    "nameTag": "Synthetix: Perps V2 Market Views RPL PERP"
+  },
+  {
+    "address": "0xa9bb96d03a6ed56c14cd47a2ce75fa6a7633aec2",
+    "nameTag": "Synthetix: Perps V2 Market Views RUNE PERP"
+  },
+  {
+    "address": "0x8a6ef192d45e8ea930bc7f4f0ed457f213731bbb",
+    "nameTag": "Synthetix: Perps V2 Market Views SEI PERP"
+  },
+  {
+    "address": "0xe4d25c54759ecd13c10e6c64ab9127c6408f9cff",
+    "nameTag": "Synthetix: Perps V2 Market Views SHIB PERP"
+  },
+  {
+    "address": "0xfaf84737dae0da0c093bc172e32fb845016df642",
+    "nameTag": "Synthetix: Perps V2 Market Views SOL PERP"
+  },
+  {
+    "address": "0x0060b9f4eaa97b310bf74947edcdfe2967e54d7d",
+    "nameTag": "Synthetix: Perps V2 Market Views STETH PERP"
+  },
+  {
+    "address": "0x875bbc7285d52ca957024999315717d45ba99276",
+    "nameTag": "Synthetix: Perps V2 Market Views STETHETH PERP"
+  },
+  {
+    "address": "0x748f78a5dc4a4325bcdf251dee85e481a2dc6929",
+    "nameTag": "Synthetix: Perps V2 Market Views SUI PERP"
+  },
+  {
+    "address": "0xc7a869deeee1acab2b30b6022c246194c83ed49c",
+    "nameTag": "Synthetix: Perps V2 Market Views SUSHI PERP"
+  },
+  {
+    "address": "0xd1c8e9b404053560bc6a0302c4395ffb0ffd1c79",
+    "nameTag": "Synthetix: Perps V2 Market Views TRX PERP"
+  },
+  {
+    "address": "0x99b2b4f1c6222d97e70cf7d0c7cc314465ca9dc0",
+    "nameTag": "Synthetix: Perps V2 Market Views UMA PERP"
+  },
+  {
+    "address": "0x90efaafec5b183d09bc5b2ce81e8a12e4c2a6002",
+    "nameTag": "Synthetix: Perps V2 Market Views UNI PERP"
+  },
+  {
+    "address": "0xcee08cc3bb744dec69f6eecf5b7b62ccd9143e99",
+    "nameTag": "Synthetix: Perps V2 Market Views USDT PERP"
+  },
+  {
+    "address": "0x33c3c4d49dee4232498b3efa5336c627801e998d",
+    "nameTag": "Synthetix: Perps V2 Market Views WLD PERP"
+  },
+  {
+    "address": "0x9bdc86302479112e61f3ba7761dc704f7044d304",
+    "nameTag": "Synthetix: Perps V2 Market Views XAG PERP"
+  },
+  {
+    "address": "0x9a3ecffd8cb317685ef0df7b4af5c4c9d1af53ec",
+    "nameTag": "Synthetix: Perps V2 Market Views XAU PERP"
+  },
+  {
+    "address": "0x0c35263a2c4ed7bb812d3b4f4a5da1a623fb2b7b",
+    "nameTag": "Synthetix: Perps V2 Market Views XLM PERP"
+  },
+  {
+    "address": "0x90241392dba7faa1d1d96c6927f0fbfe93fdf226",
+    "nameTag": "Synthetix: Perps V2 Market Views XMR PERP"
+  },
+  {
+    "address": "0x047b3714f3b3adfc1aa1f31c710ca3ca967aeaa3",
+    "nameTag": "Synthetix: Perps V2 Market Views XRP PERP"
+  },
+  {
+    "address": "0x95cab224896972e69ad626bc75d29116ce7d4521",
+    "nameTag": "Synthetix: Perps V2 Market Views XTZ PERP"
+  },
+  {
+    "address": "0x2a1fa1fbf771c353ebfe63472ebbb16444a9b0ef",
+    "nameTag": "Synthetix: Perps V2 Market Views YFI PERP"
+  },
+  {
+    "address": "0x77fb9d52099d4207108c26ab22f9d8bbf691a37a",
+    "nameTag": "Synthetix: Perps V2 Market Views ZEC PERP"
+  },
+  {
+    "address": "0xd21f7cc02f3a9b6d059cdad6e0c0f4db18420189",
+    "nameTag": "Synthetix: Perps V2 Market Views ZIL PERP"
+  },
+  {
+    "address": "0x0ed899bde78b8f647d8bb1a44cd2dedfc087188c",
+    "nameTag": "Synthetix: Perps V2 Market Views ZRX PERP"
+  },
+  {
+    "address": "0xf2bb38e5fe4e244ef3ab82f218383ba4d358f895",
+    "nameTag": "Synthetix: Perps V2 Market WLDPERP"
+  },
+  {
+    "address": "0xe0d10647d92749da9bd5c250df2eef2e4110a8c3",
+    "nameTag": "Synthetix: Perps V2 Market XAGPERP"
+  },
+  {
+    "address": "0xd6a06a8c73265e471639bd953d24832bbcd548fd",
+    "nameTag": "Synthetix: Perps V2 Market XAUPERP"
+  },
+  {
+    "address": "0xff8bf0f6f9494b44aed91bb7868ab94b76dceaad",
+    "nameTag": "Synthetix: Perps V2 Market XLMPERP"
+  },
+  {
+    "address": "0x51a8e343841eed0439de080cdc5d96c4a8568860",
+    "nameTag": "Synthetix: Perps V2 Market XMRPERP"
+  },
+  {
+    "address": "0x995f710838a070d43d94d4420194bb09cfc332e6",
+    "nameTag": "Synthetix: Perps V2 Market XRPPERP"
+  },
+  {
+    "address": "0x577b7dadf6052d8dfa3c394143a4021b433a809c",
+    "nameTag": "Synthetix: Perps V2 Market XTZPERP"
+  },
+  {
+    "address": "0x555a66ae81b447f3e4533a8159e2462d17a7e7c3",
+    "nameTag": "Synthetix: Perps V2 Market YFIPERP"
+  },
+  {
+    "address": "0x8cc84e2c8be0b7999b65a6b2bcef4dff1f433ce1",
+    "nameTag": "Synthetix: Perps V2 Market ZECPERP"
+  },
+  {
+    "address": "0x7ea760077b84f5e9a5d8a51bf2a49b91d7cd5aa9",
+    "nameTag": "Synthetix: Perps V2 Proxy AAVEPERP"
+  },
+  {
+    "address": "0x4ddd30fff71bd03affd9a6e27c7c8c0cc9731b22",
+    "nameTag": "Synthetix: Perps V2 Proxy ADAPERP"
+  },
+  {
+    "address": "0xd5faaa459e5b3c118fd85fc0fd67f56310b1618d",
+    "nameTag": "Synthetix: Perps V2 Proxy ALGOPERP"
+  },
+  {
+    "address": "0xf9dd29d2fd9b38cd90e390c797f1b7e0523f43a9",
+    "nameTag": "Synthetix: Perps V2 Proxy APTPERP"
+  },
+  {
+    "address": "0x96f2842007021a4c5f06bcc72961701d66ff8465",
+    "nameTag": "Synthetix: Perps V2 Proxy ARBPERP"
+  },
+  {
+    "address": "0x5b6beb79e959aac2659bee60fe0d0885468bf886",
+    "nameTag": "Synthetix: Perps V2 Proxy ATOMPERP"
+  },
+  {
+    "address": "0x9615b6bfff240c44d3e33d0cd9a11f563a2e8d8b",
+    "nameTag": "Synthetix: Perps V2 Proxy AUDPERP"
+  },
+  {
+    "address": "0x509072a5ae4a87ac89fc8d64d94adcb44bd4b88e",
+    "nameTag": "Synthetix: Perps V2 Proxy AVAXPERP"
+  },
+  {
+    "address": "0xbb16c7b3244dfa1a6bf83fcce3ee4560837763cd",
+    "nameTag": "Synthetix: Perps V2 Proxy AXSPERP"
+  },
+  {
+    "address": "0x9de146b5663b82f44e5052dede2aa3fd4cbcdc99",
+    "nameTag": "Synthetix: Perps V2 Proxy BALPERP"
+  },
+  {
+    "address": "0xc203a12f298ce73e44f7d45a4f59a43dbffe204d",
+    "nameTag": "Synthetix: Perps V2 Proxy BCHPERP"
+  },
+  {
+    "address": "0x3a52b21816168dfe35be99b7c5fc209f17a0adb1",
+    "nameTag": "Synthetix: Perps V2 Proxy BLURPERP"
+  },
+  {
+    "address": "0x71f42ca320b3e9a8e4816e26de70c9b69eaf9d24",
+    "nameTag": "Synthetix: Perps V2 Proxy BNBPERP"
+  },
+  {
+    "address": "0x96690aae7cb7c4a9b5be5695e94d72827decc33f",
+    "nameTag": "Synthetix: Perps V2 Proxy BTCPERP"
+  },
+  {
+    "address": "0xa1ace9ce6862e865937939005b1a6c5ac938a11f",
+    "nameTag": "Synthetix: Perps V2 Proxy CELOPERP"
+  },
+  {
+    "address": "0x0940b0a96c5e1ba33aee331a9f950bb2a6f2fb25",
+    "nameTag": "Synthetix: Perps V2 Proxy COMPPERP"
+  },
+  {
+    "address": "0x59b007e9ea8f89b069c43f8f45834d30853e3699",
+    "nameTag": "Synthetix: Perps V2 Proxy CRVPERP"
+  },
+  {
+    "address": "0x2292865b2b6c837b7406e819200ce61c1c4f8d43",
+    "nameTag": "Synthetix: Perps V2 Proxy DOGEPERP"
+  },
+  {
+    "address": "0xb7059ed9950f2d9fdc0155fc0d79e63d4441e806",
+    "nameTag": "Synthetix: Perps V2 Proxy DOTPERP"
+  },
+  {
+    "address": "0xd5fbf7136b86021ef9d0be5d798f948dce9c0dea",
+    "nameTag": "Synthetix: Perps V2 Proxy DYDXPERP"
+  },
+  {
+    "address": "0x98ccbc721cc05e28a125943d69039b39be6a21e9",
+    "nameTag": "Synthetix: Perps V2 Proxy ENJPERP"
+  },
+  {
+    "address": "0x8b9b5f94aac2316f048025b3cbe442386e85984b",
+    "nameTag": "Synthetix: Perps V2 Proxy EOSPERP"
+  },
+  {
+    "address": "0x139f94e4f0e1101c1464a321cba815c34d58b5d9",
+    "nameTag": "Synthetix: Perps V2 Proxy ETCPERP"
+  },
+  {
+    "address": "0x88c8316e5cccce2e27e5bfcdac99f1251246196a",
+    "nameTag": "Synthetix: Perps V2 Proxy ETHBTCPERP"
+  },
+  {
+    "address": "0x50a40d947726ac1373dc438e7aadede9b237564d",
+    "nameTag": "Synthetix: Perps V2 Proxy ETHPERP"
+  },
+  {
+    "address": "0x4bf3c1af0faa689e3a808e6ad7a8d89d07bb9ec7",
+    "nameTag": "Synthetix: Perps V2 Proxy EURPERP"
+  },
+  {
+    "address": "0xd5fccd43205cef11fbaf9b38df15adbe1b186869",
+    "nameTag": "Synthetix: Perps V2 Proxy FILPERP"
+  },
+  {
+    "address": "0x2b3bb4c683bfc5239b029131eef3b1d214478d93",
+    "nameTag": "Synthetix: Perps V2 Proxy FLOKIPERP"
+  },
+  {
+    "address": "0x87ae62c5720dab812bdacba66cc24839440048d1",
+    "nameTag": "Synthetix: Perps V2 Proxy FLOWPERP"
+  },
+  {
+    "address": "0x2c5e2148bf3409659967fe3684fd999a76171235",
+    "nameTag": "Synthetix: Perps V2 Proxy FTMPERP"
+  },
+  {
+    "address": "0x5ed8d0946b59d015f5a60039922b870537d43689",
+    "nameTag": "Synthetix: Perps V2 Proxy FXSPERP"
+  },
+  {
+    "address": "0x27665271210acff4fab08ad9bb657e91866471f0",
+    "nameTag": "Synthetix: Perps V2 Proxy GBPPERP"
+  },
+  {
+    "address": "0xc18f85a6dd3bcd0516a1ca08d3b1f0a4e191a2c4",
+    "nameTag": "Synthetix: Perps V2 Proxy GMXPERP"
+  },
+  {
+    "address": "0x2fd9a39acf071aa61f92f3d7a98332c68d6b6602",
+    "nameTag": "Synthetix: Perps V2 Proxy ICPERP"
+  },
+  {
+    "address": "0x1dad8808d8ac58a0df912adc4b215ca3b93d6c49",
+    "nameTag": "Synthetix: Perps V2 Proxy INJPERP"
+  },
+  {
+    "address": "0x33d4613639603c845e61a02cd3d2a78be7d513dc",
+    "nameTag": "Synthetix: Perps V2 Proxy KNCPERP"
+  },
+  {
+    "address": "0x105f7f2986a2414b4007958b836904100a53d1ad",
+    "nameTag": "Synthetix: Perps V2 Proxy LDOPERP"
+  },
+  {
+    "address": "0x852210f0616ac226a486ad3387dbf990e690116a",
+    "nameTag": "Synthetix: Perps V2 Proxy LINKPERP"
+  },
+  {
+    "address": "0x152da6a8f32f25b56a32ef5559d4a2a96d09148b",
+    "nameTag": "Synthetix: Perps V2 Proxy LTCPERP"
+  },
+  {
+    "address": "0xaa94c874b91ef16c8b56a1c5b2f34e39366bd484",
+    "nameTag": "Synthetix: Perps V2 Proxy MATICPERP"
+  },
+  {
+    "address": "0x31a1659ca00f617e86dc765b6494afe70a5a9c1a",
+    "nameTag": "Synthetix: Perps V2 Proxy MAVPERP"
+  },
+  {
+    "address": "0xb25529266d9677e9171beaf333a0dea506c5f99a",
+    "nameTag": "Synthetix: Perps V2 Proxy MKRPERP"
+  },
+  {
+    "address": "0x074b8f19fc91d6b2eb51143e1f186ca0ddb88042",
+    "nameTag": "Synthetix: Perps V2 Proxy NEARPERP"
+  },
+  {
+    "address": "0x572f816f21f56d47e4c4fa577837bd3f58088676",
+    "nameTag": "Synthetix: Perps V2 Proxy ONEPERP"
+  },
+  {
+    "address": "0xf7d9bd13f877171f6c7f93f71bdf8e380335dc12",
+    "nameTag": "Synthetix: Perps V2 Proxy OPPERP"
+  },
+  {
+    "address": "0xc8fcd6fb4d15dd7c455373297def375a08942ece",
+    "nameTag": "Synthetix: Perps V2 Proxy PEPEPERP"
+  },
+  {
+    "address": "0x86bbb4e38ffa64f263e84a0820138c5d938ba86e",
+    "nameTag": "Synthetix: Perps V2 Proxy PERPPERP"
+  },
+  {
+    "address": "0x442b69937a0daf9d46439a71567fabe6cb69fbaf",
+    "nameTag": "Synthetix: Perps V2 Proxy RNDRPERP"
+  },
+  {
+    "address": "0x3d3f34416f60f77a0a6cc8e32abe45d32a7497cb",
+    "nameTag": "Synthetix: Perps V2 Proxy RPLPERP"
+  },
+  {
+    "address": "0xaf2e4c337b038eafa1de23b44c163d0008e49ead",
+    "nameTag": "Synthetix: Perps V2 Proxy RUNEPERP"
+  },
+  {
+    "address": "0x91cc4a83d026e5171525afcaed020123a653c2c9",
+    "nameTag": "Synthetix: Perps V2 Proxy SEIPERP"
+  },
+  {
+    "address": "0xfad0835dad2985b25ddab17eace356237589e5c7",
+    "nameTag": "Synthetix: Perps V2 Proxy SHIBPERP"
+  },
+  {
+    "address": "0xeaf0191bca9dd417202cef2b18b7515abff1e196",
+    "nameTag": "Synthetix: Perps V2 Proxy SOLPERP"
+  },
+  {
+    "address": "0x66fc48720f09ac386608fb65ede53bb220d0d5bc",
+    "nameTag": "Synthetix: Perps V2 Proxy STETHETHPERP"
+  },
+  {
+    "address": "0x69f5f465a46f324fb7bf3fd7c0d5c00f7165c7ea",
+    "nameTag": "Synthetix: Perps V2 Proxy STETHPERP"
+  },
+  {
+    "address": "0x0ea09d97b4084d859328ec4bf8ebcf9ecca26f1d",
+    "nameTag": "Synthetix: Perps V2 Proxy SUIPERP"
+  },
+  {
+    "address": "0x08388dc122a956887c2f736aaec4a0ce6f0536ce",
+    "nameTag": "Synthetix: Perps V2 Proxy SUSHIPERP"
+  },
+  {
+    "address": "0xd91db82733987513286b81e7115091d96730b62a",
+    "nameTag": "Synthetix: Perps V2 Proxy TRXPERP"
+  },
+  {
+    "address": "0x09f9d7aaa6bef9598c3b676c0e19c9786aa566a8",
+    "nameTag": "Synthetix: Perps V2 Proxy UMAPERP"
+  },
+  {
+    "address": "0xdccda0cfbee25b33ff4ccca64467e89512511bf6",
+    "nameTag": "Synthetix: Perps V2 Proxy UNIPERP"
+  },
+  {
+    "address": "0x031a448f59111000b96f016c37e9c71e57845096",
+    "nameTag": "Synthetix: Perps V2 Proxy USDTPERP"
+  },
+  {
+    "address": "0xb815eb8d3a9da3eddd926225c0fbd3a566e8c749",
+    "nameTag": "Synthetix: Perps V2 Proxy WLDPERP"
+  },
+  {
+    "address": "0x4308427c463caeaab50fff98a9dec569c31e4e87",
+    "nameTag": "Synthetix: Perps V2 Proxy XAGPERP"
+  },
+  {
+    "address": "0x1681212a0edaf314496b489ab57cb3a5ad7a833f",
+    "nameTag": "Synthetix: Perps V2 Proxy XAUPERP"
+  },
+  {
+    "address": "0x77da808032dcdd48077fa7c57afbf088713e09ad",
+    "nameTag": "Synthetix: Perps V2 Proxy XLMPERP"
+  },
+  {
+    "address": "0xdcb8438c979fa030581314e5a5df42bbfed744a0",
+    "nameTag": "Synthetix: Perps V2 Proxy XMRPERP"
+  },
+  {
+    "address": "0x549dbdffbd47bd5639f9348ebe82e63e2f9f777a",
+    "nameTag": "Synthetix: Perps V2 Proxy XRPPERP"
+  },
+  {
+    "address": "0xc645a757dd81c69641e010add2da894b4b7bc921",
+    "nameTag": "Synthetix: Perps V2 Proxy XTZPERP"
+  },
+  {
+    "address": "0x6940e7c6125a177b052c662189bb27692e88e9cb",
+    "nameTag": "Synthetix: Perps V2 Proxy YFIPERP"
+  },
+  {
+    "address": "0xf8ab6b9008f2290965426d3076bc9d2ea835575e",
+    "nameTag": "Synthetix: Perps V2 Proxy ZECPERP"
+  },
+  {
+    "address": "0x01a43786c2279dc417e7901d45b917afa51ceb9a",
+    "nameTag": "Synthetix: Perps V2 Proxy ZILPERP"
+  },
+  {
+    "address": "0x76bb1edf0c55ec68f4c8c7fb3c076b811b1a9b9f",
+    "nameTag": "Synthetix: PerpsV2 Proxy ZRXPERP"
+  },
+  {
+    "address": "0x4a16a42407aa491564643e1dfc1fd50af29794ef",
+    "nameTag": "Synthetix: Proxy Fee Pool"
+  },
+  {
+    "address": "0xa3a538ea5d5838dc32dde15946ccd74bdd5652ff",
+    "nameTag": "Synthetix: Proxys INR"
+  },
+  {
+    "address": "0x1cb059b7e74fd21665968c908806143e744d5f30",
+    "nameTag": "Synthetix: Read Proxy Address Resolver"
+  },
+  {
+    "address": "0x47ee58801c1ac44e54ff2651ae50525c5cfc66d0",
+    "nameTag": "Synthetix: Reward Escrow V2"
+  },
+  {
+    "address": "0x0c2ed9b23baf9c5f486e175d406728d3be46d2a6",
+    "nameTag": "Synthetix: Reward Escrow V2 Storage"
+  },
+  {
+    "address": "0x5d9187630e99dbce4bcab8733b76757f7f44aa2e",
+    "nameTag": "Synthetix: Rewards Distribution"
+  },
+  {
+    "address": "0x00b8d5a5e1ac97cb4341c4bc4367443c8776e8d9",
+    "nameTag": "Synthetix: sAAVE Token"
+  },
+  {
+    "address": "0x0e429603d3cb1dfae4e6f52add5fe82d96d77dac",
+    "nameTag": "Synthetix: SACCT Token"
+  },
+  {
+    "address": "0x0142f40c25ce1f1177ed131101fa19217396cb88",
+    "nameTag": "Synthetix: Safe Decimal Math"
+  },
+  {
+    "address": "0xb2b42b231c68cbb0b4bf2ffebf57782fd97d3da4",
+    "nameTag": "Synthetix: sAVAX Token"
+  },
+  {
+    "address": "0x298b9b95708152ff6968aafd889c6586e9169f1d",
+    "nameTag": "Synthetix: sBTC Token"
+  },
+  {
+    "address": "0xe405de8f52ba7559f9df3c368500b6e6ae6cee49",
+    "nameTag": "Synthetix: sETH Token"
+  },
+  {
+    "address": "0xfbc4198702e81ae77c06d58f81b629bdf36f0a71",
+    "nameTag": "Synthetix: sEUR Token"
+  },
+  {
+    "address": "0x253914cf059f4c3e277c28060c404acfc38fb6e2",
+    "nameTag": "Synthetix: Signed Safe Decimal Math"
+  },
+  {
+    "address": "0xc5db22719a06418028a40a9b5e9a7c02959d0d08",
+    "nameTag": "Synthetix: sLINK Token"
+  },
+  {
+    "address": "0x81ddfac111913d3d5218dea999216323b7cd6356",
+    "nameTag": "Synthetix: sMATIC Token"
+  },
+  {
+    "address": "0x8700daec35af8ff88c16bdf0418774cb3d7599b4",
+    "nameTag": "Synthetix: SNX Token"
+  },
+  {
+    "address": "0xb2f30a7c980f052f02563fb518dcc39e6bf38175",
+    "nameTag": "Synthetix: snxUSD Token"
+  },
+  {
+    "address": "0x38908ee087d7db73a1bd1ecab9aab8e8c9c74595",
+    "nameTag": "Synthetix: Spot Market"
+  },
+  {
+    "address": "0x8b2f7ae8ca8ee8428b6d76de88326bb413db2766",
+    "nameTag": "Synthetix: sSOL Token"
+  },
+  {
+    "address": "0xfd49c7ee330fe060ca66fee33d49206eb96f146d",
+    "nameTag": "Synthetix: Staking Rewards SNX WETH"
+  },
+  {
+    "address": "0x7e11c004d20b502729918687e6e6777b28499085",
+    "nameTag": "Synthetix: Staking Rewards sUSD DAI"
+  },
+  {
+    "address": "0xf5a6115aa582fd1beea22bc93b7dc7a785f60d03",
+    "nameTag": "Synthetix: sUNI Token"
+  },
+  {
+    "address": "0x8c6f28f2f1a3c87f0f938b96d27520d9751ec8d9",
+    "nameTag": "Synthetix: sUSD Token"
+  },
+  {
+    "address": "0xa997bd647aee62ef03b41e6fbfadab43d8e57535",
+    "nameTag": "Synthetix: Synth Redeemer"
+  },
+  {
+    "address": "0x5ea2544551448cf6dcc1d853addd663d480fd8d3",
+    "nameTag": "Synthetix: synth sAAVE"
+  },
+  {
+    "address": "0x5d7569cd81dc7c8e7fa201e66266c9d0c8a3712d",
+    "nameTag": "Synthetix: Synth sAVAX"
+  },
+  {
+    "address": "0xc4be4583bc0307c56cf301975b2b2b1e5f95fcb2",
+    "nameTag": "Synthetix: Synth sBTC"
+  },
+  {
+    "address": "0x0681883084b5de1564fe2706c87affd77f1677d5",
+    "nameTag": "Synthetix: Synth sETH"
+  },
+  {
+    "address": "0xb16ef128b11e457afa07b09fce52a01f5b05a937",
+    "nameTag": "Synthetix: Synth sEUR"
+  },
+  {
+    "address": "0x2302d7f7783e2712c48aa684451b9d706e74f299",
+    "nameTag": "Synthetix: Synth sLINK"
+  },
+  {
+    "address": "0xf5d0bfbc617d3969c1ace93490a76ce80db1ed0e",
+    "nameTag": "Synthetix: Synth sMATIC"
+  },
+  {
+    "address": "0x91dbc6f587d043fefbaad050ab48696b30f13d89",
+    "nameTag": "Synthetix: Synth sSOL"
+  },
+  {
+    "address": "0xc19d27d1da572d582723c1745650e51ac4fc877f",
+    "nameTag": "Synthetix: Synth sUNI"
+  },
+  {
+    "address": "0xd1599e478cc818afa42a4839a6c665d9279c3e50",
+    "nameTag": "Synthetix: Synth sUSD"
+  },
+  {
+    "address": "0x87b1481c82913301fc6c884ac266a7c430f92cfa",
+    "nameTag": "Synthetix: Synth Util"
+  },
+  {
+    "address": "0x8f7b21bf5f8490faa63386f6f6434c6ae8d8a120",
+    "nameTag": "Synthetix: Synthetix Bridge To Base"
+  },
+  {
+    "address": "0xffffffaeff0b96ea8e4f94b2253f31abdd875847",
+    "nameTag": "Synthetix: Synthetix Core"
+  },
+  {
+    "address": "0x45c55bf488d3cb8640f12f63cbedc027e8261e79",
+    "nameTag": "Synthetix: Synthetix Debt Share"
+  },
+  {
+    "address": "0x06c6d063896ac733673c4474e44d9268f2402a55",
+    "nameTag": "Synthetix: Synthetix Escrow"
+  },
+  {
+    "address": "0x9770239d49db97e77fc5adcb5413654c9e45a510",
+    "nameTag": "Synthetix: Synthetix State"
+  },
+  {
+    "address": "0x34783a738ddc355cd7c737d4101b20622681332a",
+    "nameTag": "Synthetix: SynthsAAVE"
+  },
+  {
+    "address": "0x368a5126ff8e659004b6f9c9f723e15632e2b428",
+    "nameTag": "Synthetix: SynthsAVAX Token"
+  },
+  {
+    "address": "0x421def861d623f7123dfe0878d86e9576cbb3975",
+    "nameTag": "Synthetix: SynthsBTC Token"
+  },
+  {
+    "address": "0xe9dcea0136fefc76c4e639ec60cce70482e2acf7",
+    "nameTag": "Synthetix: SynthsETH Token"
+  },
+  {
+    "address": "0xdedb0b04aff1525bb4b6167f00e61601690c1ff2",
+    "nameTag": "Synthetix: SynthsEUR Token"
+  },
+  {
+    "address": "0x34c2360ffe5d21542f76e991ffd104f281d4b3fb",
+    "nameTag": "Synthetix: SynthsINR Token"
+  },
+  {
+    "address": "0x0f6877e0bb54a0739c6173a814b39d5127804123",
+    "nameTag": "Synthetix: SynthsLINK Token"
+  },
+  {
+    "address": "0xf49c194954b6b91855ac06d6c88be316da60ed96",
+    "nameTag": "Synthetix: SynthsMATIC Token"
+  },
+  {
+    "address": "0x04b50a5992ea2281e14d43494d656698ea9c24dd",
+    "nameTag": "Synthetix: SynthsSOL Tokrn"
+  },
+  {
+    "address": "0xcf2e165d2359e3c4dff1e10ec40dbb5a745223a9",
+    "nameTag": "Synthetix: SynthsUNI Token"
+  },
+  {
+    "address": "0xdfa2d3a0d32f870d87f8a0d7aa6b9cdeb7bc5adb",
+    "nameTag": "Synthetix: SynthsUSD Token"
+  },
+  {
+    "address": "0xe28b785ecc2cb5fe949f5f31a5aec3989f764838",
+    "nameTag": "Synthetix: System Settings"
+  },
+  {
+    "address": "0x6fed9c8de9886557aa7f4bf7784cb579d38f833c",
+    "nameTag": "Synthetix: System Settings Lib"
+  },
+  {
+    "address": "0xe8c41be1a167314abaf2423b72bf8da826943ffd",
+    "nameTag": "Synthetix: System Status"
+  },
+  {
+    "address": "0xaf918f4a72bc34e59dfaf65866fec87947f1f590",
+    "nameTag": "Synthetix: Token State sAAVE"
+  },
+  {
+    "address": "0x2114d1c571cb541f3416a65f8bccff9bb9e55dc5",
+    "nameTag": "Synthetix: Token State sAVAX"
+  },
+  {
+    "address": "0xa9e630952522e3f110322711f424528af894e307",
+    "nameTag": "Synthetix: Token State sBTC"
+  },
+  {
+    "address": "0xec3665f7e696b0ad0d04ae5161b18782d48cd1fd",
+    "nameTag": "Synthetix: Token State sETH"
+  },
+  {
+    "address": "0x7aff10fc89b162c7abf77974d190e7959cb456f5",
+    "nameTag": "Synthetix: Token State sEUR"
+  },
+  {
+    "address": "0xfe33ae95a9f0da8a845af33516edc240dcd711d6",
+    "nameTag": "Synthetix: Token State sINR"
+  },
+  {
+    "address": "0x08a008eea07d3cc7ca1913eec3468c10f8f79e6a",
+    "nameTag": "Synthetix: Token State sLINK"
+  },
+  {
+    "address": "0x937c9e1d18beb4f8e1bcb0dd7a612ca6012517a3",
+    "nameTag": "Synthetix: Token State sMATIC"
+  },
+  {
+    "address": "0x6825dd6b5b83fbbff1049a44dc808a10fe9a6719",
+    "nameTag": "Synthetix: Token State sSOL"
+  },
+  {
+    "address": "0xf32b995fe4ddf540c848236db9638d137aa9b6ff",
+    "nameTag": "Synthetix: Token State sUNI"
+  },
+  {
+    "address": "0x92bac115d89ca17fd02ed9357ceca32842acb4c2",
+    "nameTag": "Synthetix: Token State sUSD"
+  },
+  {
+    "address": "0xb9c6ca25452e7f6d0d3340ce1e9b573421afc2ee",
+    "nameTag": "Synthetix: Token State Synthetix"
+  },
+  {
+    "address": "0x2dcad1a019fba8301b77810ae14007cc88ed004b",
+    "nameTag": "Synthetix: Trading Rewards"
+  },
+  {
+    "address": "0x27be2efad45debd732c1ebf5c9f7b49d498d4a93",
+    "nameTag": "Synthetix: Wrapper Factory"
+  }
+]

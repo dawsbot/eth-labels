@@ -14,6 +14,7 @@ module.exports = {
     node: true,
   },
   rules: {
+    "no-shadow": "error",
     "@typescript-eslint/consistent-type-imports": "error",
     "@typescript-eslint/naming-convention": [
       "error",

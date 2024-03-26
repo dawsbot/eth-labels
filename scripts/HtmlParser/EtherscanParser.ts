@@ -7,7 +7,7 @@ import type {
 } from "../AnyscanPuller";
 import { HtmlParser } from "./HtmlParser";
 
-export class EtherscanParser extends HtmlParser {
+export class EtherscanHtmlParser extends HtmlParser {
   public selectAllAccountAddresses(
     html: string,
     subcatId: string = "0",
