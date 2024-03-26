@@ -14,18 +14,35 @@
 
 ## Ethereum
 
-| Label                                                                                              | CSV                                              | JSON                                               | Updated      |
+[View labels here](data/etherscan)
+
+## Optimism
+
+[View labels here](data/optimism)
+
+## Base
+
+[View labels here](data/basescan)
+
+<!-- | Label                                                                                              | CSV                                              | JSON                                               | Updated      |
 | -------------------------------------------------------------------------------------------------- | ------------------------------------------------ | -------------------------------------------------- | ------------ |
 | [`exchange`](https://etherscan.io/accounts/label/exchange) (Centralized Exchanges)                 | [View CSV](./src/mainnet/exchange/all.csv)       | [View JSON](./src/mainnet/exchange/all.json)       | May 9, 2022  |
 | [`phish-hack`](https://etherscan.io/accounts/label/phish-hack) (Phishing/Hacking)                  | [View CSV](./src/mainnet/phish-hack/all.csv)     | [View JSON](./src/mainnet/phish-hack/all.json)     | May 15, 2022 |
 | [`genesis`](https://etherscan.io/accounts/label/genesis) (Null/black hole addresses)               | [View CSV](./src/mainnet/genesis/all.csv)        | [View JSON](./src/mainnet/genesis/all.json)        | May 21, 2022 |
-| [`token-contract`](https://etherscan.io/accounts/label/token-contract) (ERC-20 and similar tokens) | [View CSV](./src/mainnet/token-contract/all.csv) | [View JSON](./src/mainnet/token-contract/all.json) | May 25, 2022 |
+| [`token-contract`](https://etherscan.io/accounts/label/token-contract) (ERC-20 and similar tokens) | [View CSV](./src/mainnet/token-contract/all.csv) | [View JSON](./src/mainnet/token-contract/all.json) | May 25, 2022 | -->
 
-More chains coming soon
+More chains coming soon (March/April 2024)
 
-<br/>
+## Q & A
 
-## Install
+- Where does this data come from?
+  - This data is already organized by the kind folks at Etherscan. Unfortunately that data is not accessible for researchers, so we've copied the data out and into a more shareable format here.
+
+## Roadmap
+
+[View roadmap here](https://github.com/users/dawsbot/projects/3)
+
+<!-- ## Install
 
 ```sh
 npm install --save evm-labels
@@ -104,4 +121,4 @@ tokenContract.isTokenContractAddress(OATHER_ADDRESS);
 
 The pulling method from Etherscan involves running a TypeScript file locally which performs the browser automation and data pulling + writing to your local filesystem.
 
-The file of concern is `scripts/puppeteer-fetch-all.ts` and can be executed with `npx tsx scripts/puppeteer-fetch-all.ts`
+The file of concern is `scripts/puppeteer-fetch-all.ts` and can be executed with `npx tsx scripts/puppeteer-fetch-all.ts` -->
