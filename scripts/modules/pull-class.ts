@@ -1,14 +1,15 @@
+import { Browser, Page } from "playwright";
 import { parseError } from "./error/error-parse";
 
 abstract class PullComponent {
-  browser: any;
-  page: any;
+  browser: Browser;
+  page: Page;
   isDebug: boolean;
 
   abstract baseUrl: string;
   abstract name: string;
 
-  constructor(browser: any, page: any, isDebug: boolean) {
+  constructor(browser: Browser, page: Page, isDebug: boolean) {
     this.browser = browser;
     this.page = page;
     this.isDebug = isDebug;
@@ -16,7 +17,7 @@ abstract class PullComponent {
 
   abstract pull(): Promise<void>;
 
-  protected log(...args: any[]): void {
+  protected log(...args: string[]): void {
     if (this.isDebug) {
       console.log(...args);
     }
@@ -39,9 +40,9 @@ abstract class PullComponent {
     await this.page.goto(url);
     try {
       await this.page.waitForSelector(waitForSelector, { timeout: 10_000 });
-    } catch (error: any) {
+    } catch (error) {
       if (this.isDebug) {
-        parseError(error);
+        parseError(error as Error);
       }
     }
     // Get the HTML content of the entire page

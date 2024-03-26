@@ -1,10 +1,6 @@
 import { Browser, Page, firefox } from "playwright";
-import z from "zod";
-import * as cheerio from "cheerio";
 import { parseError } from "./error/error-parse";
 import "dotenv/config";
-import fs from "fs";
-import path from "path";
 import PullComponent from "./pull-class";
 
 // scraping modules
@@ -13,8 +9,8 @@ import basescan from "./providers/basescan";
 import { exec } from "child_process";
 
 class Main {
-  private browser: any;
-  private page: any;
+  private browser: Browser | null;
+  private page: Page | null;
   private isDebug: boolean;
   private testOne: boolean;
   private testProvider: string;
@@ -41,7 +37,7 @@ class Main {
     await this.closeBrowser();
   }
 
-  private log(...args: any[]): void {
+  private log(...args: string[]): void {
     if (this.isDebug) {
       console.log(...args);
     }
@@ -77,7 +73,7 @@ class Main {
     this.log("------ master pull finished ------\n");
   }
 
-  private async openBrowser(): Promise<{ browser: any; page: any }> {
+  private async openBrowser(): Promise<{ browser: Browser; page: Page }> {
     this.log("Opening browser");
     const browser = await firefox.launch({ headless: false });
     const context = await browser.newContext();
@@ -88,11 +84,11 @@ class Main {
 
   private async closeBrowser(): Promise<void> {
     this.log("Closing browser");
-    await this.browser.close();
+    if (this.browser) await this.browser.close();
     this.log("Browser closed");
   }
 }
-(async () => {
+async function mainModule() {
   try {
     const args = process.argv.slice(2);
     const main = new Main(args);
@@ -101,19 +97,17 @@ class Main {
     await main.run();
     await main.destroy();
 
-    exec(
-      'npx prettier --write "**/*"',
-      (error: any, stdout: any, stderr: any) => {
-        if (error) {
-          //   console.error(`Prettier command failed: ${error}`);
-          return;
-        }
-        console.log(`Prettier command executed successfully`);
-      },
-    );
-  } catch (error: any) {
-    parseError(error);
+    exec('npx prettier --write "**/*"', (error: Error | null) => {
+      if (error) {
+        //   console.error(`Prettier command failed: ${error}`);
+        return;
+      }
+      console.log(`Prettier command executed successfully`);
+    });
+  } catch (error) {
+    parseError(error as Error);
     process.exit(1);
   }
-})();
+}
+await mainModule();
 export default Main;
