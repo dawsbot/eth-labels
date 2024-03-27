@@ -14,6 +14,19 @@ module.exports = {
     node: true,
   },
   rules: {
+    "@typescript-eslint/explicit-member-accessibility": [
+      "error",
+      {
+        accessibility: "explicit",
+        overrides: {
+          accessors: "explicit",
+          constructors: "explicit",
+          methods: "explicit",
+          properties: "explicit",
+          parameterProperties: "explicit",
+        },
+      },
+    ],
     "no-shadow": "error",
     "@typescript-eslint/consistent-type-imports": "error",
     "@typescript-eslint/naming-convention": [
