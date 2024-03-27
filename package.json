@@ -63,6 +63,7 @@
     "zod": "^3.22.4"
   },
   "lint-staged": {
+    "./data/**/*.json": "npx tsx scripts/combine.ts",
     "*": "prettier -u --write"
   }
 }

@@ -37,9 +37,9 @@ export abstract class HtmlParser {
     return anchors;
   };
 
-  abstract selectAllTokenAddresses(html: string): TokenRows;
+  public abstract selectAllTokenAddresses(html: string): TokenRows;
 
-  abstract selectAllAccountAddresses(
+  public abstract selectAllAccountAddresses(
     html: string,
     subcatId: string,
   ): AccountRows;
