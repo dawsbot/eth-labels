@@ -49,7 +49,7 @@ export class AnyscanPuller {
    * @example
    * const etherscanPuller = new AnyscanPuller(etherscan);
    */
-  constructor(directoryName: keyof typeof scanConfig) {
+  public constructor(directoryName: keyof typeof scanConfig) {
     const baseUrl: string = scanConfig[directoryName].website;
     this.#baseUrl = z.string().url().startsWith("https://").parse(baseUrl);
     const filenameRegex = /^[a-z0-9_\-.]+$/;
@@ -57,10 +57,10 @@ export class AnyscanPuller {
     this.#htmlParser = scanConfig[directoryName].htmlParser;
   }
 
-  private fetchAllLabels = async (page: Page): Promise<AllLabels> => {
+  #fetchAllLabels = async (page: Page): Promise<AllLabels> => {
     const PAGE_URL = `${this.#baseUrl}/labelcloud`;
 
-    const labelCloudHtml = await this.fetchPageHtml(
+    const labelCloudHtml = await this.#fetchPageHtml(
       PAGE_URL,
       page,
       `button[data-url]`,
@@ -92,7 +92,7 @@ export class AnyscanPuller {
     return allLabels;
   };
 
-  private async fetchPageHtml(
+  async #fetchPageHtml(
     url: string,
     page: Page,
     waitForSelector: string,
@@ -101,7 +101,7 @@ export class AnyscanPuller {
     await page.goto(url);
     try {
       await page.waitForSelector(waitForSelector, { timeout: 15_000 });
-      await this.randomSleep();
+      await this.#randomSleep();
     } catch (error) {
       parseError(error);
     }
@@ -113,7 +113,7 @@ export class AnyscanPuller {
   /**
    * Enters a username and password, but submit is not automated so that operator can submit captcha.
    */
-  private async login(page: Page) {
+  async #login(page: Page) {
     await page.goto(`${this.#baseUrl}/login`);
     await page.fill(
       "#ContentPlaceHolder1_txtUserName",
@@ -129,8 +129,8 @@ export class AnyscanPuller {
     console.log(`✅ Login completed!`);
   }
 
-  private pullAllTokenRows = async (url: string, page: Page) => {
-    const addressesHtml = await this.fetchPageHtml(
+  #pullAllTokenRows = async (url: string, page: Page) => {
+    const addressesHtml = await this.#fetchPageHtml(
       url,
       page,
       "tr > td > div > a",
@@ -139,9 +139,9 @@ export class AnyscanPuller {
       this.#htmlParser.selectAllTokenAddresses(addressesHtml);
     return allAddresses;
   };
-  private pullAccountRows = async (url: string, page: Page) => {
+  #pullAccountRows = async (url: string, page: Page) => {
     const addressSelector = "tr > td > span a";
-    const addressesHtml = await this.fetchPageHtml(url, page, addressSelector);
+    const addressesHtml = await this.#fetchPageHtml(url, page, addressSelector);
 
     const $ = cheerio.load(addressesHtml);
     let allAddresses: AccountRows = [];
@@ -156,7 +156,7 @@ export class AnyscanPuller {
       });
       for (const subcatId of subcatIds) {
         const subcatUrl = `${url}&subcatid=${subcatId}`;
-        const subcatAddressesHtml = await this.fetchPageHtml(
+        const subcatAddressesHtml = await this.#fetchPageHtml(
           subcatUrl,
           page,
           addressSelector,
@@ -177,7 +177,7 @@ export class AnyscanPuller {
     return allAddresses;
   };
 
-  private sortTokenRows(tokenRows: TokenRows) {
+  #sortTokenRows(tokenRows: TokenRows) {
     const sortedAddresses = tokenRows.sort((a, b) => {
       const addressA = a.address.toLowerCase();
       const addressB = b.address.toLowerCase();
@@ -191,7 +191,7 @@ export class AnyscanPuller {
     });
     return sortedAddresses;
   }
-  private sortAccountAdresses(accountAddresses: AccountRows) {
+  #sortAccountAdresses(accountAddresses: AccountRows) {
     const sortedAddresses = accountAddresses.sort((a, b) => {
       const nameTagA = a.nameTag.toLowerCase();
       const nameTagB = b.nameTag.toLowerCase();
@@ -214,7 +214,7 @@ export class AnyscanPuller {
     });
     return sortedAddresses;
   }
-  private async randomSleep() {
+  async #randomSleep() {
     const randomDelay = Math.random() * 600;
     await sleep(randomDelay + 500);
   }
@@ -230,8 +230,8 @@ export class AnyscanPuller {
       fs.mkdirSync(rootDirectory);
     }
 
-    await this.login(page);
-    const allLabels = await this.fetchAllLabels(page);
+    await this.#login(page);
+    const allLabels = await this.#fetchAllLabels(page);
 
     bar1.start(allLabels.tokens.length + allLabels.accounts.length, 0);
 
@@ -239,12 +239,12 @@ export class AnyscanPuller {
     for (const [index, url] of allLabels.tokens.entries()) {
       bar1.update(index);
       // fetch all addresses from all tables
-      const tokenRows = await this.pullAllTokenRows(url, page);
+      const tokenRows = await this.#pullAllTokenRows(url, page);
       const labelName = z.string().parse(url.split("/").pop()?.split("?")[0]);
 
       if (tokenRows.length > 0) {
         const outputDirectory = path.join(rootDirectory, labelName);
-        const sortedTokenRows = this.sortTokenRows(tokenRows);
+        const sortedTokenRows = this.#sortTokenRows(tokenRows);
         if (!fs.existsSync(outputDirectory)) {
           fs.mkdirSync(outputDirectory);
         }
@@ -264,7 +264,7 @@ export class AnyscanPuller {
     for (const [index, url] of allLabels.accounts.entries()) {
       bar1.update(allLabels.tokens.length + index);
       // fetch all addresses from all tables
-      const accountRows = await this.pullAccountRows(url, page);
+      const accountRows = await this.#pullAccountRows(url, page);
       const labelName = z.string().parse(url.split("/").pop()?.split("?")[0]);
 
       if (accountRows.length > 0) {
@@ -272,7 +272,7 @@ export class AnyscanPuller {
         if (!fs.existsSync(outputDirectory)) {
           fs.mkdirSync(outputDirectory);
         }
-        const sortedAccountRows = this.sortAccountAdresses(accountRows);
+        const sortedAccountRows = this.#sortAccountAdresses(accountRows);
         fs.writeFileSync(
           path.join(outputDirectory, "accounts.json"),
           // TODO: use prettier instead of "null", 2
