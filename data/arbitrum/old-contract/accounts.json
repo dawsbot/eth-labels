@@ -1,0 +1,110 @@
+[
+  {
+    "address": "0xbcb90845614747e561ceb9e08a79e22c5d3555e1",
+    "nameTag": "1minBET: Old 1MB Token"
+  },
+  {
+    "address": "0x3d5ba97fa90647b5dd6824e845ad4e505f91ac69",
+    "nameTag": "ACE Poker: Old ACE Token"
+  },
+  {
+    "address": "0x4b2c16bf8e7b4977343b5fc85c8384cb674d9091",
+    "nameTag": "Astra DAO: Old ASTRA Token"
+  },
+  {
+    "address": "0x13799128815a55f4df67392d714cf5cb9caf60f4",
+    "nameTag": "Darwin Protocol: Old DARWIN Token"
+  },
+  {
+    "address": "0xde12c7959e1a72bbe8a5f7a1dc8f8eef9ab011b3",
+    "nameTag": "Deus Finance: Old DEI Token"
+  },
+  {
+    "address": "0xa4914b824ef261d4ed0ccecec29500862d57c0a1",
+    "nameTag": "DFX Finance: Old DFX Token"
+  },
+  {
+    "address": "0x6e7118b82fb9608342c288a90eeb5e614aaee2e9",
+    "nameTag": "Edgeware: Old EDG Token"
+  },
+  {
+    "address": "0x45d55eadf0ed5495b369e040af0717eafae3b731",
+    "nameTag": "ELLERIUM: Old ELM Token"
+  },
+  {
+    "address": "0xa74aa7dd87439dc8eb00e1ff6476d7d9b6989890",
+    "nameTag": "Evil Kongs: Old AHEGAO Token"
+  },
+  {
+    "address": "0x6419ed7e537bc48bd567da36217e910fe4d5e6da",
+    "nameTag": "Funarcade: Old FAT Token"
+  },
+  {
+    "address": "0x1c7f32699ff9163f928089c0a4d6ee5ad5885c6f",
+    "nameTag": "GamblerShiba: Old AGS Token"
+  },
+  {
+    "address": "0x700da1f391396e0f4bc0b6210833f8660570f673",
+    "nameTag": "Goldbank Finance: Old GB Token"
+  },
+  {
+    "address": "0xd5a56b510247db33695b0bea29992ac6670081ea",
+    "nameTag": "Goons of Balatroon: Old GOB Token"
+  },
+  {
+    "address": "0xf4fe727c855c2d395852ca43f645cab4b504af23",
+    "nameTag": "Hydranet: Old HDX Token"
+  },
+  {
+    "address": "0x5ecc0446e8aa72b9bd74b8935687e1e4ca3478d3",
+    "nameTag": "Lodestar Finance: Old LODE Token"
+  },
+  {
+    "address": "0xb261104a83887ae92392fb5ce5899fcfe5481456",
+    "nameTag": "NFTEarth: Old NFTE Token"
+  },
+  {
+    "address": "0x4dad357726b41bb8932764340ee9108cc5ad33a0",
+    "nameTag": "NitroShiba: Old NISHIB Token"
+  },
+  {
+    "address": "0x30424981429c8b944e9d44d5bd992ee874f1b188",
+    "nameTag": "OpenOcean: Old OOE Token"
+  },
+  {
+    "address": "0x0c4681e6c0235179ec3d4f4fc4df3d14fdd96017",
+    "nameTag": "Radiant: Old RDNT Token"
+  },
+  {
+    "address": "0x7ca0b5ca80291b1feb2d45702ffe56a7a53e7a97",
+    "nameTag": "Radiate Protocol: Old RADT Token"
+  },
+  {
+    "address": "0xd6c0156e85decdf2983c7a2c4a3015ed268d6f8a",
+    "nameTag": "Roseon: Old ROSX Token"
+  },
+  {
+    "address": "0xec6d9337ba3971ce730f6bff1a8372ad91d2559b",
+    "nameTag": "Satoshi Airlines: Old SAT Token"
+  },
+  {
+    "address": "0xa6d517da5bee47a286c66aae636fafee886d32e4",
+    "nameTag": "Satoshi Airlines: Old SAT Token 2"
+  },
+  {
+    "address": "0x0b60c3f7c9e0620b9ffc8f0b58339bda5b2fdfd4",
+    "nameTag": "Second City Studio: Old $CITY Token"
+  },
+  {
+    "address": "0x23a941036ae778ac51ab04cea08ed6e2fe103614",
+    "nameTag": "The Graph: Old GRT Token"
+  },
+  {
+    "address": "0x9ca1babb22c9379fa6a1a966600cb1b9d1bd4a0c",
+    "nameTag": "VITALTALE: Old VTTL Token"
+  },
+  {
+    "address": "0xecf2adaff1de8a512f6e8bfe67a2c836edb25da3",
+    "nameTag": "Wonderful Memories: Old wMEMO Token"
+  }
+]
