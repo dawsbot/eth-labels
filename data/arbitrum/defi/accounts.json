@@ -1,0 +1,38 @@
+[
+  {
+    "address": "0x72e6b59d4a90ab232e55d4bb7ed2dd17494d62fb",
+    "nameTag": "BOB: BobVault"
+  },
+  {
+    "address": "0xb9a0e80a704b92bda8dba37b9112f5570f32d6bc",
+    "nameTag": "CheckDot: Bridge"
+  },
+  {
+    "address": "0x750129c21c7846cfe0ce2c966d84c0bca5658497",
+    "nameTag": "Radiant: DAO Treasury"
+  },
+  {
+    "address": "0xc32eb36f886f638fffd836df44c124074cfe3584",
+    "nameTag": "Shell Protocol"
+  },
+  {
+    "address": "0xeff77e179f6abb49a5bf0ec25c920b495e110c3b",
+    "nameTag": "Zyberswap: Earn V1"
+  },
+  {
+    "address": "0xf69223b75d9cf7c454bb44e30a3772202bee72cf",
+    "nameTag": "Zyberswap: ETH v2LP"
+  },
+  {
+    "address": "0x40f5af7171b35963dba9cd9952d3f11f5e32dd30",
+    "nameTag": "Zyberswap: Infinite Farm V3"
+  },
+  {
+    "address": "0x9ba666165867e916ee7ed3a3ae6c19415c2fbddd",
+    "nameTag": "Zyberswap: MasterChef V1"
+  },
+  {
+    "address": "0x9cb8ed8102b6c65d8cae931394352d7a676ce12a",
+    "nameTag": "Zyberswap: Vault V1"
+  }
+]

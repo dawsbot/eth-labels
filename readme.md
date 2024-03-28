@@ -16,6 +16,10 @@
 
 [View labels here](data/etherscan)
 
+## Arbitrum
+
+[View labels here](data/arbitrum)
+
 ## Optimism
 
 [View labels here](data/optimism)
