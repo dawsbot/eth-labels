@@ -29,18 +29,18 @@ function combineFiles(dataDir: string) {
   }
 }
 
-function runCombine() {
+async function runCombine() {
   const dataFolderPath: string = path.join("..", "data");
   const providers = fileUtilities.readDir(dataFolderPath);
-  providers.forEach((provider) => {
+  for (const provider of providers) {
     const providerPath: string = path.join(dataFolderPath, provider);
     console.log("Processing folder:", providerPath);
     const labels = fileUtilities.readDir(providerPath);
-    labels.forEach((label) => {
+    for (const label of labels) {
       const labelPath: string = path.join(providerPath, label);
-      void combineFiles(labelPath);
-    });
-  });
+      await combineFiles(labelPath);
+    }
+  }
   console.log("combine.json file created successfully!");
 }
-runCombine();
+await runCombine();
