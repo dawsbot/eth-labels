@@ -1,0 +1,98 @@
+[
+  {
+    "address": "0x5444c71cdd5ed85b6d51a297175bf71914e7944d",
+    "nameTag": "Jones DAO: Airdrop"
+  },
+  {
+    "address": "0xc1d9682db60955d64f263025b282acbf8cda55b7",
+    "nameTag": "Jones DAO: Contributor Vesting"
+  },
+  {
+    "address": "0xa99096428f1bd2065dcaa141c59c46729cce68c8",
+    "nameTag": "Jones DAO: Contributor Vesting 2"
+  },
+  {
+    "address": "0xba3386d94fc593a1e9a5b57ff02524396080f7b4",
+    "nameTag": "Jones DAO: DPX Vault"
+  },
+  {
+    "address": "0x6be861aa87009331bf62e22d418ab666e88b1354",
+    "nameTag": "Jones DAO: ETH Vault"
+  },
+  {
+    "address": "0x9a62e407028961eac4538453cb5d97038b69c814",
+    "nameTag": "Jones DAO: gOHM Vault"
+  },
+  {
+    "address": "0x39c1442223a30e14066302b2c80aa660ab007ddb",
+    "nameTag": "Jones DAO: Guarded Launch Epoch Claim"
+  },
+  {
+    "address": "0xf018865b26ffab9cd1735dcca549d95b0cb9ea19",
+    "nameTag": "Jones DAO: jDPX Token"
+  },
+  {
+    "address": "0x5723be83199c9ec68ed0ac979e98381224870e7f",
+    "nameTag": "Jones DAO: jDPX-DPX LP Staking Rewards"
+  },
+  {
+    "address": "0xbac58e8b57935a0b60d5cb4cd9f6c21049595f04",
+    "nameTag": "Jones DAO: jETH-ETH LP StakingRewards"
+  },
+  {
+    "address": "0x5375616bb6c52a90439ff96882a986d8fcdce421",
+    "nameTag": "Jones DAO: jgOHM Token"
+  },
+  {
+    "address": "0x7ece38dbe9d61d0d9bf2d804a87a7d21b5937a56",
+    "nameTag": "Jones DAO: jgOHM-gOHM LP Staking Rewards"
+  },
+  {
+    "address": "0xf1a26cf6309a59794da29b5b2e6fabd3070d470f",
+    "nameTag": "Jones DAO: JONES Staking Rewards"
+  },
+  {
+    "address": "0x10393c20975cf177a3513071bc110f7962cd67da",
+    "nameTag": "Jones DAO: JONES Token"
+  },
+  {
+    "address": "0x360a766f30f0ba57d2865efb32502fb800b14dd3",
+    "nameTag": "Jones DAO: JONES-ETH LP Staking Rewards"
+  },
+  {
+    "address": "0x13f6a63867046107780bc3febdee90e7afcdfd99",
+    "nameTag": "Jones DAO: JONES-USDC LP Staking Rewards"
+  },
+  {
+    "address": "0xf164acdb5dcf5f855b98f9ba8ca73ca300c63d4c",
+    "nameTag": "Jones DAO: Private Vesting"
+  },
+  {
+    "address": "0xfa82f1ba00b0697227e2ad6c668abb4c50ca0b1f",
+    "nameTag": "Jones DAO: Protocol Operational Treasury Multisig"
+  },
+  {
+    "address": "0x2c2082e4062bfd02141adc86cbd5e437201a1cf3",
+    "nameTag": "Jones DAO: Staking Rewards Factory"
+  },
+  {
+    "address": "0x6580f41efc34e6d49ab692bd338d2a0e0636f79a",
+    "nameTag": "Jones DAO: Token Sale 1"
+  },
+  {
+    "address": "0x9e74c867198e2c46bc3f365ac3b401d67cb9e307",
+    "nameTag": "Jones DAO: Token Sale Refund"
+  },
+  {
+    "address": "0x8a0027152ad2781c0cbabda0cc53290bf04f1cf5",
+    "nameTag": "Jones DAO: Token Sale Relaunch"
+  },
+  {
+    "address": "0x5a81abb52d96241d15d8b2bdcd76034e4119829b",
+    "nameTag": "Jones DAO: Token Sale Relaunch Claim"
+  },
+  {
+    "address": "0xdd0556ddcfe7cdab3540e7f09cb366f498d90774",
+    "nameTag": "Jones DAO: Vault Multisig"
+  }
+]

@@ -15,4 +15,8 @@ export const scanConfig = {
     website: "https://optimistic.etherscan.io",
     htmlParser: new OptimismHtmlParser(),
   },
+  arbitrum: {
+    website: "https://arbiscan.io",
+    htmlParser: new OptimismHtmlParser(),
+  },
 } as const;

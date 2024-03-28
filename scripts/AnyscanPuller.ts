@@ -129,22 +129,27 @@ export class AnyscanPuller {
     console.log(`✅ Login completed!`);
   }
 
-  #pullAllTokenRows = async (url: string, page: Page) => {
+  #pullTokenRows = async (url: string, page: Page): Promise<TokenRows> => {
     const addressesHtml = await this.#fetchPageHtml(
       url,
       page,
       "tr > td > div > a",
     );
-    const allAddresses =
-      this.#htmlParser.selectAllTokenAddresses(addressesHtml);
-    return allAddresses;
+    const tokenRows = this.#htmlParser.selectAllTokenAddresses(addressesHtml);
+    return tokenRows.map((tokenRow) => {
+      const newTokenRow = {
+        ...tokenRow,
+        address: tokenRow.address.toLowerCase(),
+      };
+      return newTokenRow;
+    });
   };
-  #pullAccountRows = async (url: string, page: Page) => {
+  #pullAccountRows = async (url: string, page: Page): Promise<AccountRows> => {
     const addressSelector = "tr > td > span a";
     const addressesHtml = await this.#fetchPageHtml(url, page, addressSelector);
 
     const $ = cheerio.load(addressesHtml);
-    let allAddresses: AccountRows = [];
+    let accountRows: AccountRows = [];
 
     const navPills = $(".nav-pills");
     // check if there are subcategories (nav-pills)
@@ -165,19 +170,25 @@ export class AnyscanPuller {
           subcatAddressesHtml,
           subcatId,
         );
-        allAddresses = [...allAddresses, ...subcatAddresses];
+        accountRows = [...accountRows, ...subcatAddresses];
       }
     } else {
       console.log(`no navpills for ${url}`);
-      allAddresses = this.#htmlParser.selectAllAccountAddresses(
+      accountRows = this.#htmlParser.selectAllAccountAddresses(
         addressesHtml,
         "0",
       );
     }
-    return allAddresses;
+    return accountRows.map((accountRow) => {
+      const newAccountRow = {
+        ...accountRow,
+        address: accountRow.address.toLowerCase(),
+      };
+      return newAccountRow;
+    });
   };
 
-  #sortTokenRows(tokenRows: TokenRows) {
+  #sortTokenRows(tokenRows: TokenRows): TokenRows {
     const sortedAddresses = tokenRows.sort((a, b) => {
       const addressA = a.address.toLowerCase();
       const addressB = b.address.toLowerCase();
@@ -191,7 +202,7 @@ export class AnyscanPuller {
     });
     return sortedAddresses;
   }
-  #sortAccountAdresses(accountAddresses: AccountRows) {
+  #sortAccountRows(accountAddresses: AccountRows): AccountRows {
     const sortedAddresses = accountAddresses.sort((a, b) => {
       const nameTagA = a.nameTag.toLowerCase();
       const nameTagB = b.nameTag.toLowerCase();
@@ -202,8 +213,8 @@ export class AnyscanPuller {
         return 1;
       }
       // If nameTags are the same, sort by address
-      const addressA = a.address.toLowerCase();
-      const addressB = b.address.toLowerCase();
+      const addressA = a.address;
+      const addressB = b.address;
       if (addressA < addressB) {
         return -1;
       }
@@ -239,7 +250,7 @@ export class AnyscanPuller {
     for (const [index, url] of allLabels.tokens.entries()) {
       bar1.update(index);
       // fetch all addresses from all tables
-      const tokenRows = await this.#pullAllTokenRows(url, page);
+      const tokenRows = await this.#pullTokenRows(url, page);
       const labelName = z.string().parse(url.split("/").pop()?.split("?")[0]);
 
       if (tokenRows.length > 0) {
@@ -272,10 +283,9 @@ export class AnyscanPuller {
         if (!fs.existsSync(outputDirectory)) {
           fs.mkdirSync(outputDirectory);
         }
-        const sortedAccountRows = this.#sortAccountAdresses(accountRows);
+        const sortedAccountRows = this.#sortAccountRows(accountRows);
         fs.writeFileSync(
           path.join(outputDirectory, "accounts.json"),
-          // TODO: use prettier instead of "null", 2
           JSON.stringify(sortedAccountRows),
         );
       }
