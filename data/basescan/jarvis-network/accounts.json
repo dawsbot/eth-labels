@@ -1,10 +1,13 @@
-[
-  {
-    "address": "0xc31249ba48763df46388ba5c4e7565d62ed4801c",
-    "nameTag": "Jarvis Network: Deployer"
-  },
-  {
-    "address": "0x777b2839832982b35213063d850848369390ee16",
-    "nameTag": "Jarvis Network: JARVIS Token"
-  }
-]
+{
+  "lastPulled": "2024-04-02T20:55:07.399Z",
+  "data": [
+    {
+      "address": "0xc31249ba48763df46388ba5c4e7565d62ed4801c",
+      "nameTag": "Jarvis Network: Deployer"
+    },
+    {
+      "address": "0x777b2839832982b35213063d850848369390ee16",
+      "nameTag": "Jarvis Network: JARVIS Token"
+    }
+  ]
+}

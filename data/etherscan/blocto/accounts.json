@@ -1,10 +1,13 @@
-[
-  {
-    "address": "0xf7ccfaee69cd8a0b3a62c2a0f35f95cc7e588183",
-    "nameTag": "Blocto: ERC-4337 Factory 1"
-  },
-  {
-    "address": "0xa312d8d37be746bd09cbd9e9ba2ef16bc7da48ff",
-    "nameTag": "Blocto: ERC-4337 Paymaster 1"
-  }
-]
+{
+  "lastPulled": "2024-04-02T20:40:08.989Z",
+  "data": [
+    {
+      "address": "0xf7ccfaee69cd8a0b3a62c2a0f35f95cc7e588183",
+      "nameTag": "Blocto: ERC-4337 Factory 1"
+    },
+    {
+      "address": "0xa312d8d37be746bd09cbd9e9ba2ef16bc7da48ff",
+      "nameTag": "Blocto: ERC-4337 Paymaster 1"
+    }
+  ]
+}

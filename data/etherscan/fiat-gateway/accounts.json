@@ -1,90 +1,93 @@
-[
-  {
-    "address": "0x5b31bb52bdd7006ae57f9d9506c0ff995229b63c",
-    "nameTag": "Anycoin Direct"
-  },
-  {
-    "address": "0x1151314c646ce4e0efd76d1af4760ae66a9fe30f",
-    "nameTag": "Bitfinex 1"
-  },
-  {
-    "address": "0xfb9f7f41319157ac5c5dccae308a63a4337ad5d9",
-    "nameTag": "Bity.com"
-  },
-  {
-    "address": "0x71660c4005ba85c37ccec55d0c4493e66fe775d3",
-    "nameTag": "Coinbase 1"
-  },
-  {
-    "address": "0x503828976d22510aad0201ac7ec88293211d23da",
-    "nameTag": "Coinbase 2"
-  },
-  {
-    "address": "0xddfabcdc4d8ffc6d5beaf154f18b778f892a0740",
-    "nameTag": "Coinbase 3"
-  },
-  {
-    "address": "0x3cd751e6b0078be393132286c442345e5dc49699",
-    "nameTag": "Coinbase 4"
-  },
-  {
-    "address": "0xb5d85cbf7cb3ee0d56b3bb207d5fc4b82f43f511",
-    "nameTag": "Coinbase 5"
-  },
-  {
-    "address": "0xeb2629a2734e272bcc07bda959863f316f4bd4cf",
-    "nameTag": "Coinbase 6"
-  },
-  {
-    "address": "0xd24400ae8bfebb18ca49be86258a3c749cf46853",
-    "nameTag": "Gemini"
-  },
-  {
-    "address": "0x6fc82a5fe25a5cdb58bc74600a40a69c065263f8",
-    "nameTag": "Gemini 2"
-  },
-  {
-    "address": "0x5f65f7b609678448494de4c87521cdf6cef1e932",
-    "nameTag": "Gemini 4"
-  },
-  {
-    "address": "0xb302bfe9c246c6e150af70b1caaa5e3df60dac05",
-    "nameTag": "Gemini 5"
-  },
-  {
-    "address": "0x8d6f396d210d385033b348bcae9e4f9ea4e045bd",
-    "nameTag": "Gemini 6"
-  },
-  {
-    "address": "0xd69b0089d9ca950640f5dc9931a41a5965f00303",
-    "nameTag": "Gemini 7"
-  },
-  {
-    "address": "0xedbb72e6b3cf66a792bff7faac5ea769fe810517",
-    "nameTag": "Liquid 1"
-  },
-  {
-    "address": "0xdb2cad4f306b47c9b35541988c7656f1bb092e15",
-    "nameTag": "Liquid 3"
-  },
-  {
-    "address": "0x9cc2dce817093ceea82bb67a4cf43131fa354c06",
-    "nameTag": "Liquid 4"
-  },
-  {
-    "address": "0xaf1931c20ee0c11bea17a41bfbbad299b2763bc0",
-    "nameTag": "Luno 1"
-  },
-  {
-    "address": "0x416299aade6443e6f6e8ab67126e65a7f606eef5",
-    "nameTag": "Luno 2"
-  },
-  {
-    "address": "0xb8cf411b956b3f9013c1d0ac8c909b086218207c",
-    "nameTag": "Remitano 1"
-  },
-  {
-    "address": "0x340d693ed55d7ba167d184ea76ea2fd092a35bdc",
-    "nameTag": "Uphold.com"
-  }
-]
+{
+  "lastPulled": "2024-04-02T20:43:26.358Z",
+  "data": [
+    {
+      "address": "0x5b31bb52bdd7006ae57f9d9506c0ff995229b63c",
+      "nameTag": "Anycoin Direct"
+    },
+    {
+      "address": "0x1151314c646ce4e0efd76d1af4760ae66a9fe30f",
+      "nameTag": "Bitfinex 1"
+    },
+    {
+      "address": "0xfb9f7f41319157ac5c5dccae308a63a4337ad5d9",
+      "nameTag": "Bity.com"
+    },
+    {
+      "address": "0x71660c4005ba85c37ccec55d0c4493e66fe775d3",
+      "nameTag": "Coinbase 1"
+    },
+    {
+      "address": "0x503828976d22510aad0201ac7ec88293211d23da",
+      "nameTag": "Coinbase 2"
+    },
+    {
+      "address": "0xddfabcdc4d8ffc6d5beaf154f18b778f892a0740",
+      "nameTag": "Coinbase 3"
+    },
+    {
+      "address": "0x3cd751e6b0078be393132286c442345e5dc49699",
+      "nameTag": "Coinbase 4"
+    },
+    {
+      "address": "0xb5d85cbf7cb3ee0d56b3bb207d5fc4b82f43f511",
+      "nameTag": "Coinbase 5"
+    },
+    {
+      "address": "0xeb2629a2734e272bcc07bda959863f316f4bd4cf",
+      "nameTag": "Coinbase 6"
+    },
+    {
+      "address": "0xd24400ae8bfebb18ca49be86258a3c749cf46853",
+      "nameTag": "Gemini"
+    },
+    {
+      "address": "0x6fc82a5fe25a5cdb58bc74600a40a69c065263f8",
+      "nameTag": "Gemini 2"
+    },
+    {
+      "address": "0x5f65f7b609678448494de4c87521cdf6cef1e932",
+      "nameTag": "Gemini 4"
+    },
+    {
+      "address": "0xb302bfe9c246c6e150af70b1caaa5e3df60dac05",
+      "nameTag": "Gemini 5"
+    },
+    {
+      "address": "0x8d6f396d210d385033b348bcae9e4f9ea4e045bd",
+      "nameTag": "Gemini 6"
+    },
+    {
+      "address": "0xd69b0089d9ca950640f5dc9931a41a5965f00303",
+      "nameTag": "Gemini 7"
+    },
+    {
+      "address": "0xedbb72e6b3cf66a792bff7faac5ea769fe810517",
+      "nameTag": "Liquid 1"
+    },
+    {
+      "address": "0xdb2cad4f306b47c9b35541988c7656f1bb092e15",
+      "nameTag": "Liquid 3"
+    },
+    {
+      "address": "0x9cc2dce817093ceea82bb67a4cf43131fa354c06",
+      "nameTag": "Liquid 4"
+    },
+    {
+      "address": "0xaf1931c20ee0c11bea17a41bfbbad299b2763bc0",
+      "nameTag": "Luno 1"
+    },
+    {
+      "address": "0x416299aade6443e6f6e8ab67126e65a7f606eef5",
+      "nameTag": "Luno 2"
+    },
+    {
+      "address": "0xb8cf411b956b3f9013c1d0ac8c909b086218207c",
+      "nameTag": "Remitano 1"
+    },
+    {
+      "address": "0x340d693ed55d7ba167d184ea76ea2fd092a35bdc",
+      "nameTag": "Uphold.com"
+    }
+  ]
+}

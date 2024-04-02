@@ -5,11 +5,12 @@ import fs from "fs";
 import path from "path";
 import type { Page } from "playwright";
 import { z } from "zod";
-import { parseError } from "./error-parse";
+// import { parseError } from "./error-parse";
 
 import { fileURLToPath } from "url";
 import type { HtmlParser } from "./HtmlParser/HtmlParser";
 import { scanConfig } from "./scan-config";
+// import { time } from "console";
 const __filename = fileURLToPath(import.meta.url);
 const __dirname = path.dirname(__filename);
 
@@ -100,10 +101,11 @@ export class AnyscanPuller {
     // Navigate to the desired URL
     await page.goto(url);
     try {
-      await page.waitForSelector(waitForSelector, { timeout: 15_000 });
+      await page.waitForSelector(waitForSelector, { timeout: 5_000 });
       await this.#randomSleep();
     } catch (error) {
-      parseError(error);
+      // console.log(`❌ Error fetching page: ${url}`);
+      // parseError(error);
     }
     // Get the HTML content of the entire page
     const pageContent = await page.content();
@@ -125,7 +127,7 @@ export class AnyscanPuller {
     );
     console.log(`🐢 Waiting for operator to complete login...`);
     // TODO: Update this deprecated function to instead use "page.waitForURL" (https://playwright.dev/docs/api/class-page#page-wait-for-url)
-    await page.waitForNavigation();
+    await page.waitForNavigation({timeout: 300_000});
     console.log(`✅ Login completed!`);
   }
 
@@ -144,6 +146,7 @@ export class AnyscanPuller {
       return newTokenRow;
     });
   };
+
   #pullAccountRows = async (url: string, page: Page): Promise<AccountRows> => {
     const addressSelector = "tr > td > span a";
     const addressesHtml = await this.#fetchPageHtml(url, page, addressSelector);
@@ -173,7 +176,7 @@ export class AnyscanPuller {
         accountRows = [...accountRows, ...subcatAddresses];
       }
     } else {
-      console.log(`no navpills for ${url}`);
+      // console.log(`no navpills for ${url}`);
       accountRows = this.#htmlParser.selectAllAccountAddresses(
         addressesHtml,
         "0",
@@ -202,6 +205,7 @@ export class AnyscanPuller {
     });
     return sortedAddresses;
   }
+
   #sortAccountRows(accountAddresses: AccountRows): AccountRows {
     const sortedAddresses = accountAddresses.sort((a, b) => {
       const nameTagA = a.nameTag.toLowerCase();
@@ -225,6 +229,7 @@ export class AnyscanPuller {
     });
     return sortedAddresses;
   }
+
   async #randomSleep() {
     const randomDelay = Math.random() * 600;
     await sleep(randomDelay + 500);
@@ -244,9 +249,8 @@ export class AnyscanPuller {
     await this.#login(page);
     const allLabels = await this.#fetchAllLabels(page);
 
-    bar1.start(allLabels.tokens.length + allLabels.accounts.length, 0);
-
     console.log(`\n🐌 Pulling all of tokens started...`);
+    bar1.start(allLabels.tokens.length + allLabels.accounts.length - 1, 1);
     for (const [index, url] of allLabels.tokens.entries()) {
       bar1.update(index);
       // fetch all addresses from all tables
@@ -261,7 +265,7 @@ export class AnyscanPuller {
         }
         fs.writeFileSync(
           path.join(outputDirectory, "tokens.json"),
-          JSON.stringify(sortedTokenRows),
+          JSON.stringify({lastPulled: new Date().toISOString(), data: sortedTokenRows}, null, 2),
         );
       }
       // console.dir({
@@ -286,7 +290,7 @@ export class AnyscanPuller {
         const sortedAccountRows = this.#sortAccountRows(accountRows);
         fs.writeFileSync(
           path.join(outputDirectory, "accounts.json"),
-          JSON.stringify(sortedAccountRows),
+          JSON.stringify({lastPulled:new Date().toISOString(),data:sortedAccountRows}, null, 2),
         );
       }
       // console.dir({

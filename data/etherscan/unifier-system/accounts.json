@@ -1,18 +1,21 @@
-[
-  {
-    "address": "0x6fbaec24476322c597d760cda4856e32718d39e3",
-    "nameTag": "Unifier System: Deployer"
-  },
-  {
-    "address": "0xec02cec4edd54196d2767b61f43b29a49b056fe6",
-    "nameTag": "Unifier System: UNIF Token"
-  },
-  {
-    "address": "0x0d93efb410765f2025b2ae07740274eb495fafeb",
-    "nameTag": "Unifier System: USDC Treasure"
-  },
-  {
-    "address": "0xcaee4a96e3fa7efea170f7df9658aefd2cbe7e7c",
-    "nameTag": "Unifier System: USDT Treasure"
-  }
-]
+{
+  "lastPulled": "2024-04-02T20:51:33.548Z",
+  "data": [
+    {
+      "address": "0x6fbaec24476322c597d760cda4856e32718d39e3",
+      "nameTag": "Unifier System: Deployer"
+    },
+    {
+      "address": "0xec02cec4edd54196d2767b61f43b29a49b056fe6",
+      "nameTag": "Unifier System: UNIF Token"
+    },
+    {
+      "address": "0x0d93efb410765f2025b2ae07740274eb495fafeb",
+      "nameTag": "Unifier System: USDC Treasure"
+    },
+    {
+      "address": "0xcaee4a96e3fa7efea170f7df9658aefd2cbe7e7c",
+      "nameTag": "Unifier System: USDT Treasure"
+    }
+  ]
+}

@@ -1,218 +1,221 @@
-[
-  {
-    "address": "0x4678f0a6958e4d2bc4f1baf7bc52e8f3564f3fe4",
-    "nameTag": "Maker: Proxy Registry"
-  },
-  {
-    "address": "0xe6f5377de93a361cd5531bdfbdf0f4b522e16b2b",
-    "nameTag": "Reflexer Finance: Feed Security Module ETH"
-  },
-  {
-    "address": "0xe24f8b30fd28c90462c9bbc87a9a2a823636f533",
-    "nameTag": "Reflexer Finance: FSM Gov Interface"
-  },
-  {
-    "address": "0x24acc85528e6dd5b9c297fb8821522d36b1ae09f",
-    "nameTag": "Reflexer Finance: GEB Deploy"
-  },
-  {
-    "address": "0x10122261ff9520c590c0c3a679b7e3dfc8b09c64",
-    "nameTag": "Reflexer Finance: GEB DS Compare"
-  },
-  {
-    "address": "0x9f02ddbfb4b045df83d45c4d644027fbd7d72a6d",
-    "nameTag": "Reflexer Finance: GEB DUMMY RRFM Calculator"
-  },
-  {
-    "address": "0x7cb548df57ea728a33c4cb81698d03bc8b279ec6",
-    "nameTag": "Reflexer Finance: GEB ESM"
-  },
-  {
-    "address": "0xb10409fc293f987841964c4fcfef887d9ece799b",
-    "nameTag": "Reflexer Finance: GEB ESM Token Burner"
-  },
-  {
-    "address": "0x0463bf18c2457b00402a7639fa1dfb7d60f659ee",
-    "nameTag": "Reflexer Finance: GEB Gov Actions"
-  },
-  {
-    "address": "0xa706d4c39c315288113020f3e2d7e1095e912a20",
-    "nameTag": "Reflexer Finance: GEB Incentives Miner"
-  },
-  {
-    "address": "0x427a277ea53e25143b3b509c684aa4d0eb8ba01b",
-    "nameTag": "Reflexer Finance: GEB Multisig"
-  },
-  {
-    "address": "0x2695b1dc32899c07d177a287f006b6569216a5a1",
-    "nameTag": "Reflexer Finance: GEB Multisig Proxy"
-  },
-  {
-    "address": "0x1490a828957f1e23491c8d69273d684b15c6e25a",
-    "nameTag": "Reflexer Finance: GEB Pause Authority"
-  },
-  {
-    "address": "0xa57a4e6170930ac547c147cdf26ae4682fa8262e",
-    "nameTag": "Reflexer Finance: GEB Pause Proxy"
-  },
-  {
-    "address": "0xf7da963b88194a9bc6775e93d39c70c6e3f04f6f",
-    "nameTag": "Reflexer Finance: GEB Polling Emitter"
-  },
-  {
-    "address": "0xcfa37dce6dfe80857c3b8dba100b592775ae2688",
-    "nameTag": "Reflexer Finance: GEB RRFM Calculator"
-  },
-  {
-    "address": "0x005fab4c9d1ef0f3e41cd27b26cf05680c3bf947",
-    "nameTag": "Reflexer Finance: GEB RRFM Setter"
-  },
-  {
-    "address": "0xcc88a9d330da1133df3a7bd823b95e52511a6962",
-    "nameTag": "Reflexer Finance: GEB Safe Engine"
-  },
-  {
-    "address": "0xb2df48a0c4a07031f538353aa35d7ffa24e25ec1",
-    "nameTag": "Reflexer Finance: GEB Single Ceiling Setter"
-  },
-  {
-    "address": "0xb7272627825d1cb633f705bc269f8e11126d7a25",
-    "nameTag": "Reflexer Finance: GEB TX Manager"
-  },
-  {
-    "address": "0xdf4bc9aa98cc8ecd90ba2bee73ad4a1a9c8d202b",
-    "nameTag": "Reflexer Finance: Get Safes"
-  },
-  {
-    "address": "0x51812e07497586ce025d798bb44b6d11bbee3a01",
-    "nameTag": "Reflexer Finance: Multicall"
-  },
-  {
-    "address": "0xcb8479840a5576b1cafbb3fa7276e04df122fdc7",
-    "nameTag": "Reflexer Finance: Protocol Token Authority"
-  },
-  {
-    "address": "0x880cecbc56f48bce5e0ef4070017c0a4270f64ed",
-    "nameTag": "Reflexer Finance: Proxy Actions"
-  },
-  {
-    "address": "0x17b5d9914194a08c7ef14451ba15e8ae4f92cb93",
-    "nameTag": "Reflexer Finance: Proxy Actions Global Settlement"
-  },
-  {
-    "address": "0x88a77b8ff53329f88b8b6f9e29835fec287349e0",
-    "nameTag": "Reflexer Finance: Proxy Actions Incentives"
-  },
-  {
-    "address": "0x943c6bb9fd652f6e4a9da32894075e5abecad394",
-    "nameTag": "Reflexer Finance: Proxy Debt Auction Actions"
-  },
-  {
-    "address": "0x631e38d6dc0f4a26f6be0d3d0e4eba3d02033ab4",
-    "nameTag": "Reflexer Finance: Proxy Deployer"
-  },
-  {
-    "address": "0x27a54e99de813ce2e41baa7f44d1f19fba22b36d",
-    "nameTag": "Reflexer Finance: Proxy Pause Actions"
-  },
-  {
-    "address": "0x6a2714404be6613a952a80266840ffe916194632",
-    "nameTag": "Reflexer Finance: Proxy Pause Schedule Actions"
-  },
-  {
-    "address": "0x6f0faaea6767731ae14696f059248ee403c59e3b",
-    "nameTag": "Reflexer Finance: Proxy Surplus Auction Actions"
-  },
-  {
-    "address": "0x2c6f6784585b45906fce24f30c99f8ad6d94b5d4",
-    "nameTag": "Reflexer Finance: Safe Saviour Registry"
-  },
-  {
-    "address": "0xcee6aa1ab47d0fb0f24f51a3072ec16e20f90fce",
-    "nameTag": "Reflexer: Accounting Engine"
-  },
-  {
-    "address": "0x6a4b575ba61d2fb86ad0ff5e5be286960580e71a",
-    "nameTag": "Reflexer: Chain Link Price Feed Medianizer"
-  },
-  {
-    "address": "0x0a5653cca4db1b6e265f47caf6969e64f1cfdc45",
-    "nameTag": "Reflexer: CoinJoin"
-  },
-  {
-    "address": "0x1896adbe708bf91158748b3f33738ba497a69e8f",
-    "nameTag": "Reflexer: Debt Auction"
-  },
-  {
-    "address": "0x7fafc11677649db6abfec127b4b776d585520ae1",
-    "nameTag": "Reflexer: Deployer 2"
-  },
-  {
-    "address": "0x2d3cd7b81c93f188f3cb8ad87c8acc73d6226e3a",
-    "nameTag": "Reflexer: ETH Join"
-  },
-  {
-    "address": "0x6d2a73e16c255c1931730b776d96aaff1909322e",
-    "nameTag": "Reflexer: Fixed Discount Collateral Auction House"
-  },
-  {
-    "address": "0x6243d8cea23066d098a15582d81a598b4e8391f4",
-    "nameTag": "Reflexer: FLX Token"
-  },
-  {
-    "address": "0x6368a4ba80fc780a9a0fea547239c4635b97fd70",
-    "nameTag": "Reflexer: Global Settlement"
-  },
-  {
-    "address": "0x27efc6ffe79692e0521e7e27657cf228240a06c2",
-    "nameTag": "Reflexer: Liquidation Engine"
-  },
-  {
-    "address": "0x12a5e1c81b10b264a575930aeae80681ddf595fe",
-    "nameTag": "Reflexer: Medianizer"
-  },
-  {
-    "address": "0x4ed9c0dca0479bc64d8f4eb3007126d5791f7851",
-    "nameTag": "Reflexer: Oracle Relayer"
-  },
-  {
-    "address": "0x2cde6a1147b0ee61726b86d83fd548401b1162c7",
-    "nameTag": "Reflexer: Pause"
-  },
-  {
-    "address": "0x03ab458634910aad20ef5f1c8ee96f1d6ac54919",
-    "nameTag": "Reflexer: RAI Token"
-  },
-  {
-    "address": "0xefe0b4ca532769a3ae758fd82e1426a03a94f185",
-    "nameTag": "Reflexer: SAFE Manager"
-  },
-  {
-    "address": "0x83533fdd3285f48204215e9cf38c785371258e76",
-    "nameTag": "Reflexer: Stability Fee Treasury"
-  },
-  {
-    "address": "0xeef4ea1a548417df1e7f0f6ab89494eed9e06b70",
-    "nameTag": "Reflexer: Surplus Auction"
-  },
-  {
-    "address": "0xcdb05aeda142a1b0d6044c09c64e4226c1a281eb",
-    "nameTag": "Reflexer: Tax Collector"
-  },
-  {
-    "address": "0x12f906e4854eedfdb1bd2daa9100d1c3b0cb7631",
-    "nameTag": "Reflexer: Uni Multi Collateral Keeper Flash Proxy"
-  },
-  {
-    "address": "0xc2da0417f2a78ad100fe092b58fb10314bd8f157",
-    "nameTag": "Reflexer: Uniswap Single Keeper Flash Proxy ETH A"
-  },
-  {
-    "address": "0x7235a0094ed56eb2bd0de168d307c8990233645f",
-    "nameTag": "Reflexer: UniswapPriceFeedMedianizer"
-  },
-  {
-    "address": "0x8ae720a71622e824f576b4a8c03031066548a3b1",
-    "nameTag": "Uniswap V2: RAI 4"
-  }
-]
+{
+  "lastPulled": "2024-04-02T20:48:49.525Z",
+  "data": [
+    {
+      "address": "0x4678f0a6958e4d2bc4f1baf7bc52e8f3564f3fe4",
+      "nameTag": "Maker: Proxy Registry"
+    },
+    {
+      "address": "0xe6f5377de93a361cd5531bdfbdf0f4b522e16b2b",
+      "nameTag": "Reflexer Finance: Feed Security Module ETH"
+    },
+    {
+      "address": "0xe24f8b30fd28c90462c9bbc87a9a2a823636f533",
+      "nameTag": "Reflexer Finance: FSM Gov Interface"
+    },
+    {
+      "address": "0x24acc85528e6dd5b9c297fb8821522d36b1ae09f",
+      "nameTag": "Reflexer Finance: GEB Deploy"
+    },
+    {
+      "address": "0x10122261ff9520c590c0c3a679b7e3dfc8b09c64",
+      "nameTag": "Reflexer Finance: GEB DS Compare"
+    },
+    {
+      "address": "0x9f02ddbfb4b045df83d45c4d644027fbd7d72a6d",
+      "nameTag": "Reflexer Finance: GEB DUMMY RRFM Calculator"
+    },
+    {
+      "address": "0x7cb548df57ea728a33c4cb81698d03bc8b279ec6",
+      "nameTag": "Reflexer Finance: GEB ESM"
+    },
+    {
+      "address": "0xb10409fc293f987841964c4fcfef887d9ece799b",
+      "nameTag": "Reflexer Finance: GEB ESM Token Burner"
+    },
+    {
+      "address": "0x0463bf18c2457b00402a7639fa1dfb7d60f659ee",
+      "nameTag": "Reflexer Finance: GEB Gov Actions"
+    },
+    {
+      "address": "0xa706d4c39c315288113020f3e2d7e1095e912a20",
+      "nameTag": "Reflexer Finance: GEB Incentives Miner"
+    },
+    {
+      "address": "0x427a277ea53e25143b3b509c684aa4d0eb8ba01b",
+      "nameTag": "Reflexer Finance: GEB Multisig"
+    },
+    {
+      "address": "0x2695b1dc32899c07d177a287f006b6569216a5a1",
+      "nameTag": "Reflexer Finance: GEB Multisig Proxy"
+    },
+    {
+      "address": "0x1490a828957f1e23491c8d69273d684b15c6e25a",
+      "nameTag": "Reflexer Finance: GEB Pause Authority"
+    },
+    {
+      "address": "0xa57a4e6170930ac547c147cdf26ae4682fa8262e",
+      "nameTag": "Reflexer Finance: GEB Pause Proxy"
+    },
+    {
+      "address": "0xf7da963b88194a9bc6775e93d39c70c6e3f04f6f",
+      "nameTag": "Reflexer Finance: GEB Polling Emitter"
+    },
+    {
+      "address": "0xcfa37dce6dfe80857c3b8dba100b592775ae2688",
+      "nameTag": "Reflexer Finance: GEB RRFM Calculator"
+    },
+    {
+      "address": "0x005fab4c9d1ef0f3e41cd27b26cf05680c3bf947",
+      "nameTag": "Reflexer Finance: GEB RRFM Setter"
+    },
+    {
+      "address": "0xcc88a9d330da1133df3a7bd823b95e52511a6962",
+      "nameTag": "Reflexer Finance: GEB Safe Engine"
+    },
+    {
+      "address": "0xb2df48a0c4a07031f538353aa35d7ffa24e25ec1",
+      "nameTag": "Reflexer Finance: GEB Single Ceiling Setter"
+    },
+    {
+      "address": "0xb7272627825d1cb633f705bc269f8e11126d7a25",
+      "nameTag": "Reflexer Finance: GEB TX Manager"
+    },
+    {
+      "address": "0xdf4bc9aa98cc8ecd90ba2bee73ad4a1a9c8d202b",
+      "nameTag": "Reflexer Finance: Get Safes"
+    },
+    {
+      "address": "0x51812e07497586ce025d798bb44b6d11bbee3a01",
+      "nameTag": "Reflexer Finance: Multicall"
+    },
+    {
+      "address": "0xcb8479840a5576b1cafbb3fa7276e04df122fdc7",
+      "nameTag": "Reflexer Finance: Protocol Token Authority"
+    },
+    {
+      "address": "0x880cecbc56f48bce5e0ef4070017c0a4270f64ed",
+      "nameTag": "Reflexer Finance: Proxy Actions"
+    },
+    {
+      "address": "0x17b5d9914194a08c7ef14451ba15e8ae4f92cb93",
+      "nameTag": "Reflexer Finance: Proxy Actions Global Settlement"
+    },
+    {
+      "address": "0x88a77b8ff53329f88b8b6f9e29835fec287349e0",
+      "nameTag": "Reflexer Finance: Proxy Actions Incentives"
+    },
+    {
+      "address": "0x943c6bb9fd652f6e4a9da32894075e5abecad394",
+      "nameTag": "Reflexer Finance: Proxy Debt Auction Actions"
+    },
+    {
+      "address": "0x631e38d6dc0f4a26f6be0d3d0e4eba3d02033ab4",
+      "nameTag": "Reflexer Finance: Proxy Deployer"
+    },
+    {
+      "address": "0x27a54e99de813ce2e41baa7f44d1f19fba22b36d",
+      "nameTag": "Reflexer Finance: Proxy Pause Actions"
+    },
+    {
+      "address": "0x6a2714404be6613a952a80266840ffe916194632",
+      "nameTag": "Reflexer Finance: Proxy Pause Schedule Actions"
+    },
+    {
+      "address": "0x6f0faaea6767731ae14696f059248ee403c59e3b",
+      "nameTag": "Reflexer Finance: Proxy Surplus Auction Actions"
+    },
+    {
+      "address": "0x2c6f6784585b45906fce24f30c99f8ad6d94b5d4",
+      "nameTag": "Reflexer Finance: Safe Saviour Registry"
+    },
+    {
+      "address": "0xcee6aa1ab47d0fb0f24f51a3072ec16e20f90fce",
+      "nameTag": "Reflexer: Accounting Engine"
+    },
+    {
+      "address": "0x6a4b575ba61d2fb86ad0ff5e5be286960580e71a",
+      "nameTag": "Reflexer: Chain Link Price Feed Medianizer"
+    },
+    {
+      "address": "0x0a5653cca4db1b6e265f47caf6969e64f1cfdc45",
+      "nameTag": "Reflexer: CoinJoin"
+    },
+    {
+      "address": "0x1896adbe708bf91158748b3f33738ba497a69e8f",
+      "nameTag": "Reflexer: Debt Auction"
+    },
+    {
+      "address": "0x7fafc11677649db6abfec127b4b776d585520ae1",
+      "nameTag": "Reflexer: Deployer 2"
+    },
+    {
+      "address": "0x2d3cd7b81c93f188f3cb8ad87c8acc73d6226e3a",
+      "nameTag": "Reflexer: ETH Join"
+    },
+    {
+      "address": "0x6d2a73e16c255c1931730b776d96aaff1909322e",
+      "nameTag": "Reflexer: Fixed Discount Collateral Auction House"
+    },
+    {
+      "address": "0x6243d8cea23066d098a15582d81a598b4e8391f4",
+      "nameTag": "Reflexer: FLX Token"
+    },
+    {
+      "address": "0x6368a4ba80fc780a9a0fea547239c4635b97fd70",
+      "nameTag": "Reflexer: Global Settlement"
+    },
+    {
+      "address": "0x27efc6ffe79692e0521e7e27657cf228240a06c2",
+      "nameTag": "Reflexer: Liquidation Engine"
+    },
+    {
+      "address": "0x12a5e1c81b10b264a575930aeae80681ddf595fe",
+      "nameTag": "Reflexer: Medianizer"
+    },
+    {
+      "address": "0x4ed9c0dca0479bc64d8f4eb3007126d5791f7851",
+      "nameTag": "Reflexer: Oracle Relayer"
+    },
+    {
+      "address": "0x2cde6a1147b0ee61726b86d83fd548401b1162c7",
+      "nameTag": "Reflexer: Pause"
+    },
+    {
+      "address": "0x03ab458634910aad20ef5f1c8ee96f1d6ac54919",
+      "nameTag": "Reflexer: RAI Token"
+    },
+    {
+      "address": "0xefe0b4ca532769a3ae758fd82e1426a03a94f185",
+      "nameTag": "Reflexer: SAFE Manager"
+    },
+    {
+      "address": "0x83533fdd3285f48204215e9cf38c785371258e76",
+      "nameTag": "Reflexer: Stability Fee Treasury"
+    },
+    {
+      "address": "0xeef4ea1a548417df1e7f0f6ab89494eed9e06b70",
+      "nameTag": "Reflexer: Surplus Auction"
+    },
+    {
+      "address": "0xcdb05aeda142a1b0d6044c09c64e4226c1a281eb",
+      "nameTag": "Reflexer: Tax Collector"
+    },
+    {
+      "address": "0x12f906e4854eedfdb1bd2daa9100d1c3b0cb7631",
+      "nameTag": "Reflexer: Uni Multi Collateral Keeper Flash Proxy"
+    },
+    {
+      "address": "0xc2da0417f2a78ad100fe092b58fb10314bd8f157",
+      "nameTag": "Reflexer: Uniswap Single Keeper Flash Proxy ETH A"
+    },
+    {
+      "address": "0x7235a0094ed56eb2bd0de168d307c8990233645f",
+      "nameTag": "Reflexer: UniswapPriceFeedMedianizer"
+    },
+    {
+      "address": "0x8ae720a71622e824f576b4a8c03031066548a3b1",
+      "nameTag": "Uniswap V2: RAI 4"
+    }
+  ]
+}

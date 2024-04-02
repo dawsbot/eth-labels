@@ -1,6 +1,9 @@
-[
-  {
-    "address": "0x71c7656ec7ab88b098defb751b7401b5f6d8976f",
-    "nameTag": "BaseScan: Donate"
-  }
-]
+{
+  "lastPulled": "2024-04-02T20:54:46.481Z",
+  "data": [
+    {
+      "address": "0x71c7656ec7ab88b098defb751b7401b5f6d8976f",
+      "nameTag": "BaseScan: Donate"
+    }
+  ]
+}

@@ -1,14 +1,17 @@
-[
-  {
-    "address": "0xa3f45e619ce3aae2fa5f8244439a66b203b78bcc",
-    "nameTag": "KuCoin"
-  },
-  {
-    "address": "0xebb8ea128bbdff9a1780a4902a9380022371d466",
-    "nameTag": "KuCoin 2"
-  },
-  {
-    "address": "0xd6216fc19db775df9774a6e33526131da7d19a2c",
-    "nameTag": "KuCoin 3"
-  }
-]
+{
+  "lastPulled": "2024-04-02T20:57:43.050Z",
+  "data": [
+    {
+      "address": "0xa3f45e619ce3aae2fa5f8244439a66b203b78bcc",
+      "nameTag": "KuCoin"
+    },
+    {
+      "address": "0xebb8ea128bbdff9a1780a4902a9380022371d466",
+      "nameTag": "KuCoin 2"
+    },
+    {
+      "address": "0xd6216fc19db775df9774a6e33526131da7d19a2c",
+      "nameTag": "KuCoin 3"
+    }
+  ]
+}

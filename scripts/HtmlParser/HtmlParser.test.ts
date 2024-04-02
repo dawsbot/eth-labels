@@ -3,11 +3,13 @@ import { FileUtilities } from "../FileSystem/FileSystem";
 import { BasescanHtmlParser } from "./BasescanParser";
 import { EtherscanHtmlParser } from "./EtherscanParser";
 import { OptimismHtmlParser } from "./OptimismHtmlParser";
+import { ArbiscanHtmlParser } from "./ArbiscanParser";
 const fileUtilities = new FileUtilities(import.meta.url);
 
 const etherscanDirectory = "mocks/etherscan";
 const basescanDirectory = "mocks/basescan";
 const optimismDirectory = "mocks/optimism";
+const arbiscanDirectory = "mocks/arbiscan";
 
 function getMocks(directory: string) {
   return {
@@ -20,6 +22,43 @@ function getMocks(directory: string) {
 const basescanMocks = getMocks(basescanDirectory);
 const etherscanMocks = getMocks(etherscanDirectory);
 const optimismMocks = getMocks(optimismDirectory);
+const arbiscanMocks = getMocks(arbiscanDirectory);
+
+describe("arbiscan", () => {
+  const htmlParser = new ArbiscanHtmlParser();
+  test("should parse labelcloud", () => {
+    const allLabels = htmlParser.selectAllLabels(
+      arbiscanMocks.mockLabelCloudHtml,
+    );
+
+    expect(allLabels).toHaveLength(159);
+    expect(allLabels[0]).toBe(`/accounts/label/0x-protocol?size=10000`);
+  });
+  test("should parse account addresses", () => {
+    const accountRows = htmlParser.selectAllAccountAddresses(
+      arbiscanMocks.mockAccountsHtml,
+    );
+
+    expect(accountRows).toHaveLength(48);
+    expect(accountRows).toContainEqual({
+      address: "0xb56c2f0b653b2e0b10c9b928c8580ac5df02c7c7",
+      nameTag: "Aave: Aave Oracle V3",
+    });
+  });
+  test("should parse token addresses", () => {
+    const tokenRows = htmlParser.selectAllTokenAddresses(
+      arbiscanMocks.mockTokensHtml,
+    );
+
+    expect(tokenRows).toHaveLength(13);
+    expect(tokenRows).toContainEqual({
+      address: "0x82e64f49ed5ec1bc6e43dad4fc8af9bb3a2312ee",
+      tokenName: "Aave Arbitrum DAI",
+      tokenSymbol: "aArbDAI",
+      website: "https://aave.com/",
+    });
+  });
+});
 
 describe("optimism", () => {
   const htmlParser = new OptimismHtmlParser();

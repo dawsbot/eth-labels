@@ -1,22 +1,25 @@
-[
-  {
-    "address": "0x7d770cfe9608ff3aa3f5a34bdcd27c3870a370da",
-    "nameTag": "DecentraWeb: Default Reverse Resolver"
-  },
-  {
-    "address": "0x3eaf3d0e21f452adf632744b5608e6c02e88827a",
-    "nameTag": "DecentraWeb: DNAME Token"
-  },
-  {
-    "address": "0xf157d3559df1f8c69cb757a1a2cdf8736618e083",
-    "nameTag": "DecentraWeb: Public Resolver"
-  },
-  {
-    "address": "0x8eb93ab94a6afa8d416ab1884ebb5a3f00920a7a",
-    "nameTag": "DecentraWeb: Registry"
-  },
-  {
-    "address": "0x3d8f878584199e47a2d40a1e269042e10aa50754",
-    "nameTag": "DecentraWeb: Reverse Registrar"
-  }
-]
+{
+  "lastPulled": "2024-04-02T20:42:00.314Z",
+  "data": [
+    {
+      "address": "0x7d770cfe9608ff3aa3f5a34bdcd27c3870a370da",
+      "nameTag": "DecentraWeb: Default Reverse Resolver"
+    },
+    {
+      "address": "0x3eaf3d0e21f452adf632744b5608e6c02e88827a",
+      "nameTag": "DecentraWeb: DNAME Token"
+    },
+    {
+      "address": "0xf157d3559df1f8c69cb757a1a2cdf8736618e083",
+      "nameTag": "DecentraWeb: Public Resolver"
+    },
+    {
+      "address": "0x8eb93ab94a6afa8d416ab1884ebb5a3f00920a7a",
+      "nameTag": "DecentraWeb: Registry"
+    },
+    {
+      "address": "0x3d8f878584199e47a2d40a1e269042e10aa50754",
+      "nameTag": "DecentraWeb: Reverse Registrar"
+    }
+  ]
+}

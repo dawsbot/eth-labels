@@ -1,6 +1,9 @@
-[
-  {
-    "address": "0xd13cfd3133239a3c73a9e535a5c4dadee36b395c",
-    "nameTag": "VAIOT: VAI Token"
-  }
-]
+{
+  "lastPulled": "2024-04-02T20:45:09.033Z",
+  "data": [
+    {
+      "address": "0xd13cfd3133239a3c73a9e535a5c4dadee36b395c",
+      "nameTag": "VAIOT: VAI Token"
+    }
+  ]
+}

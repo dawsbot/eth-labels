@@ -1,6 +1,9 @@
-[
-  {
-    "address": "0x4f41d10f7e67fd16bde916b4a6dc3dd101c57394",
-    "nameTag": "Flowerpatch: Flower"
-  }
-]
+{
+  "lastPulled": "2024-04-02T20:43:30.814Z",
+  "data": [
+    {
+      "address": "0x4f41d10f7e67fd16bde916b4a6dc3dd101c57394",
+      "nameTag": "Flowerpatch: Flower"
+    }
+  ]
+}

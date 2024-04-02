@@ -1,14 +1,17 @@
-[
-  {
-    "address": "0x1f39cb18a6a59f65cebf6a52b9b9d845b708ab06",
-    "nameTag": "UNCX Network : Tax Token Minter"
-  },
-  {
-    "address": "0xfa104eb3925a27e6263e05acc88f2e983a890637",
-    "nameTag": "UNCX Network Lockers: V3 Proof of Reserves"
-  },
-  {
-    "address": "0xcb8b00d4018ad6031e28a44bf74616014bfb62ec",
-    "nameTag": "UNCX Network Lockers: V3 Proof of Reserves 2"
-  }
-]
+{
+  "lastPulled": "2024-04-02T21:02:22.044Z",
+  "data": [
+    {
+      "address": "0x1f39cb18a6a59f65cebf6a52b9b9d845b708ab06",
+      "nameTag": "UNCX Network : Tax Token Minter"
+    },
+    {
+      "address": "0xfa104eb3925a27e6263e05acc88f2e983a890637",
+      "nameTag": "UNCX Network Lockers: V3 Proof of Reserves"
+    },
+    {
+      "address": "0xcb8b00d4018ad6031e28a44bf74616014bfb62ec",
+      "nameTag": "UNCX Network Lockers: V3 Proof of Reserves 2"
+    }
+  ]
+}

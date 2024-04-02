@@ -1,90 +1,93 @@
-[
-  {
-    "address": "0x8b4ee9a030c50fd02c845a171064f8fca90cb155",
-    "nameTag": "Camelot: Advisors Vesting"
-  },
-  {
-    "address": "0x5f3a574fb89022a417b3a169a720dc0d8fb1a3d3",
-    "nameTag": "Camelot: Buy back & Burn"
-  },
-  {
-    "address": "0x01bb7b44cc398aaa2b76ac6253f0f5634279db9d",
-    "nameTag": "Camelot: Deployer"
-  },
-  {
-    "address": "0xe31d786cc60f2e23ad65646d30546e46227af066",
-    "nameTag": "Camelot: Development funds"
-  },
-  {
-    "address": "0x3b8c741651e2913c26fa926555a75f09f3255866",
-    "nameTag": "Camelot: Dividends treasury"
-  },
-  {
-    "address": "0x5422aa06a38fd9875fc2501380b40659feebd3bb",
-    "nameTag": "Camelot: Dividends V2"
-  },
-  {
-    "address": "0x03ff2d78afb69e0859ec6beb4cf107d3741e97ab",
-    "nameTag": "Camelot: Ecosystem"
-  },
-  {
-    "address": "0x6eccab422d763ac031210895c81787e87b43a652",
-    "nameTag": "Camelot: Factory"
-  },
-  {
-    "address": "0x3d9907f9a368ad0a51be60f7da3b97cf940982d8",
-    "nameTag": "Camelot: GRAIL Token"
-  },
-  {
-    "address": "0x55401a4f396b3655f66bf6948a1a4dc61dfc21f4",
-    "nameTag": "Camelot: Master"
-  },
-  {
-    "address": "0x6db1ef0df42e30acf139a70c1ed0b7e6c51dbf6d",
-    "nameTag": "Camelot: NFT Pool Factory"
-  },
-  {
-    "address": "0xe0a6b372ac6af4b37c7f3a989fe5d5b194c24569",
-    "nameTag": "Camelot: Nitro Pool Factory"
-  },
-  {
-    "address": "0xa47bee7c477d87431a701c7963065949b323bfe6",
-    "nameTag": "Camelot: Nitro Recovery"
-  },
-  {
-    "address": "0x953bf6efe8f93c0fd615980a3af26be673683aaa",
-    "nameTag": "Camelot: Partnerships Vesting"
-  },
-  {
-    "address": "0xf482881968d1f1d99397310636ff9fac070f63c6",
-    "nameTag": "Camelot: POL"
-  },
-  {
-    "address": "0xe458018ad4283c90fb7f5460e24c4016f81b8175",
-    "nameTag": "Camelot: Position Helper"
-  },
-  {
-    "address": "0x6a63830e24f9a2f9c295fb2150107d0390ed1448",
-    "nameTag": "Camelot: Protocol Earnings"
-  },
-  {
-    "address": "0x48e365daebe55aa21bb39e4c2876661827d566c5",
-    "nameTag": "Camelot: Reserve funds"
-  },
-  {
-    "address": "0xc873fecbd354f5a56e00e710b90ef4201db2448d",
-    "nameTag": "Camelot: Router"
-  },
-  {
-    "address": "0x5a5a7c0108cef44549b7782495b1df2ad5294da3",
-    "nameTag": "Camelot: Team vesting"
-  },
-  {
-    "address": "0x3caae25ee616f2c8e13c74da0813402eae3f496b",
-    "nameTag": "Camelot: xGRAIL Token"
-  },
-  {
-    "address": "0xd27c373950e7466c53e5cd6ee3f70b240dc0b1b1",
-    "nameTag": "Camelot: Yield Booster"
-  }
-]
+{
+  "lastPulled": "2024-04-02T21:00:54.811Z",
+  "data": [
+    {
+      "address": "0x8b4ee9a030c50fd02c845a171064f8fca90cb155",
+      "nameTag": "Camelot: Advisors Vesting"
+    },
+    {
+      "address": "0x5f3a574fb89022a417b3a169a720dc0d8fb1a3d3",
+      "nameTag": "Camelot: Buy back & Burn"
+    },
+    {
+      "address": "0x01bb7b44cc398aaa2b76ac6253f0f5634279db9d",
+      "nameTag": "Camelot: Deployer"
+    },
+    {
+      "address": "0xe31d786cc60f2e23ad65646d30546e46227af066",
+      "nameTag": "Camelot: Development funds"
+    },
+    {
+      "address": "0x3b8c741651e2913c26fa926555a75f09f3255866",
+      "nameTag": "Camelot: Dividends treasury"
+    },
+    {
+      "address": "0x5422aa06a38fd9875fc2501380b40659feebd3bb",
+      "nameTag": "Camelot: Dividends V2"
+    },
+    {
+      "address": "0x03ff2d78afb69e0859ec6beb4cf107d3741e97ab",
+      "nameTag": "Camelot: Ecosystem"
+    },
+    {
+      "address": "0x6eccab422d763ac031210895c81787e87b43a652",
+      "nameTag": "Camelot: Factory"
+    },
+    {
+      "address": "0x3d9907f9a368ad0a51be60f7da3b97cf940982d8",
+      "nameTag": "Camelot: GRAIL Token"
+    },
+    {
+      "address": "0x55401a4f396b3655f66bf6948a1a4dc61dfc21f4",
+      "nameTag": "Camelot: Master"
+    },
+    {
+      "address": "0x6db1ef0df42e30acf139a70c1ed0b7e6c51dbf6d",
+      "nameTag": "Camelot: NFT Pool Factory"
+    },
+    {
+      "address": "0xe0a6b372ac6af4b37c7f3a989fe5d5b194c24569",
+      "nameTag": "Camelot: Nitro Pool Factory"
+    },
+    {
+      "address": "0xa47bee7c477d87431a701c7963065949b323bfe6",
+      "nameTag": "Camelot: Nitro Recovery"
+    },
+    {
+      "address": "0x953bf6efe8f93c0fd615980a3af26be673683aaa",
+      "nameTag": "Camelot: Partnerships Vesting"
+    },
+    {
+      "address": "0xf482881968d1f1d99397310636ff9fac070f63c6",
+      "nameTag": "Camelot: POL"
+    },
+    {
+      "address": "0xe458018ad4283c90fb7f5460e24c4016f81b8175",
+      "nameTag": "Camelot: Position Helper"
+    },
+    {
+      "address": "0x6a63830e24f9a2f9c295fb2150107d0390ed1448",
+      "nameTag": "Camelot: Protocol Earnings"
+    },
+    {
+      "address": "0x48e365daebe55aa21bb39e4c2876661827d566c5",
+      "nameTag": "Camelot: Reserve funds"
+    },
+    {
+      "address": "0xc873fecbd354f5a56e00e710b90ef4201db2448d",
+      "nameTag": "Camelot: Router"
+    },
+    {
+      "address": "0x5a5a7c0108cef44549b7782495b1df2ad5294da3",
+      "nameTag": "Camelot: Team vesting"
+    },
+    {
+      "address": "0x3caae25ee616f2c8e13c74da0813402eae3f496b",
+      "nameTag": "Camelot: xGRAIL Token"
+    },
+    {
+      "address": "0xd27c373950e7466c53e5cd6ee3f70b240dc0b1b1",
+      "nameTag": "Camelot: Yield Booster"
+    }
+  ]
+}

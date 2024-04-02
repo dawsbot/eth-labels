@@ -1,667 +1,673 @@
-[
-  { "address": "0x7f0a3c8127c06429ddf21482a63788d200f19d65", "nameTag": "" },
-  {
-    "address": "0x464c71f6c2f760dda6093dcb91c24c39e5d6e18c",
-    "nameTag": "Aave: Aave Collector V2"
-  },
-  {
-    "address": "0xee56e2b3d491590b5b31738cc34d5232f378a8d5",
-    "nameTag": "Aave: ACL Admin V3"
-  },
-  {
-    "address": "0xc2aacf6553d20d1e9d78e365aaba8032af9c85b0",
-    "nameTag": "Aave: ACL Manager V3"
-  },
-  {
-    "address": "0x8f30adaa6950b31f675bf8a709bc23f55aa24735",
-    "nameTag": "Aave: Debt Swap Adapter V3"
-  },
-  {
-    "address": "0x3d569673daa0575c936c7c67c4e6aeda69cc630c",
-    "nameTag": "Aave: Ecosystem Reserve Controller"
-  },
-  {
-    "address": "0x223d844fc4b006d67c0cdbd39371a9f73f69d974",
-    "nameTag": "Aave: Emission Manager V3"
-  },
-  {
-    "address": "0x8164cc65827dcfe994ab23944cbc90e0aa80bfcb",
-    "nameTag": "Aave: Incentives V3"
-  },
-  {
-    "address": "0xe202f2fc4b6a37ba53cfd15be42a762a645fca07",
-    "nameTag": "Aave: Listing Engine V3"
-  },
-  {
-    "address": "0xb748952c7bc638f31775245964707bcc5ddfabfc",
-    "nameTag": "Aave: Migration Helper Mainnet V3"
-  },
-  {
-    "address": "0x54586be62e3c3580375ae3723c145253060ca0c2",
-    "nameTag": "Aave: Oracle V3"
-  },
-  {
-    "address": "0x872fbcb1b582e8cd0d0dd4327fbfa0b4c2730995",
-    "nameTag": "Aave: ParaSwap Liquidity Swap Adapter"
-  },
-  {
-    "address": "0x1809f186d680f239420b56948c58f8dbbcdf1e18",
-    "nameTag": "Aave: ParaSwap Repay Adapter"
-  },
-  {
-    "address": "0xbaa999ac55eace41ccae355c77809e68bb345170",
-    "nameTag": "Aave: Pool Address Provider Registry V3"
-  },
-  {
-    "address": "0x2f39d218133afab8f2b819b1066c7e434ad94e9e",
-    "nameTag": "Aave: Pool Address Provider V3"
-  },
-  {
-    "address": "0x64b761d848206f447fe2dd461b0c635ec39ebb27",
-    "nameTag": "Aave: Pool Configurator V3"
-  },
-  {
-    "address": "0x7b4eb56e7cd4b454ba8ff71e4518426369a138a3",
-    "nameTag": "Aave: Pool Data Provider"
-  },
-  {
-    "address": "0x87870bca3f3fd6335c3f4ce8392d69350b4fa4e2",
-    "nameTag": "Aave: Pool V3"
-  },
-  {
-    "address": "0xcc47c4fe1f7f29ff31a8b62197023ac8553c7896",
-    "nameTag": "Aave: Rates Factory V3"
-  },
-  {
-    "address": "0x02e7b8511831b1b02d9018215a0f8f500ea5c6b3",
-    "nameTag": "Aave: Repay With Collateral Adapter V3"
-  },
-  {
-    "address": "0x82dccf206ae2ab46e2099e663f70dee77cae7778",
-    "nameTag": "Aave: Risk Steward V3"
-  },
-  {
-    "address": "0x17d0d723a6741c8e154594a8850d29d58bcc9218",
-    "nameTag": "Aave: Static A Token Factory V3"
-  },
-  {
-    "address": "0xadc0a53095a0af87f3aa29fe0715b5c28016364e",
-    "nameTag": "Aave: Swap Collateral Adapter V3"
-  },
-  {
-    "address": "0x162a7ac02f547ad796ca549f757e2b8d1d9b10a6",
-    "nameTag": "Aave: UI Incentive Data Provider V3"
-  },
-  {
-    "address": "0x91c0ea31b49b69ea18607702c5d9ac360bf3de7d",
-    "nameTag": "Aave: UI Pool Data Provider V3"
-  },
-  {
-    "address": "0xc7be5307ba715ce89b152f3df0658295b3dba8e2",
-    "nameTag": "Aave: Wallet Balance Provider V3"
-  },
-  {
-    "address": "0x78f8bd884c3d738b74b420540659c82f392820e0",
-    "nameTag": "Aave: Withdraw Swap Adapter V3"
-  },
-  {
-    "address": "0xd322a49006fc828f9b5b37ab215f99b4e5cab19c",
-    "nameTag": "Aave: Wrapped Token Gateway V3"
-  },
-  {
-    "address": "0xe194d30afdbae89b3118b8b7bc7b331cc3333b88",
-    "nameTag": "Accumulated Finance: stACME Staking Rewards"
-  },
-  {
-    "address": "0x176b98ab38d1ae8ff3f30bf07f9b93e26f559c17",
-    "nameTag": "ACO: Factory Contract"
-  },
-  {
-    "address": "0xd17fe392fad2e2f99f97e5a80a4d81950e96298e",
-    "nameTag": "Alkemi Earn: Company Tokens Safe"
-  },
-  {
-    "address": "0x5bea205a2d342e87af7642e374dd02d44c136c6f",
-    "nameTag": "Alkemi Earn: Ecosystem Tokens Safe"
-  },
-  {
-    "address": "0x83a38054b1a56f59964dd57b16532255fa2c999c",
-    "nameTag": "Alkemi Earn: Team Tokens Safe"
-  },
-  {
-    "address": "0x323533f3ec3ee47335e2c68611139f459f4f9386",
-    "nameTag": "AllianceBlock: NXRA Token Distributor"
-  },
-  {
-    "address": "0x92fc4338ad16d07be1d79098015cb2957d21fdc0",
-    "nameTag": "Alta: Vault 1"
-  },
-  {
-    "address": "0x5706d4cc27b5f5b59d026c6e03deded995455071",
-    "nameTag": "Alta: Vault 2"
-  },
-  {
-    "address": "0x61932d71eb18ff8e918ce0b620d703f56d089064",
-    "nameTag": "Bancor: bnPDI Token"
-  },
-  {
-    "address": "0x50fd9efd669982d02d54d41c78ebbf9da2cdc9a6",
-    "nameTag": "Bancor: bnPOOL Token"
-  },
-  {
-    "address": "0x372600b50644e1fe96b5c34b08359a7cbaa9ab1d",
-    "nameTag": "Bezoge Earth: Zogi Bridge"
-  },
-  {
-    "address": "0x15729ac1795fa02448a55d206005dc1914144a9f",
-    "nameTag": "BOB: BobVault"
-  },
-  {
-    "address": "0xb80be29667021ae0b617ac9efe0a3a1a58033681",
-    "nameTag": "Candle Labs: Candle Governor"
-  },
-  {
-    "address": "0x9b436168dd080f1f95d1919258c64590263c0dae",
-    "nameTag": "CelsiusX 1"
-  },
-  {
-    "address": "0x520da65f3b9b93a5bb6a1db911de40ae197aa639",
-    "nameTag": "CelsiusX 2"
-  },
-  {
-    "address": "0x4859df02d1c7cd85c2a283708958aaa7728bad67",
-    "nameTag": "CelsiusX 3"
-  },
-  {
-    "address": "0xfe4546fefe124f30788c4cc1bb9aa6907a7987f9",
-    "nameTag": "CelsiusX 4"
-  },
-  {
-    "address": "0x64875aaa68d1d5521666c67d692ee0b926b08b2f",
-    "nameTag": "CelsiusX: cxADA Token"
-  },
-  {
-    "address": "0xf9e293d5d793ddc1ae4f778761e0b3e4aa7cf2dd",
-    "nameTag": "CelsiusX: cxDOGE Token"
-  },
-  {
-    "address": "0xb03ca9354241688264d7f4547857190b75e26944",
-    "nameTag": "CheckDot : Bridge"
-  },
-  {
-    "address": "0x5bca0f6cd5f9a74895d66005acef969342f301a0",
-    "nameTag": "CollateralSwap: Alpha"
-  },
-  {
-    "address": "0xfd14431285a570adc839c73cc973542e0ffee56f",
-    "nameTag": "CollateralSwap: Core Alpha v0.2"
-  },
-  {
-    "address": "0x3fda67f7583380e67ef93072294a7fac882fd7e7",
-    "nameTag": "Compound"
-  },
-  {
-    "address": "0xdef1ca1fb7fbcdc777520aa7f396b4e015f497ab",
-    "nameTag": "CoW Protocol: COW Token"
-  },
-  {
-    "address": "0xd057b63f5e69cf1b929b356b579cba08d7688048",
-    "nameTag": "CoW Protocol: vCOW Token"
-  },
-  {
-    "address": "0xa2b47e3d5c44877cca798226b7b8118f9bfb7a56",
-    "nameTag": "Curve.fi: Compound Swap"
-  },
-  {
-    "address": "0xbebc44782c7db0a1a60cb6fe97d0b483032ff1c7",
-    "nameTag": "Curve.fi: DAI/USDC/USDT Pool"
-  },
-  {
-    "address": "0x7fc77b5c7614e1533320ea6ddc2eb61fa00a9714",
-    "nameTag": "Curve.fi: sBTC Swap"
-  },
-  {
-    "address": "0x52ea46506b9cc5ef470c5bf89f17dc28bb35d85c",
-    "nameTag": "Curve.fi: USDT Swap"
-  },
-  {
-    "address": "0x45f783cce6b7ff23b2ab2d70e416cdb7d6055f51",
-    "nameTag": "Curve.fi: y Swap"
-  },
-  {
-    "address": "0x0528a32fda5bedf89ba9ad67296db83c9452f28c",
-    "nameTag": "DeFi Saver: Owner"
-  },
-  {
-    "address": "0x745daa146934b27e3f0b6bff1a6e36b9b90fb131",
-    "nameTag": "DEX.AG: Proxy Contract"
-  },
-  {
-    "address": "0xdd7680b6b2eec193ce3ece7129708ee12531bccf",
-    "nameTag": "DMM: Foundation Safe"
-  },
-  {
-    "address": "0x1e0447b19bb6ecfdae1e4ae1694b0c3659614e4e",
-    "nameTag": "dYdX: Solo Margin"
-  },
-  {
-    "address": "0x710b80571db3792fbf4df7763efa6548c25a1635",
-    "nameTag": "Furucombo: Proxy v0.2"
-  },
-  {
-    "address": "0x14e2f9b0381af4227d26bee7d8e4d424466a7f3f",
-    "nameTag": "Gains Network: GFarm Nft Swap"
-  },
-  {
-    "address": "0x580d1938074d48c34f2e2d1371af0bf02ac44701",
-    "nameTag": "Gains Network: GFARM2NFT2 Token"
-  },
-  {
-    "address": "0x25121eddf746c884dde4619b573a7b10714e2a36",
-    "nameTag": "Illuvium: ILV Core Pool"
-  },
-  {
-    "address": "0x8b4d8443a0229349a9892d4f7cbe89ef5f843f72",
-    "nameTag": "Illuvium: ILV-ETH Core Pool"
-  },
-  {
-    "address": "0x3a306a399085f3460bbcb5b77015ab33806a10d5",
-    "nameTag": "InstaDApp: Maker"
-  },
-  {
-    "address": "0xa67b44e37200e92e6da6249d8ae6d48f832a038d",
-    "nameTag": "Iron Bank: CTokenAdmin"
-  },
-  {
-    "address": "0x8e595470ed749b85c6f7669de83eae304c2ec68f",
-    "nameTag": "Iron Bank: cyDAI"
-  },
-  {
-    "address": "0x7736ffb07104c0c400bb0cc9a7c228452a732992",
-    "nameTag": "Iron Bank: cyDPI"
-  },
-  {
-    "address": "0xa8caea564811af0e92b1e044f3edd18fa9a73e4f",
-    "nameTag": "Iron Bank: cyEURS"
-  },
-  {
-    "address": "0x00e5c0774a5f065c285068170b20393925c84bf3",
-    "nameTag": "Iron Bank: cyIBEUR"
-  },
-  {
-    "address": "0xe7bff2da8a2f619c2586fb83938fa56ce803aa16",
-    "nameTag": "Iron Bank: cyLINK"
-  },
-  {
-    "address": "0xca55f9c4e77f7b8524178583b0f7c798de17fd54",
-    "nameTag": "Iron Bank: cySEUR"
-  },
-  {
-    "address": "0x12a9cc33a980daa74e00cc2d1a0e74c57a93d12c",
-    "nameTag": "Iron Bank: cySNX"
-  },
-  {
-    "address": "0xa7c4054afd3dbbbf5bfe80f41862b89ea05c9806",
-    "nameTag": "Iron Bank: cySUSD"
-  },
-  {
-    "address": "0x226f3738238932ba0db2319a8117d9555446102f",
-    "nameTag": "Iron Bank: cySUSHI"
-  },
-  {
-    "address": "0xfeeb92386a055e2ef7c2b598c872a4047a7db59f",
-    "nameTag": "Iron Bank: cyUNI"
-  },
-  {
-    "address": "0x76eb2fe28b36b3ee97f3adae0c69606eedb2a37c",
-    "nameTag": "Iron Bank: cyUSDC"
-  },
-  {
-    "address": "0x48759f220ed983db51fa7a8c0d2aab8f3ce4166a",
-    "nameTag": "Iron Bank: cyUSDT"
-  },
-  {
-    "address": "0x8fc8bfd80d6a9f17fb98a373023d72531792b431",
-    "nameTag": "Iron Bank: cyWBTC"
-  },
-  {
-    "address": "0x41c84c0e2ee0b740cf0d31f63f3b6f627dc6b393",
-    "nameTag": "Iron Bank: cyWETH"
-  },
-  {
-    "address": "0xfa3472f7319477c9bfecdd66e4b948569e7621b9",
-    "nameTag": "Iron Bank: cyYFI"
-  },
-  {
-    "address": "0x21b9e03f995b53c5c6d3f813b43ec8df16681da9",
-    "nameTag": "Iron Bank: Flashloan Lender"
-  },
-  {
-    "address": "0x9d960dae0639c95a0c822c9d7769d19d30a430aa",
-    "nameTag": "Iron Bank: Guardian"
-  },
-  {
-    "address": "0x30190a3b52b5ab1daf70d46d72536f5171f22340",
-    "nameTag": "Iron Bank: iAAVE"
-  },
-  {
-    "address": "0x86bbd9ac8b9b44c95ffc6baae58e25033b7548aa",
-    "nameTag": "Iron Bank: iAUD"
-  },
-  {
-    "address": "0x1b3e95e8ecf7a7cab6c4de1b344f94865abd12d5",
-    "nameTag": "Iron Bank: iCHF"
-  },
-  {
-    "address": "0xb8c5af54bbdcc61453144cf472a9276ae36109f9",
-    "nameTag": "Iron Bank: iCRV"
-  },
-  {
-    "address": "0xecab2c76f1a8359a06fab5fa0ceea51280a97ecf",
-    "nameTag": "Iron Bank: iGBP"
-  },
-  {
-    "address": "0x215f34af6557a6598dbda9aa11cc556f5ae264b1",
-    "nameTag": "Iron Bank: iJPY"
-  },
-  {
-    "address": "0x3c9f5385c288ce438ed55620938a4b967c080101",
-    "nameTag": "Iron Bank: iKRW"
-  },
-  {
-    "address": "0x9e8e207083ffd5bdc3d99a1f32d1e6250869c1a9",
-    "nameTag": "Iron Bank: iMIM"
-  },
-  {
-    "address": "0x672473908587b10e65dab177dbaeadcbb30bf40b",
-    "nameTag": "Iron Bank: iZAR"
-  },
-  {
-    "address": "0x328a7b4d538a2b3942653a9983fda3c12c571141",
-    "nameTag": "Iron Bank: Lens"
-  },
-  {
-    "address": "0xa5fc0bbfcd05827ed582869b7254b6f141ba84eb",
-    "nameTag": "Iron Bank: Multisig"
-  },
-  {
-    "address": "0xe4e9f6cfe8ac8c75a3dbef809dbe4fc40e6fdc4b",
-    "nameTag": "Iron Bank: PriceOracleProxy"
-  },
-  {
-    "address": "0xab1c342c7bf5ec5f02adea1c2270670bca144cbb",
-    "nameTag": "Iron Bank: Unitroller"
-  },
-  {
-    "address": "0x6ad9e8e5236c0e2cf6d755bb7be4eabcbc03f76d",
-    "nameTag": "Keep: LPRewardsTBTCv2Saddle"
-  },
-  {
-    "address": "0x68eb4de507c6802d73904a18fb228c7dc2981200",
-    "nameTag": "Keep: Stakedrop Escrow"
-  },
-  {
-    "address": "0x8381e623775e7a95e015aab575f734d7be047037",
-    "nameTag": "Keep: TBTCv2SaddleRewardsEscrowBeneficiary"
-  },
-  {
-    "address": "0xd83f623a0a77e09dfc586b831012118bdf3b4141",
-    "nameTag": "LifeCrypto: Staking Contract"
-  },
-  {
-    "address": "0x448a5065aebb8e423f0896e6c5d525c040f59af3",
-    "nameTag": "Maker: Contract 1"
-  },
-  {
-    "address": "0x05b70fb5477a93be33822bfb31fdaf2c171970df",
-    "nameTag": "Mayan: Swap Bridge"
-  },
-  {
-    "address": "0xfe842e95f8911dcc21c943a1daa4bd641a1381c6",
-    "nameTag": "mStable: BUSD feeder pool"
-  },
-  {
-    "address": "0x4fb30c5a3ac8e85bc32785518633303c4590752d",
-    "nameTag": "mStable: GUSD feeder pool"
-  },
-  {
-    "address": "0x48c59199da51b7e30ea200a74ea07974e62c4ba7",
-    "nameTag": "mStable: HBTC feeder pool"
-  },
-  {
-    "address": "0xf617346a0fb6320e9e578e0c9b2a4588283d9d39",
-    "nameTag": "mStable: mUSD Aave Vault"
-  },
-  {
-    "address": "0xd55684f4369040c12262949ff78299f2bc9db735",
-    "nameTag": "mStable: mUSD Compound Vault"
-  },
-  {
-    "address": "0xcf3f73290803fc04425bee135a4caeb2bab2c2a1",
-    "nameTag": "mStable: Old mUSD Savings Contract"
-  },
-  {
-    "address": "0x7046b0bfc4c5eeb90559c0805dd9c1a6f4815370",
-    "nameTag": "mStable: Savings Manager 1.1"
-  },
-  {
-    "address": "0xb61a6f928b3f069a68469ddb670f20eeeb4921e0",
-    "nameTag": "mStable: tBTC feeder pool"
-  },
-  {
-    "address": "0x3c34de76ec06d7764dd62967f634e5f531a409d7",
-    "nameTag": "Mute : Treasury"
-  },
-  {
-    "address": "0x8683dcf44d44f78310bc9c1c1e9a0d75f8291d7e",
-    "nameTag": "ODE Money: Retirement Fund"
-  },
-  {
-    "address": "0x0d4c1222f5e839a911e2053860e45f18921d72ac",
-    "nameTag": "OMG Network V1: Plasma Framework"
-  },
-  {
-    "address": "0x4dda68b16e0b2a942b4852ecd13e28fb92d47f26",
-    "nameTag": "OptiVault: Sophomore Year"
-  },
-  {
-    "address": "0x86969d29f5fd327e1009ba66072be22db6017cc6",
-    "nameTag": "ParaSwap V1"
-  },
-  {
-    "address": "0x408f66057163d829a30d4d466092c6b0eebb692f",
-    "nameTag": "Pulsar Protocol: Factory"
-  },
-  {
-    "address": "0xcd43aba971bef65555d877657f83093ddfb885b8",
-    "nameTag": "Pulsar Protocol: TWAMM"
-  },
-  {
-    "address": "0x5ea4a9a7592683bf0bc187d6da706c6c4770976f",
-    "nameTag": "Rari Capital: RGT Reserves"
-  },
-  {
-    "address": "0xc1adda7605d2dc47dd91a930c978cd6a18d2d760",
-    "nameTag": "RigoBlock: Governance Factory"
-  },
-  {
-    "address": "0xe5d8204f8335e9786ea7ce382771b865fe73a304",
-    "nameTag": "RigoBlock: Governance Implementation"
-  },
-  {
-    "address": "0x6e1423cb6b0b72316f051fbc3b6bc54ed5e584dc",
-    "nameTag": "RigoBlock: Governance Strategy"
-  },
-  {
-    "address": "0x69116ca6b231530c6970d7fd107e6d1b0299fb95",
-    "nameTag": "Sigil Finance : Staking"
-  },
-  {
-    "address": "0x195e8262aa81ba560478ec6ca4da73745547073f",
-    "nameTag": "SushiSwap: Inari V1"
-  },
-  {
-    "address": "0x3518e38ff48b4a5fde0ffec4133111856ddadbc8",
-    "nameTag": "UNCX Network : Tax Token Minter"
-  },
-  {
-    "address": "0x663a5c229c09b049e36dcc11a9b0d4a8eb9db214",
-    "nameTag": "UNCX Network Security : LP Lockers"
-  },
-  {
-    "address": "0x887e81cab04461620a5ff196048bba38d9dc96e4",
-    "nameTag": "UNCX Network: Staking pool Tier 1"
-  },
-  {
-    "address": "0x73f5876ecd9fabf7d359daf7be7610b276641549",
-    "nameTag": "UNCX Network: Staking pool Tier 2"
-  },
-  {
-    "address": "0xf4868e785457280dd48b10a02d8f03bbfd5b721f",
-    "nameTag": "UNCX Network: Staking pool Tier 3"
-  },
-  {
-    "address": "0x000000000022d473030f116ddee9f6b43ac78ba3",
-    "nameTag": "Uniswap Protocol: Permit2"
-  },
-  {
-    "address": "0x5c69bee701ef814a2b6a3edd4b1652cb9cc5aa6f",
-    "nameTag": "Uniswap V2: Factory Contract"
-  },
-  {
-    "address": "0xc0a47dfe034b400b47bdad5fecda2621de6c4d95",
-    "nameTag": "Uniswap: Factory Contract"
-  },
-  {
-    "address": "0x777777773fdd8b28bb03377d10fcea75ad9768da",
-    "nameTag": "Via Protocol: Router"
-  },
-  {
-    "address": "0x975f1bc238303593efab00d63cf0fc5f519a8de0",
-    "nameTag": "yearn: yCurve Zap In"
-  },
-  {
-    "address": "0xed03415e5705c5abbf8e94c491b715df526cad55",
-    "nameTag": "yearn: yCurve Zap Out"
-  },
-  {
-    "address": "0x2c3a2558e9b91e893e53bce94de3457a29f6b262",
-    "nameTag": "yearn: yCurve Zap Swap"
-  },
-  {
-    "address": "0x033e52f513f9b98e129381c6708f9faa2dee5db5",
-    "nameTag": "Ygov.finance: Balancer"
-  },
-  {
-    "address": "0x3a22df48d84957f907e67f4313e3d43179040d6e",
-    "nameTag": "Ygov.finance: Governance"
-  },
-  {
-    "address": "0x0001fb050fe7312791bf6475b96569d83f695c9f",
-    "nameTag": "Ygov.finance: yearn"
-  },
-  {
-    "address": "0x52fc6455f258760705e70f70160b06619bfe0adb",
-    "nameTag": "Zapper.Fi: cDAI Unipool"
-  },
-  {
-    "address": "0xd17cda470bd0237fae82ef254c84d06d0e4cc02f",
-    "nameTag": "Zapper.Fi: CHAI Unipool"
-  },
-  {
-    "address": "0x8dfcb49766c0296e4373a0300b52c3637614db59",
-    "nameTag": "Zapper.Fi: DAI LLP 100% ETH"
-  },
-  {
-    "address": "0x929a10efda7099865dad8286aee8715078902d51",
-    "nameTag": "Zapper.Fi: DAI Unipool"
-  },
-  {
-    "address": "0x1ee8c303f5ab9b36bc30b9345dec7e9a748fa693",
-    "nameTag": "Zapper.Fi: Double Bull"
-  },
-  {
-    "address": "0xf0cd9981f15695324763a06869d1c1dd90073c2a",
-    "nameTag": "Zapper.Fi: ERC20 Inputs"
-  },
-  {
-    "address": "0x04b35ef193e2357328ae79914569721a7ffd6146",
-    "nameTag": "Zapper.Fi: ETH Bull"
-  },
-  {
-    "address": "0xebd5e23927891fbfda10487ccc9a1a1a7b9a4210",
-    "nameTag": "Zapper.Fi: Lender"
-  },
-  {
-    "address": "0x20ef0c900f8e7ec3a1a89a761f0670ae9e3dd709",
-    "nameTag": "Zapper.Fi: LINK LLP 100% ETH"
-  },
-  {
-    "address": "0x408609f5acab253d41cb5dfce913ff367937313b",
-    "nameTag": "Zapper.Fi: LINK LLP 100% LINK"
-  },
-  {
-    "address": "0x13240b97c40d7e306cedf3adc9cb057cec74c361",
-    "nameTag": "Zapper.Fi: MKR Unipool"
-  },
-  {
-    "address": "0x3b122c376e472ae6ae7a4739bebf7b68e045b285",
-    "nameTag": "Zapper.Fi: Moderate Bull"
-  },
-  {
-    "address": "0x2346722daa00ebbd0fc452c0e7ab7976bdafeae8",
-    "nameTag": "Zapper.Fi: Old Zapper Swap"
-  },
-  {
-    "address": "0xd3eba712988df0f8a7e5073719a40ce4cbf60b33",
-    "nameTag": "Zapper.Fi: sETH Unipool"
-  },
-  {
-    "address": "0xe3385df5b47687405a02fc24322dedb7df381852",
-    "nameTag": "Zapper.Fi: SNX Unipool"
-  },
-  {
-    "address": "0xecb53d65816444dbbf6a326b8df959caeda3faf9",
-    "nameTag": "Zapper.Fi: Super Saver"
-  },
-  {
-    "address": "0x606563f8dc27f316b77f22d14d9cd025b4f70469",
-    "nameTag": "Zapper.Fi: UniPool General"
-  },
-  {
-    "address": "0x4316e3ad83ca2cf0ea5e3b25e3de2fa7f93cfe9c",
-    "nameTag": "Zapper.Fi: Unipool UnZap"
-  },
-  {
-    "address": "0x21091c5ea13854ab0965090dc4fc20280f1a5730",
-    "nameTag": "Zapper.Fi: wBTC LLP 100% ETH"
-  },
-  {
-    "address": "0xe4b7b00a802834bea733f06a0a24a869f2765df7",
-    "nameTag": "Zapper.Fi: wBTC LLP 100% wBTC"
-  },
-  {
-    "address": "0x4ebee4cf5ba7de81f222fefa4e5d0c30c4968fff",
-    "nameTag": "Zapper.Fi: wBTC Unipool"
-  },
-  {
-    "address": "0xacdf47c844eff0ecb218d8945e28a9a484af8d07",
-    "nameTag": "Zapper.Fi: Zapper Swap V1"
-  },
-  {
-    "address": "0x06fe76b2f432fdfecaef1a7d4f6c3d41b5861672",
-    "nameTag": "Zerion: DeFi SDK AdapterRegistry v0.1"
-  },
-  {
-    "address": "0xadfc6460233221eca99dac25d00f98d32ea3989e",
-    "nameTag": "Zerion: DeFi SDK AdapterRegistry v1.0"
-  },
-  {
-    "address": "0xd291328a6c202c5b18dcb24f279f69de1e065f70",
-    "nameTag": "Zerion: DeFi SDK Core v1.0"
-  },
-  {
-    "address": "0xb2be281e8b11b47fec825973fc8bb95332022a54",
-    "nameTag": "Zerion: DeFi SDK v1.0"
-  }
-]
+{
+  "lastPulled": "2024-04-02T20:42:03.978Z",
+  "data": [
+    {
+      "address": "0x7f0a3c8127c06429ddf21482a63788d200f19d65",
+      "nameTag": ""
+    },
+    {
+      "address": "0x464c71f6c2f760dda6093dcb91c24c39e5d6e18c",
+      "nameTag": "Aave: Aave Collector V2"
+    },
+    {
+      "address": "0xee56e2b3d491590b5b31738cc34d5232f378a8d5",
+      "nameTag": "Aave: ACL Admin V3"
+    },
+    {
+      "address": "0xc2aacf6553d20d1e9d78e365aaba8032af9c85b0",
+      "nameTag": "Aave: ACL Manager V3"
+    },
+    {
+      "address": "0x8f30adaa6950b31f675bf8a709bc23f55aa24735",
+      "nameTag": "Aave: Debt Swap Adapter V3"
+    },
+    {
+      "address": "0x3d569673daa0575c936c7c67c4e6aeda69cc630c",
+      "nameTag": "Aave: Ecosystem Reserve Controller"
+    },
+    {
+      "address": "0x223d844fc4b006d67c0cdbd39371a9f73f69d974",
+      "nameTag": "Aave: Emission Manager V3"
+    },
+    {
+      "address": "0x8164cc65827dcfe994ab23944cbc90e0aa80bfcb",
+      "nameTag": "Aave: Incentives V3"
+    },
+    {
+      "address": "0xe202f2fc4b6a37ba53cfd15be42a762a645fca07",
+      "nameTag": "Aave: Listing Engine V3"
+    },
+    {
+      "address": "0xb748952c7bc638f31775245964707bcc5ddfabfc",
+      "nameTag": "Aave: Migration Helper Mainnet V3"
+    },
+    {
+      "address": "0x54586be62e3c3580375ae3723c145253060ca0c2",
+      "nameTag": "Aave: Oracle V3"
+    },
+    {
+      "address": "0x872fbcb1b582e8cd0d0dd4327fbfa0b4c2730995",
+      "nameTag": "Aave: ParaSwap Liquidity Swap Adapter"
+    },
+    {
+      "address": "0x1809f186d680f239420b56948c58f8dbbcdf1e18",
+      "nameTag": "Aave: ParaSwap Repay Adapter"
+    },
+    {
+      "address": "0xbaa999ac55eace41ccae355c77809e68bb345170",
+      "nameTag": "Aave: Pool Address Provider Registry V3"
+    },
+    {
+      "address": "0x2f39d218133afab8f2b819b1066c7e434ad94e9e",
+      "nameTag": "Aave: Pool Address Provider V3"
+    },
+    {
+      "address": "0x64b761d848206f447fe2dd461b0c635ec39ebb27",
+      "nameTag": "Aave: Pool Configurator V3"
+    },
+    {
+      "address": "0x7b4eb56e7cd4b454ba8ff71e4518426369a138a3",
+      "nameTag": "Aave: Pool Data Provider"
+    },
+    {
+      "address": "0x87870bca3f3fd6335c3f4ce8392d69350b4fa4e2",
+      "nameTag": "Aave: Pool V3"
+    },
+    {
+      "address": "0xcc47c4fe1f7f29ff31a8b62197023ac8553c7896",
+      "nameTag": "Aave: Rates Factory V3"
+    },
+    {
+      "address": "0x02e7b8511831b1b02d9018215a0f8f500ea5c6b3",
+      "nameTag": "Aave: Repay With Collateral Adapter V3"
+    },
+    {
+      "address": "0x82dccf206ae2ab46e2099e663f70dee77cae7778",
+      "nameTag": "Aave: Risk Steward V3"
+    },
+    {
+      "address": "0x17d0d723a6741c8e154594a8850d29d58bcc9218",
+      "nameTag": "Aave: Static A Token Factory V3"
+    },
+    {
+      "address": "0xadc0a53095a0af87f3aa29fe0715b5c28016364e",
+      "nameTag": "Aave: Swap Collateral Adapter V3"
+    },
+    {
+      "address": "0x162a7ac02f547ad796ca549f757e2b8d1d9b10a6",
+      "nameTag": "Aave: UI Incentive Data Provider V3"
+    },
+    {
+      "address": "0x91c0ea31b49b69ea18607702c5d9ac360bf3de7d",
+      "nameTag": "Aave: UI Pool Data Provider V3"
+    },
+    {
+      "address": "0xc7be5307ba715ce89b152f3df0658295b3dba8e2",
+      "nameTag": "Aave: Wallet Balance Provider V3"
+    },
+    {
+      "address": "0x78f8bd884c3d738b74b420540659c82f392820e0",
+      "nameTag": "Aave: Withdraw Swap Adapter V3"
+    },
+    {
+      "address": "0xd322a49006fc828f9b5b37ab215f99b4e5cab19c",
+      "nameTag": "Aave: Wrapped Token Gateway V3"
+    },
+    {
+      "address": "0xe194d30afdbae89b3118b8b7bc7b331cc3333b88",
+      "nameTag": "Accumulated Finance: stACME Staking Rewards"
+    },
+    {
+      "address": "0x176b98ab38d1ae8ff3f30bf07f9b93e26f559c17",
+      "nameTag": "ACO: Factory Contract"
+    },
+    {
+      "address": "0xd17fe392fad2e2f99f97e5a80a4d81950e96298e",
+      "nameTag": "Alkemi Earn: Company Tokens Safe"
+    },
+    {
+      "address": "0x5bea205a2d342e87af7642e374dd02d44c136c6f",
+      "nameTag": "Alkemi Earn: Ecosystem Tokens Safe"
+    },
+    {
+      "address": "0x83a38054b1a56f59964dd57b16532255fa2c999c",
+      "nameTag": "Alkemi Earn: Team Tokens Safe"
+    },
+    {
+      "address": "0x323533f3ec3ee47335e2c68611139f459f4f9386",
+      "nameTag": "AllianceBlock: NXRA Token Distributor"
+    },
+    {
+      "address": "0x92fc4338ad16d07be1d79098015cb2957d21fdc0",
+      "nameTag": "Alta: Vault 1"
+    },
+    {
+      "address": "0x5706d4cc27b5f5b59d026c6e03deded995455071",
+      "nameTag": "Alta: Vault 2"
+    },
+    {
+      "address": "0x61932d71eb18ff8e918ce0b620d703f56d089064",
+      "nameTag": "Bancor: bnPDI Token"
+    },
+    {
+      "address": "0x50fd9efd669982d02d54d41c78ebbf9da2cdc9a6",
+      "nameTag": "Bancor: bnPOOL Token"
+    },
+    {
+      "address": "0x372600b50644e1fe96b5c34b08359a7cbaa9ab1d",
+      "nameTag": "Bezoge Earth: Zogi Bridge"
+    },
+    {
+      "address": "0x15729ac1795fa02448a55d206005dc1914144a9f",
+      "nameTag": "BOB: BobVault"
+    },
+    {
+      "address": "0xb80be29667021ae0b617ac9efe0a3a1a58033681",
+      "nameTag": "Candle Labs: Candle Governor"
+    },
+    {
+      "address": "0x9b436168dd080f1f95d1919258c64590263c0dae",
+      "nameTag": "CelsiusX 1"
+    },
+    {
+      "address": "0x520da65f3b9b93a5bb6a1db911de40ae197aa639",
+      "nameTag": "CelsiusX 2"
+    },
+    {
+      "address": "0x4859df02d1c7cd85c2a283708958aaa7728bad67",
+      "nameTag": "CelsiusX 3"
+    },
+    {
+      "address": "0xfe4546fefe124f30788c4cc1bb9aa6907a7987f9",
+      "nameTag": "CelsiusX 4"
+    },
+    {
+      "address": "0x64875aaa68d1d5521666c67d692ee0b926b08b2f",
+      "nameTag": "CelsiusX: cxADA Token"
+    },
+    {
+      "address": "0xf9e293d5d793ddc1ae4f778761e0b3e4aa7cf2dd",
+      "nameTag": "CelsiusX: cxDOGE Token"
+    },
+    {
+      "address": "0xb03ca9354241688264d7f4547857190b75e26944",
+      "nameTag": "CheckDot : Bridge"
+    },
+    {
+      "address": "0x5bca0f6cd5f9a74895d66005acef969342f301a0",
+      "nameTag": "CollateralSwap: Alpha"
+    },
+    {
+      "address": "0xfd14431285a570adc839c73cc973542e0ffee56f",
+      "nameTag": "CollateralSwap: Core Alpha v0.2"
+    },
+    {
+      "address": "0x3fda67f7583380e67ef93072294a7fac882fd7e7",
+      "nameTag": "Compound"
+    },
+    {
+      "address": "0xdef1ca1fb7fbcdc777520aa7f396b4e015f497ab",
+      "nameTag": "CoW Protocol: COW Token"
+    },
+    {
+      "address": "0xd057b63f5e69cf1b929b356b579cba08d7688048",
+      "nameTag": "CoW Protocol: vCOW Token"
+    },
+    {
+      "address": "0xa2b47e3d5c44877cca798226b7b8118f9bfb7a56",
+      "nameTag": "Curve.fi: Compound Swap"
+    },
+    {
+      "address": "0xbebc44782c7db0a1a60cb6fe97d0b483032ff1c7",
+      "nameTag": "Curve.fi: DAI/USDC/USDT Pool"
+    },
+    {
+      "address": "0x7fc77b5c7614e1533320ea6ddc2eb61fa00a9714",
+      "nameTag": "Curve.fi: sBTC Swap"
+    },
+    {
+      "address": "0x52ea46506b9cc5ef470c5bf89f17dc28bb35d85c",
+      "nameTag": "Curve.fi: USDT Swap"
+    },
+    {
+      "address": "0x45f783cce6b7ff23b2ab2d70e416cdb7d6055f51",
+      "nameTag": "Curve.fi: y Swap"
+    },
+    {
+      "address": "0x0528a32fda5bedf89ba9ad67296db83c9452f28c",
+      "nameTag": "DeFi Saver: Owner"
+    },
+    {
+      "address": "0x745daa146934b27e3f0b6bff1a6e36b9b90fb131",
+      "nameTag": "DEX.AG: Proxy Contract"
+    },
+    {
+      "address": "0xdd7680b6b2eec193ce3ece7129708ee12531bccf",
+      "nameTag": "DMM: Foundation Safe"
+    },
+    {
+      "address": "0x1e0447b19bb6ecfdae1e4ae1694b0c3659614e4e",
+      "nameTag": "dYdX: Solo Margin"
+    },
+    {
+      "address": "0x710b80571db3792fbf4df7763efa6548c25a1635",
+      "nameTag": "Furucombo: Proxy v0.2"
+    },
+    {
+      "address": "0x14e2f9b0381af4227d26bee7d8e4d424466a7f3f",
+      "nameTag": "Gains Network: GFarm Nft Swap"
+    },
+    {
+      "address": "0x580d1938074d48c34f2e2d1371af0bf02ac44701",
+      "nameTag": "Gains Network: GFARM2NFT2 Token"
+    },
+    {
+      "address": "0x25121eddf746c884dde4619b573a7b10714e2a36",
+      "nameTag": "Illuvium: ILV Core Pool"
+    },
+    {
+      "address": "0x8b4d8443a0229349a9892d4f7cbe89ef5f843f72",
+      "nameTag": "Illuvium: ILV-ETH Core Pool"
+    },
+    {
+      "address": "0x3a306a399085f3460bbcb5b77015ab33806a10d5",
+      "nameTag": "InstaDApp: Maker"
+    },
+    {
+      "address": "0xa67b44e37200e92e6da6249d8ae6d48f832a038d",
+      "nameTag": "Iron Bank: CTokenAdmin"
+    },
+    {
+      "address": "0x8e595470ed749b85c6f7669de83eae304c2ec68f",
+      "nameTag": "Iron Bank: cyDAI"
+    },
+    {
+      "address": "0x7736ffb07104c0c400bb0cc9a7c228452a732992",
+      "nameTag": "Iron Bank: cyDPI"
+    },
+    {
+      "address": "0xa8caea564811af0e92b1e044f3edd18fa9a73e4f",
+      "nameTag": "Iron Bank: cyEURS"
+    },
+    {
+      "address": "0x00e5c0774a5f065c285068170b20393925c84bf3",
+      "nameTag": "Iron Bank: cyIBEUR"
+    },
+    {
+      "address": "0xe7bff2da8a2f619c2586fb83938fa56ce803aa16",
+      "nameTag": "Iron Bank: cyLINK"
+    },
+    {
+      "address": "0xca55f9c4e77f7b8524178583b0f7c798de17fd54",
+      "nameTag": "Iron Bank: cySEUR"
+    },
+    {
+      "address": "0x12a9cc33a980daa74e00cc2d1a0e74c57a93d12c",
+      "nameTag": "Iron Bank: cySNX"
+    },
+    {
+      "address": "0xa7c4054afd3dbbbf5bfe80f41862b89ea05c9806",
+      "nameTag": "Iron Bank: cySUSD"
+    },
+    {
+      "address": "0x226f3738238932ba0db2319a8117d9555446102f",
+      "nameTag": "Iron Bank: cySUSHI"
+    },
+    {
+      "address": "0xfeeb92386a055e2ef7c2b598c872a4047a7db59f",
+      "nameTag": "Iron Bank: cyUNI"
+    },
+    {
+      "address": "0x76eb2fe28b36b3ee97f3adae0c69606eedb2a37c",
+      "nameTag": "Iron Bank: cyUSDC"
+    },
+    {
+      "address": "0x48759f220ed983db51fa7a8c0d2aab8f3ce4166a",
+      "nameTag": "Iron Bank: cyUSDT"
+    },
+    {
+      "address": "0x8fc8bfd80d6a9f17fb98a373023d72531792b431",
+      "nameTag": "Iron Bank: cyWBTC"
+    },
+    {
+      "address": "0x41c84c0e2ee0b740cf0d31f63f3b6f627dc6b393",
+      "nameTag": "Iron Bank: cyWETH"
+    },
+    {
+      "address": "0xfa3472f7319477c9bfecdd66e4b948569e7621b9",
+      "nameTag": "Iron Bank: cyYFI"
+    },
+    {
+      "address": "0x21b9e03f995b53c5c6d3f813b43ec8df16681da9",
+      "nameTag": "Iron Bank: Flashloan Lender"
+    },
+    {
+      "address": "0x9d960dae0639c95a0c822c9d7769d19d30a430aa",
+      "nameTag": "Iron Bank: Guardian"
+    },
+    {
+      "address": "0x30190a3b52b5ab1daf70d46d72536f5171f22340",
+      "nameTag": "Iron Bank: iAAVE"
+    },
+    {
+      "address": "0x86bbd9ac8b9b44c95ffc6baae58e25033b7548aa",
+      "nameTag": "Iron Bank: iAUD"
+    },
+    {
+      "address": "0x1b3e95e8ecf7a7cab6c4de1b344f94865abd12d5",
+      "nameTag": "Iron Bank: iCHF"
+    },
+    {
+      "address": "0xb8c5af54bbdcc61453144cf472a9276ae36109f9",
+      "nameTag": "Iron Bank: iCRV"
+    },
+    {
+      "address": "0xecab2c76f1a8359a06fab5fa0ceea51280a97ecf",
+      "nameTag": "Iron Bank: iGBP"
+    },
+    {
+      "address": "0x215f34af6557a6598dbda9aa11cc556f5ae264b1",
+      "nameTag": "Iron Bank: iJPY"
+    },
+    {
+      "address": "0x3c9f5385c288ce438ed55620938a4b967c080101",
+      "nameTag": "Iron Bank: iKRW"
+    },
+    {
+      "address": "0x9e8e207083ffd5bdc3d99a1f32d1e6250869c1a9",
+      "nameTag": "Iron Bank: iMIM"
+    },
+    {
+      "address": "0x672473908587b10e65dab177dbaeadcbb30bf40b",
+      "nameTag": "Iron Bank: iZAR"
+    },
+    {
+      "address": "0x328a7b4d538a2b3942653a9983fda3c12c571141",
+      "nameTag": "Iron Bank: Lens"
+    },
+    {
+      "address": "0xa5fc0bbfcd05827ed582869b7254b6f141ba84eb",
+      "nameTag": "Iron Bank: Multisig"
+    },
+    {
+      "address": "0xe4e9f6cfe8ac8c75a3dbef809dbe4fc40e6fdc4b",
+      "nameTag": "Iron Bank: PriceOracleProxy"
+    },
+    {
+      "address": "0xab1c342c7bf5ec5f02adea1c2270670bca144cbb",
+      "nameTag": "Iron Bank: Unitroller"
+    },
+    {
+      "address": "0x6ad9e8e5236c0e2cf6d755bb7be4eabcbc03f76d",
+      "nameTag": "Keep: LPRewardsTBTCv2Saddle"
+    },
+    {
+      "address": "0x68eb4de507c6802d73904a18fb228c7dc2981200",
+      "nameTag": "Keep: Stakedrop Escrow"
+    },
+    {
+      "address": "0x8381e623775e7a95e015aab575f734d7be047037",
+      "nameTag": "Keep: TBTCv2SaddleRewardsEscrowBeneficiary"
+    },
+    {
+      "address": "0xd83f623a0a77e09dfc586b831012118bdf3b4141",
+      "nameTag": "LifeCrypto: Staking Contract"
+    },
+    {
+      "address": "0x448a5065aebb8e423f0896e6c5d525c040f59af3",
+      "nameTag": "Maker: Contract 1"
+    },
+    {
+      "address": "0x05b70fb5477a93be33822bfb31fdaf2c171970df",
+      "nameTag": "Mayan: Swap Bridge"
+    },
+    {
+      "address": "0xfe842e95f8911dcc21c943a1daa4bd641a1381c6",
+      "nameTag": "mStable: BUSD feeder pool"
+    },
+    {
+      "address": "0x4fb30c5a3ac8e85bc32785518633303c4590752d",
+      "nameTag": "mStable: GUSD feeder pool"
+    },
+    {
+      "address": "0x48c59199da51b7e30ea200a74ea07974e62c4ba7",
+      "nameTag": "mStable: HBTC feeder pool"
+    },
+    {
+      "address": "0xf617346a0fb6320e9e578e0c9b2a4588283d9d39",
+      "nameTag": "mStable: mUSD Aave Vault"
+    },
+    {
+      "address": "0xd55684f4369040c12262949ff78299f2bc9db735",
+      "nameTag": "mStable: mUSD Compound Vault"
+    },
+    {
+      "address": "0xcf3f73290803fc04425bee135a4caeb2bab2c2a1",
+      "nameTag": "mStable: Old mUSD Savings Contract"
+    },
+    {
+      "address": "0x7046b0bfc4c5eeb90559c0805dd9c1a6f4815370",
+      "nameTag": "mStable: Savings Manager 1.1"
+    },
+    {
+      "address": "0xb61a6f928b3f069a68469ddb670f20eeeb4921e0",
+      "nameTag": "mStable: tBTC feeder pool"
+    },
+    {
+      "address": "0x3c34de76ec06d7764dd62967f634e5f531a409d7",
+      "nameTag": "Mute : Treasury"
+    },
+    {
+      "address": "0x8683dcf44d44f78310bc9c1c1e9a0d75f8291d7e",
+      "nameTag": "ODE Money: Retirement Fund"
+    },
+    {
+      "address": "0x0d4c1222f5e839a911e2053860e45f18921d72ac",
+      "nameTag": "OMG Network V1: Plasma Framework"
+    },
+    {
+      "address": "0x4dda68b16e0b2a942b4852ecd13e28fb92d47f26",
+      "nameTag": "OptiVault: Sophomore Year"
+    },
+    {
+      "address": "0x86969d29f5fd327e1009ba66072be22db6017cc6",
+      "nameTag": "ParaSwap V1"
+    },
+    {
+      "address": "0x408f66057163d829a30d4d466092c6b0eebb692f",
+      "nameTag": "Pulsar Protocol: Factory"
+    },
+    {
+      "address": "0xcd43aba971bef65555d877657f83093ddfb885b8",
+      "nameTag": "Pulsar Protocol: TWAMM"
+    },
+    {
+      "address": "0x5ea4a9a7592683bf0bc187d6da706c6c4770976f",
+      "nameTag": "Rari Capital: RGT Reserves"
+    },
+    {
+      "address": "0xc1adda7605d2dc47dd91a930c978cd6a18d2d760",
+      "nameTag": "RigoBlock: Governance Factory"
+    },
+    {
+      "address": "0xe5d8204f8335e9786ea7ce382771b865fe73a304",
+      "nameTag": "RigoBlock: Governance Implementation"
+    },
+    {
+      "address": "0x6e1423cb6b0b72316f051fbc3b6bc54ed5e584dc",
+      "nameTag": "RigoBlock: Governance Strategy"
+    },
+    {
+      "address": "0x69116ca6b231530c6970d7fd107e6d1b0299fb95",
+      "nameTag": "Sigil Finance : Staking"
+    },
+    {
+      "address": "0x195e8262aa81ba560478ec6ca4da73745547073f",
+      "nameTag": "SushiSwap: Inari V1"
+    },
+    {
+      "address": "0x3518e38ff48b4a5fde0ffec4133111856ddadbc8",
+      "nameTag": "UNCX Network : Tax Token Minter"
+    },
+    {
+      "address": "0x663a5c229c09b049e36dcc11a9b0d4a8eb9db214",
+      "nameTag": "UNCX Network Security : LP Lockers"
+    },
+    {
+      "address": "0x887e81cab04461620a5ff196048bba38d9dc96e4",
+      "nameTag": "UNCX Network: Staking pool Tier 1"
+    },
+    {
+      "address": "0x73f5876ecd9fabf7d359daf7be7610b276641549",
+      "nameTag": "UNCX Network: Staking pool Tier 2"
+    },
+    {
+      "address": "0xf4868e785457280dd48b10a02d8f03bbfd5b721f",
+      "nameTag": "UNCX Network: Staking pool Tier 3"
+    },
+    {
+      "address": "0x000000000022d473030f116ddee9f6b43ac78ba3",
+      "nameTag": "Uniswap Protocol: Permit2"
+    },
+    {
+      "address": "0x5c69bee701ef814a2b6a3edd4b1652cb9cc5aa6f",
+      "nameTag": "Uniswap V2: Factory Contract"
+    },
+    {
+      "address": "0xc0a47dfe034b400b47bdad5fecda2621de6c4d95",
+      "nameTag": "Uniswap: Factory Contract"
+    },
+    {
+      "address": "0x777777773fdd8b28bb03377d10fcea75ad9768da",
+      "nameTag": "Via Protocol: Router"
+    },
+    {
+      "address": "0x975f1bc238303593efab00d63cf0fc5f519a8de0",
+      "nameTag": "yearn: yCurve Zap In"
+    },
+    {
+      "address": "0xed03415e5705c5abbf8e94c491b715df526cad55",
+      "nameTag": "yearn: yCurve Zap Out"
+    },
+    {
+      "address": "0x2c3a2558e9b91e893e53bce94de3457a29f6b262",
+      "nameTag": "yearn: yCurve Zap Swap"
+    },
+    {
+      "address": "0x033e52f513f9b98e129381c6708f9faa2dee5db5",
+      "nameTag": "Ygov.finance: Balancer"
+    },
+    {
+      "address": "0x3a22df48d84957f907e67f4313e3d43179040d6e",
+      "nameTag": "Ygov.finance: Governance"
+    },
+    {
+      "address": "0x0001fb050fe7312791bf6475b96569d83f695c9f",
+      "nameTag": "Ygov.finance: yearn"
+    },
+    {
+      "address": "0x52fc6455f258760705e70f70160b06619bfe0adb",
+      "nameTag": "Zapper.Fi: cDAI Unipool"
+    },
+    {
+      "address": "0xd17cda470bd0237fae82ef254c84d06d0e4cc02f",
+      "nameTag": "Zapper.Fi: CHAI Unipool"
+    },
+    {
+      "address": "0x8dfcb49766c0296e4373a0300b52c3637614db59",
+      "nameTag": "Zapper.Fi: DAI LLP 100% ETH"
+    },
+    {
+      "address": "0x929a10efda7099865dad8286aee8715078902d51",
+      "nameTag": "Zapper.Fi: DAI Unipool"
+    },
+    {
+      "address": "0x1ee8c303f5ab9b36bc30b9345dec7e9a748fa693",
+      "nameTag": "Zapper.Fi: Double Bull"
+    },
+    {
+      "address": "0xf0cd9981f15695324763a06869d1c1dd90073c2a",
+      "nameTag": "Zapper.Fi: ERC20 Inputs"
+    },
+    {
+      "address": "0x04b35ef193e2357328ae79914569721a7ffd6146",
+      "nameTag": "Zapper.Fi: ETH Bull"
+    },
+    {
+      "address": "0xebd5e23927891fbfda10487ccc9a1a1a7b9a4210",
+      "nameTag": "Zapper.Fi: Lender"
+    },
+    {
+      "address": "0x20ef0c900f8e7ec3a1a89a761f0670ae9e3dd709",
+      "nameTag": "Zapper.Fi: LINK LLP 100% ETH"
+    },
+    {
+      "address": "0x408609f5acab253d41cb5dfce913ff367937313b",
+      "nameTag": "Zapper.Fi: LINK LLP 100% LINK"
+    },
+    {
+      "address": "0x13240b97c40d7e306cedf3adc9cb057cec74c361",
+      "nameTag": "Zapper.Fi: MKR Unipool"
+    },
+    {
+      "address": "0x3b122c376e472ae6ae7a4739bebf7b68e045b285",
+      "nameTag": "Zapper.Fi: Moderate Bull"
+    },
+    {
+      "address": "0x2346722daa00ebbd0fc452c0e7ab7976bdafeae8",
+      "nameTag": "Zapper.Fi: Old Zapper Swap"
+    },
+    {
+      "address": "0xd3eba712988df0f8a7e5073719a40ce4cbf60b33",
+      "nameTag": "Zapper.Fi: sETH Unipool"
+    },
+    {
+      "address": "0xe3385df5b47687405a02fc24322dedb7df381852",
+      "nameTag": "Zapper.Fi: SNX Unipool"
+    },
+    {
+      "address": "0xecb53d65816444dbbf6a326b8df959caeda3faf9",
+      "nameTag": "Zapper.Fi: Super Saver"
+    },
+    {
+      "address": "0x606563f8dc27f316b77f22d14d9cd025b4f70469",
+      "nameTag": "Zapper.Fi: UniPool General"
+    },
+    {
+      "address": "0x4316e3ad83ca2cf0ea5e3b25e3de2fa7f93cfe9c",
+      "nameTag": "Zapper.Fi: Unipool UnZap"
+    },
+    {
+      "address": "0x21091c5ea13854ab0965090dc4fc20280f1a5730",
+      "nameTag": "Zapper.Fi: wBTC LLP 100% ETH"
+    },
+    {
+      "address": "0xe4b7b00a802834bea733f06a0a24a869f2765df7",
+      "nameTag": "Zapper.Fi: wBTC LLP 100% wBTC"
+    },
+    {
+      "address": "0x4ebee4cf5ba7de81f222fefa4e5d0c30c4968fff",
+      "nameTag": "Zapper.Fi: wBTC Unipool"
+    },
+    {
+      "address": "0xacdf47c844eff0ecb218d8945e28a9a484af8d07",
+      "nameTag": "Zapper.Fi: Zapper Swap V1"
+    },
+    {
+      "address": "0x06fe76b2f432fdfecaef1a7d4f6c3d41b5861672",
+      "nameTag": "Zerion: DeFi SDK AdapterRegistry v0.1"
+    },
+    {
+      "address": "0xadfc6460233221eca99dac25d00f98d32ea3989e",
+      "nameTag": "Zerion: DeFi SDK AdapterRegistry v1.0"
+    },
+    {
+      "address": "0xd291328a6c202c5b18dcb24f279f69de1e065f70",
+      "nameTag": "Zerion: DeFi SDK Core v1.0"
+    },
+    {
+      "address": "0xb2be281e8b11b47fec825973fc8bb95332022a54",
+      "nameTag": "Zerion: DeFi SDK v1.0"
+    }
+  ]
+}

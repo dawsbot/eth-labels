@@ -1,98 +1,101 @@
-[
-  {
-    "address": "0xa59075221b50c598aed0eae0bb9869639513af0d",
-    "nameTag": "Arbitrum Nova: Challenge Manager"
-  },
-  {
-    "address": "0xc4448b71118c9071bcb9734a0eac55d18a153949",
-    "nameTag": "Arbitrum Nova: Delayed Inbox"
-  },
-  {
-    "address": "0x7adca86896c4220f19b2f7f9746e7a99e57b0fc5",
-    "nameTag": "Arbitrum Nova: One Step Proof Entry"
-  },
-  {
-    "address": "0x8323b58c522690e6afae94044825f0c79a93d236",
-    "nameTag": "Arbitrum Nova: One Step Prover 0"
-  },
-  {
-    "address": "0x9cbc3f14a57ce6ead0e770f528e2f1e8b8c37613",
-    "nameTag": "Arbitrum Nova: One Step Prover Host Io"
-  },
-  {
-    "address": "0x1efb116ebc38ce895eb2e5e009234e0e0836f2f5",
-    "nameTag": "Arbitrum Nova: One Step Prover Math"
-  },
-  {
-    "address": "0x7a6c0503107858f82a790e481024134092e19979",
-    "nameTag": "Arbitrum Nova: One Step Prover Memory"
-  },
-  {
-    "address": "0xfb209827c58283535b744575e11953dcc4bead88",
-    "nameTag": "Arbitrum Nova: Rollup"
-  },
-  {
-    "address": "0x211e1c4c7f1bf5351ac850ed10fd68cffcf6c21b",
-    "nameTag": "Arbitrum Nova: Sequencer Inbox"
-  },
-  {
-    "address": "0x6ad1dc4ab5475d9f8cd10118c9d28b06f0c8a2d9",
-    "nameTag": "Arbitrum One: Challenge"
-  },
-  {
-    "address": "0x4812be53be02b9f38063cf55fef0a19d2ba8bb3a",
-    "nameTag": "Arbitrum One: One Step Proof"
-  },
-  {
-    "address": "0x2df287a3b2fd0916c0b3d4882201ff360acd6ec3",
-    "nameTag": "Arbitrum One: One Step Proof 2"
-  },
-  {
-    "address": "0xce81e7d009e53c02242b724819df1869da5e9fd8",
-    "nameTag": "Arbitrum One: One Step Proof Hash"
-  },
-  {
-    "address": "0x1e13bb8cf5f44c4c7fc585797336eaae3935113c",
-    "nameTag": "Arbitrum: Challenge Factory"
-  },
-  {
-    "address": "0x27a6cf5e8350b44273fb10f98d78525c5dad6d8a",
-    "nameTag": "Arbitrum: Node Factory"
-  },
-  {
-    "address": "0x3e1f62aa8076000c3218493fe3e0ae40bcb9a1df",
-    "nameTag": "Arbitrum: OneStepProof Entry"
-  },
-  {
-    "address": "0x499a4f574f2e4f8837e242adec86223ef7deefcc",
-    "nameTag": "Arbitrum: OneStepProver 0"
-  },
-  {
-    "address": "0xb965b08a826d4c7634e0df4c5ef5e1d1f9b5d13a",
-    "nameTag": "Arbitrum: OneStepProver Host Io"
-  },
-  {
-    "address": "0xd315ac3a82e8edaa84b347f478e0f59801747970",
-    "nameTag": "Arbitrum: OneStepProver Math"
-  },
-  {
-    "address": "0xb556f3bb0fdcfeaf81a1c393e024a69a3327b676",
-    "nameTag": "Arbitrum: OneStepProver Memory"
-  },
-  {
-    "address": "0x5ef0d09d1e6204141b4d37530808ed19f60fba35",
-    "nameTag": "Arbitrum: Rollup"
-  },
-  {
-    "address": "0xc8c3194ed3be7b2393fefe811a2cc39297442c0b",
-    "nameTag": "Arbitrum: Rollup Event Bridge"
-  },
-  {
-    "address": "0xb43710d69f50563cd1d807804f7aa9210a39ae44",
-    "nameTag": "Bermuda : Bermuda dApp"
-  },
-  {
-    "address": "0x78b2d65dd1d3d9fb2972d7ef467261ca101ec2b9",
-    "nameTag": "Flashstake: Protocol"
-  }
-]
+{
+  "lastPulled": "2024-04-02T20:48:30.107Z",
+  "data": [
+    {
+      "address": "0xa59075221b50c598aed0eae0bb9869639513af0d",
+      "nameTag": "Arbitrum Nova: Challenge Manager"
+    },
+    {
+      "address": "0xc4448b71118c9071bcb9734a0eac55d18a153949",
+      "nameTag": "Arbitrum Nova: Delayed Inbox"
+    },
+    {
+      "address": "0x7adca86896c4220f19b2f7f9746e7a99e57b0fc5",
+      "nameTag": "Arbitrum Nova: One Step Proof Entry"
+    },
+    {
+      "address": "0x8323b58c522690e6afae94044825f0c79a93d236",
+      "nameTag": "Arbitrum Nova: One Step Prover 0"
+    },
+    {
+      "address": "0x9cbc3f14a57ce6ead0e770f528e2f1e8b8c37613",
+      "nameTag": "Arbitrum Nova: One Step Prover Host Io"
+    },
+    {
+      "address": "0x1efb116ebc38ce895eb2e5e009234e0e0836f2f5",
+      "nameTag": "Arbitrum Nova: One Step Prover Math"
+    },
+    {
+      "address": "0x7a6c0503107858f82a790e481024134092e19979",
+      "nameTag": "Arbitrum Nova: One Step Prover Memory"
+    },
+    {
+      "address": "0xfb209827c58283535b744575e11953dcc4bead88",
+      "nameTag": "Arbitrum Nova: Rollup"
+    },
+    {
+      "address": "0x211e1c4c7f1bf5351ac850ed10fd68cffcf6c21b",
+      "nameTag": "Arbitrum Nova: Sequencer Inbox"
+    },
+    {
+      "address": "0x6ad1dc4ab5475d9f8cd10118c9d28b06f0c8a2d9",
+      "nameTag": "Arbitrum One: Challenge"
+    },
+    {
+      "address": "0x4812be53be02b9f38063cf55fef0a19d2ba8bb3a",
+      "nameTag": "Arbitrum One: One Step Proof"
+    },
+    {
+      "address": "0x2df287a3b2fd0916c0b3d4882201ff360acd6ec3",
+      "nameTag": "Arbitrum One: One Step Proof 2"
+    },
+    {
+      "address": "0xce81e7d009e53c02242b724819df1869da5e9fd8",
+      "nameTag": "Arbitrum One: One Step Proof Hash"
+    },
+    {
+      "address": "0x1e13bb8cf5f44c4c7fc585797336eaae3935113c",
+      "nameTag": "Arbitrum: Challenge Factory"
+    },
+    {
+      "address": "0x27a6cf5e8350b44273fb10f98d78525c5dad6d8a",
+      "nameTag": "Arbitrum: Node Factory"
+    },
+    {
+      "address": "0x3e1f62aa8076000c3218493fe3e0ae40bcb9a1df",
+      "nameTag": "Arbitrum: OneStepProof Entry"
+    },
+    {
+      "address": "0x499a4f574f2e4f8837e242adec86223ef7deefcc",
+      "nameTag": "Arbitrum: OneStepProver 0"
+    },
+    {
+      "address": "0xb965b08a826d4c7634e0df4c5ef5e1d1f9b5d13a",
+      "nameTag": "Arbitrum: OneStepProver Host Io"
+    },
+    {
+      "address": "0xd315ac3a82e8edaa84b347f478e0f59801747970",
+      "nameTag": "Arbitrum: OneStepProver Math"
+    },
+    {
+      "address": "0xb556f3bb0fdcfeaf81a1c393e024a69a3327b676",
+      "nameTag": "Arbitrum: OneStepProver Memory"
+    },
+    {
+      "address": "0x5ef0d09d1e6204141b4d37530808ed19f60fba35",
+      "nameTag": "Arbitrum: Rollup"
+    },
+    {
+      "address": "0xc8c3194ed3be7b2393fefe811a2cc39297442c0b",
+      "nameTag": "Arbitrum: Rollup Event Bridge"
+    },
+    {
+      "address": "0xb43710d69f50563cd1d807804f7aa9210a39ae44",
+      "nameTag": "Bermuda : Bermuda dApp"
+    },
+    {
+      "address": "0x78b2d65dd1d3d9fb2972d7ef467261ca101ec2b9",
+      "nameTag": "Flashstake: Protocol"
+    }
+  ]
+}

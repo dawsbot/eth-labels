@@ -1,30 +1,33 @@
-[
-  {
-    "address": "0x6b59210ade46b62b25e82e95ab390a7ccadd4c3a",
-    "nameTag": "Bitberry"
-  },
-  {
-    "address": "0xa9c7d31bb1879bff8be25ead2f59b310a52b7c5a",
-    "nameTag": "Cobo"
-  },
-  {
-    "address": "0x4fed1fc4144c223ae3c1553be203cdfcbd38c581",
-    "nameTag": "Cryptonator"
-  },
-  {
-    "address": "0x7ed1e469fcb3ee19c0366d829e291451be638e59",
-    "nameTag": "Freewallet"
-  },
-  {
-    "address": "0x28c9386ebab8d52ead4a327e6423316435b2d4fc",
-    "nameTag": "RenrenBit"
-  },
-  {
-    "address": "0x46c635b772115ad2c3df7abe0d35eb908abad4b8",
-    "nameTag": "Streamity: STM Wallet App"
-  },
-  {
-    "address": "0x6e8d7d12c3f0a9285981b8998ce7cf0cf0bce78e",
-    "nameTag": "ZixiPay"
-  }
-]
+{
+  "lastPulled": "2024-04-02T20:51:58.320Z",
+  "data": [
+    {
+      "address": "0x6b59210ade46b62b25e82e95ab390a7ccadd4c3a",
+      "nameTag": "Bitberry"
+    },
+    {
+      "address": "0xa9c7d31bb1879bff8be25ead2f59b310a52b7c5a",
+      "nameTag": "Cobo"
+    },
+    {
+      "address": "0x4fed1fc4144c223ae3c1553be203cdfcbd38c581",
+      "nameTag": "Cryptonator"
+    },
+    {
+      "address": "0x7ed1e469fcb3ee19c0366d829e291451be638e59",
+      "nameTag": "Freewallet"
+    },
+    {
+      "address": "0x28c9386ebab8d52ead4a327e6423316435b2d4fc",
+      "nameTag": "RenrenBit"
+    },
+    {
+      "address": "0x46c635b772115ad2c3df7abe0d35eb908abad4b8",
+      "nameTag": "Streamity: STM Wallet App"
+    },
+    {
+      "address": "0x6e8d7d12c3f0a9285981b8998ce7cf0cf0bce78e",
+      "nameTag": "ZixiPay"
+    }
+  ]
+}

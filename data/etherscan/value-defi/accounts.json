@@ -1,138 +1,141 @@
-[
-  {
-    "address": "0x53aa48b2ac0071a6ce61ddb3ba4e41d395b2db51",
-    "nameTag": "Value Defi : Balancer ETH-USDC Vault Strategy"
-  },
-  {
-    "address": "0x0a62cc5ebfa79b155b4ec90e74c00e0176692772",
-    "nameTag": "Value Defi : Balancer ETH-WBTC Vault Strategy"
-  },
-  {
-    "address": "0x210f342802a95be9e8cc371961f23524a3d426e7",
-    "nameTag": "Value Defi : FAAS Pool Factory"
-  },
-  {
-    "address": "0x55bf8304c78ba6fe47fd251f37d7beb485f86d26",
-    "nameTag": "Value Defi : MultiStables Strategy"
-  },
-  {
-    "address": "0x7c175a3fd4d2f14e40ac418a1e004dfc8edd3ba8",
-    "nameTag": "Value Defi : SushiSwap ETH-USDC Vault Strategy"
-  },
-  {
-    "address": "0x555ddd7c3999010cff0ae3671d31cb376fa638f0",
-    "nameTag": "Value Defi : SushiSwap ETH-WBTC Vault Strategy"
-  },
-  {
-    "address": "0xd897b5458afe7e2dc26d94ec33cf7d09a9158568",
-    "nameTag": "Value DeFi: BarnBridge-USDC Vault Strategy"
-  },
-  {
-    "address": "0x19b770c8f9d5439c419864d8458255791f7e736c",
-    "nameTag": "Value Defi: BASE/USDC Pool 98/2"
-  },
-  {
-    "address": "0x635e4a8d23d9add975e931113ddd2ac3663a7325",
-    "nameTag": "Value Defi: BFIE/VALUE Pool 70/30"
-  },
-  {
-    "address": "0x809d6cbb321c29b1962d6f508a4fd4f564ec7488",
-    "nameTag": "Value Defi: BNI/VALUE Pool 50/50"
-  },
-  {
-    "address": "0x200d2924cf5008e607ce0428599e1972bc16882e",
-    "nameTag": "Value Defi: BNI/WETH Pool 50/50"
-  },
-  {
-    "address": "0xc1b6296e55b6ca1882a9cefd72ac246acde91414",
-    "nameTag": "Value Defi: BSD/DAI Pool 50/50"
-  },
-  {
-    "address": "0xcdd2bd61d07b8d42843175dd097a4858a8f764e7",
-    "nameTag": "Value Defi: BSD/USDC Pool 50/50"
-  },
-  {
-    "address": "0xdd82e4227baec1fc40a72ef9895f38f2c1df4f42",
-    "nameTag": "Value Defi: BSDS/DAI Pool 80/20"
-  },
-  {
-    "address": "0x406bae1a2a0b4fbdb1675fc22d2c4144cad0f6ae",
-    "nameTag": "Value Defi: DAI/MIXS Pool 90/10"
-  },
-  {
-    "address": "0x0a752431fdff84fff76b3c76e3deb0db9170d4de",
-    "nameTag": "Value Defi: DSD/BSD Pool 60/40"
-  },
-  {
-    "address": "0x8b3dc8ef9322606e3535adef66380a67e9db7603",
-    "nameTag": "Value Defi: MIKAL/VALUE Pool 98/2"
-  },
-  {
-    "address": "0xd48831681defd9c84811bcb4f72c13b4b6f7bd6c",
-    "nameTag": "Value Defi: MIXS/USDC Pool 60/40"
-  },
-  {
-    "address": "0xad0d9f7031035c84bbb3fdd4eee69ba553ab25e1",
-    "nameTag": "Value Defi: MIXS/WETH Pool 50/50"
-  },
-  {
-    "address": "0x0e2d1adab9c174dedd0a37bfc06354991cb336f6",
-    "nameTag": "Value Defi: MIXS/WETH Pool 98/2"
-  },
-  {
-    "address": "0x8f3f62a8337984ccb8a512c8a6408df71c23ffd3",
-    "nameTag": "Value Defi: SNTVT/DAI Pool 98/2"
-  },
-  {
-    "address": "0xcce6977a4762522f6c3a58846ff346eb056f5407",
-    "nameTag": "Value Defi: SNTVT/USDC Pool 60/40"
-  },
-  {
-    "address": "0xe2dd8b60735ec1fd75ddf557d2230640bbb3b572",
-    "nameTag": "Value Defi: USDC/BNI Pool 60/40"
-  },
-  {
-    "address": "0x8438d64da58772e9f7fceaa1506ba300f935abbd",
-    "nameTag": "Value Defi: USDC/BSDS Pool 80/20"
-  },
-  {
-    "address": "0x67755124d8e4965c5c303ffd15641db4ff366e47",
-    "nameTag": "Value Defi: USDC/VALUE Pool 60/40"
-  },
-  {
-    "address": "0xb9bccc26fe0536e6476aacc1dc97462b261b43d7",
-    "nameTag": "Value Defi: VALUE/MIXS Pool 50/50"
-  },
-  {
-    "address": "0x600f03c297b45f697be35c8f626429b64fe332e0",
-    "nameTag": "Value Defi: VALUE/NEWS Pool 50/50"
-  },
-  {
-    "address": "0x7df0b0dbd00d06203a0d2232282e33a5d2e5d5b0",
-    "nameTag": "Value Defi: VALUE/SNTVT Pool 50/50"
-  },
-  {
-    "address": "0xfbea9d9e4c13f56bb6ba7d5cbb814ff2c8c5c4a5",
-    "nameTag": "Value Defi: VBOND/VALUE Pool 50/50"
-  },
-  {
-    "address": "0x839b6bd6c18911d93725d32f80a2a785b41514cf",
-    "nameTag": "Value Defi: vUSD/VALUE Pool 98/2"
-  },
-  {
-    "address": "0x56d950f1100e116917cf489149cb4cd6322cc476",
-    "nameTag": "Value Defi: WBTC/BNI Pool 80/20"
-  },
-  {
-    "address": "0xa5376d2ee24f6b50970e87dc2e69feb5cd1fcf46",
-    "nameTag": "Value Defi: WBTC/SNTVT Pool 50/50"
-  },
-  {
-    "address": "0x0464994e800b4a1104e116ff248cf6ea7494ca47",
-    "nameTag": "Value Defi: WETH/NIOX Pool 50/50"
-  },
-  {
-    "address": "0xc9608b8dcee2006a5ab57b1cde0b1aa2e40391b0",
-    "nameTag": "Value Defi: WETH/SNTVT Pool 98/2"
-  }
-]
+{
+  "lastPulled": "2024-04-02T20:51:47.937Z",
+  "data": [
+    {
+      "address": "0x53aa48b2ac0071a6ce61ddb3ba4e41d395b2db51",
+      "nameTag": "Value Defi : Balancer ETH-USDC Vault Strategy"
+    },
+    {
+      "address": "0x0a62cc5ebfa79b155b4ec90e74c00e0176692772",
+      "nameTag": "Value Defi : Balancer ETH-WBTC Vault Strategy"
+    },
+    {
+      "address": "0x210f342802a95be9e8cc371961f23524a3d426e7",
+      "nameTag": "Value Defi : FAAS Pool Factory"
+    },
+    {
+      "address": "0x55bf8304c78ba6fe47fd251f37d7beb485f86d26",
+      "nameTag": "Value Defi : MultiStables Strategy"
+    },
+    {
+      "address": "0x7c175a3fd4d2f14e40ac418a1e004dfc8edd3ba8",
+      "nameTag": "Value Defi : SushiSwap ETH-USDC Vault Strategy"
+    },
+    {
+      "address": "0x555ddd7c3999010cff0ae3671d31cb376fa638f0",
+      "nameTag": "Value Defi : SushiSwap ETH-WBTC Vault Strategy"
+    },
+    {
+      "address": "0xd897b5458afe7e2dc26d94ec33cf7d09a9158568",
+      "nameTag": "Value DeFi: BarnBridge-USDC Vault Strategy"
+    },
+    {
+      "address": "0x19b770c8f9d5439c419864d8458255791f7e736c",
+      "nameTag": "Value Defi: BASE/USDC Pool 98/2"
+    },
+    {
+      "address": "0x635e4a8d23d9add975e931113ddd2ac3663a7325",
+      "nameTag": "Value Defi: BFIE/VALUE Pool 70/30"
+    },
+    {
+      "address": "0x809d6cbb321c29b1962d6f508a4fd4f564ec7488",
+      "nameTag": "Value Defi: BNI/VALUE Pool 50/50"
+    },
+    {
+      "address": "0x200d2924cf5008e607ce0428599e1972bc16882e",
+      "nameTag": "Value Defi: BNI/WETH Pool 50/50"
+    },
+    {
+      "address": "0xc1b6296e55b6ca1882a9cefd72ac246acde91414",
+      "nameTag": "Value Defi: BSD/DAI Pool 50/50"
+    },
+    {
+      "address": "0xcdd2bd61d07b8d42843175dd097a4858a8f764e7",
+      "nameTag": "Value Defi: BSD/USDC Pool 50/50"
+    },
+    {
+      "address": "0xdd82e4227baec1fc40a72ef9895f38f2c1df4f42",
+      "nameTag": "Value Defi: BSDS/DAI Pool 80/20"
+    },
+    {
+      "address": "0x406bae1a2a0b4fbdb1675fc22d2c4144cad0f6ae",
+      "nameTag": "Value Defi: DAI/MIXS Pool 90/10"
+    },
+    {
+      "address": "0x0a752431fdff84fff76b3c76e3deb0db9170d4de",
+      "nameTag": "Value Defi: DSD/BSD Pool 60/40"
+    },
+    {
+      "address": "0x8b3dc8ef9322606e3535adef66380a67e9db7603",
+      "nameTag": "Value Defi: MIKAL/VALUE Pool 98/2"
+    },
+    {
+      "address": "0xd48831681defd9c84811bcb4f72c13b4b6f7bd6c",
+      "nameTag": "Value Defi: MIXS/USDC Pool 60/40"
+    },
+    {
+      "address": "0xad0d9f7031035c84bbb3fdd4eee69ba553ab25e1",
+      "nameTag": "Value Defi: MIXS/WETH Pool 50/50"
+    },
+    {
+      "address": "0x0e2d1adab9c174dedd0a37bfc06354991cb336f6",
+      "nameTag": "Value Defi: MIXS/WETH Pool 98/2"
+    },
+    {
+      "address": "0x8f3f62a8337984ccb8a512c8a6408df71c23ffd3",
+      "nameTag": "Value Defi: SNTVT/DAI Pool 98/2"
+    },
+    {
+      "address": "0xcce6977a4762522f6c3a58846ff346eb056f5407",
+      "nameTag": "Value Defi: SNTVT/USDC Pool 60/40"
+    },
+    {
+      "address": "0xe2dd8b60735ec1fd75ddf557d2230640bbb3b572",
+      "nameTag": "Value Defi: USDC/BNI Pool 60/40"
+    },
+    {
+      "address": "0x8438d64da58772e9f7fceaa1506ba300f935abbd",
+      "nameTag": "Value Defi: USDC/BSDS Pool 80/20"
+    },
+    {
+      "address": "0x67755124d8e4965c5c303ffd15641db4ff366e47",
+      "nameTag": "Value Defi: USDC/VALUE Pool 60/40"
+    },
+    {
+      "address": "0xb9bccc26fe0536e6476aacc1dc97462b261b43d7",
+      "nameTag": "Value Defi: VALUE/MIXS Pool 50/50"
+    },
+    {
+      "address": "0x600f03c297b45f697be35c8f626429b64fe332e0",
+      "nameTag": "Value Defi: VALUE/NEWS Pool 50/50"
+    },
+    {
+      "address": "0x7df0b0dbd00d06203a0d2232282e33a5d2e5d5b0",
+      "nameTag": "Value Defi: VALUE/SNTVT Pool 50/50"
+    },
+    {
+      "address": "0xfbea9d9e4c13f56bb6ba7d5cbb814ff2c8c5c4a5",
+      "nameTag": "Value Defi: VBOND/VALUE Pool 50/50"
+    },
+    {
+      "address": "0x839b6bd6c18911d93725d32f80a2a785b41514cf",
+      "nameTag": "Value Defi: vUSD/VALUE Pool 98/2"
+    },
+    {
+      "address": "0x56d950f1100e116917cf489149cb4cd6322cc476",
+      "nameTag": "Value Defi: WBTC/BNI Pool 80/20"
+    },
+    {
+      "address": "0xa5376d2ee24f6b50970e87dc2e69feb5cd1fcf46",
+      "nameTag": "Value Defi: WBTC/SNTVT Pool 50/50"
+    },
+    {
+      "address": "0x0464994e800b4a1104e116ff248cf6ea7494ca47",
+      "nameTag": "Value Defi: WETH/NIOX Pool 50/50"
+    },
+    {
+      "address": "0xc9608b8dcee2006a5ab57b1cde0b1aa2e40391b0",
+      "nameTag": "Value Defi: WETH/SNTVT Pool 98/2"
+    }
+  ]
+}

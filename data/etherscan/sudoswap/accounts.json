@@ -1,14 +1,17 @@
-[
-  {
-    "address": "0x432f962d8209781da23fb37b6b59ee15de7d9841",
-    "nameTag": "sudoswap: Exponential Curve"
-  },
-  {
-    "address": "0x5b6ac51d9b1cede0068a1b26533cace807f883ee",
-    "nameTag": "sudoswap: Linear Curve"
-  },
-  {
-    "address": "0x2b2e8cda09bba9660dca5cb6233787738ad68329",
-    "nameTag": "sudoswap: Pair Router"
-  }
-]
+{
+  "lastPulled": "2024-04-02T20:50:06.914Z",
+  "data": [
+    {
+      "address": "0x432f962d8209781da23fb37b6b59ee15de7d9841",
+      "nameTag": "sudoswap: Exponential Curve"
+    },
+    {
+      "address": "0x5b6ac51d9b1cede0068a1b26533cace807f883ee",
+      "nameTag": "sudoswap: Linear Curve"
+    },
+    {
+      "address": "0x2b2e8cda09bba9660dca5cb6233787738ad68329",
+      "nameTag": "sudoswap: Pair Router"
+    }
+  ]
+}

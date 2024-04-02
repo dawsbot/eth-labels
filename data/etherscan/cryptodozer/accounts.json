@@ -1,26 +1,29 @@
-[
-  {
-    "address": "0x5f5b176553e51171826d1a62e540bc30422c7717",
-    "nameTag": "CryptoDozer: PLA Token"
-  },
-  {
-    "address": "0xa506758544a71943b5e8728d2df8ec9e72473a9a",
-    "nameTag": "CryptoDozer: Token Exchange"
-  },
-  {
-    "address": "0xbd13e53255ef917da7557db1b7d2d5c38a2efe24",
-    "nameTag": "DozerDoll: Dozer"
-  },
-  {
-    "address": "0xb447030c916ba07a5a4aa50a379259e387c48182",
-    "nameTag": "DozerDoll: Magic Key"
-  },
-  {
-    "address": "0x5fcce8ab5500ed68ff5d6d75af1071195215d97e",
-    "nameTag": "DozerDoll: Rare Key"
-  },
-  {
-    "address": "0xb06ece7b0d5399ea0c381985f69585fdc355c5e4",
-    "nameTag": "DozerDoll: Unique Key"
-  }
-]
+{
+  "lastPulled": "2024-04-02T20:41:39.774Z",
+  "data": [
+    {
+      "address": "0x5f5b176553e51171826d1a62e540bc30422c7717",
+      "nameTag": "CryptoDozer: PLA Token"
+    },
+    {
+      "address": "0xa506758544a71943b5e8728d2df8ec9e72473a9a",
+      "nameTag": "CryptoDozer: Token Exchange"
+    },
+    {
+      "address": "0xbd13e53255ef917da7557db1b7d2d5c38a2efe24",
+      "nameTag": "DozerDoll: Dozer"
+    },
+    {
+      "address": "0xb447030c916ba07a5a4aa50a379259e387c48182",
+      "nameTag": "DozerDoll: Magic Key"
+    },
+    {
+      "address": "0x5fcce8ab5500ed68ff5d6d75af1071195215d97e",
+      "nameTag": "DozerDoll: Rare Key"
+    },
+    {
+      "address": "0xb06ece7b0d5399ea0c381985f69585fdc355c5e4",
+      "nameTag": "DozerDoll: Unique Key"
+    }
+  ]
+}

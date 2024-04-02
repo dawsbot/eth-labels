@@ -1,38 +1,41 @@
-[
-  {
-    "address": "0xe743a49f04f2f77eb2d3b753ae3ad599de8cea84",
-    "nameTag": "Axelar: Express Relayer 1"
-  },
-  {
-    "address": "0x19e34d09c2664d4f0829b1431ea73dac1b2bea93",
-    "nameTag": "Axelar: Relayer (Legacy)"
-  },
-  {
-    "address": "0x7ef822c622c49d1272a51c29d25d6340755eccf5",
-    "nameTag": "Axelar: Relayer 1"
-  },
-  {
-    "address": "0x2102c32a09cbced4146c3db2d27ae21a185bda43",
-    "nameTag": "Axelar: Relayer 2"
-  },
-  {
-    "address": "0xb28837949e7a3f1ac862036e8a0ae392c9ff9bb4",
-    "nameTag": "Axelar: Relayer 3"
-  },
-  {
-    "address": "0x345662abfe0e257e23552a434d02ef274ccb6a90",
-    "nameTag": "Axelar: Relayer 4"
-  },
-  {
-    "address": "0xd36aac0c9676e984d72823fb662ce94d3ab5e551",
-    "nameTag": "Axelar: Relayer 5"
-  },
-  {
-    "address": "0xc77820eef59629fc8d88154977bc8de8a1b2f4ae",
-    "nameTag": "Axelar: Relayer 6"
-  },
-  {
-    "address": "0x26ff577818a40d1333944b7492e23619303f5d84",
-    "nameTag": "Axelar: Relayer 7"
-  }
-]
+{
+  "lastPulled": "2024-04-02T20:39:07.217Z",
+  "data": [
+    {
+      "address": "0xe743a49f04f2f77eb2d3b753ae3ad599de8cea84",
+      "nameTag": "Axelar: Express Relayer 1"
+    },
+    {
+      "address": "0x19e34d09c2664d4f0829b1431ea73dac1b2bea93",
+      "nameTag": "Axelar: Relayer (Legacy)"
+    },
+    {
+      "address": "0x7ef822c622c49d1272a51c29d25d6340755eccf5",
+      "nameTag": "Axelar: Relayer 1"
+    },
+    {
+      "address": "0x2102c32a09cbced4146c3db2d27ae21a185bda43",
+      "nameTag": "Axelar: Relayer 2"
+    },
+    {
+      "address": "0xb28837949e7a3f1ac862036e8a0ae392c9ff9bb4",
+      "nameTag": "Axelar: Relayer 3"
+    },
+    {
+      "address": "0x345662abfe0e257e23552a434d02ef274ccb6a90",
+      "nameTag": "Axelar: Relayer 4"
+    },
+    {
+      "address": "0xd36aac0c9676e984d72823fb662ce94d3ab5e551",
+      "nameTag": "Axelar: Relayer 5"
+    },
+    {
+      "address": "0xc77820eef59629fc8d88154977bc8de8a1b2f4ae",
+      "nameTag": "Axelar: Relayer 6"
+    },
+    {
+      "address": "0x26ff577818a40d1333944b7492e23619303f5d84",
+      "nameTag": "Axelar: Relayer 7"
+    }
+  ]
+}

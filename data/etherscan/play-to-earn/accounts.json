@@ -1,6 +1,9 @@
-[
-  {
-    "address": "0x21b56371c9d064fe18cca5798e164c25d73b9d36",
-    "nameTag": "Merit Circle: Liquidity Mining Manager"
-  }
-]
+{
+  "lastPulled": "2024-04-02T20:48:10.518Z",
+  "data": [
+    {
+      "address": "0x21b56371c9d064fe18cca5798e164c25d73b9d36",
+      "nameTag": "Merit Circle: Liquidity Mining Manager"
+    }
+  ]
+}

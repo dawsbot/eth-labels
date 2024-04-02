@@ -1,14 +1,17 @@
-[
-  {
-    "address": "0xca1d53e40eab232deff03dc824410100bcccf2bc",
-    "nameTag": "Redacted Cartel: Bonding Calculator"
-  },
-  {
-    "address": "0xa52fd396891e7a74b641a2cb1a6999fcf56b077e",
-    "nameTag": "Redacted Cartel: Multisig"
-  },
-  {
-    "address": "0x086c98855df3c78c6b481b6e1d47bef42e9ac36b",
-    "nameTag": "Redacted Cartel: Treasury"
-  }
-]
+{
+  "lastPulled": "2024-04-02T20:48:48.558Z",
+  "data": [
+    {
+      "address": "0xca1d53e40eab232deff03dc824410100bcccf2bc",
+      "nameTag": "Redacted Cartel: Bonding Calculator"
+    },
+    {
+      "address": "0xa52fd396891e7a74b641a2cb1a6999fcf56b077e",
+      "nameTag": "Redacted Cartel: Multisig"
+    },
+    {
+      "address": "0x086c98855df3c78c6b481b6e1d47bef42e9ac36b",
+      "nameTag": "Redacted Cartel: Treasury"
+    }
+  ]
+}

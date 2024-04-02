@@ -1,722 +1,777 @@
-[
-  { "address": "0x07537d4360af2489fc1ca086ea9741c054d804de", "nameTag": "" },
-  { "address": "0x075da589886ba445d7c7e81c472059de7ae65250", "nameTag": "" },
-  { "address": "0x3c05b1239b223c969540fefc0270227a2b00e047", "nameTag": "" },
-  { "address": "0x4a56a3ef7bf8dfa2d427ced3765e4d546fa941f6", "nameTag": "" },
-  { "address": "0x55507d81f85f5c0a80469e3483e716915716d212", "nameTag": "" },
-  { "address": "0x558ef269bcc4cc9f2e14e3f4301231fbeb85d95f", "nameTag": "" },
-  { "address": "0x79e2b9c1f6c9ed1375c93aaf139e6c4537f48523", "nameTag": "" },
-  { "address": "0x7a6468f8161ef39d7639c67dfa5637ba1b7ba74b", "nameTag": "" },
-  { "address": "0xa2bcad247c64da44739e141b491fe4238a4d0480", "nameTag": "" },
-  { "address": "0xc6387e937bcef8de3334f80edc623275d42457ff", "nameTag": "" },
-  { "address": "0xdead1cb30b3ca13cd67d1d6f4e2790d12484fdd8", "nameTag": "" },
-  {
-    "address": "0x34e5527555cfe3688ef3044d2aad180741f7aea7",
-    "nameTag": "0Fx Protocol: Deployer"
-  },
-  { "address": "genesis", "nameTag": "0xBitcoin: Deployer" },
-  {
-    "address": "0x4365f8e70cf38c6ca67de41448508f2da8825500",
-    "nameTag": "Aave: Deployer"
-  },
-  {
-    "address": "0x7a1285a7381a3099bfe6706549859316e6f90e6a",
-    "nameTag": "Aave: Deployer 1"
-  },
-  {
-    "address": "0xe6ef45a2ef96791685cdee512f36f16ee85d891d",
-    "nameTag": "Aave: Deployer 2"
-  },
-  {
-    "address": "0x246e20bf778b3e16cb71eca535f40f8c4e6c4185",
-    "nameTag": "Aave: Deployer 3"
-  },
-  {
-    "address": "0xc42705a210f082ff29e6beac80f56c41f0a54091",
-    "nameTag": "Aave: Deployer 4"
-  },
-  {
-    "address": "0x9a8f92a830a5cb89a3816e3d267cb7791c16b04d",
-    "nameTag": "Across Protocol: Deployer"
-  },
-  {
-    "address": "0x7856f2a12a7a18b4a115d295f548434a9b078fa1",
-    "nameTag": "Aelin: Deployer"
-  },
-  {
-    "address": "0xa5f146cbd3ee13f482315dd0f873c2bfbbc5f2c4",
-    "nameTag": "Aevo: Deployer"
-  },
-  {
-    "address": "0x38a93e70b0d8343657f802c1c3fdb06ac8f8fe99",
-    "nameTag": "AladdinDAO: Deployer"
-  },
-  {
-    "address": "0x13c716188c38ce27b9b2b672a59543cf1170eabe",
-    "nameTag": "Alchemix Finance: Deployer"
-  },
-  {
-    "address": "0x91f23057ee6e2d1e1ba00a7c1d71ba1a0b2c3113",
-    "nameTag": "Alongside Crypto Market Index: Deployer"
-  },
-  {
-    "address": "0xe3f641ad659249a020e2af63c3f9abd6cffb668b",
-    "nameTag": "Alta Finance: Deployer"
-  },
-  {
-    "address": "0xfda462548ce04282f4b6d6619823a7c64fdc0185",
-    "nameTag": "Angle Protocol: Deployer"
-  },
-  {
-    "address": "0x7efdc11929225f1756479006149b0bd7a2b89c1e",
-    "nameTag": "Apetimism: Deployer"
-  },
-  {
-    "address": "0x30019eb135532bddf2da17659101cc000c73c8e4",
-    "nameTag": "Aura: Deployer"
-  },
-  {
-    "address": "0x5afae3d2b0dcee1833bb947fac15d4f2d2d5d523",
-    "nameTag": "Ax Protocol: Deployer"
-  },
-  {
-    "address": "0xb28837949e7a3f1ac862036e8a0ae392c9ff9bb4",
-    "nameTag": "Axelar: Relayer 3"
-  },
-  {
-    "address": "0xd36aac0c9676e984d72823fb662ce94d3ab5e551",
-    "nameTag": "Axelar: Relayer 5"
-  },
-  {
-    "address": "0x4fbe899d37fb7514adf2f41b0630e018ec275a0c",
-    "nameTag": "Balancer: Deployer"
-  },
-  {
-    "address": "0x4b785041d6a705d41f7578b13f93a7e315d2f8ff",
-    "nameTag": "Bankless DAO: Deployer"
-  },
-  {
-    "address": "0xe228c34252bd874c489c2a99e03476162d74db02",
-    "nameTag": "Base: Deployer"
-  },
-  {
-    "address": "0xbfdffcd81a3796f55b476b36937253fa6267644b",
-    "nameTag": "BAXagent Coin: Deployer"
-  },
-  {
-    "address": "0x4fed5491693007f0cd49f4614ffc38ab6a04b619",
-    "nameTag": "Beefy: Deployer"
-  },
-  {
-    "address": "0x2c305888a456e7004663bc12a74395e637eabcbc",
-    "nameTag": "BetSwirl: Deployer"
-  },
-  {
-    "address": "0x7f3b192ab3220940d66236792f3ebdb0e4e74138",
-    "nameTag": "Biconomy: Deployer"
-  },
-  {
-    "address": "0x3e579180cf01f0e2abf6ff4d566b7891fbf9b868",
-    "nameTag": "BitBTC: Deployer"
-  },
-  {
-    "address": "0x55986cc9eb57e29875a80a7f70b9abcef063cfaf",
-    "nameTag": "BitcoinBR: Deployer"
-  },
-  {
-    "address": "0x39f0bd56c1439a22ee90b4972c16b7868d161981",
-    "nameTag": "BOB: Deployer"
-  },
-  {
-    "address": "0x1aad33f754e47d693562dde3e944332420d27493",
-    "nameTag": "Bolide: Deployer"
-  },
-  {
-    "address": "0xf7c1daf7443d7307df13c81f5f0328d4c7803e7b",
-    "nameTag": "BoringDAO: Deployer"
-  },
-  {
-    "address": "0xd31f9113fdb5bd97d7ddf969f15956808db4a6fb",
-    "nameTag": "Bridged TrueUSD: Deployer"
-  },
-  {
-    "address": "0x1e7b390149abb3b891e0a7027e111188032d4540",
-    "nameTag": "BUILD: Deployer"
-  },
-  {
-    "address": "0x615b5313a927571343f9355225e555cf7688d5e1",
-    "nameTag": "Cartesi: Deployer"
-  },
-  {
-    "address": "0xade09131c6f43fe22c2cbabb759636c43cfc181e",
-    "nameTag": "Centre: Deployer"
-  },
-  {
-    "address": "0x961a14beabd590229b1c68a21d7068c8233c8542",
-    "nameTag": "CheckDot: Deployer"
-  },
-  {
-    "address": "0x9bccd51ee5cf97791e39544827ef675cd81171b8",
-    "nameTag": "Circle: Deployer"
-  },
-  {
-    "address": "0xa5b34197b0ea6d23792a527172806f32d18ed712",
-    "nameTag": "Cloudbit Classic: Deployer"
-  },
-  {
-    "address": "0x3dca46c993f3ec21775051ba8cf1e00022ebffcd",
-    "nameTag": "Coinbase Wrapped Staked ETH: Deployer"
-  },
-  {
-    "address": "0xaf66c75fda4ca9546920a4f7270265adfb90f43d",
-    "nameTag": "Collab.Land: Deployer"
-  },
-  {
-    "address": "0x8550fb4040c1fe7df47c20de4e700a5787c34b5f",
-    "nameTag": "Crypto Toffe: Deployer"
-  },
-  {
-    "address": "0x7492ce19d83b3a0bac1bebc9706ce0df4add105f",
-    "nameTag": "Curve DAO: Deployer"
-  },
-  {
-    "address": "0xe906b91103d216420f7ae13b29fde73ce9c206cd",
-    "nameTag": "CyberConnect: Deployer"
-  },
-  {
-    "address": "0xa8979df21b6dc13935a17f9c13ec6c82942eb9f5",
-    "nameTag": "Davos: Deployer"
-  },
-  {
-    "address": "0x1203ef354cd5c228d5de2e7633ed6685ffcec1b1",
-    "nameTag": "deathOS: Deployer"
-  },
-  {
-    "address": "0x86665ef1660418ad0992c96929e02f97bcbf4698",
-    "nameTag": "Decentralized USD: Deployer"
-  },
-  {
-    "address": "0x857e7ee37252621345d3225db8f74f9ac0a57953",
-    "nameTag": "Deggkies: Deployer"
-  },
-  {
-    "address": "0x3976d5b90cfa0a0cc4d62983455ff6a6909f0f18",
-    "nameTag": "Dentacoin: Deployer"
-  },
-  {
-    "address": "0xdb4e4cd74e9bfdf78e4da8d2953bb624fbebe6b3",
-    "nameTag": "DexToro: Deployer"
-  },
-  {
-    "address": "0xde6d6f23aabbdc9469c8907ece7c379f98e4cb75",
-    "nameTag": "dForce: Deployer"
-  },
-  {
-    "address": "0x3a326de86fbc731fc3e0823da5a46a23be65c836",
-    "nameTag": "dHEDGE: Deployer"
-  },
-  {
-    "address": "0xcdcad75dcc583bf51d7e8b993d5c2a29da2df9ea",
-    "nameTag": "Doodles Dick: Deployer"
-  },
-  {
-    "address": "0xf8c3875bfa461a38532fedf90453985901c55114",
-    "nameTag": "Dope Wars Paper: Deployer"
-  },
-  {
-    "address": "0xcfa1bf8ca39a89b6c0e9aff55454b20e589c0da0",
-    "nameTag": "Draconic Egg: Deployer"
-  },
-  {
-    "address": "0xeb011594f5324eb9590df88545db1f8077d43419",
-    "nameTag": "DRODEC: Deployer"
-  },
-  {
-    "address": "0xae0c5140744bfc6bc33ce73298f10f7b538f02dd",
-    "nameTag": "Eco: Deployer"
-  },
-  {
-    "address": "0xaaa6640f36ae35d61ce5e6f2a3c8975d07d1ab90",
-    "nameTag": "Equalizer Finance: Deployer"
-  },
-  {
-    "address": "0x54b5e06c82f0d3d91377e5827bfb2381ef1cc2b7",
-    "nameTag": "Ericaverse: Deployer"
-  },
-  {
-    "address": "0xc496dfe5da45263742cdce69be460c8a90df141e",
-    "nameTag": "Essence Finance: Deployer"
-  },
-  {
-    "address": "0x866d5facfb5533a650e9d4f4c52d6de9b4735548",
-    "nameTag": "Ether.fi: Deployer"
-  },
-  {
-    "address": "0xe00691e65cd4400c84a174a4c56f20ba43dffd89",
-    "nameTag": "Ethos Reserve Note: Deployer"
-  },
-  {
-    "address": "0xe61bdef3fff4c3cf7a07996dcb8802b5c85b665a",
-    "nameTag": "Exactly: Deployer"
-  },
-  {
-    "address": "0x9088b976e9542d0a27f4f9ddc7a716c7714806ea",
-    "nameTag": "Extra Finance: Deployer"
-  },
-  {
-    "address": "0x43834c6a65c64a4529e048ba55a685ff5aa43cb4",
-    "nameTag": "Fantom Bomb: Deployer"
-  },
-  {
-    "address": "0x4b9f696c998f9549485a3a85dca692fd6cce491f",
-    "nameTag": "Flashstake: Deployer"
-  },
-  {
-    "address": "0x5a33b47507e5225fcd7df11de06c84680ea5db87",
-    "nameTag": "Follow Me: Deployer"
-  },
-  {
-    "address": "0x68d03de837cc395ec34c61c078fa901468a3bb29",
-    "nameTag": "Frax Finance: Deployer"
-  },
-  {
-    "address": "0x7396f133baa2543ea7917ba3254e61fea3028288",
-    "nameTag": "Fuse: Deployer"
-  },
-  {
-    "address": "0x7a4535c67f2617d2590617666295c46c9f044f0d",
-    "nameTag": "Galleon: Deployer"
-  },
-  {
-    "address": "0xfcc8c70a7ea0f588135b7b8892995ada7c0117b2",
-    "nameTag": "Galleon: Deployer 1"
-  },
-  {
-    "address": "0x06263e1a856b36e073ba7a50d240123411501611",
-    "nameTag": "Giveth: Deployer"
-  },
-  {
-    "address": "0x962193e0101ab216f362435a276b22e2172fc847",
-    "nameTag": "Gladiators of the Galaxy: Deployer"
-  },
-  {
-    "address": "0x7678883acc347ceb2460d1aee3d231641ed84749",
-    "nameTag": "Glo Dollar: Deployer"
-  },
-  {
-    "address": "0xdc9bef318b9eb31da40a1a09a0c4feee65289469",
-    "nameTag": "GMO Trust: Deployer"
-  },
-  {
-    "address": "0xe027880ceb8114f2e367211df977899d00e66138",
-    "nameTag": "Granary: Deployer"
-  },
-  {
-    "address": "0xe9ec891ead0e2a4bd3b14f86b9b4ab8efd1d5180",
-    "nameTag": "GTPS: Deployer"
-  },
-  {
-    "address": "0xa80481e3f9098602954b2e5cf306e6dee053ef3e",
-    "nameTag": "GYSR: Deployer"
-  },
-  {
-    "address": "0xab44ae5f00fc4d79ff6d61853ae9ea3f1c2457c7",
-    "nameTag": "HanChain: Deployer"
-  },
-  {
-    "address": "0x2a069e21395dc7f89f780f8cf5383a0ff598b672",
-    "nameTag": "Hats Protocol: Deployer"
-  },
-  {
-    "address": "0x26adb982d061b5e667d75f9dec1360cc671007f3",
-    "nameTag": "Hedgey Finance:: Deployer"
-  },
-  {
-    "address": "0x9aa99c23f67c81701c772b106b4f83f6e858dd2e",
-    "nameTag": "Hop: Deployer"
-  },
-  {
-    "address": "0x8fcba7279af1d5d12c77e7062caf1e09a0623f97",
-    "nameTag": "Hundred Finance: Deployer"
-  },
-  {
-    "address": "0x69bdb276a17dd90f9d3a545944ccb20e593ae8e3",
-    "nameTag": "Index Coop: Deployer"
-  },
-  {
-    "address": "0xd37af52c1d214027582eac330ab9854d9f62f8cb",
-    "nameTag": "Intelligent Monsters: Deployer"
-  },
-  {
-    "address": "0xc253af7b80f3dd3d469bf4b94aa9e3df59e71e43",
-    "nameTag": "InverseFinance: Deployer"
-  },
-  {
-    "address": "0x1ba608d6a354fbeb41fd7cc799e7f09b2612ab26",
-    "nameTag": "Iron Bank: Deployer"
-  },
-  {
-    "address": "0x685723b9dc89bdf28ba5f98f9a8c0ac899bd6e77",
-    "nameTag": "Jarvis Network: Deployer"
-  },
-  {
-    "address": "0xc31249ba48763df46388ba5c4e7565d62ed4801c",
-    "nameTag": "Jarvis Network: Liquidity Provision"
-  },
-  {
-    "address": "0xdbea55bad7404f00df5cd12d30d2086151e83950",
-    "nameTag": "JEFE: Deployer"
-  },
-  {
-    "address": "0xdbaabc182e5fcebf216c353a3ebe32cdb7390094",
-    "nameTag": "Kromatika: Deployer"
-  },
-  {
-    "address": "0xe029c32d412972c5f3d107da6d6ecf8f1c1e788c",
-    "nameTag": "Kwenta: Deployer"
-  },
-  {
-    "address": "0xbe2f0354d970265bfc36d383af77f72736b81b54",
-    "nameTag": "Kyber Network: Deployer"
-  },
-  {
-    "address": "0xfd0bd19e849493f77d8f77ed026520c1368102bd",
-    "nameTag": "Layer2DAO: Deployer"
-  },
-  {
-    "address": "0x5e9bf1dd74b4d25b7009af11582f537b08ea3d3c",
-    "nameTag": "LayerZero: Deployer"
-  },
-  {
-    "address": "0x0f3bf5c241b6625c0fa781ed137fde6786b2e66f",
-    "nameTag": "Lemma Finance: Deployer"
-  },
-  {
-    "address": "0x2a61d3ba5030ef471c74f612962c7367eca3a62d",
-    "nameTag": "Lido: Deployer"
-  },
-  {
-    "address": "0x2c01f405e3c525c0cb867789aaf077f3553ccbb7",
-    "nameTag": "Lido: Deployer 1"
-  },
-  {
-    "address": "0x41a742d0cb523b0c313518309ade763fb609da25",
-    "nameTag": "Lyra Finance: Deployer"
-  },
-  {
-    "address": "0x34b490578f3baec3d1ad4eca6bd34271bf772b5e",
-    "nameTag": "Magicaltux: Deployer"
-  },
-  {
-    "address": "0xe48a5173ade669651120cb5e99e6fe140d4d73da",
-    "nameTag": "Mean Finance: Deployer"
-  },
-  {
-    "address": "0x2bf6e2f1ec751eb79517de3f237d0f280a16af9c",
-    "nameTag": "Medisync: Deployer"
-  },
-  {
-    "address": "0xe6db2e4c2f7f4c6b06d062b52319f81753d1dbb9",
-    "nameTag": "Merge Bears: Deployer"
-  },
-  {
-    "address": "0xfdf6fa86058d1eacb441adb5acfc143672e59a58",
-    "nameTag": "MetalSwap: Deployer"
-  },
-  {
-    "address": "0x4a7016c0b1edb6e3a28038b361cb59f1f0592d02",
-    "nameTag": "Minato DAO: Deployer"
-  },
-  {
-    "address": "0x074a2bb7686da8dacad178aece2ad280b8d4c25d",
-    "nameTag": "Minereum: Deployer"
-  },
-  {
-    "address": "0x156d8fac8cd3deb51ab194d906abfc81cf323c11",
-    "nameTag": "Minerva Money: Deployer"
-  },
-  {
-    "address": "0x57d1eae9f0972723f0e78eaf4e6c08e90565206f",
-    "nameTag": "motorheadz: Deployer"
-  },
-  {
-    "address": "0x2d7af0f04c935b647a995f71d1ec14089224d5ca",
-    "nameTag": "Mountain Protocol: Deployer"
-  },
-  {
-    "address": "0x253956aedc059947e700071bc6d74bd8e34fe2ab",
-    "nameTag": "mStable Governance Meta: Deployer"
-  },
-  {
-    "address": "0xfa9da51631268a30ec3ddd1ccbf46c65fad99251",
-    "nameTag": "Multichain: Deployer"
-  },
-  {
-    "address": "0xcea80f944a0b90e62adbd2999c89d27e39e51c73",
-    "nameTag": "Nebula Revelation: Deployer"
-  },
-  {
-    "address": "0xcd0b087e113152324fca962488b4d9beb6f4caf6",
-    "nameTag": "NFTEarth: Deployer"
-  },
-  {
-    "address": "0x6b80fd0457273494007813d1dca3fa4ab11f272e",
-    "nameTag": "Nonagon Finance: Deployer"
-  },
-  {
-    "address": "0x4283b3469a9edce1fda34ec6e8a453cf82b9cab7",
-    "nameTag": "O3 Swap: Deployer"
-  },
-  {
-    "address": "0xd54790451558007d9bc8616248416c43c45bca9e",
-    "nameTag": "Okcash: Deployer"
-  },
-  {
-    "address": "0xa89ef3afdb636a0c4b39554fb6dccd3577d02fe2",
-    "nameTag": "Open intelligent Chain: Deployer"
-  },
-  {
-    "address": "0x10850762bac0dc6660630c1effe188a7cbfddc88",
-    "nameTag": "OptiChads: Deployer"
-  },
-  {
-    "address": "0xd23199f1222c418ffc74c385171330b21b16e452",
-    "nameTag": "OptiDoge: Deployer"
-  },
-  {
-    "address": "0x36bde71c97b33cc4729cf772ae268934f7ab70b2",
-    "nameTag": "Optimism: Aliased L1 Cross-Domain Messenger"
-  },
-  {
-    "address": "0x9c6373de60c2d3297b18a8f964618ac46e011b58",
-    "nameTag": "Optimism: Deployer"
-  },
-  {
-    "address": "0xcd526ee406bc8349ba8135758cee11fa3aaa59a0",
-    "nameTag": "OPX Finance: Deployer"
-  },
-  {
-    "address": "0x76d84163bc0bbf58d6d3f2332f8a9c5b339df983",
-    "nameTag": "Otterspace: Deployer"
-  },
-  {
-    "address": "0x5cb01385d3097b6a189d1ac8ba3364d900666445",
-    "nameTag": "Overnight: Deployer"
-  },
-  {
-    "address": "0xfeebd6b860d4f33ec03014af0ee0a35ce8d6fd97",
-    "nameTag": "Pegasus: Deployer"
-  },
-  {
-    "address": "0xc107dacaf1d6e369cfdc67695beadf5e2068191e",
-    "nameTag": "Pendle: Deployer"
-  },
-  {
-    "address": "0x1fccc097db89a86bfc474a1028f93958295b1fb7",
-    "nameTag": "Pendle: Deployer 1"
-  },
-  {
-    "address": "0x0cdb34e6a4d635142bb92fe403d38f636bbb77b8",
-    "nameTag": "Penpie: Deployer"
-  },
-  {
-    "address": "0x4023ef3aaa0669faaf3a712626f4d8ccc3eaf2e5",
-    "nameTag": "Pickle Finance: Deployer"
-  },
-  {
-    "address": "0x80898b704baa55e7e37f1128fc6ae5836661f54a",
-    "nameTag": "Pika Protocol: Deployer"
-  },
-  {
-    "address": "0x8b08d16f8ed6d00e539a4da896bd124828615a96",
-    "nameTag": "Polyhedra 2024: Deployer"
-  },
-  {
-    "address": "0x4d40eb12430a57965cee3015348d490c6156df20",
-    "nameTag": "PoolTogether: Deployer"
-  },
-  {
-    "address": "0xe0e7b7c5ae92fe94d2ae677d81214d6ad7a11c27",
-    "nameTag": "PoolTogether: Deployer 1"
-  },
-  {
-    "address": "0x226e71e2165249494532c0bde6303e7c025e30cd",
-    "nameTag": "PoolTogether: Deployer 2"
-  },
-  {
-    "address": "0x4c8d9fc6d9d4323e8d226c62aee2f6d698dd9be6",
-    "nameTag": "Popcorn: Deployer"
-  },
-  {
-    "address": "0xc7f8d87734ab2cbf70030ac8aa82abfe3e8126cb",
-    "nameTag": "Premia: Deployer"
-  },
-  {
-    "address": "0x599bc88e8f837a821a9ed6c133a4932c39552342",
-    "nameTag": "Promethios: Deployer"
-  },
-  {
-    "address": "0x2202a7fe406ddab2f85af596d4f4818a903cb85e",
-    "nameTag": "Pyth Network: Deployer"
-  },
-  {
-    "address": "0xe00eaa2787a8830a485153b7bf508bc781e4a220",
-    "nameTag": "Qi Dao: Deployer"
-  },
-  {
-    "address": "0x89d761935ca2d85e3a6f8d917751133ec00167c3",
-    "nameTag": "Reunit Wallet: Deployer"
-  },
-  {
-    "address": "0x080f08076e8eadc66006c3cbfed28a34918a1fa6",
-    "nameTag": "Rigo Block: Deployer"
-  },
-  {
-    "address": "0x5117438e943ab870625dda4b0fe3b8118640ffdb",
-    "nameTag": "RillaFi: Deployer"
-  },
-  {
-    "address": "0x76ef4b28df1f590db4cd680675d734c27caa32ba",
-    "nameTag": "Rocket Pool ETH: Deployer"
-  },
-  {
-    "address": "0x27e80db1f5a975f4c43c5ec163114e796cdb603d",
-    "nameTag": "Rocket Pool: Deployer"
-  },
-  {
-    "address": "0x1f9d367d68fc68a30062166f73512e06840ab4a4",
-    "nameTag": "Royal Crows: Deployer"
-  },
-  {
-    "address": "0xb1bef51ebca01eb12001a639bdbbff6eeca12b9f",
-    "nameTag": "Sablier: Deployer"
-  },
-  {
-    "address": "0xf5094335199ec1dba6b6d8b8b0299f1d7192423c",
-    "nameTag": "ShapeShift: Deployer"
-  },
-  {
-    "address": "0x0e19fad56864eadf64848bdc79ee6299c3374b0f",
-    "nameTag": "Sipher: Deployer"
-  },
-  {
-    "address": "0xfb59ce8986943163f14c590755b29db2998f2322",
-    "nameTag": "Sonne Finance: Deployer"
-  },
-  {
-    "address": "0x39dcbb3929844aad5675984924a33b07a5fa2835",
-    "nameTag": "st0ked: Deployer"
-  },
-  {
-    "address": "0xc4ad9f58c4c7cba47191be635ecf40b4515cf6cf",
-    "nameTag": "Stable Coin: Deployer"
-  },
-  {
-    "address": "0x1d7c6783328c145393e84fb47a7f7c548f5ee28d",
-    "nameTag": "Stargate Finance: Deployer"
-  },
-  {
-    "address": "0x0af91fa049a7e1894f480bfe5bba20142c6c29a9",
-    "nameTag": "Synapse: Deployer"
-  },
-  {
-    "address": "0x302d2451d9f47620374b54c521423bf0403916a2",
-    "nameTag": "Synthetix: Deployer"
-  },
-  {
-    "address": "0x0d7effefdb084dfeb1621348c8c70cc4e871eba4",
-    "nameTag": "Tellor Tributes: Deployer"
-  },
-  {
-    "address": "0x8314125c8b68af2afd0d151eb4a551e88128a2ae",
-    "nameTag": "Thales: Deployer"
-  },
-  {
-    "address": "0x5bd973c3841b754386963abb117ffc796041aecf",
-    "nameTag": "The Open X Project: Deployer"
-  },
-  {
-    "address": "0x123694886dbf5ac94dda07135349534536d14caf",
-    "nameTag": "Threshold Network: Deployer"
-  },
-  {
-    "address": "0xf632ce27ea72dea30d30c1a9700b6b3bceaa05cf",
-    "nameTag": "Token Engineering Commons: Deployer"
-  },
-  {
-    "address": "0x3cdb9bc080efe321a797e7286d302b90227cc6de",
-    "nameTag": "Token Name Service: Deployer"
-  },
-  {
-    "address": "0x38e63793993ae54be374d129f34a3faf2c382e97",
-    "nameTag": "TokenFunder: Deployer"
-  },
-  {
-    "address": "0x6c9fc64a53c1b71fb3f9af64d1ae3a4931a5f4e9",
-    "nameTag": "Uniswap V3: Deployer"
-  },
-  {
-    "address": "0xe1d7df53a55d6116af1bde150ffb21f551d95f1e",
-    "nameTag": "Unitus: Deployer"
-  },
-  {
-    "address": "0x30109f25428cbe2aa7fd33646a097bfbecf17365",
-    "nameTag": "USDV.Money: Deployer"
-  },
-  {
-    "address": "0xd5b643e97086705fc3e55a0e27096d79cee5879b",
-    "nameTag": "Validator: Deployer"
-  },
-  {
-    "address": "0xc0de1436c4e247f8652476a0b9ff55699801e1d0",
-    "nameTag": "Velodrome Finance: Deployer"
-  },
-  {
-    "address": "0xa2ec022d89b0a80012c2446b0e8e5ff12f88dfc1",
-    "nameTag": "Wagmi: Deployer"
-  },
-  {
-    "address": "0x2ca2584f1565489ef9598a2c8610ed40f06f251f",
-    "nameTag": "WaweSwaps Global: Deployer"
-  },
-  {
-    "address": "0xf2cafb99992ce6a49f948b452c783614808612d1",
-    "nameTag": "WePiggy: Deployer"
-  },
-  {
-    "address": "0x763b9dba40c3d03507df454823fe03517f84a5ab",
-    "nameTag": "WePiggy: Deployer 2"
-  },
-  {
-    "address": "0x97471c0fdddb5e5cc34cb08cb17961bd3a53f38f",
-    "nameTag": "WOO: Deployer"
-  },
-  {
-    "address": "0xaea98f9f0bb6eb53fe8b98372e91a46da8504f07",
-    "nameTag": "Wormhole: Deployer"
-  },
-  {
-    "address": "0x31b8939c6e55a4ddaf0d6479320a0dfd9766ee9d",
-    "nameTag": "wTBT: Deployer"
-  },
-  {
-    "address": "0x13b0d85ccb8bf860b6b79af3029fca081ae9bef2",
-    "nameTag": "xdeployer: Deployer"
-  },
-  {
-    "address": "0x4ce69fd760ad0c07490178f9a47863dc0358cccd",
-    "nameTag": "xShrap: Deployer"
-  },
-  {
-    "address": "0x97f351c6e87af8941ae6caf0465254c14ac65ffb",
-    "nameTag": "YieldTopia: Deployer"
-  },
-  {
-    "address": "0x8602ee2f8aaeb671e409b26d48e36dd8cc3b7ed7",
-    "nameTag": "ZipSwap: Deployer"
-  },
-  {
-    "address": "0xfadede2cfbfa7443497acacf76cfc4fe59112dbb",
-    "nameTag": "Zoomer: Deployer"
-  }
-]
+{
+  "lastPulled": "2024-04-02T20:57:02.872Z",
+  "data": [
+    {
+      "address": "0x07537d4360af2489fc1ca086ea9741c054d804de",
+      "nameTag": ""
+    },
+    {
+      "address": "0x075da589886ba445d7c7e81c472059de7ae65250",
+      "nameTag": ""
+    },
+    {
+      "address": "0x3c05b1239b223c969540fefc0270227a2b00e047",
+      "nameTag": ""
+    },
+    {
+      "address": "0x4a56a3ef7bf8dfa2d427ced3765e4d546fa941f6",
+      "nameTag": ""
+    },
+    {
+      "address": "0x55507d81f85f5c0a80469e3483e716915716d212",
+      "nameTag": ""
+    },
+    {
+      "address": "0x558ef269bcc4cc9f2e14e3f4301231fbeb85d95f",
+      "nameTag": ""
+    },
+    {
+      "address": "0x79e2b9c1f6c9ed1375c93aaf139e6c4537f48523",
+      "nameTag": ""
+    },
+    {
+      "address": "0x7a6468f8161ef39d7639c67dfa5637ba1b7ba74b",
+      "nameTag": ""
+    },
+    {
+      "address": "0xa2bcad247c64da44739e141b491fe4238a4d0480",
+      "nameTag": ""
+    },
+    {
+      "address": "0xc6387e937bcef8de3334f80edc623275d42457ff",
+      "nameTag": ""
+    },
+    {
+      "address": "0xdead1cb30b3ca13cd67d1d6f4e2790d12484fdd8",
+      "nameTag": ""
+    },
+    {
+      "address": "0x34e5527555cfe3688ef3044d2aad180741f7aea7",
+      "nameTag": "0Fx Protocol: Deployer"
+    },
+    {
+      "address": "genesis",
+      "nameTag": "0xBitcoin: Deployer"
+    },
+    {
+      "address": "0x4365f8e70cf38c6ca67de41448508f2da8825500",
+      "nameTag": "Aave: Deployer"
+    },
+    {
+      "address": "0x7a1285a7381a3099bfe6706549859316e6f90e6a",
+      "nameTag": "Aave: Deployer 1"
+    },
+    {
+      "address": "0xe6ef45a2ef96791685cdee512f36f16ee85d891d",
+      "nameTag": "Aave: Deployer 2"
+    },
+    {
+      "address": "0x246e20bf778b3e16cb71eca535f40f8c4e6c4185",
+      "nameTag": "Aave: Deployer 3"
+    },
+    {
+      "address": "0xc42705a210f082ff29e6beac80f56c41f0a54091",
+      "nameTag": "Aave: Deployer 4"
+    },
+    {
+      "address": "0x9a8f92a830a5cb89a3816e3d267cb7791c16b04d",
+      "nameTag": "Across Protocol: Deployer"
+    },
+    {
+      "address": "0x7856f2a12a7a18b4a115d295f548434a9b078fa1",
+      "nameTag": "Aelin: Deployer"
+    },
+    {
+      "address": "0xa5f146cbd3ee13f482315dd0f873c2bfbbc5f2c4",
+      "nameTag": "Aevo: Deployer"
+    },
+    {
+      "address": "0x38a93e70b0d8343657f802c1c3fdb06ac8f8fe99",
+      "nameTag": "AladdinDAO: Deployer"
+    },
+    {
+      "address": "0x13c716188c38ce27b9b2b672a59543cf1170eabe",
+      "nameTag": "Alchemix Finance: Deployer"
+    },
+    {
+      "address": "0x91f23057ee6e2d1e1ba00a7c1d71ba1a0b2c3113",
+      "nameTag": "Alongside Crypto Market Index: Deployer"
+    },
+    {
+      "address": "0xe3f641ad659249a020e2af63c3f9abd6cffb668b",
+      "nameTag": "Alta Finance: Deployer"
+    },
+    {
+      "address": "0xfda462548ce04282f4b6d6619823a7c64fdc0185",
+      "nameTag": "Angle Protocol: Deployer"
+    },
+    {
+      "address": "0x7efdc11929225f1756479006149b0bd7a2b89c1e",
+      "nameTag": "Apetimism: Deployer"
+    },
+    {
+      "address": "0x30019eb135532bddf2da17659101cc000c73c8e4",
+      "nameTag": "Aura: Deployer"
+    },
+    {
+      "address": "0x5afae3d2b0dcee1833bb947fac15d4f2d2d5d523",
+      "nameTag": "Ax Protocol: Deployer"
+    },
+    {
+      "address": "0xb28837949e7a3f1ac862036e8a0ae392c9ff9bb4",
+      "nameTag": "Axelar: Relayer 3"
+    },
+    {
+      "address": "0xd36aac0c9676e984d72823fb662ce94d3ab5e551",
+      "nameTag": "Axelar: Relayer 5"
+    },
+    {
+      "address": "0x4fbe899d37fb7514adf2f41b0630e018ec275a0c",
+      "nameTag": "Balancer: Deployer"
+    },
+    {
+      "address": "0x4b785041d6a705d41f7578b13f93a7e315d2f8ff",
+      "nameTag": "Bankless DAO: Deployer"
+    },
+    {
+      "address": "0xe228c34252bd874c489c2a99e03476162d74db02",
+      "nameTag": "Base: Deployer"
+    },
+    {
+      "address": "0xbfdffcd81a3796f55b476b36937253fa6267644b",
+      "nameTag": "BAXagent Coin: Deployer"
+    },
+    {
+      "address": "0x4fed5491693007f0cd49f4614ffc38ab6a04b619",
+      "nameTag": "Beefy: Deployer"
+    },
+    {
+      "address": "0x2c305888a456e7004663bc12a74395e637eabcbc",
+      "nameTag": "BetSwirl: Deployer"
+    },
+    {
+      "address": "0x7f3b192ab3220940d66236792f3ebdb0e4e74138",
+      "nameTag": "Biconomy: Deployer"
+    },
+    {
+      "address": "0x3e579180cf01f0e2abf6ff4d566b7891fbf9b868",
+      "nameTag": "BitBTC: Deployer"
+    },
+    {
+      "address": "0x55986cc9eb57e29875a80a7f70b9abcef063cfaf",
+      "nameTag": "BitcoinBR: Deployer"
+    },
+    {
+      "address": "0x39f0bd56c1439a22ee90b4972c16b7868d161981",
+      "nameTag": "BOB: Deployer"
+    },
+    {
+      "address": "0x1aad33f754e47d693562dde3e944332420d27493",
+      "nameTag": "Bolide: Deployer"
+    },
+    {
+      "address": "0xf7c1daf7443d7307df13c81f5f0328d4c7803e7b",
+      "nameTag": "BoringDAO: Deployer"
+    },
+    {
+      "address": "0xd31f9113fdb5bd97d7ddf969f15956808db4a6fb",
+      "nameTag": "Bridged TrueUSD: Deployer"
+    },
+    {
+      "address": "0x1e7b390149abb3b891e0a7027e111188032d4540",
+      "nameTag": "BUILD: Deployer"
+    },
+    {
+      "address": "0x615b5313a927571343f9355225e555cf7688d5e1",
+      "nameTag": "Cartesi: Deployer"
+    },
+    {
+      "address": "0xade09131c6f43fe22c2cbabb759636c43cfc181e",
+      "nameTag": "Centre: Deployer"
+    },
+    {
+      "address": "0x961a14beabd590229b1c68a21d7068c8233c8542",
+      "nameTag": "CheckDot: Deployer"
+    },
+    {
+      "address": "0x9bccd51ee5cf97791e39544827ef675cd81171b8",
+      "nameTag": "Circle: Deployer"
+    },
+    {
+      "address": "0xa5b34197b0ea6d23792a527172806f32d18ed712",
+      "nameTag": "Cloudbit Classic: Deployer"
+    },
+    {
+      "address": "0x3dca46c993f3ec21775051ba8cf1e00022ebffcd",
+      "nameTag": "Coinbase Wrapped Staked ETH: Deployer"
+    },
+    {
+      "address": "0xaf66c75fda4ca9546920a4f7270265adfb90f43d",
+      "nameTag": "Collab.Land: Deployer"
+    },
+    {
+      "address": "0x8550fb4040c1fe7df47c20de4e700a5787c34b5f",
+      "nameTag": "Crypto Toffe: Deployer"
+    },
+    {
+      "address": "0x7492ce19d83b3a0bac1bebc9706ce0df4add105f",
+      "nameTag": "Curve DAO: Deployer"
+    },
+    {
+      "address": "0x745748bcfd8f9c2de519a71d789be8a63dd7d66c",
+      "nameTag": "Curve.fi: Deployer"
+    },
+    {
+      "address": "0xe906b91103d216420f7ae13b29fde73ce9c206cd",
+      "nameTag": "CyberConnect: Deployer"
+    },
+    {
+      "address": "0xa8979df21b6dc13935a17f9c13ec6c82942eb9f5",
+      "nameTag": "Davos: Deployer"
+    },
+    {
+      "address": "0x1203ef354cd5c228d5de2e7633ed6685ffcec1b1",
+      "nameTag": "deathOS: Deployer"
+    },
+    {
+      "address": "0x86665ef1660418ad0992c96929e02f97bcbf4698",
+      "nameTag": "Decentralized USD: Deployer"
+    },
+    {
+      "address": "0x857e7ee37252621345d3225db8f74f9ac0a57953",
+      "nameTag": "Deggkies: Deployer"
+    },
+    {
+      "address": "0x3976d5b90cfa0a0cc4d62983455ff6a6909f0f18",
+      "nameTag": "Dentacoin: Deployer"
+    },
+    {
+      "address": "0xdb4e4cd74e9bfdf78e4da8d2953bb624fbebe6b3",
+      "nameTag": "DexToro: Deployer"
+    },
+    {
+      "address": "0xde6d6f23aabbdc9469c8907ece7c379f98e4cb75",
+      "nameTag": "dForce: Deployer"
+    },
+    {
+      "address": "0x3a326de86fbc731fc3e0823da5a46a23be65c836",
+      "nameTag": "dHEDGE: Deployer"
+    },
+    {
+      "address": "0xcdcad75dcc583bf51d7e8b993d5c2a29da2df9ea",
+      "nameTag": "Doodles Dick: Deployer"
+    },
+    {
+      "address": "0xf8c3875bfa461a38532fedf90453985901c55114",
+      "nameTag": "Dope Wars Paper: Deployer"
+    },
+    {
+      "address": "0xcfa1bf8ca39a89b6c0e9aff55454b20e589c0da0",
+      "nameTag": "Draconic Egg: Deployer"
+    },
+    {
+      "address": "0xeb011594f5324eb9590df88545db1f8077d43419",
+      "nameTag": "DRODEC: Deployer"
+    },
+    {
+      "address": "0xae0c5140744bfc6bc33ce73298f10f7b538f02dd",
+      "nameTag": "Eco: Deployer"
+    },
+    {
+      "address": "0xaaa6640f36ae35d61ce5e6f2a3c8975d07d1ab90",
+      "nameTag": "Equalizer Finance: Deployer"
+    },
+    {
+      "address": "0x54b5e06c82f0d3d91377e5827bfb2381ef1cc2b7",
+      "nameTag": "Ericaverse: Deployer"
+    },
+    {
+      "address": "0xc496dfe5da45263742cdce69be460c8a90df141e",
+      "nameTag": "Essence Finance: Deployer"
+    },
+    {
+      "address": "0x866d5facfb5533a650e9d4f4c52d6de9b4735548",
+      "nameTag": "Ether.fi: Deployer"
+    },
+    {
+      "address": "0xe00691e65cd4400c84a174a4c56f20ba43dffd89",
+      "nameTag": "Ethos Reserve Note: Deployer"
+    },
+    {
+      "address": "0xe61bdef3fff4c3cf7a07996dcb8802b5c85b665a",
+      "nameTag": "Exactly: Deployer"
+    },
+    {
+      "address": "0x9088b976e9542d0a27f4f9ddc7a716c7714806ea",
+      "nameTag": "Extra Finance: Deployer"
+    },
+    {
+      "address": "0x43834c6a65c64a4529e048ba55a685ff5aa43cb4",
+      "nameTag": "Fantom Bomb: Deployer"
+    },
+    {
+      "address": "0x4b9f696c998f9549485a3a85dca692fd6cce491f",
+      "nameTag": "Flashstake: Deployer"
+    },
+    {
+      "address": "0x5a33b47507e5225fcd7df11de06c84680ea5db87",
+      "nameTag": "Follow Me: Deployer"
+    },
+    {
+      "address": "0x68d03de837cc395ec34c61c078fa901468a3bb29",
+      "nameTag": "Frax Finance: Deployer"
+    },
+    {
+      "address": "0x7396f133baa2543ea7917ba3254e61fea3028288",
+      "nameTag": "Fuse: Deployer"
+    },
+    {
+      "address": "0x7a4535c67f2617d2590617666295c46c9f044f0d",
+      "nameTag": "Galleon: Deployer"
+    },
+    {
+      "address": "0xfcc8c70a7ea0f588135b7b8892995ada7c0117b2",
+      "nameTag": "Galleon: Deployer 1"
+    },
+    {
+      "address": "0x06263e1a856b36e073ba7a50d240123411501611",
+      "nameTag": "Giveth: Deployer"
+    },
+    {
+      "address": "0x962193e0101ab216f362435a276b22e2172fc847",
+      "nameTag": "Gladiators of the Galaxy: Deployer"
+    },
+    {
+      "address": "0x7678883acc347ceb2460d1aee3d231641ed84749",
+      "nameTag": "Glo Dollar: Deployer"
+    },
+    {
+      "address": "0xdc9bef318b9eb31da40a1a09a0c4feee65289469",
+      "nameTag": "GMO Trust: Deployer"
+    },
+    {
+      "address": "0xe027880ceb8114f2e367211df977899d00e66138",
+      "nameTag": "Granary: Deployer"
+    },
+    {
+      "address": "0xe9ec891ead0e2a4bd3b14f86b9b4ab8efd1d5180",
+      "nameTag": "GTPS: Deployer"
+    },
+    {
+      "address": "0xa80481e3f9098602954b2e5cf306e6dee053ef3e",
+      "nameTag": "GYSR: Deployer"
+    },
+    {
+      "address": "0xab44ae5f00fc4d79ff6d61853ae9ea3f1c2457c7",
+      "nameTag": "HanChain: Deployer"
+    },
+    {
+      "address": "0x2a069e21395dc7f89f780f8cf5383a0ff598b672",
+      "nameTag": "Hats Protocol: Deployer"
+    },
+    {
+      "address": "0x26adb982d061b5e667d75f9dec1360cc671007f3",
+      "nameTag": "Hedgey Finance:: Deployer"
+    },
+    {
+      "address": "0x9aa99c23f67c81701c772b106b4f83f6e858dd2e",
+      "nameTag": "Hop: Deployer"
+    },
+    {
+      "address": "0x8fcba7279af1d5d12c77e7062caf1e09a0623f97",
+      "nameTag": "Hundred Finance: Deployer"
+    },
+    {
+      "address": "0x69bdb276a17dd90f9d3a545944ccb20e593ae8e3",
+      "nameTag": "Index Coop: Deployer"
+    },
+    {
+      "address": "0xd37af52c1d214027582eac330ab9854d9f62f8cb",
+      "nameTag": "Intelligent Monsters: Deployer"
+    },
+    {
+      "address": "0xc253af7b80f3dd3d469bf4b94aa9e3df59e71e43",
+      "nameTag": "InverseFinance: Deployer"
+    },
+    {
+      "address": "0x1ba608d6a354fbeb41fd7cc799e7f09b2612ab26",
+      "nameTag": "Iron Bank: Deployer"
+    },
+    {
+      "address": "0x685723b9dc89bdf28ba5f98f9a8c0ac899bd6e77",
+      "nameTag": "Jarvis Network: Deployer"
+    },
+    {
+      "address": "0xc31249ba48763df46388ba5c4e7565d62ed4801c",
+      "nameTag": "Jarvis Network: Liquidity Provision"
+    },
+    {
+      "address": "0xdbea55bad7404f00df5cd12d30d2086151e83950",
+      "nameTag": "JEFE: Deployer"
+    },
+    {
+      "address": "0xdbaabc182e5fcebf216c353a3ebe32cdb7390094",
+      "nameTag": "Kromatika: Deployer"
+    },
+    {
+      "address": "0xe029c32d412972c5f3d107da6d6ecf8f1c1e788c",
+      "nameTag": "Kwenta: Deployer"
+    },
+    {
+      "address": "0xbe2f0354d970265bfc36d383af77f72736b81b54",
+      "nameTag": "Kyber Network: Deployer"
+    },
+    {
+      "address": "0xfd0bd19e849493f77d8f77ed026520c1368102bd",
+      "nameTag": "Layer2DAO: Deployer"
+    },
+    {
+      "address": "0x5e9bf1dd74b4d25b7009af11582f537b08ea3d3c",
+      "nameTag": "LayerZero: Deployer"
+    },
+    {
+      "address": "0x0f3bf5c241b6625c0fa781ed137fde6786b2e66f",
+      "nameTag": "Lemma Finance: Deployer"
+    },
+    {
+      "address": "0xbd8ec4cb226ebae228f8829e2ec23070b09165d3",
+      "nameTag": "Let's Get HAI: Deployer"
+    },
+    {
+      "address": "0x2a61d3ba5030ef471c74f612962c7367eca3a62d",
+      "nameTag": "Lido: Deployer"
+    },
+    {
+      "address": "0x2c01f405e3c525c0cb867789aaf077f3553ccbb7",
+      "nameTag": "Lido: Deployer 1"
+    },
+    {
+      "address": "0x41a742d0cb523b0c313518309ade763fb609da25",
+      "nameTag": "Lyra Finance: Deployer"
+    },
+    {
+      "address": "0x34b490578f3baec3d1ad4eca6bd34271bf772b5e",
+      "nameTag": "Magicaltux: Deployer"
+    },
+    {
+      "address": "0xe48a5173ade669651120cb5e99e6fe140d4d73da",
+      "nameTag": "Mean Finance: Deployer"
+    },
+    {
+      "address": "0x2bf6e2f1ec751eb79517de3f237d0f280a16af9c",
+      "nameTag": "Medisync: Deployer"
+    },
+    {
+      "address": "0xe6db2e4c2f7f4c6b06d062b52319f81753d1dbb9",
+      "nameTag": "Merge Bears: Deployer"
+    },
+    {
+      "address": "0xfdf6fa86058d1eacb441adb5acfc143672e59a58",
+      "nameTag": "MetalSwap: Deployer"
+    },
+    {
+      "address": "0x4a7016c0b1edb6e3a28038b361cb59f1f0592d02",
+      "nameTag": "Minato DAO: Deployer"
+    },
+    {
+      "address": "0x074a2bb7686da8dacad178aece2ad280b8d4c25d",
+      "nameTag": "Minereum: Deployer"
+    },
+    {
+      "address": "0x156d8fac8cd3deb51ab194d906abfc81cf323c11",
+      "nameTag": "Minerva Money: Deployer"
+    },
+    {
+      "address": "0x57d1eae9f0972723f0e78eaf4e6c08e90565206f",
+      "nameTag": "motorheadz: Deployer"
+    },
+    {
+      "address": "0x2d7af0f04c935b647a995f71d1ec14089224d5ca",
+      "nameTag": "Mountain Protocol: Deployer"
+    },
+    {
+      "address": "0x253956aedc059947e700071bc6d74bd8e34fe2ab",
+      "nameTag": "mStable Governance Meta: Deployer"
+    },
+    {
+      "address": "0xfa9da51631268a30ec3ddd1ccbf46c65fad99251",
+      "nameTag": "Multichain: Deployer"
+    },
+    {
+      "address": "0xcea80f944a0b90e62adbd2999c89d27e39e51c73",
+      "nameTag": "Nebula Revelation: Deployer"
+    },
+    {
+      "address": "0xcd0b087e113152324fca962488b4d9beb6f4caf6",
+      "nameTag": "NFTEarth: Deployer"
+    },
+    {
+      "address": "0x6b80fd0457273494007813d1dca3fa4ab11f272e",
+      "nameTag": "Nonagon Finance: Deployer"
+    },
+    {
+      "address": "0x4283b3469a9edce1fda34ec6e8a453cf82b9cab7",
+      "nameTag": "O3 Swap: Deployer"
+    },
+    {
+      "address": "0xd54790451558007d9bc8616248416c43c45bca9e",
+      "nameTag": "Okcash: Deployer"
+    },
+    {
+      "address": "0xa89ef3afdb636a0c4b39554fb6dccd3577d02fe2",
+      "nameTag": "Open intelligent Chain: Deployer"
+    },
+    {
+      "address": "0x10850762bac0dc6660630c1effe188a7cbfddc88",
+      "nameTag": "OptiChads: Deployer"
+    },
+    {
+      "address": "0xd23199f1222c418ffc74c385171330b21b16e452",
+      "nameTag": "OptiDoge: Deployer"
+    },
+    {
+      "address": "0x36bde71c97b33cc4729cf772ae268934f7ab70b2",
+      "nameTag": "Optimism: Aliased L1 Cross-Domain Messenger"
+    },
+    {
+      "address": "0x9c6373de60c2d3297b18a8f964618ac46e011b58",
+      "nameTag": "Optimism: Deployer"
+    },
+    {
+      "address": "0xcd526ee406bc8349ba8135758cee11fa3aaa59a0",
+      "nameTag": "OPX Finance: Deployer"
+    },
+    {
+      "address": "0x76d84163bc0bbf58d6d3f2332f8a9c5b339df983",
+      "nameTag": "Otterspace: Deployer"
+    },
+    {
+      "address": "0x5cb01385d3097b6a189d1ac8ba3364d900666445",
+      "nameTag": "Overnight: Deployer"
+    },
+    {
+      "address": "0xfeebd6b860d4f33ec03014af0ee0a35ce8d6fd97",
+      "nameTag": "Pegasus: Deployer"
+    },
+    {
+      "address": "0xc107dacaf1d6e369cfdc67695beadf5e2068191e",
+      "nameTag": "Pendle: Deployer"
+    },
+    {
+      "address": "0x1fccc097db89a86bfc474a1028f93958295b1fb7",
+      "nameTag": "Pendle: Deployer 1"
+    },
+    {
+      "address": "0x0cdb34e6a4d635142bb92fe403d38f636bbb77b8",
+      "nameTag": "Penpie: Deployer"
+    },
+    {
+      "address": "0x4023ef3aaa0669faaf3a712626f4d8ccc3eaf2e5",
+      "nameTag": "Pickle Finance: Deployer"
+    },
+    {
+      "address": "0x80898b704baa55e7e37f1128fc6ae5836661f54a",
+      "nameTag": "Pika Protocol: Deployer"
+    },
+    {
+      "address": "0x8b08d16f8ed6d00e539a4da896bd124828615a96",
+      "nameTag": "Polyhedra 2024: Deployer"
+    },
+    {
+      "address": "0x4d40eb12430a57965cee3015348d490c6156df20",
+      "nameTag": "PoolTogether: Deployer"
+    },
+    {
+      "address": "0xe0e7b7c5ae92fe94d2ae677d81214d6ad7a11c27",
+      "nameTag": "PoolTogether: Deployer 1"
+    },
+    {
+      "address": "0x226e71e2165249494532c0bde6303e7c025e30cd",
+      "nameTag": "PoolTogether: Deployer 2"
+    },
+    {
+      "address": "0x4c8d9fc6d9d4323e8d226c62aee2f6d698dd9be6",
+      "nameTag": "Popcorn: Deployer"
+    },
+    {
+      "address": "0xc7f8d87734ab2cbf70030ac8aa82abfe3e8126cb",
+      "nameTag": "Premia: Deployer"
+    },
+    {
+      "address": "0x599bc88e8f837a821a9ed6c133a4932c39552342",
+      "nameTag": "Promethios: Deployer"
+    },
+    {
+      "address": "0x2202a7fe406ddab2f85af596d4f4818a903cb85e",
+      "nameTag": "Pyth Network: Deployer"
+    },
+    {
+      "address": "0xe00eaa2787a8830a485153b7bf508bc781e4a220",
+      "nameTag": "Qi Dao: Deployer"
+    },
+    {
+      "address": "0x89d761935ca2d85e3a6f8d917751133ec00167c3",
+      "nameTag": "Reunit Wallet: Deployer"
+    },
+    {
+      "address": "0x080f08076e8eadc66006c3cbfed28a34918a1fa6",
+      "nameTag": "Rigo Block: Deployer"
+    },
+    {
+      "address": "0x5117438e943ab870625dda4b0fe3b8118640ffdb",
+      "nameTag": "RillaFi: Deployer"
+    },
+    {
+      "address": "0x76ef4b28df1f590db4cd680675d734c27caa32ba",
+      "nameTag": "Rocket Pool ETH: Deployer"
+    },
+    {
+      "address": "0x27e80db1f5a975f4c43c5ec163114e796cdb603d",
+      "nameTag": "Rocket Pool: Deployer"
+    },
+    {
+      "address": "0x1f9d367d68fc68a30062166f73512e06840ab4a4",
+      "nameTag": "Royal Crows: Deployer"
+    },
+    {
+      "address": "0xb1bef51ebca01eb12001a639bdbbff6eeca12b9f",
+      "nameTag": "Sablier: Deployer"
+    },
+    {
+      "address": "0xf5094335199ec1dba6b6d8b8b0299f1d7192423c",
+      "nameTag": "ShapeShift: Deployer"
+    },
+    {
+      "address": "0x0e19fad56864eadf64848bdc79ee6299c3374b0f",
+      "nameTag": "Sipher: Deployer"
+    },
+    {
+      "address": "0xfb59ce8986943163f14c590755b29db2998f2322",
+      "nameTag": "Sonne Finance: Deployer"
+    },
+    {
+      "address": "0x39dcbb3929844aad5675984924a33b07a5fa2835",
+      "nameTag": "st0ked: Deployer"
+    },
+    {
+      "address": "0xc4ad9f58c4c7cba47191be635ecf40b4515cf6cf",
+      "nameTag": "Stable Coin: Deployer"
+    },
+    {
+      "address": "0x1d7c6783328c145393e84fb47a7f7c548f5ee28d",
+      "nameTag": "Stargate Finance: Deployer"
+    },
+    {
+      "address": "0x0af91fa049a7e1894f480bfe5bba20142c6c29a9",
+      "nameTag": "Synapse: Deployer"
+    },
+    {
+      "address": "0x302d2451d9f47620374b54c521423bf0403916a2",
+      "nameTag": "Synthetix: Deployer"
+    },
+    {
+      "address": "0x0d7effefdb084dfeb1621348c8c70cc4e871eba4",
+      "nameTag": "Tellor Tributes: Deployer"
+    },
+    {
+      "address": "0x8314125c8b68af2afd0d151eb4a551e88128a2ae",
+      "nameTag": "Thales: Deployer"
+    },
+    {
+      "address": "0xfb1da2ba2b6c1e73e4ace7af2a38fea4c289508e",
+      "nameTag": "The Binary Holdings: Deployer"
+    },
+    {
+      "address": "0x5bd973c3841b754386963abb117ffc796041aecf",
+      "nameTag": "The Open X Project: Deployer"
+    },
+    {
+      "address": "0x041eb18a78d3ce29342fcab9270b43ecdfaf633f",
+      "nameTag": "The Six A.i. Initiative: Deployer"
+    },
+    {
+      "address": "0x123694886dbf5ac94dda07135349534536d14caf",
+      "nameTag": "Threshold Network: Deployer"
+    },
+    {
+      "address": "0xf632ce27ea72dea30d30c1a9700b6b3bceaa05cf",
+      "nameTag": "Token Engineering Commons: Deployer"
+    },
+    {
+      "address": "0x3cdb9bc080efe321a797e7286d302b90227cc6de",
+      "nameTag": "Token Name Service: Deployer"
+    },
+    {
+      "address": "0x38e63793993ae54be374d129f34a3faf2c382e97",
+      "nameTag": "TokenFunder: Deployer"
+    },
+    {
+      "address": "0x6c9fc64a53c1b71fb3f9af64d1ae3a4931a5f4e9",
+      "nameTag": "Uniswap V3: Deployer"
+    },
+    {
+      "address": "0xe1d7df53a55d6116af1bde150ffb21f551d95f1e",
+      "nameTag": "Unitus: Deployer"
+    },
+    {
+      "address": "0x30109f25428cbe2aa7fd33646a097bfbecf17365",
+      "nameTag": "USDV.Money: Deployer"
+    },
+    {
+      "address": "0xd5b643e97086705fc3e55a0e27096d79cee5879b",
+      "nameTag": "Validator: Deployer"
+    },
+    {
+      "address": "0xc0de1436c4e247f8652476a0b9ff55699801e1d0",
+      "nameTag": "Velodrome Finance: Deployer"
+    },
+    {
+      "address": "0xa2ec022d89b0a80012c2446b0e8e5ff12f88dfc1",
+      "nameTag": "Wagmi: Deployer"
+    },
+    {
+      "address": "0x2ca2584f1565489ef9598a2c8610ed40f06f251f",
+      "nameTag": "WaweSwaps Global: Deployer"
+    },
+    {
+      "address": "0xf2cafb99992ce6a49f948b452c783614808612d1",
+      "nameTag": "WePiggy: Deployer"
+    },
+    {
+      "address": "0x763b9dba40c3d03507df454823fe03517f84a5ab",
+      "nameTag": "WePiggy: Deployer 2"
+    },
+    {
+      "address": "0x97471c0fdddb5e5cc34cb08cb17961bd3a53f38f",
+      "nameTag": "WOO: Deployer"
+    },
+    {
+      "address": "0xaea98f9f0bb6eb53fe8b98372e91a46da8504f07",
+      "nameTag": "Wormhole: Deployer"
+    },
+    {
+      "address": "0x31b8939c6e55a4ddaf0d6479320a0dfd9766ee9d",
+      "nameTag": "wTBT: Deployer"
+    },
+    {
+      "address": "0x13b0d85ccb8bf860b6b79af3029fca081ae9bef2",
+      "nameTag": "xdeployer: Deployer"
+    },
+    {
+      "address": "0x4ce69fd760ad0c07490178f9a47863dc0358cccd",
+      "nameTag": "xShrap: Deployer"
+    },
+    {
+      "address": "0x97f351c6e87af8941ae6caf0465254c14ac65ffb",
+      "nameTag": "YieldTopia: Deployer"
+    },
+    {
+      "address": "0x8602ee2f8aaeb671e409b26d48e36dd8cc3b7ed7",
+      "nameTag": "ZipSwap: Deployer"
+    },
+    {
+      "address": "0xfadede2cfbfa7443497acacf76cfc4fe59112dbb",
+      "nameTag": "Zoomer: Deployer"
+    }
+  ]
+}

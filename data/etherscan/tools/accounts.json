@@ -1,6 +1,9 @@
-[
-  {
-    "address": "0x3518e38ff48b4a5fde0ffec4133111856ddadbc8",
-    "nameTag": "UNCX Network : Tax Token Minter"
-  }
-]
+{
+  "lastPulled": "2024-04-02T20:51:11.863Z",
+  "data": [
+    {
+      "address": "0x3518e38ff48b4a5fde0ffec4133111856ddadbc8",
+      "nameTag": "UNCX Network : Tax Token Minter"
+    }
+  ]
+}

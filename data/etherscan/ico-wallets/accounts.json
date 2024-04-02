@@ -1,714 +1,717 @@
-[
-  {
-    "address": "0x606af0bd4501855914b50e2672c5926b896737ef",
-    "nameTag": "0x: MultiSig"
-  },
-  {
-    "address": "0x01d9f4d104668cdc0b6d13c45dff5e15d58d8f28",
-    "nameTag": "0x: MultiSig 2"
-  },
-  {
-    "address": "0x15c19e6c203e2c34d1edfb26626bfc4f65ef96f0",
-    "nameTag": "Aeternity: Wallet"
-  },
-  {
-    "address": "0xfba4d50cab44f13102c0e270721e1cbefebd8922",
-    "nameTag": "Airbloc: Wallet 1"
-  },
-  {
-    "address": "0x7d5d58560819c172e45b46c0965bbda5a8895f80",
-    "nameTag": "Airbloc: Wallet 2"
-  },
-  {
-    "address": "0xebbd58cd1c31c08ef7a17337c264ba502762e993",
-    "nameTag": "AirSwap: MultiSig"
-  },
-  {
-    "address": "0xcf7787ca25010d3dbfa2ccc32ea58d2160290ef4",
-    "nameTag": "Alphabitco: Wallet"
-  },
-  {
-    "address": "0x9e1836e45e88c92926105910d4a5988a1f677181",
-    "nameTag": "AppCoins: MultiSig 1"
-  },
-  {
-    "address": "0x71e7c73375efbefdf7b4be67e768d9038dde2488",
-    "nameTag": "AppCoins: MultiSig 2"
-  },
-  {
-    "address": "0xcafe1a77e84698c83ca8931f54a755176ef75f2c",
-    "nameTag": "Aragon: Multisig"
-  },
-  {
-    "address": "0x8d9d0bd75319a3780d3cab012759efbae334291b",
-    "nameTag": "Arcade City: Multisig"
-  },
-  {
-    "address": "0x126d407584cf73ba5d15102bab0e578a64cca3f1",
-    "nameTag": "Atlant: Wallet 1"
-  },
-  {
-    "address": "0x36e6dadc5a045a86dbc9ecfeda5c459784d3537f",
-    "nameTag": "Atlant: Wallet 2"
-  },
-  {
-    "address": "0x7bb187351421c3affda57c7a5132e304f73167c8",
-    "nameTag": "Atonomi: MultiSig"
-  },
-  {
-    "address": "0xe28e72fcf78647adce1f1252f240bbfaebd63bcc",
-    "nameTag": "Augur: Token Sale"
-  },
-  {
-    "address": "0xa04fc9bd2be8bcc6875d9ebb964e8f858bcc1b4f",
-    "nameTag": "Augur: Wallet"
-  },
-  {
-    "address": "0xb3ee3fb3f8c856adf9ce64ad691469ba533f5a37",
-    "nameTag": "AVA Labs: Wallet"
-  },
-  {
-    "address": "0x035a401972f228b58dcae76bf318b54ed036d680",
-    "nameTag": "Aventus: MultiSig"
-  },
-  {
-    "address": "0x5894110995b8c8401bd38262ba0c8ee41d4e4658",
-    "nameTag": "Bancor: Multisig 1"
-  },
-  {
-    "address": "0x67e4bbe50fbc74633dfd9f7683465c02af896541",
-    "nameTag": "Bancor: MultiSig 2"
-  },
-  {
-    "address": "0xcc1aac4513f751effc94e259daf8a37b76f9db75",
-    "nameTag": "Bancor: Multisig 3"
-  },
-  {
-    "address": "0x4f8af8e8734d02a21d73e2a4fb29941f35cbbeac",
-    "nameTag": "Bancor: Multisig 4"
-  },
-  {
-    "address": "0xc39e562defc6ddd1f44ee698cf9303092b86051d",
-    "nameTag": "Bancor: Multisig 5"
-  },
-  {
-    "address": "0x44fcfabfbe32024a01b778c025d70498382cced0",
-    "nameTag": "BAT: Wallet"
-  },
-  {
-    "address": "0x7c4b4bb0bb0fadbcb1c54ed55a3b4f1d456726c6",
-    "nameTag": "Bee Token: MultiSig"
-  },
-  {
-    "address": "0xe9203c8c8eeaeffefecffad6d883c3ea205a832b",
-    "nameTag": "BitJob: MultiSig"
-  },
-  {
-    "address": "0x537397e3a68584e05e332d2ba75340e37012f50a",
-    "nameTag": "BitJob: Wallet"
-  },
-  {
-    "address": "0x9d217bcbd0bfae4d7f8f12c7702108d162e3ab79",
-    "nameTag": "Bloom: MultiSig"
-  },
-  {
-    "address": "0x081edbef6106ab1253557451b261c1c99bade726",
-    "nameTag": "Bread: Wallet"
-  },
-  {
-    "address": "0xa723606e907bf84215d5785ea7f6cd93a0fbd121",
-    "nameTag": "ChronoLogic: MultiSig"
-  },
-  {
-    "address": "0x45fde77ff768aa83df468fb1c6ebc5f2bb21dcea",
-    "nameTag": "Cindicator: MultiSig"
-  },
-  {
-    "address": "0x2323763d78bf7104b54a462a79c2ce858d118f2f",
-    "nameTag": "Civic: Multisig"
-  },
-  {
-    "address": "0x0bb9fc3ba7bcf6e5d6f6fc15123ff8d5f96cee00",
-    "nameTag": "Cobinhood: MultiSig"
-  },
-  {
-    "address": "0x3013d62a7357021259c3ee463ec9fbc64de7ba76",
-    "nameTag": "Cofoundit: Wallet"
-  },
-  {
-    "address": "0x6a164122d5cf7c840d26e829b46dcc4ed6c0ae48",
-    "nameTag": "CoinDash: Token Sale"
-  },
-  {
-    "address": "0x983293eb01740d9788bbdcfe3a29d1bf2fdfc47d",
-    "nameTag": "coinEstate: Wallet"
-  },
-  {
-    "address": "0x9df172fc167a8a567c208fc14e3435eb8043e2b7",
-    "nameTag": "Copytrack: Wallet"
-  },
-  {
-    "address": "0x95b2eb812ce96cabc6dfd94bfcdae5192e027763",
-    "nameTag": "CPChain: Wallet"
-  },
-  {
-    "address": "0x7c27f68b0d5afffb668da3e046adfba6ea1f6bc3",
-    "nameTag": "Credits: MultiSig"
-  },
-  {
-    "address": "0xae18c66ac8e11f1218e5b5d25535b935644b8c42",
-    "nameTag": "CrowdCoinage: Wallet"
-  },
-  {
-    "address": "0x26e75307fc0c021472feb8f727839531f112f317",
-    "nameTag": "Crypto20: C20 Token"
-  },
-  {
-    "address": "0xc869af1617a9032a7c8ee60427027ba23cb9e4f8",
-    "nameTag": "Cryptosis: Wallet"
-  },
-  {
-    "address": "0xf5c8b99c64a5584a911d3aae4873b3581d48586e",
-    "nameTag": "DATx: Wallet"
-  },
-  {
-    "address": "0xc87b1bf162c1719e3ffdf34995d1853192d6633b",
-    "nameTag": "Decent.Bet: MultiSig"
-  },
-  {
-    "address": "0x55ed2910cc807e4596024266ebdf7b1753405a11",
-    "nameTag": "Decentraland: MultiSig 1"
-  },
-  {
-    "address": "0xe5d0c3fea1e5f01ca4098e9580b93b3b5d0ea768",
-    "nameTag": "Decentraland: MultiSig 2"
-  },
-  {
-    "address": "0x5bd48309926121370da1cbbd5b958926e8bdb328",
-    "nameTag": "Decentraland: MultiSig 3"
-  },
-  {
-    "address": "0xfe95e04a628087fcdd5f278e61f148b47471af4a",
-    "nameTag": "Decentraland: Wallet"
-  },
-  {
-    "address": "0x23b61de5076526b3a1026491157c6df731ae8b61",
-    "nameTag": "Dether: Wallet"
-  },
-  {
-    "address": "0x53f117ca3b93eda96d08c8496af103303c385059",
-    "nameTag": "Digitex: Wallet"
-  },
-  {
-    "address": "0x75ba02c5baf9cc3e9fe01c51df3cb1437e8690d4",
-    "nameTag": "DigixDAO: MultiSig"
-  },
-  {
-    "address": "0xd20e4d854c71de2428e1268167753e4c7070ae68",
-    "nameTag": "District0x: MultiSig"
-  },
-  {
-    "address": "0x4b60b53a6edcd75f0730ecc22579df2079f210b0",
-    "nameTag": "DMarket: Wallet"
-  },
-  {
-    "address": "0x2097175d0abb8258f2468e3487f8db776e29d076",
-    "nameTag": "Education Ecosystem: Token Sale"
-  },
-  {
-    "address": "0x967cd47aa3195cff1248ac123e8a452d84daba1d",
-    "nameTag": "ElectrifyAsia: Wallet"
-  },
-  {
-    "address": "0x660cdee72302d2941a43db1275eded7827023baa",
-    "nameTag": "EloPay: MultiSig"
-  },
-  {
-    "address": "0xf67e754b5be1138882d203f46472c69b985108a7",
-    "nameTag": "EnterCoin: Wallet"
-  },
-  {
-    "address": "0xd780ae2bf04cd96e577d3d014762f831d97129d0",
-    "nameTag": "Envion Token"
-  },
-  {
-    "address": "0xb55d31e46428beb28234b62d5178dad5ec8ad8ca",
-    "nameTag": "ERC20Connect: Wallet"
-  },
-  {
-    "address": "0x24c3235558572cff8054b5a419251d3b0d43e91b",
-    "nameTag": "Etheroll: MultiSig 1"
-  },
-  {
-    "address": "0xa86a60d53e6f474e049be54824551bb99f05adee",
-    "nameTag": "Etheroll: MultiSig 2"
-  },
-  {
-    "address": "0x9a60ad6de185c4ea95058601beaf16f63742782a",
-    "nameTag": "Ethos: Multisig"
-  },
-  {
-    "address": "0xdb8c6862ea4f5cc843c4b3ed75eb8951714b7635",
-    "nameTag": "Filecoin: MultiSig 1"
-  },
-  {
-    "address": "0x3dbb3e8a5b1e9df522a441ffb8464f57798714b1",
-    "nameTag": "Filecoin: MultiSig 2"
-  },
-  {
-    "address": "0xa5384627f6dcd3440298e2d8b0da9d5f0fcbcef7",
-    "nameTag": "FirstBlood: MultiSig"
-  },
-  {
-    "address": "0x3061cfbae69bff0f933353cea20de6c89ab16acc",
-    "nameTag": "FOAM: MultiSig"
-  },
-  {
-    "address": "0x72101d19ed90ad71ffaaf6c328930ab9646e751f",
-    "nameTag": "FundRequest: MultiSig"
-  },
-  {
-    "address": "0xc98f8c6b319ecceccaa9361ed5372274674f96cf",
-    "nameTag": "Fusion: Wallet"
-  },
-  {
-    "address": "0xa85b419eee304563d3587fe934e932f056ca3c14",
-    "nameTag": "Gatcoin: MultiSig"
-  },
-  {
-    "address": "0xc79ab28c5c03f1e7fbef056167364e6782f9ff4f",
-    "nameTag": "Gimli: MultiSig"
-  },
-  {
-    "address": "0x850468f69fa4fe32816cd7698fd5bd1ece3e1d5c",
-    "nameTag": "Gimmer: Wallet"
-  },
-  {
-    "address": "0x6e95c8e8557abc08b46f3c347ba06f8dc012763f",
-    "nameTag": "Gnosis: MultiSig"
-  },
-  {
-    "address": "0x851b7f3ab81bd8df354f0d7640efcd7288553419",
-    "nameTag": "Gnosis: Multisig 2"
-  },
-  {
-    "address": "0xce52a8dd7c8ad08e94b44620622e3630f7c1fc90",
-    "nameTag": "Gnosis: MultiSig 3"
-  },
-  {
-    "address": "0x3257bde8cf067ae6f1ddc0e4b140fe02e3c5e44f",
-    "nameTag": "Gnosis: Vault"
-  },
-  {
-    "address": "0x7da82c7ab4771ff031b66538d2fb9b0b047f6cf9",
-    "nameTag": "Golem: Multisig"
-  },
-  {
-    "address": "0x175af261088b31e58ba384b3758f14bcf6c1f4e1",
-    "nameTag": "GoNetwork: MultiSig"
-  },
-  {
-    "address": "0x004e6f03648b0b0f529511697b0f36a463a24836",
-    "nameTag": "Gron Digital: Wallet"
-  },
-  {
-    "address": "0x85992bb01c8c64a80656c1df988f313af6b661e9",
-    "nameTag": "HadePlatform: Wallet"
-  },
-  {
-    "address": "0xc03281af336e2c25b41ff893a0e6ce1a932b23af",
-    "nameTag": "HelloGold: MultiSig"
-  },
-  {
-    "address": "0x1706024467ef8c9c4648da6fc35f2c995ac79cf6",
-    "nameTag": "Hero: Wallet"
-  },
-  {
-    "address": "0xe477292f1b3268687a29376116b0ed27a9c76170",
-    "nameTag": "Herocoin Token"
-  },
-  {
-    "address": "0x8c097a9c954894c8779edef955398d6b8ea7226a",
-    "nameTag": "HOQU: Wallet"
-  },
-  {
-    "address": "0xa2c9a7578e2172f32a36c5c0e49d64776f9e7883",
-    "nameTag": "Humaniq: Wallet"
-  },
-  {
-    "address": "0x376c3e5547c68bc26240d8dcc6729fff665a4448",
-    "nameTag": "Iconomi: MultiSig 1"
-  },
-  {
-    "address": "0x154af3e01ec56bc55fd585622e33e3dfb8a248d8",
-    "nameTag": "Iconomi: MultiSig 2"
-  },
-  {
-    "address": "0x21346283a31a5ad10fa64377e77a8900ac12d469",
-    "nameTag": "iEXEC: MultiSig"
-  },
-  {
-    "address": "0x03e4b00b607d0980668ca6e50201576b00000000",
-    "nameTag": "imbrex: Wallet"
-  },
-  {
-    "address": "0xc4904676bfee9b5332033e6f7307433635346d21",
-    "nameTag": "INCX: Wallet"
-  },
-  {
-    "address": "0x1c82ee5b828455f870eb2998f2c9b6cc2d52a5f6",
-    "nameTag": "Indorse: MultiSig 1"
-  },
-  {
-    "address": "0x26967201d4d1e1aa97554838defa4fc4d010ff6f",
-    "nameTag": "Indorse: MultiSig 2"
-  },
-  {
-    "address": "0x89add413f34c4858458d658a9f24456551762803",
-    "nameTag": "InvestDigital: Wallet"
-  },
-  {
-    "address": "0xc640b901a529c58fb6f6c53665768e2d5c835421",
-    "nameTag": "Joyso: MultiSig"
-  },
-  {
-    "address": "0x3eb01b3391ea15ce752d01cf3d3f09dec596f650",
-    "nameTag": "Kyber: MultiSig"
-  },
-  {
-    "address": "0x562f587bff5a559e3fe671028b3096d8e3bb9107",
-    "nameTag": "Lendingblock: Wallet"
-  },
-  {
-    "address": "0xf7d58e6720696b8f46dc9270443d8beaeb8d9775",
-    "nameTag": "LinkerCoin: Wallet"
-  },
-  {
-    "address": "0x6a0afe6f45a878100480f312b585aa0d752d4d2d",
-    "nameTag": "Liquid: Gram Token Sale Proceeds"
-  },
-  {
-    "address": "0xdf4d1b71aa4b8bb6814b2e5819844c3093a56349",
-    "nameTag": "LTO Network: Deployer"
-  },
-  {
-    "address": "0x02dc3b8ab87c562cdce707647bd1ba21c390faf4",
-    "nameTag": "Maecenas: MultiSig"
-  },
-  {
-    "address": "0x873767026deab58b3d14ceb60a0c9ba60773e3e7",
-    "nameTag": "Matryx: MultiSig"
-  },
-  {
-    "address": "0x93b7e9364c4df6de55ed0d10c80e7afc0612e93a",
-    "nameTag": "Metal: Wallet"
-  },
-  {
-    "address": "0x68c4b7d05fae45bcb6192bb93e246c77e98360e1",
-    "nameTag": "Metronome: Proceeds"
-  },
-  {
-    "address": "0x00832a758a781055ac19b5f9bf553db8bb9db32d",
-    "nameTag": "Monetha: Wallet"
-  },
-  {
-    "address": "0xfd053b5447cb0625464e6e277005fe8adf3c8469",
-    "nameTag": "MTC: MultiSig"
-  },
-  {
-    "address": "0xc7cd9d874f93f2409f39a95987b3e3c738313925",
-    "nameTag": "Musiconomi: MultiSig"
-  },
-  {
-    "address": "0x7e6614722614e434c4df9901bab31e466ba12fa4",
-    "nameTag": "Mysterium: Multisig"
-  },
-  {
-    "address": "0x19c1f4d2cf1606d1ba3030aef48b96e56bc92a6a",
-    "nameTag": "NodePower: Wallet"
-  },
-  {
-    "address": "0x2b3b67c6dffc2bcdda2315491eac9bbe868fbcdd",
-    "nameTag": "OAX: Wallet"
-  },
-  {
-    "address": "0x2149cbdd59b50bef9a264914b441f917dc9c7d55",
-    "nameTag": "OneLedger: Wallet"
-  },
-  {
-    "address": "0xf821fd99bca2111327b6a411c90be49dcf78ce0f",
-    "nameTag": "PayPie: MultiSig"
-  },
-  {
-    "address": "0x01091506ce9f1977a660c5ad4915cbd89e4e1a49",
-    "nameTag": "PChain: Wallet"
-  },
-  {
-    "address": "0x746aaac06b04c36f5fea9bbb35ca75518eda1cca",
-    "nameTag": "Perlin: Token Sale"
-  },
-  {
-    "address": "0x26d08b9d227933a85e855656dc46ab889e183c88",
-    "nameTag": "Playkey: Token Sale"
-  },
-  {
-    "address": "0x04c62019ab478bff5874e7b7d9bc84fcf7e30025",
-    "nameTag": "POA Network: MultiSig"
-  },
-  {
-    "address": "0x3bfc20f0b9afcace800d73d2191166ff16540258",
-    "nameTag": "Polkadot: MultiSig"
-  },
-  {
-    "address": "0xe9eca8bb5e61e8e32f26b5e8c117561f68084a9c",
-    "nameTag": "Polybius: MultiSig"
-  },
-  {
-    "address": "0xafa1c92a27215d1d1dad4fa89972e7c8d91218f9",
-    "nameTag": "PolySwarm: Wallet"
-  },
-  {
-    "address": "0x5a8b20e070e82b4e3fb97ecbd71b587a74f2ecc1",
-    "nameTag": "Populous: MultiSig 1"
-  },
-  {
-    "address": "0x1a8cc57f1155d7df4626978401e203e00da097f7",
-    "nameTag": "Populous: MultiSig 2"
-  },
-  {
-    "address": "0xca48ba80cfa6cc06963b62aee48000f031c7e2dc",
-    "nameTag": "Populous: Wallet 1"
-  },
-  {
-    "address": "0xee155572635ae7d1f4e30ec3179ce65b5342cb17",
-    "nameTag": "Populous: Wallet 2"
-  },
-  {
-    "address": "0xb1c5d524382324c9472c6f8e1a3c0a64465a4902",
-    "nameTag": "Privatix: MultiSig"
-  },
-  {
-    "address": "0x10987d8361338eae4472f107cf069558c54516ae",
-    "nameTag": "Propy: MultiSig"
-  },
-  {
-    "address": "0x00674045bb7c17f0aa1cde34780d6c51af548728",
-    "nameTag": "Prospectors: MultiSig"
-  },
-  {
-    "address": "0x00c7122633a4ef0bc72f7d02456ee2b11e97561e",
-    "nameTag": "Raiden: MultiSig"
-  },
-  {
-    "address": "0xb0c591788ac5f9638a8aea025019e626f17186df",
-    "nameTag": "Rate3: Wallet 1"
-  },
-  {
-    "address": "0x841991ffe0dafd619bc517d82ee4700c37136140",
-    "nameTag": "Rate3: Wallet 2"
-  },
-  {
-    "address": "0x9a4cd44c1a55cfda565430dee9bfb54f2aacfd6a",
-    "nameTag": "Republic Protocol: MultiSig"
-  },
-  {
-    "address": "0xdd76b55ee6dafe0c7c978bff69206d476a5b9ce7",
-    "nameTag": "Request: MultiSig"
-  },
-  {
-    "address": "0xa5d1e58ece1fc438d64e65769d2ab730143a4caf",
-    "nameTag": "Robomed Token"
-  },
-  {
-    "address": "0xe76fe52a251c8f3a5dcd657e47a6c8d16fdf4bfa",
-    "nameTag": "Santiment: Wallet 1"
-  },
-  {
-    "address": "0x6dd5a9f47cfbc44c04a0a4452f0ba792ebfbcc9a",
-    "nameTag": "Santiment: Wallet 2"
-  },
-  {
-    "address": "0x1f3df0b8390bb8e9e322972c5e75583e87608ec2",
-    "nameTag": "Santiment: Wallet 3"
-  },
-  {
-    "address": "0x3e5dcce17765928400ee4a4b8905e1dd9f42a00f",
-    "nameTag": "Savedroid: Wallet"
-  },
-  {
-    "address": "0x47c8f28e6056374aba3df0854306c2556b104601",
-    "nameTag": "Serenity: Wallet"
-  },
-  {
-    "address": "0x5574754c7cb6618d0079065bfabdc46f31bc7a32",
-    "nameTag": "SigmaCoin: Wallet"
-  },
-  {
-    "address": "0x2ef2782905830533d218b7ff4d15b8c0981ce84b",
-    "nameTag": "Simple Token: MultiSig"
-  },
-  {
-    "address": "0x5901deb2c898d5dbe5923e05e510e95968a35067",
-    "nameTag": "SingularDTV: MultiSig"
-  },
-  {
-    "address": "0xc78310231aa53bd3d0fea2f8c705c67730929d8f",
-    "nameTag": "SingularDTV: Wallet"
-  },
-  {
-    "address": "0x5978c1473ee84dd9cf3d90d0e931a79906ee52c5",
-    "nameTag": "Sirin Labs: MultiSig"
-  },
-  {
-    "address": "0xa4ddd3977920796bfb14ca8d0fb97491fa72a11d",
-    "nameTag": "Sirin Labs: Refund Vault"
-  },
-  {
-    "address": "0x6f6deb5db0c4994a8283a01d6cfeeb27fc3bbe9c",
-    "nameTag": "SmartBillions Token"
-  },
-  {
-    "address": "0xe804ad72e60503ed47d267351bdd3441ac1ccb03",
-    "nameTag": "SocialX: MultiSig"
-  },
-  {
-    "address": "0xdf398e0be9e0da2d8f8d687fd6b2c9082eefc29a",
-    "nameTag": "Soma: Liquidity Reserve Wallet"
-  },
-  {
-    "address": "0x22c6731a21ad946bcd934f62f04b2d06ebfbedc9",
-    "nameTag": "Soma: Wallet"
-  },
-  {
-    "address": "0xdc9727d102f00adf0043d04431b6cd162c5114ea",
-    "nameTag": "SpankChain: MultiSig"
-  },
-  {
-    "address": "0x0c295c085cae9c6278df49477d29f71d78c5490d",
-    "nameTag": "Sparkster: Wallet"
-  },
-  {
-    "address": "0x035d3ba0dd04fb61480a83d388541e6c18374369",
-    "nameTag": "Sparkster: Wallet 1"
-  },
-  {
-    "address": "0x3cf565f5ac331afec57daef46ae7170569de7364",
-    "nameTag": "Sparkster: Wallet 2"
-  },
-  {
-    "address": "0xf33f21a189744751a9482c3b2557ecea229b22e9",
-    "nameTag": "Sparkster: Wallet 3"
-  },
-  {
-    "address": "0x27f78970a8be5b33ee866d0f31f7e1d7e383ac6f",
-    "nameTag": "Sparkster: Wallet 4"
-  },
-  {
-    "address": "0x8464ac68bca6f2ce5ed8aba8dd3c62affb98f0aa",
-    "nameTag": "Sparkster: Wallet 5"
-  },
-  {
-    "address": "0xa646e29877d52b9e2de457eca09c724ff16d0a2b",
-    "nameTag": "Status: Research & Development MultiSig"
-  },
-  {
-    "address": "0x0f564a2a5fde73349890e86e9b2aa1639994bf2f",
-    "nameTag": "Storj: MultiSig 1"
-  },
-  {
-    "address": "0xa33516e6f64c6c2869dff6744953a472cd60c8f6",
-    "nameTag": "Storj: Multisig 2"
-  },
-  {
-    "address": "0xf3d1f26b31db83c8899626746d0bbc59d9dd223c",
-    "nameTag": "Storj: MultiSig 3"
-  },
-  {
-    "address": "0x606b2272215a0cdd1cf4f38293ffaa42f0f56c34",
-    "nameTag": "Storm: Wallet 1"
-  },
-  {
-    "address": "0x36be38dab57631aae070b8977daa35d6de1ab8a0",
-    "nameTag": "Storm: Wallet 2"
-  },
-  {
-    "address": "0xaf518d65f84e4695a4da0450ec02c1248f56b668",
-    "nameTag": "Substratum: Token Sale"
-  },
-  {
-    "address": "0x34967c335d86efc3043fb75f807a0780ffb6905a",
-    "nameTag": "SyncFab: MultiSig 1"
-  },
-  {
-    "address": "0x84a6ddb94f9d16334896f581c7f927a9e6ae5601",
-    "nameTag": "SyncFab: MultiSig 2"
-  },
-  {
-    "address": "0x185f19b43d818e10a31be68f445ef8edcb8afb83",
-    "nameTag": "TenX: Multisig"
-  },
-  {
-    "address": "0xb62ef4c58f3997424b0cceab28811633201706bc",
-    "nameTag": "Tezos: MultiSig"
-  },
-  {
-    "address": "0x49db6ee4507132d1fdac92318e0e6150bf786728",
-    "nameTag": "TheAbyss: MultiSig"
-  },
-  {
-    "address": "0x0c4b367e876d18d5c102023d9240dd7e9c11b380",
-    "nameTag": "Tierion: Wallet 1"
-  },
-  {
-    "address": "0xad54edbe26782a7c190eabc0b35869b0e66ffcce",
-    "nameTag": "Tierion: Wallet 2"
-  },
-  {
-    "address": "0xad8ea3b0215e6efd9d2f2aa22baf6d494dbf7662",
-    "nameTag": "Tokenbox: MultiSig"
-  },
-  {
-    "address": "0x274df34325ca19627e5e587c48b7e77dfc4b9cc6",
-    "nameTag": "Tokia: Wallet"
-  },
-  {
-    "address": "0x146f2fba9eba1b72d5162a56e3e5da6c0f4808cc",
-    "nameTag": "Traceto.io: MultiSig"
-  },
-  {
-    "address": "0x58f75ddacffb183a30f69fe58a67a0d0985fce0f",
-    "nameTag": "Trade.io: Wallet 1"
-  },
-  {
-    "address": "0x5a2fad810f990c4535ada938400b6b67ef7646af",
-    "nameTag": "Trade.io: Wallet 2"
-  },
-  {
-    "address": "0x8dcaeebf49a479ed5e5b3b45a38c9125a0ef6d23",
-    "nameTag": "Traderly: Wallet"
-  },
-  {
-    "address": "0xb4e23d717ed13345498f100c9eacbb256916ae1a",
-    "nameTag": "Uppsala: MultiSig"
-  },
-  {
-    "address": "0xb4e817449b2fcdec82e69f02454b42fe95d4d1fd",
-    "nameTag": "Verify.as: Wallet"
-  },
-  {
-    "address": "0xc2cce1f4190d4451c63cf591678c807679c3d728",
-    "nameTag": "WeTrust: Multisig"
-  },
-  {
-    "address": "0x749bd34c771456a8de28aa0883b00d11273e2ede",
-    "nameTag": "XferMoney: Wallet"
-  },
-  {
-    "address": "0xd75496c0a6a36308cfda58e317ab97ea46b8f6b5",
-    "nameTag": "Zebi: Wallet 1"
-  },
-  {
-    "address": "0x11e63fa9256c37d100b6786569663b116480f92a",
-    "nameTag": "Zebi: Wallet 2"
-  }
-]
+{
+  "lastPulled": "2024-04-02T20:44:25.997Z",
+  "data": [
+    {
+      "address": "0x606af0bd4501855914b50e2672c5926b896737ef",
+      "nameTag": "0x: MultiSig"
+    },
+    {
+      "address": "0x01d9f4d104668cdc0b6d13c45dff5e15d58d8f28",
+      "nameTag": "0x: MultiSig 2"
+    },
+    {
+      "address": "0x15c19e6c203e2c34d1edfb26626bfc4f65ef96f0",
+      "nameTag": "Aeternity: Wallet"
+    },
+    {
+      "address": "0xfba4d50cab44f13102c0e270721e1cbefebd8922",
+      "nameTag": "Airbloc: Wallet 1"
+    },
+    {
+      "address": "0x7d5d58560819c172e45b46c0965bbda5a8895f80",
+      "nameTag": "Airbloc: Wallet 2"
+    },
+    {
+      "address": "0xebbd58cd1c31c08ef7a17337c264ba502762e993",
+      "nameTag": "AirSwap: MultiSig"
+    },
+    {
+      "address": "0xcf7787ca25010d3dbfa2ccc32ea58d2160290ef4",
+      "nameTag": "Alphabitco: Wallet"
+    },
+    {
+      "address": "0x9e1836e45e88c92926105910d4a5988a1f677181",
+      "nameTag": "AppCoins: MultiSig 1"
+    },
+    {
+      "address": "0x71e7c73375efbefdf7b4be67e768d9038dde2488",
+      "nameTag": "AppCoins: MultiSig 2"
+    },
+    {
+      "address": "0xcafe1a77e84698c83ca8931f54a755176ef75f2c",
+      "nameTag": "Aragon: Multisig"
+    },
+    {
+      "address": "0x8d9d0bd75319a3780d3cab012759efbae334291b",
+      "nameTag": "Arcade City: Multisig"
+    },
+    {
+      "address": "0x126d407584cf73ba5d15102bab0e578a64cca3f1",
+      "nameTag": "Atlant: Wallet 1"
+    },
+    {
+      "address": "0x36e6dadc5a045a86dbc9ecfeda5c459784d3537f",
+      "nameTag": "Atlant: Wallet 2"
+    },
+    {
+      "address": "0x7bb187351421c3affda57c7a5132e304f73167c8",
+      "nameTag": "Atonomi: MultiSig"
+    },
+    {
+      "address": "0xe28e72fcf78647adce1f1252f240bbfaebd63bcc",
+      "nameTag": "Augur: Token Sale"
+    },
+    {
+      "address": "0xa04fc9bd2be8bcc6875d9ebb964e8f858bcc1b4f",
+      "nameTag": "Augur: Wallet"
+    },
+    {
+      "address": "0xb3ee3fb3f8c856adf9ce64ad691469ba533f5a37",
+      "nameTag": "AVA Labs: Wallet"
+    },
+    {
+      "address": "0x035a401972f228b58dcae76bf318b54ed036d680",
+      "nameTag": "Aventus: MultiSig"
+    },
+    {
+      "address": "0x5894110995b8c8401bd38262ba0c8ee41d4e4658",
+      "nameTag": "Bancor: Multisig 1"
+    },
+    {
+      "address": "0x67e4bbe50fbc74633dfd9f7683465c02af896541",
+      "nameTag": "Bancor: MultiSig 2"
+    },
+    {
+      "address": "0xcc1aac4513f751effc94e259daf8a37b76f9db75",
+      "nameTag": "Bancor: Multisig 3"
+    },
+    {
+      "address": "0x4f8af8e8734d02a21d73e2a4fb29941f35cbbeac",
+      "nameTag": "Bancor: Multisig 4"
+    },
+    {
+      "address": "0xc39e562defc6ddd1f44ee698cf9303092b86051d",
+      "nameTag": "Bancor: Multisig 5"
+    },
+    {
+      "address": "0x44fcfabfbe32024a01b778c025d70498382cced0",
+      "nameTag": "BAT: Wallet"
+    },
+    {
+      "address": "0x7c4b4bb0bb0fadbcb1c54ed55a3b4f1d456726c6",
+      "nameTag": "Bee Token: MultiSig"
+    },
+    {
+      "address": "0xe9203c8c8eeaeffefecffad6d883c3ea205a832b",
+      "nameTag": "BitJob: MultiSig"
+    },
+    {
+      "address": "0x537397e3a68584e05e332d2ba75340e37012f50a",
+      "nameTag": "BitJob: Wallet"
+    },
+    {
+      "address": "0x9d217bcbd0bfae4d7f8f12c7702108d162e3ab79",
+      "nameTag": "Bloom: MultiSig"
+    },
+    {
+      "address": "0x081edbef6106ab1253557451b261c1c99bade726",
+      "nameTag": "Bread: Wallet"
+    },
+    {
+      "address": "0xa723606e907bf84215d5785ea7f6cd93a0fbd121",
+      "nameTag": "ChronoLogic: MultiSig"
+    },
+    {
+      "address": "0x45fde77ff768aa83df468fb1c6ebc5f2bb21dcea",
+      "nameTag": "Cindicator: MultiSig"
+    },
+    {
+      "address": "0x2323763d78bf7104b54a462a79c2ce858d118f2f",
+      "nameTag": "Civic: Multisig"
+    },
+    {
+      "address": "0x0bb9fc3ba7bcf6e5d6f6fc15123ff8d5f96cee00",
+      "nameTag": "Cobinhood: MultiSig"
+    },
+    {
+      "address": "0x3013d62a7357021259c3ee463ec9fbc64de7ba76",
+      "nameTag": "Cofoundit: Wallet"
+    },
+    {
+      "address": "0x6a164122d5cf7c840d26e829b46dcc4ed6c0ae48",
+      "nameTag": "CoinDash: Token Sale"
+    },
+    {
+      "address": "0x983293eb01740d9788bbdcfe3a29d1bf2fdfc47d",
+      "nameTag": "coinEstate: Wallet"
+    },
+    {
+      "address": "0x9df172fc167a8a567c208fc14e3435eb8043e2b7",
+      "nameTag": "Copytrack: Wallet"
+    },
+    {
+      "address": "0x95b2eb812ce96cabc6dfd94bfcdae5192e027763",
+      "nameTag": "CPChain: Wallet"
+    },
+    {
+      "address": "0x7c27f68b0d5afffb668da3e046adfba6ea1f6bc3",
+      "nameTag": "Credits: MultiSig"
+    },
+    {
+      "address": "0xae18c66ac8e11f1218e5b5d25535b935644b8c42",
+      "nameTag": "CrowdCoinage: Wallet"
+    },
+    {
+      "address": "0x26e75307fc0c021472feb8f727839531f112f317",
+      "nameTag": "Crypto20: C20 Token"
+    },
+    {
+      "address": "0xc869af1617a9032a7c8ee60427027ba23cb9e4f8",
+      "nameTag": "Cryptosis: Wallet"
+    },
+    {
+      "address": "0xf5c8b99c64a5584a911d3aae4873b3581d48586e",
+      "nameTag": "DATx: Wallet"
+    },
+    {
+      "address": "0xc87b1bf162c1719e3ffdf34995d1853192d6633b",
+      "nameTag": "Decent.Bet: MultiSig"
+    },
+    {
+      "address": "0x55ed2910cc807e4596024266ebdf7b1753405a11",
+      "nameTag": "Decentraland: MultiSig 1"
+    },
+    {
+      "address": "0xe5d0c3fea1e5f01ca4098e9580b93b3b5d0ea768",
+      "nameTag": "Decentraland: MultiSig 2"
+    },
+    {
+      "address": "0x5bd48309926121370da1cbbd5b958926e8bdb328",
+      "nameTag": "Decentraland: MultiSig 3"
+    },
+    {
+      "address": "0xfe95e04a628087fcdd5f278e61f148b47471af4a",
+      "nameTag": "Decentraland: Wallet"
+    },
+    {
+      "address": "0x23b61de5076526b3a1026491157c6df731ae8b61",
+      "nameTag": "Dether: Wallet"
+    },
+    {
+      "address": "0x53f117ca3b93eda96d08c8496af103303c385059",
+      "nameTag": "Digitex: Wallet"
+    },
+    {
+      "address": "0x75ba02c5baf9cc3e9fe01c51df3cb1437e8690d4",
+      "nameTag": "DigixDAO: MultiSig"
+    },
+    {
+      "address": "0xd20e4d854c71de2428e1268167753e4c7070ae68",
+      "nameTag": "District0x: MultiSig"
+    },
+    {
+      "address": "0x4b60b53a6edcd75f0730ecc22579df2079f210b0",
+      "nameTag": "DMarket: Wallet"
+    },
+    {
+      "address": "0x2097175d0abb8258f2468e3487f8db776e29d076",
+      "nameTag": "Education Ecosystem: Token Sale"
+    },
+    {
+      "address": "0x967cd47aa3195cff1248ac123e8a452d84daba1d",
+      "nameTag": "ElectrifyAsia: Wallet"
+    },
+    {
+      "address": "0x660cdee72302d2941a43db1275eded7827023baa",
+      "nameTag": "EloPay: MultiSig"
+    },
+    {
+      "address": "0xf67e754b5be1138882d203f46472c69b985108a7",
+      "nameTag": "EnterCoin: Wallet"
+    },
+    {
+      "address": "0xd780ae2bf04cd96e577d3d014762f831d97129d0",
+      "nameTag": "Envion Token"
+    },
+    {
+      "address": "0xb55d31e46428beb28234b62d5178dad5ec8ad8ca",
+      "nameTag": "ERC20Connect: Wallet"
+    },
+    {
+      "address": "0x24c3235558572cff8054b5a419251d3b0d43e91b",
+      "nameTag": "Etheroll: MultiSig 1"
+    },
+    {
+      "address": "0xa86a60d53e6f474e049be54824551bb99f05adee",
+      "nameTag": "Etheroll: MultiSig 2"
+    },
+    {
+      "address": "0x9a60ad6de185c4ea95058601beaf16f63742782a",
+      "nameTag": "Ethos: Multisig"
+    },
+    {
+      "address": "0xdb8c6862ea4f5cc843c4b3ed75eb8951714b7635",
+      "nameTag": "Filecoin: MultiSig 1"
+    },
+    {
+      "address": "0x3dbb3e8a5b1e9df522a441ffb8464f57798714b1",
+      "nameTag": "Filecoin: MultiSig 2"
+    },
+    {
+      "address": "0xa5384627f6dcd3440298e2d8b0da9d5f0fcbcef7",
+      "nameTag": "FirstBlood: MultiSig"
+    },
+    {
+      "address": "0x3061cfbae69bff0f933353cea20de6c89ab16acc",
+      "nameTag": "FOAM: MultiSig"
+    },
+    {
+      "address": "0x72101d19ed90ad71ffaaf6c328930ab9646e751f",
+      "nameTag": "FundRequest: MultiSig"
+    },
+    {
+      "address": "0xc98f8c6b319ecceccaa9361ed5372274674f96cf",
+      "nameTag": "Fusion: Wallet"
+    },
+    {
+      "address": "0xa85b419eee304563d3587fe934e932f056ca3c14",
+      "nameTag": "Gatcoin: MultiSig"
+    },
+    {
+      "address": "0xc79ab28c5c03f1e7fbef056167364e6782f9ff4f",
+      "nameTag": "Gimli: MultiSig"
+    },
+    {
+      "address": "0x850468f69fa4fe32816cd7698fd5bd1ece3e1d5c",
+      "nameTag": "Gimmer: Wallet"
+    },
+    {
+      "address": "0x6e95c8e8557abc08b46f3c347ba06f8dc012763f",
+      "nameTag": "Gnosis: MultiSig"
+    },
+    {
+      "address": "0x851b7f3ab81bd8df354f0d7640efcd7288553419",
+      "nameTag": "Gnosis: Multisig 2"
+    },
+    {
+      "address": "0xce52a8dd7c8ad08e94b44620622e3630f7c1fc90",
+      "nameTag": "Gnosis: MultiSig 3"
+    },
+    {
+      "address": "0x3257bde8cf067ae6f1ddc0e4b140fe02e3c5e44f",
+      "nameTag": "Gnosis: Vault"
+    },
+    {
+      "address": "0x7da82c7ab4771ff031b66538d2fb9b0b047f6cf9",
+      "nameTag": "Golem: Multisig"
+    },
+    {
+      "address": "0x175af261088b31e58ba384b3758f14bcf6c1f4e1",
+      "nameTag": "GoNetwork: MultiSig"
+    },
+    {
+      "address": "0x004e6f03648b0b0f529511697b0f36a463a24836",
+      "nameTag": "Gron Digital: Wallet"
+    },
+    {
+      "address": "0x85992bb01c8c64a80656c1df988f313af6b661e9",
+      "nameTag": "HadePlatform: Wallet"
+    },
+    {
+      "address": "0xc03281af336e2c25b41ff893a0e6ce1a932b23af",
+      "nameTag": "HelloGold: MultiSig"
+    },
+    {
+      "address": "0x1706024467ef8c9c4648da6fc35f2c995ac79cf6",
+      "nameTag": "Hero: Wallet"
+    },
+    {
+      "address": "0xe477292f1b3268687a29376116b0ed27a9c76170",
+      "nameTag": "Herocoin Token"
+    },
+    {
+      "address": "0x8c097a9c954894c8779edef955398d6b8ea7226a",
+      "nameTag": "HOQU: Wallet"
+    },
+    {
+      "address": "0xa2c9a7578e2172f32a36c5c0e49d64776f9e7883",
+      "nameTag": "Humaniq: Wallet"
+    },
+    {
+      "address": "0x376c3e5547c68bc26240d8dcc6729fff665a4448",
+      "nameTag": "Iconomi: MultiSig 1"
+    },
+    {
+      "address": "0x154af3e01ec56bc55fd585622e33e3dfb8a248d8",
+      "nameTag": "Iconomi: MultiSig 2"
+    },
+    {
+      "address": "0x21346283a31a5ad10fa64377e77a8900ac12d469",
+      "nameTag": "iEXEC: MultiSig"
+    },
+    {
+      "address": "0x03e4b00b607d0980668ca6e50201576b00000000",
+      "nameTag": "imbrex: Wallet"
+    },
+    {
+      "address": "0xc4904676bfee9b5332033e6f7307433635346d21",
+      "nameTag": "INCX: Wallet"
+    },
+    {
+      "address": "0x1c82ee5b828455f870eb2998f2c9b6cc2d52a5f6",
+      "nameTag": "Indorse: MultiSig 1"
+    },
+    {
+      "address": "0x26967201d4d1e1aa97554838defa4fc4d010ff6f",
+      "nameTag": "Indorse: MultiSig 2"
+    },
+    {
+      "address": "0x89add413f34c4858458d658a9f24456551762803",
+      "nameTag": "InvestDigital: Wallet"
+    },
+    {
+      "address": "0xc640b901a529c58fb6f6c53665768e2d5c835421",
+      "nameTag": "Joyso: MultiSig"
+    },
+    {
+      "address": "0x3eb01b3391ea15ce752d01cf3d3f09dec596f650",
+      "nameTag": "Kyber: MultiSig"
+    },
+    {
+      "address": "0x562f587bff5a559e3fe671028b3096d8e3bb9107",
+      "nameTag": "Lendingblock: Wallet"
+    },
+    {
+      "address": "0xf7d58e6720696b8f46dc9270443d8beaeb8d9775",
+      "nameTag": "LinkerCoin: Wallet"
+    },
+    {
+      "address": "0x6a0afe6f45a878100480f312b585aa0d752d4d2d",
+      "nameTag": "Liquid: Gram Token Sale Proceeds"
+    },
+    {
+      "address": "0xdf4d1b71aa4b8bb6814b2e5819844c3093a56349",
+      "nameTag": "LTO Network: Deployer"
+    },
+    {
+      "address": "0x02dc3b8ab87c562cdce707647bd1ba21c390faf4",
+      "nameTag": "Maecenas: MultiSig"
+    },
+    {
+      "address": "0x873767026deab58b3d14ceb60a0c9ba60773e3e7",
+      "nameTag": "Matryx: MultiSig"
+    },
+    {
+      "address": "0x93b7e9364c4df6de55ed0d10c80e7afc0612e93a",
+      "nameTag": "Metal: Wallet"
+    },
+    {
+      "address": "0x68c4b7d05fae45bcb6192bb93e246c77e98360e1",
+      "nameTag": "Metronome: Proceeds"
+    },
+    {
+      "address": "0x00832a758a781055ac19b5f9bf553db8bb9db32d",
+      "nameTag": "Monetha: Wallet"
+    },
+    {
+      "address": "0xfd053b5447cb0625464e6e277005fe8adf3c8469",
+      "nameTag": "MTC: MultiSig"
+    },
+    {
+      "address": "0xc7cd9d874f93f2409f39a95987b3e3c738313925",
+      "nameTag": "Musiconomi: MultiSig"
+    },
+    {
+      "address": "0x7e6614722614e434c4df9901bab31e466ba12fa4",
+      "nameTag": "Mysterium: Multisig"
+    },
+    {
+      "address": "0x19c1f4d2cf1606d1ba3030aef48b96e56bc92a6a",
+      "nameTag": "NodePower: Wallet"
+    },
+    {
+      "address": "0x2b3b67c6dffc2bcdda2315491eac9bbe868fbcdd",
+      "nameTag": "OAX: Wallet"
+    },
+    {
+      "address": "0x2149cbdd59b50bef9a264914b441f917dc9c7d55",
+      "nameTag": "OneLedger: Wallet"
+    },
+    {
+      "address": "0xf821fd99bca2111327b6a411c90be49dcf78ce0f",
+      "nameTag": "PayPie: MultiSig"
+    },
+    {
+      "address": "0x01091506ce9f1977a660c5ad4915cbd89e4e1a49",
+      "nameTag": "PChain: Wallet"
+    },
+    {
+      "address": "0x746aaac06b04c36f5fea9bbb35ca75518eda1cca",
+      "nameTag": "Perlin: Token Sale"
+    },
+    {
+      "address": "0x26d08b9d227933a85e855656dc46ab889e183c88",
+      "nameTag": "Playkey: Token Sale"
+    },
+    {
+      "address": "0x04c62019ab478bff5874e7b7d9bc84fcf7e30025",
+      "nameTag": "POA Network: MultiSig"
+    },
+    {
+      "address": "0x3bfc20f0b9afcace800d73d2191166ff16540258",
+      "nameTag": "Polkadot: MultiSig"
+    },
+    {
+      "address": "0xe9eca8bb5e61e8e32f26b5e8c117561f68084a9c",
+      "nameTag": "Polybius: MultiSig"
+    },
+    {
+      "address": "0xafa1c92a27215d1d1dad4fa89972e7c8d91218f9",
+      "nameTag": "PolySwarm: Wallet"
+    },
+    {
+      "address": "0x5a8b20e070e82b4e3fb97ecbd71b587a74f2ecc1",
+      "nameTag": "Populous: MultiSig 1"
+    },
+    {
+      "address": "0x1a8cc57f1155d7df4626978401e203e00da097f7",
+      "nameTag": "Populous: MultiSig 2"
+    },
+    {
+      "address": "0xca48ba80cfa6cc06963b62aee48000f031c7e2dc",
+      "nameTag": "Populous: Wallet 1"
+    },
+    {
+      "address": "0xee155572635ae7d1f4e30ec3179ce65b5342cb17",
+      "nameTag": "Populous: Wallet 2"
+    },
+    {
+      "address": "0xb1c5d524382324c9472c6f8e1a3c0a64465a4902",
+      "nameTag": "Privatix: MultiSig"
+    },
+    {
+      "address": "0x10987d8361338eae4472f107cf069558c54516ae",
+      "nameTag": "Propy: MultiSig"
+    },
+    {
+      "address": "0x00674045bb7c17f0aa1cde34780d6c51af548728",
+      "nameTag": "Prospectors: MultiSig"
+    },
+    {
+      "address": "0x00c7122633a4ef0bc72f7d02456ee2b11e97561e",
+      "nameTag": "Raiden: MultiSig"
+    },
+    {
+      "address": "0xb0c591788ac5f9638a8aea025019e626f17186df",
+      "nameTag": "Rate3: Wallet 1"
+    },
+    {
+      "address": "0x841991ffe0dafd619bc517d82ee4700c37136140",
+      "nameTag": "Rate3: Wallet 2"
+    },
+    {
+      "address": "0x9a4cd44c1a55cfda565430dee9bfb54f2aacfd6a",
+      "nameTag": "Republic Protocol: MultiSig"
+    },
+    {
+      "address": "0xdd76b55ee6dafe0c7c978bff69206d476a5b9ce7",
+      "nameTag": "Request: MultiSig"
+    },
+    {
+      "address": "0xa5d1e58ece1fc438d64e65769d2ab730143a4caf",
+      "nameTag": "Robomed Token"
+    },
+    {
+      "address": "0xe76fe52a251c8f3a5dcd657e47a6c8d16fdf4bfa",
+      "nameTag": "Santiment: Wallet 1"
+    },
+    {
+      "address": "0x6dd5a9f47cfbc44c04a0a4452f0ba792ebfbcc9a",
+      "nameTag": "Santiment: Wallet 2"
+    },
+    {
+      "address": "0x1f3df0b8390bb8e9e322972c5e75583e87608ec2",
+      "nameTag": "Santiment: Wallet 3"
+    },
+    {
+      "address": "0x3e5dcce17765928400ee4a4b8905e1dd9f42a00f",
+      "nameTag": "Savedroid: Wallet"
+    },
+    {
+      "address": "0x47c8f28e6056374aba3df0854306c2556b104601",
+      "nameTag": "Serenity: Wallet"
+    },
+    {
+      "address": "0x5574754c7cb6618d0079065bfabdc46f31bc7a32",
+      "nameTag": "SigmaCoin: Wallet"
+    },
+    {
+      "address": "0x2ef2782905830533d218b7ff4d15b8c0981ce84b",
+      "nameTag": "Simple Token: MultiSig"
+    },
+    {
+      "address": "0x5901deb2c898d5dbe5923e05e510e95968a35067",
+      "nameTag": "SingularDTV: MultiSig"
+    },
+    {
+      "address": "0xc78310231aa53bd3d0fea2f8c705c67730929d8f",
+      "nameTag": "SingularDTV: Wallet"
+    },
+    {
+      "address": "0x5978c1473ee84dd9cf3d90d0e931a79906ee52c5",
+      "nameTag": "Sirin Labs: MultiSig"
+    },
+    {
+      "address": "0xa4ddd3977920796bfb14ca8d0fb97491fa72a11d",
+      "nameTag": "Sirin Labs: Refund Vault"
+    },
+    {
+      "address": "0x6f6deb5db0c4994a8283a01d6cfeeb27fc3bbe9c",
+      "nameTag": "SmartBillions Token"
+    },
+    {
+      "address": "0xe804ad72e60503ed47d267351bdd3441ac1ccb03",
+      "nameTag": "SocialX: MultiSig"
+    },
+    {
+      "address": "0xdf398e0be9e0da2d8f8d687fd6b2c9082eefc29a",
+      "nameTag": "Soma: Liquidity Reserve Wallet"
+    },
+    {
+      "address": "0x22c6731a21ad946bcd934f62f04b2d06ebfbedc9",
+      "nameTag": "Soma: Wallet"
+    },
+    {
+      "address": "0xdc9727d102f00adf0043d04431b6cd162c5114ea",
+      "nameTag": "SpankChain: MultiSig"
+    },
+    {
+      "address": "0x0c295c085cae9c6278df49477d29f71d78c5490d",
+      "nameTag": "Sparkster: Wallet"
+    },
+    {
+      "address": "0x035d3ba0dd04fb61480a83d388541e6c18374369",
+      "nameTag": "Sparkster: Wallet 1"
+    },
+    {
+      "address": "0x3cf565f5ac331afec57daef46ae7170569de7364",
+      "nameTag": "Sparkster: Wallet 2"
+    },
+    {
+      "address": "0xf33f21a189744751a9482c3b2557ecea229b22e9",
+      "nameTag": "Sparkster: Wallet 3"
+    },
+    {
+      "address": "0x27f78970a8be5b33ee866d0f31f7e1d7e383ac6f",
+      "nameTag": "Sparkster: Wallet 4"
+    },
+    {
+      "address": "0x8464ac68bca6f2ce5ed8aba8dd3c62affb98f0aa",
+      "nameTag": "Sparkster: Wallet 5"
+    },
+    {
+      "address": "0xa646e29877d52b9e2de457eca09c724ff16d0a2b",
+      "nameTag": "Status: Research & Development MultiSig"
+    },
+    {
+      "address": "0x0f564a2a5fde73349890e86e9b2aa1639994bf2f",
+      "nameTag": "Storj: MultiSig 1"
+    },
+    {
+      "address": "0xa33516e6f64c6c2869dff6744953a472cd60c8f6",
+      "nameTag": "Storj: Multisig 2"
+    },
+    {
+      "address": "0xf3d1f26b31db83c8899626746d0bbc59d9dd223c",
+      "nameTag": "Storj: MultiSig 3"
+    },
+    {
+      "address": "0x606b2272215a0cdd1cf4f38293ffaa42f0f56c34",
+      "nameTag": "Storm: Wallet 1"
+    },
+    {
+      "address": "0x36be38dab57631aae070b8977daa35d6de1ab8a0",
+      "nameTag": "Storm: Wallet 2"
+    },
+    {
+      "address": "0xaf518d65f84e4695a4da0450ec02c1248f56b668",
+      "nameTag": "Substratum: Token Sale"
+    },
+    {
+      "address": "0x34967c335d86efc3043fb75f807a0780ffb6905a",
+      "nameTag": "SyncFab: MultiSig 1"
+    },
+    {
+      "address": "0x84a6ddb94f9d16334896f581c7f927a9e6ae5601",
+      "nameTag": "SyncFab: MultiSig 2"
+    },
+    {
+      "address": "0x185f19b43d818e10a31be68f445ef8edcb8afb83",
+      "nameTag": "TenX: Multisig"
+    },
+    {
+      "address": "0xb62ef4c58f3997424b0cceab28811633201706bc",
+      "nameTag": "Tezos: MultiSig"
+    },
+    {
+      "address": "0x49db6ee4507132d1fdac92318e0e6150bf786728",
+      "nameTag": "TheAbyss: MultiSig"
+    },
+    {
+      "address": "0x0c4b367e876d18d5c102023d9240dd7e9c11b380",
+      "nameTag": "Tierion: Wallet 1"
+    },
+    {
+      "address": "0xad54edbe26782a7c190eabc0b35869b0e66ffcce",
+      "nameTag": "Tierion: Wallet 2"
+    },
+    {
+      "address": "0xad8ea3b0215e6efd9d2f2aa22baf6d494dbf7662",
+      "nameTag": "Tokenbox: MultiSig"
+    },
+    {
+      "address": "0x274df34325ca19627e5e587c48b7e77dfc4b9cc6",
+      "nameTag": "Tokia: Wallet"
+    },
+    {
+      "address": "0x146f2fba9eba1b72d5162a56e3e5da6c0f4808cc",
+      "nameTag": "Traceto.io: MultiSig"
+    },
+    {
+      "address": "0x58f75ddacffb183a30f69fe58a67a0d0985fce0f",
+      "nameTag": "Trade.io: Wallet 1"
+    },
+    {
+      "address": "0x5a2fad810f990c4535ada938400b6b67ef7646af",
+      "nameTag": "Trade.io: Wallet 2"
+    },
+    {
+      "address": "0x8dcaeebf49a479ed5e5b3b45a38c9125a0ef6d23",
+      "nameTag": "Traderly: Wallet"
+    },
+    {
+      "address": "0xb4e23d717ed13345498f100c9eacbb256916ae1a",
+      "nameTag": "Uppsala: MultiSig"
+    },
+    {
+      "address": "0xb4e817449b2fcdec82e69f02454b42fe95d4d1fd",
+      "nameTag": "Verify.as: Wallet"
+    },
+    {
+      "address": "0xc2cce1f4190d4451c63cf591678c807679c3d728",
+      "nameTag": "WeTrust: Multisig"
+    },
+    {
+      "address": "0x749bd34c771456a8de28aa0883b00d11273e2ede",
+      "nameTag": "XferMoney: Wallet"
+    },
+    {
+      "address": "0xd75496c0a6a36308cfda58e317ab97ea46b8f6b5",
+      "nameTag": "Zebi: Wallet 1"
+    },
+    {
+      "address": "0x11e63fa9256c37d100b6786569663b116480f92a",
+      "nameTag": "Zebi: Wallet 2"
+    }
+  ]
+}

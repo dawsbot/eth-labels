@@ -1,66 +1,69 @@
-[
-  {
-    "address": "0xf51b9c9a1c12e7e48bec15dc358d0c1f0d7eb3be",
-    "nameTag": "Metis Andromeda: Bond Manager"
-  },
-  {
-    "address": "0x3980c9ed79d2c191a89e02fa3529c60ed6e9c04b",
-    "nameTag": "Metis Andromeda: Bridge"
-  },
-  {
-    "address": "0x56a76bcc92361f6df8d75476fed8843edc70e1c9",
-    "nameTag": "Metis Andromeda: Canonical Transaction Chain"
-  },
-  {
-    "address": "0x38473feb3a6366757a249db2ca4fbb2c663416b7",
-    "nameTag": "Metis Andromeda: Chain Storage Container Batches"
-  },
-  {
-    "address": "0xa91ea6f5d1eda8e6686639d6c88b309cf35d2e57",
-    "nameTag": "Metis Andromeda: Chain Storage Container Batches 2"
-  },
-  {
-    "address": "0x10739f09f6e62689c0aa8a1878816de9e166d6f9",
-    "nameTag": "Metis Andromeda: Chain Storage Container Batches 3"
-  },
-  {
-    "address": "0x7532c59c69828d4e756832bae27b79fb28145c44",
-    "nameTag": "Metis Andromeda: Deployer"
-  },
-  {
-    "address": "0x081d1101855bd523ba69a9794e0217f0db6323ff",
-    "nameTag": "Metis Andromeda: L1 Cross Domain Messenger"
-  },
-  {
-    "address": "0x918778e825747a892b17c66fe7d24c618262867d",
-    "nameTag": "Metis Andromeda: Lib Address Manager"
-  },
-  {
-    "address": "0x9e32b13ce7f2e80a01932b42553652e053d6ed8e",
-    "nameTag": "Metis Andromeda: Metis Token"
-  },
-  {
-    "address": "0xc8953ca384b4adc8b1b11b030afe2f05471664b0",
-    "nameTag": "Metis Andromeda: MVM Discount Oracle"
-  },
-  {
-    "address": "0xf3d58d1794f2634d6649a978f2dc093898feebc0",
-    "nameTag": "Metis Andromeda: MVM L2 Chain Manager"
-  },
-  {
-    "address": "0x9ed4739afd706122591e75f215208ecf522c0fd3",
-    "nameTag": "Metis Andromeda: MVM Verifier"
-  },
-  {
-    "address": "0xdd6ffc7d9a4fb420b637747edc6456340d12d377",
-    "nameTag": "Metis Andromeda: Proxy Admin"
-  },
-  {
-    "address": "0x8bf439ef7167023f009e24b21719ca5f768ecb36",
-    "nameTag": "Metis Andromeda: Proxy Implementation"
-  },
-  {
-    "address": "0xf209815e595cdf3ed0aaf9665b1772e608ab9380",
-    "nameTag": "Metis Andromeda: State Commitment Chain"
-  }
-]
+{
+  "lastPulled": "2024-04-02T20:46:00.874Z",
+  "data": [
+    {
+      "address": "0xf51b9c9a1c12e7e48bec15dc358d0c1f0d7eb3be",
+      "nameTag": "Metis Andromeda: Bond Manager"
+    },
+    {
+      "address": "0x3980c9ed79d2c191a89e02fa3529c60ed6e9c04b",
+      "nameTag": "Metis Andromeda: Bridge"
+    },
+    {
+      "address": "0x56a76bcc92361f6df8d75476fed8843edc70e1c9",
+      "nameTag": "Metis Andromeda: Canonical Transaction Chain"
+    },
+    {
+      "address": "0x38473feb3a6366757a249db2ca4fbb2c663416b7",
+      "nameTag": "Metis Andromeda: Chain Storage Container Batches"
+    },
+    {
+      "address": "0xa91ea6f5d1eda8e6686639d6c88b309cf35d2e57",
+      "nameTag": "Metis Andromeda: Chain Storage Container Batches 2"
+    },
+    {
+      "address": "0x10739f09f6e62689c0aa8a1878816de9e166d6f9",
+      "nameTag": "Metis Andromeda: Chain Storage Container Batches 3"
+    },
+    {
+      "address": "0x7532c59c69828d4e756832bae27b79fb28145c44",
+      "nameTag": "Metis Andromeda: Deployer"
+    },
+    {
+      "address": "0x081d1101855bd523ba69a9794e0217f0db6323ff",
+      "nameTag": "Metis Andromeda: L1 Cross Domain Messenger"
+    },
+    {
+      "address": "0x918778e825747a892b17c66fe7d24c618262867d",
+      "nameTag": "Metis Andromeda: Lib Address Manager"
+    },
+    {
+      "address": "0x9e32b13ce7f2e80a01932b42553652e053d6ed8e",
+      "nameTag": "Metis Andromeda: Metis Token"
+    },
+    {
+      "address": "0xc8953ca384b4adc8b1b11b030afe2f05471664b0",
+      "nameTag": "Metis Andromeda: MVM Discount Oracle"
+    },
+    {
+      "address": "0xf3d58d1794f2634d6649a978f2dc093898feebc0",
+      "nameTag": "Metis Andromeda: MVM L2 Chain Manager"
+    },
+    {
+      "address": "0x9ed4739afd706122591e75f215208ecf522c0fd3",
+      "nameTag": "Metis Andromeda: MVM Verifier"
+    },
+    {
+      "address": "0xdd6ffc7d9a4fb420b637747edc6456340d12d377",
+      "nameTag": "Metis Andromeda: Proxy Admin"
+    },
+    {
+      "address": "0x8bf439ef7167023f009e24b21719ca5f768ecb36",
+      "nameTag": "Metis Andromeda: Proxy Implementation"
+    },
+    {
+      "address": "0xf209815e595cdf3ed0aaf9665b1772e608ab9380",
+      "nameTag": "Metis Andromeda: State Commitment Chain"
+    }
+  ]
+}

@@ -1,6 +1,9 @@
-[
-  {
-    "address": "0xc50ef449171a51fbeafd7c562b064b6471c36caa",
-    "nameTag": "Zombie Inu: OLD ZINU Token"
-  }
-]
+{
+  "lastPulled": "2024-04-02T20:51:07.332Z",
+  "data": [
+    {
+      "address": "0xc50ef449171a51fbeafd7c562b064b6471c36caa",
+      "nameTag": "Zombie Inu: OLD ZINU Token"
+    }
+  ]
+}

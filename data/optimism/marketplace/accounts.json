@@ -1,6 +1,9 @@
-[
-  {
-    "address": "0x20975da6eb930d592b9d78f451a9156db5e4c77b",
-    "nameTag": "Quix: Exchange"
-  }
-]
+{
+  "lastPulled": "2024-04-02T20:57:47.920Z",
+  "data": [
+    {
+      "address": "0x20975da6eb930d592b9d78f451a9156db5e4c77b",
+      "nameTag": "Quix: Exchange"
+    }
+  ]
+}

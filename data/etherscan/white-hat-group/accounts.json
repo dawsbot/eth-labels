@@ -1,14 +1,17 @@
-[
-  {
-    "address": "0x69670b0c1b100739812415dd474804bb32b3aeca",
-    "nameTag": "WHG 1"
-  },
-  {
-    "address": "0x3abe5285ed57c8b028d62d30c456ca9eb3e74105",
-    "nameTag": "WHG: Choose Return Address"
-  },
-  {
-    "address": "0x1dba1131000664b884a1ba238464159892252d3a",
-    "nameTag": "WHG: Jordi Baylina"
-  }
-]
+{
+  "lastPulled": "2024-04-02T20:52:03.006Z",
+  "data": [
+    {
+      "address": "0x69670b0c1b100739812415dd474804bb32b3aeca",
+      "nameTag": "WHG 1"
+    },
+    {
+      "address": "0x3abe5285ed57c8b028d62d30c456ca9eb3e74105",
+      "nameTag": "WHG: Choose Return Address"
+    },
+    {
+      "address": "0x1dba1131000664b884a1ba238464159892252d3a",
+      "nameTag": "WHG: Jordi Baylina"
+    }
+  ]
+}

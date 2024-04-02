@@ -1,54 +1,57 @@
-[
-  {
-    "address": "0x4e720dd3ac5cfe1e1fbde4935f386bb1c66f4642",
-    "nameTag": "Beefy: Old BIFI Token"
-  },
-  {
-    "address": "0xc22885e06cd8507c5c74a948c59af853aed1ea5c",
-    "nameTag": "Decentralized USD: Old USDD Token"
-  },
-  {
-    "address": "0x325d4217c73872bc9f4693d756d6a78c1c82796a",
-    "nameTag": "Lyra: Black Scholes (Old)"
-  },
-  {
-    "address": "0x8f69783db37905f026cf62223c9957ae0ca90a38",
-    "nameTag": "Lyra: Liquidity Certificate (Old)"
-  },
-  {
-    "address": "0x7af4e1ce484f40d927b9c90fb6905df4376fc3f6",
-    "nameTag": "Lyra: Liquidity Pool (Old)"
-  },
-  {
-    "address": "0x074edcbabee9cb019d217c158ab4e92c1cd7caf0",
-    "nameTag": "Lyra: Lyra Globals (Old)"
-  },
-  {
-    "address": "0x121c7eaf4af34e075136bf5c549bdd0ad40040ec",
-    "nameTag": "Lyra: Option Greek Cache (Old)"
-  },
-  {
-    "address": "0x176b9e1bce6757ab23235fa9899b32e89b105b0d",
-    "nameTag": "Lyra: Option Market (Old)"
-  },
-  {
-    "address": "0x469e9f00cc30350a4e1c3f3109c8460b532f5fa1",
-    "nameTag": "Lyra: Option Market Pricer (Old)"
-  },
-  {
-    "address": "0x0a99c0643b00fcd5fcd16c46e4efebff650b5ea1",
-    "nameTag": "Lyra: Option Token (Old)"
-  },
-  {
-    "address": "0x000a2c01f114b89952749359922d85e27edda38d",
-    "nameTag": "Lyra: Pool Hedger (Old)"
-  },
-  {
-    "address": "0xd7d974e81382d05e8d9fc6d0d17d0d852e9806dd",
-    "nameTag": "Lyra: Short Collateral (Old)"
-  },
-  {
-    "address": "0xc96f4f893286137ac17e07ae7f217ffca5db3ab6",
-    "nameTag": "NFTEarth: Old NFTE Token"
-  }
-]
+{
+  "lastPulled": "2024-04-02T20:57:50.091Z",
+  "data": [
+    {
+      "address": "0x4e720dd3ac5cfe1e1fbde4935f386bb1c66f4642",
+      "nameTag": "Beefy: Old BIFI Token"
+    },
+    {
+      "address": "0xc22885e06cd8507c5c74a948c59af853aed1ea5c",
+      "nameTag": "Decentralized USD: Old USDD Token"
+    },
+    {
+      "address": "0x325d4217c73872bc9f4693d756d6a78c1c82796a",
+      "nameTag": "Lyra: Black Scholes (Old)"
+    },
+    {
+      "address": "0x8f69783db37905f026cf62223c9957ae0ca90a38",
+      "nameTag": "Lyra: Liquidity Certificate (Old)"
+    },
+    {
+      "address": "0x7af4e1ce484f40d927b9c90fb6905df4376fc3f6",
+      "nameTag": "Lyra: Liquidity Pool (Old)"
+    },
+    {
+      "address": "0x074edcbabee9cb019d217c158ab4e92c1cd7caf0",
+      "nameTag": "Lyra: Lyra Globals (Old)"
+    },
+    {
+      "address": "0x121c7eaf4af34e075136bf5c549bdd0ad40040ec",
+      "nameTag": "Lyra: Option Greek Cache (Old)"
+    },
+    {
+      "address": "0x176b9e1bce6757ab23235fa9899b32e89b105b0d",
+      "nameTag": "Lyra: Option Market (Old)"
+    },
+    {
+      "address": "0x469e9f00cc30350a4e1c3f3109c8460b532f5fa1",
+      "nameTag": "Lyra: Option Market Pricer (Old)"
+    },
+    {
+      "address": "0x0a99c0643b00fcd5fcd16c46e4efebff650b5ea1",
+      "nameTag": "Lyra: Option Token (Old)"
+    },
+    {
+      "address": "0x000a2c01f114b89952749359922d85e27edda38d",
+      "nameTag": "Lyra: Pool Hedger (Old)"
+    },
+    {
+      "address": "0xd7d974e81382d05e8d9fc6d0d17d0d852e9806dd",
+      "nameTag": "Lyra: Short Collateral (Old)"
+    },
+    {
+      "address": "0xc96f4f893286137ac17e07ae7f217ffca5db3ab6",
+      "nameTag": "NFTEarth: Old NFTE Token"
+    }
+  ]
+}

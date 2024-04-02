@@ -1,70 +1,73 @@
-[
-  {
-    "address": "0xcee284f754e854890e311e3280b767f80797180d",
-    "nameTag": "Arbitrum One: L1 Arb - Custom Gateway"
-  },
-  {
-    "address": "0xd3b5b60020504bc3489d6949d545893982ba3011",
-    "nameTag": "Arbitrum One: L1 DAI Gateway"
-  },
-  {
-    "address": "0xa3a7b6f88361f48403514059f1f16c8e78d60eec",
-    "nameTag": "Arbitrum One: L1 ERC20 Gateway"
-  },
-  {
-    "address": "0x72ce9c846789fdb6fc1f34ac4ad25dd9ef7031ef",
-    "nameTag": "Arbitrum One: L1 Gateway Router"
-  },
-  {
-    "address": "0xd92023e9d9911199a6711321d1277285e6d4e2db",
-    "nameTag": "Arbitrum One: Wrapped Ether Gateway"
-  },
-  {
-    "address": "0x8315177ab297ba92a06054ce80a67ed4dbd7ed3a",
-    "nameTag": "Arbitrum: Bridge"
-  },
-  {
-    "address": "0xe5896783a2f463446e1f624e64aa6836be4c6f58",
-    "nameTag": "Arbitrum: Challenge Manager"
-  },
-  {
-    "address": "0x554723262467f125ac9e1cdfa9ce15cc53822dbd",
-    "nameTag": "Arbitrum: Core Proxy Admin"
-  },
-  {
-    "address": "0x4dbd4fc535ac27206064b68ffcf827b0a60bab3f",
-    "nameTag": "Arbitrum: Delayed Inbox"
-  },
-  {
-    "address": "0x3e1f62aa8076000c3218493fe3e0ae40bcb9a1df",
-    "nameTag": "Arbitrum: OneStepProof Entry"
-  },
-  {
-    "address": "0x499a4f574f2e4f8837e242adec86223ef7deefcc",
-    "nameTag": "Arbitrum: OneStepProver 0"
-  },
-  {
-    "address": "0xb965b08a826d4c7634e0df4c5ef5e1d1f9b5d13a",
-    "nameTag": "Arbitrum: OneStepProver Host Io"
-  },
-  {
-    "address": "0xd315ac3a82e8edaa84b347f478e0f59801747970",
-    "nameTag": "Arbitrum: OneStepProver Math"
-  },
-  {
-    "address": "0xb556f3bb0fdcfeaf81a1c393e024a69a3327b676",
-    "nameTag": "Arbitrum: OneStepProver Memory"
-  },
-  {
-    "address": "0x0b9857ae2d4a3dbe74ffe1d7df045bb7f96e4840",
-    "nameTag": "Arbitrum: Outbox 4"
-  },
-  {
-    "address": "0x5ef0d09d1e6204141b4d37530808ed19f60fba35",
-    "nameTag": "Arbitrum: Rollup"
-  },
-  {
-    "address": "0x1c479675ad559dc151f6ec7ed3fbf8cee79582b6",
-    "nameTag": "Arbitrum: Sequencer Inbox"
-  }
-]
+{
+  "lastPulled": "2024-04-02T20:38:42.894Z",
+  "data": [
+    {
+      "address": "0xcee284f754e854890e311e3280b767f80797180d",
+      "nameTag": "Arbitrum One: L1 Arb - Custom Gateway"
+    },
+    {
+      "address": "0xd3b5b60020504bc3489d6949d545893982ba3011",
+      "nameTag": "Arbitrum One: L1 DAI Gateway"
+    },
+    {
+      "address": "0xa3a7b6f88361f48403514059f1f16c8e78d60eec",
+      "nameTag": "Arbitrum One: L1 ERC20 Gateway"
+    },
+    {
+      "address": "0x72ce9c846789fdb6fc1f34ac4ad25dd9ef7031ef",
+      "nameTag": "Arbitrum One: L1 Gateway Router"
+    },
+    {
+      "address": "0xd92023e9d9911199a6711321d1277285e6d4e2db",
+      "nameTag": "Arbitrum One: Wrapped Ether Gateway"
+    },
+    {
+      "address": "0x8315177ab297ba92a06054ce80a67ed4dbd7ed3a",
+      "nameTag": "Arbitrum: Bridge"
+    },
+    {
+      "address": "0xe5896783a2f463446e1f624e64aa6836be4c6f58",
+      "nameTag": "Arbitrum: Challenge Manager"
+    },
+    {
+      "address": "0x554723262467f125ac9e1cdfa9ce15cc53822dbd",
+      "nameTag": "Arbitrum: Core Proxy Admin"
+    },
+    {
+      "address": "0x4dbd4fc535ac27206064b68ffcf827b0a60bab3f",
+      "nameTag": "Arbitrum: Delayed Inbox"
+    },
+    {
+      "address": "0x3e1f62aa8076000c3218493fe3e0ae40bcb9a1df",
+      "nameTag": "Arbitrum: OneStepProof Entry"
+    },
+    {
+      "address": "0x499a4f574f2e4f8837e242adec86223ef7deefcc",
+      "nameTag": "Arbitrum: OneStepProver 0"
+    },
+    {
+      "address": "0xb965b08a826d4c7634e0df4c5ef5e1d1f9b5d13a",
+      "nameTag": "Arbitrum: OneStepProver Host Io"
+    },
+    {
+      "address": "0xd315ac3a82e8edaa84b347f478e0f59801747970",
+      "nameTag": "Arbitrum: OneStepProver Math"
+    },
+    {
+      "address": "0xb556f3bb0fdcfeaf81a1c393e024a69a3327b676",
+      "nameTag": "Arbitrum: OneStepProver Memory"
+    },
+    {
+      "address": "0x0b9857ae2d4a3dbe74ffe1d7df045bb7f96e4840",
+      "nameTag": "Arbitrum: Outbox 4"
+    },
+    {
+      "address": "0x5ef0d09d1e6204141b4d37530808ed19f60fba35",
+      "nameTag": "Arbitrum: Rollup"
+    },
+    {
+      "address": "0x1c479675ad559dc151f6ec7ed3fbf8cee79582b6",
+      "nameTag": "Arbitrum: Sequencer Inbox"
+    }
+  ]
+}

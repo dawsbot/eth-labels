@@ -1,382 +1,385 @@
-[
-  {
-    "address": "0xe66b31678d6c16e9ebf358268a790b763c133750",
-    "nameTag": "0x: Coinbase Wallet Proxy"
-  },
-  {
-    "address": "0xdef1c0ded9bec7f1a1670819833240f027b25eff",
-    "nameTag": "0x: Exchange Proxy"
-  },
-  {
-    "address": "0x111111125434b319222cdbf8c261674adb56f3ae",
-    "nameTag": "1inch v2: Aggregation Router"
-  },
-  {
-    "address": "0x1111111254fb6c44bac0bed2854e76f90643097d",
-    "nameTag": "1inch v4: Aggregation Router"
-  },
-  {
-    "address": "0x1111111254eeb25477b68fb85ed929f73a960582",
-    "nameTag": "1inch v5: Aggregation Router"
-  },
-  {
-    "address": "0x11111254369792b2ca5d084ab5eea397ca8fa48b",
-    "nameTag": "1inch: Exchange 2"
-  },
-  {
-    "address": "0x84d99aa569d93a9ca187d83734c8c4a519c4e9b1",
-    "nameTag": "1inch: Labs Resolver"
-  },
-  {
-    "address": "0xd47140f6ab73f6d6b6675fb1610bb5e9b5d96fe5",
-    "nameTag": "1inch: Old Router V2"
-  },
-  {
-    "address": "0xe069cb01d06ba617bcdf789bf2ff0d5e5ca20c71",
-    "nameTag": "1inch: Router 2"
-  },
-  {
-    "address": "0xa88800cd213da5ae406ce248380802bd53b47647",
-    "nameTag": "1inch: Settlement"
-  },
-  {
-    "address": "0xe8fff15bb5e14095bfdfa8bb85d83cc900c23c56",
-    "nameTag": "AfroDex"
-  },
-  {
-    "address": "0x4572f2554421bd64bef1c22c8a81840e8d496bea",
-    "nameTag": "AirSwap"
-  },
-  {
-    "address": "0xc549a5c701cb6e6cbc091007a80c089c49595468",
-    "nameTag": "AirSwap: Light"
-  },
-  {
-    "address": "0xa58f22e0766b3764376c92915ba545d583c19dbc",
-    "nameTag": "Alchemist Coin: MistX Router"
-  },
-  {
-    "address": "0xfcadf926669e7cad0e50287ea7d563020289ed2c",
-    "nameTag": "Alchemist Coin: MistX Router 2"
-  },
-  {
-    "address": "0xdc1882f350b42ac9a23508996254b1915c78b204",
-    "nameTag": "Allbit 1"
-  },
-  {
-    "address": "0xff6b1cdfd2d3e37977d7938aa06b6d89d6675e27",
-    "nameTag": "Allbit 2"
-  },
-  {
-    "address": "0x0e8ba001a821f3ce0734763d008c9d7c957f5852",
-    "nameTag": "AmadeusRelay"
-  },
-  {
-    "address": "0xc898fbee1cc94c0ff077faa5449915a506eff384",
-    "nameTag": "Bamboo Relay"
-  },
-  {
-    "address": "0x29fbd00940df70cfc5dad3f2370686991e2bbf5c",
-    "nameTag": "bebop"
-  },
-  {
-    "address": "0x3c020e014069df790d4f4e63fd297ba4e1c8e51f",
-    "nameTag": "Bitcratic"
-  },
-  {
-    "address": "0x39fbd1140cd1fc298f00c3ea64b3591de94c67e7",
-    "nameTag": "BitEye 1"
-  },
-  {
-    "address": "0xb5adb233f28c86cef693451b67e1f2d41da97d21",
-    "nameTag": "Bitox.io"
-  },
-  {
-    "address": "0xa4dc97a565e2364cdeb4efe38c0f153bccb62b01",
-    "nameTag": "BTswap: Router"
-  },
-  {
-    "address": "0xdef1ca1fb7fbcdc777520aa7f396b4e015f497ab",
-    "nameTag": "CoW Protocol: COW Token"
-  },
-  {
-    "address": "0x9008d19f58aabd9ed0d60971565aa8510560ab41",
-    "nameTag": "CoW Protocol: GPv2Settlement"
-  },
-  {
-    "address": "0xd057b63f5e69cf1b929b356b579cba08d7688048",
-    "nameTag": "CoW Protocol: vCOW Token"
-  },
-  {
-    "address": "0xa2b47e3d5c44877cca798226b7b8118f9bfb7a56",
-    "nameTag": "Curve.fi: Compound Swap"
-  },
-  {
-    "address": "0xbebc44782c7db0a1a60cb6fe97d0b483032ff1c7",
-    "nameTag": "Curve.fi: DAI/USDC/USDT Pool"
-  },
-  {
-    "address": "0x52ea46506b9cc5ef470c5bf89f17dc28bb35d85c",
-    "nameTag": "Curve.fi: USDT Swap"
-  },
-  {
-    "address": "0x45f783cce6b7ff23b2ab2d70e416cdb7d6055f51",
-    "nameTag": "Curve.fi: y Swap"
-  },
-  {
-    "address": "0x49497a4d914ae91d34ce80030fe620687bf333fd",
-    "nameTag": "DDEX 1.0"
-  },
-  {
-    "address": "0x745daa146934b27e3f0b6bff1a6e36b9b90fb131",
-    "nameTag": "DEX.AG: Proxy Contract"
-  },
-  {
-    "address": "0x000000000000541e251335090ac5b47176af4f7e",
-    "nameTag": "dex.blue"
-  },
-  {
-    "address": "0x7600977eb9effa627d6bd0da2e5be35e11566341",
-    "nameTag": "DEx.top"
-  },
-  {
-    "address": "0x268be5667d4e5bd036bd608d0601ef1441604429",
-    "nameTag": "DINNGO: Proxy"
-  },
-  {
-    "address": "0x6f400810b62df8e13fded51be75ff5393eaa841f",
-    "nameTag": "DXdao: Mesa"
-  },
-  {
-    "address": "0x58a5959a6c528c5d5e03f7b9e5102350e24005f1",
-    "nameTag": "ERC dEX"
-  },
-  {
-    "address": "0x4aea7cf559f67cedcad07e12ae6bc00f07e8cf65",
-    "nameTag": "EtherDelta 1"
-  },
-  {
-    "address": "0x8d12a197cb00d4747a1fe03395095ce2a5cc6819",
-    "nameTag": "EtherDelta 2"
-  },
-  {
-    "address": "0xa5cc679a3528956e8032df4f03756c077c1ee3f4",
-    "nameTag": "EtherMium"
-  },
-  {
-    "address": "0x2a0c0dbecc7e4d658f48e01e3fa353f44050c208",
-    "nameTag": "IDEX"
-  },
-  {
-    "address": "0xa7a7899d944fe658c4b0a1803bab2f490bd3849e",
-    "nameTag": "IDEX 2"
-  },
-  {
-    "address": "0x2cc42d1cd65af27cc999e41ef93d1a763dc821f8",
-    "nameTag": "IDT Exchange"
-  },
-  {
-    "address": "0x04f062809b244e37e7fdc21d9409469c989c2342",
-    "nameTag": "Joyso"
-  },
-  {
-    "address": "0xdf1a1b60f2d438842916c0adc43748768353ec25",
-    "nameTag": "KyberSwap: Aggregation Router 2"
-  },
-  {
-    "address": "0x6131b5fae19ea4f9d964eac0408e4408b66337b5",
-    "nameTag": "KyberSwap: Meta Aggregation Router v2"
-  },
-  {
-    "address": "0x4524baa98f9a3b9dec57caae7633936ef96bd708",
-    "nameTag": "LedgerDex"
-  },
-  {
-    "address": "0xa94e72c89a6f56e0bd8683f71c3f9f57ec5f4220",
-    "nameTag": "Liquid Swap: Emergency Fund"
-  },
-  {
-    "address": "0x388b14bd1c98bf2464dee988db7eaa98efa54246",
-    "nameTag": "Liquid Swap: Staking Rewards"
-  },
-  {
-    "address": "0xc77a935044c77012a5b7fd109362d252a005cf53",
-    "nameTag": "Liquid Swap: Vesting Contract"
-  },
-  {
-    "address": "0xc692453625023c6e03fec04158ea31ab4de2650a",
-    "nameTag": "LocalCoin Dex 1"
-  },
-  {
-    "address": "0x37c4bcaba4bcf3a605414236b8b108f160eb45a6",
-    "nameTag": "LocalCoin Dex 2"
-  },
-  {
-    "address": "0x8d1c1571367a148e92d6ac83494b1bdf3b497d07",
-    "nameTag": "LocalCoin DEX 3"
-  },
-  {
-    "address": "0x944644ea989ec64c2ab9ef341d383cef586a5777",
-    "nameTag": "LoopringDEX: Beta 1"
-  },
-  {
-    "address": "0x881d40237659c251811cec9c364ef91dc08d300c",
-    "nameTag": "Metamask: Swap Router"
-  },
-  {
-    "address": "0x51a2b1a38ec83b56009d5e28e6222dbb56c23c22",
-    "nameTag": "nDEX Market"
-  },
-  {
-    "address": "0x794e6e91555438afc3ccf1c5076a74f42133d08d",
-    "nameTag": "OasisDEX"
-  },
-  {
-    "address": "0xc22d5b2951db72b44cfb8089bb8cd374a3c354ea",
-    "nameTag": "OpenRelay"
-  },
-  {
-    "address": "0xd2045edc40199019e221d71c0913343f7908d0d5",
-    "nameTag": "Paradex"
-  },
-  {
-    "address": "0x1bd435f3c054b6e901b7b108a0ab7617c808677b",
-    "nameTag": "ParaSwap P4"
-  },
-  {
-    "address": "0x9509665d015bfe3c77aa5ad6ca20c8afa1d98989",
-    "nameTag": "ParaSwap V2"
-  },
-  {
-    "address": "0xf90e98f3d8dce44632e5020abf2e122e0f99dfab",
-    "nameTag": "ParaSwap V3"
-  },
-  {
-    "address": "0xf92c1ad75005e6436b4ee84e88cb23ed8a290988",
-    "nameTag": "ParaSwap: Old Contract 3"
-  },
-  {
-    "address": "0xa258b39954cef5cb142fd567a46cddb31a670124",
-    "nameTag": "Radar Relay"
-  },
-  {
-    "address": "0xaf8ae6955d07776ab690e565ba6fbc79b8de3a5d",
-    "nameTag": "Rhino.fi"
-  },
-  {
-    "address": "0x5d22045daceab03b158031ecb7d9d06fad24609b",
-    "nameTag": "Rhino.fi: Bridge"
-  },
-  {
-    "address": "0xd8b19613723215ef8cc80fc35a1428f8e8826940",
-    "nameTag": "Rubic Exchange"
-  },
-  {
-    "address": "0x1f0d1de1558582ad6f13763f477119a1455502af",
-    "nameTag": "Saturn Network 1"
-  },
-  {
-    "address": "0xaa5bbd5a177a588b9f213505ca3740b444dbd586",
-    "nameTag": "Saturn Network 2"
-  },
-  {
-    "address": "0x55890b06f0877a01bb5349d93b202961f8e27a9b",
-    "nameTag": "Shark Relay"
-  },
-  {
-    "address": "0x9a2d163ab40f88c625fd475e807bbc3556566f80",
-    "nameTag": "SingularX"
-  },
-  {
-    "address": "0x36049d479a97cde1fc6e2a5d2cae30b666ebf92b",
-    "nameTag": "Sorbet Finance: Limit Order"
-  },
-  {
-    "address": "0x0681e844593a051e2882ec897ecd5444efe19ff2",
-    "nameTag": "Star Bit Ex"
-  },
-  {
-    "address": "0x7ee7ca6e75de79e618e88bdf80d0b1db136b22d0",
-    "nameTag": "Switcheo Exchange V2"
-  },
-  {
-    "address": "0x7219612be7036d1bfa933e16ca1246008f38c5fe",
-    "nameTag": "The Ocean"
-  },
-  {
-    "address": "0xc145990e84155416144c532e31f89b840ca8c2ce",
-    "nameTag": "THORSwap: RouterV2"
-  },
-  {
-    "address": "0x1ce7ae555139c5ef5a57cc8d814a867ee6ee33d8",
-    "nameTag": "Token.Store"
-  },
-  {
-    "address": "0x5e150a33ffa97a8d22f59c77ae5487b089ef62e9",
-    "nameTag": "TokenJar"
-  },
-  {
-    "address": "0x7839254cff8aafbdc2da66fe709eb8f17ce09fe5",
-    "nameTag": "Tokenlon: AMM Quoter"
-  },
-  {
-    "address": "0x904144473fde753dc0729608cfeea6f4a8b275e6",
-    "nameTag": "Tokenlon: AMM Wrapper"
-  },
-  {
-    "address": "0xdc6c91b569c98f9f6f74d90f9beff99fdaf4248b",
-    "nameTag": "Tokenlon: DEX 1"
-  },
-  {
-    "address": "0x03f34be1bf910116595db1b11e9d1b2ca5d59659",
-    "nameTag": "Tokenlon: DEX 2"
-  },
-  {
-    "address": "0x0485c25a5e8d7d0c5676d0e6d3bfc4aa597ba0b0",
-    "nameTag": "Tokenlon: Permanent Storage"
-  },
-  {
-    "address": "0x8d90113a1e286a5ab3e496fbd1853f265e5913c6",
-    "nameTag": "Tokenlon: PMM"
-  },
-  {
-    "address": "0x77208a6000691e440026bed1b178ef4661d37426",
-    "nameTag": "Totle: Primary"
-  },
-  {
-    "address": "0x7a250d5630b4cf539739df2c5dacb4c659f2488d",
-    "nameTag": "Uniswap V2: Router 2"
-  },
-  {
-    "address": "0xe592427a0aece92de3edee1f18e0157c05861564",
-    "nameTag": "Uniswap V3: Router"
-  },
-  {
-    "address": "0x68b3465833fb72a70ecdf485e0e4c7bd8665fc45",
-    "nameTag": "Uniswap V3: Router 2"
-  },
-  {
-    "address": "0x3fc91a3afd70395cd496c647d5a6cc9d4b2b7fad",
-    "nameTag": "Uniswap: Universal Router"
-  },
-  {
-    "address": "0xef1c6e67703c7bd7107eed8303fbe6ec2554bf6b",
-    "nameTag": "Uniswap: Universal Router 2"
-  },
-  {
-    "address": "0xbd2a43799b83d9d0ff56b85d4c140bce3d1d1c6c",
-    "nameTag": "UniswapEX"
-  },
-  {
-    "address": "0xd97d09f3bd931a14382ac60f156c1285a56bb51b",
-    "nameTag": "WeDEX: Beta 2"
-  },
-  {
-    "address": "0x31efc4aeaa7c39e54a33fdc3c46ee2bd70ae0a09",
-    "nameTag": "xPollinate: Transaction Manager"
-  },
-  {
-    "address": "0xc91a71a1ffa3d8b22ba615ba1b9c01b2bbbf55ad",
-    "nameTag": "ZigZag Exchange: ZZ Token"
-  }
-]
+{
+  "lastPulled": "2024-04-02T20:42:16.320Z",
+  "data": [
+    {
+      "address": "0xe66b31678d6c16e9ebf358268a790b763c133750",
+      "nameTag": "0x: Coinbase Wallet Proxy"
+    },
+    {
+      "address": "0xdef1c0ded9bec7f1a1670819833240f027b25eff",
+      "nameTag": "0x: Exchange Proxy"
+    },
+    {
+      "address": "0x111111125434b319222cdbf8c261674adb56f3ae",
+      "nameTag": "1inch v2: Aggregation Router"
+    },
+    {
+      "address": "0x1111111254fb6c44bac0bed2854e76f90643097d",
+      "nameTag": "1inch v4: Aggregation Router"
+    },
+    {
+      "address": "0x1111111254eeb25477b68fb85ed929f73a960582",
+      "nameTag": "1inch v5: Aggregation Router"
+    },
+    {
+      "address": "0x11111254369792b2ca5d084ab5eea397ca8fa48b",
+      "nameTag": "1inch: Exchange 2"
+    },
+    {
+      "address": "0x84d99aa569d93a9ca187d83734c8c4a519c4e9b1",
+      "nameTag": "1inch: Labs Resolver"
+    },
+    {
+      "address": "0xd47140f6ab73f6d6b6675fb1610bb5e9b5d96fe5",
+      "nameTag": "1inch: Old Router V2"
+    },
+    {
+      "address": "0xe069cb01d06ba617bcdf789bf2ff0d5e5ca20c71",
+      "nameTag": "1inch: Router 2"
+    },
+    {
+      "address": "0xa88800cd213da5ae406ce248380802bd53b47647",
+      "nameTag": "1inch: Settlement"
+    },
+    {
+      "address": "0xe8fff15bb5e14095bfdfa8bb85d83cc900c23c56",
+      "nameTag": "AfroDex"
+    },
+    {
+      "address": "0x4572f2554421bd64bef1c22c8a81840e8d496bea",
+      "nameTag": "AirSwap"
+    },
+    {
+      "address": "0xc549a5c701cb6e6cbc091007a80c089c49595468",
+      "nameTag": "AirSwap: Light"
+    },
+    {
+      "address": "0xa58f22e0766b3764376c92915ba545d583c19dbc",
+      "nameTag": "Alchemist Coin: MistX Router"
+    },
+    {
+      "address": "0xfcadf926669e7cad0e50287ea7d563020289ed2c",
+      "nameTag": "Alchemist Coin: MistX Router 2"
+    },
+    {
+      "address": "0xdc1882f350b42ac9a23508996254b1915c78b204",
+      "nameTag": "Allbit 1"
+    },
+    {
+      "address": "0xff6b1cdfd2d3e37977d7938aa06b6d89d6675e27",
+      "nameTag": "Allbit 2"
+    },
+    {
+      "address": "0x0e8ba001a821f3ce0734763d008c9d7c957f5852",
+      "nameTag": "AmadeusRelay"
+    },
+    {
+      "address": "0xc898fbee1cc94c0ff077faa5449915a506eff384",
+      "nameTag": "Bamboo Relay"
+    },
+    {
+      "address": "0x29fbd00940df70cfc5dad3f2370686991e2bbf5c",
+      "nameTag": "bebop"
+    },
+    {
+      "address": "0x3c020e014069df790d4f4e63fd297ba4e1c8e51f",
+      "nameTag": "Bitcratic"
+    },
+    {
+      "address": "0x39fbd1140cd1fc298f00c3ea64b3591de94c67e7",
+      "nameTag": "BitEye 1"
+    },
+    {
+      "address": "0xb5adb233f28c86cef693451b67e1f2d41da97d21",
+      "nameTag": "Bitox.io"
+    },
+    {
+      "address": "0xa4dc97a565e2364cdeb4efe38c0f153bccb62b01",
+      "nameTag": "BTswap: Router"
+    },
+    {
+      "address": "0xdef1ca1fb7fbcdc777520aa7f396b4e015f497ab",
+      "nameTag": "CoW Protocol: COW Token"
+    },
+    {
+      "address": "0x9008d19f58aabd9ed0d60971565aa8510560ab41",
+      "nameTag": "CoW Protocol: GPv2Settlement"
+    },
+    {
+      "address": "0xd057b63f5e69cf1b929b356b579cba08d7688048",
+      "nameTag": "CoW Protocol: vCOW Token"
+    },
+    {
+      "address": "0xa2b47e3d5c44877cca798226b7b8118f9bfb7a56",
+      "nameTag": "Curve.fi: Compound Swap"
+    },
+    {
+      "address": "0xbebc44782c7db0a1a60cb6fe97d0b483032ff1c7",
+      "nameTag": "Curve.fi: DAI/USDC/USDT Pool"
+    },
+    {
+      "address": "0x52ea46506b9cc5ef470c5bf89f17dc28bb35d85c",
+      "nameTag": "Curve.fi: USDT Swap"
+    },
+    {
+      "address": "0x45f783cce6b7ff23b2ab2d70e416cdb7d6055f51",
+      "nameTag": "Curve.fi: y Swap"
+    },
+    {
+      "address": "0x49497a4d914ae91d34ce80030fe620687bf333fd",
+      "nameTag": "DDEX 1.0"
+    },
+    {
+      "address": "0x745daa146934b27e3f0b6bff1a6e36b9b90fb131",
+      "nameTag": "DEX.AG: Proxy Contract"
+    },
+    {
+      "address": "0x000000000000541e251335090ac5b47176af4f7e",
+      "nameTag": "dex.blue"
+    },
+    {
+      "address": "0x7600977eb9effa627d6bd0da2e5be35e11566341",
+      "nameTag": "DEx.top"
+    },
+    {
+      "address": "0x268be5667d4e5bd036bd608d0601ef1441604429",
+      "nameTag": "DINNGO: Proxy"
+    },
+    {
+      "address": "0x6f400810b62df8e13fded51be75ff5393eaa841f",
+      "nameTag": "DXdao: Mesa"
+    },
+    {
+      "address": "0x58a5959a6c528c5d5e03f7b9e5102350e24005f1",
+      "nameTag": "ERC dEX"
+    },
+    {
+      "address": "0x4aea7cf559f67cedcad07e12ae6bc00f07e8cf65",
+      "nameTag": "EtherDelta 1"
+    },
+    {
+      "address": "0x8d12a197cb00d4747a1fe03395095ce2a5cc6819",
+      "nameTag": "EtherDelta 2"
+    },
+    {
+      "address": "0xa5cc679a3528956e8032df4f03756c077c1ee3f4",
+      "nameTag": "EtherMium"
+    },
+    {
+      "address": "0x2a0c0dbecc7e4d658f48e01e3fa353f44050c208",
+      "nameTag": "IDEX"
+    },
+    {
+      "address": "0xa7a7899d944fe658c4b0a1803bab2f490bd3849e",
+      "nameTag": "IDEX 2"
+    },
+    {
+      "address": "0x2cc42d1cd65af27cc999e41ef93d1a763dc821f8",
+      "nameTag": "IDT Exchange"
+    },
+    {
+      "address": "0x04f062809b244e37e7fdc21d9409469c989c2342",
+      "nameTag": "Joyso"
+    },
+    {
+      "address": "0xdf1a1b60f2d438842916c0adc43748768353ec25",
+      "nameTag": "KyberSwap: Aggregation Router 2"
+    },
+    {
+      "address": "0x6131b5fae19ea4f9d964eac0408e4408b66337b5",
+      "nameTag": "KyberSwap: Meta Aggregation Router v2"
+    },
+    {
+      "address": "0x4524baa98f9a3b9dec57caae7633936ef96bd708",
+      "nameTag": "LedgerDex"
+    },
+    {
+      "address": "0xa94e72c89a6f56e0bd8683f71c3f9f57ec5f4220",
+      "nameTag": "Liquid Swap: Emergency Fund"
+    },
+    {
+      "address": "0x388b14bd1c98bf2464dee988db7eaa98efa54246",
+      "nameTag": "Liquid Swap: Staking Rewards"
+    },
+    {
+      "address": "0xc77a935044c77012a5b7fd109362d252a005cf53",
+      "nameTag": "Liquid Swap: Vesting Contract"
+    },
+    {
+      "address": "0xc692453625023c6e03fec04158ea31ab4de2650a",
+      "nameTag": "LocalCoin Dex 1"
+    },
+    {
+      "address": "0x37c4bcaba4bcf3a605414236b8b108f160eb45a6",
+      "nameTag": "LocalCoin Dex 2"
+    },
+    {
+      "address": "0x8d1c1571367a148e92d6ac83494b1bdf3b497d07",
+      "nameTag": "LocalCoin DEX 3"
+    },
+    {
+      "address": "0x944644ea989ec64c2ab9ef341d383cef586a5777",
+      "nameTag": "LoopringDEX: Beta 1"
+    },
+    {
+      "address": "0x881d40237659c251811cec9c364ef91dc08d300c",
+      "nameTag": "Metamask: Swap Router"
+    },
+    {
+      "address": "0x51a2b1a38ec83b56009d5e28e6222dbb56c23c22",
+      "nameTag": "nDEX Market"
+    },
+    {
+      "address": "0x794e6e91555438afc3ccf1c5076a74f42133d08d",
+      "nameTag": "OasisDEX"
+    },
+    {
+      "address": "0xc22d5b2951db72b44cfb8089bb8cd374a3c354ea",
+      "nameTag": "OpenRelay"
+    },
+    {
+      "address": "0xd2045edc40199019e221d71c0913343f7908d0d5",
+      "nameTag": "Paradex"
+    },
+    {
+      "address": "0x1bd435f3c054b6e901b7b108a0ab7617c808677b",
+      "nameTag": "ParaSwap P4"
+    },
+    {
+      "address": "0x9509665d015bfe3c77aa5ad6ca20c8afa1d98989",
+      "nameTag": "ParaSwap V2"
+    },
+    {
+      "address": "0xf90e98f3d8dce44632e5020abf2e122e0f99dfab",
+      "nameTag": "ParaSwap V3"
+    },
+    {
+      "address": "0xf92c1ad75005e6436b4ee84e88cb23ed8a290988",
+      "nameTag": "ParaSwap: Old Contract 3"
+    },
+    {
+      "address": "0xa258b39954cef5cb142fd567a46cddb31a670124",
+      "nameTag": "Radar Relay"
+    },
+    {
+      "address": "0xaf8ae6955d07776ab690e565ba6fbc79b8de3a5d",
+      "nameTag": "Rhino.fi"
+    },
+    {
+      "address": "0x5d22045daceab03b158031ecb7d9d06fad24609b",
+      "nameTag": "Rhino.fi: Bridge"
+    },
+    {
+      "address": "0xd8b19613723215ef8cc80fc35a1428f8e8826940",
+      "nameTag": "Rubic Exchange"
+    },
+    {
+      "address": "0x1f0d1de1558582ad6f13763f477119a1455502af",
+      "nameTag": "Saturn Network 1"
+    },
+    {
+      "address": "0xaa5bbd5a177a588b9f213505ca3740b444dbd586",
+      "nameTag": "Saturn Network 2"
+    },
+    {
+      "address": "0x55890b06f0877a01bb5349d93b202961f8e27a9b",
+      "nameTag": "Shark Relay"
+    },
+    {
+      "address": "0x9a2d163ab40f88c625fd475e807bbc3556566f80",
+      "nameTag": "SingularX"
+    },
+    {
+      "address": "0x36049d479a97cde1fc6e2a5d2cae30b666ebf92b",
+      "nameTag": "Sorbet Finance: Limit Order"
+    },
+    {
+      "address": "0x0681e844593a051e2882ec897ecd5444efe19ff2",
+      "nameTag": "Star Bit Ex"
+    },
+    {
+      "address": "0x7ee7ca6e75de79e618e88bdf80d0b1db136b22d0",
+      "nameTag": "Switcheo Exchange V2"
+    },
+    {
+      "address": "0x7219612be7036d1bfa933e16ca1246008f38c5fe",
+      "nameTag": "The Ocean"
+    },
+    {
+      "address": "0xc145990e84155416144c532e31f89b840ca8c2ce",
+      "nameTag": "THORSwap: RouterV2"
+    },
+    {
+      "address": "0x1ce7ae555139c5ef5a57cc8d814a867ee6ee33d8",
+      "nameTag": "Token.Store"
+    },
+    {
+      "address": "0x5e150a33ffa97a8d22f59c77ae5487b089ef62e9",
+      "nameTag": "TokenJar"
+    },
+    {
+      "address": "0x7839254cff8aafbdc2da66fe709eb8f17ce09fe5",
+      "nameTag": "Tokenlon: AMM Quoter"
+    },
+    {
+      "address": "0x904144473fde753dc0729608cfeea6f4a8b275e6",
+      "nameTag": "Tokenlon: AMM Wrapper"
+    },
+    {
+      "address": "0xdc6c91b569c98f9f6f74d90f9beff99fdaf4248b",
+      "nameTag": "Tokenlon: DEX 1"
+    },
+    {
+      "address": "0x03f34be1bf910116595db1b11e9d1b2ca5d59659",
+      "nameTag": "Tokenlon: DEX 2"
+    },
+    {
+      "address": "0x0485c25a5e8d7d0c5676d0e6d3bfc4aa597ba0b0",
+      "nameTag": "Tokenlon: Permanent Storage"
+    },
+    {
+      "address": "0x8d90113a1e286a5ab3e496fbd1853f265e5913c6",
+      "nameTag": "Tokenlon: PMM"
+    },
+    {
+      "address": "0x77208a6000691e440026bed1b178ef4661d37426",
+      "nameTag": "Totle: Primary"
+    },
+    {
+      "address": "0x7a250d5630b4cf539739df2c5dacb4c659f2488d",
+      "nameTag": "Uniswap V2: Router 2"
+    },
+    {
+      "address": "0xe592427a0aece92de3edee1f18e0157c05861564",
+      "nameTag": "Uniswap V3: Router"
+    },
+    {
+      "address": "0x68b3465833fb72a70ecdf485e0e4c7bd8665fc45",
+      "nameTag": "Uniswap V3: Router 2"
+    },
+    {
+      "address": "0x3fc91a3afd70395cd496c647d5a6cc9d4b2b7fad",
+      "nameTag": "Uniswap: Universal Router"
+    },
+    {
+      "address": "0xef1c6e67703c7bd7107eed8303fbe6ec2554bf6b",
+      "nameTag": "Uniswap: Universal Router 2"
+    },
+    {
+      "address": "0xbd2a43799b83d9d0ff56b85d4c140bce3d1d1c6c",
+      "nameTag": "UniswapEX"
+    },
+    {
+      "address": "0xd97d09f3bd931a14382ac60f156c1285a56bb51b",
+      "nameTag": "WeDEX: Beta 2"
+    },
+    {
+      "address": "0x31efc4aeaa7c39e54a33fdc3c46ee2bd70ae0a09",
+      "nameTag": "xPollinate: Transaction Manager"
+    },
+    {
+      "address": "0xc91a71a1ffa3d8b22ba615ba1b9c01b2bbbf55ad",
+      "nameTag": "ZigZag Exchange: ZZ Token"
+    }
+  ]
+}

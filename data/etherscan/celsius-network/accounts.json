@@ -1,98 +1,101 @@
-[
-  {
-    "address": "0x5089afdb4328c2e90d4bbeb2b62421f51a687430",
-    "nameTag": "Celsius Network: CEL Partners"
-  },
-  {
-    "address": "0xb2d9fecc991a81eb237028262517f61dd8177b4f",
-    "nameTag": "Celsius Network: CEL Team"
-  },
-  {
-    "address": "0xaaaebe6fe48e54f431b0c390cfaf0b017d09d42d",
-    "nameTag": "Celsius Network: CEL Token"
-  },
-  {
-    "address": "0xce606c7028a0702de6ef30c69c9dca4e3d46ffbd",
-    "nameTag": "Celsius Network: CEL Treasury"
-  },
-  {
-    "address": "0x81b5ce15aa64e1dcefc18f810de7d18115230586",
-    "nameTag": "Celsius Network: CEL Treasury Reserve"
-  },
-  {
-    "address": "0x32a3256a4b15badd4a6e072a03d23404d925a5cf",
-    "nameTag": "Celsius Network: Contract"
-  },
-  {
-    "address": "0x2abf9f753d0af02cca358f98d633bad81cc555ed",
-    "nameTag": "Celsius Network: Deployer"
-  },
-  {
-    "address": "0x7de3e919d1d7e5f1b1b27bdb3575b65c5874a5f6",
-    "nameTag": "Celsius Network: Wallet"
-  },
-  {
-    "address": "0x917334942eee7c32dcccfbde975f3e0ac30efac4",
-    "nameTag": "Celsius Network: Wallet 10"
-  },
-  {
-    "address": "0x8aceab8167c80cb8b3de7fa6228b889bb1130ee8",
-    "nameTag": "Celsius Network: Wallet 11"
-  },
-  {
-    "address": "0x75db8b92937f8f86213e523788ab9f066efde3fe",
-    "nameTag": "Celsius Network: Wallet 2"
-  },
-  {
-    "address": "0x721e3d8aa92d1f26936f6945f176415f66a88588",
-    "nameTag": "Celsius Network: Wallet 3"
-  },
-  {
-    "address": "0xb26314635252b4ee8b454423e5299a092dea8a4a",
-    "nameTag": "Celsius Network: Wallet 4"
-  },
-  {
-    "address": "0x4f6742badb049791cd9a37ea913f2bac38d01279",
-    "nameTag": "Celsius Network: Wallet 5"
-  },
-  {
-    "address": "0x8b47ed08fd5f134c57b826fbd33e1de121de880d",
-    "nameTag": "Celsius Network: Wallet 6"
-  },
-  {
-    "address": "0x84e1f49a6b65882c7365b6a775999cfcb481f22f",
-    "nameTag": "Celsius Network: Wallet 7"
-  },
-  {
-    "address": "0x3be6d80fdce385358f5762998882efc282df7b9a",
-    "nameTag": "Celsius Network: Wallet 8"
-  },
-  {
-    "address": "0x91e9a131446ab538d30746c79d43908faef3f289",
-    "nameTag": "Celsius Network: Wallet 9"
-  },
-  {
-    "address": "0x9b436168dd080f1f95d1919258c64590263c0dae",
-    "nameTag": "CelsiusX 1"
-  },
-  {
-    "address": "0x520da65f3b9b93a5bb6a1db911de40ae197aa639",
-    "nameTag": "CelsiusX 2"
-  },
-  {
-    "address": "0x4859df02d1c7cd85c2a283708958aaa7728bad67",
-    "nameTag": "CelsiusX 3"
-  },
-  {
-    "address": "0xfe4546fefe124f30788c4cc1bb9aa6907a7987f9",
-    "nameTag": "CelsiusX 4"
-  },
-  {
-    "address": "0x64875aaa68d1d5521666c67d692ee0b926b08b2f",
-    "nameTag": "CelsiusX: cxADA Token"
-  },
-  {
-    "address": "0xf9e293d5d793ddc1ae4f778761e0b3e4aa7cf2dd",
-    "nameTag": "CelsiusX: cxDOGE Token"
-  }
-]
+{
+  "lastPulled": "2024-04-02T20:40:33.064Z",
+  "data": [
+    {
+      "address": "0x5089afdb4328c2e90d4bbeb2b62421f51a687430",
+      "nameTag": "Celsius Network: CEL Partners"
+    },
+    {
+      "address": "0xb2d9fecc991a81eb237028262517f61dd8177b4f",
+      "nameTag": "Celsius Network: CEL Team"
+    },
+    {
+      "address": "0xaaaebe6fe48e54f431b0c390cfaf0b017d09d42d",
+      "nameTag": "Celsius Network: CEL Token"
+    },
+    {
+      "address": "0xce606c7028a0702de6ef30c69c9dca4e3d46ffbd",
+      "nameTag": "Celsius Network: CEL Treasury"
+    },
+    {
+      "address": "0x81b5ce15aa64e1dcefc18f810de7d18115230586",
+      "nameTag": "Celsius Network: CEL Treasury Reserve"
+    },
+    {
+      "address": "0x32a3256a4b15badd4a6e072a03d23404d925a5cf",
+      "nameTag": "Celsius Network: Contract"
+    },
+    {
+      "address": "0x2abf9f753d0af02cca358f98d633bad81cc555ed",
+      "nameTag": "Celsius Network: Deployer"
+    },
+    {
+      "address": "0x7de3e919d1d7e5f1b1b27bdb3575b65c5874a5f6",
+      "nameTag": "Celsius Network: Wallet"
+    },
+    {
+      "address": "0x917334942eee7c32dcccfbde975f3e0ac30efac4",
+      "nameTag": "Celsius Network: Wallet 10"
+    },
+    {
+      "address": "0x8aceab8167c80cb8b3de7fa6228b889bb1130ee8",
+      "nameTag": "Celsius Network: Wallet 11"
+    },
+    {
+      "address": "0x75db8b92937f8f86213e523788ab9f066efde3fe",
+      "nameTag": "Celsius Network: Wallet 2"
+    },
+    {
+      "address": "0x721e3d8aa92d1f26936f6945f176415f66a88588",
+      "nameTag": "Celsius Network: Wallet 3"
+    },
+    {
+      "address": "0xb26314635252b4ee8b454423e5299a092dea8a4a",
+      "nameTag": "Celsius Network: Wallet 4"
+    },
+    {
+      "address": "0x4f6742badb049791cd9a37ea913f2bac38d01279",
+      "nameTag": "Celsius Network: Wallet 5"
+    },
+    {
+      "address": "0x8b47ed08fd5f134c57b826fbd33e1de121de880d",
+      "nameTag": "Celsius Network: Wallet 6"
+    },
+    {
+      "address": "0x84e1f49a6b65882c7365b6a775999cfcb481f22f",
+      "nameTag": "Celsius Network: Wallet 7"
+    },
+    {
+      "address": "0x3be6d80fdce385358f5762998882efc282df7b9a",
+      "nameTag": "Celsius Network: Wallet 8"
+    },
+    {
+      "address": "0x91e9a131446ab538d30746c79d43908faef3f289",
+      "nameTag": "Celsius Network: Wallet 9"
+    },
+    {
+      "address": "0x9b436168dd080f1f95d1919258c64590263c0dae",
+      "nameTag": "CelsiusX 1"
+    },
+    {
+      "address": "0x520da65f3b9b93a5bb6a1db911de40ae197aa639",
+      "nameTag": "CelsiusX 2"
+    },
+    {
+      "address": "0x4859df02d1c7cd85c2a283708958aaa7728bad67",
+      "nameTag": "CelsiusX 3"
+    },
+    {
+      "address": "0xfe4546fefe124f30788c4cc1bb9aa6907a7987f9",
+      "nameTag": "CelsiusX 4"
+    },
+    {
+      "address": "0x64875aaa68d1d5521666c67d692ee0b926b08b2f",
+      "nameTag": "CelsiusX: cxADA Token"
+    },
+    {
+      "address": "0xf9e293d5d793ddc1ae4f778761e0b3e4aa7cf2dd",
+      "nameTag": "CelsiusX: cxDOGE Token"
+    }
+  ]
+}

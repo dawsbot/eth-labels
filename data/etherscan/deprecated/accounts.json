@@ -1,397 +1,541 @@
-[
-  { "address": "0x00a31b98c325a8dcb8d1dd41d65156a5c898f38c", "nameTag": "" },
-  { "address": "0x03be4a5355f4bd4572d7716f946e2dff1c42d8b9", "nameTag": "" },
-  { "address": "0x0c0f5bdd0cfe5dc82885b89385b6708a8dc395f4", "nameTag": "" },
-  { "address": "0x16a04e58a77ab1ce561a37371dfb479a8594947a", "nameTag": "" },
-  { "address": "0x186e55c0bebd2f69348d94c4a27556d93c5bd36c", "nameTag": "" },
-  { "address": "0x1fdf1233f85a3bae9594b0558e4ec8febe8c6720", "nameTag": "" },
-  { "address": "0x27a7296a9d282e55bdf7ac3a7b768763dd65de1e", "nameTag": "" },
-  { "address": "0x2e2f6aece0b7caa7d3bfdfb2728f50b4e211f1eb", "nameTag": "" },
-  { "address": "0x3496681ef5e8ebbf01eeeebae10084343d65dbea", "nameTag": "" },
-  { "address": "0x3501883a646f1f8417bcb62162372550954d618f", "nameTag": "" },
-  { "address": "0x45aad11f2fa2c215bc9686eb6f06d46e0474f356", "nameTag": "" },
-  { "address": "0x4b16d95ddf1ae4fe8227ed7b7e80cf13275e61c9", "nameTag": "" },
-  { "address": "0x57503824e256e878db8136fde66f155c49e362df", "nameTag": "" },
-  { "address": "0x5f81b1c7182543e0db342fc2a69525888d648e60", "nameTag": "" },
-  { "address": "0x623b83755a39b12161a63748f3f595a530917ab2", "nameTag": "" },
-  { "address": "0x68f54c12631a83b5b42f683932f504819f26c4e7", "nameTag": "" },
-  { "address": "0x6a29cfd8a5f666a7d69da9437cd4c46616326815", "nameTag": "" },
-  { "address": "0x737119790f6e0f85451ab200759f8efa144dcd43", "nameTag": "" },
-  { "address": "0x7521c8c7ba7e1f650c1109c40876c5dd52f5614c", "nameTag": "" },
-  { "address": "0x765c7cfed02f2d9583eac8229930f3650af42c77", "nameTag": "" },
-  { "address": "0x7818a1da7bd1e64c199029e86ba244a9798eee10", "nameTag": "" },
-  { "address": "0x7ed9003c6003eace1e8c3ae99f0bb19894377b0f", "nameTag": "" },
-  { "address": "0x80000000000495561f29841ab6e2ddd2bbf88b54", "nameTag": "" },
-  { "address": "0x9013498ba5b04dc4d888955784eb06c539eb463f", "nameTag": "" },
-  { "address": "0x933fa13abc4e1532dc5de017b6673711c2f16d9a", "nameTag": "" },
-  { "address": "0x95171c9ef5ca540a6d3502e9547fcfe022458eb5", "nameTag": "" },
-  { "address": "0x9a48bd0ec040ea4f1d3147c025cd4076a2e71e3e", "nameTag": "" },
-  { "address": "0xb2120ae79d838d6703cf6d2ac5cc68b5db10683f", "nameTag": "" },
-  { "address": "0xb6ce51dee8bd4a2fd11c01205414dc26f0b453ac", "nameTag": "" },
-  { "address": "0xbde4dfb0dbb0dd8833efb6c5bd0ce048c852c487", "nameTag": "" },
-  { "address": "0xc0840ec5527d3e70d66ae6575642916f3fd18adf", "nameTag": "" },
-  { "address": "0xc0d4ceb216b3ba9c3701b291766fdcba977cec3a", "nameTag": "" },
-  { "address": "0xcacef23c1ea3c72777f9615b0a4ced1982af9eef", "nameTag": "" },
-  { "address": "0xcc94faf235cc5d3bf4bed3a30db5984306c86abc", "nameTag": "" },
-  { "address": "0xceecea8035e81c1148210db3b2f870f470cc81bf", "nameTag": "" },
-  { "address": "0xda51aa77d74b6ef7c8288ea68b6c99960fa66027", "nameTag": "" },
-  { "address": "0xdc274f4854831fed60f9eca12cacbd449134cf67", "nameTag": "" },
-  { "address": "0xe0be968a0d6bba03720dfdb2f3d4b3ed0083b4c7", "nameTag": "" },
-  { "address": "0xe134204b53a4db2b3d9861b04214f8637ecbc8a8", "nameTag": "" },
-  { "address": "0xe2ef3b60b0b3087cf1d1179d899a7cd7a11a9fca", "nameTag": "" },
-  { "address": "0xe80bf394d190851e215d5f67b67f8f5a52783f1e", "nameTag": "" },
-  { "address": "0xe9ab8038ee6dd4fcc7612997fe28d4e22019c4b4", "nameTag": "" },
-  { "address": "0xf43b15ab692fde1f9c24a9fce700adcc809d5391", "nameTag": "" },
-  { "address": "0xf843f61508fc17543412de55b10ed87f4c28de50", "nameTag": "" },
-  { "address": "0xf9c0f3431f859e773ed052758052e06b6d175742", "nameTag": "" },
-  { "address": "0xfa838af70314135159b309bf27f1dbf1f954ec34", "nameTag": "" },
-  { "address": "0xfd7bda47cbeeed93c897273585f666f8d1cc8d45", "nameTag": "" },
-  {
-    "address": "0xf2d4766ad705e3a5c9ba5b0436b473085f82f82f",
-    "nameTag": "Coinhako: Old Warm Wallet"
-  },
-  {
-    "address": "0x0077d27cb82ff12322987b225bfce0bb6e8931b4",
-    "nameTag": "Corra.Finance: Old CORA Token"
-  },
-  {
-    "address": "0xe0b7927c4af23765cb51314a0e0521a9645f0e2a",
-    "nameTag": "DigixDAO: DGD Token"
-  },
-  {
-    "address": "0xce4d3e893f060cb14b550b3e6b0ad512bef30995",
-    "nameTag": "Dopex: DPX Staking Rewards"
-  },
-  {
-    "address": "0x2a52330be21d311a7a3f40dacbfee8978541b74a",
-    "nameTag": "Dopex: DPX/WETH Staking Rewards"
-  },
-  {
-    "address": "0x175029c85b14c326c83c9f83d4a21ca339f44cb5",
-    "nameTag": "Dopex: rDPX/WETH Staking Rewards"
-  },
-  {
-    "address": "0x43a5cfb83d0decaaead90e0cc6dca60a2405442b",
-    "nameTag": "Dopex: Staking Rewards Factory"
-  },
-  {
-    "address": "0x58e593f2100fa06da34935c1b35fd78aaa32479a",
-    "nameTag": "EIP4824 Registration"
-  },
-  {
-    "address": "0x37df3fc47c1c3a2acafd2dad9c1c00090a8655bc",
-    "nameTag": "EIP4824 Registration Summoner"
-  },
-  {
-    "address": "0xb076b06f669e682609fb4a8c6646d2619717be4b",
-    "nameTag": "Frax Finance:Fraxswap FactoryV1"
-  },
-  {
-    "address": "0x1c6ca5dee97c8c368ca559892ccce2454c8c35c7",
-    "nameTag": "Frax Finance:Fraxswap Router V1"
-  },
-  {
-    "address": "0x254891fc1d9545c5fd664b60702899e5e4008481",
-    "nameTag": "Fusang: Old Token 1"
-  },
-  {
-    "address": "0x6e626a14316b142d785aa71e251547f703197847",
-    "nameTag": "Gains Network:GFarm Trading V1"
-  },
-  {
-    "address": "0x140a896808bbc8c7187a67f1751d796705cd7798",
-    "nameTag": "Gearbox Protocol: Old Credit Configurator DAI V2"
-  },
-  {
-    "address": "0x948d33a9537cf13bcc656218b385d19e5b6693e8",
-    "nameTag": "Gearbox Protocol: Old Credit Filter DAI V1"
-  },
-  {
-    "address": "0x777e23a2acb2fcbb35f6ccf98272d03c722ba6eb",
-    "nameTag": "Gearbox Protocol: Old Credit Manager DAI V1"
-  },
-  {
-    "address": "0x49b34e58bab86b3cd23b0be0af4a152be1056902",
-    "nameTag": "Gearbox Protocol: Old CurveV1Adapter DAI V1"
-  },
-  {
-    "address": "0x815e1373f2932b1c4d0b710f80100de8d1165e2d",
-    "nameTag": "Gearbox Protocol: Old UniV2Adapter 2 DAI V1"
-  },
-  {
-    "address": "0xedbf8f73908c86a89f4d42344c8e01b82fe4aaa6",
-    "nameTag": "Gearbox Protocol: Old UniV2Adapter DAI V1"
-  },
-  {
-    "address": "0x088809824d03858c4113538bb82aa4ca7964ba78",
-    "nameTag": "Gearbox Protocol: Old UniV3Adapter DAI V1"
-  },
-  {
-    "address": "0x2a3e48cf8485fefc05d40049b0efa237e869d7d7",
-    "nameTag": "Gearbox Protocol: Old Yearn Adapter 2 DAI V1"
-  },
-  {
-    "address": "0x403e98b110a4dc89da963394dc8518b5f0e2d5fb",
-    "nameTag": "Gearbox Protocol: Old Yearn Adapter DAI V1"
-  },
-  {
-    "address": "0xe428c5460b1fbc7d15d1da7c9d162cb1b9a44046",
-    "nameTag": "mStable: OLD FEI Feeder Pool Vault Logic"
-  },
-  {
-    "address": "0xbae7b2507a9df82c6c5225930a993ba170a14fb5",
-    "nameTag": "mStable: OLD RAI Feeder Pool Vault Logic"
-  },
-  {
-    "address": "0x86edc342b267ac30829caab155786879f8a8eaa9",
-    "nameTag": "PieDAO: Lending Manager YPIE"
-  },
-  {
-    "address": "0x64e4e5ffc4d56633d97efc7e41f62efff9fab7dc",
-    "nameTag": "PieDAO: Lending Manager YPIE 2"
-  },
-  {
-    "address": "0xb739dcf499306b191d9d4fa5255a8f20066a6a96",
-    "nameTag": "PieDAO: Lending Registry"
-  },
-  {
-    "address": "0x4f08882c585dd58d7b9a6f2a7523e4a468c3cedb",
-    "nameTag": "PieDAO: Oven Factory V2"
-  },
-  {
-    "address": "0xb9eef048dcc5f9cc453029cc2ed21f4a558ad0e8",
-    "nameTag": "PieDAO: PLAY Oven V2"
-  },
-  {
-    "address": "0x90cc6f4ec7aa0468d2edb3f627acd988b14a78b4",
-    "nameTag": "PieDAO: PLAY OvenV2"
-  },
-  {
-    "address": "0x925f860d1596cc6383c16294d8290f82bde172f7",
-    "nameTag": "PieDAO: YPIE Oven"
-  },
-  {
-    "address": "0xaedec86dede3ded9562fb00ada623c0e9beeb951",
-    "nameTag": "PieDAO: YPIE Oven 2"
-  },
-  {
-    "address": "0xf5e38bbedc78efea055e0c56035adb320e64c4bc",
-    "nameTag": "Quant: Deprecated Deployer"
-  },
-  {
-    "address": "0x1b396cf90504686b7ede2760eebb053d30d1f389",
-    "nameTag": "Reality Metaverse: Old RLTM Token"
-  },
-  {
-    "address": "0x987e300fdfb06093859358522a79098848c33852",
-    "nameTag": "Scroll: Old L2 Gas Price Oracle Proxy"
-  },
-  {
-    "address": "0x778ec2d9b4bae65c57a6436a6c37afc135bad727",
-    "nameTag": "Synthetix: Old Dapp Maintenance"
-  },
-  {
-    "address": "0xeaf60da0199be2f62005225248705de774582328",
-    "nameTag": "Synthetix: Old Proxy iMKR Token 1"
-  },
-  {
-    "address": "0x0794d09be5395f69534ff8151d72613077148b29",
-    "nameTag": "Synthetix: Old Proxy iMKR Token 2"
-  },
-  {
-    "address": "0x5d609c25adaafd856021f92296c66db602a0fce8",
-    "nameTag": "Synthetix: Old Proxy sBRL Token"
-  },
-  {
-    "address": "0x0bc209fb72390af12bd6fd775355ea0856864b31",
-    "nameTag": "Synthetix: Old Proxy sCAD Token"
-  },
-  {
-    "address": "0x60feeed05004476518281d43185fb7f52d9722c0",
-    "nameTag": "Synthetix: Old Proxy sCNY Token"
-  },
-  {
-    "address": "0x74c80bb51da1eac2d40074c647cbd0ab6920063f",
-    "nameTag": "Synthetix: Old Proxy sINR Token"
-  },
-  {
-    "address": "0xdce506b196b0df677d07e718f872cac9bc368a33",
-    "nameTag": "Synthetix: Old Proxy sKRW Token"
-  },
-  {
-    "address": "0xe88a4976cb7d8898d39e3f317421d625403ecb8c",
-    "nameTag": "Synthetix: Old Proxy sMKR Token 1"
-  },
-  {
-    "address": "0x4140919de11fce58e654cc6038017af97f810de1",
-    "nameTag": "Synthetix: Old Proxy sMKR Token 2"
-  },
-  {
-    "address": "0x26c0cb14470803120321b70ae85405ac298e5a42",
-    "nameTag": "Synthetix: Old Proxy sNZD Token"
-  },
-  {
-    "address": "0xd9553f0fda012224141aecc1eca0e29868ff7fe8",
-    "nameTag": "Synthetix: Old Proxy sPLN Token"
-  },
-  {
-    "address": "0xdcb5821fcfdab5553307b8f99591fc9daa3c4be3",
-    "nameTag": "Synthetix: Old Proxy sRUB Token"
-  },
-  {
-    "address": "0x632db1c25c03dcac8d23ff2c9a4cea34cbeffa1b",
-    "nameTag": "Synthetix: Old Proxy sSGD Token"
-  },
-  {
-    "address": "0x62492f15cf60c5847d3053e482cade8c5c29af88",
-    "nameTag": "Synthetix: Old Proxy XDR Token 1"
-  },
-  {
-    "address": "0xb3f67de9a919476a4c0fe821d67bf5c4637d8429",
-    "nameTag": "Synthetix: Old Proxy XDR Token 2"
-  },
-  {
-    "address": "0x99bcc501d04f400ba3f78b5375d00b56ace6ee0d",
-    "nameTag": "Synthetix: Old Synth iMKR Token 1"
-  },
-  {
-    "address": "0x047fc84504714d526808be07bf17bdd70726ef92",
-    "nameTag": "Synthetix: Old Synth iMKR Token 2"
-  },
-  {
-    "address": "0xd95e7f80766580634b2e0e49d9f66af317994fc7",
-    "nameTag": "Synthetix: Old Synth iMKR Token 3"
-  },
-  {
-    "address": "0x10a0532de3c86d9ce810f004fabcf5a1ea464390",
-    "nameTag": "Synthetix: Old Synth iMKR Token 4"
-  },
-  {
-    "address": "0x1228c7d8bbc5bc53db181bd7b1fce765aa83bf8a",
-    "nameTag": "Synthetix: Old Synth iMKR Token 5"
-  },
-  {
-    "address": "0xa5a4cccccaa26cea096f6e493839423f4d66c63f",
-    "nameTag": "Synthetix: Old Synth sBRL Token"
-  },
-  {
-    "address": "0x8f69c9ee79bf9320e1a5c19e559108e1cb3d002b",
-    "nameTag": "Synthetix: Old Synth sCAD Token"
-  },
-  {
-    "address": "0x60c34eb93afcd1b701ff8c036b128441c68a8a70",
-    "nameTag": "Synthetix: Old Synth sCNY Token"
-  },
-  {
-    "address": "0x51671b7556ebeb4c43180e983f5569973e15cac9",
-    "nameTag": "Synthetix: Old Synth sINR Token"
-  },
-  {
-    "address": "0xdf846d3ded30a0590319f8a7ecd4e233b0e9188c",
-    "nameTag": "Synthetix: Old Synth sKRW Token"
-  },
-  {
-    "address": "0x13586160e4f890d0631c3c08d989f5b7afe202b0",
-    "nameTag": "Synthetix: Old Synth sMKR Token 1"
-  },
-  {
-    "address": "0xfac2b3400df00a348c3118831a45a05255f9004a",
-    "nameTag": "Synthetix: Old Synth sMKR Token 2"
-  },
-  {
-    "address": "0x84965dca28c4eb9de61d80f80e811ea12be1c819",
-    "nameTag": "Synthetix: Old Synth sMKR Token 3"
-  },
-  {
-    "address": "0x54a0326fb698c2cfaca5327550a897fa66d21f07",
-    "nameTag": "Synthetix: Old Synth sMKR Token 4"
-  },
-  {
-    "address": "0xd1599e478cc818afa42a4839a6c665d9279c3e50",
-    "nameTag": "Synthetix: Old Synth sMKR Token 5"
-  },
-  {
-    "address": "0xcf401f31c63f58debfc76f441731dfa945cd0bde",
-    "nameTag": "Synthetix: Old Synth sNZD Token"
-  },
-  {
-    "address": "0x1943dbd2a793c588b5170188ee6fb62e02afdff7",
-    "nameTag": "Synthetix: Old Synth sPLN Token"
-  },
-  {
-    "address": "0x8a8dcbba6038c6fc6d192f5cf5c5dd83b98591bc",
-    "nameTag": "Synthetix: Old Synth sRUB Token"
-  },
-  {
-    "address": "0x2ae393c18b6aa62d6a2250af7b803fa6973bc981",
-    "nameTag": "Synthetix: Old Synth sSGD Token"
-  },
-  {
-    "address": "0x2972705af18c66c14cdd27ad412961e01944a9c3",
-    "nameTag": "Synthetix: Old Synth XDR Token 1"
-  },
-  {
-    "address": "0x6025f88abb6d99d02c5eed82c151d52bac8e444b",
-    "nameTag": "Synthetix: Old Synth XDR Token 2"
-  },
-  {
-    "address": "0x30a46e656cdca6b401ff043e1abb151490a07ab0",
-    "nameTag": "Synthetix: Old Synth XDR Token 3"
-  },
-  {
-    "address": "0x96f9d144e55149437640512b82d7dda065e89773",
-    "nameTag": "Synthetix: Old Synth XDR Token 4"
-  },
-  {
-    "address": "0xa0c19218271f056bc10b1cdd7a5fab48f757bc86",
-    "nameTag": "Synthetix: Old Token State iMKR"
-  },
-  {
-    "address": "0x0985de52896fc4c9a84d108f5582ec02fdf91605",
-    "nameTag": "Synthetix: Old Token State sBRL"
-  },
-  {
-    "address": "0xddf91fc27087e076574df31483db5c21a85e47b6",
-    "nameTag": "Synthetix: Old Token State sCAD"
-  },
-  {
-    "address": "0x5cca1f0c514c0624d3ba7585d56fd2d72cbefd80",
-    "nameTag": "Synthetix: Old Token State sCNY"
-  },
-  {
-    "address": "0xf8f2f8001fca737efa2bc26217fc20c1f8267fba",
-    "nameTag": "Synthetix: Old Token State sINR"
-  },
-  {
-    "address": "0x249a10c68afa9827571cb73f29ab5af57ee5a596",
-    "nameTag": "Synthetix: Old Token State sKRW"
-  },
-  {
-    "address": "0xcee0a0dc7f393ed6ac84a3ac2191c28d6a53acef",
-    "nameTag": "Synthetix: Old Token State sMKR"
-  },
-  {
-    "address": "0x3fda286f354a3318534026dbacf021c84a71b03c",
-    "nameTag": "Synthetix: Old Token State sNZD"
-  },
-  {
-    "address": "0xdb957f324be2de9bdab01a3dbb50228569fdee1b",
-    "nameTag": "Synthetix: Old Token State sPLN"
-  },
-  {
-    "address": "0xf1ef8ee7dfee4bd0e06b0fced1d299387b78cb09",
-    "nameTag": "Synthetix: Old Token State sRUB"
-  },
-  {
-    "address": "0x000f49fd739d4023b0a6c87ee8705ef1ffb55c87",
-    "nameTag": "Synthetix: Old Token State sSGD"
-  },
-  {
-    "address": "0xbf093390d8046ae2d0f5465dec7001d65dc159d5",
-    "nameTag": "Synthetix: Old Token State XDR"
-  },
-  {
-    "address": "0x1f0d1927498fbd4f9e8558704ce5b658929527ec",
-    "nameTag": "Zapper.Fi: Deprecated Polygon Bridge"
-  }
-]
+{
+  "lastPulled": "2024-04-02T20:42:12.625Z",
+  "data": [
+    {
+      "address": "0x00a31b98c325a8dcb8d1dd41d65156a5c898f38c",
+      "nameTag": ""
+    },
+    {
+      "address": "0x03be4a5355f4bd4572d7716f946e2dff1c42d8b9",
+      "nameTag": ""
+    },
+    {
+      "address": "0x0c0f5bdd0cfe5dc82885b89385b6708a8dc395f4",
+      "nameTag": ""
+    },
+    {
+      "address": "0x16a04e58a77ab1ce561a37371dfb479a8594947a",
+      "nameTag": ""
+    },
+    {
+      "address": "0x186e55c0bebd2f69348d94c4a27556d93c5bd36c",
+      "nameTag": ""
+    },
+    {
+      "address": "0x1fdf1233f85a3bae9594b0558e4ec8febe8c6720",
+      "nameTag": ""
+    },
+    {
+      "address": "0x27a7296a9d282e55bdf7ac3a7b768763dd65de1e",
+      "nameTag": ""
+    },
+    {
+      "address": "0x2e2f6aece0b7caa7d3bfdfb2728f50b4e211f1eb",
+      "nameTag": ""
+    },
+    {
+      "address": "0x3496681ef5e8ebbf01eeeebae10084343d65dbea",
+      "nameTag": ""
+    },
+    {
+      "address": "0x3501883a646f1f8417bcb62162372550954d618f",
+      "nameTag": ""
+    },
+    {
+      "address": "0x45aad11f2fa2c215bc9686eb6f06d46e0474f356",
+      "nameTag": ""
+    },
+    {
+      "address": "0x4b16d95ddf1ae4fe8227ed7b7e80cf13275e61c9",
+      "nameTag": ""
+    },
+    {
+      "address": "0x57503824e256e878db8136fde66f155c49e362df",
+      "nameTag": ""
+    },
+    {
+      "address": "0x5f81b1c7182543e0db342fc2a69525888d648e60",
+      "nameTag": ""
+    },
+    {
+      "address": "0x623b83755a39b12161a63748f3f595a530917ab2",
+      "nameTag": ""
+    },
+    {
+      "address": "0x68f54c12631a83b5b42f683932f504819f26c4e7",
+      "nameTag": ""
+    },
+    {
+      "address": "0x6a29cfd8a5f666a7d69da9437cd4c46616326815",
+      "nameTag": ""
+    },
+    {
+      "address": "0x737119790f6e0f85451ab200759f8efa144dcd43",
+      "nameTag": ""
+    },
+    {
+      "address": "0x7521c8c7ba7e1f650c1109c40876c5dd52f5614c",
+      "nameTag": ""
+    },
+    {
+      "address": "0x765c7cfed02f2d9583eac8229930f3650af42c77",
+      "nameTag": ""
+    },
+    {
+      "address": "0x7818a1da7bd1e64c199029e86ba244a9798eee10",
+      "nameTag": ""
+    },
+    {
+      "address": "0x7ed9003c6003eace1e8c3ae99f0bb19894377b0f",
+      "nameTag": ""
+    },
+    {
+      "address": "0x80000000000495561f29841ab6e2ddd2bbf88b54",
+      "nameTag": ""
+    },
+    {
+      "address": "0x9013498ba5b04dc4d888955784eb06c539eb463f",
+      "nameTag": ""
+    },
+    {
+      "address": "0x933fa13abc4e1532dc5de017b6673711c2f16d9a",
+      "nameTag": ""
+    },
+    {
+      "address": "0x95171c9ef5ca540a6d3502e9547fcfe022458eb5",
+      "nameTag": ""
+    },
+    {
+      "address": "0x9a48bd0ec040ea4f1d3147c025cd4076a2e71e3e",
+      "nameTag": ""
+    },
+    {
+      "address": "0xb2120ae79d838d6703cf6d2ac5cc68b5db10683f",
+      "nameTag": ""
+    },
+    {
+      "address": "0xb6ce51dee8bd4a2fd11c01205414dc26f0b453ac",
+      "nameTag": ""
+    },
+    {
+      "address": "0xbde4dfb0dbb0dd8833efb6c5bd0ce048c852c487",
+      "nameTag": ""
+    },
+    {
+      "address": "0xc0840ec5527d3e70d66ae6575642916f3fd18adf",
+      "nameTag": ""
+    },
+    {
+      "address": "0xc0d4ceb216b3ba9c3701b291766fdcba977cec3a",
+      "nameTag": ""
+    },
+    {
+      "address": "0xcacef23c1ea3c72777f9615b0a4ced1982af9eef",
+      "nameTag": ""
+    },
+    {
+      "address": "0xcc94faf235cc5d3bf4bed3a30db5984306c86abc",
+      "nameTag": ""
+    },
+    {
+      "address": "0xceecea8035e81c1148210db3b2f870f470cc81bf",
+      "nameTag": ""
+    },
+    {
+      "address": "0xda51aa77d74b6ef7c8288ea68b6c99960fa66027",
+      "nameTag": ""
+    },
+    {
+      "address": "0xdc274f4854831fed60f9eca12cacbd449134cf67",
+      "nameTag": ""
+    },
+    {
+      "address": "0xe0be968a0d6bba03720dfdb2f3d4b3ed0083b4c7",
+      "nameTag": ""
+    },
+    {
+      "address": "0xe134204b53a4db2b3d9861b04214f8637ecbc8a8",
+      "nameTag": ""
+    },
+    {
+      "address": "0xe2ef3b60b0b3087cf1d1179d899a7cd7a11a9fca",
+      "nameTag": ""
+    },
+    {
+      "address": "0xe80bf394d190851e215d5f67b67f8f5a52783f1e",
+      "nameTag": ""
+    },
+    {
+      "address": "0xe9ab8038ee6dd4fcc7612997fe28d4e22019c4b4",
+      "nameTag": ""
+    },
+    {
+      "address": "0xf43b15ab692fde1f9c24a9fce700adcc809d5391",
+      "nameTag": ""
+    },
+    {
+      "address": "0xf843f61508fc17543412de55b10ed87f4c28de50",
+      "nameTag": ""
+    },
+    {
+      "address": "0xf9c0f3431f859e773ed052758052e06b6d175742",
+      "nameTag": ""
+    },
+    {
+      "address": "0xfa838af70314135159b309bf27f1dbf1f954ec34",
+      "nameTag": ""
+    },
+    {
+      "address": "0xfd7bda47cbeeed93c897273585f666f8d1cc8d45",
+      "nameTag": ""
+    },
+    {
+      "address": "0xf2d4766ad705e3a5c9ba5b0436b473085f82f82f",
+      "nameTag": "Coinhako: Old Warm Wallet"
+    },
+    {
+      "address": "0x0077d27cb82ff12322987b225bfce0bb6e8931b4",
+      "nameTag": "Corra.Finance: Old CORA Token"
+    },
+    {
+      "address": "0xe0b7927c4af23765cb51314a0e0521a9645f0e2a",
+      "nameTag": "DigixDAO: DGD Token"
+    },
+    {
+      "address": "0xce4d3e893f060cb14b550b3e6b0ad512bef30995",
+      "nameTag": "Dopex: DPX Staking Rewards"
+    },
+    {
+      "address": "0x2a52330be21d311a7a3f40dacbfee8978541b74a",
+      "nameTag": "Dopex: DPX/WETH Staking Rewards"
+    },
+    {
+      "address": "0x175029c85b14c326c83c9f83d4a21ca339f44cb5",
+      "nameTag": "Dopex: rDPX/WETH Staking Rewards"
+    },
+    {
+      "address": "0x43a5cfb83d0decaaead90e0cc6dca60a2405442b",
+      "nameTag": "Dopex: Staking Rewards Factory"
+    },
+    {
+      "address": "0x58e593f2100fa06da34935c1b35fd78aaa32479a",
+      "nameTag": "EIP4824 Registration"
+    },
+    {
+      "address": "0x37df3fc47c1c3a2acafd2dad9c1c00090a8655bc",
+      "nameTag": "EIP4824 Registration Summoner"
+    },
+    {
+      "address": "0xb076b06f669e682609fb4a8c6646d2619717be4b",
+      "nameTag": "Frax Finance:Fraxswap FactoryV1"
+    },
+    {
+      "address": "0x1c6ca5dee97c8c368ca559892ccce2454c8c35c7",
+      "nameTag": "Frax Finance:Fraxswap Router V1"
+    },
+    {
+      "address": "0x254891fc1d9545c5fd664b60702899e5e4008481",
+      "nameTag": "Fusang: Old Token 1"
+    },
+    {
+      "address": "0x6e626a14316b142d785aa71e251547f703197847",
+      "nameTag": "Gains Network:GFarm Trading V1"
+    },
+    {
+      "address": "0x140a896808bbc8c7187a67f1751d796705cd7798",
+      "nameTag": "Gearbox Protocol: Old Credit Configurator DAI V2"
+    },
+    {
+      "address": "0x948d33a9537cf13bcc656218b385d19e5b6693e8",
+      "nameTag": "Gearbox Protocol: Old Credit Filter DAI V1"
+    },
+    {
+      "address": "0x777e23a2acb2fcbb35f6ccf98272d03c722ba6eb",
+      "nameTag": "Gearbox Protocol: Old Credit Manager DAI V1"
+    },
+    {
+      "address": "0x49b34e58bab86b3cd23b0be0af4a152be1056902",
+      "nameTag": "Gearbox Protocol: Old CurveV1Adapter DAI V1"
+    },
+    {
+      "address": "0x815e1373f2932b1c4d0b710f80100de8d1165e2d",
+      "nameTag": "Gearbox Protocol: Old UniV2Adapter 2 DAI V1"
+    },
+    {
+      "address": "0xedbf8f73908c86a89f4d42344c8e01b82fe4aaa6",
+      "nameTag": "Gearbox Protocol: Old UniV2Adapter DAI V1"
+    },
+    {
+      "address": "0x088809824d03858c4113538bb82aa4ca7964ba78",
+      "nameTag": "Gearbox Protocol: Old UniV3Adapter DAI V1"
+    },
+    {
+      "address": "0x2a3e48cf8485fefc05d40049b0efa237e869d7d7",
+      "nameTag": "Gearbox Protocol: Old Yearn Adapter 2 DAI V1"
+    },
+    {
+      "address": "0x403e98b110a4dc89da963394dc8518b5f0e2d5fb",
+      "nameTag": "Gearbox Protocol: Old Yearn Adapter DAI V1"
+    },
+    {
+      "address": "0xe428c5460b1fbc7d15d1da7c9d162cb1b9a44046",
+      "nameTag": "mStable: OLD FEI Feeder Pool Vault Logic"
+    },
+    {
+      "address": "0xbae7b2507a9df82c6c5225930a993ba170a14fb5",
+      "nameTag": "mStable: OLD RAI Feeder Pool Vault Logic"
+    },
+    {
+      "address": "0x86edc342b267ac30829caab155786879f8a8eaa9",
+      "nameTag": "PieDAO: Lending Manager YPIE"
+    },
+    {
+      "address": "0x64e4e5ffc4d56633d97efc7e41f62efff9fab7dc",
+      "nameTag": "PieDAO: Lending Manager YPIE 2"
+    },
+    {
+      "address": "0xb739dcf499306b191d9d4fa5255a8f20066a6a96",
+      "nameTag": "PieDAO: Lending Registry"
+    },
+    {
+      "address": "0x4f08882c585dd58d7b9a6f2a7523e4a468c3cedb",
+      "nameTag": "PieDAO: Oven Factory V2"
+    },
+    {
+      "address": "0xb9eef048dcc5f9cc453029cc2ed21f4a558ad0e8",
+      "nameTag": "PieDAO: PLAY Oven V2"
+    },
+    {
+      "address": "0x90cc6f4ec7aa0468d2edb3f627acd988b14a78b4",
+      "nameTag": "PieDAO: PLAY OvenV2"
+    },
+    {
+      "address": "0x925f860d1596cc6383c16294d8290f82bde172f7",
+      "nameTag": "PieDAO: YPIE Oven"
+    },
+    {
+      "address": "0xaedec86dede3ded9562fb00ada623c0e9beeb951",
+      "nameTag": "PieDAO: YPIE Oven 2"
+    },
+    {
+      "address": "0xf5e38bbedc78efea055e0c56035adb320e64c4bc",
+      "nameTag": "Quant: Deprecated Deployer"
+    },
+    {
+      "address": "0x1b396cf90504686b7ede2760eebb053d30d1f389",
+      "nameTag": "Reality Metaverse: Old RLTM Token"
+    },
+    {
+      "address": "0x987e300fdfb06093859358522a79098848c33852",
+      "nameTag": "Scroll: Old L2 Gas Price Oracle Proxy"
+    },
+    {
+      "address": "0x778ec2d9b4bae65c57a6436a6c37afc135bad727",
+      "nameTag": "Synthetix: Old Dapp Maintenance"
+    },
+    {
+      "address": "0xeaf60da0199be2f62005225248705de774582328",
+      "nameTag": "Synthetix: Old Proxy iMKR Token 1"
+    },
+    {
+      "address": "0x0794d09be5395f69534ff8151d72613077148b29",
+      "nameTag": "Synthetix: Old Proxy iMKR Token 2"
+    },
+    {
+      "address": "0x5d609c25adaafd856021f92296c66db602a0fce8",
+      "nameTag": "Synthetix: Old Proxy sBRL Token"
+    },
+    {
+      "address": "0x0bc209fb72390af12bd6fd775355ea0856864b31",
+      "nameTag": "Synthetix: Old Proxy sCAD Token"
+    },
+    {
+      "address": "0x60feeed05004476518281d43185fb7f52d9722c0",
+      "nameTag": "Synthetix: Old Proxy sCNY Token"
+    },
+    {
+      "address": "0x74c80bb51da1eac2d40074c647cbd0ab6920063f",
+      "nameTag": "Synthetix: Old Proxy sINR Token"
+    },
+    {
+      "address": "0xdce506b196b0df677d07e718f872cac9bc368a33",
+      "nameTag": "Synthetix: Old Proxy sKRW Token"
+    },
+    {
+      "address": "0xe88a4976cb7d8898d39e3f317421d625403ecb8c",
+      "nameTag": "Synthetix: Old Proxy sMKR Token 1"
+    },
+    {
+      "address": "0x4140919de11fce58e654cc6038017af97f810de1",
+      "nameTag": "Synthetix: Old Proxy sMKR Token 2"
+    },
+    {
+      "address": "0x26c0cb14470803120321b70ae85405ac298e5a42",
+      "nameTag": "Synthetix: Old Proxy sNZD Token"
+    },
+    {
+      "address": "0xd9553f0fda012224141aecc1eca0e29868ff7fe8",
+      "nameTag": "Synthetix: Old Proxy sPLN Token"
+    },
+    {
+      "address": "0xdcb5821fcfdab5553307b8f99591fc9daa3c4be3",
+      "nameTag": "Synthetix: Old Proxy sRUB Token"
+    },
+    {
+      "address": "0x632db1c25c03dcac8d23ff2c9a4cea34cbeffa1b",
+      "nameTag": "Synthetix: Old Proxy sSGD Token"
+    },
+    {
+      "address": "0x62492f15cf60c5847d3053e482cade8c5c29af88",
+      "nameTag": "Synthetix: Old Proxy XDR Token 1"
+    },
+    {
+      "address": "0xb3f67de9a919476a4c0fe821d67bf5c4637d8429",
+      "nameTag": "Synthetix: Old Proxy XDR Token 2"
+    },
+    {
+      "address": "0x99bcc501d04f400ba3f78b5375d00b56ace6ee0d",
+      "nameTag": "Synthetix: Old Synth iMKR Token 1"
+    },
+    {
+      "address": "0x047fc84504714d526808be07bf17bdd70726ef92",
+      "nameTag": "Synthetix: Old Synth iMKR Token 2"
+    },
+    {
+      "address": "0xd95e7f80766580634b2e0e49d9f66af317994fc7",
+      "nameTag": "Synthetix: Old Synth iMKR Token 3"
+    },
+    {
+      "address": "0x10a0532de3c86d9ce810f004fabcf5a1ea464390",
+      "nameTag": "Synthetix: Old Synth iMKR Token 4"
+    },
+    {
+      "address": "0x1228c7d8bbc5bc53db181bd7b1fce765aa83bf8a",
+      "nameTag": "Synthetix: Old Synth iMKR Token 5"
+    },
+    {
+      "address": "0xa5a4cccccaa26cea096f6e493839423f4d66c63f",
+      "nameTag": "Synthetix: Old Synth sBRL Token"
+    },
+    {
+      "address": "0x8f69c9ee79bf9320e1a5c19e559108e1cb3d002b",
+      "nameTag": "Synthetix: Old Synth sCAD Token"
+    },
+    {
+      "address": "0x60c34eb93afcd1b701ff8c036b128441c68a8a70",
+      "nameTag": "Synthetix: Old Synth sCNY Token"
+    },
+    {
+      "address": "0x51671b7556ebeb4c43180e983f5569973e15cac9",
+      "nameTag": "Synthetix: Old Synth sINR Token"
+    },
+    {
+      "address": "0xdf846d3ded30a0590319f8a7ecd4e233b0e9188c",
+      "nameTag": "Synthetix: Old Synth sKRW Token"
+    },
+    {
+      "address": "0x13586160e4f890d0631c3c08d989f5b7afe202b0",
+      "nameTag": "Synthetix: Old Synth sMKR Token 1"
+    },
+    {
+      "address": "0xfac2b3400df00a348c3118831a45a05255f9004a",
+      "nameTag": "Synthetix: Old Synth sMKR Token 2"
+    },
+    {
+      "address": "0x84965dca28c4eb9de61d80f80e811ea12be1c819",
+      "nameTag": "Synthetix: Old Synth sMKR Token 3"
+    },
+    {
+      "address": "0x54a0326fb698c2cfaca5327550a897fa66d21f07",
+      "nameTag": "Synthetix: Old Synth sMKR Token 4"
+    },
+    {
+      "address": "0xd1599e478cc818afa42a4839a6c665d9279c3e50",
+      "nameTag": "Synthetix: Old Synth sMKR Token 5"
+    },
+    {
+      "address": "0xcf401f31c63f58debfc76f441731dfa945cd0bde",
+      "nameTag": "Synthetix: Old Synth sNZD Token"
+    },
+    {
+      "address": "0x1943dbd2a793c588b5170188ee6fb62e02afdff7",
+      "nameTag": "Synthetix: Old Synth sPLN Token"
+    },
+    {
+      "address": "0x8a8dcbba6038c6fc6d192f5cf5c5dd83b98591bc",
+      "nameTag": "Synthetix: Old Synth sRUB Token"
+    },
+    {
+      "address": "0x2ae393c18b6aa62d6a2250af7b803fa6973bc981",
+      "nameTag": "Synthetix: Old Synth sSGD Token"
+    },
+    {
+      "address": "0x2972705af18c66c14cdd27ad412961e01944a9c3",
+      "nameTag": "Synthetix: Old Synth XDR Token 1"
+    },
+    {
+      "address": "0x6025f88abb6d99d02c5eed82c151d52bac8e444b",
+      "nameTag": "Synthetix: Old Synth XDR Token 2"
+    },
+    {
+      "address": "0x30a46e656cdca6b401ff043e1abb151490a07ab0",
+      "nameTag": "Synthetix: Old Synth XDR Token 3"
+    },
+    {
+      "address": "0x96f9d144e55149437640512b82d7dda065e89773",
+      "nameTag": "Synthetix: Old Synth XDR Token 4"
+    },
+    {
+      "address": "0xa0c19218271f056bc10b1cdd7a5fab48f757bc86",
+      "nameTag": "Synthetix: Old Token State iMKR"
+    },
+    {
+      "address": "0x0985de52896fc4c9a84d108f5582ec02fdf91605",
+      "nameTag": "Synthetix: Old Token State sBRL"
+    },
+    {
+      "address": "0xddf91fc27087e076574df31483db5c21a85e47b6",
+      "nameTag": "Synthetix: Old Token State sCAD"
+    },
+    {
+      "address": "0x5cca1f0c514c0624d3ba7585d56fd2d72cbefd80",
+      "nameTag": "Synthetix: Old Token State sCNY"
+    },
+    {
+      "address": "0xf8f2f8001fca737efa2bc26217fc20c1f8267fba",
+      "nameTag": "Synthetix: Old Token State sINR"
+    },
+    {
+      "address": "0x249a10c68afa9827571cb73f29ab5af57ee5a596",
+      "nameTag": "Synthetix: Old Token State sKRW"
+    },
+    {
+      "address": "0xcee0a0dc7f393ed6ac84a3ac2191c28d6a53acef",
+      "nameTag": "Synthetix: Old Token State sMKR"
+    },
+    {
+      "address": "0x3fda286f354a3318534026dbacf021c84a71b03c",
+      "nameTag": "Synthetix: Old Token State sNZD"
+    },
+    {
+      "address": "0xdb957f324be2de9bdab01a3dbb50228569fdee1b",
+      "nameTag": "Synthetix: Old Token State sPLN"
+    },
+    {
+      "address": "0xf1ef8ee7dfee4bd0e06b0fced1d299387b78cb09",
+      "nameTag": "Synthetix: Old Token State sRUB"
+    },
+    {
+      "address": "0x000f49fd739d4023b0a6c87ee8705ef1ffb55c87",
+      "nameTag": "Synthetix: Old Token State sSGD"
+    },
+    {
+      "address": "0xbf093390d8046ae2d0f5465dec7001d65dc159d5",
+      "nameTag": "Synthetix: Old Token State XDR"
+    },
+    {
+      "address": "0x1f0d1927498fbd4f9e8558704ce5b658929527ec",
+      "nameTag": "Zapper.Fi: Deprecated Polygon Bridge"
+    }
+  ]
+}

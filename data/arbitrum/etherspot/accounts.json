@@ -1,6 +1,9 @@
-[
-  {
-    "address": "0xfb925186f787694009ab6404b9caab95bc7ae377",
-    "nameTag": "Etherspot: ERC-4337 Bundler 1"
-  }
-]
+{
+  "lastPulled": "2024-04-02T21:01:28.605Z",
+  "data": [
+    {
+      "address": "0xfb925186f787694009ab6404b9caab95bc7ae377",
+      "nameTag": "Etherspot: ERC-4337 Bundler 1"
+    }
+  ]
+}

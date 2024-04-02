@@ -1,10 +1,13 @@
-[
-  {
-    "address": "0x8b34b14c7c7123459cf3076b8cb929be097d0c07",
-    "nameTag": "Mode: Optimism Portal Proxy"
-  },
-  {
-    "address": "0x735adbbe72226bd52e818e7181953f42e3b0ff21",
-    "nameTag": "Mode: Standard Bridge Proxy"
-  }
-]
+{
+  "lastPulled": "2024-04-02T20:46:11.141Z",
+  "data": [
+    {
+      "address": "0x8b34b14c7c7123459cf3076b8cb929be097d0c07",
+      "nameTag": "Mode: Optimism Portal Proxy"
+    },
+    {
+      "address": "0x735adbbe72226bd52e818e7181953f42e3b0ff21",
+      "nameTag": "Mode: Standard Bridge Proxy"
+    }
+  ]
+}

@@ -1,734 +1,737 @@
-[
-  {
-    "address": "0xa79828df1850e8a3a3064576f380d90aecdd3359",
-    "nameTag": "Curve Finance: 3Pool Deposit Zap"
-  },
-  {
-    "address": "0x0000000022d53366457f9d5e68ec105046fc4383",
-    "nameTag": "Curve Finance: Address Provider"
-  },
-  {
-    "address": "0x0959158b6040d32d04c301a72cbfd6b39e21c9ae",
-    "nameTag": "Curve Finance: MetaPool Factory"
-  },
-  {
-    "address": "0xd6930b7f661257da36f93160149b031735237594",
-    "nameTag": "Curve Finance: Pool Migrator"
-  },
-  {
-    "address": "0x7abdbaf29929e7f8621b757d2a7c04d78d633834",
-    "nameTag": "Curve Finance: sBTC Deposit Zap"
-  },
-  {
-    "address": "0x58a3c68e2d3aaf316239c003779f71acb870ee47",
-    "nameTag": "Curve Finance: SynthSwap"
-  },
-  {
-    "address": "0x6c3f90f043a72fa612cbac8115ee7e52bde6e490",
-    "nameTag": "Curve.fi: 3CRV Token"
-  },
-  {
-    "address": "0x5f890841f657d90e081babdb532a05996af79fe6",
-    "nameTag": "Curve.fi: 3Pool Implementation Contract"
-  },
-  {
-    "address": "0xfd2a8fa60abd58efe3eee34dd494cd491dc14900",
-    "nameTag": "Curve.fi: a3CRV Token"
-  },
-  {
-    "address": "0xd662908ada2ea1916b3318327a97eb18ad588b5d",
-    "nameTag": "Curve.fi: AAVE Liquidity Gauge"
-  },
-  {
-    "address": "0x12220a63a2013133d54558c9d03c35288eac9b34",
-    "nameTag": "Curve.fi: ABurner"
-  },
-  {
-    "address": "0xeb16ae0052ed37f479f7fe63849198df1765a733",
-    "nameTag": "Curve.fi: aDAI/aSUSD Pool"
-  },
-  {
-    "address": "0xdebf20617708857ebe4f679508e7b7863a8a8eee",
-    "nameTag": "Curve.fi: aDAI/aUSDC/aUSDT Pool"
-  },
-  {
-    "address": "0x4473243a61b5193670d1324872368d015081822f",
-    "nameTag": "Curve.fi: Admin Fee Bridge (Ethereum)"
-  },
-  {
-    "address": "0xa96a65c051bf88b4095ee1f2451c2a9d43f53ae2",
-    "nameTag": "Curve.fi: aETHc Pool"
-  },
-  {
-    "address": "0x43b4fdfd4ff969587185cdb6f0bd875c5fc83f8c",
-    "nameTag": "Curve.fi: alUSD Factory Pool"
-  },
-  {
-    "address": "0x9582c4adacb3bce56fea3e590f05c3ca2fb9c477",
-    "nameTag": "Curve.fi: alUSD Liquidity Gauge"
-  },
-  {
-    "address": "0xaa17a236f2badc98ddc0cf999abb47d47fc0a6cf",
-    "nameTag": "Curve.fi: ankrCRV Token"
-  },
-  {
-    "address": "0x6d10ed2cf043e6fcf51a0e7b4c2af3fa06695707",
-    "nameTag": "Curve.fi: ankrETH Liquidity Gauge"
-  },
-  {
-    "address": "0xdfc7adfa664b08767b735de28f9e84cd30492aee",
-    "nameTag": "Curve.fi: bBTC Liquidity Gauge"
-  },
-  {
-    "address": "0x071c661b4deefb59e2a3ddb20db036821eee8f4b",
-    "nameTag": "Curve.fi: bBTC Metapool"
-  },
-  {
-    "address": "0x410e3e86ef427e30b9235497143881f717d93c2a",
-    "nameTag": "Curve.fi: bBTC/sBTCCRV Token"
-  },
-  {
-    "address": "0x3b3ac5386837dc563660fb6a0937dfaa5924333b",
-    "nameTag": "Curve.fi: bCrv Token"
-  },
-  {
-    "address": "0xb6c057591e073249f2d9d88ba59a46cfc9b59edb",
-    "nameTag": "Curve.fi: BUSD Deposit"
-  },
-  {
-    "address": "0x69fb7c45726cfe2badee8317005d3f94be838840",
-    "nameTag": "Curve.fi: bUSD Liquidity Gauge"
-  },
-  {
-    "address": "0x79a8c46dea5ada233abaffd40f3a0a2b1e5a4f27",
-    "nameTag": "Curve.fi: BUSD Swap"
-  },
-  {
-    "address": "0xdd0e10857d952c73b2fa39ce86308299df8774b8",
-    "nameTag": "Curve.fi: CBurner"
-  },
-  {
-    "address": "0x7ca5b0a2910b33e9759dc7ddb0413949071d7575",
-    "nameTag": "Curve.fi: cCRV Liquidity Gauge"
-  },
-  {
-    "address": "0x845838df265dcd2c412a1dc9e959c7d08537f8a2",
-    "nameTag": "Curve.fi: cCrv Token"
-  },
-  {
-    "address": "0xeb21209ae4c2c9ff2a86aca31e123764a3b6bc06",
-    "nameTag": "Curve.fi: Compound Deposit"
-  },
-  {
-    "address": "0xa2b47e3d5c44877cca798226b7b8118f9bfb7a56",
-    "nameTag": "Curve.fi: Compound Swap"
-  },
-  {
-    "address": "0xd533a949740bb3306d119cc777fa900ba034cd52",
-    "nameTag": "Curve.fi: CRV Token"
-  },
-  {
-    "address": "0xca3d75ac011bf5ad07a98d02f18225f9bd9a6bdf",
-    "nameTag": "Curve.fi: crvTricrypto Token"
-  },
-  {
-    "address": "0x0b5b9210d5015fd0c97fb19b32675b19703b0453",
-    "nameTag": "Curve.fi: Crypto LP Burner"
-  },
-  {
-    "address": "0x3687367ccaebbe89f1bc8eae7592b4eed44ac0bd",
-    "nameTag": "Curve.fi: Crypto Pool Owner"
-  },
-  {
-    "address": "0x331af2e331bd619defaa5dac6c038f53fcf9f785",
-    "nameTag": "Curve.fi: CryptoSwap Deposit Zap"
-  },
-  {
-    "address": "0xc1db00a8e5ef7bfa476395cdbcc98235477cde4e",
-    "nameTag": "Curve.fi: Curve Calculator"
-  },
-  {
-    "address": "0x571ff5b7b346f706aa48d696a9a4a288e9bb4091",
-    "nameTag": "Curve.fi: cy3CRV Token"
-  },
-  {
-    "address": "0x2dded6da1bf5dbdf597c45fcfaa3194e53ecfeaf",
-    "nameTag": "Curve.fi: cyDAI/cyUSDT/cyUSDC Pool"
-  },
-  {
-    "address": "0x8925d9d9b4569d737a48499def3f67baa5a144b9",
-    "nameTag": "Curve.fi: cyDAI/cyUSDT/cyUSDC Pool 2"
-  },
-  {
-    "address": "0xbfcf63294ad7105dea65aa58f8ae5be2d9d0952a",
-    "nameTag": "Curve.fi: DAI/USDC/USDT Gauge"
-  },
-  {
-    "address": "0xbebc44782c7db0a1a60cb6fe97d0b483032ff1c7",
-    "nameTag": "Curve.fi: DAI/USDC/USDT Pool"
-  },
-  {
-    "address": "0xc447fcaf1def19a583f97b3620627bf69c05b5fb",
-    "nameTag": "Curve.fi: Deployer"
-  },
-  {
-    "address": "0xbabe61887f1de2713c6f97e567623453d3c79f67",
-    "nameTag": "Curve.fi: Deployer 2"
-  },
-  {
-    "address": "0xc45b2eee6e09ca176ca3bb5f7eee7c47bf93c756",
-    "nameTag": "Curve.fi: Deposit bBTC"
-  },
-  {
-    "address": "0x61e10659fe3aa93d036d099405224e4ac24996d0",
-    "nameTag": "Curve.fi: Deposit DUSD"
-  },
-  {
-    "address": "0x64448b78561690b70e17cbe8029a3e5c1bb7136e",
-    "nameTag": "Curve.fi: Deposit GUSD"
-  },
-  {
-    "address": "0x09672362833d8f703d5395ef3252d4bfa51c15ca",
-    "nameTag": "Curve.fi: Deposit HUSD"
-  },
-  {
-    "address": "0x1de7f0866e2c4adac7b457c58cc25c8688cda1f2",
-    "nameTag": "Curve.fi: Deposit LinkUSD"
-  },
-  {
-    "address": "0x803a2b40c5a9bb2b86dd630b274fa2a9202874c2",
-    "nameTag": "Curve.fi: Deposit MUSD"
-  },
-  {
-    "address": "0x11f419adabbff8d595e7d5b223eee3863bb3902c",
-    "nameTag": "Curve.fi: Deposit pBTC"
-  },
-  {
-    "address": "0xbe175115bf33e12348ff77ccfee4726866a0fbd5",
-    "nameTag": "Curve.fi: Deposit RSV"
-  },
-  {
-    "address": "0xaa82ca713d94bba7a89ceab55314f9effeddc78c",
-    "nameTag": "Curve.fi: Deposit tBTC"
-  },
-  {
-    "address": "0xf1f85a74ad6c64315f85af52d3d46bf715236adc",
-    "nameTag": "Curve.fi: Deposit USDK"
-  },
-  {
-    "address": "0x094d12e5b541784701fd8d65f11fc0598fbc6332",
-    "nameTag": "Curve.fi: Deposit USDN"
-  },
-  {
-    "address": "0x3c8caee4e09296800f8d29a68fa3837e2dae4940",
-    "nameTag": "Curve.fi: Deposit USDP"
-  },
-  {
-    "address": "0xb0a0716841f2fc03fba72a891b8bb13584f52f2d",
-    "nameTag": "Curve.fi: Deposit UST"
-  },
-  {
-    "address": "0x28b88cfd875c883cdb61938c97b8d1baabf31c88",
-    "nameTag": "Curve.fi: Donate"
-  },
-  {
-    "address": "0xaea6c312f4b3e04d752946d329693f7293bc2e6d",
-    "nameTag": "Curve.fi: DUSD Liquidity Gauge"
-  },
-  {
-    "address": "0x8038c01a0390a8c547446a0b2c18fc9aefecc10c",
-    "nameTag": "Curve.fi: DUSD MetaPool"
-  },
-  {
-    "address": "0x3a664ab939fd8482048609f652f9a0b0677337b9",
-    "nameTag": "Curve.fi: DUSD3CRV Token"
-  },
-  {
-    "address": "0xa3d87fffce63b53e0d54faa1cc983b7eb0b74a9c",
-    "nameTag": "Curve.fi: eCRV Token"
-  },
-  {
-    "address": "0x00669df67e4827fcc0e48a1838a8d5ab79281909",
-    "nameTag": "Curve.fi: Emergency Agent"
-  },
-  {
-    "address": "0x4c0947b16fb1f755a2d32ec21a0c4181f711c500",
-    "nameTag": "Curve.fi: Emergency Token"
-  },
-  {
-    "address": "0xf9440930043eb3997fc70e1339dbb11f341de7a8",
-    "nameTag": "Curve.fi: ETH/rETH Pool"
-  },
-  {
-    "address": "0xc5424b857f758e906013f3555dad202e4bdb4567",
-    "nameTag": "Curve.fi: ETH/sETH Pool"
-  },
-  {
-    "address": "0x90bb609649e0451e5ad952683d64bd2d1f245840",
-    "nameTag": "Curve.fi: EURS Liquidity Gauge"
-  },
-  {
-    "address": "0x194ebd173f6cdace046c53eacce9b953f28411d1",
-    "nameTag": "Curve.fi: eursCRV Token"
-  },
-  {
-    "address": "0x8cf8af108b3b46ddc6ad596aebb917e053f0d72b",
-    "nameTag": "Curve.fi: Factory Pool Owner"
-  },
-  {
-    "address": "0xa464e6dcda8ac41e03616f95f4bc98a13b8922dc",
-    "nameTag": "Curve.fi: Fee Distributor"
-  },
-  {
-    "address": "0x72e158d38dbd50a483501c24f792bdaaa3e7d55c",
-    "nameTag": "Curve.fi: FRAX Liquidity Gauge"
-  },
-  {
-    "address": "0x2f50d538606fa9edd2b11e2446beb18c9d5846bb",
-    "nameTag": "Curve.fi: Gauge Controller"
-  },
-  {
-    "address": "0x519afb566c05e00cfb9af73496d00217a630e4d5",
-    "nameTag": "Curve.fi: Gauge Owner"
-  },
-  {
-    "address": "0x0ae274c98c0415c0651af8cf52b010136e4a0082",
-    "nameTag": "Curve.fi: GUSD Deposit"
-  },
-  {
-    "address": "0xc5cfada84e902ad92dd40194f0883ad49639b023",
-    "nameTag": "Curve.fi: GUSD Liquidity Gauge"
-  },
-  {
-    "address": "0x4f062658eaaf2c1ccf8c8e36d6824cdf41167956",
-    "nameTag": "Curve.fi: GUSD Pool"
-  },
-  {
-    "address": "0xd2967f45c4f384deea880f807be904762a3dea07",
-    "nameTag": "Curve.fi: gusd3CRV Token"
-  },
-  {
-    "address": "0x4c18e409dc8619bfb6a1cb56d114c3f592e0ae79",
-    "nameTag": "Curve.fi: hBTC Liquidity Gauge"
-  },
-  {
-    "address": "0x4ca9b3063ec5866a4b82e437059d2c43d1be596f",
-    "nameTag": "Curve.fi: HBTC/WBTC Pool"
-  },
-  {
-    "address": "0xb19059ebb43466c323583928285a49f558e572fd",
-    "nameTag": "Curve.fi: hCRV Token"
-  },
-  {
-    "address": "0x0a53fada2d943057c47a301d25a4d9b3b8e01e8e",
-    "nameTag": "Curve.fi: HUSD Deposit"
-  },
-  {
-    "address": "0x2db0e83599a91b508ac268a6197b8b14f5e72840",
-    "nameTag": "Curve.fi: HUSD Liquidity Gauge"
-  },
-  {
-    "address": "0x3ef6a01a0f81d6046290f3e2a8c5b843e738e604",
-    "nameTag": "Curve.fi: HUSD Pool"
-  },
-  {
-    "address": "0x5b5cfe992adac0c9d48e05854b2d91c73a003858",
-    "nameTag": "Curve.fi: husd3CRV Token"
-  },
-  {
-    "address": "0x5282a4ef67d9c33135340fb3289cc1711c13638c",
-    "nameTag": "Curve.fi: ib3CRV Token"
-  },
-  {
-    "address": "0xf5194c3325202f456c95c1cf0ca36f8475c1949f",
-    "nameTag": "Curve.fi: IronBank Liquidity Gauge"
-  },
-  {
-    "address": "0xfd4d8a17df4c27c1dd245d153ccf4499e806c87d",
-    "nameTag": "Curve.fi: LINK Liquidity Gauge"
-  },
-  {
-    "address": "0xf178c0b5bb7e7abf4e12a4838c7b7c5ba2c623c0",
-    "nameTag": "Curve.fi: LINK/sLINK Pool"
-  },
-  {
-    "address": "0xcee60cfa923170e4f8204ae08b4fa6a3f5656f3a",
-    "nameTag": "Curve.fi: linkCRV Token"
-  },
-  {
-    "address": "0xf6bdc2619ffda72c537cd9605e0a274dc48cb1c9",
-    "nameTag": "Curve.fi: LinkUSD Deposit"
-  },
-  {
-    "address": "0xe7a24ef0c5e95ffb0f6684b813a78f2a3ad7d171",
-    "nameTag": "Curve.fi: LinkUSD Pool"
-  },
-  {
-    "address": "0x6d65b498cb23deaba52db31c93da9bffb340fb8f",
-    "nameTag": "Curve.fi: LinkUSD3CRV Token"
-  },
-  {
-    "address": "0xaa42c0cd9645a58dfeb699ccaefbd30f19b1ff81",
-    "nameTag": "Curve.fi: LP Burner"
-  },
-  {
-    "address": "0xe4b65889469ad896e866331f0ab5652c1ecfb3e6",
-    "nameTag": "Curve.fi: Meta Burner"
-  },
-  {
-    "address": "0x78cf256256c8089d68cde634cf7cdefb39286470",
-    "nameTag": "Curve.fi: MUSD Deposit"
-  },
-  {
-    "address": "0x5f626c30ec1215f4edcc9982265e8b1f411d1352",
-    "nameTag": "Curve.fi: MUSD Liquidity Gauge"
-  },
-  {
-    "address": "0x8474ddbe98f5aa3179b3b3f5942d724afcdec9f6",
-    "nameTag": "Curve.fi: MUSD Pool"
-  },
-  {
-    "address": "0x1aef73d49dedc4b1778d0706583995958dc862e6",
-    "nameTag": "Curve.fi: musd3CRV Token"
-  },
-  {
-    "address": "0x11137b10c210b579405c21a07489e28f3c040ab1",
-    "nameTag": "Curve.fi: oBTC Liquidity Gauge"
-  },
-  {
-    "address": "0xd81da8d904b52208541bade1bd6595d8a251f8dd",
-    "nameTag": "Curve.fi: oBTC MetaPool"
-  },
-  {
-    "address": "0x2fe94ea3d5d4a175184081439753de15aef9d614",
-    "nameTag": "Curve.fi: oBTC/sbtcCRV Token"
-  },
-  {
-    "address": "0x2e60cf74d81ac34eb21eeff58db4d385920ef419",
-    "nameTag": "Curve.fi: Old Contract"
-  },
-  {
-    "address": "0x40907540d8a6c65c637785e8f8b742ae6b0b9968",
-    "nameTag": "Curve.fi: Ownership Agent"
-  },
-  {
-    "address": "0x4eeb3ba4f221ca16ed4a0cc7254e2e32df948c5f",
-    "nameTag": "Curve.fi: Parameter Agent"
-  },
-  {
-    "address": "0xa50ccc70b6a011cffddf45057e39679379187287",
-    "nameTag": "Curve.fi: PAX Deposit"
-  },
-  {
-    "address": "0x06364f10b501e868329afbc005b3492902d6c763",
-    "nameTag": "Curve.fi: PAX Swap"
-  },
-  {
-    "address": "0xd7d147c6bb90a718c3de8c0568f9b560c79fa416",
-    "nameTag": "Curve.fi: pBTC Liquidity Gauge"
-  },
-  {
-    "address": "0x7f55dde206dbad629c080068923b36fe9d6bdbef",
-    "nameTag": "Curve.fi: pBTC MetaPool"
-  },
-  {
-    "address": "0xde5331ac4b3630f94853ff322b66407e0d6331e8",
-    "nameTag": "Curve.fi: pBTC/sbtcCRV Token"
-  },
-  {
-    "address": "0xd905e2eaebe188fc92179b6350807d8bd91db0d8",
-    "nameTag": "Curve.fi: pCrv Token"
-  },
-  {
-    "address": "0xe64608e223433e8a03a1daaefd8cb638c14b552c",
-    "nameTag": "Curve.fi: Pool Info"
-  },
-  {
-    "address": "0xecb456ea5365865ebab8a2661b0c503410e9b347",
-    "nameTag": "Curve.fi: Pool Owner"
-  },
-  {
-    "address": "0x90e00ace148ca3b23ac1bc8c240c2a7dd9c2d7f5",
-    "nameTag": "Curve.fi: Pool Registry"
-  },
-  {
-    "address": "0x64e3c23bfc40722d3b649844055f1d51c1ac041d",
-    "nameTag": "Curve.fi: pPAX Liquidity Gauge"
-  },
-  {
-    "address": "0x53a901d48795c58f485cbb38df08fa96a24669d5",
-    "nameTag": "Curve.fi: rCRV Token"
-  },
-  {
-    "address": "0x7002b727ef8f5571cb5f9d70d13dbeeb4dfae9d1",
-    "nameTag": "Curve.fi: Registry"
-  },
-  {
-    "address": "0x9fe350dfa5f66bc086243f21a8f0932514316627",
-    "nameTag": "Curve.fi: Ren Adapter"
-  },
-  {
-    "address": "0x26d9980571e77ffb0349f9c801dd7ca9951fb656",
-    "nameTag": "Curve.fi: Ren Adapter 2"
-  },
-  {
-    "address": "0x73ab2bd10ad10f7174a1ad5afae3ce3d991c5047",
-    "nameTag": "Curve.fi: Ren Adapter 3"
-  },
-  {
-    "address": "0x93054188d876f558f4a66b2ef1d97d16edf0895b",
-    "nameTag": "Curve.fi: REN Swap"
-  },
-  {
-    "address": "0xb1f2cdec61db658f091671f5f199635aef202cac",
-    "nameTag": "Curve.fi: renBTC Liquidity Gauge"
-  },
-  {
-    "address": "0x49849c98ae39fff122806c06791fa73784fb3675",
-    "nameTag": "Curve.fi: renCrv Token"
-  },
-  {
-    "address": "0x824f13f1a2f29cfeea81154b46c0fc820677a637",
-    "nameTag": "Curve.fi: rETH Liquidity Gauge"
-  },
-  {
-    "address": "0x4dc4a289a8e33600d8bd4cf5f6313e43a37adec7",
-    "nameTag": "Curve.fi: RSV Liquidity Gauge"
-  },
-  {
-    "address": "0xc18cc39da8b11da8c3541c598ee022258f9744da",
-    "nameTag": "Curve.fi: RSV MetaPool"
-  },
-  {
-    "address": "0xc2ee6b0334c261ed60c72f6054450b61b8f18e35",
-    "nameTag": "Curve.fi: rsv3CRV Token"
-  },
-  {
-    "address": "0x462253b8f74b72304c145db0e4eebd326b22ca39",
-    "nameTag": "Curve.fi: sAAVE Liquidity Gauge"
-  },
-  {
-    "address": "0x02d341ccb60faaf662bc0554d13778015d1b285c",
-    "nameTag": "Curve.fi: saCRV Token"
-  },
-  {
-    "address": "0x104c1e66c67c385e6095ffcc6227d75c761dc019",
-    "nameTag": "Curve.fi: sBTC Adapter"
-  },
-  {
-    "address": "0x02b3f51ac9202aa19be63d61a8c681579d6e3a51",
-    "nameTag": "Curve.fi: sBTC Adapter 2"
-  },
-  {
-    "address": "0xaeade605d01fe9a8e9c4b3aa0130a90d62167029",
-    "nameTag": "Curve.fi: sBTC Adapter 3"
-  },
-  {
-    "address": "0x2f956eee002b0debd468cf2e0490d1aec65e027f",
-    "nameTag": "Curve.fi: sBTC Implementation Contract"
-  },
-  {
-    "address": "0x705350c4bcd35c9441419ddd5d2f097d7a55410f",
-    "nameTag": "Curve.fi: sBTC Liquidity Gauge"
-  },
-  {
-    "address": "0x7fc77b5c7614e1533320ea6ddc2eb61fa00a9714",
-    "nameTag": "Curve.fi: sBTC Swap"
-  },
-  {
-    "address": "0x075b1bb99792c9e1041ba13afef80c91a1e70fb3",
-    "nameTag": "Curve.fi: sbtcCrv Token"
-  },
-  {
-    "address": "0xc25a3a3b969415c80451098fa907ec722572917f",
-    "nameTag": "Curve.fi: sCRV Token"
-  },
-  {
-    "address": "0x3c0ffff15ea30c35d7a85b85c0782d6c94e1d238",
-    "nameTag": "Curve.fi: sETH Liquidity Gauge"
-  },
-  {
-    "address": "0x0ce6a5ff5217e38315f87032cf90686c96627caa",
-    "nameTag": "Curve.fi: sEUR/EURS Pool"
-  },
-  {
-    "address": "0x06325440d014e39736583c165c2963ba99faf14e",
-    "nameTag": "Curve.fi: steCRV Token"
-  },
-  {
-    "address": "0x182b723a58739a9c974cfdb385ceadb237453c28",
-    "nameTag": "Curve.fi: stETH Liquidity Gauge"
-  },
-  {
-    "address": "0xfcba3e75865d2d561be8d220616520c171f12851",
-    "nameTag": "Curve.fi: sUSD v2 Deposit"
-  },
-  {
-    "address": "0xa5407eae9ba41422680e2e00537571bcc53efbfd",
-    "nameTag": "Curve.fi: sUSD v2 Swap"
-  },
-  {
-    "address": "0xa90996896660decc6e997655e065b23788857849",
-    "nameTag": "Curve.fi: sUSDv2 Liquidity Gauge"
-  },
-  {
-    "address": "0x67a0213310202dbc2cbe788f4349b72fba90f9fa",
-    "nameTag": "Curve.fi: Synth Burner"
-  },
-  {
-    "address": "0x6828bcf74279ee32f2723ec536c22c51eed383c6",
-    "nameTag": "Curve.fi: tBTC Liquidity Gauge"
-  },
-  {
-    "address": "0xc25099792e9349c7dd09759744ea681c7de2cb66",
-    "nameTag": "Curve.fi: tBTC MetaPool"
-  },
-  {
-    "address": "0x64eda51d3ad40d56b9dfc5554e06f94e1dd786fd",
-    "nameTag": "Curve.fi: tBTC/sbtcCRV Token"
-  },
-  {
-    "address": "0x9fc689ccada600b6df723d9e47d84d76664a1f23",
-    "nameTag": "Curve.fi: tCrv Token"
-  },
-  {
-    "address": "0xd061d61a4d941c39e5453435b6345dc261c2fce0",
-    "nameTag": "Curve.fi: Token Minter"
-  },
-  {
-    "address": "0x6955a55416a06839309018a8b0cb72c4ddc11f15",
-    "nameTag": "Curve.fi: TriCrypto Liquidity Gauge"
-  },
-  {
-    "address": "0x786b374b5eef874279f4b7b4de16940e57301a58",
-    "nameTag": "Curve.fi: Underlying Burner"
-  },
-  {
-    "address": "0xf3b64840b39121b40d8685f1576b64c157ce2e24",
-    "nameTag": "Curve.fi: Uniswap Burner"
-  },
-  {
-    "address": "0x6600e98b71dabfd4a8cac03b302b0189adb86afb",
-    "nameTag": "Curve.fi: USDK Deposit"
-  },
-  {
-    "address": "0xc2b1df84112619d190193e48148000e3990bf627",
-    "nameTag": "Curve.fi: USDK Liquidity Gauge"
-  },
-  {
-    "address": "0x3e01dd8a5e1fb3481f0f589056b428fc308af0fb",
-    "nameTag": "Curve.fi: USDK Pool"
-  },
-  {
-    "address": "0x97e2768e8e73511ca874545dc5ff8067eb19b787",
-    "nameTag": "Curve.fi: usdk3CRV Token"
-  },
-  {
-    "address": "0x06534b0bf7ff378f162d4f348390bda53b15fa35",
-    "nameTag": "Curve.fi: USDN Burner"
-  },
-  {
-    "address": "0x35796dac54f144dfbad1441ec7c32313a7c29f39",
-    "nameTag": "Curve.fi: USDN Deposit"
-  },
-  {
-    "address": "0xf98450b5602fa59cc66e1379dffb6fddc724cfc4",
-    "nameTag": "Curve.fi: USDN Liquidity Gauge"
-  },
-  {
-    "address": "0x0f9cb53ebe405d49a0bbdbd291a65ff571bc83e1",
-    "nameTag": "Curve.fi: USDN Metapool"
-  },
-  {
-    "address": "0x4f3e8f405cf5afc05d68142f3783bdfe13811522",
-    "nameTag": "Curve.fi: usdn3CRV Token"
-  },
-  {
-    "address": "0x055be5ddb7a925bfef3417fc157f53ca77ca7222",
-    "nameTag": "Curve.fi: USDP Liquidity Gauge"
-  },
-  {
-    "address": "0x42d7025938bec20b69cbae5a77421082407f053a",
-    "nameTag": "Curve.fi: USDP MetaPool"
-  },
-  {
-    "address": "0x7eb40e450b9655f4b3cc4259bcc731c63ff55ae6",
-    "nameTag": "Curve.fi: usdp3CRV Token"
-  },
-  {
-    "address": "0xac795d2c97e60df6a99ff1c814727302fd747a80",
-    "nameTag": "Curve.fi: USDT Deposit"
-  },
-  {
-    "address": "0xbc89cd85491d81c6ad2954e6d0362ee29fca8f53",
-    "nameTag": "Curve.fi: USDT Liquidity Gauge"
-  },
-  {
-    "address": "0x52ea46506b9cc5ef470c5bf89f17dc28bb35d85c",
-    "nameTag": "Curve.fi: USDT Swap"
-  },
-  {
-    "address": "0xd51a44d3fae010294c616388b506acda1bfaae46",
-    "nameTag": "Curve.fi: USDT/WBTC/WETH Pool"
-  },
-  {
-    "address": "0x3b7020743bc2a4ca9eaf9d0722d42e20d6935855",
-    "nameTag": "Curve.fi: UST Liquidity Gauge"
-  },
-  {
-    "address": "0x890f4e345b1daed0367a877a1612f86a1f86985f",
-    "nameTag": "Curve.fi: UST MetaPool"
-  },
-  {
-    "address": "0x94e131324b6054c0d789b190b2dac504e4361b53",
-    "nameTag": "Curve.fi: ust3CRV Token"
-  },
-  {
-    "address": "0x575ccd8e2d300e2377b43478339e364000318e2c",
-    "nameTag": "Curve.fi: Vesting Escrow"
-  },
-  {
-    "address": "0x1115c9b3168563354137cdc60efb66552dd50678",
-    "nameTag": "Curve.fi: Voting Emergency"
-  },
-  {
-    "address": "0x5f3b5dfeb7b28cdbd7faba78963ee202a494e2a2",
-    "nameTag": "Curve.fi: Voting Escrow"
-  },
-  {
-    "address": "0xe478de485ad2fe566d49342cbd03e49ed7db3356",
-    "nameTag": "Curve.fi: Voting Ownership"
-  },
-  {
-    "address": "0xbcff8b0b9419b9a88c44546519b1e909cf330399",
-    "nameTag": "Curve.fi: Voting Parameter"
-  },
-  {
-    "address": "0x80466c64868e1ab14a1ddf27a676c3fcbe638fe5",
-    "nameTag": "Curve.fi: WETH/WBTC/USDT Pool"
-  },
-  {
-    "address": "0xd16ea3e5681234da84419512eb597362135cd8c9",
-    "nameTag": "Curve.fi: Y Burner"
-  },
-  {
-    "address": "0xbbc81d23ea2c3ec7e56d39296f0cbb648873a5d3",
-    "nameTag": "Curve.fi: y Deposit"
-  },
-  {
-    "address": "0x45f783cce6b7ff23b2ab2d70e416cdb7d6055f51",
-    "nameTag": "Curve.fi: y Swap"
-  },
-  {
-    "address": "0xfa712ee4788c042e2b7bb55e6cb8ec569c4530c1",
-    "nameTag": "Curve.fi: yCRV Liquidity Gauge"
-  },
-  {
-    "address": "0xdf5e0e81dff6faf3a7e52ba697820c5e32d806a8",
-    "nameTag": "Curve.fi: yCrv Token"
-  },
-  {
-    "address": "0x8101e6760130be2c8ace79643ab73500571b7162",
-    "nameTag": "Curve.fi: yCRV V2 Liquidity Gauge"
-  }
-]
+{
+  "lastPulled": "2024-04-02T20:41:53.496Z",
+  "data": [
+    {
+      "address": "0xa79828df1850e8a3a3064576f380d90aecdd3359",
+      "nameTag": "Curve Finance: 3Pool Deposit Zap"
+    },
+    {
+      "address": "0x0000000022d53366457f9d5e68ec105046fc4383",
+      "nameTag": "Curve Finance: Address Provider"
+    },
+    {
+      "address": "0x0959158b6040d32d04c301a72cbfd6b39e21c9ae",
+      "nameTag": "Curve Finance: MetaPool Factory"
+    },
+    {
+      "address": "0xd6930b7f661257da36f93160149b031735237594",
+      "nameTag": "Curve Finance: Pool Migrator"
+    },
+    {
+      "address": "0x7abdbaf29929e7f8621b757d2a7c04d78d633834",
+      "nameTag": "Curve Finance: sBTC Deposit Zap"
+    },
+    {
+      "address": "0x58a3c68e2d3aaf316239c003779f71acb870ee47",
+      "nameTag": "Curve Finance: SynthSwap"
+    },
+    {
+      "address": "0x6c3f90f043a72fa612cbac8115ee7e52bde6e490",
+      "nameTag": "Curve.fi: 3CRV Token"
+    },
+    {
+      "address": "0x5f890841f657d90e081babdb532a05996af79fe6",
+      "nameTag": "Curve.fi: 3Pool Implementation Contract"
+    },
+    {
+      "address": "0xfd2a8fa60abd58efe3eee34dd494cd491dc14900",
+      "nameTag": "Curve.fi: a3CRV Token"
+    },
+    {
+      "address": "0xd662908ada2ea1916b3318327a97eb18ad588b5d",
+      "nameTag": "Curve.fi: AAVE Liquidity Gauge"
+    },
+    {
+      "address": "0x12220a63a2013133d54558c9d03c35288eac9b34",
+      "nameTag": "Curve.fi: ABurner"
+    },
+    {
+      "address": "0xeb16ae0052ed37f479f7fe63849198df1765a733",
+      "nameTag": "Curve.fi: aDAI/aSUSD Pool"
+    },
+    {
+      "address": "0xdebf20617708857ebe4f679508e7b7863a8a8eee",
+      "nameTag": "Curve.fi: aDAI/aUSDC/aUSDT Pool"
+    },
+    {
+      "address": "0x4473243a61b5193670d1324872368d015081822f",
+      "nameTag": "Curve.fi: Admin Fee Bridge (Ethereum)"
+    },
+    {
+      "address": "0xa96a65c051bf88b4095ee1f2451c2a9d43f53ae2",
+      "nameTag": "Curve.fi: aETHc Pool"
+    },
+    {
+      "address": "0x43b4fdfd4ff969587185cdb6f0bd875c5fc83f8c",
+      "nameTag": "Curve.fi: alUSD Factory Pool"
+    },
+    {
+      "address": "0x9582c4adacb3bce56fea3e590f05c3ca2fb9c477",
+      "nameTag": "Curve.fi: alUSD Liquidity Gauge"
+    },
+    {
+      "address": "0xaa17a236f2badc98ddc0cf999abb47d47fc0a6cf",
+      "nameTag": "Curve.fi: ankrCRV Token"
+    },
+    {
+      "address": "0x6d10ed2cf043e6fcf51a0e7b4c2af3fa06695707",
+      "nameTag": "Curve.fi: ankrETH Liquidity Gauge"
+    },
+    {
+      "address": "0xdfc7adfa664b08767b735de28f9e84cd30492aee",
+      "nameTag": "Curve.fi: bBTC Liquidity Gauge"
+    },
+    {
+      "address": "0x071c661b4deefb59e2a3ddb20db036821eee8f4b",
+      "nameTag": "Curve.fi: bBTC Metapool"
+    },
+    {
+      "address": "0x410e3e86ef427e30b9235497143881f717d93c2a",
+      "nameTag": "Curve.fi: bBTC/sBTCCRV Token"
+    },
+    {
+      "address": "0x3b3ac5386837dc563660fb6a0937dfaa5924333b",
+      "nameTag": "Curve.fi: bCrv Token"
+    },
+    {
+      "address": "0xb6c057591e073249f2d9d88ba59a46cfc9b59edb",
+      "nameTag": "Curve.fi: BUSD Deposit"
+    },
+    {
+      "address": "0x69fb7c45726cfe2badee8317005d3f94be838840",
+      "nameTag": "Curve.fi: bUSD Liquidity Gauge"
+    },
+    {
+      "address": "0x79a8c46dea5ada233abaffd40f3a0a2b1e5a4f27",
+      "nameTag": "Curve.fi: BUSD Swap"
+    },
+    {
+      "address": "0xdd0e10857d952c73b2fa39ce86308299df8774b8",
+      "nameTag": "Curve.fi: CBurner"
+    },
+    {
+      "address": "0x7ca5b0a2910b33e9759dc7ddb0413949071d7575",
+      "nameTag": "Curve.fi: cCRV Liquidity Gauge"
+    },
+    {
+      "address": "0x845838df265dcd2c412a1dc9e959c7d08537f8a2",
+      "nameTag": "Curve.fi: cCrv Token"
+    },
+    {
+      "address": "0xeb21209ae4c2c9ff2a86aca31e123764a3b6bc06",
+      "nameTag": "Curve.fi: Compound Deposit"
+    },
+    {
+      "address": "0xa2b47e3d5c44877cca798226b7b8118f9bfb7a56",
+      "nameTag": "Curve.fi: Compound Swap"
+    },
+    {
+      "address": "0xd533a949740bb3306d119cc777fa900ba034cd52",
+      "nameTag": "Curve.fi: CRV Token"
+    },
+    {
+      "address": "0xca3d75ac011bf5ad07a98d02f18225f9bd9a6bdf",
+      "nameTag": "Curve.fi: crvTricrypto Token"
+    },
+    {
+      "address": "0x0b5b9210d5015fd0c97fb19b32675b19703b0453",
+      "nameTag": "Curve.fi: Crypto LP Burner"
+    },
+    {
+      "address": "0x3687367ccaebbe89f1bc8eae7592b4eed44ac0bd",
+      "nameTag": "Curve.fi: Crypto Pool Owner"
+    },
+    {
+      "address": "0x331af2e331bd619defaa5dac6c038f53fcf9f785",
+      "nameTag": "Curve.fi: CryptoSwap Deposit Zap"
+    },
+    {
+      "address": "0xc1db00a8e5ef7bfa476395cdbcc98235477cde4e",
+      "nameTag": "Curve.fi: Curve Calculator"
+    },
+    {
+      "address": "0x571ff5b7b346f706aa48d696a9a4a288e9bb4091",
+      "nameTag": "Curve.fi: cy3CRV Token"
+    },
+    {
+      "address": "0x2dded6da1bf5dbdf597c45fcfaa3194e53ecfeaf",
+      "nameTag": "Curve.fi: cyDAI/cyUSDT/cyUSDC Pool"
+    },
+    {
+      "address": "0x8925d9d9b4569d737a48499def3f67baa5a144b9",
+      "nameTag": "Curve.fi: cyDAI/cyUSDT/cyUSDC Pool 2"
+    },
+    {
+      "address": "0xbfcf63294ad7105dea65aa58f8ae5be2d9d0952a",
+      "nameTag": "Curve.fi: DAI/USDC/USDT Gauge"
+    },
+    {
+      "address": "0xbebc44782c7db0a1a60cb6fe97d0b483032ff1c7",
+      "nameTag": "Curve.fi: DAI/USDC/USDT Pool"
+    },
+    {
+      "address": "0xc447fcaf1def19a583f97b3620627bf69c05b5fb",
+      "nameTag": "Curve.fi: Deployer"
+    },
+    {
+      "address": "0xbabe61887f1de2713c6f97e567623453d3c79f67",
+      "nameTag": "Curve.fi: Deployer 2"
+    },
+    {
+      "address": "0xc45b2eee6e09ca176ca3bb5f7eee7c47bf93c756",
+      "nameTag": "Curve.fi: Deposit bBTC"
+    },
+    {
+      "address": "0x61e10659fe3aa93d036d099405224e4ac24996d0",
+      "nameTag": "Curve.fi: Deposit DUSD"
+    },
+    {
+      "address": "0x64448b78561690b70e17cbe8029a3e5c1bb7136e",
+      "nameTag": "Curve.fi: Deposit GUSD"
+    },
+    {
+      "address": "0x09672362833d8f703d5395ef3252d4bfa51c15ca",
+      "nameTag": "Curve.fi: Deposit HUSD"
+    },
+    {
+      "address": "0x1de7f0866e2c4adac7b457c58cc25c8688cda1f2",
+      "nameTag": "Curve.fi: Deposit LinkUSD"
+    },
+    {
+      "address": "0x803a2b40c5a9bb2b86dd630b274fa2a9202874c2",
+      "nameTag": "Curve.fi: Deposit MUSD"
+    },
+    {
+      "address": "0x11f419adabbff8d595e7d5b223eee3863bb3902c",
+      "nameTag": "Curve.fi: Deposit pBTC"
+    },
+    {
+      "address": "0xbe175115bf33e12348ff77ccfee4726866a0fbd5",
+      "nameTag": "Curve.fi: Deposit RSV"
+    },
+    {
+      "address": "0xaa82ca713d94bba7a89ceab55314f9effeddc78c",
+      "nameTag": "Curve.fi: Deposit tBTC"
+    },
+    {
+      "address": "0xf1f85a74ad6c64315f85af52d3d46bf715236adc",
+      "nameTag": "Curve.fi: Deposit USDK"
+    },
+    {
+      "address": "0x094d12e5b541784701fd8d65f11fc0598fbc6332",
+      "nameTag": "Curve.fi: Deposit USDN"
+    },
+    {
+      "address": "0x3c8caee4e09296800f8d29a68fa3837e2dae4940",
+      "nameTag": "Curve.fi: Deposit USDP"
+    },
+    {
+      "address": "0xb0a0716841f2fc03fba72a891b8bb13584f52f2d",
+      "nameTag": "Curve.fi: Deposit UST"
+    },
+    {
+      "address": "0x28b88cfd875c883cdb61938c97b8d1baabf31c88",
+      "nameTag": "Curve.fi: Donate"
+    },
+    {
+      "address": "0xaea6c312f4b3e04d752946d329693f7293bc2e6d",
+      "nameTag": "Curve.fi: DUSD Liquidity Gauge"
+    },
+    {
+      "address": "0x8038c01a0390a8c547446a0b2c18fc9aefecc10c",
+      "nameTag": "Curve.fi: DUSD MetaPool"
+    },
+    {
+      "address": "0x3a664ab939fd8482048609f652f9a0b0677337b9",
+      "nameTag": "Curve.fi: DUSD3CRV Token"
+    },
+    {
+      "address": "0xa3d87fffce63b53e0d54faa1cc983b7eb0b74a9c",
+      "nameTag": "Curve.fi: eCRV Token"
+    },
+    {
+      "address": "0x00669df67e4827fcc0e48a1838a8d5ab79281909",
+      "nameTag": "Curve.fi: Emergency Agent"
+    },
+    {
+      "address": "0x4c0947b16fb1f755a2d32ec21a0c4181f711c500",
+      "nameTag": "Curve.fi: Emergency Token"
+    },
+    {
+      "address": "0xf9440930043eb3997fc70e1339dbb11f341de7a8",
+      "nameTag": "Curve.fi: ETH/rETH Pool"
+    },
+    {
+      "address": "0xc5424b857f758e906013f3555dad202e4bdb4567",
+      "nameTag": "Curve.fi: ETH/sETH Pool"
+    },
+    {
+      "address": "0x90bb609649e0451e5ad952683d64bd2d1f245840",
+      "nameTag": "Curve.fi: EURS Liquidity Gauge"
+    },
+    {
+      "address": "0x194ebd173f6cdace046c53eacce9b953f28411d1",
+      "nameTag": "Curve.fi: eursCRV Token"
+    },
+    {
+      "address": "0x8cf8af108b3b46ddc6ad596aebb917e053f0d72b",
+      "nameTag": "Curve.fi: Factory Pool Owner"
+    },
+    {
+      "address": "0xa464e6dcda8ac41e03616f95f4bc98a13b8922dc",
+      "nameTag": "Curve.fi: Fee Distributor"
+    },
+    {
+      "address": "0x72e158d38dbd50a483501c24f792bdaaa3e7d55c",
+      "nameTag": "Curve.fi: FRAX Liquidity Gauge"
+    },
+    {
+      "address": "0x2f50d538606fa9edd2b11e2446beb18c9d5846bb",
+      "nameTag": "Curve.fi: Gauge Controller"
+    },
+    {
+      "address": "0x519afb566c05e00cfb9af73496d00217a630e4d5",
+      "nameTag": "Curve.fi: Gauge Owner"
+    },
+    {
+      "address": "0x0ae274c98c0415c0651af8cf52b010136e4a0082",
+      "nameTag": "Curve.fi: GUSD Deposit"
+    },
+    {
+      "address": "0xc5cfada84e902ad92dd40194f0883ad49639b023",
+      "nameTag": "Curve.fi: GUSD Liquidity Gauge"
+    },
+    {
+      "address": "0x4f062658eaaf2c1ccf8c8e36d6824cdf41167956",
+      "nameTag": "Curve.fi: GUSD Pool"
+    },
+    {
+      "address": "0xd2967f45c4f384deea880f807be904762a3dea07",
+      "nameTag": "Curve.fi: gusd3CRV Token"
+    },
+    {
+      "address": "0x4c18e409dc8619bfb6a1cb56d114c3f592e0ae79",
+      "nameTag": "Curve.fi: hBTC Liquidity Gauge"
+    },
+    {
+      "address": "0x4ca9b3063ec5866a4b82e437059d2c43d1be596f",
+      "nameTag": "Curve.fi: HBTC/WBTC Pool"
+    },
+    {
+      "address": "0xb19059ebb43466c323583928285a49f558e572fd",
+      "nameTag": "Curve.fi: hCRV Token"
+    },
+    {
+      "address": "0x0a53fada2d943057c47a301d25a4d9b3b8e01e8e",
+      "nameTag": "Curve.fi: HUSD Deposit"
+    },
+    {
+      "address": "0x2db0e83599a91b508ac268a6197b8b14f5e72840",
+      "nameTag": "Curve.fi: HUSD Liquidity Gauge"
+    },
+    {
+      "address": "0x3ef6a01a0f81d6046290f3e2a8c5b843e738e604",
+      "nameTag": "Curve.fi: HUSD Pool"
+    },
+    {
+      "address": "0x5b5cfe992adac0c9d48e05854b2d91c73a003858",
+      "nameTag": "Curve.fi: husd3CRV Token"
+    },
+    {
+      "address": "0x5282a4ef67d9c33135340fb3289cc1711c13638c",
+      "nameTag": "Curve.fi: ib3CRV Token"
+    },
+    {
+      "address": "0xf5194c3325202f456c95c1cf0ca36f8475c1949f",
+      "nameTag": "Curve.fi: IronBank Liquidity Gauge"
+    },
+    {
+      "address": "0xfd4d8a17df4c27c1dd245d153ccf4499e806c87d",
+      "nameTag": "Curve.fi: LINK Liquidity Gauge"
+    },
+    {
+      "address": "0xf178c0b5bb7e7abf4e12a4838c7b7c5ba2c623c0",
+      "nameTag": "Curve.fi: LINK/sLINK Pool"
+    },
+    {
+      "address": "0xcee60cfa923170e4f8204ae08b4fa6a3f5656f3a",
+      "nameTag": "Curve.fi: linkCRV Token"
+    },
+    {
+      "address": "0xf6bdc2619ffda72c537cd9605e0a274dc48cb1c9",
+      "nameTag": "Curve.fi: LinkUSD Deposit"
+    },
+    {
+      "address": "0xe7a24ef0c5e95ffb0f6684b813a78f2a3ad7d171",
+      "nameTag": "Curve.fi: LinkUSD Pool"
+    },
+    {
+      "address": "0x6d65b498cb23deaba52db31c93da9bffb340fb8f",
+      "nameTag": "Curve.fi: LinkUSD3CRV Token"
+    },
+    {
+      "address": "0xaa42c0cd9645a58dfeb699ccaefbd30f19b1ff81",
+      "nameTag": "Curve.fi: LP Burner"
+    },
+    {
+      "address": "0xe4b65889469ad896e866331f0ab5652c1ecfb3e6",
+      "nameTag": "Curve.fi: Meta Burner"
+    },
+    {
+      "address": "0x78cf256256c8089d68cde634cf7cdefb39286470",
+      "nameTag": "Curve.fi: MUSD Deposit"
+    },
+    {
+      "address": "0x5f626c30ec1215f4edcc9982265e8b1f411d1352",
+      "nameTag": "Curve.fi: MUSD Liquidity Gauge"
+    },
+    {
+      "address": "0x8474ddbe98f5aa3179b3b3f5942d724afcdec9f6",
+      "nameTag": "Curve.fi: MUSD Pool"
+    },
+    {
+      "address": "0x1aef73d49dedc4b1778d0706583995958dc862e6",
+      "nameTag": "Curve.fi: musd3CRV Token"
+    },
+    {
+      "address": "0x11137b10c210b579405c21a07489e28f3c040ab1",
+      "nameTag": "Curve.fi: oBTC Liquidity Gauge"
+    },
+    {
+      "address": "0xd81da8d904b52208541bade1bd6595d8a251f8dd",
+      "nameTag": "Curve.fi: oBTC MetaPool"
+    },
+    {
+      "address": "0x2fe94ea3d5d4a175184081439753de15aef9d614",
+      "nameTag": "Curve.fi: oBTC/sbtcCRV Token"
+    },
+    {
+      "address": "0x2e60cf74d81ac34eb21eeff58db4d385920ef419",
+      "nameTag": "Curve.fi: Old Contract"
+    },
+    {
+      "address": "0x40907540d8a6c65c637785e8f8b742ae6b0b9968",
+      "nameTag": "Curve.fi: Ownership Agent"
+    },
+    {
+      "address": "0x4eeb3ba4f221ca16ed4a0cc7254e2e32df948c5f",
+      "nameTag": "Curve.fi: Parameter Agent"
+    },
+    {
+      "address": "0xa50ccc70b6a011cffddf45057e39679379187287",
+      "nameTag": "Curve.fi: PAX Deposit"
+    },
+    {
+      "address": "0x06364f10b501e868329afbc005b3492902d6c763",
+      "nameTag": "Curve.fi: PAX Swap"
+    },
+    {
+      "address": "0xd7d147c6bb90a718c3de8c0568f9b560c79fa416",
+      "nameTag": "Curve.fi: pBTC Liquidity Gauge"
+    },
+    {
+      "address": "0x7f55dde206dbad629c080068923b36fe9d6bdbef",
+      "nameTag": "Curve.fi: pBTC MetaPool"
+    },
+    {
+      "address": "0xde5331ac4b3630f94853ff322b66407e0d6331e8",
+      "nameTag": "Curve.fi: pBTC/sbtcCRV Token"
+    },
+    {
+      "address": "0xd905e2eaebe188fc92179b6350807d8bd91db0d8",
+      "nameTag": "Curve.fi: pCrv Token"
+    },
+    {
+      "address": "0xe64608e223433e8a03a1daaefd8cb638c14b552c",
+      "nameTag": "Curve.fi: Pool Info"
+    },
+    {
+      "address": "0xecb456ea5365865ebab8a2661b0c503410e9b347",
+      "nameTag": "Curve.fi: Pool Owner"
+    },
+    {
+      "address": "0x90e00ace148ca3b23ac1bc8c240c2a7dd9c2d7f5",
+      "nameTag": "Curve.fi: Pool Registry"
+    },
+    {
+      "address": "0x64e3c23bfc40722d3b649844055f1d51c1ac041d",
+      "nameTag": "Curve.fi: pPAX Liquidity Gauge"
+    },
+    {
+      "address": "0x53a901d48795c58f485cbb38df08fa96a24669d5",
+      "nameTag": "Curve.fi: rCRV Token"
+    },
+    {
+      "address": "0x7002b727ef8f5571cb5f9d70d13dbeeb4dfae9d1",
+      "nameTag": "Curve.fi: Registry"
+    },
+    {
+      "address": "0x9fe350dfa5f66bc086243f21a8f0932514316627",
+      "nameTag": "Curve.fi: Ren Adapter"
+    },
+    {
+      "address": "0x26d9980571e77ffb0349f9c801dd7ca9951fb656",
+      "nameTag": "Curve.fi: Ren Adapter 2"
+    },
+    {
+      "address": "0x73ab2bd10ad10f7174a1ad5afae3ce3d991c5047",
+      "nameTag": "Curve.fi: Ren Adapter 3"
+    },
+    {
+      "address": "0x93054188d876f558f4a66b2ef1d97d16edf0895b",
+      "nameTag": "Curve.fi: REN Swap"
+    },
+    {
+      "address": "0xb1f2cdec61db658f091671f5f199635aef202cac",
+      "nameTag": "Curve.fi: renBTC Liquidity Gauge"
+    },
+    {
+      "address": "0x49849c98ae39fff122806c06791fa73784fb3675",
+      "nameTag": "Curve.fi: renCrv Token"
+    },
+    {
+      "address": "0x824f13f1a2f29cfeea81154b46c0fc820677a637",
+      "nameTag": "Curve.fi: rETH Liquidity Gauge"
+    },
+    {
+      "address": "0x4dc4a289a8e33600d8bd4cf5f6313e43a37adec7",
+      "nameTag": "Curve.fi: RSV Liquidity Gauge"
+    },
+    {
+      "address": "0xc18cc39da8b11da8c3541c598ee022258f9744da",
+      "nameTag": "Curve.fi: RSV MetaPool"
+    },
+    {
+      "address": "0xc2ee6b0334c261ed60c72f6054450b61b8f18e35",
+      "nameTag": "Curve.fi: rsv3CRV Token"
+    },
+    {
+      "address": "0x462253b8f74b72304c145db0e4eebd326b22ca39",
+      "nameTag": "Curve.fi: sAAVE Liquidity Gauge"
+    },
+    {
+      "address": "0x02d341ccb60faaf662bc0554d13778015d1b285c",
+      "nameTag": "Curve.fi: saCRV Token"
+    },
+    {
+      "address": "0x104c1e66c67c385e6095ffcc6227d75c761dc019",
+      "nameTag": "Curve.fi: sBTC Adapter"
+    },
+    {
+      "address": "0x02b3f51ac9202aa19be63d61a8c681579d6e3a51",
+      "nameTag": "Curve.fi: sBTC Adapter 2"
+    },
+    {
+      "address": "0xaeade605d01fe9a8e9c4b3aa0130a90d62167029",
+      "nameTag": "Curve.fi: sBTC Adapter 3"
+    },
+    {
+      "address": "0x2f956eee002b0debd468cf2e0490d1aec65e027f",
+      "nameTag": "Curve.fi: sBTC Implementation Contract"
+    },
+    {
+      "address": "0x705350c4bcd35c9441419ddd5d2f097d7a55410f",
+      "nameTag": "Curve.fi: sBTC Liquidity Gauge"
+    },
+    {
+      "address": "0x7fc77b5c7614e1533320ea6ddc2eb61fa00a9714",
+      "nameTag": "Curve.fi: sBTC Swap"
+    },
+    {
+      "address": "0x075b1bb99792c9e1041ba13afef80c91a1e70fb3",
+      "nameTag": "Curve.fi: sbtcCrv Token"
+    },
+    {
+      "address": "0xc25a3a3b969415c80451098fa907ec722572917f",
+      "nameTag": "Curve.fi: sCRV Token"
+    },
+    {
+      "address": "0x3c0ffff15ea30c35d7a85b85c0782d6c94e1d238",
+      "nameTag": "Curve.fi: sETH Liquidity Gauge"
+    },
+    {
+      "address": "0x0ce6a5ff5217e38315f87032cf90686c96627caa",
+      "nameTag": "Curve.fi: sEUR/EURS Pool"
+    },
+    {
+      "address": "0x06325440d014e39736583c165c2963ba99faf14e",
+      "nameTag": "Curve.fi: steCRV Token"
+    },
+    {
+      "address": "0x182b723a58739a9c974cfdb385ceadb237453c28",
+      "nameTag": "Curve.fi: stETH Liquidity Gauge"
+    },
+    {
+      "address": "0xfcba3e75865d2d561be8d220616520c171f12851",
+      "nameTag": "Curve.fi: sUSD v2 Deposit"
+    },
+    {
+      "address": "0xa5407eae9ba41422680e2e00537571bcc53efbfd",
+      "nameTag": "Curve.fi: sUSD v2 Swap"
+    },
+    {
+      "address": "0xa90996896660decc6e997655e065b23788857849",
+      "nameTag": "Curve.fi: sUSDv2 Liquidity Gauge"
+    },
+    {
+      "address": "0x67a0213310202dbc2cbe788f4349b72fba90f9fa",
+      "nameTag": "Curve.fi: Synth Burner"
+    },
+    {
+      "address": "0x6828bcf74279ee32f2723ec536c22c51eed383c6",
+      "nameTag": "Curve.fi: tBTC Liquidity Gauge"
+    },
+    {
+      "address": "0xc25099792e9349c7dd09759744ea681c7de2cb66",
+      "nameTag": "Curve.fi: tBTC MetaPool"
+    },
+    {
+      "address": "0x64eda51d3ad40d56b9dfc5554e06f94e1dd786fd",
+      "nameTag": "Curve.fi: tBTC/sbtcCRV Token"
+    },
+    {
+      "address": "0x9fc689ccada600b6df723d9e47d84d76664a1f23",
+      "nameTag": "Curve.fi: tCrv Token"
+    },
+    {
+      "address": "0xd061d61a4d941c39e5453435b6345dc261c2fce0",
+      "nameTag": "Curve.fi: Token Minter"
+    },
+    {
+      "address": "0x6955a55416a06839309018a8b0cb72c4ddc11f15",
+      "nameTag": "Curve.fi: TriCrypto Liquidity Gauge"
+    },
+    {
+      "address": "0x786b374b5eef874279f4b7b4de16940e57301a58",
+      "nameTag": "Curve.fi: Underlying Burner"
+    },
+    {
+      "address": "0xf3b64840b39121b40d8685f1576b64c157ce2e24",
+      "nameTag": "Curve.fi: Uniswap Burner"
+    },
+    {
+      "address": "0x6600e98b71dabfd4a8cac03b302b0189adb86afb",
+      "nameTag": "Curve.fi: USDK Deposit"
+    },
+    {
+      "address": "0xc2b1df84112619d190193e48148000e3990bf627",
+      "nameTag": "Curve.fi: USDK Liquidity Gauge"
+    },
+    {
+      "address": "0x3e01dd8a5e1fb3481f0f589056b428fc308af0fb",
+      "nameTag": "Curve.fi: USDK Pool"
+    },
+    {
+      "address": "0x97e2768e8e73511ca874545dc5ff8067eb19b787",
+      "nameTag": "Curve.fi: usdk3CRV Token"
+    },
+    {
+      "address": "0x06534b0bf7ff378f162d4f348390bda53b15fa35",
+      "nameTag": "Curve.fi: USDN Burner"
+    },
+    {
+      "address": "0x35796dac54f144dfbad1441ec7c32313a7c29f39",
+      "nameTag": "Curve.fi: USDN Deposit"
+    },
+    {
+      "address": "0xf98450b5602fa59cc66e1379dffb6fddc724cfc4",
+      "nameTag": "Curve.fi: USDN Liquidity Gauge"
+    },
+    {
+      "address": "0x0f9cb53ebe405d49a0bbdbd291a65ff571bc83e1",
+      "nameTag": "Curve.fi: USDN Metapool"
+    },
+    {
+      "address": "0x4f3e8f405cf5afc05d68142f3783bdfe13811522",
+      "nameTag": "Curve.fi: usdn3CRV Token"
+    },
+    {
+      "address": "0x055be5ddb7a925bfef3417fc157f53ca77ca7222",
+      "nameTag": "Curve.fi: USDP Liquidity Gauge"
+    },
+    {
+      "address": "0x42d7025938bec20b69cbae5a77421082407f053a",
+      "nameTag": "Curve.fi: USDP MetaPool"
+    },
+    {
+      "address": "0x7eb40e450b9655f4b3cc4259bcc731c63ff55ae6",
+      "nameTag": "Curve.fi: usdp3CRV Token"
+    },
+    {
+      "address": "0xac795d2c97e60df6a99ff1c814727302fd747a80",
+      "nameTag": "Curve.fi: USDT Deposit"
+    },
+    {
+      "address": "0xbc89cd85491d81c6ad2954e6d0362ee29fca8f53",
+      "nameTag": "Curve.fi: USDT Liquidity Gauge"
+    },
+    {
+      "address": "0x52ea46506b9cc5ef470c5bf89f17dc28bb35d85c",
+      "nameTag": "Curve.fi: USDT Swap"
+    },
+    {
+      "address": "0xd51a44d3fae010294c616388b506acda1bfaae46",
+      "nameTag": "Curve.fi: USDT/WBTC/WETH Pool"
+    },
+    {
+      "address": "0x3b7020743bc2a4ca9eaf9d0722d42e20d6935855",
+      "nameTag": "Curve.fi: UST Liquidity Gauge"
+    },
+    {
+      "address": "0x890f4e345b1daed0367a877a1612f86a1f86985f",
+      "nameTag": "Curve.fi: UST MetaPool"
+    },
+    {
+      "address": "0x94e131324b6054c0d789b190b2dac504e4361b53",
+      "nameTag": "Curve.fi: ust3CRV Token"
+    },
+    {
+      "address": "0x575ccd8e2d300e2377b43478339e364000318e2c",
+      "nameTag": "Curve.fi: Vesting Escrow"
+    },
+    {
+      "address": "0x1115c9b3168563354137cdc60efb66552dd50678",
+      "nameTag": "Curve.fi: Voting Emergency"
+    },
+    {
+      "address": "0x5f3b5dfeb7b28cdbd7faba78963ee202a494e2a2",
+      "nameTag": "Curve.fi: Voting Escrow"
+    },
+    {
+      "address": "0xe478de485ad2fe566d49342cbd03e49ed7db3356",
+      "nameTag": "Curve.fi: Voting Ownership"
+    },
+    {
+      "address": "0xbcff8b0b9419b9a88c44546519b1e909cf330399",
+      "nameTag": "Curve.fi: Voting Parameter"
+    },
+    {
+      "address": "0x80466c64868e1ab14a1ddf27a676c3fcbe638fe5",
+      "nameTag": "Curve.fi: WETH/WBTC/USDT Pool"
+    },
+    {
+      "address": "0xd16ea3e5681234da84419512eb597362135cd8c9",
+      "nameTag": "Curve.fi: Y Burner"
+    },
+    {
+      "address": "0xbbc81d23ea2c3ec7e56d39296f0cbb648873a5d3",
+      "nameTag": "Curve.fi: y Deposit"
+    },
+    {
+      "address": "0x45f783cce6b7ff23b2ab2d70e416cdb7d6055f51",
+      "nameTag": "Curve.fi: y Swap"
+    },
+    {
+      "address": "0xfa712ee4788c042e2b7bb55e6cb8ec569c4530c1",
+      "nameTag": "Curve.fi: yCRV Liquidity Gauge"
+    },
+    {
+      "address": "0xdf5e0e81dff6faf3a7e52ba697820c5e32d806a8",
+      "nameTag": "Curve.fi: yCrv Token"
+    },
+    {
+      "address": "0x8101e6760130be2c8ace79643ab73500571b7162",
+      "nameTag": "Curve.fi: yCRV V2 Liquidity Gauge"
+    }
+  ]
+}

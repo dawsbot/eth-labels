@@ -1,30 +1,33 @@
-[
-  {
-    "address": "0x46f74778b265df3a15ec9695ccd2fd3869ca848c",
-    "nameTag": "Multichain: ANKR Token"
-  },
-  {
-    "address": "0xc10ef9f491c9b59f936957026020c321651ac078",
-    "nameTag": "Multichain: anyCall V6"
-  },
-  {
-    "address": "0xdae6c2a48bfaa66b43815c5548b10800919c993e",
-    "nameTag": "Multichain: anyHND Token"
-  },
-  {
-    "address": "0xfa9da51631268a30ec3ddd1ccbf46c65fad99251",
-    "nameTag": "Multichain: Deployer"
-  },
-  {
-    "address": "0x316772cfec9a3e976fde42c3ba21f5a13aaaff12",
-    "nameTag": "Multichain: KNC Token"
-  },
-  {
-    "address": "0xc931f61b1534eb21d8c11b24f3f5ab2471d4ab50",
-    "nameTag": "Multichain: Router V4"
-  },
-  {
-    "address": "0x650af55d5877f289837c30b94af91538a7504b76",
-    "nameTag": "Multichain: Router V6"
-  }
-]
+{
+  "lastPulled": "2024-04-02T21:02:05.598Z",
+  "data": [
+    {
+      "address": "0x46f74778b265df3a15ec9695ccd2fd3869ca848c",
+      "nameTag": "Multichain: ANKR Token"
+    },
+    {
+      "address": "0xc10ef9f491c9b59f936957026020c321651ac078",
+      "nameTag": "Multichain: anyCall V6"
+    },
+    {
+      "address": "0xdae6c2a48bfaa66b43815c5548b10800919c993e",
+      "nameTag": "Multichain: anyHND Token"
+    },
+    {
+      "address": "0xfa9da51631268a30ec3ddd1ccbf46c65fad99251",
+      "nameTag": "Multichain: Deployer"
+    },
+    {
+      "address": "0x316772cfec9a3e976fde42c3ba21f5a13aaaff12",
+      "nameTag": "Multichain: KNC Token"
+    },
+    {
+      "address": "0xc931f61b1534eb21d8c11b24f3f5ab2471d4ab50",
+      "nameTag": "Multichain: Router V4"
+    },
+    {
+      "address": "0x650af55d5877f289837c30b94af91538a7504b76",
+      "nameTag": "Multichain: Router V6"
+    }
+  ]
+}

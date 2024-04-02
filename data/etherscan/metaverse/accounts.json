@@ -1,6 +1,9 @@
-[
-  {
-    "address": "0x6ff63e7fbf99e0556c63768020f713b7ae9d5a94",
-    "nameTag": "Sandversity : Sandversity"
-  }
-]
+{
+  "lastPulled": "2024-04-02T20:45:59.764Z",
+  "data": [
+    {
+      "address": "0x6ff63e7fbf99e0556c63768020f713b7ae9d5a94",
+      "nameTag": "Sandversity : Sandversity"
+    }
+  ]
+}

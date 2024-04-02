@@ -14,8 +14,8 @@ function combineFiles(dataDir: string) {
         const filePath: string = path.join(dataDir, file);
         const data: string = fileUtilities.readFile(filePath);
         const jsonData: ReadonlyArray<{ address: string }> = z
-          .array(z.object({ address: z.string() }))
-          .parse(JSON.parse(data));
+          .object({ data: z.array(z.object({ address: z.string() })) })
+          .parse(JSON.parse(data)).data;
         const addresses: ReadonlyArray<string> = jsonData.map(
           (obj: { address: string }) => obj.address,
         );
@@ -43,4 +43,4 @@ async function runCombine() {
   }
   console.log("combine.json file created successfully!");
 }
-await runCombine();
+export default runCombine;

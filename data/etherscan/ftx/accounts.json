@@ -1,51 +1,57 @@
-[
-  {
-    "address": "0x25eaff5b179f209cf186b1cdcbfa463a69df4c45",
-    "nameTag": "Blockfolio"
-  },
-  { "address": "0x2faf487a4414fe77e2327f0bf4ae2a264a776ad2", "nameTag": "FTX" },
-  {
-    "address": "0xc098b2a3aa256d2140208c3de6543aaef5cd3a94",
-    "nameTag": "FTX 2"
-  },
-  {
-    "address": "0x7abe0ce388281d2acf297cb089caef3819b13448",
-    "nameTag": "FTX US"
-  },
-  {
-    "address": "0x600d08a0c2ae496b9614c8342cd2781e130b7862",
-    "nameTag": "FTX: 3 Month Unlock"
-  },
-  {
-    "address": "0x68eb95dc9934e19b86687a10df8e364423240e94",
-    "nameTag": "FTX: 3X Long Bitcoin Token"
-  },
-  {
-    "address": "0x871baed4088b863fd6407159f3672d70cd34837d",
-    "nameTag": "FTX: 3X Long Ethereum Token"
-  },
-  {
-    "address": "0x016ee7373248a80bde1fd6baa001311d233b3cfa",
-    "nameTag": "FTX: 3X Short Bitcoin Token"
-  },
-  {
-    "address": "0x2f5e2c9002c058c063d21a06b6cabb50950130c8",
-    "nameTag": "FTX: 3X Short Ethereum Token"
-  },
-  {
-    "address": "0x97f991971a37d4ca58064e6a98fc563f03a71e5c",
-    "nameTag": "FTX: Cold 1"
-  },
-  {
-    "address": "0x772589e99bc9c54dd40acb7d73f88ccbc9d9cf47",
-    "nameTag": "FTX: Deployer"
-  },
-  {
-    "address": "0x02412e9a81a98829716588f80458c8bf593cadc0",
-    "nameTag": "FTX: Deposit"
-  },
-  {
-    "address": "0x50d1c9771902476076ecfc8b2a83ad6b9355a4c9",
-    "nameTag": "FTX: FTT Token"
-  }
-]
+{
+  "lastPulled": "2024-04-02T20:43:42.363Z",
+  "data": [
+    {
+      "address": "0x25eaff5b179f209cf186b1cdcbfa463a69df4c45",
+      "nameTag": "Blockfolio"
+    },
+    {
+      "address": "0x2faf487a4414fe77e2327f0bf4ae2a264a776ad2",
+      "nameTag": "FTX"
+    },
+    {
+      "address": "0xc098b2a3aa256d2140208c3de6543aaef5cd3a94",
+      "nameTag": "FTX 2"
+    },
+    {
+      "address": "0x7abe0ce388281d2acf297cb089caef3819b13448",
+      "nameTag": "FTX US"
+    },
+    {
+      "address": "0x600d08a0c2ae496b9614c8342cd2781e130b7862",
+      "nameTag": "FTX: 3 Month Unlock"
+    },
+    {
+      "address": "0x68eb95dc9934e19b86687a10df8e364423240e94",
+      "nameTag": "FTX: 3X Long Bitcoin Token"
+    },
+    {
+      "address": "0x871baed4088b863fd6407159f3672d70cd34837d",
+      "nameTag": "FTX: 3X Long Ethereum Token"
+    },
+    {
+      "address": "0x016ee7373248a80bde1fd6baa001311d233b3cfa",
+      "nameTag": "FTX: 3X Short Bitcoin Token"
+    },
+    {
+      "address": "0x2f5e2c9002c058c063d21a06b6cabb50950130c8",
+      "nameTag": "FTX: 3X Short Ethereum Token"
+    },
+    {
+      "address": "0x97f991971a37d4ca58064e6a98fc563f03a71e5c",
+      "nameTag": "FTX: Cold 1"
+    },
+    {
+      "address": "0x772589e99bc9c54dd40acb7d73f88ccbc9d9cf47",
+      "nameTag": "FTX: Deployer"
+    },
+    {
+      "address": "0x02412e9a81a98829716588f80458c8bf593cadc0",
+      "nameTag": "FTX: Deposit"
+    },
+    {
+      "address": "0x50d1c9771902476076ecfc8b2a83ad6b9355a4c9",
+      "nameTag": "FTX: FTT Token"
+    }
+  ]
+}

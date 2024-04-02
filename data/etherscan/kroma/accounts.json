@@ -1,66 +1,69 @@
-[
-  {
-    "address": "0x57c9bb4c5dd27bb42807db477af4d1a7c8a5c857",
-    "nameTag": "Kroma: Aliased L1 Cross Domain Messenger"
-  },
-  {
-    "address": "0x713c2bed44eb45d490afb8d4d1aa6f12290b829a",
-    "nameTag": "Kroma: Colosseum"
-  },
-  {
-    "address": "0xcc56801a72463d39903a4a4632e600289178f6bc",
-    "nameTag": "Kroma: Deployer"
-  },
-  {
-    "address": "0xe4d08346609055c091d3deecdaad3bf83119b08c",
-    "nameTag": "Kroma: KSC Token"
-  },
-  {
-    "address": "0x46b8bb4c5dd27bb42807db477af4d1a7c8a5b746",
-    "nameTag": "Kroma: L1 Cross Domain Messenger"
-  },
-  {
-    "address": "0x46d07221dfc313afe1bf104f4bb1f185301d65b9",
-    "nameTag": "Kroma: L1 ERC-721 Bridge"
-  },
-  {
-    "address": "0x827962404d7104202c5aaa6b929115c8211d9596",
-    "nameTag": "Kroma: L1 Standard Bridge"
-  },
-  {
-    "address": "0x180c77ae51a9c505a43a2c7d81f8ce70cacb93a6",
-    "nameTag": "Kroma: L2 Output Oracle"
-  },
-  {
-    "address": "0x31f648572b67e60ec6eb8e197e1848cc5f5558de",
-    "nameTag": "Kroma: Portal"
-  },
-  {
-    "address": "0x665c23a5722b6a237fa6be2b49c0a94504db1edd",
-    "nameTag": "Kroma: Proxy Admin"
-  },
-  {
-    "address": "0x3de211088df516da72efe68d386b561bee256ec4",
-    "nameTag": "Kroma: Security Council"
-  },
-  {
-    "address": "0x3971eb866aa9b2b8afea8a7c816f3b7e8b195a35",
-    "nameTag": "Kroma: System Config"
-  },
-  {
-    "address": "0x22605a12cb77fe420b0cc1263ceb58a77352fdc1",
-    "nameTag": "Kroma: Time Lock"
-  },
-  {
-    "address": "0xb3c415c2aad428d5570208e1772cb68e7d06a537",
-    "nameTag": "Kroma: Upgrade Governor"
-  },
-  {
-    "address": "0xfdff462845953d90719a78fd12a2d103541d2103",
-    "nameTag": "Kroma: Validator Pool"
-  },
-  {
-    "address": "0x6deb6a630d7b486c1c08d4016aee3835a2f52fa7",
-    "nameTag": "Kroma: ZK Verifier"
-  }
-]
+{
+  "lastPulled": "2024-04-02T20:44:54.879Z",
+  "data": [
+    {
+      "address": "0x57c9bb4c5dd27bb42807db477af4d1a7c8a5c857",
+      "nameTag": "Kroma: Aliased L1 Cross Domain Messenger"
+    },
+    {
+      "address": "0x713c2bed44eb45d490afb8d4d1aa6f12290b829a",
+      "nameTag": "Kroma: Colosseum"
+    },
+    {
+      "address": "0xcc56801a72463d39903a4a4632e600289178f6bc",
+      "nameTag": "Kroma: Deployer"
+    },
+    {
+      "address": "0xe4d08346609055c091d3deecdaad3bf83119b08c",
+      "nameTag": "Kroma: KSC Token"
+    },
+    {
+      "address": "0x46b8bb4c5dd27bb42807db477af4d1a7c8a5b746",
+      "nameTag": "Kroma: L1 Cross Domain Messenger"
+    },
+    {
+      "address": "0x46d07221dfc313afe1bf104f4bb1f185301d65b9",
+      "nameTag": "Kroma: L1 ERC-721 Bridge"
+    },
+    {
+      "address": "0x827962404d7104202c5aaa6b929115c8211d9596",
+      "nameTag": "Kroma: L1 Standard Bridge"
+    },
+    {
+      "address": "0x180c77ae51a9c505a43a2c7d81f8ce70cacb93a6",
+      "nameTag": "Kroma: L2 Output Oracle"
+    },
+    {
+      "address": "0x31f648572b67e60ec6eb8e197e1848cc5f5558de",
+      "nameTag": "Kroma: Portal"
+    },
+    {
+      "address": "0x665c23a5722b6a237fa6be2b49c0a94504db1edd",
+      "nameTag": "Kroma: Proxy Admin"
+    },
+    {
+      "address": "0x3de211088df516da72efe68d386b561bee256ec4",
+      "nameTag": "Kroma: Security Council"
+    },
+    {
+      "address": "0x3971eb866aa9b2b8afea8a7c816f3b7e8b195a35",
+      "nameTag": "Kroma: System Config"
+    },
+    {
+      "address": "0x22605a12cb77fe420b0cc1263ceb58a77352fdc1",
+      "nameTag": "Kroma: Time Lock"
+    },
+    {
+      "address": "0xb3c415c2aad428d5570208e1772cb68e7d06a537",
+      "nameTag": "Kroma: Upgrade Governor"
+    },
+    {
+      "address": "0xfdff462845953d90719a78fd12a2d103541d2103",
+      "nameTag": "Kroma: Validator Pool"
+    },
+    {
+      "address": "0x6deb6a630d7b486c1c08d4016aee3835a2f52fa7",
+      "nameTag": "Kroma: ZK Verifier"
+    }
+  ]
+}

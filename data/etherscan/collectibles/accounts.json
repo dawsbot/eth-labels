@@ -1,14 +1,17 @@
-[
-  {
-    "address": "0x495f947276749ce646f68ac8c248420045cb7b5e",
-    "nameTag": "OpenSea: OPENSTORE Token"
-  },
-  {
-    "address": "0x7be8076f4ea4a4ad08075c2508e481d6c946d12b",
-    "nameTag": "OpenSea: Wyvern Exchange v1"
-  },
-  {
-    "address": "0xf76c5d925b27a63a3745a6b787664a7f38fa79bd",
-    "nameTag": "Takens Theorem: the_coin"
-  }
-]
+{
+  "lastPulled": "2024-04-02T20:41:12.462Z",
+  "data": [
+    {
+      "address": "0x495f947276749ce646f68ac8c248420045cb7b5e",
+      "nameTag": "OpenSea: OPENSTORE Token"
+    },
+    {
+      "address": "0x7be8076f4ea4a4ad08075c2508e481d6c946d12b",
+      "nameTag": "OpenSea: Wyvern Exchange v1"
+    },
+    {
+      "address": "0xf76c5d925b27a63a3745a6b787664a7f38fa79bd",
+      "nameTag": "Takens Theorem: the_coin"
+    }
+  ]
+}

@@ -1,46 +1,49 @@
-[
-  {
-    "address": "0x325870cb1c06c3a619e461425712248fe269afca",
-    "nameTag": "DeversiFi: Deployer"
-  },
-  {
-    "address": "0x61b9898c9b60a159fc91ae8026563cd226b7a0c1",
-    "nameTag": "DeversiFi: Old Address"
-  },
-  {
-    "address": "0xcc80c051057b774cd75067dc48f8987c4eb97a5e",
-    "nameTag": "Ethfinex: Nectar Token"
-  },
-  {
-    "address": "0xdcdb42c9a256690bd153a7b409751adfc8dd5851",
-    "nameTag": "Ethfinex: Old Contract"
-  },
-  {
-    "address": "0xbaea5bc6568dcb1f1c5aa24223a47333a6b3a8f5",
-    "nameTag": "Ethfinex: Old Contract 2"
-  },
-  {
-    "address": "0x93dc6a333a99c0ede1cd346ccf079ea8451013db",
-    "nameTag": "Ethfinex: Old Contract 3"
-  },
-  {
-    "address": "0xaf8ae6955d07776ab690e565ba6fbc79b8de3a5d",
-    "nameTag": "Rhino.fi"
-  },
-  {
-    "address": "0x5d22045daceab03b158031ecb7d9d06fad24609b",
-    "nameTag": "Rhino.fi: Bridge"
-  },
-  {
-    "address": "0x28780349a33eee56bb92241baab8095449e24306",
-    "nameTag": "Rhino.fi: Committee"
-  },
-  {
-    "address": "0xd924bdd6fa7fd3d0eb1337853a814a4263dcbfe8",
-    "nameTag": "Rhino.fi: OTC"
-  },
-  {
-    "address": "0xc3ca38091061e3e5358a52d74730f16c60ca9c26",
-    "nameTag": "Rhino.fi: Transfer Proxy"
-  }
-]
+{
+  "lastPulled": "2024-04-02T20:49:07.907Z",
+  "data": [
+    {
+      "address": "0x325870cb1c06c3a619e461425712248fe269afca",
+      "nameTag": "DeversiFi: Deployer"
+    },
+    {
+      "address": "0x61b9898c9b60a159fc91ae8026563cd226b7a0c1",
+      "nameTag": "DeversiFi: Old Address"
+    },
+    {
+      "address": "0xcc80c051057b774cd75067dc48f8987c4eb97a5e",
+      "nameTag": "Ethfinex: Nectar Token"
+    },
+    {
+      "address": "0xdcdb42c9a256690bd153a7b409751adfc8dd5851",
+      "nameTag": "Ethfinex: Old Contract"
+    },
+    {
+      "address": "0xbaea5bc6568dcb1f1c5aa24223a47333a6b3a8f5",
+      "nameTag": "Ethfinex: Old Contract 2"
+    },
+    {
+      "address": "0x93dc6a333a99c0ede1cd346ccf079ea8451013db",
+      "nameTag": "Ethfinex: Old Contract 3"
+    },
+    {
+      "address": "0xaf8ae6955d07776ab690e565ba6fbc79b8de3a5d",
+      "nameTag": "Rhino.fi"
+    },
+    {
+      "address": "0x5d22045daceab03b158031ecb7d9d06fad24609b",
+      "nameTag": "Rhino.fi: Bridge"
+    },
+    {
+      "address": "0x28780349a33eee56bb92241baab8095449e24306",
+      "nameTag": "Rhino.fi: Committee"
+    },
+    {
+      "address": "0xd924bdd6fa7fd3d0eb1337853a814a4263dcbfe8",
+      "nameTag": "Rhino.fi: OTC"
+    },
+    {
+      "address": "0xc3ca38091061e3e5358a52d74730f16c60ca9c26",
+      "nameTag": "Rhino.fi: Transfer Proxy"
+    }
+  ]
+}
