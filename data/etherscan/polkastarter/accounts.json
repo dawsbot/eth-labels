@@ -1,450 +1,453 @@
-[
-  {
-    "address": "0xcdd77550f1dc309ec871612133dd0d4f32cdf61c",
-    "nameTag": "Polkastarter: AntiMatter POLS"
-  },
-  {
-    "address": "0x791ed56fffe3227b95b71ea4a2f4277810f1774b",
-    "nameTag": "Polkastarter: APYSwap POLS"
-  },
-  {
-    "address": "0x304ea733af6a74c0d5413f252cb10964b236ad6c",
-    "nameTag": "Polkastarter: APYSwap Public Pool"
-  },
-  {
-    "address": "0xa6bda40260762a48f94bd027a8566d0d5b312ec8",
-    "nameTag": "Polkastarter: Blank POLS"
-  },
-  {
-    "address": "0x637e124db07a9e3d23d3ee9acbfaae7740f75971",
-    "nameTag": "Polkastarter: Blockchain Cuties POLS"
-  },
-  {
-    "address": "0xf73b911837a3d7001f472cb99bfa0a5a7667d08e",
-    "nameTag": "Polkastarter: Blockchain Cuties Public"
-  },
-  {
-    "address": "0x5c355074ccba1232c95183f92d78f9282de90569",
-    "nameTag": "Polkastarter: Bridge Mutual POLS"
-  },
-  {
-    "address": "0xdba054fdb2a542e9128c91ae62fe832177bf3536",
-    "nameTag": "Polkastarter: Bridge Mutual Public"
-  },
-  {
-    "address": "0x90af47df1b931e4843487d28bdc191699cf5ffa8",
-    "nameTag": "Polkastarter: Butterfly POLS"
-  },
-  {
-    "address": "0x4f1eb0de401065d7e80323c8e0bffdaa54ec5e74",
-    "nameTag": "Polkastarter: Butterfly Public"
-  },
-  {
-    "address": "0x20fd3c1af308a433835eec9b9f2edc20e6144f2c",
-    "nameTag": "Polkastarter: ChainGuardians POLS"
-  },
-  {
-    "address": "0x054e658979622de6b5dfd86b20abee06e1dea529",
-    "nameTag": "Polkastarter: ChainGuardians Public"
-  },
-  {
-    "address": "0xdfc9defaeedf711e8da242ddd3f771e254ff1360",
-    "nameTag": "Polkastarter: Charged Particles 1"
-  },
-  {
-    "address": "0x9bfa4cf11d7f394ee75b3419eae966cabca55281",
-    "nameTag": "Polkastarter: Charged Particles 2"
-  },
-  {
-    "address": "0x86ad26e3dae7c21c01ba60c36b0d52360564a51a",
-    "nameTag": "Polkastarter: Convergence POLS"
-  },
-  {
-    "address": "0x6908977cb0e1f30bc884c54e28ea147053a3c37e",
-    "nameTag": "Polkastarter: Convergence Public"
-  },
-  {
-    "address": "0x5c0dc504be827714b81ce99ed287a0428eb397a6",
-    "nameTag": "Polkastarter: DAOventures POLS"
-  },
-  {
-    "address": "0xc6c97d38ce7589c0881f6f845ac035042f088650",
-    "nameTag": "Polkastarter: DAOventures Public"
-  },
-  {
-    "address": "0x10e2de6dc39350ae8776f458fa9f0f9ca1380a3f",
-    "nameTag": "Polkastarter: DFYN 1"
-  },
-  {
-    "address": "0xc2258eb79463e3b3f9c88ba85352f236f3613825",
-    "nameTag": "Polkastarter: DFYN 2"
-  },
-  {
-    "address": "0x78c48c501409d4a05917b90e0b11eaa1dd078111",
-    "nameTag": "Polkastarter: DFYN 3"
-  },
-  {
-    "address": "0x06dc332c103bcfac9204b2dbd1817099e558c337",
-    "nameTag": "Polkastarter: Dotmoovs ETH"
-  },
-  {
-    "address": "0x3bfbfbb9de8ec3ea621a965ceb68779320391355",
-    "nameTag": "Polkastarter: Drops A"
-  },
-  {
-    "address": "0xab60612d4a9ed569e4ce8d9e5f2e4fed9faf87d3",
-    "nameTag": "Polkastarter: Drops B"
-  },
-  {
-    "address": "0x3264f1f5a5a154dad7787443efe8bf08a6fb6b83",
-    "nameTag": "Polkastarter: e-Money Public"
-  },
-  {
-    "address": "0xb728495e2022ff7aee207417aca9e0d306c0c75e",
-    "nameTag": "Polkastarter: EPNS POLS"
-  },
-  {
-    "address": "0x523c323a0db500a17ff47b3bf3061d9d9c23a76f",
-    "nameTag": "Polkastarter: EPNS Public"
-  },
-  {
-    "address": "0x36a865fbc7b974e37edd8bb72a2c075de52f54f4",
-    "nameTag": "Polkastarter: Ethermon 1"
-  },
-  {
-    "address": "0x2e694170580230ed139786260c291303db6fd414",
-    "nameTag": "Polkastarter: Ethermon 2"
-  },
-  {
-    "address": "0x380b7308bb8fbb4e7e235c2216898907b49d3f6a",
-    "nameTag": "Polkastarter: Ethernity POLS"
-  },
-  {
-    "address": "0xed8e437938542366ed4d6d0a544523d7667b1470",
-    "nameTag": "Polkastarter: Ethernity Public"
-  },
-  {
-    "address": "0xa8e4691b071b2a43dc4bfd64db707104ea562dc3",
-    "nameTag": "Polkastarter: Exeedme POLS"
-  },
-  {
-    "address": "0xbb7dc3b6e6e589c5e51833d195c76a8ac36eff73",
-    "nameTag": "Polkastarter: Exeedme Public"
-  },
-  {
-    "address": "0x068ecd782a4164a768c9e75ecd8c0b09c8347d6e",
-    "nameTag": "Polkastarter: Finxflo FXF POLS"
-  },
-  {
-    "address": "0x94ba931ccbb6ad3cee54c51658048627f828f24d",
-    "nameTag": "Polkastarter: Finxflo FXF Public"
-  },
-  {
-    "address": "0x7a91ef27447eae80371e6e91c0c316abc0a19d3c",
-    "nameTag": "Polkastarter: FIRE POLS"
-  },
-  {
-    "address": "0x4a7bb56cfa63460de3f2c2be6b6f382438896237",
-    "nameTag": "Polkastarter: FIRE Public"
-  },
-  {
-    "address": "0x90fb363aef304fee0265a6e04061dff664a48c72",
-    "nameTag": "Polkastarter: Fractal POLS"
-  },
-  {
-    "address": "0x862e6e9fe5baf7e1004bf9f01613b73acc8532e9",
-    "nameTag": "Polkastarter: Fractal Public"
-  },
-  {
-    "address": "0xde247818eacc8efcd7e7ca60df66a4e2d441b12c",
-    "nameTag": "Polkastarter: Genesis Shards POLS"
-  },
-  {
-    "address": "0x52c09a0ada895d05c0588ba6caaaa054504b3e62",
-    "nameTag": "Polkastarter: Kambria Token"
-  },
-  {
-    "address": "0xbe9dd6bb2faad3142576bc06a8fffb2c4b04fda1",
-    "nameTag": "Polkastarter: Kattana POLS"
-  },
-  {
-    "address": "0x508a6ea78e7ca5a048daaf537b9a018c3161d5d8",
-    "nameTag": "Polkastarter: Kattana Public"
-  },
-  {
-    "address": "0x683d23d25fdc3a58dc2f544890bf6097057421f2",
-    "nameTag": "Polkastarter: Konomi POLS"
-  },
-  {
-    "address": "0x920aadad6bea7ee617ebc411bf19ce10b97d45c1",
-    "nameTag": "Polkastarter: Konomi Public"
-  },
-  {
-    "address": "0xbd198652a25887aae49f7c09c7f0969f9d76c294",
-    "nameTag": "Polkastarter: Kylin POLS"
-  },
-  {
-    "address": "0xa57684662431f821d6eb7faf3c6ca3b67171baa0",
-    "nameTag": "Polkastarter: Lithium Pre-IDO"
-  },
-  {
-    "address": "0x9812ae472b8fc58257f2256a3f0cc2e14d08481c",
-    "nameTag": "Polkastarter: MahaDAO POLS"
-  },
-  {
-    "address": "0x71306c4a5acbc4a2a8fa84df957455c36f7b3503",
-    "nameTag": "Polkastarter: MahaDAO Public"
-  },
-  {
-    "address": "0x6f14193e7319792842b84813ae8a0b1895da120b",
-    "nameTag": "Polkastarter: NAOS Finance POLS"
-  },
-  {
-    "address": "0x400fe4973cf5a7ba57bf94a1f9774bbe9e6f9eac",
-    "nameTag": "Polkastarter: NAOS Finance Public"
-  },
-  {
-    "address": "0x5c1881db6963442310934534878adb3850059192",
-    "nameTag": "Polkastarter: NiiFi"
-  },
-  {
-    "address": "0xfa2740c7a8524c82762afeab8db40a8b6e23ef4a",
-    "nameTag": "Polkastarter: NORD Community"
-  },
-  {
-    "address": "0x439bf27188a4903d59088f4889effe984d632a81",
-    "nameTag": "Polkastarter: NORD POLS"
-  },
-  {
-    "address": "0x39824069d74aba48596c456feb9d0b4290125951",
-    "nameTag": "Polkastarter: Oddz POLS"
-  },
-  {
-    "address": "0xe29af1a3f69ce32340ed9db76d7eb7df3497dcbc",
-    "nameTag": "Polkastarter: Oddz Public"
-  },
-  {
-    "address": "0x8dc4fcd16cb674806e2686c77a9b6be59a85b97a",
-    "nameTag": "Polkastarter: OptionRoom POLS"
-  },
-  {
-    "address": "0x5683f7142247e5f9f61e6e74770e3279017df21d",
-    "nameTag": "Polkastarter: OptionRoom Public"
-  },
-  {
-    "address": "0xe923060c48266e6ba0993a8d214fd64a5f103979",
-    "nameTag": "Polkastarter: Phuture Finance"
-  },
-  {
-    "address": "0x9f5b56895c92e354edc272301c3daa809c8454ff",
-    "nameTag": "Polkastarter: Pinknode 1"
-  },
-  {
-    "address": "0x6f6ebc75cdc0a90a2823b49b81031b3012e7512c",
-    "nameTag": "Polkastarter: Pinknode 2"
-  },
-  {
-    "address": "0x29796e70e1aaee2d9db01d6ca633d18a9de785b3",
-    "nameTag": "Polkastarter: PolkaCover POLS"
-  },
-  {
-    "address": "0xe868245c0a87f9b0437ce0c6336978a56c1e3228",
-    "nameTag": "Polkastarter: PolkaCover Public"
-  },
-  {
-    "address": "0x8324b0227b7685434918edaa61be5e7f7b60b358",
-    "nameTag": "Polkastarter: Polkadex POLS"
-  },
-  {
-    "address": "0x86e35bf49001719d694f596bd684e85cb5bd122d",
-    "nameTag": "Polkastarter: Polkadex Public"
-  },
-  {
-    "address": "0x6b049adebc21ebec5b11b05f54aed9fe27f1ced5",
-    "nameTag": "Polkastarter: Polkalokr POLS"
-  },
-  {
-    "address": "0x6839f922a54362169c75f324af6a30df2eaef704",
-    "nameTag": "Polkastarter: Polkalokr Public"
-  },
-  {
-    "address": "0x868be4f80bb166a09489822c322deb3163b5025b",
-    "nameTag": "Polkastarter: Polkamarkets POLS"
-  },
-  {
-    "address": "0x33891316e3b032afbd926597ac78c34ba545900e",
-    "nameTag": "Polkastarter: Polkamarkets Public"
-  },
-  {
-    "address": "0x55bbc3f0bf0d09d41c5fceb725a078d5da283f8f",
-    "nameTag": "Polkastarter: Polkamon POLS"
-  },
-  {
-    "address": "0x7c0c8e823e109702a7ada15f46ee23053eefcf10",
-    "nameTag": "Polkastarter: Polkamon Public"
-  },
-  {
-    "address": "0x7364ae774f32b07e804be6083c6df35e3b11b144",
-    "nameTag": "Polkastarter: Polkastarter Early"
-  },
-  {
-    "address": "0xa6815d24bc1a2ff273e49d5cedbc558cf86fd828",
-    "nameTag": "Polkastarter: Public Mint POLS"
-  },
-  {
-    "address": "0xd545ebcbbc2b198b37eb6a3e7a82aa99565a7816",
-    "nameTag": "Polkastarter: Public Mint Public"
-  },
-  {
-    "address": "0x35233ad1e7ff78d8bbee31b4c4a6d15b82e9868c",
-    "nameTag": "Polkastarter: Royale Finance POLS"
-  },
-  {
-    "address": "0x51141d8daf44aefb64025e8c73be7c08cd7c5c21",
-    "nameTag": "Polkastarter: Royale Finance Public"
-  },
-  {
-    "address": "0xc4b4723101be99524dc490580048c16d613c3e01",
-    "nameTag": "Polkastarter: Saito POLS 1"
-  },
-  {
-    "address": "0xa56019ed7fe23d9402e691c122b41b58398d7b27",
-    "nameTag": "Polkastarter: Saito POLS 2"
-  },
-  {
-    "address": "0x667f21a25728c81590d34023057c6a4ee3ea92d7",
-    "nameTag": "Polkastarter: Saito Public 1"
-  },
-  {
-    "address": "0xef7f3cb4cb288de3025bdee44da1971f3723dec5",
-    "nameTag": "Polkastarter: Saito Public 2"
-  },
-  {
-    "address": "0x8905d77cb2f954cbe41cf4f8b6110398509ef4b8",
-    "nameTag": "Polkastarter: Shyft POLS"
-  },
-  {
-    "address": "0x1bff37c19e72a5b527a81dc1d5c26b63b0df3f33",
-    "nameTag": "Polkastarter: Shyft Public"
-  },
-  {
-    "address": "0x52b00be38b70b2384bd48efda71c45a49467cfea",
-    "nameTag": "Polkastarter: Sienna Network POLS"
-  },
-  {
-    "address": "0x65d9840c97e0e3b39e7c3f334ec1805e2186dc8c",
-    "nameTag": "Polkastarter: Sienna Network Public"
-  },
-  {
-    "address": "0x3377369567af5b93f61dddbc311815f87f5d2647",
-    "nameTag": "Polkastarter: SpiderDAO POLS"
-  },
-  {
-    "address": "0xf5d81dac4d6c3f3a0548b86a880e2d0bdb500854",
-    "nameTag": "Polkastarter: SpiderDAO Public"
-  },
-  {
-    "address": "0xc781ee2886c792f4cdbc25ec30b8a2a61c826a3e",
-    "nameTag": "Polkastarter: Standard POLS"
-  },
-  {
-    "address": "0xc61b79c488833dcd20ac03d8e60be30092ec567d",
-    "nameTag": "Polkastarter: Standard Public"
-  },
-  {
-    "address": "0xbc735b0a2be5a0b5ff3e1b0a7313ca01fc7e1423",
-    "nameTag": "Polkastarter: Stratos 1"
-  },
-  {
-    "address": "0xe4c86e1767a9f2a0324fed90035608ec5c792756",
-    "nameTag": "Polkastarter: Stratos 2"
-  },
-  {
-    "address": "0x001602799ee561c9f9405176d33eba6f29ce3386",
-    "nameTag": "Polkastarter: SuperFarm POLS"
-  },
-  {
-    "address": "0xb4aa6a975b53f579717a769d025b405ffff051fe",
-    "nameTag": "Polkastarter: SuperFarm Public"
-  },
-  {
-    "address": "0xf606297642b209b06d925099356ba3bd8a5291f5",
-    "nameTag": "Polkastarter: TENET POLS"
-  },
-  {
-    "address": "0x8a7e4ec685c973fae8391c711ffaad0fe8d88f9b",
-    "nameTag": "Polkastarter: TENET Public"
-  },
-  {
-    "address": "0xd065bdae5b01efc48fe9895d89d0f3b7c93e9fe5",
-    "nameTag": "Polkastarter: Tidal POLS"
-  },
-  {
-    "address": "0x651af6ecbdd3099a75b78d9ae08a97daf135c38c",
-    "nameTag": "Polkastarter: Tidal Public"
-  },
-  {
-    "address": "0x46a45c53f522a6aaeef43c0e4f669757860e101c",
-    "nameTag": "Polkastarter: TosDis POLS"
-  },
-  {
-    "address": "0xa0ae1246a826d554c63a4b62f3f10e5fa21bc03f",
-    "nameTag": "Polkastarter: TosDis Public"
-  },
-  {
-    "address": "0x11b867ae59170ca8f6dd18dfc2a77a1645370f5d",
-    "nameTag": "Polkastarter: Umbrella POLS"
-  },
-  {
-    "address": "0x34cff99a2717e5319fe373581b7dc0963b53dfa7",
-    "nameTag": "Polkastarter: Umbrella Public"
-  },
-  {
-    "address": "0xb27add743ab337c73a01f61d2e4b37b475b4f30a",
-    "nameTag": "Polkastarter: Unido POLS"
-  },
-  {
-    "address": "0xd806b3c4a0f5f12f34d54400a781c3e32cebf079",
-    "nameTag": "Polkastarter: Unido Public"
-  },
-  {
-    "address": "0xf13f96f7f95517ae54a0b3f9494e58607edfca1f",
-    "nameTag": "Polkastarter: Unmarshal POLS"
-  },
-  {
-    "address": "0x68914f41079420838972915f8c928a98845c61ef",
-    "nameTag": "Polkastarter: Unmarshal Public"
-  },
-  {
-    "address": "0xbf68b9a94c655e9931e94ea0923b51608896939d",
-    "nameTag": "Polkastarter: UnoRe POLS"
-  },
-  {
-    "address": "0x3d5c21b29aa68114a523b55685133381a221cd6a",
-    "nameTag": "Polkastarter: UnoRe Public"
-  },
-  {
-    "address": "0x511681b617f4fe28e082e9fd9808f1c57e78e305",
-    "nameTag": "Polkastarter: Wilder World 1"
-  },
-  {
-    "address": "0x1387a3e355a35388281cfa6d01dedff54af28f7c",
-    "nameTag": "Polkastarter: Wilder World 2"
-  },
-  {
-    "address": "0x3e2a96a2d744696877674d2974b5f9611f7ad221",
-    "nameTag": "Polkastarter: Xdef Finance Public"
-  },
-  {
-    "address": "0x4af831e9357254daa2a17956675a84894069c799",
-    "nameTag": "Polkastarter: YOP POLS"
-  },
-  {
-    "address": "0x061669a2a75fcfc893e30559636ec55b4341df34",
-    "nameTag": "Polkastarter: YOP Public"
-  },
-  {
-    "address": "0x29b29eabe897ae75895216f7dbfebb3f52f7155c",
-    "nameTag": "Polkastarter:Blank Public"
-  }
-]
+{
+  "lastPulled": "2024-04-02T20:48:12.736Z",
+  "data": [
+    {
+      "address": "0xcdd77550f1dc309ec871612133dd0d4f32cdf61c",
+      "nameTag": "Polkastarter: AntiMatter POLS"
+    },
+    {
+      "address": "0x791ed56fffe3227b95b71ea4a2f4277810f1774b",
+      "nameTag": "Polkastarter: APYSwap POLS"
+    },
+    {
+      "address": "0x304ea733af6a74c0d5413f252cb10964b236ad6c",
+      "nameTag": "Polkastarter: APYSwap Public Pool"
+    },
+    {
+      "address": "0xa6bda40260762a48f94bd027a8566d0d5b312ec8",
+      "nameTag": "Polkastarter: Blank POLS"
+    },
+    {
+      "address": "0x637e124db07a9e3d23d3ee9acbfaae7740f75971",
+      "nameTag": "Polkastarter: Blockchain Cuties POLS"
+    },
+    {
+      "address": "0xf73b911837a3d7001f472cb99bfa0a5a7667d08e",
+      "nameTag": "Polkastarter: Blockchain Cuties Public"
+    },
+    {
+      "address": "0x5c355074ccba1232c95183f92d78f9282de90569",
+      "nameTag": "Polkastarter: Bridge Mutual POLS"
+    },
+    {
+      "address": "0xdba054fdb2a542e9128c91ae62fe832177bf3536",
+      "nameTag": "Polkastarter: Bridge Mutual Public"
+    },
+    {
+      "address": "0x90af47df1b931e4843487d28bdc191699cf5ffa8",
+      "nameTag": "Polkastarter: Butterfly POLS"
+    },
+    {
+      "address": "0x4f1eb0de401065d7e80323c8e0bffdaa54ec5e74",
+      "nameTag": "Polkastarter: Butterfly Public"
+    },
+    {
+      "address": "0x20fd3c1af308a433835eec9b9f2edc20e6144f2c",
+      "nameTag": "Polkastarter: ChainGuardians POLS"
+    },
+    {
+      "address": "0x054e658979622de6b5dfd86b20abee06e1dea529",
+      "nameTag": "Polkastarter: ChainGuardians Public"
+    },
+    {
+      "address": "0xdfc9defaeedf711e8da242ddd3f771e254ff1360",
+      "nameTag": "Polkastarter: Charged Particles 1"
+    },
+    {
+      "address": "0x9bfa4cf11d7f394ee75b3419eae966cabca55281",
+      "nameTag": "Polkastarter: Charged Particles 2"
+    },
+    {
+      "address": "0x86ad26e3dae7c21c01ba60c36b0d52360564a51a",
+      "nameTag": "Polkastarter: Convergence POLS"
+    },
+    {
+      "address": "0x6908977cb0e1f30bc884c54e28ea147053a3c37e",
+      "nameTag": "Polkastarter: Convergence Public"
+    },
+    {
+      "address": "0x5c0dc504be827714b81ce99ed287a0428eb397a6",
+      "nameTag": "Polkastarter: DAOventures POLS"
+    },
+    {
+      "address": "0xc6c97d38ce7589c0881f6f845ac035042f088650",
+      "nameTag": "Polkastarter: DAOventures Public"
+    },
+    {
+      "address": "0x10e2de6dc39350ae8776f458fa9f0f9ca1380a3f",
+      "nameTag": "Polkastarter: DFYN 1"
+    },
+    {
+      "address": "0xc2258eb79463e3b3f9c88ba85352f236f3613825",
+      "nameTag": "Polkastarter: DFYN 2"
+    },
+    {
+      "address": "0x78c48c501409d4a05917b90e0b11eaa1dd078111",
+      "nameTag": "Polkastarter: DFYN 3"
+    },
+    {
+      "address": "0x06dc332c103bcfac9204b2dbd1817099e558c337",
+      "nameTag": "Polkastarter: Dotmoovs ETH"
+    },
+    {
+      "address": "0x3bfbfbb9de8ec3ea621a965ceb68779320391355",
+      "nameTag": "Polkastarter: Drops A"
+    },
+    {
+      "address": "0xab60612d4a9ed569e4ce8d9e5f2e4fed9faf87d3",
+      "nameTag": "Polkastarter: Drops B"
+    },
+    {
+      "address": "0x3264f1f5a5a154dad7787443efe8bf08a6fb6b83",
+      "nameTag": "Polkastarter: e-Money Public"
+    },
+    {
+      "address": "0xb728495e2022ff7aee207417aca9e0d306c0c75e",
+      "nameTag": "Polkastarter: EPNS POLS"
+    },
+    {
+      "address": "0x523c323a0db500a17ff47b3bf3061d9d9c23a76f",
+      "nameTag": "Polkastarter: EPNS Public"
+    },
+    {
+      "address": "0x36a865fbc7b974e37edd8bb72a2c075de52f54f4",
+      "nameTag": "Polkastarter: Ethermon 1"
+    },
+    {
+      "address": "0x2e694170580230ed139786260c291303db6fd414",
+      "nameTag": "Polkastarter: Ethermon 2"
+    },
+    {
+      "address": "0x380b7308bb8fbb4e7e235c2216898907b49d3f6a",
+      "nameTag": "Polkastarter: Ethernity POLS"
+    },
+    {
+      "address": "0xed8e437938542366ed4d6d0a544523d7667b1470",
+      "nameTag": "Polkastarter: Ethernity Public"
+    },
+    {
+      "address": "0xa8e4691b071b2a43dc4bfd64db707104ea562dc3",
+      "nameTag": "Polkastarter: Exeedme POLS"
+    },
+    {
+      "address": "0xbb7dc3b6e6e589c5e51833d195c76a8ac36eff73",
+      "nameTag": "Polkastarter: Exeedme Public"
+    },
+    {
+      "address": "0x068ecd782a4164a768c9e75ecd8c0b09c8347d6e",
+      "nameTag": "Polkastarter: Finxflo FXF POLS"
+    },
+    {
+      "address": "0x94ba931ccbb6ad3cee54c51658048627f828f24d",
+      "nameTag": "Polkastarter: Finxflo FXF Public"
+    },
+    {
+      "address": "0x7a91ef27447eae80371e6e91c0c316abc0a19d3c",
+      "nameTag": "Polkastarter: FIRE POLS"
+    },
+    {
+      "address": "0x4a7bb56cfa63460de3f2c2be6b6f382438896237",
+      "nameTag": "Polkastarter: FIRE Public"
+    },
+    {
+      "address": "0x90fb363aef304fee0265a6e04061dff664a48c72",
+      "nameTag": "Polkastarter: Fractal POLS"
+    },
+    {
+      "address": "0x862e6e9fe5baf7e1004bf9f01613b73acc8532e9",
+      "nameTag": "Polkastarter: Fractal Public"
+    },
+    {
+      "address": "0xde247818eacc8efcd7e7ca60df66a4e2d441b12c",
+      "nameTag": "Polkastarter: Genesis Shards POLS"
+    },
+    {
+      "address": "0x52c09a0ada895d05c0588ba6caaaa054504b3e62",
+      "nameTag": "Polkastarter: Kambria Token"
+    },
+    {
+      "address": "0xbe9dd6bb2faad3142576bc06a8fffb2c4b04fda1",
+      "nameTag": "Polkastarter: Kattana POLS"
+    },
+    {
+      "address": "0x508a6ea78e7ca5a048daaf537b9a018c3161d5d8",
+      "nameTag": "Polkastarter: Kattana Public"
+    },
+    {
+      "address": "0x683d23d25fdc3a58dc2f544890bf6097057421f2",
+      "nameTag": "Polkastarter: Konomi POLS"
+    },
+    {
+      "address": "0x920aadad6bea7ee617ebc411bf19ce10b97d45c1",
+      "nameTag": "Polkastarter: Konomi Public"
+    },
+    {
+      "address": "0xbd198652a25887aae49f7c09c7f0969f9d76c294",
+      "nameTag": "Polkastarter: Kylin POLS"
+    },
+    {
+      "address": "0xa57684662431f821d6eb7faf3c6ca3b67171baa0",
+      "nameTag": "Polkastarter: Lithium Pre-IDO"
+    },
+    {
+      "address": "0x9812ae472b8fc58257f2256a3f0cc2e14d08481c",
+      "nameTag": "Polkastarter: MahaDAO POLS"
+    },
+    {
+      "address": "0x71306c4a5acbc4a2a8fa84df957455c36f7b3503",
+      "nameTag": "Polkastarter: MahaDAO Public"
+    },
+    {
+      "address": "0x6f14193e7319792842b84813ae8a0b1895da120b",
+      "nameTag": "Polkastarter: NAOS Finance POLS"
+    },
+    {
+      "address": "0x400fe4973cf5a7ba57bf94a1f9774bbe9e6f9eac",
+      "nameTag": "Polkastarter: NAOS Finance Public"
+    },
+    {
+      "address": "0x5c1881db6963442310934534878adb3850059192",
+      "nameTag": "Polkastarter: NiiFi"
+    },
+    {
+      "address": "0xfa2740c7a8524c82762afeab8db40a8b6e23ef4a",
+      "nameTag": "Polkastarter: NORD Community"
+    },
+    {
+      "address": "0x439bf27188a4903d59088f4889effe984d632a81",
+      "nameTag": "Polkastarter: NORD POLS"
+    },
+    {
+      "address": "0x39824069d74aba48596c456feb9d0b4290125951",
+      "nameTag": "Polkastarter: Oddz POLS"
+    },
+    {
+      "address": "0xe29af1a3f69ce32340ed9db76d7eb7df3497dcbc",
+      "nameTag": "Polkastarter: Oddz Public"
+    },
+    {
+      "address": "0x8dc4fcd16cb674806e2686c77a9b6be59a85b97a",
+      "nameTag": "Polkastarter: OptionRoom POLS"
+    },
+    {
+      "address": "0x5683f7142247e5f9f61e6e74770e3279017df21d",
+      "nameTag": "Polkastarter: OptionRoom Public"
+    },
+    {
+      "address": "0xe923060c48266e6ba0993a8d214fd64a5f103979",
+      "nameTag": "Polkastarter: Phuture Finance"
+    },
+    {
+      "address": "0x9f5b56895c92e354edc272301c3daa809c8454ff",
+      "nameTag": "Polkastarter: Pinknode 1"
+    },
+    {
+      "address": "0x6f6ebc75cdc0a90a2823b49b81031b3012e7512c",
+      "nameTag": "Polkastarter: Pinknode 2"
+    },
+    {
+      "address": "0x29796e70e1aaee2d9db01d6ca633d18a9de785b3",
+      "nameTag": "Polkastarter: PolkaCover POLS"
+    },
+    {
+      "address": "0xe868245c0a87f9b0437ce0c6336978a56c1e3228",
+      "nameTag": "Polkastarter: PolkaCover Public"
+    },
+    {
+      "address": "0x8324b0227b7685434918edaa61be5e7f7b60b358",
+      "nameTag": "Polkastarter: Polkadex POLS"
+    },
+    {
+      "address": "0x86e35bf49001719d694f596bd684e85cb5bd122d",
+      "nameTag": "Polkastarter: Polkadex Public"
+    },
+    {
+      "address": "0x6b049adebc21ebec5b11b05f54aed9fe27f1ced5",
+      "nameTag": "Polkastarter: Polkalokr POLS"
+    },
+    {
+      "address": "0x6839f922a54362169c75f324af6a30df2eaef704",
+      "nameTag": "Polkastarter: Polkalokr Public"
+    },
+    {
+      "address": "0x868be4f80bb166a09489822c322deb3163b5025b",
+      "nameTag": "Polkastarter: Polkamarkets POLS"
+    },
+    {
+      "address": "0x33891316e3b032afbd926597ac78c34ba545900e",
+      "nameTag": "Polkastarter: Polkamarkets Public"
+    },
+    {
+      "address": "0x55bbc3f0bf0d09d41c5fceb725a078d5da283f8f",
+      "nameTag": "Polkastarter: Polkamon POLS"
+    },
+    {
+      "address": "0x7c0c8e823e109702a7ada15f46ee23053eefcf10",
+      "nameTag": "Polkastarter: Polkamon Public"
+    },
+    {
+      "address": "0x7364ae774f32b07e804be6083c6df35e3b11b144",
+      "nameTag": "Polkastarter: Polkastarter Early"
+    },
+    {
+      "address": "0xa6815d24bc1a2ff273e49d5cedbc558cf86fd828",
+      "nameTag": "Polkastarter: Public Mint POLS"
+    },
+    {
+      "address": "0xd545ebcbbc2b198b37eb6a3e7a82aa99565a7816",
+      "nameTag": "Polkastarter: Public Mint Public"
+    },
+    {
+      "address": "0x35233ad1e7ff78d8bbee31b4c4a6d15b82e9868c",
+      "nameTag": "Polkastarter: Royale Finance POLS"
+    },
+    {
+      "address": "0x51141d8daf44aefb64025e8c73be7c08cd7c5c21",
+      "nameTag": "Polkastarter: Royale Finance Public"
+    },
+    {
+      "address": "0xc4b4723101be99524dc490580048c16d613c3e01",
+      "nameTag": "Polkastarter: Saito POLS 1"
+    },
+    {
+      "address": "0xa56019ed7fe23d9402e691c122b41b58398d7b27",
+      "nameTag": "Polkastarter: Saito POLS 2"
+    },
+    {
+      "address": "0x667f21a25728c81590d34023057c6a4ee3ea92d7",
+      "nameTag": "Polkastarter: Saito Public 1"
+    },
+    {
+      "address": "0xef7f3cb4cb288de3025bdee44da1971f3723dec5",
+      "nameTag": "Polkastarter: Saito Public 2"
+    },
+    {
+      "address": "0x8905d77cb2f954cbe41cf4f8b6110398509ef4b8",
+      "nameTag": "Polkastarter: Shyft POLS"
+    },
+    {
+      "address": "0x1bff37c19e72a5b527a81dc1d5c26b63b0df3f33",
+      "nameTag": "Polkastarter: Shyft Public"
+    },
+    {
+      "address": "0x52b00be38b70b2384bd48efda71c45a49467cfea",
+      "nameTag": "Polkastarter: Sienna Network POLS"
+    },
+    {
+      "address": "0x65d9840c97e0e3b39e7c3f334ec1805e2186dc8c",
+      "nameTag": "Polkastarter: Sienna Network Public"
+    },
+    {
+      "address": "0x3377369567af5b93f61dddbc311815f87f5d2647",
+      "nameTag": "Polkastarter: SpiderDAO POLS"
+    },
+    {
+      "address": "0xf5d81dac4d6c3f3a0548b86a880e2d0bdb500854",
+      "nameTag": "Polkastarter: SpiderDAO Public"
+    },
+    {
+      "address": "0xc781ee2886c792f4cdbc25ec30b8a2a61c826a3e",
+      "nameTag": "Polkastarter: Standard POLS"
+    },
+    {
+      "address": "0xc61b79c488833dcd20ac03d8e60be30092ec567d",
+      "nameTag": "Polkastarter: Standard Public"
+    },
+    {
+      "address": "0xbc735b0a2be5a0b5ff3e1b0a7313ca01fc7e1423",
+      "nameTag": "Polkastarter: Stratos 1"
+    },
+    {
+      "address": "0xe4c86e1767a9f2a0324fed90035608ec5c792756",
+      "nameTag": "Polkastarter: Stratos 2"
+    },
+    {
+      "address": "0x001602799ee561c9f9405176d33eba6f29ce3386",
+      "nameTag": "Polkastarter: SuperFarm POLS"
+    },
+    {
+      "address": "0xb4aa6a975b53f579717a769d025b405ffff051fe",
+      "nameTag": "Polkastarter: SuperFarm Public"
+    },
+    {
+      "address": "0xf606297642b209b06d925099356ba3bd8a5291f5",
+      "nameTag": "Polkastarter: TENET POLS"
+    },
+    {
+      "address": "0x8a7e4ec685c973fae8391c711ffaad0fe8d88f9b",
+      "nameTag": "Polkastarter: TENET Public"
+    },
+    {
+      "address": "0xd065bdae5b01efc48fe9895d89d0f3b7c93e9fe5",
+      "nameTag": "Polkastarter: Tidal POLS"
+    },
+    {
+      "address": "0x651af6ecbdd3099a75b78d9ae08a97daf135c38c",
+      "nameTag": "Polkastarter: Tidal Public"
+    },
+    {
+      "address": "0x46a45c53f522a6aaeef43c0e4f669757860e101c",
+      "nameTag": "Polkastarter: TosDis POLS"
+    },
+    {
+      "address": "0xa0ae1246a826d554c63a4b62f3f10e5fa21bc03f",
+      "nameTag": "Polkastarter: TosDis Public"
+    },
+    {
+      "address": "0x11b867ae59170ca8f6dd18dfc2a77a1645370f5d",
+      "nameTag": "Polkastarter: Umbrella POLS"
+    },
+    {
+      "address": "0x34cff99a2717e5319fe373581b7dc0963b53dfa7",
+      "nameTag": "Polkastarter: Umbrella Public"
+    },
+    {
+      "address": "0xb27add743ab337c73a01f61d2e4b37b475b4f30a",
+      "nameTag": "Polkastarter: Unido POLS"
+    },
+    {
+      "address": "0xd806b3c4a0f5f12f34d54400a781c3e32cebf079",
+      "nameTag": "Polkastarter: Unido Public"
+    },
+    {
+      "address": "0xf13f96f7f95517ae54a0b3f9494e58607edfca1f",
+      "nameTag": "Polkastarter: Unmarshal POLS"
+    },
+    {
+      "address": "0x68914f41079420838972915f8c928a98845c61ef",
+      "nameTag": "Polkastarter: Unmarshal Public"
+    },
+    {
+      "address": "0xbf68b9a94c655e9931e94ea0923b51608896939d",
+      "nameTag": "Polkastarter: UnoRe POLS"
+    },
+    {
+      "address": "0x3d5c21b29aa68114a523b55685133381a221cd6a",
+      "nameTag": "Polkastarter: UnoRe Public"
+    },
+    {
+      "address": "0x511681b617f4fe28e082e9fd9808f1c57e78e305",
+      "nameTag": "Polkastarter: Wilder World 1"
+    },
+    {
+      "address": "0x1387a3e355a35388281cfa6d01dedff54af28f7c",
+      "nameTag": "Polkastarter: Wilder World 2"
+    },
+    {
+      "address": "0x3e2a96a2d744696877674d2974b5f9611f7ad221",
+      "nameTag": "Polkastarter: Xdef Finance Public"
+    },
+    {
+      "address": "0x4af831e9357254daa2a17956675a84894069c799",
+      "nameTag": "Polkastarter: YOP POLS"
+    },
+    {
+      "address": "0x061669a2a75fcfc893e30559636ec55b4341df34",
+      "nameTag": "Polkastarter: YOP Public"
+    },
+    {
+      "address": "0x29b29eabe897ae75895216f7dbfebb3f52f7155c",
+      "nameTag": "Polkastarter:Blank Public"
+    }
+  ]
+}

@@ -1,18 +1,21 @@
-[
-  {
-    "address": "0x70a0d319c76b0a99be5e8cd2685219aea9406845",
-    "nameTag": "dForce: Deployer 2"
-  },
-  {
-    "address": "0xae6aab43c4f3e0cea4ab83752c278f8debaba689",
-    "nameTag": "dForce: DF Token"
-  },
-  {
-    "address": "0xc2125882318d04d266720b598d620f28222f3abd",
-    "nameTag": "dForce: EUX Token"
-  },
-  {
-    "address": "0x641441c631e2f909700d2f41fd87f0aa6a6b4edb",
-    "nameTag": "dForce: USX Token"
-  }
-]
+{
+  "lastPulled": "2024-04-02T21:01:17.829Z",
+  "data": [
+    {
+      "address": "0x70a0d319c76b0a99be5e8cd2685219aea9406845",
+      "nameTag": "dForce: Deployer 2"
+    },
+    {
+      "address": "0xae6aab43c4f3e0cea4ab83752c278f8debaba689",
+      "nameTag": "dForce: DF Token"
+    },
+    {
+      "address": "0xc2125882318d04d266720b598d620f28222f3abd",
+      "nameTag": "dForce: EUX Token"
+    },
+    {
+      "address": "0x641441c631e2f909700d2f41fd87f0aa6a6b4edb",
+      "nameTag": "dForce: USX Token"
+    }
+  ]
+}

@@ -1,14 +1,17 @@
-[
-  {
-    "address": "0xd1669ac6044269b59fa12c5822439f609ca54f41",
-    "nameTag": "CoinList 1"
-  },
-  {
-    "address": "0x8d1f2ebfaccf1136db76fdd1b86f1dede2d23852",
-    "nameTag": "CoinList 2"
-  },
-  {
-    "address": "0xd2c82f2e5fa236e114a81173e375a73664610998",
-    "nameTag": "CoinList 3"
-  }
-]
+{
+  "lastPulled": "2024-04-02T20:41:05.682Z",
+  "data": [
+    {
+      "address": "0xd1669ac6044269b59fa12c5822439f609ca54f41",
+      "nameTag": "CoinList 1"
+    },
+    {
+      "address": "0x8d1f2ebfaccf1136db76fdd1b86f1dede2d23852",
+      "nameTag": "CoinList 2"
+    },
+    {
+      "address": "0xd2c82f2e5fa236e114a81173e375a73664610998",
+      "nameTag": "CoinList 3"
+    }
+  ]
+}

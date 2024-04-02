@@ -1,6 +1,9 @@
-[
-  {
-    "address": "0x9212aae431d079adadf1041be4cf2db4a929fe63",
-    "nameTag": "Notify Dapp"
-  }
-]
+{
+  "lastPulled": "2024-04-02T20:41:13.648Z",
+  "data": [
+    {
+      "address": "0x9212aae431d079adadf1041be4cf2db4a929fe63",
+      "nameTag": "Notify Dapp"
+    }
+  ]
+}

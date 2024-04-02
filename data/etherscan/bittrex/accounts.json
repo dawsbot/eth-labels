@@ -1,18 +1,21 @@
-[
-  {
-    "address": "0xfbb1b73c4f0bda4f67dca266ce6ef42f520fbb98",
-    "nameTag": "Bittrex"
-  },
-  {
-    "address": "0xe94b04a0fed112f3664e45adb2b8915693dd5ff3",
-    "nameTag": "Bittrex 2"
-  },
-  {
-    "address": "0x66f820a414680b5bcda5eeca5dea238543f42054",
-    "nameTag": "Bittrex 3"
-  },
-  {
-    "address": "0xa3c1e324ca1ce40db73ed6026c4a177f099b5770",
-    "nameTag": "Bittrex: Controller"
-  }
-]
+{
+  "lastPulled": "2024-04-02T20:40:02.931Z",
+  "data": [
+    {
+      "address": "0xfbb1b73c4f0bda4f67dca266ce6ef42f520fbb98",
+      "nameTag": "Bittrex"
+    },
+    {
+      "address": "0xe94b04a0fed112f3664e45adb2b8915693dd5ff3",
+      "nameTag": "Bittrex 2"
+    },
+    {
+      "address": "0x66f820a414680b5bcda5eeca5dea238543f42054",
+      "nameTag": "Bittrex 3"
+    },
+    {
+      "address": "0xa3c1e324ca1ce40db73ed6026c4a177f099b5770",
+      "nameTag": "Bittrex: Controller"
+    }
+  ]
+}

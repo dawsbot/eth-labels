@@ -1,198 +1,201 @@
-[
-  {
-    "address": "0x028fb01ffafe25e278ebb467f69bd79a928cf25e",
-    "nameTag": "MCDEX: BTC AMM"
-  },
-  {
-    "address": "0xe3c29ce0c36863fd682f1afe464781df6bebaa0a",
-    "nameTag": "MCDEX: BTC Perpetual"
-  },
-  {
-    "address": "0x5378b0388ef594f0c2eb194504aee2b48d1eac18",
-    "nameTag": "MCDEX: COMP AMM"
-  },
-  {
-    "address": "0xfa203e643d1fddc5d8b91253ea23b3bd826cae9e",
-    "nameTag": "MCDEX: COMP Perpetual"
-  },
-  {
-    "address": "0x072fbb7232bf368899827011c51df03a1d59ce45",
-    "nameTag": "MCDEX: DefiPulse Vesting #1"
-  },
-  {
-    "address": "0x97bc5385530066b87ead0ba0e927b8512c0b2aa7",
-    "nameTag": "MCDEX: DefiPulse Vesting #2"
-  },
-  {
-    "address": "0x786455985c1bd722b0b7e00ce3152b45183c5df4",
-    "nameTag": "MCDEX: DefiPulse Vesting #3"
-  },
-  {
-    "address": "0x904b5993fc92979eeedc19ccc58bed6b7216667c",
-    "nameTag": "MCDEX: Deployer"
-  },
-  {
-    "address": "0xaaac8434217575643b2d2ab6f12ce8600c625520",
-    "nameTag": "MCDEX: ETH AMM"
-  },
-  {
-    "address": "0x220a9f0dd581cbc58fcfb907de0454cbf3777f76",
-    "nameTag": "MCDEX: ETH Perpetual"
-  },
-  {
-    "address": "0x38ca50c6e3391a5bf73c2504bd9cd9c0b9d89053",
-    "nameTag": "MCDEX: Foundation"
-  },
-  {
-    "address": "0xbe83943d5ca2d66fb7ba3a8d4a983782f31a42dc",
-    "nameTag": "MCDEX: LEND AMM"
-  },
-  {
-    "address": "0xd48c88a18bfa81486862c6d1d172a39f1365e8ac",
-    "nameTag": "MCDEX: LEND Perpetual"
-  },
-  {
-    "address": "0x7230d622d067d9c30154a750dbd29c035ba7605a",
-    "nameTag": "MCDEX: LINK AMM"
-  },
-  {
-    "address": "0xa04197e5f7971e7aef78cf5ad2bc65aac1a967aa",
-    "nameTag": "MCDEX: LINK Perpetual"
-  },
-  {
-    "address": "0x942df696cd1995ba2eab710d168b2d9cee53b52c",
-    "nameTag": "MCDEX: SNX AMM"
-  },
-  {
-    "address": "0x4cc89906db523af7c3bb240a959be21cb812b434",
-    "nameTag": "MCDEX: SNX Perpetual"
-  },
-  {
-    "address": "0xa8f13a7e97a624e6d0b88d0a4fe7080be7b6ca21",
-    "nameTag": "MCDEX: Team Vesting #1"
-  },
-  {
-    "address": "0x21c09c55af2643023efe8775ae20dd23a53585ab",
-    "nameTag": "MCDEX: Team Vesting #10"
-  },
-  {
-    "address": "0x5bbbaf040a017966c9e966edbb9221b37b2c2923",
-    "nameTag": "MCDEX: Team Vesting #11"
-  },
-  {
-    "address": "0xd72a41aa286f045e9a4d55f589edae141cfc4952",
-    "nameTag": "MCDEX: Team Vesting #12"
-  },
-  {
-    "address": "0x92d8736ce002e9ca4b864377a2ff65b74340d04c",
-    "nameTag": "MCDEX: Team Vesting #13"
-  },
-  {
-    "address": "0xba9a70a5dd74343c0dfaa3826d14e96297da171c",
-    "nameTag": "MCDEX: Team Vesting #14"
-  },
-  {
-    "address": "0xb7f09da3e0e75d7342d3ec01649903857f0b5075",
-    "nameTag": "MCDEX: Team Vesting #15"
-  },
-  {
-    "address": "0xa9e23857cd6eb5c7ed2159edd68ab5b24285f977",
-    "nameTag": "MCDEX: Team Vesting #16"
-  },
-  {
-    "address": "0x9cc56b52387ed71c8c29ffad7416f973f0555902",
-    "nameTag": "MCDEX: Team Vesting #17"
-  },
-  {
-    "address": "0x7dbcc4335ccadc2993279052ea070bd2c0786d85",
-    "nameTag": "MCDEX: Team Vesting #18"
-  },
-  {
-    "address": "0x4add71348f750b038869ab0ce6c3309a922d1892",
-    "nameTag": "MCDEX: Team Vesting #19"
-  },
-  {
-    "address": "0xe26b8a84028fe92a2f473b7c114ec95cef73927e",
-    "nameTag": "MCDEX: Team Vesting #2"
-  },
-  {
-    "address": "0x532fe523a638b714ddfbd820d41c68f9e2c6e1db",
-    "nameTag": "MCDEX: Team Vesting #20"
-  },
-  {
-    "address": "0xb0f0e4c0615e1905ed08905bf4486f73e7eddd63",
-    "nameTag": "MCDEX: Team Vesting #21"
-  },
-  {
-    "address": "0x21c6e6b19ad4011a5bd270214d98382319de1bcb",
-    "nameTag": "MCDEX: Team Vesting #22"
-  },
-  {
-    "address": "0xf6e88d5aca2d9fbed26de198d2f78dee1c97a369",
-    "nameTag": "MCDEX: Team Vesting #23"
-  },
-  {
-    "address": "0x6ae6be7b8e48f8ad3ebcccedac31841bc1516239",
-    "nameTag": "MCDEX: Team Vesting #24"
-  },
-  {
-    "address": "0x17ec352286d1a8117d39674b6fd20f1e06969408",
-    "nameTag": "MCDEX: Team Vesting #25"
-  },
-  {
-    "address": "0x278d33a37c206966cb6447963cca9246c137a036",
-    "nameTag": "MCDEX: Team Vesting #26"
-  },
-  {
-    "address": "0xdca445b99ea5e9bde70169fc9977032535b1ee02",
-    "nameTag": "MCDEX: Team Vesting #27"
-  },
-  {
-    "address": "0x6ecc9da2698870db2c1792369a6fc520b5de6461",
-    "nameTag": "MCDEX: Team Vesting #28"
-  },
-  {
-    "address": "0xa5ff91816cebd3878f9b7c3161b08f7213a37347",
-    "nameTag": "MCDEX: Team Vesting #29"
-  },
-  {
-    "address": "0x34a99cb066777495ad8ff3def0c39bdec72adae3",
-    "nameTag": "MCDEX: Team Vesting #3"
-  },
-  {
-    "address": "0x205285d6eef9055779650f6556c3704a5b514271",
-    "nameTag": "MCDEX: Team Vesting #30"
-  },
-  {
-    "address": "0x5910a985197cedccfba0c3a27bd37a46cb0f8011",
-    "nameTag": "MCDEX: Team Vesting #31"
-  },
-  {
-    "address": "0x57469550b9a42d2fd964e67a9dd1de3d9169b291",
-    "nameTag": "MCDEX: Team Vesting #32"
-  },
-  {
-    "address": "0x42ff3d43979f083c8aa3166298789261b66dc926",
-    "nameTag": "MCDEX: Team Vesting #4"
-  },
-  {
-    "address": "0x89108a54d94152db363318f8085dc8b7abf03323",
-    "nameTag": "MCDEX: Team Vesting #5"
-  },
-  {
-    "address": "0xe078be6acc9c1e23474d23e2ab2aa0c528c1494e",
-    "nameTag": "MCDEX: Team Vesting #6"
-  },
-  {
-    "address": "0x490a11e5195bb6f1c9c555e744f6bc1b35a3eaea",
-    "nameTag": "MCDEX: Team Vesting #7"
-  },
-  {
-    "address": "0xe87352f80cf096584d473d7821ffb220ffcceedd",
-    "nameTag": "MCDEX: Team Vesting #8"
-  },
-  {
-    "address": "0xdd35bd8a76c711783ae2ef5ed0d6bb3fee18fdc3",
-    "nameTag": "MCDEX: Team Vesting #9"
-  }
-]
+{
+  "lastPulled": "2024-04-02T20:45:44.028Z",
+  "data": [
+    {
+      "address": "0x028fb01ffafe25e278ebb467f69bd79a928cf25e",
+      "nameTag": "MCDEX: BTC AMM"
+    },
+    {
+      "address": "0xe3c29ce0c36863fd682f1afe464781df6bebaa0a",
+      "nameTag": "MCDEX: BTC Perpetual"
+    },
+    {
+      "address": "0x5378b0388ef594f0c2eb194504aee2b48d1eac18",
+      "nameTag": "MCDEX: COMP AMM"
+    },
+    {
+      "address": "0xfa203e643d1fddc5d8b91253ea23b3bd826cae9e",
+      "nameTag": "MCDEX: COMP Perpetual"
+    },
+    {
+      "address": "0x072fbb7232bf368899827011c51df03a1d59ce45",
+      "nameTag": "MCDEX: DefiPulse Vesting #1"
+    },
+    {
+      "address": "0x97bc5385530066b87ead0ba0e927b8512c0b2aa7",
+      "nameTag": "MCDEX: DefiPulse Vesting #2"
+    },
+    {
+      "address": "0x786455985c1bd722b0b7e00ce3152b45183c5df4",
+      "nameTag": "MCDEX: DefiPulse Vesting #3"
+    },
+    {
+      "address": "0x904b5993fc92979eeedc19ccc58bed6b7216667c",
+      "nameTag": "MCDEX: Deployer"
+    },
+    {
+      "address": "0xaaac8434217575643b2d2ab6f12ce8600c625520",
+      "nameTag": "MCDEX: ETH AMM"
+    },
+    {
+      "address": "0x220a9f0dd581cbc58fcfb907de0454cbf3777f76",
+      "nameTag": "MCDEX: ETH Perpetual"
+    },
+    {
+      "address": "0x38ca50c6e3391a5bf73c2504bd9cd9c0b9d89053",
+      "nameTag": "MCDEX: Foundation"
+    },
+    {
+      "address": "0xbe83943d5ca2d66fb7ba3a8d4a983782f31a42dc",
+      "nameTag": "MCDEX: LEND AMM"
+    },
+    {
+      "address": "0xd48c88a18bfa81486862c6d1d172a39f1365e8ac",
+      "nameTag": "MCDEX: LEND Perpetual"
+    },
+    {
+      "address": "0x7230d622d067d9c30154a750dbd29c035ba7605a",
+      "nameTag": "MCDEX: LINK AMM"
+    },
+    {
+      "address": "0xa04197e5f7971e7aef78cf5ad2bc65aac1a967aa",
+      "nameTag": "MCDEX: LINK Perpetual"
+    },
+    {
+      "address": "0x942df696cd1995ba2eab710d168b2d9cee53b52c",
+      "nameTag": "MCDEX: SNX AMM"
+    },
+    {
+      "address": "0x4cc89906db523af7c3bb240a959be21cb812b434",
+      "nameTag": "MCDEX: SNX Perpetual"
+    },
+    {
+      "address": "0xa8f13a7e97a624e6d0b88d0a4fe7080be7b6ca21",
+      "nameTag": "MCDEX: Team Vesting #1"
+    },
+    {
+      "address": "0x21c09c55af2643023efe8775ae20dd23a53585ab",
+      "nameTag": "MCDEX: Team Vesting #10"
+    },
+    {
+      "address": "0x5bbbaf040a017966c9e966edbb9221b37b2c2923",
+      "nameTag": "MCDEX: Team Vesting #11"
+    },
+    {
+      "address": "0xd72a41aa286f045e9a4d55f589edae141cfc4952",
+      "nameTag": "MCDEX: Team Vesting #12"
+    },
+    {
+      "address": "0x92d8736ce002e9ca4b864377a2ff65b74340d04c",
+      "nameTag": "MCDEX: Team Vesting #13"
+    },
+    {
+      "address": "0xba9a70a5dd74343c0dfaa3826d14e96297da171c",
+      "nameTag": "MCDEX: Team Vesting #14"
+    },
+    {
+      "address": "0xb7f09da3e0e75d7342d3ec01649903857f0b5075",
+      "nameTag": "MCDEX: Team Vesting #15"
+    },
+    {
+      "address": "0xa9e23857cd6eb5c7ed2159edd68ab5b24285f977",
+      "nameTag": "MCDEX: Team Vesting #16"
+    },
+    {
+      "address": "0x9cc56b52387ed71c8c29ffad7416f973f0555902",
+      "nameTag": "MCDEX: Team Vesting #17"
+    },
+    {
+      "address": "0x7dbcc4335ccadc2993279052ea070bd2c0786d85",
+      "nameTag": "MCDEX: Team Vesting #18"
+    },
+    {
+      "address": "0x4add71348f750b038869ab0ce6c3309a922d1892",
+      "nameTag": "MCDEX: Team Vesting #19"
+    },
+    {
+      "address": "0xe26b8a84028fe92a2f473b7c114ec95cef73927e",
+      "nameTag": "MCDEX: Team Vesting #2"
+    },
+    {
+      "address": "0x532fe523a638b714ddfbd820d41c68f9e2c6e1db",
+      "nameTag": "MCDEX: Team Vesting #20"
+    },
+    {
+      "address": "0xb0f0e4c0615e1905ed08905bf4486f73e7eddd63",
+      "nameTag": "MCDEX: Team Vesting #21"
+    },
+    {
+      "address": "0x21c6e6b19ad4011a5bd270214d98382319de1bcb",
+      "nameTag": "MCDEX: Team Vesting #22"
+    },
+    {
+      "address": "0xf6e88d5aca2d9fbed26de198d2f78dee1c97a369",
+      "nameTag": "MCDEX: Team Vesting #23"
+    },
+    {
+      "address": "0x6ae6be7b8e48f8ad3ebcccedac31841bc1516239",
+      "nameTag": "MCDEX: Team Vesting #24"
+    },
+    {
+      "address": "0x17ec352286d1a8117d39674b6fd20f1e06969408",
+      "nameTag": "MCDEX: Team Vesting #25"
+    },
+    {
+      "address": "0x278d33a37c206966cb6447963cca9246c137a036",
+      "nameTag": "MCDEX: Team Vesting #26"
+    },
+    {
+      "address": "0xdca445b99ea5e9bde70169fc9977032535b1ee02",
+      "nameTag": "MCDEX: Team Vesting #27"
+    },
+    {
+      "address": "0x6ecc9da2698870db2c1792369a6fc520b5de6461",
+      "nameTag": "MCDEX: Team Vesting #28"
+    },
+    {
+      "address": "0xa5ff91816cebd3878f9b7c3161b08f7213a37347",
+      "nameTag": "MCDEX: Team Vesting #29"
+    },
+    {
+      "address": "0x34a99cb066777495ad8ff3def0c39bdec72adae3",
+      "nameTag": "MCDEX: Team Vesting #3"
+    },
+    {
+      "address": "0x205285d6eef9055779650f6556c3704a5b514271",
+      "nameTag": "MCDEX: Team Vesting #30"
+    },
+    {
+      "address": "0x5910a985197cedccfba0c3a27bd37a46cb0f8011",
+      "nameTag": "MCDEX: Team Vesting #31"
+    },
+    {
+      "address": "0x57469550b9a42d2fd964e67a9dd1de3d9169b291",
+      "nameTag": "MCDEX: Team Vesting #32"
+    },
+    {
+      "address": "0x42ff3d43979f083c8aa3166298789261b66dc926",
+      "nameTag": "MCDEX: Team Vesting #4"
+    },
+    {
+      "address": "0x89108a54d94152db363318f8085dc8b7abf03323",
+      "nameTag": "MCDEX: Team Vesting #5"
+    },
+    {
+      "address": "0xe078be6acc9c1e23474d23e2ab2aa0c528c1494e",
+      "nameTag": "MCDEX: Team Vesting #6"
+    },
+    {
+      "address": "0x490a11e5195bb6f1c9c555e744f6bc1b35a3eaea",
+      "nameTag": "MCDEX: Team Vesting #7"
+    },
+    {
+      "address": "0xe87352f80cf096584d473d7821ffb220ffcceedd",
+      "nameTag": "MCDEX: Team Vesting #8"
+    },
+    {
+      "address": "0xdd35bd8a76c711783ae2ef5ed0d6bb3fee18fdc3",
+      "nameTag": "MCDEX: Team Vesting #9"
+    }
+  ]
+}

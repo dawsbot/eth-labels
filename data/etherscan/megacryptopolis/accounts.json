@@ -1,30 +1,33 @@
-[
-  {
-    "address": "0x2594d80da5f2e4f742d1e479eb9408aad132d0bd",
-    "nameTag": "MCP: Appliance"
-  },
-  {
-    "address": "0xf06059f01f6f08a603c939359a0a1186f7687685",
-    "nameTag": "MCP: Citizen"
-  },
-  {
-    "address": "0x501f51187acfbbfb711166dea9ee5bbf77c6c2d8",
-    "nameTag": "MCP: Deployer"
-  },
-  {
-    "address": "0x14580a944246339d9151ab4e22458b3ab926438b",
-    "nameTag": "MCP: Old Contract 1"
-  },
-  {
-    "address": "0xba7a1265933be28ee36841f8c2170d51688b365d",
-    "nameTag": "MCP: Pack"
-  },
-  {
-    "address": "0x56f123785b54978c6c0b117f15d3ee69eb9bf6c8",
-    "nameTag": "MCP: Pet"
-  },
-  {
-    "address": "0x98ff4553a3dcbf5e4ff8b5d4cc6fb763b6f20174",
-    "nameTag": "MCP: Resource"
-  }
-]
+{
+  "lastPulled": "2024-04-02T20:45:54.592Z",
+  "data": [
+    {
+      "address": "0x2594d80da5f2e4f742d1e479eb9408aad132d0bd",
+      "nameTag": "MCP: Appliance"
+    },
+    {
+      "address": "0xf06059f01f6f08a603c939359a0a1186f7687685",
+      "nameTag": "MCP: Citizen"
+    },
+    {
+      "address": "0x501f51187acfbbfb711166dea9ee5bbf77c6c2d8",
+      "nameTag": "MCP: Deployer"
+    },
+    {
+      "address": "0x14580a944246339d9151ab4e22458b3ab926438b",
+      "nameTag": "MCP: Old Contract 1"
+    },
+    {
+      "address": "0xba7a1265933be28ee36841f8c2170d51688b365d",
+      "nameTag": "MCP: Pack"
+    },
+    {
+      "address": "0x56f123785b54978c6c0b117f15d3ee69eb9bf6c8",
+      "nameTag": "MCP: Pet"
+    },
+    {
+      "address": "0x98ff4553a3dcbf5e4ff8b5d4cc6fb763b6f20174",
+      "nameTag": "MCP: Resource"
+    }
+  ]
+}

@@ -1,6 +1,9 @@
-[
-  {
-    "address": "0x5c11aa48bddf38433ff47bc5841d18721cc04d31",
-    "nameTag": "ZAC Finance: Farming Contract"
-  }
-]
+{
+  "lastPulled": "2024-04-02T20:43:23.030Z",
+  "data": [
+    {
+      "address": "0x5c11aa48bddf38433ff47bc5841d18721cc04d31",
+      "nameTag": "ZAC Finance: Farming Contract"
+    }
+  ]
+}

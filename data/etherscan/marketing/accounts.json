@@ -1,14 +1,17 @@
-[
-  {
-    "address": "0xb0d20a7c5df0ef59ce24031fa17c2b7c2ee35fd8",
-    "nameTag": "Burrito: Marketing"
-  },
-  {
-    "address": "0xd0b84202bd02eb1b9f62b30de1d8985f65d8dfb3",
-    "nameTag": "Kawakami: Marketing Fund"
-  },
-  {
-    "address": "0xab864e2ba644b21a8f6fde498304f5e25903abc6",
-    "nameTag": "Social Halis: SocialHalis"
-  }
-]
+{
+  "lastPulled": "2024-04-02T20:45:38.996Z",
+  "data": [
+    {
+      "address": "0xb0d20a7c5df0ef59ce24031fa17c2b7c2ee35fd8",
+      "nameTag": "Burrito: Marketing"
+    },
+    {
+      "address": "0xd0b84202bd02eb1b9f62b30de1d8985f65d8dfb3",
+      "nameTag": "Kawakami: Marketing Fund"
+    },
+    {
+      "address": "0xab864e2ba644b21a8f6fde498304f5e25903abc6",
+      "nameTag": "Social Halis: SocialHalis"
+    }
+  ]
+}

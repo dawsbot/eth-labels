@@ -1,254 +1,257 @@
-[
-  {
-    "address": "0xdd4c48c0b24039969fc16d1cdf626eab821d3384",
-    "nameTag": "Gitcoin Grants: Tornado.cash"
-  },
-  {
-    "address": "0x12d66f87a04a9e220743712ce6d9bb1b5616b8fc",
-    "nameTag": "Tornado.Cash: 0.1 ETH"
-  },
-  {
-    "address": "0x178169b423a011fff22b9e3f3abea13414ddd0f1",
-    "nameTag": "Tornado.Cash: 0.1 WBTC"
-  },
-  {
-    "address": "0x47ce0c6ed5b0ce3d3a51fdb1c52dc66a7c3c2936",
-    "nameTag": "Tornado.Cash: 1 ETH"
-  },
-  {
-    "address": "0x610b717796ad172b316836ac95a2ffad065ceab4",
-    "nameTag": "Tornado.Cash: 1 WBTC"
-  },
-  {
-    "address": "0x4736dcf1b7a3d580672cce6e7c65cd5cc9cfba9d",
-    "nameTag": "Tornado.Cash: 1,00 USDC"
-  },
-  {
-    "address": "0xfd8610d20aa15b7b2e3be39b396a1bc3516c7144",
-    "nameTag": "Tornado.Cash: 1,000 DAI"
-  },
-  {
-    "address": "0xd96f2b1c14db8458374d9aca76e26c3d18364307",
-    "nameTag": "Tornado.Cash: 1,000 USDC"
-  },
-  {
-    "address": "0x0836222f2b2b24a3f36f98668ed8f0b38d1a872f",
-    "nameTag": "Tornado.Cash: 1,000 USDT"
-  },
-  {
-    "address": "0x910cbd523d972eb0a6f4cae4618ad62622b39dbf",
-    "nameTag": "Tornado.Cash: 10 ETH"
-  },
-  {
-    "address": "0xbb93e510bbcd0b7beb5a853875f9ec60275cf498",
-    "nameTag": "Tornado.Cash: 10 WBTC"
-  },
-  {
-    "address": "0xf60dd140cff0706bae9cd734ac3ae76ad9ebc32a",
-    "nameTag": "Tornado.Cash: 10,000 DAI"
-  },
-  {
-    "address": "0x07687e702b410fa43f4cb4af7fa097918ffd2730",
-    "nameTag": "Tornado.Cash: 10,000 DAI 2"
-  },
-  {
-    "address": "0xd691f27f38b395864ea86cfc7253969b409c362d",
-    "nameTag": "Tornado.Cash: 10,000 USDC"
-  },
-  {
-    "address": "0xf67721a2d8f736e75a49fdd7fad2e31d8676542a",
-    "nameTag": "Tornado.Cash: 10,000 USDT"
-  },
-  {
-    "address": "0xd4b88df4d29f5cedd6857912842cff3b20c8cfa3",
-    "nameTag": "Tornado.Cash: 100 DAI"
-  },
-  {
-    "address": "0xa160cdab225685da1d56aa342ad8841c3b53f291",
-    "nameTag": "Tornado.Cash: 100 ETH"
-  },
-  {
-    "address": "0x169ad27a470d064dede56a2d3ff727986b15d52b",
-    "nameTag": "Tornado.Cash: 100 USDT"
-  },
-  {
-    "address": "0x23773e65ed146a459791799d01336db287f25334",
-    "nameTag": "Tornado.Cash: 100,000 DAI"
-  },
-  {
-    "address": "0x9ad122c22b14202b4490edaf288fdb3c7cb3ff5e",
-    "nameTag": "Tornado.Cash: 100,000 USDT"
-  },
-  {
-    "address": "0x22aaa7720ddd5388a3c0a3333430953c68f1849b",
-    "nameTag": "Tornado.Cash: 5,000 cDAI"
-  },
-  {
-    "address": "0xaeaac358560e11f52454d997aaff2c5731b6f8a6",
-    "nameTag": "Tornado.Cash: 5,000 cUSDC"
-  },
-  {
-    "address": "0xd21be7248e0197ee08e0c20d4a96debdac3d20af",
-    "nameTag": "Tornado.Cash: 5,000,000 cDAI"
-  },
-  {
-    "address": "0xba214c1c1928a32bffe790263e38b4af9bfcd659",
-    "nameTag": "Tornado.Cash: 50,000 cDAI"
-  },
-  {
-    "address": "0x1356c899d8c9467c7f71c195612f8a395abf2f0a",
-    "nameTag": "Tornado.Cash: 50,000 cUSDC"
-  },
-  {
-    "address": "0xb1c8094b234dce6e03f10a5b673c1d8c69739a00",
-    "nameTag": "Tornado.Cash: 500,000 cDAI"
-  },
-  {
-    "address": "0x2717c5e28cf931547b621a5dddb772ab6a35b701",
-    "nameTag": "Tornado.Cash: 500,000 cDAI 2"
-  },
-  {
-    "address": "0xa60c772958a3ed56c1f15dd055ba37ac8e523a0d",
-    "nameTag": "Tornado.Cash: 500,000 cUSDC"
-  },
-  {
-    "address": "0xb04e030140b30c27bcdfaafffa98c57d80eda7b4",
-    "nameTag": "Tornado.Cash: Community Fund"
-  },
-  {
-    "address": "0x8589427373d6d84e98730d7795d8f6f8731fda16",
-    "nameTag": "Tornado.Cash: Donate"
-  },
-  {
-    "address": "0x756c4628e57f7e7f8a459ec2752968360cf4d1aa",
-    "nameTag": "Tornado.Cash: Echoer"
-  },
-  {
-    "address": "0x5f6c97c6ad7bdd0ae7e0dd4ca33a4ed3fdabd4d7",
-    "nameTag": "Tornado.Cash: Fee Manager"
-  },
-  {
-    "address": "0xfa4c1f3f7d5dd7c12a9adb82cd7dda542e3d59ef",
-    "nameTag": "Tornado.Cash: Gas Compensation Vault"
-  },
-  {
-    "address": "0x5efda50f22d34f262c29268506c5fa42cb56a1ce",
-    "nameTag": "Tornado.Cash: Governance"
-  },
-  {
-    "address": "0xffbac21a641dcfe4552920138d90f3638b3c9fba",
-    "nameTag": "Tornado.Cash: Governance Impl"
-  },
-  {
-    "address": "0x2fc93484614a34f26f7970cbb94615ba109bb4bf",
-    "nameTag": "Tornado.Cash: Governance Staking"
-  },
-  {
-    "address": "0x2f50508a8a3d323b91336fa3ea6ae50e55f32185",
-    "nameTag": "Tornado.Cash: Governance Vault"
-  },
-  {
-    "address": "0x179f48c78f57a3a78f0608cc9197b8972921d1d2",
-    "nameTag": "Tornado.Cash: Governance Vesting"
-  },
-  {
-    "address": "0xb20c66c4de72433f3ce747b58b86830c459ca911",
-    "nameTag": "Tornado.Cash: Instance Registry"
-  },
-  {
-    "address": "0xca0840578f57fe71599d29375e16783424023357",
-    "nameTag": "Tornado.Cash: L1 Helper"
-  },
-  {
-    "address": "0x3f615ba21bc6cc5d4a6d798c5950cc5c42937fbd",
-    "nameTag": "Tornado.Cash: L1 Unwrapper"
-  },
-  {
-    "address": "0x746aebc06d2ae31b71ac51429a19d54e797878e9",
-    "nameTag": "Tornado.Cash: Mining v2"
-  },
-  {
-    "address": "0x94a1b5cdb22c43faab4abeb5c74999895464ddaf",
-    "nameTag": "Tornado.Cash: Mixer 1"
-  },
-  {
-    "address": "0xb541fc07bc7619fd4062a54d96268525cbc6ffef",
-    "nameTag": "Tornado.Cash: Mixer 2"
-  },
-  {
-    "address": "0x905b63fff465b9ffbf41dea908ceb12478ec7601",
-    "nameTag": "Tornado.Cash: Old Proxy"
-  },
-  {
-    "address": "0x43a3be4ae954d9869836702afd10393d3a7ea417",
-    "nameTag": "Tornado.Cash: Old Trees"
-  },
-  {
-    "address": "0x94c92f096437ab9958fc0a37f09348f30389ae79",
-    "nameTag": "Tornado.Cash: Poseidon 2"
-  },
-  {
-    "address": "0xd82ed8786d7c69dc7e052f7a542ab047971e73d2",
-    "nameTag": "Tornado.Cash: Poseidon 3"
-  },
-  {
-    "address": "0x722122df12d4e14e13ac3b6895a86e84145b6967",
-    "nameTag": "Tornado.Cash: Proxy"
-  },
-  {
-    "address": "0x58e8dcc13be9780fc42e8723d8ead4cf46943df2",
-    "nameTag": "Tornado.Cash: Relayer Registry"
-  },
-  {
-    "address": "0x5cab7692d4e94096462119ab7bf57319726eed2a",
-    "nameTag": "Tornado.Cash: Reward Swap"
-  },
-  {
-    "address": "0x88fd245fedec4a936e700f9173454d1931b4c307",
-    "nameTag": "Tornado.Cash: Reward Verifier"
-  },
-  {
-    "address": "0xd90e2f925da726b50c4ed8d0fb90ad053324f31b",
-    "nameTag": "Tornado.Cash: Router"
-  },
-  {
-    "address": "0x5f48c2a71b2cc96e3f0ccae4e39318ff0dc375b2",
-    "nameTag": "Tornado.Cash: Team 1 Vesting"
-  },
-  {
-    "address": "0x00d5ec4cdf59374b2a47e842b799027356eac02b",
-    "nameTag": "Tornado.Cash: Team 2 Vesting"
-  },
-  {
-    "address": "0x77c08248c93ab53ff734ac555c932f8b9089d4c9",
-    "nameTag": "Tornado.Cash: Team 3 Vesting"
-  },
-  {
-    "address": "0xc3877028655ebe90b9447dd33de391c955ead267",
-    "nameTag": "Tornado.Cash: Team 4 Vesting"
-  },
-  {
-    "address": "0xb43432ec23e228fb7cb0fa52968949458b509f4f",
-    "nameTag": "Tornado.Cash: Team 5 Vesting"
-  },
-  {
-    "address": "0x77777feddddffc19ff86db637967013e6c6a116c",
-    "nameTag": "Tornado.Cash: TORN Token"
-  },
-  {
-    "address": "0x653477c392c16b0765603074f157314cc4f40c32",
-    "nameTag": "Tornado.Cash: Tree Update Verifier"
-  },
-  {
-    "address": "0x527653ea119f3e6a1f5bd18fbf4714081d7b31ce",
-    "nameTag": "Tornado.Cash: Trees"
-  },
-  {
-    "address": "0x3efa30704d2b8bbac821307230376556cf8cc39e",
-    "nameTag": "Tornado.Cash: vTORN Token"
-  },
-  {
-    "address": "0x09193888b3f38c82dedfda55259a82c0e7de875e",
-    "nameTag": "Tornado.Cash: Withdraw Verifier"
-  }
-]
+{
+  "lastPulled": "2024-04-02T20:51:16.422Z",
+  "data": [
+    {
+      "address": "0xdd4c48c0b24039969fc16d1cdf626eab821d3384",
+      "nameTag": "Gitcoin Grants: Tornado.cash"
+    },
+    {
+      "address": "0x12d66f87a04a9e220743712ce6d9bb1b5616b8fc",
+      "nameTag": "Tornado.Cash: 0.1 ETH"
+    },
+    {
+      "address": "0x178169b423a011fff22b9e3f3abea13414ddd0f1",
+      "nameTag": "Tornado.Cash: 0.1 WBTC"
+    },
+    {
+      "address": "0x47ce0c6ed5b0ce3d3a51fdb1c52dc66a7c3c2936",
+      "nameTag": "Tornado.Cash: 1 ETH"
+    },
+    {
+      "address": "0x610b717796ad172b316836ac95a2ffad065ceab4",
+      "nameTag": "Tornado.Cash: 1 WBTC"
+    },
+    {
+      "address": "0x4736dcf1b7a3d580672cce6e7c65cd5cc9cfba9d",
+      "nameTag": "Tornado.Cash: 1,00 USDC"
+    },
+    {
+      "address": "0xfd8610d20aa15b7b2e3be39b396a1bc3516c7144",
+      "nameTag": "Tornado.Cash: 1,000 DAI"
+    },
+    {
+      "address": "0xd96f2b1c14db8458374d9aca76e26c3d18364307",
+      "nameTag": "Tornado.Cash: 1,000 USDC"
+    },
+    {
+      "address": "0x0836222f2b2b24a3f36f98668ed8f0b38d1a872f",
+      "nameTag": "Tornado.Cash: 1,000 USDT"
+    },
+    {
+      "address": "0x910cbd523d972eb0a6f4cae4618ad62622b39dbf",
+      "nameTag": "Tornado.Cash: 10 ETH"
+    },
+    {
+      "address": "0xbb93e510bbcd0b7beb5a853875f9ec60275cf498",
+      "nameTag": "Tornado.Cash: 10 WBTC"
+    },
+    {
+      "address": "0xf60dd140cff0706bae9cd734ac3ae76ad9ebc32a",
+      "nameTag": "Tornado.Cash: 10,000 DAI"
+    },
+    {
+      "address": "0x07687e702b410fa43f4cb4af7fa097918ffd2730",
+      "nameTag": "Tornado.Cash: 10,000 DAI 2"
+    },
+    {
+      "address": "0xd691f27f38b395864ea86cfc7253969b409c362d",
+      "nameTag": "Tornado.Cash: 10,000 USDC"
+    },
+    {
+      "address": "0xf67721a2d8f736e75a49fdd7fad2e31d8676542a",
+      "nameTag": "Tornado.Cash: 10,000 USDT"
+    },
+    {
+      "address": "0xd4b88df4d29f5cedd6857912842cff3b20c8cfa3",
+      "nameTag": "Tornado.Cash: 100 DAI"
+    },
+    {
+      "address": "0xa160cdab225685da1d56aa342ad8841c3b53f291",
+      "nameTag": "Tornado.Cash: 100 ETH"
+    },
+    {
+      "address": "0x169ad27a470d064dede56a2d3ff727986b15d52b",
+      "nameTag": "Tornado.Cash: 100 USDT"
+    },
+    {
+      "address": "0x23773e65ed146a459791799d01336db287f25334",
+      "nameTag": "Tornado.Cash: 100,000 DAI"
+    },
+    {
+      "address": "0x9ad122c22b14202b4490edaf288fdb3c7cb3ff5e",
+      "nameTag": "Tornado.Cash: 100,000 USDT"
+    },
+    {
+      "address": "0x22aaa7720ddd5388a3c0a3333430953c68f1849b",
+      "nameTag": "Tornado.Cash: 5,000 cDAI"
+    },
+    {
+      "address": "0xaeaac358560e11f52454d997aaff2c5731b6f8a6",
+      "nameTag": "Tornado.Cash: 5,000 cUSDC"
+    },
+    {
+      "address": "0xd21be7248e0197ee08e0c20d4a96debdac3d20af",
+      "nameTag": "Tornado.Cash: 5,000,000 cDAI"
+    },
+    {
+      "address": "0xba214c1c1928a32bffe790263e38b4af9bfcd659",
+      "nameTag": "Tornado.Cash: 50,000 cDAI"
+    },
+    {
+      "address": "0x1356c899d8c9467c7f71c195612f8a395abf2f0a",
+      "nameTag": "Tornado.Cash: 50,000 cUSDC"
+    },
+    {
+      "address": "0xb1c8094b234dce6e03f10a5b673c1d8c69739a00",
+      "nameTag": "Tornado.Cash: 500,000 cDAI"
+    },
+    {
+      "address": "0x2717c5e28cf931547b621a5dddb772ab6a35b701",
+      "nameTag": "Tornado.Cash: 500,000 cDAI 2"
+    },
+    {
+      "address": "0xa60c772958a3ed56c1f15dd055ba37ac8e523a0d",
+      "nameTag": "Tornado.Cash: 500,000 cUSDC"
+    },
+    {
+      "address": "0xb04e030140b30c27bcdfaafffa98c57d80eda7b4",
+      "nameTag": "Tornado.Cash: Community Fund"
+    },
+    {
+      "address": "0x8589427373d6d84e98730d7795d8f6f8731fda16",
+      "nameTag": "Tornado.Cash: Donate"
+    },
+    {
+      "address": "0x756c4628e57f7e7f8a459ec2752968360cf4d1aa",
+      "nameTag": "Tornado.Cash: Echoer"
+    },
+    {
+      "address": "0x5f6c97c6ad7bdd0ae7e0dd4ca33a4ed3fdabd4d7",
+      "nameTag": "Tornado.Cash: Fee Manager"
+    },
+    {
+      "address": "0xfa4c1f3f7d5dd7c12a9adb82cd7dda542e3d59ef",
+      "nameTag": "Tornado.Cash: Gas Compensation Vault"
+    },
+    {
+      "address": "0x5efda50f22d34f262c29268506c5fa42cb56a1ce",
+      "nameTag": "Tornado.Cash: Governance"
+    },
+    {
+      "address": "0xffbac21a641dcfe4552920138d90f3638b3c9fba",
+      "nameTag": "Tornado.Cash: Governance Impl"
+    },
+    {
+      "address": "0x2fc93484614a34f26f7970cbb94615ba109bb4bf",
+      "nameTag": "Tornado.Cash: Governance Staking"
+    },
+    {
+      "address": "0x2f50508a8a3d323b91336fa3ea6ae50e55f32185",
+      "nameTag": "Tornado.Cash: Governance Vault"
+    },
+    {
+      "address": "0x179f48c78f57a3a78f0608cc9197b8972921d1d2",
+      "nameTag": "Tornado.Cash: Governance Vesting"
+    },
+    {
+      "address": "0xb20c66c4de72433f3ce747b58b86830c459ca911",
+      "nameTag": "Tornado.Cash: Instance Registry"
+    },
+    {
+      "address": "0xca0840578f57fe71599d29375e16783424023357",
+      "nameTag": "Tornado.Cash: L1 Helper"
+    },
+    {
+      "address": "0x3f615ba21bc6cc5d4a6d798c5950cc5c42937fbd",
+      "nameTag": "Tornado.Cash: L1 Unwrapper"
+    },
+    {
+      "address": "0x746aebc06d2ae31b71ac51429a19d54e797878e9",
+      "nameTag": "Tornado.Cash: Mining v2"
+    },
+    {
+      "address": "0x94a1b5cdb22c43faab4abeb5c74999895464ddaf",
+      "nameTag": "Tornado.Cash: Mixer 1"
+    },
+    {
+      "address": "0xb541fc07bc7619fd4062a54d96268525cbc6ffef",
+      "nameTag": "Tornado.Cash: Mixer 2"
+    },
+    {
+      "address": "0x905b63fff465b9ffbf41dea908ceb12478ec7601",
+      "nameTag": "Tornado.Cash: Old Proxy"
+    },
+    {
+      "address": "0x43a3be4ae954d9869836702afd10393d3a7ea417",
+      "nameTag": "Tornado.Cash: Old Trees"
+    },
+    {
+      "address": "0x94c92f096437ab9958fc0a37f09348f30389ae79",
+      "nameTag": "Tornado.Cash: Poseidon 2"
+    },
+    {
+      "address": "0xd82ed8786d7c69dc7e052f7a542ab047971e73d2",
+      "nameTag": "Tornado.Cash: Poseidon 3"
+    },
+    {
+      "address": "0x722122df12d4e14e13ac3b6895a86e84145b6967",
+      "nameTag": "Tornado.Cash: Proxy"
+    },
+    {
+      "address": "0x58e8dcc13be9780fc42e8723d8ead4cf46943df2",
+      "nameTag": "Tornado.Cash: Relayer Registry"
+    },
+    {
+      "address": "0x5cab7692d4e94096462119ab7bf57319726eed2a",
+      "nameTag": "Tornado.Cash: Reward Swap"
+    },
+    {
+      "address": "0x88fd245fedec4a936e700f9173454d1931b4c307",
+      "nameTag": "Tornado.Cash: Reward Verifier"
+    },
+    {
+      "address": "0xd90e2f925da726b50c4ed8d0fb90ad053324f31b",
+      "nameTag": "Tornado.Cash: Router"
+    },
+    {
+      "address": "0x5f48c2a71b2cc96e3f0ccae4e39318ff0dc375b2",
+      "nameTag": "Tornado.Cash: Team 1 Vesting"
+    },
+    {
+      "address": "0x00d5ec4cdf59374b2a47e842b799027356eac02b",
+      "nameTag": "Tornado.Cash: Team 2 Vesting"
+    },
+    {
+      "address": "0x77c08248c93ab53ff734ac555c932f8b9089d4c9",
+      "nameTag": "Tornado.Cash: Team 3 Vesting"
+    },
+    {
+      "address": "0xc3877028655ebe90b9447dd33de391c955ead267",
+      "nameTag": "Tornado.Cash: Team 4 Vesting"
+    },
+    {
+      "address": "0xb43432ec23e228fb7cb0fa52968949458b509f4f",
+      "nameTag": "Tornado.Cash: Team 5 Vesting"
+    },
+    {
+      "address": "0x77777feddddffc19ff86db637967013e6c6a116c",
+      "nameTag": "Tornado.Cash: TORN Token"
+    },
+    {
+      "address": "0x653477c392c16b0765603074f157314cc4f40c32",
+      "nameTag": "Tornado.Cash: Tree Update Verifier"
+    },
+    {
+      "address": "0x527653ea119f3e6a1f5bd18fbf4714081d7b31ce",
+      "nameTag": "Tornado.Cash: Trees"
+    },
+    {
+      "address": "0x3efa30704d2b8bbac821307230376556cf8cc39e",
+      "nameTag": "Tornado.Cash: vTORN Token"
+    },
+    {
+      "address": "0x09193888b3f38c82dedfda55259a82c0e7de875e",
+      "nameTag": "Tornado.Cash: Withdraw Verifier"
+    }
+  ]
+}

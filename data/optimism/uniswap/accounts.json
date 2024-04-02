@@ -1,79 +1,85 @@
-[
-  { "address": "0x6fd9d7ad17242c41f7131d257212c54a0e816691", "nameTag": "" },
-  {
-    "address": "0x000000000022d473030f116ddee9f6b43ac78ba3",
-    "nameTag": "Uniswap Protocol: Permit2"
-  },
-  {
-    "address": "0x6c9fc64a53c1b71fb3f9af64d1ae3a4931a5f4e9",
-    "nameTag": "Uniswap V3: Deployer"
-  },
-  {
-    "address": "0x1f98431c8ad98523631ae4a59f267346ea31f984",
-    "nameTag": "Uniswap V3: Factory"
-  },
-  {
-    "address": "0x91ae842a5ffd8d12023116943e72a606179294f3",
-    "nameTag": "Uniswap V3: LP Descriptor NFT"
-  },
-  {
-    "address": "0xa5644e29708357803b5a882d272c41cc0df92b34",
-    "nameTag": "Uniswap V3: Migrator"
-  },
-  {
-    "address": "0xd9bfe9979e9ca4b2fe84ba5d4cf963bbcb376974",
-    "nameTag": "Uniswap V3: Multicall 2"
-  },
-  {
-    "address": "0x42b24a95702b9986e82d421cc3568932790a48ec",
-    "nameTag": "Uniswap V3: NFT Descriptor"
-  },
-  {
-    "address": "0x5ba1e12693dc8f9c48aad8770482f4739beed696",
-    "nameTag": "Uniswap V3: Old Multicall 2"
-  },
-  {
-    "address": "0xc36442b4a4522e871399cd717abdd847ab11fe88",
-    "nameTag": "Uniswap V3: Positions NFT"
-  },
-  {
-    "address": "0xb753548f6e010e7e680ba186f9ca1bdab2e90cf2",
-    "nameTag": "Uniswap V3: Proxy Admin"
-  },
-  {
-    "address": "0xb27308f9f90d607463bb33ea1bebb41c27ce5ab6",
-    "nameTag": "Uniswap V3: Quoter"
-  },
-  {
-    "address": "0xe592427a0aece92de3edee1f18e0157c05861564",
-    "nameTag": "Uniswap V3: Router"
-  },
-  {
-    "address": "0x68b3465833fb72a70ecdf485e0e4c7bd8665fc45",
-    "nameTag": "Uniswap V3: Router 2"
-  },
-  {
-    "address": "0xbfd8137f7d1516d3ea5ca83523914859ec47f573",
-    "nameTag": "Uniswap V3: Tick Lens"
-  },
-  {
-    "address": "0xee6a57ec80ea46401049e92587e52f5ec1c24785",
-    "nameTag": "Uniswap V3: Transparent Upgradeable Proxy"
-  },
-  {
-    "address": "0x61ffe014ba17989e743c5f6cb21bf9697530b21e",
-    "nameTag": "Uniswap: Quoter V2"
-  },
-  {
-    "address": "0x0d162447b8df47c2e7910441bf3c8c1b55b9b124",
-    "nameTag": "Uniswap: Uniswap Grants Program"
-  },
-  {
-    "address": "0xb555edf5dcf85f42ceef1f3630a52a108e55a654",
-    "nameTag": "Uniswap: Universal Router"
-  },
-  {
-    "address": "0xef1c6e67703c7bd7107eed8303fbe6ec2554bf6b",
-    "nameTag": "Uniswap: Universal Router 2"
-  }
-]
+{
+  "lastPulled": "2024-04-02T20:58:12.511Z",
+  "data": [
+    {
+      "address": "0x6fd9d7ad17242c41f7131d257212c54a0e816691",
+      "nameTag": ""
+    },
+    {
+      "address": "0x000000000022d473030f116ddee9f6b43ac78ba3",
+      "nameTag": "Uniswap Protocol: Permit2"
+    },
+    {
+      "address": "0x6c9fc64a53c1b71fb3f9af64d1ae3a4931a5f4e9",
+      "nameTag": "Uniswap V3: Deployer"
+    },
+    {
+      "address": "0x1f98431c8ad98523631ae4a59f267346ea31f984",
+      "nameTag": "Uniswap V3: Factory"
+    },
+    {
+      "address": "0x91ae842a5ffd8d12023116943e72a606179294f3",
+      "nameTag": "Uniswap V3: LP Descriptor NFT"
+    },
+    {
+      "address": "0xa5644e29708357803b5a882d272c41cc0df92b34",
+      "nameTag": "Uniswap V3: Migrator"
+    },
+    {
+      "address": "0xd9bfe9979e9ca4b2fe84ba5d4cf963bbcb376974",
+      "nameTag": "Uniswap V3: Multicall 2"
+    },
+    {
+      "address": "0x42b24a95702b9986e82d421cc3568932790a48ec",
+      "nameTag": "Uniswap V3: NFT Descriptor"
+    },
+    {
+      "address": "0x5ba1e12693dc8f9c48aad8770482f4739beed696",
+      "nameTag": "Uniswap V3: Old Multicall 2"
+    },
+    {
+      "address": "0xc36442b4a4522e871399cd717abdd847ab11fe88",
+      "nameTag": "Uniswap V3: Positions NFT"
+    },
+    {
+      "address": "0xb753548f6e010e7e680ba186f9ca1bdab2e90cf2",
+      "nameTag": "Uniswap V3: Proxy Admin"
+    },
+    {
+      "address": "0xb27308f9f90d607463bb33ea1bebb41c27ce5ab6",
+      "nameTag": "Uniswap V3: Quoter"
+    },
+    {
+      "address": "0xe592427a0aece92de3edee1f18e0157c05861564",
+      "nameTag": "Uniswap V3: Router"
+    },
+    {
+      "address": "0x68b3465833fb72a70ecdf485e0e4c7bd8665fc45",
+      "nameTag": "Uniswap V3: Router 2"
+    },
+    {
+      "address": "0xbfd8137f7d1516d3ea5ca83523914859ec47f573",
+      "nameTag": "Uniswap V3: Tick Lens"
+    },
+    {
+      "address": "0xee6a57ec80ea46401049e92587e52f5ec1c24785",
+      "nameTag": "Uniswap V3: Transparent Upgradeable Proxy"
+    },
+    {
+      "address": "0x61ffe014ba17989e743c5f6cb21bf9697530b21e",
+      "nameTag": "Uniswap: Quoter V2"
+    },
+    {
+      "address": "0x0d162447b8df47c2e7910441bf3c8c1b55b9b124",
+      "nameTag": "Uniswap: Uniswap Grants Program"
+    },
+    {
+      "address": "0xb555edf5dcf85f42ceef1f3630a52a108e55a654",
+      "nameTag": "Uniswap: Universal Router"
+    },
+    {
+      "address": "0xef1c6e67703c7bd7107eed8303fbe6ec2554bf6b",
+      "nameTag": "Uniswap: Universal Router 2"
+    }
+  ]
+}

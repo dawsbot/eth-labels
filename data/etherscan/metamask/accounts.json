@@ -1,18 +1,21 @@
-[
-  {
-    "address": "0xf326e4de8f66a0bdc0970b79e0924e33c79f1915",
-    "nameTag": "MetaMask: DS Proxy"
-  },
-  {
-    "address": "0x11ededebf63bef0ea2d2d071bdf88f71543ec6fb",
-    "nameTag": "Metamask: Fees"
-  },
-  {
-    "address": "0x0439e60f02a8900a951603950d8d4527f400c3f1",
-    "nameTag": "MetaMask: Meta Bridge"
-  },
-  {
-    "address": "0x881d40237659c251811cec9c364ef91dc08d300c",
-    "nameTag": "Metamask: Swap Router"
-  }
-]
+{
+  "lastPulled": "2024-04-02T20:45:58.509Z",
+  "data": [
+    {
+      "address": "0xf326e4de8f66a0bdc0970b79e0924e33c79f1915",
+      "nameTag": "MetaMask: DS Proxy"
+    },
+    {
+      "address": "0x11ededebf63bef0ea2d2d071bdf88f71543ec6fb",
+      "nameTag": "Metamask: Fees"
+    },
+    {
+      "address": "0x0439e60f02a8900a951603950d8d4527f400c3f1",
+      "nameTag": "MetaMask: Meta Bridge"
+    },
+    {
+      "address": "0x881d40237659c251811cec9c364ef91dc08d300c",
+      "nameTag": "Metamask: Swap Router"
+    }
+  ]
+}

@@ -1,58 +1,61 @@
-[
-  {
-    "address": "0x10d2f250a30dc78f3b418730e6aae4c1cf695889",
-    "nameTag": "Atomic Loans: Medianizer"
-  },
-  {
-    "address": "0x852ded011285fe67063a08005c71a85690503cee",
-    "nameTag": "Lido: Accounting Oracle"
-  },
-  {
-    "address": "0x442af784a788a5bd6f42a01ebe9f287a871243fb",
-    "nameTag": "Lido: Legacy Oracle"
-  },
-  {
-    "address": "0x0de4ea0184c2ad0baca7183356aea5b8d5bf5c6e",
-    "nameTag": "Lido: Validators Exit Bus Oracle"
-  },
-  {
-    "address": "0x472c31697633dacd24c4674b4571d4a393d54870",
-    "nameTag": "NEST Protocol: Guardian Node Allocation"
-  },
-  {
-    "address": "0x99bd363a144fb61feae863b182f1f200667a1879",
-    "nameTag": "NEST Protocol: nToken Oracle"
-  },
-  {
-    "address": "0x2a7a0d0065966f80d0277b4aa0c1f699f09b681a",
-    "nameTag": "NEST Protocol: nToken Oracle 2"
-  },
-  {
-    "address": "0xc40d7b9ca90eaca4a6e067b6ec689fd29f4a8b3c",
-    "nameTag": "NEST Protocol: nToken Oracle 3"
-  },
-  {
-    "address": "0x43d99d54f14c64994fd9666beab6023b0069de20",
-    "nameTag": "NEST Protocol: Oracle"
-  },
-  {
-    "address": "0x7722891ee45ad38ae05bda8349ba4cf23cfd270f",
-    "nameTag": "NEST Protocol: Oracle Call"
-  },
-  {
-    "address": "0xc83e009c7794e8f6d1954dc13c23a35fc4d039f6",
-    "nameTag": "NEST Protocol: Oracle ETH/USDT"
-  },
-  {
-    "address": "0x7054e08461e3ecb7718b63540addb3c3a1746415",
-    "nameTag": "Opyn: Oracle"
-  },
-  {
-    "address": "0x8316b082621cfedab95bf4a44a1d4b64a6ffc336",
-    "nameTag": "Proof Suite: OrFeed v0.2"
-  },
-  {
-    "address": "0xac1ed4fabbd5204e02950d68b6fc8c446ac95362",
-    "nameTag": "Synthetix: Oracle"
-  }
-]
+{
+  "lastPulled": "2024-04-02T20:47:49.984Z",
+  "data": [
+    {
+      "address": "0x10d2f250a30dc78f3b418730e6aae4c1cf695889",
+      "nameTag": "Atomic Loans: Medianizer"
+    },
+    {
+      "address": "0x852ded011285fe67063a08005c71a85690503cee",
+      "nameTag": "Lido: Accounting Oracle"
+    },
+    {
+      "address": "0x442af784a788a5bd6f42a01ebe9f287a871243fb",
+      "nameTag": "Lido: Legacy Oracle"
+    },
+    {
+      "address": "0x0de4ea0184c2ad0baca7183356aea5b8d5bf5c6e",
+      "nameTag": "Lido: Validators Exit Bus Oracle"
+    },
+    {
+      "address": "0x472c31697633dacd24c4674b4571d4a393d54870",
+      "nameTag": "NEST Protocol: Guardian Node Allocation"
+    },
+    {
+      "address": "0x99bd363a144fb61feae863b182f1f200667a1879",
+      "nameTag": "NEST Protocol: nToken Oracle"
+    },
+    {
+      "address": "0x2a7a0d0065966f80d0277b4aa0c1f699f09b681a",
+      "nameTag": "NEST Protocol: nToken Oracle 2"
+    },
+    {
+      "address": "0xc40d7b9ca90eaca4a6e067b6ec689fd29f4a8b3c",
+      "nameTag": "NEST Protocol: nToken Oracle 3"
+    },
+    {
+      "address": "0x43d99d54f14c64994fd9666beab6023b0069de20",
+      "nameTag": "NEST Protocol: Oracle"
+    },
+    {
+      "address": "0x7722891ee45ad38ae05bda8349ba4cf23cfd270f",
+      "nameTag": "NEST Protocol: Oracle Call"
+    },
+    {
+      "address": "0xc83e009c7794e8f6d1954dc13c23a35fc4d039f6",
+      "nameTag": "NEST Protocol: Oracle ETH/USDT"
+    },
+    {
+      "address": "0x7054e08461e3ecb7718b63540addb3c3a1746415",
+      "nameTag": "Opyn: Oracle"
+    },
+    {
+      "address": "0x8316b082621cfedab95bf4a44a1d4b64a6ffc336",
+      "nameTag": "Proof Suite: OrFeed v0.2"
+    },
+    {
+      "address": "0xac1ed4fabbd5204e02950d68b6fc8c446ac95362",
+      "nameTag": "Synthetix: Oracle"
+    }
+  ]
+}

@@ -1,10 +1,13 @@
-[
-  {
-    "address": "0x71c7656ec7ab88b098defb751b7401b5f6d8976f",
-    "nameTag": "Arbiscan: Donate"
-  },
-  {
-    "address": "0x41626ba92c0c2a1ad38fc83920300434082b1870",
-    "nameTag": "L2BEAT: Donate"
-  }
-]
+{
+  "lastPulled": "2024-04-02T21:01:23.375Z",
+  "data": [
+    {
+      "address": "0x71c7656ec7ab88b098defb751b7401b5f6d8976f",
+      "nameTag": "Arbiscan: Donate"
+    },
+    {
+      "address": "0x41626ba92c0c2a1ad38fc83920300434082b1870",
+      "nameTag": "L2BEAT: Donate"
+    }
+  ]
+}

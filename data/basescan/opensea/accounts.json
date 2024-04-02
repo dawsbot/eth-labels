@@ -1,6 +1,9 @@
-[
-  {
-    "address": "0x000000008924d42d98026c656545c3c1fb3ad31c",
-    "nameTag": "SeaDrop Factory"
-  }
-]
+{
+  "lastPulled": "2024-04-02T20:55:13.240Z",
+  "data": [
+    {
+      "address": "0x000000008924d42d98026c656545c3c1fb3ad31c",
+      "nameTag": "SeaDrop Factory"
+    }
+  ]
+}

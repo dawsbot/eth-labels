@@ -1,6 +1,9 @@
-[
-  {
-    "address": "0x6f7ce347d4fb3d3efb695967812f436b76d03009",
-    "nameTag": "Ethereum eRush: Market"
-  }
-]
+{
+  "lastPulled": "2024-04-02T20:42:32.597Z",
+  "data": [
+    {
+      "address": "0x6f7ce347d4fb3d3efb695967812f436b76d03009",
+      "nameTag": "Ethereum eRush: Market"
+    }
+  ]
+}

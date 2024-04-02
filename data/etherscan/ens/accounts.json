@@ -1,154 +1,157 @@
-[
-  {
-    "address": "0x57f1887a8bf19b14fc0df6fd9b2acc9af147ea85",
-    "nameTag": "ENS: Base Registrar Implementation"
-  },
-  {
-    "address": "0xff252725f6122a92551a5fa9a6b6bf10eb0be035",
-    "nameTag": "ENS: Bulk Renewal"
-  },
-  {
-    "address": "0x690f0581ececcf8389c223170778cd9d029606f2",
-    "nameTag": "ENS: Cold Wallet"
-  },
-  {
-    "address": "0xfe89cc7abb2c4183683ab71653c4cdc9b02d44b7",
-    "nameTag": "ENS: DAO Wallet"
-  },
-  {
-    "address": "0xa2c122be93b0074270ebee7f6b7292c7deb45047",
-    "nameTag": "ENS: Default Reverse Resolver"
-  },
-  {
-    "address": "0x4fe4e666be5752f1fdd210f4ab5de2cc26e3e0e8",
-    "nameTag": "ENS: Deployer"
-  },
-  {
-    "address": "0xa2f428617a523837d4adc81c67a296d42fd95e86",
-    "nameTag": "ENS: DNS Registrar"
-  },
-  {
-    "address": "0xffc8ca4e83416b7e0443ff430cc245646434b647",
-    "nameTag": "ENS: ENS Constitution Book Token"
-  },
-  {
-    "address": "0x314159265dd8dbb310642f98f50c066173c1259b",
-    "nameTag": "ENS: Eth Name Service"
-  },
-  {
-    "address": "0x323a76393544d5ecca80cd6ef2a560c6a395b7e3",
-    "nameTag": "ENS: Governance"
-  },
-  {
-    "address": "0x9b6d20f524367d7e98ed849d37fc662402dca7fb",
-    "nameTag": "ENS: Mapper"
-  },
-  {
-    "address": "0xe65d8aaf34cb91087d1598e0a15b582f57f217d9",
-    "nameTag": "ENS: Migration Subdomain Registrar"
-  },
-  {
-    "address": "0x911143d946ba5d467bfc476491fdb235fef4d667",
-    "nameTag": "ENS: Multisig"
-  },
-  {
-    "address": "0xd4416b13d2b3a9abae7acd5d6c2bbdbe25686401",
-    "nameTag": "ENS: Name Wrapper"
-  },
-  {
-    "address": "0xc1735677a60884abbcf72295e88d47764beda282",
-    "nameTag": "ENS: Offchain Resolver"
-  },
-  {
-    "address": "0xfac7bea255a6990f749363002136af6556b31e04",
-    "nameTag": "ENS: Old ENS Token"
-  },
-  {
-    "address": "0x283af0b28c62c092c9727f1ee09c02ca627eb7f5",
-    "nameTag": "ENS: Old ETH Registrar Controller"
-  },
-  {
-    "address": "0xf0ad5cad05e10572efceb849f6ff0c68f9700455",
-    "nameTag": "ENS: Old ETH Registrar Controller 1"
-  },
-  {
-    "address": "0xb22c1c159d12461ea124b0deb4b5b93020e6ad16",
-    "nameTag": "ENS: Old ETH Registrar Controller 2"
-  },
-  {
-    "address": "0x1da022710df5002339274aadee8d58218e9d6ab5",
-    "nameTag": "ENS: Old Public Resolver 1"
-  },
-  {
-    "address": "0x226159d592e2b063810a10ebf6dcbada94ed68b8",
-    "nameTag": "ENS: Old Public Resolver 2"
-  },
-  {
-    "address": "0x6090a6e47849629b7245dfa1ca21d94cd15878ef",
-    "nameTag": "ENS: Old Registrar"
-  },
-  {
-    "address": "0x9062c0a6dbd6108336bcbe4593a3d1ce05512069",
-    "nameTag": "ENS: Old Reverse Registrar"
-  },
-  {
-    "address": "0x084b1c3c81545d370f3634392de611caabff8148",
-    "nameTag": "ENS: Old Reverse Registrar 2"
-  },
-  {
-    "address": "0xdaaf96c344f63131acadd0ea35170e7892d3dfba",
-    "nameTag": "ENS: Public Resolver 1"
-  },
-  {
-    "address": "0x4976fb03c32e5b8cfe2b6ccb31c09ba78ebaba41",
-    "nameTag": "ENS: Public Resolver 2"
-  },
-  {
-    "address": "0x60c7c2a24b5e86c38639fd1586917a8fef66a56d",
-    "nameTag": "ENS: Registrar Migration"
-  },
-  {
-    "address": "0x00000000000c2e074ec69a0dfb2997ba6c7d2e1e",
-    "nameTag": "ENS: Registry with Fallback"
-  },
-  {
-    "address": "0x3671ae578e63fdf66ad4f3e12cc0c0d71ac7510c",
-    "nameTag": "ENS: Reverse Records"
-  },
-  {
-    "address": "0xa58e81fe9b61b5c3fe2afd33cf304c454abfc7cb",
-    "nameTag": "ENS: Reverse Registrar"
-  },
-  {
-    "address": "0xab528d626ec275e3fad363ff1393a41f581c5897",
-    "nameTag": "ENS: Root"
-  },
-  {
-    "address": "0xf7c83bd0c50e7a72b55a39fe0dabf5e3a330d749",
-    "nameTag": "ENS: Short Name Claims"
-  },
-  {
-    "address": "0xb9d374d0fe3d8341155663fae31b7beae0ae233a",
-    "nameTag": "ENS: Stable Price Oracle"
-  },
-  {
-    "address": "0xc32659651d137a18b79925449722855aa327231d",
-    "nameTag": "ENS: Subdomain Registrar"
-  },
-  {
-    "address": "0xb1377e4f32e6746444970823d5506f98f5a04201",
-    "nameTag": "ENS: Token Streaming Contract"
-  },
-  {
-    "address": "0xd7a029db2585553978190db5e85ec724aa4df23f",
-    "nameTag": "ENS: Token Timelock"
-  },
-  {
-    "address": "0x0904dac3347ea47d208f3fd67402d039a3b99859",
-    "nameTag": "ENS: Wallet"
-  },
-  {
-    "address": "0xb6e040c9ecaae172a89bd561c5f73e1c48d28cd9",
-    "nameTag": "ENS: Wallet 2"
-  }
-]
+{
+  "lastPulled": "2024-04-02T20:43:00.968Z",
+  "data": [
+    {
+      "address": "0x57f1887a8bf19b14fc0df6fd9b2acc9af147ea85",
+      "nameTag": "ENS: Base Registrar Implementation"
+    },
+    {
+      "address": "0xff252725f6122a92551a5fa9a6b6bf10eb0be035",
+      "nameTag": "ENS: Bulk Renewal"
+    },
+    {
+      "address": "0x690f0581ececcf8389c223170778cd9d029606f2",
+      "nameTag": "ENS: Cold Wallet"
+    },
+    {
+      "address": "0xfe89cc7abb2c4183683ab71653c4cdc9b02d44b7",
+      "nameTag": "ENS: DAO Wallet"
+    },
+    {
+      "address": "0xa2c122be93b0074270ebee7f6b7292c7deb45047",
+      "nameTag": "ENS: Default Reverse Resolver"
+    },
+    {
+      "address": "0x4fe4e666be5752f1fdd210f4ab5de2cc26e3e0e8",
+      "nameTag": "ENS: Deployer"
+    },
+    {
+      "address": "0xa2f428617a523837d4adc81c67a296d42fd95e86",
+      "nameTag": "ENS: DNS Registrar"
+    },
+    {
+      "address": "0xffc8ca4e83416b7e0443ff430cc245646434b647",
+      "nameTag": "ENS: ENS Constitution Book Token"
+    },
+    {
+      "address": "0x314159265dd8dbb310642f98f50c066173c1259b",
+      "nameTag": "ENS: Eth Name Service"
+    },
+    {
+      "address": "0x323a76393544d5ecca80cd6ef2a560c6a395b7e3",
+      "nameTag": "ENS: Governance"
+    },
+    {
+      "address": "0x9b6d20f524367d7e98ed849d37fc662402dca7fb",
+      "nameTag": "ENS: Mapper"
+    },
+    {
+      "address": "0xe65d8aaf34cb91087d1598e0a15b582f57f217d9",
+      "nameTag": "ENS: Migration Subdomain Registrar"
+    },
+    {
+      "address": "0x911143d946ba5d467bfc476491fdb235fef4d667",
+      "nameTag": "ENS: Multisig"
+    },
+    {
+      "address": "0xd4416b13d2b3a9abae7acd5d6c2bbdbe25686401",
+      "nameTag": "ENS: Name Wrapper"
+    },
+    {
+      "address": "0xc1735677a60884abbcf72295e88d47764beda282",
+      "nameTag": "ENS: Offchain Resolver"
+    },
+    {
+      "address": "0xfac7bea255a6990f749363002136af6556b31e04",
+      "nameTag": "ENS: Old ENS Token"
+    },
+    {
+      "address": "0x283af0b28c62c092c9727f1ee09c02ca627eb7f5",
+      "nameTag": "ENS: Old ETH Registrar Controller"
+    },
+    {
+      "address": "0xf0ad5cad05e10572efceb849f6ff0c68f9700455",
+      "nameTag": "ENS: Old ETH Registrar Controller 1"
+    },
+    {
+      "address": "0xb22c1c159d12461ea124b0deb4b5b93020e6ad16",
+      "nameTag": "ENS: Old ETH Registrar Controller 2"
+    },
+    {
+      "address": "0x1da022710df5002339274aadee8d58218e9d6ab5",
+      "nameTag": "ENS: Old Public Resolver 1"
+    },
+    {
+      "address": "0x226159d592e2b063810a10ebf6dcbada94ed68b8",
+      "nameTag": "ENS: Old Public Resolver 2"
+    },
+    {
+      "address": "0x6090a6e47849629b7245dfa1ca21d94cd15878ef",
+      "nameTag": "ENS: Old Registrar"
+    },
+    {
+      "address": "0x9062c0a6dbd6108336bcbe4593a3d1ce05512069",
+      "nameTag": "ENS: Old Reverse Registrar"
+    },
+    {
+      "address": "0x084b1c3c81545d370f3634392de611caabff8148",
+      "nameTag": "ENS: Old Reverse Registrar 2"
+    },
+    {
+      "address": "0xdaaf96c344f63131acadd0ea35170e7892d3dfba",
+      "nameTag": "ENS: Public Resolver 1"
+    },
+    {
+      "address": "0x4976fb03c32e5b8cfe2b6ccb31c09ba78ebaba41",
+      "nameTag": "ENS: Public Resolver 2"
+    },
+    {
+      "address": "0x60c7c2a24b5e86c38639fd1586917a8fef66a56d",
+      "nameTag": "ENS: Registrar Migration"
+    },
+    {
+      "address": "0x00000000000c2e074ec69a0dfb2997ba6c7d2e1e",
+      "nameTag": "ENS: Registry with Fallback"
+    },
+    {
+      "address": "0x3671ae578e63fdf66ad4f3e12cc0c0d71ac7510c",
+      "nameTag": "ENS: Reverse Records"
+    },
+    {
+      "address": "0xa58e81fe9b61b5c3fe2afd33cf304c454abfc7cb",
+      "nameTag": "ENS: Reverse Registrar"
+    },
+    {
+      "address": "0xab528d626ec275e3fad363ff1393a41f581c5897",
+      "nameTag": "ENS: Root"
+    },
+    {
+      "address": "0xf7c83bd0c50e7a72b55a39fe0dabf5e3a330d749",
+      "nameTag": "ENS: Short Name Claims"
+    },
+    {
+      "address": "0xb9d374d0fe3d8341155663fae31b7beae0ae233a",
+      "nameTag": "ENS: Stable Price Oracle"
+    },
+    {
+      "address": "0xc32659651d137a18b79925449722855aa327231d",
+      "nameTag": "ENS: Subdomain Registrar"
+    },
+    {
+      "address": "0xb1377e4f32e6746444970823d5506f98f5a04201",
+      "nameTag": "ENS: Token Streaming Contract"
+    },
+    {
+      "address": "0xd7a029db2585553978190db5e85ec724aa4df23f",
+      "nameTag": "ENS: Token Timelock"
+    },
+    {
+      "address": "0x0904dac3347ea47d208f3fd67402d039a3b99859",
+      "nameTag": "ENS: Wallet"
+    },
+    {
+      "address": "0xb6e040c9ecaae172a89bd561c5f73e1c48d28cd9",
+      "nameTag": "ENS: Wallet 2"
+    }
+  ]
+}

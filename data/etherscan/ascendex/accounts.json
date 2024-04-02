@@ -1,34 +1,37 @@
-[
-  {
-    "address": "0x03bdf69b1322d623836afbd27679a1c0afa067e9",
-    "nameTag": "AscendEX 1"
-  },
-  {
-    "address": "0x4b1a99467a284cc690e3237bc69105956816f762",
-    "nameTag": "AscendEX 2"
-  },
-  {
-    "address": "0x986a2fca9eda0e06fbf7839b89bfc006ee2a23dd",
-    "nameTag": "AscendEX 3"
-  },
-  {
-    "address": "0x09344477fdc71748216a7b8bbe7f2013b893def8",
-    "nameTag": "AscendEX: Deposit Funder"
-  },
-  {
-    "address": "0xcca0c9c383076649604ee31b20248bc04fdf61ca",
-    "nameTag": "BitMax: BTMX Token"
-  },
-  {
-    "address": "0x896c3307f0b10fb956f5d22185863c2917bf58c1",
-    "nameTag": "BitMax: Deployer"
-  },
-  {
-    "address": "0x1c289a12a8552b314d0d153d6991fd27a54aa640",
-    "nameTag": "BitMax: Old Token 1"
-  },
-  {
-    "address": "0xf45f0e16b5e096286e1fb463d34be9f3df5e3602",
-    "nameTag": "BitMax: Old Token 2"
-  }
-]
+{
+  "lastPulled": "2024-04-02T20:38:47.123Z",
+  "data": [
+    {
+      "address": "0x03bdf69b1322d623836afbd27679a1c0afa067e9",
+      "nameTag": "AscendEX 1"
+    },
+    {
+      "address": "0x4b1a99467a284cc690e3237bc69105956816f762",
+      "nameTag": "AscendEX 2"
+    },
+    {
+      "address": "0x986a2fca9eda0e06fbf7839b89bfc006ee2a23dd",
+      "nameTag": "AscendEX 3"
+    },
+    {
+      "address": "0x09344477fdc71748216a7b8bbe7f2013b893def8",
+      "nameTag": "AscendEX: Deposit Funder"
+    },
+    {
+      "address": "0xcca0c9c383076649604ee31b20248bc04fdf61ca",
+      "nameTag": "BitMax: BTMX Token"
+    },
+    {
+      "address": "0x896c3307f0b10fb956f5d22185863c2917bf58c1",
+      "nameTag": "BitMax: Deployer"
+    },
+    {
+      "address": "0x1c289a12a8552b314d0d153d6991fd27a54aa640",
+      "nameTag": "BitMax: Old Token 1"
+    },
+    {
+      "address": "0xf45f0e16b5e096286e1fb463d34be9f3df5e3602",
+      "nameTag": "BitMax: Old Token 2"
+    }
+  ]
+}

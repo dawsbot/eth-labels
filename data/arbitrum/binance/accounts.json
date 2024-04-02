@@ -1,6 +1,9 @@
-[
-  {
-    "address": "0xb38e8c17e38363af6ebdcb3dae12e0243582891d",
-    "nameTag": "Binance Hot Wallet"
-  }
-]
+{
+  "lastPulled": "2024-04-02T21:00:45.488Z",
+  "data": [
+    {
+      "address": "0xb38e8c17e38363af6ebdcb3dae12e0243582891d",
+      "nameTag": "Binance Hot Wallet"
+    }
+  ]
+}

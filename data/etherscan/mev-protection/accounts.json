@@ -1,10 +1,13 @@
-[
-  {
-    "address": "0xdef1ca1fb7fbcdc777520aa7f396b4e015f497ab",
-    "nameTag": "CoW Protocol: COW Token"
-  },
-  {
-    "address": "0xd057b63f5e69cf1b929b356b579cba08d7688048",
-    "nameTag": "CoW Protocol: vCOW Token"
-  }
-]
+{
+  "lastPulled": "2024-04-02T20:46:07.364Z",
+  "data": [
+    {
+      "address": "0xdef1ca1fb7fbcdc777520aa7f396b4e015f497ab",
+      "nameTag": "CoW Protocol: COW Token"
+    },
+    {
+      "address": "0xd057b63f5e69cf1b929b356b579cba08d7688048",
+      "nameTag": "CoW Protocol: vCOW Token"
+    }
+  ]
+}

@@ -1,6 +1,9 @@
-[
-  {
-    "address": "0x713023b628cc1a7eb5b9dec2b58127909a7c9760",
-    "nameTag": "Endaoment: Registry"
-  }
-]
+{
+  "lastPulled": "2024-04-02T20:54:47.755Z",
+  "data": [
+    {
+      "address": "0x713023b628cc1a7eb5b9dec2b58127909a7c9760",
+      "nameTag": "Endaoment: Registry"
+    }
+  ]
+}

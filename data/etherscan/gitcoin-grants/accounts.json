@@ -1,797 +1,821 @@
-[
-  { "address": "0x11e4857bb9993a50c685a79afad4e6f65d518dda", "nameTag": "" },
-  { "address": "0x4d37f28d2db99e8d35a6c725a5f1749a085850a3", "nameTag": "" },
-  { "address": "0x7859821024e633c5dc8a4fcf86fc52e7720ce525", "nameTag": "" },
-  { "address": "0x8688a84fcfd84d8f78020d0fc0b35987cc58911f", "nameTag": "" },
-  { "address": "0x910119d96fcc68fc898a02b07b3a6316992af800", "nameTag": "" },
-  { "address": "0xd277a99c0d08ded3bdb253024bff81e41496465c", "nameTag": "" },
-  { "address": "0xdb4d88080ed478c729b07e23f8e0ccd1f57d3f9b", "nameTag": "" },
-  {
-    "address": "0x323e5692152cdf04d84ea8aed57ec8a8caf43e92",
-    "nameTag": "Axiom Finance"
-  },
-  {
-    "address": "0x332d87209f7c8296389c307eae170c2440830a47",
-    "nameTag": "Bacon Labs: MultiSig"
-  },
-  {
-    "address": "0xbe4ba4b9b3dbe25a93820eef90fb4da150380510",
-    "nameTag": "CuraDAI: Deployer"
-  },
-  {
-    "address": "0x74ef70357ef21bad2b45795679f2727c48d501ed",
-    "nameTag": "DFOhub: Deployer"
-  },
-  {
-    "address": "0xb422e46540153ddaaccd8f5e899893fc53ab77b8",
-    "nameTag": "Gitcoin Grants: 2key Network"
-  },
-  {
-    "address": "0x0efe994201e2b0136dd40d5033b5f437e4c5f958",
-    "nameTag": "Gitcoin Grants: Abridged"
-  },
-  {
-    "address": "0x69cac784d1f0387eac5f6cac903865ea8804ed38",
-    "nameTag": "Gitcoin Grants: abstractpoint"
-  },
-  {
-    "address": "0xbc5ec594509ed050f4a53eee85d92af6d2529b56",
-    "nameTag": "Gitcoin Grants: ActivityWatch"
-  },
-  {
-    "address": "0x842b87e0f5dd45ab5ff972b4d71f238ffad8ad3d",
-    "nameTag": "Gitcoin Grants: Akasha"
-  },
-  {
-    "address": "0xa1b02d8c67b0fdcf4e379855868deb470e169cfb",
-    "nameTag": "Gitcoin Grants: Alice"
-  },
-  {
-    "address": "0x6fb8479a3bbb7a4ed8395af47916d9a51b7ba038",
-    "nameTag": "Gitcoin Grants: AM Winn"
-  },
-  {
-    "address": "0x08497b07916280da27b43d28a0d3dfa7d6676b58",
-    "nameTag": "Gitcoin Grants: Austin Griffith"
-  },
-  {
-    "address": "0xc9e093dd5b67001c6f975bc4f62d0423909089aa",
-    "nameTag": "Gitcoin Grants: banq.link"
-  },
-  {
-    "address": "0x9d4e94db689bc471e45b0a18b7bda36fccec9c3b",
-    "nameTag": "Gitcoin Grants: beaconcha.in"
-  },
-  {
-    "address": "0x57b353818da50c82ffd59664068a5212eaf090b0",
-    "nameTag": "Gitcoin Grants: Block Rewards"
-  },
-  {
-    "address": "0x35b32b4b66e3fed103288365de66d1fcb2f883ad",
-    "nameTag": "Gitcoin Grants: Blockada DAO"
-  },
-  {
-    "address": "0x0bf9a0a45077ac0a26637d8130fd759d74e0dc1d",
-    "nameTag": "Gitcoin Grants: Blockchangers"
-  },
-  {
-    "address": "0xcea6435bd3463764f835da8fa8a26f6d4d72c3a9",
-    "nameTag": "Gitcoin Grants: BlockScout"
-  },
-  {
-    "address": "0xca1d22a140d12b5e9d38b46f3f350cf469ba4fe7",
-    "nameTag": "Gitcoin Grants: BlockShop"
-  },
-  {
-    "address": "0x5a0f2c1d8e563db79ee40f979f6bcd0d27f86f80",
-    "nameTag": "Gitcoin Grants: BlockSpy"
-  },
-  {
-    "address": "0x23dbbf0ffd28bf754fdc1e52f302b81303c211b0",
-    "nameTag": "Gitcoin Grants: BoxSwap"
-  },
-  {
-    "address": "0x587fb98e404a18503a24cf19abb1887704beb407",
-    "nameTag": "Gitcoin Grants: Buidler.dev"
-  },
-  {
-    "address": "0xb631e8650fb4befdae74ab9f86a9cb65bc134706",
-    "nameTag": "Gitcoin Grants: BUIDLHub"
-  },
-  {
-    "address": "0x5a49fb12f512451819caeb7f4be37e89f0eb0afd",
-    "nameTag": "Gitcoin Grants: Burn Signal"
-  },
-  {
-    "address": "0x78040ab06e05f59fd78ca7367cbf4e95069cac47",
-    "nameTag": "Gitcoin Grants: Burner Wallet"
-  },
-  {
-    "address": "0x91bd7429bfb4731d13e2a431dd729f49b5760b03",
-    "nameTag": "Gitcoin Grants: Burner Wallet 2"
-  },
-  {
-    "address": "0x335bee461cbbab5bd574e0767f1ead25bd5e0001",
-    "nameTag": "Gitcoin Grants: cadCAD"
-  },
-  {
-    "address": "0xfcd819c8a13de2d9e409fdf7d61161091f58dd63",
-    "nameTag": "Gitcoin Grants: ChainID Network"
-  },
-  {
-    "address": "0xbeb87b2e4d8b89cd2af8a3c7103db7fb2f5af022",
-    "nameTag": "Gitcoin Grants: Charged Particles"
-  },
-  {
-    "address": "0x7415efd9d908281ea0279c49a6c23011d9d9a0a4",
-    "nameTag": "Gitcoin Grants: Circles UBI"
-  },
-  {
-    "address": "0xa0527ba80d811cd45d452481caf902dfd6f5b8c2",
-    "nameTag": "Gitcoin Grants: Commons Simulator"
-  },
-  {
-    "address": "0xc37e165fcfa2cb5cca7329dd9daa8cd72907b983",
-    "nameTag": "Gitcoin Grants: Connext Network"
-  },
-  {
-    "address": "0x36a0356d43ee4168ed24efa1cae3198708667ac0",
-    "nameTag": "Gitcoin Grants: Crypto Reward Courts"
-  },
-  {
-    "address": "0x7030b43e821ba34124915ba65b90dbda7a9e7d09",
-    "nameTag": "Gitcoin Grants: CryptoScamDB"
-  },
-  {
-    "address": "0x9a94ac82b17e67f7dff81912de68eb74ca20e6c3",
-    "nameTag": "Gitcoin Grants: CuraDAI"
-  },
-  {
-    "address": "0xfc2c722b8fe7b3ca277d349cbad6d2c5ce2ecf9c",
-    "nameTag": "Gitcoin Grants: DAism"
-  },
-  {
-    "address": "0x643786c04bf98ae360d81ad6681fdf5b95ba1c2b",
-    "nameTag": "Gitcoin Grants: DAOG"
-  },
-  {
-    "address": "0xd25185f8c3b9e38c3f014378ce58b362db568352",
-    "nameTag": "Gitcoin Grants: Daohaus"
-  },
-  {
-    "address": "0x7c5434d8e6c1062e5d3c0de94f2dfce0dd4274c2",
-    "nameTag": "Gitcoin Grants: dArray"
-  },
-  {
-    "address": "0x7f1a44a4b572d2f700d0b8ce659fd5ef95aaad04",
-    "nameTag": "Gitcoin Grants: dat://"
-  },
-  {
-    "address": "0x3af494f0cee51d8aa74532d15e7733b6c91158a2",
-    "nameTag": "Gitcoin Grants: Decentralized Science"
-  },
-  {
-    "address": "0xbbd13ca6aace2a8eccbde88bc7849c3c6e4e172e",
-    "nameTag": "Gitcoin Grants: DeFi Design"
-  },
-  {
-    "address": "0xeb355c18a4baf212da05ed455cf2db760704d34c",
-    "nameTag": "Gitcoin Grants: Defi in Africa Uni"
-  },
-  {
-    "address": "0xf11446f2f4d56efad6f3eb82f31f4662d0a18e29",
-    "nameTag": "Gitcoin Grants: DeFi Netherlands"
-  },
-  {
-    "address": "0xc662606edb852ba22f75680f7b2c89767014520e",
-    "nameTag": "Gitcoin Grants: DeFi Tutorials"
-  },
-  {
-    "address": "0x43a5c1331375f1f34bd774ecaee51501e9ca2db5",
-    "nameTag": "Gitcoin Grants: DefiSnap"
-  },
-  {
-    "address": "0xbbbfc46566e5f0302cef913af8c8f423070ce6a1",
-    "nameTag": "Gitcoin Grants: DeFiZap"
-  },
-  {
-    "address": "0x7e897000e80787653c6a7a2d20174a4225d89753",
-    "nameTag": "Gitcoin Grants: DEORA"
-  },
-  {
-    "address": "0x37c9ede55345e99feb48010ff21a0bc295f22e52",
-    "nameTag": "Gitcoin Grants: Dessert Dai"
-  },
-  {
-    "address": "0x06044b5359d8df7886366c22c61c7ecd29becac7",
-    "nameTag": "Gitcoin Grants: dHack"
-  },
-  {
-    "address": "0x9d4a1509da007ecb8b80d5eee9714cbe5b5b3167",
-    "nameTag": "Gitcoin Grants: DIS"
-  },
-  {
-    "address": "0x7058decc644317062f90525f4c1489aaf456e6b3",
-    "nameTag": "Gitcoin Grants: Dune Analytics"
-  },
-  {
-    "address": "0x19fa61309158e138b685646247f58a3ce9f18145",
-    "nameTag": "Gitcoin Grants: echonomics"
-  },
-  {
-    "address": "0x8651cf790fc894512a726a402c9caaa3687628f0",
-    "nameTag": "Gitcoin Grants: ens updater"
-  },
-  {
-    "address": "0x993b9199a3359ba89ed578a17e06821fede86bf9",
-    "nameTag": "Gitcoin Grants: ETH based games"
-  },
-  {
-    "address": "0x068792edecad424d42f0f45de7f693ca33526cf1",
-    "nameTag": "Gitcoin Grants: Eth Dev Fund Work Grp"
-  },
-  {
-    "address": "0xf7e72865cf3e2c4f6970f628b2e84bdf3edca222",
-    "nameTag": "Gitcoin Grants: ETH Turin"
-  },
-  {
-    "address": "0xd1933df1c223ad7cb5716b066ca26bc24569e622",
-    "nameTag": "Gitcoin Grants: Ethereum on ARM"
-  },
-  {
-    "address": "0x9fd0c742d81b6f08817f3ef11d09cb4a9f54ee5f",
-    "nameTag": "Gitcoin Grants: EthereumETL"
-  },
-  {
-    "address": "0x24e8bb6a37774d8a0187e196beb29601ed5920bf",
-    "nameTag": "Gitcoin Grants: EtherLoans"
-  },
-  {
-    "address": "0x8ba1f109551bd432803012645ac136ddd64dba72",
-    "nameTag": "Gitcoin Grants: ethers.js"
-  },
-  {
-    "address": "0xbb2581d00c6a72df195e6f3d3f02557fda48f401",
-    "nameTag": "Gitcoin Grants: EthFans"
-  },
-  {
-    "address": "0xd44acd5a54f8d802a289c4c346d93f79177343ca",
-    "nameTag": "Gitcoin Grants: ethsear.ch"
-  },
-  {
-    "address": "0x2156e9ed357fcc134161b7df0edfe26591d8d329",
-    "nameTag": "Gitcoin Grants: EVM Evolution"
-  },
-  {
-    "address": "0x27c350caacf45fd935814bdd2a07b2b9bffe9203",
-    "nameTag": "Gitcoin Grants: Fairdrop"
-  },
-  {
-    "address": "0xa07b3c21ed817f94149231a431d3d4b421648121",
-    "nameTag": "Gitcoin Grants: FISSION Codes"
-  },
-  {
-    "address": "0x4fbdad7173ad2e05922a53ffc830831bb75740df",
-    "nameTag": "Gitcoin Grants: Floatify"
-  },
-  {
-    "address": "0x3e16c13791343713fdb5cadaa4fd43cd185f7799",
-    "nameTag": "Gitcoin Grants: Floyd Economy"
-  },
-  {
-    "address": "0x3e947a271a37ae7b59921c57be0a3246ee0d887c",
-    "nameTag": "Gitcoin Grants: Fuel Labs"
-  },
-  {
-    "address": "0x7056e70a5ca249ba88e9550eb22caec4c985bb8e",
-    "nameTag": "Gitcoin Grants: fuzz geth"
-  },
-  {
-    "address": "0xaec00f4c9eb077ca4c9183dfd0d5db1c93399259",
-    "nameTag": "Gitcoin Grants: Gas Stations Network"
-  },
-  {
-    "address": "0x86c91ab19e7a15577b4931ceb3e7de31ba27f844",
-    "nameTag": "Gitcoin Grants: Gasless"
-  },
-  {
-    "address": "0x8b3765eda5207fb21690874b722ae276b96260e0",
-    "nameTag": "Gitcoin Grants: Gelato"
-  },
-  {
-    "address": "0x9f4fdb0a707ee336118b73cfc97ec5a453ee9117",
-    "nameTag": "Gitcoin Grants: GEO Protocol"
-  },
-  {
-    "address": "0x8a970573f88dbc7b69dfed2ba193c98c2d5d8314",
-    "nameTag": "Gitcoin Grants: Geon App"
-  },
-  {
-    "address": "0xf6411340cef876cedef61fdc644e34e1907a408d",
-    "nameTag": "Gitcoin Grants: Georgios"
-  },
-  {
-    "address": "0x532e757e5d29023c5f3683b192378d15750dfa99",
-    "nameTag": "Gitcoin Grants: Gitcoin Mod Tools"
-  },
-  {
-    "address": "0x5df67bdf139abc95b0b3a5851875a73a5e722c0e",
-    "nameTag": "Gitcoin Grants: Gitcoin Product Development"
-  },
-  {
-    "address": "0x58f123bd4261ea25955b362be57d89f4b6e7110a",
-    "nameTag": "Gitcoin Grants: Govrn"
-  },
-  {
-    "address": "0x02eb002d88051c03ef312f63bbf3e38aada0b902",
-    "nameTag": "Gitcoin Grants: GrantOps"
-  },
-  {
-    "address": "0xbca89cfff5cfe1313ac392ddf922eeefa2024b54",
-    "nameTag": "Gitcoin Grants: GrinSwap"
-  },
-  {
-    "address": "0x017946fc126d57e7823e68c647c24f28e5dc9988",
-    "nameTag": "Gitcoin Grants: Groundhog"
-  },
-  {
-    "address": "0x531146f30be47bb171cb2039c25a4ae5d4fe164e",
-    "nameTag": "Gitcoin Grants: Growdrop"
-  },
-  {
-    "address": "0xf3047b2b495e31c1e39f198448ae5f382739264a",
-    "nameTag": "Gitcoin Grants: Holochain Dev"
-  },
-  {
-    "address": "0xdb7fc5e20fe4567ececba1df82a234781aa37f8c",
-    "nameTag": "Gitcoin Grants: HOPR"
-  },
-  {
-    "address": "0x35ca7ae854338dcbc154066f0ea00b636d38e431",
-    "nameTag": "Gitcoin Grants: HumansOfEthereum"
-  },
-  {
-    "address": "0x924b575917f822e32e88b7e7171fe0c00c70f401",
-    "nameTag": "Gitcoin Grants: Idea Markets"
-  },
-  {
-    "address": "0xf053adb5d6310219f84b5792db23a4fed3c25d57",
-    "nameTag": "Gitcoin Grants: Interaxis"
-  },
-  {
-    "address": "0xa1381b40e0a6b91814f77de19a7ad2cb21753184",
-    "nameTag": "Gitcoin Grants: Interstate Network"
-  },
-  {
-    "address": "0x2bb1b3510a1f609cbc74b98b3eb622cfcc3be16e",
-    "nameTag": "Gitcoin Grants: James Todaro"
-  },
-  {
-    "address": "0xcfbb0c8a2c292b7c45cbade5ac6a25d2580dcb94",
-    "nameTag": "Gitcoin Grants: Jelly Swap"
-  },
-  {
-    "address": "0xc8b186ed4780143ba9116387611063a0e96d7b8f",
-    "nameTag": "Gitcoin Grants: Kickback"
-  },
-  {
-    "address": "0xcdcbc6b4e1a7a1d671fc6a5f2e2a89122d79108e",
-    "nameTag": "Gitcoin Grants: Knockturn Allee"
-  },
-  {
-    "address": "0x818ff73a5d881c27a945be944973156c01141232",
-    "nameTag": "Gitcoin Grants: KnownOrigin.io"
-  },
-  {
-    "address": "0xc5cdcd5470aef35fc33bddff3f8ecec027f95b1d",
-    "nameTag": "Gitcoin Grants: LeapDAO"
-  },
-  {
-    "address": "0xe402823203e5714eec86f8959fc26688c1e42142",
-    "nameTag": "Gitcoin Grants: Lease"
-  },
-  {
-    "address": "0x97103fda00a2b47eac669568063c00e65866a633",
-    "nameTag": "Gitcoin Grants: lexDAO"
-  },
-  {
-    "address": "0xc9a872868afa68ba937f65a1c5b4b252dab15d85",
-    "nameTag": "Gitcoin Grants: Lighthouse"
-  },
-  {
-    "address": "0x2b47c57a4c9fc1649b43500f4c0cda6cf29be278",
-    "nameTag": "Gitcoin Grants: Limit to Win It"
-  },
-  {
-    "address": "0xec52a4336904f98adca74f87441fa966cf770db4",
-    "nameTag": "Gitcoin Grants: Locha Mesh"
-  },
-  {
-    "address": "0xbcede714283f348ebb3e5cbaf8a947cab3c8be8d",
-    "nameTag": "Gitcoin Grants: Lodestar"
-  },
-  {
-    "address": "0x934b510d4c9103e6a87aef13b816fb080286d649",
-    "nameTag": "Gitcoin Grants: Maskbook"
-  },
-  {
-    "address": "0x1aa587c2288750173cc6af7c92bad7209904e496",
-    "nameTag": "Gitcoin Grants: McCardi"
-  },
-  {
-    "address": "0x29ae75ccbebce13cb9927ef3d3ce28965d6a66d2",
-    "nameTag": "Gitcoin Grants: Meson"
-  },
-  {
-    "address": "0xf8049c8425f9eab4e2ae9e1d950f9d3f71481882",
-    "nameTag": "Gitcoin Grants: MetaFactory"
-  },
-  {
-    "address": "0xb53b0255895c4f9e3a185e484e5b674bccfbc076",
-    "nameTag": "Gitcoin Grants: MetaGame"
-  },
-  {
-    "address": "0x0730fd7d15fa9a40a6c7b2bbb4b8ce9ee6e6d08b",
-    "nameTag": "Gitcoin Grants: MetaMoneyMarket"
-  },
-  {
-    "address": "0xd55da2bf21a2131ece7c50fbf979644eb7df1c21",
-    "nameTag": "Gitcoin Grants: Mintbase"
-  },
-  {
-    "address": "0x9a4de46e566b7d474d14def31aa349abf2fc6993",
-    "nameTag": "Gitcoin Grants: MolochDAO"
-  },
-  {
-    "address": "0x039ae2898d257f4c9d7e381d478ee1ed042fe2f4",
-    "nameTag": "Gitcoin Grants: My DAO Dashboard"
-  },
-  {
-    "address": "0x16385dfcc9139ffb357746780b64a605b4cb46f0",
-    "nameTag": "Gitcoin Grants: NewforkDelta"
-  },
-  {
-    "address": "0x1352400bf96d73d41e033f5a14416357a5e0b6bf",
-    "nameTag": "Gitcoin Grants: Nori"
-  },
-  {
-    "address": "0xb359e4844a46258eb98eab48428365c699b1ba67",
-    "nameTag": "Gitcoin Grants: NutBerry"
-  },
-  {
-    "address": "0xcfa6118dccccbd782c2a097e3e448bc679770c5d",
-    "nameTag": "Gitcoin Grants: Nym"
-  },
-  {
-    "address": "0xb2e7e101b8248021be72e76890ea24cfad967aec",
-    "nameTag": "Gitcoin Grants: Open Funding"
-  },
-  {
-    "address": "0xd7fe300587d41ed0e8b6a2bed5a1b2bb4fcdad9e",
-    "nameTag": "Gitcoin Grants: Open Raise"
-  },
-  {
-    "address": "0x549d562c37f8d4143d7e161da886e616c11a3ace",
-    "nameTag": "Gitcoin Grants: Orienteer"
-  },
-  {
-    "address": "0xf60865656e44123afb08e4e562cfb10eba432bec",
-    "nameTag": "Gitcoin Grants: ParkourEDU"
-  },
-  {
-    "address": "0x30755d3e65c0cf46c35b72d11e52d941c5fc3a3e",
-    "nameTag": "Gitcoin Grants: Peepeth"
-  },
-  {
-    "address": "0xbc2138f76db98af69c8c9d5c365263dca32f5e63",
-    "nameTag": "Gitcoin Grants: PhishFort Protect"
-  },
-  {
-    "address": "0x527621278422fff45a66f7086baeac770cf12b69",
-    "nameTag": "Gitcoin Grants: Planet A"
-  },
-  {
-    "address": "0x91dbd5e72b1331447a40932bf16d140cf4638324",
-    "nameTag": "Gitcoin Grants: Plasma"
-  },
-  {
-    "address": "0x51535ca2e01985a7b4d6412958b438aa23111bac",
-    "nameTag": "Gitcoin Grants: Plasma Chamber"
-  },
-  {
-    "address": "0xdcab3ac98dc87a1eb85cf9f81cf75c09ee8e7e5a",
-    "nameTag": "Gitcoin Grants: Play Ethereum"
-  },
-  {
-    "address": "0x1074f62d7019c3184a2f7ea8c6a8acd6780beb48",
-    "nameTag": "Gitcoin Grants: POA Network"
-  },
-  {
-    "address": "0x3849ba8a4d7193bf550a6e04632b176f9ce1b7e8",
-    "nameTag": "Gitcoin Grants: Poketto Group"
-  },
-  {
-    "address": "0x7b93102844e7ef0b0a4bb1e38484ad7e2ac98c19",
-    "nameTag": "Gitcoin Grants: PopLocker"
-  },
-  {
-    "address": "0x68085e7f88e90fa9247489c83fab30b177ebccb3",
-    "nameTag": "Gitcoin Grants: ProgPow Audit"
-  },
-  {
-    "address": "0x4c8def836ff37b9c9c3ccd3c1796efc78bda7998",
-    "nameTag": "Gitcoin Grants: ProgPoW miner"
-  },
-  {
-    "address": "0xced2d002d5c2e5a3ef2c3aae00c671a1d2b225a6",
-    "nameTag": "Gitcoin Grants: Prtcl"
-  },
-  {
-    "address": "0x7d3e2d29c0f77d35e470942e10aed8f3a6a596fe",
-    "nameTag": "Gitcoin Grants: Raven"
-  },
-  {
-    "address": "0xa153b8891e77f1ae037026514c927530d877fab8",
-    "nameTag": "Gitcoin Grants: rDAI"
-  },
-  {
-    "address": "0x0639092a9c3d9467dd6f89a13213541c8a1e58b2",
-    "nameTag": "Gitcoin Grants: Reach Platform"
-  },
-  {
-    "address": "0x147c06f559f742cc9ef2ea5e628f381bccdce2ba",
-    "nameTag": "Gitcoin Grants: React Native"
-  },
-  {
-    "address": "0x61c315be1fb8e8723d3c20c3c3169a8509b36207",
-    "nameTag": "Gitcoin Grants: Reale Chain"
-  },
-  {
-    "address": "0x79880f298e6cbfd20d03f411f6609fc1faf1c64b",
-    "nameTag": "Gitcoin Grants: Rebalance.to"
-  },
-  {
-    "address": "0x6dec00d2899b3caf00c72452407eb727b7298c7f",
-    "nameTag": "Gitcoin Grants: ReportAid"
-  },
-  {
-    "address": "0xbd53a5df1fd60aba402cf346ee07ed8b058c17d0",
-    "nameTag": "Gitcoin Grants: Ribbon Blockchain"
-  },
-  {
-    "address": "0x9531c059098e3d194ff87febb587ab07b30b1306",
-    "nameTag": "Gitcoin Grants: Rotki"
-  },
-  {
-    "address": "0x9492510bbcb93b6992d8b7bb67888558e12dcac4",
-    "nameTag": "Gitcoin Grants: rTrees"
-  },
-  {
-    "address": "0x64df823e0f9dbc32fb58d69af32aa5fe3cdd0388",
-    "nameTag": "Gitcoin Grants: RYO Cloud"
-  },
-  {
-    "address": "0xbc5d1e83b6e36391e5902fcfd5f44c4e786cf618",
-    "nameTag": "Gitcoin Grants: S33D"
-  },
-  {
-    "address": "0x726830dbb3e6a7f5009635e61cf4056d11c2dbf7",
-    "nameTag": "Gitcoin Grants: Scuttlebutt"
-  },
-  {
-    "address": "0xb1b6e377aa6ec6928a1d499ae58483b2b99658ec",
-    "nameTag": "Gitcoin Grants: solUI"
-  },
-  {
-    "address": "0xb6568dc090302196ec8edf56d99c3484cee94e6a",
-    "nameTag": "Gitcoin Grants: StablePay"
-  },
-  {
-    "address": "0x662d5d79849113a5403af776210307a7c82a5267",
-    "nameTag": "Gitcoin Grants: Stackbrief"
-  },
-  {
-    "address": "0x363fdb02aee6838afb0e034dc5ea54eb8e31e8b9",
-    "nameTag": "Gitcoin Grants: stonecoldpat"
-  },
-  {
-    "address": "0xfaf95953a36ed1e8f8426ab5b7eb53da246e3476",
-    "nameTag": "Gitcoin Grants: SUMA"
-  },
-  {
-    "address": "0xa84944735b66e957fe385567dcc85975022fe68a",
-    "nameTag": "Gitcoin Grants: Swarm Research"
-  },
-  {
-    "address": "0x7d888a9036b5a96f77b433e65b9be1b122f8a499",
-    "nameTag": "Gitcoin Grants: Tasit"
-  },
-  {
-    "address": "0x20a5814b73ef3537c6e099a0d45c798f4bd6e1d6",
-    "nameTag": "Gitcoin Grants: Tenderly"
-  },
-  {
-    "address": "0x38298ef8a8306579e21246d5227694b5560d9cb5",
-    "nameTag": "Gitcoin Grants: Tennagraph"
-  },
-  {
-    "address": "0x7b5a24f14c4086d34bfd805e6237229596e8235c",
-    "nameTag": "Gitcoin Grants: TheBlockchainCircle"
-  },
-  {
-    "address": "0xc82b9cac090a6e8737a77c1eae4c6eb282130bb0",
-    "nameTag": "Gitcoin Grants: Theo Goodman"
-  },
-  {
-    "address": "0x140e7364ee4e29a677a9d6ccf26ac945e7e80b65",
-    "nameTag": "Gitcoin Grants: THX"
-  },
-  {
-    "address": "0xeea95edfc25f15c0c44d4081bbd85026ba298dc6",
-    "nameTag": "Gitcoin Grants: TokenCast"
-  },
-  {
-    "address": "0xdd4c48c0b24039969fc16d1cdf626eab821d3384",
-    "nameTag": "Gitcoin Grants: Tornado.cash"
-  },
-  {
-    "address": "0x2577a8539cb2194acd72f035dbb691ce5f406d3f",
-    "nameTag": "Gitcoin Grants: Trackato"
-  },
-  {
-    "address": "0xfe222247735b3c7ef099ba761f9477450f5256fe",
-    "nameTag": "Gitcoin Grants: TradeScope"
-  },
-  {
-    "address": "0x8f684ad5dc8237960a4661381022ae8030a5cd31",
-    "nameTag": "Gitcoin Grants: Training Eth Devs"
-  },
-  {
-    "address": "0x7d1675dc635959b26f61e03637599c12c7e84fae",
-    "nameTag": "Gitcoin Grants: Tribute"
-  },
-  {
-    "address": "0xdf6c53df56f3992fc44195518a2d8b16306af9ff",
-    "nameTag": "Gitcoin Grants: Trinity"
-  },
-  {
-    "address": "0x5c930db102c6ebb9cc32fd26f8a274f9493c5c52",
-    "nameTag": "Gitcoin Grants: Trojan DAO"
-  },
-  {
-    "address": "0xf503017d7baf7fbc0fff7492b751025c6a78179b",
-    "nameTag": "Gitcoin Grants: TrueBlocks"
-  },
-  {
-    "address": "0x3c6e0d0c9dba4709e9a8b85d1003e9985b799578",
-    "nameTag": "Gitcoin Grants: TSSKit"
-  },
-  {
-    "address": "0x8bfbb529a9e85fdc4b70a4fcdc0d68bb298b8816",
-    "nameTag": "Gitcoin Grants: Turbo-Geth"
-  },
-  {
-    "address": "0x7541e31ea1635e3c6e927447e5c9a48b60ac5c8c",
-    "nameTag": "Gitcoin Grants: Unikeys"
-  },
-  {
-    "address": "0xdba411d32793e057cb69658cf0d16b55dffb652a",
-    "nameTag": "Gitcoin Grants: urllib3"
-  },
-  {
-    "address": "0x961aa96febee5465149a0787b03bfa14d8e9033f",
-    "nameTag": "Gitcoin Grants: Vipnode"
-  },
-  {
-    "address": "0x74d8967e812de34702ecd3d453a44bf37440b10b",
-    "nameTag": "Gitcoin Grants: Vocdoni"
-  },
-  {
-    "address": "0x70ccbe10f980d80b7ebaab7d2e3a73e87d67b775",
-    "nameTag": "Gitcoin Grants: Vyper"
-  },
-  {
-    "address": "0x6935e2d39536e0795dbb66428bc5bd6aec32f7fe",
-    "nameTag": "Gitcoin Grants: Wallet Notify"
-  },
-  {
-    "address": "0x04bb33c3a8c2d018836a1f938054ebb59e0036b2",
-    "nameTag": "Gitcoin Grants: Wallets.Review"
-  },
-  {
-    "address": "0x6a3738c6299f45c31697acea647d49edcc9c28a4",
-    "nameTag": "Gitcoin Grants: web3swift"
-  },
-  {
-    "address": "0x663d3947f03ef5b387992b880ac85940057c13e3",
-    "nameTag": "Gitcoin Grants: WeekInEth"
-  },
-  {
-    "address": "0xfcad3475520fb54fc95305a6549a79170da8b7c0",
-    "nameTag": "Gitcoin Grants: WhatIsOnchain"
-  },
-  {
-    "address": "0x7710c1a75b9a9d67abc493a08ca6507dc42c6a11",
-    "nameTag": "Gitcoin Grants: Wildcards.world"
-  },
-  {
-    "address": "0x0dee9a06897e6d2e1e3d49acb0f21a6b439181e5",
-    "nameTag": "Gitcoin Grants: WiniWallet"
-  },
-  {
-    "address": "0x0559a413a3ab19508a144aeebc474eb14c5e76ce",
-    "nameTag": "Gitcoin Grants: wolfofethereum"
-  },
-  {
-    "address": "0x5d509f653d7e4914af9da434bf25c53cd122763d",
-    "nameTag": "Gitcoin Grants: Yeeth"
-  },
-  {
-    "address": "0xf39d549463d8d31f319225ef5c26d88f30945a38",
-    "nameTag": "Gitcoin Grants: You."
-  },
-  {
-    "address": "0x5a2c31ca6bcb4e594e4a5555399ecba82ba797f9",
-    "nameTag": "Gitcoin Grants: Zero Collateral"
-  },
-  {
-    "address": "0x947f8a49640b4770a8c7fe3c1e69ffc974295448",
-    "nameTag": "Gitcoin Grants: ZeroPool"
-  },
-  {
-    "address": "0x72b77d99b460176adc900c05f6bbb69c332eb4c2",
-    "nameTag": "Gitcoin Grants: ZoKrates"
-  },
-  {
-    "address": "0x7d655c57f71464b6f83811c55d84009cd9f5221c",
-    "nameTag": "Gitcoin: Bulk Checkout"
-  },
-  {
-    "address": "0x3ba9df642f5e895dc76d3aa9e4ce8291108e65b1",
-    "nameTag": "Gitcoin: Donate"
-  },
-  {
-    "address": "0xf2354570be2fb420832fb7ff6ff0ae0df80cf2c6",
-    "nameTag": "Gitcoin: GR8 Match Payout"
-  },
-  {
-    "address": "0xdf869fad6db91f437b59f1edefab319493d4c4ce",
-    "nameTag": "Gitcoin: Grants"
-  },
-  {
-    "address": "0xde3e5a990bce7fc60a6f017e7c4a95fc4939299e",
-    "nameTag": "Gitcoin: GTC Distributor"
-  },
-  {
-    "address": "0x57a8865cfb1ecef7253c27da6b4bc3daee5be518",
-    "nameTag": "Gitcoin: GTC Timelock"
-  },
-  {
-    "address": "0xde30da39c46104798bb5aa3fe8b9e0e1f348163f",
-    "nameTag": "Gitcoin: GTC Token"
-  },
-  {
-    "address": "0x00de4b13153673bcae2616b67bf822500d325fc3",
-    "nameTag": "Gitcoin: Maintainer"
-  },
-  {
-    "address": "0xde21f729137c5af1b01d73af1dc21effa2b8a0d6",
-    "nameTag": "Gitcoin: MultiSig"
-  },
-  {
-    "address": "0x358bcf43fe7ec2659ad829f3604c72781fc93a9e",
-    "nameTag": "Gitcoin: Personal Token Factory"
-  },
-  {
-    "address": "0x12bb5bbbfe596dbc489d209299b8302c3300fa40",
-    "nameTag": "Gitcoin: Round Implementation"
-  },
-  {
-    "address": "0x9d37f793e5ed4ebd66d62d505684cd9f756504f6",
-    "nameTag": "Gitcoin: zkSync Batch Deposit"
-  },
-  {
-    "address": "0xdb9bc8b6770e179b2f1f6cd0562bbcdb99784f39",
-    "nameTag": "Specie: Ether Data Science"
-  }
-]
+{
+  "lastPulled": "2024-04-02T20:44:06.372Z",
+  "data": [
+    {
+      "address": "0x11e4857bb9993a50c685a79afad4e6f65d518dda",
+      "nameTag": ""
+    },
+    {
+      "address": "0x4d37f28d2db99e8d35a6c725a5f1749a085850a3",
+      "nameTag": ""
+    },
+    {
+      "address": "0x7859821024e633c5dc8a4fcf86fc52e7720ce525",
+      "nameTag": ""
+    },
+    {
+      "address": "0x8688a84fcfd84d8f78020d0fc0b35987cc58911f",
+      "nameTag": ""
+    },
+    {
+      "address": "0x910119d96fcc68fc898a02b07b3a6316992af800",
+      "nameTag": ""
+    },
+    {
+      "address": "0xd277a99c0d08ded3bdb253024bff81e41496465c",
+      "nameTag": ""
+    },
+    {
+      "address": "0xdb4d88080ed478c729b07e23f8e0ccd1f57d3f9b",
+      "nameTag": ""
+    },
+    {
+      "address": "0x323e5692152cdf04d84ea8aed57ec8a8caf43e92",
+      "nameTag": "Axiom Finance"
+    },
+    {
+      "address": "0x332d87209f7c8296389c307eae170c2440830a47",
+      "nameTag": "Bacon Labs: MultiSig"
+    },
+    {
+      "address": "0xbe4ba4b9b3dbe25a93820eef90fb4da150380510",
+      "nameTag": "CuraDAI: Deployer"
+    },
+    {
+      "address": "0x74ef70357ef21bad2b45795679f2727c48d501ed",
+      "nameTag": "DFOhub: Deployer"
+    },
+    {
+      "address": "0xb422e46540153ddaaccd8f5e899893fc53ab77b8",
+      "nameTag": "Gitcoin Grants: 2key Network"
+    },
+    {
+      "address": "0x0efe994201e2b0136dd40d5033b5f437e4c5f958",
+      "nameTag": "Gitcoin Grants: Abridged"
+    },
+    {
+      "address": "0x69cac784d1f0387eac5f6cac903865ea8804ed38",
+      "nameTag": "Gitcoin Grants: abstractpoint"
+    },
+    {
+      "address": "0xbc5ec594509ed050f4a53eee85d92af6d2529b56",
+      "nameTag": "Gitcoin Grants: ActivityWatch"
+    },
+    {
+      "address": "0x842b87e0f5dd45ab5ff972b4d71f238ffad8ad3d",
+      "nameTag": "Gitcoin Grants: Akasha"
+    },
+    {
+      "address": "0xa1b02d8c67b0fdcf4e379855868deb470e169cfb",
+      "nameTag": "Gitcoin Grants: Alice"
+    },
+    {
+      "address": "0x6fb8479a3bbb7a4ed8395af47916d9a51b7ba038",
+      "nameTag": "Gitcoin Grants: AM Winn"
+    },
+    {
+      "address": "0x08497b07916280da27b43d28a0d3dfa7d6676b58",
+      "nameTag": "Gitcoin Grants: Austin Griffith"
+    },
+    {
+      "address": "0xc9e093dd5b67001c6f975bc4f62d0423909089aa",
+      "nameTag": "Gitcoin Grants: banq.link"
+    },
+    {
+      "address": "0x9d4e94db689bc471e45b0a18b7bda36fccec9c3b",
+      "nameTag": "Gitcoin Grants: beaconcha.in"
+    },
+    {
+      "address": "0x57b353818da50c82ffd59664068a5212eaf090b0",
+      "nameTag": "Gitcoin Grants: Block Rewards"
+    },
+    {
+      "address": "0x35b32b4b66e3fed103288365de66d1fcb2f883ad",
+      "nameTag": "Gitcoin Grants: Blockada DAO"
+    },
+    {
+      "address": "0x0bf9a0a45077ac0a26637d8130fd759d74e0dc1d",
+      "nameTag": "Gitcoin Grants: Blockchangers"
+    },
+    {
+      "address": "0xcea6435bd3463764f835da8fa8a26f6d4d72c3a9",
+      "nameTag": "Gitcoin Grants: BlockScout"
+    },
+    {
+      "address": "0xca1d22a140d12b5e9d38b46f3f350cf469ba4fe7",
+      "nameTag": "Gitcoin Grants: BlockShop"
+    },
+    {
+      "address": "0x5a0f2c1d8e563db79ee40f979f6bcd0d27f86f80",
+      "nameTag": "Gitcoin Grants: BlockSpy"
+    },
+    {
+      "address": "0x23dbbf0ffd28bf754fdc1e52f302b81303c211b0",
+      "nameTag": "Gitcoin Grants: BoxSwap"
+    },
+    {
+      "address": "0x587fb98e404a18503a24cf19abb1887704beb407",
+      "nameTag": "Gitcoin Grants: Buidler.dev"
+    },
+    {
+      "address": "0xb631e8650fb4befdae74ab9f86a9cb65bc134706",
+      "nameTag": "Gitcoin Grants: BUIDLHub"
+    },
+    {
+      "address": "0x5a49fb12f512451819caeb7f4be37e89f0eb0afd",
+      "nameTag": "Gitcoin Grants: Burn Signal"
+    },
+    {
+      "address": "0x78040ab06e05f59fd78ca7367cbf4e95069cac47",
+      "nameTag": "Gitcoin Grants: Burner Wallet"
+    },
+    {
+      "address": "0x91bd7429bfb4731d13e2a431dd729f49b5760b03",
+      "nameTag": "Gitcoin Grants: Burner Wallet 2"
+    },
+    {
+      "address": "0x335bee461cbbab5bd574e0767f1ead25bd5e0001",
+      "nameTag": "Gitcoin Grants: cadCAD"
+    },
+    {
+      "address": "0xfcd819c8a13de2d9e409fdf7d61161091f58dd63",
+      "nameTag": "Gitcoin Grants: ChainID Network"
+    },
+    {
+      "address": "0xbeb87b2e4d8b89cd2af8a3c7103db7fb2f5af022",
+      "nameTag": "Gitcoin Grants: Charged Particles"
+    },
+    {
+      "address": "0x7415efd9d908281ea0279c49a6c23011d9d9a0a4",
+      "nameTag": "Gitcoin Grants: Circles UBI"
+    },
+    {
+      "address": "0xa0527ba80d811cd45d452481caf902dfd6f5b8c2",
+      "nameTag": "Gitcoin Grants: Commons Simulator"
+    },
+    {
+      "address": "0xc37e165fcfa2cb5cca7329dd9daa8cd72907b983",
+      "nameTag": "Gitcoin Grants: Connext Network"
+    },
+    {
+      "address": "0x36a0356d43ee4168ed24efa1cae3198708667ac0",
+      "nameTag": "Gitcoin Grants: Crypto Reward Courts"
+    },
+    {
+      "address": "0x7030b43e821ba34124915ba65b90dbda7a9e7d09",
+      "nameTag": "Gitcoin Grants: CryptoScamDB"
+    },
+    {
+      "address": "0x9a94ac82b17e67f7dff81912de68eb74ca20e6c3",
+      "nameTag": "Gitcoin Grants: CuraDAI"
+    },
+    {
+      "address": "0xfc2c722b8fe7b3ca277d349cbad6d2c5ce2ecf9c",
+      "nameTag": "Gitcoin Grants: DAism"
+    },
+    {
+      "address": "0x643786c04bf98ae360d81ad6681fdf5b95ba1c2b",
+      "nameTag": "Gitcoin Grants: DAOG"
+    },
+    {
+      "address": "0xd25185f8c3b9e38c3f014378ce58b362db568352",
+      "nameTag": "Gitcoin Grants: Daohaus"
+    },
+    {
+      "address": "0x7c5434d8e6c1062e5d3c0de94f2dfce0dd4274c2",
+      "nameTag": "Gitcoin Grants: dArray"
+    },
+    {
+      "address": "0x7f1a44a4b572d2f700d0b8ce659fd5ef95aaad04",
+      "nameTag": "Gitcoin Grants: dat://"
+    },
+    {
+      "address": "0x3af494f0cee51d8aa74532d15e7733b6c91158a2",
+      "nameTag": "Gitcoin Grants: Decentralized Science"
+    },
+    {
+      "address": "0xbbd13ca6aace2a8eccbde88bc7849c3c6e4e172e",
+      "nameTag": "Gitcoin Grants: DeFi Design"
+    },
+    {
+      "address": "0xeb355c18a4baf212da05ed455cf2db760704d34c",
+      "nameTag": "Gitcoin Grants: Defi in Africa Uni"
+    },
+    {
+      "address": "0xf11446f2f4d56efad6f3eb82f31f4662d0a18e29",
+      "nameTag": "Gitcoin Grants: DeFi Netherlands"
+    },
+    {
+      "address": "0xc662606edb852ba22f75680f7b2c89767014520e",
+      "nameTag": "Gitcoin Grants: DeFi Tutorials"
+    },
+    {
+      "address": "0x43a5c1331375f1f34bd774ecaee51501e9ca2db5",
+      "nameTag": "Gitcoin Grants: DefiSnap"
+    },
+    {
+      "address": "0xbbbfc46566e5f0302cef913af8c8f423070ce6a1",
+      "nameTag": "Gitcoin Grants: DeFiZap"
+    },
+    {
+      "address": "0x7e897000e80787653c6a7a2d20174a4225d89753",
+      "nameTag": "Gitcoin Grants: DEORA"
+    },
+    {
+      "address": "0x37c9ede55345e99feb48010ff21a0bc295f22e52",
+      "nameTag": "Gitcoin Grants: Dessert Dai"
+    },
+    {
+      "address": "0x06044b5359d8df7886366c22c61c7ecd29becac7",
+      "nameTag": "Gitcoin Grants: dHack"
+    },
+    {
+      "address": "0x9d4a1509da007ecb8b80d5eee9714cbe5b5b3167",
+      "nameTag": "Gitcoin Grants: DIS"
+    },
+    {
+      "address": "0x7058decc644317062f90525f4c1489aaf456e6b3",
+      "nameTag": "Gitcoin Grants: Dune Analytics"
+    },
+    {
+      "address": "0x19fa61309158e138b685646247f58a3ce9f18145",
+      "nameTag": "Gitcoin Grants: echonomics"
+    },
+    {
+      "address": "0x8651cf790fc894512a726a402c9caaa3687628f0",
+      "nameTag": "Gitcoin Grants: ens updater"
+    },
+    {
+      "address": "0x993b9199a3359ba89ed578a17e06821fede86bf9",
+      "nameTag": "Gitcoin Grants: ETH based games"
+    },
+    {
+      "address": "0x068792edecad424d42f0f45de7f693ca33526cf1",
+      "nameTag": "Gitcoin Grants: Eth Dev Fund Work Grp"
+    },
+    {
+      "address": "0xf7e72865cf3e2c4f6970f628b2e84bdf3edca222",
+      "nameTag": "Gitcoin Grants: ETH Turin"
+    },
+    {
+      "address": "0xd1933df1c223ad7cb5716b066ca26bc24569e622",
+      "nameTag": "Gitcoin Grants: Ethereum on ARM"
+    },
+    {
+      "address": "0x9fd0c742d81b6f08817f3ef11d09cb4a9f54ee5f",
+      "nameTag": "Gitcoin Grants: EthereumETL"
+    },
+    {
+      "address": "0x24e8bb6a37774d8a0187e196beb29601ed5920bf",
+      "nameTag": "Gitcoin Grants: EtherLoans"
+    },
+    {
+      "address": "0x8ba1f109551bd432803012645ac136ddd64dba72",
+      "nameTag": "Gitcoin Grants: ethers.js"
+    },
+    {
+      "address": "0xbb2581d00c6a72df195e6f3d3f02557fda48f401",
+      "nameTag": "Gitcoin Grants: EthFans"
+    },
+    {
+      "address": "0xd44acd5a54f8d802a289c4c346d93f79177343ca",
+      "nameTag": "Gitcoin Grants: ethsear.ch"
+    },
+    {
+      "address": "0x2156e9ed357fcc134161b7df0edfe26591d8d329",
+      "nameTag": "Gitcoin Grants: EVM Evolution"
+    },
+    {
+      "address": "0x27c350caacf45fd935814bdd2a07b2b9bffe9203",
+      "nameTag": "Gitcoin Grants: Fairdrop"
+    },
+    {
+      "address": "0xa07b3c21ed817f94149231a431d3d4b421648121",
+      "nameTag": "Gitcoin Grants: FISSION Codes"
+    },
+    {
+      "address": "0x4fbdad7173ad2e05922a53ffc830831bb75740df",
+      "nameTag": "Gitcoin Grants: Floatify"
+    },
+    {
+      "address": "0x3e16c13791343713fdb5cadaa4fd43cd185f7799",
+      "nameTag": "Gitcoin Grants: Floyd Economy"
+    },
+    {
+      "address": "0x3e947a271a37ae7b59921c57be0a3246ee0d887c",
+      "nameTag": "Gitcoin Grants: Fuel Labs"
+    },
+    {
+      "address": "0x7056e70a5ca249ba88e9550eb22caec4c985bb8e",
+      "nameTag": "Gitcoin Grants: fuzz geth"
+    },
+    {
+      "address": "0xaec00f4c9eb077ca4c9183dfd0d5db1c93399259",
+      "nameTag": "Gitcoin Grants: Gas Stations Network"
+    },
+    {
+      "address": "0x86c91ab19e7a15577b4931ceb3e7de31ba27f844",
+      "nameTag": "Gitcoin Grants: Gasless"
+    },
+    {
+      "address": "0x8b3765eda5207fb21690874b722ae276b96260e0",
+      "nameTag": "Gitcoin Grants: Gelato"
+    },
+    {
+      "address": "0x9f4fdb0a707ee336118b73cfc97ec5a453ee9117",
+      "nameTag": "Gitcoin Grants: GEO Protocol"
+    },
+    {
+      "address": "0x8a970573f88dbc7b69dfed2ba193c98c2d5d8314",
+      "nameTag": "Gitcoin Grants: Geon App"
+    },
+    {
+      "address": "0xf6411340cef876cedef61fdc644e34e1907a408d",
+      "nameTag": "Gitcoin Grants: Georgios"
+    },
+    {
+      "address": "0x532e757e5d29023c5f3683b192378d15750dfa99",
+      "nameTag": "Gitcoin Grants: Gitcoin Mod Tools"
+    },
+    {
+      "address": "0x5df67bdf139abc95b0b3a5851875a73a5e722c0e",
+      "nameTag": "Gitcoin Grants: Gitcoin Product Development"
+    },
+    {
+      "address": "0x58f123bd4261ea25955b362be57d89f4b6e7110a",
+      "nameTag": "Gitcoin Grants: Govrn"
+    },
+    {
+      "address": "0x02eb002d88051c03ef312f63bbf3e38aada0b902",
+      "nameTag": "Gitcoin Grants: GrantOps"
+    },
+    {
+      "address": "0xbca89cfff5cfe1313ac392ddf922eeefa2024b54",
+      "nameTag": "Gitcoin Grants: GrinSwap"
+    },
+    {
+      "address": "0x017946fc126d57e7823e68c647c24f28e5dc9988",
+      "nameTag": "Gitcoin Grants: Groundhog"
+    },
+    {
+      "address": "0x531146f30be47bb171cb2039c25a4ae5d4fe164e",
+      "nameTag": "Gitcoin Grants: Growdrop"
+    },
+    {
+      "address": "0xf3047b2b495e31c1e39f198448ae5f382739264a",
+      "nameTag": "Gitcoin Grants: Holochain Dev"
+    },
+    {
+      "address": "0xdb7fc5e20fe4567ececba1df82a234781aa37f8c",
+      "nameTag": "Gitcoin Grants: HOPR"
+    },
+    {
+      "address": "0x35ca7ae854338dcbc154066f0ea00b636d38e431",
+      "nameTag": "Gitcoin Grants: HumansOfEthereum"
+    },
+    {
+      "address": "0x924b575917f822e32e88b7e7171fe0c00c70f401",
+      "nameTag": "Gitcoin Grants: Idea Markets"
+    },
+    {
+      "address": "0xf053adb5d6310219f84b5792db23a4fed3c25d57",
+      "nameTag": "Gitcoin Grants: Interaxis"
+    },
+    {
+      "address": "0xa1381b40e0a6b91814f77de19a7ad2cb21753184",
+      "nameTag": "Gitcoin Grants: Interstate Network"
+    },
+    {
+      "address": "0x2bb1b3510a1f609cbc74b98b3eb622cfcc3be16e",
+      "nameTag": "Gitcoin Grants: James Todaro"
+    },
+    {
+      "address": "0xcfbb0c8a2c292b7c45cbade5ac6a25d2580dcb94",
+      "nameTag": "Gitcoin Grants: Jelly Swap"
+    },
+    {
+      "address": "0xc8b186ed4780143ba9116387611063a0e96d7b8f",
+      "nameTag": "Gitcoin Grants: Kickback"
+    },
+    {
+      "address": "0xcdcbc6b4e1a7a1d671fc6a5f2e2a89122d79108e",
+      "nameTag": "Gitcoin Grants: Knockturn Allee"
+    },
+    {
+      "address": "0x818ff73a5d881c27a945be944973156c01141232",
+      "nameTag": "Gitcoin Grants: KnownOrigin.io"
+    },
+    {
+      "address": "0xc5cdcd5470aef35fc33bddff3f8ecec027f95b1d",
+      "nameTag": "Gitcoin Grants: LeapDAO"
+    },
+    {
+      "address": "0xe402823203e5714eec86f8959fc26688c1e42142",
+      "nameTag": "Gitcoin Grants: Lease"
+    },
+    {
+      "address": "0x97103fda00a2b47eac669568063c00e65866a633",
+      "nameTag": "Gitcoin Grants: lexDAO"
+    },
+    {
+      "address": "0xc9a872868afa68ba937f65a1c5b4b252dab15d85",
+      "nameTag": "Gitcoin Grants: Lighthouse"
+    },
+    {
+      "address": "0x2b47c57a4c9fc1649b43500f4c0cda6cf29be278",
+      "nameTag": "Gitcoin Grants: Limit to Win It"
+    },
+    {
+      "address": "0xec52a4336904f98adca74f87441fa966cf770db4",
+      "nameTag": "Gitcoin Grants: Locha Mesh"
+    },
+    {
+      "address": "0xbcede714283f348ebb3e5cbaf8a947cab3c8be8d",
+      "nameTag": "Gitcoin Grants: Lodestar"
+    },
+    {
+      "address": "0x934b510d4c9103e6a87aef13b816fb080286d649",
+      "nameTag": "Gitcoin Grants: Maskbook"
+    },
+    {
+      "address": "0x1aa587c2288750173cc6af7c92bad7209904e496",
+      "nameTag": "Gitcoin Grants: McCardi"
+    },
+    {
+      "address": "0x29ae75ccbebce13cb9927ef3d3ce28965d6a66d2",
+      "nameTag": "Gitcoin Grants: Meson"
+    },
+    {
+      "address": "0xf8049c8425f9eab4e2ae9e1d950f9d3f71481882",
+      "nameTag": "Gitcoin Grants: MetaFactory"
+    },
+    {
+      "address": "0xb53b0255895c4f9e3a185e484e5b674bccfbc076",
+      "nameTag": "Gitcoin Grants: MetaGame"
+    },
+    {
+      "address": "0x0730fd7d15fa9a40a6c7b2bbb4b8ce9ee6e6d08b",
+      "nameTag": "Gitcoin Grants: MetaMoneyMarket"
+    },
+    {
+      "address": "0xd55da2bf21a2131ece7c50fbf979644eb7df1c21",
+      "nameTag": "Gitcoin Grants: Mintbase"
+    },
+    {
+      "address": "0x9a4de46e566b7d474d14def31aa349abf2fc6993",
+      "nameTag": "Gitcoin Grants: MolochDAO"
+    },
+    {
+      "address": "0x039ae2898d257f4c9d7e381d478ee1ed042fe2f4",
+      "nameTag": "Gitcoin Grants: My DAO Dashboard"
+    },
+    {
+      "address": "0x16385dfcc9139ffb357746780b64a605b4cb46f0",
+      "nameTag": "Gitcoin Grants: NewforkDelta"
+    },
+    {
+      "address": "0x1352400bf96d73d41e033f5a14416357a5e0b6bf",
+      "nameTag": "Gitcoin Grants: Nori"
+    },
+    {
+      "address": "0xb359e4844a46258eb98eab48428365c699b1ba67",
+      "nameTag": "Gitcoin Grants: NutBerry"
+    },
+    {
+      "address": "0xcfa6118dccccbd782c2a097e3e448bc679770c5d",
+      "nameTag": "Gitcoin Grants: Nym"
+    },
+    {
+      "address": "0xb2e7e101b8248021be72e76890ea24cfad967aec",
+      "nameTag": "Gitcoin Grants: Open Funding"
+    },
+    {
+      "address": "0xd7fe300587d41ed0e8b6a2bed5a1b2bb4fcdad9e",
+      "nameTag": "Gitcoin Grants: Open Raise"
+    },
+    {
+      "address": "0x549d562c37f8d4143d7e161da886e616c11a3ace",
+      "nameTag": "Gitcoin Grants: Orienteer"
+    },
+    {
+      "address": "0xf60865656e44123afb08e4e562cfb10eba432bec",
+      "nameTag": "Gitcoin Grants: ParkourEDU"
+    },
+    {
+      "address": "0x30755d3e65c0cf46c35b72d11e52d941c5fc3a3e",
+      "nameTag": "Gitcoin Grants: Peepeth"
+    },
+    {
+      "address": "0xbc2138f76db98af69c8c9d5c365263dca32f5e63",
+      "nameTag": "Gitcoin Grants: PhishFort Protect"
+    },
+    {
+      "address": "0x527621278422fff45a66f7086baeac770cf12b69",
+      "nameTag": "Gitcoin Grants: Planet A"
+    },
+    {
+      "address": "0x91dbd5e72b1331447a40932bf16d140cf4638324",
+      "nameTag": "Gitcoin Grants: Plasma"
+    },
+    {
+      "address": "0x51535ca2e01985a7b4d6412958b438aa23111bac",
+      "nameTag": "Gitcoin Grants: Plasma Chamber"
+    },
+    {
+      "address": "0xdcab3ac98dc87a1eb85cf9f81cf75c09ee8e7e5a",
+      "nameTag": "Gitcoin Grants: Play Ethereum"
+    },
+    {
+      "address": "0x1074f62d7019c3184a2f7ea8c6a8acd6780beb48",
+      "nameTag": "Gitcoin Grants: POA Network"
+    },
+    {
+      "address": "0x3849ba8a4d7193bf550a6e04632b176f9ce1b7e8",
+      "nameTag": "Gitcoin Grants: Poketto Group"
+    },
+    {
+      "address": "0x7b93102844e7ef0b0a4bb1e38484ad7e2ac98c19",
+      "nameTag": "Gitcoin Grants: PopLocker"
+    },
+    {
+      "address": "0x68085e7f88e90fa9247489c83fab30b177ebccb3",
+      "nameTag": "Gitcoin Grants: ProgPow Audit"
+    },
+    {
+      "address": "0x4c8def836ff37b9c9c3ccd3c1796efc78bda7998",
+      "nameTag": "Gitcoin Grants: ProgPoW miner"
+    },
+    {
+      "address": "0xced2d002d5c2e5a3ef2c3aae00c671a1d2b225a6",
+      "nameTag": "Gitcoin Grants: Prtcl"
+    },
+    {
+      "address": "0x7d3e2d29c0f77d35e470942e10aed8f3a6a596fe",
+      "nameTag": "Gitcoin Grants: Raven"
+    },
+    {
+      "address": "0xa153b8891e77f1ae037026514c927530d877fab8",
+      "nameTag": "Gitcoin Grants: rDAI"
+    },
+    {
+      "address": "0x0639092a9c3d9467dd6f89a13213541c8a1e58b2",
+      "nameTag": "Gitcoin Grants: Reach Platform"
+    },
+    {
+      "address": "0x147c06f559f742cc9ef2ea5e628f381bccdce2ba",
+      "nameTag": "Gitcoin Grants: React Native"
+    },
+    {
+      "address": "0x61c315be1fb8e8723d3c20c3c3169a8509b36207",
+      "nameTag": "Gitcoin Grants: Reale Chain"
+    },
+    {
+      "address": "0x79880f298e6cbfd20d03f411f6609fc1faf1c64b",
+      "nameTag": "Gitcoin Grants: Rebalance.to"
+    },
+    {
+      "address": "0x6dec00d2899b3caf00c72452407eb727b7298c7f",
+      "nameTag": "Gitcoin Grants: ReportAid"
+    },
+    {
+      "address": "0xbd53a5df1fd60aba402cf346ee07ed8b058c17d0",
+      "nameTag": "Gitcoin Grants: Ribbon Blockchain"
+    },
+    {
+      "address": "0x9531c059098e3d194ff87febb587ab07b30b1306",
+      "nameTag": "Gitcoin Grants: Rotki"
+    },
+    {
+      "address": "0x9492510bbcb93b6992d8b7bb67888558e12dcac4",
+      "nameTag": "Gitcoin Grants: rTrees"
+    },
+    {
+      "address": "0x64df823e0f9dbc32fb58d69af32aa5fe3cdd0388",
+      "nameTag": "Gitcoin Grants: RYO Cloud"
+    },
+    {
+      "address": "0xbc5d1e83b6e36391e5902fcfd5f44c4e786cf618",
+      "nameTag": "Gitcoin Grants: S33D"
+    },
+    {
+      "address": "0x726830dbb3e6a7f5009635e61cf4056d11c2dbf7",
+      "nameTag": "Gitcoin Grants: Scuttlebutt"
+    },
+    {
+      "address": "0xb1b6e377aa6ec6928a1d499ae58483b2b99658ec",
+      "nameTag": "Gitcoin Grants: solUI"
+    },
+    {
+      "address": "0xb6568dc090302196ec8edf56d99c3484cee94e6a",
+      "nameTag": "Gitcoin Grants: StablePay"
+    },
+    {
+      "address": "0x662d5d79849113a5403af776210307a7c82a5267",
+      "nameTag": "Gitcoin Grants: Stackbrief"
+    },
+    {
+      "address": "0x363fdb02aee6838afb0e034dc5ea54eb8e31e8b9",
+      "nameTag": "Gitcoin Grants: stonecoldpat"
+    },
+    {
+      "address": "0xfaf95953a36ed1e8f8426ab5b7eb53da246e3476",
+      "nameTag": "Gitcoin Grants: SUMA"
+    },
+    {
+      "address": "0xa84944735b66e957fe385567dcc85975022fe68a",
+      "nameTag": "Gitcoin Grants: Swarm Research"
+    },
+    {
+      "address": "0x7d888a9036b5a96f77b433e65b9be1b122f8a499",
+      "nameTag": "Gitcoin Grants: Tasit"
+    },
+    {
+      "address": "0x20a5814b73ef3537c6e099a0d45c798f4bd6e1d6",
+      "nameTag": "Gitcoin Grants: Tenderly"
+    },
+    {
+      "address": "0x38298ef8a8306579e21246d5227694b5560d9cb5",
+      "nameTag": "Gitcoin Grants: Tennagraph"
+    },
+    {
+      "address": "0x7b5a24f14c4086d34bfd805e6237229596e8235c",
+      "nameTag": "Gitcoin Grants: TheBlockchainCircle"
+    },
+    {
+      "address": "0xc82b9cac090a6e8737a77c1eae4c6eb282130bb0",
+      "nameTag": "Gitcoin Grants: Theo Goodman"
+    },
+    {
+      "address": "0x140e7364ee4e29a677a9d6ccf26ac945e7e80b65",
+      "nameTag": "Gitcoin Grants: THX"
+    },
+    {
+      "address": "0xeea95edfc25f15c0c44d4081bbd85026ba298dc6",
+      "nameTag": "Gitcoin Grants: TokenCast"
+    },
+    {
+      "address": "0xdd4c48c0b24039969fc16d1cdf626eab821d3384",
+      "nameTag": "Gitcoin Grants: Tornado.cash"
+    },
+    {
+      "address": "0x2577a8539cb2194acd72f035dbb691ce5f406d3f",
+      "nameTag": "Gitcoin Grants: Trackato"
+    },
+    {
+      "address": "0xfe222247735b3c7ef099ba761f9477450f5256fe",
+      "nameTag": "Gitcoin Grants: TradeScope"
+    },
+    {
+      "address": "0x8f684ad5dc8237960a4661381022ae8030a5cd31",
+      "nameTag": "Gitcoin Grants: Training Eth Devs"
+    },
+    {
+      "address": "0x7d1675dc635959b26f61e03637599c12c7e84fae",
+      "nameTag": "Gitcoin Grants: Tribute"
+    },
+    {
+      "address": "0xdf6c53df56f3992fc44195518a2d8b16306af9ff",
+      "nameTag": "Gitcoin Grants: Trinity"
+    },
+    {
+      "address": "0x5c930db102c6ebb9cc32fd26f8a274f9493c5c52",
+      "nameTag": "Gitcoin Grants: Trojan DAO"
+    },
+    {
+      "address": "0xf503017d7baf7fbc0fff7492b751025c6a78179b",
+      "nameTag": "Gitcoin Grants: TrueBlocks"
+    },
+    {
+      "address": "0x3c6e0d0c9dba4709e9a8b85d1003e9985b799578",
+      "nameTag": "Gitcoin Grants: TSSKit"
+    },
+    {
+      "address": "0x8bfbb529a9e85fdc4b70a4fcdc0d68bb298b8816",
+      "nameTag": "Gitcoin Grants: Turbo-Geth"
+    },
+    {
+      "address": "0x7541e31ea1635e3c6e927447e5c9a48b60ac5c8c",
+      "nameTag": "Gitcoin Grants: Unikeys"
+    },
+    {
+      "address": "0xdba411d32793e057cb69658cf0d16b55dffb652a",
+      "nameTag": "Gitcoin Grants: urllib3"
+    },
+    {
+      "address": "0x961aa96febee5465149a0787b03bfa14d8e9033f",
+      "nameTag": "Gitcoin Grants: Vipnode"
+    },
+    {
+      "address": "0x74d8967e812de34702ecd3d453a44bf37440b10b",
+      "nameTag": "Gitcoin Grants: Vocdoni"
+    },
+    {
+      "address": "0x70ccbe10f980d80b7ebaab7d2e3a73e87d67b775",
+      "nameTag": "Gitcoin Grants: Vyper"
+    },
+    {
+      "address": "0x6935e2d39536e0795dbb66428bc5bd6aec32f7fe",
+      "nameTag": "Gitcoin Grants: Wallet Notify"
+    },
+    {
+      "address": "0x04bb33c3a8c2d018836a1f938054ebb59e0036b2",
+      "nameTag": "Gitcoin Grants: Wallets.Review"
+    },
+    {
+      "address": "0x6a3738c6299f45c31697acea647d49edcc9c28a4",
+      "nameTag": "Gitcoin Grants: web3swift"
+    },
+    {
+      "address": "0x663d3947f03ef5b387992b880ac85940057c13e3",
+      "nameTag": "Gitcoin Grants: WeekInEth"
+    },
+    {
+      "address": "0xfcad3475520fb54fc95305a6549a79170da8b7c0",
+      "nameTag": "Gitcoin Grants: WhatIsOnchain"
+    },
+    {
+      "address": "0x7710c1a75b9a9d67abc493a08ca6507dc42c6a11",
+      "nameTag": "Gitcoin Grants: Wildcards.world"
+    },
+    {
+      "address": "0x0dee9a06897e6d2e1e3d49acb0f21a6b439181e5",
+      "nameTag": "Gitcoin Grants: WiniWallet"
+    },
+    {
+      "address": "0x0559a413a3ab19508a144aeebc474eb14c5e76ce",
+      "nameTag": "Gitcoin Grants: wolfofethereum"
+    },
+    {
+      "address": "0x5d509f653d7e4914af9da434bf25c53cd122763d",
+      "nameTag": "Gitcoin Grants: Yeeth"
+    },
+    {
+      "address": "0xf39d549463d8d31f319225ef5c26d88f30945a38",
+      "nameTag": "Gitcoin Grants: You."
+    },
+    {
+      "address": "0x5a2c31ca6bcb4e594e4a5555399ecba82ba797f9",
+      "nameTag": "Gitcoin Grants: Zero Collateral"
+    },
+    {
+      "address": "0x947f8a49640b4770a8c7fe3c1e69ffc974295448",
+      "nameTag": "Gitcoin Grants: ZeroPool"
+    },
+    {
+      "address": "0x72b77d99b460176adc900c05f6bbb69c332eb4c2",
+      "nameTag": "Gitcoin Grants: ZoKrates"
+    },
+    {
+      "address": "0x7d655c57f71464b6f83811c55d84009cd9f5221c",
+      "nameTag": "Gitcoin: Bulk Checkout"
+    },
+    {
+      "address": "0x3ba9df642f5e895dc76d3aa9e4ce8291108e65b1",
+      "nameTag": "Gitcoin: Donate"
+    },
+    {
+      "address": "0xf2354570be2fb420832fb7ff6ff0ae0df80cf2c6",
+      "nameTag": "Gitcoin: GR8 Match Payout"
+    },
+    {
+      "address": "0xdf869fad6db91f437b59f1edefab319493d4c4ce",
+      "nameTag": "Gitcoin: Grants"
+    },
+    {
+      "address": "0xde3e5a990bce7fc60a6f017e7c4a95fc4939299e",
+      "nameTag": "Gitcoin: GTC Distributor"
+    },
+    {
+      "address": "0x57a8865cfb1ecef7253c27da6b4bc3daee5be518",
+      "nameTag": "Gitcoin: GTC Timelock"
+    },
+    {
+      "address": "0xde30da39c46104798bb5aa3fe8b9e0e1f348163f",
+      "nameTag": "Gitcoin: GTC Token"
+    },
+    {
+      "address": "0x00de4b13153673bcae2616b67bf822500d325fc3",
+      "nameTag": "Gitcoin: Maintainer"
+    },
+    {
+      "address": "0xde21f729137c5af1b01d73af1dc21effa2b8a0d6",
+      "nameTag": "Gitcoin: MultiSig"
+    },
+    {
+      "address": "0x358bcf43fe7ec2659ad829f3604c72781fc93a9e",
+      "nameTag": "Gitcoin: Personal Token Factory"
+    },
+    {
+      "address": "0x12bb5bbbfe596dbc489d209299b8302c3300fa40",
+      "nameTag": "Gitcoin: Round Implementation"
+    },
+    {
+      "address": "0x9d37f793e5ed4ebd66d62d505684cd9f756504f6",
+      "nameTag": "Gitcoin: zkSync Batch Deposit"
+    },
+    {
+      "address": "0xdb9bc8b6770e179b2f1f6cd0562bbcdb99784f39",
+      "nameTag": "Specie: Ether Data Science"
+    }
+  ]
+}

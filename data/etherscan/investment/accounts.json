@@ -1,6 +1,9 @@
-[
-  {
-    "address": "0xd040a2bca01037229f86a82ed7c00df595b0bb2e",
-    "nameTag": "Bitbond: Investment"
-  }
-]
+{
+  "lastPulled": "2024-04-02T20:44:41.357Z",
+  "data": [
+    {
+      "address": "0xd040a2bca01037229f86a82ed7c00df595b0bb2e",
+      "nameTag": "Bitbond: Investment"
+    }
+  ]
+}

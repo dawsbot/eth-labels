@@ -1,26 +1,29 @@
-[
-  {
-    "address": "0xedbb72e6b3cf66a792bff7faac5ea769fe810517",
-    "nameTag": "Liquid 1"
-  },
-  {
-    "address": "0xdf4b6fb700c428476bd3c02e6fa83e110741145b",
-    "nameTag": "Liquid 2"
-  },
-  {
-    "address": "0xdb2cad4f306b47c9b35541988c7656f1bb092e15",
-    "nameTag": "Liquid 3"
-  },
-  {
-    "address": "0x9cc2dce817093ceea82bb67a4cf43131fa354c06",
-    "nameTag": "Liquid 4"
-  },
-  {
-    "address": "0x6a0afe6f45a878100480f312b585aa0d752d4d2d",
-    "nameTag": "Liquid: Gram Token Sale Proceeds"
-  },
-  {
-    "address": "0x618e75ac90b12c6049ba3b27f5d5f8651b0037f6",
-    "nameTag": "QASH Token"
-  }
-]
+{
+  "lastPulled": "2024-04-02T20:45:12.363Z",
+  "data": [
+    {
+      "address": "0xedbb72e6b3cf66a792bff7faac5ea769fe810517",
+      "nameTag": "Liquid 1"
+    },
+    {
+      "address": "0xdf4b6fb700c428476bd3c02e6fa83e110741145b",
+      "nameTag": "Liquid 2"
+    },
+    {
+      "address": "0xdb2cad4f306b47c9b35541988c7656f1bb092e15",
+      "nameTag": "Liquid 3"
+    },
+    {
+      "address": "0x9cc2dce817093ceea82bb67a4cf43131fa354c06",
+      "nameTag": "Liquid 4"
+    },
+    {
+      "address": "0x6a0afe6f45a878100480f312b585aa0d752d4d2d",
+      "nameTag": "Liquid: Gram Token Sale Proceeds"
+    },
+    {
+      "address": "0x618e75ac90b12c6049ba3b27f5d5f8651b0037f6",
+      "nameTag": "QASH Token"
+    }
+  ]
+}

@@ -1,90 +1,93 @@
-[
-  {
-    "address": "0x9ebb67687fee2d265d7b824714df13622d90e663",
-    "nameTag": "Yam.Finance: AMPL Pool"
-  },
-  {
-    "address": "0x8538e5910c6f80419cd3170c26073ff238048c9e",
-    "nameTag": "Yam.Finance: COMP Pool"
-  },
-  {
-    "address": "0x683a78ba1f6b25e29fbbc9cd1bfa29a51520de84",
-    "nameTag": "Yam.Finance: Deployer"
-  },
-  {
-    "address": "0x62702387c2a26c903985e9d078d18c45acae0908",
-    "nameTag": "Yam.Finance: Governor"
-  },
-  {
-    "address": "0x5b0501f7041120d36bc8c6dc3faea0b74b32a0ed",
-    "nameTag": "Yam.Finance: Incentivizer"
-  },
-  {
-    "address": "0x6009a344c7f993b16eba2c673fefd2e07f9be5fd",
-    "nameTag": "Yam.Finance: LEND Pool"
-  },
-  {
-    "address": "0xfdc28897a1e32b595f1f4f1d3ae0df93b1eee452",
-    "nameTag": "Yam.Finance: LINK Pool"
-  },
-  {
-    "address": "0xf1d7c9e4c57a5c1902f4a4ae2630d2da78ffb1c1",
-    "nameTag": "Yam.Finance: Migration Contract"
-  },
-  {
-    "address": "0x72cfed9293cbfb2bfc7515c413048c697c6c811c",
-    "nameTag": "Yam.Finance: Migrator"
-  },
-  {
-    "address": "0xcfe1e539acb2d489a651ca011a6eb93d32f97e23",
-    "nameTag": "Yam.Finance: MKR Pool"
-  },
-  {
-    "address": "0x0e2298e3b3390e3b945a5456fbf59ecc3f55da16",
-    "nameTag": "Yam.Finance: Old YAM V1 Token"
-  },
-  {
-    "address": "0xaba8cac6866b83ae4eec97dd07ed254282f6ad8a",
-    "nameTag": "Yam.Finance: Old YAMv2 Token"
-  },
-  {
-    "address": "0x1fb361f274f316d383b94d761832ab68099a7b00",
-    "nameTag": "Yam.Finance: Rebaser"
-  },
-  {
-    "address": "0xcf27ca116dd5c7b4201c75b46489d1c075362087",
-    "nameTag": "Yam.Finance: Reserves"
-  },
-  {
-    "address": "0x6c3fc1ffdb14d92394f40eec91d9ce8b807f132d",
-    "nameTag": "Yam.Finance: SNX Pool"
-  },
-  {
-    "address": "0x8b4f1616751117c38a0f84f9a146cca191ea3ec5",
-    "nameTag": "Yam.Finance: Timelock"
-  },
-  {
-    "address": "0x587a07ce5c265a38dd6d42def1566ba73eeb06f5",
-    "nameTag": "Yam.Finance: WETH Pool"
-  },
-  {
-    "address": "0x0aacfbec6a24756c20d41914f2caba817c0d8521",
-    "nameTag": "Yam.Finance: YAM Token"
-  },
-  {
-    "address": "0xaddbcd6a68bfeb6e312e82b30ce1eb4a54497f4c",
-    "nameTag": "Yam.Finance: yCrv Uniswap Pool"
-  },
-  {
-    "address": "0xc5b6488c7d5bed173b76bd5dca712f45fb9eaeab",
-    "nameTag": "Yam.Finance: YFI Pool"
-  },
-  {
-    "address": "0x90c1f9220d90d3966fbee24045edd73e1d588ad5",
-    "nameTag": "Yearn.Finance: Voting YFI"
-  },
-  {
-    "address": "0x4c1317326fd8efdebdbe5e1cd052010d97723bd6",
-    "nameTag": "yearn: Old yCRV Token"
-  }
-]
+{
+  "lastPulled": "2024-04-02T20:52:13.107Z",
+  "data": [
+    {
+      "address": "0x9ebb67687fee2d265d7b824714df13622d90e663",
+      "nameTag": "Yam.Finance: AMPL Pool"
+    },
+    {
+      "address": "0x8538e5910c6f80419cd3170c26073ff238048c9e",
+      "nameTag": "Yam.Finance: COMP Pool"
+    },
+    {
+      "address": "0x683a78ba1f6b25e29fbbc9cd1bfa29a51520de84",
+      "nameTag": "Yam.Finance: Deployer"
+    },
+    {
+      "address": "0x62702387c2a26c903985e9d078d18c45acae0908",
+      "nameTag": "Yam.Finance: Governor"
+    },
+    {
+      "address": "0x5b0501f7041120d36bc8c6dc3faea0b74b32a0ed",
+      "nameTag": "Yam.Finance: Incentivizer"
+    },
+    {
+      "address": "0x6009a344c7f993b16eba2c673fefd2e07f9be5fd",
+      "nameTag": "Yam.Finance: LEND Pool"
+    },
+    {
+      "address": "0xfdc28897a1e32b595f1f4f1d3ae0df93b1eee452",
+      "nameTag": "Yam.Finance: LINK Pool"
+    },
+    {
+      "address": "0xf1d7c9e4c57a5c1902f4a4ae2630d2da78ffb1c1",
+      "nameTag": "Yam.Finance: Migration Contract"
+    },
+    {
+      "address": "0x72cfed9293cbfb2bfc7515c413048c697c6c811c",
+      "nameTag": "Yam.Finance: Migrator"
+    },
+    {
+      "address": "0xcfe1e539acb2d489a651ca011a6eb93d32f97e23",
+      "nameTag": "Yam.Finance: MKR Pool"
+    },
+    {
+      "address": "0x0e2298e3b3390e3b945a5456fbf59ecc3f55da16",
+      "nameTag": "Yam.Finance: Old YAM V1 Token"
+    },
+    {
+      "address": "0xaba8cac6866b83ae4eec97dd07ed254282f6ad8a",
+      "nameTag": "Yam.Finance: Old YAMv2 Token"
+    },
+    {
+      "address": "0x1fb361f274f316d383b94d761832ab68099a7b00",
+      "nameTag": "Yam.Finance: Rebaser"
+    },
+    {
+      "address": "0xcf27ca116dd5c7b4201c75b46489d1c075362087",
+      "nameTag": "Yam.Finance: Reserves"
+    },
+    {
+      "address": "0x6c3fc1ffdb14d92394f40eec91d9ce8b807f132d",
+      "nameTag": "Yam.Finance: SNX Pool"
+    },
+    {
+      "address": "0x8b4f1616751117c38a0f84f9a146cca191ea3ec5",
+      "nameTag": "Yam.Finance: Timelock"
+    },
+    {
+      "address": "0x587a07ce5c265a38dd6d42def1566ba73eeb06f5",
+      "nameTag": "Yam.Finance: WETH Pool"
+    },
+    {
+      "address": "0x0aacfbec6a24756c20d41914f2caba817c0d8521",
+      "nameTag": "Yam.Finance: YAM Token"
+    },
+    {
+      "address": "0xaddbcd6a68bfeb6e312e82b30ce1eb4a54497f4c",
+      "nameTag": "Yam.Finance: yCrv Uniswap Pool"
+    },
+    {
+      "address": "0xc5b6488c7d5bed173b76bd5dca712f45fb9eaeab",
+      "nameTag": "Yam.Finance: YFI Pool"
+    },
+    {
+      "address": "0x90c1f9220d90d3966fbee24045edd73e1d588ad5",
+      "nameTag": "Yearn.Finance: Voting YFI"
+    },
+    {
+      "address": "0x4c1317326fd8efdebdbe5e1cd052010d97723bd6",
+      "nameTag": "yearn: Old yCRV Token"
+    }
+  ]
+}

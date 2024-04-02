@@ -1,34 +1,37 @@
-[
-  {
-    "address": "0xdc856762b024814f6b5dc28e97e514e001d6820c",
-    "nameTag": "DeFi Education Fund: Jake Chervinsky"
-  },
-  {
-    "address": "0xcb598f253818398f3d91595f22d897096e240ae3",
-    "nameTag": "DeFi Education Fund: Katie Biber"
-  },
-  {
-    "address": "0x773ee93e36baafa7f73b41ccc6800126829d3589",
-    "nameTag": "DeFi Education Fund: Larry Sukernik"
-  },
-  {
-    "address": "0x2132beadc4d7b196249c1a746b8eea91099bb1ce",
-    "nameTag": "DeFi Education Fund: Marc Boiron"
-  },
-  {
-    "address": "0xea067c58367d022a1c58354fe544c542c68587ec",
-    "nameTag": "DeFi Education Fund: Marvin Ammori"
-  },
-  {
-    "address": "0x1c95930dfc1139381265ce45b5f480f1efae09a1",
-    "nameTag": "DeFi Education Fund: Multisig"
-  },
-  {
-    "address": "0xcf8c946c6819dafe62f82803e01eb27ea232825c",
-    "nameTag": "DeFi Education Fund: Rebecca Rettig"
-  },
-  {
-    "address": "0xbcad071a51896666c3b48fc5fd5a872981fb254e",
-    "nameTag": "DeFi Education Fund: Sheila Warren"
-  }
-]
+{
+  "lastPulled": "2024-04-02T20:42:04.813Z",
+  "data": [
+    {
+      "address": "0xdc856762b024814f6b5dc28e97e514e001d6820c",
+      "nameTag": "DeFi Education Fund: Jake Chervinsky"
+    },
+    {
+      "address": "0xcb598f253818398f3d91595f22d897096e240ae3",
+      "nameTag": "DeFi Education Fund: Katie Biber"
+    },
+    {
+      "address": "0x773ee93e36baafa7f73b41ccc6800126829d3589",
+      "nameTag": "DeFi Education Fund: Larry Sukernik"
+    },
+    {
+      "address": "0x2132beadc4d7b196249c1a746b8eea91099bb1ce",
+      "nameTag": "DeFi Education Fund: Marc Boiron"
+    },
+    {
+      "address": "0xea067c58367d022a1c58354fe544c542c68587ec",
+      "nameTag": "DeFi Education Fund: Marvin Ammori"
+    },
+    {
+      "address": "0x1c95930dfc1139381265ce45b5f480f1efae09a1",
+      "nameTag": "DeFi Education Fund: Multisig"
+    },
+    {
+      "address": "0xcf8c946c6819dafe62f82803e01eb27ea232825c",
+      "nameTag": "DeFi Education Fund: Rebecca Rettig"
+    },
+    {
+      "address": "0xbcad071a51896666c3b48fc5fd5a872981fb254e",
+      "nameTag": "DeFi Education Fund: Sheila Warren"
+    }
+  ]
+}

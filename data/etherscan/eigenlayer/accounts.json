@@ -1,31 +1,37 @@
-[
-  { "address": "0x0fe4f44bee93503346a3ac9ee5a26b130a5796d6", "nameTag": "" },
-  {
-    "address": "0xfea47018d632a77ba579846c840d5706705dc598",
-    "nameTag": "EigenLayer: Community Multisig"
-  },
-  {
-    "address": "0x39053d51b77dc0d36036fc1fcc8cb819df8ef37a",
-    "nameTag": "EigenLayer: Delegation"
-  },
-  {
-    "address": "0x91e677b07f7af907ec9a428aafa9fc14a0d3a338",
-    "nameTag": "EigenLayer: Eigen Pod Manager"
-  },
-  {
-    "address": "0x1bee69b7dfffa4e2d53c2a2df135c388ad25dcd2",
-    "nameTag": "EigenLayer: rETH Strategies"
-  },
-  {
-    "address": "0xd92145c07f8ed1d392c1b88017934e301cc1c3cd",
-    "nameTag": "EigenLayer: Slasher"
-  },
-  {
-    "address": "0x858646372cc42e1a627fce94aa7a7033e7cf075a",
-    "nameTag": "EigenLayer: Strategy Manager"
-  },
-  {
-    "address": "0x5d25eef8cfedaa47d31fe2346726de1c21e342fb",
-    "nameTag": "EigenLayer: Strategy Manager Implementation"
-  }
-]
+{
+  "lastPulled": "2024-04-02T20:42:38.789Z",
+  "data": [
+    {
+      "address": "0x0fe4f44bee93503346a3ac9ee5a26b130a5796d6",
+      "nameTag": ""
+    },
+    {
+      "address": "0xfea47018d632a77ba579846c840d5706705dc598",
+      "nameTag": "EigenLayer: Community Multisig"
+    },
+    {
+      "address": "0x39053d51b77dc0d36036fc1fcc8cb819df8ef37a",
+      "nameTag": "EigenLayer: Delegation"
+    },
+    {
+      "address": "0x91e677b07f7af907ec9a428aafa9fc14a0d3a338",
+      "nameTag": "EigenLayer: Eigen Pod Manager"
+    },
+    {
+      "address": "0x1bee69b7dfffa4e2d53c2a2df135c388ad25dcd2",
+      "nameTag": "EigenLayer: rETH Strategies"
+    },
+    {
+      "address": "0xd92145c07f8ed1d392c1b88017934e301cc1c3cd",
+      "nameTag": "EigenLayer: Slasher"
+    },
+    {
+      "address": "0x858646372cc42e1a627fce94aa7a7033e7cf075a",
+      "nameTag": "EigenLayer: Strategy Manager"
+    },
+    {
+      "address": "0x5d25eef8cfedaa47d31fe2346726de1c21e342fb",
+      "nameTag": "EigenLayer: Strategy Manager Implementation"
+    }
+  ]
+}

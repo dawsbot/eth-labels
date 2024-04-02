@@ -1,14 +1,17 @@
-[
-  {
-    "address": "0x25741f5f2dbdde9cfd38f73be7052ec03b0e9d85",
-    "nameTag": "Neon District: Founder Key"
-  },
-  {
-    "address": "0x1276dce965ada590e42d62b3953ddc1ddceb0392",
-    "nameTag": "Neon District: In-Game Item"
-  },
-  {
-    "address": "0x87bbb9d32c5a10f3129e63cd96349342fcbd5972",
-    "nameTag": "Neon District: Token Sale"
-  }
-]
+{
+  "lastPulled": "2024-04-02T20:46:38.868Z",
+  "data": [
+    {
+      "address": "0x25741f5f2dbdde9cfd38f73be7052ec03b0e9d85",
+      "nameTag": "Neon District: Founder Key"
+    },
+    {
+      "address": "0x1276dce965ada590e42d62b3953ddc1ddceb0392",
+      "nameTag": "Neon District: In-Game Item"
+    },
+    {
+      "address": "0x87bbb9d32c5a10f3129e63cd96349342fcbd5972",
+      "nameTag": "Neon District: Token Sale"
+    }
+  ]
+}

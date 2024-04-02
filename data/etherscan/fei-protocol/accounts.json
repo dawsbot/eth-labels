@@ -1,78 +1,81 @@
-[
-  {
-    "address": "0x89714d3ac9149426219a3568543200d1964101c4",
-    "nameTag": "Fei protocol: Bonding Curve Oracle"
-  },
-  {
-    "address": "0x8d5ed43dca8c2f7dfb20cf7b53cc7e593635d7b9",
-    "nameTag": "Fei Protocol: Deployer"
-  },
-  {
-    "address": "0xe1578b4a32eaefcd563a9e6d0dc02a4213f673b7",
-    "nameTag": "Fei Protocol: Eth Bonding Curve"
-  },
-  {
-    "address": "0xda079a280fc3e33eb11a78708b369d5ca2da54fe",
-    "nameTag": "Fei Protocol: ETH PCV Contract"
-  },
-  {
-    "address": "0x7a165f8518a9ec7d5da15f4b77b1d7128b5d9188",
-    "nameTag": "Fei Protocol: Eth Uniswap PCV Controller"
-  },
-  {
-    "address": "0x9b0c6299d08fe823f2c0598d97a1141507e4ad86",
-    "nameTag": "Fei Protocol: Eth Uniswap PCV Deposit"
-  },
-  {
-    "address": "0xe087f94c3081e1832dc7a22b48c6f2b5faae579b",
-    "nameTag": "Fei Protocol: Fei DAO"
-  },
-  {
-    "address": "0x639572471f2f318464dc01066a56867130e45e25",
-    "nameTag": "Fei Protocol: Fei DAO Timelock"
-  },
-  {
-    "address": "0xef1a94af192a88859eaf3f3d8c1b9705542174c5",
-    "nameTag": "Fei Protocol: Fei Rewards Distributor"
-  },
-  {
-    "address": "0x9271d303b57c204636c38df0ed339b18bf98f909",
-    "nameTag": "Fei Protocol: Fei Router"
-  },
-  {
-    "address": "0x956f47f50a910163d8bf957cf5846d573e7f87ca",
-    "nameTag": "Fei Protocol: FEI Token"
-  },
-  {
-    "address": "0xbffb152b9392e38cddc275d818a3db7fe364596b",
-    "nameTag": "Fei Protocol: Genesis Group"
-  },
-  {
-    "address": "0xac38ee05c0204a1e119c625d0a560d6731478880",
-    "nameTag": "Fei Protocol: Lido stETH PCV"
-  },
-  {
-    "address": "0x18305daae09ea2f4d51faa33318be5978d251abd",
-    "nameTag": "Fei Protocol: Staking"
-  },
-  {
-    "address": "0xc7283b66eb1eb5fb86327f08e1b5816b0720212b",
-    "nameTag": "Fei Protocol: Tribe"
-  },
-  {
-    "address": "0xfe5b6c2a87a976dce20130c423c679f4d6044cd7",
-    "nameTag": "Fei Protocol: Uniswap Incentive"
-  },
-  {
-    "address": "0x087f35bd241e41fc28e43f0e8c58d283dd55bd65",
-    "nameTag": "Fei Protocol: Uniswap Oracle"
-  },
-  {
-    "address": "0x94b0a3d511b6ecdb17ebf877278ab030acb0a878",
-    "nameTag": "Uniswap V2: FEI 3"
-  },
-  {
-    "address": "0x9928e4046d7c6513326ccea028cd3e7a91c7590a",
-    "nameTag": "Uniswap V2: FEI-TRIBE"
-  }
-]
+{
+  "lastPulled": "2024-04-02T20:43:25.368Z",
+  "data": [
+    {
+      "address": "0x89714d3ac9149426219a3568543200d1964101c4",
+      "nameTag": "Fei protocol: Bonding Curve Oracle"
+    },
+    {
+      "address": "0x8d5ed43dca8c2f7dfb20cf7b53cc7e593635d7b9",
+      "nameTag": "Fei Protocol: Deployer"
+    },
+    {
+      "address": "0xe1578b4a32eaefcd563a9e6d0dc02a4213f673b7",
+      "nameTag": "Fei Protocol: Eth Bonding Curve"
+    },
+    {
+      "address": "0xda079a280fc3e33eb11a78708b369d5ca2da54fe",
+      "nameTag": "Fei Protocol: ETH PCV Contract"
+    },
+    {
+      "address": "0x7a165f8518a9ec7d5da15f4b77b1d7128b5d9188",
+      "nameTag": "Fei Protocol: Eth Uniswap PCV Controller"
+    },
+    {
+      "address": "0x9b0c6299d08fe823f2c0598d97a1141507e4ad86",
+      "nameTag": "Fei Protocol: Eth Uniswap PCV Deposit"
+    },
+    {
+      "address": "0xe087f94c3081e1832dc7a22b48c6f2b5faae579b",
+      "nameTag": "Fei Protocol: Fei DAO"
+    },
+    {
+      "address": "0x639572471f2f318464dc01066a56867130e45e25",
+      "nameTag": "Fei Protocol: Fei DAO Timelock"
+    },
+    {
+      "address": "0xef1a94af192a88859eaf3f3d8c1b9705542174c5",
+      "nameTag": "Fei Protocol: Fei Rewards Distributor"
+    },
+    {
+      "address": "0x9271d303b57c204636c38df0ed339b18bf98f909",
+      "nameTag": "Fei Protocol: Fei Router"
+    },
+    {
+      "address": "0x956f47f50a910163d8bf957cf5846d573e7f87ca",
+      "nameTag": "Fei Protocol: FEI Token"
+    },
+    {
+      "address": "0xbffb152b9392e38cddc275d818a3db7fe364596b",
+      "nameTag": "Fei Protocol: Genesis Group"
+    },
+    {
+      "address": "0xac38ee05c0204a1e119c625d0a560d6731478880",
+      "nameTag": "Fei Protocol: Lido stETH PCV"
+    },
+    {
+      "address": "0x18305daae09ea2f4d51faa33318be5978d251abd",
+      "nameTag": "Fei Protocol: Staking"
+    },
+    {
+      "address": "0xc7283b66eb1eb5fb86327f08e1b5816b0720212b",
+      "nameTag": "Fei Protocol: Tribe"
+    },
+    {
+      "address": "0xfe5b6c2a87a976dce20130c423c679f4d6044cd7",
+      "nameTag": "Fei Protocol: Uniswap Incentive"
+    },
+    {
+      "address": "0x087f35bd241e41fc28e43f0e8c58d283dd55bd65",
+      "nameTag": "Fei Protocol: Uniswap Oracle"
+    },
+    {
+      "address": "0x94b0a3d511b6ecdb17ebf877278ab030acb0a878",
+      "nameTag": "Uniswap V2: FEI 3"
+    },
+    {
+      "address": "0x9928e4046d7c6513326ccea028cd3e7a91c7590a",
+      "nameTag": "Uniswap V2: FEI-TRIBE"
+    }
+  ]
+}

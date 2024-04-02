@@ -1,14 +1,17 @@
-[
-  {
-    "address": "0x4c749d097832de2fecc989ce18fdc5f1bd76700c",
-    "nameTag": "XAI: esXAI Token"
-  },
-  {
-    "address": "0xbc14d8563b248b79689ecbc43bba53290e0b6b66",
-    "nameTag": "XAI: Node License Address"
-  },
-  {
-    "address": "0x4cb9a7ae498cedcbb5eae9f25736ae7d428c9d66",
-    "nameTag": "XAI: XAI Token"
-  }
-]
+{
+  "lastPulled": "2024-04-02T21:01:43.118Z",
+  "data": [
+    {
+      "address": "0x4c749d097832de2fecc989ce18fdc5f1bd76700c",
+      "nameTag": "XAI: esXAI Token"
+    },
+    {
+      "address": "0xbc14d8563b248b79689ecbc43bba53290e0b6b66",
+      "nameTag": "XAI: Node License Address"
+    },
+    {
+      "address": "0x4cb9a7ae498cedcbb5eae9f25736ae7d428c9d66",
+      "nameTag": "XAI: XAI Token"
+    }
+  ]
+}

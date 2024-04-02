@@ -1,58 +1,61 @@
-[
-  {
-    "address": "0x390de26d772d2e2005c6d1d24afc902bae37a4bb",
-    "nameTag": "Upbit"
-  },
-  {
-    "address": "0x4bc7c6ce8ea48a7d597714ce8ec466936612c60f",
-    "nameTag": "Upbit 10"
-  },
-  {
-    "address": "0x00028f59e485a665cb4263c231eb4b7e8a2021a7",
-    "nameTag": "Upbit 11"
-  },
-  {
-    "address": "0xcb1ee1888b2045f4b79eb777243e76f5fefe2bc3",
-    "nameTag": "Upbit 12"
-  },
-  {
-    "address": "0xa3670e11a2f3784558632a4c30ddcfc4b74301b3",
-    "nameTag": "Upbit 13"
-  },
-  {
-    "address": "0xba826fec90cefdf6706858e5fbafcb27a290fbe0",
-    "nameTag": "Upbit 2"
-  },
-  {
-    "address": "0x5e032243d507c743b061ef021e2ec7fcc6d3ab89",
-    "nameTag": "Upbit 3"
-  },
-  {
-    "address": "0x99ddedb236f545061cb0481909428905be9c47e1",
-    "nameTag": "Upbit 4"
-  },
-  {
-    "address": "0x4e8eddc514dc4ffbda51db5be0d3e8d82ee4871e",
-    "nameTag": "Upbit 5"
-  },
-  {
-    "address": "0x015f46294fd72f5448eb602ef8a252574bd9cbcd",
-    "nameTag": "Upbit 6"
-  },
-  {
-    "address": "0x8913f85a2ae4ba3bf76d2a2a0418f391f2cc1519",
-    "nameTag": "Upbit 7"
-  },
-  {
-    "address": "0x19d39241e02d612264b9090b74e14acdfb54b8f8",
-    "nameTag": "Upbit 8"
-  },
-  {
-    "address": "0x32e1931b8c180050a6ed597046502ba50f17ba4d",
-    "nameTag": "Upbit 9"
-  },
-  {
-    "address": "0xc9cf0ec93d764f5c9571fd12f764bae7fc87c84e",
-    "nameTag": "Upbit: Cold Wallet"
-  }
-]
+{
+  "lastPulled": "2024-04-02T20:51:40.464Z",
+  "data": [
+    {
+      "address": "0x390de26d772d2e2005c6d1d24afc902bae37a4bb",
+      "nameTag": "Upbit"
+    },
+    {
+      "address": "0x4bc7c6ce8ea48a7d597714ce8ec466936612c60f",
+      "nameTag": "Upbit 10"
+    },
+    {
+      "address": "0x00028f59e485a665cb4263c231eb4b7e8a2021a7",
+      "nameTag": "Upbit 11"
+    },
+    {
+      "address": "0xcb1ee1888b2045f4b79eb777243e76f5fefe2bc3",
+      "nameTag": "Upbit 12"
+    },
+    {
+      "address": "0xa3670e11a2f3784558632a4c30ddcfc4b74301b3",
+      "nameTag": "Upbit 13"
+    },
+    {
+      "address": "0xba826fec90cefdf6706858e5fbafcb27a290fbe0",
+      "nameTag": "Upbit 2"
+    },
+    {
+      "address": "0x5e032243d507c743b061ef021e2ec7fcc6d3ab89",
+      "nameTag": "Upbit 3"
+    },
+    {
+      "address": "0x99ddedb236f545061cb0481909428905be9c47e1",
+      "nameTag": "Upbit 4"
+    },
+    {
+      "address": "0x4e8eddc514dc4ffbda51db5be0d3e8d82ee4871e",
+      "nameTag": "Upbit 5"
+    },
+    {
+      "address": "0x015f46294fd72f5448eb602ef8a252574bd9cbcd",
+      "nameTag": "Upbit 6"
+    },
+    {
+      "address": "0x8913f85a2ae4ba3bf76d2a2a0418f391f2cc1519",
+      "nameTag": "Upbit 7"
+    },
+    {
+      "address": "0x19d39241e02d612264b9090b74e14acdfb54b8f8",
+      "nameTag": "Upbit 8"
+    },
+    {
+      "address": "0x32e1931b8c180050a6ed597046502ba50f17ba4d",
+      "nameTag": "Upbit 9"
+    },
+    {
+      "address": "0xc9cf0ec93d764f5c9571fd12f764bae7fc87c84e",
+      "nameTag": "Upbit: Cold Wallet"
+    }
+  ]
+}

@@ -1,6 +1,9 @@
-[
-  {
-    "address": "0x1fba6b0bbae2b74586fba407fb45bd4788b7b130",
-    "nameTag": "Banana Gun: Router"
-  }
-]
+{
+  "lastPulled": "2024-04-02T20:55:16.275Z",
+  "data": [
+    {
+      "address": "0x1fba6b0bbae2b74586fba407fb45bd4788b7b130",
+      "nameTag": "Banana Gun: Router"
+    }
+  ]
+}

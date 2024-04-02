@@ -1,10 +1,13 @@
-[
-  {
-    "address": "0x75237625cc7bdf0739cbb139b06484e05eee7878",
-    "nameTag": "Circle: Deployer"
-  },
-  {
-    "address": "0xaf88d065e77c8cc2239327c5edb3a432268e5831",
-    "nameTag": "Circle: USDC Token"
-  }
-]
+{
+  "lastPulled": "2024-04-02T21:01:03.278Z",
+  "data": [
+    {
+      "address": "0x75237625cc7bdf0739cbb139b06484e05eee7878",
+      "nameTag": "Circle: Deployer"
+    },
+    {
+      "address": "0xaf88d065e77c8cc2239327c5edb3a432268e5831",
+      "nameTag": "Circle: USDC Token"
+    }
+  ]
+}

@@ -1,510 +1,513 @@
-[
-  {
-    "address": "0x00192fb10df37c9fb26829eb2cc623cd1bf599e8",
-    "nameTag": "2Miners: PPLNS"
-  },
-  {
-    "address": "0x6d5c355ea0bef659d3598401a327521f51e9d4eb",
-    "nameTag": "2Miners: PPLNS Exchange"
-  },
-  {
-    "address": "0x002e08000acbbae2155fab7ac01929564949070d",
-    "nameTag": "2Miners: SOLO"
-  },
-  {
-    "address": "0x4069e799da927c06b430e247b2ee16c03e8b837d",
-    "nameTag": "666 Mining Pool"
-  },
-  {
-    "address": "0xc839ee5542b4e8413246b3634c5c739fea949562",
-    "nameTag": "AlphaPool"
-  },
-  {
-    "address": "0xa855c20a1351acd2690c716e2709c7dff3978d12",
-    "nameTag": "AntPool"
-  },
-  {
-    "address": "0x45a36a8e118c37e4c47ef4ab827a7c9e579e11e2",
-    "nameTag": "AntPool 2"
-  },
-  {
-    "address": "0xb3b7874f13387d44a3398d298b075b7a3505d8d4",
-    "nameTag": "Babel Pool"
-  },
-  {
-    "address": "0xff1b891969773159366ab6310ff63a69ac4acffd",
-    "nameTag": "BaikalMine 1"
-  },
-  {
-    "address": "0x4ff271d3e8298213be3d88d257f3973a4b6d727b",
-    "nameTag": "Baypool"
-  },
-  {
-    "address": "0x99c85bb64564d9ef9a99621301f22c9993cb89e3",
-    "nameTag": "BeePool"
-  },
-  {
-    "address": "0xc365c3315cf926351ccaf13fa7d19c8c4058c8e1",
-    "nameTag": "Binance Pool"
-  },
-  {
-    "address": "0xf3b9d2c81f2b24b0fa0acaaa865b7d9ced5fc2fb",
-    "nameTag": "BitClubPool"
-  },
-  {
-    "address": "0xeea5b82b61424df8020f5fedd81767f2d0d25bfb",
-    "nameTag": "BTC.com Pool"
-  },
-  {
-    "address": "0x5b310960a7922092fdcb9295ece336012f9cf87e",
-    "nameTag": "BTC.com Pool 2"
-  },
-  {
-    "address": "0x52e44f279f4203dcf680395379e5f9990a69f13c",
-    "nameTag": "Bw Pool"
-  },
-  {
-    "address": "0x68795c4aa09d6f4ed3e5deddf8c2ad3049a601da",
-    "nameTag": "CoinMine.pl"
-  },
-  {
-    "address": "0xf8b483dba2c3b7176a3da549ad41a48bb3121069",
-    "nameTag": "Coinotron 1"
-  },
-  {
-    "address": "0xa42af2c70d316684e57aefcc6e393fecb1c7e84e",
-    "nameTag": "Coinotron 2"
-  },
-  {
-    "address": "0x6a7a43be33ba930fe58f34e07d0ad6ba7adb9b1f",
-    "nameTag": "Coinotron 3"
-  },
-  {
-    "address": "0x11905bd0863ba579023f662d1935e39d0c671933",
-    "nameTag": "Comining 1"
-  },
-  {
-    "address": "0xe5a349fc4ff853dfdd0b7eaaa9dcd8918e768f49",
-    "nameTag": "CoolPool.Top: SOLO"
-  },
-  {
-    "address": "0x4f9bebe3adc3c7f647c0023c60f91ac9dffa52d5",
-    "nameTag": "Crazy Pool"
-  },
-  {
-    "address": "0x249bdb4499bd7c683664c149276c1d86108e2137",
-    "nameTag": "Cruxpool"
-  },
-  {
-    "address": "0xcf0e04cc0b8fcd66f42679bce42bf2569f438234",
-    "nameTag": "DigiPools"
-  },
-  {
-    "address": "0xfa4d8c705fa8a3e781dec89d3a82cf950d15f925",
-    "nameTag": "DigiPools 2"
-  },
-  {
-    "address": "0x2a65aca4d5fc5b5c859090a6c34d164135398226",
-    "nameTag": "DwarfPool"
-  },
-  {
-    "address": "0x151255dd9e38e44db38ea06ec66d0d113d6cbe37",
-    "nameTag": "DwarfPool 2"
-  },
-  {
-    "address": "0xc4aeb20798368c48b27280847e187bb332b9bc77",
-    "nameTag": "Easy2Mine"
-  },
-  {
-    "address": "0xa027231f42c80ca4125b5cb962a21cd4f812e88f",
-    "nameTag": "Eth.pp.ua"
-  },
-  {
-    "address": "0x8fce1ef27f3add1411c7a99be402de598ad38389",
-    "nameTag": "EthashPool 1"
-  },
-  {
-    "address": "0x52f13e25754d822a3550d0b68fdefe9304d27ae8",
-    "nameTag": "EthashPool 2"
-  },
-  {
-    "address": "0x8d35067233605bef6069191ae0922d134ff80d48",
-    "nameTag": "EtherDig"
-  },
-  {
-    "address": "0x9d551f41fed6fc27b719777c224dfecce170004d",
-    "nameTag": "EthereumPool"
-  },
-  {
-    "address": "0xea674fdde714fd979de3edf0f56aa9716b898ec8",
-    "nameTag": "Ethermine"
-  },
-  {
-    "address": "0xe6a7a1d47ff21b6321162aea7c6cb457d5476bca",
-    "nameTag": "Ethpool"
-  },
-  {
-    "address": "0x4bb96091ee9d802ed039c4d1a5f6216f90f81b01",
-    "nameTag": "Ethpool 2"
-  },
-  {
-    "address": "0x6537b65a50a862391515455272f9b6c7168afe94",
-    "nameTag": "ExtremeHash"
-  },
-  {
-    "address": "0xc730b028da66ebb14f20e67c68dd809fbc49890d",
-    "nameTag": "Ezil.me : Ezil Pool 4"
-  },
-  {
-    "address": "0xcc22cb1b6625b64e81909456111d76be6158dfbc",
-    "nameTag": "EzilPool 1"
-  },
-  {
-    "address": "0x8595dd9e0438640b5e1254f9df579ac12a86865f",
-    "nameTag": "EzilPool 2"
-  },
-  {
-    "address": "0xc3348b43d3881151224b490e4aa39e03d2b1cdea",
-    "nameTag": "EzilPool 3"
-  },
-  {
-    "address": "0xf20b338752976878754518183873602902360704",
-    "nameTag": "F2Pool"
-  },
-  {
-    "address": "0x829bd824b016326a401d083b33d092293333a830",
-    "nameTag": "F2Pool Old"
-  },
-  {
-    "address": "0xd33f2f5b8286ae74eed26f0d32a93bef6e61fd24",
-    "nameTag": "Firebird Mining Pool 1"
-  },
-  {
-    "address": "0x35f61dfb08ada13eba64bf156b80df3d5b3a738d",
-    "nameTag": "firepool"
-  },
-  {
-    "address": "0xb6cf40aee9990c25d7d6193952af222e120b31c2",
-    "nameTag": "FKPool"
-  },
-  {
-    "address": "0x7f101fe45e6649a6fb8f3f8b43ed03d353f2b90c",
-    "nameTag": "Flexpool.io"
-  },
-  {
-    "address": "0xd34da389374caad1a048fbdc4569aae33fd5a375",
-    "nameTag": "Genesis Mining"
-  },
-  {
-    "address": "0x03e75d7dd38cce2e20ffee35ec914c57780a8e29",
-    "nameTag": "GPUMINE Pool 1"
-  },
-  {
-    "address": "0xd0db3c9cf4029bac5a9ed216cd174cba5dbf047c",
-    "nameTag": "HashON Pool"
-  },
-  {
-    "address": "0x8bc6667ef4f338bb5d4a2ef23d20e314e9c6dbfb",
-    "nameTag": "Hiveon"
-  },
-  {
-    "address": "0x1ad91ee08f21be3de0ba2ba6918e714da6b45836",
-    "nameTag": "Hiveon Pool"
-  },
-  {
-    "address": "0x4c549990a7ef3fea8784406c1eecc98bf4211fa5",
-    "nameTag": "Hiveon: Old Pool"
-  },
-  {
-    "address": "0xe7e6c88ad1bab6508a251b7995f44fb1c5e3dcf7",
-    "nameTag": "Hiveon: Spreader"
-  },
-  {
-    "address": "0x3c16183c1c0e28f1a0cb9f8ee4b21d0db208ca46",
-    "nameTag": "Hiveon: Spreader 2"
-  },
-  {
-    "address": "0x6d1d84363e342a099005423a1bc7e25a5b5ffbeb",
-    "nameTag": "Hiveon: Spreader 3"
-  },
-  {
-    "address": "0xc45b8a5cc6b2f0583dae0197b5cc3b99de4eff9f",
-    "nameTag": "Hiveon: Spreader 4"
-  },
-  {
-    "address": "0xac56a9e051ef1821cb4f3a0427fc941286c4e9e8",
-    "nameTag": "Hiveon: Spreader 5"
-  },
-  {
-    "address": "0xa11ae3a981d50bcd4c9ff6732c1f815483475ff8",
-    "nameTag": "Hiveon: Spreader 6"
-  },
-  {
-    "address": "0xc33997fd8b9251b49151911def437bca7a78ba00",
-    "nameTag": "Hiveon: Spreader 7"
-  },
-  {
-    "address": "0x95ca6baf212be85b238413d461d20a2aa8354dd5",
-    "nameTag": "Hiveon: Spreader 8"
-  },
-  {
-    "address": "0x9d6d492bd500da5b33cf95a5d610a73360fcaaa0",
-    "nameTag": "HTX Mining Pool"
-  },
-  {
-    "address": "0x14b30f257c2737370203a15aa343c2b600dfb675",
-    "nameTag": "Huixingpool.com"
-  },
-  {
-    "address": "0xbcc817f057950b0df41206c5d7125e6225cae18e",
-    "nameTag": "Huobi Mining Pool 2"
-  },
-  {
-    "address": "0xf64f9720cfcb59ca4f5f45e6fdb3f68b875b7295",
-    "nameTag": "ICanMining.ru"
-  },
-  {
-    "address": "0x433022c4066558e7a32d850f02d2da5ca782174d",
-    "nameTag": "K1POOL.COM"
-  },
-  {
-    "address": "0x7777788200b672a42421017f65ede4fc759564c8",
-    "nameTag": "Krptex Mining 1"
-  },
-  {
-    "address": "0x4e4e23ac3c11789e23169025503ea4373b01417b",
-    "nameTag": "KuveraPool"
-  },
-  {
-    "address": "0x26b3eea1cd34a4aff7ce828a5f71daac042d38e0",
-    "nameTag": "Luxor Technology: Mining"
-  },
-  {
-    "address": "0x7f3b29ae0d5edae9bb148537d4ed2b12beddf8b3",
-    "nameTag": "MATPool"
-  },
-  {
-    "address": "0x6c3183792fbb4a4dd276451af6baf5c66d5f5e48",
-    "nameTag": "MaxHash: EthPool"
-  },
-  {
-    "address": "0xcf6ce585cb4a78a6f96e6c8722927161a696f337",
-    "nameTag": "MaxHash: Solo Mining"
-  },
-  {
-    "address": "0x01ca8a0ba4a80d12a8fb6e3655688f57b16608cf",
-    "nameTag": "Miner: 0x01C...8cf"
-  },
-  {
-    "address": "0x0708f87a089a91c65d48721aa941084648562287",
-    "nameTag": "Miner: 0x070...287"
-  },
-  {
-    "address": "0x21479eb8cb1a27861c902f07a952b72b10fd53ef",
-    "nameTag": "Miner: 0x214...3EF"
-  },
-  {
-    "address": "0x28846f1ec065eea239152213373bb58b1c9fc93b",
-    "nameTag": "Miner: 0x288...93B"
-  },
-  {
-    "address": "0x2b0ddd0b78ae998c5a48ff2e00c4fc568ec0a412",
-    "nameTag": "Miner: 0x2b0...412"
-  },
-  {
-    "address": "0x2c49d502dc4d9aee47c26441d7d90794c18243ed",
-    "nameTag": "Miner: 0x2c4...3ed"
-  },
-  {
-    "address": "0x3f0ee622f9e89df9db62c35cae55d57c56fd56f6",
-    "nameTag": "Miner: 0x3f0...6f6"
-  },
-  {
-    "address": "0x537b6bd3caeb0d41540ac1fd406b9acda5670aad",
-    "nameTag": "Miner: 0x537...aaD"
-  },
-  {
-    "address": "0x55bb709b7a5c51a0c25ea6424931d5c8545c59db",
-    "nameTag": "Miner: 0x55b...9Db"
-  },
-  {
-    "address": "0x5dcb78343780e1b1e578ae0590dc1e868792a435",
-    "nameTag": "Miner: 0x5dc...435"
-  },
-  {
-    "address": "0x646db8ffc21e7ddc2b6327448dd9fa560df41087",
-    "nameTag": "Miner: 0x646...087"
-  },
-  {
-    "address": "0x6ebaf477f83e055589c1188bcc6ddccd8c9b131a",
-    "nameTag": "Miner: 0x6eb...31a"
-  },
-  {
-    "address": "0x8f03f1a3f10c05e7cccf75c1fd10168e06659be7",
-    "nameTag": "Miner: 0x8f0...be7"
-  },
-  {
-    "address": "0xab3b229eb4bcff881275e7ea2f0fd24eeac8c83a",
-    "nameTag": "Miner: 0xab3...83a"
-  },
-  {
-    "address": "0xaee98861388af1d6323b95f78adf3dda102a276c",
-    "nameTag": "Miner: 0xaee...76c"
-  },
-  {
-    "address": "0xb7e390864a90b7b923c9f9310c6f98aafe43f707",
-    "nameTag": "Miner: 0xb7e...707"
-  },
-  {
-    "address": "0xbc78d75867b04f996ef1050d8090b8ccb91f09af",
-    "nameTag": "Miner: 0xbc7...9Af"
-  },
-  {
-    "address": "0xc8f595e2084db484f8a80109101d58625223b7c9",
-    "nameTag": "Miner: 0xc8F...7C9"
-  },
-  {
-    "address": "0xc93452a74e596e81e4f73ca1acff532089ad4c62",
-    "nameTag": "Miner: 0xc93...c62"
-  },
-  {
-    "address": "0xd327a5ef64541cdd628b51b5814f914596124703",
-    "nameTag": "Miner: 0xd32...703"
-  },
-  {
-    "address": "0xd7ad8e2a17800a2c413f331d334f83f5da8d5dba",
-    "nameTag": "Miner: 0xd7a...dBA"
-  },
-  {
-    "address": "0xe206e3dca498258f1b7eec1c640b5aee7bb88fd0",
-    "nameTag": "Miner: 0xe20...Fd0"
-  },
-  {
-    "address": "0xfad45a9ab2c408f7e6f8d4786f0708171169c2c3",
-    "nameTag": "Miner: 0xfaD...2c3"
-  },
-  {
-    "address": "0x09ab1303d3ccaf5f018cd511146b07a240c70294",
-    "nameTag": "Minerall Pool"
-  },
-  {
-    "address": "0xbbbbbbbb49459e69878219f906e73aa325ff2f0c",
-    "nameTag": "Mining DAO: Block Producer"
-  },
-  {
-    "address": "0x06b8c5883ec71bc3f4b332081519f23834c8706e",
-    "nameTag": "Mining Express"
-  },
-  {
-    "address": "0x3ecef08d0e2dad803847e052249bb4f8bff2d5bb",
-    "nameTag": "MiningPoolHub"
-  },
-  {
-    "address": "0x2a98776c7e13ed1c240858bd241dcf95fc1928b4",
-    "nameTag": "myminers.org: Solo"
-  },
-  {
-    "address": "0x52bc44d5378309ee2abf1539bf71de1b7d7be3b5",
-    "nameTag": "Nanopool"
-  },
-  {
-    "address": "0x2f979c933aef4fcddd27c0fa5c54d8a780555b0a",
-    "nameTag": "NEST Protocol: Mining Pool"
-  },
-  {
-    "address": "0xd5bbb4264b70ca4f58c45d27b9d7e11190754a54",
-    "nameTag": "NoobPool"
-  },
-  {
-    "address": "0x776bb566dc299c9e722773d2a04b401e831a6dc8",
-    "nameTag": "OKEX Mining Pool 1"
-  },
-  {
-    "address": "0x6b7d50bb8fab584e54251a10e1c6cfa51dd7b618",
-    "nameTag": "PandaPool"
-  },
-  {
-    "address": "0xcd7b9e2b957c819000b1a8107130f786636c5ccc",
-    "nameTag": "Pool2Mine 1"
-  },
-  {
-    "address": "0x47c439c8784b44366735fc2cfe08228cb91d5b8e",
-    "nameTag": "PoolHub"
-  },
-  {
-    "address": "0xa7b0536fb02c593b0dfd82bd65aacbdd19ae4777",
-    "nameTag": "Poolin"
-  },
-  {
-    "address": "0x2daa35962a6d43eb54c48367b33d0b379c930e5e",
-    "nameTag": "Poolin 2"
-  },
-  {
-    "address": "0x2a20380dca5bc24d052acfbf79ba23e988ad0050",
-    "nameTag": "Poolin 3"
-  },
-  {
-    "address": "0xcd458d7f11023556cc9058f729831a038cb8df9c",
-    "nameTag": "Poolin 4"
-  },
-  {
-    "address": "0xe16263ee79b0ee32c242c99f02559e92abaea9eb",
-    "nameTag": "SaturnPool"
-  },
-  {
-    "address": "0x8b4de256180cfec54c436a470af50f9ee2813dbb",
-    "nameTag": "SBI Crypto Pool"
-  },
-  {
-    "address": "0xf35074bbd0a9aee46f4ea137971feec024ab704e",
-    "nameTag": "SoloPool.org"
-  },
-  {
-    "address": "0x5a0b54d5dc17e0aadc383d2db43b0a0d3e029c4c",
-    "nameTag": "Spark Pool"
-  },
-  {
-    "address": "0x1dcb8d1f0fcc8cbc8c2d76528e877f915e299fbe",
-    "nameTag": "Suprnova"
-  },
-  {
-    "address": "0x63a9975ba31b0b9626b34300f7f627147df1f526",
-    "nameTag": "Suprnova 2"
-  },
-  {
-    "address": "0xa3c084ae80a3f03963017669bc696e961d3ae5d5",
-    "nameTag": "Uleypool"
-  },
-  {
-    "address": "0xd224ca0c819e8e97ba0136b3b95ceff503b79f53",
-    "nameTag": "UUPool"
-  },
-  {
-    "address": "0x44fd3ab8381cc3d14afa7c4af7fd13cdc65026e1",
-    "nameTag": "W POOL"
-  },
-  {
-    "address": "0x9435d50503aee35c8757ae4933f7a0ab56597805",
-    "nameTag": "WaterholePool"
-  },
-  {
-    "address": "0xd1e56c2e765180aa0371928fd4d1e41fbcda34d4",
-    "nameTag": "Weipool"
-  },
-  {
-    "address": "0x7c6694032b4db11ac485e1cff0f7509d58b41569",
-    "nameTag": "Whalesburg Pool: Old Address"
-  },
-  {
-    "address": "0xe4bdced60430a90f31dba03524dd5d15a2670649",
-    "nameTag": "xnpool.cn"
-  },
-  {
-    "address": "0x6a851246689eb8fc77a9bf68df5860f13f679fa0",
-    "nameTag": "ZET Technologies"
-  },
-  {
-    "address": "0x04668ec2f57cc15c381b461b9fedab5d451c8f7f",
-    "nameTag": "zhizhu.top"
-  }
-]
+{
+  "lastPulled": "2024-04-02T20:46:08.277Z",
+  "data": [
+    {
+      "address": "0x00192fb10df37c9fb26829eb2cc623cd1bf599e8",
+      "nameTag": "2Miners: PPLNS"
+    },
+    {
+      "address": "0x6d5c355ea0bef659d3598401a327521f51e9d4eb",
+      "nameTag": "2Miners: PPLNS Exchange"
+    },
+    {
+      "address": "0x002e08000acbbae2155fab7ac01929564949070d",
+      "nameTag": "2Miners: SOLO"
+    },
+    {
+      "address": "0x4069e799da927c06b430e247b2ee16c03e8b837d",
+      "nameTag": "666 Mining Pool"
+    },
+    {
+      "address": "0xc839ee5542b4e8413246b3634c5c739fea949562",
+      "nameTag": "AlphaPool"
+    },
+    {
+      "address": "0xa855c20a1351acd2690c716e2709c7dff3978d12",
+      "nameTag": "AntPool"
+    },
+    {
+      "address": "0x45a36a8e118c37e4c47ef4ab827a7c9e579e11e2",
+      "nameTag": "AntPool 2"
+    },
+    {
+      "address": "0xb3b7874f13387d44a3398d298b075b7a3505d8d4",
+      "nameTag": "Babel Pool"
+    },
+    {
+      "address": "0xff1b891969773159366ab6310ff63a69ac4acffd",
+      "nameTag": "BaikalMine 1"
+    },
+    {
+      "address": "0x4ff271d3e8298213be3d88d257f3973a4b6d727b",
+      "nameTag": "Baypool"
+    },
+    {
+      "address": "0x99c85bb64564d9ef9a99621301f22c9993cb89e3",
+      "nameTag": "BeePool"
+    },
+    {
+      "address": "0xc365c3315cf926351ccaf13fa7d19c8c4058c8e1",
+      "nameTag": "Binance Pool"
+    },
+    {
+      "address": "0xf3b9d2c81f2b24b0fa0acaaa865b7d9ced5fc2fb",
+      "nameTag": "BitClubPool"
+    },
+    {
+      "address": "0xeea5b82b61424df8020f5fedd81767f2d0d25bfb",
+      "nameTag": "BTC.com Pool"
+    },
+    {
+      "address": "0x5b310960a7922092fdcb9295ece336012f9cf87e",
+      "nameTag": "BTC.com Pool 2"
+    },
+    {
+      "address": "0x52e44f279f4203dcf680395379e5f9990a69f13c",
+      "nameTag": "Bw Pool"
+    },
+    {
+      "address": "0x68795c4aa09d6f4ed3e5deddf8c2ad3049a601da",
+      "nameTag": "CoinMine.pl"
+    },
+    {
+      "address": "0xf8b483dba2c3b7176a3da549ad41a48bb3121069",
+      "nameTag": "Coinotron 1"
+    },
+    {
+      "address": "0xa42af2c70d316684e57aefcc6e393fecb1c7e84e",
+      "nameTag": "Coinotron 2"
+    },
+    {
+      "address": "0x6a7a43be33ba930fe58f34e07d0ad6ba7adb9b1f",
+      "nameTag": "Coinotron 3"
+    },
+    {
+      "address": "0x11905bd0863ba579023f662d1935e39d0c671933",
+      "nameTag": "Comining 1"
+    },
+    {
+      "address": "0xe5a349fc4ff853dfdd0b7eaaa9dcd8918e768f49",
+      "nameTag": "CoolPool.Top: SOLO"
+    },
+    {
+      "address": "0x4f9bebe3adc3c7f647c0023c60f91ac9dffa52d5",
+      "nameTag": "Crazy Pool"
+    },
+    {
+      "address": "0x249bdb4499bd7c683664c149276c1d86108e2137",
+      "nameTag": "Cruxpool"
+    },
+    {
+      "address": "0xcf0e04cc0b8fcd66f42679bce42bf2569f438234",
+      "nameTag": "DigiPools"
+    },
+    {
+      "address": "0xfa4d8c705fa8a3e781dec89d3a82cf950d15f925",
+      "nameTag": "DigiPools 2"
+    },
+    {
+      "address": "0x2a65aca4d5fc5b5c859090a6c34d164135398226",
+      "nameTag": "DwarfPool"
+    },
+    {
+      "address": "0x151255dd9e38e44db38ea06ec66d0d113d6cbe37",
+      "nameTag": "DwarfPool 2"
+    },
+    {
+      "address": "0xc4aeb20798368c48b27280847e187bb332b9bc77",
+      "nameTag": "Easy2Mine"
+    },
+    {
+      "address": "0xa027231f42c80ca4125b5cb962a21cd4f812e88f",
+      "nameTag": "Eth.pp.ua"
+    },
+    {
+      "address": "0x8fce1ef27f3add1411c7a99be402de598ad38389",
+      "nameTag": "EthashPool 1"
+    },
+    {
+      "address": "0x52f13e25754d822a3550d0b68fdefe9304d27ae8",
+      "nameTag": "EthashPool 2"
+    },
+    {
+      "address": "0x8d35067233605bef6069191ae0922d134ff80d48",
+      "nameTag": "EtherDig"
+    },
+    {
+      "address": "0x9d551f41fed6fc27b719777c224dfecce170004d",
+      "nameTag": "EthereumPool"
+    },
+    {
+      "address": "0xea674fdde714fd979de3edf0f56aa9716b898ec8",
+      "nameTag": "Ethermine"
+    },
+    {
+      "address": "0xe6a7a1d47ff21b6321162aea7c6cb457d5476bca",
+      "nameTag": "Ethpool"
+    },
+    {
+      "address": "0x4bb96091ee9d802ed039c4d1a5f6216f90f81b01",
+      "nameTag": "Ethpool 2"
+    },
+    {
+      "address": "0x6537b65a50a862391515455272f9b6c7168afe94",
+      "nameTag": "ExtremeHash"
+    },
+    {
+      "address": "0xc730b028da66ebb14f20e67c68dd809fbc49890d",
+      "nameTag": "Ezil.me : Ezil Pool 4"
+    },
+    {
+      "address": "0xcc22cb1b6625b64e81909456111d76be6158dfbc",
+      "nameTag": "EzilPool 1"
+    },
+    {
+      "address": "0x8595dd9e0438640b5e1254f9df579ac12a86865f",
+      "nameTag": "EzilPool 2"
+    },
+    {
+      "address": "0xc3348b43d3881151224b490e4aa39e03d2b1cdea",
+      "nameTag": "EzilPool 3"
+    },
+    {
+      "address": "0xf20b338752976878754518183873602902360704",
+      "nameTag": "F2Pool"
+    },
+    {
+      "address": "0x829bd824b016326a401d083b33d092293333a830",
+      "nameTag": "F2Pool Old"
+    },
+    {
+      "address": "0xd33f2f5b8286ae74eed26f0d32a93bef6e61fd24",
+      "nameTag": "Firebird Mining Pool 1"
+    },
+    {
+      "address": "0x35f61dfb08ada13eba64bf156b80df3d5b3a738d",
+      "nameTag": "firepool"
+    },
+    {
+      "address": "0xb6cf40aee9990c25d7d6193952af222e120b31c2",
+      "nameTag": "FKPool"
+    },
+    {
+      "address": "0x7f101fe45e6649a6fb8f3f8b43ed03d353f2b90c",
+      "nameTag": "Flexpool.io"
+    },
+    {
+      "address": "0xd34da389374caad1a048fbdc4569aae33fd5a375",
+      "nameTag": "Genesis Mining"
+    },
+    {
+      "address": "0x03e75d7dd38cce2e20ffee35ec914c57780a8e29",
+      "nameTag": "GPUMINE Pool 1"
+    },
+    {
+      "address": "0xd0db3c9cf4029bac5a9ed216cd174cba5dbf047c",
+      "nameTag": "HashON Pool"
+    },
+    {
+      "address": "0x8bc6667ef4f338bb5d4a2ef23d20e314e9c6dbfb",
+      "nameTag": "Hiveon"
+    },
+    {
+      "address": "0x1ad91ee08f21be3de0ba2ba6918e714da6b45836",
+      "nameTag": "Hiveon Pool"
+    },
+    {
+      "address": "0x4c549990a7ef3fea8784406c1eecc98bf4211fa5",
+      "nameTag": "Hiveon: Old Pool"
+    },
+    {
+      "address": "0xe7e6c88ad1bab6508a251b7995f44fb1c5e3dcf7",
+      "nameTag": "Hiveon: Spreader"
+    },
+    {
+      "address": "0x3c16183c1c0e28f1a0cb9f8ee4b21d0db208ca46",
+      "nameTag": "Hiveon: Spreader 2"
+    },
+    {
+      "address": "0x6d1d84363e342a099005423a1bc7e25a5b5ffbeb",
+      "nameTag": "Hiveon: Spreader 3"
+    },
+    {
+      "address": "0xc45b8a5cc6b2f0583dae0197b5cc3b99de4eff9f",
+      "nameTag": "Hiveon: Spreader 4"
+    },
+    {
+      "address": "0xac56a9e051ef1821cb4f3a0427fc941286c4e9e8",
+      "nameTag": "Hiveon: Spreader 5"
+    },
+    {
+      "address": "0xa11ae3a981d50bcd4c9ff6732c1f815483475ff8",
+      "nameTag": "Hiveon: Spreader 6"
+    },
+    {
+      "address": "0xc33997fd8b9251b49151911def437bca7a78ba00",
+      "nameTag": "Hiveon: Spreader 7"
+    },
+    {
+      "address": "0x95ca6baf212be85b238413d461d20a2aa8354dd5",
+      "nameTag": "Hiveon: Spreader 8"
+    },
+    {
+      "address": "0x9d6d492bd500da5b33cf95a5d610a73360fcaaa0",
+      "nameTag": "HTX Mining Pool"
+    },
+    {
+      "address": "0x14b30f257c2737370203a15aa343c2b600dfb675",
+      "nameTag": "Huixingpool.com"
+    },
+    {
+      "address": "0xbcc817f057950b0df41206c5d7125e6225cae18e",
+      "nameTag": "Huobi Mining Pool 2"
+    },
+    {
+      "address": "0xf64f9720cfcb59ca4f5f45e6fdb3f68b875b7295",
+      "nameTag": "ICanMining.ru"
+    },
+    {
+      "address": "0x433022c4066558e7a32d850f02d2da5ca782174d",
+      "nameTag": "K1POOL.COM"
+    },
+    {
+      "address": "0x7777788200b672a42421017f65ede4fc759564c8",
+      "nameTag": "Krptex Mining 1"
+    },
+    {
+      "address": "0x4e4e23ac3c11789e23169025503ea4373b01417b",
+      "nameTag": "KuveraPool"
+    },
+    {
+      "address": "0x26b3eea1cd34a4aff7ce828a5f71daac042d38e0",
+      "nameTag": "Luxor Technology: Mining"
+    },
+    {
+      "address": "0x7f3b29ae0d5edae9bb148537d4ed2b12beddf8b3",
+      "nameTag": "MATPool"
+    },
+    {
+      "address": "0x6c3183792fbb4a4dd276451af6baf5c66d5f5e48",
+      "nameTag": "MaxHash: EthPool"
+    },
+    {
+      "address": "0xcf6ce585cb4a78a6f96e6c8722927161a696f337",
+      "nameTag": "MaxHash: Solo Mining"
+    },
+    {
+      "address": "0x01ca8a0ba4a80d12a8fb6e3655688f57b16608cf",
+      "nameTag": "Miner: 0x01C...8cf"
+    },
+    {
+      "address": "0x0708f87a089a91c65d48721aa941084648562287",
+      "nameTag": "Miner: 0x070...287"
+    },
+    {
+      "address": "0x21479eb8cb1a27861c902f07a952b72b10fd53ef",
+      "nameTag": "Miner: 0x214...3EF"
+    },
+    {
+      "address": "0x28846f1ec065eea239152213373bb58b1c9fc93b",
+      "nameTag": "Miner: 0x288...93B"
+    },
+    {
+      "address": "0x2b0ddd0b78ae998c5a48ff2e00c4fc568ec0a412",
+      "nameTag": "Miner: 0x2b0...412"
+    },
+    {
+      "address": "0x2c49d502dc4d9aee47c26441d7d90794c18243ed",
+      "nameTag": "Miner: 0x2c4...3ed"
+    },
+    {
+      "address": "0x3f0ee622f9e89df9db62c35cae55d57c56fd56f6",
+      "nameTag": "Miner: 0x3f0...6f6"
+    },
+    {
+      "address": "0x537b6bd3caeb0d41540ac1fd406b9acda5670aad",
+      "nameTag": "Miner: 0x537...aaD"
+    },
+    {
+      "address": "0x55bb709b7a5c51a0c25ea6424931d5c8545c59db",
+      "nameTag": "Miner: 0x55b...9Db"
+    },
+    {
+      "address": "0x5dcb78343780e1b1e578ae0590dc1e868792a435",
+      "nameTag": "Miner: 0x5dc...435"
+    },
+    {
+      "address": "0x646db8ffc21e7ddc2b6327448dd9fa560df41087",
+      "nameTag": "Miner: 0x646...087"
+    },
+    {
+      "address": "0x6ebaf477f83e055589c1188bcc6ddccd8c9b131a",
+      "nameTag": "Miner: 0x6eb...31a"
+    },
+    {
+      "address": "0x8f03f1a3f10c05e7cccf75c1fd10168e06659be7",
+      "nameTag": "Miner: 0x8f0...be7"
+    },
+    {
+      "address": "0xab3b229eb4bcff881275e7ea2f0fd24eeac8c83a",
+      "nameTag": "Miner: 0xab3...83a"
+    },
+    {
+      "address": "0xaee98861388af1d6323b95f78adf3dda102a276c",
+      "nameTag": "Miner: 0xaee...76c"
+    },
+    {
+      "address": "0xb7e390864a90b7b923c9f9310c6f98aafe43f707",
+      "nameTag": "Miner: 0xb7e...707"
+    },
+    {
+      "address": "0xbc78d75867b04f996ef1050d8090b8ccb91f09af",
+      "nameTag": "Miner: 0xbc7...9Af"
+    },
+    {
+      "address": "0xc8f595e2084db484f8a80109101d58625223b7c9",
+      "nameTag": "Miner: 0xc8F...7C9"
+    },
+    {
+      "address": "0xc93452a74e596e81e4f73ca1acff532089ad4c62",
+      "nameTag": "Miner: 0xc93...c62"
+    },
+    {
+      "address": "0xd327a5ef64541cdd628b51b5814f914596124703",
+      "nameTag": "Miner: 0xd32...703"
+    },
+    {
+      "address": "0xd7ad8e2a17800a2c413f331d334f83f5da8d5dba",
+      "nameTag": "Miner: 0xd7a...dBA"
+    },
+    {
+      "address": "0xe206e3dca498258f1b7eec1c640b5aee7bb88fd0",
+      "nameTag": "Miner: 0xe20...Fd0"
+    },
+    {
+      "address": "0xfad45a9ab2c408f7e6f8d4786f0708171169c2c3",
+      "nameTag": "Miner: 0xfaD...2c3"
+    },
+    {
+      "address": "0x09ab1303d3ccaf5f018cd511146b07a240c70294",
+      "nameTag": "Minerall Pool"
+    },
+    {
+      "address": "0xbbbbbbbb49459e69878219f906e73aa325ff2f0c",
+      "nameTag": "Mining DAO: Block Producer"
+    },
+    {
+      "address": "0x06b8c5883ec71bc3f4b332081519f23834c8706e",
+      "nameTag": "Mining Express"
+    },
+    {
+      "address": "0x3ecef08d0e2dad803847e052249bb4f8bff2d5bb",
+      "nameTag": "MiningPoolHub"
+    },
+    {
+      "address": "0x2a98776c7e13ed1c240858bd241dcf95fc1928b4",
+      "nameTag": "myminers.org: Solo"
+    },
+    {
+      "address": "0x52bc44d5378309ee2abf1539bf71de1b7d7be3b5",
+      "nameTag": "Nanopool"
+    },
+    {
+      "address": "0x2f979c933aef4fcddd27c0fa5c54d8a780555b0a",
+      "nameTag": "NEST Protocol: Mining Pool"
+    },
+    {
+      "address": "0xd5bbb4264b70ca4f58c45d27b9d7e11190754a54",
+      "nameTag": "NoobPool"
+    },
+    {
+      "address": "0x776bb566dc299c9e722773d2a04b401e831a6dc8",
+      "nameTag": "OKEX Mining Pool 1"
+    },
+    {
+      "address": "0x6b7d50bb8fab584e54251a10e1c6cfa51dd7b618",
+      "nameTag": "PandaPool"
+    },
+    {
+      "address": "0xcd7b9e2b957c819000b1a8107130f786636c5ccc",
+      "nameTag": "Pool2Mine 1"
+    },
+    {
+      "address": "0x47c439c8784b44366735fc2cfe08228cb91d5b8e",
+      "nameTag": "PoolHub"
+    },
+    {
+      "address": "0xa7b0536fb02c593b0dfd82bd65aacbdd19ae4777",
+      "nameTag": "Poolin"
+    },
+    {
+      "address": "0x2daa35962a6d43eb54c48367b33d0b379c930e5e",
+      "nameTag": "Poolin 2"
+    },
+    {
+      "address": "0x2a20380dca5bc24d052acfbf79ba23e988ad0050",
+      "nameTag": "Poolin 3"
+    },
+    {
+      "address": "0xcd458d7f11023556cc9058f729831a038cb8df9c",
+      "nameTag": "Poolin 4"
+    },
+    {
+      "address": "0xe16263ee79b0ee32c242c99f02559e92abaea9eb",
+      "nameTag": "SaturnPool"
+    },
+    {
+      "address": "0x8b4de256180cfec54c436a470af50f9ee2813dbb",
+      "nameTag": "SBI Crypto Pool"
+    },
+    {
+      "address": "0xf35074bbd0a9aee46f4ea137971feec024ab704e",
+      "nameTag": "SoloPool.org"
+    },
+    {
+      "address": "0x5a0b54d5dc17e0aadc383d2db43b0a0d3e029c4c",
+      "nameTag": "Spark Pool"
+    },
+    {
+      "address": "0x1dcb8d1f0fcc8cbc8c2d76528e877f915e299fbe",
+      "nameTag": "Suprnova"
+    },
+    {
+      "address": "0x63a9975ba31b0b9626b34300f7f627147df1f526",
+      "nameTag": "Suprnova 2"
+    },
+    {
+      "address": "0xa3c084ae80a3f03963017669bc696e961d3ae5d5",
+      "nameTag": "Uleypool"
+    },
+    {
+      "address": "0xd224ca0c819e8e97ba0136b3b95ceff503b79f53",
+      "nameTag": "UUPool"
+    },
+    {
+      "address": "0x44fd3ab8381cc3d14afa7c4af7fd13cdc65026e1",
+      "nameTag": "W POOL"
+    },
+    {
+      "address": "0x9435d50503aee35c8757ae4933f7a0ab56597805",
+      "nameTag": "WaterholePool"
+    },
+    {
+      "address": "0xd1e56c2e765180aa0371928fd4d1e41fbcda34d4",
+      "nameTag": "Weipool"
+    },
+    {
+      "address": "0x7c6694032b4db11ac485e1cff0f7509d58b41569",
+      "nameTag": "Whalesburg Pool: Old Address"
+    },
+    {
+      "address": "0xe4bdced60430a90f31dba03524dd5d15a2670649",
+      "nameTag": "xnpool.cn"
+    },
+    {
+      "address": "0x6a851246689eb8fc77a9bf68df5860f13f679fa0",
+      "nameTag": "ZET Technologies"
+    },
+    {
+      "address": "0x04668ec2f57cc15c381b461b9fedab5d451c8f7f",
+      "nameTag": "zhizhu.top"
+    }
+  ]
+}

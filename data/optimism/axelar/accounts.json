@@ -1,30 +1,33 @@
-[
-  {
-    "address": "0xe743a49f04f2f77eb2d3b753ae3ad599de8cea84",
-    "nameTag": "Axelar: Express Relayer 1"
-  },
-  {
-    "address": "0x7f8d1146b65e40cb8349690eab749c9fd3d975e7",
-    "nameTag": "Axelar: Relayer (Legacy)"
-  },
-  {
-    "address": "0x12c985f40849ad2c07549909f09a30c9d7c4117c",
-    "nameTag": "Axelar: Relayer 1"
-  },
-  {
-    "address": "0x2102c32a09cbced4146c3db2d27ae21a185bda43",
-    "nameTag": "Axelar: Relayer 2"
-  },
-  {
-    "address": "0xb28837949e7a3f1ac862036e8a0ae392c9ff9bb4",
-    "nameTag": "Axelar: Relayer 3"
-  },
-  {
-    "address": "0x345662abfe0e257e23552a434d02ef274ccb6a90",
-    "nameTag": "Axelar: Relayer 4"
-  },
-  {
-    "address": "0xd36aac0c9676e984d72823fb662ce94d3ab5e551",
-    "nameTag": "Axelar: Relayer 5"
-  }
-]
+{
+  "lastPulled": "2024-04-02T20:56:45.239Z",
+  "data": [
+    {
+      "address": "0xe743a49f04f2f77eb2d3b753ae3ad599de8cea84",
+      "nameTag": "Axelar: Express Relayer 1"
+    },
+    {
+      "address": "0x7f8d1146b65e40cb8349690eab749c9fd3d975e7",
+      "nameTag": "Axelar: Relayer (Legacy)"
+    },
+    {
+      "address": "0x12c985f40849ad2c07549909f09a30c9d7c4117c",
+      "nameTag": "Axelar: Relayer 1"
+    },
+    {
+      "address": "0x2102c32a09cbced4146c3db2d27ae21a185bda43",
+      "nameTag": "Axelar: Relayer 2"
+    },
+    {
+      "address": "0xb28837949e7a3f1ac862036e8a0ae392c9ff9bb4",
+      "nameTag": "Axelar: Relayer 3"
+    },
+    {
+      "address": "0x345662abfe0e257e23552a434d02ef274ccb6a90",
+      "nameTag": "Axelar: Relayer 4"
+    },
+    {
+      "address": "0xd36aac0c9676e984d72823fb662ce94d3ab5e551",
+      "nameTag": "Axelar: Relayer 5"
+    }
+  ]
+}

@@ -1,178 +1,181 @@
-[
-  {
-    "address": "0x6d3c6f37b3f59098bd3652d8df7152b091b12521",
-    "nameTag": "Lyra: Black Scholes"
-  },
-  {
-    "address": "0x325d4217c73872bc9f4693d756d6a78c1c82796a",
-    "nameTag": "Lyra: Black Scholes (Old)"
-  },
-  {
-    "address": "0x5287d03553e736c732bc71b20248954f2e70f714",
-    "nameTag": "Lyra: BTC Liquidity Certificate"
-  },
-  {
-    "address": "0x788843de0be1598155bffaab7cfa2ecbd542e7f1",
-    "nameTag": "Lyra: BTC Liquidity Pool"
-  },
-  {
-    "address": "0x1f80f640a9d53d8cc339b1314061b6d14a24c78c",
-    "nameTag": "Lyra: BTC Option Greek Cache"
-  },
-  {
-    "address": "0x47b5bb79f06f06db3d77c6cc4db1ad6e84faf1f4",
-    "nameTag": "Lyra: BTC Option Market"
-  },
-  {
-    "address": "0xc1729854837578dc867c6d644304407f0ebc5a3d",
-    "nameTag": "Lyra: BTC Option Market Pricer"
-  },
-  {
-    "address": "0x644e589fd7d6aec00ddc4212d17d4d71ce947b8a",
-    "nameTag": "Lyra: BTC Option Market Safe Slippage"
-  },
-  {
-    "address": "0x22c39ce1c3a49224aea6d8c2aaa0019828e1b5e4",
-    "nameTag": "Lyra: BTC Option Market Viewer"
-  },
-  {
-    "address": "0x6c1d7b56a266752c611c022f4130e72952bf1327",
-    "nameTag": "Lyra: BTC Option Token"
-  },
-  {
-    "address": "0x307d49a289df36023240dfa6746fd8c181c2971c",
-    "nameTag": "Lyra: BTC Pool Hedger"
-  },
-  {
-    "address": "0x0a68e15f8e289b9f1ad1bcad524fea30c6125c2d",
-    "nameTag": "Lyra: BTC Short Collateral"
-  },
-  {
-    "address": "0x8e9c516c202277d47ccd33aceb081b90be2fd5dc",
-    "nameTag": "Lyra: ETH Liquidity Certificate"
-  },
-  {
-    "address": "0x2935cd347b79c319a6464fe3b1087170f142418c",
-    "nameTag": "Lyra: ETH Liquidity Pool"
-  },
-  {
-    "address": "0xbbaa63be0e3feacb3a3798cb101962b8608fca99",
-    "nameTag": "Lyra: ETH Option Greek Cache"
-  },
-  {
-    "address": "0x1f6d98638eee9f689684767c3021230dd68df419",
-    "nameTag": "Lyra: ETH Option Market"
-  },
-  {
-    "address": "0x39a023fde14d44c01bcb43993b3a51117174f336",
-    "nameTag": "Lyra: ETH Option Market Pricer"
-  },
-  {
-    "address": "0xb921e22de51f17b4227787a6d264f37399eb7d8c",
-    "nameTag": "Lyra: ETH Option Market Safe Slippage"
-  },
-  {
-    "address": "0x43592bffcf14f1e0a096091e125f023b2ccc2525",
-    "nameTag": "Lyra: ETH Option Market Viewer"
-  },
-  {
-    "address": "0xfb1951b7eef8e7613d3b09424fb4aef805c16267",
-    "nameTag": "Lyra: ETH Option Token"
-  },
-  {
-    "address": "0x9093f670c780d8d09a0c88d03d60aaa0b5a9e7a1",
-    "nameTag": "Lyra: ETH Pool Hedger"
-  },
-  {
-    "address": "0xe722f9aee66f649fbfc8cb0d4f906cb55803553c",
-    "nameTag": "Lyra: ETH Short Collateral"
-  },
-  {
-    "address": "0x4341a26f8b32a6f79572351faa4ec91964cf63eb",
-    "nameTag": "Lyra: LINK Liquidity Certificate"
-  },
-  {
-    "address": "0x69b4b35504a8c1d6179fef7addcdb37a8c663bc9",
-    "nameTag": "Lyra: LINK Liquidity Pool"
-  },
-  {
-    "address": "0xa5a20f41f367a7ed71d7a617a708de965cc80db5",
-    "nameTag": "Lyra: LINK Option Greek Cache"
-  },
-  {
-    "address": "0xbcb01210bd1c0790ca45cc4c49d9a183be99824d",
-    "nameTag": "Lyra: LINK Option Market"
-  },
-  {
-    "address": "0x36ab8de9f177b70fbdbc4050e47d0d578adf3cfe",
-    "nameTag": "Lyra: LINK Option Market Pricer"
-  },
-  {
-    "address": "0x0dec3173683e4b1e587d466fd0e3a8ad81a39a19",
-    "nameTag": "Lyra: LINK Option Market Safe Slippage"
-  },
-  {
-    "address": "0xe34af32082aa2be75f0a80dc179d597e852af6a1",
-    "nameTag": "Lyra: LINK Option Market Viewer"
-  },
-  {
-    "address": "0x48a157f01ccf4bf24d42185cbcd9fc0c376292f0",
-    "nameTag": "Lyra: LINK Option Token"
-  },
-  {
-    "address": "0x96e91f8dafc58975025dd6163a41eb593e6e2c62",
-    "nameTag": "Lyra: LINK Pool Hedger"
-  },
-  {
-    "address": "0x585a72ccecde68ddfe5327b23134723a305d70f3",
-    "nameTag": "Lyra: LINK Short Collateral"
-  },
-  {
-    "address": "0x8f69783db37905f026cf62223c9957ae0ca90a38",
-    "nameTag": "Lyra: Liquidity Certificate (Old)"
-  },
-  {
-    "address": "0x7af4e1ce484f40d927b9c90fb6905df4376fc3f6",
-    "nameTag": "Lyra: Liquidity Pool (Old)"
-  },
-  {
-    "address": "0x3856c594d35a24f7435731f9f5d7835887f0b94b",
-    "nameTag": "Lyra: Lyra Globals"
-  },
-  {
-    "address": "0x074edcbabee9cb019d217c158ab4e92c1cd7caf0",
-    "nameTag": "Lyra: Lyra Globals (Old)"
-  },
-  {
-    "address": "0xf54a551fc1223d91e766c519723f8f7af5ea9a2b",
-    "nameTag": "Lyra: Markets Registry"
-  },
-  {
-    "address": "0xf34542369b4d39968a27307f76621ba802deb05a",
-    "nameTag": "Lyra: Multi Step Swapper"
-  },
-  {
-    "address": "0x121c7eaf4af34e075136bf5c549bdd0ad40040ec",
-    "nameTag": "Lyra: Option Greek Cache (Old)"
-  },
-  {
-    "address": "0x176b9e1bce6757ab23235fa9899b32e89b105b0d",
-    "nameTag": "Lyra: Option Market (Old)"
-  },
-  {
-    "address": "0x469e9f00cc30350a4e1c3f3109c8460b532f5fa1",
-    "nameTag": "Lyra: Option Market Pricer (Old)"
-  },
-  {
-    "address": "0x0a99c0643b00fcd5fcd16c46e4efebff650b5ea1",
-    "nameTag": "Lyra: Option Token (Old)"
-  },
-  {
-    "address": "0x000a2c01f114b89952749359922d85e27edda38d",
-    "nameTag": "Lyra: Pool Hedger (Old)"
-  },
-  {
-    "address": "0xd7d974e81382d05e8d9fc6d0d17d0d852e9806dd",
-    "nameTag": "Lyra: Short Collateral (Old)"
-  }
-]
+{
+  "lastPulled": "2024-04-02T20:57:46.769Z",
+  "data": [
+    {
+      "address": "0x6d3c6f37b3f59098bd3652d8df7152b091b12521",
+      "nameTag": "Lyra: Black Scholes"
+    },
+    {
+      "address": "0x325d4217c73872bc9f4693d756d6a78c1c82796a",
+      "nameTag": "Lyra: Black Scholes (Old)"
+    },
+    {
+      "address": "0x5287d03553e736c732bc71b20248954f2e70f714",
+      "nameTag": "Lyra: BTC Liquidity Certificate"
+    },
+    {
+      "address": "0x788843de0be1598155bffaab7cfa2ecbd542e7f1",
+      "nameTag": "Lyra: BTC Liquidity Pool"
+    },
+    {
+      "address": "0x1f80f640a9d53d8cc339b1314061b6d14a24c78c",
+      "nameTag": "Lyra: BTC Option Greek Cache"
+    },
+    {
+      "address": "0x47b5bb79f06f06db3d77c6cc4db1ad6e84faf1f4",
+      "nameTag": "Lyra: BTC Option Market"
+    },
+    {
+      "address": "0xc1729854837578dc867c6d644304407f0ebc5a3d",
+      "nameTag": "Lyra: BTC Option Market Pricer"
+    },
+    {
+      "address": "0x644e589fd7d6aec00ddc4212d17d4d71ce947b8a",
+      "nameTag": "Lyra: BTC Option Market Safe Slippage"
+    },
+    {
+      "address": "0x22c39ce1c3a49224aea6d8c2aaa0019828e1b5e4",
+      "nameTag": "Lyra: BTC Option Market Viewer"
+    },
+    {
+      "address": "0x6c1d7b56a266752c611c022f4130e72952bf1327",
+      "nameTag": "Lyra: BTC Option Token"
+    },
+    {
+      "address": "0x307d49a289df36023240dfa6746fd8c181c2971c",
+      "nameTag": "Lyra: BTC Pool Hedger"
+    },
+    {
+      "address": "0x0a68e15f8e289b9f1ad1bcad524fea30c6125c2d",
+      "nameTag": "Lyra: BTC Short Collateral"
+    },
+    {
+      "address": "0x8e9c516c202277d47ccd33aceb081b90be2fd5dc",
+      "nameTag": "Lyra: ETH Liquidity Certificate"
+    },
+    {
+      "address": "0x2935cd347b79c319a6464fe3b1087170f142418c",
+      "nameTag": "Lyra: ETH Liquidity Pool"
+    },
+    {
+      "address": "0xbbaa63be0e3feacb3a3798cb101962b8608fca99",
+      "nameTag": "Lyra: ETH Option Greek Cache"
+    },
+    {
+      "address": "0x1f6d98638eee9f689684767c3021230dd68df419",
+      "nameTag": "Lyra: ETH Option Market"
+    },
+    {
+      "address": "0x39a023fde14d44c01bcb43993b3a51117174f336",
+      "nameTag": "Lyra: ETH Option Market Pricer"
+    },
+    {
+      "address": "0xb921e22de51f17b4227787a6d264f37399eb7d8c",
+      "nameTag": "Lyra: ETH Option Market Safe Slippage"
+    },
+    {
+      "address": "0x43592bffcf14f1e0a096091e125f023b2ccc2525",
+      "nameTag": "Lyra: ETH Option Market Viewer"
+    },
+    {
+      "address": "0xfb1951b7eef8e7613d3b09424fb4aef805c16267",
+      "nameTag": "Lyra: ETH Option Token"
+    },
+    {
+      "address": "0x9093f670c780d8d09a0c88d03d60aaa0b5a9e7a1",
+      "nameTag": "Lyra: ETH Pool Hedger"
+    },
+    {
+      "address": "0xe722f9aee66f649fbfc8cb0d4f906cb55803553c",
+      "nameTag": "Lyra: ETH Short Collateral"
+    },
+    {
+      "address": "0x4341a26f8b32a6f79572351faa4ec91964cf63eb",
+      "nameTag": "Lyra: LINK Liquidity Certificate"
+    },
+    {
+      "address": "0x69b4b35504a8c1d6179fef7addcdb37a8c663bc9",
+      "nameTag": "Lyra: LINK Liquidity Pool"
+    },
+    {
+      "address": "0xa5a20f41f367a7ed71d7a617a708de965cc80db5",
+      "nameTag": "Lyra: LINK Option Greek Cache"
+    },
+    {
+      "address": "0xbcb01210bd1c0790ca45cc4c49d9a183be99824d",
+      "nameTag": "Lyra: LINK Option Market"
+    },
+    {
+      "address": "0x36ab8de9f177b70fbdbc4050e47d0d578adf3cfe",
+      "nameTag": "Lyra: LINK Option Market Pricer"
+    },
+    {
+      "address": "0x0dec3173683e4b1e587d466fd0e3a8ad81a39a19",
+      "nameTag": "Lyra: LINK Option Market Safe Slippage"
+    },
+    {
+      "address": "0xe34af32082aa2be75f0a80dc179d597e852af6a1",
+      "nameTag": "Lyra: LINK Option Market Viewer"
+    },
+    {
+      "address": "0x48a157f01ccf4bf24d42185cbcd9fc0c376292f0",
+      "nameTag": "Lyra: LINK Option Token"
+    },
+    {
+      "address": "0x96e91f8dafc58975025dd6163a41eb593e6e2c62",
+      "nameTag": "Lyra: LINK Pool Hedger"
+    },
+    {
+      "address": "0x585a72ccecde68ddfe5327b23134723a305d70f3",
+      "nameTag": "Lyra: LINK Short Collateral"
+    },
+    {
+      "address": "0x8f69783db37905f026cf62223c9957ae0ca90a38",
+      "nameTag": "Lyra: Liquidity Certificate (Old)"
+    },
+    {
+      "address": "0x7af4e1ce484f40d927b9c90fb6905df4376fc3f6",
+      "nameTag": "Lyra: Liquidity Pool (Old)"
+    },
+    {
+      "address": "0x3856c594d35a24f7435731f9f5d7835887f0b94b",
+      "nameTag": "Lyra: Lyra Globals"
+    },
+    {
+      "address": "0x074edcbabee9cb019d217c158ab4e92c1cd7caf0",
+      "nameTag": "Lyra: Lyra Globals (Old)"
+    },
+    {
+      "address": "0xf54a551fc1223d91e766c519723f8f7af5ea9a2b",
+      "nameTag": "Lyra: Markets Registry"
+    },
+    {
+      "address": "0xf34542369b4d39968a27307f76621ba802deb05a",
+      "nameTag": "Lyra: Multi Step Swapper"
+    },
+    {
+      "address": "0x121c7eaf4af34e075136bf5c549bdd0ad40040ec",
+      "nameTag": "Lyra: Option Greek Cache (Old)"
+    },
+    {
+      "address": "0x176b9e1bce6757ab23235fa9899b32e89b105b0d",
+      "nameTag": "Lyra: Option Market (Old)"
+    },
+    {
+      "address": "0x469e9f00cc30350a4e1c3f3109c8460b532f5fa1",
+      "nameTag": "Lyra: Option Market Pricer (Old)"
+    },
+    {
+      "address": "0x0a99c0643b00fcd5fcd16c46e4efebff650b5ea1",
+      "nameTag": "Lyra: Option Token (Old)"
+    },
+    {
+      "address": "0x000a2c01f114b89952749359922d85e27edda38d",
+      "nameTag": "Lyra: Pool Hedger (Old)"
+    },
+    {
+      "address": "0xd7d974e81382d05e8d9fc6d0d17d0d852e9806dd",
+      "nameTag": "Lyra: Short Collateral (Old)"
+    }
+  ]
+}

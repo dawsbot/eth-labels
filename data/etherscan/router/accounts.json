@@ -1,26 +1,29 @@
-[
-  {
-    "address": "0x29a519e21d6a97cdb82270b69c98bac6426cdcf9",
-    "nameTag": "Router: 0x29a...cf9"
-  },
-  {
-    "address": "0x6201b8ec0cd3c29826bbbf1ca89924e42e0f6db4",
-    "nameTag": "Router: 0x620...db4"
-  },
-  {
-    "address": "0x6fd84ba95525c4ccd218f2f16f646a08b4b0a598",
-    "nameTag": "Router: 0x6fd...598"
-  },
-  {
-    "address": "0x7e76de758cd414096a4882ed2824bc513d7ed7c9",
-    "nameTag": "Router: 0x7e7...7c9"
-  },
-  {
-    "address": "0xae1e59402a3f483f0bbb663800ff21a0f2b1701d",
-    "nameTag": "Router: 0xae1...01d"
-  },
-  {
-    "address": "0xc4cce996f30d65b1a27c44de84fe79bf1f0d528b",
-    "nameTag": "Router: 0xc4c...28b"
-  }
-]
+{
+  "lastPulled": "2024-04-02T20:49:15.073Z",
+  "data": [
+    {
+      "address": "0x29a519e21d6a97cdb82270b69c98bac6426cdcf9",
+      "nameTag": "Router: 0x29a...cf9"
+    },
+    {
+      "address": "0x6201b8ec0cd3c29826bbbf1ca89924e42e0f6db4",
+      "nameTag": "Router: 0x620...db4"
+    },
+    {
+      "address": "0x6fd84ba95525c4ccd218f2f16f646a08b4b0a598",
+      "nameTag": "Router: 0x6fd...598"
+    },
+    {
+      "address": "0x7e76de758cd414096a4882ed2824bc513d7ed7c9",
+      "nameTag": "Router: 0x7e7...7c9"
+    },
+    {
+      "address": "0xae1e59402a3f483f0bbb663800ff21a0f2b1701d",
+      "nameTag": "Router: 0xae1...01d"
+    },
+    {
+      "address": "0xc4cce996f30d65b1a27c44de84fe79bf1f0d528b",
+      "nameTag": "Router: 0xc4c...28b"
+    }
+  ]
+}

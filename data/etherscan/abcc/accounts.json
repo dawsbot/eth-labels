@@ -1,10 +1,13 @@
-[
-  {
-    "address": "0x05f51aab068caa6ab7eeb672f88c180f67f17ec7",
-    "nameTag": "ABCC"
-  },
-  {
-    "address": "0xbf8fb919a8bbf28e590852aef2d284494ebc0657",
-    "nameTag": "ABCC: AT Token"
-  }
-]
+{
+  "lastPulled": "2024-04-02T20:38:16.144Z",
+  "data": [
+    {
+      "address": "0x05f51aab068caa6ab7eeb672f88c180f67f17ec7",
+      "nameTag": "ABCC"
+    },
+    {
+      "address": "0xbf8fb919a8bbf28e590852aef2d284494ebc0657",
+      "nameTag": "ABCC: AT Token"
+    }
+  ]
+}

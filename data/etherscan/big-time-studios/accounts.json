@@ -1,10 +1,13 @@
-[
-  {
-    "address": "0x64bc2ca1be492be7185faa2c8835d9b824c8a194",
-    "nameTag": "Big Time: BIGTIME Token"
-  },
-  {
-    "address": "0x225124dbcfbd9fc3092fbe8839f89e22198bc71c",
-    "nameTag": "Big Time: Deployer"
-  }
-]
+{
+  "lastPulled": "2024-04-02T20:39:43.432Z",
+  "data": [
+    {
+      "address": "0x64bc2ca1be492be7185faa2c8835d9b824c8a194",
+      "nameTag": "Big Time: BIGTIME Token"
+    },
+    {
+      "address": "0x225124dbcfbd9fc3092fbe8839f89e22198bc71c",
+      "nameTag": "Big Time: Deployer"
+    }
+  ]
+}

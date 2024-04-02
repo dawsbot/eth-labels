@@ -1,18 +1,21 @@
-[
-  {
-    "address": "0xc0deee11aa091189fff0713353c43c7c8cae7881",
-    "nameTag": "Counter.Market: Code v1"
-  },
-  {
-    "address": "0x1234567896326230a28ee368825d11fe6571be4a",
-    "nameTag": "Counter.Market: Proxy"
-  },
-  {
-    "address": "0x12345678982cb986dd291b50239295e3cb10cdf6",
-    "nameTag": "Counter.Market: Registry"
-  },
-  {
-    "address": "0x12345678979f29ebc99e00bdc5693ddea564ca80",
-    "nameTag": "Counter.Market: Treasury"
-  }
-]
+{
+  "lastPulled": "2024-04-02T20:41:26.086Z",
+  "data": [
+    {
+      "address": "0xc0deee11aa091189fff0713353c43c7c8cae7881",
+      "nameTag": "Counter.Market: Code v1"
+    },
+    {
+      "address": "0x1234567896326230a28ee368825d11fe6571be4a",
+      "nameTag": "Counter.Market: Proxy"
+    },
+    {
+      "address": "0x12345678982cb986dd291b50239295e3cb10cdf6",
+      "nameTag": "Counter.Market: Registry"
+    },
+    {
+      "address": "0x12345678979f29ebc99e00bdc5693ddea564ca80",
+      "nameTag": "Counter.Market: Treasury"
+    }
+  ]
+}

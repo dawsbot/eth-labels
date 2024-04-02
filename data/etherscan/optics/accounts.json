@@ -1,6 +1,9 @@
-[
-  {
-    "address": "0x4fc16de11deac71e8b2db539d82d93be4b486892",
-    "nameTag": "Optics: ERC-20 Bridge"
-  }
-]
+{
+  "lastPulled": "2024-04-02T20:47:38.926Z",
+  "data": [
+    {
+      "address": "0x4fc16de11deac71e8b2db539d82d93be4b486892",
+      "nameTag": "Optics: ERC-20 Bridge"
+    }
+  ]
+}

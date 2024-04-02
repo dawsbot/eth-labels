@@ -1,1251 +1,1425 @@
-[
-  { "address": "0x1bd0c36fa7bc04301bce905c7eb40fccb86c3f98", "nameTag": "" },
-  { "address": "0x7bc401227777f173ff871993b198a8632741b9bb", "nameTag": "" },
-  { "address": "0xc5b835bd38ce57960d817162ee682836da489feb", "nameTag": "" },
-  { "address": "0xdc46c1e93b71ff9209a0f8076a9951569dc35855", "nameTag": "" },
-  { "address": "0xebcec2e959bad4137925f9ddb68e163cca72242b", "nameTag": "" },
-  {
-    "address": "0x3f14920c99beb920afa163031c4e47a3e03b3e4a",
-    "nameTag": "/send: send Token"
-  },
-  {
-    "address": "0x5519dc53d698ce6b9eefc71efc454e4b269307b9",
-    "nameTag": "1337 Brians: 1337BRIAN Token"
-  },
-  {
-    "address": "0xcf3d55c10db69f28fd1a75bd73f3d8a2d9c595ad",
-    "nameTag": "Aave: aBascbETH Token"
-  },
-  {
-    "address": "0x0a1d576f3efef75b330424287a95a366e8281d54",
-    "nameTag": "Aave: aBasUSDbC Token"
-  },
-  {
-    "address": "0xd4a0e0b9149bcee3c920d2e00b5de09138fd8bb7",
-    "nameTag": "Aave: aBasWETH Token"
-  },
-  {
-    "address": "0x4a3a6dd60a34bb2aba60d73b4c88315e9ceb6a3d",
-    "nameTag": "Abracadabra Money: MIM Token"
-  },
-  {
-    "address": "0x940181a94a35a4569e4529a3cdfb74e38fd98631",
-    "nameTag": "Aerodrome: AERO Token"
-  },
-  {
-    "address": "0x1dd2d631c92b1acdfcdd51a0f7145a50130050c4",
-    "nameTag": "AlienBase: ALB Token"
-  },
-  {
-    "address": "0x7ed613ab8b2b4c6a781ddc97ea98a666c6437511",
-    "nameTag": "All Your Base: AYB Token"
-  },
-  {
-    "address": "0xa61beb4a3d02decb01039e378237032b351125b4",
-    "nameTag": "Angle Protocol: agEUR Token"
-  },
-  {
-    "address": "0x33ed5107f821bb1465da30b7dce4fb7105b0ad16",
-    "nameTag": "Anotherblock: AB10001 Token"
-  },
-  {
-    "address": "0x0c664a85521d5721bca047d29238d9e2a9e9e861",
-    "nameTag": "Anotherblock: AB10002 Token"
-  },
-  {
-    "address": "0x2598c30330d5771ae9f983979209486ae26de875",
-    "nameTag": "Any Inu: AI Token"
-  },
-  {
-    "address": "0x97c806e7665d3afd84a8fe1837921403d59f3dcc",
-    "nameTag": "Artificial Liquid Intelligence: ALI Token"
-  },
-  {
-    "address": "0xf47a95bf421c2349de30a465a0d54f95ee79920b",
-    "nameTag": "Atari Summer Camp: ASC72 Token"
-  },
-  {
-    "address": "0xf05ff3689a635d13d005a54c56a3e85a183516b5",
-    "nameTag": "Atsuland Base: ATSB Token"
-  },
-  {
-    "address": "0x1509706a6c66ca549ff0cb464de88231ddbe213b",
-    "nameTag": "Aura: AURA Token"
-  },
-  {
-    "address": "0x1628d1d2cf4a9b64295c4b420ec346477fde430d",
-    "nameTag": "Autotronic: ATRN Token"
-  },
-  {
-    "address": "0xd9b6828dd59af3199f5b70e7651fe60b2e51d90a",
-    "nameTag": "AuxSneak: AS Token"
-  },
-  {
-    "address": "0x23ee2343b892b1bb63503a4fabc840e0e2c6810f",
-    "nameTag": "Axelar: AXL Token"
-  },
-  {
-    "address": "0xec7acba6fedb7ebfbc0f44f8f0bc6fc39543e28a",
-    "nameTag": "AxioDex: AXN Token"
-  },
-  {
-    "address": "0xa1a745cbcaf11bad6e5ea4e2c4cc59dd116bb670",
-    "nameTag": "Baby Punk Base: BABYPUNK Token"
-  },
-  {
-    "address": "0x2f123cf3f37ce3328cc9b5b8415f9ec5109b45e7",
-    "nameTag": "Backed: bC3M Token"
-  },
-  {
-    "address": "0xbbcb0356bb9e6b3faa5cbf9e5f36185d53403ac9",
-    "nameTag": "Backed: bCOIN Token"
-  },
-  {
-    "address": "0x20c64dee8fda5269a78f2d5bdba861ca1d83df7a",
-    "nameTag": "Backed: bHIGH Token"
-  },
-  {
-    "address": "0xca30c93b02514f86d5c86a6e375e3a330b435fb5",
-    "nameTag": "Backed: bIB01 Token"
-  },
-  {
-    "address": "0x52d134c6db5889fad3542a09eaf7aa90c0fdf9e4",
-    "nameTag": "Backed: bIBTA Token"
-  },
-  {
-    "address": "0x2f11eeee0bf21e7661a22dbbbb9068f4ad191b86",
-    "nameTag": "Backed: bNIU Token"
-  },
-  {
-    "address": "0x4158734d47fc9692176b5085e0f52ee0da5d47f1",
-    "nameTag": "Balancer: BAL Token"
-  },
-  {
-    "address": "0x27d2decb4bfc9c76f0309b8e88dec3a601fe25a8",
-    "nameTag": "Bald: BALD Token"
-  },
-  {
-    "address": "0x1443cbca252d1ffae56b4ee4cc904e9554e2f6ad",
-    "nameTag": "baldcat: baldcat Token"
-  },
-  {
-    "address": "0xbaa1f7360de42cc21c5892a9b2d172ca0443bd95",
-    "nameTag": "Barry The Bear: BARRY Token"
-  },
-  {
-    "address": "0x4acc81dc9c03e5329a2c19763a1d10ba9308339f",
-    "nameTag": "Base Baboon: $BOON Token"
-  },
-  {
-    "address": "0x5d9903f739df0fd6550e28b9cbb3be5b01defaa0",
-    "nameTag": "Base Ball Lotto: BALL Token"
-  },
-  {
-    "address": "0x0c82244908fe3f4e1f5cb85f8ce71572b604b534",
-    "nameTag": "Base Boobies: BBS Token"
-  },
-  {
-    "address": "0xf352b358e9fcd543132ae98cb1447ca2bc443d98",
-    "nameTag": "Base Brigade: BB Token"
-  },
-  {
-    "address": "0x7d5861cfe1c74aaa0999b7e2651bf2ebd2a62d89",
-    "nameTag": "Base Day One: $BASEDAYONE Token"
-  },
-  {
-    "address": "0x63a5a69a51636bb833b529bb153abbd4f775fbab",
-    "nameTag": "Base Doge Club: BDC Token"
-  },
-  {
-    "address": "0x6b009dc3a4b7fd894d355b9719068f75d7296b98",
-    "nameTag": "Base Floki: BaseFloki Token"
-  },
-  {
-    "address": "0x0d97f261b1e88845184f678e2d1e7a98d9fd38de",
-    "nameTag": "Base God: TYBG Token"
-  },
-  {
-    "address": "0x2d53d0545cd1275b69040e3c50587e2cc4443a52",
-    "nameTag": "Base Gods: BG Token"
-  },
-  {
-    "address": "0x63e71271719f03d7233f4fa306b6ea868d0f52ff",
-    "nameTag": "Base Inu: BINU Token"
-  },
-  {
-    "address": "0xbd9bab0a97b2cc6aa28b9c902d7c656b121d5f9f",
-    "nameTag": "Base Name Service:  Token"
-  },
-  {
-    "address": "0xc5bebd5a6ae6be4fcf383eea014fb1dbd43789ca",
-    "nameTag": "Base Name Service: BNS Token"
-  },
-  {
-    "address": "0xcd1dec0519d635695b1a6c6c6333900ae14817d4",
-    "nameTag": "Base of Women: BOW Token"
-  },
-  {
-    "address": "0x1668b2f3131150efb0dd7c1f2a827ec71bfda99a",
-    "nameTag": "Base Parody: PBASE Token"
-  },
-  {
-    "address": "0x5064f016c073f3d8b43a2b48cf87ce3904e7790d",
-    "nameTag": "Base Punks: BP Token"
-  },
-  {
-    "address": "0xbe19054f5e4dce3c34763eb5d629d666b88c8363",
-    "nameTag": "Base Simpsons Punks: BSP Token"
-  },
-  {
-    "address": "0xda43f9a572b5f8803fec3a8c548d9c7610136bc1",
-    "nameTag": "Base Summer Play Bone: Playbone Token"
-  },
-  {
-    "address": "0xb29ebe1426da861dbf76104acc839ea576195aad",
-    "nameTag": "Base Summer:  Token"
-  },
-  {
-    "address": "0x1c65e144ff1de86638c6cd7ff33ff9c4dede0396",
-    "nameTag": "Base Voyage: BV Token"
-  },
-  {
-    "address": "0x34e817d631b7fb79a54638c01c03421d124e35a7",
-    "nameTag": "Base Wars: $BASEFINI Token"
-  },
-  {
-    "address": "0xa73fab6e612aaf9125bf83a683aadcdd6511d3f0",
-    "nameTag": "Base3D: B3D Token"
-  },
-  {
-    "address": "0xea2a41c02fa86a4901826615f9796e603c6a4491",
-    "nameTag": "Base: BRIDGETOBASE Token"
-  },
-  {
-    "address": "0xd9aaec86b65d86f6a7b5b1b0c42ffa531710b6ca",
-    "nameTag": "Base: USDbC Token"
-  },
-  {
-    "address": "0xd5b70ed3f2ba01bfaaa3beb09e31fe11f833b85f",
-    "nameTag": "Based Baby: BBB Token"
-  },
-  {
-    "address": "0xae431537c1c774fb6c385db67d47dd6bfbe547b6",
-    "nameTag": "Based Doodle Punks: DPUNKS Token"
-  },
-  {
-    "address": "0x217ec1ac929a17481446a76ff9b95b9a64f298cf",
-    "nameTag": "Based Fellas: FELLAS Token"
-  },
-  {
-    "address": "0xa1cf010795f8ef2b431544181f280038f865ac14",
-    "nameTag": "Based Lobo: LOBO Token"
-  },
-  {
-    "address": "0x32cff5c2a7233097efe3e8dc708d1df141780d69",
-    "nameTag": "Based Management:  Token"
-  },
-  {
-    "address": "0xba5e6fa2f33f3955f0cef50c63dcc84861eab663",
-    "nameTag": "Based Markets: BASED Token"
-  },
-  {
-    "address": "0x7d1b04f97dda1fddf0ad9ef5a606e4a956261ac8",
-    "nameTag": "Based Money Finance: BASED Token"
-  },
-  {
-    "address": "0xfbad1e6006d416fc27454da7aef90b753c212205",
-    "nameTag": "Based Mutants: MUTANTS Token"
-  },
-  {
-    "address": "0xd4c5292b9689238f0a51c8505b1d1d6714ce95a0",
-    "nameTag": "Based OnChain Dinos: DINO Token"
-  },
-  {
-    "address": "0x0c71b2fadd2c7354452a7902a174ebaafb29ee2e",
-    "nameTag": "Based Orc Club: BOC Token"
-  },
-  {
-    "address": "0xc9b28a3606fe2127fae69f5415941fb44f3b1a10",
-    "nameTag": "Based Pepunks: BPE Token"
-  },
-  {
-    "address": "0xc16706ae5eed1805990d92241add1662724e50f2",
-    "nameTag": "Based Rekt Chickens: RC Token"
-  },
-  {
-    "address": "0xfea9dcdc9e23a9068bf557ad5b186675c61d33ea",
-    "nameTag": "Based ShibaInu: BSHIB Token"
-  },
-  {
-    "address": "0xba5e05cb26b78eda3a2f8e3b3814726305dcac83",
-    "nameTag": "BasePaint:  Token"
-  },
-  {
-    "address": "0x647fc2d8b7587b036a93a98d6612a9ecefd3cb88",
-    "nameTag": "BaseSwap: BASE Token"
-  },
-  {
-    "address": "0x78a087d713be963bf307b18f2ff8122ef9a63ae9",
-    "nameTag": "BaseSwap: BSWAP Token"
-  },
-  {
-    "address": "0xfa7f2e933c09cd113ef6e72b76d61fb4b27496a1",
-    "nameTag": "Basetama: BTAMA Token"
-  },
-  {
-    "address": "0xa6804ff5b8d072df150794a9dd60ffb9982b1c96",
-    "nameTag": "BaseTim: BTIM Token"
-  },
-  {
-    "address": "0xb3ce4ce692e035720b25880f678871cfc5a863ca",
-    "nameTag": "BaseTools: BASE Token"
-  },
-  {
-    "address": "0xf45116c2e5be608152ea8a6a73917dfe75b707dc",
-    "nameTag": "BaseYield: BAY Token"
-  },
-  {
-    "address": "0x9e53e88dcff56d3062510a745952dec4cefdff9e",
-    "nameTag": "Basic Dog Meme: DOG Token"
-  },
-  {
-    "address": "0x4a6681ba459358c94c86b56c85130f8f8bf4f8f4",
-    "nameTag": "Basicland:  Token"
-  },
-  {
-    "address": "0x76be4f63efd2a0ba1c949b8b430413e64c59806a",
-    "nameTag": "BASU: BASU Token"
-  },
-  {
-    "address": "0x16ee4c68bca85c1fd11017aa19d2f11f2d8bb4aa",
-    "nameTag": "BBMX: BBMX Token"
-  },
-  {
-    "address": "0xad1c24de53fad18270d5c99026302e989d212b41",
-    "nameTag": "Berd: BERD Token"
-  },
-  {
-    "address": "0x94025780a1ab58868d9b2dbbb775f44b32e8e6e5",
-    "nameTag": "BetSwirl: BETS Token"
-  },
-  {
-    "address": "0x6324065012b16da37aa4086edb49aa9d3754e691",
-    "nameTag": "Bitcoin BR: BTCBR Token"
-  },
-  {
-    "address": "0xe7ea0cf2294ff4f6a68e5eb4dec36ccf1c341cd2",
-    "nameTag": "Bitphotos Base: BB Token"
-  },
-  {
-    "address": "0xece7b98bd817ee5b1f2f536daf34d0b6af8bb542",
-    "nameTag": "Black Rock: ROCK Token"
-  },
-  {
-    "address": "0x347f500323d51e9350285daf299ddb529009e6ae",
-    "nameTag": "Blerf: BLERF Token"
-  },
-  {
-    "address": "0x142592f9e9a9cdea6c1167ffceae0fcfb3e7ea97",
-    "nameTag": "Bluecore Labs: BCOR Token"
-  },
-  {
-    "address": "0x891867d752186fc7c3a228f33e24cb73eb4e959b",
-    "nameTag": "Bojak: BOJAK Token"
-  },
-  {
-    "address": "0x5698bba26d8668d781cdcfd2d6d6881226dd0f52",
-    "nameTag": "Bool On Base: BOOL Token"
-  },
-  {
-    "address": "0x22614e240da46d9950e364392a42cc2b9ac7312e",
-    "nameTag": "Boshi Finance: BOSHI Token"
-  },
-  {
-    "address": "0xa7d68d155d17cb30e311367c2ef1e82ab6022b67",
-    "nameTag": "Braintrust: BTRST Token"
-  },
-  {
-    "address": "0x532f27101965dd16442e59d40670faf5ebb142e4",
-    "nameTag": "Brett: BRETT Token"
-  },
-  {
-    "address": "0x06bfb0b59fd7f0436135cc7c168f31826c9178db",
-    "nameTag": "Brian Wif Hat: BIF Token"
-  },
-  {
-    "address": "0x84d016e15c7bb18e8173c0ba0e89ca541426a3a4",
-    "nameTag": "Brianbun: BRIBU Token"
-  },
-  {
-    "address": "0xddb293bb5c5258f7484a94a0fbd5c8b2f6e4e376",
-    "nameTag": "Brickken: BKN Token"
-  },
-  {
-    "address": "0xeb466342c4d449bc9f53a865d5cb90586f405215",
-    "nameTag": "Bridged USD Coin: axlUSDC Token"
-  },
-  {
-    "address": "0xf95e1ad715919a2a35da44002a439f04888cf1f2",
-    "nameTag": "Brien Cup: Brien Cup Token"
-  },
-  {
-    "address": "0x8c81b4c816d66d36c4bf348bdec01dbcbc70e987",
-    "nameTag": "Briun Armstrung: BRIUN Token"
-  },
-  {
-    "address": "0xc1b6844d5134c8e550043f01ffbf49ca66efc77f",
-    "nameTag": "BULLSClub: BULL Token"
-  },
-  {
-    "address": "0x1c557c68d193208f5dbc8f3bc408de1b041a1449",
-    "nameTag": "Caricatured Kitties: CKC Token"
-  },
-  {
-    "address": "0x15e57847c5eee553e0eaa247de0dffef28dd68eb",
-    "nameTag": "Catalog Cosigns: Cosigns Token"
-  },
-  {
-    "address": "0xd8181697d1eb1a9ea4158fd72d3e61d815a501a1",
-    "nameTag": "CharmingCrypto: CC Token"
-  },
-  {
-    "address": "0x0cbd6fadcf8096cc9a43d90b45f65826102e3ece",
-    "nameTag": "CheckDot: CDT Token"
-  },
-  {
-    "address": "0x833589fcd6edb6e08f4c7c32d4f71b54bda02913",
-    "nameTag": "Circle: USDC Token"
-  },
-  {
-    "address": "0x9252384e10ba6beae1a52dbb2a3beca2592268d9",
-    "nameTag": "ClashMon:Ignition: Torch Token"
-  },
-  {
-    "address": "0x17d8217c0f4b4742aaace053281f42eb05ab211d",
-    "nameTag": "CloudBase: CLOUD Token"
-  },
-  {
-    "address": "0x35d545a52a8dd6abb588292ea6b7b9cb3898b53b",
-    "nameTag": "Cloudbit Classic: CDBC Token"
-  },
-  {
-    "address": "0x2ae3f1ec7f1f5012cfeab0185bfc7aa3cf0dec22",
-    "nameTag": "Coinbase: cbETH Token"
-  },
-  {
-    "address": "0xb2e6dbe3188a01ed94353ce039a91dbdbb655bd0",
-    "nameTag": "Crypto Base: CBS Token"
-  },
-  {
-    "address": "0x643b7b524ad0b10dfbbd56af718eb18163a0e089",
-    "nameTag": "Crypto Girl: Crypto Girl Token"
-  },
-  {
-    "address": "0x549e67f9ab2e870e3ba57e7ef9f56bbf82f8f493",
-    "nameTag": "Crypto Hunter: CH Token"
-  },
-  {
-    "address": "0x422e35f7033d83ae4351086606597dbfb1e83810",
-    "nameTag": "Cuan Swap: CuanSwap Token"
-  },
-  {
-    "address": "0xca72827a3d211cfd8f6b00ac98824872b72cab49",
-    "nameTag": "Cygnus Finance: cgUSD Token"
-  },
-  {
-    "address": "0x5ae84075f0e34946821a8015dab5299a00992721",
-    "nameTag": "Cygnus Finance: wcgUSD Token"
-  },
-  {
-    "address": "0x754fa2f31386f8afed6230011da955d0dbed53a5",
-    "nameTag": "DackiEGG: DackiEGG Token"
-  },
-  {
-    "address": "0xc2bc7a73613b9bd5f373fe10b55c59a69f4d617b",
-    "nameTag": "DackieSwap: DACKIE Token"
-  },
-  {
-    "address": "0x639c0d019c257966c4907bd4e68e3f349bb58109",
-    "nameTag": "DackieSwap: QUACK Token"
-  },
-  {
-    "address": "0x18c78a0b1fd00084c83e5b4365cddee1e6cdba84",
-    "nameTag": "DappGate by DappLabs: DLGATE Token"
-  },
-  {
-    "address": "0xc9cca8e570f81a7476760279b5b19cc1130b7580",
-    "nameTag": "DeeKay Motion - New Era ETH:  DeeKay  Token"
-  },
-  {
-    "address": "0xd064c53f043d5aee2ac9503b13ee012bf2def1d0",
-    "nameTag": "DeFido: DEFIDO Token"
-  },
-  {
-    "address": "0x356177b452dbae18b5a4b43b7b5324bfbae235be",
-    "nameTag": "DeFido: DFD Token"
-  },
-  {
-    "address": "0x4ed4e862860bed51a9570b96d89af5e1b0efefed",
-    "nameTag": "Degen: DEGEN Token"
-  },
-  {
-    "address": "0x4e0826efdeb7480ec91f6388de310450808c86c7",
-    "nameTag": "Deribet: BET Token"
-  },
-  {
-    "address": "0x5c3f47595fcc7b4d8c52ffd2b2b105e0d87bf360",
-    "nameTag": "Detto Finance: DETO Token"
-  },
-  {
-    "address": "0xde5ed76e7c05ec5e4572cfc88d1acea165109e44",
-    "nameTag": "DEUS Finance: DEUS Token"
-  },
-  {
-    "address": "0x469fda1fb46fcb4befc0d8b994b516bd28c87003",
-    "nameTag": "Dino Poker: RAWR Token"
-  },
-  {
-    "address": "0xbcf19453badf7c7ac0630b11dcb75d52b7eb8930",
-    "nameTag": "Doge Base: Dbase Token"
-  },
-  {
-    "address": "0x65043abbe020a72acf5bf0d0b265ee1875c96d2a",
-    "nameTag": "DogeHero: DogeHero Token"
-  },
-  {
-    "address": "0x6921b130d297cc43754afba22e5eac0fbf8db75b",
-    "nameTag": "doginme: doginme Token"
-  },
-  {
-    "address": "0x09417e6a6eb5cb69311cc2ca3ca10c7899f1a622",
-    "nameTag": "DOHCOIN: DOHCOIN Token"
-  },
-  {
-    "address": "0xf881f4da116149328248914d68fb029c04fdd284",
-    "nameTag": "Dolphin Coin: 69 Token"
-  },
-  {
-    "address": "0x85649b034abacc298743d8a3ed5605f8e6090d7e",
-    "nameTag": "Doodley Genesis Box: DGB Token"
-  },
-  {
-    "address": "0x4ef3fdac47319ecce7bd5b751f810abccad8d7b8",
-    "nameTag": "DreamCatcher's Quest: ZWISTOnChain Token"
-  },
-  {
-    "address": "0x5a01bdaa010938eb7615c63cb22cf3e94e8505df",
-    "nameTag": "DRODEC: DRODEC Token"
-  },
-  {
-    "address": "0x3c3aa127e6ee3d2f2e432d0184dd36f2d2076b52",
-    "nameTag": "Ducky City: DCE Token"
-  },
-  {
-    "address": "0x434769c82fb928150b87c4ae6320bf71f92dcca5",
-    "nameTag": "Eco: ECO Token"
-  },
-  {
-    "address": "0x4e0da40b9063dc48364c1c0ffb4ae9d091fc2270",
-    "nameTag": "Edgeware: EDG Token"
-  },
-  {
-    "address": "0x5bdbf78ed40a699575ce0a6574ebf43ecdce535a",
-    "nameTag": "Elegant Golden Art Deco: ELE Token"
-  },
-  {
-    "address": "0xa334884bf6b0a066d553d19e507315e839409e62",
-    "nameTag": "Ethos Reserve Note: ERN Token"
-  },
-  {
-    "address": "0x2dad3a13ef0c6366220f989157009e501e7938f8",
-    "nameTag": "Extra Finance: EXTRA Token"
-  },
-  {
-    "address": "0xaadc0c96565975b1ef0718b12358d99e03081df1",
-    "nameTag": "Fantasy Adventure Park: FAP Token"
-  },
-  {
-    "address": "0x74ccbe53f77b08632ce0cb91d3a545bf6b8e0979",
-    "nameTag": "Fantom Bomb: fBOMB Token"
-  },
-  {
-    "address": "0xbfdb5d8d1856b8617f1881fd718580256fa8cf35",
-    "nameTag": "Farcaster v3: $FRCV3 Token"
-  },
-  {
-    "address": "0x93e6407554b2f02640ab806cd57bd83e848ec65d",
-    "nameTag": "FarLaunch: FAR Token"
-  },
-  {
-    "address": "0x12345ad24808b228f7031de863d9bc006ca8ee48",
-    "nameTag": "Farmstrong's Farm: SEED Token"
-  },
-  {
-    "address": "0x07fde3ed7727c1d84171a6e5815964d50827cf69",
-    "nameTag": "FENIX: cbFENIX Token"
-  },
-  {
-    "address": "0x91f45aa2bde7393e0af1cc674ffe75d746b93567",
-    "nameTag": "FRAME: FRAME Token"
-  },
-  {
-    "address": "0xff0c532fdb8cd566ae169c1cb157ff2bdc83e105",
-    "nameTag": "Fren Pet: Fren Pet Token"
-  },
-  {
-    "address": "0x30b593f8c3ab37615359b4e0e6df2e06d55bb55d",
-    "nameTag": "FXDX: FXDX Token"
-  },
-  {
-    "address": "0xa617c0c739845b2941bd8edd05c9f993ecc97c18",
-    "nameTag": "GAMER: GMR Token"
-  },
-  {
-    "address": "0x580e933d90091b9ce380740e3a4a39c67eb85b4c",
-    "nameTag": "GameSwift DAO: GSWIFT Token"
-  },
-  {
-    "address": "0xe40da5b14733e69a8457dfa259c6ba5759bd928c",
-    "nameTag": "Glass Punk: GP Token"
-  },
-  {
-    "address": "0x4ff77748e723f0d7b161f90b4bc505187226ed0d",
-    "nameTag": "Gloom: GLOOM Token"
-  },
-  {
-    "address": "0xbefd5c25a59ef2c1316c5a4944931171f30cd3e4",
-    "nameTag": "GoldenBoys: GOLD Token"
-  },
-  {
-    "address": "0x2af864fb54b55900cd58d19c7102d9e4fa8d84a3",
-    "nameTag": "Grandbase: GB Token"
-  },
-  {
-    "address": "0x1f3ba804efb9cfe17d595e7262cea4782dbf6e4e",
-    "nameTag": "Happy Puppy Club: HPC Token"
-  },
-  {
-    "address": "0xd08a2917653d4e460893203471f0000826fb4034",
-    "nameTag": "Harvest Finance: FARM Token"
-  },
-  {
-    "address": "0x24fcfc492c1393274b6bcd568ac9e225bec93584",
-    "nameTag": "Heroes of Mavia: MAVIA Token"
-  },
-  {
-    "address": "0xc5102fe9359fd9a28f877a67e36b0f050d81a3cc",
-    "nameTag": "Hop Protocol: HOP Token"
-  },
-  {
-    "address": "0x081ad949defe648774c3b8debe0e4f28a80716dc",
-    "nameTag": "Horizondex: HZN Token"
-  },
-  {
-    "address": "0x227f81f5f697cdd9554a43bbab01d7a85b9466c1",
-    "nameTag": "I Was There, SZN1: SASSY Token"
-  },
-  {
-    "address": "0xe7798f023fc62146e8aa1b36da45fb70855a77ea",
-    "nameTag": "iFARM: iFARM Token"
-  },
-  {
-    "address": "0x39e261fa4fe1e0a6871f5443f813bdeb99bb30e4",
-    "nameTag": "Indian Foods: Indian_foods Token"
-  },
-  {
-    "address": "0x71f6b11b371de742c8c65d0ef9e8a0837a61e5da",
-    "nameTag": "INK: INK Token"
-  },
-  {
-    "address": "0x17d2628d30f8e9e966c9ba831c9b9b01ea8ea75c",
-    "nameTag": "ISKRA: ISK Token"
-  },
-  {
-    "address": "0x777b2839832982b35213063d850848369390ee16",
-    "nameTag": "Jarvis Network: JARVIS Token"
-  },
-  {
-    "address": "0x011ff409bc4803ec5cfab41c3fd1db99fd05c004",
-    "nameTag": "Kanaria: KANARIA Token"
-  },
-  {
-    "address": "0xabeb66fe3a8e7c8af3169d80d76efc42491cf995",
-    "nameTag": "Kasuki Akara: Kasuki Akara Token"
-  },
-  {
-    "address": "0x8797dd4fc432652bb6cfbdbc355e520546938230",
-    "nameTag": "KevinOnBase: KEVIN Token"
-  },
-  {
-    "address": "0x78f8142ea59ae08d81bc80b2fd415405628a48a0",
-    "nameTag": "KingDACKIE: KingDACKIE Token"
-  },
-  {
-    "address": "0xbe3111856e4aca828593274ea6872f27968c8dd6",
-    "nameTag": "KravTrade: KRAV Token"
-  },
-  {
-    "address": "0x4a7df51b67c29e8abb2136d7e5bf0043281173f9",
-    "nameTag": "KUJIKO: KUJIKO Token"
-  },
-  {
-    "address": "0x28fe69ff6864c1c218878bdca01482d36b9d57b1",
-    "nameTag": "KyberSwap: KNC Token"
-  },
-  {
-    "address": "0x0963a1abaf36ca88c21032b82e479353126a1c4b",
-    "nameTag": "LeetSwap: LEET Token"
-  },
-  {
-    "address": "0x6ffeeb2aa116549d4aec6adb7509a2234feaf105",
-    "nameTag": "LIFEBIRD: LIFEBIRD Token"
-  },
-  {
-    "address": "0xe3c5ef27b80481518a2363406e354a9361415556",
-    "nameTag": "Lil Based Nouns: LIL Token"
-  },
-  {
-    "address": "0x368181499736d0c0cc614dbb145e2ec1ac86b8c6",
-    "nameTag": "Liquity: LUSD Token"
-  },
-  {
-    "address": "0xd27cf8c023b832ba1e5543cb923a988ca3a154a2",
-    "nameTag": "LK99: LK99 Token"
-  },
-  {
-    "address": "0x9e724a1e5b7f6879662bd2a1fe77c1d0495bb4f2",
-    "nameTag": "LNRZ: $LNRZBASE Token"
-  },
-  {
-    "address": "0x57f5fbd3de65dfc0bd3630f732969e5fb97e6d37",
-    "nameTag": "Maga: TRUMP Token"
-  },
-  {
-    "address": "0x2dc1cda9186a4993bd36de60d08787c0c382bead",
-    "nameTag": "Magnate Finance: MAG Token"
-  },
-  {
-    "address": "0x50c5725949a6f0c72e6c4a641f24049a917db0cb",
-    "nameTag": "Maker: DAI Token"
-  },
-  {
-    "address": "0x6e51b3a19f114013e5dc09d0477a536c7e4e0207",
-    "nameTag": "Media Network: MEDIA Token"
-  },
-  {
-    "address": "0xae933a1c8a89ac5eda1f99e27857924cc69935e2",
-    "nameTag": "MegaForce Sentinel Cards: MFSCARD Token"
-  },
-  {
-    "address": "0x14cce53175021cf1ff8834be9872576aafbb6752",
-    "nameTag": "MemeCoinOnBase: BM Token"
-  },
-  {
-    "address": "0x8a5ad6ab0e908283a35ef4f600569d547a00982a",
-    "nameTag": "MemeRunWar: RUN Token"
-  },
-  {
-    "address": "0x9b896a7a37d39384acddb95e15224397cdc743cb",
-    "nameTag": "MERC: MERC Token"
-  },
-  {
-    "address": "0xf882c982a95f4d3e8187efe12713835406d11840",
-    "nameTag": "Merkly ONFT: MERK Token"
-  },
-  {
-    "address": "0xf077325ea3f1c593e09a9332956edae8b74ec8fd",
-    "nameTag": "METAMOB CARD: MOBCARD Token"
-  },
-  {
-    "address": "0xa125c207e0aa8dc0e1763d077ddf9ded7731abd9",
-    "nameTag": "MetaVapp: VAPP Token"
-  },
-  {
-    "address": "0x25f834dda4a7b7910db67ca83e4653209c041305",
-    "nameTag": "Mintify: $MNTFYSZN1 Token"
-  },
-  {
-    "address": "0xa17c574ab5c2eb04556d9fd7d2b3da22452fabcb",
-    "nameTag": "Mission Web 3: MW3 Token"
-  },
-  {
-    "address": "0xf6e932ca12afa26665dc4dde7e27be02a7c02e50",
-    "nameTag": "Mochi: MOCHI Token"
-  },
-  {
-    "address": "0x949bed087ff0241e04e98d807de3c3dd97eaa381",
-    "nameTag": "Mochimons: MOCHI Token"
-  },
-  {
-    "address": "0xfd008f937b4d73eeb00cf74ce90c392be5f07f96",
-    "nameTag": "Moon Inu: MOON Token"
-  },
-  {
-    "address": "0xff8adec2221f9f4d8dfbafa6b9a297d17603493d",
-    "nameTag": "Moonwell: WELL Token"
-  },
-  {
-    "address": "0x548f93779fbc992010c07467cbaf329dd5f059b7",
-    "nameTag": "Morphex: BMX Token"
-  },
-  {
-    "address": "0xe771b4e273df31b85d7a7ae0efd22fb44bdd0633",
-    "nameTag": "Morphex: MLP Token"
-  },
-  {
-    "address": "0x3ff7ab26f2dfd482c40bdadfc0e88d01bff79713",
-    "nameTag": "Morphex: oBMX Token"
-  },
-  {
-    "address": "0x64755939a80bc89e1d2d0f93a312908d348bc8de",
-    "nameTag": "Morphex: sBLP Token"
-  },
-  {
-    "address": "0x59d9356e565ab3a36dd77763fc0d87feaf85508c",
-    "nameTag": "Mountain Protocol: USDM Token"
-  },
-  {
-    "address": "0xea54283c59e76e658384f48037bb5857fc9511fd",
-    "nameTag": "MYSTCL: MYBH24 Token"
-  },
-  {
-    "address": "0x02c1f9fd3de3bd1b8c78884f7f9a2afd7395a6ac",
-    "nameTag": "MYSTCL: MYST Token"
-  },
-  {
-    "address": "0x9385d0f9633badd3d496a3d53dad305087020f37",
-    "nameTag": "MYSTCL: MYSTCL Token"
-  },
-  {
-    "address": "0x75ed58e1d029853231a9e9825f0035e0449fbafa",
-    "nameTag": "Mystery Box for Onchain Summer: CLASHMONMB Token"
-  },
-  {
-    "address": "0xdd893908dfeb1add69d90948c537943b8e4e4e95",
-    "nameTag": "N Mystery Box: NMB Token"
-  },
-  {
-    "address": "0x1f5ff9ab8430a42dd3fef8ae73c9c6337819f2a8",
-    "nameTag": "Nauru: NAU Token"
-  },
-  {
-    "address": "0x60359a0dd148b18d5cf1ddf8aa1916221ed0cbcd",
-    "nameTag": "Nether Fi: NFI Token"
-  },
-  {
-    "address": "0xc2106ca72996e49bbadcb836eec52b765977fd20",
-    "nameTag": "NFTEarth: NFTE Token"
-  },
-  {
-    "address": "0xbdb1a8772409a0c5eeb347060cbf4b41dd7b2c62",
-    "nameTag": "NFToshis: NFTOSHI Token"
-  },
-  {
-    "address": "0x13741c5df9ab03e7aa9fb3bf1f714551dd5a5f8a",
-    "nameTag": "Noggles: NOGS Token"
-  },
-  {
-    "address": "0x26dadd2b377c836418211f60b2eb723368ac430f",
-    "nameTag": "Nomis: Nomis Token"
-  },
-  {
-    "address": "0xb166e8b140d35d9d8226e40c09f757bac5a4d87d",
-    "nameTag": "Non-Playable Coin: NPC Token"
-  },
-  {
-    "address": "0x7f12d13b34f5f4f0a9449c16bcd42f0da47af200",
-    "nameTag": "Normie: NORMIE Token"
-  },
-  {
-    "address": "0x454c9ac1dfd5f0b4dd2887818be9624b26c848a4",
-    "nameTag": "Nouns HD: NHDB Token"
-  },
-  {
-    "address": "0x845598da418890a674cbaba26b70807af0c61dfe",
-    "nameTag": "OAK Community Currency: OAK Token"
-  },
-  {
-    "address": "0xc2b972f59a0af29437f4680361582a73427ec63c",
-    "nameTag": "OKOK Network: OKOK Token"
-  },
-  {
-    "address": "0xeb622cb9c7dd2a41b24b79a7eece6065bbd3fa0b",
-    "nameTag": "Oliswap: OLIS Token"
-  },
-  {
-    "address": "0xc48e605c7b722a57277e087a6170b9e227e5ac0a",
-    "nameTag": "OmniCat: OMNI Token"
-  },
-  {
-    "address": "0x061a883e8c2feffb4f3ea42046abd4be88e1333f",
-    "nameTag": "Omnichain Adventures: OMNIA2 Token"
-  },
-  {
-    "address": "0x328347562a09b04bd70d44169e6e087ba241a263",
-    "nameTag": "Onchain Autumn: OCA Token"
-  },
-  {
-    "address": "0xffb3132f24e8d531f4def5a5ebfef2ce5dd310e1",
-    "nameTag": "Onchain Summer Vibes with Jesse: OCSJ Token"
-  },
-  {
-    "address": "0x6cc23c12e2ae94258871f3f550e1f56c234089fa",
-    "nameTag": "Onchain Winter: OCw Token"
-  },
-  {
-    "address": "0x2411cb350c1edd46df2cd8554b209f2d18fd9a6e",
-    "nameTag": "Ostrich: Orich Token"
-  },
-  {
-    "address": "0x65a2508c429a6078a7bc2f7df81ab575bd9d9275",
-    "nameTag": "Overnight Finance: DAI+: DAI+ Token"
-  },
-  {
-    "address": "0xda3de145054ed30ee937865d31b500505c4bdfe7",
-    "nameTag": "Overnight Finance: USD+crvUSD-f Token"
-  },
-  {
-    "address": "0xb79dd08ea68a908a97220c76d19a6aa9cbde4376",
-    "nameTag": "Overnight: USD+ Token"
-  },
-  {
-    "address": "0x206571b68c66e1d112b74d65695043ad2b5f95d5",
-    "nameTag": "Parallel Alpha: LL Token"
-  },
-  {
-    "address": "0xf08d704dd8345a79629e17602b17cb1e2e0405d7",
-    "nameTag": "PayRue: PROPEL Token"
-  },
-  {
-    "address": "0x9a3b7959e998bf2b50ef1969067d623877050d92",
-    "nameTag": "Pepebutblue: PBB Token"
-  },
-  {
-    "address": "0x71e8f538f47397cd9a544041555cafc7a0ce9ae3",
-    "nameTag": "PerpBoost: BOOST Token"
-  },
-  {
-    "address": "0xbe92452bb46485af3308e6d77786bfbe3557808d",
-    "nameTag": "Phase: CASH Token"
-  },
-  {
-    "address": "0x332c9e3d8b2be913b21a539c19c33d60f9f64cce",
-    "nameTag": "Phase: CREDIT Token"
-  },
-  {
-    "address": "0x443f102ea65613d91365e1f5c37c21ed2144023a",
-    "nameTag": "Phase: zCASH Token"
-  },
-  {
-    "address": "0xc5c40b558d0b11562fa6635051a05df997700f8c",
-    "nameTag": "Pi 2.0 Renaissance: Pi2.0 Token"
-  },
-  {
-    "address": "0x3104c9c76a361b333f7b31ba1d08dd9b6021bc5d",
-    "nameTag": "PiraNFT: PiraNFT Token"
-  },
-  {
-    "address": "0x0654ef4a3a63f63984826f73693f1aa0bb17fdf2",
-    "nameTag": "PixeBots: PBT Token"
-  },
-  {
-    "address": "0xb26803943f2241640909116927fe0ea850403a92",
-    "nameTag": "Pixel Pins: PP Token"
-  },
-  {
-    "address": "0x23082dd85355b51bae42248c961e7f83486e7694",
-    "nameTag": "PlantBaseSwap: PLANT Token"
-  },
-  {
-    "address": "0x4a140b74714b2e93516213692ffa82b1d61f4e09",
-    "nameTag": "Plushy Brian: PLSHB Token"
-  },
-  {
-    "address": "0xfa980ced6895ac314e7de34ef1bfae90a5add21b",
-    "nameTag": "Prime Foundation: PRIME Token"
-  },
-  {
-    "address": "0x28ed8909de1b3881400413ea970cce377a004cca",
-    "nameTag": "Punk X: Punk Token"
-  },
-  {
-    "address": "0x4c5d8a75f3762c1561d96f177694f67378705e98",
-    "nameTag": "Pyth Network: PYTH Token"
-  },
-  {
-    "address": "0xafb2820316e7bc5ef78d295ab9b8bb2257534576",
-    "nameTag": "Raft: R Token"
-  },
-  {
-    "address": "0xa5b3fee253f9de67201dc8572bd2cbb4a81c1bec",
-    "nameTag": "Raft: RR Token"
-  },
-  {
-    "address": "0x703d57164ca270b0b330a87fd159cfef1490c0a5",
-    "nameTag": "RAI Finance: SOFI Token"
-  },
-  {
-    "address": "0x6171f829e107f70b58d67594c6b62a7d3eb7f23b",
-    "nameTag": "Rainbow World: RBWRLD Token"
-  },
-  {
-    "address": "0x06c4c7f8011fbfb6a9654ee4142532f9bb3c52b8",
-    "nameTag": "Ratsbase: RATS Token"
-  },
-  {
-    "address": "0x3421cc14f0e3822cf3b73c3a4bec2a1023b8d9cf",
-    "nameTag": "Rebase: Rebase Token"
-  },
-  {
-    "address": "0xcb327b99ff831bf8223cced12b1338ff3aa322ff",
-    "nameTag": "Reserve Protocol: bsdETH Token"
-  },
-  {
-    "address": "0x09188484e1ab980daef53a9755241d759c5b7d60",
-    "nameTag": "RigoBlock: GRG Token"
-  },
-  {
-    "address": "0x524d524b4c9366be706d3a90dcf70076ca037ae3",
-    "nameTag": "RMRK: RMRK Token"
-  },
-  {
-    "address": "0xb6fe221fe9eef5aba221c348ba20a1bf5e73624c",
-    "nameTag": "Rocket Pool: rETH Token"
-  },
-  {
-    "address": "0x6653dd4b92a0e5bf8ae570a98906d9d6fd2eec09",
-    "nameTag": "RocketSwap: RCKT Token"
-  },
-  {
-    "address": "0xdbf9f254c365abe4294884d1249c7a2388f70911",
-    "nameTag": "RST: RST0001-UAE-DUBAI-BAYZ BY DANUBE-01 Token"
-  },
-  {
-    "address": "0x645b00960dc352e699f89a81fc845c0c645231cf",
-    "nameTag": "Sablier: SAB-V2-LOCKUP-DYN Token"
-  },
-  {
-    "address": "0x6b9a46c8377f21517e65fa3899b3a9fab19d17f5",
-    "nameTag": "Sablier: SAB-V2-LOCKUP-LIN Token"
-  },
-  {
-    "address": "0xa71e7fd6dd7a6308d27e0d6717b7c15e9d24af90",
-    "nameTag": "Sadie: Sadie Token"
-  },
-  {
-    "address": "0x4a044194eaaacd87d79ed322dca2afc846c2a70d",
-    "nameTag": "Saw Moe World: SMW Token"
-  },
-  {
-    "address": "0x1c7a460413dd4e964f96d8dfc56e7223ce88cd85",
-    "nameTag": "Seamless Protocol: SEAM Token"
-  },
-  {
-    "address": "0xd0d1e44fc9adaeb732f73ffc2429cd1db9cd4529",
-    "nameTag": "Sipher: SIPHER Token"
-  },
-  {
-    "address": "0x4b80b05bb7d092e0af83ca582b091a4ca89b1500",
-    "nameTag": "Skate Boy: SBY Token"
-  },
-  {
-    "address": "0x2e833bf1c19719fea836434151f20902b00e991c",
-    "nameTag": "Skibidi Dop Dop: DOPDOP Token"
-  },
-  {
-    "address": "0x3c7503bd7d66c15e13cbc42953436e598d37c792",
-    "nameTag": "Slimesunday X BASE: SLIME Token"
-  },
-  {
-    "address": "0xfd4330b0312fdeec6d4225075b82e00493ff2e3f",
-    "nameTag": "SmarDex: SDEX Token"
-  },
-  {
-    "address": "0x22dc834c3ff3e45f484bf24b9b07b851b981900f",
-    "nameTag": "Smudge Cat: SMUDCAT Token"
-  },
-  {
-    "address": "0x65762d12b3b9cec99951b279118fbbfd9cd50ae9",
-    "nameTag": "SORA AI: SORA AI Token"
-  },
-  {
-    "address": "0x430c67ed118f0637ffe74c98e9b90919c93b7233",
-    "nameTag": "SQUID Game: SQUID Token"
-  },
-  {
-    "address": "0xfdcc3dd6671eab0709a4c0f3f53de9a333d80798",
-    "nameTag": "Stable Coin: SBC Token"
-  },
-  {
-    "address": "0xc19669a405067927865b40ea045a2baabbbe57f5",
-    "nameTag": "Star: STAR Token"
-  },
-  {
-    "address": "0xe3b53af74a4bf62ae5511055290838050bf764df",
-    "nameTag": "Stargate: STG Token"
-  },
-  {
-    "address": "0xdadc4f8e9d8d37294de0e02a2ce8cc0c90a4f6c2",
-    "nameTag": "Starter: BUIDL Token"
-  },
-  {
-    "address": "0x433a61c4ec29a7cb09d0d30cda59e7bd975b8d43",
-    "nameTag": "StartOnBase: BUIDL Token"
-  },
-  {
-    "address": "0x858c50c3af1913b0e849afdb74617388a1a5340d",
-    "nameTag": "SubQuery Network: SQT Token"
-  },
-  {
-    "address": "0xd07379a755a8f11b57610154861d694b2a0f615a",
-    "nameTag": "SwapBased: BASE Token"
-  },
-  {
-    "address": "0x2974dc646e375e83bd1c0342625b49f288987fa4",
-    "nameTag": "Swarm Markets: SMT Token"
-  },
-  {
-    "address": "0x22e6966b799c4d5b13be962e1d117b56327fda66",
-    "nameTag": "Synthetix: SNX Token"
-  },
-  {
-    "address": "0xbd2dbb8ecea9743ca5b16423b4eaa26bdcfe5ed2",
-    "nameTag": "Synthswap: SYNTH Token"
-  },
-  {
-    "address": "0x01cc6b33c63cee896521d63451896c14d42d05ea",
-    "nameTag": "Synthswap: xSYNTH Token"
-  },
-  {
-    "address": "0x236aa50979d5f3de3bd1eeb40e81137f22ab794b",
-    "nameTag": "tBTC: tBTC Token"
-  },
-  {
-    "address": "0x5e42c17caeab64527d9d80d506a3fe01179afa02",
-    "nameTag": "Tetu: TETU Token"
-  },
-  {
-    "address": "0xf34e0cff046e154cafcae502c7541b9e5fd8c249",
-    "nameTag": "Thales: THALES Token"
-  },
-  {
-    "address": "0xafb89a09d82fbde58f18ac6437b3fc81724e4df6",
-    "nameTag": "The Doge NFT: DOG Token"
-  },
-  {
-    "address": "0x2ad8d56c61f2fd8d5ad7a7d2eb3fcdd09ef5d611",
-    "nameTag": "The Rufus Art: TRA Token"
-  },
-  {
-    "address": "0x798acf1bd6e556f0c3cd72e77b3d169d26a28ab5",
-    "nameTag": "Throne: OATH Token"
-  },
-  {
-    "address": "0xa9d2baa602d09c04c42a5a98260916e16e1d5553",
-    "nameTag": "TikCollect: TIK Token"
-  },
-  {
-    "address": "0xf0d0df7142f60f7f3847463a509fd8969e3e3a27",
-    "nameTag": "Tiny based frogs: TINYFROG Token"
-  },
-  {
-    "address": "0x78b3c724a2f663d11373c4a1978689271895256f",
-    "nameTag": "Token Name Service: TKN Token"
-  },
-  {
-    "address": "0x00e57ec29ef2ba7df07ad10573011647b2366f6d",
-    "nameTag": "Toshe: TOSHE Token"
-  },
-  {
-    "address": "0xac1bd2486aaf3b5c0fc3fd868558b082a531b2b4",
-    "nameTag": "Toshi: TOSHI Token"
-  },
-  {
-    "address": "0xf7c1cefcf7e1dd8161e00099facd3e1db9e528ee",
-    "nameTag": "Tower: TOWER Token"
-  },
-  {
-    "address": "0x67ac031540320886f2706f3e8e680919d7f547a1",
-    "nameTag": "Troves: TROVES Token"
-  },
-  {
-    "address": "0x723d1b30a63db9bd5114f313d6827e32628a3031",
-    "nameTag": "Turbo Trump: PRESI Token"
-  },
-  {
-    "address": "0x6b4712ae9797c199edd44f897ca09bc57628a1cf",
-    "nameTag": "UniDex: UNIDX Token"
-  },
-  {
-    "address": "0xa23dd9379f2e12d9ce76ec738b9f5e520d1d861c",
-    "nameTag": "USDEBT: USDEBT Token"
-  },
-  {
-    "address": "0x8129b94753f22ec4e62e2c4d099ffe6773969ebc",
-    "nameTag": "Vex Aeterna: VEX Token"
-  },
-  {
-    "address": "0x025f99977db78317a4eba606998258b502bb256f",
-    "nameTag": "VeyronPEPE: VPPE Token"
-  },
-  {
-    "address": "0xdcf5130274753c8050ab061b1a1dcbf583f5bfd0",
-    "nameTag": "ViciCoin: VCNT Token"
-  },
-  {
-    "address": "0x60fdc8b26b4de4d83833347852904b40dfe3e596",
-    "nameTag": "Vurjin: VURJIN Token"
-  },
-  {
-    "address": "0x2a0304bb9dd8f50ec04c483ddaa8d586eae0a2ff",
-    "nameTag": "Wagon Network: WAG Token"
-  },
-  {
-    "address": "0xa067436db77ab18b1a315095e4b816791609897c",
-    "nameTag": "WASSIE: WASSIE Token"
-  },
-  {
-    "address": "0xe8f9a9229a7d572aa7f6eda8902e8ba7718aab59",
-    "nameTag": "Watcher Editions: MaxKulchinskyOnChain Token"
-  },
-  {
-    "address": "0x8448860bff06fb2f942270402a4a846b864abd92",
-    "nameTag": "WebHash: Hash Token"
-  },
-  {
-    "address": "0x4e74d4db6c0726ccded4656d0bce448876bb4c7a",
-    "nameTag": "Wrapped BMX Liquidity: wBLT Token"
-  },
-  {
-    "address": "0x4200000000000000000000000000000000000006",
-    "nameTag": "Wrapped Ether"
-  },
-  {
-    "address": "0x379002701bf6f2862e3dfdd1f96d3c5e1bf450b6",
-    "nameTag": "Xen Crypto: cbXENT Token"
-  },
-  {
-    "address": "0x9eaf8c1e34f05a589eda6bafdf391cf6ad3cb239",
-    "nameTag": "Yearn: YFI Token"
-  },
-  {
-    "address": "0x04f48d746d27837789fddb4b641d41493aa18f35",
-    "nameTag": "YEET: YEET Token"
-  },
-  {
-    "address": "0x0fa70e156cd3b03ac4080bfe55bd8ab50f5bcb98",
-    "nameTag": "YOU Protocol: YOU Token"
-  },
-  {
-    "address": "0x382bf880d4046231a90b834ada54931899dd1c5f",
-    "nameTag": "Yum Yum: YUMY Token"
-  },
-  {
-    "address": "0xe541acbcf8a94f9b70b5f52dde46727f645a2ec5",
-    "nameTag": "YumBucks: YUMBUCKS Token"
-  },
-  {
-    "address": "0xd1db4851bcf5b41442caa32025ce0afe6b8eabc2",
-    "nameTag": "Zoomer Coin: ZOOMER Token"
-  }
-]
+{
+  "lastPulled": "2024-04-02T20:55:17.647Z",
+  "data": [
+    {
+      "address": "0x1bd0c36fa7bc04301bce905c7eb40fccb86c3f98",
+      "nameTag": ""
+    },
+    {
+      "address": "0x7bc401227777f173ff871993b198a8632741b9bb",
+      "nameTag": ""
+    },
+    {
+      "address": "0xc5b835bd38ce57960d817162ee682836da489feb",
+      "nameTag": ""
+    },
+    {
+      "address": "0xdc46c1e93b71ff9209a0f8076a9951569dc35855",
+      "nameTag": ""
+    },
+    {
+      "address": "0xebcec2e959bad4137925f9ddb68e163cca72242b",
+      "nameTag": ""
+    },
+    {
+      "address": "0x3f14920c99beb920afa163031c4e47a3e03b3e4a",
+      "nameTag": "/send: send Token"
+    },
+    {
+      "address": "0x5519dc53d698ce6b9eefc71efc454e4b269307b9",
+      "nameTag": "1337 Brians: 1337BRIAN Token"
+    },
+    {
+      "address": "0xcf3d55c10db69f28fd1a75bd73f3d8a2d9c595ad",
+      "nameTag": "Aave: aBascbETH Token"
+    },
+    {
+      "address": "0x0a1d576f3efef75b330424287a95a366e8281d54",
+      "nameTag": "Aave: aBasUSDbC Token"
+    },
+    {
+      "address": "0xd4a0e0b9149bcee3c920d2e00b5de09138fd8bb7",
+      "nameTag": "Aave: aBasWETH Token"
+    },
+    {
+      "address": "0x4a3a6dd60a34bb2aba60d73b4c88315e9ceb6a3d",
+      "nameTag": "Abracadabra Money: MIM Token"
+    },
+    {
+      "address": "0x940181a94a35a4569e4529a3cdfb74e38fd98631",
+      "nameTag": "Aerodrome: AERO Token"
+    },
+    {
+      "address": "0x1dd2d631c92b1acdfcdd51a0f7145a50130050c4",
+      "nameTag": "AlienBase: ALB Token"
+    },
+    {
+      "address": "0x7ed613ab8b2b4c6a781ddc97ea98a666c6437511",
+      "nameTag": "All Your Base: AYB Token"
+    },
+    {
+      "address": "0xa61beb4a3d02decb01039e378237032b351125b4",
+      "nameTag": "Angle Protocol: agEUR Token"
+    },
+    {
+      "address": "0x33ed5107f821bb1465da30b7dce4fb7105b0ad16",
+      "nameTag": "Anotherblock: AB10001 Token"
+    },
+    {
+      "address": "0x0c664a85521d5721bca047d29238d9e2a9e9e861",
+      "nameTag": "Anotherblock: AB10002 Token"
+    },
+    {
+      "address": "0x2598c30330d5771ae9f983979209486ae26de875",
+      "nameTag": "Any Inu: AI Token"
+    },
+    {
+      "address": "0x2cee3bcdfa6de96d200c6d93ddb70731fb5fac4f",
+      "nameTag": "Armstonk: ARMSTONK Token"
+    },
+    {
+      "address": "0x97c806e7665d3afd84a8fe1837921403d59f3dcc",
+      "nameTag": "Artificial Liquid Intelligence: ALI Token"
+    },
+    {
+      "address": "0xf47a95bf421c2349de30a465a0d54f95ee79920b",
+      "nameTag": "Atari Summer Camp: ASC72 Token"
+    },
+    {
+      "address": "0xf05ff3689a635d13d005a54c56a3e85a183516b5",
+      "nameTag": "Atsuland Base: ATSB Token"
+    },
+    {
+      "address": "0x1509706a6c66ca549ff0cb464de88231ddbe213b",
+      "nameTag": "Aura: AURA Token"
+    },
+    {
+      "address": "0x1628d1d2cf4a9b64295c4b420ec346477fde430d",
+      "nameTag": "Autotronic: ATRN Token"
+    },
+    {
+      "address": "0xd9b6828dd59af3199f5b70e7651fe60b2e51d90a",
+      "nameTag": "AuxSneak: AS Token"
+    },
+    {
+      "address": "0x23ee2343b892b1bb63503a4fabc840e0e2c6810f",
+      "nameTag": "Axelar: AXL Token"
+    },
+    {
+      "address": "0xec7acba6fedb7ebfbc0f44f8f0bc6fc39543e28a",
+      "nameTag": "AxioDex: AXN Token"
+    },
+    {
+      "address": "0xa1a745cbcaf11bad6e5ea4e2c4cc59dd116bb670",
+      "nameTag": "Baby Punk Base: BABYPUNK Token"
+    },
+    {
+      "address": "0x2f123cf3f37ce3328cc9b5b8415f9ec5109b45e7",
+      "nameTag": "Backed: bC3M Token"
+    },
+    {
+      "address": "0xbbcb0356bb9e6b3faa5cbf9e5f36185d53403ac9",
+      "nameTag": "Backed: bCOIN Token"
+    },
+    {
+      "address": "0x20c64dee8fda5269a78f2d5bdba861ca1d83df7a",
+      "nameTag": "Backed: bHIGH Token"
+    },
+    {
+      "address": "0xca30c93b02514f86d5c86a6e375e3a330b435fb5",
+      "nameTag": "Backed: bIB01 Token"
+    },
+    {
+      "address": "0x52d134c6db5889fad3542a09eaf7aa90c0fdf9e4",
+      "nameTag": "Backed: bIBTA Token"
+    },
+    {
+      "address": "0x2f11eeee0bf21e7661a22dbbbb9068f4ad191b86",
+      "nameTag": "Backed: bNIU Token"
+    },
+    {
+      "address": "0x4158734d47fc9692176b5085e0f52ee0da5d47f1",
+      "nameTag": "Balancer: BAL Token"
+    },
+    {
+      "address": "0x27d2decb4bfc9c76f0309b8e88dec3a601fe25a8",
+      "nameTag": "Bald: BALD Token"
+    },
+    {
+      "address": "0x1443cbca252d1ffae56b4ee4cc904e9554e2f6ad",
+      "nameTag": "baldcat: baldcat Token"
+    },
+    {
+      "address": "0xbaa1f7360de42cc21c5892a9b2d172ca0443bd95",
+      "nameTag": "Barry The Bear: BARRY Token"
+    },
+    {
+      "address": "0x4acc81dc9c03e5329a2c19763a1d10ba9308339f",
+      "nameTag": "Base Baboon: $BOON Token"
+    },
+    {
+      "address": "0x5d9903f739df0fd6550e28b9cbb3be5b01defaa0",
+      "nameTag": "Base Ball Lotto: BALL Token"
+    },
+    {
+      "address": "0x0c82244908fe3f4e1f5cb85f8ce71572b604b534",
+      "nameTag": "Base Boobies: BBS Token"
+    },
+    {
+      "address": "0xf352b358e9fcd543132ae98cb1447ca2bc443d98",
+      "nameTag": "Base Brigade: BB Token"
+    },
+    {
+      "address": "0x7d5861cfe1c74aaa0999b7e2651bf2ebd2a62d89",
+      "nameTag": "Base Day One: $BASEDAYONE Token"
+    },
+    {
+      "address": "0x63a5a69a51636bb833b529bb153abbd4f775fbab",
+      "nameTag": "Base Doge Club: BDC Token"
+    },
+    {
+      "address": "0x6b009dc3a4b7fd894d355b9719068f75d7296b98",
+      "nameTag": "Base Floki: BaseFloki Token"
+    },
+    {
+      "address": "0x0d97f261b1e88845184f678e2d1e7a98d9fd38de",
+      "nameTag": "Base God: TYBG Token"
+    },
+    {
+      "address": "0x2d53d0545cd1275b69040e3c50587e2cc4443a52",
+      "nameTag": "Base Gods: BG Token"
+    },
+    {
+      "address": "0x63e71271719f03d7233f4fa306b6ea868d0f52ff",
+      "nameTag": "Base Inu: BINU Token"
+    },
+    {
+      "address": "0xbd9bab0a97b2cc6aa28b9c902d7c656b121d5f9f",
+      "nameTag": "Base Name Service:  Token"
+    },
+    {
+      "address": "0xc5bebd5a6ae6be4fcf383eea014fb1dbd43789ca",
+      "nameTag": "Base Name Service: BNS Token"
+    },
+    {
+      "address": "0xcd1dec0519d635695b1a6c6c6333900ae14817d4",
+      "nameTag": "Base of Women: BOW Token"
+    },
+    {
+      "address": "0x1668b2f3131150efb0dd7c1f2a827ec71bfda99a",
+      "nameTag": "Base Parody: PBASE Token"
+    },
+    {
+      "address": "0x58c385854294f0347242cf2ec227122928cd5b23",
+      "nameTag": "BASE Party: $PARTY Token"
+    },
+    {
+      "address": "0x5064f016c073f3d8b43a2b48cf87ce3904e7790d",
+      "nameTag": "Base Punks: BP Token"
+    },
+    {
+      "address": "0xbe19054f5e4dce3c34763eb5d629d666b88c8363",
+      "nameTag": "Base Simpsons Punks: BSP Token"
+    },
+    {
+      "address": "0xda43f9a572b5f8803fec3a8c548d9c7610136bc1",
+      "nameTag": "Base Summer Play Bone: Playbone Token"
+    },
+    {
+      "address": "0xb29ebe1426da861dbf76104acc839ea576195aad",
+      "nameTag": "Base Summer:  Token"
+    },
+    {
+      "address": "0x1c65e144ff1de86638c6cd7ff33ff9c4dede0396",
+      "nameTag": "Base Voyage: BV Token"
+    },
+    {
+      "address": "0x34e817d631b7fb79a54638c01c03421d124e35a7",
+      "nameTag": "Base Wars: $BASEFINI Token"
+    },
+    {
+      "address": "0xa73fab6e612aaf9125bf83a683aadcdd6511d3f0",
+      "nameTag": "Base3D: B3D Token"
+    },
+    {
+      "address": "0xea2a41c02fa86a4901826615f9796e603c6a4491",
+      "nameTag": "Base: BRIDGETOBASE Token"
+    },
+    {
+      "address": "0xd9aaec86b65d86f6a7b5b1b0c42ffa531710b6ca",
+      "nameTag": "Base: USDbC Token"
+    },
+    {
+      "address": "0xd5b70ed3f2ba01bfaaa3beb09e31fe11f833b85f",
+      "nameTag": "Based Baby: BBB Token"
+    },
+    {
+      "address": "0xd473475958d4c1538418224a52e5c0a6c997835a",
+      "nameTag": "Based Brians: CAP Token"
+    },
+    {
+      "address": "0xae431537c1c774fb6c385db67d47dd6bfbe547b6",
+      "nameTag": "Based Doodle Punks: DPUNKS Token"
+    },
+    {
+      "address": "0x217ec1ac929a17481446a76ff9b95b9a64f298cf",
+      "nameTag": "Based Fellas: FELLAS Token"
+    },
+    {
+      "address": "0xa1cf010795f8ef2b431544181f280038f865ac14",
+      "nameTag": "Based Lobo: LOBO Token"
+    },
+    {
+      "address": "0x32cff5c2a7233097efe3e8dc708d1df141780d69",
+      "nameTag": "Based Management:  Token"
+    },
+    {
+      "address": "0xba5e6fa2f33f3955f0cef50c63dcc84861eab663",
+      "nameTag": "Based Markets: BASED Token"
+    },
+    {
+      "address": "0x7d1b04f97dda1fddf0ad9ef5a606e4a956261ac8",
+      "nameTag": "Based Money Finance: BASED Token"
+    },
+    {
+      "address": "0xfbad1e6006d416fc27454da7aef90b753c212205",
+      "nameTag": "Based Mutants: MUTANTS Token"
+    },
+    {
+      "address": "0xd4c5292b9689238f0a51c8505b1d1d6714ce95a0",
+      "nameTag": "Based OnChain Dinos: DINO Token"
+    },
+    {
+      "address": "0x0c71b2fadd2c7354452a7902a174ebaafb29ee2e",
+      "nameTag": "Based Orc Club: BOC Token"
+    },
+    {
+      "address": "0xc9b28a3606fe2127fae69f5415941fb44f3b1a10",
+      "nameTag": "Based Pepunks: BPE Token"
+    },
+    {
+      "address": "0xc16706ae5eed1805990d92241add1662724e50f2",
+      "nameTag": "Based Rekt Chickens: RC Token"
+    },
+    {
+      "address": "0xfea9dcdc9e23a9068bf557ad5b186675c61d33ea",
+      "nameTag": "Based ShibaInu: BSHIB Token"
+    },
+    {
+      "address": "0xbc45647ea894030a4e9801ec03479739fa2485f0",
+      "nameTag": "Basenji: BENJI Token"
+    },
+    {
+      "address": "0xba5e05cb26b78eda3a2f8e3b3814726305dcac83",
+      "nameTag": "BasePaint:  Token"
+    },
+    {
+      "address": "0x647fc2d8b7587b036a93a98d6612a9ecefd3cb88",
+      "nameTag": "BaseSwap: BASE Token"
+    },
+    {
+      "address": "0x78a087d713be963bf307b18f2ff8122ef9a63ae9",
+      "nameTag": "BaseSwap: BSWAP Token"
+    },
+    {
+      "address": "0xfa7f2e933c09cd113ef6e72b76d61fb4b27496a1",
+      "nameTag": "Basetama: BTAMA Token"
+    },
+    {
+      "address": "0xa6804ff5b8d072df150794a9dd60ffb9982b1c96",
+      "nameTag": "BaseTim: BTIM Token"
+    },
+    {
+      "address": "0xb3ce4ce692e035720b25880f678871cfc5a863ca",
+      "nameTag": "BaseTools: BASE Token"
+    },
+    {
+      "address": "0xf45116c2e5be608152ea8a6a73917dfe75b707dc",
+      "nameTag": "BaseYield: BAY Token"
+    },
+    {
+      "address": "0x9e53e88dcff56d3062510a745952dec4cefdff9e",
+      "nameTag": "Basic Dog Meme: DOG Token"
+    },
+    {
+      "address": "0x4a6681ba459358c94c86b56c85130f8f8bf4f8f4",
+      "nameTag": "Basicland:  Token"
+    },
+    {
+      "address": "0x7ccdba6198db389cf37b714fd6573b73f3670236",
+      "nameTag": "Basket: BSKT Token"
+    },
+    {
+      "address": "0x76be4f63efd2a0ba1c949b8b430413e64c59806a",
+      "nameTag": "BASU: BASU Token"
+    },
+    {
+      "address": "0x16ee4c68bca85c1fd11017aa19d2f11f2d8bb4aa",
+      "nameTag": "BBMX: BBMX Token"
+    },
+    {
+      "address": "0x99aefb8815690efff7e306f735a9d95321f48ca6",
+      "nameTag": "Beba: BEBA Token"
+    },
+    {
+      "address": "0xad1c24de53fad18270d5c99026302e989d212b41",
+      "nameTag": "Berd: BERD Token"
+    },
+    {
+      "address": "0x94025780a1ab58868d9b2dbbb775f44b32e8e6e5",
+      "nameTag": "BetSwirl: BETS Token"
+    },
+    {
+      "address": "0x6324065012b16da37aa4086edb49aa9d3754e691",
+      "nameTag": "Bitcoin BR: BTCBR Token"
+    },
+    {
+      "address": "0xe7ea0cf2294ff4f6a68e5eb4dec36ccf1c341cd2",
+      "nameTag": "Bitphotos Base: BB Token"
+    },
+    {
+      "address": "0x3aeefb243e7b1100ee9e9c61ca4a2d038b1db1e6",
+      "nameTag": "Bitzy: BITZ Token"
+    },
+    {
+      "address": "0xece7b98bd817ee5b1f2f536daf34d0b6af8bb542",
+      "nameTag": "Black Rock: ROCK Token"
+    },
+    {
+      "address": "0x347f500323d51e9350285daf299ddb529009e6ae",
+      "nameTag": "Blerf: BLERF Token"
+    },
+    {
+      "address": "0x142592f9e9a9cdea6c1167ffceae0fcfb3e7ea97",
+      "nameTag": "Bluecore Labs: BCOR Token"
+    },
+    {
+      "address": "0x4e496c0256fb9d4cc7ba2fdf931bc9cbb7731660",
+      "nameTag": "BOGE: BOGE Token"
+    },
+    {
+      "address": "0x891867d752186fc7c3a228f33e24cb73eb4e959b",
+      "nameTag": "Bojak: BOJAK Token"
+    },
+    {
+      "address": "0x5698bba26d8668d781cdcfd2d6d6881226dd0f52",
+      "nameTag": "Bool On Base: BOOL Token"
+    },
+    {
+      "address": "0x22614e240da46d9950e364392a42cc2b9ac7312e",
+      "nameTag": "Boshi Finance: BOSHI Token"
+    },
+    {
+      "address": "0xa7d68d155d17cb30e311367c2ef1e82ab6022b67",
+      "nameTag": "Braintrust: BTRST Token"
+    },
+    {
+      "address": "0x532f27101965dd16442e59d40670faf5ebb142e4",
+      "nameTag": "Brett: BRETT Token"
+    },
+    {
+      "address": "0x06bfb0b59fd7f0436135cc7c168f31826c9178db",
+      "nameTag": "Brian Wif Hat: BIF Token"
+    },
+    {
+      "address": "0x84d016e15c7bb18e8173c0ba0e89ca541426a3a4",
+      "nameTag": "Brianbun: BRIBU Token"
+    },
+    {
+      "address": "0xea58018f5237e3eeae9ed8a2e7e462cefb9bdcdd",
+      "nameTag": "Brianwifhat: BWIF Token"
+    },
+    {
+      "address": "0xddb293bb5c5258f7484a94a0fbd5c8b2f6e4e376",
+      "nameTag": "Brickken: BKN Token"
+    },
+    {
+      "address": "0xeb466342c4d449bc9f53a865d5cb90586f405215",
+      "nameTag": "Bridged USD Coin: axlUSDC Token"
+    },
+    {
+      "address": "0xf95e1ad715919a2a35da44002a439f04888cf1f2",
+      "nameTag": "Brien Cup: Brien Cup Token"
+    },
+    {
+      "address": "0x8c81b4c816d66d36c4bf348bdec01dbcbc70e987",
+      "nameTag": "Briun Armstrung: BRIUN Token"
+    },
+    {
+      "address": "0x7157bd49f14835a412f1331d7c1e7f05ae54db85",
+      "nameTag": "Buddha Coin: Buddha Token"
+    },
+    {
+      "address": "0xca34cf1cb2808a060ea57c5bce4cd450138a0287",
+      "nameTag": "Buff Doge Coin Base: DOGECOIN Token"
+    },
+    {
+      "address": "0xc1b6844d5134c8e550043f01ffbf49ca66efc77f",
+      "nameTag": "BULLSClub: BULL Token"
+    },
+    {
+      "address": "0x8dcb20a4cb69c6a4b5f61ff3a62c8fbc4312e25c",
+      "nameTag": "BunyWifCake: PANCAKE Token"
+    },
+    {
+      "address": "0xe095780ba2a64a4efa7a74830f0b71656f0b0ad4",
+      "nameTag": "Byte: BYTE Token"
+    },
+    {
+      "address": "0x1c557c68d193208f5dbc8f3bc408de1b041a1449",
+      "nameTag": "Caricatured Kitties: CKC Token"
+    },
+    {
+      "address": "0x64cc19a52f4d631ef5be07947caba14ae00c52eb",
+      "nameTag": "Cat Town: KIBBLE Token"
+    },
+    {
+      "address": "0x15e57847c5eee553e0eaa247de0dffef28dd68eb",
+      "nameTag": "Catalog Cosigns: Cosigns Token"
+    },
+    {
+      "address": "0xd8181697d1eb1a9ea4158fd72d3e61d815a501a1",
+      "nameTag": "CharmingCrypto: CC Token"
+    },
+    {
+      "address": "0x0cbd6fadcf8096cc9a43d90b45f65826102e3ece",
+      "nameTag": "CheckDot: CDT Token"
+    },
+    {
+      "address": "0x833589fcd6edb6e08f4c7c32d4f71b54bda02913",
+      "nameTag": "Circle: USDC Token"
+    },
+    {
+      "address": "0x9252384e10ba6beae1a52dbb2a3beca2592268d9",
+      "nameTag": "ClashMon:Ignition: Torch Token"
+    },
+    {
+      "address": "0x17d8217c0f4b4742aaace053281f42eb05ab211d",
+      "nameTag": "CloudBase: CLOUD Token"
+    },
+    {
+      "address": "0x35d545a52a8dd6abb588292ea6b7b9cb3898b53b",
+      "nameTag": "Cloudbit Classic: CDBC Token"
+    },
+    {
+      "address": "0x2ae3f1ec7f1f5012cfeab0185bfc7aa3cf0dec22",
+      "nameTag": "Coinbase: cbETH Token"
+    },
+    {
+      "address": "0xb2e6dbe3188a01ed94353ce039a91dbdbb655bd0",
+      "nameTag": "Crypto Base: CBS Token"
+    },
+    {
+      "address": "0x643b7b524ad0b10dfbbd56af718eb18163a0e089",
+      "nameTag": "Crypto Girl: Crypto Girl Token"
+    },
+    {
+      "address": "0x549e67f9ab2e870e3ba57e7ef9f56bbf82f8f493",
+      "nameTag": "Crypto Hunter: CH Token"
+    },
+    {
+      "address": "0x422e35f7033d83ae4351086606597dbfb1e83810",
+      "nameTag": "Cuan Swap: CuanSwap Token"
+    },
+    {
+      "address": "0x417ac0e078398c154edfadd9ef675d30be60af93",
+      "nameTag": "Curve.fi: crvUSD Token"
+    },
+    {
+      "address": "0xf9b4647a98f7d8e6a8a3486687c6fffe79e9c68e",
+      "nameTag": "Cyber Duck: CDUK Token"
+    },
+    {
+      "address": "0xca72827a3d211cfd8f6b00ac98824872b72cab49",
+      "nameTag": "Cygnus Finance: cgUSD Token"
+    },
+    {
+      "address": "0x5ae84075f0e34946821a8015dab5299a00992721",
+      "nameTag": "Cygnus Finance: wcgUSD Token"
+    },
+    {
+      "address": "0x754fa2f31386f8afed6230011da955d0dbed53a5",
+      "nameTag": "DackiEGG: DackiEGG Token"
+    },
+    {
+      "address": "0xc2bc7a73613b9bd5f373fe10b55c59a69f4d617b",
+      "nameTag": "DackieSwap: DACKIE Token"
+    },
+    {
+      "address": "0x639c0d019c257966c4907bd4e68e3f349bb58109",
+      "nameTag": "DackieSwap: QUACK Token"
+    },
+    {
+      "address": "0x18c78a0b1fd00084c83e5b4365cddee1e6cdba84",
+      "nameTag": "DappGate by DappLabs: DLGATE Token"
+    },
+    {
+      "address": "0xc9cca8e570f81a7476760279b5b19cc1130b7580",
+      "nameTag": "DeeKay Motion - New Era ETH:  DeeKay  Token"
+    },
+    {
+      "address": "0xd064c53f043d5aee2ac9503b13ee012bf2def1d0",
+      "nameTag": "DeFido: DEFIDO Token"
+    },
+    {
+      "address": "0x356177b452dbae18b5a4b43b7b5324bfbae235be",
+      "nameTag": "DeFido: DFD Token"
+    },
+    {
+      "address": "0x4ed4e862860bed51a9570b96d89af5e1b0efefed",
+      "nameTag": "Degen: DEGEN Token"
+    },
+    {
+      "address": "0x4e0826efdeb7480ec91f6388de310450808c86c7",
+      "nameTag": "Deribet: BET Token"
+    },
+    {
+      "address": "0x5c3f47595fcc7b4d8c52ffd2b2b105e0d87bf360",
+      "nameTag": "Detto Finance: DETO Token"
+    },
+    {
+      "address": "0xde5ed76e7c05ec5e4572cfc88d1acea165109e44",
+      "nameTag": "DEUS Finance: DEUS Token"
+    },
+    {
+      "address": "0x469fda1fb46fcb4befc0d8b994b516bd28c87003",
+      "nameTag": "Dino Poker: RAWR Token"
+    },
+    {
+      "address": "0x29f933645f8086719236825a28d04d8a055d98db",
+      "nameTag": "DLTPAY: DLTP Token"
+    },
+    {
+      "address": "0xbcf19453badf7c7ac0630b11dcb75d52b7eb8930",
+      "nameTag": "Doge Base: Dbase Token"
+    },
+    {
+      "address": "0x65043abbe020a72acf5bf0d0b265ee1875c96d2a",
+      "nameTag": "DogeHero: DogeHero Token"
+    },
+    {
+      "address": "0x6921b130d297cc43754afba22e5eac0fbf8db75b",
+      "nameTag": "doginme: doginme Token"
+    },
+    {
+      "address": "0x09417e6a6eb5cb69311cc2ca3ca10c7899f1a622",
+      "nameTag": "DOHCOIN: DOHCOIN Token"
+    },
+    {
+      "address": "0xf881f4da116149328248914d68fb029c04fdd284",
+      "nameTag": "Dolphin Coin: 69 Token"
+    },
+    {
+      "address": "0x85649b034abacc298743d8a3ed5605f8e6090d7e",
+      "nameTag": "Doodley Genesis Box: DGB Token"
+    },
+    {
+      "address": "0x4ef3fdac47319ecce7bd5b751f810abccad8d7b8",
+      "nameTag": "DreamCatcher's Quest: ZWISTOnChain Token"
+    },
+    {
+      "address": "0x5a01bdaa010938eb7615c63cb22cf3e94e8505df",
+      "nameTag": "DRODEC: DRODEC Token"
+    },
+    {
+      "address": "0x3c3aa127e6ee3d2f2e432d0184dd36f2d2076b52",
+      "nameTag": "Ducky City: DCE Token"
+    },
+    {
+      "address": "0x434769c82fb928150b87c4ae6320bf71f92dcca5",
+      "nameTag": "Eco: ECO Token"
+    },
+    {
+      "address": "0x4e0da40b9063dc48364c1c0ffb4ae9d091fc2270",
+      "nameTag": "Edgeware: EDG Token"
+    },
+    {
+      "address": "0x5bdbf78ed40a699575ce0a6574ebf43ecdce535a",
+      "nameTag": "Elegant Golden Art Deco: ELE Token"
+    },
+    {
+      "address": "0xaa6cccdce193698d33deb9ffd4be74eaa74c4898",
+      "nameTag": "ElonRWA: ElonRWA Token"
+    },
+    {
+      "address": "0xa334884bf6b0a066d553d19e507315e839409e62",
+      "nameTag": "Ethos Reserve Note: ERN Token"
+    },
+    {
+      "address": "0x2dad3a13ef0c6366220f989157009e501e7938f8",
+      "nameTag": "Extra Finance: EXTRA Token"
+    },
+    {
+      "address": "0xaadc0c96565975b1ef0718b12358d99e03081df1",
+      "nameTag": "Fantasy Adventure Park: FAP Token"
+    },
+    {
+      "address": "0x74ccbe53f77b08632ce0cb91d3a545bf6b8e0979",
+      "nameTag": "Fantom Bomb: fBOMB Token"
+    },
+    {
+      "address": "0xbfdb5d8d1856b8617f1881fd718580256fa8cf35",
+      "nameTag": "Farcaster v3: $FRCV3 Token"
+    },
+    {
+      "address": "0x93e6407554b2f02640ab806cd57bd83e848ec65d",
+      "nameTag": "FarLaunch: FAR Token"
+    },
+    {
+      "address": "0x12345ad24808b228f7031de863d9bc006ca8ee48",
+      "nameTag": "Farmstrong's Farm: SEED Token"
+    },
+    {
+      "address": "0x07fde3ed7727c1d84171a6e5815964d50827cf69",
+      "nameTag": "FENIX: cbFENIX Token"
+    },
+    {
+      "address": "0x28abaed4c2c4f189142e933c2dd07fcb0d77df95",
+      "nameTag": "Forg: FORG Token"
+    },
+    {
+      "address": "0x91f45aa2bde7393e0af1cc674ffe75d746b93567",
+      "nameTag": "FRAME: FRAME Token"
+    },
+    {
+      "address": "0xff0c532fdb8cd566ae169c1cb157ff2bdc83e105",
+      "nameTag": "Fren Pet: Fren Pet Token"
+    },
+    {
+      "address": "0x5b51cf49cb48617084ef35e7c7d7a21914769ff1",
+      "nameTag": "Fren Pet: Frenpet Token"
+    },
+    {
+      "address": "0x976008031bbc99e05d006f68c7ea723c2b56101f",
+      "nameTag": "Fren Pet: pGOLD Token"
+    },
+    {
+      "address": "0xdda98a036e03611aa50ff457fffbbe9163981529",
+      "nameTag": "FRENZ: FRENZ Token"
+    },
+    {
+      "address": "0x7d9ce55d54ff3feddb611fc63ff63ec01f26d15f",
+      "nameTag": "Fungi: FUNGI Token"
+    },
+    {
+      "address": "0x30b593f8c3ab37615359b4e0e6df2e06d55bb55d",
+      "nameTag": "FXDX: FXDX Token"
+    },
+    {
+      "address": "0x580e933d90091b9ce380740e3a4a39c67eb85b4c",
+      "nameTag": "GameSwift DAO: GSWIFT Token"
+    },
+    {
+      "address": "0xe40da5b14733e69a8457dfa259c6ba5759bd928c",
+      "nameTag": "Glass Punk: GP Token"
+    },
+    {
+      "address": "0x4ff77748e723f0d7b161f90b4bc505187226ed0d",
+      "nameTag": "Gloom: GLOOM Token"
+    },
+    {
+      "address": "0xa617c0c739845b2941bd8edd05c9f993ecc97c18",
+      "nameTag": "GMR: GMR Token"
+    },
+    {
+      "address": "0xbefd5c25a59ef2c1316c5a4944931171f30cd3e4",
+      "nameTag": "GoldenBoys: GOLD Token"
+    },
+    {
+      "address": "0x2af864fb54b55900cd58d19c7102d9e4fa8d84a3",
+      "nameTag": "Grandbase: GB Token"
+    },
+    {
+      "address": "0x1f3ba804efb9cfe17d595e7262cea4782dbf6e4e",
+      "nameTag": "Happy Puppy Club: HPC Token"
+    },
+    {
+      "address": "0x255f1b39172f65dc6406b8bee8b08155c45fe1b6",
+      "nameTag": "Harambe Coin: HARAMBE Token"
+    },
+    {
+      "address": "0xd08a2917653d4e460893203471f0000826fb4034",
+      "nameTag": "Harvest Finance: FARM Token"
+    },
+    {
+      "address": "0x24fcfc492c1393274b6bcd568ac9e225bec93584",
+      "nameTag": "Heroes of Mavia: MAVIA Token"
+    },
+    {
+      "address": "0x4d25e94291fe8dcfbfa572cbb2aaa7b755087c91",
+      "nameTag": "High: HIGH Token"
+    },
+    {
+      "address": "0xc5102fe9359fd9a28f877a67e36b0f050d81a3cc",
+      "nameTag": "Hop Protocol: HOP Token"
+    },
+    {
+      "address": "0x081ad949defe648774c3b8debe0e4f28a80716dc",
+      "nameTag": "Horizondex: HZN Token"
+    },
+    {
+      "address": "0x227f81f5f697cdd9554a43bbab01d7a85b9466c1",
+      "nameTag": "I Was There, SZN1: SASSY Token"
+    },
+    {
+      "address": "0xe7798f023fc62146e8aa1b36da45fb70855a77ea",
+      "nameTag": "iFARM: iFARM Token"
+    },
+    {
+      "address": "0x39e261fa4fe1e0a6871f5443f813bdeb99bb30e4",
+      "nameTag": "Indian Foods: Indian_foods Token"
+    },
+    {
+      "address": "0x71f6b11b371de742c8c65d0ef9e8a0837a61e5da",
+      "nameTag": "INK: INK Token"
+    },
+    {
+      "address": "0x17d2628d30f8e9e966c9ba831c9b9b01ea8ea75c",
+      "nameTag": "ISKRA: ISK Token"
+    },
+    {
+      "address": "0x777b2839832982b35213063d850848369390ee16",
+      "nameTag": "Jarvis Network: JARVIS Token"
+    },
+    {
+      "address": "0x011ff409bc4803ec5cfab41c3fd1db99fd05c004",
+      "nameTag": "Kanaria: KANARIA Token"
+    },
+    {
+      "address": "0xabeb66fe3a8e7c8af3169d80d76efc42491cf995",
+      "nameTag": "Kasuki Akara: Kasuki Akara Token"
+    },
+    {
+      "address": "0x8797dd4fc432652bb6cfbdbc355e520546938230",
+      "nameTag": "KevinOnBase: KEVIN Token"
+    },
+    {
+      "address": "0xc7dcca0a3e69bd762c8db257f868f76be36c8514",
+      "nameTag": "KiboShib: KIBSHI Token"
+    },
+    {
+      "address": "0x78f8142ea59ae08d81bc80b2fd415405628a48a0",
+      "nameTag": "KingDACKIE: KingDACKIE Token"
+    },
+    {
+      "address": "0xbe3111856e4aca828593274ea6872f27968c8dd6",
+      "nameTag": "KravTrade: KRAV Token"
+    },
+    {
+      "address": "0x4a7df51b67c29e8abb2136d7e5bf0043281173f9",
+      "nameTag": "KUJIKO: KUJIKO Token"
+    },
+    {
+      "address": "0x28fe69ff6864c1c218878bdca01482d36b9d57b1",
+      "nameTag": "KyberSwap: KNC Token"
+    },
+    {
+      "address": "0x0963a1abaf36ca88c21032b82e479353126a1c4b",
+      "nameTag": "LeetSwap: LEET Token"
+    },
+    {
+      "address": "0x6ffeeb2aa116549d4aec6adb7509a2234feaf105",
+      "nameTag": "LIFEBIRD: LIFEBIRD Token"
+    },
+    {
+      "address": "0xe3c5ef27b80481518a2363406e354a9361415556",
+      "nameTag": "Lil Based Nouns: LIL Token"
+    },
+    {
+      "address": "0x368181499736d0c0cc614dbb145e2ec1ac86b8c6",
+      "nameTag": "Liquity: LUSD Token"
+    },
+    {
+      "address": "0xd27cf8c023b832ba1e5543cb923a988ca3a154a2",
+      "nameTag": "LK99: LK99 Token"
+    },
+    {
+      "address": "0x9e724a1e5b7f6879662bd2a1fe77c1d0495bb4f2",
+      "nameTag": "LNRZ: $LNRZBASE Token"
+    },
+    {
+      "address": "0x57f5fbd3de65dfc0bd3630f732969e5fb97e6d37",
+      "nameTag": "Maga: TRUMP Token"
+    },
+    {
+      "address": "0x2dc1cda9186a4993bd36de60d08787c0c382bead",
+      "nameTag": "Magnate Finance: MAG Token"
+    },
+    {
+      "address": "0x50c5725949a6f0c72e6c4a641f24049a917db0cb",
+      "nameTag": "Maker: DAI Token"
+    },
+    {
+      "address": "0x5980e8d6915abd1b33912e208dda546cc7aea074",
+      "nameTag": "Mang: MANG Token"
+    },
+    {
+      "address": "0x6e51b3a19f114013e5dc09d0477a536c7e4e0207",
+      "nameTag": "Media Network: MEDIA Token"
+    },
+    {
+      "address": "0xae933a1c8a89ac5eda1f99e27857924cc69935e2",
+      "nameTag": "MegaForce Sentinel Cards: MFSCARD Token"
+    },
+    {
+      "address": "0x7d89e05c0b93b24b5cb23a073e60d008fed1acf9",
+      "nameTag": "member: member Token"
+    },
+    {
+      "address": "0x14cce53175021cf1ff8834be9872576aafbb6752",
+      "nameTag": "MemeCoinOnBase: BM Token"
+    },
+    {
+      "address": "0x8a5ad6ab0e908283a35ef4f600569d547a00982a",
+      "nameTag": "MemeRunWar: RUN Token"
+    },
+    {
+      "address": "0x9b896a7a37d39384acddb95e15224397cdc743cb",
+      "nameTag": "MERC: MERC Token"
+    },
+    {
+      "address": "0xf882c982a95f4d3e8187efe12713835406d11840",
+      "nameTag": "Merkly ONFT: MERK Token"
+    },
+    {
+      "address": "0xf077325ea3f1c593e09a9332956edae8b74ec8fd",
+      "nameTag": "METAMOB CARD: MOBCARD Token"
+    },
+    {
+      "address": "0xa125c207e0aa8dc0e1763d077ddf9ded7731abd9",
+      "nameTag": "MetaVapp: VAPP Token"
+    },
+    {
+      "address": "0x25f834dda4a7b7910db67ca83e4653209c041305",
+      "nameTag": "Mintify: $MNTFYSZN1 Token"
+    },
+    {
+      "address": "0xa17c574ab5c2eb04556d9fd7d2b3da22452fabcb",
+      "nameTag": "Mission Web 3: MW3 Token"
+    },
+    {
+      "address": "0xf6e932ca12afa26665dc4dde7e27be02a7c02e50",
+      "nameTag": "Mochi: MOCHI Token"
+    },
+    {
+      "address": "0x949bed087ff0241e04e98d807de3c3dd97eaa381",
+      "nameTag": "Mochimons: MOCHI Token"
+    },
+    {
+      "address": "0xfd008f937b4d73eeb00cf74ce90c392be5f07f96",
+      "nameTag": "Moon Inu: MOON Token"
+    },
+    {
+      "address": "0xff8adec2221f9f4d8dfbafa6b9a297d17603493d",
+      "nameTag": "Moonwell: WELL Token"
+    },
+    {
+      "address": "0x548f93779fbc992010c07467cbaf329dd5f059b7",
+      "nameTag": "Morphex: BMX Token"
+    },
+    {
+      "address": "0xe771b4e273df31b85d7a7ae0efd22fb44bdd0633",
+      "nameTag": "Morphex: MLP Token"
+    },
+    {
+      "address": "0x3ff7ab26f2dfd482c40bdadfc0e88d01bff79713",
+      "nameTag": "Morphex: oBMX Token"
+    },
+    {
+      "address": "0x64755939a80bc89e1d2d0f93a312908d348bc8de",
+      "nameTag": "Morphex: sBLP Token"
+    },
+    {
+      "address": "0x59d9356e565ab3a36dd77763fc0d87feaf85508c",
+      "nameTag": "Mountain Protocol: USDM Token"
+    },
+    {
+      "address": "0xea54283c59e76e658384f48037bb5857fc9511fd",
+      "nameTag": "MYSTCL: MYBH24 Token"
+    },
+    {
+      "address": "0x02c1f9fd3de3bd1b8c78884f7f9a2afd7395a6ac",
+      "nameTag": "MYSTCL: MYST Token"
+    },
+    {
+      "address": "0x9385d0f9633badd3d496a3d53dad305087020f37",
+      "nameTag": "MYSTCL: MYSTCL Token"
+    },
+    {
+      "address": "0x75ed58e1d029853231a9e9825f0035e0449fbafa",
+      "nameTag": "Mystery Box for Onchain Summer: CLASHMONMB Token"
+    },
+    {
+      "address": "0xdd893908dfeb1add69d90948c537943b8e4e4e95",
+      "nameTag": "N Mystery Box: NMB Token"
+    },
+    {
+      "address": "0x1f5ff9ab8430a42dd3fef8ae73c9c6337819f2a8",
+      "nameTag": "Nauru: NAU Token"
+    },
+    {
+      "address": "0x60359a0dd148b18d5cf1ddf8aa1916221ed0cbcd",
+      "nameTag": "Nether Fi: NFI Token"
+    },
+    {
+      "address": "0xc2106ca72996e49bbadcb836eec52b765977fd20",
+      "nameTag": "NFTEarth: NFTE Token"
+    },
+    {
+      "address": "0xbdb1a8772409a0c5eeb347060cbf4b41dd7b2c62",
+      "nameTag": "NFToshis: NFTOSHI Token"
+    },
+    {
+      "address": "0x13741c5df9ab03e7aa9fb3bf1f714551dd5a5f8a",
+      "nameTag": "Noggles: NOGS Token"
+    },
+    {
+      "address": "0x26dadd2b377c836418211f60b2eb723368ac430f",
+      "nameTag": "Nomis: Nomis Token"
+    },
+    {
+      "address": "0xb166e8b140d35d9d8226e40c09f757bac5a4d87d",
+      "nameTag": "Non-Playable Coin: NPC Token"
+    },
+    {
+      "address": "0x7f12d13b34f5f4f0a9449c16bcd42f0da47af200",
+      "nameTag": "Normie: NORMIE Token"
+    },
+    {
+      "address": "0x454c9ac1dfd5f0b4dd2887818be9624b26c848a4",
+      "nameTag": "Nouns HD: NHDB Token"
+    },
+    {
+      "address": "0x845598da418890a674cbaba26b70807af0c61dfe",
+      "nameTag": "OAK Community Currency: OAK Token"
+    },
+    {
+      "address": "0xc2b972f59a0af29437f4680361582a73427ec63c",
+      "nameTag": "OKOK Network: OKOK Token"
+    },
+    {
+      "address": "0xeb622cb9c7dd2a41b24b79a7eece6065bbd3fa0b",
+      "nameTag": "Oliswap: OLIS Token"
+    },
+    {
+      "address": "0xc48e605c7b722a57277e087a6170b9e227e5ac0a",
+      "nameTag": "OmniCat: OMNI Token"
+    },
+    {
+      "address": "0x061a883e8c2feffb4f3ea42046abd4be88e1333f",
+      "nameTag": "Omnichain Adventures: OMNIA2 Token"
+    },
+    {
+      "address": "0x328347562a09b04bd70d44169e6e087ba241a263",
+      "nameTag": "Onchain Autumn: OCA Token"
+    },
+    {
+      "address": "0xffb3132f24e8d531f4def5a5ebfef2ce5dd310e1",
+      "nameTag": "Onchain Summer Vibes with Jesse: OCSJ Token"
+    },
+    {
+      "address": "0x6cc23c12e2ae94258871f3f550e1f56c234089fa",
+      "nameTag": "Onchain Winter: OCw Token"
+    },
+    {
+      "address": "0x9a6d24c02ec35ad970287ee8296d4d6552a31dbe",
+      "nameTag": "Open Ticketing Ecosystem: OPN Token"
+    },
+    {
+      "address": "0x2411cb350c1edd46df2cd8554b209f2d18fd9a6e",
+      "nameTag": "Ostrich: Orich Token"
+    },
+    {
+      "address": "0x0d3bc598f0f75590cd75d60d40e0510f515ebe51",
+      "nameTag": "OtoCo: OTOCO Token"
+    },
+    {
+      "address": "0x65a2508c429a6078a7bc2f7df81ab575bd9d9275",
+      "nameTag": "Overnight Finance: DAI+: DAI+ Token"
+    },
+    {
+      "address": "0xda3de145054ed30ee937865d31b500505c4bdfe7",
+      "nameTag": "Overnight Finance: USD+crvUSD-f Token"
+    },
+    {
+      "address": "0xb79dd08ea68a908a97220c76d19a6aa9cbde4376",
+      "nameTag": "Overnight: USD+ Token"
+    },
+    {
+      "address": "0x206571b68c66e1d112b74d65695043ad2b5f95d5",
+      "nameTag": "Parallel Alpha: LL Token"
+    },
+    {
+      "address": "0xf08d704dd8345a79629e17602b17cb1e2e0405d7",
+      "nameTag": "PayRue: PROPEL Token"
+    },
+    {
+      "address": "0x2ab14ebee61ed05a515f5775d3bc014e141c3bb0",
+      "nameTag": "Pennycoin: PENNY Token"
+    },
+    {
+      "address": "0x9a3b7959e998bf2b50ef1969067d623877050d92",
+      "nameTag": "Pepebutblue: PBB Token"
+    },
+    {
+      "address": "0x71e8f538f47397cd9a544041555cafc7a0ce9ae3",
+      "nameTag": "PerpBoost: BOOST Token"
+    },
+    {
+      "address": "0xbe92452bb46485af3308e6d77786bfbe3557808d",
+      "nameTag": "Phase: CASH Token"
+    },
+    {
+      "address": "0x332c9e3d8b2be913b21a539c19c33d60f9f64cce",
+      "nameTag": "Phase: CREDIT Token"
+    },
+    {
+      "address": "0x443f102ea65613d91365e1f5c37c21ed2144023a",
+      "nameTag": "Phase: zCASH Token"
+    },
+    {
+      "address": "0xc5c40b558d0b11562fa6635051a05df997700f8c",
+      "nameTag": "Pi 2.0 Renaissance: Pi2.0 Token"
+    },
+    {
+      "address": "0x3104c9c76a361b333f7b31ba1d08dd9b6021bc5d",
+      "nameTag": "PiraNFT: PiraNFT Token"
+    },
+    {
+      "address": "0x0654ef4a3a63f63984826f73693f1aa0bb17fdf2",
+      "nameTag": "PixeBots: PBT Token"
+    },
+    {
+      "address": "0xb26803943f2241640909116927fe0ea850403a92",
+      "nameTag": "Pixel Pins: PP Token"
+    },
+    {
+      "address": "0x23082dd85355b51bae42248c961e7f83486e7694",
+      "nameTag": "PlantBaseSwap: PLANT Token"
+    },
+    {
+      "address": "0x4a140b74714b2e93516213692ffa82b1d61f4e09",
+      "nameTag": "Plushy Brian: PLSHB Token"
+    },
+    {
+      "address": "0xfa980ced6895ac314e7de34ef1bfae90a5add21b",
+      "nameTag": "Prime Foundation: PRIME Token"
+    },
+    {
+      "address": "0x28ed8909de1b3881400413ea970cce377a004cca",
+      "nameTag": "Punk X: Punk Token"
+    },
+    {
+      "address": "0x4c5d8a75f3762c1561d96f177694f67378705e98",
+      "nameTag": "Pyth Network: PYTH Token"
+    },
+    {
+      "address": "0xafb2820316e7bc5ef78d295ab9b8bb2257534576",
+      "nameTag": "Raft: R Token"
+    },
+    {
+      "address": "0xa5b3fee253f9de67201dc8572bd2cbb4a81c1bec",
+      "nameTag": "Raft: RR Token"
+    },
+    {
+      "address": "0x703d57164ca270b0b330a87fd159cfef1490c0a5",
+      "nameTag": "RAI Finance: SOFI Token"
+    },
+    {
+      "address": "0x6171f829e107f70b58d67594c6b62a7d3eb7f23b",
+      "nameTag": "Rainbow World: RBWRLD Token"
+    },
+    {
+      "address": "0x06c4c7f8011fbfb6a9654ee4142532f9bb3c52b8",
+      "nameTag": "Ratsbase: RATS Token"
+    },
+    {
+      "address": "0x3421cc14f0e3822cf3b73c3a4bec2a1023b8d9cf",
+      "nameTag": "Rebase: Rebase Token"
+    },
+    {
+      "address": "0xcb327b99ff831bf8223cced12b1338ff3aa322ff",
+      "nameTag": "Reserve Protocol: bsdETH Token"
+    },
+    {
+      "address": "0x09188484e1ab980daef53a9755241d759c5b7d60",
+      "nameTag": "RigoBlock: GRG Token"
+    },
+    {
+      "address": "0xd1412d909f67b8db7505ddfcf26cf2303f4b1bb4",
+      "nameTag": "RIKU: RIKU Token"
+    },
+    {
+      "address": "0x524d524b4c9366be706d3a90dcf70076ca037ae3",
+      "nameTag": "RMRK: RMRK Token"
+    },
+    {
+      "address": "0xb6fe221fe9eef5aba221c348ba20a1bf5e73624c",
+      "nameTag": "Rocket Pool: rETH Token"
+    },
+    {
+      "address": "0x6653dd4b92a0e5bf8ae570a98906d9d6fd2eec09",
+      "nameTag": "RocketSwap: RCKT Token"
+    },
+    {
+      "address": "0xdbf9f254c365abe4294884d1249c7a2388f70911",
+      "nameTag": "RST: RST0001-UAE-DUBAI-BAYZ BY DANUBE-01 Token"
+    },
+    {
+      "address": "0x645b00960dc352e699f89a81fc845c0c645231cf",
+      "nameTag": "Sablier: SAB-V2-LOCKUP-DYN Token"
+    },
+    {
+      "address": "0x6b9a46c8377f21517e65fa3899b3a9fab19d17f5",
+      "nameTag": "Sablier: SAB-V2-LOCKUP-LIN Token"
+    },
+    {
+      "address": "0xa71e7fd6dd7a6308d27e0d6717b7c15e9d24af90",
+      "nameTag": "Sadie: Sadie Token"
+    },
+    {
+      "address": "0x4a044194eaaacd87d79ed322dca2afc846c2a70d",
+      "nameTag": "Saw Moe World: SMW Token"
+    },
+    {
+      "address": "0x1c7a460413dd4e964f96d8dfc56e7223ce88cd85",
+      "nameTag": "Seamless Protocol: SEAM Token"
+    },
+    {
+      "address": "0x3ac0360e8a94b206b63e4c45a09d71f552cad8c4",
+      "nameTag": "SHOU TIME: SHOU Token"
+    },
+    {
+      "address": "0xd0d1e44fc9adaeb732f73ffc2429cd1db9cd4529",
+      "nameTag": "Sipher: SIPHER Token"
+    },
+    {
+      "address": "0x4b80b05bb7d092e0af83ca582b091a4ca89b1500",
+      "nameTag": "Skate Boy: SBY Token"
+    },
+    {
+      "address": "0x2e833bf1c19719fea836434151f20902b00e991c",
+      "nameTag": "Skibidi Dop Dop: DOPDOP Token"
+    },
+    {
+      "address": "0x3c7503bd7d66c15e13cbc42953436e598d37c792",
+      "nameTag": "Slimesunday X BASE: SLIME Token"
+    },
+    {
+      "address": "0xfd4330b0312fdeec6d4225075b82e00493ff2e3f",
+      "nameTag": "SmarDex: SDEX Token"
+    },
+    {
+      "address": "0x22dc834c3ff3e45f484bf24b9b07b851b981900f",
+      "nameTag": "Smudge Cat: SMUDCAT Token"
+    },
+    {
+      "address": "0x65762d12b3b9cec99951b279118fbbfd9cd50ae9",
+      "nameTag": "SORA AI: SORA AI Token"
+    },
+    {
+      "address": "0x430c67ed118f0637ffe74c98e9b90919c93b7233",
+      "nameTag": "SQUID Game: SQUID Token"
+    },
+    {
+      "address": "0xfdcc3dd6671eab0709a4c0f3f53de9a333d80798",
+      "nameTag": "Stable Coin: SBC Token"
+    },
+    {
+      "address": "0xc19669a405067927865b40ea045a2baabbbe57f5",
+      "nameTag": "Star: STAR Token"
+    },
+    {
+      "address": "0x28fc411f9e1c480ad312b3d9c60c22b965015c6b",
+      "nameTag": "Stargate Finance: S*SGETH Token"
+    },
+    {
+      "address": "0x4c80e24119cfb836cdf0a6b53dc23f04f7e652ca",
+      "nameTag": "Stargate Finance: S*USDbC Token"
+    },
+    {
+      "address": "0xe3b53af74a4bf62ae5511055290838050bf764df",
+      "nameTag": "Stargate: STG Token"
+    },
+    {
+      "address": "0xdadc4f8e9d8d37294de0e02a2ce8cc0c90a4f6c2",
+      "nameTag": "Starter: BUIDL Token"
+    },
+    {
+      "address": "0x433a61c4ec29a7cb09d0d30cda59e7bd975b8d43",
+      "nameTag": "StartOnBase: BUIDL Token"
+    },
+    {
+      "address": "0x858c50c3af1913b0e849afdb74617388a1a5340d",
+      "nameTag": "SubQuery Network: SQT Token"
+    },
+    {
+      "address": "0xd07379a755a8f11b57610154861d694b2a0f615a",
+      "nameTag": "SwapBased: BASE Token"
+    },
+    {
+      "address": "0x2974dc646e375e83bd1c0342625b49f288987fa4",
+      "nameTag": "Swarm Markets: SMT Token"
+    },
+    {
+      "address": "0x22e6966b799c4d5b13be962e1d117b56327fda66",
+      "nameTag": "Synthetix: SNX Token"
+    },
+    {
+      "address": "0xbd2dbb8ecea9743ca5b16423b4eaa26bdcfe5ed2",
+      "nameTag": "Synthswap: SYNTH Token"
+    },
+    {
+      "address": "0x01cc6b33c63cee896521d63451896c14d42d05ea",
+      "nameTag": "Synthswap: xSYNTH Token"
+    },
+    {
+      "address": "0x236aa50979d5f3de3bd1eeb40e81137f22ab794b",
+      "nameTag": "tBTC: tBTC Token"
+    },
+    {
+      "address": "0x5e42c17caeab64527d9d80d506a3fe01179afa02",
+      "nameTag": "Tetu: TETU Token"
+    },
+    {
+      "address": "0xf34e0cff046e154cafcae502c7541b9e5fd8c249",
+      "nameTag": "Thales: THALES Token"
+    },
+    {
+      "address": "0xc41ba5737baf6bd0ccd5daf7eee39874e4ad45ff",
+      "nameTag": "The Degensons: DEGENS Token"
+    },
+    {
+      "address": "0xafb89a09d82fbde58f18ac6437b3fc81724e4df6",
+      "nameTag": "The Doge NFT: DOG Token"
+    },
+    {
+      "address": "0x2ad8d56c61f2fd8d5ad7a7d2eb3fcdd09ef5d611",
+      "nameTag": "The Rufus Art: TRA Token"
+    },
+    {
+      "address": "0x798acf1bd6e556f0c3cd72e77b3d169d26a28ab5",
+      "nameTag": "Throne: OATH Token"
+    },
+    {
+      "address": "0xa9d2baa602d09c04c42a5a98260916e16e1d5553",
+      "nameTag": "TikCollect: TIK Token"
+    },
+    {
+      "address": "0x0f8f39b92776d9136408280c7209bebe4351123b",
+      "nameTag": "TIME Token Finance: TIME Token"
+    },
+    {
+      "address": "0xf0d0df7142f60f7f3847463a509fd8969e3e3a27",
+      "nameTag": "Tiny based frogs: TINYFROG Token"
+    },
+    {
+      "address": "0x78b3c724a2f663d11373c4a1978689271895256f",
+      "nameTag": "Token Name Service: TKN Token"
+    },
+    {
+      "address": "0x00e57ec29ef2ba7df07ad10573011647b2366f6d",
+      "nameTag": "Toshe: TOSHE Token"
+    },
+    {
+      "address": "0xac1bd2486aaf3b5c0fc3fd868558b082a531b2b4",
+      "nameTag": "Toshi: TOSHI Token"
+    },
+    {
+      "address": "0xf7c1cefcf7e1dd8161e00099facd3e1db9e528ee",
+      "nameTag": "Tower: TOWER Token"
+    },
+    {
+      "address": "0x67ac031540320886f2706f3e8e680919d7f547a1",
+      "nameTag": "Troves: TROVES Token"
+    },
+    {
+      "address": "0x723d1b30a63db9bd5114f313d6827e32628a3031",
+      "nameTag": "Turbo Trump: PRESI Token"
+    },
+    {
+      "address": "0x6b4712ae9797c199edd44f897ca09bc57628a1cf",
+      "nameTag": "UniDex: UNIDX Token"
+    },
+    {
+      "address": "0xa23dd9379f2e12d9ce76ec738b9f5e520d1d861c",
+      "nameTag": "USDEBT: USDEBT Token"
+    },
+    {
+      "address": "0x8129b94753f22ec4e62e2c4d099ffe6773969ebc",
+      "nameTag": "Vex Aeterna: VEX Token"
+    },
+    {
+      "address": "0x025f99977db78317a4eba606998258b502bb256f",
+      "nameTag": "VeyronPEPE: VPPE Token"
+    },
+    {
+      "address": "0xdcf5130274753c8050ab061b1a1dcbf583f5bfd0",
+      "nameTag": "ViciCoin: VCNT Token"
+    },
+    {
+      "address": "0x0b3e328455c4059eeb9e3f84b5543f74e24e7e1b",
+      "nameTag": "Virtual Protocol: VIRTUAL Token"
+    },
+    {
+      "address": "0x60fdc8b26b4de4d83833347852904b40dfe3e596",
+      "nameTag": "Vurjin: VURJIN Token"
+    },
+    {
+      "address": "0x2a0304bb9dd8f50ec04c483ddaa8d586eae0a2ff",
+      "nameTag": "Wagon Network: WAG Token"
+    },
+    {
+      "address": "0xa067436db77ab18b1a315095e4b816791609897c",
+      "nameTag": "WASSIE: WASSIE Token"
+    },
+    {
+      "address": "0xe8f9a9229a7d572aa7f6eda8902e8ba7718aab59",
+      "nameTag": "Watcher Editions: MaxKulchinskyOnChain Token"
+    },
+    {
+      "address": "0x8448860bff06fb2f942270402a4a846b864abd92",
+      "nameTag": "WebHash: Hash Token"
+    },
+    {
+      "address": "0x549b04de1e57841288c8ba1eb34e2b8aab7320d7",
+      "nameTag": "Wizard of Dog: WIZ Token"
+    },
+    {
+      "address": "0x4e74d4db6c0726ccded4656d0bce448876bb4c7a",
+      "nameTag": "Wrapped BMX Liquidity: wBLT Token"
+    },
+    {
+      "address": "0x4200000000000000000000000000000000000006",
+      "nameTag": "Wrapped Ether"
+    },
+    {
+      "address": "0x379002701bf6f2862e3dfdd1f96d3c5e1bf450b6",
+      "nameTag": "Xen Crypto: cbXENT Token"
+    },
+    {
+      "address": "0x9eaf8c1e34f05a589eda6bafdf391cf6ad3cb239",
+      "nameTag": "Yearn: YFI Token"
+    },
+    {
+      "address": "0x04f48d746d27837789fddb4b641d41493aa18f35",
+      "nameTag": "YEET: YEET Token"
+    },
+    {
+      "address": "0x0fa70e156cd3b03ac4080bfe55bd8ab50f5bcb98",
+      "nameTag": "YOU Protocol: YOU Token"
+    },
+    {
+      "address": "0x382bf880d4046231a90b834ada54931899dd1c5f",
+      "nameTag": "Yum Yum: YUMY Token"
+    },
+    {
+      "address": "0xe541acbcf8a94f9b70b5f52dde46727f645a2ec5",
+      "nameTag": "YumBucks: YUMBUCKS Token"
+    },
+    {
+      "address": "0xd1db4851bcf5b41442caa32025ce0afe6b8eabc2",
+      "nameTag": "Zoomer Coin: ZOOMER Token"
+    }
+  ]
+}

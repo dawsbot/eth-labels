@@ -1,70 +1,73 @@
-[
-  {
-    "address": "0xba3d9687cf50fe253cd2e1cfeede1d6787344ed5",
-    "nameTag": "Aave: aAAVE Token V1"
-  },
-  {
-    "address": "0xe1ba0fb44ccb0d11b80f92f4f8ed94ca3ff51d00",
-    "nameTag": "Aave: aBAT Token V1"
-  },
-  {
-    "address": "0x6ee0f7bb50a54ab5253da0667b0dc2ee526c30a8",
-    "nameTag": "Aave: aBUSD Token V1"
-  },
-  {
-    "address": "0xfc1e690f61efd961294b3e1ce3313fbd8aa4f85d",
-    "nameTag": "Aave: aDAI Token V1"
-  },
-  {
-    "address": "0x9d91be44c06d373a8a226e1f3b146956083803eb",
-    "nameTag": "Aave: aKNC Token V1"
-  },
-  {
-    "address": "0xa64bd6c70cb9051f6a9ba1f163fdc07e0dfb5f84",
-    "nameTag": "Aave: aLINK Token V1"
-  },
-  {
-    "address": "0x6fce4a401b6b80ace52baaefe4421bd188e76f6f",
-    "nameTag": "Aave: aMANA Token V1"
-  },
-  {
-    "address": "0x7deb5e830be29f91e298ba5ff1356bb7f8146998",
-    "nameTag": "Aave: aMKR Token V1"
-  },
-  {
-    "address": "0x328c4c80bc7aca0834db37e6600a6c49e12da4de",
-    "nameTag": "Aave: aSNX Token V1"
-  },
-  {
-    "address": "0x625ae63000f46200499120b906716420bd059240",
-    "nameTag": "Aave: aSUSD Token V1"
-  },
-  {
-    "address": "0x4da9b813057d04baef4e5800e36083717b4a0341",
-    "nameTag": "Aave: aTUSD Token V1"
-  },
-  {
-    "address": "0xb124541127a0a657f056d9dd06188c4f1b0e5aab",
-    "nameTag": "Aave: aUNI Token V1"
-  },
-  {
-    "address": "0x9ba00d6856a4edf4665bca2c2309936572473b7e",
-    "nameTag": "Aave: aUSDC Token V1"
-  },
-  {
-    "address": "0x71fc860f7d3a592a4a98740e39db31d25db65ae8",
-    "nameTag": "Aave: aUSDT Token V1"
-  },
-  {
-    "address": "0xfc4b8ed459e00e5400be803a9bb3954234fd50e3",
-    "nameTag": "Aave: aWBTC Token V1"
-  },
-  {
-    "address": "0x12e51e77daaa58aa0e9247db7510ea4b46f9bead",
-    "nameTag": "Aave: aYFI Token V1"
-  },
-  {
-    "address": "0x6fb0855c404e09c47c3fbca25f08d4e41f9f062f",
-    "nameTag": "Aave: aZRX Token V1"
-  }
-]
+{
+  "lastPulled": "2024-04-02T20:51:43.885Z",
+  "data": [
+    {
+      "address": "0xba3d9687cf50fe253cd2e1cfeede1d6787344ed5",
+      "nameTag": "Aave: aAAVE Token V1"
+    },
+    {
+      "address": "0xe1ba0fb44ccb0d11b80f92f4f8ed94ca3ff51d00",
+      "nameTag": "Aave: aBAT Token V1"
+    },
+    {
+      "address": "0x6ee0f7bb50a54ab5253da0667b0dc2ee526c30a8",
+      "nameTag": "Aave: aBUSD Token V1"
+    },
+    {
+      "address": "0xfc1e690f61efd961294b3e1ce3313fbd8aa4f85d",
+      "nameTag": "Aave: aDAI Token V1"
+    },
+    {
+      "address": "0x9d91be44c06d373a8a226e1f3b146956083803eb",
+      "nameTag": "Aave: aKNC Token V1"
+    },
+    {
+      "address": "0xa64bd6c70cb9051f6a9ba1f163fdc07e0dfb5f84",
+      "nameTag": "Aave: aLINK Token V1"
+    },
+    {
+      "address": "0x6fce4a401b6b80ace52baaefe4421bd188e76f6f",
+      "nameTag": "Aave: aMANA Token V1"
+    },
+    {
+      "address": "0x7deb5e830be29f91e298ba5ff1356bb7f8146998",
+      "nameTag": "Aave: aMKR Token V1"
+    },
+    {
+      "address": "0x328c4c80bc7aca0834db37e6600a6c49e12da4de",
+      "nameTag": "Aave: aSNX Token V1"
+    },
+    {
+      "address": "0x625ae63000f46200499120b906716420bd059240",
+      "nameTag": "Aave: aSUSD Token V1"
+    },
+    {
+      "address": "0x4da9b813057d04baef4e5800e36083717b4a0341",
+      "nameTag": "Aave: aTUSD Token V1"
+    },
+    {
+      "address": "0xb124541127a0a657f056d9dd06188c4f1b0e5aab",
+      "nameTag": "Aave: aUNI Token V1"
+    },
+    {
+      "address": "0x9ba00d6856a4edf4665bca2c2309936572473b7e",
+      "nameTag": "Aave: aUSDC Token V1"
+    },
+    {
+      "address": "0x71fc860f7d3a592a4a98740e39db31d25db65ae8",
+      "nameTag": "Aave: aUSDT Token V1"
+    },
+    {
+      "address": "0xfc4b8ed459e00e5400be803a9bb3954234fd50e3",
+      "nameTag": "Aave: aWBTC Token V1"
+    },
+    {
+      "address": "0x12e51e77daaa58aa0e9247db7510ea4b46f9bead",
+      "nameTag": "Aave: aYFI Token V1"
+    },
+    {
+      "address": "0x6fb0855c404e09c47c3fbca25f08d4e41f9f062f",
+      "nameTag": "Aave: aZRX Token V1"
+    }
+  ]
+}

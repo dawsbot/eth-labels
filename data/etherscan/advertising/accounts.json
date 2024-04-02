@@ -1,10 +1,13 @@
-[
-  {
-    "address": "0xac4fd2d9ce342bc6fdc7e0ce539f365e4ec1fe4a",
-    "nameTag": "MillionDollarDapp"
-  },
-  {
-    "address": "0x5d46594e6b0508326eb921790eb91d546f5daedb",
-    "nameTag": "pclab.io"
-  }
-]
+{
+  "lastPulled": "2024-04-02T20:38:22.286Z",
+  "data": [
+    {
+      "address": "0xac4fd2d9ce342bc6fdc7e0ce539f365e4ec1fe4a",
+      "nameTag": "MillionDollarDapp"
+    },
+    {
+      "address": "0x5d46594e6b0508326eb921790eb91d546f5daedb",
+      "nameTag": "pclab.io"
+    }
+  ]
+}

@@ -1,10 +1,13 @@
-[
-  {
-    "address": "0xe74ad5437c6cfb0ccd6badda1f6b57b6e542e75e",
-    "nameTag": "Skale Network: Deployer"
-  },
-  {
-    "address": "0x00c83aecc790e8a4453e5dd3b0b4b3680501a7a7",
-    "nameTag": "Skale Network: SKL Token"
-  }
-]
+{
+  "lastPulled": "2024-04-02T20:49:38.978Z",
+  "data": [
+    {
+      "address": "0xe74ad5437c6cfb0ccd6badda1f6b57b6e542e75e",
+      "nameTag": "Skale Network: Deployer"
+    },
+    {
+      "address": "0x00c83aecc790e8a4453e5dd3b0b4b3680501a7a7",
+      "nameTag": "Skale Network: SKL Token"
+    }
+  ]
+}

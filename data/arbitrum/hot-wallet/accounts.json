@@ -1,1 +1,9 @@
-[{ "address": "0x9b64203878f24eb0cdf55c8c6fa7d08ba0cf77e5", "nameTag": "MEXC" }]
+{
+  "lastPulled": "2024-04-02T21:01:54.610Z",
+  "data": [
+    {
+      "address": "0x9b64203878f24eb0cdf55c8c6fa7d08ba0cf77e5",
+      "nameTag": "MEXC"
+    }
+  ]
+}

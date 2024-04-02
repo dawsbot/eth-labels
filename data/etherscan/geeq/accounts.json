@@ -1,50 +1,53 @@
-[
-  {
-    "address": "0x90039552350843902aa86ed50597d7488edb4b35",
-    "nameTag": "Geeq: Advisors"
-  },
-  {
-    "address": "0x16ea8ce690cc7298d0d97a615f1ab915498bb830",
-    "nameTag": "Geeq: Customer Aquisition"
-  },
-  {
-    "address": "0x13d4a4dc465a6abcfac2346572e9c8b4dceec6e4",
-    "nameTag": "Geeq: Deployer"
-  },
-  {
-    "address": "0x5ee7a3bb9956f37ec94e69ec6497f9f957361bc7",
-    "nameTag": "Geeq: Floating Liquidity"
-  },
-  {
-    "address": "0x534ea640f829f542ee439e76833b5002db4eda80",
-    "nameTag": "Geeq: Founders"
-  },
-  {
-    "address": "0x6b9f031d718dded0d681c20cb754f97b3bb81b78",
-    "nameTag": "Geeq: GEEQ Token"
-  },
-  {
-    "address": "0xd9a65ded16e8f000115dd1e7ff912c994e80d81b",
-    "nameTag": "Geeq: Hybrid Seed Round"
-  },
-  {
-    "address": "0xdfb0353d79cd338e294dec709e76dc4894c51572",
-    "nameTag": "Geeq: Marketing"
-  },
-  {
-    "address": "0x6154218a394a3dcb6326d2287b72fb7bace04966",
-    "nameTag": "Geeq: Pre-Round"
-  },
-  {
-    "address": "0x4cc427be94c8df62b1f3a2a3cbff904fa80284e8",
-    "nameTag": "Geeq: Team"
-  },
-  {
-    "address": "0xcea90ae86fa4b671816caeeae0297344f8527ce4",
-    "nameTag": "Geeq: Unissued Supply"
-  },
-  {
-    "address": "0xa3429458137ad28384ebb11f263b6ed645ca94c5",
-    "nameTag": "Geeq: Unlocked Round"
-  }
-]
+{
+  "lastPulled": "2024-04-02T20:43:57.624Z",
+  "data": [
+    {
+      "address": "0x90039552350843902aa86ed50597d7488edb4b35",
+      "nameTag": "Geeq: Advisors"
+    },
+    {
+      "address": "0x16ea8ce690cc7298d0d97a615f1ab915498bb830",
+      "nameTag": "Geeq: Customer Aquisition"
+    },
+    {
+      "address": "0x13d4a4dc465a6abcfac2346572e9c8b4dceec6e4",
+      "nameTag": "Geeq: Deployer"
+    },
+    {
+      "address": "0x5ee7a3bb9956f37ec94e69ec6497f9f957361bc7",
+      "nameTag": "Geeq: Floating Liquidity"
+    },
+    {
+      "address": "0x534ea640f829f542ee439e76833b5002db4eda80",
+      "nameTag": "Geeq: Founders"
+    },
+    {
+      "address": "0x6b9f031d718dded0d681c20cb754f97b3bb81b78",
+      "nameTag": "Geeq: GEEQ Token"
+    },
+    {
+      "address": "0xd9a65ded16e8f000115dd1e7ff912c994e80d81b",
+      "nameTag": "Geeq: Hybrid Seed Round"
+    },
+    {
+      "address": "0xdfb0353d79cd338e294dec709e76dc4894c51572",
+      "nameTag": "Geeq: Marketing"
+    },
+    {
+      "address": "0x6154218a394a3dcb6326d2287b72fb7bace04966",
+      "nameTag": "Geeq: Pre-Round"
+    },
+    {
+      "address": "0x4cc427be94c8df62b1f3a2a3cbff904fa80284e8",
+      "nameTag": "Geeq: Team"
+    },
+    {
+      "address": "0xcea90ae86fa4b671816caeeae0297344f8527ce4",
+      "nameTag": "Geeq: Unissued Supply"
+    },
+    {
+      "address": "0xa3429458137ad28384ebb11f263b6ed645ca94c5",
+      "nameTag": "Geeq: Unlocked Round"
+    }
+  ]
+}

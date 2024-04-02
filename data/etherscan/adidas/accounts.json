@@ -1,14 +1,17 @@
-[
-  {
-    "address": "0x6d1c18bccde60142af23a3f8aa6f5f59c532a675",
-    "nameTag": "adidas Originals: Deployer"
-  },
-  {
-    "address": "0x28472a58a490c5e09a238847f66a68a47cc76f0f",
-    "nameTag": "adidas Originals: Metaverse"
-  },
-  {
-    "address": "0xbf42c1972877f39e102807e5e80ed2ff5d16aa5f",
-    "nameTag": "adidas Originals: RVMC Token"
-  }
-]
+{
+  "lastPulled": "2024-04-02T20:38:21.336Z",
+  "data": [
+    {
+      "address": "0x6d1c18bccde60142af23a3f8aa6f5f59c532a675",
+      "nameTag": "adidas Originals: Deployer"
+    },
+    {
+      "address": "0x28472a58a490c5e09a238847f66a68a47cc76f0f",
+      "nameTag": "adidas Originals: Metaverse"
+    },
+    {
+      "address": "0xbf42c1972877f39e102807e5e80ed2ff5d16aa5f",
+      "nameTag": "adidas Originals: RVMC Token"
+    }
+  ]
+}

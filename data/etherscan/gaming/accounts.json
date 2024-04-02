@@ -1,42 +1,45 @@
-[
-  {
-    "address": "0x42bc308cbf38ab82a4bf8e35cc7c99d145d078c4",
-    "nameTag": "Chiaotzu Inu: Marketing"
-  },
-  {
-    "address": "0x0b7bda8ad804cb3318ae8490b984c2883ada2154",
-    "nameTag": "CryptoAtoms: Logic"
-  },
-  {
-    "address": "0x25121eddf746c884dde4619b573a7b10714e2a36",
-    "nameTag": "Illuvium: ILV Core Pool"
-  },
-  {
-    "address": "0x8b4d8443a0229349a9892d4f7cbe89ef5f843f72",
-    "nameTag": "Illuvium: ILV-ETH Core Pool"
-  },
-  {
-    "address": "0x21b56371c9d064fe18cca5798e164c25d73b9d36",
-    "nameTag": "Merit Circle: Liquidity Mining Manager"
-  },
-  {
-    "address": "0x30008a3685f12b498d546bca7893449fa8bfb153",
-    "nameTag": "Nifty Football"
-  },
-  {
-    "address": "0xe6cd4727a1058e6973e973986d0493f1e7975ef8",
-    "nameTag": "OogaVerse: MekaApes Game Contract"
-  },
-  {
-    "address": "0x629a673a8242c2ac4b7b8c5d8735fbeac21a6205",
-    "nameTag": "Sorare: SOR Token"
-  },
-  {
-    "address": "0xc39c2ec5c742a92fd3c2861f434fa71237462ff4",
-    "nameTag": "TheMEGLAND"
-  },
-  {
-    "address": "0xecb504d39723b0be0e3a9aa33d646642d1051ee1",
-    "nameTag": "WAGMIGOTCHI"
-  }
-]
+{
+  "lastPulled": "2024-04-02T20:43:48.975Z",
+  "data": [
+    {
+      "address": "0x42bc308cbf38ab82a4bf8e35cc7c99d145d078c4",
+      "nameTag": "Chiaotzu Inu: Marketing"
+    },
+    {
+      "address": "0x0b7bda8ad804cb3318ae8490b984c2883ada2154",
+      "nameTag": "CryptoAtoms: Logic"
+    },
+    {
+      "address": "0x25121eddf746c884dde4619b573a7b10714e2a36",
+      "nameTag": "Illuvium: ILV Core Pool"
+    },
+    {
+      "address": "0x8b4d8443a0229349a9892d4f7cbe89ef5f843f72",
+      "nameTag": "Illuvium: ILV-ETH Core Pool"
+    },
+    {
+      "address": "0x21b56371c9d064fe18cca5798e164c25d73b9d36",
+      "nameTag": "Merit Circle: Liquidity Mining Manager"
+    },
+    {
+      "address": "0x30008a3685f12b498d546bca7893449fa8bfb153",
+      "nameTag": "Nifty Football"
+    },
+    {
+      "address": "0xe6cd4727a1058e6973e973986d0493f1e7975ef8",
+      "nameTag": "OogaVerse: MekaApes Game Contract"
+    },
+    {
+      "address": "0x629a673a8242c2ac4b7b8c5d8735fbeac21a6205",
+      "nameTag": "Sorare: SOR Token"
+    },
+    {
+      "address": "0xc39c2ec5c742a92fd3c2861f434fa71237462ff4",
+      "nameTag": "TheMEGLAND"
+    },
+    {
+      "address": "0xecb504d39723b0be0e3a9aa33d646642d1051ee1",
+      "nameTag": "WAGMIGOTCHI"
+    }
+  ]
+}

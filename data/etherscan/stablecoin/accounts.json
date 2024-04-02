@@ -1,18 +1,21 @@
-[
-  {
-    "address": "0xc1e088fc1323b20bcbee9bd1b9fc9546db5624c5",
-    "nameTag": "Beanstalk: Beanstalk Protocol"
-  },
-  {
-    "address": "0xa0b86991c6218b36c1d19d4a2e9eb0ce3606eb48",
-    "nameTag": "Circle: USDC Token"
-  },
-  {
-    "address": "0xc5f0f7b66764f6ec8c8dff7ba683102295e16409",
-    "nameTag": "First Digital USD: FDUSD Token"
-  },
-  {
-    "address": "0xdac17f958d2ee523a2206206994597c13d831ec7",
-    "nameTag": "Tether: USDT Stablecoin"
-  }
-]
+{
+  "lastPulled": "2024-04-02T20:49:49.430Z",
+  "data": [
+    {
+      "address": "0xc1e088fc1323b20bcbee9bd1b9fc9546db5624c5",
+      "nameTag": "Beanstalk: Beanstalk Protocol"
+    },
+    {
+      "address": "0xa0b86991c6218b36c1d19d4a2e9eb0ce3606eb48",
+      "nameTag": "Circle: USDC Token"
+    },
+    {
+      "address": "0xc5f0f7b66764f6ec8c8dff7ba683102295e16409",
+      "nameTag": "First Digital USD: FDUSD Token"
+    },
+    {
+      "address": "0xdac17f958d2ee523a2206206994597c13d831ec7",
+      "nameTag": "Tether: USDT Stablecoin"
+    }
+  ]
+}

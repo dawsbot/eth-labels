@@ -1,22 +1,25 @@
-[
-  {
-    "address": "0x9d9bcdd249e439aaab545f59a33812e39a8e3072",
-    "nameTag": "Metronome: Auctions"
-  },
-  {
-    "address": "0x686e5ac50d9236a9b7406791256e47feddb26aba",
-    "nameTag": "Metronome: Autonomous Converter"
-  },
-  {
-    "address": "0x2ebd53d035150f328bd754d6dc66b99b0edb89aa",
-    "nameTag": "Metronome: MET Token"
-  },
-  {
-    "address": "0x68c4b7d05fae45bcb6192bb93e246c77e98360e1",
-    "nameTag": "Metronome: Proceeds"
-  },
-  {
-    "address": "0xa3d58c4e56fedcae3a7c43a725aee9a71f0ece4e",
-    "nameTag": "Old Metronome Token"
-  }
-]
+{
+  "lastPulled": "2024-04-02T20:46:02.019Z",
+  "data": [
+    {
+      "address": "0x9d9bcdd249e439aaab545f59a33812e39a8e3072",
+      "nameTag": "Metronome: Auctions"
+    },
+    {
+      "address": "0x686e5ac50d9236a9b7406791256e47feddb26aba",
+      "nameTag": "Metronome: Autonomous Converter"
+    },
+    {
+      "address": "0x2ebd53d035150f328bd754d6dc66b99b0edb89aa",
+      "nameTag": "Metronome: MET Token"
+    },
+    {
+      "address": "0x68c4b7d05fae45bcb6192bb93e246c77e98360e1",
+      "nameTag": "Metronome: Proceeds"
+    },
+    {
+      "address": "0xa3d58c4e56fedcae3a7c43a725aee9a71f0ece4e",
+      "nameTag": "Old Metronome Token"
+    }
+  ]
+}

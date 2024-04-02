@@ -1,18 +1,21 @@
-[
-  {
-    "address": "0x0125e3eca599e46702e534efd58bfb9ed8fbd461",
-    "nameTag": "Minds: Custody"
-  },
-  {
-    "address": "0x400e9f16c25ae165a5c526a13289cb7d0f12b966",
-    "nameTag": "Minds: Minds Boost"
-  },
-  {
-    "address": "0x1f28c6fb3ea8ba23038c70a51d8986c5d1276a8d",
-    "nameTag": "Minds: Minds Inc"
-  },
-  {
-    "address": "0x6f2548b1bee178a49c8ea09be6845f6aeaf3e8da",
-    "nameTag": "Minds: Withdrawals"
-  }
-]
+{
+  "lastPulled": "2024-04-02T20:49:41.274Z",
+  "data": [
+    {
+      "address": "0x0125e3eca599e46702e534efd58bfb9ed8fbd461",
+      "nameTag": "Minds: Custody"
+    },
+    {
+      "address": "0x400e9f16c25ae165a5c526a13289cb7d0f12b966",
+      "nameTag": "Minds: Minds Boost"
+    },
+    {
+      "address": "0x1f28c6fb3ea8ba23038c70a51d8986c5d1276a8d",
+      "nameTag": "Minds: Minds Inc"
+    },
+    {
+      "address": "0x6f2548b1bee178a49c8ea09be6845f6aeaf3e8da",
+      "nameTag": "Minds: Withdrawals"
+    }
+  ]
+}

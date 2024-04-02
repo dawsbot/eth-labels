@@ -1,14 +1,17 @@
-[
-  {
-    "address": "0x617963d46b882ece880ab18bc232f513e91fdd47",
-    "nameTag": "Aura: Claim Zap"
-  },
-  {
-    "address": "0x53c09096b1dc52e2ef223b2969a714ee75da364f",
-    "nameTag": "Aura: Create2Factory"
-  },
-  {
-    "address": "0xd1a6e8ca5d4d6c1fa0cd1f6937a49d3f380dac62",
-    "nameTag": "Aura: Protocol Multi-sig"
-  }
-]
+{
+  "lastPulled": "2024-04-02T21:00:31.679Z",
+  "data": [
+    {
+      "address": "0x617963d46b882ece880ab18bc232f513e91fdd47",
+      "nameTag": "Aura: Claim Zap"
+    },
+    {
+      "address": "0x53c09096b1dc52e2ef223b2969a714ee75da364f",
+      "nameTag": "Aura: Create2Factory"
+    },
+    {
+      "address": "0xd1a6e8ca5d4d6c1fa0cd1f6937a49d3f380dac62",
+      "nameTag": "Aura: Protocol Multi-sig"
+    }
+  ]
+}

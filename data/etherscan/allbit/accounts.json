@@ -1,10 +1,13 @@
-[
-  {
-    "address": "0xdc1882f350b42ac9a23508996254b1915c78b204",
-    "nameTag": "Allbit 1"
-  },
-  {
-    "address": "0xff6b1cdfd2d3e37977d7938aa06b6d89d6675e27",
-    "nameTag": "Allbit 2"
-  }
-]
+{
+  "lastPulled": "2024-04-02T20:38:35.938Z",
+  "data": [
+    {
+      "address": "0xdc1882f350b42ac9a23508996254b1915c78b204",
+      "nameTag": "Allbit 1"
+    },
+    {
+      "address": "0xff6b1cdfd2d3e37977d7938aa06b6d89d6675e27",
+      "nameTag": "Allbit 2"
+    }
+  ]
+}
