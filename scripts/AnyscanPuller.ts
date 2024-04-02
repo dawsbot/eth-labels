@@ -127,7 +127,7 @@ export class AnyscanPuller {
     );
     console.log(`🐢 Waiting for operator to complete login...`);
     // TODO: Update this deprecated function to instead use "page.waitForURL" (https://playwright.dev/docs/api/class-page#page-wait-for-url)
-    await page.waitForNavigation({timeout: 300_000});
+    await page.waitForNavigation({ timeout: 300_000 });
     console.log(`✅ Login completed!`);
   }
 
@@ -265,7 +265,11 @@ export class AnyscanPuller {
         }
         fs.writeFileSync(
           path.join(outputDirectory, "tokens.json"),
-          JSON.stringify({lastPulled: new Date().toISOString(), data: sortedTokenRows}, null, 2),
+          JSON.stringify(
+            { lastPulled: new Date().toISOString(), data: sortedTokenRows },
+            null,
+            2,
+          ),
         );
       }
       // console.dir({
@@ -290,7 +294,11 @@ export class AnyscanPuller {
         const sortedAccountRows = this.#sortAccountRows(accountRows);
         fs.writeFileSync(
           path.join(outputDirectory, "accounts.json"),
-          JSON.stringify({lastPulled:new Date().toISOString(),data:sortedAccountRows}, null, 2),
+          JSON.stringify(
+            { lastPulled: new Date().toISOString(), data: sortedAccountRows },
+            null,
+            2,
+          ),
         );
       }
       // console.dir({

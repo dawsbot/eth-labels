@@ -1,9 +1,9 @@
 import { describe, expect, test } from "vitest";
 import { FileUtilities } from "../FileSystem/FileSystem";
+import { ArbiscanHtmlParser } from "./ArbiscanParser";
 import { BasescanHtmlParser } from "./BasescanParser";
 import { EtherscanHtmlParser } from "./EtherscanParser";
 import { OptimismHtmlParser } from "./OptimismHtmlParser";
-import { ArbiscanHtmlParser } from "./ArbiscanParser";
 const fileUtilities = new FileUtilities(import.meta.url);
 
 const etherscanDirectory = "mocks/etherscan";

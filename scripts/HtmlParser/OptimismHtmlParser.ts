@@ -31,7 +31,7 @@ export class OptimismHtmlParser extends HtmlParser {
 
     return addressesInfo;
   }
-  
+
   public selectAllTokenAddresses(html: string): TokenRows {
     const $ = cheerio.load(html);
     const selector = `#table-subcatid-0 > tbody`;

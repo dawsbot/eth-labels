@@ -19,7 +19,7 @@ export class FileUtilities {
     const fullPath = path.join(this.#__dirname, filePath);
     return fs.readFileSync(fullPath, "utf8");
   }
-  
+
   public readDir(dirPath: string): ReadonlyArray<string> {
     const fullPath = path.join(this.#__dirname, dirPath);
     return fs.readdirSync(fullPath, "utf8") as ReadonlyArray<string>;

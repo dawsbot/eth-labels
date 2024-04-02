@@ -31,7 +31,7 @@ export class ArbiscanHtmlParser extends HtmlParser {
 
     return addressesInfo;
   }
-  
+
   public selectAllTokenAddresses(html: string): TokenRows {
     const $ = cheerio.load(html);
     const selector = `#table-subcatid-0 > tbody`;
@@ -53,9 +53,8 @@ export class ArbiscanHtmlParser extends HtmlParser {
       const match = tokenNameColumn.match(regex);
       const tokenName = match?.[1];
       const tokenSymbol = match?.[2];
-      const website = (
-        $(tableCells[5]).find("a").attr("href") || "" // had to change .attr("data-original-title") to .attr("href") for arbiscan
-      ).toLowerCase();
+      const website = ($(tableCells[5]).find("a").attr("href") || "") // had to change .attr("data-original-title") to .attr("href") for arbiscan
+        .toLowerCase();
       const tokenRow: TokenRow = {
         address: address.trim(),
         tokenName: tokenName || "",
