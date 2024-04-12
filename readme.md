@@ -28,6 +28,12 @@
 
 [View labels here](data/basescan)
 
+## Celo
+
+![](/docs/img/celo.svg | width=200)
+
+[View labels here](data/celo)
+
 <!-- | Label                                                                                              | CSV                                              | JSON                                               | Updated      |
 | -------------------------------------------------------------------------------------------------- | ------------------------------------------------ | -------------------------------------------------- | ------------ |
 | [`exchange`](https://etherscan.io/accounts/label/exchange) (Centralized Exchanges)                 | [View CSV](./src/mainnet/exchange/all.csv)       | [View JSON](./src/mainnet/exchange/all.json)       | May 9, 2022  |
