@@ -14,21 +14,48 @@
 
 ## Ethereum
 
+<!-- AUTO-GENERATED-CONTENT:START (lastEdited:dataDirectory=arbitrum) -->
+<!-- AUTO-GENERATED-CONTENT:END -->
+
 [View labels here](data/etherscan)
 
 ## Arbitrum
+
+<!-- AUTO-GENERATED-CONTENT:START (lastEdited:dataDirectory=arbitrum) -->
+
+Last edited: March 28, 2024
+
+<!-- AUTO-GENERATED-CONTENT:END -->
 
 [View labels here](data/arbitrum)
 
 ## Optimism
 
+<!-- AUTO-GENERATED-CONTENT:START (lastEdited:dataDirectory=optimism) -->
+
+Last edited: March 28, 2024
+
+<!-- AUTO-GENERATED-CONTENT:END -->
+
 [View labels here](data/optimism)
 
 ## Base
 
+<!-- AUTO-GENERATED-CONTENT:START (lastEdited:dataDirectory=basescan) -->
+
+Last edited: March 28, 2024
+
+<!-- AUTO-GENERATED-CONTENT:END -->
+
 [View labels here](data/basescan)
 
 ## Celo
+
+<!-- AUTO-GENERATED-CONTENT:START (lastEdited:dataDirectory=celo) -->
+
+Last edited: April 12, 2024
+
+<!-- AUTO-GENERATED-CONTENT:END -->
 
 ![](/docs/img/celo.svg | width=200)
 
