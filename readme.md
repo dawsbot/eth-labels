@@ -15,6 +15,9 @@
 ## Ethereum
 
 <!-- AUTO-GENERATED-CONTENT:START (lastEdited:dataDirectory=arbitrum) -->
+
+Last edited: March 28, 2024
+
 <!-- AUTO-GENERATED-CONTENT:END -->
 
 [View labels here](data/etherscan)
