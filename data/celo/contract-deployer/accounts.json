@@ -1,0 +1,139 @@
+[
+  { "address": "0x2c2bc76b97bce84a5a9c6e2835ab13306b964cf1", "nameTag": "" },
+  {
+    "address": "0x0ca8f5be54546996ec1e96a41870fc4477c4e664",
+    "nameTag": "Allbridge: Deployer"
+  },
+  {
+    "address": "0x5afae3d2b0dcee1833bb947fac15d4f2d2d5d523",
+    "nameTag": "Ax Protocol: Deployer"
+  },
+  {
+    "address": "0xdb8d6edb8a2fb0f322243a9bdeafbf06983f4d77",
+    "nameTag": "Axelar: Relayer (Legacy)"
+  },
+  {
+    "address": "0xc4ad9f58c4c7cba47191be635ecf40b4515cf6cf",
+    "nameTag": "Brale: Deployer"
+  },
+  {
+    "address": "0xe23a4c6615669526ab58e9c37088bee4ed2b2dee",
+    "nameTag": "Celo: Deployer 1"
+  },
+  {
+    "address": "0xf3eb910da09b8af348e0e5b6636da442cfa79239",
+    "nameTag": "Celo: Deployer 2"
+  },
+  {
+    "address": "0x3ab0d06a3b36306301d993256702753de8f00118",
+    "nameTag": "CeloLaunch: Deployer"
+  },
+  {
+    "address": "0x9378a4932ab933fb893192dc1b163a37e807b185",
+    "nameTag": "EthicHub: Deployer"
+  },
+  {
+    "address": "0x5a33b47507e5225fcd7df11de06c84680ea5db87",
+    "nameTag": "Follow Me: Deployer"
+  },
+  {
+    "address": "0xca1fb28a5e6a3cd987c290cb155653f27ab9b636",
+    "nameTag": "GTPS: Deployer"
+  },
+  {
+    "address": "0x26adb982d061b5e667d75f9dec1360cc671007f3",
+    "nameTag": "Hedgey Finance: Deployer"
+  },
+  {
+    "address": "0x39a4e547dba568a451b0096d907cb8a61f12f4e7",
+    "nameTag": "JumpTask: Deployer"
+  },
+  {
+    "address": "0x54527846ade7e915f4261e1818a997250ce83418",
+    "nameTag": "MCO2: Deployer"
+  },
+  {
+    "address": "0x074a2bb7686da8dacad178aece2ad280b8d4c25d",
+    "nameTag": "Minereum: Deployer"
+  },
+  {
+    "address": "0xac4b966e4e01662dcca10f96a05415d31efcb761",
+    "nameTag": "Moola Market: Deployer"
+  },
+  {
+    "address": "0x0b48321965eb8a982dec25b43542e07a202d931a",
+    "nameTag": "Moola: Deployer"
+  },
+  {
+    "address": "0xfa9da51631268a30ec3ddd1ccbf46c65fad99251",
+    "nameTag": "Multichain: Deployer"
+  },
+  {
+    "address": "0x4283b3469a9edce1fda34ec6e8a453cf82b9cab7",
+    "nameTag": "O3 Swap: Deployer"
+  },
+  {
+    "address": "0x239b28029ab6924b1a8d357a1d3585f19a2b3fb6",
+    "nameTag": "Optics: Deployer"
+  },
+  {
+    "address": "0x22cac6a8e7ff5ce7b35c862cdd5a11c288aef142",
+    "nameTag": "Plastiks: Deployer"
+  },
+  {
+    "address": "0x51d5835f712d98a50a77d51b2a6d73203fc83eb9",
+    "nameTag": "Plastiks: Deployer 1"
+  },
+  {
+    "address": "0x4fd26e32396dcc94487fd6f64469c33ee39b59c0",
+    "nameTag": "Prodox Ecosystem: Deployer"
+  },
+  {
+    "address": "0x1e7b390149abb3b891e0a7027e111188032d4540",
+    "nameTag": "RadioShack: Deployer"
+  },
+  {
+    "address": "0x215d0d3eb57be57dad6884c334ce2bc6d0431d87",
+    "nameTag": "Soft Balanced: Deployer"
+  },
+  {
+    "address": "0x5bc1c4c1d67c5e4384189302bc653a611568a788",
+    "nameTag": "Staked Celo: Deployer"
+  },
+  {
+    "address": "0x32f652b8c255f9029d271a65f9ae2243e9e513b7",
+    "nameTag": "Story Earth: Deployer"
+  },
+  {
+    "address": "0x0bfd6d1ecb90bef6cb9daf2b446b9b852120deae",
+    "nameTag": "Tegisto: Deployer"
+  },
+  {
+    "address": "0x1f9b97ecac47c16b14d4551c92572a3ee4e9380c",
+    "nameTag": "Tether: Deployer"
+  },
+  {
+    "address": "0x99de25dd595ea941632eb4ba5faad8fc2700fc38",
+    "nameTag": "TIME Token Finance: Deployer"
+  },
+  {
+    "address": "0x673c737422b5f87b3e04bb430699cac04afad760",
+    "nameTag": "Truefeedback: Deployer"
+  },
+  {
+    "address": "0xe725c326b19828dbedf5b8188ba32e7d0ce68179",
+    "nameTag": "Ubeswap: Deployer"
+  },
+  {
+    "address": "0x135907936537a44763817ac7fc30abaec9a81fab",
+    "nameTag": "Wormhole: Deployer"
+  },
+  {
+    "address": "0xe2e2d9e31d7e1cc1178fe0d1c5950f6c809816a3",
+    "nameTag": "Wormhole: Deployer 1"
+  },
+  {
+    "address": "0x13b0d85ccb8bf860b6b79af3029fca081ae9bef2",
+    "nameTag": "xdeployer: Deployer"
+  }
+]

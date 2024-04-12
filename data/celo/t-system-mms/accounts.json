@@ -1,0 +1,26 @@
+[
+  {
+    "address": "0x81383e7c8801b102f742f4f5a5fad06867212b05",
+    "nameTag": "Validator Group: T-System MMS Validator 1"
+  },
+  {
+    "address": "0xb6a0db24dd1a20183584cde5dd883f4bb3ae068c",
+    "nameTag": "Validator: T-System MMS Validator 1"
+  },
+  {
+    "address": "0x35a5a989151683215ec36898bb4497f524556b69",
+    "nameTag": "Validator: T-System MMS Validator 2"
+  },
+  {
+    "address": "0xdfbf9cc8dbc04b9c07f292bb9147c14ddf4152b7",
+    "nameTag": "Validator: T-System MMS Validator 3"
+  },
+  {
+    "address": "0x4a8fa59c7e41204445b756e521a591a75e57528c",
+    "nameTag": "Validator: T-System MMS Validator 4"
+  },
+  {
+    "address": "0xa61486fc99f22e5640c2d28db78a721705bd4158",
+    "nameTag": "Validator: T-System MMS Validator 5"
+  }
+]

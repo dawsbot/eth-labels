@@ -1,13 +1,13 @@
 import { describe, expect, test } from "vitest";
 import { FileUtilities } from "../FileSystem/FileSystem";
-import { BasescanHtmlParser } from "./BasescanParser";
+import { scanConfig } from "../scan-config";
 import { EtherscanHtmlParser } from "./EtherscanParser";
-import { OptimismHtmlParser } from "./OptimismHtmlParser";
 const fileUtilities = new FileUtilities(import.meta.url);
 
 const etherscanDirectory = "mocks/etherscan";
 const basescanDirectory = "mocks/basescan";
 const optimismDirectory = "mocks/optimism";
+const celoDirectory = "mocks/celo";
 
 function getMocks(directory: string) {
   return {
@@ -20,9 +20,51 @@ function getMocks(directory: string) {
 const basescanMocks = getMocks(basescanDirectory);
 const etherscanMocks = getMocks(etherscanDirectory);
 const optimismMocks = getMocks(optimismDirectory);
+const celoMocks = getMocks(celoDirectory);
 
+describe("celo", () => {
+  const htmlParser = scanConfig.celo.htmlParser;
+  test("should parse labelcloud", () => {
+    const allLabels = htmlParser.selectAllLabels(celoMocks.mockLabelCloudHtml);
+
+    expect(allLabels).toHaveLength(117);
+    expect(allLabels[0]).toBe(`/accounts/label/01-node?size=10000`);
+  });
+  test("should parse account addresses", () => {
+    const accountRows = htmlParser.selectAllAccountAddresses(
+      celoMocks.mockAccountsHtml,
+    );
+
+    expect(accountRows).toHaveLength(50);
+    expect(accountRows).toContainEqual({
+      address: "0x50cb1a8fd27159686430c4e41ecc77d2179d32c0",
+      nameTag: "Fake_Phishing9",
+    });
+  });
+  test("should parse token addresses", () => {
+    const tokenRows = htmlParser.selectAllTokenAddresses(
+      celoMocks.mockTokensHtml,
+    );
+
+    expect(tokenRows).toHaveLength(22);
+    expect(tokenRows).toContainEqual({
+      address: "0x2cfd4b2827f35624ae12c858da969e16d5d730a2",
+      tokenName: "ERC-20 TOKEN*",
+      tokenSymbol: "",
+      website: "",
+    });
+    // this html has one extra row artificially added from
+    // https://celoscan.io/tokens/label/bitfinex?subcatid=0&size=50&start=0&col=3&order=desc
+    expect(tokenRows).toContainEqual({
+      address: "0x48065fbbe25f71c9282ddf5e1cd6d6a887483d5e",
+      tokenName: "Tether USD",
+      tokenSymbol: "USD₮",
+      website: "https://tether.to/",
+    });
+  });
+});
 describe("optimism", () => {
-  const htmlParser = new OptimismHtmlParser();
+  const htmlParser = scanConfig.optimism.htmlParser;
   test("should parse labelcloud", () => {
     const allLabels = htmlParser.selectAllLabels(
       optimismMocks.mockLabelCloudHtml,
@@ -57,7 +99,7 @@ describe("optimism", () => {
   });
 });
 describe("basescan", () => {
-  const htmlParser = new BasescanHtmlParser();
+  const htmlParser = scanConfig.basescan.htmlParser;
   test("should parse labelcloud", () => {
     const allLabels = htmlParser.selectAllLabels(
       basescanMocks.mockLabelCloudHtml,
@@ -93,7 +135,7 @@ describe("basescan", () => {
 });
 
 describe("etherscan", () => {
-  const htmlParser = new EtherscanHtmlParser();
+  const htmlParser = scanConfig.etherscan.htmlParser;
   test("should parse labelcloud", () => {
     const allLabels = htmlParser.selectAllLabels(
       etherscanMocks.mockLabelCloudHtml,

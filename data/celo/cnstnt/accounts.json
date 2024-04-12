@@ -1,0 +1,22 @@
+[
+  {
+    "address": "0x21fb4411fa5828344c2788ab07d4cc12a12571b9",
+    "nameTag": "Validator Group: Cnstnt Validator 1"
+  },
+  {
+    "address": "0x8d1a5ef84252586f0f841a9fcf4e31f23c4c21e0",
+    "nameTag": "Validator: Cnstnt Validator 1"
+  },
+  {
+    "address": "0xdf9121affb220e9095c875a79c3d1fa3ebee4105",
+    "nameTag": "Validator: Cnstnt Validator 2"
+  },
+  {
+    "address": "0x020e468c252ff18261b1996d25f0fff4f830cf7a",
+    "nameTag": "Validator: Cnstnt Validator 3"
+  },
+  {
+    "address": "0x5b9f5239b10f1d74ea89f88fe3d50db7ecd6e450",
+    "nameTag": "Validator: Cnstnt Validator 4"
+  }
+]
