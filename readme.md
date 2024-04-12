@@ -30,7 +30,7 @@
 
 ## Celo
 
-![](/docs/img/celo.svg | width=200)
+<img src="https://raw.githubusercontent.com/dawsbot/evm-labels/v1/docs/img/celo.svg" width="200"/></a>
 
 [View labels here](data/celo)
 
