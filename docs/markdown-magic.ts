@@ -39,3 +39,4 @@ const updateReadme = () => {
 };
 
 updateReadme();
+// TODO: Run prettier here
