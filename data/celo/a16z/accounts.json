@@ -1,0 +1,18 @@
+[
+  {
+    "address": "0x4da92da1afbf103f2b52dd29326e34c98ca1e78c",
+    "nameTag": "Validator Group: a16z 1"
+  },
+  {
+    "address": "0xb2728edcc9c255c2d053ea6cae31cfd584b758d3",
+    "nameTag": "Validator: a16z Validator 1"
+  },
+  {
+    "address": "0xfce0779607246eb5121a5a4192d6ac4a758c217d",
+    "nameTag": "Validator: a16z Validator 2"
+  },
+  {
+    "address": "0x394b846e0ecf83ef350a2a7ccb7be0c6552e7cbc",
+    "nameTag": "Validator: a16z Validator 3"
+  }
+]
