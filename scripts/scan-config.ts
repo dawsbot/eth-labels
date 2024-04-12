@@ -1,4 +1,4 @@
-import { BasescanHtmlParser } from "./HtmlParser/BasescanParser";
+import { CeloScanParser } from "./HtmlParser/CeloScanParser";
 import { EtherscanHtmlParser } from "./HtmlParser/EtherscanParser";
 import { OptimismHtmlParser } from "./HtmlParser/OptimismHtmlParser";
 
@@ -9,7 +9,7 @@ export const scanConfig = {
   },
   basescan: {
     website: "https://basescan.org",
-    htmlParser: new BasescanHtmlParser(),
+    htmlParser: new OptimismHtmlParser(),
   },
   optimism: {
     website: "https://optimistic.etherscan.io",
@@ -18,5 +18,9 @@ export const scanConfig = {
   arbitrum: {
     website: "https://arbiscan.io",
     htmlParser: new OptimismHtmlParser(),
+  },
+  celo: {
+    website: "https://celoscan.io",
+    htmlParser: new CeloScanParser(),
   },
 } as const;

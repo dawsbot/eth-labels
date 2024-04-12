@@ -1,0 +1,22 @@
+[
+  {
+    "address": "0xbbbd1bbb4f9b936c3604906d7592a644071de884",
+    "nameTag": "Allbridge: Bridge"
+  },
+  {
+    "address": "0x1548cf5cf7dbd93f4da11f45fcce315573d21b60",
+    "nameTag": "Optics: ERC-20 Bridge"
+  },
+  {
+    "address": "0xa321448d90d4e5b0a732867c18ea198e75cac48e",
+    "nameTag": "Wormhole: Celo Core Bridge"
+  },
+  {
+    "address": "0xa6a377d75ca5c9052c9a77ed1e865cc25bd97bf3",
+    "nameTag": "Wormhole: NFT Bridge"
+  },
+  {
+    "address": "0x796dff6d74f3e27060b71255fe517bfb23c93eed",
+    "nameTag": "Wormhole: Token Bridge"
+  }
+]

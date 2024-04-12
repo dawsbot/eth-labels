@@ -24,6 +24,7 @@ export abstract class HtmlParser {
         return;
       }
       // tokens has a max page size of 100 while accounts seems to allow 10,000+
+      // TODO: repull tokens which have a page length > 100
       const maxRecordsLength = pathname.includes("tokens") ? 100 : 10_000;
       const size = $(element).text();
       const regex = /\((.*?)\)/;

@@ -1,0 +1,402 @@
+[
+  {
+    "address": "0x1d511366feb1ed330925b2d51645bb5c607ea6d4",
+    "nameTag": "Polychain: Classic"
+  },
+  {
+    "address": "0x5282f82f82e9a74e186b8ee18cc76808b78dc383",
+    "nameTag": "Polychain: Cybernetic"
+  },
+  {
+    "address": "0xab0c16bbd78d6b9f4503d81d859a3ffb64486f9a",
+    "nameTag": "Polychain: Rhodium"
+  },
+  {
+    "address": "0xacf0e11ff39ead797475a1694fcca94a0e94784f",
+    "nameTag": "Polychain: Seraph"
+  },
+  {
+    "address": "0x0f412760759a2fad4f07cee36bfdaa218814de89",
+    "nameTag": "Validator Capital 1"
+  },
+  {
+    "address": "0x07adf41f00dd7ec9c63c445f3fad5ccbdc2a7c85",
+    "nameTag": "Validator Capital 2"
+  },
+  {
+    "address": "0x7b41d719f51ca1e057aecb8718c649aff0c16895",
+    "nameTag": "Validator: 01 Node 1"
+  },
+  {
+    "address": "0xb2728edcc9c255c2d053ea6cae31cfd584b758d3",
+    "nameTag": "Validator: a16z Validator 1"
+  },
+  {
+    "address": "0xfce0779607246eb5121a5a4192d6ac4a758c217d",
+    "nameTag": "Validator: a16z Validator 2"
+  },
+  {
+    "address": "0x394b846e0ecf83ef350a2a7ccb7be0c6552e7cbc",
+    "nameTag": "Validator: a16z Validator 3"
+  },
+  {
+    "address": "0x943e9a5c750adcc467575f4fe81bf6b1c3a2aed7",
+    "nameTag": "Validator: AG x1"
+  },
+  {
+    "address": "0x28b5f40c3f5883021408ce79f20fcf282e873236",
+    "nameTag": "Validator: Alive29x1"
+  },
+  {
+    "address": "0x8c1bf342693772a04bb223ea949f915ebf72521a",
+    "nameTag": "Validator: Anyblock Analytics"
+  },
+  {
+    "address": "0xe17b899d1ba93249be07afa6ca670fe165bc5d17",
+    "nameTag": "Validator: AtWeb3 1"
+  },
+  {
+    "address": "0x7ff6c32b2cfc9bc6abddae17056e6d81c516806b",
+    "nameTag": "Validator: Audit One Validator 1"
+  },
+  {
+    "address": "0x089b1654325cce14fb3e2dabca2803bc489e83e7",
+    "nameTag": "Validator: Bison Trails 2"
+  },
+  {
+    "address": "0x45d8170f30b0d408196ab0e14af47d77b18f0a38",
+    "nameTag": "Validator: Block Daemon 1"
+  },
+  {
+    "address": "0xc8d1dc1ac8e0ac039a8b1284ef687d557f812e5c",
+    "nameTag": "Validator: Block Daemon 2"
+  },
+  {
+    "address": "0xe51662a4448cc9994df7b28e4f0b38d678958b0d",
+    "nameTag": "Validator: Carnica"
+  },
+  {
+    "address": "0xe8302a78c4eb56ac1cd1d6aee25719dc54c63e59",
+    "nameTag": "Validator: Celvaly 1"
+  },
+  {
+    "address": "0x989f3f2684f96b8cdec308b4e7538a5a062890f0",
+    "nameTag": "Validator: Celvaly 2"
+  },
+  {
+    "address": "0x2bdc5ccda08a7f821ae0df72b5fda60cd58d6353",
+    "nameTag": "Validator: Censusworks 1"
+  },
+  {
+    "address": "0x0ebdccd9091efb1243417bdf3addd63132962586",
+    "nameTag": "Validator: Censusworks 2"
+  },
+  {
+    "address": "0x4fc4ea624db2e4a1d6195a03744d505cbcd9431b",
+    "nameTag": "Validator: Chain Layer 1"
+  },
+  {
+    "address": "0x00a9e8869e40e038d0fae63d825a732e6fff48d1",
+    "nameTag": "Validator: Chain Vibes 1"
+  },
+  {
+    "address": "0x5098a28bfa2da3183e36c009c7d63093b66441a5",
+    "nameTag": "Validator: Chorus One Validator 1"
+  },
+  {
+    "address": "0x8d1a5ef84252586f0f841a9fcf4e31f23c4c21e0",
+    "nameTag": "Validator: Cnstnt Validator 1"
+  },
+  {
+    "address": "0xdf9121affb220e9095c875a79c3d1fa3ebee4105",
+    "nameTag": "Validator: Cnstnt Validator 2"
+  },
+  {
+    "address": "0x020e468c252ff18261b1996d25f0fff4f830cf7a",
+    "nameTag": "Validator: Cnstnt Validator 3"
+  },
+  {
+    "address": "0x5b9f5239b10f1d74ea89f88fe3d50db7ecd6e450",
+    "nameTag": "Validator: Cnstnt Validator 4"
+  },
+  {
+    "address": "0x4e957bbc61afdab63263ffdbaf201f6f596e3e2d",
+    "nameTag": "Validator: Cypher Core 1"
+  },
+  {
+    "address": "0x580f29ab04b7ed4e5aa86584d38c9317d9cf0358",
+    "nameTag": "Validator: Cypher Core 2"
+  },
+  {
+    "address": "0x02dc997790352e12fa90eb1a937dfef4bf8dbbc0",
+    "nameTag": "Validator: Dark Chocolate"
+  },
+  {
+    "address": "0x00751d4e4861adffdddfca5ec27703797a3b9349",
+    "nameTag": "Validator: deData Labs 1"
+  },
+  {
+    "address": "0x588ed7deeff8df7c00ff187c398936b101583ec7",
+    "nameTag": "Validator: DSRV CeloWhale 1"
+  },
+  {
+    "address": "0x1ab89fa8bdbd48f4426379abeb59803dd5283e3f",
+    "nameTag": "Validator: DSRV CeloWhale 2"
+  },
+  {
+    "address": "0xd018838832f6112de72ee6cc9967c56b333a0d1c",
+    "nameTag": "Validator: Dynamic"
+  },
+  {
+    "address": "0x1dd301feaa72f4c07b3ca56ce0c27e98e66b77bd",
+    "nameTag": "Validator: Easy2Stake"
+  },
+  {
+    "address": "0x2b66f23c2987597225d36872a52a3d3337386054",
+    "nameTag": "Validator: Eat Pray Validate 1"
+  },
+  {
+    "address": "0x9f49e9ec7199455dda0b116785470fbafb4c0b50",
+    "nameTag": "Validator: Eat Pray Validate 2"
+  },
+  {
+    "address": "0x0e47ea88480788289bda37d8ae0c2cd680623cfa",
+    "nameTag": "Validator: Figment Networks 1"
+  },
+  {
+    "address": "0x90b056b00952d71bc7866c067b49f5b062098ac9",
+    "nameTag": "Validator: Figment Networks 2"
+  },
+  {
+    "address": "0xddc60b465c204aa7358ce4f009d2dbc65af5c4b4",
+    "nameTag": "Validator: Figment Networks 3"
+  },
+  {
+    "address": "0x12125d1b7f01f32b3a741a6b97cb46f714f273aa",
+    "nameTag": "Validator: Figment Networks 4"
+  },
+  {
+    "address": "0x1fd168b11eb42f19fbf12326a214ecd6d200d798",
+    "nameTag": "Validator: Fore"
+  },
+  {
+    "address": "0xe34cd052e59ff830b286a125c52dde568ac8bd48",
+    "nameTag": "Validator: Garoto"
+  },
+  {
+    "address": "0xf2aadf8ff2ad7e5c1efb0d45cb622618ba6636a7",
+    "nameTag": "Validator: Goods and Services"
+  },
+  {
+    "address": "0xe5f947368c986dfe7a025b9b35dee3e5ac3a330e",
+    "nameTag": "Validator: GunRay 1"
+  },
+  {
+    "address": "0xf0b25502595911b64de75f453b34557c1b2c4760",
+    "nameTag": "Validator: Happy Celo 1"
+  },
+  {
+    "address": "0x5e69cca114a77ab0a5804108faf0cd1e1c802a5e",
+    "nameTag": "Validator: huglester 1"
+  },
+  {
+    "address": "0x233c06edc757003ca4ec078012f517f21a24c55c",
+    "nameTag": "Validator: Keyko"
+  },
+  {
+    "address": "0xbbc724bdf633287e8bc18ac45800e2ed13877a73",
+    "nameTag": "Validator: Kytzu"
+  },
+  {
+    "address": "0x1c13efcbaeccc17d41f4a23da5cac15167675b96",
+    "nameTag": "Validator: Ledger by Figment 1"
+  },
+  {
+    "address": "0xd818f03476ef422beddf720addf5b3d3fd8353fe",
+    "nameTag": "Validator: Ledger by Figment 2"
+  },
+  {
+    "address": "0x572bd94eef29d104f266e82b0781bc4b07086648",
+    "nameTag": "Validator: Ledger by Figment 3"
+  },
+  {
+    "address": "0xf87a83a0fb9118102b7fe2f19b7940de3d421932",
+    "nameTag": "Validator: Libertango"
+  },
+  {
+    "address": "0x9c542c0b5af5e04e2d1e67cf1fc176e91bc18da0",
+    "nameTag": "Validator: Masternode24"
+  },
+  {
+    "address": "0x1e554ac038114c0a69834be928fb95e5aaf18950",
+    "nameTag": "Validator: Mimetic Polyalloy"
+  },
+  {
+    "address": "0x39b01620ecdeb8347270ee78dc962b0ea583b57a",
+    "nameTag": "Validator: Mission Quorum 1"
+  },
+  {
+    "address": "0x9e8a03768c2711c22bcc7999359d6655b7cdb710",
+    "nameTag": "Validator: Mission Quorum 2"
+  },
+  {
+    "address": "0xdb2e80840f40033761a5cdfa3b09fe24f95a4aaa",
+    "nameTag": "Validator: Mission Quorum 3"
+  },
+  {
+    "address": "0xc538583c030227de48e3279c1009646f29dc097e",
+    "nameTag": "Validator: Mission Quorum 4"
+  },
+  {
+    "address": "0xc1a42a4550301b16eb557b46c15d27c222761ef7",
+    "nameTag": "Validator: Mission Quorum 5"
+  },
+  {
+    "address": "0x399b3d48fdcd668d274afc6f4be05475a325c6c6",
+    "nameTag": "Validator: Moonlet Wallet"
+  },
+  {
+    "address": "0xddbca691842fd452d8f53575fdfdc2314eb3ad57",
+    "nameTag": "Validator: moonli"
+  },
+  {
+    "address": "0x1b4a54049a8652c4c3e62c8c6959f06280acfc6c",
+    "nameTag": "Validator: Myelin"
+  },
+  {
+    "address": "0xfe38631e7e164d20754387f7165b9c5b427da17b",
+    "nameTag": "Validator: Newroad Network"
+  },
+  {
+    "address": "0x4d540ec31f9cc5b1d10a329eb4eddf52cb3dc000",
+    "nameTag": "Validator: NGA Validator"
+  },
+  {
+    "address": "0xab6eee9da588d38b43b1d2ea404e824fa2bf382c",
+    "nameTag": "Validator: Nodito Labs"
+  },
+  {
+    "address": "0x1819b44553fa39a983d1c92238e1f18aee30ef51",
+    "nameTag": "Validator: Nonce 2"
+  },
+  {
+    "address": "0xcdd88f80ed52afec9d670f5a6da8940eee716f45",
+    "nameTag": "Validator: Projecttent"
+  },
+  {
+    "address": "0x1aef9bf15de73adba318fc8aea3d2f45d120cc8a",
+    "nameTag": "Validator: Ryabina Validator"
+  },
+  {
+    "address": "0x4e3c453b4897451e6f84c6869f533ca04250259a",
+    "nameTag": "Validator: Seedbed"
+  },
+  {
+    "address": "0xc2023e0d13f53d181f29b99d829cd75628337d15",
+    "nameTag": "Validator: Simply Staking"
+  },
+  {
+    "address": "0xb29438f402da218180bba79fbc0fadd3e9e151aa",
+    "nameTag": "Validator: SlavaMo"
+  },
+  {
+    "address": "0xbe505db3e26655cd0a5488f396e391bfa523bea4",
+    "nameTag": "Validator: Stake DAO"
+  },
+  {
+    "address": "0x48ac52662cbf32f8fc0cd8c1122c7560b482c2ad",
+    "nameTag": "Validator: Stake Service"
+  },
+  {
+    "address": "0x54d0d2e0f1cc1d7fb21e2350f14d79a1237605d1",
+    "nameTag": "Validator: Stakely"
+  },
+  {
+    "address": "0x5f2e4e239bcd86e1cf97538ea7d5e2ec639a3bc4",
+    "nameTag": "Validator: Stakes Stone"
+  },
+  {
+    "address": "0x7b3859147b1c173fff7182e58a4ec81c1d287224",
+    "nameTag": "Validator: Staking Fund 1"
+  },
+  {
+    "address": "0xfaa0b40645ee5e8d9ae38393e8cdf8e5baa71d13",
+    "nameTag": "Validator: Staking Fund 2"
+  },
+  {
+    "address": "0x36fa3e9c6b3b7d0c8b92e8224ea3c6466b9cedba",
+    "nameTag": "Validator: Stellar Staking"
+  },
+  {
+    "address": "0xcc5dbdf5c397d69dfc28da44f690492942c2910a",
+    "nameTag": "Validator: SwiftStaking"
+  },
+  {
+    "address": "0x77ecf3c7ac7082344edfee10e41edb72fa3d1951",
+    "nameTag": "Validator: SwiftStaking 2"
+  },
+  {
+    "address": "0xd5fb8a8e6e81bc77d7d807c05b5b8aeae7c2a458",
+    "nameTag": "Validator: Syncnode"
+  },
+  {
+    "address": "0xb6a0db24dd1a20183584cde5dd883f4bb3ae068c",
+    "nameTag": "Validator: T-System MMS Validator 1"
+  },
+  {
+    "address": "0x35a5a989151683215ec36898bb4497f524556b69",
+    "nameTag": "Validator: T-System MMS Validator 2"
+  },
+  {
+    "address": "0xdfbf9cc8dbc04b9c07f292bb9147c14ddf4152b7",
+    "nameTag": "Validator: T-System MMS Validator 3"
+  },
+  {
+    "address": "0x4a8fa59c7e41204445b756e521a591a75e57528c",
+    "nameTag": "Validator: T-System MMS Validator 4"
+  },
+  {
+    "address": "0xa61486fc99f22e5640c2d28db78a721705bd4158",
+    "nameTag": "Validator: T-System MMS Validator 5"
+  },
+  {
+    "address": "0x92aae14a531086a665daff6eedb5b71e00acc6d1",
+    "nameTag": "Validator: TD Labs"
+  },
+  {
+    "address": "0x0c7610f8f4da332c77c9800012009ccfa48f23e4",
+    "nameTag": "Validator: Tero Labs"
+  },
+  {
+    "address": "0x44a7af700aca1b24ecdb818df4d202772d606cb4",
+    "nameTag": "Validator: Tessellated Geometry"
+  },
+  {
+    "address": "0x29c9ca0186650063ba6fcac3a952613b11d6bc36",
+    "nameTag": "Validator: The Passive Trust V1"
+  },
+  {
+    "address": "0xb5fd5db8db85c4197251e37528dd2fc77e7ab372",
+    "nameTag": "Vladiator Labs 2"
+  },
+  {
+    "address": "0xdd8067c6bb86c0f755188362c7089c1acd42b60d",
+    "nameTag": "Volt"
+  },
+  {
+    "address": "0x6ac7e3d0bdeb78ddcf3d9b15208b50c08271c213",
+    "nameTag": "WOTrust 2"
+  },
+  {
+    "address": "0x206296befffb68fce658535d443c732892162005",
+    "nameTag": "WOTrust 3"
+  },
+  {
+    "address": "0x474df04481f778b46fc71204c72b6a8be396f0ff",
+    "nameTag": "Zanshin V0"
+  },
+  {
+    "address": "0x5c886da5e3b0e63f979633bdeb2a17be49f2e829",
+    "nameTag": "ZK Validator 2"
+  }
+]
