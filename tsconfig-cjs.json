@@ -5,5 +5,5 @@
     "outDir": "./lib/cjs",
     "removeComments": false
   },
-  "exclude": ["scripts"]
+  "exclude": ["scripts", "docs"]
 }
