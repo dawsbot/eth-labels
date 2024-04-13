@@ -24,14 +24,15 @@ const updateReadme = () => {
         // eslint-disable-next-line
         const dataDirectory: string = z.string().parse(options?.dataDirectory);
         const lastModified = getLastModifiedDate(dataDirectory);
-        return `Last edited: ${lastModified}`;
+        return `${dataDirectory} was last modified: ${lastModified}
+
+[View labels here](data/${dataDirectory})`;
       },
     },
   };
 
   try {
     markdownMagic(readmePath, config);
-    // fs.writeFileSync(readmeFilePath, readmeContent);
     console.log("README file updated successfully!");
   } catch (error) {
     console.error("Error updating README file:", error);
@@ -39,4 +40,3 @@ const updateReadme = () => {
 };
 
 updateReadme();
-// TODO: Run prettier here
