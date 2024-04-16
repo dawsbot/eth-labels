@@ -1,5 +1,5 @@
 <p align="center">
-  <a><img src="https://etherscan.io/images/logo-ether.png?v=0.0.2" title="Logo" width="400"/></a>
+  <a><img src="https://raw.githubusercontent.com/dawsbot/evm-labels/v1/docs/img/etherscan.png" title="Logo" width="400"/></a>
 </p>
 <p align="center">
   <b>
@@ -14,19 +14,57 @@
 
 ## Ethereum
 
+<img src="https://raw.githubusercontent.com/dawsbot/evm-labels/v1/docs/img/etherscan.png" width="200"/></a>
+
+<!-- AUTO-GENERATED-CONTENT:START (lastEdited:dataDirectory=etherscan) -->
+
+etherscan was last modified: March 28, 2024
+
 [View labels here](data/etherscan)
+
+<!-- AUTO-GENERATED-CONTENT:END -->
 
 ## Arbitrum
 
+<!-- AUTO-GENERATED-CONTENT:START (lastEdited:dataDirectory=arbitrum) -->
+
+arbitrum was last modified: March 28, 2024
+
 [View labels here](data/arbitrum)
+
+<!-- AUTO-GENERATED-CONTENT:END -->
 
 ## Optimism
 
+<!-- AUTO-GENERATED-CONTENT:START (lastEdited:dataDirectory=optimism) -->
+
+optimism was last modified: March 28, 2024
+
 [View labels here](data/optimism)
+
+<!-- AUTO-GENERATED-CONTENT:END -->
 
 ## Base
 
+<!-- AUTO-GENERATED-CONTENT:START (lastEdited:dataDirectory=basescan) -->
+
+basescan was last modified: March 28, 2024
+
 [View labels here](data/basescan)
+
+<!-- AUTO-GENERATED-CONTENT:END -->
+
+## Celo
+
+<img src="https://raw.githubusercontent.com/dawsbot/evm-labels/v1/docs/img/celo.svg" width="200"/></a>
+
+<!-- AUTO-GENERATED-CONTENT:START (lastEdited:dataDirectory=celo) -->
+
+celo was last modified: April 12, 2024
+
+[View labels here](data/celo)
+
+<!-- AUTO-GENERATED-CONTENT:END -->
 
 <!-- | Label                                                                                              | CSV                                              | JSON                                               | Updated      |
 | -------------------------------------------------------------------------------------------------- | ------------------------------------------------ | -------------------------------------------------- | ------------ |

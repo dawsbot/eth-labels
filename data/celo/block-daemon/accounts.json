@@ -1,0 +1,14 @@
+[
+  {
+    "address": "0xcc4b2bcbbc9639ef1e91f47acfd12bd131525e79",
+    "nameTag": "Validator Group: Block Daemon 1"
+  },
+  {
+    "address": "0x45d8170f30b0d408196ab0e14af47d77b18f0a38",
+    "nameTag": "Validator: Block Daemon 1"
+  },
+  {
+    "address": "0xc8d1dc1ac8e0ac039a8b1284ef687d557f812e5c",
+    "nameTag": "Validator: Block Daemon 2"
+  }
+]
