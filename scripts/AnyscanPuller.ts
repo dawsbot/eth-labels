@@ -265,15 +265,16 @@ export class AnyscanPuller {
         }
         fs.writeFileSync(
           path.join(outputDirectory, "tokens.json"),
-          JSON.stringify(
-            {
-              lastPulled: new Date().toISOString(),
-              length: sortedTokenRows.length,
-              data: sortedTokenRows,
-            },
-            null,
-            2,
-          ),
+          JSON.stringify(sortedTokenRows),
+          // JSON.stringify(
+          //   {
+          //     lastPulled: new Date().toISOString(),
+          //     length: sortedTokenRows.length,
+          //     data: sortedTokenRows,
+          //   },
+          //   null,
+          //   2,
+          // ),
         );
       }
     }
@@ -293,15 +294,16 @@ export class AnyscanPuller {
         const sortedAccountRows = this.#sortAccountRows(accountRows);
         fs.writeFileSync(
           path.join(outputDirectory, "accounts.json"),
-          JSON.stringify(
-            {
-              lastPulled: new Date().toISOString(),
-              length: sortedAccountRows.length,
-              data: sortedAccountRows,
-            },
-            null,
-            2,
-          ),
+          JSON.stringify(sortedAccountRows),
+          // JSON.stringify(
+          //   {
+          //     lastPulled: new Date().toISOString(),
+          //     length: sortedAccountRows.length,
+          //     data: sortedAccountRows,
+          //   },
+          //   null,
+          //   2,
+          // ),
         );
       }
     }
