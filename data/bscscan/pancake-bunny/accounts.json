@@ -1,0 +1,238 @@
+{
+  "lastPulled": "2024-04-03T06:29:49.773Z",
+  "length": 58,
+  "data": [
+    {
+      "address": "0x866fd0028eb7fc7eed02def330b05ab503e199d4",
+      "nameTag": ""
+    },
+    {
+      "address": "0x285f793ce97079d4a5712e616afbbb971dbf1f1f",
+      "nameTag": "Pancake Bunny: Auto Compounding FLIP - BTCB-BNB"
+    },
+    {
+      "address": "0xe0aca387c6600b455ccfc32b253e2db13b71ca62",
+      "nameTag": "Pancake Bunny: Auto Compounding FLIP - BUSD-BNB"
+    },
+    {
+      "address": "0xa599d6b81ec4a5ddd8eca85e3aac31e006af00aa",
+      "nameTag": "Pancake Bunny: Auto Compounding FLIP - CAKE-BNB"
+    },
+    {
+      "address": "0x0d17e7b77c678c79c3ab5176e164ff0bcceb8eaa",
+      "nameTag": "Pancake Bunny: Auto Compounding FLIP - ETH-BNB"
+    },
+    {
+      "address": "0x633e538ecf0bee1a18c2edfe10c4da0d6e71e77b",
+      "nameTag": "Pancake Bunny: Auto Compounding FLIP - USDT-BNB"
+    },
+    {
+      "address": "0xc341c6a006cab105e8cd2518e25aab311cb22ff6",
+      "nameTag": "Pancake Bunny: Auto Compounding FLIP - USDT-BUSD"
+    },
+    {
+      "address": "0xfdb7d4abd0109b36667946726df943e83570286c",
+      "nameTag": "Pancake Bunny: Auto Compounding FLIP - VAI-BUSD"
+    },
+    {
+      "address": "0x52cfa188a1468a521a98eaa798e715fbb9eb38a3",
+      "nameTag": "Pancake Bunny: BNB Single Asset Vault"
+    },
+    {
+      "address": "0x549d2e2b4fa19179ca5020a981600571c2954f6a",
+      "nameTag": "Pancake Bunny: BTCB Single Asset Vault"
+    },
+    {
+      "address": "0x12b7b4bec740a7f438367ff3117253507ef605a7",
+      "nameTag": "Pancake Bunny: BTCB-BNB Leveraged Vault"
+    },
+    {
+      "address": "0xcbd4472cbeb7229278f841b2a81f1c0df1ad0058",
+      "nameTag": "Pancake Bunny: BTCB-BNB Maximizer Vault"
+    },
+    {
+      "address": "0x8626af388f0b69bb15c36422ce67f9638ba2b800",
+      "nameTag": "Pancake Bunny: BTCB-BUSD Leveraged Vault"
+    },
+    {
+      "address": "0xc004a3b5af216e9c2c59a9ea8bc3ee07af667329",
+      "nameTag": "Pancake Bunny: Bunny Maximizer (Earn BUNNY)"
+    },
+    {
+      "address": "0x8cb88701790f650f273c8bb2cc4c5f439cd65219",
+      "nameTag": "Pancake Bunny: Bunny Minter V2"
+    },
+    {
+      "address": "0xa6c29a422d1612293669156a34f2793526783622",
+      "nameTag": "Pancake Bunny: Bunny-BNB Pool (Earn BUNNY)"
+    },
+    {
+      "address": "0x0243a20b20eca78ddedf6b8ddb43a0286438a67a",
+      "nameTag": "Pancake Bunny: BUSD Single Asset Vault"
+    },
+    {
+      "address": "0x1b6e3d394f1d809769407dea84711cf57e507b99",
+      "nameTag": "Pancake Bunny: BUSD-BNB Auto Compounding Vault"
+    },
+    {
+      "address": "0x92a0f75a0f07c90a7ecb65edd549fa6a45a4975c",
+      "nameTag": "Pancake Bunny: BUSD-BNB Maximizer Vault"
+    },
+    {
+      "address": "0x67c42b3dac9526efcbfeeb2fc1c56cf77f494e46",
+      "nameTag": "Pancake Bunny: Cake Maximizer - BNB"
+    },
+    {
+      "address": "0xb9cf0d36e82c2a1b46ed51e44dc0a4b0100d6d74",
+      "nameTag": "Pancake Bunny: Cake Maximizer - BTCB"
+    },
+    {
+      "address": "0xac20925e6615ad6871987e199783fa80bf24eb39",
+      "nameTag": "Pancake Bunny: Cake Maximizer - BTCB-BNB"
+    },
+    {
+      "address": "0xd2220455e760fb27ed8aaa6f9c7e143a687bb0ad",
+      "nameTag": "Pancake Bunny: Cake Maximizer - BTCB-BUSD"
+    },
+    {
+      "address": "0x4fc359e39a99acfdf44c794ef702fab93067b2a6",
+      "nameTag": "Pancake Bunny: Cake Maximizer - BUSD"
+    },
+    {
+      "address": "0x81fa6f9f4599c5316cc53b782de7c01eff4f9551",
+      "nameTag": "Pancake Bunny: Cake Maximizer - BUSD-BNB"
+    },
+    {
+      "address": "0xedfcb78e73f7ba6ad2d829bf5d462a0924da28ed",
+      "nameTag": "Pancake Bunny: Cake Maximizer - CAKE"
+    },
+    {
+      "address": "0xde80ce223c9f1d1db0bc8d5bdd88e03f6882eea3",
+      "nameTag": "Pancake Bunny: Cake Maximizer - CAKE 2"
+    },
+    {
+      "address": "0x203ee29ba85bbdfa23bfae5d77620aefdaf92cb1",
+      "nameTag": "Pancake Bunny: Cake Maximizer - CAKE-BNB"
+    },
+    {
+      "address": "0x401c22395200caaae87f8ab9f9446636dde38c9a",
+      "nameTag": "Pancake Bunny: Cake Maximizer - DAI"
+    },
+    {
+      "address": "0xf92f12b505594eedf65cb8b973819dfa242c61d7",
+      "nameTag": "Pancake Bunny: Cake Maximizer - DAI-BUSD"
+    },
+    {
+      "address": "0xc1d9ead28fc4cb9658c62594a695a53bfd306f77",
+      "nameTag": "Pancake Bunny: Cake Maximizer - DOT-BNB"
+    },
+    {
+      "address": "0x4b107b794c9bbfd83e5ac9e8dd59f918510c5729",
+      "nameTag": "Pancake Bunny: Cake Maximizer - ETH"
+    },
+    {
+      "address": "0x7d52a1697f2df08e6fb2b5a88e0e8e4d7c11a921",
+      "nameTag": "Pancake Bunny: Cake Maximizer - ETH-BNB"
+    },
+    {
+      "address": "0xee3ee0beb7919edd31a4506d7d4c93940f2aced6",
+      "nameTag": "Pancake Bunny: Cake Maximizer - USDC"
+    },
+    {
+      "address": "0xfeed0bb79035c61cf6519795a02a6a2a69a11aac",
+      "nameTag": "Pancake Bunny: Cake Maximizer - USDC-BUSD"
+    },
+    {
+      "address": "0x53fd20bc5d4d222764b70817810494f1d06f3403",
+      "nameTag": "Pancake Bunny: Cake Maximizer - USDT"
+    },
+    {
+      "address": "0xac7d40638271d349cb2dedfdc6268a77738403fa",
+      "nameTag": "Pancake Bunny: Cake Maximizer - USDT-BNB"
+    },
+    {
+      "address": "0x74fdc215f8309ec58fd34455bf3fee95fb3416dd",
+      "nameTag": "Pancake Bunny: Cake Maximizer - USDT-BUSD"
+    },
+    {
+      "address": "0x7f0320cef62c88ce1db7d77c1849082c053e2344",
+      "nameTag": "Pancake Bunny: Cake Maximizer - VAI-BUSD"
+    },
+    {
+      "address": "0xfb8358f34133c275b0393e3883bdd8764cb610de",
+      "nameTag": "Pancake Bunny: CAKE-BNB Leveraged Vault"
+    },
+    {
+      "address": "0x3f139386406b0924ef115baff71d0d30cc090bd5",
+      "nameTag": "Pancake Bunny: CAKE-BNB Maximizer Vault"
+    },
+    {
+      "address": "0x22af73683dee5d266b0c36c37d0fd62c402fd250",
+      "nameTag": "Pancake Bunny: ETH Single Asset Vault"
+    },
+    {
+      "address": "0xb04d1a8266ff97ee9f48d48ad2f2868b77f1c668",
+      "nameTag": "Pancake Bunny: ETH-BNB Leveraged Vault"
+    },
+    {
+      "address": "0x41df17d1de8d4e43d5493eb96e01100908fccc4f",
+      "nameTag": "Pancake Bunny: ETH-BNB Maximizer Vault"
+    },
+    {
+      "address": "0xe0fb5cd342bca2229f413da7a2684506b0397ff3",
+      "nameTag": "Pancake Bunny: ETH-USDC Leveraged Vault"
+    },
+    {
+      "address": "0x60d8a581d519397e870c5376228cd7e7abbc243b",
+      "nameTag": "Pancake Bunny: No Loss JackPot - BUNNY"
+    },
+    {
+      "address": "0xe0d17b4695862b0a2590730762ec25ee562b2ca4",
+      "nameTag": "Pancake Bunny: No Loss JackPot - BUNNY (Premium)"
+    },
+    {
+      "address": "0xa9b005d891414e0d6e0353490e099d0ca4c778fc",
+      "nameTag": "Pancake Bunny: No Loss JackPot - CAKE"
+    },
+    {
+      "address": "0xd601966588e812218a45f3ec06d3a89602348183",
+      "nameTag": "Pancake Bunny: No Loss JackPot - CAKE (Premium)"
+    },
+    {
+      "address": "0x9cee40fe28fc9de2195dc611291ae810c6b265a8",
+      "nameTag": "Pancake Bunny: Proxy Admin"
+    },
+    {
+      "address": "0x85c9162a51e03078bdcd08d4232bab13ed414cc3",
+      "nameTag": "Pancake Bunny: Timelock"
+    },
+    {
+      "address": "0x0ba950f0f099229828c10a9b307280a450133ffc",
+      "nameTag": "Pancake Bunny: USDT Single Asset Vault"
+    },
+    {
+      "address": "0xc1aae51746bea1a1ec6f17a4f75b422f8a656ee6",
+      "nameTag": "Pancake Bunny: USDT-BNB Auto Compounding Vault"
+    },
+    {
+      "address": "0xd75f3e4e8ed51ec98ed57386cb47df457308ad08",
+      "nameTag": "Pancake Bunny: USDT-BNB Leveraged Vault"
+    },
+    {
+      "address": "0xe07bdaac4573a00208d148bd5b3e5d2ae4ebd0cc",
+      "nameTag": "Pancake Bunny: USDT-BNB Maximizer Vault"
+    },
+    {
+      "address": "0xc0314bbe19d4d5b048d3a3b974f0ca1b2cee5ef3",
+      "nameTag": "Pancake Bunny: USDT-BUSD Auto Compounding Vault"
+    },
+    {
+      "address": "0xa59efef41040e258191a4096dc202583765a43e7",
+      "nameTag": "Pancake Bunny: VAI-BUSD Auto Compounding Vault"
+    },
+    {
+      "address": "0xa5b8cdd3787832adedfe5a04bf4a307051538ff2",
+      "nameTag": "Pancake Bunny: VAI-BUSD Maximizer Vault"
+    }
+  ]
+}

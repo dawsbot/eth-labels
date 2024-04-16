@@ -1,0 +1,54 @@
+{
+  "lastPulled": "2024-04-03T06:21:59.725Z",
+  "length": 12,
+  "data": [
+    {
+      "address": "0x3795c36e7d12a8c252a20c5a7b455f7c57b60283",
+      "nameTag": "Celer Network: cBridge 2"
+    },
+    {
+      "address": "0xf55c563148ca0c0f1626834ec1b8651844d76792",
+      "nameTag": "Fraxswap: Factory V1"
+    },
+    {
+      "address": "0xa007a9716dba05289df85a90d0fd9d39bee808de",
+      "nameTag": "Fraxswap: Router V1"
+    },
+    {
+      "address": "0x5ab6215ab8344c28b899efde93bee47b124200fb",
+      "nameTag": "Market Protocol: Old LensV1"
+    },
+    {
+      "address": "0xa3ea99f8ae06ba0d9a6cf7618d06aea4564340e9",
+      "nameTag": "Morphex: Old MLP Manager"
+    },
+    {
+      "address": "0xd5c313de2d33bf36014e6c659f13ace112b80a8e",
+      "nameTag": "Morphex: Old MLP Token"
+    },
+    {
+      "address": "0xacaca07e398d4946ad12232f40f255230e73ca72",
+      "nameTag": "Spooky Swap: IFO"
+    },
+    {
+      "address": "0xcd4d3d744c3ab0bd528dbd330839537f996be71a",
+      "nameTag": "SpookySwap : AceLab"
+    },
+    {
+      "address": "0x2352b745561e7e6fcd03c093ce7220e3e126ace0",
+      "nameTag": "SpookySwap: AcaLab xBOO Staking"
+    },
+    {
+      "address": "0x7f41312b5d2d31d49482f31c9a53e6485df37e1d",
+      "nameTag": "SpookySwap: Brew Boo"
+    },
+    {
+      "address": "0x68f598280a843a5ce07c1b9fb0d3af00cd085c31",
+      "nameTag": "SpookySwap: BrewBooV2"
+    },
+    {
+      "address": "0x2b2929e785374c651a81a63878ab22742656dcdd",
+      "nameTag": "SpookySwap: MasterChef LP Staking Pool"
+    }
+  ]
+}

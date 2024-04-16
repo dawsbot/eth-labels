@@ -1,0 +1,34 @@
+{
+  "lastPulled": "2024-04-03T06:29:29.401Z",
+  "length": 7,
+  "data": [
+    {
+      "address": "0x316622977073bbc3df32e7d2a9b3c77596a0a603",
+      "nameTag": "Jarvis Network: jBRL Token"
+    },
+    {
+      "address": "0x7c869b5a294b1314e985283d01c702b62224a05f",
+      "nameTag": "Jarvis Network: jCHF Token"
+    },
+    {
+      "address": "0x23b8683ff98f9e4781552dfe6f12aa32814924e8",
+      "nameTag": "Jarvis Network: jEUR Token"
+    },
+    {
+      "address": "0x048e9b1ddf9ebbb224812372280e94ccac443f9e",
+      "nameTag": "Jarvis Network: jGBP Token"
+    },
+    {
+      "address": "0x47b19af93d0bc33805269af02b5ca953aa145127",
+      "nameTag": "Jarvis Network: jMXN Token"
+    },
+    {
+      "address": "0x414f9e74ba3a9d0acce65182809492f41ac671e0",
+      "nameTag": "Jarvis Network: JRT Token"
+    },
+    {
+      "address": "0x6b8b9ae0627a7622c593a1696859ca753c61a670",
+      "nameTag": "Jarvis Network: jZAR Token"
+    }
+  ]
+}

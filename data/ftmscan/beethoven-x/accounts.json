@@ -1,0 +1,54 @@
+{
+  "lastPulled": "2024-04-03T06:21:50.381Z",
+  "length": 12,
+  "data": [
+    {
+      "address": "0x08101f0152a21313234edb1962e1181fb0f26e90",
+      "nameTag": "Beethoven X: Locked Liquidity Vesting"
+    },
+    {
+      "address": "0xf26d401c8051c664c1d2047f0cbc34105ac68cd0",
+      "nameTag": "Beethoven X: Locked Liquidity Vesting 2"
+    },
+    {
+      "address": "0x3be3a2cd1d02f273c28e452e45bcd7c92b2d2e0b",
+      "nameTag": "Beethoven X: Locked Liquidity Vesting 3"
+    },
+    {
+      "address": "0x5d0a9c5aac3024b1100b0f76c2c17a13453f3f33",
+      "nameTag": "Beethoven X: Locked Liquidity Vesting 4"
+    },
+    {
+      "address": "0x3122e55914638cf162bea3c96632b64caa5516d5",
+      "nameTag": "Beethoven X: Locked Liquidity Vesting 5"
+    },
+    {
+      "address": "0x8166994d9ebbe5829ec86bd81258149b87facfd3",
+      "nameTag": "Beethoven X: MasterChef"
+    },
+    {
+      "address": "0xc6920d3a369e7c8bd1a22dbe385e11d1f7af948f",
+      "nameTag": "Beethoven X: Protocol Fees Collector"
+    },
+    {
+      "address": "0x69739a7618469eed0685330d164d50ac19a9411a",
+      "nameTag": "Beethoven X: Strategic Partnership Multisig Wallet"
+    },
+    {
+      "address": "0xa2503804ec837d1e4699932d58a3bdb767dea505",
+      "nameTag": "Beethoven X: Team Fund Linear Vesting"
+    },
+    {
+      "address": "0x0edfcc1b8d082cd46d13db694b849d7d8151c6d5",
+      "nameTag": "Beethoven X: Team Fund Multisig Wallet"
+    },
+    {
+      "address": "0xa1e849b1d6c2fd31c63eef7822e9e0632411ada7",
+      "nameTag": "Beethoven X: Treasury Multisig Wallet"
+    },
+    {
+      "address": "0x20dd72ed959b6147912c2e529f0a0c651c33c9ce",
+      "nameTag": "Beethoven X: Vault"
+    }
+  ]
+}

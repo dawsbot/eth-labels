@@ -1,0 +1,18 @@
+{
+  "lastPulled": "2024-04-03T06:21:44.875Z",
+  "length": 3,
+  "data": [
+    {
+      "address": "0xb42bf10ab9df82f9a47b86dd76eee4ba848d0fa2",
+      "nameTag": "Ankr: aFTMb Token"
+    },
+    {
+      "address": "0xcfc785741dc0e98ad4c9f6394bb9d43cd1ef5179",
+      "nameTag": "Ankr: ankrFTM Token"
+    },
+    {
+      "address": "0x2ffc59d32a524611bb891cab759112a51f9e33c0",
+      "nameTag": "Ankr: Deployer"
+    }
+  ]
+}

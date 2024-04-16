@@ -1,0 +1,26 @@
+{
+  "lastPulled": "2024-04-03T06:22:06.113Z",
+  "length": 5,
+  "data": [
+    {
+      "address": "0x83633dca596e741c80f4fa032c75518cc251b09b",
+      "nameTag": "Lair of Wisdom: Lair"
+    },
+    {
+      "address": "0x058ec56aba13f7fee3ae9c9b91b3bb03bc336143",
+      "nameTag": "PaintSwap Finance: Estfor Kingdom Players"
+    },
+    {
+      "address": "0x7fb574e4fbe876f751fec90e59686c2776df19f9",
+      "nameTag": "PaintSwap Finance: Estfor Kingdom Shop"
+    },
+    {
+      "address": "0x28866bf156152966b5872bee39bc05b5b5eedb02",
+      "nameTag": "PaintSwap Finance: Estfor Kingdom World"
+    },
+    {
+      "address": "0xce761d788df608bd21bdd59d6f4b54b2e27f25bb",
+      "nameTag": "Rarity"
+    }
+  ]
+}

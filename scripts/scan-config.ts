@@ -1,10 +1,10 @@
-import { ArbiscanHtmlParser } from "./HtmlParser/ArbiscanParser";
-import { BasescanHtmlParser } from "./HtmlParser/BasescanParser";
-import { BscscanHtmlParser } from "./HtmlParser/BscscanHtmlParser";
-import { CeloScanParser } from "./HtmlParser/CeloScanParser";
-import { EtherscanHtmlParser } from "./HtmlParser/EtherscanParser";
-import { OptimismHtmlParser } from "./HtmlParser/OptimismHtmlParser";
-import { PolygonscanHtmlParser } from "./HtmlParser/PolygonscanHtmlParser";
+import { ArbiscanHtmlParser } from "./HtmlParser/chainParsers/ArbiscanParser";
+import { BasescanHtmlParser } from "./HtmlParser/chainParsers/BasescanParser";
+import { BscscanHtmlParser } from "./HtmlParser/chainParsers/BscscanParser";
+import { CeloScanParser } from "./HtmlParser/chainParsers/CeloScanParser";
+import { EtherscanHtmlParser } from "./HtmlParser/chainParsers/EtherscanParser";
+import { OptimismHtmlParser } from "./HtmlParser/chainParsers/OptimismHtmlParser";
+import { PolygonscanHtmlParser } from "./HtmlParser/chainParsers/PolygonscanParser";
 
 export const scanConfig = {
   etherscan: {
@@ -14,10 +14,6 @@ export const scanConfig = {
   basescan: {
     website: "https://basescan.org",
     htmlParser: new BasescanHtmlParser(),
-  },
-  optimism: {
-    website: "https://optimistic.etherscan.io",
-    htmlParser: new OptimismHtmlParser(),
   },
   polygonscan: {
     website: "https://polygonscan.com",
@@ -34,6 +30,10 @@ export const scanConfig = {
   ftmscan: {
     website: "https://ftmscan.com",
     htmlParser: new PolygonscanHtmlParser(),
+  },
+  optimism: {
+    website: "https://optimistic.etherscan.io",
+    htmlParser: new OptimismHtmlParser(),
   },
   arbitrum: {
     website: "https://arbiscan.io",

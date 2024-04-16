@@ -1,0 +1,50 @@
+{
+  "lastPulled": "2024-04-03T06:30:09.111Z",
+  "length": 11,
+  "data": [
+    {
+      "address": "0xab1534f312f34e0857b77e903836e2a2896effed",
+      "nameTag": "AVARA: Staking Module"
+    },
+    {
+      "address": "0xbb3e4b4a8762736a97ce87a2a8de6e64e70da7c5",
+      "nameTag": "Collie Inu: Diamond Staking Pool"
+    },
+    {
+      "address": "0x1836406f5715573266ab3e4458ecd75c7fca2158",
+      "nameTag": "Collie Inu: Gold Staking Pool"
+    },
+    {
+      "address": "0x76f39359a1c09331aac490d7e72cc86316bf02e6",
+      "nameTag": "Collie Inu: Platinum Staking Pool"
+    },
+    {
+      "address": "0xf70a1d4e8150c23069c1c512a4feff30370b8eef",
+      "nameTag": "DegenDuckRace: Staking 1"
+    },
+    {
+      "address": "0x9e2f3f37452bec6cb4dd4704037c5a439883b093",
+      "nameTag": "DegenDuckRace: Staking 2"
+    },
+    {
+      "address": "0x0356440679284a45c091aaef8d6737e165d2670e",
+      "nameTag": "DegenDuckRace: Staking 3"
+    },
+    {
+      "address": "0x1f7c2168713f7c18cdff6f02513b6dda39a771ae",
+      "nameTag": "Lanuna Finance: Risk Control Fund"
+    },
+    {
+      "address": "0xfd562672bf1da0f80d43f26bfc4ca19121ba661b",
+      "nameTag": "Nemesis DAO: Staking"
+    },
+    {
+      "address": "0x43ece8569781ef4e34fdf6bafe491d85f9d587c3",
+      "nameTag": "Tres Leches Cake: NFT Staking"
+    },
+    {
+      "address": "0x280c0a85f168367fa471e3ab7a0c4f65d3ef4458",
+      "nameTag": "Tres Leches: Cake Staking"
+    }
+  ]
+}

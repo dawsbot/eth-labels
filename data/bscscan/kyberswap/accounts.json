@@ -1,0 +1,198 @@
+{
+  "lastPulled": "2024-04-03T06:29:30.807Z",
+  "length": 48,
+  "data": [
+    {
+      "address": "0xf8e61e301a44df4e2dbaba570d2cb09039289b31",
+      "nameTag": "Kyber LP : EBA-BUSD"
+    },
+    {
+      "address": "0xc3dac2049616326e7d596ce52062789d96373b55",
+      "nameTag": "Kyber LP: USDT-BUSD"
+    },
+    {
+      "address": "0xf81e106c5b44ba9a993fc1f456a4c8e54c47cf34",
+      "nameTag": "Kyber LP: USDT-FIWA"
+    },
+    {
+      "address": "0xec303ce1edbebf7e71fc7b350341bb6a6a7a6381",
+      "nameTag": "Kyber LP: USDT-WBNB"
+    },
+    {
+      "address": "0x97dbaf4ad688aed04817121301a005b710e6067a",
+      "nameTag": "Kyber LP: WBNB-CTR"
+    },
+    {
+      "address": "0x2d49f16c9ad4f1145bb27c9af71474f468a697c8",
+      "nameTag": "Kyber LP: WBNB-HERO"
+    },
+    {
+      "address": "0x6170b6d96167346896169b35e1e9585feab873bb",
+      "nameTag": "Kyber LP: WBNB-KNC"
+    },
+    {
+      "address": "0xfe56d5892bdffc7bf58f2e84be1b2c32d21c308b",
+      "nameTag": "Kyber Network: KNC Token"
+    },
+    {
+      "address": "0x878dfe971d44e9122048308301f540910bbd934c",
+      "nameTag": "Kyber Swap: Factory"
+    },
+    {
+      "address": "0x31de05f28568e3d3d612bfa6a78b356676367470",
+      "nameTag": "Kyber Swap: Fair Launch 0"
+    },
+    {
+      "address": "0xccac8dfb75120140a5469282a13e9a60b1751276",
+      "nameTag": "Kyber Swap: Fair Launch 1"
+    },
+    {
+      "address": "0xc49b3b43565b76e5ba7a98613263e7bfdef1140c",
+      "nameTag": "Kyber Swap: Fair Launch 2"
+    },
+    {
+      "address": "0x829c27fd3013b944cbe76e92c3d6c45767c0c789",
+      "nameTag": "Kyber Swap: Fair Launch 3"
+    },
+    {
+      "address": "0x3d88bda6ed7da31e15e86a41ca015ea50771448e",
+      "nameTag": "Kyber Swap: Fair Launch 4"
+    },
+    {
+      "address": "0xfab5186a194588f5ad5074bd52659302906b4522",
+      "nameTag": "Kyber Swap: Reward Locker"
+    },
+    {
+      "address": "0x78df70615ffc8066cc0887917f2cd72092c86409",
+      "nameTag": "Kyber Swap: Router"
+    },
+    {
+      "address": "0x83d4908c1b4f9ca423bee264163bc1d50f251c31",
+      "nameTag": "Kyber Swap: ZapIn"
+    },
+    {
+      "address": "0xa23b26fb74b1d11bf1112bc46607d6ffc6e6557a",
+      "nameTag": "KyberDMM LP: USDC-UND"
+    },
+    {
+      "address": "0xd26fa4d47ab61c03259f0cbc9054890df5c3b7ad",
+      "nameTag": "KyberLP: ETH-WBNB"
+    },
+    {
+      "address": "0x8180a5ca4e3b94045e05a9313777955f7518d757",
+      "nameTag": "KyberSwap: Deployer"
+    },
+    {
+      "address": "0xcab2fa2eeab7065b45cbcf6e3936dde2506b4f6c",
+      "nameTag": "KyberSwap: Double Signatures Limit Order"
+    },
+    {
+      "address": "0xe222fbe074a436145b255442d919e4e3a6c6a480",
+      "nameTag": "KyberSwap: Elastic Anti-Snipping Position Manager"
+    },
+    {
+      "address": "0xc7a590291e07b9fe9e64b86c58fd8fc764308c4a",
+      "nameTag": "KyberSwap: Elastic Factory"
+    },
+    {
+      "address": "0xda474537ce9b687b78b236452a05631f09b6eb6a",
+      "nameTag": "KyberSwap: Elastic Legacy Position Desc"
+    },
+    {
+      "address": "0x2b1c7b41f6a8f2b2bc45c3233a5d5fb3cd6dc9a8",
+      "nameTag": "KyberSwap: Elastic Legacy Position Manager"
+    },
+    {
+      "address": "0x0d125c15d54ca1f8a813c74a81aee34ebb508c1f",
+      "nameTag": "KyberSwap: Elastic Legacy Quoter V2"
+    },
+    {
+      "address": "0xc1e7dfe73e1598e3910ef4c7845b68a9ab6f4c83",
+      "nameTag": "KyberSwap: Elastic Legacy Router"
+    },
+    {
+      "address": "0x165c68077ac06c83800d19200e6e2b08d02de75d",
+      "nameTag": "KyberSwap: Elastic Legacy Ticks Fees Reader"
+    },
+    {
+      "address": "0x049beffdb026d6d1d64cfc8fe29bd12142967b09",
+      "nameTag": "KyberSwap: Elastic Pool Oracle"
+    },
+    {
+      "address": "0xd8ac7f696ae99cd7b689726cf03c5711dd8dcdb4",
+      "nameTag": "KyberSwap: Elastic Pool Oracle Proxy"
+    },
+    {
+      "address": "0x98565fcad2080c5c19c3136fa367ce371cd40bd6",
+      "nameTag": "KyberSwap: Elastic Position Desc"
+    },
+    {
+      "address": "0x58f1d0f9bff9d695010c92fb93d100cef5113f3e",
+      "nameTag": "KyberSwap: Elastic Position Desc Proxy"
+    },
+    {
+      "address": "0x4d47fd5a29904dae0ef51b1c450c9750f15d7856",
+      "nameTag": "KyberSwap: Elastic Quoter V2"
+    },
+    {
+      "address": "0xf9c2b5746c946ef883ab2660bbbb1f10a5bdeab4",
+      "nameTag": "KyberSwap: Elastic Router"
+    },
+    {
+      "address": "0xe44ec65521b85612fa7bc45d842645fb4b690e4b",
+      "nameTag": "KyberSwap: Elastic Static Farm"
+    },
+    {
+      "address": "0x8fd8cb948965d9305999d767a02bf79833eadbb3",
+      "nameTag": "KyberSwap: Elastic Ticks Fees Reader"
+    },
+    {
+      "address": "0x35be3f4fd8239a35a7f120756d4d69e5c5e10870",
+      "nameTag": "KyberSwap: ElasticLM Helper"
+    },
+    {
+      "address": "0x7d5ba536ab244aaa1ea42ab88428847f25e3e676",
+      "nameTag": "KyberSwap: ElasticLMv1"
+    },
+    {
+      "address": "0x3474b537da4358a08f916b1587dccdd9585376a4",
+      "nameTag": "KyberSwap: Fair Launch 2"
+    },
+    {
+      "address": "0x1c758af0688502e49140230f6b0ebd376d429be5",
+      "nameTag": "KyberSwap: KSFactory"
+    },
+    {
+      "address": "0x5649b4dd00780e99bab7abb4a3d581ea1aeb23d0",
+      "nameTag": "KyberSwap: KSRouter"
+    },
+    {
+      "address": "0x617dee16b86534a5d792a4d7a62fb491b544111e",
+      "nameTag": "KyberSwap: Meta Aggregation Router"
+    },
+    {
+      "address": "0xaa96267806d5be3941bf9d8e4efc3dc8eb2bda0f",
+      "nameTag": "KyberSwap: Operations"
+    },
+    {
+      "address": "0x6a4c79289fb5b7a7ddb71f7eff6a2cbe59be5e60",
+      "nameTag": "KyberSwap: Reward Distributor"
+    },
+    {
+      "address": "0xd93f7a2cbf4912158d6ccda585c9d234a0d70652",
+      "nameTag": "Kyberswap: Reward Locker"
+    },
+    {
+      "address": "0x2abe8750e4a65584d7452316356128c936273e0d",
+      "nameTag": "KyberSwap: ZapIn V2"
+    },
+    {
+      "address": "0xed386fe855c1eff2f843b910923dd8846e45c5a4",
+      "nameTag": "Uniswap V3: Multicall 2"
+    },
+    {
+      "address": "0x5f1dddbf348ac2fbe22a163e30f99f9ece3dd50a",
+      "nameTag": "yberSwap: Elastic Legacy Factory"
+    }
+  ]
+}

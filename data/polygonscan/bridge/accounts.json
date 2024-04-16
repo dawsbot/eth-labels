@@ -1,0 +1,161 @@
+{
+  "lastPulled": "2024-04-02T22:23:07.003Z",
+  "data": [
+    {
+      "address": "0xbbbd1bbb4f9b936c3604906d7592a644071de884",
+      "nameTag": "Allbridge: Bridge"
+    },
+    {
+      "address": "0xf78765bd14b4e8527d9e4e5c5a5c11a44ad12f47",
+      "nameTag": "Biconomy: Hyphen Bridge"
+    },
+    {
+      "address": "0x88dcdc47d2f83a99cf0000fdf667a468bb958a78",
+      "nameTag": "Celer Network: cBridge"
+    },
+    {
+      "address": "0xa251c4691c1ffd7d9b128874c023427513d8ac5c",
+      "nameTag": "Celer Network: cBridge 2.0"
+    },
+    {
+      "address": "0xdef78a28c78a461598d948bc0c689ce88f812ad8",
+      "nameTag": "Cerby: Bridge Fees Wallet"
+    },
+    {
+      "address": "0xef038429e3baaf784e1de93075070df2a43d4278",
+      "nameTag": "Cerby: Cross-Chain Bridge"
+    },
+    {
+      "address": "0x43de2d77bf8027e25dbd179b491e8d64f38398aa",
+      "nameTag": "deBridgeGate"
+    },
+    {
+      "address": "0x29494c1673903e608352020cf8f545af70111ad4",
+      "nameTag": "DeFi Basket: AaveV2 Deposit Bridge"
+    },
+    {
+      "address": "0x4789499ed6d3c9e9b874e7e02ab8139779a51704",
+      "nameTag": "DeFi Basket: Autofarm Deposit Bridge"
+    },
+    {
+      "address": "0x89db516b50819593f058040f781bff9880ca81a8",
+      "nameTag": "DeFi Basket: Quickswap Liquidity Bridge"
+    },
+    {
+      "address": "0xfa299c3f1ee9dea789b1d94243ab7aeea8bd7c77",
+      "nameTag": "DeFi Basket: Quickswap Swap Bridge"
+    },
+    {
+      "address": "0x9ba04edb13e129c19823a084c7e9988fa5e20647",
+      "nameTag": "DeFi Basket: WMatic Wrap Bridge"
+    },
+    {
+      "address": "0x840ea78f667b73853f4baece4a5ebe212c4039c1",
+      "nameTag": "Evodefi: Bridge"
+    },
+    {
+      "address": "0xdf774a4f3ea5095535f5b8f5b9149caf90ff75bd",
+      "nameTag": "Gains Network: Bridge"
+    },
+    {
+      "address": "0xa33f7069f075a54481868e4c0b8d26925a218362",
+      "nameTag": "Gains Network: Locking Bridge"
+    },
+    {
+      "address": "0xc315239cfb05f1e130e7e28e603cea4c014c57f0",
+      "nameTag": "Hop Protocol: Ethereum Bridge"
+    },
+    {
+      "address": "0x25d8039bb044dc227f741a9e381ca4ceae2e6ae8",
+      "nameTag": "Hop Protocol: USDC Bridge"
+    },
+    {
+      "address": "0x82a079de7d2a8b59bc932df079ef5aa31b01aeb6",
+      "nameTag": "iSwap: Polygon Bridge"
+    },
+    {
+      "address": "0x3c2269811836af69497e5f486a85d7316753cf62",
+      "nameTag": "LayerZero: Polygon Endpoint"
+    },
+    {
+      "address": "0x99783b38ec79ff29234748b42c82dc27a434a096",
+      "nameTag": "Less Network: Bridge"
+    },
+    {
+      "address": "0xac0cb30cfb91dd2cbb7c12fbfc069b3f2332ad16",
+      "nameTag": "MacaronSwap: Bridge"
+    },
+    {
+      "address": "0x05b70fb5477a93be33822bfb31fdaf2c171970df",
+      "nameTag": "Mayan: Swap Bridge"
+    },
+    {
+      "address": "0xc10ef9f491c9b59f936957026020c321651ac078",
+      "nameTag": "Multichain: anyCall V6"
+    },
+    {
+      "address": "0x25864a712c80d33ba1ad7c23cffa18b46f2fc00c",
+      "nameTag": "Multichain: Fantom Bridge"
+    },
+    {
+      "address": "0x4f3aff3a747fcade12598081e80c6605a8be192f",
+      "nameTag": "Multichain: Router V4"
+    },
+    {
+      "address": "0x6ff0609046a38d76bd40c5863b4d1a2dce687f73",
+      "nameTag": "Multichain: Router V4 2"
+    },
+    {
+      "address": "0x72c290f3f13664b024ee611983aa2d5621ebe917",
+      "nameTag": "Multichain: Router V6"
+    },
+    {
+      "address": "0x3a5846882c0d5f8b0fa4bb04dc90c013104d125d",
+      "nameTag": "Optics: ERC-20 Bridge"
+    },
+    {
+      "address": "0xa489b8981ae5652c9dd6515848cb8dbecae5e1b0",
+      "nameTag": "Optics: ETH Helper"
+    },
+    {
+      "address": "0xec52a30e4bfe2d6b0ba1d0dbf78f265c0a119286",
+      "nameTag": "Rubic Exchange"
+    },
+    {
+      "address": "0x8f5bbb2bb8c2ee94639e55d5f41de9b4839c1280",
+      "nameTag": "Synapse: Bridge"
+    },
+    {
+      "address": "0x1c6ae197ff4bf7ba96c66c5fd64cb22450af9cc8",
+      "nameTag": "Synapse: Bridge Zap 1"
+    },
+    {
+      "address": "0x90bbd86a6fe93d3bc3ed6335935447e75fab7fcf",
+      "nameTag": "Wormhole: NFT Bridge"
+    },
+    {
+      "address": "0x7a4b5a56256163f07b2c80a7ca55abe66c4ec4d7",
+      "nameTag": "Wormhole: Polygon Core Bridge"
+    },
+    {
+      "address": "0x5a58505a96d1dbf8df91cb21b54419fc36e93fde",
+      "nameTag": "Wormhole: Token Bridge"
+    },
+    {
+      "address": "0x31efc4aeaa7c39e54a33fdc3c46ee2bd70ae0a09",
+      "nameTag": "xPollinate: Transaction Manager"
+    },
+    {
+      "address": "0x6090de2ec76eb1dc3b5d632734415c93c44fd113",
+      "nameTag": "xPollinate: Transaction Manager 2"
+    },
+    {
+      "address": "0x104b9b1c41c6764e88edf1207f498902d840fe2a",
+      "nameTag": "Zeroswap: Bridge"
+    },
+    {
+      "address": "0xbb256f544b8087596e8e6cdd7fe9726cc98cb400",
+      "nameTag": "ZigZag Exchange"
+    }
+  ]
+}

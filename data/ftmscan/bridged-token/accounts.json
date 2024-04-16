@@ -1,0 +1,42 @@
+{
+  "lastPulled": "2024-04-03T06:21:52.805Z",
+  "length": 9,
+  "data": [
+    {
+      "address": "0xc7ae4ab742f6b0b203f6710c87677005bc45ad01",
+      "nameTag": "LayerZero: CRV Token"
+    },
+    {
+      "address": "0xaa798bf5ec09b6e3bc059ea4d36d4ca53e063ef7",
+      "nameTag": "LayerZero: crvUSD Token"
+    },
+    {
+      "address": "0x91a40c733c97a6e1bf876eaf9ed8c08102eb491f",
+      "nameTag": "LayerZero: DAI Token"
+    },
+    {
+      "address": "0x28a92dde19d9989f39a49905d7c9c2fac7799bdf",
+      "nameTag": "LayerZero: USDC Token"
+    },
+    {
+      "address": "0xcc1b99ddac1a33c201a742a1851662e87bc7f22c",
+      "nameTag": "LayerZero: USDT Token"
+    },
+    {
+      "address": "0xf1648c50d2863f780c57849d812b4b7686031a3d",
+      "nameTag": "LayerZero: WBTC Token"
+    },
+    {
+      "address": "0x695921034f0387eac4e11620ee91b1b15a6a09fe",
+      "nameTag": "LayerZero: WETH Token"
+    },
+    {
+      "address": "0xd6070ae98b8069de6b494332d1a1a81b6179d960",
+      "nameTag": "Multichain: BIFI Token"
+    },
+    {
+      "address": "0x40df1ae6074c35047bff66675488aa2f9f6384f3",
+      "nameTag": "Multichain: MATIC Token"
+    }
+  ]
+}

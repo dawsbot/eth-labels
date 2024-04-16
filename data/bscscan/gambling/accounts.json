@@ -1,0 +1,18 @@
+{
+  "lastPulled": "2024-04-03T06:29:15.562Z",
+  "length": 3,
+  "data": [
+    {
+      "address": "0x1a4af1578f20c7f2b12ebfd738b501aafe3cbab5",
+      "nameTag": "SmartGamble: Roulette"
+    },
+    {
+      "address": "0x0caec2f615ca18045488ba1dae43a289008b5a7d",
+      "nameTag": "SmartGamble: VRF Consumer"
+    },
+    {
+      "address": "0x7a7f78a2af5aef01a889e8713083ab77dcc9fc9b",
+      "nameTag": "wolf.bet"
+    }
+  ]
+}

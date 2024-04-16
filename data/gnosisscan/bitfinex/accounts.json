@@ -1,0 +1,14 @@
+{
+  "lastPulled": "2024-04-03T06:23:49.450Z",
+  "length": 2,
+  "data": [
+    {
+      "address": "0x87533bfd390c6d11afd8df1a8c095657e0eeed0d",
+      "nameTag": "Tether: Deployer"
+    },
+    {
+      "address": "0x4ecaba5870353805a9f068101a40e0f32ed605c6",
+      "nameTag": "Tether: USDT Token"
+    }
+  ]
+}

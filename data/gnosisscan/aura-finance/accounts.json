@@ -1,0 +1,46 @@
+{
+  "lastPulled": "2024-04-03T06:23:48.489Z",
+  "length": 10,
+  "data": [
+    {
+      "address": "0x1509706a6c66ca549ff0cb464de88231ddbe213b",
+      "nameTag": "Aura: AURA Token"
+    },
+    {
+      "address": "0x98ef32edd24e2c92525e59afc4475c1242a30184",
+      "nameTag": "Aura: Booster Lite"
+    },
+    {
+      "address": "0xa9802db57c6d9218ccfa5bed6364dfd0cf25d985",
+      "nameTag": "Aura: Booster Owner"
+    },
+    {
+      "address": "0x908c9d41183ade493effc12bb9ad11a9333052bc",
+      "nameTag": "Aura: Bridge Sender"
+    },
+    {
+      "address": "0x53c09096b1dc52e2ef223b2969a714ee75da364f",
+      "nameTag": "Aura: Create2 Factory"
+    },
+    {
+      "address": "0x37aa9ad9744d0686df1c7053225e700ce13e31dd",
+      "nameTag": "Aura: Keeper Multicall"
+    },
+    {
+      "address": "0x8b2970c237656d3895588b99a8bfe977d5618201",
+      "nameTag": "Aura: L2 Coordinator"
+    },
+    {
+      "address": "0xf24074a1a6ad620adc14745f9cc1fb1e7ba6ca71",
+      "nameTag": "Aura: Pool Manager Lite"
+    },
+    {
+      "address": "0xd86ceb76e9430d3bde90ded79c82ae62bc66d68b",
+      "nameTag": "Aura: Protocol Multi-sig"
+    },
+    {
+      "address": "0xc181edc719480bd089b94647c2dc504e2700a2b0",
+      "nameTag": "Aura: Voter Proxy Lite"
+    }
+  ]
+}

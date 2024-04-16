@@ -1,0 +1,26 @@
+{
+  "lastPulled": "2024-04-03T06:29:13.452Z",
+  "length": 5,
+  "data": [
+    {
+      "address": "0x907eb72beb08c037ab032c64e2571488a210067e",
+      "nameTag": "Leprechaun: LEP Token"
+    },
+    {
+      "address": "0x854549cfb5277ab9f9b141350b7336051d20cec1",
+      "nameTag": "Twizzler:Distribution"
+    },
+    {
+      "address": "0xdd970c90e20bbd9e6611b45a54b29773096c2736",
+      "nameTag": "Twizzler:Marketing"
+    },
+    {
+      "address": "0x2e7242798ce2c32f4a83a6f7e8a92dbd047694c4",
+      "nameTag": "Twizzler:Operational cost"
+    },
+    {
+      "address": "0x2d33a6a281d97d60602b0d8d01bd6349001600ec",
+      "nameTag": "Twizzler:Rewards"
+    }
+  ]
+}

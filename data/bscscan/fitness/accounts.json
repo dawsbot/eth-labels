@@ -1,0 +1,30 @@
+{
+  "lastPulled": "2024-04-03T06:29:14.261Z",
+  "length": 6,
+  "data": [
+    {
+      "address": "0x05f5963ea37a72905bb206d034c0526797248f9e",
+      "nameTag": "Sixpack: SMF HardCore 1"
+    },
+    {
+      "address": "0x6e95aaa70fbc75ff183e77ae529e8314646ddff9",
+      "nameTag": "Sixpack: SMF HardCore 2"
+    },
+    {
+      "address": "0x5c12e4a412e7a6951a9155cace58667586853719",
+      "nameTag": "Sixpack: SMF HardCore 3"
+    },
+    {
+      "address": "0x7cf7116d5cf2de35fb16bd828b64507c8427fe9c",
+      "nameTag": "Sixpack: SMF HardCore 4"
+    },
+    {
+      "address": "0xc6e659c1a78264a396ed75b461b7b24fba80103d",
+      "nameTag": "Sixpack: SMF HardCore 5"
+    },
+    {
+      "address": "0x9629451c535974f5230d2e4fd31a9de2b2f2e79c",
+      "nameTag": "Sixpack: SMF HardCore 6"
+    }
+  ]
+}

@@ -1,0 +1,25 @@
+{
+  "lastPulled": "2024-04-02T22:23:03.335Z",
+  "data": [
+    {
+      "address": "0x876eabf441b2ee5b5b0554fd502a8e0600950cfa",
+      "nameTag": "Bitfinex: MATIC Staking Rewards"
+    },
+    {
+      "address": "0xc2132d05d31c914a87c6611c10748aeb04b58e8f",
+      "nameTag": "Mapper: USDT Stablecoin"
+    },
+    {
+      "address": "0x503560430e4b5814dda09ac789c3508bb41b24b2",
+      "nameTag": "Tether: Deployer"
+    },
+    {
+      "address": "0xed03ed872159e199065401b6d0d487d78d9464aa",
+      "nameTag": "Tether: MXNt Token"
+    },
+    {
+      "address": "0x170a18b9190669cda08965562745a323c907e5ec",
+      "nameTag": "Tether: pUSDt Token"
+    }
+  ]
+}

@@ -1,0 +1,34 @@
+{
+  "lastPulled": "2024-04-03T06:28:23.941Z",
+  "length": 7,
+  "data": [
+    {
+      "address": "0xe743a49f04f2f77eb2d3b753ae3ad599de8cea84",
+      "nameTag": "Axelar: Express Relayer 1"
+    },
+    {
+      "address": "0x9ece4bf86534afe47f59e600bf1da64ecdb57650",
+      "nameTag": "Axelar: Relayer (Legacy)"
+    },
+    {
+      "address": "0x3eaca64143de6535f22253cefb72ebeba43627ac",
+      "nameTag": "Axelar: Relayer 1"
+    },
+    {
+      "address": "0x2102c32a09cbced4146c3db2d27ae21a185bda43",
+      "nameTag": "Axelar: Relayer 2"
+    },
+    {
+      "address": "0xb28837949e7a3f1ac862036e8a0ae392c9ff9bb4",
+      "nameTag": "Axelar: Relayer 3"
+    },
+    {
+      "address": "0x345662abfe0e257e23552a434d02ef274ccb6a90",
+      "nameTag": "Axelar: Relayer 4"
+    },
+    {
+      "address": "0xd36aac0c9676e984d72823fb662ce94d3ab5e551",
+      "nameTag": "Axelar: Relayer 5"
+    }
+  ]
+}

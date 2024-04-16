@@ -1,0 +1,110 @@
+{
+  "lastPulled": "2024-04-03T06:29:05.631Z",
+  "length": 26,
+  "data": [
+    {
+      "address": "0x4a9a2b2b04549c3927dd2c9668a5ef3fca473623",
+      "nameTag": "dForce: DF Token"
+    },
+    {
+      "address": "0x367c17d19fcd0f7746764455497d63c8e8b2bba3",
+      "nameTag": "dForce: EUX Token"
+    },
+    {
+      "address": "0xfc5bb1e8c29b100ef8f12773f972477bcab68862",
+      "nameTag": "dForce: iADA Token"
+    },
+    {
+      "address": "0x55012ad2f0a50195aef44f403536df2465009ef7",
+      "nameTag": "dForce: iATOM Token"
+    },
+    {
+      "address": "0x0b66a250dadf3237ddb38d485082a7bfe400356e",
+      "nameTag": "dForce: iBTC Token"
+    },
+    {
+      "address": "0x5511b64ae77452c7130670c79298dec978204a47",
+      "nameTag": "dForce: iBUSD Token"
+    },
+    {
+      "address": "0xad5ec11426970c32da48f58c92b1039bc50e5492",
+      "nameTag": "dForce: iDAI Token"
+    },
+    {
+      "address": "0xec3fd540a2dee6f479be539d64da593a59e12d08",
+      "nameTag": "dForce: iDF Token"
+    },
+    {
+      "address": "0x9ab060ba568b86848bf19577226184db6192725b",
+      "nameTag": "dForce: iDOT Token"
+    },
+    {
+      "address": "0x390bf37355e9df6ea2e16eed5686886da6f47669",
+      "nameTag": "dForce: iETH Token"
+    },
+    {
+      "address": "0x983a727aa3491ab251780a13acb5e876d3f2b1d8",
+      "nameTag": "dForce: iEUX Token"
+    },
+    {
+      "address": "0xd739a569ec254d6a20ecf029f024816be58fb810",
+      "nameTag": "dForce: iFIL Token"
+    },
+    {
+      "address": "0xc35acaeedb814f42b2214378d8950f8555b2d670",
+      "nameTag": "dForce: iGOLDx Token"
+    },
+    {
+      "address": "0xee9099c1318cf960651b3196747640eb84b8806b",
+      "nameTag": "dForce: iUNI Token"
+    },
+    {
+      "address": "0xaf9c10b341f55465e8785f0f81dbb52a9bfe005d",
+      "nameTag": "dForce: iUSDC Token"
+    },
+    {
+      "address": "0x0bf8c72d618b5d46b055165e21d661400008fa0f",
+      "nameTag": "dForce: iUSDT Token"
+    },
+    {
+      "address": "0x7b933e1c1f44be9fb111d87501baada7c8518abe",
+      "nameTag": "dForce: iUSX Token"
+    },
+    {
+      "address": "0x219b850993ade4f44e24e6cac403a9a40f1d3d2e",
+      "nameTag": "dForce: ixBTC Token"
+    },
+    {
+      "address": "0xf649e651afe5f05ae5ba493fa34f44dfeadfe05d",
+      "nameTag": "dForce: ixETH Token"
+    },
+    {
+      "address": "0xb5102cee1528ce2c760893034a4603663495fd72",
+      "nameTag": "dForce: USX Token"
+    },
+    {
+      "address": "0x0326da9e3fa36f946cfdc87e59d24b45cbe4aad0",
+      "nameTag": "dForce: xAMZN Token"
+    },
+    {
+      "address": "0x70d1d7cdec24b16942669a5ffeada8527b744502",
+      "nameTag": "dForce: xAPPL Token"
+    },
+    {
+      "address": "0x20ecc92f0a33e16e8cf0417dfc3f586cf597f3a9",
+      "nameTag": "dForce: xBTC Token"
+    },
+    {
+      "address": "0x3d9a9ed8a28a64827a684cee3aa499da1824bf6c",
+      "nameTag": "dForce: xCOIN Token"
+    },
+    {
+      "address": "0x463e3d1e01d048fdf872710f7f3745b5cdf50d0e",
+      "nameTag": "dForce: xETH Token"
+    },
+    {
+      "address": "0xf21259b517d307f0df8ff3d3f53cf1674ebeafe8",
+      "nameTag": "dForce: xTSLA Token"
+    }
+  ]
+}

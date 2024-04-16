@@ -1,0 +1,18 @@
+{
+  "lastPulled": "2024-04-03T06:22:01.605Z",
+  "length": 3,
+  "data": [
+    {
+      "address": "0x71c7656ec7ab88b098defb751b7401b5f6d8976f",
+      "nameTag": "FTMScan: Donate"
+    },
+    {
+      "address": "0xccdb6c5818116a2a93ee6ec28cf92445d56c623e",
+      "nameTag": "Nova: Grants & Donations"
+    },
+    {
+      "address": "0x5ec86d4d826bf3e12ee2486b9df01d7cfa99b6ca",
+      "nameTag": "Rarity Game: Donate"
+    }
+  ]
+}

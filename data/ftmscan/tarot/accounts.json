@@ -1,0 +1,98 @@
+{
+  "lastPulled": "2024-04-03T06:22:23.698Z",
+  "length": 23,
+  "data": [
+    {
+      "address": "0x2217aec3440e8fd6d49a118b1502e539f88dba55",
+      "nameTag": "Tarot: B Deployer"
+    },
+    {
+      "address": "0x46fcde1b89d61f5cbfaab05c2914c367f8301f30",
+      "nameTag": "Tarot: C Deployer"
+    },
+    {
+      "address": "0x5494b29f78714397e96086ba7542e364842a74df",
+      "nameTag": "Tarot: Claim Aggregator"
+    },
+    {
+      "address": "0xe1fe8b5c3f5b592613305fc6ff551c67cbe40e17",
+      "nameTag": "Tarot: Early Borrower"
+    },
+    {
+      "address": "0x4c093134657904a7c3f1e47a6d9a38955094ebef",
+      "nameTag": "Tarot: Early Lender"
+    },
+    {
+      "address": "0x35c052bbf8338b06351782a565aa9aad173432ea",
+      "nameTag": "Tarot: Factory"
+    },
+    {
+      "address": "0x04d04f9a200d63d8ff5d2dc1f59bff49410c565a",
+      "nameTag": "Tarot: Fee Distributor"
+    },
+    {
+      "address": "0x1a8c7d27abb6c2976e35a42299674d62e775dd4d",
+      "nameTag": "Tarot: Fee Processor"
+    },
+    {
+      "address": "0xcf8660e267d44cc804ddbee6b1ce44f9ed564889",
+      "nameTag": "Tarot: Gauge Vault Proxy"
+    },
+    {
+      "address": "0x3303a565741d0d41d026c12259ff2d4772d3622e",
+      "nameTag": "Tarot: LGE Bonus"
+    },
+    {
+      "address": "0x1f7a54df8b04ca31ac875cef5acaa247c87420ed",
+      "nameTag": "Tarot: Liquidity Generator"
+    },
+    {
+      "address": "0x283e62cfe14b352db8e30a9575481dcbf589ad98",
+      "nameTag": "Tarot: Router"
+    },
+    {
+      "address": "0xf62fafc9b31b016484dcb779d8c3a0b26e9815a6",
+      "nameTag": "Tarot: Safe Wallet"
+    },
+    {
+      "address": "0x63d5554b748598c191ab0cbd0e0e1c638ffebee6",
+      "nameTag": "Tarot: Supply Positions 1"
+    },
+    {
+      "address": "0xd204e3dc1937d3a30fc6f20abc48ac5506c94d1e",
+      "nameTag": "Tarot: Supply Positions 2"
+    },
+    {
+      "address": "0x3e9f34309b2f046f4f43c0376efe2fdc27a10251",
+      "nameTag": "Tarot: Supply Vault Router"
+    },
+    {
+      "address": "0x93d01402fc51dd906bbaadb2431ddc2ff535eaac",
+      "nameTag": "Tarot: Supply Vault Strategy V1"
+    },
+    {
+      "address": "0x075b7f7e2960d49c67c5a44134928e5e2896283a",
+      "nameTag": "Tarot: Supply Vault Strategy V2"
+    },
+    {
+      "address": "0x7e5f7da8b5d70b40397487780fdf89384cfebb9a",
+      "nameTag": "Tarot: Supply Vault Strategy V3"
+    },
+    {
+      "address": "0xd4fcd1d1252bf4a3134e0e848479ad90a60979ef",
+      "nameTag": "Tarot: Tarot LGE"
+    },
+    {
+      "address": "0x36df0a76a124d8b2205fa11766ec2eff8ce38a35",
+      "nameTag": "Tarot: Tarot Price Oracle"
+    },
+    {
+      "address": "0x449eadd544cb6de7e12dbc0b522ee518a7641561",
+      "nameTag": "Tarot: Token Splitter"
+    },
+    {
+      "address": "0x466ebd9ec2027776fa11a982e9bbe4f67aa6e86b",
+      "nameTag": "Tarot: xTAROT Staking Pool Controller"
+    }
+  ]
+}

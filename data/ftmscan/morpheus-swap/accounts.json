@@ -1,0 +1,34 @@
+{
+  "lastPulled": "2024-04-03T06:22:12.756Z",
+  "length": 7,
+  "data": [
+    {
+      "address": "0x9c454510848906fddc846607e4baa27ca999fbb6",
+      "nameTag": "Morpheus Swap: Factory"
+    },
+    {
+      "address": "0xc7dad2e953dc7b11474151134737a007049f576e",
+      "nameTag": "Morpheus Swap: MasterChef"
+    },
+    {
+      "address": "0x0c35b3b57cde4a3007398045b274548a6592e9d0",
+      "nameTag": "Morpheus Swap: MORPH-PILLS Swapper"
+    },
+    {
+      "address": "0x92fcfc79187bc2db094c784d2a1b09e427ede24f",
+      "nameTag": "Morpheus Swap: Multisig"
+    },
+    {
+      "address": "0x415742c217ea4941b706ff358bf6178985590cfa",
+      "nameTag": "Morpheus Swap: Neo Pool"
+    },
+    {
+      "address": "0x8ac868293d97761a1fed6d4a01e9ff17c5594aa3",
+      "nameTag": "Morpheus Swap: Router"
+    },
+    {
+      "address": "0x77e4b42c3d788735bc27ad7f494362b07ccd9f04",
+      "nameTag": "Morpheus Swap: Timelock"
+    }
+  ]
+}

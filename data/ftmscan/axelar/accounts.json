@@ -1,0 +1,90 @@
+{
+  "lastPulled": "2024-04-03T06:21:47.441Z",
+  "length": 21,
+  "data": [
+    {
+      "address": "0x8b1f4432f943c465a973fedc6d7aa50fc96f1f65",
+      "nameTag": "Axelar: AXL Token"
+    },
+    {
+      "address": "0x3bb68cb55fc9c22511467c18e42d14e8c959c4da",
+      "nameTag": "Axelar: axlATOM Token"
+    },
+    {
+      "address": "0xd5d5350f42cb484036a1c1af5f2df77eafadcaff",
+      "nameTag": "Axelar: axlDAI Token"
+    },
+    {
+      "address": "0xbe71e68fb36d14565f523c9c36ab2a8be0c26d55",
+      "nameTag": "Axelar: axlFRAX Token"
+    },
+    {
+      "address": "0x1b6382dbdea11d97f24495c9a90b7c88469134a4",
+      "nameTag": "Axelar: axlUSDC Token"
+    },
+    {
+      "address": "0xd226392c23fb3476274ed6759d4a478db3197d82",
+      "nameTag": "Axelar: axlUSDT Token"
+    },
+    {
+      "address": "0xa57adce1d2fe72949e4308867d894cd7e7de0ef2",
+      "nameTag": "Axelar: Deployer 1"
+    },
+    {
+      "address": "0x4000ab030f3615d1616b4c71e7129bbe3f1f9c55",
+      "nameTag": "Axelar: EEUR Token"
+    },
+    {
+      "address": "0xe743a49f04f2f77eb2d3b753ae3ad599de8cea84",
+      "nameTag": "Axelar: Express Relayer 1"
+    },
+    {
+      "address": "0x2879da536d9d107d6b92d95d7c4cfaa5de7088f4",
+      "nameTag": "Axelar: Gas Receiver"
+    },
+    {
+      "address": "0x2d5d7d31f671f86c782533cc367f14109a082712",
+      "nameTag": "Axelar: Gas Service"
+    },
+    {
+      "address": "0x304acf330bbe08d1e512eefaa92f6a57871fd895",
+      "nameTag": "Axelar: Gateway"
+    },
+    {
+      "address": "0x5e3c572a97d898fe359a2cea31c7d46ba5386895",
+      "nameTag": "Axelar: LUNA Token"
+    },
+    {
+      "address": "0xe549caf5f0c3e80b8738cb03ae4fbb4c15b0dd86",
+      "nameTag": "Axelar: NGM Token"
+    },
+    {
+      "address": "0xe523f25dd88ee2b77efb3ab1fb23beef5724819a",
+      "nameTag": "Axelar: Relayer (Legacy)"
+    },
+    {
+      "address": "0xbf095fe6b60e18ce71b54a731f719801f09069b8",
+      "nameTag": "Axelar: Relayer 1"
+    },
+    {
+      "address": "0x2102c32a09cbced4146c3db2d27ae21a185bda43",
+      "nameTag": "Axelar: Relayer 2"
+    },
+    {
+      "address": "0xb28837949e7a3f1ac862036e8a0ae392c9ff9bb4",
+      "nameTag": "Axelar: Relayer 3"
+    },
+    {
+      "address": "0x345662abfe0e257e23552a434d02ef274ccb6a90",
+      "nameTag": "Axelar: Relayer 4"
+    },
+    {
+      "address": "0xd36aac0c9676e984d72823fb662ce94d3ab5e551",
+      "nameTag": "Axelar: Relayer 5"
+    },
+    {
+      "address": "0x2b9d3f168905067d88d93f094c938bacee02b0cb",
+      "nameTag": "Axelar: UST Token"
+    }
+  ]
+}

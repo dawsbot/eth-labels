@@ -1,0 +1,58 @@
+{
+  "lastPulled": "2024-04-03T06:22:18.774Z",
+  "length": 13,
+  "data": [
+    {
+      "address": "0x59b46fbb487aa974de815f31601cbe6ba7368a01",
+      "nameTag": "Scream.sh: Compound Lens"
+    },
+    {
+      "address": "0x37517c5d880c5c282437a3da4d627b4457c10beb",
+      "nameTag": "Scream.sh: Comptroller"
+    },
+    {
+      "address": "0xd4db215db60035c7d7a3d4e91ab09c75584fd52e",
+      "nameTag": "Scream.sh: Comptroller Storage"
+    },
+    {
+      "address": "0x70f8892b9aed192b3e794f9398b62d50cf2fbbf8",
+      "nameTag": "Scream.sh: Deployer 2"
+    },
+    {
+      "address": "0x8d9aed9882b4953a0c9fa920168fa1fdfa0ebe75",
+      "nameTag": "Scream.sh: scDAI"
+    },
+    {
+      "address": "0x02224765bc8d54c21bb51b0951c80315e1c263f9",
+      "nameTag": "Scream.sh: scfUSDT"
+    },
+    {
+      "address": "0xe0654c8e6fd4d733349ac7e09f6f23da256bf475",
+      "nameTag": "Scream.sh: SCREAM Token"
+    },
+    {
+      "address": "0xe45ac34e528907d0a0239ab5db507688070b20bf",
+      "nameTag": "Scream.sh: scUSDC"
+    },
+    {
+      "address": "0x4565dc3ef685e4775cdf920129111ddf43b9d882",
+      "nameTag": "Scream.sh: scWBTC"
+    },
+    {
+      "address": "0xc772ba6c2c28859b7a0542faa162a56115ddce25",
+      "nameTag": "Scream.sh: scWETH"
+    },
+    {
+      "address": "0x5aa53f03197e08c4851cad8c92c7922da5857e5d",
+      "nameTag": "Scream.sh: scWFTM"
+    },
+    {
+      "address": "0x260e596dabe3afc463e75b6cc05d8c46acacfb09",
+      "nameTag": "Scream.sh: Unitroller"
+    },
+    {
+      "address": "0xe3d17c7e840ec140a7a51aca351a482231760824",
+      "nameTag": "Scream.sh: xSCREAM Token"
+    }
+  ]
+}

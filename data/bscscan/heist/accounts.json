@@ -1,0 +1,238 @@
+{
+  "lastPulled": "2024-04-03T06:29:23.661Z",
+  "length": 58,
+  "data": [
+    {
+      "address": "0x281b22df27120cea176a9cb311169daa690af801",
+      "nameTag": ""
+    },
+    {
+      "address": "0x59a82e36c401f4f6f29fe83833d778af38a398a1",
+      "nameTag": ""
+    },
+    {
+      "address": "0x87230146e138d3f296a9a77e497a2a83012e9bc5",
+      "nameTag": ""
+    },
+    {
+      "address": "0xf3a465c9fa6663ff50794c698f600faa4b05c777",
+      "nameTag": "Ankr Exploiter"
+    },
+    {
+      "address": "0x4714a26e4e2e1334c80575332ec9eb043b61a2c4",
+      "nameTag": "Arbix Finance Rug Pull"
+    },
+    {
+      "address": "0x2c6900b24221de2b4a45c8c89482fff96ffb7e55",
+      "nameTag": "AscendEX Hacker"
+    },
+    {
+      "address": "0x25fb126b6c6b5c8ef732b86822fa0f0024e16c61",
+      "nameTag": "Bitmart Hacker"
+    },
+    {
+      "address": "0xa0acc61547f6bd066f7c9663c17a312b6ad7e187",
+      "nameTag": "Bunny Finance Exploiter 1"
+    },
+    {
+      "address": "0x158c244b62058330f2c328c720b072d8db2c612f",
+      "nameTag": "Bunny Finance Exploiter 2"
+    },
+    {
+      "address": "0x74487eed1e67f4787e8c0570e8d5d168a05254d4",
+      "nameTag": "bZx PrivKey Exploiter"
+    },
+    {
+      "address": "0x0acc0e5faa09cb1976237c3a9af3d3d4b2f35fa5",
+      "nameTag": "bZx PrivKey Exploiter 2"
+    },
+    {
+      "address": "0x967bb571f0fc9ee79c892abf9f99233aa1737e31",
+      "nameTag": "bZx PrivKey Exploiter 3"
+    },
+    {
+      "address": "0x6551fb9be444987f7482012cbf7ea95a1ee8dd0e",
+      "nameTag": "bZx PrivKey Exploiter 4"
+    },
+    {
+      "address": "0xafad9352eb6bcd085dd68268d353d0ed2571af89",
+      "nameTag": "bZx PrivKey Exploiter 5"
+    },
+    {
+      "address": "0x750d4c24e414ce51483df6fc143c1dfb3b2e769d",
+      "nameTag": "CryptoBay Rug Pull"
+    },
+    {
+      "address": "0x68926c8595b211bd8effd9ffee7355426cdd4ce8",
+      "nameTag": "Eco DeFi Hacker"
+    },
+    {
+      "address": "0xbff2d5d4e5a4a7b1859ac5edb010fdafe4ea92a8",
+      "nameTag": "Elona Rugpull"
+    },
+    {
+      "address": "0x7e09ead1161d710a0f205d8d3564873f5f78c0b0",
+      "nameTag": "Elona Rugpull 2"
+    },
+    {
+      "address": "0xbaedee3beecb43ae66dcfda03600191f6f08ed0b",
+      "nameTag": "Fake_Phishing138"
+    },
+    {
+      "address": "0x03ccb56ffc86ef711545f44303ceeb44f7dfd1ed",
+      "nameTag": "Fake_Phishing139"
+    },
+    {
+      "address": "0xb4e502bee63fb4394e682ef53150d4733dc62aa8",
+      "nameTag": "Fake_Phishing143"
+    },
+    {
+      "address": "0x49809e2a256893ae4c136bc7e44ee6a60bba1c95",
+      "nameTag": "Fake_Phishing144"
+    },
+    {
+      "address": "0x59abf3837fa962d6853b4cc0a19513aa031fd32b",
+      "nameTag": "FTX Accounts Drainer"
+    },
+    {
+      "address": "0xb7e3d0fe8349c980a7a93e8378ec6d728970bd52",
+      "nameTag": "FTX Accounts Drainer 2"
+    },
+    {
+      "address": "0xe0e02e88adb4d4eaa5cb2952842cd3c76571831a",
+      "nameTag": "GoldMine Rugger"
+    },
+    {
+      "address": "0xc43b1f4e7e47be5d5663c3b26e4fb3fe7e217f90",
+      "nameTag": "IDO Rug Pull"
+    },
+    {
+      "address": "0x8e0d334a77614a7ce089c9246e9b1d7c7172ef02",
+      "nameTag": "Impossible Finance Exploiter"
+    },
+    {
+      "address": "0xa7573991d44e7128e2831daa5e9722678ff020ca",
+      "nameTag": "JAC: JAC Token"
+    },
+    {
+      "address": "0xbc58b718b886cf62bf7000980fce96b2603e0950",
+      "nameTag": "JET: JET Token"
+    },
+    {
+      "address": "0xee6cacddd3a9370d87db581ee6728226883578e5",
+      "nameTag": "Jumpn: JST Token"
+    },
+    {
+      "address": "0x0e61b4aec4d8fe53fb2de64e268bf20b5e6b0e07",
+      "nameTag": "Jumpn: JUT Token"
+    },
+    {
+      "address": "0xe4ecb6c45bc8fda0472f57a981ba9682fee191cb",
+      "nameTag": "Maze Protocol Exploit"
+    },
+    {
+      "address": "0x52c52cee08090fe635872c2b67badbe041fa58e2",
+      "nameTag": "Maze Protocol Exploit 2"
+    },
+    {
+      "address": "0x330bf950ab2fb1f8ed039a50b1a92478714a6c7c",
+      "nameTag": "Maze Protocol Hacker 1"
+    },
+    {
+      "address": "0x4f5bc3866858bf892118ac675e015286c37bbefd",
+      "nameTag": "Maze Protocol Hacker 2"
+    },
+    {
+      "address": "0xdaf38d906a94a20b07aef895a2cde34877f9da7f",
+      "nameTag": "Maze Protocol Hacker 3"
+    },
+    {
+      "address": "0x3551fd337471a8c6374d2f9c97519ca94ba1d59a",
+      "nameTag": "Maze Protocol Hacker 4"
+    },
+    {
+      "address": "0x79391843a5eff373a20e9f93096b41ff38f38013",
+      "nameTag": "Maze Protocol Hacker 5"
+    },
+    {
+      "address": "0x6666666c0765744193f48255717f05a0105d2401",
+      "nameTag": "Maze Protocol Hacker 6"
+    },
+    {
+      "address": "0xcba47af0547d12fb6b59c105835fab6b2fbc22ed",
+      "nameTag": "MetaSwap Exploiter"
+    },
+    {
+      "address": "0x731821d13414487ea46f1b485cfb267019917689",
+      "nameTag": "Pancake Hunny Exploiter"
+    },
+    {
+      "address": "0x472a2c88c1a5f794eb80706e587d4a120d9be255",
+      "nameTag": "Pinecone Finance Exploiter 1"
+    },
+    {
+      "address": "0x430ad7e178d3e00145f35c041c7f486d7e8a4c7e",
+      "nameTag": "Pinecone Finance Exploiter 2"
+    },
+    {
+      "address": "0xfc6682db7e9f57882e8b18ebc9adc7a19f770494",
+      "nameTag": "Pinecone Finance Exploiter 3"
+    },
+    {
+      "address": "0x0d6e286a7cfd25e0c01fee9756765d8033b32c71",
+      "nameTag": "PolyNetwork Exploiter"
+    },
+    {
+      "address": "0xd01ae1a708614948b2b5e0b7ab5be6afa01325c7",
+      "nameTag": "QubitFin Exploiter"
+    },
+    {
+      "address": "0x21bcb4fa299e13c4fa97b2271099f35a1499e74c",
+      "nameTag": "QubitFin Exploiter 2"
+    },
+    {
+      "address": "0x3b6e77722e2bbe97c1cfa337b42c0939aeb83671",
+      "nameTag": "Spartan Protocol Hacker"
+    },
+    {
+      "address": "0x1f5eabba9c56bca4a7828969b79bc87051125b31",
+      "nameTag": "SQUID Token Rug 1"
+    },
+    {
+      "address": "0x34400280a169f4685193926a513618cf7fe7f0aa",
+      "nameTag": "SQUID Token Rug 2"
+    },
+    {
+      "address": "0xb89e9365cb5bacfcf4a4b0386dfad45c3b4d3258",
+      "nameTag": "StableMagnet Swap"
+    },
+    {
+      "address": "0x4464e91002c63a623a8a218bd5dd1f041b61ec04",
+      "nameTag": "Stake.com Hacker"
+    },
+    {
+      "address": "0x7f5602b976c4892f1530339f85f139008fbcb771",
+      "nameTag": "Super Fox Rug Pull"
+    },
+    {
+      "address": "0xad9217e427ed9df8a89e582601a8614fd4f74563",
+      "nameTag": "Titano PLAY Exploiter"
+    },
+    {
+      "address": "0xa73505453f58e367c80f16685079dad6f4ea6b18",
+      "nameTag": "UnderMineGold: UMG Token"
+    },
+    {
+      "address": "0x886358f9296de461d12e791bc9ef6f5a03410c64",
+      "nameTag": "Wault Finance Hacker"
+    },
+    {
+      "address": "0x59c686272e6f11dc8701a162f938fb085d940ad3",
+      "nameTag": "XSURGE Exploiter 1"
+    },
+    {
+      "address": "0x1514aaa4dcf56c4aa90da6a4ed19118e6800dc46",
+      "nameTag": "XSURGE Hack"
+    }
+  ]
+}

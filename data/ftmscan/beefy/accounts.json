@@ -1,0 +1,54 @@
+{
+  "lastPulled": "2024-04-03T06:21:49.067Z",
+  "length": 12,
+  "data": [
+    {
+      "address": "0x7381ed41f6de418dde5e84b55590422a57917886",
+      "nameTag": "Beefy: beFTM Token"
+    },
+    {
+      "address": "0x44e314190d9e4ce6d4c0903459204f8e21ff940a",
+      "nameTag": "Beefy: binSPIRIT Token"
+    },
+    {
+      "address": "0x7345a537a975d9ca588ee631befddfef34fd5e8f",
+      "nameTag": "Beefy: binSPIRIT Vault v6"
+    },
+    {
+      "address": "0xe6cce165aa3e52b2cc55f17b1dbc6a8fe5d66610",
+      "nameTag": "Beefy: Community Treasury"
+    },
+    {
+      "address": "0xd927ce147f098ce634301e6c4281541b1939a132",
+      "nameTag": "Beefy: Deployer"
+    },
+    {
+      "address": "0x010da5ff62b6e45f89fa7b2d8ced5a8b5754ec1b",
+      "nameTag": "Beefy: Deployer 2"
+    },
+    {
+      "address": "0x238dc3781dd668abd5135e233e395885657d304a",
+      "nameTag": "Beefy: Developer Multisigs"
+    },
+    {
+      "address": "0x7fb900c14c9889a559c777d016a885995ce759ee",
+      "nameTag": "Beefy: Reward Pool"
+    },
+    {
+      "address": "0xa43a80f527ac3619ce904c55758d83a7b468fb16",
+      "nameTag": "Beefy: SpookySwap DEI-USDC Vault v6"
+    },
+    {
+      "address": "0x6d28afd25a1fbc5409b1befff6aefeee2902d89f",
+      "nameTag": "Beefy: Timelock"
+    },
+    {
+      "address": "0x847298ac8c28a9d66859e750456b92c2a67b876d",
+      "nameTag": "Beefy: Timelocks"
+    },
+    {
+      "address": "0xdff234670038defb2115cf103f86da5fb7cfd2d2",
+      "nameTag": "Beefy: Treasury Multisigs"
+    }
+  ]
+}

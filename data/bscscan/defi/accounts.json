@@ -1,0 +1,138 @@
+{
+  "lastPulled": "2024-04-03T06:28:57.203Z",
+  "length": 33,
+  "data": [
+    {
+      "address": "0x5fce4b46b58996a4aac0962dec2cd9b257352ee1",
+      "nameTag": "1Tronicswap : Router02"
+    },
+    {
+      "address": "0x8effc4e9b5e43d46a5667775c549309c98d58e2b",
+      "nameTag": "AVARA: Pinksale"
+    },
+    {
+      "address": "0xc014dca6395a943639653f7c23b674c38edffc69",
+      "nameTag": "Bitexblock: Router Contract"
+    },
+    {
+      "address": "0x2a723e6de06833645f0d0bd06a385a5a44bfeceb",
+      "nameTag": "BOB: BOB - BUSD 0.008% Kyberswap Elastic Pool"
+    },
+    {
+      "address": "0xf987939b9ea7a43d9e6a39f6542749bb8afb09bb",
+      "nameTag": "BOB: USDT - BOB 0.008% Kyberswap Elastic Pool"
+    },
+    {
+      "address": "0x81df9127a67276b17fa9368062e373194d492e7a",
+      "nameTag": "Bot Planet: Staking"
+    },
+    {
+      "address": "0xdf65251716880815e47ca8d8bda7d9a32078f2dc",
+      "nameTag": "Bot Planet:Team"
+    },
+    {
+      "address": "0xc458f048e181655b7f57965356e57c99296dbf1c",
+      "nameTag": "Check Dot: Automatic Audit Service Contract"
+    },
+    {
+      "address": "0x2d877502b4889a6811294f92bf9535a88b54b06f",
+      "nameTag": "CheckDot : Bridge"
+    },
+    {
+      "address": "0x36ba786ad9f281cd1d7ec46fafd81cfd0228486e",
+      "nameTag": "CIVMILK : MasterChef"
+    },
+    {
+      "address": "0xb644ee14cea2e6b1b22a093c0c294b90e4a0422f",
+      "nameTag": "Coin Fast Alert: Coinfastalert V2"
+    },
+    {
+      "address": "0x45d508e3cbfd74ed2bddc4fd168389242da76930",
+      "nameTag": "CryptoHealth: Treasury Wallet"
+    },
+    {
+      "address": "0xebacbccaf7ea7cd2499fc72865437af5b853febf",
+      "nameTag": "Freshgainstein: Reward Contract"
+    },
+    {
+      "address": "0xcd27c6f77670f09907093632dbb4f1587b177435",
+      "nameTag": "Gitshock Finance: Deployer 2"
+    },
+    {
+      "address": "0xbd28afc2fdc3cb76146225e82c591259b140acf1",
+      "nameTag": "Gitshock Finance: Token Distributor"
+    },
+    {
+      "address": "0xbf9d97eaf551877e4710d8e9d0519f79e03e5e69",
+      "nameTag": "Impossible Finance: V2 Swap Factory"
+    },
+    {
+      "address": "0x3cafa8d80566a0dd500311ba7758772cec538e50",
+      "nameTag": "Impossible Finance: V2 Swap Rewards Staking 1"
+    },
+    {
+      "address": "0xccf4881b849d94c15c98567ba71b08ed829aba33",
+      "nameTag": "Impossible Finance: V2 Swap Router"
+    },
+    {
+      "address": "0x05b70fb5477a93be33822bfb31fdaf2c171970df",
+      "nameTag": "Mayan: Swap Bridge"
+    },
+    {
+      "address": "0x8e07bd3c4b24eaa38ddd47fa35de5ccadabc0ef6",
+      "nameTag": "Meta TIGR: Marketing Wallet"
+    },
+    {
+      "address": "0xe219897c3376c33582acb361ca3525923f21473d",
+      "nameTag": "Meta TIGR: TIGR Staking Pool"
+    },
+    {
+      "address": "0x2749cf03120f859d00e7e3602e93b1dbd4d714ae",
+      "nameTag": "Metatigr: Staking and Rewards"
+    },
+    {
+      "address": "0x749601d67b8b2c59103779c4990e1d52d2c2d6e7",
+      "nameTag": "Parex: Hot Wallet"
+    },
+    {
+      "address": "0x0d1690eb95a2952fe35ed240a3970c4b4f3e95fd",
+      "nameTag": "Pigletz: Staking"
+    },
+    {
+      "address": "0x4c31269a9257aaccf3e2431cf71e897af269827f",
+      "nameTag": "Powabit: Powa Staking"
+    },
+    {
+      "address": "0xe3e8cc42da487d1116d26687856e9fb684817c52",
+      "nameTag": "Rasta Finance: RASTA Token"
+    },
+    {
+      "address": "0x157e4db6d6489583d7c312b5ea44dcfbe3d7921f",
+      "nameTag": "Revoluzion: Airdrop & Multisender"
+    },
+    {
+      "address": "0xec45f47a6a7d86fe407ca38f428029a8bd4ae7a6",
+      "nameTag": "RXCGames: Bankroll"
+    },
+    {
+      "address": "0x378085c11dc493ed90bd582dda2f248e98388dad",
+      "nameTag": "Solana Farm: MasterChef"
+    },
+    {
+      "address": "0x4f1ddadbdd1ee5c309f67c01233af787b569c117",
+      "nameTag": "StrikeX: Staking"
+    },
+    {
+      "address": "0x4dd90d3ce962039a3c66d613207ac2d449dfa04f",
+      "nameTag": "Titano: Treasury"
+    },
+    {
+      "address": "0x93e58e62059c8698ab20039af0a7a349a0828bf8",
+      "nameTag": "TokenBB: BatchTransfer"
+    },
+    {
+      "address": "0xc765bddb93b0d1c1a88282ba0fa6b2d00e3e0c83",
+      "nameTag": "UNCX Network Security : LP Lockers"
+    }
+  ]
+}

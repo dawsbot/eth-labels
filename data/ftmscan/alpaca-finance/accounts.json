@@ -1,0 +1,34 @@
+{
+  "lastPulled": "2024-04-03T06:21:43.748Z",
+  "length": 7,
+  "data": [
+    {
+      "address": "0xd2d638aa6ff4694a9147f2c8b09e86f569fa052b",
+      "nameTag": "Alpaca Finance: Chainlink Oracle"
+    },
+    {
+      "address": "0x838b7f64fa89d322c563a6f904851a13a164f84c",
+      "nameTag": "Alpaca Finance: Mini FL"
+    },
+    {
+      "address": "0x2d5408f2287bf9f9b05404794459a846651d0a59",
+      "nameTag": "Alpaca Finance: Multi Call"
+    },
+    {
+      "address": "0xe1d2ca01bc88f325ff7266dd2165944f3caf0d3d",
+      "nameTag": "Alpaca Finance: Oracle Medianizer"
+    },
+    {
+      "address": "0xa625ab01b08ce023b2a342dbb12a16f2c8489a8f",
+      "nameTag": "Alpaca Finance: Proxy Admin"
+    },
+    {
+      "address": "0xcab46f1397fdf4b0f31cef05345141e51f877edb",
+      "nameTag": "Alpaca Finance: Simple Oracle"
+    },
+    {
+      "address": "0xafd1eb025bf584a11112a3fc790bd715ed9a98b1",
+      "nameTag": "Alpaca Finance: Timelock"
+    }
+  ]
+}

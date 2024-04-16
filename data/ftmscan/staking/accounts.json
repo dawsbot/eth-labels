@@ -1,0 +1,50 @@
+{
+  "lastPulled": "2024-04-03T06:22:22.780Z",
+  "length": 11,
+  "data": [
+    {
+      "address": "0x4e5d8794f08f2792dc51016d0a4b9a205cafc63a",
+      "nameTag": "DEUS Finance: DEI-DEUS Staking"
+    },
+    {
+      "address": "0xa78ea447ce5aa4669a5f0cd8d27bf5883e1bf20f",
+      "nameTag": "DEUS Finance: DEI-USDC Staking"
+    },
+    {
+      "address": "0x6ea8de8f643ba65d8be39bd8d3b72f6daada7e77",
+      "nameTag": "Metavault DAO: Staking"
+    },
+    {
+      "address": "0xe27c0a2c2fea3c6c7fc42af05861381d8411ad65",
+      "nameTag": "Metavault DAO: Staking Distributor"
+    },
+    {
+      "address": "0x80c0771dff78d0eba670f170c2b4dbbe1eaa292c",
+      "nameTag": "Metavault DAO: Staking Helper"
+    },
+    {
+      "address": "0x4c5b4f27bc268594ecacc3dfce68ad70bd21487c",
+      "nameTag": "MiniVerse Finance: MiniChillas Staking"
+    },
+    {
+      "address": "0xda2a4abc17a87f6f7b532a37ab8b707343a97334",
+      "nameTag": "MiniVerse Finance: MiniGuineas Staking"
+    },
+    {
+      "address": "0x78ee91ea69132e5838699c42f0c07fa98da90161",
+      "nameTag": "MiniVerse Finance: MiniLand Staking"
+    },
+    {
+      "address": "0xd31b10a66c9aa407d86c250f3381b629aed9fa12",
+      "nameTag": "Nova: Staking & Farming"
+    },
+    {
+      "address": "0x7fce87e203501c3a035cbbc5f0ee72661976d6e1",
+      "nameTag": "Solidex Finance: Staking Rewards"
+    },
+    {
+      "address": "0x2352b745561e7e6fcd03c093ce7220e3e126ace0",
+      "nameTag": "SpookySwap: AcaLab xBOO Staking"
+    }
+  ]
+}

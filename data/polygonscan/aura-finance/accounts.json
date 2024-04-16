@@ -1,0 +1,61 @@
+{
+  "lastPulled": "2024-04-02T22:22:53.086Z",
+  "data": [
+    {
+      "address": "0x1509706a6c66ca549ff0cb464de88231ddbe213b",
+      "nameTag": "Aura: AURA Token"
+    },
+    {
+      "address": "0x4b5d2848678db574fbc2d2f629143d969a4f41cb",
+      "nameTag": "Aura: auraBal Strategy"
+    },
+    {
+      "address": "0x223738a747383d6f9f827d95964e4d8e8ac754ce",
+      "nameTag": "Aura: auraBAL Token"
+    },
+    {
+      "address": "0x4ea9317d90b61fc28c418c247ad0ca8939bbb0e9",
+      "nameTag": "Aura: auraBal Vault"
+    },
+    {
+      "address": "0x98ef32edd24e2c92525e59afc4475c1242a30184",
+      "nameTag": "Aura: Booster Lite"
+    },
+    {
+      "address": "0x8b9da502cccb32dbf19cd68e258e6fd05e1b5eee",
+      "nameTag": "Aura: Booster Owner"
+    },
+    {
+      "address": "0x25e7c574c4016e09f608971f97c3b09a6cf4f669",
+      "nameTag": "Aura: Bridge Sender"
+    },
+    {
+      "address": "0x617963d46b882ece880ab18bc232f513e91fdd47",
+      "nameTag": "Aura: Claim Zap"
+    },
+    {
+      "address": "0x53c09096b1dc52e2ef223b2969a714ee75da364f",
+      "nameTag": "Aura: Create2 Factory"
+    },
+    {
+      "address": "0x37aa9ad9744d0686df1c7053225e700ce13e31dd",
+      "nameTag": "Aura: Keeper Multicall"
+    },
+    {
+      "address": "0x8b2970c237656d3895588b99a8bfe977d5618201",
+      "nameTag": "Aura: L2 Coordinator"
+    },
+    {
+      "address": "0xf24074a1a6ad620adc14745f9cc1fb1e7ba6ca71",
+      "nameTag": "Aura: Pool Manager Lite"
+    },
+    {
+      "address": "0xd86ceb76e9430d3bde90ded79c82ae62bc66d68b",
+      "nameTag": "Aura: Protocol Multi-sig"
+    },
+    {
+      "address": "0xc181edc719480bd089b94647c2dc504e2700a2b0",
+      "nameTag": "Aura: Voter Proxy Lite"
+    }
+  ]
+}

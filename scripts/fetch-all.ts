@@ -2,7 +2,6 @@ import "dotenv/config";
 import type { Browser, Page } from "playwright";
 import { firefox } from "playwright";
 import { AnyscanPuller } from "./AnyscanPuller";
-import runCombine from "./combine";
 import { parseError } from "./error-parse";
 
 async function openBrowser(): Promise<{ browser: Browser; page: Page }> {
@@ -36,6 +35,10 @@ void (async () => {
     const basescanPuller = new AnyscanPuller("basescan");
     const optimismPuller = new AnyscanPuller("optimism");
     const arbiscanPuller = new AnyscanPuller("arbitrum");
+    const polygonPuller = new AnyscanPuller("polygonscan");
+    const bscscanPuller = new AnyscanPuller("bscscan");
+    const gnosisPuller = new AnyscanPuller("gnosisscan");
+    const ftmscanPuller = new AnyscanPuller("ftmscan");
     const cleoPuller = new AnyscanPuller("celo");
 
     const sourcePullers = [
@@ -43,18 +46,19 @@ void (async () => {
       basescanPuller,
       optimismPuller,
       arbiscanPuller,
+      polygonPuller,
+      bscscanPuller,
+      gnosisPuller,
+      ftmscanPuller,
       cleoPuller,
     ];
 
-    for (const puller of sourcePullers) {
+    for (const puller of sourcePullers.reverse()) {
       await puller.pullAndWriteAllAddresses(page);
     }
     await closeBrowser(browser);
     const { hours, minutes, seconds } = parseTime(timerStart);
     console.log(`Time elapsed: ${hours}h ${minutes}m, ${seconds}s`);
-    console.log("🔀 Combining all json begin...");
-    await runCombine();
-    console.log("🔀 Combining all json done!");
   } catch (error) {
     parseError(error);
     process.exit(1);

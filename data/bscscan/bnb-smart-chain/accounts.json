@@ -1,0 +1,50 @@
+{
+  "lastPulled": "2024-04-03T06:28:33.326Z",
+  "length": 11,
+  "data": [
+    {
+      "address": "",
+      "nameTag": ""
+    },
+    {
+      "address": "0x0000000000000000000000000000000000002000",
+      "nameTag": "BSC: Cross Chain"
+    },
+    {
+      "address": "0x0000000000000000000000000000000000001007",
+      "nameTag": "BSC: Governance Hub"
+    },
+    {
+      "address": "0x0000000000000000000000000000000000001006",
+      "nameTag": "BSC: Relayer Hub"
+    },
+    {
+      "address": "0x0000000000000000000000000000000000001005",
+      "nameTag": "BSC: Relayer Incentivize"
+    },
+    {
+      "address": "0x0000000000000000000000000000000000001001",
+      "nameTag": "BSC: SlashIndicator"
+    },
+    {
+      "address": "0x0000000000000000000000000000000000001002",
+      "nameTag": "BSC: System Reward"
+    },
+    {
+      "address": "0x0000000000000000000000000000000000001003",
+      "nameTag": "BSC: Tendermint Light Client"
+    },
+    {
+      "address": "0x0000000000000000000000000000000000001004",
+      "nameTag": "BSC: Token Hub"
+    },
+    {
+      "address": "0x0000000000000000000000000000000000001008",
+      "nameTag": "BSC: Token Manager"
+    },
+    {
+      "address": "0x0000000000000000000000000000000000001000",
+      "nameTag": "BSC: Validator Set"
+    }
+  ]
+}
