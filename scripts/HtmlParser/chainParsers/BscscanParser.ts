@@ -56,6 +56,7 @@ export class BscscanHtmlParser extends HtmlParser {
           .text() ||
         $(tableCells[2]).find("a > div > span.hash-tag.text-truncate").text() ||
         "";
+      const imageUrl = $(tableCells[2]).find("img").attr("src") || "";
       const tokenSymbol = $(tableCells[2])
         .find("a > div > span.text-muted")
         .text()
@@ -66,6 +67,7 @@ export class BscscanHtmlParser extends HtmlParser {
         address: address.trim(),
         tokenName: tokenName || "",
         tokenSymbol: tokenSymbol || "",
+        tokenImage: imageUrl,
         website,
       };
 

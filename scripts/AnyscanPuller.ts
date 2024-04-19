@@ -33,6 +33,7 @@ export type TokenRow = {
   address: string;
   tokenName: string;
   tokenSymbol: string;
+  tokenImage: string;
   website: string;
 };
 export type AccountRows = Array<AccountRow>;
@@ -46,6 +47,7 @@ export class AnyscanPuller {
   #baseUrl: string;
   #directoryName: string;
   #htmlParser: HtmlParser;
+  public baseUrl: string;
   /**
    * @example
    * const etherscanPuller = new AnyscanPuller(etherscan);
@@ -53,6 +55,7 @@ export class AnyscanPuller {
   public constructor(directoryName: keyof typeof scanConfig) {
     const baseUrl: string = scanConfig[directoryName].website;
     this.#baseUrl = z.string().url().startsWith("https://").parse(baseUrl);
+    this.baseUrl = this.#baseUrl;
     const filenameRegex = /^[a-z0-9_\-.]+$/;
     this.#directoryName = z.string().regex(filenameRegex).parse(directoryName);
     this.#htmlParser = scanConfig[directoryName].htmlParser;
@@ -263,6 +266,9 @@ export class AnyscanPuller {
         if (!fs.existsSync(outputDirectory)) {
           fs.mkdirSync(outputDirectory);
         }
+        sortedTokenRows.forEach((tokenRow) => {
+          tokenRow.tokenImage = `${this.#baseUrl}${tokenRow.tokenImage.substring(1)}`;
+        });
         fs.writeFileSync(
           path.join(outputDirectory, "tokens.json"),
           JSON.stringify(sortedTokenRows),

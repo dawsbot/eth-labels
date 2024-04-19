@@ -59,11 +59,13 @@ export class EtherscanHtmlParser extends HtmlParser {
       const match = tokenNameColumn.match(regex);
       const tokenName = match?.[1];
       const tokenSymbol = match?.[2];
+      const imageUrl = $(tableCells[2]).find("img").attr("src") || "";
       const website = $(tableCells[5]).text().trim().toLowerCase();
       const tokenRow: TokenRow = {
         address: address.trim(),
         tokenName: tokenName || "",
         tokenSymbol: tokenSymbol || "",
+        tokenImage: imageUrl,
         website,
       };
 

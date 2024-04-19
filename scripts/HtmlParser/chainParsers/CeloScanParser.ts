@@ -29,6 +29,7 @@ export class CeloScanParser extends EtherscanHtmlParser {
         }
         return tokenNameColumn;
       })();
+      const imageUrl = $(tableCells[2]).find("img").attr("src") || "";
       const tokenSymbol: string = match?.[2] || "";
       const website = (
         $(tableCells[5]).find("a").attr("href") || ""
@@ -37,6 +38,7 @@ export class CeloScanParser extends EtherscanHtmlParser {
         address: address.trim(),
         tokenName: tokenName || "",
         tokenSymbol: tokenSymbol,
+        tokenImage: imageUrl,
         website,
       };
 

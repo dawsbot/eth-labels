@@ -56,10 +56,11 @@ void (async () => {
     const sourcePullers = Object.entries(scanConfig).map(
       ([name]) => new AnyscanPuller(name as keyof typeof scanConfig),
     );
+    // sourcePullers = [sourcePullers[sourcePullers.length-1]]
     for (const puller of sourcePullers) {
       await puller.login(page);
     }
-    for (const puller of sourcePullers.reverse()) {
+    for (const puller of sourcePullers) {
       await puller.pullAndWriteAllAddresses(page);
     }
     await closeBrowser(browser);

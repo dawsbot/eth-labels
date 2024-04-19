@@ -54,6 +54,7 @@ export class OptimismHtmlParser extends HtmlParser {
       const match = tokenNameColumn.match(regex);
       const tokenName = match?.[1];
       const tokenSymbol = match?.[2];
+      const imageUrl = $(tableCells[2]).find("img").attr("src") || "";
       const website = (
         $(tableCells[5]).find("a").attr("data-original-title") || ""
       ).toLowerCase();
@@ -61,6 +62,7 @@ export class OptimismHtmlParser extends HtmlParser {
         address: address.trim(),
         tokenName: tokenName || "",
         tokenSymbol: tokenSymbol || "",
+        tokenImage: imageUrl,
         website,
       };
 

@@ -53,12 +53,14 @@ export class ArbiscanHtmlParser extends HtmlParser {
       const match = tokenNameColumn.match(regex);
       const tokenName = match?.[1];
       const tokenSymbol = match?.[2];
+      const imageUrl = $(tableCells[2]).find("img").attr("src") || "";
       const website = ($(tableCells[5]).find("a").attr("href") || "") // had to change .attr("data-original-title") to .attr("href") for arbiscan
         .toLowerCase();
       const tokenRow: TokenRow = {
         address: address.trim(),
         tokenName: tokenName || "",
         tokenSymbol: tokenSymbol || "",
+        tokenImage: imageUrl,
         website,
       };
 
