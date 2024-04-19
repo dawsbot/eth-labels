@@ -69,6 +69,7 @@ describe("scroll", () => {
       address: "0x5300000000000000000000000000000000000004",
       tokenName: "Wrapped Ether",
       tokenSymbol: "WETH",
+      tokenImage: "/token/images/weth_28.png",
       website: "https://weth.io/",
     });
   });
@@ -103,6 +104,7 @@ describe("linea", () => {
       address: "0x7a6aa80b49017f3e091574ab5c6977d863ff3865",
       tokenName: "US KUMA Interest Bearing Token",
       tokenSymbol: "USK",
+      tokenImage: "/token/images/uskumainterestbearingtoken_32.png",
       website: "https://kuma.bond/",
     });
   });
@@ -135,6 +137,7 @@ describe("celo", () => {
     expect(tokenRows).toHaveLength(22);
     expect(tokenRows).toContainEqual({
       address: "0x2cfd4b2827f35624ae12c858da969e16d5d730a2",
+      tokenImage: "/assets/celo/images/svg/empty-token.svg?v=24.4.1.0",
       tokenName: "ERC-20 TOKEN*",
       tokenSymbol: "",
       website: "",
@@ -143,6 +146,7 @@ describe("celo", () => {
     // https://celoscan.io/tokens/label/bitfinex?subcatid=0&size=50&start=0&col=3&order=desc
     expect(tokenRows).toContainEqual({
       address: "0x48065fbbe25f71c9282ddf5e1cd6d6a887483d5e",
+      tokenImage: "/token/images/tethernew_32.png",
       tokenName: "Tether USD",
       tokenSymbol: "USD₮",
       website: "https://tether.to/",
@@ -179,6 +183,7 @@ describe("ftmscan", () => {
       address: "0x4a1c3aD6Ed28a636ee1751C69071f6be75DEb8B8",
       tokenName: "Aave Fantom ...",
       tokenSymbol: "variab...",
+      tokenImage: "/assets/fantom/images/svg/empty-token.svg?v=24.3.4.0",
       website: "",
     });
   });
@@ -213,6 +218,7 @@ describe("gnosis", () => {
     expect(tokenRows).toHaveLength(7);
     expect(tokenRows).toContainEqual({
       address: "0x7a5c3860a77a8dc1b225bd46d0fb2ac1c6d191bc",
+      tokenImage: "/token/images/aave_sdai.png",
       tokenName: "Aave Gnosis sDAI",
       tokenSymbol: "aGnosDAI",
       website: "https://aave.com/",
@@ -249,6 +255,7 @@ describe("bscscan", () => {
     expect(tokenRows).toHaveLength(66);
     expect(tokenRows).toContainEqual({
       address: "0x80D5f92C2c8C682070C95495313dDB680B267320",
+      tokenImage: "/token/images/asroma_32.png",
       tokenName: "Binance-Peg ...",
       tokenSymbol: "ASR",
       website: "https://www.chiliz.com",
@@ -285,6 +292,7 @@ describe("polygon", () => {
     expect(tokenRows).toHaveLength(18);
     expect(tokenRows).toContainEqual({
       address: "0xA4D94019934D8333Ef880ABFFbF2FDd611C762BD",
+      tokenImage: "/token/images/aave_usdc.png",
       tokenName: "Aave Polygon...",
       tokenSymbol: "aPolUS...",
       website: "https://aave.com/",
@@ -321,6 +329,7 @@ describe("arbiscan", () => {
     expect(tokenRows).toHaveLength(13);
     expect(tokenRows).toContainEqual({
       address: "0x82e64f49ed5ec1bc6e43dad4fc8af9bb3a2312ee",
+      tokenImage: "/token/images/aarbdai_32.png",
       tokenName: "Aave Arbitrum DAI",
       tokenSymbol: "aArbDAI",
       website: "https://aave.com/",
@@ -357,6 +366,7 @@ describe("optimism", () => {
     expect(tokenRows).toHaveLength(13);
     expect(tokenRows).toContainEqual({
       address: "0x00b8d5a5e1ac97cb4341c4bc4367443c8776e8d9",
+      tokenImage: "/token/images/synthetix_32.png",
       tokenName: "Synth sAAVE",
       tokenSymbol: "sAAVE",
       website: "https://synthetix.io/",
@@ -392,6 +402,7 @@ describe("basescan", () => {
     expect(tokenRows).toHaveLength(3);
     expect(tokenRows).toContainEqual({
       address: "0x0a1d576f3efef75b330424287a95a366e8281d54",
+      tokenImage: "/token/images/aave_usdbc1.png?v=2",
       tokenName: "Aave Base USDbC",
       tokenSymbol: "aBasUSDbC",
       website: "https://aave.com/",
@@ -428,6 +439,7 @@ describe("etherscan", () => {
     expect(tokenRows).toHaveLength(11);
     expect(tokenRows).toContainEqual({
       address: "0x9f8f72aa9304c8b593d555f12ef6589cc3a579a2",
+      tokenImage: "/token/images/mkr-etherscan-35.png",
       tokenName: "Maker",
       tokenSymbol: "MKR",
       website: "https://makerdao.com/",
