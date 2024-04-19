@@ -1,213 +1,210 @@
-{
-  "lastPulled": "2024-04-02T20:51:49.346Z",
-  "data": [
-    {
-      "address": "0xfa8089928a294dae882dd981ab8cc0604636bcfc",
-      "nameTag": "The Neko: Lucky Vault"
-    },
-    {
-      "address": "0x1853d3a53fa33ce6c74c44b03455770aa10ca19b",
-      "nameTag": "Unicrypt: UNC Community Reserve Vault"
-    },
-    {
-      "address": "0x582869e276d50bb0afe5ba39ab041f5da22ec722",
-      "nameTag": "Unicrypt: UNC Developer Reserve Vault"
-    },
-    {
-      "address": "0x029e3dd04b567e3c41b92b5456a15b9895d0a229",
-      "nameTag": "Unicrypt: UNC Team Reserve Vault"
-    },
-    {
-      "address": "0x03403154afc09ce8e44c3b185c82c6ad5f86b9ab",
-      "nameTag": "Yearn Finance: yCRV/Aave Vault"
-    },
-    {
-      "address": "0x46afc2dfbd1ea0c0760cad8262a5838e803a37e5",
-      "nameTag": "Yearn Finance: yCRV/HBTC Vault"
-    },
-    {
-      "address": "0xcb550a6d4c8e3517a939bc79d0c7093eb7cf56b5",
-      "nameTag": "Yearn Finance: yCRV/WBTC Vault"
-    },
-    {
-      "address": "0x8e6741b456a074f0bc45b8b82a755d4af7e965df",
-      "nameTag": "yearn: 3CRV/DUSD Vault"
-    },
-    {
-      "address": "0x9ca85572e6a3ebf24dedd195623f188735a5179f",
-      "nameTag": "yearn: y3Crv Vault"
-    },
-    {
-      "address": "0x29e240cfd7946ba20895a7a02edb25c210f9f324",
-      "nameTag": "yearn: yaLINK Vault"
-    },
-    {
-      "address": "0x5dbcf33d8c2e976c6b560249878e6f1491bca25c",
-      "nameTag": "yearn: yCRV Vault"
-    },
-    {
-      "address": "0x27b7b1ad7288079a66d12350c828d3c00a6f07d7",
-      "nameTag": "yearn: yCRV-IB Vault"
-    },
-    {
-      "address": "0x7047f90229a057c13bf847c0744d646cfb6c9e1a",
-      "nameTag": "yearn: yCRV-renBTC Vault"
-    },
-    {
-      "address": "0x5533ed0a3b83f70c3c4a1f69ef5546d3d4713e44",
-      "nameTag": "yearn: yCRV/ DAI-USDC-USDT-sUSD Vault"
-    },
-    {
-      "address": "0xb8c3b7a2a618c552c23b1e4701109a9e756bab67",
-      "nameTag": "yearn: yCRV/1Inch Vault"
-    },
-    {
-      "address": "0xe625f5923303f1ce7a43acfefd11fd12f30dbca4",
-      "nameTag": "yearn: yCRV/aETH Vault"
-    },
-    {
-      "address": "0xa8b1cb4ed612ee179bdea16cca6ba596321ae52d",
-      "nameTag": "yearn: yCRV/bBTC Vault"
-    },
-    {
-      "address": "0x2994529c0652d127b7842094103715ec5299bbed",
-      "nameTag": "yearn: yCRV/BUSD Vault"
-    },
-    {
-      "address": "0x629c759d1e83efbf63d84eb3868b564d9521c129",
-      "nameTag": "yearn: yCRV/Compound Vault"
-    },
-    {
-      "address": "0x98b058b2cbacf5e99bc7012df757ea7cfebd35bc",
-      "nameTag": "yearn: yCRV/EURS Vault"
-    },
-    {
-      "address": "0xcc7e70a958917cce67b4b87a8c30e6297451ae98",
-      "nameTag": "yearn: yCRV/GUSD Vault"
-    },
-    {
-      "address": "0x625b7df2fa8abe21b0a976736cda4775523aed1e",
-      "nameTag": "yearn: yCRV/HBTC Vault"
-    },
-    {
-      "address": "0x39546945695dcb1c037c836925b355262f551f55",
-      "nameTag": "Yearn: yCRV/HUSD Vault"
-    },
-    {
-      "address": "0x96ea6af74af09522fcb4c28c269c26f59a31ced6",
-      "nameTag": "yearn: yCRV/Link Vault"
-    },
-    {
-      "address": "0x0fcdaedfb8a7dfda2e9838564c5a1665d856afdf",
-      "nameTag": "yearn: yCRV/MUSD Vault"
-    },
-    {
-      "address": "0x7f83935ecfe4729c4ea592ab2bc1a32588409797",
-      "nameTag": "yearn: yCRV/oBTC Vault"
-    },
-    {
-      "address": "0x123964ebe096a920dae00fb795ffbfa0c9ff4675",
-      "nameTag": "yearn: yCRV/pBTC Vault"
-    },
-    {
-      "address": "0x5334e150b938dd2b6bd040d9c4a03cff0ced3765",
-      "nameTag": "yearn: yCRV/renBTC Vault"
-    },
-    {
-      "address": "0x7ff566e1d69deff32a7b244ae7276b9f90e9d0f6",
-      "nameTag": "yearn: yCRV/renBTC/wBTC/sBTC Vault"
-    },
-    {
-      "address": "0xbacb69571323575c6a5a3b4f9eede1dc7d31fbc1",
-      "nameTag": "yearn: yCRV/sAave Vault"
-    },
-    {
-      "address": "0xb4d1be44bff40ad6e506edf43156577a3f8672ec",
-      "nameTag": "yearn: yCRV/sAave Vault 2"
-    },
-    {
-      "address": "0x8414db07a7f743debafb402070ab01a4e0d2e45e",
-      "nameTag": "yearn: yCRV/sBTC Vault"
-    },
-    {
-      "address": "0x986b4aff588a109c09b50a03f42e4110e29d353f",
-      "nameTag": "yearn: yCRV/sETH Vault"
-    },
-    {
-      "address": "0xdcd90c7f6324cfa40d7169ef80b12031770b4325",
-      "nameTag": "yearn: yCRV/stETH Vault"
-    },
-    {
-      "address": "0x07fb4756f67bd46b748b16119e802f1f880fb2cc",
-      "nameTag": "yearn: yCRV/tBTC Vault"
-    },
-    {
-      "address": "0xfe39ce91437c76178665d64d7a2694b0f6f17fe3",
-      "nameTag": "yearn: yCRV/USDN Vault"
-    },
-    {
-      "address": "0x1b5eb1173d2bf770e50f10410c9a96f7a8eb6e75",
-      "nameTag": "yearn: yCRV/USDP Vault"
-    },
-    {
-      "address": "0xf6c9e9af314982a4b38366f4abfaa00595c5a6fc",
-      "nameTag": "yearn: yCRV/UST Vault"
-    },
-    {
-      "address": "0xa9fe4601811213c340e850ea305481aff02f5b28",
-      "nameTag": "yearn: yCRV/WETH Vault"
-    },
-    {
-      "address": "0xe14d13d8b3b85af791b2aadd661cdbd5e6097db1",
-      "nameTag": "yearn: yCRV/YFI Vault"
-    },
-    {
-      "address": "0xacd43e627e64355f1861cec6d3a6688b31a6f952",
-      "nameTag": "yearn: yDAI Vault"
-    },
-    {
-      "address": "0x19d3364a399d251e894ac732651be8b0e4e85001",
-      "nameTag": "yearn: yDAI Vault V2"
-    },
-    {
-      "address": "0xec0d8d3ed5477106c6d4ea27d90a60e594693c90",
-      "nameTag": "yearn: yGUSD Vault"
-    },
-    {
-      "address": "0x881b06da56bb5675c54e4ed311c21e54c5025298",
-      "nameTag": "yearn: yLINK Vault"
-    },
-    {
-      "address": "0x37d19d1c4e1fa9dc47bd1ea12f742a0887eda74a",
-      "nameTag": "yearn: yTUSD Vault"
-    },
-    {
-      "address": "0x597ad1e0c13bfe8025993d9e79c69e1c0233522e",
-      "nameTag": "yearn: yUSDC Vault"
-    },
-    {
-      "address": "0x5f18c75abdae578b483e5f43f12a39cf75b973a9",
-      "nameTag": "yearn: yUSDC Vault V2"
-    },
-    {
-      "address": "0x2f08119c6f07c006695e079aafc638b8789faf18",
-      "nameTag": "yearn: yUSDT Vault"
-    },
-    {
-      "address": "0x9d409a0a012cfba9b15f6d4b36ac57a46966ab9a",
-      "nameTag": "yearn: yvBOOST Vault"
-    },
-    {
-      "address": "0xe11ba472f74869176652c35d30db89854b5ae84d",
-      "nameTag": "yearn: yvHEGIC Vault"
-    },
-    {
-      "address": "0xe0db48b4f71752c4bef16de1dbd042b82976b8c7",
-      "nameTag": "yearn: yvmUSD Vault"
-    },
-    {
-      "address": "0xe1237aa7f535b0cc33fd973d66cbf830354d16c7",
-      "nameTag": "yearn: yWETH Vault"
-    }
-  ]
-}
+[
+  {
+    "address": "0xfa8089928a294dae882dd981ab8cc0604636bcfc",
+    "nameTag": "The Neko: Lucky Vault"
+  },
+  {
+    "address": "0x1853d3a53fa33ce6c74c44b03455770aa10ca19b",
+    "nameTag": "Unicrypt: UNC Community Reserve Vault"
+  },
+  {
+    "address": "0x582869e276d50bb0afe5ba39ab041f5da22ec722",
+    "nameTag": "Unicrypt: UNC Developer Reserve Vault"
+  },
+  {
+    "address": "0x029e3dd04b567e3c41b92b5456a15b9895d0a229",
+    "nameTag": "Unicrypt: UNC Team Reserve Vault"
+  },
+  {
+    "address": "0x03403154afc09ce8e44c3b185c82c6ad5f86b9ab",
+    "nameTag": "Yearn Finance: yCRV/Aave Vault"
+  },
+  {
+    "address": "0x46afc2dfbd1ea0c0760cad8262a5838e803a37e5",
+    "nameTag": "Yearn Finance: yCRV/HBTC Vault"
+  },
+  {
+    "address": "0xcb550a6d4c8e3517a939bc79d0c7093eb7cf56b5",
+    "nameTag": "Yearn Finance: yCRV/WBTC Vault"
+  },
+  {
+    "address": "0x8e6741b456a074f0bc45b8b82a755d4af7e965df",
+    "nameTag": "yearn: 3CRV/DUSD Vault"
+  },
+  {
+    "address": "0x9ca85572e6a3ebf24dedd195623f188735a5179f",
+    "nameTag": "yearn: y3Crv Vault"
+  },
+  {
+    "address": "0x29e240cfd7946ba20895a7a02edb25c210f9f324",
+    "nameTag": "yearn: yaLINK Vault"
+  },
+  {
+    "address": "0x5dbcf33d8c2e976c6b560249878e6f1491bca25c",
+    "nameTag": "yearn: yCRV Vault"
+  },
+  {
+    "address": "0x27b7b1ad7288079a66d12350c828d3c00a6f07d7",
+    "nameTag": "yearn: yCRV-IB Vault"
+  },
+  {
+    "address": "0x7047f90229a057c13bf847c0744d646cfb6c9e1a",
+    "nameTag": "yearn: yCRV-renBTC Vault"
+  },
+  {
+    "address": "0x5533ed0a3b83f70c3c4a1f69ef5546d3d4713e44",
+    "nameTag": "yearn: yCRV/ DAI-USDC-USDT-sUSD Vault"
+  },
+  {
+    "address": "0xb8c3b7a2a618c552c23b1e4701109a9e756bab67",
+    "nameTag": "yearn: yCRV/1Inch Vault"
+  },
+  {
+    "address": "0xe625f5923303f1ce7a43acfefd11fd12f30dbca4",
+    "nameTag": "yearn: yCRV/aETH Vault"
+  },
+  {
+    "address": "0xa8b1cb4ed612ee179bdea16cca6ba596321ae52d",
+    "nameTag": "yearn: yCRV/bBTC Vault"
+  },
+  {
+    "address": "0x2994529c0652d127b7842094103715ec5299bbed",
+    "nameTag": "yearn: yCRV/BUSD Vault"
+  },
+  {
+    "address": "0x629c759d1e83efbf63d84eb3868b564d9521c129",
+    "nameTag": "yearn: yCRV/Compound Vault"
+  },
+  {
+    "address": "0x98b058b2cbacf5e99bc7012df757ea7cfebd35bc",
+    "nameTag": "yearn: yCRV/EURS Vault"
+  },
+  {
+    "address": "0xcc7e70a958917cce67b4b87a8c30e6297451ae98",
+    "nameTag": "yearn: yCRV/GUSD Vault"
+  },
+  {
+    "address": "0x625b7df2fa8abe21b0a976736cda4775523aed1e",
+    "nameTag": "yearn: yCRV/HBTC Vault"
+  },
+  {
+    "address": "0x39546945695dcb1c037c836925b355262f551f55",
+    "nameTag": "Yearn: yCRV/HUSD Vault"
+  },
+  {
+    "address": "0x96ea6af74af09522fcb4c28c269c26f59a31ced6",
+    "nameTag": "yearn: yCRV/Link Vault"
+  },
+  {
+    "address": "0x0fcdaedfb8a7dfda2e9838564c5a1665d856afdf",
+    "nameTag": "yearn: yCRV/MUSD Vault"
+  },
+  {
+    "address": "0x7f83935ecfe4729c4ea592ab2bc1a32588409797",
+    "nameTag": "yearn: yCRV/oBTC Vault"
+  },
+  {
+    "address": "0x123964ebe096a920dae00fb795ffbfa0c9ff4675",
+    "nameTag": "yearn: yCRV/pBTC Vault"
+  },
+  {
+    "address": "0x5334e150b938dd2b6bd040d9c4a03cff0ced3765",
+    "nameTag": "yearn: yCRV/renBTC Vault"
+  },
+  {
+    "address": "0x7ff566e1d69deff32a7b244ae7276b9f90e9d0f6",
+    "nameTag": "yearn: yCRV/renBTC/wBTC/sBTC Vault"
+  },
+  {
+    "address": "0xbacb69571323575c6a5a3b4f9eede1dc7d31fbc1",
+    "nameTag": "yearn: yCRV/sAave Vault"
+  },
+  {
+    "address": "0xb4d1be44bff40ad6e506edf43156577a3f8672ec",
+    "nameTag": "yearn: yCRV/sAave Vault 2"
+  },
+  {
+    "address": "0x8414db07a7f743debafb402070ab01a4e0d2e45e",
+    "nameTag": "yearn: yCRV/sBTC Vault"
+  },
+  {
+    "address": "0x986b4aff588a109c09b50a03f42e4110e29d353f",
+    "nameTag": "yearn: yCRV/sETH Vault"
+  },
+  {
+    "address": "0xdcd90c7f6324cfa40d7169ef80b12031770b4325",
+    "nameTag": "yearn: yCRV/stETH Vault"
+  },
+  {
+    "address": "0x07fb4756f67bd46b748b16119e802f1f880fb2cc",
+    "nameTag": "yearn: yCRV/tBTC Vault"
+  },
+  {
+    "address": "0xfe39ce91437c76178665d64d7a2694b0f6f17fe3",
+    "nameTag": "yearn: yCRV/USDN Vault"
+  },
+  {
+    "address": "0x1b5eb1173d2bf770e50f10410c9a96f7a8eb6e75",
+    "nameTag": "yearn: yCRV/USDP Vault"
+  },
+  {
+    "address": "0xf6c9e9af314982a4b38366f4abfaa00595c5a6fc",
+    "nameTag": "yearn: yCRV/UST Vault"
+  },
+  {
+    "address": "0xa9fe4601811213c340e850ea305481aff02f5b28",
+    "nameTag": "yearn: yCRV/WETH Vault"
+  },
+  {
+    "address": "0xe14d13d8b3b85af791b2aadd661cdbd5e6097db1",
+    "nameTag": "yearn: yCRV/YFI Vault"
+  },
+  {
+    "address": "0xacd43e627e64355f1861cec6d3a6688b31a6f952",
+    "nameTag": "yearn: yDAI Vault"
+  },
+  {
+    "address": "0x19d3364a399d251e894ac732651be8b0e4e85001",
+    "nameTag": "yearn: yDAI Vault V2"
+  },
+  {
+    "address": "0xec0d8d3ed5477106c6d4ea27d90a60e594693c90",
+    "nameTag": "yearn: yGUSD Vault"
+  },
+  {
+    "address": "0x881b06da56bb5675c54e4ed311c21e54c5025298",
+    "nameTag": "yearn: yLINK Vault"
+  },
+  {
+    "address": "0x37d19d1c4e1fa9dc47bd1ea12f742a0887eda74a",
+    "nameTag": "yearn: yTUSD Vault"
+  },
+  {
+    "address": "0x597ad1e0c13bfe8025993d9e79c69e1c0233522e",
+    "nameTag": "yearn: yUSDC Vault"
+  },
+  {
+    "address": "0x5f18c75abdae578b483e5f43f12a39cf75b973a9",
+    "nameTag": "yearn: yUSDC Vault V2"
+  },
+  {
+    "address": "0x2f08119c6f07c006695e079aafc638b8789faf18",
+    "nameTag": "yearn: yUSDT Vault"
+  },
+  {
+    "address": "0x9d409a0a012cfba9b15f6d4b36ac57a46966ab9a",
+    "nameTag": "yearn: yvBOOST Vault"
+  },
+  {
+    "address": "0xe11ba472f74869176652c35d30db89854b5ae84d",
+    "nameTag": "yearn: yvHEGIC Vault"
+  },
+  {
+    "address": "0xe0db48b4f71752c4bef16de1dbd042b82976b8c7",
+    "nameTag": "yearn: yvmUSD Vault"
+  },
+  {
+    "address": "0xe1237aa7f535b0cc33fd973d66cbf830354d16c7",
+    "nameTag": "yearn: yWETH Vault"
+  }
+]

@@ -1,10 +1,6 @@
-{
-  "lastPulled": "2024-04-03T06:30:10.163Z",
-  "length": 1,
-  "data": [
-    {
-      "address": "0x47bead2563dcbf3bf2c9407fea4dc236faba485a",
-      "nameTag": "Swipe: SXP Token"
-    }
-  ]
-}
+[
+  {
+    "address": "0x47bead2563dcbf3bf2c9407fea4dc236faba485a",
+    "nameTag": "Swipe: SXP Token"
+  }
+]

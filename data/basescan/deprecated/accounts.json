@@ -1,13 +1,4 @@
-{
-  "lastPulled": "2024-04-02T20:54:41.272Z",
-  "data": [
-    {
-      "address": "0x773565aadf59f07f6d72f1e1e2a489cffe96b1e9",
-      "nameTag": ""
-    },
-    {
-      "address": "0x85b157ebaaf289de5301ae6694b651bf3b8df1c3",
-      "nameTag": ""
-    }
-  ]
-}
+[
+  { "address": "0x773565aadf59f07f6d72f1e1e2a489cffe96b1e9", "nameTag": "" },
+  { "address": "0x85b157ebaaf289de5301ae6694b651bf3b8df1c3", "nameTag": "" }
+]

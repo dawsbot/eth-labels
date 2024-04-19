@@ -1,49 +1,46 @@
-{
-  "lastPulled": "2024-04-02T20:42:08.535Z",
-  "data": [
-    {
-      "address": "0xaed662abcc4fa3314985e67ea993cad064a7f5cf",
-      "nameTag": "DeFi Saver: Automation Bot 3"
-    },
-    {
-      "address": "0xa5d330f6619d6bf892a5b87d80272e1607b3e34d",
-      "nameTag": "DeFi Saver: Automation Bot 4"
-    },
-    {
-      "address": "0x64c5cc449bd253d7fd57751c9080accd0216126d",
-      "nameTag": "DeFi Saver: Exchange"
-    },
-    {
-      "address": "0x93efcf86b6a7a33ae961a7ec6c741f49bce11da7",
-      "nameTag": "DeFi Saver: MCD Monitor Proxy v1"
-    },
-    {
-      "address": "0x47d9f61badec4378842d809077a5e87b9c996898",
-      "nameTag": "DeFi Saver: MCD Monitor Proxy v2"
-    },
-    {
-      "address": "0x83152caa0d344a2fd428769529e2d490a88f4393",
-      "nameTag": "DeFi Saver: MCD Subscriptions v1"
-    },
-    {
-      "address": "0xc45d4f6b6bf41b6edaa58b01c4298b8d9078269a",
-      "nameTag": "DeFi Saver: MCD Subscriptions v2"
-    },
-    {
-      "address": "0x5e8f91ceb8a4b361cd4f2ec14278e63ea0c3ba3f",
-      "nameTag": "DeFi Saver: Old Automation Bot"
-    },
-    {
-      "address": "0xe8bfddae8f041e34b7688057cb761e7d08513fd6",
-      "nameTag": "DeFi Saver: Old Automation Bot 2"
-    },
-    {
-      "address": "0x0528a32fda5bedf89ba9ad67296db83c9452f28c",
-      "nameTag": "DeFi Saver: Owner"
-    },
-    {
-      "address": "0xe05b162cd6571e825484ae95a93bfac02e64b05a",
-      "nameTag": "DeFi Saver: Safeguard"
-    }
-  ]
-}
+[
+  {
+    "address": "0xaed662abcc4fa3314985e67ea993cad064a7f5cf",
+    "nameTag": "DeFi Saver: Automation Bot 3"
+  },
+  {
+    "address": "0xa5d330f6619d6bf892a5b87d80272e1607b3e34d",
+    "nameTag": "DeFi Saver: Automation Bot 4"
+  },
+  {
+    "address": "0x64c5cc449bd253d7fd57751c9080accd0216126d",
+    "nameTag": "DeFi Saver: Exchange"
+  },
+  {
+    "address": "0x93efcf86b6a7a33ae961a7ec6c741f49bce11da7",
+    "nameTag": "DeFi Saver: MCD Monitor Proxy v1"
+  },
+  {
+    "address": "0x47d9f61badec4378842d809077a5e87b9c996898",
+    "nameTag": "DeFi Saver: MCD Monitor Proxy v2"
+  },
+  {
+    "address": "0x83152caa0d344a2fd428769529e2d490a88f4393",
+    "nameTag": "DeFi Saver: MCD Subscriptions v1"
+  },
+  {
+    "address": "0xc45d4f6b6bf41b6edaa58b01c4298b8d9078269a",
+    "nameTag": "DeFi Saver: MCD Subscriptions v2"
+  },
+  {
+    "address": "0x5e8f91ceb8a4b361cd4f2ec14278e63ea0c3ba3f",
+    "nameTag": "DeFi Saver: Old Automation Bot"
+  },
+  {
+    "address": "0xe8bfddae8f041e34b7688057cb761e7d08513fd6",
+    "nameTag": "DeFi Saver: Old Automation Bot 2"
+  },
+  {
+    "address": "0x0528a32fda5bedf89ba9ad67296db83c9452f28c",
+    "nameTag": "DeFi Saver: Owner"
+  },
+  {
+    "address": "0xe05b162cd6571e825484ae95a93bfac02e64b05a",
+    "nameTag": "DeFi Saver: Safeguard"
+  }
+]

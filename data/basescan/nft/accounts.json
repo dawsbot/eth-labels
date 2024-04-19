@@ -1,9 +1,6 @@
-{
-  "lastPulled": "2024-04-02T20:55:11.156Z",
-  "data": [
-    {
-      "address": "0x00000000000000adc04c56bf30ac9d3c0aaf14dc",
-      "nameTag": "Seaport 1.5"
-    }
-  ]
-}
+[
+  {
+    "address": "0x00000000000000adc04c56bf30ac9d3c0aaf14dc",
+    "nameTag": "Seaport 1.5"
+  }
+]

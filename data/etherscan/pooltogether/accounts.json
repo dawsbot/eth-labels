@@ -1,197 +1,194 @@
-{
-  "lastPulled": "2024-04-02T20:48:18.758Z",
-  "data": [
-    {
-      "address": "0xbc82221e131c082336cf698f0ca3ebd18afd4ce7",
-      "nameTag": "PoolTogether: COMP Prize Pool"
-    },
-    {
-      "address": "0x3ec4694b65e41f12d6b5d5ba7c2341f4d6859773",
-      "nameTag": "PoolTogether: COMP Prize Strategy"
-    },
-    {
-      "address": "0x55189c8836a7b3998935683f5afacee733b5fd20",
-      "nameTag": "PoolTogether: Compound Prize Pool Builder"
-    },
-    {
-      "address": "0xaf1610d242c7cdd30c546844af75c147c12e94f9",
-      "nameTag": "PoolTogether: Contract"
-    },
-    {
-      "address": "0xf5ff8c8d23b70dcaa8eea48c9d1a6e0d64ad59cc",
-      "nameTag": "PoolTogether: Controlled Token Builder"
-    },
-    {
-      "address": "0x29fe7d60ddf151e5b52e5fab4f1325da6b2bd958",
-      "nameTag": "PoolTogether: DAI"
-    },
-    {
-      "address": "0xebfb47a7ad0fd6e57323c8a42b2e5a6a4f68fc1a",
-      "nameTag": "PoolTogether: DAI Prize Pool"
-    },
-    {
-      "address": "0x178969a87a78597d303c47198c66f68e8be67dc2",
-      "nameTag": "PoolTogether: DAI Prize Strategy"
-    },
-    {
-      "address": "0x567fb0238d73fcf4db40c3bd83433b9a39284cae",
-      "nameTag": "PoolTogether: Deployer"
-    },
-    {
-      "address": "0xe0f4217390221af47855e094f6e112d43c8698fe",
-      "nameTag": "PoolTogether: Deployer 3"
-    },
-    {
-      "address": "0x4e869b3a0978fa61dabd7da8f9b272aadc745fb3",
-      "nameTag": "PoolTogether: ERC721 Controlled Factory"
-    },
-    {
-      "address": "0x3545192b340f50d77403dc0a64cf2b32f03d00a9",
-      "nameTag": "PoolTogether: Lawyer Token"
-    },
-    {
-      "address": "0x4fc604536134dc64718800361ecbca0df6cbfe08",
-      "nameTag": "PoolTogether: Legacy"
-    },
-    {
-      "address": "0x2c2a966b7f5448a36ec9f896088dfb99b21d8a24",
-      "nameTag": "PoolTogether: Loot Box Controller"
-    },
-    {
-      "address": "0x4d695c615a7aacf2d7b9c481b66045bb2457dfde",
-      "nameTag": "PoolTogether: Loot Box ERC721"
-    },
-    {
-      "address": "0xfe7205df55ba42c8801e44b55bf05f06cce8565e",
-      "nameTag": "PoolTogether: Loot Box Prize Strategy Listener"
-    },
-    {
-      "address": "0x25e6a78d93d2935a638fdbd684e7b39565d0b7ea",
-      "nameTag": "PoolTogether: Loot Prize Listener Factory"
-    },
-    {
-      "address": "0x3a1bc60023cf439335a984d153e02c62f515446e",
-      "nameTag": "PoolTogether: Multiple Winners Builder"
-    },
-    {
-      "address": "0xbeb9d5538f6454d6ca82e9e901453986abda1e7a",
-      "nameTag": "PoolTogether: Multiple Winners Pool Builder"
-    },
-    {
-      "address": "0x98ea2d8438f70ce876c2db26fc494cfed10b4cd7",
-      "nameTag": "PoolTogether: MultiSig"
-    },
-    {
-      "address": "0x77383badb05049806d53e9def0c8128de0d56d90",
-      "nameTag": "PoolTogether: Multisig 1"
-    },
-    {
-      "address": "0x029aa20dcc15c022b1b61d420aacf7f179a9c73f",
-      "nameTag": "PoolTogether: Multisig 2"
-    },
-    {
-      "address": "0x71fc2e52d426c852e06172c3a00180d5e9f8a70c",
-      "nameTag": "PoolTogether: Permit Deposit Dai"
-    },
-    {
-      "address": "0x49d716dfe60b37379010a75329ae09428f17118d",
-      "nameTag": "PoolTogether: plDai Token"
-    },
-    {
-      "address": "0xfe6892654cbb05eb73d28dcc1ff938f59666fe9f",
-      "nameTag": "PoolTogether: plSai Token"
-    },
-    {
-      "address": "0xbd87447f48ad729c5c4b8bcb503e1395f62e8b98",
-      "nameTag": "PoolTogether: plUsdc Token"
-    },
-    {
-      "address": "0xb09e09b309273b07516fe6ab3437dbb500fe2b12",
-      "nameTag": "PoolTogether: Pool Manager"
-    },
-    {
-      "address": "0x0cec1a9154ff802e7934fc916ed7ca50bde6844e",
-      "nameTag": "PoolTogether: POOL Token"
-    },
-    {
-      "address": "0xb1d89477d1b505c261bab6e73f08fa834544cd21",
-      "nameTag": "PoolTogether: RNG Blockhash"
-    },
-    {
-      "address": "0xb2dc5571f477b1c5b36509a71013bfedd9cc492f",
-      "nameTag": "PoolTogether: RNG Chainlink"
-    },
-    {
-      "address": "0xb7896fce748396ecfc240f5a0d3cc92ca42d7d84",
-      "nameTag": "PoolTogether: SAI"
-    },
-    {
-      "address": "0xf4660841400ffe067c7172934f31b43e0cbe359f",
-      "nameTag": "PoolTogether: Stake Prize Pool Builder"
-    },
-    {
-      "address": "0x0650d780292142835f6ac58dd8e2a336e87b4393",
-      "nameTag": "PoolTogether: UNI Prize Pool"
-    },
-    {
-      "address": "0xe8726b85236a489a8e84c56c95790d07a368f913",
-      "nameTag": "PoolTogether: UNI Prize Strategy"
-    },
-    {
-      "address": "0xbb6365bf44c63971a948d95d80f77ba3e76489df",
-      "nameTag": "PoolTogether: Upgradeable Proxy"
-    },
-    {
-      "address": "0x0034ea9808e620a0ef79261c51af20614b742b24",
-      "nameTag": "PoolTogether: USDC"
-    },
-    {
-      "address": "0xde9ec95d7708b8319ccca4b8bc92c0a3b70bf416",
-      "nameTag": "PoolTogether: USDC Prize Pool"
-    },
-    {
-      "address": "0x3d9946190907ada8b70381b25c71eb9adf5f9b7b",
-      "nameTag": "PoolTogether: USDC Prize Strategy"
-    },
-    {
-      "address": "0x801b4872a635dccc7e679eeaf04bef08e562972a",
-      "nameTag": "PoolTogether: v2-v3 Migration"
-    },
-    {
-      "address": "0xe2177d475609b4a52c2bebcd642a798049d04c45",
-      "nameTag": "PoolTogether: v3 COMP Sponsorship"
-    },
-    {
-      "address": "0x27b85f596feb14e4b5faa9671720a556a7608c69",
-      "nameTag": "PoolTogether: v3 COMP Ticket"
-    },
-    {
-      "address": "0x0a2e7f69fe9588fa7fba5f5864236883cd4aac6d",
-      "nameTag": "PoolTogether: v3 DAI Sponsorship"
-    },
-    {
-      "address": "0x334cbb5858417aee161b53ee0d5349ccf54514cf",
-      "nameTag": "PoolTogether: v3 DAI Ticket"
-    },
-    {
-      "address": "0x5cfb96a0475afa385d28320de2aa1a21aa947c05",
-      "nameTag": "PoolTogether: v3 UNI Sponsorship"
-    },
-    {
-      "address": "0xa92a861fc11b99b24296af880011b47f9cafb5ab",
-      "nameTag": "PoolTogether: v3 UNI Ticket"
-    },
-    {
-      "address": "0x391a437196c81eea7bbbbd5ed4df6b49de4f5c96",
-      "nameTag": "PoolTogether: v3 USDC Sponsorship"
-    },
-    {
-      "address": "0xd81b1a8b1ad00baa2d6609e0bae28a38713872f7",
-      "nameTag": "PoolTogether: v3 USDC Ticket"
-    },
-    {
-      "address": "0x1469c3c2f8cbacafced0a271711e3491700b4f5d",
-      "nameTag": "PoolTogether: Vault Prize Pool Builder"
-    }
-  ]
-}
+[
+  {
+    "address": "0xbc82221e131c082336cf698f0ca3ebd18afd4ce7",
+    "nameTag": "PoolTogether: COMP Prize Pool"
+  },
+  {
+    "address": "0x3ec4694b65e41f12d6b5d5ba7c2341f4d6859773",
+    "nameTag": "PoolTogether: COMP Prize Strategy"
+  },
+  {
+    "address": "0x55189c8836a7b3998935683f5afacee733b5fd20",
+    "nameTag": "PoolTogether: Compound Prize Pool Builder"
+  },
+  {
+    "address": "0xaf1610d242c7cdd30c546844af75c147c12e94f9",
+    "nameTag": "PoolTogether: Contract"
+  },
+  {
+    "address": "0xf5ff8c8d23b70dcaa8eea48c9d1a6e0d64ad59cc",
+    "nameTag": "PoolTogether: Controlled Token Builder"
+  },
+  {
+    "address": "0x29fe7d60ddf151e5b52e5fab4f1325da6b2bd958",
+    "nameTag": "PoolTogether: DAI"
+  },
+  {
+    "address": "0xebfb47a7ad0fd6e57323c8a42b2e5a6a4f68fc1a",
+    "nameTag": "PoolTogether: DAI Prize Pool"
+  },
+  {
+    "address": "0x178969a87a78597d303c47198c66f68e8be67dc2",
+    "nameTag": "PoolTogether: DAI Prize Strategy"
+  },
+  {
+    "address": "0x567fb0238d73fcf4db40c3bd83433b9a39284cae",
+    "nameTag": "PoolTogether: Deployer"
+  },
+  {
+    "address": "0xe0f4217390221af47855e094f6e112d43c8698fe",
+    "nameTag": "PoolTogether: Deployer 3"
+  },
+  {
+    "address": "0x4e869b3a0978fa61dabd7da8f9b272aadc745fb3",
+    "nameTag": "PoolTogether: ERC721 Controlled Factory"
+  },
+  {
+    "address": "0x3545192b340f50d77403dc0a64cf2b32f03d00a9",
+    "nameTag": "PoolTogether: Lawyer Token"
+  },
+  {
+    "address": "0x4fc604536134dc64718800361ecbca0df6cbfe08",
+    "nameTag": "PoolTogether: Legacy"
+  },
+  {
+    "address": "0x2c2a966b7f5448a36ec9f896088dfb99b21d8a24",
+    "nameTag": "PoolTogether: Loot Box Controller"
+  },
+  {
+    "address": "0x4d695c615a7aacf2d7b9c481b66045bb2457dfde",
+    "nameTag": "PoolTogether: Loot Box ERC721"
+  },
+  {
+    "address": "0xfe7205df55ba42c8801e44b55bf05f06cce8565e",
+    "nameTag": "PoolTogether: Loot Box Prize Strategy Listener"
+  },
+  {
+    "address": "0x25e6a78d93d2935a638fdbd684e7b39565d0b7ea",
+    "nameTag": "PoolTogether: Loot Prize Listener Factory"
+  },
+  {
+    "address": "0x3a1bc60023cf439335a984d153e02c62f515446e",
+    "nameTag": "PoolTogether: Multiple Winners Builder"
+  },
+  {
+    "address": "0xbeb9d5538f6454d6ca82e9e901453986abda1e7a",
+    "nameTag": "PoolTogether: Multiple Winners Pool Builder"
+  },
+  {
+    "address": "0x98ea2d8438f70ce876c2db26fc494cfed10b4cd7",
+    "nameTag": "PoolTogether: MultiSig"
+  },
+  {
+    "address": "0x77383badb05049806d53e9def0c8128de0d56d90",
+    "nameTag": "PoolTogether: Multisig 1"
+  },
+  {
+    "address": "0x029aa20dcc15c022b1b61d420aacf7f179a9c73f",
+    "nameTag": "PoolTogether: Multisig 2"
+  },
+  {
+    "address": "0x71fc2e52d426c852e06172c3a00180d5e9f8a70c",
+    "nameTag": "PoolTogether: Permit Deposit Dai"
+  },
+  {
+    "address": "0x49d716dfe60b37379010a75329ae09428f17118d",
+    "nameTag": "PoolTogether: plDai Token"
+  },
+  {
+    "address": "0xfe6892654cbb05eb73d28dcc1ff938f59666fe9f",
+    "nameTag": "PoolTogether: plSai Token"
+  },
+  {
+    "address": "0xbd87447f48ad729c5c4b8bcb503e1395f62e8b98",
+    "nameTag": "PoolTogether: plUsdc Token"
+  },
+  {
+    "address": "0xb09e09b309273b07516fe6ab3437dbb500fe2b12",
+    "nameTag": "PoolTogether: Pool Manager"
+  },
+  {
+    "address": "0x0cec1a9154ff802e7934fc916ed7ca50bde6844e",
+    "nameTag": "PoolTogether: POOL Token"
+  },
+  {
+    "address": "0xb1d89477d1b505c261bab6e73f08fa834544cd21",
+    "nameTag": "PoolTogether: RNG Blockhash"
+  },
+  {
+    "address": "0xb2dc5571f477b1c5b36509a71013bfedd9cc492f",
+    "nameTag": "PoolTogether: RNG Chainlink"
+  },
+  {
+    "address": "0xb7896fce748396ecfc240f5a0d3cc92ca42d7d84",
+    "nameTag": "PoolTogether: SAI"
+  },
+  {
+    "address": "0xf4660841400ffe067c7172934f31b43e0cbe359f",
+    "nameTag": "PoolTogether: Stake Prize Pool Builder"
+  },
+  {
+    "address": "0x0650d780292142835f6ac58dd8e2a336e87b4393",
+    "nameTag": "PoolTogether: UNI Prize Pool"
+  },
+  {
+    "address": "0xe8726b85236a489a8e84c56c95790d07a368f913",
+    "nameTag": "PoolTogether: UNI Prize Strategy"
+  },
+  {
+    "address": "0xbb6365bf44c63971a948d95d80f77ba3e76489df",
+    "nameTag": "PoolTogether: Upgradeable Proxy"
+  },
+  {
+    "address": "0x0034ea9808e620a0ef79261c51af20614b742b24",
+    "nameTag": "PoolTogether: USDC"
+  },
+  {
+    "address": "0xde9ec95d7708b8319ccca4b8bc92c0a3b70bf416",
+    "nameTag": "PoolTogether: USDC Prize Pool"
+  },
+  {
+    "address": "0x3d9946190907ada8b70381b25c71eb9adf5f9b7b",
+    "nameTag": "PoolTogether: USDC Prize Strategy"
+  },
+  {
+    "address": "0x801b4872a635dccc7e679eeaf04bef08e562972a",
+    "nameTag": "PoolTogether: v2-v3 Migration"
+  },
+  {
+    "address": "0xe2177d475609b4a52c2bebcd642a798049d04c45",
+    "nameTag": "PoolTogether: v3 COMP Sponsorship"
+  },
+  {
+    "address": "0x27b85f596feb14e4b5faa9671720a556a7608c69",
+    "nameTag": "PoolTogether: v3 COMP Ticket"
+  },
+  {
+    "address": "0x0a2e7f69fe9588fa7fba5f5864236883cd4aac6d",
+    "nameTag": "PoolTogether: v3 DAI Sponsorship"
+  },
+  {
+    "address": "0x334cbb5858417aee161b53ee0d5349ccf54514cf",
+    "nameTag": "PoolTogether: v3 DAI Ticket"
+  },
+  {
+    "address": "0x5cfb96a0475afa385d28320de2aa1a21aa947c05",
+    "nameTag": "PoolTogether: v3 UNI Sponsorship"
+  },
+  {
+    "address": "0xa92a861fc11b99b24296af880011b47f9cafb5ab",
+    "nameTag": "PoolTogether: v3 UNI Ticket"
+  },
+  {
+    "address": "0x391a437196c81eea7bbbbd5ed4df6b49de4f5c96",
+    "nameTag": "PoolTogether: v3 USDC Sponsorship"
+  },
+  {
+    "address": "0xd81b1a8b1ad00baa2d6609e0bae28a38713872f7",
+    "nameTag": "PoolTogether: v3 USDC Ticket"
+  },
+  {
+    "address": "0x1469c3c2f8cbacafced0a271711e3491700b4f5d",
+    "nameTag": "PoolTogether: Vault Prize Pool Builder"
+  }
+]

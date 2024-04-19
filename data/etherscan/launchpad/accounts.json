@@ -1,9 +1,6 @@
-{
-  "lastPulled": "2024-04-02T20:45:03.316Z",
-  "data": [
-    {
-      "address": "0x41fc5635fc878d13934dc576134c139941b854f9",
-      "nameTag": "MOOAR : Launchpad"
-    }
-  ]
-}
+[
+  {
+    "address": "0x41fc5635fc878d13934dc576134c139941b854f9",
+    "nameTag": "MOOAR : Launchpad"
+  }
+]

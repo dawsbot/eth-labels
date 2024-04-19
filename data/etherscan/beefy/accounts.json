@@ -1,17 +1,14 @@
-{
-  "lastPulled": "2024-04-02T20:39:38.914Z",
-  "data": [
-    {
-      "address": "0xb1f1ee126e9c96231cc3d3fad7c08b4cf873b1f1",
-      "nameTag": "Beefy: BIFI Token"
-    },
-    {
-      "address": "0xc9c61194682a3a5f56bf9cd5b59ee63028ab6041",
-      "nameTag": "Beefy: Multisig"
-    },
-    {
-      "address": "0xf49c523f08b4e7c8e51a44088ea2a5e6b5f397d9",
-      "nameTag": "Beefy: Reward Pool"
-    }
-  ]
-}
+[
+  {
+    "address": "0xb1f1ee126e9c96231cc3d3fad7c08b4cf873b1f1",
+    "nameTag": "Beefy: BIFI Token"
+  },
+  {
+    "address": "0xc9c61194682a3a5f56bf9cd5b59ee63028ab6041",
+    "nameTag": "Beefy: Multisig"
+  },
+  {
+    "address": "0xf49c523f08b4e7c8e51a44088ea2a5e6b5f397d9",
+    "nameTag": "Beefy: Reward Pool"
+  }
+]

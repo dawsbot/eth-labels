@@ -1,10 +1,6 @@
-{
-  "lastPulled": "2024-04-03T06:22:09.010Z",
-  "length": 1,
-  "data": [
-    {
-      "address": "0x1c174f6ab0753162befbb916c69def2cc1bfdec1",
-      "nameTag": "Tempus Finance: TEMP Token"
-    }
-  ]
-}
+[
+  {
+    "address": "0x1c174f6ab0753162befbb916c69def2cc1bfdec1",
+    "nameTag": "Tempus Finance: TEMP Token"
+  }
+]

@@ -1,13 +1,10 @@
-{
-  "lastPulled": "2024-04-02T20:44:13.811Z",
-  "data": [
-    {
-      "address": "0x0ffef1bf3a19dd96310194e73b38c069d1d1c31f",
-      "nameTag": "EtherShare.io"
-    },
-    {
-      "address": "0x5acc84a3e955bdd76467d3348077d003f00ffb97",
-      "nameTag": "Forsage.io"
-    }
-  ]
-}
+[
+  {
+    "address": "0x0ffef1bf3a19dd96310194e73b38c069d1d1c31f",
+    "nameTag": "EtherShare.io"
+  },
+  {
+    "address": "0x5acc84a3e955bdd76467d3348077d003f00ffb97",
+    "nameTag": "Forsage.io"
+  }
+]

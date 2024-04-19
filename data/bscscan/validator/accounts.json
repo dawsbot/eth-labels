@@ -1,178 +1,174 @@
-{
-  "lastPulled": "2024-04-03T06:30:17.433Z",
-  "length": 43,
-  "data": [
-    {
-      "address": "0x69c77a677c40c7fbea129d4b171a39b7a8ddabfa",
-      "nameTag": "Blockorus"
-    },
-    {
-      "address": "0x72b61c6014342d914470ec7ac2975be345796c2b",
-      "nameTag": "Validator: 48 Club"
-    },
-    {
-      "address": "0x22b81f8e175ffde54d797fe11eb03f9e3bf75f1d",
-      "nameTag": "Validator: Aconcagua"
-    },
-    {
-      "address": "0xb218c5d6af1f979ac42bc68d98a5a0d796c6ab01",
-      "nameTag": "Validator: Alan Turing"
-    },
-    {
-      "address": "0x4396e28197653d0c244d95f8c1e57da902a72b4e",
-      "nameTag": "Validator: Alps"
-    },
-    {
-      "address": "0x9f8ccdafcc39f3c7d6ebf637c9151673cbc36b88",
-      "nameTag": "Validator: Ankr"
-    },
-    {
-      "address": "0x6bbad7cf34b5fa511d8e963dbba288b1960e75d6",
-      "nameTag": "Validator: Ararat"
-    },
-    {
-      "address": "0xa6f79b60359f141df90a0c745125b131caaffd12",
-      "nameTag": "Validator: Avengers"
-    },
-    {
-      "address": "0x70f657164e5b75689b64b7fd1fa275f334f28e18",
-      "nameTag": "Validator: BscScan"
-    },
-    {
-      "address": "0x1252feb82c34eed907b294be442e4dd413e58138",
-      "nameTag": "Validator: Burnaby"
-    },
-    {
-      "address": "0xbe807dddb074639cd9fa61b47676c064fc50d62c",
-      "nameTag": "Validator: Certik"
-    },
-    {
-      "address": "0x4430b3230294d12c6ab2aac5c2cd68e80b16b581",
-      "nameTag": "Validator: Ciscox"
-    },
-    {
-      "address": "0x0bac492386862ad3df4b666bc096b0505bb694da",
-      "nameTag": "Validator: Claude Shannon"
-    },
-    {
-      "address": "0xb8f7166496996a7da21cf1f1b04d9b3e26a3d077",
-      "nameTag": "Validator: Coinlix"
-    },
-    {
-      "address": "0x29a97c6effb8a411dabc6adeefaa84f5067c8bbe",
-      "nameTag": "Validator: CREAM"
-    },
-    {
-      "address": "0xea0a6e3c511bbd10f4519ece37dc24887e11b55d",
-      "nameTag": "Validator: Defibit"
-    },
-    {
-      "address": "0xa34efe6222e33adb84307f41b218d1823afb6f6d",
-      "nameTag": "Validator: Enrico Fermi"
-    },
-    {
-      "address": "0x8c4d90829ce8f72d0163c1d5cf348a862d550630",
-      "nameTag": "Validator: Everest"
-    },
-    {
-      "address": "0x7ae2f5b9e386cd1b50a4550696d957cb4900f03a",
-      "nameTag": "Validator: Fuji"
-    },
-    {
-      "address": "0xee01c3b1283aa067c58eab4709f85e99d46de5fe",
-      "nameTag": "Validator: Glorin"
-    },
-    {
-      "address": "0xe9ae3261a475a27bb1028f140bc2a7c843318afd",
-      "nameTag": "Validator: HashQuark"
-    },
-    {
-      "address": "0xee226379db83cffc681495730c11fdde79ba4c0c",
-      "nameTag": "Validator: InfStones"
-    },
-    {
-      "address": "0xada8c942f31098482748fcf2b9d3dc1d8de7b0e4",
-      "nameTag": "Validator: James Clerk Maxwell"
-    },
-    {
-      "address": "0x82012708dafc9e1b880fd083b32182b869be8e09",
-      "nameTag": "Validator: Kita"
-    },
-    {
-      "address": "0xd6caa02bbebaebb5d7e581e4b66559e635f805ff",
-      "nameTag": "Validator: Leapbnb"
-    },
-    {
-      "address": "0x295e26495cef6f69dfa69911d9d8e4f3bbadb89b",
-      "nameTag": "Validator: Legend"
-    },
-    {
-      "address": "0x3f349bbafec1551819b8be1efea2fc46ca749aa1",
-      "nameTag": "Validator: Legend II"
-    },
-    {
-      "address": "0x8b6c8fd93d6f4cea42bbb345dbc6f0dfdb5bec73",
-      "nameTag": "Validator: Legend III"
-    },
-    {
-      "address": "0xe2d3a739effcd3a99387d015e260eefac72ebea1",
-      "nameTag": "Validator: MathWallet"
-    },
-    {
-      "address": "0x685b1ded8013785d6623cc18d214320b6bb64759",
-      "nameTag": "Validator: Namelix"
-    },
-    {
-      "address": "0x78f3adfc719c99674c072166708589033e2d9afe",
-      "nameTag": "Validator: Nariox"
-    },
-    {
-      "address": "0x2d4c407bbe49438ed859fe965b140dcf1aab71a9",
-      "nameTag": "Validator: NodeReal"
-    },
-    {
-      "address": "0x9ef9f4360c606c7ab4db26b016007d3ad0ab86a0",
-      "nameTag": "Validator: Nozti"
-    },
-    {
-      "address": "0xce2fd7544e0b2cc94692d4a704debef7bcb61328",
-      "nameTag": "Validator: Pexmons"
-    },
-    {
-      "address": "0x35e7a025f4da968de7e4d7e4004197917f4070f1",
-      "nameTag": "Validator: Piececoin"
-    },
-    {
-      "address": "0x2f7be8361c80a4c1e7e9aaf001d0877f1cfde218",
-      "nameTag": "Validator: Raptas"
-    },
-    {
-      "address": "0x6488aa4d1955ee33403f8ccb1d4de5fb97c7ade2",
-      "nameTag": "Validator: Seoraksan"
-    },
-    {
-      "address": "0x2a7cdd959bfe8d9487b2a43b33565295a698f7e2",
-      "nameTag": "Validator: Sigm8"
-    },
-    {
-      "address": "0x9bb832254baf4e8b4cc26bd2b52b31389b56e98b",
-      "nameTag": "Validator: Stake2me"
-    },
-    {
-      "address": "0x68bf0b8b6fb4e317a0f9d6f03eaf8ce6675bc60d",
-      "nameTag": "Validator: Stakepulse"
-    },
-    {
-      "address": "0x61dd481a114a2e761c554b641742c973867899d3",
-      "nameTag": "Validator: Synclub"
-    },
-    {
-      "address": "0xc2be4ec20253b8642161bc3f444f53679c1f3d47",
-      "nameTag": "Validator: Tiollo"
-    },
-    {
-      "address": "0x2465176c461afb316ebc773c61faee85a6515daa",
-      "nameTag": "Validator: TW Staking"
-    }
-  ]
-}
+[
+  {
+    "address": "0x69c77a677c40c7fbea129d4b171a39b7a8ddabfa",
+    "nameTag": "Blockorus"
+  },
+  {
+    "address": "0x72b61c6014342d914470ec7ac2975be345796c2b",
+    "nameTag": "Validator: 48 Club"
+  },
+  {
+    "address": "0x22b81f8e175ffde54d797fe11eb03f9e3bf75f1d",
+    "nameTag": "Validator: Aconcagua"
+  },
+  {
+    "address": "0xb218c5d6af1f979ac42bc68d98a5a0d796c6ab01",
+    "nameTag": "Validator: Alan Turing"
+  },
+  {
+    "address": "0x4396e28197653d0c244d95f8c1e57da902a72b4e",
+    "nameTag": "Validator: Alps"
+  },
+  {
+    "address": "0x9f8ccdafcc39f3c7d6ebf637c9151673cbc36b88",
+    "nameTag": "Validator: Ankr"
+  },
+  {
+    "address": "0x6bbad7cf34b5fa511d8e963dbba288b1960e75d6",
+    "nameTag": "Validator: Ararat"
+  },
+  {
+    "address": "0xa6f79b60359f141df90a0c745125b131caaffd12",
+    "nameTag": "Validator: Avengers"
+  },
+  {
+    "address": "0x70f657164e5b75689b64b7fd1fa275f334f28e18",
+    "nameTag": "Validator: BscScan"
+  },
+  {
+    "address": "0x1252feb82c34eed907b294be442e4dd413e58138",
+    "nameTag": "Validator: Burnaby"
+  },
+  {
+    "address": "0xbe807dddb074639cd9fa61b47676c064fc50d62c",
+    "nameTag": "Validator: Certik"
+  },
+  {
+    "address": "0x4430b3230294d12c6ab2aac5c2cd68e80b16b581",
+    "nameTag": "Validator: Ciscox"
+  },
+  {
+    "address": "0x0bac492386862ad3df4b666bc096b0505bb694da",
+    "nameTag": "Validator: Claude Shannon"
+  },
+  {
+    "address": "0xb8f7166496996a7da21cf1f1b04d9b3e26a3d077",
+    "nameTag": "Validator: Coinlix"
+  },
+  {
+    "address": "0x29a97c6effb8a411dabc6adeefaa84f5067c8bbe",
+    "nameTag": "Validator: CREAM"
+  },
+  {
+    "address": "0xea0a6e3c511bbd10f4519ece37dc24887e11b55d",
+    "nameTag": "Validator: Defibit"
+  },
+  {
+    "address": "0xa34efe6222e33adb84307f41b218d1823afb6f6d",
+    "nameTag": "Validator: Enrico Fermi"
+  },
+  {
+    "address": "0x8c4d90829ce8f72d0163c1d5cf348a862d550630",
+    "nameTag": "Validator: Everest"
+  },
+  {
+    "address": "0x7ae2f5b9e386cd1b50a4550696d957cb4900f03a",
+    "nameTag": "Validator: Fuji"
+  },
+  {
+    "address": "0xee01c3b1283aa067c58eab4709f85e99d46de5fe",
+    "nameTag": "Validator: Glorin"
+  },
+  {
+    "address": "0xe9ae3261a475a27bb1028f140bc2a7c843318afd",
+    "nameTag": "Validator: HashQuark"
+  },
+  {
+    "address": "0xee226379db83cffc681495730c11fdde79ba4c0c",
+    "nameTag": "Validator: InfStones"
+  },
+  {
+    "address": "0xada8c942f31098482748fcf2b9d3dc1d8de7b0e4",
+    "nameTag": "Validator: James Clerk Maxwell"
+  },
+  {
+    "address": "0x82012708dafc9e1b880fd083b32182b869be8e09",
+    "nameTag": "Validator: Kita"
+  },
+  {
+    "address": "0xd6caa02bbebaebb5d7e581e4b66559e635f805ff",
+    "nameTag": "Validator: Leapbnb"
+  },
+  {
+    "address": "0x295e26495cef6f69dfa69911d9d8e4f3bbadb89b",
+    "nameTag": "Validator: Legend"
+  },
+  {
+    "address": "0x3f349bbafec1551819b8be1efea2fc46ca749aa1",
+    "nameTag": "Validator: Legend II"
+  },
+  {
+    "address": "0x8b6c8fd93d6f4cea42bbb345dbc6f0dfdb5bec73",
+    "nameTag": "Validator: Legend III"
+  },
+  {
+    "address": "0xe2d3a739effcd3a99387d015e260eefac72ebea1",
+    "nameTag": "Validator: MathWallet"
+  },
+  {
+    "address": "0x685b1ded8013785d6623cc18d214320b6bb64759",
+    "nameTag": "Validator: Namelix"
+  },
+  {
+    "address": "0x78f3adfc719c99674c072166708589033e2d9afe",
+    "nameTag": "Validator: Nariox"
+  },
+  {
+    "address": "0x2d4c407bbe49438ed859fe965b140dcf1aab71a9",
+    "nameTag": "Validator: NodeReal"
+  },
+  {
+    "address": "0x9ef9f4360c606c7ab4db26b016007d3ad0ab86a0",
+    "nameTag": "Validator: Nozti"
+  },
+  {
+    "address": "0xce2fd7544e0b2cc94692d4a704debef7bcb61328",
+    "nameTag": "Validator: Pexmons"
+  },
+  {
+    "address": "0x35e7a025f4da968de7e4d7e4004197917f4070f1",
+    "nameTag": "Validator: Piececoin"
+  },
+  {
+    "address": "0x2f7be8361c80a4c1e7e9aaf001d0877f1cfde218",
+    "nameTag": "Validator: Raptas"
+  },
+  {
+    "address": "0x6488aa4d1955ee33403f8ccb1d4de5fb97c7ade2",
+    "nameTag": "Validator: Seoraksan"
+  },
+  {
+    "address": "0x2a7cdd959bfe8d9487b2a43b33565295a698f7e2",
+    "nameTag": "Validator: Sigm8"
+  },
+  {
+    "address": "0x9bb832254baf4e8b4cc26bd2b52b31389b56e98b",
+    "nameTag": "Validator: Stake2me"
+  },
+  {
+    "address": "0x68bf0b8b6fb4e317a0f9d6f03eaf8ce6675bc60d",
+    "nameTag": "Validator: Stakepulse"
+  },
+  {
+    "address": "0x61dd481a114a2e761c554b641742c973867899d3",
+    "nameTag": "Validator: Synclub"
+  },
+  {
+    "address": "0xc2be4ec20253b8642161bc3f444f53679c1f3d47",
+    "nameTag": "Validator: Tiollo"
+  },
+  {
+    "address": "0x2465176c461afb316ebc773c61faee85a6515daa",
+    "nameTag": "Validator: TW Staking"
+  }
+]

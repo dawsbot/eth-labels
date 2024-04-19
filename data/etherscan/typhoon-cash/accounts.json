@@ -1,97 +1,94 @@
-{
-  "lastPulled": "2024-04-02T20:51:21.739Z",
-  "data": [
-    {
-      "address": "0x79256db1bdb6259315a1a3d7dd237f69cadfd8fc",
-      "nameTag": "Typhoon Cash: PHOON Token"
-    },
-    {
-      "address": "0x9cdb933edab885bb767658b9ed5c3800bc1d761b",
-      "nameTag": "Typhoon.Cash: 1 ETH"
-    },
-    {
-      "address": "0x3bf5416fed0b1d5b884b857e62a7681c0a04802a",
-      "nameTag": "Typhoon.Cash: 10 ETH"
-    },
-    {
-      "address": "0xd8cb7339b5e9fc1c4477b4c900110d74b72b4830",
-      "nameTag": "Typhoon.Cash: 100 ETH"
-    },
-    {
-      "address": "0xf5e5a97b2974786a1d7dcb716d2026a586c158b2",
-      "nameTag": "Typhoon.Cash: 5,000,000 cDAI"
-    },
-    {
-      "address": "0x5068f49d99fdb3408e8429bd982f1507fc5f4b7d",
-      "nameTag": "Typhoon.Cash: 5,000,000 cUSDT"
-    },
-    {
-      "address": "0x9852360ba26e8011ee9278babe74829d5ee56e19",
-      "nameTag": "Typhoon.Cash: 50,000 cDAI"
-    },
-    {
-      "address": "0x3ed6f336141d7cbdbec9180631ca1a8d119ab855",
-      "nameTag": "Typhoon.Cash: 50,000 cUSDT"
-    },
-    {
-      "address": "0x6f36a563b8f3e16e867e5dd71341eaee015473c2",
-      "nameTag": "Typhoon.Cash: 500,000 cDAI"
-    },
-    {
-      "address": "0xb9ea2293f79779293b09a51e900c780989980820",
-      "nameTag": "Typhoon.Cash: 500,000 cUSDT"
-    },
-    {
-      "address": "0x88392c6706c7f421d37276090147311cf64b2a2b",
-      "nameTag": "Typhoon.Cash: cDAI Reserve"
-    },
-    {
-      "address": "0x1b1bac0e075a6680702bc239020e2c9657803aca",
-      "nameTag": "Typhoon.Cash: cUSDT Reserve"
-    },
-    {
-      "address": "0xc9b4dff1ce5384c7014579099e63ea0092e14ed5",
-      "nameTag": "Typhoon.Cash: ETH Reserve Pool"
-    },
-    {
-      "address": "0xc4eb4781436362600edee633ac656d649109ecbf",
-      "nameTag": "Typhoon.Cash: Hasher"
-    },
-    {
-      "address": "0xbfa25a8d992c343fceea9011dc5bc3813f2c96a6",
-      "nameTag": "Typhoon.Cash: Reward Pool 1 ETH"
-    },
-    {
-      "address": "0x0497b00a96a4663681ccfdbe66170783202960fa",
-      "nameTag": "Typhoon.Cash: Reward Pool 10 ETH"
-    },
-    {
-      "address": "0xfcca987cb6a5f67002e10e16e769d87fc48a1027",
-      "nameTag": "Typhoon.Cash: Reward Pool 100 ETH"
-    },
-    {
-      "address": "0xd20b405e0d56e68e9b111baa9e413410b419e48a",
-      "nameTag": "Typhoon.Cash: Reward Pool 5,000,000 cDAI"
-    },
-    {
-      "address": "0x14c1c27b66299846dfc32860d7c2629b40a6eade",
-      "nameTag": "Typhoon.Cash: Reward Pool 5,000,000 cUSDT"
-    },
-    {
-      "address": "0xff293155bf9cf2e9280aa57f11387d0b35ae5b69",
-      "nameTag": "Typhoon.Cash: Reward Pool 50,000 cUSDT"
-    },
-    {
-      "address": "0xefe6a4e64dbccfe4c4f5f62e6d1fef00b9637171",
-      "nameTag": "Typhoon.Cash: Reward Pool 500,000 cDAI"
-    },
-    {
-      "address": "0x701223ddb0626cd1f1672dd6e340f3b8a9c5b511",
-      "nameTag": "Typhoon.Cash: Reward Pool 500,000 cUSDT"
-    },
-    {
-      "address": "0x7036a0555637b88c5a68c2a39799c7a9ab858c60",
-      "nameTag": "Typhoon.Cash: Verifier"
-    }
-  ]
-}
+[
+  {
+    "address": "0x79256db1bdb6259315a1a3d7dd237f69cadfd8fc",
+    "nameTag": "Typhoon Cash: PHOON Token"
+  },
+  {
+    "address": "0x9cdb933edab885bb767658b9ed5c3800bc1d761b",
+    "nameTag": "Typhoon.Cash: 1 ETH"
+  },
+  {
+    "address": "0x3bf5416fed0b1d5b884b857e62a7681c0a04802a",
+    "nameTag": "Typhoon.Cash: 10 ETH"
+  },
+  {
+    "address": "0xd8cb7339b5e9fc1c4477b4c900110d74b72b4830",
+    "nameTag": "Typhoon.Cash: 100 ETH"
+  },
+  {
+    "address": "0xf5e5a97b2974786a1d7dcb716d2026a586c158b2",
+    "nameTag": "Typhoon.Cash: 5,000,000 cDAI"
+  },
+  {
+    "address": "0x5068f49d99fdb3408e8429bd982f1507fc5f4b7d",
+    "nameTag": "Typhoon.Cash: 5,000,000 cUSDT"
+  },
+  {
+    "address": "0x9852360ba26e8011ee9278babe74829d5ee56e19",
+    "nameTag": "Typhoon.Cash: 50,000 cDAI"
+  },
+  {
+    "address": "0x3ed6f336141d7cbdbec9180631ca1a8d119ab855",
+    "nameTag": "Typhoon.Cash: 50,000 cUSDT"
+  },
+  {
+    "address": "0x6f36a563b8f3e16e867e5dd71341eaee015473c2",
+    "nameTag": "Typhoon.Cash: 500,000 cDAI"
+  },
+  {
+    "address": "0xb9ea2293f79779293b09a51e900c780989980820",
+    "nameTag": "Typhoon.Cash: 500,000 cUSDT"
+  },
+  {
+    "address": "0x88392c6706c7f421d37276090147311cf64b2a2b",
+    "nameTag": "Typhoon.Cash: cDAI Reserve"
+  },
+  {
+    "address": "0x1b1bac0e075a6680702bc239020e2c9657803aca",
+    "nameTag": "Typhoon.Cash: cUSDT Reserve"
+  },
+  {
+    "address": "0xc9b4dff1ce5384c7014579099e63ea0092e14ed5",
+    "nameTag": "Typhoon.Cash: ETH Reserve Pool"
+  },
+  {
+    "address": "0xc4eb4781436362600edee633ac656d649109ecbf",
+    "nameTag": "Typhoon.Cash: Hasher"
+  },
+  {
+    "address": "0xbfa25a8d992c343fceea9011dc5bc3813f2c96a6",
+    "nameTag": "Typhoon.Cash: Reward Pool 1 ETH"
+  },
+  {
+    "address": "0x0497b00a96a4663681ccfdbe66170783202960fa",
+    "nameTag": "Typhoon.Cash: Reward Pool 10 ETH"
+  },
+  {
+    "address": "0xfcca987cb6a5f67002e10e16e769d87fc48a1027",
+    "nameTag": "Typhoon.Cash: Reward Pool 100 ETH"
+  },
+  {
+    "address": "0xd20b405e0d56e68e9b111baa9e413410b419e48a",
+    "nameTag": "Typhoon.Cash: Reward Pool 5,000,000 cDAI"
+  },
+  {
+    "address": "0x14c1c27b66299846dfc32860d7c2629b40a6eade",
+    "nameTag": "Typhoon.Cash: Reward Pool 5,000,000 cUSDT"
+  },
+  {
+    "address": "0xff293155bf9cf2e9280aa57f11387d0b35ae5b69",
+    "nameTag": "Typhoon.Cash: Reward Pool 50,000 cUSDT"
+  },
+  {
+    "address": "0xefe6a4e64dbccfe4c4f5f62e6d1fef00b9637171",
+    "nameTag": "Typhoon.Cash: Reward Pool 500,000 cDAI"
+  },
+  {
+    "address": "0x701223ddb0626cd1f1672dd6e340f3b8a9c5b511",
+    "nameTag": "Typhoon.Cash: Reward Pool 500,000 cUSDT"
+  },
+  {
+    "address": "0x7036a0555637b88c5a68c2a39799c7a9ab858c60",
+    "nameTag": "Typhoon.Cash: Verifier"
+  }
+]

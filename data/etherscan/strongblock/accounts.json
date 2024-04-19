@@ -1,25 +1,22 @@
-{
-  "lastPulled": "2024-04-02T20:50:05.490Z",
-  "data": [
-    {
-      "address": "0x099a91d684585618298250cc376a0531f83ef9a2",
-      "nameTag": "StrongBlock: Deployer"
-    },
-    {
-      "address": "0x2e734269c869bda3ea6550f510d2514f2d66de71",
-      "nameTag": "StrongBlock: NFT"
-    },
-    {
-      "address": "0xc5622f143972a5da6aabc5f5379311ee5eb48568",
-      "nameTag": "StrongBlock: Node Rewards"
-    },
-    {
-      "address": "0xfbddadd80fe7bda00b901fbaf73803f2238ae655",
-      "nameTag": "StrongBlock: Service"
-    },
-    {
-      "address": "0x990f341946a3fdb507ae7e52d17851b87168017c",
-      "nameTag": "StrongBlock: STRONG Token"
-    }
-  ]
-}
+[
+  {
+    "address": "0x099a91d684585618298250cc376a0531f83ef9a2",
+    "nameTag": "StrongBlock: Deployer"
+  },
+  {
+    "address": "0x2e734269c869bda3ea6550f510d2514f2d66de71",
+    "nameTag": "StrongBlock: NFT"
+  },
+  {
+    "address": "0xc5622f143972a5da6aabc5f5379311ee5eb48568",
+    "nameTag": "StrongBlock: Node Rewards"
+  },
+  {
+    "address": "0xfbddadd80fe7bda00b901fbaf73803f2238ae655",
+    "nameTag": "StrongBlock: Service"
+  },
+  {
+    "address": "0x990f341946a3fdb507ae7e52d17851b87168017c",
+    "nameTag": "StrongBlock: STRONG Token"
+  }
+]

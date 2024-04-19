@@ -1,17 +1,5 @@
-{
-  "lastPulled": "2024-04-02T20:57:56.402Z",
-  "data": [
-    {
-      "address": "0x4200000000000000000000000000000000000010",
-      "nameTag": "Optimism Bridge"
-    },
-    {
-      "address": "0x3f87ff1de58128ef8fcb4c807efd776e1ac72e51",
-      "nameTag": "Optimism Bridge 2"
-    },
-    {
-      "address": "0x99c9fc46f92e8a1c0dec1b1747d010903e884be1",
-      "nameTag": "Optimism: Gateway"
-    }
-  ]
-}
+[
+  { "address": "0x42000000...000000010", "nameTag": "Optimism Bridge" },
+  { "address": "0x3f87ff1d...e1ac72e51", "nameTag": "Optimism Bridge 2" },
+  { "address": "0x99c9fc46...03e884be1", "nameTag": "Optimism: Gateway" }
+]

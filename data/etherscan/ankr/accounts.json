@@ -1,13 +1,10 @@
-{
-  "lastPulled": "2024-04-02T20:38:38.429Z",
-  "data": [
-    {
-      "address": "0x8290333cef9e6d528dd5618fb97a76f268f3edd4",
-      "nameTag": "Ankr Network: ANKR Token"
-    },
-    {
-      "address": "0x146ee71e057e6b10efb93aedf631fde6cbaed5e2",
-      "nameTag": "Ankr Network: Deployer"
-    }
-  ]
-}
+[
+  {
+    "address": "0x8290333cef9e6d528dd5618fb97a76f268f3edd4",
+    "nameTag": "Ankr Network: ANKR Token"
+  },
+  {
+    "address": "0x146ee71e057e6b10efb93aedf631fde6cbaed5e2",
+    "nameTag": "Ankr Network: Deployer"
+  }
+]

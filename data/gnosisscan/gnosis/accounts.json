@@ -1,46 +1,42 @@
-{
-  "lastPulled": "2024-04-03T06:24:09.300Z",
-  "length": 10,
-  "data": [
-    {
-      "address": "0x75df5af045d91108662d8080fd1fefad6aa0bb59",
-      "nameTag": "Gnosis: AMB-ETH-XDAI"
-    },
-    {
-      "address": "0x0b98057ea310f4d31f2a452b414647007d1645d9",
-      "nameTag": "Gnosis: GBC Deposit"
-    },
-    {
-      "address": "0xe47097cef3b0bcbb0095a21523714bf0022e2db8",
-      "nameTag": "Gnosis: GEN-xGEN Bridge"
-    },
-    {
-      "address": "0x9c58bacc331c9aa871afd802db6379a98e80cedb",
-      "nameTag": "Gnosis: GNO Token"
-    },
-    {
-      "address": "0x80199c8d04af4c5ceb532adf4463b18bb4b59ffc",
-      "nameTag": "Gnosis: Mediator"
-    },
-    {
-      "address": "0x647507a70ff598f386cb96ae5046486389368c66",
-      "nameTag": "Gnosis: mGNO"
-    },
-    {
-      "address": "0xb289f0e6fbdff8eee340498a56e1787b303f1b6d",
-      "nameTag": "Gnosis: Validators"
-    },
-    {
-      "address": "0x7301cfa0e1756b71869e93d4e4dca5c7d0eb0aa6",
-      "nameTag": "Gnosis: xDai Bridge 2"
-    },
-    {
-      "address": "0x0d3726e5a9f37234d6b55216fc971d30f150a60f",
-      "nameTag": "Gnosis: xDai Bridge Management Multisig"
-    },
-    {
-      "address": "0xf75c28fe07e0647b05160288f172ad27cccd8f30",
-      "nameTag": "Gnosis: xMOON-MOON Bridge"
-    }
-  ]
-}
+[
+  {
+    "address": "0x75df5af045d91108662d8080fd1fefad6aa0bb59",
+    "nameTag": "Gnosis: AMB-ETH-XDAI"
+  },
+  {
+    "address": "0x0b98057ea310f4d31f2a452b414647007d1645d9",
+    "nameTag": "Gnosis: GBC Deposit"
+  },
+  {
+    "address": "0xe47097cef3b0bcbb0095a21523714bf0022e2db8",
+    "nameTag": "Gnosis: GEN-xGEN Bridge"
+  },
+  {
+    "address": "0x9c58bacc331c9aa871afd802db6379a98e80cedb",
+    "nameTag": "Gnosis: GNO Token"
+  },
+  {
+    "address": "0x80199c8d04af4c5ceb532adf4463b18bb4b59ffc",
+    "nameTag": "Gnosis: Mediator"
+  },
+  {
+    "address": "0x647507a70ff598f386cb96ae5046486389368c66",
+    "nameTag": "Gnosis: mGNO"
+  },
+  {
+    "address": "0xb289f0e6fbdff8eee340498a56e1787b303f1b6d",
+    "nameTag": "Gnosis: Validators"
+  },
+  {
+    "address": "0x7301cfa0e1756b71869e93d4e4dca5c7d0eb0aa6",
+    "nameTag": "Gnosis: xDai Bridge 2"
+  },
+  {
+    "address": "0x0d3726e5a9f37234d6b55216fc971d30f150a60f",
+    "nameTag": "Gnosis: xDai Bridge Management Multisig"
+  },
+  {
+    "address": "0xf75c28fe07e0647b05160288f172ad27cccd8f30",
+    "nameTag": "Gnosis: xMOON-MOON Bridge"
+  }
+]

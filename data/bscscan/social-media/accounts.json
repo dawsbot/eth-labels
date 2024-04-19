@@ -1,18 +1,14 @@
-{
-  "lastPulled": "2024-04-03T06:30:01.062Z",
-  "length": 3,
-  "data": [
-    {
-      "address": "0x6a4b4b579f447af41fa4082c65b8fd84c0b33780",
-      "nameTag": "Waifer: Marketing Wallet"
-    },
-    {
-      "address": "0x4d170bc8d9665862456fcc50ce9a21b9d10ad763",
-      "nameTag": "Waifer: Migration Platform"
-    },
-    {
-      "address": "0xc9b9ef3c43461c48f7e54971cca72400d4c65bb9",
-      "nameTag": "Waifer:Listing Wallet"
-    }
-  ]
-}
+[
+  {
+    "address": "0x6a4b4b579f447af41fa4082c65b8fd84c0b33780",
+    "nameTag": "Waifer: Marketing Wallet"
+  },
+  {
+    "address": "0x4d170bc8d9665862456fcc50ce9a21b9d10ad763",
+    "nameTag": "Waifer: Migration Platform"
+  },
+  {
+    "address": "0xc9b9ef3c43461c48f7e54971cca72400d4c65bb9",
+    "nameTag": "Waifer:Listing Wallet"
+  }
+]

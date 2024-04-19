@@ -1,25 +1,22 @@
-{
-  "lastPulled": "2024-04-02T20:39:57.366Z",
-  "data": [
-    {
-      "address": "0xe79eef9b9388a4ff70ed7ec5bccd5b928ebb8bd1",
-      "nameTag": "BitMart"
-    },
-    {
-      "address": "0x68b22215ff74e3606bd5e6c1de8c2d68180c85f7",
-      "nameTag": "BitMart 2"
-    },
-    {
-      "address": "0x3ab28ecedea6cdb6feed398e93ae8c7b316b1182",
-      "nameTag": "BitMart 3"
-    },
-    {
-      "address": "0x986ee2b944c42d017f52af21c4c69b84dbea35d8",
-      "nameTag": "BitMart: BMC Token"
-    },
-    {
-      "address": "0x1aac8bc17da523b9bc7470b0c9ed47a83760acef",
-      "nameTag": "BitMart: Deployer"
-    }
-  ]
-}
+[
+  {
+    "address": "0xe79eef9b9388a4ff70ed7ec5bccd5b928ebb8bd1",
+    "nameTag": "BitMart"
+  },
+  {
+    "address": "0x68b22215ff74e3606bd5e6c1de8c2d68180c85f7",
+    "nameTag": "BitMart 2"
+  },
+  {
+    "address": "0x3ab28ecedea6cdb6feed398e93ae8c7b316b1182",
+    "nameTag": "BitMart 3"
+  },
+  {
+    "address": "0x986ee2b944c42d017f52af21c4c69b84dbea35d8",
+    "nameTag": "BitMart: BMC Token"
+  },
+  {
+    "address": "0x1aac8bc17da523b9bc7470b0c9ed47a83760acef",
+    "nameTag": "BitMart: Deployer"
+  }
+]

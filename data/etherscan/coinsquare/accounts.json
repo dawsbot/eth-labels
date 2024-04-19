@@ -1,105 +1,102 @@
-{
-  "lastPulled": "2024-04-02T20:41:10.442Z",
-  "data": [
-    {
-      "address": "0x02fdc44bf226e49dceca4775afaef3360e9c4ee9",
-      "nameTag": "Coinsquare 1"
-    },
-    {
-      "address": "0x6d712f120bd65ad54a5f56670976788a044cb987",
-      "nameTag": "Coinsquare 10"
-    },
-    {
-      "address": "0x7061d86a274b398a1fb7cdb74b3abbc7601e105f",
-      "nameTag": "Coinsquare 11"
-    },
-    {
-      "address": "0x7ee87dd5bb9924cb85ca2916bd4e04299d3a8ecc",
-      "nameTag": "Coinsquare 12"
-    },
-    {
-      "address": "0x7f2118fd5016df11fa82b7d93a8badb4e3251ec7",
-      "nameTag": "Coinsquare 13"
-    },
-    {
-      "address": "0x82be7cfef05b70c4af47f8fd70f636201121341b",
-      "nameTag": "Coinsquare 14"
-    },
-    {
-      "address": "0x8623c08a4b880799cf65e75137ec9759db336637",
-      "nameTag": "Coinsquare 15"
-    },
-    {
-      "address": "0x89813b57ae92e74fb808eb7639d3a0050c9b3d7d",
-      "nameTag": "Coinsquare 16"
-    },
-    {
-      "address": "0x8e080c5d233f2a14a37d024c0382bf0585146993",
-      "nameTag": "Coinsquare 17"
-    },
-    {
-      "address": "0x910695e5c7c14499b554fb132a9710988a42fc38",
-      "nameTag": "Coinsquare 18"
-    },
-    {
-      "address": "0x9c6d4a1922eed56ee9de148c5ba9b1b477fecbb6",
-      "nameTag": "Coinsquare 19"
-    },
-    {
-      "address": "0x0fcff154753e337983613889b69dd85fe8a1a145",
-      "nameTag": "Coinsquare 2"
-    },
-    {
-      "address": "0xc4d75abab14ef006d5ac9fe901a8ed616c4e2627",
-      "nameTag": "Coinsquare 20"
-    },
-    {
-      "address": "0xd381347ee757f53ae4b3b6822daec3e2a14b2005",
-      "nameTag": "Coinsquare 21"
-    },
-    {
-      "address": "0xd5b2c371808018ee131ad387877c4d58e08e7a06",
-      "nameTag": "Coinsquare 22"
-    },
-    {
-      "address": "0xd093f2ee92cf32b4d3ebefd965447415074dd6c8",
-      "nameTag": "Coinsquare 23"
-    },
-    {
-      "address": "0xf9c91937737ccafe9bbb662b1917b54f9606ca13",
-      "nameTag": "Coinsquare 24"
-    },
-    {
-      "address": "0xfac596facd1901458c1c6347397a6e5d0769736c",
-      "nameTag": "Coinsquare 25"
-    },
-    {
-      "address": "0x14aa1ad09664c33679ae5689d93085b8f7c84bd3",
-      "nameTag": "Coinsquare 3"
-    },
-    {
-      "address": "0x3858a27eecb5f1144473e35a293cb1b2bda6dff4",
-      "nameTag": "Coinsquare 4"
-    },
-    {
-      "address": "0x476b067cbff8acb805038e9daef5d51c7612d593",
-      "nameTag": "Coinsquare 5"
-    },
-    {
-      "address": "0x48a0b5f7de8789a3962918c6df4a766c0c8857b0",
-      "nameTag": "Coinsquare 6"
-    },
-    {
-      "address": "0x4b36c488fcb66962159133b703870ad6cf44d3bf",
-      "nameTag": "Coinsquare 7"
-    },
-    {
-      "address": "0x56e89a4b2e3924c336d52ce0ad98ff23e1a51627",
-      "nameTag": "Coinsquare 8"
-    },
-    {
-      "address": "0x6a73f209d25cc9c089170cc5b54962e0c7614e0c",
-      "nameTag": "Coinsquare 9"
-    }
-  ]
-}
+[
+  {
+    "address": "0x02fdc44bf226e49dceca4775afaef3360e9c4ee9",
+    "nameTag": "Coinsquare 1"
+  },
+  {
+    "address": "0x6d712f120bd65ad54a5f56670976788a044cb987",
+    "nameTag": "Coinsquare 10"
+  },
+  {
+    "address": "0x7061d86a274b398a1fb7cdb74b3abbc7601e105f",
+    "nameTag": "Coinsquare 11"
+  },
+  {
+    "address": "0x7ee87dd5bb9924cb85ca2916bd4e04299d3a8ecc",
+    "nameTag": "Coinsquare 12"
+  },
+  {
+    "address": "0x7f2118fd5016df11fa82b7d93a8badb4e3251ec7",
+    "nameTag": "Coinsquare 13"
+  },
+  {
+    "address": "0x82be7cfef05b70c4af47f8fd70f636201121341b",
+    "nameTag": "Coinsquare 14"
+  },
+  {
+    "address": "0x8623c08a4b880799cf65e75137ec9759db336637",
+    "nameTag": "Coinsquare 15"
+  },
+  {
+    "address": "0x89813b57ae92e74fb808eb7639d3a0050c9b3d7d",
+    "nameTag": "Coinsquare 16"
+  },
+  {
+    "address": "0x8e080c5d233f2a14a37d024c0382bf0585146993",
+    "nameTag": "Coinsquare 17"
+  },
+  {
+    "address": "0x910695e5c7c14499b554fb132a9710988a42fc38",
+    "nameTag": "Coinsquare 18"
+  },
+  {
+    "address": "0x9c6d4a1922eed56ee9de148c5ba9b1b477fecbb6",
+    "nameTag": "Coinsquare 19"
+  },
+  {
+    "address": "0x0fcff154753e337983613889b69dd85fe8a1a145",
+    "nameTag": "Coinsquare 2"
+  },
+  {
+    "address": "0xc4d75abab14ef006d5ac9fe901a8ed616c4e2627",
+    "nameTag": "Coinsquare 20"
+  },
+  {
+    "address": "0xd381347ee757f53ae4b3b6822daec3e2a14b2005",
+    "nameTag": "Coinsquare 21"
+  },
+  {
+    "address": "0xd5b2c371808018ee131ad387877c4d58e08e7a06",
+    "nameTag": "Coinsquare 22"
+  },
+  {
+    "address": "0xd093f2ee92cf32b4d3ebefd965447415074dd6c8",
+    "nameTag": "Coinsquare 23"
+  },
+  {
+    "address": "0xf9c91937737ccafe9bbb662b1917b54f9606ca13",
+    "nameTag": "Coinsquare 24"
+  },
+  {
+    "address": "0xfac596facd1901458c1c6347397a6e5d0769736c",
+    "nameTag": "Coinsquare 25"
+  },
+  {
+    "address": "0x14aa1ad09664c33679ae5689d93085b8f7c84bd3",
+    "nameTag": "Coinsquare 3"
+  },
+  {
+    "address": "0x3858a27eecb5f1144473e35a293cb1b2bda6dff4",
+    "nameTag": "Coinsquare 4"
+  },
+  {
+    "address": "0x476b067cbff8acb805038e9daef5d51c7612d593",
+    "nameTag": "Coinsquare 5"
+  },
+  {
+    "address": "0x48a0b5f7de8789a3962918c6df4a766c0c8857b0",
+    "nameTag": "Coinsquare 6"
+  },
+  {
+    "address": "0x4b36c488fcb66962159133b703870ad6cf44d3bf",
+    "nameTag": "Coinsquare 7"
+  },
+  {
+    "address": "0x56e89a4b2e3924c336d52ce0ad98ff23e1a51627",
+    "nameTag": "Coinsquare 8"
+  },
+  {
+    "address": "0x6a73f209d25cc9c089170cc5b54962e0c7614e0c",
+    "nameTag": "Coinsquare 9"
+  }
+]

@@ -1,17 +1,14 @@
-{
-  "lastPulled": "2024-04-02T20:47:58.458Z",
-  "data": [
-    {
-      "address": "0xff0e5e014cf97e0615cb50f6f39da6388e2fae6e",
-      "nameTag": "Origo Token"
-    },
-    {
-      "address": "0x096aa69fa70040072afceb310070bd48a1cc515a",
-      "nameTag": "Origo: Foundation"
-    },
-    {
-      "address": "0x94cbf65a33496da05915f0ec2db07a7785eacb9c",
-      "nameTag": "Origo: Token Sale"
-    }
-  ]
-}
+[
+  {
+    "address": "0xff0e5e014cf97e0615cb50f6f39da6388e2fae6e",
+    "nameTag": "Origo Token"
+  },
+  {
+    "address": "0x096aa69fa70040072afceb310070bd48a1cc515a",
+    "nameTag": "Origo: Foundation"
+  },
+  {
+    "address": "0x94cbf65a33496da05915f0ec2db07a7785eacb9c",
+    "nameTag": "Origo: Token Sale"
+  }
+]

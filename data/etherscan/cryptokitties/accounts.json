@@ -1,25 +1,22 @@
-{
-  "lastPulled": "2024-04-02T20:41:42.347Z",
-  "data": [
-    {
-      "address": "0x06012c8cf97bead5deae237070f9587f8e7a266d",
-      "nameTag": "CryptoKitties: Core"
-    },
-    {
-      "address": "0xb77feddb7e627a78140a2a32cac65a49ed1dba8e",
-      "nameTag": "CryptoKitties: GeneScience"
-    },
-    {
-      "address": "0x57831a0c76ba6b4fdcbadd6cb48cb26e8fc15e93",
-      "nameTag": "CryptoKitties: Offers"
-    },
-    {
-      "address": "0xb1690c08e213a35ed9bab7b318de14420fb57d8c",
-      "nameTag": "CryptoKitties: Sales Auction"
-    },
-    {
-      "address": "0xc7af99fe5513eb6710e6d5f44f9989da40f27f26",
-      "nameTag": "CryptoKitties: Siring Auction"
-    }
-  ]
-}
+[
+  {
+    "address": "0x06012c8cf97bead5deae237070f9587f8e7a266d",
+    "nameTag": "CryptoKitties: Core"
+  },
+  {
+    "address": "0xb77feddb7e627a78140a2a32cac65a49ed1dba8e",
+    "nameTag": "CryptoKitties: GeneScience"
+  },
+  {
+    "address": "0x57831a0c76ba6b4fdcbadd6cb48cb26e8fc15e93",
+    "nameTag": "CryptoKitties: Offers"
+  },
+  {
+    "address": "0xb1690c08e213a35ed9bab7b318de14420fb57d8c",
+    "nameTag": "CryptoKitties: Sales Auction"
+  },
+  {
+    "address": "0xc7af99fe5513eb6710e6d5f44f9989da40f27f26",
+    "nameTag": "CryptoKitties: Siring Auction"
+  }
+]

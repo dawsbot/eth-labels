@@ -1,10 +1,6 @@
-{
-  "lastPulled": "2024-04-03T06:29:27.227Z",
-  "length": 1,
-  "data": [
-    {
-      "address": "0x3bc677674df90a9e5d741f28f6ca303357d0e4ec",
-      "nameTag": "HyperJump: HyperSwap Router"
-    }
-  ]
-}
+[
+  {
+    "address": "0x3bc677674df90a9e5d741f28f6ca303357d0e4ec",
+    "nameTag": "HyperJump: HyperSwap Router"
+  }
+]

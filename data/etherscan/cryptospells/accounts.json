@@ -1,37 +1,34 @@
-{
-  "lastPulled": "2024-04-02T20:41:48.033Z",
-  "data": [
-    {
-      "address": "0x67cbbb366a51fff9ad869d027e496ba49f5f6d55",
-      "nameTag": "CSPL: Card"
-    },
-    {
-      "address": "0xd1e3dbd2476d374f97b93ad7f686eacbebd8f56d",
-      "nameTag": "CSPL: CardGateway"
-    },
-    {
-      "address": "0x030c09afd8a0e756d114bfb8c8446fbb80e38311",
-      "nameTag": "CSPL: Daily Action"
-    },
-    {
-      "address": "0x81dc8e0a77c4d9f16d8cd6c2408dcc53d2d9b7ac",
-      "nameTag": "CSPL: Deployer"
-    },
-    {
-      "address": "0xa8abf045fe1a9ef0583e436393a6e4e0b483f717",
-      "nameTag": "CSPL: Guild"
-    },
-    {
-      "address": "0x6bf2592c92aef0b2dd16e25cab3114c99ebd8c4e",
-      "nameTag": "CSPL: Guild Pool"
-    },
-    {
-      "address": "0xa425feccc7e0114e735141c30a1c6f6891633a27",
-      "nameTag": "CSPL: SPL Purchase"
-    },
-    {
-      "address": "0xb9e4b4c25449ed746d188385d064773011db806b",
-      "nameTag": "CSPL: SPLGateway"
-    }
-  ]
-}
+[
+  {
+    "address": "0x67cbbb366a51fff9ad869d027e496ba49f5f6d55",
+    "nameTag": "CSPL: Card"
+  },
+  {
+    "address": "0xd1e3dbd2476d374f97b93ad7f686eacbebd8f56d",
+    "nameTag": "CSPL: CardGateway"
+  },
+  {
+    "address": "0x030c09afd8a0e756d114bfb8c8446fbb80e38311",
+    "nameTag": "CSPL: Daily Action"
+  },
+  {
+    "address": "0x81dc8e0a77c4d9f16d8cd6c2408dcc53d2d9b7ac",
+    "nameTag": "CSPL: Deployer"
+  },
+  {
+    "address": "0xa8abf045fe1a9ef0583e436393a6e4e0b483f717",
+    "nameTag": "CSPL: Guild"
+  },
+  {
+    "address": "0x6bf2592c92aef0b2dd16e25cab3114c99ebd8c4e",
+    "nameTag": "CSPL: Guild Pool"
+  },
+  {
+    "address": "0xa425feccc7e0114e735141c30a1c6f6891633a27",
+    "nameTag": "CSPL: SPL Purchase"
+  },
+  {
+    "address": "0xb9e4b4c25449ed746d188385d064773011db806b",
+    "nameTag": "CSPL: SPLGateway"
+  }
+]

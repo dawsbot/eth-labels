@@ -1,10 +1,6 @@
-{
-  "lastPulled": "2024-04-03T06:29:10.519Z",
-  "length": 1,
-  "data": [
-    {
-      "address": "0x1f68126e67030c9e1113f86deeb5a23695219a77",
-      "nameTag": "Wealthy Habits: Team"
-    }
-  ]
-}
+[
+  {
+    "address": "0x1f68126e67030c9e1113f86deeb5a23695219a77",
+    "nameTag": "Wealthy Habits: Team"
+  }
+]

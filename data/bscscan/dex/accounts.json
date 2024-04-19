@@ -1,34 +1,30 @@
-{
-  "lastPulled": "2024-04-03T06:29:04.491Z",
-  "length": 7,
-  "data": [
-    {
-      "address": "0xbf9d97eaf551877e4710d8e9d0519f79e03e5e69",
-      "nameTag": "Impossible Finance: V2 Swap Factory"
-    },
-    {
-      "address": "0x3cafa8d80566a0dd500311ba7758772cec538e50",
-      "nameTag": "Impossible Finance: V2 Swap Rewards Staking 1"
-    },
-    {
-      "address": "0xccf4881b849d94c15c98567ba71b08ed829aba33",
-      "nameTag": "Impossible Finance: V2 Swap Router"
-    },
-    {
-      "address": "0x30d70e3c613c50da8030556aa949fbc21fd51454",
-      "nameTag": "Merrymen Swap: Router"
-    },
-    {
-      "address": "0x1a1ec25dc08e98e5e93f1104b5e5cdd298707d31",
-      "nameTag": "Metamask: Swap Router"
-    },
-    {
-      "address": "0x638f32fe09baec1fdc54f962e3e8e5f2b286aa70",
-      "nameTag": "Transit: Swap Router"
-    },
-    {
-      "address": "0x31efc4aeaa7c39e54a33fdc3c46ee2bd70ae0a09",
-      "nameTag": "xPollinate: Transaction Manager"
-    }
-  ]
-}
+[
+  {
+    "address": "0xbf9d97eaf551877e4710d8e9d0519f79e03e5e69",
+    "nameTag": "Impossible Finance: V2 Swap Factory"
+  },
+  {
+    "address": "0x3cafa8d80566a0dd500311ba7758772cec538e50",
+    "nameTag": "Impossible Finance: V2 Swap Rewards Staking 1"
+  },
+  {
+    "address": "0xccf4881b849d94c15c98567ba71b08ed829aba33",
+    "nameTag": "Impossible Finance: V2 Swap Router"
+  },
+  {
+    "address": "0x30d70e3c613c50da8030556aa949fbc21fd51454",
+    "nameTag": "Merrymen Swap: Router"
+  },
+  {
+    "address": "0x1a1ec25dc08e98e5e93f1104b5e5cdd298707d31",
+    "nameTag": "Metamask: Swap Router"
+  },
+  {
+    "address": "0x638f32fe09baec1fdc54f962e3e8e5f2b286aa70",
+    "nameTag": "Transit: Swap Router"
+  },
+  {
+    "address": "0x31efc4aeaa7c39e54a33fdc3c46ee2bd70ae0a09",
+    "nameTag": "xPollinate: Transaction Manager"
+  }
+]

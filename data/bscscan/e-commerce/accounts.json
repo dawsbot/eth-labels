@@ -1,18 +1,14 @@
-{
-  "lastPulled": "2024-04-03T06:29:08.272Z",
-  "length": 3,
-  "data": [
-    {
-      "address": "0x769942d8b20c3e5733e795b256ad5430d2983ec1",
-      "nameTag": "Purchasa: Ecosystem Marketing Locker"
-    },
-    {
-      "address": "0xe4165a65cd78126dd3763eaaa3cfba25103e4c99",
-      "nameTag": "Purchasa: Liquidity Provisions Locker"
-    },
-    {
-      "address": "0xbabc873cbfe56d72582f96150ebc91cd60b8d53b",
-      "nameTag": "The One Heart Platform: MRLY Token"
-    }
-  ]
-}
+[
+  {
+    "address": "0x769942d8b20c3e5733e795b256ad5430d2983ec1",
+    "nameTag": "Purchasa: Ecosystem Marketing Locker"
+  },
+  {
+    "address": "0xe4165a65cd78126dd3763eaaa3cfba25103e4c99",
+    "nameTag": "Purchasa: Liquidity Provisions Locker"
+  },
+  {
+    "address": "0xbabc873cbfe56d72582f96150ebc91cd60b8d53b",
+    "nameTag": "The One Heart Platform: MRLY Token"
+  }
+]

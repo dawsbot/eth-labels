@@ -1,0 +1,54 @@
+[
+  {
+    "address": "0x5b223e6a503ea0dff81d2b691beb437b7fb2c131",
+    "nameTag": "FarmHero: Auction Game"
+  },
+  {
+    "address": "0x00644a85acc298ef9385eccc4d20491dac8b40c8",
+    "nameTag": "FarmHero: Buy-back"
+  },
+  {
+    "address": "0x047e7d6e8f4b6deba0537a7c7e852c4272981075",
+    "nameTag": "FarmHero: Fee Distribution (staking + vesting)"
+  },
+  {
+    "address": "0x5f7a39933e982ef31b02e28481a2afcd9d14e21d",
+    "nameTag": "FarmHero: Fomo Game"
+  },
+  {
+    "address": "0x6afcff9189e8ed3fcc1cffa184feb1276f6a82a5",
+    "nameTag": "FarmHero: HERO (Token)"
+  },
+  {
+    "address": "0x908252d3548b26d691fb39fa808e7554bb8dd2ee",
+    "nameTag": "FarmHero: HONOR NFT"
+  },
+  {
+    "address": "0xbd836e5fe987401e04c629f53b036ebb6adbfeec",
+    "nameTag": "FarmHero: Key (Token)"
+  },
+  {
+    "address": "0x8e5860df653a467d1cc5b6160dd340e8d475724e",
+    "nameTag": "FarmHero: Master Chef (Yield Farm)"
+  },
+  {
+    "address": "0x7307cb81d773ba3bbfba60e2092ddcdb4cf03bd0",
+    "nameTag": "FarmHero: Player Book (referral)"
+  },
+  {
+    "address": "0xc7251ad96df7877afc3c3af533b4227604b5e70a",
+    "nameTag": "FarmHero: Proxy Admin"
+  },
+  {
+    "address": "0x8edf4f4162419359d36aed75b18385eab3937cdb",
+    "nameTag": "FarmHero: Retired Fee Distribution"
+  },
+  {
+    "address": "0x09de73dd716047c4586ec18280af312b1b92fe7c",
+    "nameTag": "FarmHero: Timelock (48 hrs)"
+  },
+  {
+    "address": "0x9c261ff81bab1fe9ef922bf5468d1f610740c6f9",
+    "nameTag": "FarmHero: Utility (Helper Contract for Multicall)"
+  }
+]

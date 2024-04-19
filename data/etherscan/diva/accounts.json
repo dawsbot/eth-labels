@@ -1,17 +1,14 @@
-{
-  "lastPulled": "2024-04-02T20:42:24.201Z",
-  "data": [
-    {
-      "address": "0xbfabde619ed5c4311811cf422562709710db587d",
-      "nameTag": "Diva Staking: DIVA Token"
-    },
-    {
-      "address": "0x1ce8aafb51e79f6bdc0ef2ebd6fd34b00620f6db",
-      "nameTag": "diva: stETH Vault"
-    },
-    {
-      "address": "0x988e94ef74397024c58ade9815e30ee84072463f",
-      "nameTag": "diva: stETH Vault Manager"
-    }
-  ]
-}
+[
+  {
+    "address": "0xbfabde619ed5c4311811cf422562709710db587d",
+    "nameTag": "Diva Staking: DIVA Token"
+  },
+  {
+    "address": "0x1ce8aafb51e79f6bdc0ef2ebd6fd34b00620f6db",
+    "nameTag": "diva: stETH Vault"
+  },
+  {
+    "address": "0x988e94ef74397024c58ade9815e30ee84072463f",
+    "nameTag": "diva: stETH Vault Manager"
+  }
+]

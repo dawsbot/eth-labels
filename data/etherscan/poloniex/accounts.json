@@ -1,85 +1,82 @@
-{
-  "lastPulled": "2024-04-02T20:48:14.030Z",
-  "data": [
-    {
-      "address": "0x32be343b94f860124dc4fee278fdcbd38c102d88",
-      "nameTag": "Poloniex"
-    },
-    {
-      "address": "0x209c4784ab1e8183cf58ca33cb740efbf3fc18ef",
-      "nameTag": "Poloniex 2"
-    },
-    {
-      "address": "0xb794f5ea0ba39494ce839613fffba74279579268",
-      "nameTag": "Poloniex 3"
-    },
-    {
-      "address": "0xa910f92acdaf488fa6ef02174fb86208ad7722ba",
-      "nameTag": "Poloniex 4"
-    },
-    {
-      "address": "0xaa9fa73dfe17ecaa2c89b39f0bb2779613c5fc3b",
-      "nameTag": "Poloniex: BAT"
-    },
-    {
-      "address": "0x2fa2bc2ce6a4f92952921a4caa46b3727d24a1ec",
-      "nameTag": "Poloniex: BNT"
-    },
-    {
-      "address": "0x31a2feb9b5d3b5f4e76c71d6c92fc46ebb3cb1c1",
-      "nameTag": "Poloniex: CVC"
-    },
-    {
-      "address": "0x6b71834d65c5c4d8ed158d54b47e6ea4ff4e5437",
-      "nameTag": "Poloniex: FOAM"
-    },
-    {
-      "address": "0x48d466b7c0d32b61e8a82cd2bcf060f7c3f966df",
-      "nameTag": "Poloniex: GNO"
-    },
-    {
-      "address": "0x0536806df512d6cdde913cf95c9886f65b1d3462",
-      "nameTag": "Poloniex: GNT"
-    },
-    {
-      "address": "0x8d451ae5ee8f557a9ce7a9d7be8a8cb40002d5cb",
-      "nameTag": "Poloniex: KNC"
-    },
-    {
-      "address": "0xbd2ec7c608a06fe975dbdca729e84dedb34ecc21",
-      "nameTag": "Poloniex: LOOM"
-    },
-    {
-      "address": "0xc0e30823e5e628df8bc9bf2636a347e1512f0ecb",
-      "nameTag": "Poloniex: MANA"
-    },
-    {
-      "address": "0x65f9b2e4d7aaeb40ffea8c6f5844d5ad7da257e0",
-      "nameTag": "Poloniex: NXC"
-    },
-    {
-      "address": "0x36b01066b7fa4a0fdb2968ea0256c848e9135674",
-      "nameTag": "Poloniex: OMG"
-    },
-    {
-      "address": "0xab11204cfeaccffa63c2d23aef2ea9accdb0a0d5",
-      "nameTag": "Poloniex: REP"
-    },
-    {
-      "address": "0x6795cf8eb25585eadc356ae32ac6641016c550f2",
-      "nameTag": "Poloniex: SNT"
-    },
-    {
-      "address": "0xfbf2173154f7625713be22e0504404ebfe021eae",
-      "nameTag": "Poloniex: STORJ"
-    },
-    {
-      "address": "0x6f803466bcd17f44fa18975bf7c509ba64bf3825",
-      "nameTag": "Poloniex: USDC"
-    },
-    {
-      "address": "0xead6be34ce315940264519f250d8160f369fa5cd",
-      "nameTag": "Poloniex: ZRX"
-    }
-  ]
-}
+[
+  {
+    "address": "0x32be343b94f860124dc4fee278fdcbd38c102d88",
+    "nameTag": "Poloniex"
+  },
+  {
+    "address": "0x209c4784ab1e8183cf58ca33cb740efbf3fc18ef",
+    "nameTag": "Poloniex 2"
+  },
+  {
+    "address": "0xb794f5ea0ba39494ce839613fffba74279579268",
+    "nameTag": "Poloniex 3"
+  },
+  {
+    "address": "0xa910f92acdaf488fa6ef02174fb86208ad7722ba",
+    "nameTag": "Poloniex 4"
+  },
+  {
+    "address": "0xaa9fa73dfe17ecaa2c89b39f0bb2779613c5fc3b",
+    "nameTag": "Poloniex: BAT"
+  },
+  {
+    "address": "0x2fa2bc2ce6a4f92952921a4caa46b3727d24a1ec",
+    "nameTag": "Poloniex: BNT"
+  },
+  {
+    "address": "0x31a2feb9b5d3b5f4e76c71d6c92fc46ebb3cb1c1",
+    "nameTag": "Poloniex: CVC"
+  },
+  {
+    "address": "0x6b71834d65c5c4d8ed158d54b47e6ea4ff4e5437",
+    "nameTag": "Poloniex: FOAM"
+  },
+  {
+    "address": "0x48d466b7c0d32b61e8a82cd2bcf060f7c3f966df",
+    "nameTag": "Poloniex: GNO"
+  },
+  {
+    "address": "0x0536806df512d6cdde913cf95c9886f65b1d3462",
+    "nameTag": "Poloniex: GNT"
+  },
+  {
+    "address": "0x8d451ae5ee8f557a9ce7a9d7be8a8cb40002d5cb",
+    "nameTag": "Poloniex: KNC"
+  },
+  {
+    "address": "0xbd2ec7c608a06fe975dbdca729e84dedb34ecc21",
+    "nameTag": "Poloniex: LOOM"
+  },
+  {
+    "address": "0xc0e30823e5e628df8bc9bf2636a347e1512f0ecb",
+    "nameTag": "Poloniex: MANA"
+  },
+  {
+    "address": "0x65f9b2e4d7aaeb40ffea8c6f5844d5ad7da257e0",
+    "nameTag": "Poloniex: NXC"
+  },
+  {
+    "address": "0x36b01066b7fa4a0fdb2968ea0256c848e9135674",
+    "nameTag": "Poloniex: OMG"
+  },
+  {
+    "address": "0xab11204cfeaccffa63c2d23aef2ea9accdb0a0d5",
+    "nameTag": "Poloniex: REP"
+  },
+  {
+    "address": "0x6795cf8eb25585eadc356ae32ac6641016c550f2",
+    "nameTag": "Poloniex: SNT"
+  },
+  {
+    "address": "0xfbf2173154f7625713be22e0504404ebfe021eae",
+    "nameTag": "Poloniex: STORJ"
+  },
+  {
+    "address": "0x6f803466bcd17f44fa18975bf7c509ba64bf3825",
+    "nameTag": "Poloniex: USDC"
+  },
+  {
+    "address": "0xead6be34ce315940264519f250d8160f369fa5cd",
+    "nameTag": "Poloniex: ZRX"
+  }
+]

@@ -1,21 +1,18 @@
-{
-  "lastPulled": "2024-04-02T20:48:58.337Z",
-  "data": [
-    {
-      "address": "0x0a9f693fce6f00a51a8e0db4351b5a8078b4242e",
-      "nameTag": "Resfinex Exchange Token"
-    },
-    {
-      "address": "0xefc534c47d753f94944b734d2c546cb1fba8904e",
-      "nameTag": "Resfinex: Founding Team"
-    },
-    {
-      "address": "0xaa9e89b59b5148775b2f1187338aba0efafd5645",
-      "nameTag": "Resfinex: Investor & Partnership"
-    },
-    {
-      "address": "0xec1fdcd732064b02c6a4424e184536dc26a4c948",
-      "nameTag": "Resfinex: Reserve"
-    }
-  ]
-}
+[
+  {
+    "address": "0x0a9f693fce6f00a51a8e0db4351b5a8078b4242e",
+    "nameTag": "Resfinex Exchange Token"
+  },
+  {
+    "address": "0xefc534c47d753f94944b734d2c546cb1fba8904e",
+    "nameTag": "Resfinex: Founding Team"
+  },
+  {
+    "address": "0xaa9e89b59b5148775b2f1187338aba0efafd5645",
+    "nameTag": "Resfinex: Investor & Partnership"
+  },
+  {
+    "address": "0xec1fdcd732064b02c6a4424e184536dc26a4c948",
+    "nameTag": "Resfinex: Reserve"
+  }
+]

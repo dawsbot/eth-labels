@@ -1,93 +1,90 @@
-{
-  "lastPulled": "2024-04-02T21:00:47.313Z",
-  "data": [
-    {
-      "address": "0xe35e9842fceaca96570b734083f4a58e8f7c5f2a",
-      "nameTag": "Across Protocol: Bridge"
-    },
-    {
-      "address": "0xd8c6dd978a3768f7ddfe3a9aad2c3fd75fa9b6fd",
-      "nameTag": "Across Protocol: Deposit Box"
-    },
-    {
-      "address": "0x096760f208390250649e3e8763348e783aef5562",
-      "nameTag": "Arbitrum One: L2 Custom Gateway"
-    },
-    {
-      "address": "0x467194771dae2967aef3ecbedd3bf9a310c76c65",
-      "nameTag": "Arbitrum One: L2 DAI Gateway"
-    },
-    {
-      "address": "0x09e9222e96e7b4ae2a407b98d48e330053351eee",
-      "nameTag": "Arbitrum One: L2 ERC20 Gateway"
-    },
-    {
-      "address": "0x5288c571fd7ad117bea99bf60fe0846c4e84f933",
-      "nameTag": "Arbitrum One: L2 Gateway Router"
-    },
-    {
-      "address": "0x6c411ad3e74de3e7bd422b94a27770f5b86c623b",
-      "nameTag": "Arbitrum One: L2 WETH Gateway"
-    },
-    {
-      "address": "0x1619de6b6b20ed217a58d00f37b9d47c7663feca",
-      "nameTag": "Celer Network: cBridge"
-    },
-    {
-      "address": "0xdd90e5e87a2081dcf0391920868ebc2ffb81a1af",
-      "nameTag": "Celer Network: cBridge 2.0"
-    },
-    {
-      "address": "0x43de2d77bf8027e25dbd179b491e8d64f38398aa",
-      "nameTag": "deBridgeGate"
-    },
-    {
-      "address": "0xe7351fd770a37282b91d153ee690b63579d6dd7f",
-      "nameTag": "Dln: Destination"
-    },
-    {
-      "address": "0x3c2269811836af69497e5f486a85d7316753cf62",
-      "nameTag": "LayerZero: Arbitrum Endpoint"
-    },
-    {
-      "address": "0x82e0b8cdd80af5930c4452c684e71c861148ec8a",
-      "nameTag": "Metamask: Bridge 1"
-    },
-    {
-      "address": "0xc10ef9f491c9b59f936957026020c321651ac078",
-      "nameTag": "Multichain: anyCall V6"
-    },
-    {
-      "address": "0xc931f61b1534eb21d8c11b24f3f5ab2471d4ab50",
-      "nameTag": "Multichain: Router V4"
-    },
-    {
-      "address": "0x650af55d5877f289837c30b94af91538a7504b76",
-      "nameTag": "Multichain: Router V6"
-    },
-    {
-      "address": "0x80c67432656d59144ceff962e8faf8926599bcf8",
-      "nameTag": "Orbiter Finance: Bridge"
-    },
-    {
-      "address": "0xe4edb277e41dc89ab076a1f049f4a3efa700bce8",
-      "nameTag": "Orbiter Finance: Bridge 3"
-    },
-    {
-      "address": "0x3a23f943181408eac424116af7b7790c94cb97a5",
-      "nameTag": "Socket: Gateway"
-    },
-    {
-      "address": "0x6f4e8eba4d337f874ab57478acc2cb5bacdc19c9",
-      "nameTag": "Synapse: Bridge"
-    },
-    {
-      "address": "0x375e9252625bdb10b457909157548e1d047089f9",
-      "nameTag": "Synapse: Bridge Zap"
-    },
-    {
-      "address": "0xcf4d2994088a8cde52fb584fe29608b63ec063b2",
-      "nameTag": "xPollinate: Transaction Manager"
-    }
-  ]
-}
+[
+  {
+    "address": "0xe35e9842fceaca96570b734083f4a58e8f7c5f2a",
+    "nameTag": "Across Protocol: Bridge"
+  },
+  {
+    "address": "0xd8c6dd978a3768f7ddfe3a9aad2c3fd75fa9b6fd",
+    "nameTag": "Across Protocol: Deposit Box"
+  },
+  {
+    "address": "0x096760f208390250649e3e8763348e783aef5562",
+    "nameTag": "Arbitrum One: L2 Custom Gateway"
+  },
+  {
+    "address": "0x467194771dae2967aef3ecbedd3bf9a310c76c65",
+    "nameTag": "Arbitrum One: L2 DAI Gateway"
+  },
+  {
+    "address": "0x09e9222e96e7b4ae2a407b98d48e330053351eee",
+    "nameTag": "Arbitrum One: L2 ERC20 Gateway"
+  },
+  {
+    "address": "0x5288c571fd7ad117bea99bf60fe0846c4e84f933",
+    "nameTag": "Arbitrum One: L2 Gateway Router"
+  },
+  {
+    "address": "0x6c411ad3e74de3e7bd422b94a27770f5b86c623b",
+    "nameTag": "Arbitrum One: L2 WETH Gateway"
+  },
+  {
+    "address": "0x1619de6b6b20ed217a58d00f37b9d47c7663feca",
+    "nameTag": "Celer Network: cBridge"
+  },
+  {
+    "address": "0xdd90e5e87a2081dcf0391920868ebc2ffb81a1af",
+    "nameTag": "Celer Network: cBridge 2.0"
+  },
+  {
+    "address": "0x43de2d77bf8027e25dbd179b491e8d64f38398aa",
+    "nameTag": "deBridgeGate"
+  },
+  {
+    "address": "0xe7351fd770a37282b91d153ee690b63579d6dd7f",
+    "nameTag": "Dln: Destination"
+  },
+  {
+    "address": "0x3c2269811836af69497e5f486a85d7316753cf62",
+    "nameTag": "LayerZero: Arbitrum Endpoint"
+  },
+  {
+    "address": "0x82e0b8cdd80af5930c4452c684e71c861148ec8a",
+    "nameTag": "Metamask: Bridge 1"
+  },
+  {
+    "address": "0xc10ef9f491c9b59f936957026020c321651ac078",
+    "nameTag": "Multichain: anyCall V6"
+  },
+  {
+    "address": "0xc931f61b1534eb21d8c11b24f3f5ab2471d4ab50",
+    "nameTag": "Multichain: Router V4"
+  },
+  {
+    "address": "0x650af55d5877f289837c30b94af91538a7504b76",
+    "nameTag": "Multichain: Router V6"
+  },
+  {
+    "address": "0x80c67432656d59144ceff962e8faf8926599bcf8",
+    "nameTag": "Orbiter Finance: Bridge"
+  },
+  {
+    "address": "0xe4edb277e41dc89ab076a1f049f4a3efa700bce8",
+    "nameTag": "Orbiter Finance: Bridge 3"
+  },
+  {
+    "address": "0x3a23f943181408eac424116af7b7790c94cb97a5",
+    "nameTag": "Socket: Gateway"
+  },
+  {
+    "address": "0x6f4e8eba4d337f874ab57478acc2cb5bacdc19c9",
+    "nameTag": "Synapse: Bridge"
+  },
+  {
+    "address": "0x375e9252625bdb10b457909157548e1d047089f9",
+    "nameTag": "Synapse: Bridge Zap"
+  },
+  {
+    "address": "0xcf4d2994088a8cde52fb584fe29608b63ec063b2",
+    "nameTag": "xPollinate: Transaction Manager"
+  }
+]

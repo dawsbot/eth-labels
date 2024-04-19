@@ -1,45 +1,42 @@
-{
-  "lastPulled": "2024-04-02T20:40:00.800Z",
-  "data": [
-    {
-      "address": "0x00bdb5699745f5b860228c8f939abf1b9ae374ed",
-      "nameTag": "Bitstamp 1"
-    },
-    {
-      "address": "0x1522900b6dafac587d499a862861c0869be6e428",
-      "nameTag": "Bitstamp 2"
-    },
-    {
-      "address": "0x9a9bed3eb03e386d66f8a29dc67dc29bbb1ccb72",
-      "nameTag": "Bitstamp 3"
-    },
-    {
-      "address": "0x059799f2261d37b829c2850cee67b5b975432271",
-      "nameTag": "Bitstamp 4"
-    },
-    {
-      "address": "0x4c766def136f59f6494f0969b1355882080cf8e0",
-      "nameTag": "Bitstamp 5"
-    },
-    {
-      "address": "0xc5b611f502a0dcf6c3188fd494061ae29b2baa4f",
-      "nameTag": "Bitstamp 6"
-    },
-    {
-      "address": "0x0b0f7ebf967146566799229394171fc47f1a765a",
-      "nameTag": "Bitstamp 7"
-    },
-    {
-      "address": "0x964771f6df31eea2d927fa71d7bd78e81bcdce05",
-      "nameTag": "Bitstamp: Contract 1"
-    },
-    {
-      "address": "0x538d72ded42a76a30f730292da939e0577f22f57",
-      "nameTag": "Bitstamp: Deployer"
-    },
-    {
-      "address": "0xfca70e67b3f93f679992cd36323eeb5a5370c8e4",
-      "nameTag": "Bitstamp: Old Address 1"
-    }
-  ]
-}
+[
+  {
+    "address": "0x00bdb5699745f5b860228c8f939abf1b9ae374ed",
+    "nameTag": "Bitstamp 1"
+  },
+  {
+    "address": "0x1522900b6dafac587d499a862861c0869be6e428",
+    "nameTag": "Bitstamp 2"
+  },
+  {
+    "address": "0x9a9bed3eb03e386d66f8a29dc67dc29bbb1ccb72",
+    "nameTag": "Bitstamp 3"
+  },
+  {
+    "address": "0x059799f2261d37b829c2850cee67b5b975432271",
+    "nameTag": "Bitstamp 4"
+  },
+  {
+    "address": "0x4c766def136f59f6494f0969b1355882080cf8e0",
+    "nameTag": "Bitstamp 5"
+  },
+  {
+    "address": "0xc5b611f502a0dcf6c3188fd494061ae29b2baa4f",
+    "nameTag": "Bitstamp 6"
+  },
+  {
+    "address": "0x0b0f7ebf967146566799229394171fc47f1a765a",
+    "nameTag": "Bitstamp 7"
+  },
+  {
+    "address": "0x964771f6df31eea2d927fa71d7bd78e81bcdce05",
+    "nameTag": "Bitstamp: Contract 1"
+  },
+  {
+    "address": "0x538d72ded42a76a30f730292da939e0577f22f57",
+    "nameTag": "Bitstamp: Deployer"
+  },
+  {
+    "address": "0xfca70e67b3f93f679992cd36323eeb5a5370c8e4",
+    "nameTag": "Bitstamp: Old Address 1"
+  }
+]

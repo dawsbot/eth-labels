@@ -1,29 +1,26 @@
-{
-  "lastPulled": "2024-04-02T20:57:37.790Z",
-  "data": [
-    {
-      "address": "0x685723b9dc89bdf28ba5f98f9a8c0ac899bd6e77",
-      "nameTag": "Jarvis Network: Deployer"
-    },
-    {
-      "address": "0x9f46a936be9114bd2f71965a87c003341448b47e",
-      "nameTag": "Jarvis Network: JARVIS Token"
-    },
-    {
-      "address": "0x1574564fcfd15bccb3fe04e9818f61131ea74066",
-      "nameTag": "Jarvis Network: JARVIS Token 2"
-    },
-    {
-      "address": "0x79af5dd14e855823fa3e9ecacdf001d99647d043",
-      "nameTag": "Jarvis Network: jEUR Token"
-    },
-    {
-      "address": "0x15e770b95edd73fd96b02ece0266247d50895e76",
-      "nameTag": "Jarvis Network: JRT Token"
-    },
-    {
-      "address": "0xc31249ba48763df46388ba5c4e7565d62ed4801c",
-      "nameTag": "Jarvis Network: Liquidity Provision"
-    }
-  ]
-}
+[
+  {
+    "address": "0x685723b9...899bd6e77",
+    "nameTag": "Jarvis Network: Deployer"
+  },
+  {
+    "address": "0x9f46a936...41448b47e",
+    "nameTag": "Jarvis Network: JARVIS Token"
+  },
+  {
+    "address": "0x1574564f...31ea74066",
+    "nameTag": "Jarvis Network: JARVIS Token 2"
+  },
+  {
+    "address": "0x79af5dd1...99647d043",
+    "nameTag": "Jarvis Network: jEUR Token"
+  },
+  {
+    "address": "0x15e770b9...d50895e76",
+    "nameTag": "Jarvis Network: JRT Token"
+  },
+  {
+    "address": "0xc31249ba...62ed4801c",
+    "nameTag": "Jarvis Network: Liquidity Provision"
+  }
+]

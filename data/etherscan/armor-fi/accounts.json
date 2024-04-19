@@ -1,57 +1,54 @@
-{
-  "lastPulled": "2024-04-02T20:38:45.243Z",
-  "data": [
-    {
-      "address": "0xd7b8ef47c08f824cea3d837afa61484e81d14bfb",
-      "nameTag": "Armor.fi: ARMOR/DAI 1inch LP"
-    },
-    {
-      "address": "0xa659e66e116d354e779d8dbb35319af67171ffb4",
-      "nameTag": "Armor.fi: ARMOR/DAI Uni LP"
-    },
-    {
-      "address": "0x01acad2228f18598cd2b8611acd37992bf27313c",
-      "nameTag": "Armor.fi: ARMOR/WBTC Uni LP"
-    },
-    {
-      "address": "0xf991f1e1b8acd657661c89b5cd452d86de76a8c1",
-      "nameTag": "Armor.fi: ARMOR/WETH Uni LP"
-    },
-    {
-      "address": "0x1337def1670c54b2a70e590b5654c2b7ce1141a2",
-      "nameTag": "Armor.fi: arNFT Staking Contract"
-    },
-    {
-      "address": "0xfdf5709d44b26a7dd112556dd1b1ce53c0eaf454",
-      "nameTag": "Armor.fi: ETH/ARMOR 1inch LP"
-    },
-    {
-      "address": "0x1337def159da6f97db7c4d0e257dc689837b9e70",
-      "nameTag": "Armor.fi: FarmController"
-    },
-    {
-      "address": "0x0bdb7976c34ab05e5a9031f258b8956f68ee29cf",
-      "nameTag": "Armor.fi: FarmController Master"
-    },
-    {
-      "address": "0x1f28ed9d4792a567dad779235c2b766ab84d8e33",
-      "nameTag": "Armor.fi: MultiSig"
-    },
-    {
-      "address": "0xeff1cdc3cc01afab104b00a7d9cd09619b94ae8f",
-      "nameTag": "Armor.fi: Referral Rewards Master"
-    },
-    {
-      "address": "0x1337def1c79053da23921a3634adbd12f3b748a5",
-      "nameTag": "Armor.fi: Referral Rewards Proxy"
-    },
-    {
-      "address": "0x1337def1b1ae35314b40e5a4b70e216a499b0e37",
-      "nameTag": "Armor.fi: Rewards Vault"
-    },
-    {
-      "address": "0x1337def11d788e62a253fea846a505ee1b57623f",
-      "nameTag": "Armor.fi: Timelock"
-    }
-  ]
-}
+[
+  {
+    "address": "0xd7b8ef47c08f824cea3d837afa61484e81d14bfb",
+    "nameTag": "Armor.fi: ARMOR/DAI 1inch LP"
+  },
+  {
+    "address": "0xa659e66e116d354e779d8dbb35319af67171ffb4",
+    "nameTag": "Armor.fi: ARMOR/DAI Uni LP"
+  },
+  {
+    "address": "0x01acad2228f18598cd2b8611acd37992bf27313c",
+    "nameTag": "Armor.fi: ARMOR/WBTC Uni LP"
+  },
+  {
+    "address": "0xf991f1e1b8acd657661c89b5cd452d86de76a8c1",
+    "nameTag": "Armor.fi: ARMOR/WETH Uni LP"
+  },
+  {
+    "address": "0x1337def1670c54b2a70e590b5654c2b7ce1141a2",
+    "nameTag": "Armor.fi: arNFT Staking Contract"
+  },
+  {
+    "address": "0xfdf5709d44b26a7dd112556dd1b1ce53c0eaf454",
+    "nameTag": "Armor.fi: ETH/ARMOR 1inch LP"
+  },
+  {
+    "address": "0x1337def159da6f97db7c4d0e257dc689837b9e70",
+    "nameTag": "Armor.fi: FarmController"
+  },
+  {
+    "address": "0x0bdb7976c34ab05e5a9031f258b8956f68ee29cf",
+    "nameTag": "Armor.fi: FarmController Master"
+  },
+  {
+    "address": "0x1f28ed9d4792a567dad779235c2b766ab84d8e33",
+    "nameTag": "Armor.fi: MultiSig"
+  },
+  {
+    "address": "0xeff1cdc3cc01afab104b00a7d9cd09619b94ae8f",
+    "nameTag": "Armor.fi: Referral Rewards Master"
+  },
+  {
+    "address": "0x1337def1c79053da23921a3634adbd12f3b748a5",
+    "nameTag": "Armor.fi: Referral Rewards Proxy"
+  },
+  {
+    "address": "0x1337def1b1ae35314b40e5a4b70e216a499b0e37",
+    "nameTag": "Armor.fi: Rewards Vault"
+  },
+  {
+    "address": "0x1337def11d788e62a253fea846a505ee1b57623f",
+    "nameTag": "Armor.fi: Timelock"
+  }
+]

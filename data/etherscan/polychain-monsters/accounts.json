@@ -1,21 +1,18 @@
-{
-  "lastPulled": "2024-04-02T20:48:14.977Z",
-  "data": [
-    {
-      "address": "0x5803a83be1fe01738b0bb3a289e9f82ce49003e3",
-      "nameTag": "Polychain Monsters: Deployer"
-    },
-    {
-      "address": "0x74deaed9ae13343ea84ced59b977bbc0b0c81812",
-      "nameTag": "Polychain Monsters: Deployer 1"
-    },
-    {
-      "address": "0x1796ae0b0fa4862485106a0de9b654efe301d0b2",
-      "nameTag": "Polychain Monsters: PMON Token"
-    },
-    {
-      "address": "0x85f0e02cb992aa1f9f47112f815f519ef1a59e2d",
-      "nameTag": "Polychain Monsters: PMONC Token"
-    }
-  ]
-}
+[
+  {
+    "address": "0x5803a83be1fe01738b0bb3a289e9f82ce49003e3",
+    "nameTag": "Polychain Monsters: Deployer"
+  },
+  {
+    "address": "0x74deaed9ae13343ea84ced59b977bbc0b0c81812",
+    "nameTag": "Polychain Monsters: Deployer 1"
+  },
+  {
+    "address": "0x1796ae0b0fa4862485106a0de9b654efe301d0b2",
+    "nameTag": "Polychain Monsters: PMON Token"
+  },
+  {
+    "address": "0x85f0e02cb992aa1f9f47112f815f519ef1a59e2d",
+    "nameTag": "Polychain Monsters: PMONC Token"
+  }
+]

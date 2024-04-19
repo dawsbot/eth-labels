@@ -1,10 +1,6 @@
-{
-  "lastPulled": "2024-04-03T06:28:35.841Z",
-  "length": 1,
-  "data": [
-    {
-      "address": "0x865109a3eb981b2be9f66cbbc78653ba09e79128",
-      "nameTag": "Multichain: anyPOTS Token"
-    }
-  ]
-}
+[
+  {
+    "address": "0x865109a3eb981b2be9f66cbbc78653ba09e79128",
+    "nameTag": "Multichain: anyPOTS Token"
+  }
+]

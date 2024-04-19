@@ -1,161 +1,152 @@
-{
-  "lastPulled": "2024-04-02T20:46:18.440Z",
-  "data": [
-    {
-      "address": "0x3d7f0933ac403773d219cf0519de8082946dc10f",
-      "nameTag": ""
-    },
-    {
-      "address": "0x5c08b51ddbe8ba76e07be79975906c39aef2893a",
-      "nameTag": ""
-    },
-    {
-      "address": "0xf99d58e463a2e07e5692127302c20a191861b4d6",
-      "nameTag": "AnySwap: ANY Token"
-    },
-    {
-      "address": "0x51600b0cff6bbf79e7767158c41fd15e968ec404",
-      "nameTag": "Multichain: anyBTC Token"
-    },
-    {
-      "address": "0xc10ef9f491c9b59f936957026020c321651ac078",
-      "nameTag": "Multichain: anyCall V6"
-    },
-    {
-      "address": "0x739ca6d71365a08f584c8fc4e1029045fa8abc4b",
-      "nameTag": "Multichain: anyDAI Token"
-    },
-    {
-      "address": "0x2ac03bf434db503f6f5f85c3954773731fc3f056",
-      "nameTag": "Multichain: anyETH"
-    },
-    {
-      "address": "0x979aca85ba37c675e78322ed5d97fa980b9bdf00",
-      "nameTag": "Multichain: anyFSN Token"
-    },
-    {
-      "address": "0x0abcfbfa8e3fda8b7fba18721caf7d5cf55cf5f5",
-      "nameTag": "Multichain: anyLTC Token"
-    },
-    {
-      "address": "0x54f5a04417e29ff5d7141a6d33cb286f50d5d50e",
-      "nameTag": "Multichain: Anyswap Create2"
-    },
-    {
-      "address": "0x7ea2be2df7ba6e54b1a9c70676f668455e329d29",
-      "nameTag": "Multichain: anyUSDC Token"
-    },
-    {
-      "address": "0x22648c12acd87912ea1710357b1302c6a4154ebc",
-      "nameTag": "Multichain: anyUSDT Token"
-    },
-    {
-      "address": "0xfc7cc7c7e7985316d23104b9689c511134f59bc8",
-      "nameTag": "Multichain: Astar Bridge"
-    },
-    {
-      "address": "0x13b432914a996b0a48695df9b2d701eda45ff264",
-      "nameTag": "Multichain: BNB Bridge"
-    },
-    {
-      "address": "0x4464fc279180045b1f57beacfa0d82e9cd4235cd",
-      "nameTag": "Multichain: Deployer 1"
-    },
-    {
-      "address": "0x49addc76569402cf893c015ac69a177aaf4e822b",
-      "nameTag": "Multichain: Deployer 2"
-    },
-    {
-      "address": "0x8132d337977f8d145a7b9cfac393df123c0f0e43",
-      "nameTag": "Multichain: Deployer 3"
-    },
-    {
-      "address": "0xa80f73b93526ef992b52e3998bb103a0a8f2359d",
-      "nameTag": "Multichain: Deployer 5"
-    },
-    {
-      "address": "0xe19105463d6fe2f2bd86c69ad478f4b76ce49c53",
-      "nameTag": "Multichain: Executor 2"
-    },
-    {
-      "address": "0xc564ee9f21ed8a2d8e7e76c085740d5e4c5fafbe",
-      "nameTag": "Multichain: Fantom Bridge"
-    },
-    {
-      "address": "0x87bcb3038988ca2a89605ffa8f237fb78df1c3ae",
-      "nameTag": "Multichain: Fuse Bridge"
-    },
-    {
-      "address": "0x46290b0c3a234e3d538050d8f34421797532a827",
-      "nameTag": "Multichain: Fusion Bridge"
-    },
-    {
-      "address": "0xd779967f8b511c5edf39115341b310022900efed",
-      "nameTag": "Multichain: Huobi Bridge"
-    },
-    {
-      "address": "0x923e0a17f49fb03d936f2af2d59d379c615f5447",
-      "nameTag": "Multichain: KCC Bridge"
-    },
-    {
-      "address": "0xec4486a90371c9b66f499ff3936f29f0d5af8b7e",
-      "nameTag": "Multichain: Moonbeam Bridge"
-    },
-    {
-      "address": "0x10c6b61dbf44a083aec3780acf769c77be747e23",
-      "nameTag": "Multichain: Moonriver Bridge"
-    },
-    {
-      "address": "0xe4cf417081a0ab3f964b44d904bc2b534351a9a7",
-      "nameTag": "Multichain: Oasis Network Bridge"
-    },
-    {
-      "address": "0x533e3c0e6b48010873b947bddc4721b1bdff9648",
-      "nameTag": "Multichain: Old BSC Bridge"
-    },
-    {
-      "address": "0xe95fd76cf16008c12ff3b3a937cb16cd9cc20284",
-      "nameTag": "Multichain: Router V3"
-    },
-    {
-      "address": "0x6b7a87899490ece95443e979ca9485cbe7e71522",
-      "nameTag": "Multichain: Router V4"
-    },
-    {
-      "address": "0x765277eebeca2e31912c9946eae1021199b39c61",
-      "nameTag": "Multichain: Router V4 2"
-    },
-    {
-      "address": "0xba8da9dcf11b50b03fd5284f164ef5cdef910705",
-      "nameTag": "Multichain: Router V6"
-    },
-    {
-      "address": "0x1633d66ca91ce4d81f63ea047b7b19beb92df7f3",
-      "nameTag": "Multichain: Router V7"
-    },
-    {
-      "address": "0x4e67df0f232c3bc985f8a63326d80ce3d9a40400",
-      "nameTag": "Multichain: Shiden Network Bridge"
-    },
-    {
-      "address": "0x8cc49fe67a4bd7a15674c4ffd4e969d94304bbbf",
-      "nameTag": "Multichain: Syscoin Bridge"
-    },
-    {
-      "address": "0x57ed6bd35a6ce815079855cd0b21331d1d5d0a0e",
-      "nameTag": "Multichain: Telos Bridge"
-    },
-    {
-      "address": "0xcdd83050f045ab31b884f0dc49581bc7b3e0b84c",
-      "nameTag": "Multichain: Velas Bridge"
-    },
-    {
-      "address": "0xb153fb3d196a8eb25522705560ac152eeec57901",
-      "nameTag": "Multichain: Wrapped Ether"
-    },
-    {
-      "address": "0x1722800c0f1bfdf916ef948ef7790a861e90d558",
-      "nameTag": "multiDAO"
-    }
-  ]
-}
+[
+  { "address": "0x3d7f0933ac403773d219cf0519de8082946dc10f", "nameTag": "" },
+  { "address": "0x5c08b51ddbe8ba76e07be79975906c39aef2893a", "nameTag": "" },
+  {
+    "address": "0xf99d58e463a2e07e5692127302c20a191861b4d6",
+    "nameTag": "AnySwap: ANY Token"
+  },
+  {
+    "address": "0x51600b0cff6bbf79e7767158c41fd15e968ec404",
+    "nameTag": "Multichain: anyBTC Token"
+  },
+  {
+    "address": "0xc10ef9f491c9b59f936957026020c321651ac078",
+    "nameTag": "Multichain: anyCall V6"
+  },
+  {
+    "address": "0x739ca6d71365a08f584c8fc4e1029045fa8abc4b",
+    "nameTag": "Multichain: anyDAI Token"
+  },
+  {
+    "address": "0x2ac03bf434db503f6f5f85c3954773731fc3f056",
+    "nameTag": "Multichain: anyETH"
+  },
+  {
+    "address": "0x979aca85ba37c675e78322ed5d97fa980b9bdf00",
+    "nameTag": "Multichain: anyFSN Token"
+  },
+  {
+    "address": "0x0abcfbfa8e3fda8b7fba18721caf7d5cf55cf5f5",
+    "nameTag": "Multichain: anyLTC Token"
+  },
+  {
+    "address": "0x54f5a04417e29ff5d7141a6d33cb286f50d5d50e",
+    "nameTag": "Multichain: Anyswap Create2"
+  },
+  {
+    "address": "0x7ea2be2df7ba6e54b1a9c70676f668455e329d29",
+    "nameTag": "Multichain: anyUSDC Token"
+  },
+  {
+    "address": "0x22648c12acd87912ea1710357b1302c6a4154ebc",
+    "nameTag": "Multichain: anyUSDT Token"
+  },
+  {
+    "address": "0xfc7cc7c7e7985316d23104b9689c511134f59bc8",
+    "nameTag": "Multichain: Astar Bridge"
+  },
+  {
+    "address": "0x13b432914a996b0a48695df9b2d701eda45ff264",
+    "nameTag": "Multichain: BNB Bridge"
+  },
+  {
+    "address": "0x4464fc279180045b1f57beacfa0d82e9cd4235cd",
+    "nameTag": "Multichain: Deployer 1"
+  },
+  {
+    "address": "0x49addc76569402cf893c015ac69a177aaf4e822b",
+    "nameTag": "Multichain: Deployer 2"
+  },
+  {
+    "address": "0x8132d337977f8d145a7b9cfac393df123c0f0e43",
+    "nameTag": "Multichain: Deployer 3"
+  },
+  {
+    "address": "0xa80f73b93526ef992b52e3998bb103a0a8f2359d",
+    "nameTag": "Multichain: Deployer 5"
+  },
+  {
+    "address": "0xe19105463d6fe2f2bd86c69ad478f4b76ce49c53",
+    "nameTag": "Multichain: Executor 2"
+  },
+  {
+    "address": "0xc564ee9f21ed8a2d8e7e76c085740d5e4c5fafbe",
+    "nameTag": "Multichain: Fantom Bridge"
+  },
+  {
+    "address": "0x87bcb3038988ca2a89605ffa8f237fb78df1c3ae",
+    "nameTag": "Multichain: Fuse Bridge"
+  },
+  {
+    "address": "0x46290b0c3a234e3d538050d8f34421797532a827",
+    "nameTag": "Multichain: Fusion Bridge"
+  },
+  {
+    "address": "0xd779967f8b511c5edf39115341b310022900efed",
+    "nameTag": "Multichain: Huobi Bridge"
+  },
+  {
+    "address": "0x923e0a17f49fb03d936f2af2d59d379c615f5447",
+    "nameTag": "Multichain: KCC Bridge"
+  },
+  {
+    "address": "0xec4486a90371c9b66f499ff3936f29f0d5af8b7e",
+    "nameTag": "Multichain: Moonbeam Bridge"
+  },
+  {
+    "address": "0x10c6b61dbf44a083aec3780acf769c77be747e23",
+    "nameTag": "Multichain: Moonriver Bridge"
+  },
+  {
+    "address": "0xe4cf417081a0ab3f964b44d904bc2b534351a9a7",
+    "nameTag": "Multichain: Oasis Network Bridge"
+  },
+  {
+    "address": "0x533e3c0e6b48010873b947bddc4721b1bdff9648",
+    "nameTag": "Multichain: Old BSC Bridge"
+  },
+  {
+    "address": "0xe95fd76cf16008c12ff3b3a937cb16cd9cc20284",
+    "nameTag": "Multichain: Router V3"
+  },
+  {
+    "address": "0x6b7a87899490ece95443e979ca9485cbe7e71522",
+    "nameTag": "Multichain: Router V4"
+  },
+  {
+    "address": "0x765277eebeca2e31912c9946eae1021199b39c61",
+    "nameTag": "Multichain: Router V4 2"
+  },
+  {
+    "address": "0xba8da9dcf11b50b03fd5284f164ef5cdef910705",
+    "nameTag": "Multichain: Router V6"
+  },
+  {
+    "address": "0x1633d66ca91ce4d81f63ea047b7b19beb92df7f3",
+    "nameTag": "Multichain: Router V7"
+  },
+  {
+    "address": "0x4e67df0f232c3bc985f8a63326d80ce3d9a40400",
+    "nameTag": "Multichain: Shiden Network Bridge"
+  },
+  {
+    "address": "0x8cc49fe67a4bd7a15674c4ffd4e969d94304bbbf",
+    "nameTag": "Multichain: Syscoin Bridge"
+  },
+  {
+    "address": "0x57ed6bd35a6ce815079855cd0b21331d1d5d0a0e",
+    "nameTag": "Multichain: Telos Bridge"
+  },
+  {
+    "address": "0xcdd83050f045ab31b884f0dc49581bc7b3e0b84c",
+    "nameTag": "Multichain: Velas Bridge"
+  },
+  {
+    "address": "0xb153fb3d196a8eb25522705560ac152eeec57901",
+    "nameTag": "Multichain: Wrapped Ether"
+  },
+  {
+    "address": "0x1722800c0f1bfdf916ef948ef7790a861e90d558",
+    "nameTag": "multiDAO"
+  }
+]

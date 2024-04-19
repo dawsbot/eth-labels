@@ -1,69 +1,66 @@
-{
-  "lastPulled": "2024-04-02T20:51:30.262Z",
-  "data": [
-    {
-      "address": "0x1ff21eca1c3ba96ed53783ab9c92ffbf77862584",
-      "nameTag": "Ambisafe Operations"
-    },
-    {
-      "address": "0x556be6cedc08ab4364ecef47f999be1bac293f23",
-      "nameTag": "Unibright: Carbonara Lockup"
-    },
-    {
-      "address": "0xc745342761267cd82c7772499312d54afd98eada",
-      "nameTag": "Unibright: Client Company 2 Lockup"
-    },
-    {
-      "address": "0x595272235ba0951e5d7fbd41350e30bb17bea16a",
-      "nameTag": "Unibright: Client Company Lockup"
-    },
-    {
-      "address": "0xb71b8e95af3c10d386a31015ed9125a8e2c2a276",
-      "nameTag": "Unibright: Client ProofOfConcept Lockup"
-    },
-    {
-      "address": "0x9952166fca1f6410c8f30b76f411bdf4257710fd",
-      "nameTag": "Unibright: Client Study Lockup"
-    },
-    {
-      "address": "0xf55fcbaf097158adae280bef309b8ad03e551d74",
-      "nameTag": "Unibright: Deep Dive Workshop Supply Chain Lockup"
-    },
-    {
-      "address": "0x62588aa3e37042c186cb40fa4d0a6b105fa34e20",
-      "nameTag": "Unibright: Deployer"
-    },
-    {
-      "address": "0xafbbc7359d4489a8b6b8d96053c2d013f7418edc",
-      "nameTag": "Unibright: EMINENT / EEA / Baseline Lockup"
-    },
-    {
-      "address": "0x32540a276fb2a63b4922ae5b12d277211dd54833",
-      "nameTag": "Unibright: First Touch and Small Workshops Lockup"
-    },
-    {
-      "address": "0x147aea1ac5ef81ba60e910ddb1aa71498944251b",
-      "nameTag": "Unibright: Large Workshop Custodian Lockup"
-    },
-    {
-      "address": "0xc50bb7840a5ad8424eb1e6553efff3f31bab2f76",
-      "nameTag": "Unibright: Large Workshop Real Estate Lockup"
-    },
-    {
-      "address": "0x1717fccaed27e1196a26f0e94ab8102ed8c83f54",
-      "nameTag": "Unibright: Large Workshop STO Lockup"
-    },
-    {
-      "address": "0x37b0897c0f3b48a423a4a351cec02e33f0df973f",
-      "nameTag": "Unibright: Medium Workshop Track & Trace Lockup"
-    },
-    {
-      "address": "0x587eaf1c867b26e074aa047852013db99a0a5f82",
-      "nameTag": "Unibright: UB Demo Lockup"
-    },
-    {
-      "address": "0x8400d94a5cb0fa0d041a3788e395285d61c9ee5e",
-      "nameTag": "Unibright: UBT Token"
-    }
-  ]
-}
+[
+  {
+    "address": "0x1ff21eca1c3ba96ed53783ab9c92ffbf77862584",
+    "nameTag": "Ambisafe Operations"
+  },
+  {
+    "address": "0x556be6cedc08ab4364ecef47f999be1bac293f23",
+    "nameTag": "Unibright: Carbonara Lockup"
+  },
+  {
+    "address": "0xc745342761267cd82c7772499312d54afd98eada",
+    "nameTag": "Unibright: Client Company 2 Lockup"
+  },
+  {
+    "address": "0x595272235ba0951e5d7fbd41350e30bb17bea16a",
+    "nameTag": "Unibright: Client Company Lockup"
+  },
+  {
+    "address": "0xb71b8e95af3c10d386a31015ed9125a8e2c2a276",
+    "nameTag": "Unibright: Client ProofOfConcept Lockup"
+  },
+  {
+    "address": "0x9952166fca1f6410c8f30b76f411bdf4257710fd",
+    "nameTag": "Unibright: Client Study Lockup"
+  },
+  {
+    "address": "0xf55fcbaf097158adae280bef309b8ad03e551d74",
+    "nameTag": "Unibright: Deep Dive Workshop Supply Chain Lockup"
+  },
+  {
+    "address": "0x62588aa3e37042c186cb40fa4d0a6b105fa34e20",
+    "nameTag": "Unibright: Deployer"
+  },
+  {
+    "address": "0xafbbc7359d4489a8b6b8d96053c2d013f7418edc",
+    "nameTag": "Unibright: EMINENT / EEA / Baseline Lockup"
+  },
+  {
+    "address": "0x32540a276fb2a63b4922ae5b12d277211dd54833",
+    "nameTag": "Unibright: First Touch and Small Workshops Lockup"
+  },
+  {
+    "address": "0x147aea1ac5ef81ba60e910ddb1aa71498944251b",
+    "nameTag": "Unibright: Large Workshop Custodian Lockup"
+  },
+  {
+    "address": "0xc50bb7840a5ad8424eb1e6553efff3f31bab2f76",
+    "nameTag": "Unibright: Large Workshop Real Estate Lockup"
+  },
+  {
+    "address": "0x1717fccaed27e1196a26f0e94ab8102ed8c83f54",
+    "nameTag": "Unibright: Large Workshop STO Lockup"
+  },
+  {
+    "address": "0x37b0897c0f3b48a423a4a351cec02e33f0df973f",
+    "nameTag": "Unibright: Medium Workshop Track & Trace Lockup"
+  },
+  {
+    "address": "0x587eaf1c867b26e074aa047852013db99a0a5f82",
+    "nameTag": "Unibright: UB Demo Lockup"
+  },
+  {
+    "address": "0x8400d94a5cb0fa0d041a3788e395285d61c9ee5e",
+    "nameTag": "Unibright: UBT Token"
+  }
+]

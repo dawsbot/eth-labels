@@ -1,14 +1,10 @@
-{
-  "lastPulled": "2024-04-03T06:21:58.855Z",
-  "length": 2,
-  "data": [
-    {
-      "address": "0x2a32b627621408a92b230f26faefd3ce81e29c20",
-      "nameTag": "Nova: NBK Liquidity"
-    },
-    {
-      "address": "0xb4eb2a636a5d2160573d4473bd0f99b963e95e8c",
-      "nameTag": "Nova: Operations"
-    }
-  ]
-}
+[
+  {
+    "address": "0x2a32b627621408a92b230f26faefd3ce81e29c20",
+    "nameTag": "Nova: NBK Liquidity"
+  },
+  {
+    "address": "0xb4eb2a636a5d2160573d4473bd0f99b963e95e8c",
+    "nameTag": "Nova: Operations"
+  }
+]

@@ -1,209 +1,206 @@
-{
-  "lastPulled": "2024-04-02T20:38:54.151Z",
-  "data": [
-    {
-      "address": "0xb3ed706b564bba9cab64042f4e1b391be7bebce5",
-      "nameTag": "Augmented Finance Token: AGF Token"
-    },
-    {
-      "address": "0x7592c85e1b0c652735264f3b59eda9fc4a8f727b",
-      "nameTag": "Augmented Finance: Addresses Provider Registry"
-    },
-    {
-      "address": "0x3c6de73585586c919f533717d28f8259d2fc7207",
-      "nameTag": "Augmented Finance: agvUSDC Borrow Variable Rate"
-    },
-    {
-      "address": "0x8c44f8e4b360a3dbd7fc5ee7136922efc0c155d6",
-      "nameTag": "Augmented Finance: agvUSDT Borrow Variable Rate"
-    },
-    {
-      "address": "0x14972103a5f5f41c099aa85457f61d7ddf3908b5",
-      "nameTag": "Augmented Finance: agvWBTC Borrow Variable Rate"
-    },
-    {
-      "address": "0x0b5b915c7e2aa392e59717c0a63d3d42d4a9f112",
-      "nameTag": "Augmented Finance: agvWETH Borrow Variable Rate"
-    },
-    {
-      "address": "0x9276635ec39c72866f3cf70298efe501eb5dcdf1",
-      "nameTag": "Augmented Finance: Lending Pool"
-    },
-    {
-      "address": "0x9f60c2b23ff29610318cbc9386c22def81d773db",
-      "nameTag": "Augmented Finance: Lending Pool Configurator"
-    },
-    {
-      "address": "0xe6a15b35daf7b07fc1c2340e87ba8bb3907875b7",
-      "nameTag": "Augmented Finance: Lending Rate Oracle"
-    },
-    {
-      "address": "0xc6f769a0c46cffa57d91e87ed3bc0cd338ce6361",
-      "nameTag": "Augmented Finance: Market Access Controller"
-    },
-    {
-      "address": "0xfe1fc5b9689a71f6d83b28710bf331b57a5d0590",
-      "nameTag": "Augmented Finance: Oracle Router"
-    },
-    {
-      "address": "0xd25c4a0b0c088dc8d501e4292cf28da6829023c0",
-      "nameTag": "Augmented Finance: Protocol Data Provider"
-    },
-    {
-      "address": "0x9c4479864632456298fd80faec4b0ba94d5e42f0",
-      "nameTag": "Augmented Finance: Referral Registry"
-    },
-    {
-      "address": "0xd5fc057194472d82e515ccacee976625ca9bde90",
-      "nameTag": "Augmented Finance: Reward controller"
-    },
-    {
-      "address": "0x774961cce0a8053fbf5b745231dab2878887c395",
-      "nameTag": "Augmented Finance: Stable Debt DAI"
-    },
-    {
-      "address": "0xf7433a50b136ad4a57d6fce5cd949ed4a3d5d033",
-      "nameTag": "Augmented Finance: Stable Debt USDC"
-    },
-    {
-      "address": "0x01455b220a79d8295455b72f70f910d44f747a1d",
-      "nameTag": "Augmented Finance: Stable Debt USDT"
-    },
-    {
-      "address": "0xfaaf18e9fe739cdf5230b37cf3692b1909fcf6da",
-      "nameTag": "Augmented Finance: Stable Debt WBTC"
-    },
-    {
-      "address": "0x14aa3f35e5167d774416eb3353812c4827a0f387",
-      "nameTag": "Augmented Finance: Stable Debt WETH"
-    },
-    {
-      "address": "0xf9fcb157f2f86a34762d42c4685d4d010f02226e",
-      "nameTag": "Augmented Finance: Stake configurator"
-    },
-    {
-      "address": "0xddca3420e4db83746a547216271ef3928aa3f141",
-      "nameTag": "Augmented Finance: Stake DAI"
-    },
-    {
-      "address": "0x039b8f6c4ab5d61f6f656730ef95abe9875e4567",
-      "nameTag": "Augmented Finance: Stake Uni v2 AGF-ETH"
-    },
-    {
-      "address": "0x48c51152929e035b1fb4bc10a1a2a07363e5f42c",
-      "nameTag": "Augmented Finance: Stake Uni v2 AGF-ETH 2"
-    },
-    {
-      "address": "0x0c0d37e12583bb752a9670266df707b7a1e4e014",
-      "nameTag": "Augmented Finance: Stake USDC"
-    },
-    {
-      "address": "0xeedc7c75974f73355c84933b6ecf97f29c35e881",
-      "nameTag": "Augmented Finance: Stake USDT"
-    },
-    {
-      "address": "0x04c7966aac97e04deaa3b592cd3399a38dd5d5fc",
-      "nameTag": "Augmented Finance: Stake WBTC"
-    },
-    {
-      "address": "0x07dee4c654a7c50c1d5341cccf7af39f4ef8ae38",
-      "nameTag": "Augmented Finance: Stake WETH"
-    },
-    {
-      "address": "0xe59b9bea09e2f69efb4fa78fd8debfc9c78d9cc1",
-      "nameTag": "Augmented Finance: Static Price Oracle"
-    },
-    {
-      "address": "0x76cf0d6b66df22d963445178bc9fca54faa802eb",
-      "nameTag": "Augmented Finance: Supply aDAI"
-    },
-    {
-      "address": "0xd8396eebc91d1eae556ab4aa8474c6fd138bb270",
-      "nameTag": "Augmented Finance: Supply aUSDC"
-    },
-    {
-      "address": "0xd62fb73ba682adb9f949492f7a1bf65c09cfba2b",
-      "nameTag": "Augmented Finance: Supply aUSDT"
-    },
-    {
-      "address": "0xa264f1969de80a42f414ae39fdfa24df372992ac",
-      "nameTag": "Augmented Finance: Supply aWBTC"
-    },
-    {
-      "address": "0x3d5470f6247e003ea214fbeb8492755e0783bcca",
-      "nameTag": "Augmented Finance: Supply aWETH"
-    },
-    {
-      "address": "0x8fdda8fe65ed74f48f79eb4c1420b5533db9c048",
-      "nameTag": "Augmented Finance: Supply cDAI"
-    },
-    {
-      "address": "0xeab30c88986bcbb85a6be01b2da93b0465312c89",
-      "nameTag": "Augmented Finance: Supply cUSDC"
-    },
-    {
-      "address": "0xc33c93184a4f137df689cd91f10ca8aea5b95131",
-      "nameTag": "Augmented Finance: Supply cUSDT"
-    },
-    {
-      "address": "0xe56695938b6dbd0fb691156a3c5031bd00216b49",
-      "nameTag": "Augmented Finance: Supply cWBTC"
-    },
-    {
-      "address": "0x0afc9e01418ed39240679cee1a382f83cf8a6e89",
-      "nameTag": "Augmented Finance: Supply cWETH"
-    },
-    {
-      "address": "0x277ea9dce3abb2377142036a6ed81070dca4f204",
-      "nameTag": "Augmented Finance: Supply DAI"
-    },
-    {
-      "address": "0x1dadd1e4c06e50df13c53197f5a193a5a3792a39",
-      "nameTag": "Augmented Finance: Supply USDC"
-    },
-    {
-      "address": "0x79167b30ae9d49194ed9fdcdc011b22ed1bf0ae1",
-      "nameTag": "Augmented Finance: Supply USDT"
-    },
-    {
-      "address": "0x3621506cd4b70818848392d01837e20e3edd5340",
-      "nameTag": "Augmented Finance: Supply WBTC"
-    },
-    {
-      "address": "0xe9b34288d5d8ac7d93c392542b418e99cedefa89",
-      "nameTag": "Augmented Finance: Supply WETH"
-    },
-    {
-      "address": "0x824eb5a64024f7204c01cd2bcc31561a5182a829",
-      "nameTag": "Augmented Finance: Treasury"
-    },
-    {
-      "address": "0x3b0b4787a01591daf1bac616465167e9f7dcd18e",
-      "nameTag": "Augmented Finance: WETH Gateway"
-    },
-    {
-      "address": "0x34a20ccbdaed980ed971e8f6f9dd642fb8b3bf9b",
-      "nameTag": "Augmented Finance: xagDAI Stake"
-    },
-    {
-      "address": "0x55e8c9903e6bfb6561b507d986846253187b7e81",
-      "nameTag": "Augmented Finance: xAGF Token"
-    },
-    {
-      "address": "0x9b770715efc65030ddb5ed0719bb00654232a88c",
-      "nameTag": "Augmented Finance: xagUSDC Stake"
-    },
-    {
-      "address": "0x8f13a2f19d0c18b894835101f03ab3abd3f09248",
-      "nameTag": "Augmented Finance: xagUSDT Stake"
-    },
-    {
-      "address": "0xacf637999e062375561d2134be3e4c15a3c58ad7",
-      "nameTag": "Augmented Finance: xagWBTC Stake"
-    },
-    {
-      "address": "0x6e282b89b6d4d336852dc5c94689944a73cc6b58",
-      "nameTag": "Augmented Finance: xagWETH Stake"
-    }
-  ]
-}
+[
+  {
+    "address": "0xb3ed706b564bba9cab64042f4e1b391be7bebce5",
+    "nameTag": "Augmented Finance Token: AGF Token"
+  },
+  {
+    "address": "0x7592c85e1b0c652735264f3b59eda9fc4a8f727b",
+    "nameTag": "Augmented Finance: Addresses Provider Registry"
+  },
+  {
+    "address": "0x3c6de73585586c919f533717d28f8259d2fc7207",
+    "nameTag": "Augmented Finance: agvUSDC Borrow Variable Rate"
+  },
+  {
+    "address": "0x8c44f8e4b360a3dbd7fc5ee7136922efc0c155d6",
+    "nameTag": "Augmented Finance: agvUSDT Borrow Variable Rate"
+  },
+  {
+    "address": "0x14972103a5f5f41c099aa85457f61d7ddf3908b5",
+    "nameTag": "Augmented Finance: agvWBTC Borrow Variable Rate"
+  },
+  {
+    "address": "0x0b5b915c7e2aa392e59717c0a63d3d42d4a9f112",
+    "nameTag": "Augmented Finance: agvWETH Borrow Variable Rate"
+  },
+  {
+    "address": "0x9276635ec39c72866f3cf70298efe501eb5dcdf1",
+    "nameTag": "Augmented Finance: Lending Pool"
+  },
+  {
+    "address": "0x9f60c2b23ff29610318cbc9386c22def81d773db",
+    "nameTag": "Augmented Finance: Lending Pool Configurator"
+  },
+  {
+    "address": "0xe6a15b35daf7b07fc1c2340e87ba8bb3907875b7",
+    "nameTag": "Augmented Finance: Lending Rate Oracle"
+  },
+  {
+    "address": "0xc6f769a0c46cffa57d91e87ed3bc0cd338ce6361",
+    "nameTag": "Augmented Finance: Market Access Controller"
+  },
+  {
+    "address": "0xfe1fc5b9689a71f6d83b28710bf331b57a5d0590",
+    "nameTag": "Augmented Finance: Oracle Router"
+  },
+  {
+    "address": "0xd25c4a0b0c088dc8d501e4292cf28da6829023c0",
+    "nameTag": "Augmented Finance: Protocol Data Provider"
+  },
+  {
+    "address": "0x9c4479864632456298fd80faec4b0ba94d5e42f0",
+    "nameTag": "Augmented Finance: Referral Registry"
+  },
+  {
+    "address": "0xd5fc057194472d82e515ccacee976625ca9bde90",
+    "nameTag": "Augmented Finance: Reward controller"
+  },
+  {
+    "address": "0x774961cce0a8053fbf5b745231dab2878887c395",
+    "nameTag": "Augmented Finance: Stable Debt DAI"
+  },
+  {
+    "address": "0xf7433a50b136ad4a57d6fce5cd949ed4a3d5d033",
+    "nameTag": "Augmented Finance: Stable Debt USDC"
+  },
+  {
+    "address": "0x01455b220a79d8295455b72f70f910d44f747a1d",
+    "nameTag": "Augmented Finance: Stable Debt USDT"
+  },
+  {
+    "address": "0xfaaf18e9fe739cdf5230b37cf3692b1909fcf6da",
+    "nameTag": "Augmented Finance: Stable Debt WBTC"
+  },
+  {
+    "address": "0x14aa3f35e5167d774416eb3353812c4827a0f387",
+    "nameTag": "Augmented Finance: Stable Debt WETH"
+  },
+  {
+    "address": "0xf9fcb157f2f86a34762d42c4685d4d010f02226e",
+    "nameTag": "Augmented Finance: Stake configurator"
+  },
+  {
+    "address": "0xddca3420e4db83746a547216271ef3928aa3f141",
+    "nameTag": "Augmented Finance: Stake DAI"
+  },
+  {
+    "address": "0x039b8f6c4ab5d61f6f656730ef95abe9875e4567",
+    "nameTag": "Augmented Finance: Stake Uni v2 AGF-ETH"
+  },
+  {
+    "address": "0x48c51152929e035b1fb4bc10a1a2a07363e5f42c",
+    "nameTag": "Augmented Finance: Stake Uni v2 AGF-ETH 2"
+  },
+  {
+    "address": "0x0c0d37e12583bb752a9670266df707b7a1e4e014",
+    "nameTag": "Augmented Finance: Stake USDC"
+  },
+  {
+    "address": "0xeedc7c75974f73355c84933b6ecf97f29c35e881",
+    "nameTag": "Augmented Finance: Stake USDT"
+  },
+  {
+    "address": "0x04c7966aac97e04deaa3b592cd3399a38dd5d5fc",
+    "nameTag": "Augmented Finance: Stake WBTC"
+  },
+  {
+    "address": "0x07dee4c654a7c50c1d5341cccf7af39f4ef8ae38",
+    "nameTag": "Augmented Finance: Stake WETH"
+  },
+  {
+    "address": "0xe59b9bea09e2f69efb4fa78fd8debfc9c78d9cc1",
+    "nameTag": "Augmented Finance: Static Price Oracle"
+  },
+  {
+    "address": "0x76cf0d6b66df22d963445178bc9fca54faa802eb",
+    "nameTag": "Augmented Finance: Supply aDAI"
+  },
+  {
+    "address": "0xd8396eebc91d1eae556ab4aa8474c6fd138bb270",
+    "nameTag": "Augmented Finance: Supply aUSDC"
+  },
+  {
+    "address": "0xd62fb73ba682adb9f949492f7a1bf65c09cfba2b",
+    "nameTag": "Augmented Finance: Supply aUSDT"
+  },
+  {
+    "address": "0xa264f1969de80a42f414ae39fdfa24df372992ac",
+    "nameTag": "Augmented Finance: Supply aWBTC"
+  },
+  {
+    "address": "0x3d5470f6247e003ea214fbeb8492755e0783bcca",
+    "nameTag": "Augmented Finance: Supply aWETH"
+  },
+  {
+    "address": "0x8fdda8fe65ed74f48f79eb4c1420b5533db9c048",
+    "nameTag": "Augmented Finance: Supply cDAI"
+  },
+  {
+    "address": "0xeab30c88986bcbb85a6be01b2da93b0465312c89",
+    "nameTag": "Augmented Finance: Supply cUSDC"
+  },
+  {
+    "address": "0xc33c93184a4f137df689cd91f10ca8aea5b95131",
+    "nameTag": "Augmented Finance: Supply cUSDT"
+  },
+  {
+    "address": "0xe56695938b6dbd0fb691156a3c5031bd00216b49",
+    "nameTag": "Augmented Finance: Supply cWBTC"
+  },
+  {
+    "address": "0x0afc9e01418ed39240679cee1a382f83cf8a6e89",
+    "nameTag": "Augmented Finance: Supply cWETH"
+  },
+  {
+    "address": "0x277ea9dce3abb2377142036a6ed81070dca4f204",
+    "nameTag": "Augmented Finance: Supply DAI"
+  },
+  {
+    "address": "0x1dadd1e4c06e50df13c53197f5a193a5a3792a39",
+    "nameTag": "Augmented Finance: Supply USDC"
+  },
+  {
+    "address": "0x79167b30ae9d49194ed9fdcdc011b22ed1bf0ae1",
+    "nameTag": "Augmented Finance: Supply USDT"
+  },
+  {
+    "address": "0x3621506cd4b70818848392d01837e20e3edd5340",
+    "nameTag": "Augmented Finance: Supply WBTC"
+  },
+  {
+    "address": "0xe9b34288d5d8ac7d93c392542b418e99cedefa89",
+    "nameTag": "Augmented Finance: Supply WETH"
+  },
+  {
+    "address": "0x824eb5a64024f7204c01cd2bcc31561a5182a829",
+    "nameTag": "Augmented Finance: Treasury"
+  },
+  {
+    "address": "0x3b0b4787a01591daf1bac616465167e9f7dcd18e",
+    "nameTag": "Augmented Finance: WETH Gateway"
+  },
+  {
+    "address": "0x34a20ccbdaed980ed971e8f6f9dd642fb8b3bf9b",
+    "nameTag": "Augmented Finance: xagDAI Stake"
+  },
+  {
+    "address": "0x55e8c9903e6bfb6561b507d986846253187b7e81",
+    "nameTag": "Augmented Finance: xAGF Token"
+  },
+  {
+    "address": "0x9b770715efc65030ddb5ed0719bb00654232a88c",
+    "nameTag": "Augmented Finance: xagUSDC Stake"
+  },
+  {
+    "address": "0x8f13a2f19d0c18b894835101f03ab3abd3f09248",
+    "nameTag": "Augmented Finance: xagUSDT Stake"
+  },
+  {
+    "address": "0xacf637999e062375561d2134be3e4c15a3c58ad7",
+    "nameTag": "Augmented Finance: xagWBTC Stake"
+  },
+  {
+    "address": "0x6e282b89b6d4d336852dc5c94689944a73cc6b58",
+    "nameTag": "Augmented Finance: xagWETH Stake"
+  }
+]

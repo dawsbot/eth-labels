@@ -1,22 +1,18 @@
-{
-  "lastPulled": "2024-04-03T06:29:19.243Z",
-  "length": 4,
-  "data": [
-    {
-      "address": "0xfbb465c31e334dd1a3cf03c0fe151b683805eb12",
-      "nameTag": "Kawaii Islands: Ecosystem"
-    },
-    {
-      "address": "0xfe657a3b05eabb062c9df2d34f1bb2001425730d",
-      "nameTag": "P12 Arcana: Reward Distributor"
-    },
-    {
-      "address": "0xec45f47a6a7d86fe407ca38f428029a8bd4ae7a6",
-      "nameTag": "RXCGames: Bankroll"
-    },
-    {
-      "address": "0x4e9e93de65f5daf77ce2a43cc338d3c357675027",
-      "nameTag": "The Game DAO: Daily Draws"
-    }
-  ]
-}
+[
+  {
+    "address": "0xfbb465c31e334dd1a3cf03c0fe151b683805eb12",
+    "nameTag": "Kawaii Islands: Ecosystem"
+  },
+  {
+    "address": "0xfe657a3b05eabb062c9df2d34f1bb2001425730d",
+    "nameTag": "P12 Arcana: Reward Distributor"
+  },
+  {
+    "address": "0xec45f47a6a7d86fe407ca38f428029a8bd4ae7a6",
+    "nameTag": "RXCGames: Bankroll"
+  },
+  {
+    "address": "0x4e9e93de65f5daf77ce2a43cc338d3c357675027",
+    "nameTag": "The Game DAO: Daily Draws"
+  }
+]

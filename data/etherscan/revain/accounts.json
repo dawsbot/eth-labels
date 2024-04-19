@@ -1,29 +1,26 @@
-{
-  "lastPulled": "2024-04-02T20:49:02.572Z",
-  "data": [
-    {
-      "address": "0xcc7888a7fc1f96ae9bd740d9ae8d3e2eca2fb15d",
-      "nameTag": "Revain: Deployer"
-    },
-    {
-      "address": "0x0d95096d10dc3f7d9a6e583381a56ee69913e87a",
-      "nameTag": "Revain: Deployer 2"
-    },
-    {
-      "address": "0x70bda7012c99d102896104de25addc4a1aaf5ce4",
-      "nameTag": "Revain: Deployer 3"
-    },
-    {
-      "address": "0x48f775efbe4f5ece6e0df2f7b5932df56823b990",
-      "nameTag": "Revain: Old R Token"
-    },
-    {
-      "address": "0xb28cebab1858de30411169b4e53d0d5a0bbdd1e2",
-      "nameTag": "Revain: RBN Token"
-    },
-    {
-      "address": "0x2ef52ed7de8c5ce03a4ef0efbe9b7450f2d7edc9",
-      "nameTag": "Revain: REV Token"
-    }
-  ]
-}
+[
+  {
+    "address": "0xcc7888a7fc1f96ae9bd740d9ae8d3e2eca2fb15d",
+    "nameTag": "Revain: Deployer"
+  },
+  {
+    "address": "0x0d95096d10dc3f7d9a6e583381a56ee69913e87a",
+    "nameTag": "Revain: Deployer 2"
+  },
+  {
+    "address": "0x70bda7012c99d102896104de25addc4a1aaf5ce4",
+    "nameTag": "Revain: Deployer 3"
+  },
+  {
+    "address": "0x48f775efbe4f5ece6e0df2f7b5932df56823b990",
+    "nameTag": "Revain: Old R Token"
+  },
+  {
+    "address": "0xb28cebab1858de30411169b4e53d0d5a0bbdd1e2",
+    "nameTag": "Revain: RBN Token"
+  },
+  {
+    "address": "0x2ef52ed7de8c5ce03a4ef0efbe9b7450f2d7edc9",
+    "nameTag": "Revain: REV Token"
+  }
+]

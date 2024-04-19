@@ -1,18 +1,14 @@
-{
-  "lastPulled": "2024-04-03T06:28:20.202Z",
-  "length": 3,
-  "data": [
-    {
-      "address": "0xdef1c0ded9bec7f1a1670819833240f027b25eff",
-      "nameTag": "0x: Exchange Proxy"
-    },
-    {
-      "address": "0xdb6f1920a889355780af7570773609bd8cb1f498",
-      "nameTag": "0x: Exchange Proxy Flash Wallet"
-    },
-    {
-      "address": "0xccc9769c1a58766e79423a34b2cc5052d65c1983",
-      "nameTag": "0x: Exchange Proxy Governor"
-    }
-  ]
-}
+[
+  {
+    "address": "0xdef1c0ded9bec7f1a1670819833240f027b25eff",
+    "nameTag": "0x: Exchange Proxy"
+  },
+  {
+    "address": "0xdb6f1920a889355780af7570773609bd8cb1f498",
+    "nameTag": "0x: Exchange Proxy Flash Wallet"
+  },
+  {
+    "address": "0xccc9769c1a58766e79423a34b2cc5052d65c1983",
+    "nameTag": "0x: Exchange Proxy Governor"
+  }
+]

@@ -1,0 +1,379 @@
+[
+  { "address": "0x8dfd29720bc7d6d665d9c085a04d5521be74729f", "nameTag": "" },
+  {
+    "address": "0x7734280a4337f37fbf4651073db7c28c80b339e9",
+    "nameTag": "Aave: Collector V2"
+  },
+  {
+    "address": "0x357d51124f59836ded84c8a1730d72b749d8bc23",
+    "nameTag": "Aave: Incentives Controller V2"
+  },
+  {
+    "address": "0xd05e3e715d945b59290df0ae8ef85c1bdb684744",
+    "nameTag": "Aave: Lending Pool Address Provider V2"
+  },
+  {
+    "address": "0x3ac4e9aa29940770aec38fe853a4bbabb2da9c19",
+    "nameTag": "Aave: Lending Pool Address Registry V2"
+  },
+  {
+    "address": "0xa39599424642d9fd35e475ef802eddf798dc555b",
+    "nameTag": "Aave: Lending Pool Collateral Manager V2"
+  },
+  {
+    "address": "0x26db2b833021583566323e3b8985999981b9f1f3",
+    "nameTag": "Aave: Lending Pool Configurator V2"
+  },
+  {
+    "address": "0x8dff5e27ea6b7ac08ebfdf9eb090f32ee9a30fcf",
+    "nameTag": "Aave: Lending Pool V2"
+  },
+  {
+    "address": "0x17f73aead876cc4059089ff815eda37052960dfb",
+    "nameTag": "Aave: Lending Rate Oracle V2"
+  },
+  {
+    "address": "0x0229f777b0fab107f9591a41d5f02e4e98db6f2d",
+    "nameTag": "Aave: Price Oracle V2"
+  },
+  {
+    "address": "0x7551b5d2763519d4e37e8b81929d336de671d46d",
+    "nameTag": "Aave: Protocol Data Provider V2"
+  },
+  {
+    "address": "0xbeadf48d62acc944a06eeae0a9054a90e5a7dc97",
+    "nameTag": "Aave: WETH Gateway V2"
+  },
+  {
+    "address": "0xcf083be4164828f00cae704ec15a36d711491284",
+    "nameTag": "ApeSwap: Ape Factory V2"
+  },
+  {
+    "address": "0xc0788a3ad43d79aa53b09c2eacc313a787d1d607",
+    "nameTag": "ApeSwap: Ape Router V2"
+  },
+  {
+    "address": "0x54aff400858dcac39797a81894d9920f16972d1d",
+    "nameTag": "ApeSwap: Mini Ape V2"
+  },
+  {
+    "address": "0x1f234b1b83e21cb5e2b99b4e498fe70ef2d6e3bf",
+    "nameTag": "ApeSwap: Mini Complex Rewarder Time"
+  },
+  {
+    "address": "0x37ac7de40a6fd71fd1559aa00f154e8dcb72efdb",
+    "nameTag": "ApeSwap: Vault Ape"
+  },
+  {
+    "address": "0x90249ed4d69d70e709ffcd8bee2c5a566f65dade",
+    "nameTag": "AugustusSwapper by ParaSwap"
+  },
+  {
+    "address": "0x7c5a661069a25e94a71e03c75a58d7cf765c2c75",
+    "nameTag": "Autofarm: Router"
+  },
+  {
+    "address": "0x0a63d3910ffc1529190e80e10855c4216407cc45",
+    "nameTag": "BOB: USDC - BOB 0.01% Uniswap V3 pool"
+  },
+  {
+    "address": "0xe7fb3e833efe5f9c441105eb65ef8b261266423b",
+    "nameTag": "DFYN Network: Swap V2 Factory"
+  },
+  {
+    "address": "0x631e885028e75fcbb34c06d8ecb8e20ea18f6632",
+    "nameTag": "Gains Network : Aggregator"
+  },
+  {
+    "address": "0xf0a8531505f96b8decce7857ca3ab57490f44a40",
+    "nameTag": "Gains Network : GNS Timelock Manager"
+  },
+  {
+    "address": "0x322e18fdb5d0b0221e4724dcc5883c4b7896da0e",
+    "nameTag": "Gains Network : GNS Timelock Owner"
+  },
+  {
+    "address": "0xdbcd002f96f62781bbe65fbe24f4d6265d416bad",
+    "nameTag": "Gains Network : Proxy Admin"
+  },
+  {
+    "address": "0xaee4d11a16b2bc65edd6416fb626eb404a6d65bd",
+    "nameTag": "Gains Network: GFarm Storage"
+  },
+  {
+    "address": "0xd285f881886505b9ef6684e1aaa7949a56b0c7da",
+    "nameTag": "Gains Network: GFarm Token Migration"
+  },
+  {
+    "address": "0x3470756e5b490a974bc25feeeeb24c11102f5268",
+    "nameTag": "Gains Network: GNS NFT rewards"
+  },
+  {
+    "address": "0xee7442accc1c27f2c69423576d3b1d25b563e977",
+    "nameTag": "Gains Network: GNS Pair Infos"
+  },
+  {
+    "address": "0x6e5326e944f528c243b9ca5d14fe5c9269a8c922",
+    "nameTag": "Gains Network: GNS Pairs storage"
+  },
+  {
+    "address": "0x151757c2e830c467b28fe6c09c3174b6c76aa0c5",
+    "nameTag": "Gains Network: GNS Pool"
+  },
+  {
+    "address": "0x0f9498b1206bf9ffde2a2321fdb56f573a052425",
+    "nameTag": "Gains Network: GNS Referrals"
+  },
+  {
+    "address": "0xfb06a737f549eb2512eb6082a808fc7f16c0819d",
+    "nameTag": "Gains Network: GNS Staking"
+  },
+  {
+    "address": "0xfc28bb5f103fbfae241f07bdbe4196c5bc8fbea4",
+    "nameTag": "Gains Network: GToken Locked Deposit"
+  },
+  {
+    "address": "0x8d687276543b92819f2f2b5c3faad4ad27f4440c",
+    "nameTag": "Gains Network: GToken Open Feed"
+  },
+  {
+    "address": "0x65187fec6ecc4774c1f632c7503466d5b4353db1",
+    "nameTag": "Gains Network: Trading"
+  },
+  {
+    "address": "0x3e00fe643337a0f4e345539096ca01e6b8d4374a",
+    "nameTag": "InsurAce Protocol: Cover"
+  },
+  {
+    "address": "0x7d8c3f38c8545a770d57c8043d54e5715b1c584e",
+    "nameTag": "InsurAce Protocol: Reward Controller"
+  },
+  {
+    "address": "0xd2171abb60d2994cf9acb767f2116cf47bbf596f",
+    "nameTag": "InsurAce Protocol: Stakers Pool V2"
+  },
+  {
+    "address": "0xd50e8ce9d5c1f5228bcc77e318907bb4960578ef",
+    "nameTag": "InsurAce Protocol: Staking V2 Controller"
+  },
+  {
+    "address": "0x15b86941861ca790d20f4a9575765e3c96f7df38",
+    "nameTag": "Lucky Number: Genesis Pool"
+  },
+  {
+    "address": "0x388c0625d96b81153a8fccbccdaa39225c2df5e7",
+    "nameTag": "Lucky Number: Reward Pool"
+  },
+  {
+    "address": "0x606af64e16bf85f587e9ac27fa2e8461c5258321",
+    "nameTag": "Market Protocol: Beefy LP Master Price Oracle V2"
+  },
+  {
+    "address": "0x00cb8686a4ddcb60565f8a0f1a10307ec1d91b58",
+    "nameTag": "Market Protocol: Chainlink Price Oracle V2"
+  },
+  {
+    "address": "0xb1205172aadaad4c67318ea77a34c1f1caa784ee",
+    "nameTag": "Market Protocol: Fee Distributor"
+  },
+  {
+    "address": "0x29535b9035500827fff73206e17a3d16635a1b48",
+    "nameTag": "Market Protocol: Fuse Safe Liquidator"
+  },
+  {
+    "address": "0x5a8a67541c024916b83943f4a1cec372f3826daa",
+    "nameTag": "Market Protocol: Lens V3"
+  },
+  {
+    "address": "0xf64d2699d30aa02e139a2ca3c2e86d6a889a4ce4",
+    "nameTag": "Market Protocol: Lens V3 Paginate"
+  },
+  {
+    "address": "0xa2a1cb88d86a939a37770fe5e9530e8700dee56b",
+    "nameTag": "Market Protocol: Pool Directory"
+  },
+  {
+    "address": "0xcc5f01efd5647c77861ce15c923731f9e27e3132",
+    "nameTag": "Market Protocol: Preferred Price Oracle USDC V2"
+  },
+  {
+    "address": "0x05b70fb5477a93be33822bfb31fdaf2c171970df",
+    "nameTag": "Mayan: Swap Bridge"
+  },
+  {
+    "address": "0xe95dc4d81a4707884e7db4a53954763b36cb45ae",
+    "nameTag": "Mimo Capital: Access Controller"
+  },
+  {
+    "address": "0xa802ee4bd9f449295adb6d73f65118352420758a",
+    "nameTag": "Mimo Capital: Address Provider"
+  },
+  {
+    "address": "0xcae2cae9a4384b196c0f1bae59724e0eb9a347e0",
+    "nameTag": "Mimo Capital: Config Provider"
+  },
+  {
+    "address": "0xc7d868954009df558ac5fd54032f2b6fb6ef926c",
+    "nameTag": "Mimo Capital: Debt Notifier"
+  },
+  {
+    "address": "0x313d1d48430721370ecc57262a7664e375a347fb",
+    "nameTag": "Mimo Capital: Fee Distributor"
+  },
+  {
+    "address": "0x2489df1f40bca6dba1554aafecc237bbc6d0453c",
+    "nameTag": "Mimo Capital: Governance Address Provider"
+  },
+  {
+    "address": "0x57896e135f845301c706f643506629493b6660ab",
+    "nameTag": "Mimo Capital: Liquidation Manager"
+  },
+  {
+    "address": "0x6fb6a0a35b33e230d0149d49858e1a313a2ad4a7",
+    "nameTag": "Mimo Capital: MIMO Buy Back"
+  },
+  {
+    "address": "0xf6298bf14a1feeddefeb756799e89b5291bc0cdd",
+    "nameTag": "Mimo Capital: PAR Miner"
+  },
+  {
+    "address": "0x1f4d9879327e2ecc488ccc49566286c844af6f2c",
+    "nameTag": "Mimo Capital: Price Feed"
+  },
+  {
+    "address": "0x74419ec5ed2f745bece0d4e4118db2f33eb88367",
+    "nameTag": "Mimo Capital: Rates Manager"
+  },
+  {
+    "address": "0x03175c19cb1d30fa6060331a9ec181e04cac6ab0",
+    "nameTag": "Mimo Capital: Vaults Core"
+  },
+  {
+    "address": "0x2d49e60555d0372be23e2b24aeb3e5ea55dcb417",
+    "nameTag": "Mimo Capital: Vaults Core State"
+  },
+  {
+    "address": "0xde1996189ee1857d79f1f2bebe2a4a2b200bcb44",
+    "nameTag": "Mimo Capital: Vaultss Data Provider"
+  },
+  {
+    "address": "0x32aba856dc5ffd5a56bcd182b13380e5c855aa29",
+    "nameTag": "mStabke: imUSD Vault"
+  },
+  {
+    "address": "0x4a268958bc2f0173cdd8e0981c4c0a259b5ca291",
+    "nameTag": "mStable: Feeder Interest Validator"
+  },
+  {
+    "address": "0x9f1c06cc13edc7691a2cf02e31faaa64d57867e2",
+    "nameTag": "mStable: Liquidator"
+  },
+  {
+    "address": "0xc425fd9ed3c892d849c9e1a971516da1c1b29696",
+    "nameTag": "mStable: mUSD/FRAX Farm"
+  },
+  {
+    "address": "0xb30a907084ac8a0d25dddab4e364827406fd09f0",
+    "nameTag": "mStable: mUSD/FRAX Feeder Pool"
+  },
+  {
+    "address": "0x299081f52738a4204c3d58264ff44f6f333c6c88",
+    "nameTag": "mStable: Saving"
+  },
+  {
+    "address": "0x10bfccae079f31c451033798a4fd9d2c33ea5487",
+    "nameTag": "mStable: Saving Manager"
+  },
+  {
+    "address": "0x6eee6060f715257b970700bc2656de21dedf074c",
+    "nameTag": "Superfluid: CFA V1"
+  },
+  {
+    "address": "0x3e14dc1b13c488a8d5d310918780c983bd5982e7",
+    "nameTag": "Superfluid: Host"
+  },
+  {
+    "address": "0xb0aabba4b2783a72c52956cdef62d438eca2d7a1",
+    "nameTag": "Superfluid: IDA V1"
+  },
+  {
+    "address": "0xe0cc76334405ee8b39213e620587d815967af39c",
+    "nameTag": "Superfluid: Resolver"
+  },
+  {
+    "address": "0x15f0ca26781c3852f8166ed2ebce5d18265cceb7",
+    "nameTag": "Superfluid: Super Fluid Loader V1"
+  },
+  {
+    "address": "0x2c90719f25b10fc5646c82da3240c76fa5bccf34",
+    "nameTag": "Superfluid: Super Token Factory"
+  },
+  {
+    "address": "0x6aeaee5fd4d05a741723d752d30ee4d72690a8f7",
+    "nameTag": "Superfluid: TOGA"
+  },
+  {
+    "address": "0x286c02c93f3cf48bb759a93756779a1c78bcf833",
+    "nameTag": "Tetu: Announcer"
+  },
+  {
+    "address": "0x5cc44d1787afb510f563fe55fd082d3d4d720671",
+    "nameTag": "Tetu: Auto Rewarder"
+  },
+  {
+    "address": "0x0a0846c978a56d6ea9d2602eeb8f977b21f3207f",
+    "nameTag": "Tetu: Book Keeper"
+  },
+  {
+    "address": "0xca9c8fba773caafe19e6140ec0a7a54d996030da",
+    "nameTag": "Tetu: Contract Reader"
+  },
+  {
+    "address": "0x6678814c273d5088114b6e40cc49c8db04f9bc29",
+    "nameTag": "Tetu: Controller"
+  },
+  {
+    "address": "0xacee7bd17e7b04f7e48b29c0c91af67758394f0f",
+    "nameTag": "Tetu: dxTETU Diamond Vault Token"
+  },
+  {
+    "address": "0xd3a69bfac779ae0d97ae7c4f1bb77d2be6c2b943",
+    "nameTag": "Tetu: Forwarder V2"
+  },
+  {
+    "address": "0x7ad5935ea295c4e743e4f2f5b4cda951f41223c2",
+    "nameTag": "Tetu: Fund Keeper"
+  },
+  {
+    "address": "0xfe700d523094cc6c673d78f1446ae0743c89586e",
+    "nameTag": "Tetu: Liquidity Balancer"
+  },
+  {
+    "address": "0x81367059892aa1d8503a79a0af9254dd0a09afbf",
+    "nameTag": "Tetu: Mint Helper"
+  },
+  {
+    "address": "0x560471ab39c3eb26d63ab3b2a5b9835764c998ea",
+    "nameTag": "Tetu: Notify Helper"
+  },
+  {
+    "address": "0x9accc3016c0ce34e1d127849a18df4bd6ecb7ab3",
+    "nameTag": "Tetu: Payroll Clerk"
+  },
+  {
+    "address": "0x690a41ab256046df39fadd3f32f6d26cb4490bed",
+    "nameTag": "Tetu: Reward Calculator"
+  },
+  {
+    "address": "0x684d8c187be836171a1af8d533e4724893031828",
+    "nameTag": "Tetu: TetuSwap Factory"
+  },
+  {
+    "address": "0x736fd9eabb15776a3adfea1b975c868f72a29d14",
+    "nameTag": "Tetu: TetuSwap Router"
+  },
+  {
+    "address": "0x225084d30cc297f3b177d9f93f5c3ab8fb6a1454",
+    "nameTag": "Tetu: xTETU Profit Share Token"
+  }
+]

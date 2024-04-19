@@ -1,13 +1,10 @@
-{
-  "lastPulled": "2024-04-02T22:23:13.024Z",
-  "data": [
-    {
-      "address": "0xbf2952b759a70250caa53d9d7f910cd985cbf6aa",
-      "nameTag": "Mask On: NFT Donation"
-    },
-    {
-      "address": "0x3ec9f2a4c604eab2cb19740d82aa3bbf322a4afc",
-      "nameTag": "Mask On: USDT Donation"
-    }
-  ]
-}
+[
+  {
+    "address": "0xbf2952b759a70250caa53d9d7f910cd985cbf6aa",
+    "nameTag": "Mask On: NFT Donation"
+  },
+  {
+    "address": "0x3ec9f2a4c604eab2cb19740d82aa3bbf322a4afc",
+    "nameTag": "Mask On: USDT Donation"
+  }
+]

@@ -1,45 +1,42 @@
-{
-  "lastPulled": "2024-04-02T20:54:30.411Z",
-  "data": [
-    {
-      "address": "0x98ef32edd24e2c92525e59afc4475c1242a30184",
-      "nameTag": "Aura: Booster Lite"
-    },
-    {
-      "address": "0x0f0ddad80025adf6c5ca45905237e5ca12b755fc",
-      "nameTag": "Aura: Booster Owner"
-    },
-    {
-      "address": "0xc83da60a38a4163790b159345493101d72782549",
-      "nameTag": "Aura: Bridge Sender"
-    },
-    {
-      "address": "0x5a5094e2a2a4c1b48a6630138a3b1076ec00b10d",
-      "nameTag": "Aura: Claim Zap"
-    },
-    {
-      "address": "0x53c09096b1dc52e2ef223b2969a714ee75da364f",
-      "nameTag": "Aura: Create2Factory"
-    },
-    {
-      "address": "0x37aa9ad9744d0686df1c7053225e700ce13e31dd",
-      "nameTag": "Aura: Keeper Multicall"
-    },
-    {
-      "address": "0x8b2970c237656d3895588b99a8bfe977d5618201",
-      "nameTag": "Aura: L2 Coordinator"
-    },
-    {
-      "address": "0xf24074a1a6ad620adc14745f9cc1fb1e7ba6ca71",
-      "nameTag": "Aura: Pool Manager Lite"
-    },
-    {
-      "address": "0x955384f4bd3e5049335aa287035379c1c693130e",
-      "nameTag": "Aura: Protocol Multi-sig"
-    },
-    {
-      "address": "0xc181edc719480bd089b94647c2dc504e2700a2b0",
-      "nameTag": "Aura: Voter Proxy Lite"
-    }
-  ]
-}
+[
+  {
+    "address": "0x98ef32edd24e2c92525e59afc4475c1242a30184",
+    "nameTag": "Aura: Booster Lite"
+  },
+  {
+    "address": "0x0f0ddad80025adf6c5ca45905237e5ca12b755fc",
+    "nameTag": "Aura: Booster Owner"
+  },
+  {
+    "address": "0xc83da60a38a4163790b159345493101d72782549",
+    "nameTag": "Aura: Bridge Sender"
+  },
+  {
+    "address": "0x5a5094e2a2a4c1b48a6630138a3b1076ec00b10d",
+    "nameTag": "Aura: Claim Zap"
+  },
+  {
+    "address": "0x53c09096b1dc52e2ef223b2969a714ee75da364f",
+    "nameTag": "Aura: Create2Factory"
+  },
+  {
+    "address": "0x37aa9ad9744d0686df1c7053225e700ce13e31dd",
+    "nameTag": "Aura: Keeper Multicall"
+  },
+  {
+    "address": "0x8b2970c237656d3895588b99a8bfe977d5618201",
+    "nameTag": "Aura: L2 Coordinator"
+  },
+  {
+    "address": "0xf24074a1a6ad620adc14745f9cc1fb1e7ba6ca71",
+    "nameTag": "Aura: Pool Manager Lite"
+  },
+  {
+    "address": "0x955384f4bd3e5049335aa287035379c1c693130e",
+    "nameTag": "Aura: Protocol Multi-sig"
+  },
+  {
+    "address": "0xc181edc719480bd089b94647c2dc504e2700a2b0",
+    "nameTag": "Aura: Voter Proxy Lite"
+  }
+]

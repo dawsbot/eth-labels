@@ -1,2269 +1,2236 @@
-{
-  "lastPulled": "2024-04-02T20:50:38.702Z",
-  "data": [
-    {
-      "address": "0x10a5f7d9d65bcc2734763444d4940a31b109275f",
-      "nameTag": ""
-    },
-    {
-      "address": "0x80d65bb7b9436a86c1928f93d6e7cc186987ac54",
-      "nameTag": ""
-    },
-    {
-      "address": "0xdc883b9d9ee16f74be08826e68df4c9d9d26e8bd",
-      "nameTag": ""
-    },
-    {
-      "address": "0x75a0c1597137aa36b40b6a515d997f9a6c6eefeb",
-      "nameTag": "Fake_Phishing284301"
-    },
-    {
-      "address": "0x07c1e81c345a7c58d7c24072efc5d929bd0647ad",
-      "nameTag": "Fake_Phishing285346"
-    },
-    {
-      "address": "0x942eb6e8c029eb22103743c99985af4f4515a559",
-      "nameTag": "Fake_Phishing285351"
-    },
-    {
-      "address": "0xfb020ca7f4e8c4a5bbbe060f59a249c6275d2b69",
-      "nameTag": "Fake_Phishing285381"
-    },
-    {
-      "address": "0xa8e31e3c38add6052a9407298faeb8fd393a6cf9",
-      "nameTag": "Fake_Phishing285411"
-    },
-    {
-      "address": "0xdf69bc4541b86aa4c5a470b4347e730c38b2c3b2",
-      "nameTag": "Fake_Phishing285416"
-    },
-    {
-      "address": "0x1cb004a8e84a5ce95c1ff895ee603bac8ec506c7",
-      "nameTag": "Fake_Phishing285421"
-    },
-    {
-      "address": "0xdae6c79c46ab3b280ca28259000695529cbd1339",
-      "nameTag": "Fake_Phishing285423"
-    },
-    {
-      "address": "0xe1cc2332852b2ac0da59a1f9d3051829f4ef3c1c",
-      "nameTag": "Fake_Phishing285461"
-    },
-    {
-      "address": "0x5d4c724bfe3a228ff0e29125ac1571fe093700a4",
-      "nameTag": "Fake_Phishing285480"
-    },
-    {
-      "address": "0xbb5b03e920cf702de5a3ba9fc1445af4b3919c88",
-      "nameTag": "Fake_Phishing285490"
-    },
-    {
-      "address": "0x91b82d62ff322b8e02b86f33e9a99a813437830d",
-      "nameTag": "Fake_Phishing285509"
-    },
-    {
-      "address": "0x7af65f1740c0eb816a27fd808eaf6ab09f6fa646",
-      "nameTag": "Synthetix: AAPL Balancer Staking Rewards"
-    },
-    {
-      "address": "0x823be81bbf96bec0e25ca13170f5aacb5b79ba83",
-      "nameTag": "Synthetix: Address Resolver"
-    },
-    {
-      "address": "0x46abfe1c972fca43766d6ad70e1c1df72f4bb4d1",
-      "nameTag": "Synthetix: Ambassador Council"
-    },
-    {
-      "address": "0xdc338c7544654c7dadfeb7e44076e457963113b0",
-      "nameTag": "Synthetix: AMZN Balancer Staking Rewards"
-    },
-    {
-      "address": "0xa6b5e74466edc95d0b6e65c5cbfca0a676d893a4",
-      "nameTag": "Synthetix: ArbRewarder"
-    },
-    {
-      "address": "0xe523184876c97945da45998582526cdb6a3da260",
-      "nameTag": "Synthetix: Binary Option Market Data"
-    },
-    {
-      "address": "0x211ba925b35b82246a3ccfa3a991a39a840f025c",
-      "nameTag": "Synthetix: Binary Option Market Factory"
-    },
-    {
-      "address": "0x915d1c9df12142b535f6a7437f0196d80bccc1bd",
-      "nameTag": "Synthetix: Binary Option Market Manager"
-    },
-    {
-      "address": "0x9f231dbe53d460f359b2b8cc47574493caa5b7bf",
-      "nameTag": "Synthetix: Circuit Breaker"
-    },
-    {
-      "address": "0x1c1d97f6338759ab814a5a717ae359573ab5d5d4",
-      "nameTag": "Synthetix: COIN Balancer Staking Rewards"
-    },
-    {
-      "address": "0xaa03ab31b55dceeef845c8d17890cc61cd98ed04",
-      "nameTag": "Synthetix: Collateral Erc20"
-    },
-    {
-      "address": "0x5c8344bcdc38f1ab5eb5c1d4a35ddeea522b5dfa",
-      "nameTag": "Synthetix: Collateral Eth"
-    },
-    {
-      "address": "0x067e398605e84f2d0aeec1806e62768c5110dcc6",
-      "nameTag": "Synthetix: Collateral Manager"
-    },
-    {
-      "address": "0x573e5105c4b92416d1544a188f1bf77d442bb52d",
-      "nameTag": "Synthetix: Collateral Manager State"
-    },
-    {
-      "address": "0x1f2c3a1046c32729862fcb038369696e3273a516",
-      "nameTag": "Synthetix: Collateral Short"
-    },
-    {
-      "address": "0x8a1a00df7aa0102497c7591912ba8301e8db8cdb",
-      "nameTag": "Synthetix: Collateral State Erc20"
-    },
-    {
-      "address": "0xbe5b5a7c198bc156474ed5c33cbf2f3f604f8ff8",
-      "nameTag": "Synthetix: Collateral State ETH"
-    },
-    {
-      "address": "0x13a114a3fa8a6ce03a0c5488be9e614d78eddb0c",
-      "nameTag": "Synthetix: Collateral State Short"
-    },
-    {
-      "address": "0xba9984288eba7d3afbd4bddb7b5e54eda4514fcb",
-      "nameTag": "Synthetix: Core Contributor Committee NFT"
-    },
-    {
-      "address": "0xe5e0cc9e81beac52a0cd1cb22048597eeebc5072",
-      "nameTag": "Synthetix: Core Contributor NFT"
-    },
-    {
-      "address": "0xab0b2f1cf979cdbf4676251f35353ec5af2732dd",
-      "nameTag": "Synthetix: Dapp Maintenance"
-    },
-    {
-      "address": "0x12c815b0c404d66dd0491f4ec62839904cec25e7",
-      "nameTag": "Synthetix: Debt Cache"
-    },
-    {
-      "address": "0xe92b4c7428152052b0930c81f4c687a5f1a12292",
-      "nameTag": "Synthetix: Debt Cache 2"
-    },
-    {
-      "address": "0x1620aa736939597891c1940cf0d28b82566f9390",
-      "nameTag": "Synthetix: Debt Cache 3"
-    },
-    {
-      "address": "0x94f864e55c77e07c2c7bf7bfbc334b7a8123442a",
-      "nameTag": "Synthetix: Debt Migrator On Ethereum"
-    },
-    {
-      "address": "0x89fcb32f29e509cc42d0c8b6f058c993013a843f",
-      "nameTag": "Synthetix: Debt Shares"
-    },
-    {
-      "address": "0x15fd6e554874b9e70f832ed37f231ac5e142362f",
-      "nameTag": "Synthetix: Delegate Approvals"
-    },
-    {
-      "address": "0x8f586f063ffbb89b186c8e604fc6614766f9c9d1",
-      "nameTag": "Synthetix: Delegate Approvals Eternal Storage"
-    },
-    {
-      "address": "0x819addc3dd780704ae85ea12c18252f7020c24d0",
-      "nameTag": "Synthetix: Deployer"
-    },
-    {
-      "address": "0xe88ada0408f187c17eedd256a0495d8e3766aac4",
-      "nameTag": "Synthetix: Deployer 10"
-    },
-    {
-      "address": "0x77a2cd8e930eacf196105ca06837d8b3edecf1a5",
-      "nameTag": "Synthetix: Deployer 3"
-    },
-    {
-      "address": "0xea5e288b4f9d7e66da162e2af0db371783f62454",
-      "nameTag": "Synthetix: Deployer 4"
-    },
-    {
-      "address": "0xccf1242cb1d7d56b428dac2bd68a5cace1b067e7",
-      "nameTag": "Synthetix: Deployer 5"
-    },
-    {
-      "address": "0xb10c85274d2a58ddec72c1d826e75256ff93dead",
-      "nameTag": "Synthetix: Deployer 6"
-    },
-    {
-      "address": "0xaf28cec7854e9a070f4cd31f18ba005f874d9f50",
-      "nameTag": "Synthetix: Deployer 7"
-    },
-    {
-      "address": "0xde91067660f6e19ae03fba96d6926a0897b5f5be",
-      "nameTag": "Synthetix: Deployer 8"
-    },
-    {
-      "address": "0xf2827848dbee5d46e9c7c4c3f5e197e3af811105",
-      "nameTag": "Synthetix: Deployer 9"
-    },
-    {
-      "address": "0xe1f64079ada6ef07b03982ca34f1dd7152aa3b86",
-      "nameTag": "Synthetix: Depot"
-    },
-    {
-      "address": "0x5f41718459955217df6a02aa8f5c19614ecfa6e7",
-      "nameTag": "Synthetix: Direct Integration Manager"
-    },
-    {
-      "address": "0x3b399e00afd8201acf8a5a0eccf1c47d8d5e41da",
-      "nameTag": "Synthetix: Escrow Checker"
-    },
-    {
-      "address": "0x0f7c200c4d3b5570c777764884ce6de67f31d3ba",
-      "nameTag": "Synthetix: Eternal Storage Liquidations"
-    },
-    {
-      "address": "0xac86855865cbf31c8f9fbb68c749ad5bd72802e3",
-      "nameTag": "Synthetix: ETH Reward Escrow V2"
-    },
-    {
-      "address": "0x7133aff303539b0a4f60ab9bd9656598bf49e272",
-      "nameTag": "Synthetix: Ether Collateral"
-    },
-    {
-      "address": "0xc1aae9d18bbe386b102435a8632c8063d31e747c",
-      "nameTag": "Synthetix: Ether Wrapper"
-    },
-    {
-      "address": "0xfed77055b40d63dcf17ab250ffd6948fbff57b82",
-      "nameTag": "Synthetix: EtherCollateral sUSD Trial"
-    },
-    {
-      "address": "0xeacaed9581294b1b5cfb6b941d4b8b81b2005437",
-      "nameTag": "Synthetix: Exchange Circuit Breaker"
-    },
-    {
-      "address": "0xd69b189020ef614796578afe4d10378c5e7e1138",
-      "nameTag": "Synthetix: Exchange Rates"
-    },
-    {
-      "address": "0x648280dd2db772cd018a0cec72fab5bf8b7683ab",
-      "nameTag": "Synthetix: Exchange Rates 2"
-    },
-    {
-      "address": "0xaa5a3d7f04e15b22eb3664b56310aa18a3527ec7",
-      "nameTag": "Synthetix: Exchange Settlement Lib"
-    },
-    {
-      "address": "0x545973f28950f50fc6c7f52aab4ad214a27c0564",
-      "nameTag": "Synthetix: Exchange State"
-    },
-    {
-      "address": "0x0bfdc04b38251394542586969e2356d0d731f7de",
-      "nameTag": "Synthetix: Exchanger"
-    },
-    {
-      "address": "0x7634f2a1741a683ccda37dce864c187f990d7b4b",
-      "nameTag": "Synthetix: Exchanger 2"
-    },
-    {
-      "address": "0xaea0065e146fd75dc24465961a583827284d405a",
-      "nameTag": "Synthetix: Exchanger 3"
-    },
-    {
-      "address": "0x26fa0665660c1d3a3666584669511d3c66ad37cb",
-      "nameTag": "Synthetix: FB Balancer Staking Rewards"
-    },
-    {
-      "address": "0xfeefeefeefeefeefeefeefeefeefeefeefeefeef",
-      "nameTag": "Synthetix: Fee Address"
-    },
-    {
-      "address": "0x778d2d3e3515e42573eb1e6a8d8915d4a22d9d54",
-      "nameTag": "Synthetix: Fee Pool"
-    },
-    {
-      "address": "0x510adfdf6e7554c571b7cd9305ce91473610015e",
-      "nameTag": "Synthetix: Fee Pool 2"
-    },
-    {
-      "address": "0x83105d7cdd2fd9b8185bff1cb56bb1595a618618",
-      "nameTag": "Synthetix: Fee Pool 3"
-    },
-    {
-      "address": "0xc9dfff5fa5605fd94f8b7927b892f2b57391e8bb",
-      "nameTag": "Synthetix: Fee Pool Eternal Storage"
-    },
-    {
-      "address": "0x11164f6a47c3f8472d19b9add516fc780cb7ee02",
-      "nameTag": "Synthetix: Fee Pool State"
-    },
-    {
-      "address": "0xc757acba3c0506218b3022266a9dc7f3612d85f5",
-      "nameTag": "Synthetix: Flexible Storage"
-    },
-    {
-      "address": "0xd3f527f47a9df2f6cbf631081315b6e2fe4e4521",
-      "nameTag": "Synthetix: Futures Market Manager"
-    },
-    {
-      "address": "0x6fb7f0e78582746bd01bcb6dfbfe62ca5f4f9175",
-      "nameTag": "Synthetix: GOOG Balancer Staking Rewards"
-    },
-    {
-      "address": "0xeb9a82736cc030fc4a4cd4b53e9b2c67e153208d",
-      "nameTag": "Synthetix: Grants Council"
-    },
-    {
-      "address": "0x86626e1bbbd0ce95ed52e0c5e19f371a6640b591",
-      "nameTag": "Synthetix: grantsDAO"
-    },
-    {
-      "address": "0x631e93a0fb06b5ec6d52c0a2d89a3f9672d6ba64",
-      "nameTag": "Synthetix: Issuance Eternal Storage"
-    },
-    {
-      "address": "0x0decf74c966438c3b4578b46dcc64c907141f670",
-      "nameTag": "Synthetix: Issuer"
-    },
-    {
-      "address": "0x922c84b3894298296c34842d866bfc0d36c54778",
-      "nameTag": "Synthetix: Issuer 2"
-    },
-    {
-      "address": "0xca68a3d663483515a9d434e854ab59a41b3a523c",
-      "nameTag": "Synthetix: Issuer 3"
-    },
-    {
-      "address": "0x045e507925d2e05d114534d0810a1abd94aca8d6",
-      "nameTag": "Synthetix: L2 Bridge"
-    },
-    {
-      "address": "0xcd9d4988c0ae61887b075ba77f08cbfad2b65068",
-      "nameTag": "Synthetix: L2 Deposit"
-    },
-    {
-      "address": "0x5fd79d46eba7f351fe49bff9e87cdea6c821ef9f",
-      "nameTag": "Synthetix: L2 Deposit Escrow"
-    },
-    {
-      "address": "0xc011a72400e58ecd99ee497cf89e3775d4bd732f",
-      "nameTag": "Synthetix: Legacy Proxy SNX"
-    },
-    {
-      "address": "0x57ab1e02fee23774580c119740129eac7081e9d3",
-      "nameTag": "Synthetix: Legacy Proxy sUSD"
-    },
-    {
-      "address": "0xad95c918af576c82df740878c3e983cbd175dab6",
-      "nameTag": "Synthetix: Liquidations"
-    },
-    {
-      "address": "0x8e9757479d5ad4e7f9d951b60d39f5220b893d6c",
-      "nameTag": "Synthetix: Liquidator"
-    },
-    {
-      "address": "0xf79603a71144e415730c1a6f57f366e4ea962c00",
-      "nameTag": "Synthetix: Liquidator Rewards"
-    },
-    {
-      "address": "0xdcb6a51ea3ca5d3fd898fd6564757c7aaec3ca92",
-      "nameTag": "Synthetix: LP Rewards (Curve sUSD)"
-    },
-    {
-      "address": "0xc746bc860781dc90bbfcd381d6a058dc16357f8d",
-      "nameTag": "Synthetix: LP Rewards (iETH)"
-    },
-    {
-      "address": "0x48d7f315fedcad332f68aafa017c7c158bc54760",
-      "nameTag": "Synthetix: LP Rewards (Uniswap sETH)"
-    },
-    {
-      "address": "0x385e1eb2ff28f4a637da2c9971f8caf5f5b1e77c",
-      "nameTag": "Synthetix: Math"
-    },
-    {
-      "address": "0x9d003cc298e7ea141a809c241c0a703176da3ba3",
-      "nameTag": "Synthetix: MSFT Balancer Staking Rewards"
-    },
-    {
-      "address": "0x7a3d898b717e50a96fd8b232e9d15f0a547a7eeb",
-      "nameTag": "Synthetix: Native Ether Wrapper"
-    },
-    {
-      "address": "0x8ef8ca2acaaafec19fb366c11561718357f780f2",
-      "nameTag": "Synthetix: NFLX Balancer Staking Rewards"
-    },
-    {
-      "address": "0xfbb6526ed92da8915d4843a86166020d0b7baad0",
-      "nameTag": "Synthetix: Old Address Resolver"
-    },
-    {
-      "address": "0x61166014e3f04e40c953fe4eab9d9e40863c83ae",
-      "nameTag": "Synthetix: Old Address Resolver 1"
-    },
-    {
-      "address": "0xf74e828b79636c228683daf5078cc5cececaa37a",
-      "nameTag": "Synthetix: Old Ambassador Council"
-    },
-    {
-      "address": "0x8ec58faa4c1b693b50b7f1331897ad6b52dd824a",
-      "nameTag": "Synthetix: Old Binary Option Market Factory"
-    },
-    {
-      "address": "0x673e76631981cb55783527f744e581aba8cf406d",
-      "nameTag": "Synthetix: Old Binary Option Market Manager"
-    },
-    {
-      "address": "0x13b54e8271b3e45ce71d8f4fc73ea936873a34fc",
-      "nameTag": "Synthetix: Old Curvepool"
-    },
-    {
-      "address": "0x778ec2d9b4bae65c57a6436a6c37afc135bad727",
-      "nameTag": "Synthetix: Old Dapp Maintenance"
-    },
-    {
-      "address": "0x97a853e9536cf7cf123aa14da726b71a848290ce",
-      "nameTag": "Synthetix: Old Delegate Approvals"
-    },
-    {
-      "address": "0xde910777c787903f78c89e7a0bf7f4c435cbb1fe",
-      "nameTag": "Synthetix: Old Deployer"
-    },
-    {
-      "address": "0xb64ff7a4a33acdf48d97dab0d764afd0f6176882",
-      "nameTag": "Synthetix: Old Deployer 2"
-    },
-    {
-      "address": "0x172e09691dfbbc035e37c73b62095caa16ee2388",
-      "nameTag": "Synthetix: Old Depot"
-    },
-    {
-      "address": "0x0f3d8ad599be443a54c7934b433a87464ed0dfdc",
-      "nameTag": "Synthetix: Old Ether Collateral"
-    },
-    {
-      "address": "0x73b172756bd5ddf0110ba8d7b88816eb639eb21c",
-      "nameTag": "Synthetix: Old Exchange Rates"
-    },
-    {
-      "address": "0xba727c69636491ecdfe3e6f64cbe9428ad371e48",
-      "nameTag": "Synthetix: Old Exchange Rates 1"
-    },
-    {
-      "address": "0xba34e436c9383aa8fa1e3659d2807ae040592498",
-      "nameTag": "Synthetix: Old Exchange Rates 2"
-    },
-    {
-      "address": "0x5cbb53ca85a9e52b593baf8ae90282c4b3db0b25",
-      "nameTag": "Synthetix: Old Exchange Rates 3"
-    },
-    {
-      "address": "0x70c629875dadbe702489a5e1e3baae60e38924fa",
-      "nameTag": "Synthetix: Old Exchange Rates 4"
-    },
-    {
-      "address": "0x99a46c42689720d9118ff7af7ce80c2a92fc4f97",
-      "nameTag": "Synthetix: Old Exchange Rates 5"
-    },
-    {
-      "address": "0x565c9eb432f4ae9633e50e1213ab4f23d8f31f54",
-      "nameTag": "Synthetix: Old Exchange Rates 6"
-    },
-    {
-      "address": "0xe95ef4e7a04d2fb05cb625c62ca58da10112c605",
-      "nameTag": "Synthetix: Old Exchange Rates 7"
-    },
-    {
-      "address": "0x9d7f70af5df5d5cc79780032d47a34615d1f1d77",
-      "nameTag": "Synthetix: Old Exchange Rates 8"
-    },
-    {
-      "address": "0x6289fd70d3dce8de61896959cdefcff3ce46a108",
-      "nameTag": "Synthetix: Old Exchanger"
-    },
-    {
-      "address": "0x271d0c1940fe546e787b273a0ccc780ecd8db461",
-      "nameTag": "Synthetix: Old Exchanger 2"
-    },
-    {
-      "address": "0x7dfe5aa8fc36c0ae788a3a71062728bfc3036216",
-      "nameTag": "Synthetix: Old Exchanger 3"
-    },
-    {
-      "address": "0xfadafb3ece40eac206404b8df5af841f16f60e62",
-      "nameTag": "Synthetix: Old Exchanger 4"
-    },
-    {
-      "address": "0xebdbac38835a1105851e80c7fa1f1e6e25a86e32",
-      "nameTag": "Synthetix: Old Fee Pool"
-    },
-    {
-      "address": "0x6aaebdfbf23134ef8d81deb2e253f32394b2857b",
-      "nameTag": "Synthetix: Old Fee Pool 1"
-    },
-    {
-      "address": "0x94dba784e87a3f5f12e25ec98bf14233c1e69017",
-      "nameTag": "Synthetix: Old Fee Pool 10"
-    },
-    {
-      "address": "0x1be675c50c4cc419517219b88fe84a573cc223fa",
-      "nameTag": "Synthetix: Old Fee Pool 11"
-    },
-    {
-      "address": "0x8a34aeff4cded94afa786fcf811a6307aa7c656a",
-      "nameTag": "Synthetix: Old Fee Pool 12"
-    },
-    {
-      "address": "0x21bd6b9c3cb3f7e0c6aa7061d2b02f22cdebd2ab",
-      "nameTag": "Synthetix: Old Fee Pool 13"
-    },
-    {
-      "address": "0x9b7e40031f7d4f6ab6e5d36bbf2fea3bcccc75a5",
-      "nameTag": "Synthetix: Old Fee Pool 2"
-    },
-    {
-      "address": "0x3d32f1404deace2a43b08211e4662275045b495b",
-      "nameTag": "Synthetix: Old Fee Pool 3"
-    },
-    {
-      "address": "0x503e91fc2b9ad7453700130d0825e661565e4c3b",
-      "nameTag": "Synthetix: Old Fee Pool 4"
-    },
-    {
-      "address": "0x5e5f5542dad3e06cc8e1cd2461e83f872835117b",
-      "nameTag": "Synthetix: Old Fee Pool 5"
-    },
-    {
-      "address": "0xa70b3c3dcd4d3cdc55992dc5bebed33da92a259a",
-      "nameTag": "Synthetix: Old Fee Pool 6"
-    },
-    {
-      "address": "0xc566a81f193626ee88a85fb3dcc82279b96a094e",
-      "nameTag": "Synthetix: Old Fee Pool 7"
-    },
-    {
-      "address": "0xb211e3b026b6db2f65f5c5ec03d44bb97bb69fb8",
-      "nameTag": "Synthetix: Old Fee Pool 8"
-    },
-    {
-      "address": "0xa8cb0b163cefb21f22c72f6a7d243184bd688a5a",
-      "nameTag": "Synthetix: Old Fee Pool 9"
-    },
-    {
-      "address": "0x04567106db2a4661a5fda9f48719d57b372b77bf",
-      "nameTag": "Synthetix: Old Grants Council"
-    },
-    {
-      "address": "0x23bf838af72ee8f43870a73947d8f4edb63adae3",
-      "nameTag": "Synthetix: Old Issuer"
-    },
-    {
-      "address": "0xb7d018f57b82d1523f15a270d6b942836204310b",
-      "nameTag": "Synthetix: Old Issuer 1"
-    },
-    {
-      "address": "0x357b58e0b1be9d8a944380048fa1080c57c7a362",
-      "nameTag": "Synthetix: Old Issuer 2"
-    },
-    {
-      "address": "0xde51788d7113bcf845b62b878bd5ed971a49cf85",
-      "nameTag": "Synthetix: Old Issuer 3"
-    },
-    {
-      "address": "0xeb4c3266e1b295654ec36f16ffcfd24d3ef3e735",
-      "nameTag": "Synthetix: Old Issuer 4"
-    },
-    {
-      "address": "0x9f9c7ba80442767e7bef5e8121cec53cf8182827",
-      "nameTag": "Synthetix: Old Liquidations"
-    },
-    {
-      "address": "0x7c8f07ac5b0a2876ee582a661d53de2d0bbad96f",
-      "nameTag": "Synthetix: Old Proxy iBNB Token"
-    },
-    {
-      "address": "0x2b143041a6f8be9dcc66e9110178a264a223a3bd",
-      "nameTag": "Synthetix: Old Proxy iBTC Token"
-    },
-    {
-      "address": "0xae7f21c0dfe5481ca77d538b5609938a51850942",
-      "nameTag": "Synthetix: Old Proxy iCEX Token"
-    },
-    {
-      "address": "0xd4fb1706ae549febec06bb7175b08010dd1b0c2e",
-      "nameTag": "Synthetix: Old Proxy iETH Token"
-    },
-    {
-      "address": "0xeaf60da0199be2f62005225248705de774582328",
-      "nameTag": "Synthetix: Old Proxy iMKR Token 1"
-    },
-    {
-      "address": "0x0794d09be5395f69534ff8151d72613077148b29",
-      "nameTag": "Synthetix: Old Proxy iMKR Token 2"
-    },
-    {
-      "address": "0xcd8d927f2cb03d2efb7f96ceb66ec4976843e012",
-      "nameTag": "Synthetix: Old Proxy iTRX Token"
-    },
-    {
-      "address": "0xc2992b2c22238f296c2f429ee2f7afb462ed1750",
-      "nameTag": "Synthetix: Old Proxy iXTZ Token"
-    },
-    {
-      "address": "0xed4699f180a14b5974c26f494483f9c327fd381a",
-      "nameTag": "Synthetix: Old Proxy sAUD Token"
-    },
-    {
-      "address": "0x013ae307648f529aa72c5767a334ddd37aab43c3",
-      "nameTag": "Synthetix: Old Proxy sBNB Token"
-    },
-    {
-      "address": "0x5d609c25adaafd856021f92296c66db602a0fce8",
-      "nameTag": "Synthetix: Old Proxy sBRL Token"
-    },
-    {
-      "address": "0x9073ee83b6ce96c444547ddcaf777b9352163581",
-      "nameTag": "Synthetix: Old Proxy sBTC Token"
-    },
-    {
-      "address": "0x0bc209fb72390af12bd6fd775355ea0856864b31",
-      "nameTag": "Synthetix: Old Proxy sCAD Token"
-    },
-    {
-      "address": "0xb91b114a24a1c16834f1217cc3b9ee117b6c817a",
-      "nameTag": "Synthetix: Old Proxy sCEX Token"
-    },
-    {
-      "address": "0x28af5a2f0cc12f2f19dd946608c945456b52b3f6",
-      "nameTag": "Synthetix: Old Proxy sCHF Token"
-    },
-    {
-      "address": "0x60feeed05004476518281d43185fb7f52d9722c0",
-      "nameTag": "Synthetix: Old Proxy sCNY Token"
-    },
-    {
-      "address": "0xacf5c0101cbbe8476e87c652e0bef33684cc94d6",
-      "nameTag": "Synthetix: Old Proxy sETH Token"
-    },
-    {
-      "address": "0x3eb064766109d150e4362222df80638bce00e037",
-      "nameTag": "Synthetix: Old Proxy sEUR Token"
-    },
-    {
-      "address": "0x0c8a7d55ef593a2cad34894c1523162ee2ffb9ac",
-      "nameTag": "Synthetix: Old Proxy sGBP Token"
-    },
-    {
-      "address": "0x74c80bb51da1eac2d40074c647cbd0ab6920063f",
-      "nameTag": "Synthetix: Old Proxy sINR Token"
-    },
-    {
-      "address": "0x559e848a1b6a7afc69ee27f8d20280a42628b2cf",
-      "nameTag": "Synthetix: Old Proxy sJPY Token"
-    },
-    {
-      "address": "0xdce506b196b0df677d07e718f872cac9bc368a33",
-      "nameTag": "Synthetix: Old Proxy sKRW Token"
-    },
-    {
-      "address": "0xe88a4976cb7d8898d39e3f317421d625403ecb8c",
-      "nameTag": "Synthetix: Old Proxy sMKR Token 1"
-    },
-    {
-      "address": "0x4140919de11fce58e654cc6038017af97f810de1",
-      "nameTag": "Synthetix: Old Proxy sMKR Token 2"
-    },
-    {
-      "address": "0x26c0cb14470803120321b70ae85405ac298e5a42",
-      "nameTag": "Synthetix: Old Proxy sNZD Token"
-    },
-    {
-      "address": "0xd9553f0fda012224141aecc1eca0e29868ff7fe8",
-      "nameTag": "Synthetix: Old Proxy sPLN Token"
-    },
-    {
-      "address": "0xdcb5821fcfdab5553307b8f99591fc9daa3c4be3",
-      "nameTag": "Synthetix: Old Proxy sRUB Token"
-    },
-    {
-      "address": "0x632db1c25c03dcac8d23ff2c9a4cea34cbeffa1b",
-      "nameTag": "Synthetix: Old Proxy sSGD Token"
-    },
-    {
-      "address": "0x0944d2c41fef3088467287e208e5bbb622a0c09c",
-      "nameTag": "Synthetix: Old Proxy sTRX Token"
-    },
-    {
-      "address": "0x6e5709515c767c907e43a03388cc816bd65e797c",
-      "nameTag": "Synthetix: Old Proxy sXAG Token"
-    },
-    {
-      "address": "0xe05d803fa0c5832fa2262465290abb25d6c2bfa3",
-      "nameTag": "Synthetix: Old Proxy sXAU Token"
-    },
-    {
-      "address": "0xf45b14ddabf0f0e275e215b94dd24ae013a27f12",
-      "nameTag": "Synthetix: Old Proxy sXTZ Token"
-    },
-    {
-      "address": "0x62492f15cf60c5847d3053e482cade8c5c29af88",
-      "nameTag": "Synthetix: Old Proxy XDR Token 1"
-    },
-    {
-      "address": "0xb3f67de9a919476a4c0fe821d67bf5c4637d8429",
-      "nameTag": "Synthetix: Old Proxy XDR Token 2"
-    },
-    {
-      "address": "0xffa72fd80d8a84032d855bfb67036baf45949009",
-      "nameTag": "Synthetix: Old Rewards Distribution"
-    },
-    {
-      "address": "0xa3de830b5208851539de8e4ff158d635e8f36fcb",
-      "nameTag": "Synthetix: Old Supply Schedule"
-    },
-    {
-      "address": "0x56751d5ac7d2b614c79d22e6b52d3285cfa8a293",
-      "nameTag": "Synthetix: Old Synth iBNB 1"
-    },
-    {
-      "address": "0xed4a3adffa428ffd126aed8ba5b8b58bb12c11ca",
-      "nameTag": "Synthetix: Old Synth iBNB 2"
-    },
-    {
-      "address": "0x57ff288dd9d478b046647a5ab917195449f1f6e5",
-      "nameTag": "Synthetix: Old Synth iBNB 3"
-    },
-    {
-      "address": "0x09400ec683f70174e1217d6dcdbf42448e8de5d6",
-      "nameTag": "Synthetix: Old Synth iBNB 4"
-    },
-    {
-      "address": "0xc68b5eb9e035b2b84568a4c6201e3b200c0236ba",
-      "nameTag": "Synthetix: Old Synth iBNB 5"
-    },
-    {
-      "address": "0xd8f6b6b6782632275b2b51230654f687f5b12cde",
-      "nameTag": "Synthetix: Old Synth iBTC 1"
-    },
-    {
-      "address": "0xccc395f0ebfaa26dcc2d3bacc23d55614002236b",
-      "nameTag": "Synthetix: Old Synth iBTC 2"
-    },
-    {
-      "address": "0xce88906100c145522be3a509683881241abb3c52",
-      "nameTag": "Synthetix: Old Synth iBTC 3"
-    },
-    {
-      "address": "0x83266a95429b903cc5e954bf61c7eddf8a52b971",
-      "nameTag": "Synthetix: Old Synth iBTC 4"
-    },
-    {
-      "address": "0x810425566d1d3078b15a6f035b17886f18f3c54b",
-      "nameTag": "Synthetix: Old Synth iBTC 5"
-    },
-    {
-      "address": "0x66b86625ee80b06e94e027e44ea35680a0730233",
-      "nameTag": "Synthetix: Old Synth iCEX 1"
-    },
-    {
-      "address": "0x43e1505e315be6c8b875a37f7d8753ba84140a37",
-      "nameTag": "Synthetix: Old Synth iCEX 2"
-    },
-    {
-      "address": "0xda5ed43b9b6e36b4f27cc6d8c1974532cdbd55f9",
-      "nameTag": "Synthetix: Old Synth iCEX 3"
-    },
-    {
-      "address": "0xf7011510572d0efe31d1e90cd6dc1ef84e6b13b8",
-      "nameTag": "Synthetix: Old Synth iCEX 4"
-    },
-    {
-      "address": "0x8e39e807d9eae1ced9bce296f211c38ba5ab2f9b",
-      "nameTag": "Synthetix: Old Synth iDEFI 1"
-    },
-    {
-      "address": "0xc5bfbc63dc8d36e81434e93e0ee097999879d7f4",
-      "nameTag": "Synthetix: Old Synth iDEFI 2"
-    },
-    {
-      "address": "0xae7d62fb6a305e6d9e9f8c43bbb41093c2be52f6",
-      "nameTag": "Synthetix: Old Synth iDEFI 3"
-    },
-    {
-      "address": "0x51fe40e6292dbc44623b298a4086ffa6f5976ba1",
-      "nameTag": "Synthetix: Old Synth iETH 1"
-    },
-    {
-      "address": "0x9b461df6fc38e1baec08c06eb9e916093af8d11c",
-      "nameTag": "Synthetix: Old Synth iETH 2"
-    },
-    {
-      "address": "0x3f3804176d90640ac6063124afd4bc0636ac85b6",
-      "nameTag": "Synthetix: Old Synth iETH 3"
-    },
-    {
-      "address": "0xf53b56b6fb98aaf514bcd28f6fa6fd20c24e5c22",
-      "nameTag": "Synthetix: Old Synth iETH 4"
-    },
-    {
-      "address": "0xc0ba711b4e128425be9245ce750d82c90b42d6d2",
-      "nameTag": "Synthetix: Old Synth iETH 5"
-    },
-    {
-      "address": "0xec114001d23eefe6624fb42ccbf4b3c793e295f1",
-      "nameTag": "Synthetix: Old Synth iLINK 2"
-    },
-    {
-      "address": "0x3ddf5dad59f8f8e8f957709b044ee84e87b42e25",
-      "nameTag": "Synthetix: Old Synth iLINK 3"
-    },
-    {
-      "address": "0x8c6680412e914932a9abc02b6c7cbf690e583afa",
-      "nameTag": "Synthetix: Old Synth iLINK 4"
-    },
-    {
-      "address": "0x05dd55c18999b4a2f905978c029b85da37750170",
-      "nameTag": "Synthetix: Old Synth iLTC 1"
-    },
-    {
-      "address": "0xec98bb42c8f03485bf659378da694512a16f3482",
-      "nameTag": "Synthetix: Old Synth iLTC 2"
-    },
-    {
-      "address": "0xfca2e82e5414c695c81b99d753b0b11c50bdc93d",
-      "nameTag": "Synthetix: Old Synth iLTC 3"
-    },
-    {
-      "address": "0x99bcc501d04f400ba3f78b5375d00b56ace6ee0d",
-      "nameTag": "Synthetix: Old Synth iMKR Token 1"
-    },
-    {
-      "address": "0x047fc84504714d526808be07bf17bdd70726ef92",
-      "nameTag": "Synthetix: Old Synth iMKR Token 2"
-    },
-    {
-      "address": "0xd95e7f80766580634b2e0e49d9f66af317994fc7",
-      "nameTag": "Synthetix: Old Synth iMKR Token 3"
-    },
-    {
-      "address": "0x10a0532de3c86d9ce810f004fabcf5a1ea464390",
-      "nameTag": "Synthetix: Old Synth iMKR Token 4"
-    },
-    {
-      "address": "0x1228c7d8bbc5bc53db181bd7b1fce765aa83bf8a",
-      "nameTag": "Synthetix: Old Synth iMKR Token 5"
-    },
-    {
-      "address": "0x87ea2450eab99a74e55e2b446290011765393ac1",
-      "nameTag": "Synthetix: Old Synth iTRX 1"
-    },
-    {
-      "address": "0x80edac70ec108a9c5b47972da9924397ba974ff9",
-      "nameTag": "Synthetix: Old Synth iTRX 2"
-    },
-    {
-      "address": "0x406555dbf02e9e4df9adeaec9da76abeed8c1bc3",
-      "nameTag": "Synthetix: Old Synth iTRX 3"
-    },
-    {
-      "address": "0x2de37af5ba64f5cae3202bf13dbedc4d46e8046f",
-      "nameTag": "Synthetix: Old Synth iTRX 4"
-    },
-    {
-      "address": "0xcbbb17d9767bd57fbf4bbf8842e916bcb3826ec1",
-      "nameTag": "Synthetix: Old Synth iXRP 1"
-    },
-    {
-      "address": "0xd7adf1b5e31d1c40e08f16a2095338ce3aa8f2fc",
-      "nameTag": "Synthetix: Old Synth iXRP 2"
-    },
-    {
-      "address": "0xccda7941ab1ac7a32f49843c0b3edf618b20f6ae",
-      "nameTag": "Synthetix: Old Synth iXRP 3"
-    },
-    {
-      "address": "0xfe6cd6de459db214818492f532ec02ba87319437",
-      "nameTag": "Synthetix: Old Synth iXTZ 1"
-    },
-    {
-      "address": "0x72661e76475354403838eb04144206f70ff97d79",
-      "nameTag": "Synthetix: Old Synth iXTZ 2"
-    },
-    {
-      "address": "0xad7258d0054c03112a4f5489a4b24ec34a2fc787",
-      "nameTag": "Synthetix: Old Synth iXTZ 3"
-    },
-    {
-      "address": "0x59d39e14cc735b39746c94351e7fbdd92c8d0d3c",
-      "nameTag": "Synthetix: Old Synth iXTZ 4"
-    },
-    {
-      "address": "0xb03dfc4b9c9756b6d4fbc12dade7732149fcf00d",
-      "nameTag": "Synthetix: Old Synth sAUD 1"
-    },
-    {
-      "address": "0x710882750dde5dbc64e5a7df23a8cf068df74910",
-      "nameTag": "Synthetix: Old Synth sAUD 2"
-    },
-    {
-      "address": "0xa6fe80c4c4aadb4b33db7f22dc9ae2c4697cc406",
-      "nameTag": "Synthetix: Old Synth sAUD 3"
-    },
-    {
-      "address": "0xaca2179a884bac7c3d0bc4131585e1b7dbdd048e",
-      "nameTag": "Synthetix: Old Synth sAUD 4"
-    },
-    {
-      "address": "0xc906de7f8b4c1a4787023f50f49ce98f9f67c4b8",
-      "nameTag": "Synthetix: Old Synth sBNB 1"
-    },
-    {
-      "address": "0x33ce216c10dea5e724b7a90628ce7853eef127b3",
-      "nameTag": "Synthetix: Old Synth sBNB 2"
-    },
-    {
-      "address": "0xe5787927410b659cc4ea2441cdaa361f9d7b250c",
-      "nameTag": "Synthetix: Old Synth sBNB 3"
-    },
-    {
-      "address": "0xae3971e603b11da40aea85d8c2355150c7c47683",
-      "nameTag": "Synthetix: Old Synth sBNB 4"
-    },
-    {
-      "address": "0xa5a4cccccaa26cea096f6e493839423f4d66c63f",
-      "nameTag": "Synthetix: Old Synth sBRL Token"
-    },
-    {
-      "address": "0xf8ad89091b2724bdb7528c50b282b565db4635bb",
-      "nameTag": "Synthetix: Old Synth sBTC 1"
-    },
-    {
-      "address": "0x832177f21ccdcc286003fadf4e98fc11dc5c627f",
-      "nameTag": "Synthetix: Old Synth sBTC 2"
-    },
-    {
-      "address": "0x6bcd1cae4a3c099c696b51f889be2120df62b7c0",
-      "nameTag": "Synthetix: Old Synth sBTC 3"
-    },
-    {
-      "address": "0xf0ac210915bd88ea51c9eb800a4078a85927efdf",
-      "nameTag": "Synthetix: Old Synth sBTC 4"
-    },
-    {
-      "address": "0x8f69c9ee79bf9320e1a5c19e559108e1cb3d002b",
-      "nameTag": "Synthetix: Old Synth sCAD Token"
-    },
-    {
-      "address": "0x6aa0f8620614afe9bd4aba3148439b08eb2557c0",
-      "nameTag": "Synthetix: Old Synth sCEX 1"
-    },
-    {
-      "address": "0x93cff799f255eda2089cfb3f05696b5b66873c1a",
-      "nameTag": "Synthetix: Old Synth sCEX 2"
-    },
-    {
-      "address": "0x8a3ca1d2d9a05683eb4db447d0e3122fec09d9ee",
-      "nameTag": "Synthetix: Old Synth sCEX 3"
-    },
-    {
-      "address": "0x2420057461bd2fb756e0a610897c51de7fb18311",
-      "nameTag": "Synthetix: Old Synth sCEX 4"
-    },
-    {
-      "address": "0x9270d9970d6aca773e2fa01633cdc091a46714c9",
-      "nameTag": "Synthetix: Old Synth sCHF 1"
-    },
-    {
-      "address": "0x296b019e6df25ce3b71d4239b8c7cec1a417d4e9",
-      "nameTag": "Synthetix: Old Synth sCHF 2"
-    },
-    {
-      "address": "0xff0b8894cc44f300e124bcd39f95555816b8b1d5",
-      "nameTag": "Synthetix: Old Synth sCHF 3"
-    },
-    {
-      "address": "0x64c73355fbd0274e677609e8fb372427df975508",
-      "nameTag": "Synthetix: Old Synth sCHF 4"
-    },
-    {
-      "address": "0x60c34eb93afcd1b701ff8c036b128441c68a8a70",
-      "nameTag": "Synthetix: Old Synth sCNY Token"
-    },
-    {
-      "address": "0x4917e9ef69e3a1c82651c9158ca2c25b3a564760",
-      "nameTag": "Synthetix: Old Synth sDEFI 1"
-    },
-    {
-      "address": "0xf778ec504245efe1ea010c5c3e50b6f5f5e117da",
-      "nameTag": "Synthetix: Old Synth sDEFI 2"
-    },
-    {
-      "address": "0xe725d6ff29d0679c9cb6fa8972a1e8a7fb49610b",
-      "nameTag": "Synthetix: Old Synth sDEFI 3"
-    },
-    {
-      "address": "0x42456d7084eacf4083f1140d3229471bba2949a8",
-      "nameTag": "Synthetix: Old Synth sETH 1"
-    },
-    {
-      "address": "0x8519d1bdb4cc1753df95c6e98f6bd0e95de568d9",
-      "nameTag": "Synthetix: Old Synth sETH 2"
-    },
-    {
-      "address": "0x0577d4268abe6777ae37688d015598819088297b",
-      "nameTag": "Synthetix: Old Synth sETH 3"
-    },
-    {
-      "address": "0xd81ada188331e627567bbef80f91217cd3109592",
-      "nameTag": "Synthetix: Old Synth sETH 4"
-    },
-    {
-      "address": "0x9f71b6596b2c9d357f9f04f8ca772fbd6e2c211c",
-      "nameTag": "Synthetix: Old Synth sETH 5"
-    },
-    {
-      "address": "0xc2bb52457d81fbd223cc92b44cd372d36b338a10",
-      "nameTag": "Synthetix: Old Synth sEUR 1"
-    },
-    {
-      "address": "0x45aa2f706c3d695acc1da9698fb803b8ef5157ba",
-      "nameTag": "Synthetix: Old Synth sEUR 2"
-    },
-    {
-      "address": "0x68473dc4b7a4b0867fd7c5b9a982fea407dad320",
-      "nameTag": "Synthetix: Old Synth sEUR 3"
-    },
-    {
-      "address": "0x57e4a2d7d9b759cf6fa2c937d52e408c66fb6384",
-      "nameTag": "Synthetix: Old Synth sEUR 4"
-    },
-    {
-      "address": "0xdb36b8f25bb1f289d97aee8f87baccac58fa8883",
-      "nameTag": "Synthetix: Old Synth sGBP 1"
-    },
-    {
-      "address": "0x0a24864596c54d79c825e64b281645249c14590c",
-      "nameTag": "Synthetix: Old Synth sGBP 2"
-    },
-    {
-      "address": "0xd8c733ac0b2db47bba7af7716eb696e62c417d5b",
-      "nameTag": "Synthetix: Old Synth sGBP 3"
-    },
-    {
-      "address": "0x486e27d56c0744970687927728598f8b96451cc4",
-      "nameTag": "Synthetix: Old Synth sGBP 4"
-    },
-    {
-      "address": "0x8fa7fbb0144cea832a76547aeab1ad8d9e4588f1",
-      "nameTag": "Synthetix: Old Synth sGBP 5"
-    },
-    {
-      "address": "0x51671b7556ebeb4c43180e983f5569973e15cac9",
-      "nameTag": "Synthetix: Old Synth sINR Token"
-    },
-    {
-      "address": "0xd9e5a009ec07de76616d7361ed713ef434d71325",
-      "nameTag": "Synthetix: Old Synth sJPY 1"
-    },
-    {
-      "address": "0x11dfa1bf994ea47e361ec474519afd627e932eb0",
-      "nameTag": "Synthetix: Old Synth sJPY 2"
-    },
-    {
-      "address": "0x4b1ce9c42a381cb2d74ffef20103e502e2fc619c",
-      "nameTag": "Synthetix: Old Synth sJPY 3"
-    },
-    {
-      "address": "0x68043c3eae66ac1c28341867491e615412fc84fd",
-      "nameTag": "Synthetix: Old Synth sJPY 4"
-    },
-    {
-      "address": "0xdf846d3ded30a0590319f8a7ecd4e233b0e9188c",
-      "nameTag": "Synthetix: Old Synth sKRW Token"
-    },
-    {
-      "address": "0x34b19046c6657d26b0c9b63d3fb54c2754ed4537",
-      "nameTag": "Synthetix: Old Synth sLINK 1"
-    },
-    {
-      "address": "0x46824bfaafd049fb0af9a45159a88e595bbbb9f7",
-      "nameTag": "Synthetix: Old Synth sLINK 2"
-    },
-    {
-      "address": "0x3d663dbe79fa9752815e03e129d6703ede1c6d71",
-      "nameTag": "Synthetix: Old Synth sLINK 3"
-    },
-    {
-      "address": "0x8e0cc15bbcd10e170ac07982b5d6930502c63784",
-      "nameTag": "Synthetix: Old Synth sLTC 1"
-    },
-    {
-      "address": "0x088256945480c884c067a8bc98a72a1c984f826b",
-      "nameTag": "Synthetix: Old Synth sLTC 2"
-    },
-    {
-      "address": "0x79bef89a63be04a75f1fa42e8f42ad873b6f43e2",
-      "nameTag": "Synthetix: Old Synth sLTC 3"
-    },
-    {
-      "address": "0x13586160e4f890d0631c3c08d989f5b7afe202b0",
-      "nameTag": "Synthetix: Old Synth sMKR Token 1"
-    },
-    {
-      "address": "0xfac2b3400df00a348c3118831a45a05255f9004a",
-      "nameTag": "Synthetix: Old Synth sMKR Token 2"
-    },
-    {
-      "address": "0x84965dca28c4eb9de61d80f80e811ea12be1c819",
-      "nameTag": "Synthetix: Old Synth sMKR Token 3"
-    },
-    {
-      "address": "0x54a0326fb698c2cfaca5327550a897fa66d21f07",
-      "nameTag": "Synthetix: Old Synth sMKR Token 4"
-    },
-    {
-      "address": "0xd1599e478cc818afa42a4839a6c665d9279c3e50",
-      "nameTag": "Synthetix: Old Synth sMKR Token 5"
-    },
-    {
-      "address": "0x457cd14f384e7d103b17feeb01d2a42ad2eca529",
-      "nameTag": "Synthetix: Old Synth SNX"
-    },
-    {
-      "address": "0x3772f9716cf6d7a09ede3587738aa2af5577483a",
-      "nameTag": "Synthetix: Old Synth SNX 1"
-    },
-    {
-      "address": "0x22a67ecd108f7a6fc52da9e2655ddfe88eccd9ca",
-      "nameTag": "Synthetix: Old Synth SNX 10"
-    },
-    {
-      "address": "0x9642c7026822391100a4773d7aa597ae18ece7dd",
-      "nameTag": "Synthetix: Old Synth SNX 11"
-    },
-    {
-      "address": "0x7cb89c509001d25da9938999abfea6740212e5f0",
-      "nameTag": "Synthetix: Old Synth SNX 12"
-    },
-    {
-      "address": "0x153c3148a0a285a6f9f6d1996e1348832249bf7e",
-      "nameTag": "Synthetix: Old Synth SNX 13"
-    },
-    {
-      "address": "0x8454190c164e52664af2c9c24ab58c4e14d6bbe4",
-      "nameTag": "Synthetix: Old Synth SNX 14"
-    },
-    {
-      "address": "0x2987252148e34863612ac7f4ef3260de0c2a68f7",
-      "nameTag": "Synthetix: Old Synth SNX 15"
-    },
-    {
-      "address": "0xc6738ed1eb79fa23941c75b4f437fc65893b5476",
-      "nameTag": "Synthetix: Old Synth SNX 16"
-    },
-    {
-      "address": "0xef8a2c1bc94e630463293f71bf5414d13e80f62d",
-      "nameTag": "Synthetix: Old Synth SNX 2"
-    },
-    {
-      "address": "0xd76c5b71ba091c785aec1a5c1c901b04876d073b",
-      "nameTag": "Synthetix: Old Synth SNX 3"
-    },
-    {
-      "address": "0x5a4ade4f3e934a0885f42884f7077261c3f4f66f",
-      "nameTag": "Synthetix: Old Synth SNX 4"
-    },
-    {
-      "address": "0x2dea20405c52fb477ecca8fe622661d316ac5400",
-      "nameTag": "Synthetix: Old Synth SNX 5"
-    },
-    {
-      "address": "0xbd88d2ddf55b65bdbba6f6a5a626b854835d7844",
-      "nameTag": "Synthetix: Old Synth SNX 6"
-    },
-    {
-      "address": "0xffc91f7088bf40f0419b451fb9d85718d8903628",
-      "nameTag": "Synthetix: Old Synth SNX 7"
-    },
-    {
-      "address": "0xa36ac1f924087b7b959592c3d89cb066d1cc35d5",
-      "nameTag": "Synthetix: Old Synth SNX 8"
-    },
-    {
-      "address": "0x42d03f506c2308ecd06ae81d8fa22352bc7a8f2b",
-      "nameTag": "Synthetix: Old Synth SNX 9"
-    },
-    {
-      "address": "0xcf401f31c63f58debfc76f441731dfa945cd0bde",
-      "nameTag": "Synthetix: Old Synth sNZD Token"
-    },
-    {
-      "address": "0x1943dbd2a793c588b5170188ee6fb62e02afdff7",
-      "nameTag": "Synthetix: Old Synth sPLN Token"
-    },
-    {
-      "address": "0x8a8dcbba6038c6fc6d192f5cf5c5dd83b98591bc",
-      "nameTag": "Synthetix: Old Synth sRUB Token"
-    },
-    {
-      "address": "0x2ae393c18b6aa62d6a2250af7b803fa6973bc981",
-      "nameTag": "Synthetix: Old Synth sSGD Token"
-    },
-    {
-      "address": "0xa6e5da838d3b8338783e0710e1d5f6c8e8e998ce",
-      "nameTag": "Synthetix: Old Synth sTRX 1"
-    },
-    {
-      "address": "0x0da04b80e21b344fcfd49c04bec658e80f1d7428",
-      "nameTag": "Synthetix: Old Synth sTRX 2"
-    },
-    {
-      "address": "0x1a60e2e2a8be0bc2b6381dd31fd3fd5f9a28de4c",
-      "nameTag": "Synthetix: Old Synth sTRX 3"
-    },
-    {
-      "address": "0x3d0e7c09242b0cad4e81cb2f6d2183ef517500ef",
-      "nameTag": "Synthetix: Old Synth sTRX 4"
-    },
-    {
-      "address": "0x0cbe2df57ca9191b64a7af3baa3f946fa7df2f25",
-      "nameTag": "Synthetix: Old Synth sUSD 1"
-    },
-    {
-      "address": "0xd8b325e9a95abc44cedc90aab64ec1f231f2cc8f",
-      "nameTag": "Synthetix: Old Synth sUSD 2"
-    },
-    {
-      "address": "0x2656a6e566f8e60f444b283bf346fc74a9990c96",
-      "nameTag": "Synthetix: Old Synth sUSD 3"
-    },
-    {
-      "address": "0x289e9a4674663decee54f781aade5327304a32f8",
-      "nameTag": "Synthetix: Old Synth sUSD 4"
-    },
-    {
-      "address": "0x2a020c1ad728f1c12735bc4877ceeca4491a4a3d",
-      "nameTag": "Synthetix: Old Synth sUSD 5"
-    },
-    {
-      "address": "0x4d57a8212bdb8bdca049365bce8afa0244a0e3fc",
-      "nameTag": "Synthetix: Old Synth sXAG 1"
-    },
-    {
-      "address": "0xd6308849094c5e6eb0edaba255a06ca32b0106bf",
-      "nameTag": "Synthetix: Old Synth sXAG 2"
-    },
-    {
-      "address": "0x3a412043939d9f7e53373b64f858ecb870a92e50",
-      "nameTag": "Synthetix: Old Synth sXAG 3"
-    },
-    {
-      "address": "0xd415e342a5c7ee189d939b4dc17e85880fe1096a",
-      "nameTag": "Synthetix: Old Synth sXAG 4"
-    },
-    {
-      "address": "0x112d5fa64e4902b6ff1a35495a0f878c210a5601",
-      "nameTag": "Synthetix: Old Synth sXAU 1"
-    },
-    {
-      "address": "0x4a15d9dfc95ba7b9e33ce70e7e0762dc8f7ac237",
-      "nameTag": "Synthetix: Old Synth sXAU 2"
-    },
-    {
-      "address": "0x4d96b67f5bde58a622d9bf2b8a1906c8b084faf4",
-      "nameTag": "Synthetix: Old Synth sXAU 3"
-    },
-    {
-      "address": "0x00ab7c26a5a6c4c32d0b897e4af3cb32f92aad34",
-      "nameTag": "Synthetix: Old Synth sXAU 4"
-    },
-    {
-      "address": "0xff6866ff46c71706dcd5a0a38f12279553be6233",
-      "nameTag": "Synthetix: Old Synth sXRP 1"
-    },
-    {
-      "address": "0xc64cda66bc1d026b984d6bee6adbf71eac8a099d",
-      "nameTag": "Synthetix: Old Synth sXRP 2"
-    },
-    {
-      "address": "0x4dc1e8bacc26d563941dcb59c72bd9fe58663778",
-      "nameTag": "Synthetix: Old Synth sXRP 3"
-    },
-    {
-      "address": "0x6e5bc3e877cfaa06ef97dfa12e63efbb8fcbb03e",
-      "nameTag": "Synthetix: Old Synth sXTZ 1"
-    },
-    {
-      "address": "0xc0b1f43ee7b0670f7b34e14c4702e54a905a51b5",
-      "nameTag": "Synthetix: Old Synth sXTZ 2"
-    },
-    {
-      "address": "0xe109da5361299ed96d91146b8cc12f682d21964e",
-      "nameTag": "Synthetix: Old Synth sXTZ 3"
-    },
-    {
-      "address": "0x2cb1b47fb16013798086f267e04e6579dcb72a74",
-      "nameTag": "Synthetix: Old Synth sXTZ 4"
-    },
-    {
-      "address": "0x2972705af18c66c14cdd27ad412961e01944a9c3",
-      "nameTag": "Synthetix: Old Synth XDR Token 1"
-    },
-    {
-      "address": "0x6025f88abb6d99d02c5eed82c151d52bac8e444b",
-      "nameTag": "Synthetix: Old Synth XDR Token 2"
-    },
-    {
-      "address": "0x30a46e656cdca6b401ff043e1abb151490a07ab0",
-      "nameTag": "Synthetix: Old Synth XDR Token 3"
-    },
-    {
-      "address": "0x96f9d144e55149437640512b82d7dda065e89773",
-      "nameTag": "Synthetix: Old Synth XDR Token 4"
-    },
-    {
-      "address": "0x4534e92eefecc63c6105f53893d355c14aa129cf",
-      "nameTag": "Synthetix: Old System Status"
-    },
-    {
-      "address": "0xa0c19218271f056bc10b1cdd7a5fab48f757bc86",
-      "nameTag": "Synthetix: Old Token State iMKR"
-    },
-    {
-      "address": "0x0985de52896fc4c9a84d108f5582ec02fdf91605",
-      "nameTag": "Synthetix: Old Token State sBRL"
-    },
-    {
-      "address": "0xddf91fc27087e076574df31483db5c21a85e47b6",
-      "nameTag": "Synthetix: Old Token State sCAD"
-    },
-    {
-      "address": "0x5cca1f0c514c0624d3ba7585d56fd2d72cbefd80",
-      "nameTag": "Synthetix: Old Token State sCNY"
-    },
-    {
-      "address": "0xf8f2f8001fca737efa2bc26217fc20c1f8267fba",
-      "nameTag": "Synthetix: Old Token State sINR"
-    },
-    {
-      "address": "0x249a10c68afa9827571cb73f29ab5af57ee5a596",
-      "nameTag": "Synthetix: Old Token State sKRW"
-    },
-    {
-      "address": "0xcee0a0dc7f393ed6ac84a3ac2191c28d6a53acef",
-      "nameTag": "Synthetix: Old Token State sMKR"
-    },
-    {
-      "address": "0x3fda286f354a3318534026dbacf021c84a71b03c",
-      "nameTag": "Synthetix: Old Token State sNZD"
-    },
-    {
-      "address": "0xdb957f324be2de9bdab01a3dbb50228569fdee1b",
-      "nameTag": "Synthetix: Old Token State sPLN"
-    },
-    {
-      "address": "0xf1ef8ee7dfee4bd0e06b0fced1d299387b78cb09",
-      "nameTag": "Synthetix: Old Token State sRUB"
-    },
-    {
-      "address": "0x000f49fd739d4023b0a6c87ee8705ef1ffb55c87",
-      "nameTag": "Synthetix: Old Token State sSGD"
-    },
-    {
-      "address": "0xbf093390d8046ae2d0f5465dec7001d65dc159d5",
-      "nameTag": "Synthetix: Old Token State XDR"
-    },
-    {
-      "address": "0x977d0dd7ea212e9ca1dcd4ec15cd7ceb135fa68d",
-      "nameTag": "Synthetix: One Net Aggregator Debt Ratio"
-    },
-    {
-      "address": "0xcf1405b18dbcea2893abe635c88359c75878b9e1",
-      "nameTag": "Synthetix: One Net Aggregator Issued Synths"
-    },
-    {
-      "address": "0x646f23085281dbd006fbfd211fd38d0743884864",
-      "nameTag": "Synthetix: One Net Aggregators DEFI"
-    },
-    {
-      "address": "0xc51f137e19f1ae6944887388fd12b2b6dfd12594",
-      "nameTag": "Synthetix: Optimism Bridge"
-    },
-    {
-      "address": "0xac1ed4fabbd5204e02950d68b6fc8c446ac95362",
-      "nameTag": "Synthetix: Oracle"
-    },
-    {
-      "address": "0x0aaf300e148378489a8a471dd3e9e53e30cb42e3",
-      "nameTag": "Synthetix: Oracle Manager"
-    },
-    {
-      "address": "0x0e16a6876210841577b233c4165d7b7edf640b8a",
-      "nameTag": "Synthetix: Owner Relay On Ethereum"
-    },
-    {
-      "address": "0xeb3107117fead7de89cd14d463d340a2e6917769",
-      "nameTag": "Synthetix: protocolDAO"
-    },
-    {
-      "address": "0xb440dd674e1243644791a4adfe3a2abb0a92d309",
-      "nameTag": "Synthetix: Proxy Fee Pool"
-    },
-    {
-      "address": "0x8a8079c7149b8a1611e5c5d978dca3be16545f83",
-      "nameTag": "Synthetix: Proxy iADA Token"
-    },
-    {
-      "address": "0xf6e9b246319ea30e8c2fa2d1540aaebf6f9e1b89",
-      "nameTag": "Synthetix: Proxy iBCH Token"
-    },
-    {
-      "address": "0xafd870f32ce54efdbf677466b612bf8ad164454b",
-      "nameTag": "Synthetix: Proxy iBNB Token"
-    },
-    {
-      "address": "0xd6014ea05bde904448b743833ddf07c3c7837481",
-      "nameTag": "Synthetix: Proxy iBTC Token"
-    },
-    {
-      "address": "0x336213e1ddfc69f4701fc3f86f4ef4a160c1159d",
-      "nameTag": "Synthetix: Proxy iCEX Token"
-    },
-    {
-      "address": "0xcb98f42221b2c251a4e74a1609722ee09f0cc08e",
-      "nameTag": "Synthetix: Proxy iDASH Token"
-    },
-    {
-      "address": "0x14d10003807ac60d07bb0ba82caeac8d2087c157",
-      "nameTag": "Synthetix: Proxy iDEFI Token"
-    },
-    {
-      "address": "0xf4eebdd0704021ef2a6bbe993fdf93030cd784b4",
-      "nameTag": "Synthetix: Proxy iEOS Token"
-    },
-    {
-      "address": "0xd50c1746d835d2770dda3703b69187bffeb14126",
-      "nameTag": "Synthetix: Proxy iETC Token"
-    },
-    {
-      "address": "0xa9859874e1743a32409f75bb11549892138bba1e",
-      "nameTag": "Synthetix: Proxy iETH Token"
-    },
-    {
-      "address": "0x2d7ac061fc3db53c39fe1607fb8cec1b2c162b01",
-      "nameTag": "Synthetix: Proxy iLINK Token"
-    },
-    {
-      "address": "0x79da1431150c9b82d2e5dfc1c68b33216846851e",
-      "nameTag": "Synthetix: Proxy iLTC Token"
-    },
-    {
-      "address": "0xc5807183a9661a533cb08cbc297594a0b864dc12",
-      "nameTag": "Synthetix: Proxy iTRX Token"
-    },
-    {
-      "address": "0x4adf728e2df4945082cdd6053869f51278fae196",
-      "nameTag": "Synthetix: Proxy iXMR Token"
-    },
-    {
-      "address": "0x27269b3e45a4d3e79a3d6bfee0c8fb13d0d711a6",
-      "nameTag": "Synthetix: Proxy iXRP Token"
-    },
-    {
-      "address": "0x8deef89058090ac5655a99eeb451a4f9183d1678",
-      "nameTag": "Synthetix: Proxy iXTZ Token"
-    },
-    {
-      "address": "0xe36e2d3c7c34281fa3bc737950a68571736880a1",
-      "nameTag": "Synthetix: Proxy sADA Token"
-    },
-    {
-      "address": "0xf48e200eaf9906362bb1442fca31e0835773b8b4",
-      "nameTag": "Synthetix: Proxy sAUD Token"
-    },
-    {
-      "address": "0x36a2422a863d5b950882190ff5433e513413343a",
-      "nameTag": "Synthetix: Proxy sBCH Token"
-    },
-    {
-      "address": "0x617aecb6137b5108d1e7d4918e3725c8cebdb848",
-      "nameTag": "Synthetix: Proxy sBNB Token"
-    },
-    {
-      "address": "0xfe18be6b3bd88a2d2a7f928d00292e7a9963cfc6",
-      "nameTag": "Synthetix: Proxy sBTC Token"
-    },
-    {
-      "address": "0xeabacd844a196d7faf3ce596edebf9900341b420",
-      "nameTag": "Synthetix: Proxy sCEX Token"
-    },
-    {
-      "address": "0x0f83287ff768d1c1e17a42f44d644d7f22e8ee1d",
-      "nameTag": "Synthetix: Proxy sCHF Token"
-    },
-    {
-      "address": "0xfe33ae95a9f0da8a845af33516edc240dcd711d6",
-      "nameTag": "Synthetix: Proxy sDASH Token"
-    },
-    {
-      "address": "0xe1afe1fd76fd88f78cbf599ea1846231b8ba3b6b",
-      "nameTag": "Synthetix: Proxy sDEFI Token"
-    },
-    {
-      "address": "0x88c8cf3a212c0369698d13fe98fcb76620389841",
-      "nameTag": "Synthetix: Proxy sEOS Token"
-    },
-    {
-      "address": "0x22602469d704bffb0936c7a7cfcd18f7aa269375",
-      "nameTag": "Synthetix: Proxy sETC Token"
-    },
-    {
-      "address": "0x5e74c9036fb86bd7ecdcb084a0673efc32ea31cb",
-      "nameTag": "Synthetix: Proxy sETH Token"
-    },
-    {
-      "address": "0x104edf1da359506548bfc7c25ba1e28c16a70235",
-      "nameTag": "Synthetix: Proxy sETHBTC Token"
-    },
-    {
-      "address": "0xd71ecff9342a5ced620049e616c5035f1db98620",
-      "nameTag": "Synthetix: Proxy sEUR Token"
-    },
-    {
-      "address": "0x23348160d7f5aca21195df2b70f28fce2b0be9fc",
-      "nameTag": "Synthetix: Proxy sFTSE Token"
-    },
-    {
-      "address": "0x97fe22e7341a0cd8db6f6c021a24dc8f4dad855f",
-      "nameTag": "Synthetix: Proxy sGBP Token"
-    },
-    {
-      "address": "0xf6b1c627e95bfc3c1b4c9b825a032ff0fbf3e07d",
-      "nameTag": "Synthetix: Proxy sJPY Token"
-    },
-    {
-      "address": "0x269895a3df4d73b077fc823dd6da1b95f72aaf9b",
-      "nameTag": "Synthetix: Proxy sKRW Token"
-    },
-    {
-      "address": "0xbbc455cb4f1b9e4bfc4b73970d360c8f032efee6",
-      "nameTag": "Synthetix: Proxy sLINK Token"
-    },
-    {
-      "address": "0xc14103c2141e842e228fbac594579e798616ce7a",
-      "nameTag": "Synthetix: Proxy sLTC Token"
-    },
-    {
-      "address": "0x757de3ac6b830a931ef178c6634c5c551773155c",
-      "nameTag": "Synthetix: Proxy sNIKKEI Token"
-    },
-    {
-      "address": "0xc011a73ee8576fb46f5e1c5751ca3b9fe0af2a6f",
-      "nameTag": "Synthetix: Proxy SNX Token"
-    },
-    {
-      "address": "0xf2e08356588ec5cd9e437552da87c0076b4970b0",
-      "nameTag": "Synthetix: Proxy sTRX Token"
-    },
-    {
-      "address": "0x57ab1ec28d129707052df4df418d58a2d46d5f51",
-      "nameTag": "Synthetix: Proxy sUSD Token"
-    },
-    {
-      "address": "0x6a22e5e94388464181578aa7a6b869e00fe27846",
-      "nameTag": "Synthetix: Proxy sXAG Token"
-    },
-    {
-      "address": "0x261efcdd24cea98652b9700800a13dfbca4103ff",
-      "nameTag": "Synthetix: Proxy sXAU Token"
-    },
-    {
-      "address": "0x5299d6f7472dcc137d7f3c4bcfbbb514babf341a",
-      "nameTag": "Synthetix: Proxy sXMR Token"
-    },
-    {
-      "address": "0xa2b0fde6d710e201d0d608e924a484d1a5fed57c",
-      "nameTag": "Synthetix: Proxy sXRP Token"
-    },
-    {
-      "address": "0x2e59005c5c0f0a4d77cca82653d48b46322ee5cd",
-      "nameTag": "Synthetix: Proxy sXTZ Token"
-    },
-    {
-      "address": "0x4e3b31eb0e5cb73641ee1e65e7dcefe520ba3ef2",
-      "nameTag": "Synthetix: Read Proxy Address Resolver"
-    },
-    {
-      "address": "0xb671f2210b1f6621a2607ea63e6b2dc3e2464d1f",
-      "nameTag": "Synthetix: Reward Escrow"
-    },
-    {
-      "address": "0xda4ef8520b1a57d7d63f1e249606d1a459698876",
-      "nameTag": "Synthetix: Reward Escrow V2"
-    },
-    {
-      "address": "0x182738bd9ee9810bc11f1c81b07ec6f3691110bb",
-      "nameTag": "Synthetix: Reward Escrow V2 Storage"
-    },
-    {
-      "address": "0x29c295b046a73cde593f21f63091b072d407e3f2",
-      "nameTag": "Synthetix: Rewards Distribution"
-    },
-    {
-      "address": "0xcd39b5434a0a92cf47d1f567a7df84be356814f0",
-      "nameTag": "Synthetix: s1INCH Token"
-    },
-    {
-      "address": "0x7537aae01f3b218dae75e10d952473823f961b87",
-      "nameTag": "Synthetix: sAAPL Token"
-    },
-    {
-      "address": "0x95ae43e5e96314e4afffcf19d9419111cd11169e",
-      "nameTag": "Synthetix: sAAVE"
-    },
-    {
-      "address": "0x0e429603d3cb1dfae4e6f52add5fe82d96d77dac",
-      "nameTag": "Synthetix: SACCT Token"
-    },
-    {
-      "address": "0xb34f4d7c207d8979d05edb0f63f174764bd67825",
-      "nameTag": "Synthetix: sADA"
-    },
-    {
-      "address": "0x84d626b2bb4d0f064067e4bf80fce7055d8f3e7b",
-      "nameTag": "Synthetix: Safe Decimal Math"
-    },
-    {
-      "address": "0x9cf7e61853ea30a41b02169391b393b901eac457",
-      "nameTag": "Synthetix: sAMZN Token"
-    },
-    {
-      "address": "0xc4546bdd93cdaada6994e84fb6f2722c620b019c",
-      "nameTag": "Synthetix: sAUD"
-    },
-    {
-      "address": "0x18fcc34bdeaaf9e3b69d2500343527c0c995b1d6",
-      "nameTag": "Synthetix: sBTC"
-    },
-    {
-      "address": "0x13c1542a468319688b89e323fe9a3be3a90ebb27",
-      "nameTag": "Synthetix: sBTC Curvepool Rewards"
-    },
-    {
-      "address": "0xcc83a57b080a4c7c86f0bb892bc180c8c7f8791d",
-      "nameTag": "Synthetix: sCHF"
-    },
-    {
-      "address": "0xd38aeb759891882e78e957c80656572503d8c1b1",
-      "nameTag": "Synthetix: sCRV Token"
-    },
-    {
-      "address": "0x49be88f0fcc3a8393a59d3688480d7d253c37d2a",
-      "nameTag": "Synthetix: sDAO"
-    },
-    {
-      "address": "0xf533aeee48f0e04e30c2f6a1f19fbb675469a124",
-      "nameTag": "Synthetix: sDEFI"
-    },
-    {
-      "address": "0x27b45a4208b87a899009f45888139882477acea5",
-      "nameTag": "Synthetix: sDOT"
-    },
-    {
-      "address": "0x4fb63c954ef07ec74335bb53835026c75dd91dc6",
-      "nameTag": "Synthetix: sETH"
-    },
-    {
-      "address": "0x9a4935749dbdfaf786a19df1c61a6d28b7a6cf94",
-      "nameTag": "Synthetix: sETH Pool Arbitrage"
-    },
-    {
-      "address": "0x6df798ec713b33be823b917f27820f2aa0cf7662",
-      "nameTag": "Synthetix: sETHBTC"
-    },
-    {
-      "address": "0x1b06a00df0b27e7871e753720d4917a7d1aac68b",
-      "nameTag": "Synthetix: sEUR"
-    },
-    {
-      "address": "0xf50b5e535f62a56a9bd2d8e2434204e726c027fa",
-      "nameTag": "Synthetix: sFB Token"
-    },
-    {
-      "address": "0xae7a2c1e326e59f2db2132652115a59e8adb5ebf",
-      "nameTag": "Synthetix: sGBP"
-    },
-    {
-      "address": "0xc63b8ecce56ab9c46184ec6ab85e4771fea4c8ad",
-      "nameTag": "Synthetix: sGOOG Token"
-    },
-    {
-      "address": "0xced4055b47cfd0421f3727a35f69ce659c8baf7a",
-      "nameTag": "Synthetix: Shorting Rewards sBTC"
-    },
-    {
-      "address": "0x12dc1273915a16ab8bd47ba7866b240c253e4c12",
-      "nameTag": "Synthetix: Shorting Rewards sETH"
-    },
-    {
-      "address": "0x728a2b79cad691531cc1146ef802617ff50c7095",
-      "nameTag": "Synthetix: Signed Safe Decimal Math"
-    },
-    {
-      "address": "0xb82f11f3168ece7d56fe6a5679567948090de7c5",
-      "nameTag": "Synthetix: sJPY"
-    },
-    {
-      "address": "0x527637be27640d6c3e751d24dc67129a6d13e11c",
-      "nameTag": "Synthetix: sKRW"
-    },
-    {
-      "address": "0xe08518ba3d2467f7ca50efe68aa00c5f78d4f3d6",
-      "nameTag": "Synthetix: sLINK"
-    },
-    {
-      "address": "0x5a7e3c07604eb515c16b36cd51906a65f021f609",
-      "nameTag": "Synthetix: sNFLX Token"
-    },
-    {
-      "address": "0x97767d7d04fd0db0a1a2478dcd4ba85290556b48",
-      "nameTag": "Synthetix: SNX Token"
-    },
-    {
-      "address": "0xb2f30a7c980f052f02563fb518dcc39e6bf38175",
-      "nameTag": "Synthetix: snxUSD Token"
-    },
-    {
-      "address": "0x023c66b7e13d30a3c46aa433fd2829763d5817c5",
-      "nameTag": "Synthetix: Spartan Council"
-    },
-    {
-      "address": "0x0352557b007a4aae1511c114409b932f06f9e2f4",
-      "nameTag": "Synthetix: sRUNE Token"
-    },
-    {
-      "address": "0xfbaedde70732540ce2b11a8ac58eb2dc0d69de10",
-      "nameTag": "Synthetix: Staking Rewards (Balancer SNX)"
-    },
-    {
-      "address": "0x8302fe9f0c509a996573d3cc5b0d5d51e4fdd5ec",
-      "nameTag": "Synthetix: Staking Rewards (Uniswap V2 sXAU)"
-    },
-    {
-      "address": "0x167009dcda2e49930a71712d956f02cc980dcc1b",
-      "nameTag": "Synthetix: Staking Rewards iBTC"
-    },
-    {
-      "address": "0x3f27c540adae3a9e8c875c61e3b970b559d7f65d",
-      "nameTag": "Synthetix: Staking Rewards iETH"
-    },
-    {
-      "address": "0xc0d8994cd78ee1980885df1a0c5470fc977b5cfe",
-      "nameTag": "Synthetix: Staking Rewards sEUR Curve"
-    },
-    {
-      "address": "0x4b9ca5607f1ff8019c1c6a3c2f0cc8de622d5b82",
-      "nameTag": "Synthetix: State"
-    },
-    {
-      "address": "0x918da91ccbc32b7a6a0cc4ecd5987bbab6e31e6d",
-      "nameTag": "Synthetix: sTSLA Token"
-    },
-    {
-      "address": "0xa05e45396703babaa9c276b5e5a9b6e2c175b521",
-      "nameTag": "Synthetix: Supply Schedule"
-    },
-    {
-      "address": "0x8d203c458d536fe0f97e9f741bc231eac8cd91cf",
-      "nameTag": "Synthetix: Supply Schedule 2"
-    },
-    {
-      "address": "0x7df9b3f8f1c011d8bd707430e97e747479dd532a",
-      "nameTag": "Synthetix: sUSD"
-    },
-    {
-      "address": "0x176c674ee533c6139b0dc8b458d72a93dcb3e705",
-      "nameTag": "Synthetix: Synth iAAVE"
-    },
-    {
-      "address": "0x9d4193187b247a400e8d8ba716f1c18c0dc65528",
-      "nameTag": "Synthetix: Synth iADA"
-    },
-    {
-      "address": "0x0e87a320dace86a0b427fa2bae282de5c7697278",
-      "nameTag": "Synthetix: Synth iBCH"
-    },
-    {
-      "address": "0xf86048dff23cf130107dfb4e6386f574231a5c65",
-      "nameTag": "Synthetix: Synth iBNB"
-    },
-    {
-      "address": "0xc704c9aa89d1ca60f67b3075d05fbb92b3b00b3b",
-      "nameTag": "Synthetix: Synth iBTC"
-    },
-    {
-      "address": "0x817c39c8825e12ea7752483c85dd2c800b78b357",
-      "nameTag": "Synthetix: Synth iCEX"
-    },
-    {
-      "address": "0x6345728b1cce16e6f8c509950b5c84fff88530d9",
-      "nameTag": "Synthetix: Synth iCOMP"
-    },
-    {
-      "address": "0x5f7a299be82d8f5a626300c62c477b233f616121",
-      "nameTag": "Synthetix: Synth iDASH"
-    },
-    {
-      "address": "0x489d4d4c4bc781eaab3a36c44d66762ceb6e1e2d",
-      "nameTag": "Synthetix: Synth iDEFI"
-    },
-    {
-      "address": "0x46a97629c9c1f58de6ec18c7f536e7e6d6a6ecde",
-      "nameTag": "Synthetix: Synth iDOT"
-    },
-    {
-      "address": "0xc66a263f2c7c1af0bd70c6ca4bff5936f3d6ef9f",
-      "nameTag": "Synthetix: Synth iEOS"
-    },
-    {
-      "address": "0xf13f9e75913b352622f8aeea5ac32498b1c228d0",
-      "nameTag": "Synthetix: Synth iETC"
-    },
-    {
-      "address": "0xae55f163337a2a46733aa66da9f35299f9a46e9e",
-      "nameTag": "Synthetix: Synth iETH"
-    },
-    {
-      "address": "0x63d630b6d89c21e171e86c51c7243284510dbd79",
-      "nameTag": "Synthetix: Synth iLINK"
-    },
-    {
-      "address": "0x0f5bdfd0958345c2e7adb1741024aed6dd159e6c",
-      "nameTag": "Synthetix: Synth iLTC"
-    },
-    {
-      "address": "0x0fed38108bdb8e62ef7b5680e8e0726e2f29e0de",
-      "nameTag": "Synthetix: Synth iREN"
-    },
-    {
-      "address": "0xdd87cbde3c1f8f728c7924c8c9c983af6dfcfea8",
-      "nameTag": "Synthetix: Synth iTRX"
-    },
-    {
-      "address": "0x36a00ff9072570ef4b9292117850b8fe08d96cce",
-      "nameTag": "Synthetix: Synth iUNI"
-    },
-    {
-      "address": "0xc5d2b3f5daf11b6111af86a72a5938b0fe6c5045",
-      "nameTag": "Synthetix: Synth iXMR"
-    },
-    {
-      "address": "0x71cd588efa3609bc14e7b0c7c57dddfd3a72e8a2",
-      "nameTag": "Synthetix: Synth iXRP"
-    },
-    {
-      "address": "0x6dfdfbfb4b180be4482f8b753fb33720c2831a9f",
-      "nameTag": "Synthetix: Synth iXTZ"
-    },
-    {
-      "address": "0x592244301cea952d6dab2fdc1fe6bd9e53917306",
-      "nameTag": "Synthetix: Synth iYFI"
-    },
-    {
-      "address": "0xe533139af961c9747356d947838c98451015e234",
-      "nameTag": "Synthetix: Synth Redeemer"
-    },
-    {
-      "address": "0xd2df355c19471c8bd7d8a3aa27ff4e26a21b4076",
-      "nameTag": "Synthetix: Synth sAAVE"
-    },
-    {
-      "address": "0x1cda42c559d2eb137103d9a01d1ae736deda3aef",
-      "nameTag": "Synthetix: Synth sADA"
-    },
-    {
-      "address": "0xe04d8770dc06135dd97214ea8bcbf7b1cc057aa3",
-      "nameTag": "Synthetix: Synth sAUD"
-    },
-    {
-      "address": "0x9b68b85c61b082b2495b342f26b20a57cfd73d26",
-      "nameTag": "Synthetix: Synth sBCH"
-    },
-    {
-      "address": "0xadad43be81e2206f6d1af4299ca2a029e16af7ab",
-      "nameTag": "Synthetix: Synth sBNB"
-    },
-    {
-      "address": "0x17628a557d1fc88d1c35989dcbac3f3e275e2d2b",
-      "nameTag": "Synthetix: Synth sBTC"
-    },
-    {
-      "address": "0x5ea2544551448cf6dcc1d853addd663d480fd8d3",
-      "nameTag": "Synthetix: Synth sCEX"
-    },
-    {
-      "address": "0x253914cf059f4c3e277c28060c404acfc38fb6e2",
-      "nameTag": "Synthetix: Synth sCHF"
-    },
-    {
-      "address": "0xeb029507d3e043dd6c87f2917c4e82b902c35618",
-      "nameTag": "Synthetix: Synth sCOMP"
-    },
-    {
-      "address": "0xc66499ace3b6c6a30c784be5511e8d338d543913",
-      "nameTag": "Synthetix: Synth sDASH"
-    },
-    {
-      "address": "0xf5a6115aa582fd1beea22bc93b7dc7a785f60d03",
-      "nameTag": "Synthetix: Synth sDEFI"
-    },
-    {
-      "address": "0x1715ac0743102bf5cd58efbb6cf2dc2685d967b6",
-      "nameTag": "Synthetix: Synth sDOT"
-    },
-    {
-      "address": "0x31a9c51eed5282f11ae5cdd061a65a4ce0346c08",
-      "nameTag": "Synthetix: Synth sEOS"
-    },
-    {
-      "address": "0x2369d37ae9b30451d859c11cabac70df1ce48f78",
-      "nameTag": "Synthetix: Synth sETC"
-    },
-    {
-      "address": "0xd0dc005d31c2979cc0d38718e23c82d1a50004c0",
-      "nameTag": "Synthetix: Synth sETH"
-    },
-    {
-      "address": "0x2fb419e7023b32201e9ab3aba947f5c101a5c30e",
-      "nameTag": "Synthetix: Synth sEUR"
-    },
-    {
-      "address": "0x8d34924eae7578692775fdd94ed27bc355397e4a",
-      "nameTag": "Synthetix: Synth sFTSE"
-    },
-    {
-      "address": "0xb3098ae40f488ffdb979827fd01597cc20c5a5a0",
-      "nameTag": "Synthetix: Synth sGBP"
-    },
-    {
-      "address": "0x8ed1b71b00dbab96a6db6df0c910f749243de6d3",
-      "nameTag": "Synthetix: Synth sJPY"
-    },
-    {
-      "address": "0xaf918f4a72bc34e59dfaf65866fec87947f1f590",
-      "nameTag": "Synthetix: Synth sLINK"
-    },
-    {
-      "address": "0x6cf29c515a33209c6eca43c293004ac80c0614f0",
-      "nameTag": "Synthetix: Synth sLTC"
-    },
-    {
-      "address": "0x4ceb220c5e38e27ef5187f7ab853ac182d233d39",
-      "nameTag": "Synthetix: Synth sNIKKEI"
-    },
-    {
-      "address": "0xd31533e8d0f3df62060e94b3f1318137bb6e3525",
-      "nameTag": "Synthetix: Synth sREN"
-    },
-    {
-      "address": "0xc4be4583bc0307c56cf301975b2b2b1e5f95fcb2",
-      "nameTag": "Synthetix: Synth sTRX"
-    },
-    {
-      "address": "0x30635297e450b930f8693297eba160d9e6c8ebcf",
-      "nameTag": "Synthetix: Synth sUNI"
-    },
-    {
-      "address": "0xae38b81459d74a8c16eaa968c792207603d84480",
-      "nameTag": "Synthetix: Synth sUSD"
-    },
-    {
-      "address": "0x1b9d6cd65ddc981410cb93af91b097667e0bc7ee",
-      "nameTag": "Synthetix: Synth sXAG"
-    },
-    {
-      "address": "0xa408d8e01c8e084b67559226c5b55d6f0b7074e2",
-      "nameTag": "Synthetix: Synth sXAU"
-    },
-    {
-      "address": "0x86fd9c0261e804476ba11056ffd758da2469ed56",
-      "nameTag": "Synthetix: Synth sXMR"
-    },
-    {
-      "address": "0xf5d0bfbc617d3969c1ace93490a76ce80db1ed0e",
-      "nameTag": "Synthetix: Synth sXRP"
-    },
-    {
-      "address": "0x91dbc6f587d043fefbaad050ab48696b30f13d89",
-      "nameTag": "Synthetix: Synth sXTZ"
-    },
-    {
-      "address": "0x992058b7db08f9734d84485bfbc243c4ee6954a7",
-      "nameTag": "Synthetix: Synth sYFI"
-    },
-    {
-      "address": "0x81aee4ea48f678e172640fb5813cf7a96afaf6c3",
-      "nameTag": "Synthetix: Synth Util"
-    },
-    {
-      "address": "0x39ea01a0298c315d149a490e34b59dbf2ec7e48f",
-      "nameTag": "Synthetix: Synthetix Bridge To Optimism"
-    },
-    {
-      "address": "0xffffffaeff0b96ea8e4f94b2253f31abdd875847",
-      "nameTag": "Synthetix: Synthetix Core"
-    },
-    {
-      "address": "0xd0da9cbea9c3852c5d63a95f9abcc4f6ea0f9032",
-      "nameTag": "Synthetix: Synthetix Network Token"
-    },
-    {
-      "address": "0xac87648ca3b88b6ce566aac9d7f3c0eb635b3a1e",
-      "nameTag": "Synthetix: System Settings"
-    },
-    {
-      "address": "0x202ae40bed1640b09e2af7ac5719d129a498b7c8",
-      "nameTag": "Synthetix: System Settings 2"
-    },
-    {
-      "address": "0xa62f71d599ec6179b4f6569add69ffc7e1a7a1c5",
-      "nameTag": "Synthetix: System Settings Lib"
-    },
-    {
-      "address": "0x4a39aef2281ac0d192a9c4783604833ba8f31174",
-      "nameTag": "Synthetix: System Settings Lib 2"
-    },
-    {
-      "address": "0x1c86b3cdf2a60ae3a574f7f71d44e2c50bddb87e",
-      "nameTag": "Synthetix: System Status"
-    },
-    {
-      "address": "0x696c905f8f8c006ca46e9808fe7e00049507798f",
-      "nameTag": "Synthetix: System Status 2"
-    },
-    {
-      "address": "0x971e78e0c92392a4e39099835cf7e6ab535b2227",
-      "nameTag": "Synthetix: Token Sale Escrow"
-    },
-    {
-      "address": "0xd636802a5b903b23726189d9b89daad2750177fa",
-      "nameTag": "Synthetix: Token State iADA"
-    },
-    {
-      "address": "0x780a7206313f411db5f32c79b15b1c80faabed59",
-      "nameTag": "Synthetix: Token State iBCH"
-    },
-    {
-      "address": "0xc4e4c442653fdc78a71401684fd6cf9d67b3b643",
-      "nameTag": "Synthetix: Token State iBNB"
-    },
-    {
-      "address": "0xa1652766155d4debc31d01bf3f748cb46508745b",
-      "nameTag": "Synthetix: Token State iBTC"
-    },
-    {
-      "address": "0x3fb1f228168432688b4e851fe909907248cf9ecd",
-      "nameTag": "Synthetix: Token State iCEX"
-    },
-    {
-      "address": "0x01ada1140ca795897c45016dfd296382267b264a",
-      "nameTag": "Synthetix: Token State iDASH"
-    },
-    {
-      "address": "0x6e9bac2827dbba78d11b270115086cc357988928",
-      "nameTag": "Synthetix: Token State iDEFI"
-    },
-    {
-      "address": "0x68a8b098967ae077dcff5cc8e29b7cb15f1a3cc8",
-      "nameTag": "Synthetix: Token State iEOS"
-    },
-    {
-      "address": "0x71892d13ba2b19f196760f619ee9c67534a49e37",
-      "nameTag": "Synthetix: Token State iETC"
-    },
-    {
-      "address": "0x7b6ab32ca02b31485fbf7265437c2853792cc5d9",
-      "nameTag": "Synthetix: Token State iETH"
-    },
-    {
-      "address": "0x3fdf819c3665d6866b5bb0f56e1eda0d7f69b714",
-      "nameTag": "Synthetix: Token State iLINK"
-    },
-    {
-      "address": "0x7b1010586f923cbf61e7c314146853675705751f",
-      "nameTag": "Synthetix: Token State iLTC"
-    },
-    {
-      "address": "0xd69eabdf940174ca571a6d71dde9b9a4dbcdbb0f",
-      "nameTag": "Synthetix: Token State iTRX"
-    },
-    {
-      "address": "0xe20117888ab22acf65b02c196a9f8423b502876c",
-      "nameTag": "Synthetix: Token State iXMR"
-    },
-    {
-      "address": "0xa9d6ae0f9e9da6ffc357cd155cce18e3491e135d",
-      "nameTag": "Synthetix: Token State iXRP"
-    },
-    {
-      "address": "0xca0d3004f5e771a129fb94619f8867a23e8a23de",
-      "nameTag": "Synthetix: Token State iXTZ"
-    },
-    {
-      "address": "0x9bced8a8e3ad81c9b146ffc880358f734a06f7c0",
-      "nameTag": "Synthetix: Token State sAAVE"
-    },
-    {
-      "address": "0x9956c5019a24fbd5b506ad070b771577bac5c343",
-      "nameTag": "Synthetix: Token State sADA"
-    },
-    {
-      "address": "0xcb29d2cf2c65d3be1d00f07f3441390432d55203",
-      "nameTag": "Synthetix: Token State sAUD"
-    },
-    {
-      "address": "0xb7ee031093b9578df124983823330bbe277fd8b4",
-      "nameTag": "Synthetix: Token State sBCH"
-    },
-    {
-      "address": "0xf9bd94c6f93c1fa5f38174c5e424721e1046af07",
-      "nameTag": "Synthetix: Token State sBNB"
-    },
-    {
-      "address": "0x4f6296455f8d754c19821cf1ec8febf2cd456e67",
-      "nameTag": "Synthetix: Token State sBTC"
-    },
-    {
-      "address": "0xc5680d24c3086e10f618b5176a59e90d6284be9f",
-      "nameTag": "Synthetix: Token State sCEX"
-    },
-    {
-      "address": "0x52496fe8a4feaefe14d9433e00d48e6929c13dec",
-      "nameTag": "Synthetix: Token State sCHF"
-    },
-    {
-      "address": "0x136b1ec699c62b0606854056f02dc7bb80482d63",
-      "nameTag": "Synthetix: Token State sDASH"
-    },
-    {
-      "address": "0x7ac2d37098a65b0f711cffa3be635f1e6acacfab",
-      "nameTag": "Synthetix: Token State sDEFI"
-    },
-    {
-      "address": "0x73b1a2643507cd30f11dfcf2d974f4373e5bc077",
-      "nameTag": "Synthetix: Token State sDOT"
-    },
-    {
-      "address": "0x631443c4121ca7b4c90dc79a37b1dce8b79adeec",
-      "nameTag": "Synthetix: Token State sEOS"
-    },
-    {
-      "address": "0xd4db55cf39c37beaa3a47f2555d57b4ea2d9ff39",
-      "nameTag": "Synthetix: Token State sETC"
-    },
-    {
-      "address": "0x34a5ef81d18f3a305ae9c2d7df42beef4c79031c",
-      "nameTag": "Synthetix: Token State sETH"
-    },
-    {
-      "address": "0x042a7a0022a7695454ac5be77a4860e50c9683fc",
-      "nameTag": "Synthetix: Token State sETHBTC"
-    },
-    {
-      "address": "0x6568d9e750fc44af00f857885dfb8281c00529c4",
-      "nameTag": "Synthetix: Token State sEUR"
-    },
-    {
-      "address": "0xd1b420854527e4b0e489bd37ec8f9db1e6305515",
-      "nameTag": "Synthetix: Token State sFTSE"
-    },
-    {
-      "address": "0x7e88d19a79b291cfe5696d496055f7e57f537a75",
-      "nameTag": "Synthetix: Token State sGBP"
-    },
-    {
-      "address": "0x4dfacfb15514c21c991ff75bc7bf6fb1f98361ed",
-      "nameTag": "Synthetix: Token State sJPY"
-    },
-    {
-      "address": "0x93b6e9fbbd2c32a0dc3c2b943b7c3cbc2fe23730",
-      "nameTag": "Synthetix: Token State sKRW"
-    },
-    {
-      "address": "0x577d4a7395c6a5f46d9981a5f83fa7294926abb0",
-      "nameTag": "Synthetix: Token State sLINK"
-    },
-    {
-      "address": "0xe1a2c7957a4771031301f2e25b0f52039ad97270",
-      "nameTag": "Synthetix: Token State sLTC"
-    },
-    {
-      "address": "0xc69d8b688a309fdea9273dde1a46bf1e51928a55",
-      "nameTag": "Synthetix: Token State sNIKKEI"
-    },
-    {
-      "address": "0x7ec5697c724895da7f2320bde063bef6215a72e2",
-      "nameTag": "Synthetix: Token State sTRX"
-    },
-    {
-      "address": "0x05a9cbe762b36632b3594da4f082340e0e5343e8",
-      "nameTag": "Synthetix: Token State sUSD"
-    },
-    {
-      "address": "0x53d244fb46357568dbef082225ccc87cbd94aae8",
-      "nameTag": "Synthetix: Token State sXAG"
-    },
-    {
-      "address": "0x20569b49d74c1ede765382574f7f3fdc2a078a4f",
-      "nameTag": "Synthetix: Token State sXAU"
-    },
-    {
-      "address": "0x23d5381713841724a67b731026b32322228ca3c7",
-      "nameTag": "Synthetix: Token State sXMR"
-    },
-    {
-      "address": "0xb90aaffb61dfc042e7a7abce069ddb4bae9ab192",
-      "nameTag": "Synthetix: Token State sXRP"
-    },
-    {
-      "address": "0x959894a82fbf99d35b12ed1ea81e783296229862",
-      "nameTag": "Synthetix: Token State sXTZ"
-    },
-    {
-      "address": "0x5b1b5fea1b99d83ad479df0c222f0492385381dd",
-      "nameTag": "Synthetix: Token State Synthetix"
-    },
-    {
-      "address": "0x62922670313bf6b41c580143d1f6c173c5c20019",
-      "nameTag": "Synthetix: Trading Rewards"
-    },
-    {
-      "address": "0x99f4176ee457afedffcb1839c7ab7a030a5e4a92",
-      "nameTag": "Synthetix: Treasury Council"
-    },
-    {
-      "address": "0x0c6f93a3ccdb4de4bbab2e3de714ea48bdbaa877",
-      "nameTag": "Synthetix: Treasury Council NFT"
-    },
-    {
-      "address": "0xf0de877f2f9e7a60767f9ba662f10751566ad01c",
-      "nameTag": "Synthetix: TSLA Balancer Staking Rewards"
-    },
-    {
-      "address": "0x5ef0de4bd373e435341cd82311dfb13d5e8fdef5",
-      "nameTag": "Synthetix: Underlying SNX Token"
-    },
-    {
-      "address": "0xf02ce48fd47d7fa1b7a45a0444805d320d035775",
-      "nameTag": "Synthetix: Virtual Synth Master Copy"
-    },
-    {
-      "address": "0x02f9bc46bed33acdb9cb002fe346734cef8a9480",
-      "nameTag": "Synthetix: Wrapper Factory"
-    }
-  ]
-}
+[
+  { "address": "0x07c1e81c345a7c58d7c24072efc5d929bd0647ad", "nameTag": "" },
+  { "address": "0x10a5f7d9d65bcc2734763444d4940a31b109275f", "nameTag": "" },
+  { "address": "0x1cb004a8e84a5ce95c1ff895ee603bac8ec506c7", "nameTag": "" },
+  { "address": "0x5d4c724bfe3a228ff0e29125ac1571fe093700a4", "nameTag": "" },
+  { "address": "0x75a0c1597137aa36b40b6a515d997f9a6c6eefeb", "nameTag": "" },
+  { "address": "0x80d65bb7b9436a86c1928f93d6e7cc186987ac54", "nameTag": "" },
+  { "address": "0x91b82d62ff322b8e02b86f33e9a99a813437830d", "nameTag": "" },
+  { "address": "0x942eb6e8c029eb22103743c99985af4f4515a559", "nameTag": "" },
+  { "address": "0xdc883b9d9ee16f74be08826e68df4c9d9d26e8bd", "nameTag": "" },
+  { "address": "0xe1cc2332852b2ac0da59a1f9d3051829f4ef3c1c", "nameTag": "" },
+  {
+    "address": "0xfb020ca7f4e8c4a5bbbe060f59a249c6275d2b69",
+    "nameTag": "Fake_Phishing285381"
+  },
+  {
+    "address": "0xa8e31e3c38add6052a9407298faeb8fd393a6cf9",
+    "nameTag": "Fake_Phishing285411"
+  },
+  {
+    "address": "0xdf69bc4541b86aa4c5a470b4347e730c38b2c3b2",
+    "nameTag": "Fake_Phishing285416"
+  },
+  {
+    "address": "0xdae6c79c46ab3b280ca28259000695529cbd1339",
+    "nameTag": "Fake_Phishing285423"
+  },
+  {
+    "address": "0xbb5b03e920cf702de5a3ba9fc1445af4b3919c88",
+    "nameTag": "Fake_Phishing285490"
+  },
+  {
+    "address": "0x7af65f1740c0eb816a27fd808eaf6ab09f6fa646",
+    "nameTag": "Synthetix: AAPL Balancer Staking Rewards"
+  },
+  {
+    "address": "0x823be81bbf96bec0e25ca13170f5aacb5b79ba83",
+    "nameTag": "Synthetix: Address Resolver"
+  },
+  {
+    "address": "0x46abfe1c972fca43766d6ad70e1c1df72f4bb4d1",
+    "nameTag": "Synthetix: Ambassador Council"
+  },
+  {
+    "address": "0xdc338c7544654c7dadfeb7e44076e457963113b0",
+    "nameTag": "Synthetix: AMZN Balancer Staking Rewards"
+  },
+  {
+    "address": "0xa6b5e74466edc95d0b6e65c5cbfca0a676d893a4",
+    "nameTag": "Synthetix: ArbRewarder"
+  },
+  {
+    "address": "0xe523184876c97945da45998582526cdb6a3da260",
+    "nameTag": "Synthetix: Binary Option Market Data"
+  },
+  {
+    "address": "0x211ba925b35b82246a3ccfa3a991a39a840f025c",
+    "nameTag": "Synthetix: Binary Option Market Factory"
+  },
+  {
+    "address": "0x915d1c9df12142b535f6a7437f0196d80bccc1bd",
+    "nameTag": "Synthetix: Binary Option Market Manager"
+  },
+  {
+    "address": "0x9f231dbe53d460f359b2b8cc47574493caa5b7bf",
+    "nameTag": "Synthetix: Circuit Breaker"
+  },
+  {
+    "address": "0x1c1d97f6338759ab814a5a717ae359573ab5d5d4",
+    "nameTag": "Synthetix: COIN Balancer Staking Rewards"
+  },
+  {
+    "address": "0xaa03ab31b55dceeef845c8d17890cc61cd98ed04",
+    "nameTag": "Synthetix: Collateral Erc20"
+  },
+  {
+    "address": "0x5c8344bcdc38f1ab5eb5c1d4a35ddeea522b5dfa",
+    "nameTag": "Synthetix: Collateral Eth"
+  },
+  {
+    "address": "0x067e398605e84f2d0aeec1806e62768c5110dcc6",
+    "nameTag": "Synthetix: Collateral Manager"
+  },
+  {
+    "address": "0x573e5105c4b92416d1544a188f1bf77d442bb52d",
+    "nameTag": "Synthetix: Collateral Manager State"
+  },
+  {
+    "address": "0x1f2c3a1046c32729862fcb038369696e3273a516",
+    "nameTag": "Synthetix: Collateral Short"
+  },
+  {
+    "address": "0x8a1a00df7aa0102497c7591912ba8301e8db8cdb",
+    "nameTag": "Synthetix: Collateral State Erc20"
+  },
+  {
+    "address": "0xbe5b5a7c198bc156474ed5c33cbf2f3f604f8ff8",
+    "nameTag": "Synthetix: Collateral State ETH"
+  },
+  {
+    "address": "0x13a114a3fa8a6ce03a0c5488be9e614d78eddb0c",
+    "nameTag": "Synthetix: Collateral State Short"
+  },
+  {
+    "address": "0xba9984288eba7d3afbd4bddb7b5e54eda4514fcb",
+    "nameTag": "Synthetix: Core Contributor Committee NFT"
+  },
+  {
+    "address": "0xe5e0cc9e81beac52a0cd1cb22048597eeebc5072",
+    "nameTag": "Synthetix: Core Contributor NFT"
+  },
+  {
+    "address": "0xab0b2f1cf979cdbf4676251f35353ec5af2732dd",
+    "nameTag": "Synthetix: Dapp Maintenance"
+  },
+  {
+    "address": "0x12c815b0c404d66dd0491f4ec62839904cec25e7",
+    "nameTag": "Synthetix: Debt Cache"
+  },
+  {
+    "address": "0xe92b4c7428152052b0930c81f4c687a5f1a12292",
+    "nameTag": "Synthetix: Debt Cache 2"
+  },
+  {
+    "address": "0x1620aa736939597891c1940cf0d28b82566f9390",
+    "nameTag": "Synthetix: Debt Cache 3"
+  },
+  {
+    "address": "0x94f864e55c77e07c2c7bf7bfbc334b7a8123442a",
+    "nameTag": "Synthetix: Debt Migrator On Ethereum"
+  },
+  {
+    "address": "0x89fcb32f29e509cc42d0c8b6f058c993013a843f",
+    "nameTag": "Synthetix: Debt Shares"
+  },
+  {
+    "address": "0x15fd6e554874b9e70f832ed37f231ac5e142362f",
+    "nameTag": "Synthetix: Delegate Approvals"
+  },
+  {
+    "address": "0x8f586f063ffbb89b186c8e604fc6614766f9c9d1",
+    "nameTag": "Synthetix: Delegate Approvals Eternal Storage"
+  },
+  {
+    "address": "0x819addc3dd780704ae85ea12c18252f7020c24d0",
+    "nameTag": "Synthetix: Deployer"
+  },
+  {
+    "address": "0xe88ada0408f187c17eedd256a0495d8e3766aac4",
+    "nameTag": "Synthetix: Deployer 10"
+  },
+  {
+    "address": "0x77a2cd8e930eacf196105ca06837d8b3edecf1a5",
+    "nameTag": "Synthetix: Deployer 3"
+  },
+  {
+    "address": "0xea5e288b4f9d7e66da162e2af0db371783f62454",
+    "nameTag": "Synthetix: Deployer 4"
+  },
+  {
+    "address": "0xccf1242cb1d7d56b428dac2bd68a5cace1b067e7",
+    "nameTag": "Synthetix: Deployer 5"
+  },
+  {
+    "address": "0xb10c85274d2a58ddec72c1d826e75256ff93dead",
+    "nameTag": "Synthetix: Deployer 6"
+  },
+  {
+    "address": "0xaf28cec7854e9a070f4cd31f18ba005f874d9f50",
+    "nameTag": "Synthetix: Deployer 7"
+  },
+  {
+    "address": "0xde91067660f6e19ae03fba96d6926a0897b5f5be",
+    "nameTag": "Synthetix: Deployer 8"
+  },
+  {
+    "address": "0xf2827848dbee5d46e9c7c4c3f5e197e3af811105",
+    "nameTag": "Synthetix: Deployer 9"
+  },
+  {
+    "address": "0xe1f64079ada6ef07b03982ca34f1dd7152aa3b86",
+    "nameTag": "Synthetix: Depot"
+  },
+  {
+    "address": "0x5f41718459955217df6a02aa8f5c19614ecfa6e7",
+    "nameTag": "Synthetix: Direct Integration Manager"
+  },
+  {
+    "address": "0x3b399e00afd8201acf8a5a0eccf1c47d8d5e41da",
+    "nameTag": "Synthetix: Escrow Checker"
+  },
+  {
+    "address": "0x0f7c200c4d3b5570c777764884ce6de67f31d3ba",
+    "nameTag": "Synthetix: Eternal Storage Liquidations"
+  },
+  {
+    "address": "0xac86855865cbf31c8f9fbb68c749ad5bd72802e3",
+    "nameTag": "Synthetix: ETH Reward Escrow V2"
+  },
+  {
+    "address": "0x7133aff303539b0a4f60ab9bd9656598bf49e272",
+    "nameTag": "Synthetix: Ether Collateral"
+  },
+  {
+    "address": "0xc1aae9d18bbe386b102435a8632c8063d31e747c",
+    "nameTag": "Synthetix: Ether Wrapper"
+  },
+  {
+    "address": "0xfed77055b40d63dcf17ab250ffd6948fbff57b82",
+    "nameTag": "Synthetix: EtherCollateral sUSD Trial"
+  },
+  {
+    "address": "0xeacaed9581294b1b5cfb6b941d4b8b81b2005437",
+    "nameTag": "Synthetix: Exchange Circuit Breaker"
+  },
+  {
+    "address": "0xd69b189020ef614796578afe4d10378c5e7e1138",
+    "nameTag": "Synthetix: Exchange Rates"
+  },
+  {
+    "address": "0x648280dd2db772cd018a0cec72fab5bf8b7683ab",
+    "nameTag": "Synthetix: Exchange Rates 2"
+  },
+  {
+    "address": "0xaa5a3d7f04e15b22eb3664b56310aa18a3527ec7",
+    "nameTag": "Synthetix: Exchange Settlement Lib"
+  },
+  {
+    "address": "0x545973f28950f50fc6c7f52aab4ad214a27c0564",
+    "nameTag": "Synthetix: Exchange State"
+  },
+  {
+    "address": "0x0bfdc04b38251394542586969e2356d0d731f7de",
+    "nameTag": "Synthetix: Exchanger"
+  },
+  {
+    "address": "0x7634f2a1741a683ccda37dce864c187f990d7b4b",
+    "nameTag": "Synthetix: Exchanger 2"
+  },
+  {
+    "address": "0xaea0065e146fd75dc24465961a583827284d405a",
+    "nameTag": "Synthetix: Exchanger 3"
+  },
+  {
+    "address": "0x26fa0665660c1d3a3666584669511d3c66ad37cb",
+    "nameTag": "Synthetix: FB Balancer Staking Rewards"
+  },
+  {
+    "address": "0xfeefeefeefeefeefeefeefeefeefeefeefeefeef",
+    "nameTag": "Synthetix: Fee Address"
+  },
+  {
+    "address": "0x778d2d3e3515e42573eb1e6a8d8915d4a22d9d54",
+    "nameTag": "Synthetix: Fee Pool"
+  },
+  {
+    "address": "0x510adfdf6e7554c571b7cd9305ce91473610015e",
+    "nameTag": "Synthetix: Fee Pool 2"
+  },
+  {
+    "address": "0x83105d7cdd2fd9b8185bff1cb56bb1595a618618",
+    "nameTag": "Synthetix: Fee Pool 3"
+  },
+  {
+    "address": "0xc9dfff5fa5605fd94f8b7927b892f2b57391e8bb",
+    "nameTag": "Synthetix: Fee Pool Eternal Storage"
+  },
+  {
+    "address": "0x11164f6a47c3f8472d19b9add516fc780cb7ee02",
+    "nameTag": "Synthetix: Fee Pool State"
+  },
+  {
+    "address": "0xc757acba3c0506218b3022266a9dc7f3612d85f5",
+    "nameTag": "Synthetix: Flexible Storage"
+  },
+  {
+    "address": "0xd3f527f47a9df2f6cbf631081315b6e2fe4e4521",
+    "nameTag": "Synthetix: Futures Market Manager"
+  },
+  {
+    "address": "0x6fb7f0e78582746bd01bcb6dfbfe62ca5f4f9175",
+    "nameTag": "Synthetix: GOOG Balancer Staking Rewards"
+  },
+  {
+    "address": "0xeb9a82736cc030fc4a4cd4b53e9b2c67e153208d",
+    "nameTag": "Synthetix: Grants Council"
+  },
+  {
+    "address": "0x86626e1bbbd0ce95ed52e0c5e19f371a6640b591",
+    "nameTag": "Synthetix: grantsDAO"
+  },
+  {
+    "address": "0x631e93a0fb06b5ec6d52c0a2d89a3f9672d6ba64",
+    "nameTag": "Synthetix: Issuance Eternal Storage"
+  },
+  {
+    "address": "0x0decf74c966438c3b4578b46dcc64c907141f670",
+    "nameTag": "Synthetix: Issuer"
+  },
+  {
+    "address": "0x922c84b3894298296c34842d866bfc0d36c54778",
+    "nameTag": "Synthetix: Issuer 2"
+  },
+  {
+    "address": "0xca68a3d663483515a9d434e854ab59a41b3a523c",
+    "nameTag": "Synthetix: Issuer 3"
+  },
+  {
+    "address": "0x045e507925d2e05d114534d0810a1abd94aca8d6",
+    "nameTag": "Synthetix: L2 Bridge"
+  },
+  {
+    "address": "0xcd9d4988c0ae61887b075ba77f08cbfad2b65068",
+    "nameTag": "Synthetix: L2 Deposit"
+  },
+  {
+    "address": "0x5fd79d46eba7f351fe49bff9e87cdea6c821ef9f",
+    "nameTag": "Synthetix: L2 Deposit Escrow"
+  },
+  {
+    "address": "0xc011a72400e58ecd99ee497cf89e3775d4bd732f",
+    "nameTag": "Synthetix: Legacy Proxy SNX"
+  },
+  {
+    "address": "0x57ab1e02fee23774580c119740129eac7081e9d3",
+    "nameTag": "Synthetix: Legacy Proxy sUSD"
+  },
+  {
+    "address": "0xad95c918af576c82df740878c3e983cbd175dab6",
+    "nameTag": "Synthetix: Liquidations"
+  },
+  {
+    "address": "0x8e9757479d5ad4e7f9d951b60d39f5220b893d6c",
+    "nameTag": "Synthetix: Liquidator"
+  },
+  {
+    "address": "0xf79603a71144e415730c1a6f57f366e4ea962c00",
+    "nameTag": "Synthetix: Liquidator Rewards"
+  },
+  {
+    "address": "0xdcb6a51ea3ca5d3fd898fd6564757c7aaec3ca92",
+    "nameTag": "Synthetix: LP Rewards (Curve sUSD)"
+  },
+  {
+    "address": "0xc746bc860781dc90bbfcd381d6a058dc16357f8d",
+    "nameTag": "Synthetix: LP Rewards (iETH)"
+  },
+  {
+    "address": "0x48d7f315fedcad332f68aafa017c7c158bc54760",
+    "nameTag": "Synthetix: LP Rewards (Uniswap sETH)"
+  },
+  {
+    "address": "0x385e1eb2ff28f4a637da2c9971f8caf5f5b1e77c",
+    "nameTag": "Synthetix: Math"
+  },
+  {
+    "address": "0x9d003cc298e7ea141a809c241c0a703176da3ba3",
+    "nameTag": "Synthetix: MSFT Balancer Staking Rewards"
+  },
+  {
+    "address": "0x7a3d898b717e50a96fd8b232e9d15f0a547a7eeb",
+    "nameTag": "Synthetix: Native Ether Wrapper"
+  },
+  {
+    "address": "0x8ef8ca2acaaafec19fb366c11561718357f780f2",
+    "nameTag": "Synthetix: NFLX Balancer Staking Rewards"
+  },
+  {
+    "address": "0xfbb6526ed92da8915d4843a86166020d0b7baad0",
+    "nameTag": "Synthetix: Old Address Resolver"
+  },
+  {
+    "address": "0x61166014e3f04e40c953fe4eab9d9e40863c83ae",
+    "nameTag": "Synthetix: Old Address Resolver 1"
+  },
+  {
+    "address": "0xf74e828b79636c228683daf5078cc5cececaa37a",
+    "nameTag": "Synthetix: Old Ambassador Council"
+  },
+  {
+    "address": "0x8ec58faa4c1b693b50b7f1331897ad6b52dd824a",
+    "nameTag": "Synthetix: Old Binary Option Market Factory"
+  },
+  {
+    "address": "0x673e76631981cb55783527f744e581aba8cf406d",
+    "nameTag": "Synthetix: Old Binary Option Market Manager"
+  },
+  {
+    "address": "0x13b54e8271b3e45ce71d8f4fc73ea936873a34fc",
+    "nameTag": "Synthetix: Old Curvepool"
+  },
+  {
+    "address": "0x778ec2d9b4bae65c57a6436a6c37afc135bad727",
+    "nameTag": "Synthetix: Old Dapp Maintenance"
+  },
+  {
+    "address": "0x97a853e9536cf7cf123aa14da726b71a848290ce",
+    "nameTag": "Synthetix: Old Delegate Approvals"
+  },
+  {
+    "address": "0xde910777c787903f78c89e7a0bf7f4c435cbb1fe",
+    "nameTag": "Synthetix: Old Deployer"
+  },
+  {
+    "address": "0xb64ff7a4a33acdf48d97dab0d764afd0f6176882",
+    "nameTag": "Synthetix: Old Deployer 2"
+  },
+  {
+    "address": "0x172e09691dfbbc035e37c73b62095caa16ee2388",
+    "nameTag": "Synthetix: Old Depot"
+  },
+  {
+    "address": "0x0f3d8ad599be443a54c7934b433a87464ed0dfdc",
+    "nameTag": "Synthetix: Old Ether Collateral"
+  },
+  {
+    "address": "0x73b172756bd5ddf0110ba8d7b88816eb639eb21c",
+    "nameTag": "Synthetix: Old Exchange Rates"
+  },
+  {
+    "address": "0xba727c69636491ecdfe3e6f64cbe9428ad371e48",
+    "nameTag": "Synthetix: Old Exchange Rates 1"
+  },
+  {
+    "address": "0xba34e436c9383aa8fa1e3659d2807ae040592498",
+    "nameTag": "Synthetix: Old Exchange Rates 2"
+  },
+  {
+    "address": "0x5cbb53ca85a9e52b593baf8ae90282c4b3db0b25",
+    "nameTag": "Synthetix: Old Exchange Rates 3"
+  },
+  {
+    "address": "0x70c629875dadbe702489a5e1e3baae60e38924fa",
+    "nameTag": "Synthetix: Old Exchange Rates 4"
+  },
+  {
+    "address": "0x99a46c42689720d9118ff7af7ce80c2a92fc4f97",
+    "nameTag": "Synthetix: Old Exchange Rates 5"
+  },
+  {
+    "address": "0x565c9eb432f4ae9633e50e1213ab4f23d8f31f54",
+    "nameTag": "Synthetix: Old Exchange Rates 6"
+  },
+  {
+    "address": "0xe95ef4e7a04d2fb05cb625c62ca58da10112c605",
+    "nameTag": "Synthetix: Old Exchange Rates 7"
+  },
+  {
+    "address": "0x9d7f70af5df5d5cc79780032d47a34615d1f1d77",
+    "nameTag": "Synthetix: Old Exchange Rates 8"
+  },
+  {
+    "address": "0x6289fd70d3dce8de61896959cdefcff3ce46a108",
+    "nameTag": "Synthetix: Old Exchanger"
+  },
+  {
+    "address": "0x271d0c1940fe546e787b273a0ccc780ecd8db461",
+    "nameTag": "Synthetix: Old Exchanger 2"
+  },
+  {
+    "address": "0x7dfe5aa8fc36c0ae788a3a71062728bfc3036216",
+    "nameTag": "Synthetix: Old Exchanger 3"
+  },
+  {
+    "address": "0xfadafb3ece40eac206404b8df5af841f16f60e62",
+    "nameTag": "Synthetix: Old Exchanger 4"
+  },
+  {
+    "address": "0xebdbac38835a1105851e80c7fa1f1e6e25a86e32",
+    "nameTag": "Synthetix: Old Fee Pool"
+  },
+  {
+    "address": "0x6aaebdfbf23134ef8d81deb2e253f32394b2857b",
+    "nameTag": "Synthetix: Old Fee Pool 1"
+  },
+  {
+    "address": "0x94dba784e87a3f5f12e25ec98bf14233c1e69017",
+    "nameTag": "Synthetix: Old Fee Pool 10"
+  },
+  {
+    "address": "0x1be675c50c4cc419517219b88fe84a573cc223fa",
+    "nameTag": "Synthetix: Old Fee Pool 11"
+  },
+  {
+    "address": "0x8a34aeff4cded94afa786fcf811a6307aa7c656a",
+    "nameTag": "Synthetix: Old Fee Pool 12"
+  },
+  {
+    "address": "0x21bd6b9c3cb3f7e0c6aa7061d2b02f22cdebd2ab",
+    "nameTag": "Synthetix: Old Fee Pool 13"
+  },
+  {
+    "address": "0x9b7e40031f7d4f6ab6e5d36bbf2fea3bcccc75a5",
+    "nameTag": "Synthetix: Old Fee Pool 2"
+  },
+  {
+    "address": "0x3d32f1404deace2a43b08211e4662275045b495b",
+    "nameTag": "Synthetix: Old Fee Pool 3"
+  },
+  {
+    "address": "0x503e91fc2b9ad7453700130d0825e661565e4c3b",
+    "nameTag": "Synthetix: Old Fee Pool 4"
+  },
+  {
+    "address": "0x5e5f5542dad3e06cc8e1cd2461e83f872835117b",
+    "nameTag": "Synthetix: Old Fee Pool 5"
+  },
+  {
+    "address": "0xa70b3c3dcd4d3cdc55992dc5bebed33da92a259a",
+    "nameTag": "Synthetix: Old Fee Pool 6"
+  },
+  {
+    "address": "0xc566a81f193626ee88a85fb3dcc82279b96a094e",
+    "nameTag": "Synthetix: Old Fee Pool 7"
+  },
+  {
+    "address": "0xb211e3b026b6db2f65f5c5ec03d44bb97bb69fb8",
+    "nameTag": "Synthetix: Old Fee Pool 8"
+  },
+  {
+    "address": "0xa8cb0b163cefb21f22c72f6a7d243184bd688a5a",
+    "nameTag": "Synthetix: Old Fee Pool 9"
+  },
+  {
+    "address": "0x04567106db2a4661a5fda9f48719d57b372b77bf",
+    "nameTag": "Synthetix: Old Grants Council"
+  },
+  {
+    "address": "0x23bf838af72ee8f43870a73947d8f4edb63adae3",
+    "nameTag": "Synthetix: Old Issuer"
+  },
+  {
+    "address": "0xb7d018f57b82d1523f15a270d6b942836204310b",
+    "nameTag": "Synthetix: Old Issuer 1"
+  },
+  {
+    "address": "0x357b58e0b1be9d8a944380048fa1080c57c7a362",
+    "nameTag": "Synthetix: Old Issuer 2"
+  },
+  {
+    "address": "0xde51788d7113bcf845b62b878bd5ed971a49cf85",
+    "nameTag": "Synthetix: Old Issuer 3"
+  },
+  {
+    "address": "0xeb4c3266e1b295654ec36f16ffcfd24d3ef3e735",
+    "nameTag": "Synthetix: Old Issuer 4"
+  },
+  {
+    "address": "0x9f9c7ba80442767e7bef5e8121cec53cf8182827",
+    "nameTag": "Synthetix: Old Liquidations"
+  },
+  {
+    "address": "0x7c8f07ac5b0a2876ee582a661d53de2d0bbad96f",
+    "nameTag": "Synthetix: Old Proxy iBNB Token"
+  },
+  {
+    "address": "0x2b143041a6f8be9dcc66e9110178a264a223a3bd",
+    "nameTag": "Synthetix: Old Proxy iBTC Token"
+  },
+  {
+    "address": "0xae7f21c0dfe5481ca77d538b5609938a51850942",
+    "nameTag": "Synthetix: Old Proxy iCEX Token"
+  },
+  {
+    "address": "0xd4fb1706ae549febec06bb7175b08010dd1b0c2e",
+    "nameTag": "Synthetix: Old Proxy iETH Token"
+  },
+  {
+    "address": "0xeaf60da0199be2f62005225248705de774582328",
+    "nameTag": "Synthetix: Old Proxy iMKR Token 1"
+  },
+  {
+    "address": "0x0794d09be5395f69534ff8151d72613077148b29",
+    "nameTag": "Synthetix: Old Proxy iMKR Token 2"
+  },
+  {
+    "address": "0xcd8d927f2cb03d2efb7f96ceb66ec4976843e012",
+    "nameTag": "Synthetix: Old Proxy iTRX Token"
+  },
+  {
+    "address": "0xc2992b2c22238f296c2f429ee2f7afb462ed1750",
+    "nameTag": "Synthetix: Old Proxy iXTZ Token"
+  },
+  {
+    "address": "0xed4699f180a14b5974c26f494483f9c327fd381a",
+    "nameTag": "Synthetix: Old Proxy sAUD Token"
+  },
+  {
+    "address": "0x013ae307648f529aa72c5767a334ddd37aab43c3",
+    "nameTag": "Synthetix: Old Proxy sBNB Token"
+  },
+  {
+    "address": "0x5d609c25adaafd856021f92296c66db602a0fce8",
+    "nameTag": "Synthetix: Old Proxy sBRL Token"
+  },
+  {
+    "address": "0x9073ee83b6ce96c444547ddcaf777b9352163581",
+    "nameTag": "Synthetix: Old Proxy sBTC Token"
+  },
+  {
+    "address": "0x0bc209fb72390af12bd6fd775355ea0856864b31",
+    "nameTag": "Synthetix: Old Proxy sCAD Token"
+  },
+  {
+    "address": "0xb91b114a24a1c16834f1217cc3b9ee117b6c817a",
+    "nameTag": "Synthetix: Old Proxy sCEX Token"
+  },
+  {
+    "address": "0x28af5a2f0cc12f2f19dd946608c945456b52b3f6",
+    "nameTag": "Synthetix: Old Proxy sCHF Token"
+  },
+  {
+    "address": "0x60feeed05004476518281d43185fb7f52d9722c0",
+    "nameTag": "Synthetix: Old Proxy sCNY Token"
+  },
+  {
+    "address": "0xacf5c0101cbbe8476e87c652e0bef33684cc94d6",
+    "nameTag": "Synthetix: Old Proxy sETH Token"
+  },
+  {
+    "address": "0x3eb064766109d150e4362222df80638bce00e037",
+    "nameTag": "Synthetix: Old Proxy sEUR Token"
+  },
+  {
+    "address": "0x0c8a7d55ef593a2cad34894c1523162ee2ffb9ac",
+    "nameTag": "Synthetix: Old Proxy sGBP Token"
+  },
+  {
+    "address": "0x74c80bb51da1eac2d40074c647cbd0ab6920063f",
+    "nameTag": "Synthetix: Old Proxy sINR Token"
+  },
+  {
+    "address": "0x559e848a1b6a7afc69ee27f8d20280a42628b2cf",
+    "nameTag": "Synthetix: Old Proxy sJPY Token"
+  },
+  {
+    "address": "0xdce506b196b0df677d07e718f872cac9bc368a33",
+    "nameTag": "Synthetix: Old Proxy sKRW Token"
+  },
+  {
+    "address": "0xe88a4976cb7d8898d39e3f317421d625403ecb8c",
+    "nameTag": "Synthetix: Old Proxy sMKR Token 1"
+  },
+  {
+    "address": "0x4140919de11fce58e654cc6038017af97f810de1",
+    "nameTag": "Synthetix: Old Proxy sMKR Token 2"
+  },
+  {
+    "address": "0x26c0cb14470803120321b70ae85405ac298e5a42",
+    "nameTag": "Synthetix: Old Proxy sNZD Token"
+  },
+  {
+    "address": "0xd9553f0fda012224141aecc1eca0e29868ff7fe8",
+    "nameTag": "Synthetix: Old Proxy sPLN Token"
+  },
+  {
+    "address": "0xdcb5821fcfdab5553307b8f99591fc9daa3c4be3",
+    "nameTag": "Synthetix: Old Proxy sRUB Token"
+  },
+  {
+    "address": "0x632db1c25c03dcac8d23ff2c9a4cea34cbeffa1b",
+    "nameTag": "Synthetix: Old Proxy sSGD Token"
+  },
+  {
+    "address": "0x0944d2c41fef3088467287e208e5bbb622a0c09c",
+    "nameTag": "Synthetix: Old Proxy sTRX Token"
+  },
+  {
+    "address": "0x6e5709515c767c907e43a03388cc816bd65e797c",
+    "nameTag": "Synthetix: Old Proxy sXAG Token"
+  },
+  {
+    "address": "0xe05d803fa0c5832fa2262465290abb25d6c2bfa3",
+    "nameTag": "Synthetix: Old Proxy sXAU Token"
+  },
+  {
+    "address": "0xf45b14ddabf0f0e275e215b94dd24ae013a27f12",
+    "nameTag": "Synthetix: Old Proxy sXTZ Token"
+  },
+  {
+    "address": "0x62492f15cf60c5847d3053e482cade8c5c29af88",
+    "nameTag": "Synthetix: Old Proxy XDR Token 1"
+  },
+  {
+    "address": "0xb3f67de9a919476a4c0fe821d67bf5c4637d8429",
+    "nameTag": "Synthetix: Old Proxy XDR Token 2"
+  },
+  {
+    "address": "0xffa72fd80d8a84032d855bfb67036baf45949009",
+    "nameTag": "Synthetix: Old Rewards Distribution"
+  },
+  {
+    "address": "0xa3de830b5208851539de8e4ff158d635e8f36fcb",
+    "nameTag": "Synthetix: Old Supply Schedule"
+  },
+  {
+    "address": "0x56751d5ac7d2b614c79d22e6b52d3285cfa8a293",
+    "nameTag": "Synthetix: Old Synth iBNB 1"
+  },
+  {
+    "address": "0xed4a3adffa428ffd126aed8ba5b8b58bb12c11ca",
+    "nameTag": "Synthetix: Old Synth iBNB 2"
+  },
+  {
+    "address": "0x57ff288dd9d478b046647a5ab917195449f1f6e5",
+    "nameTag": "Synthetix: Old Synth iBNB 3"
+  },
+  {
+    "address": "0x09400ec683f70174e1217d6dcdbf42448e8de5d6",
+    "nameTag": "Synthetix: Old Synth iBNB 4"
+  },
+  {
+    "address": "0xc68b5eb9e035b2b84568a4c6201e3b200c0236ba",
+    "nameTag": "Synthetix: Old Synth iBNB 5"
+  },
+  {
+    "address": "0xd8f6b6b6782632275b2b51230654f687f5b12cde",
+    "nameTag": "Synthetix: Old Synth iBTC 1"
+  },
+  {
+    "address": "0xccc395f0ebfaa26dcc2d3bacc23d55614002236b",
+    "nameTag": "Synthetix: Old Synth iBTC 2"
+  },
+  {
+    "address": "0xce88906100c145522be3a509683881241abb3c52",
+    "nameTag": "Synthetix: Old Synth iBTC 3"
+  },
+  {
+    "address": "0x83266a95429b903cc5e954bf61c7eddf8a52b971",
+    "nameTag": "Synthetix: Old Synth iBTC 4"
+  },
+  {
+    "address": "0x810425566d1d3078b15a6f035b17886f18f3c54b",
+    "nameTag": "Synthetix: Old Synth iBTC 5"
+  },
+  {
+    "address": "0x66b86625ee80b06e94e027e44ea35680a0730233",
+    "nameTag": "Synthetix: Old Synth iCEX 1"
+  },
+  {
+    "address": "0x43e1505e315be6c8b875a37f7d8753ba84140a37",
+    "nameTag": "Synthetix: Old Synth iCEX 2"
+  },
+  {
+    "address": "0xda5ed43b9b6e36b4f27cc6d8c1974532cdbd55f9",
+    "nameTag": "Synthetix: Old Synth iCEX 3"
+  },
+  {
+    "address": "0xf7011510572d0efe31d1e90cd6dc1ef84e6b13b8",
+    "nameTag": "Synthetix: Old Synth iCEX 4"
+  },
+  {
+    "address": "0x8e39e807d9eae1ced9bce296f211c38ba5ab2f9b",
+    "nameTag": "Synthetix: Old Synth iDEFI 1"
+  },
+  {
+    "address": "0xc5bfbc63dc8d36e81434e93e0ee097999879d7f4",
+    "nameTag": "Synthetix: Old Synth iDEFI 2"
+  },
+  {
+    "address": "0xae7d62fb6a305e6d9e9f8c43bbb41093c2be52f6",
+    "nameTag": "Synthetix: Old Synth iDEFI 3"
+  },
+  {
+    "address": "0x51fe40e6292dbc44623b298a4086ffa6f5976ba1",
+    "nameTag": "Synthetix: Old Synth iETH 1"
+  },
+  {
+    "address": "0x9b461df6fc38e1baec08c06eb9e916093af8d11c",
+    "nameTag": "Synthetix: Old Synth iETH 2"
+  },
+  {
+    "address": "0x3f3804176d90640ac6063124afd4bc0636ac85b6",
+    "nameTag": "Synthetix: Old Synth iETH 3"
+  },
+  {
+    "address": "0xf53b56b6fb98aaf514bcd28f6fa6fd20c24e5c22",
+    "nameTag": "Synthetix: Old Synth iETH 4"
+  },
+  {
+    "address": "0xc0ba711b4e128425be9245ce750d82c90b42d6d2",
+    "nameTag": "Synthetix: Old Synth iETH 5"
+  },
+  {
+    "address": "0xec114001d23eefe6624fb42ccbf4b3c793e295f1",
+    "nameTag": "Synthetix: Old Synth iLINK 2"
+  },
+  {
+    "address": "0x3ddf5dad59f8f8e8f957709b044ee84e87b42e25",
+    "nameTag": "Synthetix: Old Synth iLINK 3"
+  },
+  {
+    "address": "0x8c6680412e914932a9abc02b6c7cbf690e583afa",
+    "nameTag": "Synthetix: Old Synth iLINK 4"
+  },
+  {
+    "address": "0x05dd55c18999b4a2f905978c029b85da37750170",
+    "nameTag": "Synthetix: Old Synth iLTC 1"
+  },
+  {
+    "address": "0xec98bb42c8f03485bf659378da694512a16f3482",
+    "nameTag": "Synthetix: Old Synth iLTC 2"
+  },
+  {
+    "address": "0xfca2e82e5414c695c81b99d753b0b11c50bdc93d",
+    "nameTag": "Synthetix: Old Synth iLTC 3"
+  },
+  {
+    "address": "0x99bcc501d04f400ba3f78b5375d00b56ace6ee0d",
+    "nameTag": "Synthetix: Old Synth iMKR Token 1"
+  },
+  {
+    "address": "0x047fc84504714d526808be07bf17bdd70726ef92",
+    "nameTag": "Synthetix: Old Synth iMKR Token 2"
+  },
+  {
+    "address": "0xd95e7f80766580634b2e0e49d9f66af317994fc7",
+    "nameTag": "Synthetix: Old Synth iMKR Token 3"
+  },
+  {
+    "address": "0x10a0532de3c86d9ce810f004fabcf5a1ea464390",
+    "nameTag": "Synthetix: Old Synth iMKR Token 4"
+  },
+  {
+    "address": "0x1228c7d8bbc5bc53db181bd7b1fce765aa83bf8a",
+    "nameTag": "Synthetix: Old Synth iMKR Token 5"
+  },
+  {
+    "address": "0x87ea2450eab99a74e55e2b446290011765393ac1",
+    "nameTag": "Synthetix: Old Synth iTRX 1"
+  },
+  {
+    "address": "0x80edac70ec108a9c5b47972da9924397ba974ff9",
+    "nameTag": "Synthetix: Old Synth iTRX 2"
+  },
+  {
+    "address": "0x406555dbf02e9e4df9adeaec9da76abeed8c1bc3",
+    "nameTag": "Synthetix: Old Synth iTRX 3"
+  },
+  {
+    "address": "0x2de37af5ba64f5cae3202bf13dbedc4d46e8046f",
+    "nameTag": "Synthetix: Old Synth iTRX 4"
+  },
+  {
+    "address": "0xcbbb17d9767bd57fbf4bbf8842e916bcb3826ec1",
+    "nameTag": "Synthetix: Old Synth iXRP 1"
+  },
+  {
+    "address": "0xd7adf1b5e31d1c40e08f16a2095338ce3aa8f2fc",
+    "nameTag": "Synthetix: Old Synth iXRP 2"
+  },
+  {
+    "address": "0xccda7941ab1ac7a32f49843c0b3edf618b20f6ae",
+    "nameTag": "Synthetix: Old Synth iXRP 3"
+  },
+  {
+    "address": "0xfe6cd6de459db214818492f532ec02ba87319437",
+    "nameTag": "Synthetix: Old Synth iXTZ 1"
+  },
+  {
+    "address": "0x72661e76475354403838eb04144206f70ff97d79",
+    "nameTag": "Synthetix: Old Synth iXTZ 2"
+  },
+  {
+    "address": "0xad7258d0054c03112a4f5489a4b24ec34a2fc787",
+    "nameTag": "Synthetix: Old Synth iXTZ 3"
+  },
+  {
+    "address": "0x59d39e14cc735b39746c94351e7fbdd92c8d0d3c",
+    "nameTag": "Synthetix: Old Synth iXTZ 4"
+  },
+  {
+    "address": "0xb03dfc4b9c9756b6d4fbc12dade7732149fcf00d",
+    "nameTag": "Synthetix: Old Synth sAUD 1"
+  },
+  {
+    "address": "0x710882750dde5dbc64e5a7df23a8cf068df74910",
+    "nameTag": "Synthetix: Old Synth sAUD 2"
+  },
+  {
+    "address": "0xa6fe80c4c4aadb4b33db7f22dc9ae2c4697cc406",
+    "nameTag": "Synthetix: Old Synth sAUD 3"
+  },
+  {
+    "address": "0xaca2179a884bac7c3d0bc4131585e1b7dbdd048e",
+    "nameTag": "Synthetix: Old Synth sAUD 4"
+  },
+  {
+    "address": "0xc906de7f8b4c1a4787023f50f49ce98f9f67c4b8",
+    "nameTag": "Synthetix: Old Synth sBNB 1"
+  },
+  {
+    "address": "0x33ce216c10dea5e724b7a90628ce7853eef127b3",
+    "nameTag": "Synthetix: Old Synth sBNB 2"
+  },
+  {
+    "address": "0xe5787927410b659cc4ea2441cdaa361f9d7b250c",
+    "nameTag": "Synthetix: Old Synth sBNB 3"
+  },
+  {
+    "address": "0xae3971e603b11da40aea85d8c2355150c7c47683",
+    "nameTag": "Synthetix: Old Synth sBNB 4"
+  },
+  {
+    "address": "0xa5a4cccccaa26cea096f6e493839423f4d66c63f",
+    "nameTag": "Synthetix: Old Synth sBRL Token"
+  },
+  {
+    "address": "0xf8ad89091b2724bdb7528c50b282b565db4635bb",
+    "nameTag": "Synthetix: Old Synth sBTC 1"
+  },
+  {
+    "address": "0x832177f21ccdcc286003fadf4e98fc11dc5c627f",
+    "nameTag": "Synthetix: Old Synth sBTC 2"
+  },
+  {
+    "address": "0x6bcd1cae4a3c099c696b51f889be2120df62b7c0",
+    "nameTag": "Synthetix: Old Synth sBTC 3"
+  },
+  {
+    "address": "0xf0ac210915bd88ea51c9eb800a4078a85927efdf",
+    "nameTag": "Synthetix: Old Synth sBTC 4"
+  },
+  {
+    "address": "0x8f69c9ee79bf9320e1a5c19e559108e1cb3d002b",
+    "nameTag": "Synthetix: Old Synth sCAD Token"
+  },
+  {
+    "address": "0x6aa0f8620614afe9bd4aba3148439b08eb2557c0",
+    "nameTag": "Synthetix: Old Synth sCEX 1"
+  },
+  {
+    "address": "0x93cff799f255eda2089cfb3f05696b5b66873c1a",
+    "nameTag": "Synthetix: Old Synth sCEX 2"
+  },
+  {
+    "address": "0x8a3ca1d2d9a05683eb4db447d0e3122fec09d9ee",
+    "nameTag": "Synthetix: Old Synth sCEX 3"
+  },
+  {
+    "address": "0x2420057461bd2fb756e0a610897c51de7fb18311",
+    "nameTag": "Synthetix: Old Synth sCEX 4"
+  },
+  {
+    "address": "0x9270d9970d6aca773e2fa01633cdc091a46714c9",
+    "nameTag": "Synthetix: Old Synth sCHF 1"
+  },
+  {
+    "address": "0x296b019e6df25ce3b71d4239b8c7cec1a417d4e9",
+    "nameTag": "Synthetix: Old Synth sCHF 2"
+  },
+  {
+    "address": "0xff0b8894cc44f300e124bcd39f95555816b8b1d5",
+    "nameTag": "Synthetix: Old Synth sCHF 3"
+  },
+  {
+    "address": "0x64c73355fbd0274e677609e8fb372427df975508",
+    "nameTag": "Synthetix: Old Synth sCHF 4"
+  },
+  {
+    "address": "0x60c34eb93afcd1b701ff8c036b128441c68a8a70",
+    "nameTag": "Synthetix: Old Synth sCNY Token"
+  },
+  {
+    "address": "0x4917e9ef69e3a1c82651c9158ca2c25b3a564760",
+    "nameTag": "Synthetix: Old Synth sDEFI 1"
+  },
+  {
+    "address": "0xf778ec504245efe1ea010c5c3e50b6f5f5e117da",
+    "nameTag": "Synthetix: Old Synth sDEFI 2"
+  },
+  {
+    "address": "0xe725d6ff29d0679c9cb6fa8972a1e8a7fb49610b",
+    "nameTag": "Synthetix: Old Synth sDEFI 3"
+  },
+  {
+    "address": "0x42456d7084eacf4083f1140d3229471bba2949a8",
+    "nameTag": "Synthetix: Old Synth sETH 1"
+  },
+  {
+    "address": "0x8519d1bdb4cc1753df95c6e98f6bd0e95de568d9",
+    "nameTag": "Synthetix: Old Synth sETH 2"
+  },
+  {
+    "address": "0x0577d4268abe6777ae37688d015598819088297b",
+    "nameTag": "Synthetix: Old Synth sETH 3"
+  },
+  {
+    "address": "0xd81ada188331e627567bbef80f91217cd3109592",
+    "nameTag": "Synthetix: Old Synth sETH 4"
+  },
+  {
+    "address": "0x9f71b6596b2c9d357f9f04f8ca772fbd6e2c211c",
+    "nameTag": "Synthetix: Old Synth sETH 5"
+  },
+  {
+    "address": "0xc2bb52457d81fbd223cc92b44cd372d36b338a10",
+    "nameTag": "Synthetix: Old Synth sEUR 1"
+  },
+  {
+    "address": "0x45aa2f706c3d695acc1da9698fb803b8ef5157ba",
+    "nameTag": "Synthetix: Old Synth sEUR 2"
+  },
+  {
+    "address": "0x68473dc4b7a4b0867fd7c5b9a982fea407dad320",
+    "nameTag": "Synthetix: Old Synth sEUR 3"
+  },
+  {
+    "address": "0x57e4a2d7d9b759cf6fa2c937d52e408c66fb6384",
+    "nameTag": "Synthetix: Old Synth sEUR 4"
+  },
+  {
+    "address": "0xdb36b8f25bb1f289d97aee8f87baccac58fa8883",
+    "nameTag": "Synthetix: Old Synth sGBP 1"
+  },
+  {
+    "address": "0x0a24864596c54d79c825e64b281645249c14590c",
+    "nameTag": "Synthetix: Old Synth sGBP 2"
+  },
+  {
+    "address": "0xd8c733ac0b2db47bba7af7716eb696e62c417d5b",
+    "nameTag": "Synthetix: Old Synth sGBP 3"
+  },
+  {
+    "address": "0x486e27d56c0744970687927728598f8b96451cc4",
+    "nameTag": "Synthetix: Old Synth sGBP 4"
+  },
+  {
+    "address": "0x8fa7fbb0144cea832a76547aeab1ad8d9e4588f1",
+    "nameTag": "Synthetix: Old Synth sGBP 5"
+  },
+  {
+    "address": "0x51671b7556ebeb4c43180e983f5569973e15cac9",
+    "nameTag": "Synthetix: Old Synth sINR Token"
+  },
+  {
+    "address": "0xd9e5a009ec07de76616d7361ed713ef434d71325",
+    "nameTag": "Synthetix: Old Synth sJPY 1"
+  },
+  {
+    "address": "0x11dfa1bf994ea47e361ec474519afd627e932eb0",
+    "nameTag": "Synthetix: Old Synth sJPY 2"
+  },
+  {
+    "address": "0x4b1ce9c42a381cb2d74ffef20103e502e2fc619c",
+    "nameTag": "Synthetix: Old Synth sJPY 3"
+  },
+  {
+    "address": "0x68043c3eae66ac1c28341867491e615412fc84fd",
+    "nameTag": "Synthetix: Old Synth sJPY 4"
+  },
+  {
+    "address": "0xdf846d3ded30a0590319f8a7ecd4e233b0e9188c",
+    "nameTag": "Synthetix: Old Synth sKRW Token"
+  },
+  {
+    "address": "0x34b19046c6657d26b0c9b63d3fb54c2754ed4537",
+    "nameTag": "Synthetix: Old Synth sLINK 1"
+  },
+  {
+    "address": "0x46824bfaafd049fb0af9a45159a88e595bbbb9f7",
+    "nameTag": "Synthetix: Old Synth sLINK 2"
+  },
+  {
+    "address": "0x3d663dbe79fa9752815e03e129d6703ede1c6d71",
+    "nameTag": "Synthetix: Old Synth sLINK 3"
+  },
+  {
+    "address": "0x8e0cc15bbcd10e170ac07982b5d6930502c63784",
+    "nameTag": "Synthetix: Old Synth sLTC 1"
+  },
+  {
+    "address": "0x088256945480c884c067a8bc98a72a1c984f826b",
+    "nameTag": "Synthetix: Old Synth sLTC 2"
+  },
+  {
+    "address": "0x79bef89a63be04a75f1fa42e8f42ad873b6f43e2",
+    "nameTag": "Synthetix: Old Synth sLTC 3"
+  },
+  {
+    "address": "0x13586160e4f890d0631c3c08d989f5b7afe202b0",
+    "nameTag": "Synthetix: Old Synth sMKR Token 1"
+  },
+  {
+    "address": "0xfac2b3400df00a348c3118831a45a05255f9004a",
+    "nameTag": "Synthetix: Old Synth sMKR Token 2"
+  },
+  {
+    "address": "0x84965dca28c4eb9de61d80f80e811ea12be1c819",
+    "nameTag": "Synthetix: Old Synth sMKR Token 3"
+  },
+  {
+    "address": "0x54a0326fb698c2cfaca5327550a897fa66d21f07",
+    "nameTag": "Synthetix: Old Synth sMKR Token 4"
+  },
+  {
+    "address": "0xd1599e478cc818afa42a4839a6c665d9279c3e50",
+    "nameTag": "Synthetix: Old Synth sMKR Token 5"
+  },
+  {
+    "address": "0x457cd14f384e7d103b17feeb01d2a42ad2eca529",
+    "nameTag": "Synthetix: Old Synth SNX"
+  },
+  {
+    "address": "0x3772f9716cf6d7a09ede3587738aa2af5577483a",
+    "nameTag": "Synthetix: Old Synth SNX 1"
+  },
+  {
+    "address": "0x22a67ecd108f7a6fc52da9e2655ddfe88eccd9ca",
+    "nameTag": "Synthetix: Old Synth SNX 10"
+  },
+  {
+    "address": "0x9642c7026822391100a4773d7aa597ae18ece7dd",
+    "nameTag": "Synthetix: Old Synth SNX 11"
+  },
+  {
+    "address": "0x7cb89c509001d25da9938999abfea6740212e5f0",
+    "nameTag": "Synthetix: Old Synth SNX 12"
+  },
+  {
+    "address": "0x153c3148a0a285a6f9f6d1996e1348832249bf7e",
+    "nameTag": "Synthetix: Old Synth SNX 13"
+  },
+  {
+    "address": "0x8454190c164e52664af2c9c24ab58c4e14d6bbe4",
+    "nameTag": "Synthetix: Old Synth SNX 14"
+  },
+  {
+    "address": "0x2987252148e34863612ac7f4ef3260de0c2a68f7",
+    "nameTag": "Synthetix: Old Synth SNX 15"
+  },
+  {
+    "address": "0xc6738ed1eb79fa23941c75b4f437fc65893b5476",
+    "nameTag": "Synthetix: Old Synth SNX 16"
+  },
+  {
+    "address": "0xef8a2c1bc94e630463293f71bf5414d13e80f62d",
+    "nameTag": "Synthetix: Old Synth SNX 2"
+  },
+  {
+    "address": "0xd76c5b71ba091c785aec1a5c1c901b04876d073b",
+    "nameTag": "Synthetix: Old Synth SNX 3"
+  },
+  {
+    "address": "0x5a4ade4f3e934a0885f42884f7077261c3f4f66f",
+    "nameTag": "Synthetix: Old Synth SNX 4"
+  },
+  {
+    "address": "0x2dea20405c52fb477ecca8fe622661d316ac5400",
+    "nameTag": "Synthetix: Old Synth SNX 5"
+  },
+  {
+    "address": "0xbd88d2ddf55b65bdbba6f6a5a626b854835d7844",
+    "nameTag": "Synthetix: Old Synth SNX 6"
+  },
+  {
+    "address": "0xffc91f7088bf40f0419b451fb9d85718d8903628",
+    "nameTag": "Synthetix: Old Synth SNX 7"
+  },
+  {
+    "address": "0xa36ac1f924087b7b959592c3d89cb066d1cc35d5",
+    "nameTag": "Synthetix: Old Synth SNX 8"
+  },
+  {
+    "address": "0x42d03f506c2308ecd06ae81d8fa22352bc7a8f2b",
+    "nameTag": "Synthetix: Old Synth SNX 9"
+  },
+  {
+    "address": "0xcf401f31c63f58debfc76f441731dfa945cd0bde",
+    "nameTag": "Synthetix: Old Synth sNZD Token"
+  },
+  {
+    "address": "0x1943dbd2a793c588b5170188ee6fb62e02afdff7",
+    "nameTag": "Synthetix: Old Synth sPLN Token"
+  },
+  {
+    "address": "0x8a8dcbba6038c6fc6d192f5cf5c5dd83b98591bc",
+    "nameTag": "Synthetix: Old Synth sRUB Token"
+  },
+  {
+    "address": "0x2ae393c18b6aa62d6a2250af7b803fa6973bc981",
+    "nameTag": "Synthetix: Old Synth sSGD Token"
+  },
+  {
+    "address": "0xa6e5da838d3b8338783e0710e1d5f6c8e8e998ce",
+    "nameTag": "Synthetix: Old Synth sTRX 1"
+  },
+  {
+    "address": "0x0da04b80e21b344fcfd49c04bec658e80f1d7428",
+    "nameTag": "Synthetix: Old Synth sTRX 2"
+  },
+  {
+    "address": "0x1a60e2e2a8be0bc2b6381dd31fd3fd5f9a28de4c",
+    "nameTag": "Synthetix: Old Synth sTRX 3"
+  },
+  {
+    "address": "0x3d0e7c09242b0cad4e81cb2f6d2183ef517500ef",
+    "nameTag": "Synthetix: Old Synth sTRX 4"
+  },
+  {
+    "address": "0x0cbe2df57ca9191b64a7af3baa3f946fa7df2f25",
+    "nameTag": "Synthetix: Old Synth sUSD 1"
+  },
+  {
+    "address": "0xd8b325e9a95abc44cedc90aab64ec1f231f2cc8f",
+    "nameTag": "Synthetix: Old Synth sUSD 2"
+  },
+  {
+    "address": "0x2656a6e566f8e60f444b283bf346fc74a9990c96",
+    "nameTag": "Synthetix: Old Synth sUSD 3"
+  },
+  {
+    "address": "0x289e9a4674663decee54f781aade5327304a32f8",
+    "nameTag": "Synthetix: Old Synth sUSD 4"
+  },
+  {
+    "address": "0x2a020c1ad728f1c12735bc4877ceeca4491a4a3d",
+    "nameTag": "Synthetix: Old Synth sUSD 5"
+  },
+  {
+    "address": "0x4d57a8212bdb8bdca049365bce8afa0244a0e3fc",
+    "nameTag": "Synthetix: Old Synth sXAG 1"
+  },
+  {
+    "address": "0xd6308849094c5e6eb0edaba255a06ca32b0106bf",
+    "nameTag": "Synthetix: Old Synth sXAG 2"
+  },
+  {
+    "address": "0x3a412043939d9f7e53373b64f858ecb870a92e50",
+    "nameTag": "Synthetix: Old Synth sXAG 3"
+  },
+  {
+    "address": "0xd415e342a5c7ee189d939b4dc17e85880fe1096a",
+    "nameTag": "Synthetix: Old Synth sXAG 4"
+  },
+  {
+    "address": "0x112d5fa64e4902b6ff1a35495a0f878c210a5601",
+    "nameTag": "Synthetix: Old Synth sXAU 1"
+  },
+  {
+    "address": "0x4a15d9dfc95ba7b9e33ce70e7e0762dc8f7ac237",
+    "nameTag": "Synthetix: Old Synth sXAU 2"
+  },
+  {
+    "address": "0x4d96b67f5bde58a622d9bf2b8a1906c8b084faf4",
+    "nameTag": "Synthetix: Old Synth sXAU 3"
+  },
+  {
+    "address": "0x00ab7c26a5a6c4c32d0b897e4af3cb32f92aad34",
+    "nameTag": "Synthetix: Old Synth sXAU 4"
+  },
+  {
+    "address": "0xff6866ff46c71706dcd5a0a38f12279553be6233",
+    "nameTag": "Synthetix: Old Synth sXRP 1"
+  },
+  {
+    "address": "0xc64cda66bc1d026b984d6bee6adbf71eac8a099d",
+    "nameTag": "Synthetix: Old Synth sXRP 2"
+  },
+  {
+    "address": "0x4dc1e8bacc26d563941dcb59c72bd9fe58663778",
+    "nameTag": "Synthetix: Old Synth sXRP 3"
+  },
+  {
+    "address": "0x6e5bc3e877cfaa06ef97dfa12e63efbb8fcbb03e",
+    "nameTag": "Synthetix: Old Synth sXTZ 1"
+  },
+  {
+    "address": "0xc0b1f43ee7b0670f7b34e14c4702e54a905a51b5",
+    "nameTag": "Synthetix: Old Synth sXTZ 2"
+  },
+  {
+    "address": "0xe109da5361299ed96d91146b8cc12f682d21964e",
+    "nameTag": "Synthetix: Old Synth sXTZ 3"
+  },
+  {
+    "address": "0x2cb1b47fb16013798086f267e04e6579dcb72a74",
+    "nameTag": "Synthetix: Old Synth sXTZ 4"
+  },
+  {
+    "address": "0x2972705af18c66c14cdd27ad412961e01944a9c3",
+    "nameTag": "Synthetix: Old Synth XDR Token 1"
+  },
+  {
+    "address": "0x6025f88abb6d99d02c5eed82c151d52bac8e444b",
+    "nameTag": "Synthetix: Old Synth XDR Token 2"
+  },
+  {
+    "address": "0x30a46e656cdca6b401ff043e1abb151490a07ab0",
+    "nameTag": "Synthetix: Old Synth XDR Token 3"
+  },
+  {
+    "address": "0x96f9d144e55149437640512b82d7dda065e89773",
+    "nameTag": "Synthetix: Old Synth XDR Token 4"
+  },
+  {
+    "address": "0x4534e92eefecc63c6105f53893d355c14aa129cf",
+    "nameTag": "Synthetix: Old System Status"
+  },
+  {
+    "address": "0xa0c19218271f056bc10b1cdd7a5fab48f757bc86",
+    "nameTag": "Synthetix: Old Token State iMKR"
+  },
+  {
+    "address": "0x0985de52896fc4c9a84d108f5582ec02fdf91605",
+    "nameTag": "Synthetix: Old Token State sBRL"
+  },
+  {
+    "address": "0xddf91fc27087e076574df31483db5c21a85e47b6",
+    "nameTag": "Synthetix: Old Token State sCAD"
+  },
+  {
+    "address": "0x5cca1f0c514c0624d3ba7585d56fd2d72cbefd80",
+    "nameTag": "Synthetix: Old Token State sCNY"
+  },
+  {
+    "address": "0xf8f2f8001fca737efa2bc26217fc20c1f8267fba",
+    "nameTag": "Synthetix: Old Token State sINR"
+  },
+  {
+    "address": "0x249a10c68afa9827571cb73f29ab5af57ee5a596",
+    "nameTag": "Synthetix: Old Token State sKRW"
+  },
+  {
+    "address": "0xcee0a0dc7f393ed6ac84a3ac2191c28d6a53acef",
+    "nameTag": "Synthetix: Old Token State sMKR"
+  },
+  {
+    "address": "0x3fda286f354a3318534026dbacf021c84a71b03c",
+    "nameTag": "Synthetix: Old Token State sNZD"
+  },
+  {
+    "address": "0xdb957f324be2de9bdab01a3dbb50228569fdee1b",
+    "nameTag": "Synthetix: Old Token State sPLN"
+  },
+  {
+    "address": "0xf1ef8ee7dfee4bd0e06b0fced1d299387b78cb09",
+    "nameTag": "Synthetix: Old Token State sRUB"
+  },
+  {
+    "address": "0x000f49fd739d4023b0a6c87ee8705ef1ffb55c87",
+    "nameTag": "Synthetix: Old Token State sSGD"
+  },
+  {
+    "address": "0xbf093390d8046ae2d0f5465dec7001d65dc159d5",
+    "nameTag": "Synthetix: Old Token State XDR"
+  },
+  {
+    "address": "0x977d0dd7ea212e9ca1dcd4ec15cd7ceb135fa68d",
+    "nameTag": "Synthetix: One Net Aggregator Debt Ratio"
+  },
+  {
+    "address": "0xcf1405b18dbcea2893abe635c88359c75878b9e1",
+    "nameTag": "Synthetix: One Net Aggregator Issued Synths"
+  },
+  {
+    "address": "0x646f23085281dbd006fbfd211fd38d0743884864",
+    "nameTag": "Synthetix: One Net Aggregators DEFI"
+  },
+  {
+    "address": "0xc51f137e19f1ae6944887388fd12b2b6dfd12594",
+    "nameTag": "Synthetix: Optimism Bridge"
+  },
+  {
+    "address": "0xac1ed4fabbd5204e02950d68b6fc8c446ac95362",
+    "nameTag": "Synthetix: Oracle"
+  },
+  {
+    "address": "0x0aaf300e148378489a8a471dd3e9e53e30cb42e3",
+    "nameTag": "Synthetix: Oracle Manager"
+  },
+  {
+    "address": "0x0e16a6876210841577b233c4165d7b7edf640b8a",
+    "nameTag": "Synthetix: Owner Relay On Ethereum"
+  },
+  {
+    "address": "0xeb3107117fead7de89cd14d463d340a2e6917769",
+    "nameTag": "Synthetix: protocolDAO"
+  },
+  {
+    "address": "0xb440dd674e1243644791a4adfe3a2abb0a92d309",
+    "nameTag": "Synthetix: Proxy Fee Pool"
+  },
+  {
+    "address": "0x8a8079c7149b8a1611e5c5d978dca3be16545f83",
+    "nameTag": "Synthetix: Proxy iADA Token"
+  },
+  {
+    "address": "0xf6e9b246319ea30e8c2fa2d1540aaebf6f9e1b89",
+    "nameTag": "Synthetix: Proxy iBCH Token"
+  },
+  {
+    "address": "0xafd870f32ce54efdbf677466b612bf8ad164454b",
+    "nameTag": "Synthetix: Proxy iBNB Token"
+  },
+  {
+    "address": "0xd6014ea05bde904448b743833ddf07c3c7837481",
+    "nameTag": "Synthetix: Proxy iBTC Token"
+  },
+  {
+    "address": "0x336213e1ddfc69f4701fc3f86f4ef4a160c1159d",
+    "nameTag": "Synthetix: Proxy iCEX Token"
+  },
+  {
+    "address": "0xcb98f42221b2c251a4e74a1609722ee09f0cc08e",
+    "nameTag": "Synthetix: Proxy iDASH Token"
+  },
+  {
+    "address": "0x14d10003807ac60d07bb0ba82caeac8d2087c157",
+    "nameTag": "Synthetix: Proxy iDEFI Token"
+  },
+  {
+    "address": "0xf4eebdd0704021ef2a6bbe993fdf93030cd784b4",
+    "nameTag": "Synthetix: Proxy iEOS Token"
+  },
+  {
+    "address": "0xd50c1746d835d2770dda3703b69187bffeb14126",
+    "nameTag": "Synthetix: Proxy iETC Token"
+  },
+  {
+    "address": "0xa9859874e1743a32409f75bb11549892138bba1e",
+    "nameTag": "Synthetix: Proxy iETH Token"
+  },
+  {
+    "address": "0x2d7ac061fc3db53c39fe1607fb8cec1b2c162b01",
+    "nameTag": "Synthetix: Proxy iLINK Token"
+  },
+  {
+    "address": "0x79da1431150c9b82d2e5dfc1c68b33216846851e",
+    "nameTag": "Synthetix: Proxy iLTC Token"
+  },
+  {
+    "address": "0xc5807183a9661a533cb08cbc297594a0b864dc12",
+    "nameTag": "Synthetix: Proxy iTRX Token"
+  },
+  {
+    "address": "0x4adf728e2df4945082cdd6053869f51278fae196",
+    "nameTag": "Synthetix: Proxy iXMR Token"
+  },
+  {
+    "address": "0x27269b3e45a4d3e79a3d6bfee0c8fb13d0d711a6",
+    "nameTag": "Synthetix: Proxy iXRP Token"
+  },
+  {
+    "address": "0x8deef89058090ac5655a99eeb451a4f9183d1678",
+    "nameTag": "Synthetix: Proxy iXTZ Token"
+  },
+  {
+    "address": "0xe36e2d3c7c34281fa3bc737950a68571736880a1",
+    "nameTag": "Synthetix: Proxy sADA Token"
+  },
+  {
+    "address": "0xf48e200eaf9906362bb1442fca31e0835773b8b4",
+    "nameTag": "Synthetix: Proxy sAUD Token"
+  },
+  {
+    "address": "0x36a2422a863d5b950882190ff5433e513413343a",
+    "nameTag": "Synthetix: Proxy sBCH Token"
+  },
+  {
+    "address": "0x617aecb6137b5108d1e7d4918e3725c8cebdb848",
+    "nameTag": "Synthetix: Proxy sBNB Token"
+  },
+  {
+    "address": "0xfe18be6b3bd88a2d2a7f928d00292e7a9963cfc6",
+    "nameTag": "Synthetix: Proxy sBTC Token"
+  },
+  {
+    "address": "0xeabacd844a196d7faf3ce596edebf9900341b420",
+    "nameTag": "Synthetix: Proxy sCEX Token"
+  },
+  {
+    "address": "0x0f83287ff768d1c1e17a42f44d644d7f22e8ee1d",
+    "nameTag": "Synthetix: Proxy sCHF Token"
+  },
+  {
+    "address": "0xfe33ae95a9f0da8a845af33516edc240dcd711d6",
+    "nameTag": "Synthetix: Proxy sDASH Token"
+  },
+  {
+    "address": "0xe1afe1fd76fd88f78cbf599ea1846231b8ba3b6b",
+    "nameTag": "Synthetix: Proxy sDEFI Token"
+  },
+  {
+    "address": "0x88c8cf3a212c0369698d13fe98fcb76620389841",
+    "nameTag": "Synthetix: Proxy sEOS Token"
+  },
+  {
+    "address": "0x22602469d704bffb0936c7a7cfcd18f7aa269375",
+    "nameTag": "Synthetix: Proxy sETC Token"
+  },
+  {
+    "address": "0x5e74c9036fb86bd7ecdcb084a0673efc32ea31cb",
+    "nameTag": "Synthetix: Proxy sETH Token"
+  },
+  {
+    "address": "0x104edf1da359506548bfc7c25ba1e28c16a70235",
+    "nameTag": "Synthetix: Proxy sETHBTC Token"
+  },
+  {
+    "address": "0xd71ecff9342a5ced620049e616c5035f1db98620",
+    "nameTag": "Synthetix: Proxy sEUR Token"
+  },
+  {
+    "address": "0x23348160d7f5aca21195df2b70f28fce2b0be9fc",
+    "nameTag": "Synthetix: Proxy sFTSE Token"
+  },
+  {
+    "address": "0x97fe22e7341a0cd8db6f6c021a24dc8f4dad855f",
+    "nameTag": "Synthetix: Proxy sGBP Token"
+  },
+  {
+    "address": "0xf6b1c627e95bfc3c1b4c9b825a032ff0fbf3e07d",
+    "nameTag": "Synthetix: Proxy sJPY Token"
+  },
+  {
+    "address": "0x269895a3df4d73b077fc823dd6da1b95f72aaf9b",
+    "nameTag": "Synthetix: Proxy sKRW Token"
+  },
+  {
+    "address": "0xbbc455cb4f1b9e4bfc4b73970d360c8f032efee6",
+    "nameTag": "Synthetix: Proxy sLINK Token"
+  },
+  {
+    "address": "0xc14103c2141e842e228fbac594579e798616ce7a",
+    "nameTag": "Synthetix: Proxy sLTC Token"
+  },
+  {
+    "address": "0x757de3ac6b830a931ef178c6634c5c551773155c",
+    "nameTag": "Synthetix: Proxy sNIKKEI Token"
+  },
+  {
+    "address": "0xc011a73ee8576fb46f5e1c5751ca3b9fe0af2a6f",
+    "nameTag": "Synthetix: Proxy SNX Token"
+  },
+  {
+    "address": "0xf2e08356588ec5cd9e437552da87c0076b4970b0",
+    "nameTag": "Synthetix: Proxy sTRX Token"
+  },
+  {
+    "address": "0x57ab1ec28d129707052df4df418d58a2d46d5f51",
+    "nameTag": "Synthetix: Proxy sUSD Token"
+  },
+  {
+    "address": "0x6a22e5e94388464181578aa7a6b869e00fe27846",
+    "nameTag": "Synthetix: Proxy sXAG Token"
+  },
+  {
+    "address": "0x261efcdd24cea98652b9700800a13dfbca4103ff",
+    "nameTag": "Synthetix: Proxy sXAU Token"
+  },
+  {
+    "address": "0x5299d6f7472dcc137d7f3c4bcfbbb514babf341a",
+    "nameTag": "Synthetix: Proxy sXMR Token"
+  },
+  {
+    "address": "0xa2b0fde6d710e201d0d608e924a484d1a5fed57c",
+    "nameTag": "Synthetix: Proxy sXRP Token"
+  },
+  {
+    "address": "0x2e59005c5c0f0a4d77cca82653d48b46322ee5cd",
+    "nameTag": "Synthetix: Proxy sXTZ Token"
+  },
+  {
+    "address": "0x4e3b31eb0e5cb73641ee1e65e7dcefe520ba3ef2",
+    "nameTag": "Synthetix: Read Proxy Address Resolver"
+  },
+  {
+    "address": "0xb671f2210b1f6621a2607ea63e6b2dc3e2464d1f",
+    "nameTag": "Synthetix: Reward Escrow"
+  },
+  {
+    "address": "0xda4ef8520b1a57d7d63f1e249606d1a459698876",
+    "nameTag": "Synthetix: Reward Escrow V2"
+  },
+  {
+    "address": "0x182738bd9ee9810bc11f1c81b07ec6f3691110bb",
+    "nameTag": "Synthetix: Reward Escrow V2 Storage"
+  },
+  {
+    "address": "0x29c295b046a73cde593f21f63091b072d407e3f2",
+    "nameTag": "Synthetix: Rewards Distribution"
+  },
+  {
+    "address": "0xcd39b5434a0a92cf47d1f567a7df84be356814f0",
+    "nameTag": "Synthetix: s1INCH Token"
+  },
+  {
+    "address": "0x7537aae01f3b218dae75e10d952473823f961b87",
+    "nameTag": "Synthetix: sAAPL Token"
+  },
+  {
+    "address": "0x95ae43e5e96314e4afffcf19d9419111cd11169e",
+    "nameTag": "Synthetix: sAAVE"
+  },
+  {
+    "address": "0x0e429603d3cb1dfae4e6f52add5fe82d96d77dac",
+    "nameTag": "Synthetix: SACCT Token"
+  },
+  {
+    "address": "0xb34f4d7c207d8979d05edb0f63f174764bd67825",
+    "nameTag": "Synthetix: sADA"
+  },
+  {
+    "address": "0x84d626b2bb4d0f064067e4bf80fce7055d8f3e7b",
+    "nameTag": "Synthetix: Safe Decimal Math"
+  },
+  {
+    "address": "0x9cf7e61853ea30a41b02169391b393b901eac457",
+    "nameTag": "Synthetix: sAMZN Token"
+  },
+  {
+    "address": "0xc4546bdd93cdaada6994e84fb6f2722c620b019c",
+    "nameTag": "Synthetix: sAUD"
+  },
+  {
+    "address": "0x18fcc34bdeaaf9e3b69d2500343527c0c995b1d6",
+    "nameTag": "Synthetix: sBTC"
+  },
+  {
+    "address": "0x13c1542a468319688b89e323fe9a3be3a90ebb27",
+    "nameTag": "Synthetix: sBTC Curvepool Rewards"
+  },
+  {
+    "address": "0xcc83a57b080a4c7c86f0bb892bc180c8c7f8791d",
+    "nameTag": "Synthetix: sCHF"
+  },
+  {
+    "address": "0xd38aeb759891882e78e957c80656572503d8c1b1",
+    "nameTag": "Synthetix: sCRV Token"
+  },
+  {
+    "address": "0x49be88f0fcc3a8393a59d3688480d7d253c37d2a",
+    "nameTag": "Synthetix: sDAO"
+  },
+  {
+    "address": "0xf533aeee48f0e04e30c2f6a1f19fbb675469a124",
+    "nameTag": "Synthetix: sDEFI"
+  },
+  {
+    "address": "0x27b45a4208b87a899009f45888139882477acea5",
+    "nameTag": "Synthetix: sDOT"
+  },
+  {
+    "address": "0x4fb63c954ef07ec74335bb53835026c75dd91dc6",
+    "nameTag": "Synthetix: sETH"
+  },
+  {
+    "address": "0x9a4935749dbdfaf786a19df1c61a6d28b7a6cf94",
+    "nameTag": "Synthetix: sETH Pool Arbitrage"
+  },
+  {
+    "address": "0x6df798ec713b33be823b917f27820f2aa0cf7662",
+    "nameTag": "Synthetix: sETHBTC"
+  },
+  {
+    "address": "0x1b06a00df0b27e7871e753720d4917a7d1aac68b",
+    "nameTag": "Synthetix: sEUR"
+  },
+  {
+    "address": "0xf50b5e535f62a56a9bd2d8e2434204e726c027fa",
+    "nameTag": "Synthetix: sFB Token"
+  },
+  {
+    "address": "0xae7a2c1e326e59f2db2132652115a59e8adb5ebf",
+    "nameTag": "Synthetix: sGBP"
+  },
+  {
+    "address": "0xc63b8ecce56ab9c46184ec6ab85e4771fea4c8ad",
+    "nameTag": "Synthetix: sGOOG Token"
+  },
+  {
+    "address": "0xced4055b47cfd0421f3727a35f69ce659c8baf7a",
+    "nameTag": "Synthetix: Shorting Rewards sBTC"
+  },
+  {
+    "address": "0x12dc1273915a16ab8bd47ba7866b240c253e4c12",
+    "nameTag": "Synthetix: Shorting Rewards sETH"
+  },
+  {
+    "address": "0x728a2b79cad691531cc1146ef802617ff50c7095",
+    "nameTag": "Synthetix: Signed Safe Decimal Math"
+  },
+  {
+    "address": "0xb82f11f3168ece7d56fe6a5679567948090de7c5",
+    "nameTag": "Synthetix: sJPY"
+  },
+  {
+    "address": "0x527637be27640d6c3e751d24dc67129a6d13e11c",
+    "nameTag": "Synthetix: sKRW"
+  },
+  {
+    "address": "0xe08518ba3d2467f7ca50efe68aa00c5f78d4f3d6",
+    "nameTag": "Synthetix: sLINK"
+  },
+  {
+    "address": "0x5a7e3c07604eb515c16b36cd51906a65f021f609",
+    "nameTag": "Synthetix: sNFLX Token"
+  },
+  {
+    "address": "0x97767d7d04fd0db0a1a2478dcd4ba85290556b48",
+    "nameTag": "Synthetix: SNX Token"
+  },
+  {
+    "address": "0xb2f30a7c980f052f02563fb518dcc39e6bf38175",
+    "nameTag": "Synthetix: snxUSD Token"
+  },
+  {
+    "address": "0x023c66b7e13d30a3c46aa433fd2829763d5817c5",
+    "nameTag": "Synthetix: Spartan Council"
+  },
+  {
+    "address": "0x0352557b007a4aae1511c114409b932f06f9e2f4",
+    "nameTag": "Synthetix: sRUNE Token"
+  },
+  {
+    "address": "0xfbaedde70732540ce2b11a8ac58eb2dc0d69de10",
+    "nameTag": "Synthetix: Staking Rewards (Balancer SNX)"
+  },
+  {
+    "address": "0x8302fe9f0c509a996573d3cc5b0d5d51e4fdd5ec",
+    "nameTag": "Synthetix: Staking Rewards (Uniswap V2 sXAU)"
+  },
+  {
+    "address": "0x167009dcda2e49930a71712d956f02cc980dcc1b",
+    "nameTag": "Synthetix: Staking Rewards iBTC"
+  },
+  {
+    "address": "0x3f27c540adae3a9e8c875c61e3b970b559d7f65d",
+    "nameTag": "Synthetix: Staking Rewards iETH"
+  },
+  {
+    "address": "0xc0d8994cd78ee1980885df1a0c5470fc977b5cfe",
+    "nameTag": "Synthetix: Staking Rewards sEUR Curve"
+  },
+  {
+    "address": "0x4b9ca5607f1ff8019c1c6a3c2f0cc8de622d5b82",
+    "nameTag": "Synthetix: State"
+  },
+  {
+    "address": "0x918da91ccbc32b7a6a0cc4ecd5987bbab6e31e6d",
+    "nameTag": "Synthetix: sTSLA Token"
+  },
+  {
+    "address": "0xa05e45396703babaa9c276b5e5a9b6e2c175b521",
+    "nameTag": "Synthetix: Supply Schedule"
+  },
+  {
+    "address": "0x8d203c458d536fe0f97e9f741bc231eac8cd91cf",
+    "nameTag": "Synthetix: Supply Schedule 2"
+  },
+  {
+    "address": "0x7df9b3f8f1c011d8bd707430e97e747479dd532a",
+    "nameTag": "Synthetix: sUSD"
+  },
+  {
+    "address": "0x176c674ee533c6139b0dc8b458d72a93dcb3e705",
+    "nameTag": "Synthetix: Synth iAAVE"
+  },
+  {
+    "address": "0x9d4193187b247a400e8d8ba716f1c18c0dc65528",
+    "nameTag": "Synthetix: Synth iADA"
+  },
+  {
+    "address": "0x0e87a320dace86a0b427fa2bae282de5c7697278",
+    "nameTag": "Synthetix: Synth iBCH"
+  },
+  {
+    "address": "0xf86048dff23cf130107dfb4e6386f574231a5c65",
+    "nameTag": "Synthetix: Synth iBNB"
+  },
+  {
+    "address": "0xc704c9aa89d1ca60f67b3075d05fbb92b3b00b3b",
+    "nameTag": "Synthetix: Synth iBTC"
+  },
+  {
+    "address": "0x817c39c8825e12ea7752483c85dd2c800b78b357",
+    "nameTag": "Synthetix: Synth iCEX"
+  },
+  {
+    "address": "0x6345728b1cce16e6f8c509950b5c84fff88530d9",
+    "nameTag": "Synthetix: Synth iCOMP"
+  },
+  {
+    "address": "0x5f7a299be82d8f5a626300c62c477b233f616121",
+    "nameTag": "Synthetix: Synth iDASH"
+  },
+  {
+    "address": "0x489d4d4c4bc781eaab3a36c44d66762ceb6e1e2d",
+    "nameTag": "Synthetix: Synth iDEFI"
+  },
+  {
+    "address": "0x46a97629c9c1f58de6ec18c7f536e7e6d6a6ecde",
+    "nameTag": "Synthetix: Synth iDOT"
+  },
+  {
+    "address": "0xc66a263f2c7c1af0bd70c6ca4bff5936f3d6ef9f",
+    "nameTag": "Synthetix: Synth iEOS"
+  },
+  {
+    "address": "0xf13f9e75913b352622f8aeea5ac32498b1c228d0",
+    "nameTag": "Synthetix: Synth iETC"
+  },
+  {
+    "address": "0xae55f163337a2a46733aa66da9f35299f9a46e9e",
+    "nameTag": "Synthetix: Synth iETH"
+  },
+  {
+    "address": "0x63d630b6d89c21e171e86c51c7243284510dbd79",
+    "nameTag": "Synthetix: Synth iLINK"
+  },
+  {
+    "address": "0x0f5bdfd0958345c2e7adb1741024aed6dd159e6c",
+    "nameTag": "Synthetix: Synth iLTC"
+  },
+  {
+    "address": "0x0fed38108bdb8e62ef7b5680e8e0726e2f29e0de",
+    "nameTag": "Synthetix: Synth iREN"
+  },
+  {
+    "address": "0xdd87cbde3c1f8f728c7924c8c9c983af6dfcfea8",
+    "nameTag": "Synthetix: Synth iTRX"
+  },
+  {
+    "address": "0x36a00ff9072570ef4b9292117850b8fe08d96cce",
+    "nameTag": "Synthetix: Synth iUNI"
+  },
+  {
+    "address": "0xc5d2b3f5daf11b6111af86a72a5938b0fe6c5045",
+    "nameTag": "Synthetix: Synth iXMR"
+  },
+  {
+    "address": "0x71cd588efa3609bc14e7b0c7c57dddfd3a72e8a2",
+    "nameTag": "Synthetix: Synth iXRP"
+  },
+  {
+    "address": "0x6dfdfbfb4b180be4482f8b753fb33720c2831a9f",
+    "nameTag": "Synthetix: Synth iXTZ"
+  },
+  {
+    "address": "0x592244301cea952d6dab2fdc1fe6bd9e53917306",
+    "nameTag": "Synthetix: Synth iYFI"
+  },
+  {
+    "address": "0xe533139af961c9747356d947838c98451015e234",
+    "nameTag": "Synthetix: Synth Redeemer"
+  },
+  {
+    "address": "0xd2df355c19471c8bd7d8a3aa27ff4e26a21b4076",
+    "nameTag": "Synthetix: Synth sAAVE"
+  },
+  {
+    "address": "0x1cda42c559d2eb137103d9a01d1ae736deda3aef",
+    "nameTag": "Synthetix: Synth sADA"
+  },
+  {
+    "address": "0xe04d8770dc06135dd97214ea8bcbf7b1cc057aa3",
+    "nameTag": "Synthetix: Synth sAUD"
+  },
+  {
+    "address": "0x9b68b85c61b082b2495b342f26b20a57cfd73d26",
+    "nameTag": "Synthetix: Synth sBCH"
+  },
+  {
+    "address": "0xadad43be81e2206f6d1af4299ca2a029e16af7ab",
+    "nameTag": "Synthetix: Synth sBNB"
+  },
+  {
+    "address": "0x17628a557d1fc88d1c35989dcbac3f3e275e2d2b",
+    "nameTag": "Synthetix: Synth sBTC"
+  },
+  {
+    "address": "0x5ea2544551448cf6dcc1d853addd663d480fd8d3",
+    "nameTag": "Synthetix: Synth sCEX"
+  },
+  {
+    "address": "0x253914cf059f4c3e277c28060c404acfc38fb6e2",
+    "nameTag": "Synthetix: Synth sCHF"
+  },
+  {
+    "address": "0xeb029507d3e043dd6c87f2917c4e82b902c35618",
+    "nameTag": "Synthetix: Synth sCOMP"
+  },
+  {
+    "address": "0xc66499ace3b6c6a30c784be5511e8d338d543913",
+    "nameTag": "Synthetix: Synth sDASH"
+  },
+  {
+    "address": "0xf5a6115aa582fd1beea22bc93b7dc7a785f60d03",
+    "nameTag": "Synthetix: Synth sDEFI"
+  },
+  {
+    "address": "0x1715ac0743102bf5cd58efbb6cf2dc2685d967b6",
+    "nameTag": "Synthetix: Synth sDOT"
+  },
+  {
+    "address": "0x31a9c51eed5282f11ae5cdd061a65a4ce0346c08",
+    "nameTag": "Synthetix: Synth sEOS"
+  },
+  {
+    "address": "0x2369d37ae9b30451d859c11cabac70df1ce48f78",
+    "nameTag": "Synthetix: Synth sETC"
+  },
+  {
+    "address": "0xd0dc005d31c2979cc0d38718e23c82d1a50004c0",
+    "nameTag": "Synthetix: Synth sETH"
+  },
+  {
+    "address": "0x2fb419e7023b32201e9ab3aba947f5c101a5c30e",
+    "nameTag": "Synthetix: Synth sEUR"
+  },
+  {
+    "address": "0x8d34924eae7578692775fdd94ed27bc355397e4a",
+    "nameTag": "Synthetix: Synth sFTSE"
+  },
+  {
+    "address": "0xb3098ae40f488ffdb979827fd01597cc20c5a5a0",
+    "nameTag": "Synthetix: Synth sGBP"
+  },
+  {
+    "address": "0x8ed1b71b00dbab96a6db6df0c910f749243de6d3",
+    "nameTag": "Synthetix: Synth sJPY"
+  },
+  {
+    "address": "0xaf918f4a72bc34e59dfaf65866fec87947f1f590",
+    "nameTag": "Synthetix: Synth sLINK"
+  },
+  {
+    "address": "0x6cf29c515a33209c6eca43c293004ac80c0614f0",
+    "nameTag": "Synthetix: Synth sLTC"
+  },
+  {
+    "address": "0x4ceb220c5e38e27ef5187f7ab853ac182d233d39",
+    "nameTag": "Synthetix: Synth sNIKKEI"
+  },
+  {
+    "address": "0xd31533e8d0f3df62060e94b3f1318137bb6e3525",
+    "nameTag": "Synthetix: Synth sREN"
+  },
+  {
+    "address": "0xc4be4583bc0307c56cf301975b2b2b1e5f95fcb2",
+    "nameTag": "Synthetix: Synth sTRX"
+  },
+  {
+    "address": "0x30635297e450b930f8693297eba160d9e6c8ebcf",
+    "nameTag": "Synthetix: Synth sUNI"
+  },
+  {
+    "address": "0xae38b81459d74a8c16eaa968c792207603d84480",
+    "nameTag": "Synthetix: Synth sUSD"
+  },
+  {
+    "address": "0x1b9d6cd65ddc981410cb93af91b097667e0bc7ee",
+    "nameTag": "Synthetix: Synth sXAG"
+  },
+  {
+    "address": "0xa408d8e01c8e084b67559226c5b55d6f0b7074e2",
+    "nameTag": "Synthetix: Synth sXAU"
+  },
+  {
+    "address": "0x86fd9c0261e804476ba11056ffd758da2469ed56",
+    "nameTag": "Synthetix: Synth sXMR"
+  },
+  {
+    "address": "0xf5d0bfbc617d3969c1ace93490a76ce80db1ed0e",
+    "nameTag": "Synthetix: Synth sXRP"
+  },
+  {
+    "address": "0x91dbc6f587d043fefbaad050ab48696b30f13d89",
+    "nameTag": "Synthetix: Synth sXTZ"
+  },
+  {
+    "address": "0x992058b7db08f9734d84485bfbc243c4ee6954a7",
+    "nameTag": "Synthetix: Synth sYFI"
+  },
+  {
+    "address": "0x81aee4ea48f678e172640fb5813cf7a96afaf6c3",
+    "nameTag": "Synthetix: Synth Util"
+  },
+  {
+    "address": "0x39ea01a0298c315d149a490e34b59dbf2ec7e48f",
+    "nameTag": "Synthetix: Synthetix Bridge To Optimism"
+  },
+  {
+    "address": "0xffffffaeff0b96ea8e4f94b2253f31abdd875847",
+    "nameTag": "Synthetix: Synthetix Core"
+  },
+  {
+    "address": "0xd0da9cbea9c3852c5d63a95f9abcc4f6ea0f9032",
+    "nameTag": "Synthetix: Synthetix Network Token"
+  },
+  {
+    "address": "0xac87648ca3b88b6ce566aac9d7f3c0eb635b3a1e",
+    "nameTag": "Synthetix: System Settings"
+  },
+  {
+    "address": "0x202ae40bed1640b09e2af7ac5719d129a498b7c8",
+    "nameTag": "Synthetix: System Settings 2"
+  },
+  {
+    "address": "0xa62f71d599ec6179b4f6569add69ffc7e1a7a1c5",
+    "nameTag": "Synthetix: System Settings Lib"
+  },
+  {
+    "address": "0x4a39aef2281ac0d192a9c4783604833ba8f31174",
+    "nameTag": "Synthetix: System Settings Lib 2"
+  },
+  {
+    "address": "0x1c86b3cdf2a60ae3a574f7f71d44e2c50bddb87e",
+    "nameTag": "Synthetix: System Status"
+  },
+  {
+    "address": "0x696c905f8f8c006ca46e9808fe7e00049507798f",
+    "nameTag": "Synthetix: System Status 2"
+  },
+  {
+    "address": "0x971e78e0c92392a4e39099835cf7e6ab535b2227",
+    "nameTag": "Synthetix: Token Sale Escrow"
+  },
+  {
+    "address": "0xd636802a5b903b23726189d9b89daad2750177fa",
+    "nameTag": "Synthetix: Token State iADA"
+  },
+  {
+    "address": "0x780a7206313f411db5f32c79b15b1c80faabed59",
+    "nameTag": "Synthetix: Token State iBCH"
+  },
+  {
+    "address": "0xc4e4c442653fdc78a71401684fd6cf9d67b3b643",
+    "nameTag": "Synthetix: Token State iBNB"
+  },
+  {
+    "address": "0xa1652766155d4debc31d01bf3f748cb46508745b",
+    "nameTag": "Synthetix: Token State iBTC"
+  },
+  {
+    "address": "0x3fb1f228168432688b4e851fe909907248cf9ecd",
+    "nameTag": "Synthetix: Token State iCEX"
+  },
+  {
+    "address": "0x01ada1140ca795897c45016dfd296382267b264a",
+    "nameTag": "Synthetix: Token State iDASH"
+  },
+  {
+    "address": "0x6e9bac2827dbba78d11b270115086cc357988928",
+    "nameTag": "Synthetix: Token State iDEFI"
+  },
+  {
+    "address": "0x68a8b098967ae077dcff5cc8e29b7cb15f1a3cc8",
+    "nameTag": "Synthetix: Token State iEOS"
+  },
+  {
+    "address": "0x71892d13ba2b19f196760f619ee9c67534a49e37",
+    "nameTag": "Synthetix: Token State iETC"
+  },
+  {
+    "address": "0x7b6ab32ca02b31485fbf7265437c2853792cc5d9",
+    "nameTag": "Synthetix: Token State iETH"
+  },
+  {
+    "address": "0x3fdf819c3665d6866b5bb0f56e1eda0d7f69b714",
+    "nameTag": "Synthetix: Token State iLINK"
+  },
+  {
+    "address": "0x7b1010586f923cbf61e7c314146853675705751f",
+    "nameTag": "Synthetix: Token State iLTC"
+  },
+  {
+    "address": "0xd69eabdf940174ca571a6d71dde9b9a4dbcdbb0f",
+    "nameTag": "Synthetix: Token State iTRX"
+  },
+  {
+    "address": "0xe20117888ab22acf65b02c196a9f8423b502876c",
+    "nameTag": "Synthetix: Token State iXMR"
+  },
+  {
+    "address": "0xa9d6ae0f9e9da6ffc357cd155cce18e3491e135d",
+    "nameTag": "Synthetix: Token State iXRP"
+  },
+  {
+    "address": "0xca0d3004f5e771a129fb94619f8867a23e8a23de",
+    "nameTag": "Synthetix: Token State iXTZ"
+  },
+  {
+    "address": "0x9bced8a8e3ad81c9b146ffc880358f734a06f7c0",
+    "nameTag": "Synthetix: Token State sAAVE"
+  },
+  {
+    "address": "0x9956c5019a24fbd5b506ad070b771577bac5c343",
+    "nameTag": "Synthetix: Token State sADA"
+  },
+  {
+    "address": "0xcb29d2cf2c65d3be1d00f07f3441390432d55203",
+    "nameTag": "Synthetix: Token State sAUD"
+  },
+  {
+    "address": "0xb7ee031093b9578df124983823330bbe277fd8b4",
+    "nameTag": "Synthetix: Token State sBCH"
+  },
+  {
+    "address": "0xf9bd94c6f93c1fa5f38174c5e424721e1046af07",
+    "nameTag": "Synthetix: Token State sBNB"
+  },
+  {
+    "address": "0x4f6296455f8d754c19821cf1ec8febf2cd456e67",
+    "nameTag": "Synthetix: Token State sBTC"
+  },
+  {
+    "address": "0xc5680d24c3086e10f618b5176a59e90d6284be9f",
+    "nameTag": "Synthetix: Token State sCEX"
+  },
+  {
+    "address": "0x52496fe8a4feaefe14d9433e00d48e6929c13dec",
+    "nameTag": "Synthetix: Token State sCHF"
+  },
+  {
+    "address": "0x136b1ec699c62b0606854056f02dc7bb80482d63",
+    "nameTag": "Synthetix: Token State sDASH"
+  },
+  {
+    "address": "0x7ac2d37098a65b0f711cffa3be635f1e6acacfab",
+    "nameTag": "Synthetix: Token State sDEFI"
+  },
+  {
+    "address": "0x73b1a2643507cd30f11dfcf2d974f4373e5bc077",
+    "nameTag": "Synthetix: Token State sDOT"
+  },
+  {
+    "address": "0x631443c4121ca7b4c90dc79a37b1dce8b79adeec",
+    "nameTag": "Synthetix: Token State sEOS"
+  },
+  {
+    "address": "0xd4db55cf39c37beaa3a47f2555d57b4ea2d9ff39",
+    "nameTag": "Synthetix: Token State sETC"
+  },
+  {
+    "address": "0x34a5ef81d18f3a305ae9c2d7df42beef4c79031c",
+    "nameTag": "Synthetix: Token State sETH"
+  },
+  {
+    "address": "0x042a7a0022a7695454ac5be77a4860e50c9683fc",
+    "nameTag": "Synthetix: Token State sETHBTC"
+  },
+  {
+    "address": "0x6568d9e750fc44af00f857885dfb8281c00529c4",
+    "nameTag": "Synthetix: Token State sEUR"
+  },
+  {
+    "address": "0xd1b420854527e4b0e489bd37ec8f9db1e6305515",
+    "nameTag": "Synthetix: Token State sFTSE"
+  },
+  {
+    "address": "0x7e88d19a79b291cfe5696d496055f7e57f537a75",
+    "nameTag": "Synthetix: Token State sGBP"
+  },
+  {
+    "address": "0x4dfacfb15514c21c991ff75bc7bf6fb1f98361ed",
+    "nameTag": "Synthetix: Token State sJPY"
+  },
+  {
+    "address": "0x93b6e9fbbd2c32a0dc3c2b943b7c3cbc2fe23730",
+    "nameTag": "Synthetix: Token State sKRW"
+  },
+  {
+    "address": "0x577d4a7395c6a5f46d9981a5f83fa7294926abb0",
+    "nameTag": "Synthetix: Token State sLINK"
+  },
+  {
+    "address": "0xe1a2c7957a4771031301f2e25b0f52039ad97270",
+    "nameTag": "Synthetix: Token State sLTC"
+  },
+  {
+    "address": "0xc69d8b688a309fdea9273dde1a46bf1e51928a55",
+    "nameTag": "Synthetix: Token State sNIKKEI"
+  },
+  {
+    "address": "0x7ec5697c724895da7f2320bde063bef6215a72e2",
+    "nameTag": "Synthetix: Token State sTRX"
+  },
+  {
+    "address": "0x05a9cbe762b36632b3594da4f082340e0e5343e8",
+    "nameTag": "Synthetix: Token State sUSD"
+  },
+  {
+    "address": "0x53d244fb46357568dbef082225ccc87cbd94aae8",
+    "nameTag": "Synthetix: Token State sXAG"
+  },
+  {
+    "address": "0x20569b49d74c1ede765382574f7f3fdc2a078a4f",
+    "nameTag": "Synthetix: Token State sXAU"
+  },
+  {
+    "address": "0x23d5381713841724a67b731026b32322228ca3c7",
+    "nameTag": "Synthetix: Token State sXMR"
+  },
+  {
+    "address": "0xb90aaffb61dfc042e7a7abce069ddb4bae9ab192",
+    "nameTag": "Synthetix: Token State sXRP"
+  },
+  {
+    "address": "0x959894a82fbf99d35b12ed1ea81e783296229862",
+    "nameTag": "Synthetix: Token State sXTZ"
+  },
+  {
+    "address": "0x5b1b5fea1b99d83ad479df0c222f0492385381dd",
+    "nameTag": "Synthetix: Token State Synthetix"
+  },
+  {
+    "address": "0x62922670313bf6b41c580143d1f6c173c5c20019",
+    "nameTag": "Synthetix: Trading Rewards"
+  },
+  {
+    "address": "0x99f4176ee457afedffcb1839c7ab7a030a5e4a92",
+    "nameTag": "Synthetix: Treasury Council"
+  },
+  {
+    "address": "0x0c6f93a3ccdb4de4bbab2e3de714ea48bdbaa877",
+    "nameTag": "Synthetix: Treasury Council NFT"
+  },
+  {
+    "address": "0xf0de877f2f9e7a60767f9ba662f10751566ad01c",
+    "nameTag": "Synthetix: TSLA Balancer Staking Rewards"
+  },
+  {
+    "address": "0x5ef0de4bd373e435341cd82311dfb13d5e8fdef5",
+    "nameTag": "Synthetix: Underlying SNX Token"
+  },
+  {
+    "address": "0xf02ce48fd47d7fa1b7a45a0444805d320d035775",
+    "nameTag": "Synthetix: Virtual Synth Master Copy"
+  },
+  {
+    "address": "0x02f9bc46bed33acdb9cb002fe346734cef8a9480",
+    "nameTag": "Synthetix: Wrapper Factory"
+  }
+]

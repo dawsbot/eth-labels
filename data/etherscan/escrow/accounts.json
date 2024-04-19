@@ -1,9 +1,6 @@
-{
-  "lastPulled": "2024-04-02T20:43:07.460Z",
-  "data": [
-    {
-      "address": "0x0437465dfb5b79726e35f08559b0cbea55bb585c",
-      "nameTag": "StarkNet: L1 Escrow"
-    }
-  ]
-}
+[
+  {
+    "address": "0x0437465dfb5b79726e35f08559b0cbea55bb585c",
+    "nameTag": "StarkNet: L1 Escrow"
+  }
+]

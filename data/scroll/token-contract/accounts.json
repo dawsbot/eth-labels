@@ -1,0 +1,18 @@
+[
+  {
+    "address": "0x2bbbdf97295f73175b12cc087cf446765931e1c3",
+    "nameTag": "LayerZero: wstETH Token"
+  },
+  {
+    "address": "0x1b896893dfc86bb67cf57767298b9073d2c1ba2c",
+    "nameTag": "Scroll: Cake Token"
+  },
+  {
+    "address": "0x06efdbff2a14a7c8e15944d1f4a48f9f95f663a4",
+    "nameTag": "Scroll: USDC Token"
+  },
+  {
+    "address": "0x5300000000000000000000000000000000000004",
+    "nameTag": "Scroll: WETH Token"
+  }
+]

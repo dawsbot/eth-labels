@@ -1,53 +1,50 @@
-{
-  "lastPulled": "2024-04-02T20:43:36.660Z",
-  "data": [
-    {
-      "address": "0x063ad95a0fdc69269960a257c7e9bfa3629ac4dd",
-      "nameTag": "ForTube: ACL"
-    },
-    {
-      "address": "0xfed7efb0cb949378ea6ef0a23e40b12a5f09e7fa",
-      "nameTag": "ForTube: BondFactory"
-    },
-    {
-      "address": "0x76f4a2add5c81a739727a2bcaa1343f046d44d31",
-      "nameTag": "ForTube: Config"
-    },
-    {
-      "address": "0x437979364674d8165eb625b0611adf8dbe55de6c",
-      "nameTag": "ForTube: Core"
-    },
-    {
-      "address": "0x3592954497dafb830469d25f8c46ab0afd9c27f1",
-      "nameTag": "ForTube: CoreUtils"
-    },
-    {
-      "address": "0x00ad504d2c02e0ddbf660bc35926712d0f0fea9e",
-      "nameTag": "ForTube: Deployer"
-    },
-    {
-      "address": "0x1721460a888e7a6698909e61bd65f07865064f01",
-      "nameTag": "ForTube: NameGen"
-    },
-    {
-      "address": "0x53345f3b9fcb873783ffa5c8f043233afd4991a6",
-      "nameTag": "ForTube: Oracle"
-    },
-    {
-      "address": "0xe48bc2ba0f2d2e140382d8b5c8f261a3d35ed09c",
-      "nameTag": "ForTube: PoolPawn"
-    },
-    {
-      "address": "0xdd686e3c88874b9d7e6e18c06de55355b2038152",
-      "nameTag": "ForTube: PRA"
-    },
-    {
-      "address": "0xfcef47934bec27b78f8c061d9a78cdaf0b196001",
-      "nameTag": "ForTube: Router"
-    },
-    {
-      "address": "0x73df6d761a01e69998006a3bc870feded7ef6095",
-      "nameTag": "ForTube: Vote"
-    }
-  ]
-}
+[
+  {
+    "address": "0x063ad95a0fdc69269960a257c7e9bfa3629ac4dd",
+    "nameTag": "ForTube: ACL"
+  },
+  {
+    "address": "0xfed7efb0cb949378ea6ef0a23e40b12a5f09e7fa",
+    "nameTag": "ForTube: BondFactory"
+  },
+  {
+    "address": "0x76f4a2add5c81a739727a2bcaa1343f046d44d31",
+    "nameTag": "ForTube: Config"
+  },
+  {
+    "address": "0x437979364674d8165eb625b0611adf8dbe55de6c",
+    "nameTag": "ForTube: Core"
+  },
+  {
+    "address": "0x3592954497dafb830469d25f8c46ab0afd9c27f1",
+    "nameTag": "ForTube: CoreUtils"
+  },
+  {
+    "address": "0x00ad504d2c02e0ddbf660bc35926712d0f0fea9e",
+    "nameTag": "ForTube: Deployer"
+  },
+  {
+    "address": "0x1721460a888e7a6698909e61bd65f07865064f01",
+    "nameTag": "ForTube: NameGen"
+  },
+  {
+    "address": "0x53345f3b9fcb873783ffa5c8f043233afd4991a6",
+    "nameTag": "ForTube: Oracle"
+  },
+  {
+    "address": "0xe48bc2ba0f2d2e140382d8b5c8f261a3d35ed09c",
+    "nameTag": "ForTube: PoolPawn"
+  },
+  {
+    "address": "0xdd686e3c88874b9d7e6e18c06de55355b2038152",
+    "nameTag": "ForTube: PRA"
+  },
+  {
+    "address": "0xfcef47934bec27b78f8c061d9a78cdaf0b196001",
+    "nameTag": "ForTube: Router"
+  },
+  {
+    "address": "0x73df6d761a01e69998006a3bc870feded7ef6095",
+    "nameTag": "ForTube: Vote"
+  }
+]

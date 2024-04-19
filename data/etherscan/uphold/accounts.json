@@ -1,13 +1,10 @@
-{
-  "lastPulled": "2024-04-02T20:51:41.292Z",
-  "data": [
-    {
-      "address": "0x1c727a55ea3c11b0ab7d3a361fe0f3c47ce6de5d",
-      "nameTag": "Uphold"
-    },
-    {
-      "address": "0x3d8fc1cffaa110f7a7f9f8bc237b73d54c4abf61",
-      "nameTag": "Uphold 2"
-    }
-  ]
-}
+[
+  {
+    "address": "0x1c727a55ea3c11b0ab7d3a361fe0f3c47ce6de5d",
+    "nameTag": "Uphold"
+  },
+  {
+    "address": "0x3d8fc1cffaa110f7a7f9f8bc237b73d54c4abf61",
+    "nameTag": "Uphold 2"
+  }
+]

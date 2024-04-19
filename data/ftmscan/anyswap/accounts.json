@@ -1,122 +1,118 @@
-{
-  "lastPulled": "2024-04-03T06:21:46.179Z",
-  "length": 29,
-  "data": [
-    {
-      "address": "0xddcb3ffd12750b45d32e084887fdf1aabab34239",
-      "nameTag": "Anyswap: ANY Token"
-    },
-    {
-      "address": "0xb688e18f34e6e424c44b247318f22367ed7df3e2",
-      "nameTag": "Anyswap: anyETH Token"
-    },
-    {
-      "address": "0x50eb82cc284e3d35936827023b048106aaecfc5f",
-      "nameTag": "Anyswap: anyFSN Token"
-    },
-    {
-      "address": "0xbcacf1c62202a07e6107f250b788b10677045833",
-      "nameTag": "Anyswap: anyLTC Token"
-    },
-    {
-      "address": "0xc396b190f251d7f79c583fd06347a09781f085c9",
-      "nameTag": "Anyswap: anyYFI Token"
-    },
-    {
-      "address": "0x753fbc5800a8c8e3fb6dc6415810d627a387dfc9",
-      "nameTag": "Anyswap: BADGER Token"
-    },
-    {
-      "address": "0x1f7216fdb338247512ec99715587bb97bbf96eae",
-      "nameTag": "Anyswap: bBADGER Token"
-    },
-    {
-      "address": "0x9611579c926294b0e29e5371a81a3e463650be17",
-      "nameTag": "Anyswap: BCP Token"
-    },
-    {
-      "address": "0x84c882a4d8eb448ce086ea19418ca0f32f106117",
-      "nameTag": "Anyswap: BFC Token"
-    },
-    {
-      "address": "0xad260f380c9a30b1d60e4548a75010ede630b665",
-      "nameTag": "Anyswap: BiFi Token"
-    },
-    {
-      "address": "0xe3e0c14bbcbf86b3ff60e8666c070d34b84f3f73",
-      "nameTag": "Anyswap: Bridge"
-    },
-    {
-      "address": "0x6a545f9c64d8f7b957d8d2e6410b52095a9e6c29",
-      "nameTag": "Anyswap: CFi Token"
-    },
-    {
-      "address": "0x65e64963b755043ca4ffc88029ffb8305615eedd",
-      "nameTag": "Anyswap: Deployer 2"
-    },
-    {
-      "address": "0xa6ed5bf2c86cc267bf9b88cbd6f6587f72b2ef0c",
-      "nameTag": "Anyswap: Deployer 3"
-    },
-    {
-      "address": "0x2a1651c38927bdede04f4e07cfcc55bd1c81fe72",
-      "nameTag": "Anyswap: Deployer 4"
-    },
-    {
-      "address": "0x08f6fe8f4dc577cf81e40e03e561d29b8b33e19b",
-      "nameTag": "Anyswap: DIGG Token"
-    },
-    {
-      "address": "0x602a3ad311e66b6f5e567a13016b712aba0625c6",
-      "nameTag": "Anyswap: DUCK Token"
-    },
-    {
-      "address": "0xb44f26deb0060abb49c1750bdd35d93c9e80eae8",
-      "nameTag": "Anyswap: EARTH Token"
-    },
-    {
-      "address": "0xaf319e5789945197e365e7f7fbfc56b130523b33",
-      "nameTag": "Anyswap: FRAX Token"
-    },
-    {
-      "address": "0x049d68029688eabf473097a2fc38ef61633a3c7a",
-      "nameTag": "Anyswap: fUSDT Token"
-    },
-    {
-      "address": "0xc055c698f3793577707b3e6979b089f50c314d3a",
-      "nameTag": "Anyswap: HH Token"
-    },
-    {
-      "address": "0xbfaf328fe059c53d936876141f38089df0d1503d",
-      "nameTag": "Anyswap: MM Token"
-    },
-    {
-      "address": "0xeaf26191ac1d35ae30baa19a5ad5558dd8156aef",
-      "nameTag": "Anyswap: NORD Token"
-    },
-    {
-      "address": "0x8063115941e612021692f28748ab1ff56c23e4c6",
-      "nameTag": "Anyswap: PPBLZ Token"
-    },
-    {
-      "address": "0x4272dd51961a5181ace0dc7eb6f9807311345559",
-      "nameTag": "Anyswap: PPDEX Token"
-    },
-    {
-      "address": "0xcf726a06f3dcec8ef2b033336d138caa0eae5af2",
-      "nameTag": "Anyswap: RGT Token"
-    },
-    {
-      "address": "0x2f60c28fb2fdc90a2a5644442d0f6d8998101e76",
-      "nameTag": "Anyswap: zLOT Token"
-    },
-    {
-      "address": "0x627524d78b4fc840c887ffec90563c7a42b671fd",
-      "nameTag": "Cryptokek: KEK Token"
-    },
-    {
-      "address": "0x4bfcbc6d507c6cf6b419b4f65670e3f7a81ea93f",
-      "nameTag": "Frax Protocol: Deployer"
-    }
-  ]
-}
+[
+  {
+    "address": "0xddcb3ffd12750b45d32e084887fdf1aabab34239",
+    "nameTag": "Anyswap: ANY Token"
+  },
+  {
+    "address": "0xb688e18f34e6e424c44b247318f22367ed7df3e2",
+    "nameTag": "Anyswap: anyETH Token"
+  },
+  {
+    "address": "0x50eb82cc284e3d35936827023b048106aaecfc5f",
+    "nameTag": "Anyswap: anyFSN Token"
+  },
+  {
+    "address": "0xbcacf1c62202a07e6107f250b788b10677045833",
+    "nameTag": "Anyswap: anyLTC Token"
+  },
+  {
+    "address": "0xc396b190f251d7f79c583fd06347a09781f085c9",
+    "nameTag": "Anyswap: anyYFI Token"
+  },
+  {
+    "address": "0x753fbc5800a8c8e3fb6dc6415810d627a387dfc9",
+    "nameTag": "Anyswap: BADGER Token"
+  },
+  {
+    "address": "0x1f7216fdb338247512ec99715587bb97bbf96eae",
+    "nameTag": "Anyswap: bBADGER Token"
+  },
+  {
+    "address": "0x9611579c926294b0e29e5371a81a3e463650be17",
+    "nameTag": "Anyswap: BCP Token"
+  },
+  {
+    "address": "0x84c882a4d8eb448ce086ea19418ca0f32f106117",
+    "nameTag": "Anyswap: BFC Token"
+  },
+  {
+    "address": "0xad260f380c9a30b1d60e4548a75010ede630b665",
+    "nameTag": "Anyswap: BiFi Token"
+  },
+  {
+    "address": "0xe3e0c14bbcbf86b3ff60e8666c070d34b84f3f73",
+    "nameTag": "Anyswap: Bridge"
+  },
+  {
+    "address": "0x6a545f9c64d8f7b957d8d2e6410b52095a9e6c29",
+    "nameTag": "Anyswap: CFi Token"
+  },
+  {
+    "address": "0x65e64963b755043ca4ffc88029ffb8305615eedd",
+    "nameTag": "Anyswap: Deployer 2"
+  },
+  {
+    "address": "0xa6ed5bf2c86cc267bf9b88cbd6f6587f72b2ef0c",
+    "nameTag": "Anyswap: Deployer 3"
+  },
+  {
+    "address": "0x2a1651c38927bdede04f4e07cfcc55bd1c81fe72",
+    "nameTag": "Anyswap: Deployer 4"
+  },
+  {
+    "address": "0x08f6fe8f4dc577cf81e40e03e561d29b8b33e19b",
+    "nameTag": "Anyswap: DIGG Token"
+  },
+  {
+    "address": "0x602a3ad311e66b6f5e567a13016b712aba0625c6",
+    "nameTag": "Anyswap: DUCK Token"
+  },
+  {
+    "address": "0xb44f26deb0060abb49c1750bdd35d93c9e80eae8",
+    "nameTag": "Anyswap: EARTH Token"
+  },
+  {
+    "address": "0xaf319e5789945197e365e7f7fbfc56b130523b33",
+    "nameTag": "Anyswap: FRAX Token"
+  },
+  {
+    "address": "0x049d68029688eabf473097a2fc38ef61633a3c7a",
+    "nameTag": "Anyswap: fUSDT Token"
+  },
+  {
+    "address": "0xc055c698f3793577707b3e6979b089f50c314d3a",
+    "nameTag": "Anyswap: HH Token"
+  },
+  {
+    "address": "0xbfaf328fe059c53d936876141f38089df0d1503d",
+    "nameTag": "Anyswap: MM Token"
+  },
+  {
+    "address": "0xeaf26191ac1d35ae30baa19a5ad5558dd8156aef",
+    "nameTag": "Anyswap: NORD Token"
+  },
+  {
+    "address": "0x8063115941e612021692f28748ab1ff56c23e4c6",
+    "nameTag": "Anyswap: PPBLZ Token"
+  },
+  {
+    "address": "0x4272dd51961a5181ace0dc7eb6f9807311345559",
+    "nameTag": "Anyswap: PPDEX Token"
+  },
+  {
+    "address": "0xcf726a06f3dcec8ef2b033336d138caa0eae5af2",
+    "nameTag": "Anyswap: RGT Token"
+  },
+  {
+    "address": "0x2f60c28fb2fdc90a2a5644442d0f6d8998101e76",
+    "nameTag": "Anyswap: zLOT Token"
+  },
+  {
+    "address": "0x627524d78b4fc840c887ffec90563c7a42b671fd",
+    "nameTag": "Cryptokek: KEK Token"
+  },
+  {
+    "address": "0x4bfcbc6d507c6cf6b419b4f65670e3f7a81ea93f",
+    "nameTag": "Frax Protocol: Deployer"
+  }
+]

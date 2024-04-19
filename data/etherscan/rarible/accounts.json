@@ -1,133 +1,130 @@
-{
-  "lastPulled": "2024-04-02T20:48:41.075Z",
-  "data": [
-    {
-      "address": "0xb66a603f4cfe17e3d27b87a8bfcad319856518b8",
-      "nameTag": "Rarible: Asset Contract ERC1155"
-    },
-    {
-      "address": "0xf6793da657495ffeff9ee6350824910abc21356c",
-      "nameTag": "Rarible: Asset Contract ERC721"
-    },
-    {
-      "address": "0xfa0607a4ebbb6f3783dcc0967a7bd44dc616f2e0",
-      "nameTag": "Rarible: Asset Matcher Collection"
-    },
-    {
-      "address": "0x3482549fca7511267c9ef7089507c0f16ea1dcc1",
-      "nameTag": "Rarible: Deployer"
-    },
-    {
-      "address": "0x027d7bc9f6a37600fe936cb98cea3e32ef82812e",
-      "nameTag": "Rarible: ERC 1155 Beacon"
-    },
-    {
-      "address": "0x6e42262978de5233c8d5b05b128c121fba110da4",
-      "nameTag": "Rarible: ERC 721 Factory"
-    },
-    {
-      "address": "0x0890b2d8b6f938cf93b8b243ab8f0589031e158f",
-      "nameTag": "Rarible: ERC 721 Minimal Beacon"
-    },
-    {
-      "address": "0x81243681078bee8e251d02ee6872b1eaa6dd982a",
-      "nameTag": "Rarible: ERC1155 Factory"
-    },
-    {
-      "address": "0xda5bfe0bd4443d63833c8f4e3284357299eae6bc",
-      "nameTag": "Rarible: ERC1155 Factory 2"
-    },
-    {
-      "address": "0xb8e4526e0da700e9ef1f879af713d691f81507d8",
-      "nameTag": "Rarible: ERC20 Transfer"
-    },
-    {
-      "address": "0x71dbe051df4176b1c7795294427a0d68ee2b5f8d",
-      "nameTag": "Rarible: ERC721 Beacon"
-    },
-    {
-      "address": "0x6d9dd3547baf4c190ab89e0103c363feaf325eca",
-      "nameTag": "Rarible: ERC721 Factory"
-    },
-    {
-      "address": "0xbb7829bfdd4b557eb944349b2e2c965446052497",
-      "nameTag": "Rarible: ERC721 Lazy Mint Transfer"
-    },
-    {
-      "address": "0xcd4ec7b66fbc029c116ba9ffb3e59351c20b5b06",
-      "nameTag": "Rarible: Exchange 1"
-    },
-    {
-      "address": "0xc286c8b4bf8e29ad049a42b17ddf4a7c3248bbe1",
-      "nameTag": "Rarible: Exchange Orders Holder V1"
-    },
-    {
-      "address": "0x09eab21c40743b2364b94345419138ef80f39e30",
-      "nameTag": "Rarible: Exchange V1"
-    },
-    {
-      "address": "0x9757f2d2b135150bbeb65308d4a91804107cd8d6",
-      "nameTag": "Rarible: Exchange V2"
-    },
-    {
-      "address": "0xea90cfad1b8e030b8fd3e63d22074e0aeb8e0dcd",
-      "nameTag": "Rarible: External Royalties"
-    },
-    {
-      "address": "0x75a8b7c0b22d973e0b46cfbd3e2f6566905aa79f",
-      "nameTag": "Rarible: Lazy Mint Transfer Proxy"
-    },
-    {
-      "address": "0x096bd9a7a2e703670088c05035e23c7a9f428496",
-      "nameTag": "Rarible: Locking"
-    },
-    {
-      "address": "0xa3aaa33e13bd42fe5cbdefc72fb0a0888cfb44c0",
-      "nameTag": "Rarible: Migrations"
-    },
-    {
-      "address": "0x661aa0fce9ba700d652433dfc8134c2bdf0ba443",
-      "nameTag": "Rarible: Old Transfer Proxy"
-    },
-    {
-      "address": "0xdf907c1b541b1843b511d115e2fef78a6a830772",
-      "nameTag": "Rarible: Punk Transfer Proxy"
-    },
-    {
-      "address": "0xc633f65a1bebd433df12d9f3ac7acf31b26ca1e6",
-      "nameTag": "Rarible: Rari Mine V3"
-    },
-    {
-      "address": "0xc9154424b823b10579895ccbe442d41b9abd96ed",
-      "nameTag": "Rarible: RARI Token"
-    },
-    {
-      "address": "0xfca59cd816ab1ead66534d82bc21e7515ce441cf",
-      "nameTag": "Rarible: RARI Token 1"
-    },
-    {
-      "address": "0x60f80121c31a0d46b5279700f9df786054aa5ee5",
-      "nameTag": "Rarible: RARI Token 2"
-    },
-    {
-      "address": "0xd07dc4262bcdbf85190c01c996b4c06a461d2430",
-      "nameTag": "Rarible: RARI Token 3"
-    },
-    {
-      "address": "0x1cf0df2a5a20cd61d68d4489eebbf85b8d39e18a",
-      "nameTag": "Rarible: Treasury"
-    },
-    {
-      "address": "0xfdff6b56cce39482032b27140252ff4f16432785",
-      "nameTag": "Rarible: Treasury 2"
-    },
-    {
-      "address": "0x1968ca49240c01730ba734ff97679cc5c8b29b6d",
-      "nameTag": "Rarible:Exchange Wrapper"
-    },
-    {
-      "address": "0x4fee7b061c97c9c496b01dbce9cdb10c02f0a0be",
-      "nameTag": "Rarible:Transfer Proxy"
-    }
-  ]
-}
+[
+  {
+    "address": "0xb66a603f4cfe17e3d27b87a8bfcad319856518b8",
+    "nameTag": "Rarible: Asset Contract ERC1155"
+  },
+  {
+    "address": "0xf6793da657495ffeff9ee6350824910abc21356c",
+    "nameTag": "Rarible: Asset Contract ERC721"
+  },
+  {
+    "address": "0xfa0607a4ebbb6f3783dcc0967a7bd44dc616f2e0",
+    "nameTag": "Rarible: Asset Matcher Collection"
+  },
+  {
+    "address": "0x3482549fca7511267c9ef7089507c0f16ea1dcc1",
+    "nameTag": "Rarible: Deployer"
+  },
+  {
+    "address": "0x027d7bc9f6a37600fe936cb98cea3e32ef82812e",
+    "nameTag": "Rarible: ERC 1155 Beacon"
+  },
+  {
+    "address": "0x6e42262978de5233c8d5b05b128c121fba110da4",
+    "nameTag": "Rarible: ERC 721 Factory"
+  },
+  {
+    "address": "0x0890b2d8b6f938cf93b8b243ab8f0589031e158f",
+    "nameTag": "Rarible: ERC 721 Minimal Beacon"
+  },
+  {
+    "address": "0x81243681078bee8e251d02ee6872b1eaa6dd982a",
+    "nameTag": "Rarible: ERC1155 Factory"
+  },
+  {
+    "address": "0xda5bfe0bd4443d63833c8f4e3284357299eae6bc",
+    "nameTag": "Rarible: ERC1155 Factory 2"
+  },
+  {
+    "address": "0xb8e4526e0da700e9ef1f879af713d691f81507d8",
+    "nameTag": "Rarible: ERC20 Transfer"
+  },
+  {
+    "address": "0x71dbe051df4176b1c7795294427a0d68ee2b5f8d",
+    "nameTag": "Rarible: ERC721 Beacon"
+  },
+  {
+    "address": "0x6d9dd3547baf4c190ab89e0103c363feaf325eca",
+    "nameTag": "Rarible: ERC721 Factory"
+  },
+  {
+    "address": "0xbb7829bfdd4b557eb944349b2e2c965446052497",
+    "nameTag": "Rarible: ERC721 Lazy Mint Transfer"
+  },
+  {
+    "address": "0xcd4ec7b66fbc029c116ba9ffb3e59351c20b5b06",
+    "nameTag": "Rarible: Exchange 1"
+  },
+  {
+    "address": "0xc286c8b4bf8e29ad049a42b17ddf4a7c3248bbe1",
+    "nameTag": "Rarible: Exchange Orders Holder V1"
+  },
+  {
+    "address": "0x09eab21c40743b2364b94345419138ef80f39e30",
+    "nameTag": "Rarible: Exchange V1"
+  },
+  {
+    "address": "0x9757f2d2b135150bbeb65308d4a91804107cd8d6",
+    "nameTag": "Rarible: Exchange V2"
+  },
+  {
+    "address": "0xea90cfad1b8e030b8fd3e63d22074e0aeb8e0dcd",
+    "nameTag": "Rarible: External Royalties"
+  },
+  {
+    "address": "0x75a8b7c0b22d973e0b46cfbd3e2f6566905aa79f",
+    "nameTag": "Rarible: Lazy Mint Transfer Proxy"
+  },
+  {
+    "address": "0x096bd9a7a2e703670088c05035e23c7a9f428496",
+    "nameTag": "Rarible: Locking"
+  },
+  {
+    "address": "0xa3aaa33e13bd42fe5cbdefc72fb0a0888cfb44c0",
+    "nameTag": "Rarible: Migrations"
+  },
+  {
+    "address": "0x661aa0fce9ba700d652433dfc8134c2bdf0ba443",
+    "nameTag": "Rarible: Old Transfer Proxy"
+  },
+  {
+    "address": "0xdf907c1b541b1843b511d115e2fef78a6a830772",
+    "nameTag": "Rarible: Punk Transfer Proxy"
+  },
+  {
+    "address": "0xc633f65a1bebd433df12d9f3ac7acf31b26ca1e6",
+    "nameTag": "Rarible: Rari Mine V3"
+  },
+  {
+    "address": "0xc9154424b823b10579895ccbe442d41b9abd96ed",
+    "nameTag": "Rarible: RARI Token"
+  },
+  {
+    "address": "0xfca59cd816ab1ead66534d82bc21e7515ce441cf",
+    "nameTag": "Rarible: RARI Token 1"
+  },
+  {
+    "address": "0x60f80121c31a0d46b5279700f9df786054aa5ee5",
+    "nameTag": "Rarible: RARI Token 2"
+  },
+  {
+    "address": "0xd07dc4262bcdbf85190c01c996b4c06a461d2430",
+    "nameTag": "Rarible: RARI Token 3"
+  },
+  {
+    "address": "0x1cf0df2a5a20cd61d68d4489eebbf85b8d39e18a",
+    "nameTag": "Rarible: Treasury"
+  },
+  {
+    "address": "0xfdff6b56cce39482032b27140252ff4f16432785",
+    "nameTag": "Rarible: Treasury 2"
+  },
+  {
+    "address": "0x1968ca49240c01730ba734ff97679cc5c8b29b6d",
+    "nameTag": "Rarible:Exchange Wrapper"
+  },
+  {
+    "address": "0x4fee7b061c97c9c496b01dbce9cdb10c02f0a0be",
+    "nameTag": "Rarible:Transfer Proxy"
+  }
+]

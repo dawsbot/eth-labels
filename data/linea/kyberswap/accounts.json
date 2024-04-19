@@ -1,0 +1,42 @@
+[
+  {
+    "address": "0x3b2f62d42db19b30588648bf1c184865d4c3b1d6",
+    "nameTag": "Kyber Network: KNC Token"
+  },
+  {
+    "address": "0x8180a5ca4e3b94045e05a9313777955f7518d757",
+    "nameTag": "KyberSwap: Deployer"
+  },
+  {
+    "address": "0xcab2fa2eeab7065b45cbcf6e3936dde2506b4f6c",
+    "nameTag": "KyberSwap: Double Signatures Limit Order"
+  },
+  {
+    "address": "0xe222fbe074a436145b255442d919e4e3a6c6a480",
+    "nameTag": "KyberSwap: Elastic Anti-Snipping Position Manager"
+  },
+  {
+    "address": "0xc7a590291e07b9fe9e64b86c58fd8fc764308c4a",
+    "nameTag": "KyberSwap: Elastic Factory"
+  },
+  {
+    "address": "0x049beffdb026d6d1d64cfc8fe29bd12142967b09",
+    "nameTag": "KyberSwap: Elastic Pool Oracle"
+  },
+  {
+    "address": "0xd8ac7f696ae99cd7b689726cf03c5711dd8dcdb4",
+    "nameTag": "KyberSwap: Elastic Pool Oracle Proxy"
+  },
+  {
+    "address": "0x1c758af0688502e49140230f6b0ebd376d429be5",
+    "nameTag": "KyberSwap: KSFactory"
+  },
+  {
+    "address": "0x5649b4dd00780e99bab7abb4a3d581ea1aeb23d0",
+    "nameTag": "KyberSwap: KSRouter"
+  },
+  {
+    "address": "0xaa96267806d5be3941bf9d8e4efc3dc8eb2bda0f",
+    "nameTag": "KyberSwap: Operations"
+  }
+]

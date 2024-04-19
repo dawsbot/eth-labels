@@ -1,49 +1,46 @@
-{
-  "lastPulled": "2024-04-02T20:40:14.718Z",
-  "data": [
-    {
-      "address": "0xaa06e5c117dbe8bc52dbaa18aaf447eda556b13c",
-      "nameTag": "BFH: Approval Proxy V1"
-    },
-    {
-      "address": "0x604652c6a6e606669bdccde15519644b869a97a9",
-      "nameTag": "BFH: Daily Action V1"
-    },
-    {
-      "address": "0x9f90324b0da6adee99aebb467faf20278767d76a",
-      "nameTag": "BFH: Ext to Sphere"
-    },
-    {
-      "address": "0xaebe641fb55e45488511ef7d9446e8c7c3d9ad28",
-      "nameTag": "BFH: Hero to Unit"
-    },
-    {
-      "address": "0x335944b36b02401fb35ca3aa64cc9468e5eb3742",
-      "nameTag": "BFH: Owner"
-    },
-    {
-      "address": "0xe02367242b348caca4bf39fd1249b212a88adcec",
-      "nameTag": "BFH: Prime V1"
-    },
-    {
-      "address": "0xc03844f07f86ad1d90a1c4a2a8204dcf00f3a991",
-      "nameTag": "BFH: Sphere"
-    },
-    {
-      "address": "0xd39f16bd03a506410d66bbbf6dccbb08f445197e",
-      "nameTag": "BFH: Sphere Gateway"
-    },
-    {
-      "address": "0x6fa769eed284a94a73c15299e1d3719b29ae2f52",
-      "nameTag": "BFH: Unit"
-    },
-    {
-      "address": "0x9503de24f4210da79c5e5bccd198b2727387a519",
-      "nameTag": "BFH: Unit Gateway"
-    },
-    {
-      "address": "0x97390a8fa25b2e69a34d50d289e7c0eb87b1c5c8",
-      "nameTag": "BFH: ZEL Gateway V1"
-    }
-  ]
-}
+[
+  {
+    "address": "0xaa06e5c117dbe8bc52dbaa18aaf447eda556b13c",
+    "nameTag": "BFH: Approval Proxy V1"
+  },
+  {
+    "address": "0x604652c6a6e606669bdccde15519644b869a97a9",
+    "nameTag": "BFH: Daily Action V1"
+  },
+  {
+    "address": "0x9f90324b0da6adee99aebb467faf20278767d76a",
+    "nameTag": "BFH: Ext to Sphere"
+  },
+  {
+    "address": "0xaebe641fb55e45488511ef7d9446e8c7c3d9ad28",
+    "nameTag": "BFH: Hero to Unit"
+  },
+  {
+    "address": "0x335944b36b02401fb35ca3aa64cc9468e5eb3742",
+    "nameTag": "BFH: Owner"
+  },
+  {
+    "address": "0xe02367242b348caca4bf39fd1249b212a88adcec",
+    "nameTag": "BFH: Prime V1"
+  },
+  {
+    "address": "0xc03844f07f86ad1d90a1c4a2a8204dcf00f3a991",
+    "nameTag": "BFH: Sphere"
+  },
+  {
+    "address": "0xd39f16bd03a506410d66bbbf6dccbb08f445197e",
+    "nameTag": "BFH: Sphere Gateway"
+  },
+  {
+    "address": "0x6fa769eed284a94a73c15299e1d3719b29ae2f52",
+    "nameTag": "BFH: Unit"
+  },
+  {
+    "address": "0x9503de24f4210da79c5e5bccd198b2727387a519",
+    "nameTag": "BFH: Unit Gateway"
+  },
+  {
+    "address": "0x97390a8fa25b2e69a34d50d289e7c0eb87b1c5c8",
+    "nameTag": "BFH: ZEL Gateway V1"
+  }
+]

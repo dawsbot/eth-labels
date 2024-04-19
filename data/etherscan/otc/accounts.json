@@ -1,57 +1,54 @@
-{
-  "lastPulled": "2024-04-02T20:47:59.586Z",
-  "data": [
-    {
-      "address": "0x1151314c646ce4e0efd76d1af4760ae66a9fe30f",
-      "nameTag": "Bitfinex 1"
-    },
-    {
-      "address": "0x5d509a25f25190e77a1e46e72333788b1f069ce1",
-      "nameTag": "Counter Network"
-    },
-    {
-      "address": "0xe17ee7b3c676701c66b395a35f0df4c2276a344e",
-      "nameTag": "DigiFinex"
-    },
-    {
-      "address": "0xd628f7c481c7dd87f674870bec5d7a311fb1d9a2",
-      "nameTag": "Genesis Trading: OTC Desk"
-    },
-    {
-      "address": "0x0548f59fee79f8832c299e01dca5c76f034f558e",
-      "nameTag": "Genesis Trading: OTC Desk 2"
-    },
-    {
-      "address": "0x6d21266dfcf5541bee9f67c4837aaa72b3bf9303",
-      "nameTag": "Genesis Trading: OTC Desk 3"
-    },
-    {
-      "address": "0x6c85006eae121cf2444f0852cab9914607915df2",
-      "nameTag": "Genesis Trading: OTC Desk 4"
-    },
-    {
-      "address": "0x7119cb953db332a3b60730d5d39e7b1ba5120e86",
-      "nameTag": "Genesis Trading: OTC Desk 5"
-    },
-    {
-      "address": "0x97c77fbf8990fa2442f1e97001ce91ac7333bf80",
-      "nameTag": "Genesis Trading: OTC Desk 6"
-    },
-    {
-      "address": "0x204b937feaec333e9e6d72d35f1d131f187ecea1",
-      "nameTag": "HEXOTC"
-    },
-    {
-      "address": "0xab5c66752a9e8167967685f1450532fb96d5d24f",
-      "nameTag": "HTX 1"
-    },
-    {
-      "address": "0x867ffb5a3871b500f65bdfafe0136f9667deae06",
-      "nameTag": "LocalEthereum 1"
-    },
-    {
-      "address": "0xd924bdd6fa7fd3d0eb1337853a814a4263dcbfe8",
-      "nameTag": "Rhino.fi: OTC"
-    }
-  ]
-}
+[
+  {
+    "address": "0x1151314c646ce4e0efd76d1af4760ae66a9fe30f",
+    "nameTag": "Bitfinex 1"
+  },
+  {
+    "address": "0x5d509a25f25190e77a1e46e72333788b1f069ce1",
+    "nameTag": "Counter Network"
+  },
+  {
+    "address": "0xe17ee7b3c676701c66b395a35f0df4c2276a344e",
+    "nameTag": "DigiFinex"
+  },
+  {
+    "address": "0xd628f7c481c7dd87f674870bec5d7a311fb1d9a2",
+    "nameTag": "Genesis Trading: OTC Desk"
+  },
+  {
+    "address": "0x0548f59fee79f8832c299e01dca5c76f034f558e",
+    "nameTag": "Genesis Trading: OTC Desk 2"
+  },
+  {
+    "address": "0x6d21266dfcf5541bee9f67c4837aaa72b3bf9303",
+    "nameTag": "Genesis Trading: OTC Desk 3"
+  },
+  {
+    "address": "0x6c85006eae121cf2444f0852cab9914607915df2",
+    "nameTag": "Genesis Trading: OTC Desk 4"
+  },
+  {
+    "address": "0x7119cb953db332a3b60730d5d39e7b1ba5120e86",
+    "nameTag": "Genesis Trading: OTC Desk 5"
+  },
+  {
+    "address": "0x97c77fbf8990fa2442f1e97001ce91ac7333bf80",
+    "nameTag": "Genesis Trading: OTC Desk 6"
+  },
+  {
+    "address": "0x204b937feaec333e9e6d72d35f1d131f187ecea1",
+    "nameTag": "HEXOTC"
+  },
+  {
+    "address": "0xab5c66752a9e8167967685f1450532fb96d5d24f",
+    "nameTag": "HTX 1"
+  },
+  {
+    "address": "0x867ffb5a3871b500f65bdfafe0136f9667deae06",
+    "nameTag": "LocalEthereum 1"
+  },
+  {
+    "address": "0xd924bdd6fa7fd3d0eb1337853a814a4263dcbfe8",
+    "nameTag": "Rhino.fi: OTC"
+  }
+]

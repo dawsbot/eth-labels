@@ -1,9 +1,6 @@
-{
-  "lastPulled": "2024-04-02T20:44:10.077Z",
-  "data": [
-    {
-      "address": "0x1c95930dfc1139381265ce45b5f480f1efae09a1",
-      "nameTag": "DeFi Education Fund: Multisig"
-    }
-  ]
-}
+[
+  {
+    "address": "0x1c95930dfc1139381265ce45b5f480f1efae09a1",
+    "nameTag": "DeFi Education Fund: Multisig"
+  }
+]

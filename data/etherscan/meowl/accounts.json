@@ -1,45 +1,42 @@
-{
-  "lastPulled": "2024-04-02T20:45:56.621Z",
-  "data": [
-    {
-      "address": "0x1bb0303f9e28031a5ffd9ffaa37c6adcae9f5bbb",
-      "nameTag": "Meowl: Deployer"
-    },
-    {
-      "address": "0x679a376dab6318d62de3c87292e207532c8607a9",
-      "nameTag": "Meowl: Fee Share System"
-    },
-    {
-      "address": "0x7c93e5c1fb4a4a6ada330395ecf44adc0634f5ca",
-      "nameTag": "Meowl: Fee Sharing"
-    },
-    {
-      "address": "0x3a3da19244092371df1748470a41f7b1d4daf43e",
-      "nameTag": "Meowl: LP Timelock"
-    },
-    {
-      "address": "0x1f1f26c966f483997728bed0f9814938b2b5e294",
-      "nameTag": "Meowl: MEOWL Token"
-    },
-    {
-      "address": "0x4ff42c21604b04f9836bf45fd3824ed8274399e0",
-      "nameTag": "Meowl: Reward Splitter"
-    },
-    {
-      "address": "0x24f5be25cc59079347cf7fae2562bc9bbd44b890",
-      "nameTag": "Meowl: Signer"
-    },
-    {
-      "address": "0x842618c3f6e3e12edc5f02cc17561293e10ceb7d",
-      "nameTag": "Meowl: Treasury"
-    },
-    {
-      "address": "0x86ab436ef4ab3269cfa55789c917613da44044e5",
-      "nameTag": "Meowl: Vesting Contract 1"
-    },
-    {
-      "address": "0xc50822a25c627c5c9c1dc65766fb8287597eaf87",
-      "nameTag": "Meowl: Vesting Contract 2"
-    }
-  ]
-}
+[
+  {
+    "address": "0x1bb0303f9e28031a5ffd9ffaa37c6adcae9f5bbb",
+    "nameTag": "Meowl: Deployer"
+  },
+  {
+    "address": "0x679a376dab6318d62de3c87292e207532c8607a9",
+    "nameTag": "Meowl: Fee Share System"
+  },
+  {
+    "address": "0x7c93e5c1fb4a4a6ada330395ecf44adc0634f5ca",
+    "nameTag": "Meowl: Fee Sharing"
+  },
+  {
+    "address": "0x3a3da19244092371df1748470a41f7b1d4daf43e",
+    "nameTag": "Meowl: LP Timelock"
+  },
+  {
+    "address": "0x1f1f26c966f483997728bed0f9814938b2b5e294",
+    "nameTag": "Meowl: MEOWL Token"
+  },
+  {
+    "address": "0x4ff42c21604b04f9836bf45fd3824ed8274399e0",
+    "nameTag": "Meowl: Reward Splitter"
+  },
+  {
+    "address": "0x24f5be25cc59079347cf7fae2562bc9bbd44b890",
+    "nameTag": "Meowl: Signer"
+  },
+  {
+    "address": "0x842618c3f6e3e12edc5f02cc17561293e10ceb7d",
+    "nameTag": "Meowl: Treasury"
+  },
+  {
+    "address": "0x86ab436ef4ab3269cfa55789c917613da44044e5",
+    "nameTag": "Meowl: Vesting Contract 1"
+  },
+  {
+    "address": "0xc50822a25c627c5c9c1dc65766fb8287597eaf87",
+    "nameTag": "Meowl: Vesting Contract 2"
+  }
+]

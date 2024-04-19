@@ -1,461 +1,452 @@
-{
-  "lastPulled": "2024-04-02T20:52:00.891Z",
-  "data": [
-    {
-      "address": "0x0fbbfd1243552c8a66ab05c1f9530fb116e9fff4",
-      "nameTag": ""
-    },
-    {
-      "address": "0x91268aba147d738fa8665b342ef519e0c4541c07",
-      "nameTag": ""
-    },
-    {
-      "address": "0x3df616ee25ba3fa146544ab595f106bff5ac4397",
-      "nameTag": "12daily.club"
-    },
-    {
-      "address": "0x9b11efcaaa1890f6ee52c6bb7cf8153ac5d74139",
-      "nameTag": "Atmchain.io: ATM Token"
-    },
-    {
-      "address": "0x67ad530ecdfd7ac8289362914e88d018e8b3f3f0",
-      "nameTag": "bestmultiplier.biz"
-    },
-    {
-      "address": "0x2cdb253c0e44a284f6174ae90b5ea247e6cf3649",
-      "nameTag": "bestmultiplier.biz 2"
-    },
-    {
-      "address": "0xc8475018b8afe888a38e05a25215f7cf00fc38fa",
-      "nameTag": "BetaCore: BCORE Token"
-    },
-    {
-      "address": "0xa8daa52ded91f7c82b4bb02b4b87c6a841db1fd5",
-      "nameTag": "Biograffi: BGF Token"
-    },
-    {
-      "address": "0x2aa4a3e8bb72be68a31c9c3c98ca7bec723c6222",
-      "nameTag": "Bispex: BPX Token"
-    },
-    {
-      "address": "0x6aac8cb9861e42bf8259f5abdc6ae3ae89909e11",
-      "nameTag": "Bitcoin Red: BTCR Token"
-    },
-    {
-      "address": "0x54bfd2c33b252f6c959688bb1ef2169a96dcee8f",
-      "nameTag": "Bliss.exchange: BLISS Token"
-    },
-    {
-      "address": "0x0cc4f8735dae4b1ab7682cb05aeb19115e693e98",
-      "nameTag": "Cowfarm.Finance: COW Token"
-    },
-    {
-      "address": "0xcd3dc4e19418fe7dad216376ff685760685cee13",
-      "nameTag": "cryptominerblock.online"
-    },
-    {
-      "address": "0x1f9f9bc358ddc30763e81a0081b86a638e6277ab",
-      "nameTag": "CryptoNote: Index Fund Token"
-    },
-    {
-      "address": "0xef9d61a0f2bfd4695faeb17dd61d85202bdc8e6e",
-      "nameTag": "CryptoNote: Token Sale"
-    },
-    {
-      "address": "0xeae0b10b2cc955563ff99374c2beb726ac4407ce",
-      "nameTag": "Cthulhu Coin: CTHU Token"
-    },
-    {
-      "address": "0x5c406d99e04b8494dc253fcc52943ef82bca7d75",
-      "nameTag": "cUSD Currency: cUSD Token"
-    },
-    {
-      "address": "0xfad05ee13c8e0ec94e5ee9dc056dc451b2ad6b1d",
-      "nameTag": "Dailydivs.com"
-    },
-    {
-      "address": "0x0ce6d5a093d4166237c7a9ff8e0553b0293214a1",
-      "nameTag": "Decenturion Token"
-    },
-    {
-      "address": "0x17d67119a65d3de86384226efa9a18e37b01a691",
-      "nameTag": "Deflexchange: DEF Token"
-    },
-    {
-      "address": "0x67d94da1f10861174926681984dbcb4c97ea25dd",
-      "nameTag": "desire.finance: DESIRE Token"
-    },
-    {
-      "address": "0x86b1fc1c0c5d120842d8c86babade714e28777c6",
-      "nameTag": "Devil Finance: SOUL Token"
-    },
-    {
-      "address": "0x330777c08f64aee16c7eb19f092f63ced31de135",
-      "nameTag": "Dexive.io: DXV Token"
-    },
-    {
-      "address": "0x4c081d8ec752c8ca6309149e3ad07747b2576401",
-      "nameTag": "Dino.Finance: DINO Token"
-    },
-    {
-      "address": "0x9b63e5599f8d7b70f96da0700bde1b4c0d7f35a9",
-      "nameTag": "DoubleUpp.info"
-    },
-    {
-      "address": "0xa25560d083fe0ea3e303c11577b5a345b236fac7",
-      "nameTag": "Easyinvest10.app"
-    },
-    {
-      "address": "0x339150b0851bc5b3c0323789a58cc4e4afb38b37",
-      "nameTag": "Easyinvest10.biz"
-    },
-    {
-      "address": "0x02c60d28be3338014fef3fdf50a3218b946c0609",
-      "nameTag": "Easyinvest3.me"
-    },
-    {
-      "address": "0x39a765ecf417f5eecbb58d6b0482f81f4d825fff",
-      "nameTag": "Easyinvest6.biz"
-    },
-    {
-      "address": "0xa81b07da1a6d60a53de91bebfac2b9367840b8fd",
-      "nameTag": "EMJAC Waste Tyre Recycling Token"
-    },
-    {
-      "address": "0x16ea01acb4b0bca2000ee5473348b6937ee6f72f",
-      "nameTag": "Enecuum: Old ENQ Token"
-    },
-    {
-      "address": "0x977a108588340468c871e0af5a3c53f98051ed3a",
-      "nameTag": "Erasken.com: ERK Token"
-    },
-    {
-      "address": "0xbf91b27fec3146a1b36069f92337a0ea330725df",
-      "nameTag": "eth666.me"
-    },
-    {
-      "address": "0x76130fd699cd7ab670c51e699e67d3eea4b8f8db",
-      "nameTag": "eth666.me: Deployer"
-    },
-    {
-      "address": "0x0135c9a7bff72aa26e1d105ff5000e454e4dde7a",
-      "nameTag": "Ethcash.online"
-    },
-    {
-      "address": "0x82aa987a16deafd8b4fab73ec316f94f4df43020",
-      "nameTag": "Ethcash.online 2"
-    },
-    {
-      "address": "0x1194e966965418c7d73a42cceeb254d875860356",
-      "nameTag": "Ether.Camp: Price Feed"
-    },
-    {
-      "address": "0x2773c69d7a7e2943f6e27c9947d5ae4e2b853993",
-      "nameTag": "EtherDiamond: ETD Token"
-    },
-    {
-      "address": "0x7011f3edc7fa43c81440f9f43a6458174113b162",
-      "nameTag": "EthereumPyramid.com"
-    },
-    {
-      "address": "0x29bef3878b85522ef2afa541dd7477c9e0a2c122",
-      "nameTag": "EtherLife.io"
-    },
-    {
-      "address": "0x83fccc659eeeee98ca9764b7b34409347dfbc98b",
-      "nameTag": "Ethernity.top"
-    },
-    {
-      "address": "0xb328f05fa01cc2f9add1ed05c5636e7d9c9b9954",
-      "nameTag": "Ethmoon.cc"
-    },
-    {
-      "address": "0x064e2f3511f2399e86953de1acf54322bbdf9d2d",
-      "nameTag": "Ethxeth.ml"
-    },
-    {
-      "address": "0x32272e3239f651a700c91f7348193665a6309f07",
-      "nameTag": "EuroCoin: EUROC Token"
-    },
-    {
-      "address": "0x24f529fd94a63e1fdf25d77c949f05ac6bf1b818",
-      "nameTag": "FIB.DEV: FIB Token"
-    },
-    {
-      "address": "0x17fd666fa0784885fa1afec8ac624d9b7e72b752",
-      "nameTag": "FLiK Token"
-    },
-    {
-      "address": "0x3800e575cd4e197077f17f0f98b2f5ab892c2833",
-      "nameTag": "Fruition Token"
-    },
-    {
-      "address": "0xaa10481f5d50ab16355f17ab3fb5309f2ac68037",
-      "nameTag": "Gadiun Trust Wallet Token"
-    },
-    {
-      "address": "0x48094ebe2266cb1cbe5d3ec81933784e2e9561d8",
-      "nameTag": "Goldofir Token"
-    },
-    {
-      "address": "0xf8f04b23dace12841343ecf0e06124354515cc42",
-      "nameTag": "Gradual.pro"
-    },
-    {
-      "address": "0xd3ac627abdc1ce6c27c04b37c86e368f754f2995",
-      "nameTag": "Gradual.pro 2"
-    },
-    {
-      "address": "0xf207ccfe6d1b90b0b7817ce2d5d262af1514e37b",
-      "nameTag": "GraphGrail: GAI Token"
-    },
-    {
-      "address": "0x9de152c32d820eb2e1df392854d4df2f4f305530",
-      "nameTag": "Greyzdorf.io: USDG Stablecoin"
-    },
-    {
-      "address": "0x500d15aa5b01e7eb77e4d4c8283df3e6c49da754",
-      "nameTag": "Hashthereum.info: HETH Token"
-    },
-    {
-      "address": "0x929d87a3aaabc18da7f34945c896f4500cdb0043",
-      "nameTag": "House of Cards: HOC Token"
-    },
-    {
-      "address": "0xf732e888e077e873972741fbdd642491bd121f88",
-      "nameTag": "HumanX Token"
-    },
-    {
-      "address": "0x2630997aab62fa1030a8b975e1aa2dc573b18a13",
-      "nameTag": "HYPE Token"
-    },
-    {
-      "address": "0xbfe03707adb75b478add9a01978057803f480e44",
-      "nameTag": "Imsmart.io: IMT Token"
-    },
-    {
-      "address": "0x5abaff0b83f81dc061c590aadcba013c69237fd7",
-      "nameTag": "Jadecurrency.com: JADE Token"
-    },
-    {
-      "address": "0xb2d8e647ee55cc58a2b408e38f433238498853da",
-      "nameTag": "Life Vita Token"
-    },
-    {
-      "address": "0xb9843e5de0f37d1e22c8075e5814e13565fe7c22",
-      "nameTag": "Lucky Block Network Token"
-    },
-    {
-      "address": "0x49c67ae22c334d0123dd6dbdc44f5302e130a88b",
-      "nameTag": "Lupecoin Token"
-    },
-    {
-      "address": "0xd6893da3dd6dc91b4957d2d74737c6726f1033d5",
-      "nameTag": "Max150.com"
-    },
-    {
-      "address": "0x8b7c1450d435f2932e6a7225593d14a4dcf0372d",
-      "nameTag": "minertoken.cloud"
-    },
-    {
-      "address": "0x44357ae7512fe99f55cb94a85f3e947b9143e76c",
-      "nameTag": "mmm3eth.io"
-    },
-    {
-      "address": "0x693b849eb0de95f555806e99190774c4d2d2793d",
-      "nameTag": "MoneeBot"
-    },
-    {
-      "address": "0x7bd83b818fb88239a8ece4c95837dc5746af32cc",
-      "nameTag": "Multi.today"
-    },
-    {
-      "address": "0x24ddd6e7d5cdc29251caa00e46c7f3c738a78070",
-      "nameTag": "NewSmartPyramid"
-    },
-    {
-      "address": "0x1b7c4d4f226ccf3211b0f99c4fdfb84a2606bf8e",
-      "nameTag": "Orb.bz: ORBV2 Token"
-    },
-    {
-      "address": "0x61bc1f530ac6193d73af1e1a6a14cb44b9c3f915",
-      "nameTag": "Pajama Finance: PJM Token"
-    },
-    {
-      "address": "0x5339c2b99f4098f742c6d931c5f235e27a44bd34",
-      "nameTag": "PayBlok Token"
-    },
-    {
-      "address": "0x81b4d08645da11374a03749ab170836e4e539767",
-      "nameTag": "Paymon Token"
-    },
-    {
-      "address": "0xf317a365cfef0aa4357abd057048808a1d430402",
-      "nameTag": "Plagueinc.io"
-    },
-    {
-      "address": "0x00ee67308138958a08c463ed144b86899537c923",
-      "nameTag": "Plagueinc.io: Deployer"
-    },
-    {
-      "address": "0xe3f4b4a5d91e5cb9435b947f090a319737036312",
-      "nameTag": "PopChain Cash Token"
-    },
-    {
-      "address": "0x077dc3c0c9543df1cdd78386df3204e69e0dd274",
-      "nameTag": "PowerBank Token"
-    },
-    {
-      "address": "0xbea72b7da261bb0a488a5d07f01b16516ba2edef",
-      "nameTag": "project424.us"
-    },
-    {
-      "address": "0xb7e77aebbe0687d2eff24cc90c41a3b6ea74bdab",
-      "nameTag": "ProjectWITH Token"
-    },
-    {
-      "address": "0x50584a9bdfab54b82e620b8a14cc082b07886841",
-      "nameTag": "Providence Casino Token"
-    },
-    {
-      "address": "0x7dc4f41294697a7903c4027f6ac528c5d14cd7eb",
-      "nameTag": "RemiCoin Token"
-    },
-    {
-      "address": "0x660c46a5650fb0619f603a2f4d73a1cdf8cd00d6",
-      "nameTag": "Reternal.net"
-    },
-    {
-      "address": "0xf4ea9ec3d6a05dd4d018154c2bf12cc554d3e131",
-      "nameTag": "Reternal.net: Deployer"
-    },
-    {
-      "address": "0x17ef75aa22dd5f6c2763b8304ab24f40ee54d48a",
-      "nameTag": "Revolution Populi: RVP Token"
-    },
-    {
-      "address": "0x465cd6299775dc459a23c80997d2664656be9780",
-      "nameTag": "safedif.com"
-    },
-    {
-      "address": "0x9a22014391cc8d5a2c7328390bfad2458b0a5942",
-      "nameTag": "safedif.com: Deployer"
-    },
-    {
-      "address": "0xf333b2ace992ac2bbd8798bf57bc65a06184afba",
-      "nameTag": "SandCoin: SND Token"
-    },
-    {
-      "address": "0x4f3db6d4c97b8248ad5e244e4f619086084f6848",
-      "nameTag": "scbank.io"
-    },
-    {
-      "address": "0x8e4a84ff6cd5ed56f18f4313e61ce297089dbcd6",
-      "nameTag": "SienaTrust: SBTT Token"
-    },
-    {
-      "address": "0x0513ce8013f27a47a0088ffaac94fbb0fe6309d8",
-      "nameTag": "Smart-blockchain.pro"
-    },
-    {
-      "address": "0x3da6d8f14dfcd576c46f9994d8fd94883a8f3fe8",
-      "nameTag": "Smart-Pyramid.io"
-    },
-    {
-      "address": "0x4480451c0aad4b97e837465d3ea618f976970df0",
-      "nameTag": "stareth.co"
-    },
-    {
-      "address": "0xdbb6b23520472c5070078cd3e7097b36b001fb57",
-      "nameTag": "Thebigbang.online"
-    },
-    {
-      "address": "0x89c60b92cc4615dacfb68db945eca7b60444c96f",
-      "nameTag": "Tripterium T10 Token"
-    },
-    {
-      "address": "0x511232281bcd64d15b08c7f78825c45968cadbbf",
-      "nameTag": "Tritecoin Token"
-    },
-    {
-      "address": "0x5c5413bad5f6fdb0f4fcd1457e46ead8e01d73d3",
-      "nameTag": "UAHpay Token"
-    },
-    {
-      "address": "0x7206579d60e985928098ea8ff8773c66788a9cdc",
-      "nameTag": "UNIMEME: UNIMEME Token"
-    },
-    {
-      "address": "0x288f9a192207bc59230204655b12ccd83ceb74dc",
-      "nameTag": "Unissou: YTG Token"
-    },
-    {
-      "address": "0x5728e59002939074a10d0819732dcfc0bf6b5610",
-      "nameTag": "Uniswap X: UNIX Token"
-    },
-    {
-      "address": "0x58a10de802f441dc0d3788021440cb5322298066",
-      "nameTag": "VectorRobot.ru: VERTO Token"
-    },
-    {
-      "address": "0xcba6f10d1147b2c5a3d8d8cbd93c373b31c6c2c8",
-      "nameTag": "VuePay Token"
-    },
-    {
-      "address": "0x899338b84d25ac505a332adce7402d697d947494",
-      "nameTag": "WAX: WIN Token"
-    },
-    {
-      "address": "0x4b8705b0f740f7b51d746c0f626d06b8cf25814b",
-      "nameTag": "X2profit.biz"
-    },
-    {
-      "address": "0x8fd1a3ea61b1456be58e38b8c1bea49acb84b7fd",
-      "nameTag": "X2profit.biz 2"
-    },
-    {
-      "address": "0xab95e915c123fded5bdfb6325e35ef5515f1ea69",
-      "nameTag": "XenonToken"
-    },
-    {
-      "address": "0xa2688932bad3c10ff3354e65790fe1081e5f2bf2",
-      "nameTag": "Yearn Family Finance: YFF Token"
-    },
-    {
-      "address": "0xbd301be09eb78df47019aa833d29edc5d815d838",
-      "nameTag": "Yearn.Fuel: YFUEL Token"
-    },
-    {
-      "address": "0xf6c151ea50a4f1a50983eb98998a18be0a549ad5",
-      "nameTag": "Yearn2.Finance: YFI2 Token"
-    },
-    {
-      "address": "0xd0660cd418a64a1d44e9214ad8e459324d8157f1",
-      "nameTag": "Yearn: WOOFY Token"
-    },
-    {
-      "address": "0xb1f11700d71164bd755933d96e745617163829fa",
-      "nameTag": "yf12.Finance: yf12 Token"
-    },
-    {
-      "address": "0xa2605e8679d399bb98fa8c2f0b4ef6d04f3e5c1a",
-      "nameTag": "YFBinance: YFBI Token"
-    },
-    {
-      "address": "0xc162e46e891da3e7a2ac2f3df2a305c9ae938d4f",
-      "nameTag": "yfChain: YFC Token"
-    },
-    {
-      "address": "0xac6c380358f5fa7fee6f2c27bf93c17d475d2e49",
-      "nameTag": "YFI DEFI: YFID Token"
-    },
-    {
-      "address": "0xee98a5c3fd8c9063c5d8777758d3901a88df957b",
-      "nameTag": "Zeb: ZEB Token"
-    },
-    {
-      "address": "0xbd6a473b817843cc9ef5c02d52bb29b07976b6d7",
-      "nameTag": "Zpay Network Token"
-    }
-  ]
-}
+[
+  { "address": "0x0fbbfd1243552c8a66ab05c1f9530fb116e9fff4", "nameTag": "" },
+  { "address": "0x91268aba147d738fa8665b342ef519e0c4541c07", "nameTag": "" },
+  {
+    "address": "0x3df616ee25ba3fa146544ab595f106bff5ac4397",
+    "nameTag": "12daily.club"
+  },
+  {
+    "address": "0x9b11efcaaa1890f6ee52c6bb7cf8153ac5d74139",
+    "nameTag": "Atmchain.io: ATM Token"
+  },
+  {
+    "address": "0x67ad530ecdfd7ac8289362914e88d018e8b3f3f0",
+    "nameTag": "bestmultiplier.biz"
+  },
+  {
+    "address": "0x2cdb253c0e44a284f6174ae90b5ea247e6cf3649",
+    "nameTag": "bestmultiplier.biz 2"
+  },
+  {
+    "address": "0xc8475018b8afe888a38e05a25215f7cf00fc38fa",
+    "nameTag": "BetaCore: BCORE Token"
+  },
+  {
+    "address": "0xa8daa52ded91f7c82b4bb02b4b87c6a841db1fd5",
+    "nameTag": "Biograffi: BGF Token"
+  },
+  {
+    "address": "0x2aa4a3e8bb72be68a31c9c3c98ca7bec723c6222",
+    "nameTag": "Bispex: BPX Token"
+  },
+  {
+    "address": "0x6aac8cb9861e42bf8259f5abdc6ae3ae89909e11",
+    "nameTag": "Bitcoin Red: BTCR Token"
+  },
+  {
+    "address": "0x54bfd2c33b252f6c959688bb1ef2169a96dcee8f",
+    "nameTag": "Bliss.exchange: BLISS Token"
+  },
+  {
+    "address": "0x0cc4f8735dae4b1ab7682cb05aeb19115e693e98",
+    "nameTag": "Cowfarm.Finance: COW Token"
+  },
+  {
+    "address": "0xcd3dc4e19418fe7dad216376ff685760685cee13",
+    "nameTag": "cryptominerblock.online"
+  },
+  {
+    "address": "0x1f9f9bc358ddc30763e81a0081b86a638e6277ab",
+    "nameTag": "CryptoNote: Index Fund Token"
+  },
+  {
+    "address": "0xef9d61a0f2bfd4695faeb17dd61d85202bdc8e6e",
+    "nameTag": "CryptoNote: Token Sale"
+  },
+  {
+    "address": "0xeae0b10b2cc955563ff99374c2beb726ac4407ce",
+    "nameTag": "Cthulhu Coin: CTHU Token"
+  },
+  {
+    "address": "0x5c406d99e04b8494dc253fcc52943ef82bca7d75",
+    "nameTag": "cUSD Currency: cUSD Token"
+  },
+  {
+    "address": "0xfad05ee13c8e0ec94e5ee9dc056dc451b2ad6b1d",
+    "nameTag": "Dailydivs.com"
+  },
+  {
+    "address": "0x0ce6d5a093d4166237c7a9ff8e0553b0293214a1",
+    "nameTag": "Decenturion Token"
+  },
+  {
+    "address": "0x17d67119a65d3de86384226efa9a18e37b01a691",
+    "nameTag": "Deflexchange: DEF Token"
+  },
+  {
+    "address": "0x67d94da1f10861174926681984dbcb4c97ea25dd",
+    "nameTag": "desire.finance: DESIRE Token"
+  },
+  {
+    "address": "0x86b1fc1c0c5d120842d8c86babade714e28777c6",
+    "nameTag": "Devil Finance: SOUL Token"
+  },
+  {
+    "address": "0x330777c08f64aee16c7eb19f092f63ced31de135",
+    "nameTag": "Dexive.io: DXV Token"
+  },
+  {
+    "address": "0x4c081d8ec752c8ca6309149e3ad07747b2576401",
+    "nameTag": "Dino.Finance: DINO Token"
+  },
+  {
+    "address": "0x9b63e5599f8d7b70f96da0700bde1b4c0d7f35a9",
+    "nameTag": "DoubleUpp.info"
+  },
+  {
+    "address": "0xa25560d083fe0ea3e303c11577b5a345b236fac7",
+    "nameTag": "Easyinvest10.app"
+  },
+  {
+    "address": "0x339150b0851bc5b3c0323789a58cc4e4afb38b37",
+    "nameTag": "Easyinvest10.biz"
+  },
+  {
+    "address": "0x02c60d28be3338014fef3fdf50a3218b946c0609",
+    "nameTag": "Easyinvest3.me"
+  },
+  {
+    "address": "0x39a765ecf417f5eecbb58d6b0482f81f4d825fff",
+    "nameTag": "Easyinvest6.biz"
+  },
+  {
+    "address": "0xa81b07da1a6d60a53de91bebfac2b9367840b8fd",
+    "nameTag": "EMJAC Waste Tyre Recycling Token"
+  },
+  {
+    "address": "0x16ea01acb4b0bca2000ee5473348b6937ee6f72f",
+    "nameTag": "Enecuum: Old ENQ Token"
+  },
+  {
+    "address": "0x977a108588340468c871e0af5a3c53f98051ed3a",
+    "nameTag": "Erasken.com: ERK Token"
+  },
+  {
+    "address": "0xbf91b27fec3146a1b36069f92337a0ea330725df",
+    "nameTag": "eth666.me"
+  },
+  {
+    "address": "0x76130fd699cd7ab670c51e699e67d3eea4b8f8db",
+    "nameTag": "eth666.me: Deployer"
+  },
+  {
+    "address": "0x0135c9a7bff72aa26e1d105ff5000e454e4dde7a",
+    "nameTag": "Ethcash.online"
+  },
+  {
+    "address": "0x82aa987a16deafd8b4fab73ec316f94f4df43020",
+    "nameTag": "Ethcash.online 2"
+  },
+  {
+    "address": "0x1194e966965418c7d73a42cceeb254d875860356",
+    "nameTag": "Ether.Camp: Price Feed"
+  },
+  {
+    "address": "0x2773c69d7a7e2943f6e27c9947d5ae4e2b853993",
+    "nameTag": "EtherDiamond: ETD Token"
+  },
+  {
+    "address": "0x7011f3edc7fa43c81440f9f43a6458174113b162",
+    "nameTag": "EthereumPyramid.com"
+  },
+  {
+    "address": "0x29bef3878b85522ef2afa541dd7477c9e0a2c122",
+    "nameTag": "EtherLife.io"
+  },
+  {
+    "address": "0x83fccc659eeeee98ca9764b7b34409347dfbc98b",
+    "nameTag": "Ethernity.top"
+  },
+  {
+    "address": "0xb328f05fa01cc2f9add1ed05c5636e7d9c9b9954",
+    "nameTag": "Ethmoon.cc"
+  },
+  {
+    "address": "0x064e2f3511f2399e86953de1acf54322bbdf9d2d",
+    "nameTag": "Ethxeth.ml"
+  },
+  {
+    "address": "0x32272e3239f651a700c91f7348193665a6309f07",
+    "nameTag": "EuroCoin: EUROC Token"
+  },
+  {
+    "address": "0x24f529fd94a63e1fdf25d77c949f05ac6bf1b818",
+    "nameTag": "FIB.DEV: FIB Token"
+  },
+  {
+    "address": "0x17fd666fa0784885fa1afec8ac624d9b7e72b752",
+    "nameTag": "FLiK Token"
+  },
+  {
+    "address": "0x3800e575cd4e197077f17f0f98b2f5ab892c2833",
+    "nameTag": "Fruition Token"
+  },
+  {
+    "address": "0xaa10481f5d50ab16355f17ab3fb5309f2ac68037",
+    "nameTag": "Gadiun Trust Wallet Token"
+  },
+  {
+    "address": "0x48094ebe2266cb1cbe5d3ec81933784e2e9561d8",
+    "nameTag": "Goldofir Token"
+  },
+  {
+    "address": "0xf8f04b23dace12841343ecf0e06124354515cc42",
+    "nameTag": "Gradual.pro"
+  },
+  {
+    "address": "0xd3ac627abdc1ce6c27c04b37c86e368f754f2995",
+    "nameTag": "Gradual.pro 2"
+  },
+  {
+    "address": "0xf207ccfe6d1b90b0b7817ce2d5d262af1514e37b",
+    "nameTag": "GraphGrail: GAI Token"
+  },
+  {
+    "address": "0x9de152c32d820eb2e1df392854d4df2f4f305530",
+    "nameTag": "Greyzdorf.io: USDG Stablecoin"
+  },
+  {
+    "address": "0x500d15aa5b01e7eb77e4d4c8283df3e6c49da754",
+    "nameTag": "Hashthereum.info: HETH Token"
+  },
+  {
+    "address": "0x929d87a3aaabc18da7f34945c896f4500cdb0043",
+    "nameTag": "House of Cards: HOC Token"
+  },
+  {
+    "address": "0xf732e888e077e873972741fbdd642491bd121f88",
+    "nameTag": "HumanX Token"
+  },
+  {
+    "address": "0x2630997aab62fa1030a8b975e1aa2dc573b18a13",
+    "nameTag": "HYPE Token"
+  },
+  {
+    "address": "0xbfe03707adb75b478add9a01978057803f480e44",
+    "nameTag": "Imsmart.io: IMT Token"
+  },
+  {
+    "address": "0x5abaff0b83f81dc061c590aadcba013c69237fd7",
+    "nameTag": "Jadecurrency.com: JADE Token"
+  },
+  {
+    "address": "0xb2d8e647ee55cc58a2b408e38f433238498853da",
+    "nameTag": "Life Vita Token"
+  },
+  {
+    "address": "0xb9843e5de0f37d1e22c8075e5814e13565fe7c22",
+    "nameTag": "Lucky Block Network Token"
+  },
+  {
+    "address": "0x49c67ae22c334d0123dd6dbdc44f5302e130a88b",
+    "nameTag": "Lupecoin Token"
+  },
+  {
+    "address": "0xd6893da3dd6dc91b4957d2d74737c6726f1033d5",
+    "nameTag": "Max150.com"
+  },
+  {
+    "address": "0x8b7c1450d435f2932e6a7225593d14a4dcf0372d",
+    "nameTag": "minertoken.cloud"
+  },
+  {
+    "address": "0x44357ae7512fe99f55cb94a85f3e947b9143e76c",
+    "nameTag": "mmm3eth.io"
+  },
+  {
+    "address": "0x693b849eb0de95f555806e99190774c4d2d2793d",
+    "nameTag": "MoneeBot"
+  },
+  {
+    "address": "0x7bd83b818fb88239a8ece4c95837dc5746af32cc",
+    "nameTag": "Multi.today"
+  },
+  {
+    "address": "0x24ddd6e7d5cdc29251caa00e46c7f3c738a78070",
+    "nameTag": "NewSmartPyramid"
+  },
+  {
+    "address": "0x1b7c4d4f226ccf3211b0f99c4fdfb84a2606bf8e",
+    "nameTag": "Orb.bz: ORBV2 Token"
+  },
+  {
+    "address": "0x61bc1f530ac6193d73af1e1a6a14cb44b9c3f915",
+    "nameTag": "Pajama Finance: PJM Token"
+  },
+  {
+    "address": "0x5339c2b99f4098f742c6d931c5f235e27a44bd34",
+    "nameTag": "PayBlok Token"
+  },
+  {
+    "address": "0x81b4d08645da11374a03749ab170836e4e539767",
+    "nameTag": "Paymon Token"
+  },
+  {
+    "address": "0xf317a365cfef0aa4357abd057048808a1d430402",
+    "nameTag": "Plagueinc.io"
+  },
+  {
+    "address": "0x00ee67308138958a08c463ed144b86899537c923",
+    "nameTag": "Plagueinc.io: Deployer"
+  },
+  {
+    "address": "0xe3f4b4a5d91e5cb9435b947f090a319737036312",
+    "nameTag": "PopChain Cash Token"
+  },
+  {
+    "address": "0x077dc3c0c9543df1cdd78386df3204e69e0dd274",
+    "nameTag": "PowerBank Token"
+  },
+  {
+    "address": "0xbea72b7da261bb0a488a5d07f01b16516ba2edef",
+    "nameTag": "project424.us"
+  },
+  {
+    "address": "0xb7e77aebbe0687d2eff24cc90c41a3b6ea74bdab",
+    "nameTag": "ProjectWITH Token"
+  },
+  {
+    "address": "0x50584a9bdfab54b82e620b8a14cc082b07886841",
+    "nameTag": "Providence Casino Token"
+  },
+  {
+    "address": "0x7dc4f41294697a7903c4027f6ac528c5d14cd7eb",
+    "nameTag": "RemiCoin Token"
+  },
+  {
+    "address": "0x660c46a5650fb0619f603a2f4d73a1cdf8cd00d6",
+    "nameTag": "Reternal.net"
+  },
+  {
+    "address": "0xf4ea9ec3d6a05dd4d018154c2bf12cc554d3e131",
+    "nameTag": "Reternal.net: Deployer"
+  },
+  {
+    "address": "0x17ef75aa22dd5f6c2763b8304ab24f40ee54d48a",
+    "nameTag": "Revolution Populi: RVP Token"
+  },
+  {
+    "address": "0x465cd6299775dc459a23c80997d2664656be9780",
+    "nameTag": "safedif.com"
+  },
+  {
+    "address": "0x9a22014391cc8d5a2c7328390bfad2458b0a5942",
+    "nameTag": "safedif.com: Deployer"
+  },
+  {
+    "address": "0xf333b2ace992ac2bbd8798bf57bc65a06184afba",
+    "nameTag": "SandCoin: SND Token"
+  },
+  {
+    "address": "0x4f3db6d4c97b8248ad5e244e4f619086084f6848",
+    "nameTag": "scbank.io"
+  },
+  {
+    "address": "0x8e4a84ff6cd5ed56f18f4313e61ce297089dbcd6",
+    "nameTag": "SienaTrust: SBTT Token"
+  },
+  {
+    "address": "0x0513ce8013f27a47a0088ffaac94fbb0fe6309d8",
+    "nameTag": "Smart-blockchain.pro"
+  },
+  {
+    "address": "0x3da6d8f14dfcd576c46f9994d8fd94883a8f3fe8",
+    "nameTag": "Smart-Pyramid.io"
+  },
+  {
+    "address": "0x4480451c0aad4b97e837465d3ea618f976970df0",
+    "nameTag": "stareth.co"
+  },
+  {
+    "address": "0xdbb6b23520472c5070078cd3e7097b36b001fb57",
+    "nameTag": "Thebigbang.online"
+  },
+  {
+    "address": "0x89c60b92cc4615dacfb68db945eca7b60444c96f",
+    "nameTag": "Tripterium T10 Token"
+  },
+  {
+    "address": "0x511232281bcd64d15b08c7f78825c45968cadbbf",
+    "nameTag": "Tritecoin Token"
+  },
+  {
+    "address": "0x5c5413bad5f6fdb0f4fcd1457e46ead8e01d73d3",
+    "nameTag": "UAHpay Token"
+  },
+  {
+    "address": "0x7206579d60e985928098ea8ff8773c66788a9cdc",
+    "nameTag": "UNIMEME: UNIMEME Token"
+  },
+  {
+    "address": "0x288f9a192207bc59230204655b12ccd83ceb74dc",
+    "nameTag": "Unissou: YTG Token"
+  },
+  {
+    "address": "0x5728e59002939074a10d0819732dcfc0bf6b5610",
+    "nameTag": "Uniswap X: UNIX Token"
+  },
+  {
+    "address": "0x58a10de802f441dc0d3788021440cb5322298066",
+    "nameTag": "VectorRobot.ru: VERTO Token"
+  },
+  {
+    "address": "0xcba6f10d1147b2c5a3d8d8cbd93c373b31c6c2c8",
+    "nameTag": "VuePay Token"
+  },
+  {
+    "address": "0x899338b84d25ac505a332adce7402d697d947494",
+    "nameTag": "WAX: WIN Token"
+  },
+  {
+    "address": "0x4b8705b0f740f7b51d746c0f626d06b8cf25814b",
+    "nameTag": "X2profit.biz"
+  },
+  {
+    "address": "0x8fd1a3ea61b1456be58e38b8c1bea49acb84b7fd",
+    "nameTag": "X2profit.biz 2"
+  },
+  {
+    "address": "0xab95e915c123fded5bdfb6325e35ef5515f1ea69",
+    "nameTag": "XenonToken"
+  },
+  {
+    "address": "0xa2688932bad3c10ff3354e65790fe1081e5f2bf2",
+    "nameTag": "Yearn Family Finance: YFF Token"
+  },
+  {
+    "address": "0xbd301be09eb78df47019aa833d29edc5d815d838",
+    "nameTag": "Yearn.Fuel: YFUEL Token"
+  },
+  {
+    "address": "0xf6c151ea50a4f1a50983eb98998a18be0a549ad5",
+    "nameTag": "Yearn2.Finance: YFI2 Token"
+  },
+  {
+    "address": "0xd0660cd418a64a1d44e9214ad8e459324d8157f1",
+    "nameTag": "Yearn: WOOFY Token"
+  },
+  {
+    "address": "0xb1f11700d71164bd755933d96e745617163829fa",
+    "nameTag": "yf12.Finance: yf12 Token"
+  },
+  {
+    "address": "0xa2605e8679d399bb98fa8c2f0b4ef6d04f3e5c1a",
+    "nameTag": "YFBinance: YFBI Token"
+  },
+  {
+    "address": "0xc162e46e891da3e7a2ac2f3df2a305c9ae938d4f",
+    "nameTag": "yfChain: YFC Token"
+  },
+  {
+    "address": "0xac6c380358f5fa7fee6f2c27bf93c17d475d2e49",
+    "nameTag": "YFI DEFI: YFID Token"
+  },
+  {
+    "address": "0xee98a5c3fd8c9063c5d8777758d3901a88df957b",
+    "nameTag": "Zeb: ZEB Token"
+  },
+  {
+    "address": "0xbd6a473b817843cc9ef5c02d52bb29b07976b6d7",
+    "nameTag": "Zpay Network Token"
+  }
+]

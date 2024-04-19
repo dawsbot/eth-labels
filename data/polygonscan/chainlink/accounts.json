@@ -1,325 +1,322 @@
-{
-  "lastPulled": "2024-04-02T22:23:11.900Z",
-  "data": [
-    {
-      "address": "0xbe23a3aa13038cfc28afd0ece4fde379fe7fbfc4",
-      "nameTag": "Chainlink: AAVE/ETH Price Feed"
-    },
-    {
-      "address": "0x72484b12719e23115761d5da1646945632979bb6",
-      "nameTag": "Chainlink: AAVE/USD Price Feed"
-    },
-    {
-      "address": "0x882554df528115a743c4537828da8d5b58e52544",
-      "nameTag": "Chainlink: ADA/USD Price Feed"
-    },
-    {
-      "address": "0x03bc6d9efed65708d35fdaefb25e87631a0a3437",
-      "nameTag": "Chainlink: ALGO/USD Price Feed"
-    },
-    {
-      "address": "0x062df9c4efd2030e243ffcc398b652e8b8f95c6f",
-      "nameTag": "Chainlink: AUD/USD Price Feed"
-    },
-    {
-      "address": "0x2346ce62bd732c62618944e51cbfa09d985d86d2",
-      "nameTag": "Chainlink: BAT/USD Price Feed"
-    },
-    {
-      "address": "0x327d9822e9932996f55b39f557aec838313da8b7",
-      "nameTag": "Chainlink: BCH/USD Price Feed"
-    },
-    {
-      "address": "0x82a6c4af830caa6c97bb504425f6a66165c2c26e",
-      "nameTag": "Chainlink: BNB/USD Price Feed"
-    },
-    {
-      "address": "0xf5724884b6e99257cc003375e6b844bc776183f9",
-      "nameTag": "Chainlink: BNT/USD Price Feed"
-    },
-    {
-      "address": "0x58527c2dcc755297bb81f9334b80b2b6032d8524",
-      "nameTag": "Chainlink: BOND/USD Price Feed"
-    },
-    {
-      "address": "0x8803dd6705f0d38e79790b02a2c43594a0538d22",
-      "nameTag": "Chainlink: BSV/USD Price Feed"
-    },
-    {
-      "address": "0x3ac628cf4e14a694dc5c462ef502b74893d73281",
-      "nameTag": "Chainlink: BTC/ARS Price Feed"
-    },
-    {
-      "address": "0xc907e116054ad103354f2d350fd2514433d57f6f",
-      "nameTag": "Chainlink: BTC/USD Price Feed"
-    },
-    {
-      "address": "0x2f2c605f28de314bc579a7c0fdf85536529e9825",
-      "nameTag": "Chainlink: BTG/USD Price Feed"
-    },
-    {
-      "address": "0xe0dc07d5ed74741ceeda61284ee56a2a0f7a4cc9",
-      "nameTag": "Chainlink: BUSD/USD Price Feed"
-    },
-    {
-      "address": "0x6b7d436583e5fe0874b7310b74d29a13af816860",
-      "nameTag": "Chainlink: BZRX/USD Price Feed"
-    },
-    {
-      "address": "0xaca44abb8b04d07d883202f99fa5e3c53ed57fb5",
-      "nameTag": "Chainlink: CAD/USD Price Feed"
-    },
-    {
-      "address": "0xc9ecf45956f576681bdc01f79602a79bc2667b0c",
-      "nameTag": "Chainlink: CEL/USD Price Feed"
-    },
-    {
-      "address": "0xf238a5fb3a15ab4b063b3894fab30442620b70b9",
-      "nameTag": "Chainlink: CLP/USD Price Feed"
-    },
-    {
-      "address": "0x2a8758b7257102461bc958279054e372c2b1bde6",
-      "nameTag": "Chainlink: COMP/USD Price Feed"
-    },
-    {
-      "address": "0x1cf68c76803c9a415be301f50e82e44c64b7f1d4",
-      "nameTag": "Chainlink: CRV/ETH Price Feed"
-    },
-    {
-      "address": "0x336584c8e6dc19637a5b36206b1c79923111b405",
-      "nameTag": "Chainlink: CRV/USD Price Feed"
-    },
-    {
-      "address": "0xb527769842f997d56dd1ff73c34192141b69077e",
-      "nameTag": "Chainlink: Crypto Volatility Index Price Feed"
-    },
-    {
-      "address": "0xfc539a559e170f848323e19dfd66007520510085",
-      "nameTag": "Chainlink: DAI/ETH Price Feed"
-    },
-    {
-      "address": "0x4746dec9e833a82ec7c2c1356372ccf2cfcd2f3d",
-      "nameTag": "Chainlink: DAI/USD Price Feed"
-    },
-    {
-      "address": "0xd94427edee70e4991b4b8ddcc848f2b58ed01c0b",
-      "nameTag": "Chainlink: DASH/USD Price Feed"
-    },
-    {
-      "address": "0x6f61507f902e1c22bcd7aa2c0452cd2212009b61",
-      "nameTag": "Chainlink: Deployer"
-    },
-    {
-      "address": "0xbaf9327b6564454f4a3364c33efeef032b4b4444",
-      "nameTag": "Chainlink: DOGE/USD Price Feed"
-    },
-    {
-      "address": "0xacb51f1a83922632ca02b25a8164c10748001bde",
-      "nameTag": "Chainlink: DOT/USD Price Feed"
-    },
-    {
-      "address": "0x2e48b7924fbe04d575ba229a59b64547d9da16e9",
-      "nameTag": "Chainlink: DPI/USD Price Feed"
-    },
-    {
-      "address": "0xd6285f06203d938ab713fa6a315e7d23247dde95",
-      "nameTag": "Chainlink: EOS/USD Price Feed"
-    },
-    {
-      "address": "0xdf3f72be10d194b58b1bb56f2c4183e661cb2114",
-      "nameTag": "Chainlink: ETC/USD Price Feed"
-    },
-    {
-      "address": "0xf9680d99d6c9589e2a93a78a04a279e509205945",
-      "nameTag": "Chainlink: ETH/USD Price Feed"
-    },
-    {
-      "address": "0x73366fe0aa0ded304479862808e02506fe556a98",
-      "nameTag": "Chainlink: EUR/USD Price Feed"
-    },
-    {
-      "address": "0x6c0fe985d3cacbcde428b84fc9431792694d0f51",
-      "nameTag": "Chainlink: FXS/USD Price Feed"
-    },
-    {
-      "address": "0x099a2540848573e94fb1ca0fa420b00acbbc845a",
-      "nameTag": "Chainlink: GBP/USD Price Feed"
-    },
-    {
-      "address": "0x82d43b72573f902f960126a19581bcbba5b014f5",
-      "nameTag": "Chainlink: HKD/USD Price Feed"
-    },
-    {
-      "address": "0xd647a6fc9bc6402301583c91decc5989d8bc382d",
-      "nameTag": "Chainlink: JPY/USD Price Feed"
-    },
-    {
-      "address": "0x10e5f3dfc81b3e5ef4e648c4454d04e79e1e41e2",
-      "nameTag": "Chainlink: KNC/USD Price Feed"
-    },
-    {
-      "address": "0x1c4a8c3a28b0b3c3a0a6e7650694d9cd5db12de5",
-      "nameTag": "Chainlink: LEO/USD Price Feed"
-    },
-    {
-      "address": "0xb0897686c545045afc77cf20ec7a532e3120e0f1",
-      "nameTag": "Chainlink: LINK Token"
-    },
-    {
-      "address": "0xb77fa460604b9c6435a235d057f7d319ac83cb53",
-      "nameTag": "Chainlink: LINK/ETH Price Feed"
-    },
-    {
-      "address": "0xd9ffdb71ebe7496cc440152d43986aae0ab76665",
-      "nameTag": "Chainlink: LINK/USD Price Feed"
-    },
-    {
-      "address": "0xbaaf11ceda1d1ca9cf01748f8196653c9656a400",
-      "nameTag": "Chainlink: LPT/USD Price Feed"
-    },
-    {
-      "address": "0xeb99f173cf7d9a6dc4d889c2ad7103e8383b6efa",
-      "nameTag": "Chainlink: LTC/USD Price Feed"
-    },
-    {
-      "address": "0x1248573d9b62ac86a3ca02abc6abe6d403cd1034",
-      "nameTag": "Chainlink: LUNA/USD Price Feed"
-    },
-    {
-      "address": "0xa1cbf3fe43bc3501e3fc4b573e822c70e76a7512",
-      "nameTag": "Chainlink: MANA/USD Price Feed"
-    },
-    {
-      "address": "0x327e23a4855b6f663a28c5161541d69af8973302",
-      "nameTag": "Chainlink: MATIC/ETH Price Feed"
-    },
-    {
-      "address": "0xab594600376ec9fd91f8e885dadf0ce036862de0",
-      "nameTag": "Chainlink: MATIC/USD Price Feed"
-    },
-    {
-      "address": "0x6e53c1c22427258be55ae985a65c0c87bb631f9c",
-      "nameTag": "Chainlink: MFT/USD Price Feed"
-    },
-    {
-      "address": "0x7d620d05c317a426903596432a5ca83375dc8d2a",
-      "nameTag": "Chainlink: MIOTA/USD Price Feed"
-    },
-    {
-      "address": "0x807b59d12520830d1864286fa0271c27baa94197",
-      "nameTag": "Chainlink: MKR/ETH Price Feed"
-    },
-    {
-      "address": "0x74b3587a23ee786a43c8529c2e98d3c05a8fb1fb",
-      "nameTag": "Chainlink: NEO/USD Price Feed"
-    },
-    {
-      "address": "0x93ffee768f74208a7b9f2a4426f0f6bcbb1d09de",
-      "nameTag": "Chainlink: OMG/USD Price Feed"
-    },
-    {
-      "address": "0x56d55d34ecc616e71ae998accba79f236ff2ff46",
-      "nameTag": "Chainlink: PAX/USD Price Feed"
-    },
-    {
-      "address": "0x0f6914d8e7e1214cdb3a4c6fbf729b75c69df608",
-      "nameTag": "Chainlink: PAXG/USD Price Feed"
-    },
-    {
-      "address": "0x040dacda344a026350f6884ec212c405a1616506",
-      "nameTag": "Chainlink: RCN/BTC Price Feed"
-    },
-    {
-      "address": "0x634b084372f88848ac8f8006dc178aa810a58e89",
-      "nameTag": "Chainlink: REP/USD Price Feed"
-    },
-    {
-      "address": "0x3d49406edd4d52fb7ffd25485f32e073b529c924",
-      "nameTag": "Chainlink: SAND/USD Price Feed"
-    },
-    {
-      "address": "0x8ce3cac0e6635ce04783709ca3cc4f5fc5304299",
-      "nameTag": "Chainlink: SGD/USD Price Feed"
-    },
-    {
-      "address": "0xbf90a5d9b6ee9019028dbfc2a9e50056d5252894",
-      "nameTag": "Chainlink: SNX/USD Price Feed"
-    },
-    {
-      "address": "0x49b0c695039243bbfeb8ecd054eb70061fd54aa0",
-      "nameTag": "Chainlink: SUSHI/USD Price Feed"
-    },
-    {
-      "address": "0xbb9749b5ad68574c106ac4f9cd5e1c400dbb88c3",
-      "nameTag": "Chainlink: Total Marketcap USD Price Feed"
-    },
-    {
-      "address": "0x307ccf7cbd17b69a487b9c3dbe483931cf3e1833",
-      "nameTag": "Chainlink: TRX/USD Price Feed"
-    },
-    {
-      "address": "0x7c5d415b64312d38c56b54358449d0a4058339d2",
-      "nameTag": "Chainlink: TUSD/USD Price Feed"
-    },
-    {
-      "address": "0x33d9b1baadcf4b26ab6f8e83e9cb8a611b2b3956",
-      "nameTag": "Chainlink: UMA/USD Price Feed"
-    },
-    {
-      "address": "0x162d8c5bf15eb6bee003a1ffc4049c92114bc931",
-      "nameTag": "Chainlink: UNI/ETH Price Feed"
-    },
-    {
-      "address": "0xdf0fb4e4f928d2dcb76f438575fdd8682386e13c",
-      "nameTag": "Chainlink: UNI/USD Price Feed"
-    },
-    {
-      "address": "0xefb7e6be8356ccc6827799b6a7348ee674a80eae",
-      "nameTag": "Chainlink: USDC/ETH Price Feed"
-    },
-    {
-      "address": "0xfe4a8cc5b5b2366c1b58bea3858e81843581b2f7",
-      "nameTag": "Chainlink: USDC/USD Price Feed"
-    },
-    {
-      "address": "0xf9d5aac6e5572aefa6bd64108ff86a222f69b64d",
-      "nameTag": "Chainlink: USDT/ETH Price Feed"
-    },
-    {
-      "address": "0x0a6513e40db6eb1b165753ad52e80663aea50545",
-      "nameTag": "Chainlink: USDT/USD Price Feed"
-    },
-    {
-      "address": "0xa338e0492b2f944e9f8c0653d3ad1484f2657a37",
-      "nameTag": "Chainlink: WBTC/ETH Price Feed"
-    },
-    {
-      "address": "0xde31f8bfbd8c84b5360cfacca3539b938dd78ae6",
-      "nameTag": "Chainlink: WBTC/USD Price Feed"
-    },
-    {
-      "address": "0x0c466540b2ee1a31b441671eac0ca886e051e410",
-      "nameTag": "Chainlink: XAU/USD Price Feed"
-    },
-    {
-      "address": "0x692ae5510ca9070095a496dbcfbcda99d4024cd9",
-      "nameTag": "Chainlink: XLM/USD Price Feed"
-    },
-    {
-      "address": "0x785ba89291f676b5386652eb12b30cf361020694",
-      "nameTag": "Chainlink: XRP/USD Price Feed"
-    },
-    {
-      "address": "0x9896a1ea7a00f5f32ab131ebbee07487b0af31d0",
-      "nameTag": "Chainlink: YFI/ETH Price Feed"
-    },
-    {
-      "address": "0xbc08c639e579a391c4228f20d0c29d0690092df0",
-      "nameTag": "Chainlink: ZEC/USD Price Feed"
-    },
-    {
-      "address": "0x6ea4d89474d9410939d429b786208c74853a5b47",
-      "nameTag": "Chainlink: ZRX/USD Price Feed"
-    }
-  ]
-}
+[
+  {
+    "address": "0xbe23a3aa13038cfc28afd0ece4fde379fe7fbfc4",
+    "nameTag": "Chainlink: AAVE/ETH Price Feed"
+  },
+  {
+    "address": "0x72484b12719e23115761d5da1646945632979bb6",
+    "nameTag": "Chainlink: AAVE/USD Price Feed"
+  },
+  {
+    "address": "0x882554df528115a743c4537828da8d5b58e52544",
+    "nameTag": "Chainlink: ADA/USD Price Feed"
+  },
+  {
+    "address": "0x03bc6d9efed65708d35fdaefb25e87631a0a3437",
+    "nameTag": "Chainlink: ALGO/USD Price Feed"
+  },
+  {
+    "address": "0x062df9c4efd2030e243ffcc398b652e8b8f95c6f",
+    "nameTag": "Chainlink: AUD/USD Price Feed"
+  },
+  {
+    "address": "0x2346ce62bd732c62618944e51cbfa09d985d86d2",
+    "nameTag": "Chainlink: BAT/USD Price Feed"
+  },
+  {
+    "address": "0x327d9822e9932996f55b39f557aec838313da8b7",
+    "nameTag": "Chainlink: BCH/USD Price Feed"
+  },
+  {
+    "address": "0x82a6c4af830caa6c97bb504425f6a66165c2c26e",
+    "nameTag": "Chainlink: BNB/USD Price Feed"
+  },
+  {
+    "address": "0xf5724884b6e99257cc003375e6b844bc776183f9",
+    "nameTag": "Chainlink: BNT/USD Price Feed"
+  },
+  {
+    "address": "0x58527c2dcc755297bb81f9334b80b2b6032d8524",
+    "nameTag": "Chainlink: BOND/USD Price Feed"
+  },
+  {
+    "address": "0x8803dd6705f0d38e79790b02a2c43594a0538d22",
+    "nameTag": "Chainlink: BSV/USD Price Feed"
+  },
+  {
+    "address": "0x3ac628cf4e14a694dc5c462ef502b74893d73281",
+    "nameTag": "Chainlink: BTC/ARS Price Feed"
+  },
+  {
+    "address": "0xc907e116054ad103354f2d350fd2514433d57f6f",
+    "nameTag": "Chainlink: BTC/USD Price Feed"
+  },
+  {
+    "address": "0x2f2c605f28de314bc579a7c0fdf85536529e9825",
+    "nameTag": "Chainlink: BTG/USD Price Feed"
+  },
+  {
+    "address": "0xe0dc07d5ed74741ceeda61284ee56a2a0f7a4cc9",
+    "nameTag": "Chainlink: BUSD/USD Price Feed"
+  },
+  {
+    "address": "0x6b7d436583e5fe0874b7310b74d29a13af816860",
+    "nameTag": "Chainlink: BZRX/USD Price Feed"
+  },
+  {
+    "address": "0xaca44abb8b04d07d883202f99fa5e3c53ed57fb5",
+    "nameTag": "Chainlink: CAD/USD Price Feed"
+  },
+  {
+    "address": "0xc9ecf45956f576681bdc01f79602a79bc2667b0c",
+    "nameTag": "Chainlink: CEL/USD Price Feed"
+  },
+  {
+    "address": "0xf238a5fb3a15ab4b063b3894fab30442620b70b9",
+    "nameTag": "Chainlink: CLP/USD Price Feed"
+  },
+  {
+    "address": "0x2a8758b7257102461bc958279054e372c2b1bde6",
+    "nameTag": "Chainlink: COMP/USD Price Feed"
+  },
+  {
+    "address": "0x1cf68c76803c9a415be301f50e82e44c64b7f1d4",
+    "nameTag": "Chainlink: CRV/ETH Price Feed"
+  },
+  {
+    "address": "0x336584c8e6dc19637a5b36206b1c79923111b405",
+    "nameTag": "Chainlink: CRV/USD Price Feed"
+  },
+  {
+    "address": "0xb527769842f997d56dd1ff73c34192141b69077e",
+    "nameTag": "Chainlink: Crypto Volatility Index Price Feed"
+  },
+  {
+    "address": "0xfc539a559e170f848323e19dfd66007520510085",
+    "nameTag": "Chainlink: DAI/ETH Price Feed"
+  },
+  {
+    "address": "0x4746dec9e833a82ec7c2c1356372ccf2cfcd2f3d",
+    "nameTag": "Chainlink: DAI/USD Price Feed"
+  },
+  {
+    "address": "0xd94427edee70e4991b4b8ddcc848f2b58ed01c0b",
+    "nameTag": "Chainlink: DASH/USD Price Feed"
+  },
+  {
+    "address": "0x6f61507f902e1c22bcd7aa2c0452cd2212009b61",
+    "nameTag": "Chainlink: Deployer"
+  },
+  {
+    "address": "0xbaf9327b6564454f4a3364c33efeef032b4b4444",
+    "nameTag": "Chainlink: DOGE/USD Price Feed"
+  },
+  {
+    "address": "0xacb51f1a83922632ca02b25a8164c10748001bde",
+    "nameTag": "Chainlink: DOT/USD Price Feed"
+  },
+  {
+    "address": "0x2e48b7924fbe04d575ba229a59b64547d9da16e9",
+    "nameTag": "Chainlink: DPI/USD Price Feed"
+  },
+  {
+    "address": "0xd6285f06203d938ab713fa6a315e7d23247dde95",
+    "nameTag": "Chainlink: EOS/USD Price Feed"
+  },
+  {
+    "address": "0xdf3f72be10d194b58b1bb56f2c4183e661cb2114",
+    "nameTag": "Chainlink: ETC/USD Price Feed"
+  },
+  {
+    "address": "0xf9680d99d6c9589e2a93a78a04a279e509205945",
+    "nameTag": "Chainlink: ETH/USD Price Feed"
+  },
+  {
+    "address": "0x73366fe0aa0ded304479862808e02506fe556a98",
+    "nameTag": "Chainlink: EUR/USD Price Feed"
+  },
+  {
+    "address": "0x6c0fe985d3cacbcde428b84fc9431792694d0f51",
+    "nameTag": "Chainlink: FXS/USD Price Feed"
+  },
+  {
+    "address": "0x099a2540848573e94fb1ca0fa420b00acbbc845a",
+    "nameTag": "Chainlink: GBP/USD Price Feed"
+  },
+  {
+    "address": "0x82d43b72573f902f960126a19581bcbba5b014f5",
+    "nameTag": "Chainlink: HKD/USD Price Feed"
+  },
+  {
+    "address": "0xd647a6fc9bc6402301583c91decc5989d8bc382d",
+    "nameTag": "Chainlink: JPY/USD Price Feed"
+  },
+  {
+    "address": "0x10e5f3dfc81b3e5ef4e648c4454d04e79e1e41e2",
+    "nameTag": "Chainlink: KNC/USD Price Feed"
+  },
+  {
+    "address": "0x1c4a8c3a28b0b3c3a0a6e7650694d9cd5db12de5",
+    "nameTag": "Chainlink: LEO/USD Price Feed"
+  },
+  {
+    "address": "0xb0897686c545045afc77cf20ec7a532e3120e0f1",
+    "nameTag": "Chainlink: LINK Token"
+  },
+  {
+    "address": "0xb77fa460604b9c6435a235d057f7d319ac83cb53",
+    "nameTag": "Chainlink: LINK/ETH Price Feed"
+  },
+  {
+    "address": "0xd9ffdb71ebe7496cc440152d43986aae0ab76665",
+    "nameTag": "Chainlink: LINK/USD Price Feed"
+  },
+  {
+    "address": "0xbaaf11ceda1d1ca9cf01748f8196653c9656a400",
+    "nameTag": "Chainlink: LPT/USD Price Feed"
+  },
+  {
+    "address": "0xeb99f173cf7d9a6dc4d889c2ad7103e8383b6efa",
+    "nameTag": "Chainlink: LTC/USD Price Feed"
+  },
+  {
+    "address": "0x1248573d9b62ac86a3ca02abc6abe6d403cd1034",
+    "nameTag": "Chainlink: LUNA/USD Price Feed"
+  },
+  {
+    "address": "0xa1cbf3fe43bc3501e3fc4b573e822c70e76a7512",
+    "nameTag": "Chainlink: MANA/USD Price Feed"
+  },
+  {
+    "address": "0x327e23a4855b6f663a28c5161541d69af8973302",
+    "nameTag": "Chainlink: MATIC/ETH Price Feed"
+  },
+  {
+    "address": "0xab594600376ec9fd91f8e885dadf0ce036862de0",
+    "nameTag": "Chainlink: MATIC/USD Price Feed"
+  },
+  {
+    "address": "0x6e53c1c22427258be55ae985a65c0c87bb631f9c",
+    "nameTag": "Chainlink: MFT/USD Price Feed"
+  },
+  {
+    "address": "0x7d620d05c317a426903596432a5ca83375dc8d2a",
+    "nameTag": "Chainlink: MIOTA/USD Price Feed"
+  },
+  {
+    "address": "0x807b59d12520830d1864286fa0271c27baa94197",
+    "nameTag": "Chainlink: MKR/ETH Price Feed"
+  },
+  {
+    "address": "0x74b3587a23ee786a43c8529c2e98d3c05a8fb1fb",
+    "nameTag": "Chainlink: NEO/USD Price Feed"
+  },
+  {
+    "address": "0x93ffee768f74208a7b9f2a4426f0f6bcbb1d09de",
+    "nameTag": "Chainlink: OMG/USD Price Feed"
+  },
+  {
+    "address": "0x56d55d34ecc616e71ae998accba79f236ff2ff46",
+    "nameTag": "Chainlink: PAX/USD Price Feed"
+  },
+  {
+    "address": "0x0f6914d8e7e1214cdb3a4c6fbf729b75c69df608",
+    "nameTag": "Chainlink: PAXG/USD Price Feed"
+  },
+  {
+    "address": "0x040dacda344a026350f6884ec212c405a1616506",
+    "nameTag": "Chainlink: RCN/BTC Price Feed"
+  },
+  {
+    "address": "0x634b084372f88848ac8f8006dc178aa810a58e89",
+    "nameTag": "Chainlink: REP/USD Price Feed"
+  },
+  {
+    "address": "0x3d49406edd4d52fb7ffd25485f32e073b529c924",
+    "nameTag": "Chainlink: SAND/USD Price Feed"
+  },
+  {
+    "address": "0x8ce3cac0e6635ce04783709ca3cc4f5fc5304299",
+    "nameTag": "Chainlink: SGD/USD Price Feed"
+  },
+  {
+    "address": "0xbf90a5d9b6ee9019028dbfc2a9e50056d5252894",
+    "nameTag": "Chainlink: SNX/USD Price Feed"
+  },
+  {
+    "address": "0x49b0c695039243bbfeb8ecd054eb70061fd54aa0",
+    "nameTag": "Chainlink: SUSHI/USD Price Feed"
+  },
+  {
+    "address": "0xbb9749b5ad68574c106ac4f9cd5e1c400dbb88c3",
+    "nameTag": "Chainlink: Total Marketcap USD Price Feed"
+  },
+  {
+    "address": "0x307ccf7cbd17b69a487b9c3dbe483931cf3e1833",
+    "nameTag": "Chainlink: TRX/USD Price Feed"
+  },
+  {
+    "address": "0x7c5d415b64312d38c56b54358449d0a4058339d2",
+    "nameTag": "Chainlink: TUSD/USD Price Feed"
+  },
+  {
+    "address": "0x33d9b1baadcf4b26ab6f8e83e9cb8a611b2b3956",
+    "nameTag": "Chainlink: UMA/USD Price Feed"
+  },
+  {
+    "address": "0x162d8c5bf15eb6bee003a1ffc4049c92114bc931",
+    "nameTag": "Chainlink: UNI/ETH Price Feed"
+  },
+  {
+    "address": "0xdf0fb4e4f928d2dcb76f438575fdd8682386e13c",
+    "nameTag": "Chainlink: UNI/USD Price Feed"
+  },
+  {
+    "address": "0xefb7e6be8356ccc6827799b6a7348ee674a80eae",
+    "nameTag": "Chainlink: USDC/ETH Price Feed"
+  },
+  {
+    "address": "0xfe4a8cc5b5b2366c1b58bea3858e81843581b2f7",
+    "nameTag": "Chainlink: USDC/USD Price Feed"
+  },
+  {
+    "address": "0xf9d5aac6e5572aefa6bd64108ff86a222f69b64d",
+    "nameTag": "Chainlink: USDT/ETH Price Feed"
+  },
+  {
+    "address": "0x0a6513e40db6eb1b165753ad52e80663aea50545",
+    "nameTag": "Chainlink: USDT/USD Price Feed"
+  },
+  {
+    "address": "0xa338e0492b2f944e9f8c0653d3ad1484f2657a37",
+    "nameTag": "Chainlink: WBTC/ETH Price Feed"
+  },
+  {
+    "address": "0xde31f8bfbd8c84b5360cfacca3539b938dd78ae6",
+    "nameTag": "Chainlink: WBTC/USD Price Feed"
+  },
+  {
+    "address": "0x0c466540b2ee1a31b441671eac0ca886e051e410",
+    "nameTag": "Chainlink: XAU/USD Price Feed"
+  },
+  {
+    "address": "0x692ae5510ca9070095a496dbcfbcda99d4024cd9",
+    "nameTag": "Chainlink: XLM/USD Price Feed"
+  },
+  {
+    "address": "0x785ba89291f676b5386652eb12b30cf361020694",
+    "nameTag": "Chainlink: XRP/USD Price Feed"
+  },
+  {
+    "address": "0x9896a1ea7a00f5f32ab131ebbee07487b0af31d0",
+    "nameTag": "Chainlink: YFI/ETH Price Feed"
+  },
+  {
+    "address": "0xbc08c639e579a391c4228f20d0c29d0690092df0",
+    "nameTag": "Chainlink: ZEC/USD Price Feed"
+  },
+  {
+    "address": "0x6ea4d89474d9410939d429b786208c74853a5b47",
+    "nameTag": "Chainlink: ZRX/USD Price Feed"
+  }
+]

@@ -1,129 +1,126 @@
-{
-  "lastPulled": "2024-04-02T20:46:55.495Z",
-  "data": [
-    {
-      "address": "0xa59075221b50c598aed0eae0bb9869639513af0d",
-      "nameTag": "Arbitrum Nova: Challenge Manager"
-    },
-    {
-      "address": "0x71d78dc7ccc0e037e12de1e50f5470903ce37148",
-      "nameTag": "Arbitrum Nova: Core Proxy Admin"
-    },
-    {
-      "address": "0xc4448b71118c9071bcb9734a0eac55d18a153949",
-      "nameTag": "Arbitrum Nova: Delayed Inbox"
-    },
-    {
-      "address": "0x23122da8c581aa7e0d07a36ff1f16f799650232f",
-      "nameTag": "Arbitrum Nova: L1 Arb-Custom Gateway"
-    },
-    {
-      "address": "0xb2535b988dce19f9d71dfb22db6da744acac21bf",
-      "nameTag": "Arbitrum Nova: L1 ERC20 Gateway"
-    },
-    {
-      "address": "0xc840838bc438d73c16c2f8b22d2ce3669963cd48",
-      "nameTag": "Arbitrum Nova: L1 Gateway Router"
-    },
-    {
-      "address": "0xe4e2121b479017955be0b175305b35f312330bae",
-      "nameTag": "Arbitrum Nova: L1 WETH Gateway"
-    },
-    {
-      "address": "0x7adca86896c4220f19b2f7f9746e7a99e57b0fc5",
-      "nameTag": "Arbitrum Nova: One Step Proof Entry"
-    },
-    {
-      "address": "0x8323b58c522690e6afae94044825f0c79a93d236",
-      "nameTag": "Arbitrum Nova: One Step Prover 0"
-    },
-    {
-      "address": "0x9cbc3f14a57ce6ead0e770f528e2f1e8b8c37613",
-      "nameTag": "Arbitrum Nova: One Step Prover Host Io"
-    },
-    {
-      "address": "0x1efb116ebc38ce895eb2e5e009234e0e0836f2f5",
-      "nameTag": "Arbitrum Nova: One Step Prover Math"
-    },
-    {
-      "address": "0x7a6c0503107858f82a790e481024134092e19979",
-      "nameTag": "Arbitrum Nova: One Step Prover Memory"
-    },
-    {
-      "address": "0xfb209827c58283535b744575e11953dcc4bead88",
-      "nameTag": "Arbitrum Nova: Rollup"
-    },
-    {
-      "address": "0x211e1c4c7f1bf5351ac850ed10fd68cffcf6c21b",
-      "nameTag": "Arbitrum Nova: Sequencer Inbox"
-    },
-    {
-      "address": "0xcee284f754e854890e311e3280b767f80797180d",
-      "nameTag": "Arbitrum One: L1 Arb - Custom Gateway"
-    },
-    {
-      "address": "0xd3b5b60020504bc3489d6949d545893982ba3011",
-      "nameTag": "Arbitrum One: L1 DAI Gateway"
-    },
-    {
-      "address": "0xa3a7b6f88361f48403514059f1f16c8e78d60eec",
-      "nameTag": "Arbitrum One: L1 ERC20 Gateway"
-    },
-    {
-      "address": "0x72ce9c846789fdb6fc1f34ac4ad25dd9ef7031ef",
-      "nameTag": "Arbitrum One: L1 Gateway Router"
-    },
-    {
-      "address": "0xd92023e9d9911199a6711321d1277285e6d4e2db",
-      "nameTag": "Arbitrum One: Wrapped Ether Gateway"
-    },
-    {
-      "address": "0x8315177ab297ba92a06054ce80a67ed4dbd7ed3a",
-      "nameTag": "Arbitrum: Bridge"
-    },
-    {
-      "address": "0xe5896783a2f463446e1f624e64aa6836be4c6f58",
-      "nameTag": "Arbitrum: Challenge Manager"
-    },
-    {
-      "address": "0x554723262467f125ac9e1cdfa9ce15cc53822dbd",
-      "nameTag": "Arbitrum: Core Proxy Admin"
-    },
-    {
-      "address": "0x4dbd4fc535ac27206064b68ffcf827b0a60bab3f",
-      "nameTag": "Arbitrum: Delayed Inbox"
-    },
-    {
-      "address": "0x3e1f62aa8076000c3218493fe3e0ae40bcb9a1df",
-      "nameTag": "Arbitrum: OneStepProof Entry"
-    },
-    {
-      "address": "0x499a4f574f2e4f8837e242adec86223ef7deefcc",
-      "nameTag": "Arbitrum: OneStepProver 0"
-    },
-    {
-      "address": "0xb965b08a826d4c7634e0df4c5ef5e1d1f9b5d13a",
-      "nameTag": "Arbitrum: OneStepProver Host Io"
-    },
-    {
-      "address": "0xd315ac3a82e8edaa84b347f478e0f59801747970",
-      "nameTag": "Arbitrum: OneStepProver Math"
-    },
-    {
-      "address": "0xb556f3bb0fdcfeaf81a1c393e024a69a3327b676",
-      "nameTag": "Arbitrum: OneStepProver Memory"
-    },
-    {
-      "address": "0x0b9857ae2d4a3dbe74ffe1d7df045bb7f96e4840",
-      "nameTag": "Arbitrum: Outbox 4"
-    },
-    {
-      "address": "0x5ef0d09d1e6204141b4d37530808ed19f60fba35",
-      "nameTag": "Arbitrum: Rollup"
-    },
-    {
-      "address": "0x1c479675ad559dc151f6ec7ed3fbf8cee79582b6",
-      "nameTag": "Arbitrum: Sequencer Inbox"
-    }
-  ]
-}
+[
+  {
+    "address": "0xa59075221b50c598aed0eae0bb9869639513af0d",
+    "nameTag": "Arbitrum Nova: Challenge Manager"
+  },
+  {
+    "address": "0x71d78dc7ccc0e037e12de1e50f5470903ce37148",
+    "nameTag": "Arbitrum Nova: Core Proxy Admin"
+  },
+  {
+    "address": "0xc4448b71118c9071bcb9734a0eac55d18a153949",
+    "nameTag": "Arbitrum Nova: Delayed Inbox"
+  },
+  {
+    "address": "0x23122da8c581aa7e0d07a36ff1f16f799650232f",
+    "nameTag": "Arbitrum Nova: L1 Arb-Custom Gateway"
+  },
+  {
+    "address": "0xb2535b988dce19f9d71dfb22db6da744acac21bf",
+    "nameTag": "Arbitrum Nova: L1 ERC20 Gateway"
+  },
+  {
+    "address": "0xc840838bc438d73c16c2f8b22d2ce3669963cd48",
+    "nameTag": "Arbitrum Nova: L1 Gateway Router"
+  },
+  {
+    "address": "0xe4e2121b479017955be0b175305b35f312330bae",
+    "nameTag": "Arbitrum Nova: L1 WETH Gateway"
+  },
+  {
+    "address": "0x7adca86896c4220f19b2f7f9746e7a99e57b0fc5",
+    "nameTag": "Arbitrum Nova: One Step Proof Entry"
+  },
+  {
+    "address": "0x8323b58c522690e6afae94044825f0c79a93d236",
+    "nameTag": "Arbitrum Nova: One Step Prover 0"
+  },
+  {
+    "address": "0x9cbc3f14a57ce6ead0e770f528e2f1e8b8c37613",
+    "nameTag": "Arbitrum Nova: One Step Prover Host Io"
+  },
+  {
+    "address": "0x1efb116ebc38ce895eb2e5e009234e0e0836f2f5",
+    "nameTag": "Arbitrum Nova: One Step Prover Math"
+  },
+  {
+    "address": "0x7a6c0503107858f82a790e481024134092e19979",
+    "nameTag": "Arbitrum Nova: One Step Prover Memory"
+  },
+  {
+    "address": "0xfb209827c58283535b744575e11953dcc4bead88",
+    "nameTag": "Arbitrum Nova: Rollup"
+  },
+  {
+    "address": "0x211e1c4c7f1bf5351ac850ed10fd68cffcf6c21b",
+    "nameTag": "Arbitrum Nova: Sequencer Inbox"
+  },
+  {
+    "address": "0xcee284f754e854890e311e3280b767f80797180d",
+    "nameTag": "Arbitrum One: L1 Arb - Custom Gateway"
+  },
+  {
+    "address": "0xd3b5b60020504bc3489d6949d545893982ba3011",
+    "nameTag": "Arbitrum One: L1 DAI Gateway"
+  },
+  {
+    "address": "0xa3a7b6f88361f48403514059f1f16c8e78d60eec",
+    "nameTag": "Arbitrum One: L1 ERC20 Gateway"
+  },
+  {
+    "address": "0x72ce9c846789fdb6fc1f34ac4ad25dd9ef7031ef",
+    "nameTag": "Arbitrum One: L1 Gateway Router"
+  },
+  {
+    "address": "0xd92023e9d9911199a6711321d1277285e6d4e2db",
+    "nameTag": "Arbitrum One: Wrapped Ether Gateway"
+  },
+  {
+    "address": "0x8315177ab297ba92a06054ce80a67ed4dbd7ed3a",
+    "nameTag": "Arbitrum: Bridge"
+  },
+  {
+    "address": "0xe5896783a2f463446e1f624e64aa6836be4c6f58",
+    "nameTag": "Arbitrum: Challenge Manager"
+  },
+  {
+    "address": "0x554723262467f125ac9e1cdfa9ce15cc53822dbd",
+    "nameTag": "Arbitrum: Core Proxy Admin"
+  },
+  {
+    "address": "0x4dbd4fc535ac27206064b68ffcf827b0a60bab3f",
+    "nameTag": "Arbitrum: Delayed Inbox"
+  },
+  {
+    "address": "0x3e1f62aa8076000c3218493fe3e0ae40bcb9a1df",
+    "nameTag": "Arbitrum: OneStepProof Entry"
+  },
+  {
+    "address": "0x499a4f574f2e4f8837e242adec86223ef7deefcc",
+    "nameTag": "Arbitrum: OneStepProver 0"
+  },
+  {
+    "address": "0xb965b08a826d4c7634e0df4c5ef5e1d1f9b5d13a",
+    "nameTag": "Arbitrum: OneStepProver Host Io"
+  },
+  {
+    "address": "0xd315ac3a82e8edaa84b347f478e0f59801747970",
+    "nameTag": "Arbitrum: OneStepProver Math"
+  },
+  {
+    "address": "0xb556f3bb0fdcfeaf81a1c393e024a69a3327b676",
+    "nameTag": "Arbitrum: OneStepProver Memory"
+  },
+  {
+    "address": "0x0b9857ae2d4a3dbe74ffe1d7df045bb7f96e4840",
+    "nameTag": "Arbitrum: Outbox 4"
+  },
+  {
+    "address": "0x5ef0d09d1e6204141b4d37530808ed19f60fba35",
+    "nameTag": "Arbitrum: Rollup"
+  },
+  {
+    "address": "0x1c479675ad559dc151f6ec7ed3fbf8cee79582b6",
+    "nameTag": "Arbitrum: Sequencer Inbox"
+  }
+]

@@ -1,9 +1,6 @@
-{
-  "lastPulled": "2024-04-02T20:46:33.705Z",
-  "data": [
-    {
-      "address": "0x01234567bac6ff94d7e4f0ee23119cf848f93245",
-      "nameTag": "MyEtherWallet: ETHB Token"
-    }
-  ]
-}
+[
+  {
+    "address": "0x01234567bac6ff94d7e4f0ee23119cf848f93245",
+    "nameTag": "MyEtherWallet: ETHB Token"
+  }
+]

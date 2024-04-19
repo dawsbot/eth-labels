@@ -1,0 +1,58 @@
+[
+  {
+    "address": "0xe95dc4d81a4707884e7db4a53954763b36cb45ae",
+    "nameTag": "Mimo Capital: Access Controller"
+  },
+  {
+    "address": "0xa802ee4bd9f449295adb6d73f65118352420758a",
+    "nameTag": "Mimo Capital: Address Provider"
+  },
+  {
+    "address": "0xcae2cae9a4384b196c0f1bae59724e0eb9a347e0",
+    "nameTag": "Mimo Capital: Config Provider"
+  },
+  {
+    "address": "0xc7d868954009df558ac5fd54032f2b6fb6ef926c",
+    "nameTag": "Mimo Capital: Debt Notifier"
+  },
+  {
+    "address": "0x313d1d48430721370ecc57262a7664e375a347fb",
+    "nameTag": "Mimo Capital: Fee Distributor"
+  },
+  {
+    "address": "0x2489df1f40bca6dba1554aafecc237bbc6d0453c",
+    "nameTag": "Mimo Capital: Governance Address Provider"
+  },
+  {
+    "address": "0x57896e135f845301c706f643506629493b6660ab",
+    "nameTag": "Mimo Capital: Liquidation Manager"
+  },
+  {
+    "address": "0x6fb6a0a35b33e230d0149d49858e1a313a2ad4a7",
+    "nameTag": "Mimo Capital: MIMO Buy Back"
+  },
+  {
+    "address": "0xf6298bf14a1feeddefeb756799e89b5291bc0cdd",
+    "nameTag": "Mimo Capital: PAR Miner"
+  },
+  {
+    "address": "0x1f4d9879327e2ecc488ccc49566286c844af6f2c",
+    "nameTag": "Mimo Capital: Price Feed"
+  },
+  {
+    "address": "0x74419ec5ed2f745bece0d4e4118db2f33eb88367",
+    "nameTag": "Mimo Capital: Rates Manager"
+  },
+  {
+    "address": "0x03175c19cb1d30fa6060331a9ec181e04cac6ab0",
+    "nameTag": "Mimo Capital: Vaults Core"
+  },
+  {
+    "address": "0x2d49e60555d0372be23e2b24aeb3e5ea55dcb417",
+    "nameTag": "Mimo Capital: Vaults Core State"
+  },
+  {
+    "address": "0xde1996189ee1857d79f1f2bebe2a4a2b200bcb44",
+    "nameTag": "Mimo Capital: Vaultss Data Provider"
+  }
+]

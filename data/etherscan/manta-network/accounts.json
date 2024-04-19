@@ -1,13 +1,10 @@
-{
-  "lastPulled": "2024-04-02T20:45:36.002Z",
-  "data": [
-    {
-      "address": "0x3b95bc951ee0f553ba487327278cac44f29715e5",
-      "nameTag": "Manta Pacific: Bridge"
-    },
-    {
-      "address": "0xdaf1695c41327b61b9b9965ac6a5843a3198cf07",
-      "nameTag": "Manta Pacific: New Paradigm Bridge"
-    }
-  ]
-}
+[
+  {
+    "address": "0x3b95bc951ee0f553ba487327278cac44f29715e5",
+    "nameTag": "Manta Pacific: Bridge"
+  },
+  {
+    "address": "0xdaf1695c41327b61b9b9965ac6a5843a3198cf07",
+    "nameTag": "Manta Pacific: New Paradigm Bridge"
+  }
+]

@@ -1,13 +1,10 @@
-{
-  "lastPulled": "2024-04-02T20:40:34.460Z",
-  "data": [
-    {
-      "address": "0x1ba6cfb0d7440dbc0a7323104c1c92bf6846d6a9",
-      "nameTag": "Chain: Distribution"
-    },
-    {
-      "address": "0xe864c9439eb042e969c59dd13d38cfdb28e16d73",
-      "nameTag": "Chain: Team Wallet 2"
-    }
-  ]
-}
+[
+  {
+    "address": "0x1ba6cfb0d7440dbc0a7323104c1c92bf6846d6a9",
+    "nameTag": "Chain: Distribution"
+  },
+  {
+    "address": "0xe864c9439eb042e969c59dd13d38cfdb28e16d73",
+    "nameTag": "Chain: Team Wallet 2"
+  }
+]

@@ -1,13 +1,10 @@
-{
-  "lastPulled": "2024-04-02T20:40:02.141Z",
-  "data": [
-    {
-      "address": "0xe83cccfabd4ed148903bf36d4283ee7c8b3494d1",
-      "nameTag": "BitTorrent Chain: Old BTT Token"
-    },
-    {
-      "address": "0x3d0962d31d8a3171564b8d2e4d84c97148cb0bd2",
-      "nameTag": "TRON: Deployer"
-    }
-  ]
-}
+[
+  {
+    "address": "0xe83cccfabd4ed148903bf36d4283ee7c8b3494d1",
+    "nameTag": "BitTorrent Chain: Old BTT Token"
+  },
+  {
+    "address": "0x3d0962d31d8a3171564b8d2e4d84c97148cb0bd2",
+    "nameTag": "TRON: Deployer"
+  }
+]

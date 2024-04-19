@@ -1,58 +1,54 @@
-{
-  "lastPulled": "2024-04-03T06:28:51.169Z",
-  "length": 13,
-  "data": [
-    {
-      "address": "0x81c15d3e956e55e77e1f3f257f0a65bd2725fc55",
-      "nameTag": "Cream.Finance: crADA Token"
-    },
-    {
-      "address": "0x264bc4ea2f45cf6331ad6c3ac8d7257cf487fcbc",
-      "nameTag": "Cream.Finance: crALPHA Token"
-    },
-    {
-      "address": "0x0e9d900c884964dc4b26db96ba113825b1a09baa",
-      "nameTag": "Cream.Finance: crATOM Token"
-    },
-    {
-      "address": "0x738f3810b3da0f3e6dc8c689d0d72f3b4992c43b",
-      "nameTag": "Cream.Finance: crBAND Token"
-    },
-    {
-      "address": "0x426d6d53187be3288fe37f214e3f6901d8145b62",
-      "nameTag": "Cream.Finance: crCREAM Token"
-    },
-    {
-      "address": "0x9095e8d707e40982affce41c61c10895157a1b22",
-      "nameTag": "Cream.Finance: crDAI Token"
-    },
-    {
-      "address": "0x19ee64850862cfd234e20c0db4eda286f12ec907",
-      "nameTag": "Cream.Finance: crEOS Token"
-    },
-    {
-      "address": "0x1af8c1c3ad36a041cb6678fed86b1e095004fd16",
-      "nameTag": "Cream.Finance: crFIL Token"
-    },
-    {
-      "address": "0x2d3bfadf9bc94e3ab796029a030e863f1898aa06",
-      "nameTag": "Cream.Finance: crTWT Token"
-    },
-    {
-      "address": "0x3b0be453a4008ebc2edd457e7bd355f1c5469d68",
-      "nameTag": "Cream.Finance: crUNI Token"
-    },
-    {
-      "address": "0xd83c88db3a6ca4a32fff1603b0f7ddce01f5f727",
-      "nameTag": "Cream.Finance: crUSDC Token"
-    },
-    {
-      "address": "0xe692714717a89e4f2ab89dd17d8dddd7bb52de8e",
-      "nameTag": "Cream.Finance: crXTZ Token"
-    },
-    {
-      "address": "0xea466cd2583a0290b9e7b987a769a7eb468fb0a5",
-      "nameTag": "Cream.Finance: crYFI Token"
-    }
-  ]
-}
+[
+  {
+    "address": "0x81c15d3e956e55e77e1f3f257f0a65bd2725fc55",
+    "nameTag": "Cream.Finance: crADA Token"
+  },
+  {
+    "address": "0x264bc4ea2f45cf6331ad6c3ac8d7257cf487fcbc",
+    "nameTag": "Cream.Finance: crALPHA Token"
+  },
+  {
+    "address": "0x0e9d900c884964dc4b26db96ba113825b1a09baa",
+    "nameTag": "Cream.Finance: crATOM Token"
+  },
+  {
+    "address": "0x738f3810b3da0f3e6dc8c689d0d72f3b4992c43b",
+    "nameTag": "Cream.Finance: crBAND Token"
+  },
+  {
+    "address": "0x426d6d53187be3288fe37f214e3f6901d8145b62",
+    "nameTag": "Cream.Finance: crCREAM Token"
+  },
+  {
+    "address": "0x9095e8d707e40982affce41c61c10895157a1b22",
+    "nameTag": "Cream.Finance: crDAI Token"
+  },
+  {
+    "address": "0x19ee64850862cfd234e20c0db4eda286f12ec907",
+    "nameTag": "Cream.Finance: crEOS Token"
+  },
+  {
+    "address": "0x1af8c1c3ad36a041cb6678fed86b1e095004fd16",
+    "nameTag": "Cream.Finance: crFIL Token"
+  },
+  {
+    "address": "0x2d3bfadf9bc94e3ab796029a030e863f1898aa06",
+    "nameTag": "Cream.Finance: crTWT Token"
+  },
+  {
+    "address": "0x3b0be453a4008ebc2edd457e7bd355f1c5469d68",
+    "nameTag": "Cream.Finance: crUNI Token"
+  },
+  {
+    "address": "0xd83c88db3a6ca4a32fff1603b0f7ddce01f5f727",
+    "nameTag": "Cream.Finance: crUSDC Token"
+  },
+  {
+    "address": "0xe692714717a89e4f2ab89dd17d8dddd7bb52de8e",
+    "nameTag": "Cream.Finance: crXTZ Token"
+  },
+  {
+    "address": "0xea466cd2583a0290b9e7b987a769a7eb468fb0a5",
+    "nameTag": "Cream.Finance: crYFI Token"
+  }
+]

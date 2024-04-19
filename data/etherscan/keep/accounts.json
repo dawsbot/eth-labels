@@ -1,37 +1,34 @@
-{
-  "lastPulled": "2024-04-02T20:44:50.277Z",
-  "data": [
-    {
-      "address": "0xffe4ea384e13295bf74a515a36f552313fb25a89",
-      "nameTag": "Keep: Deployer"
-    },
-    {
-      "address": "0x85eee30c52b0b379b046fb0f85f4f3dc3009afec",
-      "nameTag": "Keep: KEEP Token"
-    },
-    {
-      "address": "0x6ad9e8e5236c0e2cf6d755bb7be4eabcbc03f76d",
-      "nameTag": "Keep: LPRewardsTBTCv2Saddle"
-    },
-    {
-      "address": "0x6950c4c7e97c7d2e6b5bffec4634f841db2a5f3d",
-      "nameTag": "Keep: MultiSig"
-    },
-    {
-      "address": "0xb78c0cf4c9e9bf4ba24b17065fa8c0ac71957653",
-      "nameTag": "Keep: Reward Manager"
-    },
-    {
-      "address": "0x8381e623775e7a95e015aab575f734d7be047037",
-      "nameTag": "Keep: TBTCv2SaddleRewardsEscrowBeneficiary"
-    },
-    {
-      "address": "0xb3726e69da808a689f2607939a2d9e958724fc2a",
-      "nameTag": "Keep: Technical Wallet Team"
-    },
-    {
-      "address": "0x175989c71fd023d580c65f5dc214002687ff88b7",
-      "nameTag": "Keep: TokenGrant"
-    }
-  ]
-}
+[
+  {
+    "address": "0xffe4ea384e13295bf74a515a36f552313fb25a89",
+    "nameTag": "Keep: Deployer"
+  },
+  {
+    "address": "0x85eee30c52b0b379b046fb0f85f4f3dc3009afec",
+    "nameTag": "Keep: KEEP Token"
+  },
+  {
+    "address": "0x6ad9e8e5236c0e2cf6d755bb7be4eabcbc03f76d",
+    "nameTag": "Keep: LPRewardsTBTCv2Saddle"
+  },
+  {
+    "address": "0x6950c4c7e97c7d2e6b5bffec4634f841db2a5f3d",
+    "nameTag": "Keep: MultiSig"
+  },
+  {
+    "address": "0xb78c0cf4c9e9bf4ba24b17065fa8c0ac71957653",
+    "nameTag": "Keep: Reward Manager"
+  },
+  {
+    "address": "0x8381e623775e7a95e015aab575f734d7be047037",
+    "nameTag": "Keep: TBTCv2SaddleRewardsEscrowBeneficiary"
+  },
+  {
+    "address": "0xb3726e69da808a689f2607939a2d9e958724fc2a",
+    "nameTag": "Keep: Technical Wallet Team"
+  },
+  {
+    "address": "0x175989c71fd023d580c65f5dc214002687ff88b7",
+    "nameTag": "Keep: TokenGrant"
+  }
+]

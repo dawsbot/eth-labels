@@ -1,9 +1,6 @@
-{
-  "lastPulled": "2024-04-02T20:43:38.743Z",
-  "data": [
-    {
-      "address": "0xe7f69ea2a79521136ee0bf3c50f6b5f1ea0ab0cd",
-      "nameTag": "BountiesNetwork V2"
-    }
-  ]
-}
+[
+  {
+    "address": "0xe7f69ea2a79521136ee0bf3c50f6b5f1ea0ab0cd",
+    "nameTag": "BountiesNetwork V2"
+  }
+]

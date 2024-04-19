@@ -1,82 +1,75 @@
-{
-  "lastPulled": "2024-04-03T06:22:20.997Z",
-  "length": 19,
-  "data": [
-    {
-      "address": "0x16b6deee778bbcf427e40ffa3c14c4840be10e6a",
-      "nameTag": ""
-    },
-    {
-      "address": "0x2ab5c606a5aa2352f8072b9e2e8a213033e2c4c9",
-      "nameTag": "Magicats: MGC Token"
-    },
-    {
-      "address": "0xca79f97d3af4bce5bfaa9821a0887e50542636f7",
-      "nameTag": "Spooky Swap: Brew BOO"
-    },
-    {
-      "address": "0xacaca07e398d4946ad12232f40f255230e73ca72",
-      "nameTag": "Spooky Swap: IFO"
-    },
-    {
-      "address": "0x1ad2870510e1ce60c1f3951208b99d4ab79f5ba6",
-      "nameTag": "SpookySwap: 120 Days Token Vesting Timelock"
-    },
-    {
-      "address": "0x9347d7629ad26fb60448eecf070e640dcb420915",
-      "nameTag": "SpookySwap: 180 Days Token Vesting Timelock"
-    },
-    {
-      "address": "0xa2a1c57faeceaf330cad764a7afe1e219e82df9b",
-      "nameTag": "SpookySwap: 240 Days Token Vesting Timelock"
-    },
-    {
-      "address": "0xb07fddd8a191d540b913a7e360119fa2e1064358",
-      "nameTag": "SpookySwap: 360 Days LP Vesting Timelock"
-    },
-    {
-      "address": "0x1f269c1b8aa6dbe1b2bcb97c451a0e51a17a645c",
-      "nameTag": "SpookySwap: 60 Days Token Vesting Timelock"
-    },
-    {
-      "address": "0x2352b745561e7e6fcd03c093ce7220e3e126ace0",
-      "nameTag": "SpookySwap: AcaLab xBOO Staking"
-    },
-    {
-      "address": "0x841fad6eae12c286d1fd18d1d525dffa75c7effe",
-      "nameTag": "SpookySwap: BOO Token"
-    },
-    {
-      "address": "0x68f598280a843a5ce07c1b9fb0d3af00cd085c31",
-      "nameTag": "SpookySwap: BrewBooV2"
-    },
-    {
-      "address": "0x95478c4f7d22d1048f46100001c2c69d2ba57380",
-      "nameTag": "SpookySwap: Deployer"
-    },
-    {
-      "address": "0x152ee697f2e276fa89e96742e9bb9ab1f2e61be3",
-      "nameTag": "SpookySwap: Factory"
-    },
-    {
-      "address": "0xf4c90bba1747cac1ca332d9483fa54845948e3c4",
-      "nameTag": "SpookySwap: Magicat Royalties"
-    },
-    {
-      "address": "0x2b2929e785374c651a81a63878ab22742656dcdd",
-      "nameTag": "SpookySwap: MasterChef LP Staking Pool"
-    },
-    {
-      "address": "0xf491e7b69e4244ad4002bc14e878a34207e38c29",
-      "nameTag": "SpookySwap: Router"
-    },
-    {
-      "address": "0x6ab0ca9c94fde313a3a1d34a8247ae6065bd2e73",
-      "nameTag": "SpookySwap: Universal Router"
-    },
-    {
-      "address": "0xa48d959ae2e88f1daa7d5f611e01908106de7598",
-      "nameTag": "SpookySwap: xBOO Token"
-    }
-  ]
-}
+[
+  { "address": "0x16b6deee778bbcf427e40ffa3c14c4840be10e6a", "nameTag": "" },
+  {
+    "address": "0x2ab5c606a5aa2352f8072b9e2e8a213033e2c4c9",
+    "nameTag": "Magicats: MGC Token"
+  },
+  {
+    "address": "0xca79f97d3af4bce5bfaa9821a0887e50542636f7",
+    "nameTag": "Spooky Swap: Brew BOO"
+  },
+  {
+    "address": "0xacaca07e398d4946ad12232f40f255230e73ca72",
+    "nameTag": "Spooky Swap: IFO"
+  },
+  {
+    "address": "0x1ad2870510e1ce60c1f3951208b99d4ab79f5ba6",
+    "nameTag": "SpookySwap: 120 Days Token Vesting Timelock"
+  },
+  {
+    "address": "0x9347d7629ad26fb60448eecf070e640dcb420915",
+    "nameTag": "SpookySwap: 180 Days Token Vesting Timelock"
+  },
+  {
+    "address": "0xa2a1c57faeceaf330cad764a7afe1e219e82df9b",
+    "nameTag": "SpookySwap: 240 Days Token Vesting Timelock"
+  },
+  {
+    "address": "0xb07fddd8a191d540b913a7e360119fa2e1064358",
+    "nameTag": "SpookySwap: 360 Days LP Vesting Timelock"
+  },
+  {
+    "address": "0x1f269c1b8aa6dbe1b2bcb97c451a0e51a17a645c",
+    "nameTag": "SpookySwap: 60 Days Token Vesting Timelock"
+  },
+  {
+    "address": "0x2352b745561e7e6fcd03c093ce7220e3e126ace0",
+    "nameTag": "SpookySwap: AcaLab xBOO Staking"
+  },
+  {
+    "address": "0x841fad6eae12c286d1fd18d1d525dffa75c7effe",
+    "nameTag": "SpookySwap: BOO Token"
+  },
+  {
+    "address": "0x68f598280a843a5ce07c1b9fb0d3af00cd085c31",
+    "nameTag": "SpookySwap: BrewBooV2"
+  },
+  {
+    "address": "0x95478c4f7d22d1048f46100001c2c69d2ba57380",
+    "nameTag": "SpookySwap: Deployer"
+  },
+  {
+    "address": "0x152ee697f2e276fa89e96742e9bb9ab1f2e61be3",
+    "nameTag": "SpookySwap: Factory"
+  },
+  {
+    "address": "0xf4c90bba1747cac1ca332d9483fa54845948e3c4",
+    "nameTag": "SpookySwap: Magicat Royalties"
+  },
+  {
+    "address": "0x2b2929e785374c651a81a63878ab22742656dcdd",
+    "nameTag": "SpookySwap: MasterChef LP Staking Pool"
+  },
+  {
+    "address": "0xf491e7b69e4244ad4002bc14e878a34207e38c29",
+    "nameTag": "SpookySwap: Router"
+  },
+  {
+    "address": "0x6ab0ca9c94fde313a3a1d34a8247ae6065bd2e73",
+    "nameTag": "SpookySwap: Universal Router"
+  },
+  {
+    "address": "0xa48d959ae2e88f1daa7d5f611e01908106de7598",
+    "nameTag": "SpookySwap: xBOO Token"
+  }
+]

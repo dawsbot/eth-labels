@@ -115,7 +115,7 @@ export class AnyscanPuller {
   /**
    * Enters a username and password, but submit is not automated so that operator can submit captcha.
    */
-  async #login(page: Page) {
+  public async login(page: Page) {
     await page.goto(`${this.#baseUrl}/login`);
     await page.fill(
       "#ContentPlaceHolder1_txtUserName",
@@ -246,7 +246,7 @@ export class AnyscanPuller {
       fs.mkdirSync(rootDirectory);
     }
 
-    await this.#login(page);
+    // await this.#login(page);
     const allLabels = await this.#fetchAllLabels(page);
 
     console.log(`\n🐌 Pulling all of tokens started...`);

@@ -1,17 +1,14 @@
-{
-  "lastPulled": "2024-04-02T20:42:23.344Z",
-  "data": [
-    {
-      "address": "0x6d38574be6c230272daad16fa5f291f825bd0da1",
-      "nameTag": "Dinngo Token"
-    },
-    {
-      "address": "0x8ecf87fc9d7336cc0052d40abf806fb1af2ea81c",
-      "nameTag": "DINNGO: Deployer"
-    },
-    {
-      "address": "0x268be5667d4e5bd036bd608d0601ef1441604429",
-      "nameTag": "DINNGO: Proxy"
-    }
-  ]
-}
+[
+  {
+    "address": "0x6d38574be6c230272daad16fa5f291f825bd0da1",
+    "nameTag": "Dinngo Token"
+  },
+  {
+    "address": "0x8ecf87fc9d7336cc0052d40abf806fb1af2ea81c",
+    "nameTag": "DINNGO: Deployer"
+  },
+  {
+    "address": "0x268be5667d4e5bd036bd608d0601ef1441604429",
+    "nameTag": "DINNGO: Proxy"
+  }
+]

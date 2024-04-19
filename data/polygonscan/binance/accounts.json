@@ -1,25 +1,22 @@
-{
-  "lastPulled": "2024-04-02T22:23:02.076Z",
-  "data": [
-    {
-      "address": "0x082489a616ab4d46d1947ee3f912e080815b08da",
-      "nameTag": "Binance"
-    },
-    {
-      "address": "0xf977814e90da44bfa03b6295a0616a897441acec",
-      "nameTag": "Binance: Hot Wallet"
-    },
-    {
-      "address": "0xe7804c37c13166ff0b37f5ae0bb07a3aebb6e245",
-      "nameTag": "Binance: Hot Wallet 2"
-    },
-    {
-      "address": "0x290275e3db66394c52272398959845170e4dcb88",
-      "nameTag": "Binance: Hot Wallet 3"
-    },
-    {
-      "address": "0x505e71695e9bc45943c58adec1650577bca68fd9",
-      "nameTag": "Binance: Hot Wallet 4"
-    }
-  ]
-}
+[
+  {
+    "address": "0x082489a616ab4d46d1947ee3f912e080815b08da",
+    "nameTag": "Binance"
+  },
+  {
+    "address": "0xf977814e90da44bfa03b6295a0616a897441acec",
+    "nameTag": "Binance: Hot Wallet"
+  },
+  {
+    "address": "0xe7804c37c13166ff0b37f5ae0bb07a3aebb6e245",
+    "nameTag": "Binance: Hot Wallet 2"
+  },
+  {
+    "address": "0x290275e3db66394c52272398959845170e4dcb88",
+    "nameTag": "Binance: Hot Wallet 3"
+  },
+  {
+    "address": "0x505e71695e9bc45943c58adec1650577bca68fd9",
+    "nameTag": "Binance: Hot Wallet 4"
+  }
+]

@@ -1,14 +1,10 @@
-{
-  "lastPulled": "2024-04-03T06:29:25.935Z",
-  "length": 2,
-  "data": [
-    {
-      "address": "0x39aa02d6b499a76a70fab5f164e8be587c366141",
-      "nameTag": "Hotbit"
-    },
-    {
-      "address": "0xc7029e939075f48fa2d5953381660c7d01570171",
-      "nameTag": "Hotbit 2"
-    }
-  ]
-}
+[
+  {
+    "address": "0x39aa02d6b499a76a70fab5f164e8be587c366141",
+    "nameTag": "Hotbit"
+  },
+  {
+    "address": "0xc7029e939075f48fa2d5953381660c7d01570171",
+    "nameTag": "Hotbit 2"
+  }
+]

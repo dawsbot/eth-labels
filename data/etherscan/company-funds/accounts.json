@@ -1,57 +1,54 @@
-{
-  "lastPulled": "2024-04-02T20:41:14.778Z",
-  "data": [
-    {
-      "address": "0x534ea640f829f542ee439e76833b5002db4eda80",
-      "nameTag": "Geeq: Founders"
-    },
-    {
-      "address": "0xdfb0353d79cd338e294dec709e76dc4894c51572",
-      "nameTag": "Geeq: Marketing"
-    },
-    {
-      "address": "0x4cc427be94c8df62b1f3a2a3cbff904fa80284e8",
-      "nameTag": "Geeq: Team"
-    },
-    {
-      "address": "0xd884aca1897ac45515cee6d5fd48f341b4023ace",
-      "nameTag": "Hegic: Development Fund"
-    },
-    {
-      "address": "0x38ca50c6e3391a5bf73c2504bd9cd9c0b9d89053",
-      "nameTag": "MCDEX: Foundation"
-    },
-    {
-      "address": "0x1a34e5b97d684b124e32bd3b7dc82736c216976b",
-      "nameTag": "Origin: Distribution Staging"
-    },
-    {
-      "address": "0x2d00c3c132a0567bbbb45ffcfd8c6543e08ff626",
-      "nameTag": "Origin: Ecosystem Growth"
-    },
-    {
-      "address": "0xe011fa2a6df98c69383457d87a056ed0103aa352",
-      "nameTag": "Origin: Multisig"
-    },
-    {
-      "address": "0xbc0722eb6e8ba0217aeea5694fe4f214d2e53017",
-      "nameTag": "Origin: Partnerships"
-    },
-    {
-      "address": "0xcaa5ef7abc36d5e5a3e4d7930dcff3226617a167",
-      "nameTag": "Origin: Team Distribution"
-    },
-    {
-      "address": "0xbea52413e26c38b51cbcb0d3661a25f2097f8574",
-      "nameTag": "Sparkle Loyalty: Development Treasury"
-    },
-    {
-      "address": "0xa90c682f511b384706e592a8cad9121f1c17de86",
-      "nameTag": "Sparkle Loyalty: Treasury"
-    },
-    {
-      "address": "0x842f8f6fb524996d0b660621da895166e1cea691",
-      "nameTag": "XIO Labs: Foundation Fund"
-    }
-  ]
-}
+[
+  {
+    "address": "0x534ea640f829f542ee439e76833b5002db4eda80",
+    "nameTag": "Geeq: Founders"
+  },
+  {
+    "address": "0xdfb0353d79cd338e294dec709e76dc4894c51572",
+    "nameTag": "Geeq: Marketing"
+  },
+  {
+    "address": "0x4cc427be94c8df62b1f3a2a3cbff904fa80284e8",
+    "nameTag": "Geeq: Team"
+  },
+  {
+    "address": "0xd884aca1897ac45515cee6d5fd48f341b4023ace",
+    "nameTag": "Hegic: Development Fund"
+  },
+  {
+    "address": "0x38ca50c6e3391a5bf73c2504bd9cd9c0b9d89053",
+    "nameTag": "MCDEX: Foundation"
+  },
+  {
+    "address": "0x1a34e5b97d684b124e32bd3b7dc82736c216976b",
+    "nameTag": "Origin: Distribution Staging"
+  },
+  {
+    "address": "0x2d00c3c132a0567bbbb45ffcfd8c6543e08ff626",
+    "nameTag": "Origin: Ecosystem Growth"
+  },
+  {
+    "address": "0xe011fa2a6df98c69383457d87a056ed0103aa352",
+    "nameTag": "Origin: Multisig"
+  },
+  {
+    "address": "0xbc0722eb6e8ba0217aeea5694fe4f214d2e53017",
+    "nameTag": "Origin: Partnerships"
+  },
+  {
+    "address": "0xcaa5ef7abc36d5e5a3e4d7930dcff3226617a167",
+    "nameTag": "Origin: Team Distribution"
+  },
+  {
+    "address": "0xbea52413e26c38b51cbcb0d3661a25f2097f8574",
+    "nameTag": "Sparkle Loyalty: Development Treasury"
+  },
+  {
+    "address": "0xa90c682f511b384706e592a8cad9121f1c17de86",
+    "nameTag": "Sparkle Loyalty: Treasury"
+  },
+  {
+    "address": "0x842f8f6fb524996d0b660621da895166e1cea691",
+    "nameTag": "XIO Labs: Foundation Fund"
+  }
+]

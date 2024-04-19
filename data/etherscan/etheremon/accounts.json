@@ -1,189 +1,186 @@
-{
-  "lastPulled": "2024-04-02T20:43:13.391Z",
-  "data": [
-    {
-      "address": "0xb5f8ed7a761200d80a9971268302ef3ff1aafbec",
-      "nameTag": "Emont Frenzy 1"
-    },
-    {
-      "address": "0x5df892a4d541cb55c62280125f0c38b46d9f55df",
-      "nameTag": "Emont Frenzy 2"
-    },
-    {
-      "address": "0x635b1194853b58e916f34f4223c81df0e99f4430",
-      "nameTag": "Emont Frenzy 3"
-    },
-    {
-      "address": "0x5d00d312e171be5342067c09bae883f9bcb2003b",
-      "nameTag": "Etheremon Monster Token"
-    },
-    {
-      "address": "0xcdf7cfc9f7c129a0d7aec376bc205ab87fc878e1",
-      "nameTag": "Etheremon: Adventure 2"
-    },
-    {
-      "address": "0x41f3d85e9b8497fca552523047bf4dac7beea64a",
-      "nameTag": "Etheremon: Adventure Claim"
-    },
-    {
-      "address": "0xd76e916901c278dc445e4a808d87a4b34edaee25",
-      "nameTag": "Etheremon: Adventure Presale 1"
-    },
-    {
-      "address": "0xa7c4681c701ac82c8524cfc66e0101ea16e1e00f",
-      "nameTag": "Etheremon: Adventure Presale 2"
-    },
-    {
-      "address": "0xa2c51d751a3fcbaf3ff3cd1dc4adf72469cf9d74",
-      "nameTag": "Etheremon: Adventure Revenue 1"
-    },
-    {
-      "address": "0x50067c62078579cdc0c76fc04fd28fb6fe3afcd4",
-      "nameTag": "Etheremon: Adventure Revenue 2"
-    },
-    {
-      "address": "0xbfde6246df72d3ca86419628cac46a9d2b60393c",
-      "nameTag": "Etheremon: Adventure Token"
-    },
-    {
-      "address": "0xb2c0782ae4a299f7358758b2d15da9bf29e1dd99",
-      "nameTag": "Etheremon: Asset"
-    },
-    {
-      "address": "0x0c28bf52d0d4d9447e86d7e7f0e317f273d3c9a3",
-      "nameTag": "Etheremon: Battle 1"
-    },
-    {
-      "address": "0xdf6164efd12678bf6a7d5a1ddf73c831493f6574",
-      "nameTag": "Etheremon: Battle 2"
-    },
-    {
-      "address": "0xe171783da2c451186b4256727481fa30203fef86",
-      "nameTag": "Etheremon: Battle 3"
-    },
-    {
-      "address": "0x65ca30af89af5a048cc8b715101171fbca6452b5",
-      "nameTag": "Etheremon: Battle 4"
-    },
-    {
-      "address": "0x0fa8051dbdbbcc32d602803d5f1de1e6f92a0bbd",
-      "nameTag": "Etheremon: Battle 5"
-    },
-    {
-      "address": "0x75aa01dc00f6aeefe14bd58a5b6cbb091c6dc57b",
-      "nameTag": "Etheremon: Castle Battle"
-    },
-    {
-      "address": "0xb902e19f24950c43ae69cfee20876283fa842b03",
-      "nameTag": "Etheremon: Contract 1"
-    },
-    {
-      "address": "0xf35a3215e8098544f1c352ef57c3c745e224fb38",
-      "nameTag": "Etheremon: Contract 2"
-    },
-    {
-      "address": "0x3ebbebb8198c90c7460a8a60736481726b40297a",
-      "nameTag": "Etheremon: Contract 3"
-    },
-    {
-      "address": "0x7582562aeeb50d6e48fa5415d47d5ccd9bd221c4",
-      "nameTag": "Etheremon: Contract 4"
-    },
-    {
-      "address": "0x6482ccfc48cd7ff95bb4def3355617fe0d507052",
-      "nameTag": "Etheremon: Contract 5"
-    },
-    {
-      "address": "0x6ef6016727668a89779d43379d7d349c64642a32",
-      "nameTag": "Etheremon: Contract 6"
-    },
-    {
-      "address": "0xabc1c404424bdf24c19a5cc5ef8f47781d18eb3e",
-      "nameTag": "Etheremon: Data"
-    },
-    {
-      "address": "0x9e7e799a8af24e5ab6064c9d516037bfe6cc9b8d",
-      "nameTag": "Etheremon: Deployer 2"
-    },
-    {
-      "address": "0x9fdc0bb3622b933aaf4c6f0f653e35e76dcb76d0",
-      "nameTag": "Etheremon: Emont Frenzy Tool"
-    },
-    {
-      "address": "0x6c8dce6d842e0d9d109dc4c69f35cf8904fc4cbf",
-      "nameTag": "Etheremon: Energy"
-    },
-    {
-      "address": "0xcaef67f72114b4d2b4f43e7407455285b7de8de5",
-      "nameTag": "Etheremon: Gym"
-    },
-    {
-      "address": "0xb67b88a25708a35ae7c2d736d398d268ce4f7f83",
-      "nameTag": "Etheremon: Old Token"
-    },
-    {
-      "address": "0x721da477f68c71788a262d58853fe6977d86535e",
-      "nameTag": "Etheremon: Payment 1"
-    },
-    {
-      "address": "0xfec769e54c266de2bc3fa5df7d9f0fe2a1e39461",
-      "nameTag": "Etheremon: Payment 2"
-    },
-    {
-      "address": "0x8a60806f05876f4d6db00c877b0558dbcad30682",
-      "nameTag": "Etheremon: Processor"
-    },
-    {
-      "address": "0xbb991caafa1cbbe9502fcd9ced6557c5b3784d42",
-      "nameTag": "Etheremon: Rank Battle 1"
-    },
-    {
-      "address": "0x022c635044ba01ced1e098bc32e62a954147f2de",
-      "nameTag": "Etheremon: Rank Battle 2"
-    },
-    {
-      "address": "0x838cda4a4cc873fff10f4d6373ada6636517fa31",
-      "nameTag": "Etheremon: Rank Data"
-    },
-    {
-      "address": "0x4ba72f0f8dad13709ee28a992869e79d0fe47030",
-      "nameTag": "Etheremon: Trade 1"
-    },
-    {
-      "address": "0xbd4b50bbf385195c410a625681ff29d439ba61f3",
-      "nameTag": "Etheremon: Trade 2"
-    },
-    {
-      "address": "0xf3a8f103574bc64358e372ed68e95db0b2bb0936",
-      "nameTag": "Etheremon: Transform 1"
-    },
-    {
-      "address": "0xa6ff73743b2fd8dedfacea4067a51ef86d249491",
-      "nameTag": "Etheremon: Transform 2"
-    },
-    {
-      "address": "0x16ecc82b4e3e5ff5a4db8510ed191282a37639b0",
-      "nameTag": "Etheremon: Transform 3"
-    },
-    {
-      "address": "0xfdf4411669fc6e8951a6ae987307d7582fda7a05",
-      "nameTag": "Etheremon: Transform Data"
-    },
-    {
-      "address": "0x1fc7bd85293f3982f40d52698df8d26be89360d6",
-      "nameTag": "Etheremon: World"
-    },
-    {
-      "address": "0xe0a66218c40230967d4240d25f6220a28e52c7ff",
-      "nameTag": "EtheremonToken: Deployer 1"
-    },
-    {
-      "address": "0x777777bb1a74a0efdc12f304adbc3d13940ba781",
-      "nameTag": "Ethermon: Deployer"
-    },
-    {
-      "address": "0xd6a5ab46ead26f49b03bbb1f9eb1ad5c1767974a",
-      "nameTag": "Ethermon: EMON Token"
-    }
-  ]
-}
+[
+  {
+    "address": "0xb5f8ed7a761200d80a9971268302ef3ff1aafbec",
+    "nameTag": "Emont Frenzy 1"
+  },
+  {
+    "address": "0x5df892a4d541cb55c62280125f0c38b46d9f55df",
+    "nameTag": "Emont Frenzy 2"
+  },
+  {
+    "address": "0x635b1194853b58e916f34f4223c81df0e99f4430",
+    "nameTag": "Emont Frenzy 3"
+  },
+  {
+    "address": "0x5d00d312e171be5342067c09bae883f9bcb2003b",
+    "nameTag": "Etheremon Monster Token"
+  },
+  {
+    "address": "0xcdf7cfc9f7c129a0d7aec376bc205ab87fc878e1",
+    "nameTag": "Etheremon: Adventure 2"
+  },
+  {
+    "address": "0x41f3d85e9b8497fca552523047bf4dac7beea64a",
+    "nameTag": "Etheremon: Adventure Claim"
+  },
+  {
+    "address": "0xd76e916901c278dc445e4a808d87a4b34edaee25",
+    "nameTag": "Etheremon: Adventure Presale 1"
+  },
+  {
+    "address": "0xa7c4681c701ac82c8524cfc66e0101ea16e1e00f",
+    "nameTag": "Etheremon: Adventure Presale 2"
+  },
+  {
+    "address": "0xa2c51d751a3fcbaf3ff3cd1dc4adf72469cf9d74",
+    "nameTag": "Etheremon: Adventure Revenue 1"
+  },
+  {
+    "address": "0x50067c62078579cdc0c76fc04fd28fb6fe3afcd4",
+    "nameTag": "Etheremon: Adventure Revenue 2"
+  },
+  {
+    "address": "0xbfde6246df72d3ca86419628cac46a9d2b60393c",
+    "nameTag": "Etheremon: Adventure Token"
+  },
+  {
+    "address": "0xb2c0782ae4a299f7358758b2d15da9bf29e1dd99",
+    "nameTag": "Etheremon: Asset"
+  },
+  {
+    "address": "0x0c28bf52d0d4d9447e86d7e7f0e317f273d3c9a3",
+    "nameTag": "Etheremon: Battle 1"
+  },
+  {
+    "address": "0xdf6164efd12678bf6a7d5a1ddf73c831493f6574",
+    "nameTag": "Etheremon: Battle 2"
+  },
+  {
+    "address": "0xe171783da2c451186b4256727481fa30203fef86",
+    "nameTag": "Etheremon: Battle 3"
+  },
+  {
+    "address": "0x65ca30af89af5a048cc8b715101171fbca6452b5",
+    "nameTag": "Etheremon: Battle 4"
+  },
+  {
+    "address": "0x0fa8051dbdbbcc32d602803d5f1de1e6f92a0bbd",
+    "nameTag": "Etheremon: Battle 5"
+  },
+  {
+    "address": "0x75aa01dc00f6aeefe14bd58a5b6cbb091c6dc57b",
+    "nameTag": "Etheremon: Castle Battle"
+  },
+  {
+    "address": "0xb902e19f24950c43ae69cfee20876283fa842b03",
+    "nameTag": "Etheremon: Contract 1"
+  },
+  {
+    "address": "0xf35a3215e8098544f1c352ef57c3c745e224fb38",
+    "nameTag": "Etheremon: Contract 2"
+  },
+  {
+    "address": "0x3ebbebb8198c90c7460a8a60736481726b40297a",
+    "nameTag": "Etheremon: Contract 3"
+  },
+  {
+    "address": "0x7582562aeeb50d6e48fa5415d47d5ccd9bd221c4",
+    "nameTag": "Etheremon: Contract 4"
+  },
+  {
+    "address": "0x6482ccfc48cd7ff95bb4def3355617fe0d507052",
+    "nameTag": "Etheremon: Contract 5"
+  },
+  {
+    "address": "0x6ef6016727668a89779d43379d7d349c64642a32",
+    "nameTag": "Etheremon: Contract 6"
+  },
+  {
+    "address": "0xabc1c404424bdf24c19a5cc5ef8f47781d18eb3e",
+    "nameTag": "Etheremon: Data"
+  },
+  {
+    "address": "0x9e7e799a8af24e5ab6064c9d516037bfe6cc9b8d",
+    "nameTag": "Etheremon: Deployer 2"
+  },
+  {
+    "address": "0x9fdc0bb3622b933aaf4c6f0f653e35e76dcb76d0",
+    "nameTag": "Etheremon: Emont Frenzy Tool"
+  },
+  {
+    "address": "0x6c8dce6d842e0d9d109dc4c69f35cf8904fc4cbf",
+    "nameTag": "Etheremon: Energy"
+  },
+  {
+    "address": "0xcaef67f72114b4d2b4f43e7407455285b7de8de5",
+    "nameTag": "Etheremon: Gym"
+  },
+  {
+    "address": "0xb67b88a25708a35ae7c2d736d398d268ce4f7f83",
+    "nameTag": "Etheremon: Old Token"
+  },
+  {
+    "address": "0x721da477f68c71788a262d58853fe6977d86535e",
+    "nameTag": "Etheremon: Payment 1"
+  },
+  {
+    "address": "0xfec769e54c266de2bc3fa5df7d9f0fe2a1e39461",
+    "nameTag": "Etheremon: Payment 2"
+  },
+  {
+    "address": "0x8a60806f05876f4d6db00c877b0558dbcad30682",
+    "nameTag": "Etheremon: Processor"
+  },
+  {
+    "address": "0xbb991caafa1cbbe9502fcd9ced6557c5b3784d42",
+    "nameTag": "Etheremon: Rank Battle 1"
+  },
+  {
+    "address": "0x022c635044ba01ced1e098bc32e62a954147f2de",
+    "nameTag": "Etheremon: Rank Battle 2"
+  },
+  {
+    "address": "0x838cda4a4cc873fff10f4d6373ada6636517fa31",
+    "nameTag": "Etheremon: Rank Data"
+  },
+  {
+    "address": "0x4ba72f0f8dad13709ee28a992869e79d0fe47030",
+    "nameTag": "Etheremon: Trade 1"
+  },
+  {
+    "address": "0xbd4b50bbf385195c410a625681ff29d439ba61f3",
+    "nameTag": "Etheremon: Trade 2"
+  },
+  {
+    "address": "0xf3a8f103574bc64358e372ed68e95db0b2bb0936",
+    "nameTag": "Etheremon: Transform 1"
+  },
+  {
+    "address": "0xa6ff73743b2fd8dedfacea4067a51ef86d249491",
+    "nameTag": "Etheremon: Transform 2"
+  },
+  {
+    "address": "0x16ecc82b4e3e5ff5a4db8510ed191282a37639b0",
+    "nameTag": "Etheremon: Transform 3"
+  },
+  {
+    "address": "0xfdf4411669fc6e8951a6ae987307d7582fda7a05",
+    "nameTag": "Etheremon: Transform Data"
+  },
+  {
+    "address": "0x1fc7bd85293f3982f40d52698df8d26be89360d6",
+    "nameTag": "Etheremon: World"
+  },
+  {
+    "address": "0xe0a66218c40230967d4240d25f6220a28e52c7ff",
+    "nameTag": "EtheremonToken: Deployer 1"
+  },
+  {
+    "address": "0x777777bb1a74a0efdc12f304adbc3d13940ba781",
+    "nameTag": "Ethermon: Deployer"
+  },
+  {
+    "address": "0xd6a5ab46ead26f49b03bbb1f9eb1ad5c1767974a",
+    "nameTag": "Ethermon: EMON Token"
+  }
+]

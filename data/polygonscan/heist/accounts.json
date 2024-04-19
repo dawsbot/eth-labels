@@ -1,0 +1,102 @@
+[
+  {
+    "address": "0x2c6900b24221de2b4a45c8c89482fff96ffb7e55",
+    "nameTag": "AscendEX Hacker"
+  },
+  {
+    "address": "0x74487eed1e67f4787e8c0570e8d5d168a05254d4",
+    "nameTag": "bZx PrivKey Exploiter"
+  },
+  {
+    "address": "0x0acc0e5faa09cb1976237c3a9af3d3d4b2f35fa5",
+    "nameTag": "bZx PrivKey Exploiter 2"
+  },
+  {
+    "address": "0x967bb571f0fc9ee79c892abf9f99233aa1737e31",
+    "nameTag": "bZx PrivKey Exploiter 3"
+  },
+  {
+    "address": "0x6551fb9be444987f7482012cbf7ea95a1ee8dd0e",
+    "nameTag": "bZx PrivKey Exploiter 4"
+  },
+  {
+    "address": "0xafad9352eb6bcd085dd68268d353d0ed2571af89",
+    "nameTag": "bZx PrivKey Exploiter 5"
+  },
+  {
+    "address": "0xadb3a003e59bccedaf3686d5563c6546ff53ad5a",
+    "nameTag": "Fake_Phishing16"
+  },
+  {
+    "address": "0x59abf3837fa962d6853b4cc0a19513aa031fd32b",
+    "nameTag": "FTX Accounts Drainer"
+  },
+  {
+    "address": "0x57a72ce4fd69ebedefc1a938b690fbf11a7dff80",
+    "nameTag": "KyberSwap Attacker 1"
+  },
+  {
+    "address": "0xfd6f294f3c9e117dde30495770ba9b073c33b065",
+    "nameTag": "KyberSwap Attacker 2"
+  },
+  {
+    "address": "0xb9943d5ab8b3a70925714233d938dd62e957f92e",
+    "nameTag": "KyberSwap Attacker 3"
+  },
+  {
+    "address": "0x44183fd1a79704f79e0986c6380dd9bfbbc7e6d2",
+    "nameTag": "KyberSwap Attacker 4"
+  },
+  {
+    "address": "0x9bc22f7e0234029eaf2c570588d829f07123fdd6",
+    "nameTag": "KyberSwap Attacker 5"
+  },
+  {
+    "address": "0xf6f001b1d6a0e3ec02914848fb8f34503e7dc769",
+    "nameTag": "KyberSwap Attacker 6"
+  },
+  {
+    "address": "0x50275e0b7261559ce1644014d4b78d4aa63be836",
+    "nameTag": "Kyberswap Exploiter 1"
+  },
+  {
+    "address": "0x8f6a86f3ab015f4d03ddb13abb02710e6d7ab31b",
+    "nameTag": "MonoX Finance Exploiter"
+  },
+  {
+    "address": "0xecbe385f78041895c311070f344b55bfaa953258",
+    "nameTag": "MonoX Finance Exploiter 2"
+  },
+  {
+    "address": "0x2772b5dce4d5dd17a0ad2b55a8b3a0cdbd9ed75b",
+    "nameTag": "Poly Island Rugpull"
+  },
+  {
+    "address": "0x5dc3603c9d42ff184153a8a9094a73d461663214",
+    "nameTag": "PolyNetwork Exploiter"
+  },
+  {
+    "address": "0x685b121bbb80e89c232f0ea1755794f14cfc9822",
+    "nameTag": "Siren Protocol Exploit"
+  },
+  {
+    "address": "0x07ba7e8947f8fb4d33f3c7e25c2cb35b858f02eb",
+    "nameTag": "Siren Protocol Exploit 2"
+  },
+  {
+    "address": "0x6004ba8d5fb50b611344e29c19641e734c5f0759",
+    "nameTag": "Siren Protocol Exploit Deployer"
+  },
+  {
+    "address": "0xfe3f568d58919b14aff72bd3f14e6f55bec6c4e0",
+    "nameTag": "Stake.com Hacker"
+  },
+  {
+    "address": "0x47c7070e2fb82c5c87c57cf04bf0c74880743f79",
+    "nameTag": "Starchi Rug Pull 1"
+  },
+  {
+    "address": "0x86f9cf0a0cb921811496eaeb0cf15d8e250bdbbe",
+    "nameTag": "Starchi Rug Pull 2"
+  }
+]

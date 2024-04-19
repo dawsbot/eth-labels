@@ -1,50 +1,46 @@
-{
-  "lastPulled": "2024-04-03T06:22:13.954Z",
-  "length": 11,
-  "data": [
-    {
-      "address": "0x0615dbba33fe61a31c7ed131bda6655ed76748b1",
-      "nameTag": "Multichain: ANKR Token"
-    },
-    {
-      "address": "0xc10ef9f491c9b59f936957026020c321651ac078",
-      "nameTag": "Multichain: anyCall V6"
-    },
-    {
-      "address": "0xd652776de7ad802be5ec7bebfafda37600222b48",
-      "nameTag": "Multichain: anyDAI Token"
-    },
-    {
-      "address": "0x84051efb5e0c61ac1863b5de72cd5bc3221870e4",
-      "nameTag": "Multichain: anyHND Token"
-    },
-    {
-      "address": "0x54f5a04417e29ff5d7141a6d33cb286f50d5d50e",
-      "nameTag": "Multichain: Anyswap Create2"
-    },
-    {
-      "address": "0xfa9da51631268a30ec3ddd1ccbf46c65fad99251",
-      "nameTag": "Multichain: Deployer 2"
-    },
-    {
-      "address": "0x1e1085efaa63edfe74aad7c05a28eae4ef917c3f",
-      "nameTag": "Multichain: KNC Token"
-    },
-    {
-      "address": "0x40df1ae6074c35047bff66675488aa2f9f6384f3",
-      "nameTag": "Multichain: MATIC Token"
-    },
-    {
-      "address": "0x1ccca1ce62c62f7be95d4a67722a8fdbed6eecb4",
-      "nameTag": "Multichain: Router V4"
-    },
-    {
-      "address": "0xb576c9403f39829565bd6051695e2ac7ecf850e2",
-      "nameTag": "Multichain: Router V4 2"
-    },
-    {
-      "address": "0x8ce95561ec220df4178899dd3c500daae2b5f5bd",
-      "nameTag": "Multichain: Router V6"
-    }
-  ]
-}
+[
+  {
+    "address": "0x0615dbba33fe61a31c7ed131bda6655ed76748b1",
+    "nameTag": "Multichain: ANKR Token"
+  },
+  {
+    "address": "0xc10ef9f491c9b59f936957026020c321651ac078",
+    "nameTag": "Multichain: anyCall V6"
+  },
+  {
+    "address": "0xd652776de7ad802be5ec7bebfafda37600222b48",
+    "nameTag": "Multichain: anyDAI Token"
+  },
+  {
+    "address": "0x84051efb5e0c61ac1863b5de72cd5bc3221870e4",
+    "nameTag": "Multichain: anyHND Token"
+  },
+  {
+    "address": "0x54f5a04417e29ff5d7141a6d33cb286f50d5d50e",
+    "nameTag": "Multichain: Anyswap Create2"
+  },
+  {
+    "address": "0xfa9da51631268a30ec3ddd1ccbf46c65fad99251",
+    "nameTag": "Multichain: Deployer 2"
+  },
+  {
+    "address": "0x1e1085efaa63edfe74aad7c05a28eae4ef917c3f",
+    "nameTag": "Multichain: KNC Token"
+  },
+  {
+    "address": "0x40df1ae6074c35047bff66675488aa2f9f6384f3",
+    "nameTag": "Multichain: MATIC Token"
+  },
+  {
+    "address": "0x1ccca1ce62c62f7be95d4a67722a8fdbed6eecb4",
+    "nameTag": "Multichain: Router V4"
+  },
+  {
+    "address": "0xb576c9403f39829565bd6051695e2ac7ecf850e2",
+    "nameTag": "Multichain: Router V4 2"
+  },
+  {
+    "address": "0x8ce95561ec220df4178899dd3c500daae2b5f5bd",
+    "nameTag": "Multichain: Router V6"
+  }
+]

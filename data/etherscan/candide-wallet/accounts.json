@@ -1,17 +1,14 @@
-{
-  "lastPulled": "2024-04-02T20:40:28.673Z",
-  "data": [
-    {
-      "address": "0x3cfdc212769c890907bce93d3d8c2c53de6a7a89",
-      "nameTag": "Candide: ERC-4337 Bundler 1"
-    },
-    {
-      "address": "0xb73eb505abc30d0e7e15b73a492863235b3f4309",
-      "nameTag": "Candide: ERC-4337 Factory 1"
-    },
-    {
-      "address": "0x769f68e4ba8f53f3092eef34a42a811ab6365b05",
-      "nameTag": "Candide: ERC-4337 Paymaster 2"
-    }
-  ]
-}
+[
+  {
+    "address": "0x3cfdc212769c890907bce93d3d8c2c53de6a7a89",
+    "nameTag": "Candide: ERC-4337 Bundler 1"
+  },
+  {
+    "address": "0xb73eb505abc30d0e7e15b73a492863235b3f4309",
+    "nameTag": "Candide: ERC-4337 Factory 1"
+  },
+  {
+    "address": "0x769f68e4ba8f53f3092eef34a42a811ab6365b05",
+    "nameTag": "Candide: ERC-4337 Paymaster 2"
+  }
+]

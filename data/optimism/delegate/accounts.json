@@ -1,237 +1,60 @@
-{
-  "lastPulled": "2024-04-02T20:57:05.281Z",
-  "data": [
-    {
-      "address": "0x01e6b50557ef1a2ca58a621998ace3f278e808b8",
-      "nameTag": ""
-    },
-    {
-      "address": "0x0331969e189d63fbc31d771bb04ab44227d748d8",
-      "nameTag": ""
-    },
-    {
-      "address": "0x062a07cbf4848fda67292a96a5e02c97e402233f",
-      "nameTag": ""
-    },
-    {
-      "address": "0x070341aa5ed571f0fb2c4a5641409b1a46b4961b",
-      "nameTag": ""
-    },
-    {
-      "address": "0x0f9457824adb0649f57b91f21fcaf598b7ed9230",
-      "nameTag": ""
-    },
-    {
-      "address": "0x1372eda77df5a048db8af4db3d8680ff56388824",
-      "nameTag": ""
-    },
-    {
-      "address": "0x13838884271ec954cb036d0b29d404afab5eae2a",
-      "nameTag": ""
-    },
-    {
-      "address": "0x1b686ee8e31c5959d9f5bbd8122a58682788eead",
-      "nameTag": ""
-    },
-    {
-      "address": "0x1d1a13b16667c284b87de62caeeff0ce89e342b2",
-      "nameTag": ""
-    },
-    {
-      "address": "0x1de2a056508e0d0dd88a88f1f5cdf9cfa510795c",
-      "nameTag": ""
-    },
-    {
-      "address": "0x2345f4e0cdf00d427d773413dd4617d0156c29a9",
-      "nameTag": ""
-    },
-    {
-      "address": "0x265c328bf0cad7f6fcddd375a4c02754963e3a2e",
-      "nameTag": ""
-    },
-    {
-      "address": "0x2b888954421b424c5d3d9ce9bb67c9bd47537d12",
-      "nameTag": ""
-    },
-    {
-      "address": "0x2fd8bd701461684957a9d6a9d15f9d5cbf17a58d",
-      "nameTag": ""
-    },
-    {
-      "address": "0x406b607644c5d7bfda95963201e45a4c6ab1c159",
-      "nameTag": ""
-    },
-    {
-      "address": "0x429f9ada43e9f345cbb85ec88681bb70df808892",
-      "nameTag": ""
-    },
-    {
-      "address": "0x45a10f35befa4ab841c77860204b133118b7ccae",
-      "nameTag": ""
-    },
-    {
-      "address": "0x46abfe1c972fca43766d6ad70e1c1df72f4bb4d1",
-      "nameTag": ""
-    },
-    {
-      "address": "0x48a63097e1ac123b1f5a8bbffafa4afa8192fab0",
-      "nameTag": ""
-    },
-    {
-      "address": "0x4ac799e9b0e252bc45d499857c84809a5a444ae0",
-      "nameTag": ""
-    },
-    {
-      "address": "0x512fce9b07ce64590849115ee6b32fd40ec0f5f3",
-      "nameTag": ""
-    },
-    {
-      "address": "0x523d007855b3543797e0d3d462cb44b601274819",
-      "nameTag": ""
-    },
-    {
-      "address": "0x5e349eca2dc61abcd9dd99ce94d04136151a09ee",
-      "nameTag": ""
-    },
-    {
-      "address": "0x62a43123fe71f9764f26554b3f5017627996816a",
-      "nameTag": ""
-    },
-    {
-      "address": "0x6cea573473348367a5f66e0f261bfa25799e6a60",
-      "nameTag": ""
-    },
-    {
-      "address": "0x6eda5acaff7f5964e1ecc3fd61c62570c186ca0c",
-      "nameTag": ""
-    },
-    {
-      "address": "0x6fc69da059944b4895d65f385b9a26b1285cab88",
-      "nameTag": ""
-    },
-    {
-      "address": "0x70d95a4e6f514149af97de9a107d12bf1cf57169",
-      "nameTag": ""
-    },
-    {
-      "address": "0x75536cf4f01c2bfa528f5c74ddc1232db3af3ee5",
-      "nameTag": ""
-    },
-    {
-      "address": "0x7899d9b1181cbb427b0b1be0684c096c260f7474",
-      "nameTag": ""
-    },
-    {
-      "address": "0x7ae109a63ff4dc852e063a673b40bed85d22e585",
-      "nameTag": ""
-    },
-    {
-      "address": "0x839395e20bbb182fa440d08f850e6c7a8f6f0780",
-      "nameTag": ""
-    },
-    {
-      "address": "0x8c580556fdb1f57853e49f409ae9b89f7658e7a2",
-      "nameTag": ""
-    },
-    {
-      "address": "0x8f07bc36ff569312fdc41f3867d80bbd2fe94b76",
-      "nameTag": ""
-    },
-    {
-      "address": "0x8f73be66ca8c79382f72139be03746343bf5faa0",
-      "nameTag": ""
-    },
-    {
-      "address": "0x94db037207f6fb697dbd33524aadffd108819dc8",
-      "nameTag": ""
-    },
-    {
-      "address": "0x9b7df3a2df61e72df5c4d565a0e017d7c5c6e532",
-      "nameTag": ""
-    },
-    {
-      "address": "0x9cbe5b896d0c24acf41860b9e3df6750c2040a40",
-      "nameTag": ""
-    },
-    {
-      "address": "0x9e5b45e4872de2ee4b6ffbd06b3735501826b032",
-      "nameTag": ""
-    },
-    {
-      "address": "0xa6e8772af29b29b9202a073f8e36f447689beef6",
-      "nameTag": ""
-    },
-    {
-      "address": "0xb1ea5a3e5ea7fa1834d48058ecda26d8c59e8251",
-      "nameTag": ""
-    },
-    {
-      "address": "0xb55a948763e0d386b6defcd8070a522216ae42b1",
-      "nameTag": ""
-    },
-    {
-      "address": "0xb7abf554aefd4686639afcf2a653adfda3d9b038",
-      "nameTag": ""
-    },
-    {
-      "address": "0xc20687cd6fff6bcfe8032fda567c35f55543c2ac",
-      "nameTag": ""
-    },
-    {
-      "address": "0xc540eb6c7b3e44ef8a45db3ad8618404baed88f6",
-      "nameTag": ""
-    },
-    {
-      "address": "0xdab0d648a2a771e6952916a822dddf738b535f5a",
-      "nameTag": ""
-    },
-    {
-      "address": "0xdb5781a835b60110298ff7205d8ef9678ff1f800",
-      "nameTag": ""
-    },
-    {
-      "address": "0xdcf7be2ff93e1a7671724598b1526f3a33b1ec25",
-      "nameTag": ""
-    },
-    {
-      "address": "0xdf629daa1e3a099d4c87d7ba855e9561d2300032",
-      "nameTag": ""
-    },
-    {
-      "address": "0xe31b7439693889cae4490eb6e7ca88fb23b1d11b",
-      "nameTag": ""
-    },
-    {
-      "address": "0xed11e5ea95a5a3440fbaadc4cc404c56d0a5bb04",
-      "nameTag": ""
-    },
-    {
-      "address": "0xeef440ea127a0aabf70601c6c68c425c29d02018",
-      "nameTag": ""
-    },
-    {
-      "address": "0xf3f527b70af6012f328d3ede7fcd3f5f3ca6cba2",
-      "nameTag": ""
-    },
-    {
-      "address": "0xf417ace7b13c0ef4fcb5548390a450a4b75d3eb3",
-      "nameTag": ""
-    },
-    {
-      "address": "0xf9551c66995ed3ff9bb05c9fd7ff148bd75dc99a",
-      "nameTag": ""
-    },
-    {
-      "address": "0xfc61965861b679c5aa728d41fa6ea0b29544f554",
-      "nameTag": ""
-    },
-    {
-      "address": "0xfd4f24676ed4588928213f37b126b53c07186f45",
-      "nameTag": ""
-    },
-    {
-      "address": "0xd23199f1222c418ffc74c385171330b21b16e452",
-      "nameTag": "OptiDoge: Deployer"
-    }
-  ]
-}
+[
+  { "address": "0x01e6b505...278e808b8", "nameTag": "" },
+  { "address": "0x0331969e...227d748d8", "nameTag": "" },
+  { "address": "0x062a07cb...7e402233f", "nameTag": "" },
+  { "address": "0x070341aa...a46b4961b", "nameTag": "" },
+  { "address": "0x0f945782...8b7ed9230", "nameTag": "" },
+  { "address": "0x1372eda7...f56388824", "nameTag": "" },
+  { "address": "0x13838884...fab5eae2a", "nameTag": "" },
+  { "address": "0x1b686ee8...82788eead", "nameTag": "" },
+  { "address": "0x1d1a13b1...e89e342b2", "nameTag": "" },
+  { "address": "0x1de2a056...fa510795c", "nameTag": "" },
+  { "address": "0x2345f4e0...0156c29a9", "nameTag": "" },
+  { "address": "0x265c328b...4963e3a2e", "nameTag": "" },
+  { "address": "0x2b888954...d47537d12", "nameTag": "" },
+  { "address": "0x2fd8bd70...cbf17a58d", "nameTag": "" },
+  { "address": "0x406b6076...c6ab1c159", "nameTag": "" },
+  { "address": "0x429f9ada...0df808892", "nameTag": "" },
+  { "address": "0x45a10f35...118b7ccae", "nameTag": "" },
+  { "address": "0x46abfe1c...72f4bb4d1", "nameTag": "" },
+  { "address": "0x48a63097...a8192fab0", "nameTag": "" },
+  { "address": "0x4ac799e9...a5a444ae0", "nameTag": "" },
+  { "address": "0x512fce9b...40ec0f5f3", "nameTag": "" },
+  { "address": "0x523d0078...601274819", "nameTag": "" },
+  { "address": "0x5e349eca...6151a09ee", "nameTag": "" },
+  { "address": "0x62a43123...27996816a", "nameTag": "" },
+  { "address": "0x6cea5734...5799e6a60", "nameTag": "" },
+  { "address": "0x6eda5aca...0c186ca0c", "nameTag": "" },
+  { "address": "0x6fc69da0...1285cab88", "nameTag": "" },
+  { "address": "0x70d95a4e...f1cf57169", "nameTag": "" },
+  { "address": "0x75536cf4...db3af3ee5", "nameTag": "" },
+  { "address": "0x7899d9b1...c260f7474", "nameTag": "" },
+  { "address": "0x7ae109a6...85d22e585", "nameTag": "" },
+  { "address": "0x839395e2...a8f6f0780", "nameTag": "" },
+  { "address": "0x8c580556...f7658e7a2", "nameTag": "" },
+  { "address": "0x8f07bc36...d2fe94b76", "nameTag": "" },
+  { "address": "0x8f73be66...43bf5faa0", "nameTag": "" },
+  { "address": "0x94db0372...108819dc8", "nameTag": "" },
+  { "address": "0x9b7df3a2...7c5c6e532", "nameTag": "" },
+  { "address": "0x9cbe5b89...0c2040a40", "nameTag": "" },
+  { "address": "0x9e5b45e4...01826b032", "nameTag": "" },
+  { "address": "0xa6e8772a...7689beef6", "nameTag": "" },
+  { "address": "0xb1ea5a3e...8c59e8251", "nameTag": "" },
+  { "address": "0xb55a9487...216ae42b1", "nameTag": "" },
+  { "address": "0xb7abf554...da3d9b038", "nameTag": "" },
+  { "address": "0xc20687cd...55543c2ac", "nameTag": "" },
+  { "address": "0xc540eb6c...4baed88f6", "nameTag": "" },
+  { "address": "0xdab0d648...38b535f5a", "nameTag": "" },
+  { "address": "0xdb5781a8...78ff1f800", "nameTag": "" },
+  { "address": "0xdcf7be2f...a33b1ec25", "nameTag": "" },
+  { "address": "0xdf629daa...1d2300032", "nameTag": "" },
+  { "address": "0xe31b7439...b23b1d11b", "nameTag": "" },
+  { "address": "0xed11e5ea...6d0a5bb04", "nameTag": "" },
+  { "address": "0xeef440ea...c29d02018", "nameTag": "" },
+  { "address": "0xf3f527b7...f3ca6cba2", "nameTag": "" },
+  { "address": "0xf417ace7...4b75d3eb3", "nameTag": "" },
+  { "address": "0xf9551c66...bd75dc99a", "nameTag": "" },
+  { "address": "0xfc619658...29544f554", "nameTag": "" },
+  { "address": "0xfd4f2467...c07186f45", "nameTag": "" },
+  { "address": "0xd23199f1...21b16e452", "nameTag": "OptiDoge: Deployer" }
+]

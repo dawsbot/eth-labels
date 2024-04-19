@@ -1,9 +1,6 @@
-{
-  "lastPulled": "2024-04-02T20:51:51.853Z",
-  "data": [
-    {
-      "address": "0x91e64f39c1fe14492e8fdf5a8b0f305bd218c8a1",
-      "nameTag": "Vodi X Token"
-    }
-  ]
-}
+[
+  {
+    "address": "0x91e64f39c1fe14492e8fdf5a8b0f305bd218c8a1",
+    "nameTag": "Vodi X Token"
+  }
+]

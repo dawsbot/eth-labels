@@ -1,105 +1,102 @@
-{
-  "lastPulled": "2024-04-02T20:47:51.624Z",
-  "data": [
-    {
-      "address": "0x2c6c5809a257ea74a2df6d20aee6119196d4bea0",
-      "nameTag": "Bankless DAO: Oracle DAO Node"
-    },
-    {
-      "address": "0xed7820defdffd1ec5ac922a0db721308fdaf509c",
-      "nameTag": "Bankless DAO: Oracle DAO Rewards"
-    },
-    {
-      "address": "0xd7f94c53691afb5a616c6af96e7075c1ffa1d8ee",
-      "nameTag": "beaconcha.in: Oracle DAO Node"
-    },
-    {
-      "address": "0xb13fa6eff52e6db8e9f0f1b60b744a9a9a01425a",
-      "nameTag": "Blockchain Capital: Oracle DAO Node"
-    },
-    {
-      "address": "0x9e3421274fb4053a83917d62bd368332e9e71fe0",
-      "nameTag": "Blockchain Capital: Oracle DAO Rewards"
-    },
-    {
-      "address": "0xdf590a63b91e8278a9102bee9aafd444f8a4b780",
-      "nameTag": "Consensys: Oracle DAO Node"
-    },
-    {
-      "address": "0x5bc5ec5130f66f13d5c21ac6811a7e624ed3c7c6",
-      "nameTag": "Consensys: Oracle DAO Rewards"
-    },
-    {
-      "address": "0x1df9a4f9421ae6306bc7b171dff8470640f96e72",
-      "nameTag": "CryptoManufaktur: Oracle DAO Node"
-    },
-    {
-      "address": "0xaf820bb236fde6f084641c74a4c62fa61d10b293",
-      "nameTag": "Etherscan: Oracle DAO Node"
-    },
-    {
-      "address": "0x0807e8c52b7a5c339d3ec7385a11b29f0559a56e",
-      "nameTag": "Etherscan: Oracle DAO Rewards"
-    },
-    {
-      "address": "0x9c69e7fce961fd837f99c808ad75ed39a2c549cb",
-      "nameTag": "Fire Eyes DAO: Oracle DAO Node"
-    },
-    {
-      "address": "0xd3da82834a619bc2e5d2c7f9ace101a43a44cd8d",
-      "nameTag": "Fire Eyes DAO: Oracle DAO Rewards"
-    },
-    {
-      "address": "0xc5d291607600044348e5014404cc18394bd1d57d",
-      "nameTag": "Lighthouse: Oracle DAO Node"
-    },
-    {
-      "address": "0x273e82c4b0661b3d656e9353f7c8643723f93ca2",
-      "nameTag": "Lighthouse: Oracle DAO Rewards"
-    },
-    {
-      "address": "0xb3a533098485bede3cb7fa8711af84fe0bb1e0ad",
-      "nameTag": "Nimbus: Oracle DAO Node"
-    },
-    {
-      "address": "0x95ffccd818e469844ccd94b96ed0d325aaeb87a2",
-      "nameTag": "Nimbus: Oracle DAO Rewards"
-    },
-    {
-      "address": "0xfe1f75e8e3c4516c8526911f9cec0f0570588aea",
-      "nameTag": "Rocket Pool: Oracle DAO Node 1"
-    },
-    {
-      "address": "0xccbff44e0f0329527feb0167bc8744d7d5aed3e9",
-      "nameTag": "Rocket Pool: Oracle DAO Node 2"
-    },
-    {
-      "address": "0x8b371a3bbe75ee4746a191aee69400f8ebb99eeb",
-      "nameTag": "Rocket Pool: Oracle DAO Node 3"
-    },
-    {
-      "address": "0x8d074ad69b55dd57da2708306f1c200ae1803359",
-      "nameTag": "Rocket Pool: Oracle DAO Node 4"
-    },
-    {
-      "address": "0xd2a4848a6644749e652c1d9398b5aa317f57395b",
-      "nameTag": "Rocket Pool: Oracle DAO Rewards 1"
-    },
-    {
-      "address": "0x2a1af071ef61a7003fa57df47d93ad82b66344b7",
-      "nameTag": "Rocket Pool: Oracle DAO Rewards 4"
-    },
-    {
-      "address": "0xb8e783882b11ff4f6cef3c501ea0f4b960152cc9",
-      "nameTag": "Rocket Pool: Trusted Node"
-    },
-    {
-      "address": "0x5b9b2494060138470a2b834f6003c0343a585349",
-      "nameTag": "Rocket Pool: Trusted Node Actions"
-    },
-    {
-      "address": "0x751683968fd078341c48b90bc657d6babc2339f7",
-      "nameTag": "Superphiz: Oracle DAO Node"
-    }
-  ]
-}
+[
+  {
+    "address": "0x2c6c5809a257ea74a2df6d20aee6119196d4bea0",
+    "nameTag": "Bankless DAO: Oracle DAO Node"
+  },
+  {
+    "address": "0xed7820defdffd1ec5ac922a0db721308fdaf509c",
+    "nameTag": "Bankless DAO: Oracle DAO Rewards"
+  },
+  {
+    "address": "0xd7f94c53691afb5a616c6af96e7075c1ffa1d8ee",
+    "nameTag": "beaconcha.in: Oracle DAO Node"
+  },
+  {
+    "address": "0xb13fa6eff52e6db8e9f0f1b60b744a9a9a01425a",
+    "nameTag": "Blockchain Capital: Oracle DAO Node"
+  },
+  {
+    "address": "0x9e3421274fb4053a83917d62bd368332e9e71fe0",
+    "nameTag": "Blockchain Capital: Oracle DAO Rewards"
+  },
+  {
+    "address": "0xdf590a63b91e8278a9102bee9aafd444f8a4b780",
+    "nameTag": "Consensys: Oracle DAO Node"
+  },
+  {
+    "address": "0x5bc5ec5130f66f13d5c21ac6811a7e624ed3c7c6",
+    "nameTag": "Consensys: Oracle DAO Rewards"
+  },
+  {
+    "address": "0x1df9a4f9421ae6306bc7b171dff8470640f96e72",
+    "nameTag": "CryptoManufaktur: Oracle DAO Node"
+  },
+  {
+    "address": "0xaf820bb236fde6f084641c74a4c62fa61d10b293",
+    "nameTag": "Etherscan: Oracle DAO Node"
+  },
+  {
+    "address": "0x0807e8c52b7a5c339d3ec7385a11b29f0559a56e",
+    "nameTag": "Etherscan: Oracle DAO Rewards"
+  },
+  {
+    "address": "0x9c69e7fce961fd837f99c808ad75ed39a2c549cb",
+    "nameTag": "Fire Eyes DAO: Oracle DAO Node"
+  },
+  {
+    "address": "0xd3da82834a619bc2e5d2c7f9ace101a43a44cd8d",
+    "nameTag": "Fire Eyes DAO: Oracle DAO Rewards"
+  },
+  {
+    "address": "0xc5d291607600044348e5014404cc18394bd1d57d",
+    "nameTag": "Lighthouse: Oracle DAO Node"
+  },
+  {
+    "address": "0x273e82c4b0661b3d656e9353f7c8643723f93ca2",
+    "nameTag": "Lighthouse: Oracle DAO Rewards"
+  },
+  {
+    "address": "0xb3a533098485bede3cb7fa8711af84fe0bb1e0ad",
+    "nameTag": "Nimbus: Oracle DAO Node"
+  },
+  {
+    "address": "0x95ffccd818e469844ccd94b96ed0d325aaeb87a2",
+    "nameTag": "Nimbus: Oracle DAO Rewards"
+  },
+  {
+    "address": "0xfe1f75e8e3c4516c8526911f9cec0f0570588aea",
+    "nameTag": "Rocket Pool: Oracle DAO Node 1"
+  },
+  {
+    "address": "0xccbff44e0f0329527feb0167bc8744d7d5aed3e9",
+    "nameTag": "Rocket Pool: Oracle DAO Node 2"
+  },
+  {
+    "address": "0x8b371a3bbe75ee4746a191aee69400f8ebb99eeb",
+    "nameTag": "Rocket Pool: Oracle DAO Node 3"
+  },
+  {
+    "address": "0x8d074ad69b55dd57da2708306f1c200ae1803359",
+    "nameTag": "Rocket Pool: Oracle DAO Node 4"
+  },
+  {
+    "address": "0xd2a4848a6644749e652c1d9398b5aa317f57395b",
+    "nameTag": "Rocket Pool: Oracle DAO Rewards 1"
+  },
+  {
+    "address": "0x2a1af071ef61a7003fa57df47d93ad82b66344b7",
+    "nameTag": "Rocket Pool: Oracle DAO Rewards 4"
+  },
+  {
+    "address": "0xb8e783882b11ff4f6cef3c501ea0f4b960152cc9",
+    "nameTag": "Rocket Pool: Trusted Node"
+  },
+  {
+    "address": "0x5b9b2494060138470a2b834f6003c0343a585349",
+    "nameTag": "Rocket Pool: Trusted Node Actions"
+  },
+  {
+    "address": "0x751683968fd078341c48b90bc657d6babc2339f7",
+    "nameTag": "Superphiz: Oracle DAO Node"
+  }
+]

@@ -1,25 +1,22 @@
-{
-  "lastPulled": "2024-04-02T20:42:45.032Z",
-  "data": [
-    {
-      "address": "0x443d2f2755db5942601fa062cc248aaa153313d3",
-      "nameTag": "Empty Set Dollar: DAO"
-    },
-    {
-      "address": "0x36f3fd68e7325a35eb768f1aedaae9ea0689d723",
-      "nameTag": "Empty Set Dollar: ESD Token"
-    },
-    {
-      "address": "0x7d72243247aedb0d1d35787a2942107dd76338d8",
-      "nameTag": "Empty Set Dollar: Implementation"
-    },
-    {
-      "address": "0xdf0ae5504a48ab9f913f8490fbef1b9333a68e68",
-      "nameTag": "Empty Set Dollar: LP Incentivization Pool"
-    },
-    {
-      "address": "0xea9f8bb8b5e8ba3d38628f0e18ee82300eddba0e",
-      "nameTag": "Empty Set Dollar: Oracle"
-    }
-  ]
-}
+[
+  {
+    "address": "0x443d2f2755db5942601fa062cc248aaa153313d3",
+    "nameTag": "Empty Set Dollar: DAO"
+  },
+  {
+    "address": "0x36f3fd68e7325a35eb768f1aedaae9ea0689d723",
+    "nameTag": "Empty Set Dollar: ESD Token"
+  },
+  {
+    "address": "0x7d72243247aedb0d1d35787a2942107dd76338d8",
+    "nameTag": "Empty Set Dollar: Implementation"
+  },
+  {
+    "address": "0xdf0ae5504a48ab9f913f8490fbef1b9333a68e68",
+    "nameTag": "Empty Set Dollar: LP Incentivization Pool"
+  },
+  {
+    "address": "0xea9f8bb8b5e8ba3d38628f0e18ee82300eddba0e",
+    "nameTag": "Empty Set Dollar: Oracle"
+  }
+]

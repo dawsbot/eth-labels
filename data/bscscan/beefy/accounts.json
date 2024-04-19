@@ -1,58 +1,54 @@
-{
-  "lastPulled": "2024-04-03T06:28:24.719Z",
-  "length": 13,
-  "data": [
-    {
-      "address": "0x7c780b8a63ee9b7d0f985e8a922be38a1f7b2141",
-      "nameTag": "Beefy.Finance: Multisig"
-    },
-    {
-      "address": "0x1263f0bffe2d740ea3279416d0e84943b66958eb",
-      "nameTag": "Beefy: BIFI Initial Distribution BNB-BUSD"
-    },
-    {
-      "address": "0x38191ea2a077d86b3df410379f8c0bb130683116",
-      "nameTag": "Beefy: BIFI Initial Distribution CREAM"
-    },
-    {
-      "address": "0x50013da75ac4224b5c49fe197bfaf68c16e19d6e",
-      "nameTag": "Beefy: BIFI Initial Distribution ETH"
-    },
-    {
-      "address": "0x44bbca30aea5f2d226668c197053db3fa9ec9771",
-      "nameTag": "Beefy: BIFI Initial Distribution LINK"
-    },
-    {
-      "address": "0x55bb4ff561ce7d328ed10af322a14dc9c972f653",
-      "nameTag": "Beefy: BIFI Initial Distribution WBNB"
-    },
-    {
-      "address": "0xca3f508b8e4dd382ee878a314789373d80a5190a",
-      "nameTag": "Beefy: BIFI Token"
-    },
-    {
-      "address": "0x4a32de8c248533c28904b24b4cfcfe18e9f2ad01",
-      "nameTag": "Beefy: Community Treasury"
-    },
-    {
-      "address": "0x565eb5e5b21f97ae9200d121e77d2760fff106cb",
-      "nameTag": "Beefy: Deployer"
-    },
-    {
-      "address": "0x2b8c4ad8053b7933cfde936f16abc55bb5f694c6",
-      "nameTag": "Beefy: Initial Distribution BNB-SPARTA"
-    },
-    {
-      "address": "0x453d4ba9a2d594314df88564248497f7d74d6b2c",
-      "nameTag": "Beefy: Staking Contract"
-    },
-    {
-      "address": "0x4dece2b4c14083250f5a68faa18372563d174fea",
-      "nameTag": "Beefy: Time Lock 1"
-    },
-    {
-      "address": "0x48091c485eb842c86805251a5d68993bf49c90a1",
-      "nameTag": "Beefy: Time Lock 2"
-    }
-  ]
-}
+[
+  {
+    "address": "0x7c780b8a63ee9b7d0f985e8a922be38a1f7b2141",
+    "nameTag": "Beefy.Finance: Multisig"
+  },
+  {
+    "address": "0x1263f0bffe2d740ea3279416d0e84943b66958eb",
+    "nameTag": "Beefy: BIFI Initial Distribution BNB-BUSD"
+  },
+  {
+    "address": "0x38191ea2a077d86b3df410379f8c0bb130683116",
+    "nameTag": "Beefy: BIFI Initial Distribution CREAM"
+  },
+  {
+    "address": "0x50013da75ac4224b5c49fe197bfaf68c16e19d6e",
+    "nameTag": "Beefy: BIFI Initial Distribution ETH"
+  },
+  {
+    "address": "0x44bbca30aea5f2d226668c197053db3fa9ec9771",
+    "nameTag": "Beefy: BIFI Initial Distribution LINK"
+  },
+  {
+    "address": "0x55bb4ff561ce7d328ed10af322a14dc9c972f653",
+    "nameTag": "Beefy: BIFI Initial Distribution WBNB"
+  },
+  {
+    "address": "0xca3f508b8e4dd382ee878a314789373d80a5190a",
+    "nameTag": "Beefy: BIFI Token"
+  },
+  {
+    "address": "0x4a32de8c248533c28904b24b4cfcfe18e9f2ad01",
+    "nameTag": "Beefy: Community Treasury"
+  },
+  {
+    "address": "0x565eb5e5b21f97ae9200d121e77d2760fff106cb",
+    "nameTag": "Beefy: Deployer"
+  },
+  {
+    "address": "0x2b8c4ad8053b7933cfde936f16abc55bb5f694c6",
+    "nameTag": "Beefy: Initial Distribution BNB-SPARTA"
+  },
+  {
+    "address": "0x453d4ba9a2d594314df88564248497f7d74d6b2c",
+    "nameTag": "Beefy: Staking Contract"
+  },
+  {
+    "address": "0x4dece2b4c14083250f5a68faa18372563d174fea",
+    "nameTag": "Beefy: Time Lock 1"
+  },
+  {
+    "address": "0x48091c485eb842c86805251a5d68993bf49c90a1",
+    "nameTag": "Beefy: Time Lock 2"
+  }
+]

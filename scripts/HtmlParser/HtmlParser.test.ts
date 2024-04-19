@@ -12,6 +12,8 @@ const polygonDirectory = "mocks/polygon";
 const bscscanDirectory = "mocks/bscscan";
 const gnosisDirectory = "mocks/gnosisscan";
 const ftmscanDirectory = "mocks/ftmscan";
+const lineaDirectory = "mocks/linea";
+const scrollDirectory = "mocks/scroll";
 
 function getMocks(directory: string) {
   return {
@@ -30,6 +32,81 @@ const polygonMocks = getMocks(polygonDirectory);
 const bscscanMocks = getMocks(bscscanDirectory);
 const gnosisMocks = getMocks(gnosisDirectory);
 const ftmMocks = getMocks(ftmscanDirectory);
+const lineaMocks = getMocks(lineaDirectory);
+const scrollMocks = getMocks(scrollDirectory);
+
+describe("scroll", () => {
+  const htmlParser = scanConfig.scroll.htmlParser;
+  test("should parse labelcloud", () => {
+    const allLabels = htmlParser.selectAllLabels(
+      scrollMocks.mockLabelCloudHtml,
+    );
+    expect(allLabels).toHaveLength(11);
+    expect(allLabels[0]).toBe(`/accounts/label/contract-deployer?size=10000`);
+  });
+  test("should parse account addresses", () => {
+    const accountRows = htmlParser.selectAllAccountAddresses(
+      scrollMocks.mockAccountsHtml,
+    );
+    expect(accountRows).toHaveLength(4);
+
+    expect(accountRows).toContainEqual({
+      address: "0x30c5322e4e08ad500c348007f92f120ab4e2b79e",
+      nameTag: "KyberSwap: Zap In Router",
+    });
+    expect(accountRows).toContainEqual({
+      address: "0xaa96267806d5be3941bf9d8e4efc3dc8eb2bda0f",
+      nameTag: "KyberSwap: Operations",
+    });
+  });
+  test("should parse token addresses", () => {
+    const tokenRows = htmlParser.selectAllTokenAddresses(
+      scrollMocks.mockTokensHtml,
+    );
+
+    expect(tokenRows).toHaveLength(1);
+    expect(tokenRows).toContainEqual({
+      address: "0x5300000000000000000000000000000000000004",
+      tokenName: "Wrapped Ether",
+      tokenSymbol: "WETH",
+      website: "https://weth.io/",
+    });
+  });
+});
+
+describe("linea", () => {
+  const htmlParser = scanConfig.linea.htmlParser;
+  test("should parse labelcloud", () => {
+    const allLabels = htmlParser.selectAllLabels(lineaMocks.mockLabelCloudHtml);
+
+    expect(allLabels).toHaveLength(44);
+    expect(allLabels[0]).toBe(`/tokens/label/art?size=100`);
+  });
+  test("should parse account addresses", () => {
+    const accountRows = htmlParser.selectAllAccountAddresses(
+      lineaMocks.mockAccountsHtml,
+    );
+    expect(accountRows).toHaveLength(31);
+
+    expect(accountRows).toContainEqual({
+      address: "0x68592c5c98c4f4a8a4bc6da2121e65da3d1c0917",
+      nameTag: "Stable: USDLR Token",
+    });
+  });
+  test("should parse token addresses", () => {
+    const tokenRows = htmlParser.selectAllTokenAddresses(
+      lineaMocks.mockTokensHtml,
+    );
+
+    expect(tokenRows).toHaveLength(14);
+    expect(tokenRows).toContainEqual({
+      address: "0x7a6aa80b49017f3e091574ab5c6977d863ff3865",
+      tokenName: "US KUMA Interest Bearing Token",
+      tokenSymbol: "USK",
+      website: "https://kuma.bond/",
+    });
+  });
+});
 
 describe("celo", () => {
   const htmlParser = scanConfig.celo.htmlParser;

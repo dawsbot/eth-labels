@@ -1,9 +1,6 @@
-{
-  "lastPulled": "2024-04-02T20:51:34.800Z",
-  "data": [
-    {
-      "address": "0xfa19fb4d871af87cc737499bceee041453f2fb6b",
-      "nameTag": "Unipass: ERC-4337 Bundler 1"
-    }
-  ]
-}
+[
+  {
+    "address": "0xfa19fb4d871af87cc737499bceee041453f2fb6b",
+    "nameTag": "Unipass: ERC-4337 Bundler 1"
+  }
+]

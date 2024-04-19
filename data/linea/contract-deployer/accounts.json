@@ -1,0 +1,79 @@
+[
+  { "address": "0x58b529f9084d7eaa598eb3477fe36064c5b7bbc1", "nameTag": "" },
+  {
+    "address": "0xfb3485c2e209a5cfbdc1447674256578f1a80ee3",
+    "nameTag": "Abracadabra Money: Deployer"
+  },
+  {
+    "address": "0xc451b0191351ce308fdfd779d73814c910fc5ecb",
+    "nameTag": "DeversiFi: Deployer"
+  },
+  {
+    "address": "0x0ff213846d42528a4ca24f8079f85b8044acfa7b",
+    "nameTag": "Dmail Network: Deployer"
+  },
+  {
+    "address": "0x79619366bf9b7cfc231279ea36038448389874d5",
+    "nameTag": "Echodex: Deployer"
+  },
+  {
+    "address": "0xb28837949e7a3f1ac862036e8a0ae392c9ff9bb4",
+    "nameTag": "Ethos: Deployer"
+  },
+  {
+    "address": "0x143f8cfb7e91b7836d90a06fe0e2cf8728d61fb0",
+    "nameTag": "Frogwifcat: Deployer"
+  },
+  {
+    "address": "0xaf6a742a5d3ff6a24d326da149bf3e38ece57e46",
+    "nameTag": "HAPI: Deployer"
+  },
+  {
+    "address": "0xb19d4d95a26b8c353039c8cd01f0b158555cf4fe",
+    "nameTag": "Horizondex: Deployer"
+  },
+  {
+    "address": "0x8312fdda806a39dfa472f21efbaac8bdfc85eef6",
+    "nameTag": "Huralya: Deployer"
+  },
+  {
+    "address": "0x263dcdc51808cd4389b7fa9cb46d9408d9da421c",
+    "nameTag": "Kyber Network: Deployer"
+  },
+  {
+    "address": "0xd40846a19fdc9c8255dccd18bcbb261bdbf5e4db",
+    "nameTag": "Leetswap: Deployer"
+  },
+  {
+    "address": "0x76e1bafa3c3271c7f3b1b247efbe9e52a9a8c449",
+    "nameTag": "Linea Bank: Deployer"
+  },
+  {
+    "address": "0x7919ffb3a56b96f5621b6701cf0571e43d09185a",
+    "nameTag": "Linea Kishu: Deployer"
+  },
+  {
+    "address": "0x49ee40140e522651744e1c27828c76ee92802833",
+    "nameTag": "Linea: Bridged Token Deployer"
+  },
+  {
+    "address": "0x83fd7b993f408e23d4c146896a951830619a5bc9",
+    "nameTag": "Linea: Deployer 1"
+  },
+  {
+    "address": "0xcd0b087e113152324fca962488b4d9beb6f4caf6",
+    "nameTag": "NFTEarth: Deployer"
+  },
+  {
+    "address": "0x0d89981efffa2e95b8553ff44e8211e2a3ace172",
+    "nameTag": "NoobysSwap: Deployer"
+  },
+  {
+    "address": "0x67b17e633f2934818fb068a4211d802e8f88417e",
+    "nameTag": "Stable: Deployer"
+  },
+  {
+    "address": "0xdd561195aa0f719de3735568c3cd46d8836c6b35",
+    "nameTag": "WeFi: Deployer"
+  }
+]

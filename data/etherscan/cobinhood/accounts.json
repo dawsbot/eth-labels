@@ -1,21 +1,18 @@
-{
-  "lastPulled": "2024-04-02T20:40:57.824Z",
-  "data": [
-    {
-      "address": "0x8958618332df62af93053cb9c535e26462c959b0",
-      "nameTag": "Cobinhood 1"
-    },
-    {
-      "address": "0xb726da4fbdc3e4dbda97bb20998cf899b0e727e0",
-      "nameTag": "Cobinhood 2"
-    },
-    {
-      "address": "0xb2f7eb1f2c37645be61d73953035360e768d81e6",
-      "nameTag": "Cobinhood: COB Token"
-    },
-    {
-      "address": "0x0bb9fc3ba7bcf6e5d6f6fc15123ff8d5f96cee00",
-      "nameTag": "Cobinhood: MultiSig"
-    }
-  ]
-}
+[
+  {
+    "address": "0x8958618332df62af93053cb9c535e26462c959b0",
+    "nameTag": "Cobinhood 1"
+  },
+  {
+    "address": "0xb726da4fbdc3e4dbda97bb20998cf899b0e727e0",
+    "nameTag": "Cobinhood 2"
+  },
+  {
+    "address": "0xb2f7eb1f2c37645be61d73953035360e768d81e6",
+    "nameTag": "Cobinhood: COB Token"
+  },
+  {
+    "address": "0x0bb9fc3ba7bcf6e5d6f6fc15123ff8d5f96cee00",
+    "nameTag": "Cobinhood: MultiSig"
+  }
+]

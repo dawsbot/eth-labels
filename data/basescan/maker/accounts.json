@@ -1,9 +1,6 @@
-{
-  "lastPulled": "2024-04-02T20:55:09.965Z",
-  "data": [
-    {
-      "address": "0x50c5725949a6f0c72e6c4a641f24049a917db0cb",
-      "nameTag": "Maker: DAI Token"
-    }
-  ]
-}
+[
+  {
+    "address": "0x50c5725949a6f0c72e6c4a641f24049a917db0cb",
+    "nameTag": "Maker: DAI Token"
+  }
+]

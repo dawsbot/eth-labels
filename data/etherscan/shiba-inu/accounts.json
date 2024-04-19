@@ -1,45 +1,42 @@
-{
-  "lastPulled": "2024-04-02T20:49:36.911Z",
-  "data": [
-    {
-      "address": "0xb8f226ddb7bc672e27dffb67e4adabfa8c0dfa08",
-      "nameTag": "Shiba Inu: Deployer"
-    },
-    {
-      "address": "0xa221af4a429b734abb1cc53fbd0c1d0fa47e1494",
-      "nameTag": "Shiba Inu: Deployer 1"
-    },
-    {
-      "address": "0xc7d0445ac2947760b3dd388b8586adf079972bf3",
-      "nameTag": "Shiba Inu: Deployer 2"
-    },
-    {
-      "address": "0xc351155c80acd043bd5f8fe7ffc8536af1ff9375",
-      "nameTag": "Shiba Inu: Donate"
-    },
-    {
-      "address": "0x0e906a0a798429fe5aa81e5052a5898dd0473907",
-      "nameTag": "Shiba Inu: Fetch"
-    },
-    {
-      "address": "0x27c70cd1946795b66be9d954418546998b546634",
-      "nameTag": "Shiba Inu: LEASH Token"
-    },
-    {
-      "address": "0x94235659cf8b805b2c658f9ea2d6d6ddbb17c8d7",
-      "nameTag": "Shiba Inu: Migrator"
-    },
-    {
-      "address": "0x95ad61b0a150d79219dcf64e1e6cc01f0b64c4ce",
-      "nameTag": "Shiba Inu: SHIB Token"
-    },
-    {
-      "address": "0x03f7724180aa6b939894b5ca4314783b0b36b329",
-      "nameTag": "Shiba Inu: ShibaSwap"
-    },
-    {
-      "address": "0xb4a81261b16b92af0b9f7c4a83f1e885132d81e4",
-      "nameTag": "Shiba Inu: xSHIB Token"
-    }
-  ]
-}
+[
+  {
+    "address": "0xb8f226ddb7bc672e27dffb67e4adabfa8c0dfa08",
+    "nameTag": "Shiba Inu: Deployer"
+  },
+  {
+    "address": "0xa221af4a429b734abb1cc53fbd0c1d0fa47e1494",
+    "nameTag": "Shiba Inu: Deployer 1"
+  },
+  {
+    "address": "0xc7d0445ac2947760b3dd388b8586adf079972bf3",
+    "nameTag": "Shiba Inu: Deployer 2"
+  },
+  {
+    "address": "0xc351155c80acd043bd5f8fe7ffc8536af1ff9375",
+    "nameTag": "Shiba Inu: Donate"
+  },
+  {
+    "address": "0x0e906a0a798429fe5aa81e5052a5898dd0473907",
+    "nameTag": "Shiba Inu: Fetch"
+  },
+  {
+    "address": "0x27c70cd1946795b66be9d954418546998b546634",
+    "nameTag": "Shiba Inu: LEASH Token"
+  },
+  {
+    "address": "0x94235659cf8b805b2c658f9ea2d6d6ddbb17c8d7",
+    "nameTag": "Shiba Inu: Migrator"
+  },
+  {
+    "address": "0x95ad61b0a150d79219dcf64e1e6cc01f0b64c4ce",
+    "nameTag": "Shiba Inu: SHIB Token"
+  },
+  {
+    "address": "0x03f7724180aa6b939894b5ca4314783b0b36b329",
+    "nameTag": "Shiba Inu: ShibaSwap"
+  },
+  {
+    "address": "0xb4a81261b16b92af0b9f7c4a83f1e885132d81e4",
+    "nameTag": "Shiba Inu: xSHIB Token"
+  }
+]

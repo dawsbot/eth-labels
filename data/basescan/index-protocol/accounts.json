@@ -1,57 +1,54 @@
-{
-  "lastPulled": "2024-04-02T20:55:06.140Z",
-  "data": [
-    {
-      "address": "0xe44c15131b6b93d6940c578b17a1ff3ac9aa2321",
-      "nameTag": "Index Protocol: Auction Rebalance Module V1"
-    },
-    {
-      "address": "0x76d32e9d5a1e5b6b319caf56cec30328e87c9911",
-      "nameTag": "Index Protocol: Constant Price Adapter"
-    },
-    {
-      "address": "0x1246553a53cd2897eb26bee87a0db0fb456f39d1",
-      "nameTag": "Index Protocol: Controller"
-    },
-    {
-      "address": "0x22b79ffd86398925a44680ea0a3a8a64bd2be522",
-      "nameTag": "Index Protocol: Debt Issuance Module V2"
-    },
-    {
-      "address": "0x84c2fdc15e70cbc09a874f2501f7744a673c4184",
-      "nameTag": "Index Protocol: Exponential Price Adapter"
-    },
-    {
-      "address": "0x37e6365d4f6ae378467b0e24c9065ce5f06d70bf",
-      "nameTag": "Index Protocol: Index Deployer"
-    },
-    {
-      "address": "0x3f7e30d50eccc41e6e8f7d149058530e10949600",
-      "nameTag": "Index Protocol: Integration Registry"
-    },
-    {
-      "address": "0x6ab1a997df5637810f5ceb0cc25a28addcd75a82",
-      "nameTag": "Index Protocol: Linear Price Adapter"
-    },
-    {
-      "address": "0xbadb58c57d0a01f92876713a592e54c7a42884da",
-      "nameTag": "Index Protocol: Logarithmic Price Adapter"
-    },
-    {
-      "address": "0x53e6dce67765c11d3380840529da725cda808cb4",
-      "nameTag": "Index Protocol: Set Token Creator"
-    },
-    {
-      "address": "0x4580dbe79b8fcb1282eb43113536d62e882fc044",
-      "nameTag": "Index Protocol: Streaming Fee Module"
-    },
-    {
-      "address": "0xd8df81bd8e51b83a7afd88f8c88f9cf0c93f8a11",
-      "nameTag": "Index Protocol: Trade Module"
-    },
-    {
-      "address": "0xc2d39100b94c839b34adb45c84cecaffe07cb02c",
-      "nameTag": "Index Protocol: Uniswap V3 Exchange Adapter V2"
-    }
-  ]
-}
+[
+  {
+    "address": "0xe44c15131b6b93d6940c578b17a1ff3ac9aa2321",
+    "nameTag": "Index Protocol: Auction Rebalance Module V1"
+  },
+  {
+    "address": "0x76d32e9d5a1e5b6b319caf56cec30328e87c9911",
+    "nameTag": "Index Protocol: Constant Price Adapter"
+  },
+  {
+    "address": "0x1246553a53cd2897eb26bee87a0db0fb456f39d1",
+    "nameTag": "Index Protocol: Controller"
+  },
+  {
+    "address": "0x22b79ffd86398925a44680ea0a3a8a64bd2be522",
+    "nameTag": "Index Protocol: Debt Issuance Module V2"
+  },
+  {
+    "address": "0x84c2fdc15e70cbc09a874f2501f7744a673c4184",
+    "nameTag": "Index Protocol: Exponential Price Adapter"
+  },
+  {
+    "address": "0x37e6365d4f6ae378467b0e24c9065ce5f06d70bf",
+    "nameTag": "Index Protocol: Index Deployer"
+  },
+  {
+    "address": "0x3f7e30d50eccc41e6e8f7d149058530e10949600",
+    "nameTag": "Index Protocol: Integration Registry"
+  },
+  {
+    "address": "0x6ab1a997df5637810f5ceb0cc25a28addcd75a82",
+    "nameTag": "Index Protocol: Linear Price Adapter"
+  },
+  {
+    "address": "0xbadb58c57d0a01f92876713a592e54c7a42884da",
+    "nameTag": "Index Protocol: Logarithmic Price Adapter"
+  },
+  {
+    "address": "0x53e6dce67765c11d3380840529da725cda808cb4",
+    "nameTag": "Index Protocol: Set Token Creator"
+  },
+  {
+    "address": "0x4580dbe79b8fcb1282eb43113536d62e882fc044",
+    "nameTag": "Index Protocol: Streaming Fee Module"
+  },
+  {
+    "address": "0xd8df81bd8e51b83a7afd88f8c88f9cf0c93f8a11",
+    "nameTag": "Index Protocol: Trade Module"
+  },
+  {
+    "address": "0xc2d39100b94c839b34adb45c84cecaffe07cb02c",
+    "nameTag": "Index Protocol: Uniswap V3 Exchange Adapter V2"
+  }
+]

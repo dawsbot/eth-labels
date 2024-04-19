@@ -1,38 +1,28 @@
-{
-  "lastPulled": "2024-04-03T06:29:03.408Z",
-  "length": 8,
-  "data": [
-    {
-      "address": "0x54aff400858dcac39797a81894d9920f16972d1d",
-      "nameTag": ""
-    },
-    {
-      "address": "0x86ef5e73edb2fea111909fe35afcc564572acc06",
-      "nameTag": ""
-    },
-    {
-      "address": "0x2f07969090a2e9247c761747ea2358e5bb033460",
-      "nameTag": "ApeSwap: Timelock"
-    },
-    {
-      "address": "0x43a5cfb83d0decaaead90e0cc6dca60a2405442b",
-      "nameTag": "Dopex : Legacy BNB SSOV"
-    },
-    {
-      "address": "0x29037dce9ff2eb848403a090c7d4ebe4d8d6320f",
-      "nameTag": "Dopex : Legacy BNB SSOV Router"
-    },
-    {
-      "address": "0x1ae81a9ca1585c2aca1d81a66aa5975ba789bf96",
-      "nameTag": "Dopex : Legacy BNB SSOV Router 2"
-    },
-    {
-      "address": "0xa007a9716dba05289df85a90d0fd9d39bee808de",
-      "nameTag": "Frax Finance:Fraxswap Factory V1"
-    },
-    {
-      "address": "0x0ae84c1a6e142ed90f8a35a7e7b216cb25469e37",
-      "nameTag": "Frax Finance:Fraxswap Router V1"
-    }
-  ]
-}
+[
+  { "address": "0x54aff400858dcac39797a81894d9920f16972d1d", "nameTag": "" },
+  { "address": "0x86ef5e73edb2fea111909fe35afcc564572acc06", "nameTag": "" },
+  {
+    "address": "0x2f07969090a2e9247c761747ea2358e5bb033460",
+    "nameTag": "ApeSwap: Timelock"
+  },
+  {
+    "address": "0x43a5cfb83d0decaaead90e0cc6dca60a2405442b",
+    "nameTag": "Dopex : Legacy BNB SSOV"
+  },
+  {
+    "address": "0x29037dce9ff2eb848403a090c7d4ebe4d8d6320f",
+    "nameTag": "Dopex : Legacy BNB SSOV Router"
+  },
+  {
+    "address": "0x1ae81a9ca1585c2aca1d81a66aa5975ba789bf96",
+    "nameTag": "Dopex : Legacy BNB SSOV Router 2"
+  },
+  {
+    "address": "0xa007a9716dba05289df85a90d0fd9d39bee808de",
+    "nameTag": "Frax Finance:Fraxswap Factory V1"
+  },
+  {
+    "address": "0x0ae84c1a6e142ed90f8a35a7e7b216cb25469e37",
+    "nameTag": "Frax Finance:Fraxswap Router V1"
+  }
+]

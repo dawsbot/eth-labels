@@ -1,77 +1,71 @@
-{
-  "lastPulled": "2024-04-02T20:52:05.351Z",
-  "data": [
-    {
-      "address": "0xe3adaa4fb7c92ab833ee08b3561d9c434aa2a3ee",
-      "nameTag": ""
-    },
-    {
-      "address": "0xb9f747162ab1e95d07361f9048bcdf6edda9eea7",
-      "nameTag": "Wormhole: ATLAS Token"
-    },
-    {
-      "address": "0x7b4b0b9b024109d182dcf3831222fbda81369423",
-      "nameTag": "Wormhole: BUSD Token"
-    },
-    {
-      "address": "0xbd31ea8212119f94a611fa969881cba3ea06fa3d",
-      "nameTag": "Wormhole: LUNA Token"
-    },
-    {
-      "address": "0x756bfb452cfe36a5bc82e4f5f4261a89a18c242b",
-      "nameTag": "Wormhole: mSOL Token"
-    },
-    {
-      "address": "0xe617dd80c621a5072bd8cba65e9d76c07327004d",
-      "nameTag": "Wormhole: RAY Token"
-    },
-    {
-      "address": "0xd31a59c85ae9d8edefec411d448f90841571b89c",
-      "nameTag": "Wormhole: SOL Token"
-    },
-    {
-      "address": "0x7cd167b101d2808cfd2c45d17b2e7ea9f46b74b6",
-      "nameTag": "Wormhole: USDCbs Token"
-    },
-    {
-      "address": "0x566957ef80f9fd5526cd2bef8be67035c0b81130",
-      "nameTag": "Wormhole: USDCpo Token"
-    },
-    {
-      "address": "0x41f7b8b9b897276b7aae926a9016935280b44e97",
-      "nameTag": "Wormhole: USDCso Token"
-    },
-    {
-      "address": "0xde60adfddaabaaac3dafa57b26acc91cb63728c4",
-      "nameTag": "Wormhole: USDTbs Token"
-    },
-    {
-      "address": "0x1cdd2eab61112697626f7b4bb0e23da4febf7b7c",
-      "nameTag": "Wormhole: USDTso Token"
-    },
-    {
-      "address": "0xa693b19d2931d498c5b318df961919bb4aee87a5",
-      "nameTag": "Wormhole: UST Token"
-    },
-    {
-      "address": "0x85f138bfee4ef8e540890cfb48f620571d67eda3",
-      "nameTag": "Wormhole: WAVAX Token"
-    },
-    {
-      "address": "0x418d75f65a02b3d53b2418fb8e1fe493759c7605",
-      "nameTag": "Wormhole: WBNB Token"
-    },
-    {
-      "address": "0x7c9f4c87d911613fe9ca58b579f737911aad2d43",
-      "nameTag": "Wormhole: WMATIC Token"
-    },
-    {
-      "address": "0x26b80fbfc01b71495f477d5237071242e0d959d7",
-      "nameTag": "Wormhole: wROSE Token"
-    },
-    {
-      "address": "0x7c8161545717a334f3196e765d9713f8042ef338",
-      "nameTag": "Wromhole: Cake Token"
-    }
-  ]
-}
+[
+  { "address": "0xe3adaa4fb7c92ab833ee08b3561d9c434aa2a3ee", "nameTag": "" },
+  {
+    "address": "0xb9f747162ab1e95d07361f9048bcdf6edda9eea7",
+    "nameTag": "Wormhole: ATLAS Token"
+  },
+  {
+    "address": "0x7b4b0b9b024109d182dcf3831222fbda81369423",
+    "nameTag": "Wormhole: BUSD Token"
+  },
+  {
+    "address": "0xbd31ea8212119f94a611fa969881cba3ea06fa3d",
+    "nameTag": "Wormhole: LUNA Token"
+  },
+  {
+    "address": "0x756bfb452cfe36a5bc82e4f5f4261a89a18c242b",
+    "nameTag": "Wormhole: mSOL Token"
+  },
+  {
+    "address": "0xe617dd80c621a5072bd8cba65e9d76c07327004d",
+    "nameTag": "Wormhole: RAY Token"
+  },
+  {
+    "address": "0xd31a59c85ae9d8edefec411d448f90841571b89c",
+    "nameTag": "Wormhole: SOL Token"
+  },
+  {
+    "address": "0x7cd167b101d2808cfd2c45d17b2e7ea9f46b74b6",
+    "nameTag": "Wormhole: USDCbs Token"
+  },
+  {
+    "address": "0x566957ef80f9fd5526cd2bef8be67035c0b81130",
+    "nameTag": "Wormhole: USDCpo Token"
+  },
+  {
+    "address": "0x41f7b8b9b897276b7aae926a9016935280b44e97",
+    "nameTag": "Wormhole: USDCso Token"
+  },
+  {
+    "address": "0xde60adfddaabaaac3dafa57b26acc91cb63728c4",
+    "nameTag": "Wormhole: USDTbs Token"
+  },
+  {
+    "address": "0x1cdd2eab61112697626f7b4bb0e23da4febf7b7c",
+    "nameTag": "Wormhole: USDTso Token"
+  },
+  {
+    "address": "0xa693b19d2931d498c5b318df961919bb4aee87a5",
+    "nameTag": "Wormhole: UST Token"
+  },
+  {
+    "address": "0x85f138bfee4ef8e540890cfb48f620571d67eda3",
+    "nameTag": "Wormhole: WAVAX Token"
+  },
+  {
+    "address": "0x418d75f65a02b3d53b2418fb8e1fe493759c7605",
+    "nameTag": "Wormhole: WBNB Token"
+  },
+  {
+    "address": "0x7c9f4c87d911613fe9ca58b579f737911aad2d43",
+    "nameTag": "Wormhole: WMATIC Token"
+  },
+  {
+    "address": "0x26b80fbfc01b71495f477d5237071242e0d959d7",
+    "nameTag": "Wormhole: wROSE Token"
+  },
+  {
+    "address": "0x7c8161545717a334f3196e765d9713f8042ef338",
+    "nameTag": "Wromhole: Cake Token"
+  }
+]

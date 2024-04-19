@@ -1,13 +1,10 @@
-{
-  "lastPulled": "2024-04-02T20:39:58.710Z",
-  "data": [
-    {
-      "address": "0xeea81c4416d71cef071224611359f6f99a4c4294",
-      "nameTag": "BitMEX 1"
-    },
-    {
-      "address": "0xfb8131c260749c7835a08ccbdb64728de432858e",
-      "nameTag": "BitMEX 2"
-    }
-  ]
-}
+[
+  {
+    "address": "0xeea81c4416d71cef071224611359f6f99a4c4294",
+    "nameTag": "BitMEX 1"
+  },
+  {
+    "address": "0xfb8131c260749c7835a08ccbdb64728de432858e",
+    "nameTag": "BitMEX 2"
+  }
+]

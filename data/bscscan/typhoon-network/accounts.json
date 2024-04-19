@@ -1,94 +1,87 @@
-{
-  "lastPulled": "2024-04-03T06:30:15.155Z",
-  "length": 22,
-  "data": [
-    {
-      "address": "0xc79e1844b41530c112e57d93fb181fa9526f3260",
-      "nameTag": ""
-    },
-    {
-      "address": "0xd9689b0ae0eeddbbb817b4c8bfabad5bb29dd0df",
-      "nameTag": "Typhoon Network 100 BUSD"
-    },
-    {
-      "address": "0x66e90e4f92f39873c2feb394ab87616b37afffdb",
-      "nameTag": "Typhoon Network: 0.1 BNB"
-    },
-    {
-      "address": "0x6ff1d9e9fb6d3e118f39672ceb7a7a2234007053",
-      "nameTag": "Typhoon Network: 1 BNB"
-    },
-    {
-      "address": "0x3e505920df6be0ceb8ef4e7af0a13c8347929ca7",
-      "nameTag": "Typhoon Network: 1 CAKE"
-    },
-    {
-      "address": "0x0fc5b5bd6455a3c16c1847a91ebea94d00d5ff8a",
-      "nameTag": "Typhoon Network: 10 BNB"
-    },
-    {
-      "address": "0x88c264573bf4f424eae64cdb93c3f4f60efc47ec",
-      "nameTag": "Typhoon Network: 10 BUSD"
-    },
-    {
-      "address": "0x5359e7606438a0de0ffd4d217800204e559db0d3",
-      "nameTag": "Typhoon Network: 10 CAKE"
-    },
-    {
-      "address": "0xd4dc87cc7694114b2bbb21efcc7b6f2a910a1bc4",
-      "nameTag": "Typhoon Network: 100 CAKE"
-    },
-    {
-      "address": "0x318ff5454006a4585d16d57f4ea6d9bce618cfa0",
-      "nameTag": "Typhoon Network: 100 TYPH"
-    },
-    {
-      "address": "0x02c94e9ed6264031d2c61b49b63c5f5de6ae1568",
-      "nameTag": "Typhoon Network: 1000 BUSD"
-    },
-    {
-      "address": "0x3b39a8ede4bc9b81eda595f5b0eeca9503a3b4b0",
-      "nameTag": "Typhoon Network: 1000 TYPH"
-    },
-    {
-      "address": "0xdcdf4048359fa26f550df0f8a226606706828636",
-      "nameTag": "Typhoon Network: 10000 BUSD"
-    },
-    {
-      "address": "0x3b786ea1ba84f52b7a1ee2fa6e18326ad7dc26b7",
-      "nameTag": "Typhoon Network: 10000 TYPH"
-    },
-    {
-      "address": "0x4ad6b15c2ce67b6a8dfa50d491e4ca0492649e81",
-      "nameTag": "Typhoon Network: 50 BNB"
-    },
-    {
-      "address": "0x224a0da5c31ed1a06982159fd4cd93614aa57050",
-      "nameTag": "Typhoon Network: Community Locked Token"
-    },
-    {
-      "address": "0x63436fb9a6c54a427bcd61243048472cdc91375a",
-      "nameTag": "Typhoon Network: Community Wallet"
-    },
-    {
-      "address": "0x95725847cd075ef920de1d70e773aeda6788d402",
-      "nameTag": "Typhoon Network: Deployer"
-    },
-    {
-      "address": "0x692a25335cfc91e35eea71ae2eb4f102f897c1aa",
-      "nameTag": "Typhoon Network: Development Locked Token"
-    },
-    {
-      "address": "0xf91447097f2daa714095c86f2aef79a733b28aea",
-      "nameTag": "Typhoon Network: Development Wallet"
-    },
-    {
-      "address": "0x4090e535f2e251f5f88518998b18b54d26b3b07c",
-      "nameTag": "Typhoon Network: TYPH Token"
-    },
-    {
-      "address": "0xa831738509eeb65403d73a5e0c81229c8ce67dea",
-      "nameTag": "Typhoon Network: Vesting"
-    }
-  ]
-}
+[
+  { "address": "0xc79e1844b41530c112e57d93fb181fa9526f3260", "nameTag": "" },
+  {
+    "address": "0xd9689b0ae0eeddbbb817b4c8bfabad5bb29dd0df",
+    "nameTag": "Typhoon Network 100 BUSD"
+  },
+  {
+    "address": "0x66e90e4f92f39873c2feb394ab87616b37afffdb",
+    "nameTag": "Typhoon Network: 0.1 BNB"
+  },
+  {
+    "address": "0x6ff1d9e9fb6d3e118f39672ceb7a7a2234007053",
+    "nameTag": "Typhoon Network: 1 BNB"
+  },
+  {
+    "address": "0x3e505920df6be0ceb8ef4e7af0a13c8347929ca7",
+    "nameTag": "Typhoon Network: 1 CAKE"
+  },
+  {
+    "address": "0x0fc5b5bd6455a3c16c1847a91ebea94d00d5ff8a",
+    "nameTag": "Typhoon Network: 10 BNB"
+  },
+  {
+    "address": "0x88c264573bf4f424eae64cdb93c3f4f60efc47ec",
+    "nameTag": "Typhoon Network: 10 BUSD"
+  },
+  {
+    "address": "0x5359e7606438a0de0ffd4d217800204e559db0d3",
+    "nameTag": "Typhoon Network: 10 CAKE"
+  },
+  {
+    "address": "0xd4dc87cc7694114b2bbb21efcc7b6f2a910a1bc4",
+    "nameTag": "Typhoon Network: 100 CAKE"
+  },
+  {
+    "address": "0x318ff5454006a4585d16d57f4ea6d9bce618cfa0",
+    "nameTag": "Typhoon Network: 100 TYPH"
+  },
+  {
+    "address": "0x02c94e9ed6264031d2c61b49b63c5f5de6ae1568",
+    "nameTag": "Typhoon Network: 1000 BUSD"
+  },
+  {
+    "address": "0x3b39a8ede4bc9b81eda595f5b0eeca9503a3b4b0",
+    "nameTag": "Typhoon Network: 1000 TYPH"
+  },
+  {
+    "address": "0xdcdf4048359fa26f550df0f8a226606706828636",
+    "nameTag": "Typhoon Network: 10000 BUSD"
+  },
+  {
+    "address": "0x3b786ea1ba84f52b7a1ee2fa6e18326ad7dc26b7",
+    "nameTag": "Typhoon Network: 10000 TYPH"
+  },
+  {
+    "address": "0x4ad6b15c2ce67b6a8dfa50d491e4ca0492649e81",
+    "nameTag": "Typhoon Network: 50 BNB"
+  },
+  {
+    "address": "0x224a0da5c31ed1a06982159fd4cd93614aa57050",
+    "nameTag": "Typhoon Network: Community Locked Token"
+  },
+  {
+    "address": "0x63436fb9a6c54a427bcd61243048472cdc91375a",
+    "nameTag": "Typhoon Network: Community Wallet"
+  },
+  {
+    "address": "0x95725847cd075ef920de1d70e773aeda6788d402",
+    "nameTag": "Typhoon Network: Deployer"
+  },
+  {
+    "address": "0x692a25335cfc91e35eea71ae2eb4f102f897c1aa",
+    "nameTag": "Typhoon Network: Development Locked Token"
+  },
+  {
+    "address": "0xf91447097f2daa714095c86f2aef79a733b28aea",
+    "nameTag": "Typhoon Network: Development Wallet"
+  },
+  {
+    "address": "0x4090e535f2e251f5f88518998b18b54d26b3b07c",
+    "nameTag": "Typhoon Network: TYPH Token"
+  },
+  {
+    "address": "0xa831738509eeb65403d73a5e0c81229c8ce67dea",
+    "nameTag": "Typhoon Network: Vesting"
+  }
+]

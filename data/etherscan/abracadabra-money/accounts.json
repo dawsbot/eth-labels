@@ -1,77 +1,74 @@
-{
-  "lastPulled": "2024-04-02T20:38:19.332Z",
-  "data": [
-    {
-      "address": "0x7b7473a76d6ae86ce19f7352a1e89f6c9dc39020",
-      "nameTag": "Abracadabra.Money: ALCX Market"
-    },
-    {
-      "address": "0x806e16ec797c69afa8590a55723ce4cc1b54050e",
-      "nameTag": "Abracadabra.Money: Cvx3pool Market"
-    },
-    {
-      "address": "0x4eaed76c3a388f4a841e9c765560bbe7b3e4b3a0",
-      "nameTag": "Abracadabra.Money: cvxtricrypto2 Market"
-    },
-    {
-      "address": "0xd96f48665a1410c0cd669a88898eca36b9fc2cce",
-      "nameTag": "Abracadabra.Money: Degenbox"
-    },
-    {
-      "address": "0x05500e2ee779329698df35760bedcaac046e7c27",
-      "nameTag": "Abracadabra.Money: FTM Market"
-    },
-    {
-      "address": "0xdf2c270f610dc35d8ffda5b453e74db5471e126b",
-      "nameTag": "Abracadabra.Money: MIM Treasury Wallet"
-    },
-    {
-      "address": "0x5f0dee98360d8200b20812e174d139a1a633edd2",
-      "nameTag": "Abracadabra.Money: Multisig"
-    },
-    {
-      "address": "0xc319eea1e792577c319723b5e60a15da3857e7da",
-      "nameTag": "Abracadabra.Money: sSPELL Market"
-    },
-    {
-      "address": "0x5a7c5505f3cfb9a0d9a8493ec41bf27ee48c406d",
-      "nameTag": "Abracadabra.Money: Team Tokens"
-    },
-    {
-      "address": "0xe6191aa754f9a881e0a73f2028edf324242f39e2",
-      "nameTag": "Abracadabra.Money: UST Strategy"
-    },
-    {
-      "address": "0x003d5a75d284824af736df51933be522de9eed0f",
-      "nameTag": "Abracadabra.Money: wsOHM Market"
-    },
-    {
-      "address": "0x98a84eff6e008c5ed0289655ccdca899bcb6b99f",
-      "nameTag": "Abracadabra.Money: xSUSHI Market"
-    },
-    {
-      "address": "0xebfde87310dc22404d918058faa4d56dc4e93f0a",
-      "nameTag": "Abracadabra.Money: yvcrvIB Market"
-    },
-    {
-      "address": "0x0bca8ebcb26502b013493bf8fe53aa2b1ed401c1",
-      "nameTag": "Abracadabra.Money: yvstETH Market"
-    },
-    {
-      "address": "0x6cbafee1fab76ca5b5e144c43b3b50d42b7c8c8f",
-      "nameTag": "Abracadabra.Money: yvUSDC v2 Market"
-    },
-    {
-      "address": "0x551a7cff4de931f32893c928bbc3d25bf1fc5147",
-      "nameTag": "Abracadabra.Money: yvUSDT v2 Market"
-    },
-    {
-      "address": "0x920d9bd936da4eafb5e25c6bdc9f6cb528953f9f",
-      "nameTag": "Abracadabra.Money: yvWETH v2 Market"
-    },
-    {
-      "address": "0xffbf4892822e0d552cff317f65e1ee7b5d3d9ae6",
-      "nameTag": "Abracadabra.Money: yvYFI Market"
-    }
-  ]
-}
+[
+  {
+    "address": "0x7b7473a76d6ae86ce19f7352a1e89f6c9dc39020",
+    "nameTag": "Abracadabra.Money: ALCX Market"
+  },
+  {
+    "address": "0x806e16ec797c69afa8590a55723ce4cc1b54050e",
+    "nameTag": "Abracadabra.Money: Cvx3pool Market"
+  },
+  {
+    "address": "0x4eaed76c3a388f4a841e9c765560bbe7b3e4b3a0",
+    "nameTag": "Abracadabra.Money: cvxtricrypto2 Market"
+  },
+  {
+    "address": "0xd96f48665a1410c0cd669a88898eca36b9fc2cce",
+    "nameTag": "Abracadabra.Money: Degenbox"
+  },
+  {
+    "address": "0x05500e2ee779329698df35760bedcaac046e7c27",
+    "nameTag": "Abracadabra.Money: FTM Market"
+  },
+  {
+    "address": "0xdf2c270f610dc35d8ffda5b453e74db5471e126b",
+    "nameTag": "Abracadabra.Money: MIM Treasury Wallet"
+  },
+  {
+    "address": "0x5f0dee98360d8200b20812e174d139a1a633edd2",
+    "nameTag": "Abracadabra.Money: Multisig"
+  },
+  {
+    "address": "0xc319eea1e792577c319723b5e60a15da3857e7da",
+    "nameTag": "Abracadabra.Money: sSPELL Market"
+  },
+  {
+    "address": "0x5a7c5505f3cfb9a0d9a8493ec41bf27ee48c406d",
+    "nameTag": "Abracadabra.Money: Team Tokens"
+  },
+  {
+    "address": "0xe6191aa754f9a881e0a73f2028edf324242f39e2",
+    "nameTag": "Abracadabra.Money: UST Strategy"
+  },
+  {
+    "address": "0x003d5a75d284824af736df51933be522de9eed0f",
+    "nameTag": "Abracadabra.Money: wsOHM Market"
+  },
+  {
+    "address": "0x98a84eff6e008c5ed0289655ccdca899bcb6b99f",
+    "nameTag": "Abracadabra.Money: xSUSHI Market"
+  },
+  {
+    "address": "0xebfde87310dc22404d918058faa4d56dc4e93f0a",
+    "nameTag": "Abracadabra.Money: yvcrvIB Market"
+  },
+  {
+    "address": "0x0bca8ebcb26502b013493bf8fe53aa2b1ed401c1",
+    "nameTag": "Abracadabra.Money: yvstETH Market"
+  },
+  {
+    "address": "0x6cbafee1fab76ca5b5e144c43b3b50d42b7c8c8f",
+    "nameTag": "Abracadabra.Money: yvUSDC v2 Market"
+  },
+  {
+    "address": "0x551a7cff4de931f32893c928bbc3d25bf1fc5147",
+    "nameTag": "Abracadabra.Money: yvUSDT v2 Market"
+  },
+  {
+    "address": "0x920d9bd936da4eafb5e25c6bdc9f6cb528953f9f",
+    "nameTag": "Abracadabra.Money: yvWETH v2 Market"
+  },
+  {
+    "address": "0xffbf4892822e0d552cff317f65e1ee7b5d3d9ae6",
+    "nameTag": "Abracadabra.Money: yvYFI Market"
+  }
+]

@@ -1,18 +1,14 @@
-{
-  "lastPulled": "2024-04-03T06:29:59.282Z",
-  "length": 3,
-  "data": [
-    {
-      "address": "0xc765bddb93b0d1c1a88282ba0fa6b2d00e3e0c83",
-      "nameTag": "UNCX Network Security : LP Lockers"
-    },
-    {
-      "address": "0xeaed594b5926a7d5fbbc61985390baaf936a6b8d",
-      "nameTag": "UNCX Network Security : Token Vesting"
-    },
-    {
-      "address": "0x863b49ae97c3d2a87fd43186dfd921f42783c853",
-      "nameTag": "UNCX Network: BEP-20 Minting Factory"
-    }
-  ]
-}
+[
+  {
+    "address": "0xc765bddb93b0d1c1a88282ba0fa6b2d00e3e0c83",
+    "nameTag": "UNCX Network Security : LP Lockers"
+  },
+  {
+    "address": "0xeaed594b5926a7d5fbbc61985390baaf936a6b8d",
+    "nameTag": "UNCX Network Security : Token Vesting"
+  },
+  {
+    "address": "0x863b49ae97c3d2a87fd43186dfd921f42783c853",
+    "nameTag": "UNCX Network: BEP-20 Minting Factory"
+  }
+]

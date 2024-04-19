@@ -1,49 +1,46 @@
-{
-  "lastPulled": "2024-04-02T22:23:07.928Z",
-  "data": [
-    {
-      "address": "0xbcad63dcfcf65d9eadd99e344e327e65432f222e",
-      "nameTag": "Flux Protocol: fDAI"
-    },
-    {
-      "address": "0x7318724420f0aeec23d8919cc5effd6f4c6abb4f",
-      "nameTag": "Flux Protocol: fMATIC"
-    },
-    {
-      "address": "0x831b0afaa3b22e1435169c7585ccc1861a2c9cbc",
-      "nameTag": "Flux Protocol: fUSDT"
-    },
-    {
-      "address": "0x57cf28ee005c2980c2ce5468bb8c52e401c786f3",
-      "nameTag": "Flux Protocol: fWBTC"
-    },
-    {
-      "address": "0xab087d84cd75c31ace78ec025adff21954a9a8a2",
-      "nameTag": "Flux Protocol: fWETH"
-    },
-    {
-      "address": "0x2a91c33362aad398186d08766d93d6aa277d21d5",
-      "nameTag": "Mobius Finance: moADA Token"
-    },
-    {
-      "address": "0x3856140db3ac38653b41deee164079cb13203120",
-      "nameTag": "Mobius Finance: moBTCToken"
-    },
-    {
-      "address": "0xd0b568421e2d952751d326eab4496304a8dfb41b",
-      "nameTag": "Mobius Finance: moETH Token"
-    },
-    {
-      "address": "0x9fffb2f49adfc231b44ddcff3ffcf0e81b06430a",
-      "nameTag": "Mobius Finance: moUSD Token"
-    },
-    {
-      "address": "0xa649325aa7c5093d12d6f98eb4378deae68ce23f",
-      "nameTag": "Multichain: BNB Token"
-    },
-    {
-      "address": "0x7ceb23fd6bc0add59e62ac25578270cff1b9f619",
-      "nameTag": "Wrapped Ether"
-    }
-  ]
-}
+[
+  {
+    "address": "0xbcad63dcfcf65d9eadd99e344e327e65432f222e",
+    "nameTag": "Flux Protocol: fDAI"
+  },
+  {
+    "address": "0x7318724420f0aeec23d8919cc5effd6f4c6abb4f",
+    "nameTag": "Flux Protocol: fMATIC"
+  },
+  {
+    "address": "0x831b0afaa3b22e1435169c7585ccc1861a2c9cbc",
+    "nameTag": "Flux Protocol: fUSDT"
+  },
+  {
+    "address": "0x57cf28ee005c2980c2ce5468bb8c52e401c786f3",
+    "nameTag": "Flux Protocol: fWBTC"
+  },
+  {
+    "address": "0xab087d84cd75c31ace78ec025adff21954a9a8a2",
+    "nameTag": "Flux Protocol: fWETH"
+  },
+  {
+    "address": "0x2a91c33362aad398186d08766d93d6aa277d21d5",
+    "nameTag": "Mobius Finance: moADA Token"
+  },
+  {
+    "address": "0x3856140db3ac38653b41deee164079cb13203120",
+    "nameTag": "Mobius Finance: moBTCToken"
+  },
+  {
+    "address": "0xd0b568421e2d952751d326eab4496304a8dfb41b",
+    "nameTag": "Mobius Finance: moETH Token"
+  },
+  {
+    "address": "0x9fffb2f49adfc231b44ddcff3ffcf0e81b06430a",
+    "nameTag": "Mobius Finance: moUSD Token"
+  },
+  {
+    "address": "0xa649325aa7c5093d12d6f98eb4378deae68ce23f",
+    "nameTag": "Multichain: BNB Token"
+  },
+  {
+    "address": "0x7ceb23fd6bc0add59e62ac25578270cff1b9f619",
+    "nameTag": "Wrapped Ether"
+  }
+]

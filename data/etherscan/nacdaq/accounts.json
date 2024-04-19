@@ -1,29 +1,26 @@
-{
-  "lastPulled": "2024-04-02T20:46:36.146Z",
-  "data": [
-    {
-      "address": "0x61048cf69333ac0a7311f60cfd94cafff1da9079",
-      "nameTag": "Nacdaq: Staking Pool"
-    },
-    {
-      "address": "0xbfcffaa83d6604d2b246e3526b56c8b9bb082a3e",
-      "nameTag": "Nacdaq: Staking Pool 2"
-    },
-    {
-      "address": "0x8ffa901bf4bd099eddfa16d5d66b7743dda69019",
-      "nameTag": "Nacdaq: Staking Pool 3"
-    },
-    {
-      "address": "0xd1a6f3fad1d269672f7e740eee820f01f4a64529",
-      "nameTag": "Nacdaq: Staking Pool 4"
-    },
-    {
-      "address": "0x157833a3e5746633c5efd95a86260abfc41d10c5",
-      "nameTag": "Nacdaq: Staking Pool 5"
-    },
-    {
-      "address": "0x742c548e103588db659af4ee3bf12b14d068b562",
-      "nameTag": "Nacdaq: Staking Pool 6"
-    }
-  ]
-}
+[
+  {
+    "address": "0x61048cf69333ac0a7311f60cfd94cafff1da9079",
+    "nameTag": "Nacdaq: Staking Pool"
+  },
+  {
+    "address": "0xbfcffaa83d6604d2b246e3526b56c8b9bb082a3e",
+    "nameTag": "Nacdaq: Staking Pool 2"
+  },
+  {
+    "address": "0x8ffa901bf4bd099eddfa16d5d66b7743dda69019",
+    "nameTag": "Nacdaq: Staking Pool 3"
+  },
+  {
+    "address": "0xd1a6f3fad1d269672f7e740eee820f01f4a64529",
+    "nameTag": "Nacdaq: Staking Pool 4"
+  },
+  {
+    "address": "0x157833a3e5746633c5efd95a86260abfc41d10c5",
+    "nameTag": "Nacdaq: Staking Pool 5"
+  },
+  {
+    "address": "0x742c548e103588db659af4ee3bf12b14d068b562",
+    "nameTag": "Nacdaq: Staking Pool 6"
+  }
+]

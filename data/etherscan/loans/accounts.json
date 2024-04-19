@@ -1,45 +1,42 @@
-{
-  "lastPulled": "2024-04-02T20:45:17.345Z",
-  "data": [
-    {
-      "address": "0x3dfd23a6c5e8bbcfc9581d2e864a68feb6a076d3",
-      "nameTag": "Aave: Lending Pool Core V1"
-    },
-    {
-      "address": "0x7de3e919d1d7e5f1b1b27bdb3575b65c5874a5f6",
-      "nameTag": "Celsius Network: Wallet"
-    },
-    {
-      "address": "0x75db8b92937f8f86213e523788ab9f066efde3fe",
-      "nameTag": "Celsius Network: Wallet 2"
-    },
-    {
-      "address": "0xb26314635252b4ee8b454423e5299a092dea8a4a",
-      "nameTag": "Celsius Network: Wallet 4"
-    },
-    {
-      "address": "0x3fda67f7583380e67ef93072294a7fac882fd7e7",
-      "nameTag": "Compound"
-    },
-    {
-      "address": "0x0eee3e3828a45f7601d5f54bf49bb01d1a9df5ea",
-      "nameTag": "Lendf.Me"
-    },
-    {
-      "address": "0xffec0067f5a79cff07527f63d83dd5462ccf8ba4",
-      "nameTag": "Nexo 2"
-    },
-    {
-      "address": "0x65b0bf8ee4947edd2a500d74e50a3d757dc79de0",
-      "nameTag": "Nexo: WBTC Merchant Deposit Address"
-    },
-    {
-      "address": "0x802275979b020f0ec871c5ec1db6e412b72ff20b",
-      "nameTag": "Nuo Network: Reserve Escrow"
-    },
-    {
-      "address": "0x260ee8f2b0c167e0cd6119b2df923fd061dc1093",
-      "nameTag": "YouHodler"
-    }
-  ]
-}
+[
+  {
+    "address": "0x3dfd23a6c5e8bbcfc9581d2e864a68feb6a076d3",
+    "nameTag": "Aave: Lending Pool Core V1"
+  },
+  {
+    "address": "0x7de3e919d1d7e5f1b1b27bdb3575b65c5874a5f6",
+    "nameTag": "Celsius Network: Wallet"
+  },
+  {
+    "address": "0x75db8b92937f8f86213e523788ab9f066efde3fe",
+    "nameTag": "Celsius Network: Wallet 2"
+  },
+  {
+    "address": "0xb26314635252b4ee8b454423e5299a092dea8a4a",
+    "nameTag": "Celsius Network: Wallet 4"
+  },
+  {
+    "address": "0x3fda67f7583380e67ef93072294a7fac882fd7e7",
+    "nameTag": "Compound"
+  },
+  {
+    "address": "0x0eee3e3828a45f7601d5f54bf49bb01d1a9df5ea",
+    "nameTag": "Lendf.Me"
+  },
+  {
+    "address": "0xffec0067f5a79cff07527f63d83dd5462ccf8ba4",
+    "nameTag": "Nexo 2"
+  },
+  {
+    "address": "0x65b0bf8ee4947edd2a500d74e50a3d757dc79de0",
+    "nameTag": "Nexo: WBTC Merchant Deposit Address"
+  },
+  {
+    "address": "0x802275979b020f0ec871c5ec1db6e412b72ff20b",
+    "nameTag": "Nuo Network: Reserve Escrow"
+  },
+  {
+    "address": "0x260ee8f2b0c167e0cd6119b2df923fd061dc1093",
+    "nameTag": "YouHodler"
+  }
+]

@@ -1,58 +1,54 @@
-{
-  "lastPulled": "2024-04-03T06:22:11.613Z",
-  "length": 13,
-  "data": [
-    {
-      "address": "0xf8a05c5970ea365667cfa246bb81d8a0e3783e81",
-      "nameTag": "Market Protocol: Chainlink Price Oracle V2"
-    },
-    {
-      "address": "0x5dfbf7c7dffb2b95d6eaa84474d24f04e2db59cb",
-      "nameTag": "Market Protocol: Fee Distributor"
-    },
-    {
-      "address": "0x1bc7f589d6ca55d466c917899ce7f50506703a39",
-      "nameTag": "Market Protocol: Jump Rate Model V2 Cream Gov"
-    },
-    {
-      "address": "0x6ade5eaf6825dfc4ec1c812e9e9240b6301b12b8",
-      "nameTag": "Market Protocol: Jump Rate Model V2 Cream Major"
-    },
-    {
-      "address": "0xf76028d7b33897403a1f4f5ee17ad498b3f3ddee",
-      "nameTag": "Market Protocol: Jump Rate V1 Cream Stables Major"
-    },
-    {
-      "address": "0x8e4129141be6fffaa6c1e520fa407a0d022dd97e",
-      "nameTag": "Market Protocol: Lens V3"
-    },
-    {
-      "address": "0xe8450dc5d6d88be26087272db46c08fa36455904",
-      "nameTag": "Market Protocol: Lens V3 Paginate"
-    },
-    {
-      "address": "0x5ab6215ab8344c28b899efde93bee47b124200fb",
-      "nameTag": "Market Protocol: Old LensV1"
-    },
-    {
-      "address": "0x0e7d754a8d1a82220432148c10715497a0569bd7",
-      "nameTag": "Market Protocol: Pool Directory"
-    },
-    {
-      "address": "0x81e97e584f9acf9b57adecbd839bdfedad03534e",
-      "nameTag": "Market Protocol: Safe Liquidator V2"
-    },
-    {
-      "address": "0x110f2c886f8173c9075866d87f78111f8da2b3cd",
-      "nameTag": "Market Protocol: SpiritSwap wFTM TWAP Oracle"
-    },
-    {
-      "address": "0x86a64fe7fcd86446da62f95aea39952f6f056ad5",
-      "nameTag": "Market Protocol: SpookySwap USDC TWAP Oracle"
-    },
-    {
-      "address": "0x9709d8960bef188f70620a317db04a282b95a602",
-      "nameTag": "Market Protocol: SpookySwap wFTM TWAP Oracle"
-    }
-  ]
-}
+[
+  {
+    "address": "0xf8a05c5970ea365667cfa246bb81d8a0e3783e81",
+    "nameTag": "Market Protocol: Chainlink Price Oracle V2"
+  },
+  {
+    "address": "0x5dfbf7c7dffb2b95d6eaa84474d24f04e2db59cb",
+    "nameTag": "Market Protocol: Fee Distributor"
+  },
+  {
+    "address": "0x1bc7f589d6ca55d466c917899ce7f50506703a39",
+    "nameTag": "Market Protocol: Jump Rate Model V2 Cream Gov"
+  },
+  {
+    "address": "0x6ade5eaf6825dfc4ec1c812e9e9240b6301b12b8",
+    "nameTag": "Market Protocol: Jump Rate Model V2 Cream Major"
+  },
+  {
+    "address": "0xf76028d7b33897403a1f4f5ee17ad498b3f3ddee",
+    "nameTag": "Market Protocol: Jump Rate V1 Cream Stables Major"
+  },
+  {
+    "address": "0x8e4129141be6fffaa6c1e520fa407a0d022dd97e",
+    "nameTag": "Market Protocol: Lens V3"
+  },
+  {
+    "address": "0xe8450dc5d6d88be26087272db46c08fa36455904",
+    "nameTag": "Market Protocol: Lens V3 Paginate"
+  },
+  {
+    "address": "0x5ab6215ab8344c28b899efde93bee47b124200fb",
+    "nameTag": "Market Protocol: Old LensV1"
+  },
+  {
+    "address": "0x0e7d754a8d1a82220432148c10715497a0569bd7",
+    "nameTag": "Market Protocol: Pool Directory"
+  },
+  {
+    "address": "0x81e97e584f9acf9b57adecbd839bdfedad03534e",
+    "nameTag": "Market Protocol: Safe Liquidator V2"
+  },
+  {
+    "address": "0x110f2c886f8173c9075866d87f78111f8da2b3cd",
+    "nameTag": "Market Protocol: SpiritSwap wFTM TWAP Oracle"
+  },
+  {
+    "address": "0x86a64fe7fcd86446da62f95aea39952f6f056ad5",
+    "nameTag": "Market Protocol: SpookySwap USDC TWAP Oracle"
+  },
+  {
+    "address": "0x9709d8960bef188f70620a317db04a282b95a602",
+    "nameTag": "Market Protocol: SpookySwap wFTM TWAP Oracle"
+  }
+]

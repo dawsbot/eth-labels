@@ -1,9 +1,6 @@
-{
-  "lastPulled": "2024-04-02T20:46:49.232Z",
-  "data": [
-    {
-      "address": "0x05947d13b2b7a86a0b8fa83e8641050b87d73b2b",
-      "nameTag": "Folkspaper"
-    }
-  ]
-}
+[
+  {
+    "address": "0x05947d13b2b7a86a0b8fa83e8641050b87d73b2b",
+    "nameTag": "Folkspaper"
+  }
+]

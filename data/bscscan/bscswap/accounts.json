@@ -1,2914 +1,2910 @@
-{
-  "lastPulled": "2024-04-03T06:28:39.215Z",
-  "length": 727,
-  "data": [
-    {
-      "address": "0x81dab25be86f78c30e49ae2a7e4de2dcf8036ea7",
-      "nameTag": "BSCswap: $US.Dollar"
-    },
-    {
-      "address": "0x0c81e60ca44f4fcaf78a547e0ed23a7cd4658e4a",
-      "nameTag": "BSCswap: 100x"
-    },
-    {
-      "address": "0x3c63f39a9dfc53aba0ccf14f6ebcf8ad0cd7efb3",
-      "nameTag": "BSCswap: 1INCH"
-    },
-    {
-      "address": "0x5d8d7b8f24f5d9b6d5fb384631005b0d50384dbe",
-      "nameTag": "BSCswap: 2M1"
-    },
-    {
-      "address": "0x036fed94355289d42cec8f5d0d93948a894f1772",
-      "nameTag": "BSCswap: ACC-BUSD"
-    },
-    {
-      "address": "0x7bba70f484a5c5790c11a6275cd27ee69bed8177",
-      "nameTag": "BSCswap: AD2"
-    },
-    {
-      "address": "0x5a49500e3c348fe8387d73f60bc6e6d4d318eef2",
-      "nameTag": "BSCswap: AD2-BUSD"
-    },
-    {
-      "address": "0x3ad11a5a6f3a22ac2803f08625237c22ee1af87f",
-      "nameTag": "BSCswap: ADA"
-    },
-    {
-      "address": "0xee0a18067f897c24ebc9af7aaa0ae8697471feef",
-      "nameTag": "BSCswap: ADA-BHC"
-    },
-    {
-      "address": "0x7be04635513f18d3bc1a8ef7c56a8679d0d96ea0",
-      "nameTag": "BSCswap: ADA-PTTP"
-    },
-    {
-      "address": "0xcaad99cb68fc0197a54ce16be5f4ca7f1a1b5d70",
-      "nameTag": "BSCswap: ADA-USDT"
-    },
-    {
-      "address": "0x398e12403ca6d1295035a67ee58ae0a14a2ccd35",
-      "nameTag": "BSCswap: AISUI"
-    },
-    {
-      "address": "0x48f95612de9f86e2c82e32bca18ac6a8f94b2afa",
-      "nameTag": "BSCswap: ALGT-Cake"
-    },
-    {
-      "address": "0x994091118c8d7cd76a57e61814515a446f3d540c",
-      "nameTag": "BSCswap: ALPHA"
-    },
-    {
-      "address": "0x6db2012782b091497b46e5934bc296a82cca44e6",
-      "nameTag": "BSCswap: American.Express.Co(NYSE)AXP"
-    },
-    {
-      "address": "0xbfaa9882f42a79a460356fc5b17c30baf74ebdad",
-      "nameTag": "BSCswap: AmYesMoney"
-    },
-    {
-      "address": "0x70152d281466318f198b89be556e015c3ac47159",
-      "nameTag": "BSCswap: ANKR"
-    },
-    {
-      "address": "0x57face4d6c759bcd9a9e15e2c9502750d4b39db1",
-      "nameTag": "BSCswap: ANON"
-    },
-    {
-      "address": "0xa2109fb6e2e719ae81c010d66130d532278886e7",
-      "nameTag": "BSCswap: ANY"
-    },
-    {
-      "address": "0xd085110a7ac6570efcf13b9fbdb70c27117d3299",
-      "nameTag": "BSCswap: APX"
-    },
-    {
-      "address": "0x680bc4e1c96802efeeee36bc7d21c2387f502f9f",
-      "nameTag": "BSCswap: ARN"
-    },
-    {
-      "address": "0xa4836ee54240781286d6a0d4ffb492b258190ef4",
-      "nameTag": "BSCswap: ARSI"
-    },
-    {
-      "address": "0x6f0bd17cb79d21c37a4c42189f21b680b9134a09",
-      "nameTag": "BSCswap: ARSI 2"
-    },
-    {
-      "address": "0xeb9ead0aecee2293b558c85ced7e4131217005ce",
-      "nameTag": "BSCswap: ARUB-BSC-USD"
-    },
-    {
-      "address": "0xd08568577a1fc76c5bdebcc8d598e07dd1cb7dd7",
-      "nameTag": "BSCswap: ASTRODOGE"
-    },
-    {
-      "address": "0xdfaa3818147701a4588539d763984e0c44c41080",
-      "nameTag": "BSCswap: ATLS"
-    },
-    {
-      "address": "0xaa0cbf174f3de0e618d54afe83dfe036f39b41cf",
-      "nameTag": "BSCswap: ATOM"
-    },
-    {
-      "address": "0x96fada58daf870a5d9a14080a4c7066f1d72708c",
-      "nameTag": "BSCswap: ATOM-USDT"
-    },
-    {
-      "address": "0x2cfa28df8a507b829e2f93c98d66c806ddf968f0",
-      "nameTag": "BSCswap: AYAM"
-    },
-    {
-      "address": "0xc666c47a16e70b239aa537dd31da660132e805bf",
-      "nameTag": "BSCswap: BAI"
-    },
-    {
-      "address": "0xb7a5e84fb4a5af9fadda9652a1d8bddc28781a19",
-      "nameTag": "BSCswap: BAI-BUSD"
-    },
-    {
-      "address": "0x9af907fee40df1fb0bbe5cf00518e7caa5558760",
-      "nameTag": "BSCswap: BAKE"
-    },
-    {
-      "address": "0x851f49de2ee0fbbf9b2011285692fe1ec6a80aaf",
-      "nameTag": "BSCswap: BAKE-ANKR"
-    },
-    {
-      "address": "0x6bf8bb02757a3dc8dcfc8e1eae59f26b9a2e887e",
-      "nameTag": "BSCswap: BAKE-BUSD"
-    },
-    {
-      "address": "0x29c106e9756b4d50c7314bf0c6f4e97c458381bc",
-      "nameTag": "BSCswap: BAMBOO"
-    },
-    {
-      "address": "0x2709f04b8e5116b2ea190d7a701380f23c1ad2cc",
-      "nameTag": "BSCswap: BAMP"
-    },
-    {
-      "address": "0xaecbeec6e1547a19948237bbb6eb86b692faf178",
-      "nameTag": "BSCswap: BAND"
-    },
-    {
-      "address": "0x36e2b16af9c0c1710bc9e070a0bab57db17d3a0e",
-      "nameTag": "BSCswap: BAND-BUSD"
-    },
-    {
-      "address": "0x693e806ebce17b6a5036482f684f0a879074ac86",
-      "nameTag": "BSCswap: BANHMI"
-    },
-    {
-      "address": "0x86d792e1104571408827dfb7739d3d6284bd6657",
-      "nameTag": "BSCswap: BANK.OF.AMERICA"
-    },
-    {
-      "address": "0x5464bda8ad60b33368cc38fbc8e94529cdbbc866",
-      "nameTag": "BSCswap: BAT-SCAM"
-    },
-    {
-      "address": "0x9064eff09c09e7b803e8f698d536ddf7f34b507e",
-      "nameTag": "BSCswap: bATD"
-    },
-    {
-      "address": "0x64ee619367fbdf820384053d4031565be69ce028",
-      "nameTag": "BSCswap: BBTC"
-    },
-    {
-      "address": "0x37ab92ef1636477b0b4e7a019b9fb0bc760259fd",
-      "nameTag": "BSCswap: BBTC-TOK"
-    },
-    {
-      "address": "0xd83b725734b48670dccd25149d6d38949db36069",
-      "nameTag": "BSCswap: BC3"
-    },
-    {
-      "address": "0x0b0448da0f0a1fb19843c235a665f9b8630b5f49",
-      "nameTag": "BSCswap: BCC-BUSD"
-    },
-    {
-      "address": "0x7df90bd5563e97bad27823991e43a00a514d017b",
-      "nameTag": "BSCswap: BCH"
-    },
-    {
-      "address": "0xbd1f6e5acf2a79569c625d7e73ca902420adb727",
-      "nameTag": "BSCswap: BDC"
-    },
-    {
-      "address": "0x17727c7e429d14ce0e781aa7dda122faf7f3d82f",
-      "nameTag": "BSCswap: BEA"
-    },
-    {
-      "address": "0xc31991a493acad5f4dc39c3e08776cf11d23fb3f",
-      "nameTag": "BSCswap: Beer"
-    },
-    {
-      "address": "0x662e7d69529841b9967792b5738a0c0fe0e65d42",
-      "nameTag": "BSCswap: BEST"
-    },
-    {
-      "address": "0x96fe48765d954ee846449f372eb1ba552839f302",
-      "nameTag": "BSCswap: BETE"
-    },
-    {
-      "address": "0x37d2cc8c37523ea2679cabdac5924f16decd3656",
-      "nameTag": "BSCswap: BFI"
-    },
-    {
-      "address": "0xdcb409dfec5de4db774c8acf49b33fe61d7d5e38",
-      "nameTag": "BSCswap: BFI-BUSD"
-    },
-    {
-      "address": "0xb861d104f8ab0560d06044d7f5acaba20748841d",
-      "nameTag": "BSCswap: BFI-DEGEN"
-    },
-    {
-      "address": "0xdb3f632910c55aa66860b45a86c214ad407473d1",
-      "nameTag": "BSCswap: BFI-KEK"
-    },
-    {
-      "address": "0x428251f778b4aa8ae7089f6abe24c9a7c3859396",
-      "nameTag": "BSCswap: BFI-NFL"
-    },
-    {
-      "address": "0x307b8f0b6afab827fe4325994896aa5b9e293627",
-      "nameTag": "BSCswap: BGEO"
-    },
-    {
-      "address": "0xe99ce38eebdc4b3d5f8fed6dbf19240c969fcbd1",
-      "nameTag": "BSCswap: BHC"
-    },
-    {
-      "address": "0xb9bd935c04ec1e4eedbd79aacf85067fe98b256c",
-      "nameTag": "BSCswap: BHC-BUSD"
-    },
-    {
-      "address": "0xb67455cb6a9ba83c06c5421b8316ef09e5e6b5e1",
-      "nameTag": "BSCswap: BHC-DEGEN"
-    },
-    {
-      "address": "0x1a5628f0df6c112425006be0b2f3060625210f48",
-      "nameTag": "BSCswap: BHC-GIAN"
-    },
-    {
-      "address": "0xfdc2cc73c147746398a410305f4677f4dbb595df",
-      "nameTag": "BSCswap: BIDEN"
-    },
-    {
-      "address": "0xa3b27d3db149368492e7ce745c9d56e5e17e565b",
-      "nameTag": "BSCswap: BIDEN-TRUMP"
-    },
-    {
-      "address": "0x69dc95d1ae562e0701156ead9938d73926239f59",
-      "nameTag": "BSCswap: BIFI"
-    },
-    {
-      "address": "0x32ffb8adfe2704439044263a53b86282c66378a6",
-      "nameTag": "BSCswap: BIFI-BUSD"
-    },
-    {
-      "address": "0x7e6bcd1978723058e32be2a4d93c47e84d4dd93f",
-      "nameTag": "BSCswap: BIFI-SPARTA"
-    },
-    {
-      "address": "0x89ce6f2fef90b560524fe86785641008990e8d0c",
-      "nameTag": "BSCswap: BINA"
-    },
-    {
-      "address": "0xc117550b71e59f704c5da585834fb3237f7ded26",
-      "nameTag": "BSCswap: BIO-BUSD"
-    },
-    {
-      "address": "0x0dfbaab054ec5de3f9b329bccc804eb772aef28f",
-      "nameTag": "BSCswap: BIRDS-SPONGS"
-    },
-    {
-      "address": "0x22d7b81b9f16580f5a8055e139216028f4112e36",
-      "nameTag": "BSCswap: BKIT"
-    },
-    {
-      "address": "0x72599fdaa7bc582651466ab343ed4a72cd010707",
-      "nameTag": "BSCswap: BLF"
-    },
-    {
-      "address": "0xdbaa6d55078781cbab188c224b5ca574811a8812",
-      "nameTag": "BSCswap: blink-BSWAP"
-    },
-    {
-      "address": "0xb68c6dedf07921ec4112ce612afebc6cb3f076f7",
-      "nameTag": "BSCswap: BLOK"
-    },
-    {
-      "address": "0xd6b41eaf1f24c2f03afcacaffd933a6dae349967",
-      "nameTag": "BSCswap: BLP"
-    },
-    {
-      "address": "0xe1553922206d0cfc972c1a706157d269aac545f8",
-      "nameTag": "BSCswap: BLP 2"
-    },
-    {
-      "address": "0xc459ba66832399686cbb60d8780f214e8f6690b5",
-      "nameTag": "BSCswap: BLP 3"
-    },
-    {
-      "address": "0xbe31b646fd06cca722322d8d148724cbe39e1781",
-      "nameTag": "BSCswap: BLP-MOON"
-    },
-    {
-      "address": "0xd700b19b8e37e4d343ff91d425f830269a9d938e",
-      "nameTag": "BSCswap: Bluenosedoge-Blue Oggy"
-    },
-    {
-      "address": "0x843dc97660291ef2d370529153a627b0956633cd",
-      "nameTag": "BSCswap: BLUR"
-    },
-    {
-      "address": "0xb426668d0fcbdd03b629d6ba3ddc511ca775a59c",
-      "nameTag": "BSCswap: BMO-Bank.of.Montreal"
-    },
-    {
-      "address": "0x2af0f32b2ac6f60843bf3f7f48149821e63a9bf3",
-      "nameTag": "BSCswap: BMTK"
-    },
-    {
-      "address": "0x0ff0ee2851c03bc5fead9d41650c6b9c7ab3951e",
-      "nameTag": "BSCswap: BMZT"
-    },
-    {
-      "address": "0x05290e71a3391a3ad3ec84091508c8b28e105c32",
-      "nameTag": "BSCswap: BNB PAIR"
-    },
-    {
-      "address": "0x706a6b6b7d694a7de2d4a8e42ff43fcabe1eebcd",
-      "nameTag": "BSCswap: BNX"
-    },
-    {
-      "address": "0x1cae51693cdc2af30b55e68b5badbd92974eb06e",
-      "nameTag": "BSCswap: BOLO"
-    },
-    {
-      "address": "0xeefc84091da9c1d37b4f894b9654a3393c83a6cc",
-      "nameTag": "BSCswap: BOLO-BBTC"
-    },
-    {
-      "address": "0x317ea730858d242d454156bf5e04f6cd417f3e4e",
-      "nameTag": "BSCswap: BOLO-BOUSD"
-    },
-    {
-      "address": "0xa3b17ecb0d740deb5dfb0f00681072c2a22298a7",
-      "nameTag": "BSCswap: BOLO-BUSD"
-    },
-    {
-      "address": "0x59f19dba89feee719b7567465f2bd08558702b62",
-      "nameTag": "BSCswap: BOLO-TOK"
-    },
-    {
-      "address": "0x8340c93d853343c59d0d99da5fa389b414dc126b",
-      "nameTag": "BSCswap: BOLO-USD-T"
-    },
-    {
-      "address": "0xd0072957f059070577b12a2cb77467b54d1e34ba",
-      "nameTag": "BSCswap: BORGDAI"
-    },
-    {
-      "address": "0x87c75111ab78a41d0fa011def2a4b1261e7d7868",
-      "nameTag": "BSCswap: BORGDAI-BORG"
-    },
-    {
-      "address": "0x3faa7a3e1e7e31cd82a01acc27b0b991aa0f596b",
-      "nameTag": "BSCswap: BORGDAI-BUSD"
-    },
-    {
-      "address": "0x633ef1abb304882038cbb02797c8efc576f1766b",
-      "nameTag": "BSCswap: BPT"
-    },
-    {
-      "address": "0x18613a1337023be38d6a6591af5999eabcea0993",
-      "nameTag": "BSCswap: BROL"
-    },
-    {
-      "address": "0xdea0b7b6a366a46457a52334ac187a22bcac91c8",
-      "nameTag": "BSCswap: bROOBEE-BUSD"
-    },
-    {
-      "address": "0x021ac5be4c66dc086e04e6d3a5977b1b332a152c",
-      "nameTag": "BSCswap: BSC"
-    },
-    {
-      "address": "0x82798418f2ad808ad515d15c1a8645e4266c7973",
-      "nameTag": "BSCswap: BSC-USD-BTB"
-    },
-    {
-      "address": "0xddd4a7a82f417e9ab4435f196e2551c399f61b6c",
-      "nameTag": "BSCswap: BSC-USD-BUEOG"
-    },
-    {
-      "address": "0xff05a9f496039fb2abe2d17ddfa08477f226087d",
-      "nameTag": "BSCswap: BSC-USD-CDEI"
-    },
-    {
-      "address": "0xef99d4d637fe471e905835434d5b64c91c7159b5",
-      "nameTag": "BSCswap: BSC-USD-DEVS"
-    },
-    {
-      "address": "0xa713df44a90827d107a02b20fdec4b57a2700abc",
-      "nameTag": "BSCswap: BSC-USD-FRF"
-    },
-    {
-      "address": "0xb6d8f8e34794fd753d7efccc6b43a5049288ea12",
-      "nameTag": "BSCswap: BSC-USD-HVT"
-    },
-    {
-      "address": "0x16bfd8eb95af8c0fb3d74886e42d806cd5bbf7db",
-      "nameTag": "BSCswap: BSC-USD-KBCoin"
-    },
-    {
-      "address": "0x40bd9daa803be8fa562de4aafb1056fc2e192eba",
-      "nameTag": "BSCswap: BSC-USD-MCS"
-    },
-    {
-      "address": "0x435c197cdc4253464a096c6b6a0f04e40897b7f8",
-      "nameTag": "BSCswap: BSC-USD-PVM"
-    },
-    {
-      "address": "0x2fa80e0983d6cc5a218b42d26198b40d6ac537d5",
-      "nameTag": "BSCswap: BSC-USD-QFS"
-    },
-    {
-      "address": "0x4f5d82f6c3d5cd9a3658c03bd98736cd55f3f145",
-      "nameTag": "BSCswap: BSC-USD-REDEFI"
-    },
-    {
-      "address": "0xda395f68b160aa58456ba49c3ad2edc8c67d3558",
-      "nameTag": "BSCswap: BSC-USD-REVCC"
-    },
-    {
-      "address": "0xd4fdae545594c1efea7e076c5dd2c2f7dc9f15ea",
-      "nameTag": "BSCswap: BSC-USD-TANGPING"
-    },
-    {
-      "address": "0xf9d85a556d6e843ffc50c8005c9d62ed632d2f0d",
-      "nameTag": "BSCswap: BSC-USD-TITAN"
-    },
-    {
-      "address": "0x541879cf08056d99b2b1ed3ab4275f8ad605730a",
-      "nameTag": "BSCswap: BSC-USD-VXZ"
-    },
-    {
-      "address": "0x4a4eb663001e7032cdd180fb8a9ccaeefa517d1b",
-      "nameTag": "BSCswap: BSC-USDT"
-    },
-    {
-      "address": "0xb786431a801d0d0388b065e8ae371787d5825125",
-      "nameTag": "BSCswap: BSWAP"
-    },
-    {
-      "address": "0xc5c84863d32f41ad60eb2dead2d69c9553541616",
-      "nameTag": "BSCswap: BSWAP 2"
-    },
-    {
-      "address": "0xacc234978a5eb941665fd051ca48765610d82584",
-      "nameTag": "BSCswap: BSWAP Token"
-    },
-    {
-      "address": "0x4290f60573fa1bb28a95913f94f63de260bc6a84",
-      "nameTag": "BSCswap: BSWAP-BSWAP"
-    },
-    {
-      "address": "0x7b8b9f2cb422aea55be6e9bf867e759721ac678c",
-      "nameTag": "BSCswap: BSWAP-BUSD"
-    },
-    {
-      "address": "0x23825b2d4ca8733c2a709d67a1bbe38bf7e3d771",
-      "nameTag": "BSCswap: BSWAP-DEGEN"
-    },
-    {
-      "address": "0x041631dffb9ac88eee97eb1e6547861f9c1a594c",
-      "nameTag": "BSCswap: BSWAP-INNBC"
-    },
-    {
-      "address": "0x7d2fe79df023ebbcc81324a30c59e1e71d2b9ba9",
-      "nameTag": "BSCswap: BSWAP-METH"
-    },
-    {
-      "address": "0x7c14b0cd0e11d3a6705027b24ab6e30f1816f513",
-      "nameTag": "BSCswap: BSWAP-THUGS"
-    },
-    {
-      "address": "0xaed1652c624ea68a57bf9da5611c090f42220284",
-      "nameTag": "BSCswap: BSWAP-TRTC"
-    },
-    {
-      "address": "0x7c113b3f08725a3d06bfa75a9268d1f46a56094e",
-      "nameTag": "BSCswap: BTC"
-    },
-    {
-      "address": "0x354f3a729962e93181263a311ca8043fed1d4418",
-      "nameTag": "BSCswap: BTCB"
-    },
-    {
-      "address": "0x216e07879d0f680e65c60a8cf980ba18c17e4a35",
-      "nameTag": "BSCswap: BTCB-AXZ"
-    },
-    {
-      "address": "0xd43ac00eea7286c7f365122da998b8896fba7942",
-      "nameTag": "BSCswap: BTCB-BHC"
-    },
-    {
-      "address": "0x701c22400fac224869dc4d1d7cf9ba580d16ab32",
-      "nameTag": "BSCswap: BTCB-BIFI"
-    },
-    {
-      "address": "0xe6f566f5502364ccf62af53465d1ee5ee726c3d4",
-      "nameTag": "BSCswap: BTCB-BSWAP"
-    },
-    {
-      "address": "0x4a3c0e93777ada858f0a9f197885a47119a3614d",
-      "nameTag": "BSCswap: BTCB-BUSD"
-    },
-    {
-      "address": "0xe7236840d7742f138a4e6993d868d24389351244",
-      "nameTag": "BSCswap: BTCB-DEGEN"
-    },
-    {
-      "address": "0xed6b5974f9cd109ae0b4c9cca009e4380cc3b914",
-      "nameTag": "BSCswap: BTCB-HOP"
-    },
-    {
-      "address": "0x3fb00cf82d5caf375b6567ecd415bb83374c5a4e",
-      "nameTag": "BSCswap: BTCB-INNBC"
-    },
-    {
-      "address": "0x7d1c04c4eb4923c24c8f9f8480130c1fe8a749b3",
-      "nameTag": "BSCswap: BTCB-SANTA"
-    },
-    {
-      "address": "0x7336e1b8b556bdbde883670ad72f2cbdca258cee",
-      "nameTag": "BSCswap: BTCB-THUGS"
-    },
-    {
-      "address": "0x16a82026487ec08a0fc255dd5873b39a4c22f1db",
-      "nameTag": "BSCswap: BTCMV"
-    },
-    {
-      "address": "0x3872eb085bcf2268cbcc192a7b91f10eb0923b9c",
-      "nameTag": "BSCswap: BTCnow-BUSD"
-    },
-    {
-      "address": "0x2ea85b4b867565a9e7a3e680c0de2d9449f44f0d",
-      "nameTag": "BSCswap: btcw"
-    },
-    {
-      "address": "0x535c05ad8208a9b6c67def77bd26ac342681f41d",
-      "nameTag": "BSCswap: BTFE"
-    },
-    {
-      "address": "0xf148521d5804abad54c0822d61ac2f051462093d",
-      "nameTag": "BSCswap: BURGER"
-    },
-    {
-      "address": "0x80718191df6012bffc755ebff024505f45e9e60b",
-      "nameTag": "BSCswap: BURGER-BAKE"
-    },
-    {
-      "address": "0x5cf1c2d7dd695e68d9f34b0be9f79da09a9e3974",
-      "nameTag": "BSCswap: BURGER-BFI"
-    },
-    {
-      "address": "0x63507869588c3578cb15f4d05b494658c024a262",
-      "nameTag": "BSCswap: BURGER-BUSD"
-    },
-    {
-      "address": "0xc42500348b2ae3869a9fab09fc42bfcdead718c7",
-      "nameTag": "BSCswap: BURGER-SPARTA"
-    },
-    {
-      "address": "0xffa1b90274c7d12dd53d84931cdd9ad781c45e95",
-      "nameTag": "BSCswap: BURN"
-    },
-    {
-      "address": "0x7b8fcc78b18c5f27a3fd9c2c5756a20785ed7c7d",
-      "nameTag": "BSCswap: BURRITO"
-    },
-    {
-      "address": "0x1ebf0ee99971c6269062c3b480e8e23b7a74756b",
-      "nameTag": "BSCswap: BUSD"
-    },
-    {
-      "address": "0x026d1dc704302b96e77ecdcb536fb9483af51d0a",
-      "nameTag": "BSCswap: BUSD 2"
-    },
-    {
-      "address": "0x10560aabd03b3a92871d367a20fd8657367d4aee",
-      "nameTag": "BSCswap: BUSD-ANY"
-    },
-    {
-      "address": "0x20ec46963e6b1d4717bcdb37c5c19479f33aa627",
-      "nameTag": "BSCswap: BUSD-BSWAP"
-    },
-    {
-      "address": "0xbc20def3d0b4d9815d7cea494f4198baf00e7365",
-      "nameTag": "BSCswap: BUSD-BURN"
-    },
-    {
-      "address": "0x5ae03aabc209f86546d83d5aa41067b857a1bc59",
-      "nameTag": "BSCswap: BUSD-bWRKZ"
-    },
-    {
-      "address": "0x41be43cd6459e5f7652b733004a1145b60a26e5f",
-      "nameTag": "BSCswap: BUSD-DRUGS"
-    },
-    {
-      "address": "0x9564dcf78b71d2642585d27f01e5eeff78e665de",
-      "nameTag": "BSCswap: BUSD-LINK"
-    },
-    {
-      "address": "0xe6dcb4cac22b4e591d6e5d8eeb61600a2158b1dc",
-      "nameTag": "BSCswap: BUSD-POOL"
-    },
-    {
-      "address": "0xda3d43fd3236a9434159006dd90980d5e04d447c",
-      "nameTag": "BSCswap: BUSD-PUSD"
-    },
-    {
-      "address": "0x1e6b2146802dbb0f536460f0f3180f39bb6bb25b",
-      "nameTag": "BSCswap: BUSD-T-BOUSD"
-    },
-    {
-      "address": "0x9b90a059598025c7a3bd2672455ce14d27603cb4",
-      "nameTag": "BSCswap: BUSD-T-DOP"
-    },
-    {
-      "address": "0x4234df07c687b02c4c510a30de5c4468447e6d33",
-      "nameTag": "BSCswap: BUSD-T-LOVE"
-    },
-    {
-      "address": "0xc34b4ed2b878d2fbb2ba466e7ac4110da9252751",
-      "nameTag": "BSCswap: bWETH"
-    },
-    {
-      "address": "0x65fd4adf0db2db40377d310baf3a4adc7c4cd334",
-      "nameTag": "BSCswap: bWETH-THUGS"
-    },
-    {
-      "address": "0xa555529a32ca154aebafa4daeac26f98e0e570d9",
-      "nameTag": "BSCswap: bWRKZ"
-    },
-    {
-      "address": "0x7b23b62966bac2e081b87e86866fdb9261b8cb77",
-      "nameTag": "BSCswap: BZAR"
-    },
-    {
-      "address": "0x6a43f7e4ccfbe0da3ef262ba80b636c918fbd72d",
-      "nameTag": "BSCswap: BZAR-BTCB"
-    },
-    {
-      "address": "0xf40449379cbd9625dc9debba5f7f104808fd5ba1",
-      "nameTag": "BSCswap: BZAR-BUSD"
-    },
-    {
-      "address": "0xb7c8eca8756262e04c1278f0e840d1d42c1485eb",
-      "nameTag": "BSCswap: BZAR-EOS"
-    },
-    {
-      "address": "0x2179dcb358da0a79465292b8529189ca841ab2a2",
-      "nameTag": "BSCswap: BZAR-LFI"
-    },
-    {
-      "address": "0x510a85e79a79c520dd2adf06768059d708e681a5",
-      "nameTag": "BSCswap: BZAR-TWT"
-    },
-    {
-      "address": "0x9f91c06889fc7c8975f86adbf9ffcf0f410c8503",
-      "nameTag": "BSCswap: BZAR-USDT"
-    },
-    {
-      "address": "0xda7814e5a7d2c55c08b364c5577d53d3ec59f561",
-      "nameTag": "BSCswap: BZK"
-    },
-    {
-      "address": "0xc689f249622bc93b117404f74a1ba232183730c3",
-      "nameTag": "BSCswap: Cake"
-    },
-    {
-      "address": "0x53a8b1f38f96e006345ad59315824d681a4b3523",
-      "nameTag": "BSCswap: Cake-BUSD"
-    },
-    {
-      "address": "0xbd6c35135a28607949dd51500f3d4310c2f78380",
-      "nameTag": "BSCswap: Cake-DEGEN"
-    },
-    {
-      "address": "0x3986f021162b2fcaa3f6b81670a28e3fea57a3a8",
-      "nameTag": "BSCswap: Cake-DRUGS"
-    },
-    {
-      "address": "0x9c014b75492045aa6f6274255803f23bfc7116fd",
-      "nameTag": "BSCswap: Cake-MARS"
-    },
-    {
-      "address": "0xc2437e865f314f74f06f213173a29523342e2aa1",
-      "nameTag": "BSCswap: Cake-Saturn"
-    },
-    {
-      "address": "0x3d8666d417d7f30439958841bdfffe91d694a3ad",
-      "nameTag": "BSCswap: Cake-SPARTA"
-    },
-    {
-      "address": "0x9c5ae43b41a443d51897f5352371c1a147fa5f6e",
-      "nameTag": "BSCswap: Cake-SulX"
-    },
-    {
-      "address": "0x9c90a1c8f1d7d88046d0e9aae90c1749e89814bb",
-      "nameTag": "BSCswap: Cake-THUGS"
-    },
-    {
-      "address": "0xbabb960c2f90e9fe0205b35d9d6e57e22677084a",
-      "nameTag": "BSCswap: Cake-TWT"
-    },
-    {
-      "address": "0xd820869846f3222a67ebf54a1713841be359b3d0",
-      "nameTag": "BSCswap: Cake-USDT"
-    },
-    {
-      "address": "0xa4ab82b0d9fe7cf9f6c46ba99d137695583b6605",
-      "nameTag": "BSCswap: CARGILL"
-    },
-    {
-      "address": "0x3377ef9c77259a76692b058b0e820f9501193352",
-      "nameTag": "BSCswap: Cat"
-    },
-    {
-      "address": "0xcae8798e6559cfc5f52e531caf1e1b0a3e2b6c11",
-      "nameTag": "BSCswap: CAT-BUSD"
-    },
-    {
-      "address": "0x1a1e4d41b0794b954fb39cce768a3686a695f475",
-      "nameTag": "BSCswap: Cbit"
-    },
-    {
-      "address": "0x9c69cc2597bf64cf000d95167eb7ba846aaff406",
-      "nameTag": "BSCswap: CBT"
-    },
-    {
-      "address": "0x368974d98b5b9a7b84c142fa10a3b42e4bfe65f7",
-      "nameTag": "BSCswap: CDEI"
-    },
-    {
-      "address": "0xb5c2146f7065e166a14644caa07f8ce3c92c3537",
-      "nameTag": "BSCswap: CECO"
-    },
-    {
-      "address": "0x187489732760a53975fe74f7e2859c9b1e61bd06",
-      "nameTag": "BSCswap: CHA"
-    },
-    {
-      "address": "0xb6b066ee7186af64241651a1071af9929894acac",
-      "nameTag": "BSCswap: CISC"
-    },
-    {
-      "address": "0x5027c414c88acaad13ba09cfbd99bd97a6ce01b2",
-      "nameTag": "BSCswap: CLB"
-    },
-    {
-      "address": "0x268f6bc8bdfe223fe04b48d3d05a1b7fe1bcc46f",
-      "nameTag": "BSCswap: COFT"
-    },
-    {
-      "address": "0xc49d1cb3010756a25ae7488bbbf7e45722a8202e",
-      "nameTag": "BSCswap: COIN"
-    },
-    {
-      "address": "0xadfda5e40222ff578ce922781d4e4574ab0cea53",
-      "nameTag": "BSCswap: cowb"
-    },
-    {
-      "address": "0x146d7c44e68ff40b2dea24b8cb83ac8b552347c2",
-      "nameTag": "BSCswap: CPRZ"
-    },
-    {
-      "address": "0x9d9c198bc1b9181c03bc6dd6f2e64c5093ed4f2e",
-      "nameTag": "BSCswap: CPY"
-    },
-    {
-      "address": "0x83a8e84492a234ef5a2537c534bfbcdc79b08ae0",
-      "nameTag": "BSCswap: CR7"
-    },
-    {
-      "address": "0xdc429acfb6a3863c1ca30372fbef946b47599fa5",
-      "nameTag": "BSCswap: crBNB"
-    },
-    {
-      "address": "0x5b1f81cfbb2c0dca7a462d1e8c85d98927d4b110",
-      "nameTag": "BSCswap: CRCP"
-    },
-    {
-      "address": "0x1f6c3225e90dd9871610837429524f7d03e75a5d",
-      "nameTag": "BSCswap: CREAM"
-    },
-    {
-      "address": "0x2f331c53d7aa5da9986ab078ff025737ccb70b9d",
-      "nameTag": "BSCswap: CREAM-BUSD"
-    },
-    {
-      "address": "0xf33fe1d0c4ab6b8262a624840c10f5a6582365e1",
-      "nameTag": "BSCswap: CRED"
-    },
-    {
-      "address": "0x1af985b48ac59640113cccdec448a85415422ad9",
-      "nameTag": "BSCswap: CRP"
-    },
-    {
-      "address": "0xf737a8028cc98bdd9009e29d6c5694f55184947e",
-      "nameTag": "BSCswap: CYR"
-    },
-    {
-      "address": "0x2d9e38519fd59b8d0b178027324c0cbf613fc18e",
-      "nameTag": "BSCswap: CYR-USDT"
-    },
-    {
-      "address": "0x3e6568c5962fd20517edf7d2259e52d1fe975fb8",
-      "nameTag": "BSCswap: CYRUS"
-    },
-    {
-      "address": "0x9409f3ce6b1701f8a6df1b1b10345c38b6dd93c3",
-      "nameTag": "BSCswap: CZ"
-    },
-    {
-      "address": "0xb80ad32254a6e4f5b4a2e4bc47e5a6968e3a305b",
-      "nameTag": "BSCswap: CZ 2"
-    },
-    {
-      "address": "0x889c86a45495c04de180379a84821d29eab4bda4",
-      "nameTag": "BSCswap: CZ 3"
-    },
-    {
-      "address": "0x0cea0262ddce7e140666b1d29292b1293490e001",
-      "nameTag": "BSCswap: CZ 4"
-    },
-    {
-      "address": "0x2ba791c9e65406387ead2f767df562f387fc91b5",
-      "nameTag": "BSCswap: D10$"
-    },
-    {
-      "address": "0xd81ae81eaa92b3276f7783857b1b263d68b1c864",
-      "nameTag": "BSCswap: DAF"
-    },
-    {
-      "address": "0xf3010261b58b2874639ca2e860e9005e3be5de0b",
-      "nameTag": "BSCswap: DAI"
-    },
-    {
-      "address": "0xe7bc8c253a055a13ae53d17ca2998bb65503a61f",
-      "nameTag": "BSCswap: DAI-BORGDAI"
-    },
-    {
-      "address": "0x0b8409985cf4dcc7d6520efc3039c58776f70ad9",
-      "nameTag": "BSCswap: DAI-BUSD"
-    },
-    {
-      "address": "0x3cb7abdac5de34ffaadcc7994dd1be20f2c5771d",
-      "nameTag": "BSCswap: DAI-CIF"
-    },
-    {
-      "address": "0xd27425598f86fcd53b57a526836c0f84cf4a5fc5",
-      "nameTag": "BSCswap: DAI-DAU"
-    },
-    {
-      "address": "0x1ff6890e90f04b94d59a0f38d1ea27d5424aaba0",
-      "nameTag": "BSCswap: DAI-DEGEN"
-    },
-    {
-      "address": "0x77397b34893f9295a41aa1dd04d9c9136c24c499",
-      "nameTag": "BSCswap: DAI-DRUGS"
-    },
-    {
-      "address": "0x0c5316d6cb471b7c6024bcbd64949a3ffb36d1b6",
-      "nameTag": "BSCswap: DAI-HKG"
-    },
-    {
-      "address": "0xa9d49891a555ff938e9d515b16898a10ee604bfc",
-      "nameTag": "BSCswap: DAI-USDT"
-    },
-    {
-      "address": "0xd7cde59beed79e22a195623235d6fd8310bbd7b2",
-      "nameTag": "BSCswap: DAU"
-    },
-    {
-      "address": "0x75ebba200f753599b81785e4e0f973a4572e887f",
-      "nameTag": "BSCswap: DAU-BLP"
-    },
-    {
-      "address": "0x31b16161eb3924acab18b464b9185efcd6cbd998",
-      "nameTag": "BSCswap: DAU-BUSD"
-    },
-    {
-      "address": "0xbcf0246364fe102dffdad929407d876620999885",
-      "nameTag": "BSCswap: DB"
-    },
-    {
-      "address": "0x064aced1b794a2b34704261d720f84ad28c96909",
-      "nameTag": "BSCswap: DBDT-BSC-USD"
-    },
-    {
-      "address": "0xa27c9dba2121091fe1940fb1dbe9ccefc78672f8",
-      "nameTag": "BSCswap: DCT-BUSD"
-    },
-    {
-      "address": "0xe514264b927044ba7a7469093869e18ee51e95b5",
-      "nameTag": "BSCswap: DEFI"
-    },
-    {
-      "address": "0xcd9947a0174a12e599b8fed60e6263cb0137ed93",
-      "nameTag": "BSCswap: DEFI-BUSD"
-    },
-    {
-      "address": "0x74ed229d5cc16678876310a7f67ca13b541be11d",
-      "nameTag": "BSCswap: DEGEN"
-    },
-    {
-      "address": "0x8be7d7d871270aa181cb6aeb7c3a5bc5538e994a",
-      "nameTag": "BSCswap: DEGEN-BSWAP"
-    },
-    {
-      "address": "0x3be650f4215c2b4b755c96a169e3d4d73affecd1",
-      "nameTag": "BSCswap: DEGEN-BUSD"
-    },
-    {
-      "address": "0xaae8d15bb54a2533b6154a7fdde63156f4a6dc61",
-      "nameTag": "BSCswap: DEGO"
-    },
-    {
-      "address": "0xa7725028ded7f05010862f1bd41251a0334a0f2e",
-      "nameTag": "BSCswap: DES-USD"
-    },
-    {
-      "address": "0x9de7f4fb33eb85a5d446d32e0f570f1c83e0a692",
-      "nameTag": "BSCswap: DEVS"
-    },
-    {
-      "address": "0x9d0a849b40e1c3c133b06e429b01518d761541cf",
-      "nameTag": "BSCswap: DIC"
-    },
-    {
-      "address": "0xc8a39bedecad27052050396b24ae300896d7942e",
-      "nameTag": "BSCswap: Diners.Club.International"
-    },
-    {
-      "address": "0x4f90be7ca3e8e06c516c2fb04520c717568fa94d",
-      "nameTag": "BSCswap: DITC"
-    },
-    {
-      "address": "0xd71229da8633f7fe9bad02c6a49b8ad89daa5971",
-      "nameTag": "BSCswap: DLT"
-    },
-    {
-      "address": "0xe54d0ce3df4d9233157d4637b3543c0874317436",
-      "nameTag": "BSCswap: DN"
-    },
-    {
-      "address": "0x105e829220e2eb48dae0c0004efa9b02d1283dba",
-      "nameTag": "BSCswap: DOGEPi"
-    },
-    {
-      "address": "0xc03b5504b89cf8c81d23c8fdbd5921ec207315b4",
-      "nameTag": "BSCswap: DOP-BUSD"
-    },
-    {
-      "address": "0xd2e2bfd5cbfa4116cd0a026fe5263a9ba90836b2",
-      "nameTag": "BSCswap: DOSW"
-    },
-    {
-      "address": "0x784b8124d04d6ff5c5ecf234b5679f72a4527665",
-      "nameTag": "BSCswap: DOT"
-    },
-    {
-      "address": "0x80b5ae355fca2b5a90e9212d4aa999a95b392258",
-      "nameTag": "BSCswap: DOT-BFI"
-    },
-    {
-      "address": "0x13027ff4cec2d62fbd8fd3e77ad11fba36691155",
-      "nameTag": "BSCswap: DOT-BHC"
-    },
-    {
-      "address": "0x7523f6bc506fb2c218d86fab77d8ab2af6193e8e",
-      "nameTag": "BSCswap: DOT-MILK"
-    },
-    {
-      "address": "0x1ca9ce888bad438da8d02a0273118405f2df1b69",
-      "nameTag": "BSCswap: DOUC"
-    },
-    {
-      "address": "0x0c762d384f60c6bf4c9d2d833d4a0581752163aa",
-      "nameTag": "BSCswap: DPZ"
-    },
-    {
-      "address": "0xedb814b15774989669779042ffbf82a1361d031a",
-      "nameTag": "BSCswap: DRUGS"
-    },
-    {
-      "address": "0x8e05c5d32562de30f5f80ba7ce327760afb282b1",
-      "nameTag": "BSCswap: DTD"
-    },
-    {
-      "address": "0x32b2c7fe6e28c0bba60e3812f52ba059113b69d6",
-      "nameTag": "BSCswap: DUCX"
-    },
-    {
-      "address": "0x323da23fd5ae1f362236b04cfde93ee2fdb49880",
-      "nameTag": "BSCswap: Durga"
-    },
-    {
-      "address": "0x3f52cd281f4023755f6e8433fceb26f7c955510e",
-      "nameTag": "BSCswap: DzT"
-    },
-    {
-      "address": "0x38c2b18e5e7f9b3d9ee1f7658ce2172058d99a69",
-      "nameTag": "BSCswap: EARTH"
-    },
-    {
-      "address": "0x9e480a83256c3436fb2fcb1b2e885cbcc309f315",
-      "nameTag": "BSCswap: EARTH-BFI"
-    },
-    {
-      "address": "0x96d344cea3cc0732dd329af21efbba671757a792",
-      "nameTag": "BSCswap: EARTH-BHC"
-    },
-    {
-      "address": "0x850edda514f37ad94cc2d9989d35e5bd674da04b",
-      "nameTag": "BSCswap: EARTH-BSWAP"
-    },
-    {
-      "address": "0x79c5fdfbc6837b4ddd334ebe83b011107f399deb",
-      "nameTag": "BSCswap: EARTH-BUSD"
-    },
-    {
-      "address": "0x7163a1ffebe67757a943c846e84dc75f7583eb0c",
-      "nameTag": "BSCswap: EARTH-DEGEN"
-    },
-    {
-      "address": "0x3021118db68e2c282db14e766556cd30bb92c5f5",
-      "nameTag": "BSCswap: EARTH-MOON"
-    },
-    {
-      "address": "0x07eff53fdb1373dd88d1332da1f39f285a0d9696",
-      "nameTag": "BSCswap: EARTH-USDT"
-    },
-    {
-      "address": "0xcebddbfdec48754cf3b150d18e113463be8f64e2",
-      "nameTag": "BSCswap: ECARE-BUSD-T"
-    },
-    {
-      "address": "0x2924aa2532f1a5aee9c42f4990096ad239d53bad",
-      "nameTag": "BSCswap: EKIPA"
-    },
-    {
-      "address": "0x11f25a9cdd7e05e49d7744140f285c9591c0a518",
-      "nameTag": "BSCswap: ELON"
-    },
-    {
-      "address": "0xbb9f294c573f7963368a6f02d53fdf0ecda17fe3",
-      "nameTag": "BSCswap: EMC"
-    },
-    {
-      "address": "0x2949ead06c9d513ee6716d606a1c4772dc32ec6e",
-      "nameTag": "BSCswap: EOS"
-    },
-    {
-      "address": "0x2c3bc241a0956cf00e7efd86e37fb034f734204a",
-      "nameTag": "BSCswap: EOS-BUSD"
-    },
-    {
-      "address": "0x8937d3caf9c7c8a1de57dc116082b00a7b36a9b0",
-      "nameTag": "BSCswap: EOS-SANTA"
-    },
-    {
-      "address": "0xcd73937de76a345a37b8ddaa318e47847f3aaea1",
-      "nameTag": "BSCswap: EPC"
-    },
-    {
-      "address": "0xf142b6e94d198b5eb26e745a5d69c8a536403e78",
-      "nameTag": "BSCswap: ETH"
-    },
-    {
-      "address": "0x7a4c8ffc8ccb378ab37037f4f3fbd6a297dc3d78",
-      "nameTag": "BSCswap: ETH-BLOK"
-    },
-    {
-      "address": "0xb65e8e0c37bd54f26388b2e27d99eb4a3b5c4761",
-      "nameTag": "BSCswap: ETH-BSWAP"
-    },
-    {
-      "address": "0x6f5f49387417f145a7cb8a3313247981e339becf",
-      "nameTag": "BSCswap: ETH-BZAR"
-    },
-    {
-      "address": "0xc794130db47d266e71387f1540bc039a9fa6e66e",
-      "nameTag": "BSCswap: ETH-PTTP"
-    },
-    {
-      "address": "0x8379076c8ffc04cf3b1fb0a86598208c65bf6503",
-      "nameTag": "BSCswap: ETH-USDT"
-    },
-    {
-      "address": "0xb3e8fef890856b37a20e85615656680a8dd1eee2",
-      "nameTag": "BSCswap: Ether(ETH)"
-    },
-    {
-      "address": "0x27684c58c11c0d5023bad1d956d01e91e5d740c7",
-      "nameTag": "BSCswap: EXMOC"
-    },
-    {
-      "address": "0x631c52e429ddc1a4df6b2fcd25c2796001c41e99",
-      "nameTag": "BSCswap: FAIRY"
-    },
-    {
-      "address": "0x282c2ca9f3056c275643eb7df843506603c64893",
-      "nameTag": "BSCswap: FAKE"
-    },
-    {
-      "address": "0xc7052cb4a0fe05156dcb2d22a6905edc4b35ab6f",
-      "nameTag": "BSCswap: FARM"
-    },
-    {
-      "address": "0x10a279456b7ef99f838f7903415268fcfcacd74d",
-      "nameTag": "BSCswap: FCNT"
-    },
-    {
-      "address": "0x852783ef7189b2fc4a6ca550db79b7996e3432d4",
-      "nameTag": "BSCswap: FCNT 2"
-    },
-    {
-      "address": "0x8c954e0f64181a65d4a5cfbb9cf02c04ce0e28b2",
-      "nameTag": "BSCswap: FCNT-DEGEN"
-    },
-    {
-      "address": "0x810cf9c840871f592bea2eae21bda6d53d14fabe",
-      "nameTag": "BSCswap: FDL"
-    },
-    {
-      "address": "0x08a47abafee002728c3091052a7dae06c016c3d2",
-      "nameTag": "BSCswap: FIRE"
-    },
-    {
-      "address": "0x93362af1af2c706dbde71c0f23c5042335b19a30",
-      "nameTag": "BSCswap: FITFI"
-    },
-    {
-      "address": "0x4fc40b0482ce0c21e1e9c4c3878688db23e45a29",
-      "nameTag": "BSCswap: FIW"
-    },
-    {
-      "address": "0xe820860ee708a1f8e2c50daffcdcf733bd730642",
-      "nameTag": "BSCswap: FIZI"
-    },
-    {
-      "address": "0x1a6c46ddee5a68153020f6ed815858c8dde8ee72",
-      "nameTag": "BSCswap: FLOKI"
-    },
-    {
-      "address": "0x3c9f1fc3d164161d7eaaf85e6eabc2bcc9a9b94d",
-      "nameTag": "BSCswap: FLTR"
-    },
-    {
-      "address": "0xa8a227d97541160db096cf332ea6ea91aeae57f0",
-      "nameTag": "BSCswap: FN"
-    },
-    {
-      "address": "0x014c57bd41b59d2db9f21ee3ee009fb373aa58a9",
-      "nameTag": "BSCswap: FOR"
-    },
-    {
-      "address": "0xc6a54275c42ac3cee141fc548005eb95cd3589ee",
-      "nameTag": "BSCswap: FOX"
-    },
-    {
-      "address": "0xcf5eb4d708cda58c3491a7838fd307f6094f69ce",
-      "nameTag": "BSCswap: FREE"
-    },
-    {
-      "address": "0x08d4755938d8e1b6d1cb075f8a6918e99db6f224",
-      "nameTag": "BSCswap: FREE-BSWAP"
-    },
-    {
-      "address": "0x73b920ff688256187eb29509e232c3b73432b44f",
-      "nameTag": "BSCswap: Freedom"
-    },
-    {
-      "address": "0xf95bb1e6afc94cdd81c1de17284ba46f133af4b3",
-      "nameTag": "BSCswap: FRF-BUSD"
-    },
-    {
-      "address": "0x2b6ef1bca258230c213856b2da54dd5909d20d40",
-      "nameTag": "BSCswap: FRIES"
-    },
-    {
-      "address": "0xedf6c46e7eb97b4824577fce1c257e9ef66f6b8d",
-      "nameTag": "BSCswap: FRIES-BUSD"
-    },
-    {
-      "address": "0x9f7804769dadff9d55dd58ecb0e30e2542c727ac",
-      "nameTag": "BSCswap: FROG"
-    },
-    {
-      "address": "0x3770c98265c545f9accf985d927e8230bb570e02",
-      "nameTag": "BSCswap: FUN"
-    },
-    {
-      "address": "0x8fc8c3e3593f09698bad714d098ab77f13f214a7",
-      "nameTag": "BSCswap: FUNDS"
-    },
-    {
-      "address": "0x75d45db898d7c5d3ec959b807e4b60e52305aa3a",
-      "nameTag": "BSCswap: FYSH"
-    },
-    {
-      "address": "0x1dbb869cb03d28ceff38a2c9109c2a02c3a9bbfd",
-      "nameTag": "BSCswap: GAIA"
-    },
-    {
-      "address": "0x1b7047fc699298176aca45f1ad1eedd7cd2ffbb2",
-      "nameTag": "BSCswap: GARU"
-    },
-    {
-      "address": "0x6312df99b307d1d57f164c353478a04a1aeb6293",
-      "nameTag": "BSCswap: GBPC"
-    },
-    {
-      "address": "0x629c8e54b439e7d1042ebb955d68f10eb8693e1a",
-      "nameTag": "BSCswap: GFT"
-    },
-    {
-      "address": "0xe43aa6dc048ac610eed16a26727c242ad44ddcdc",
-      "nameTag": "BSCswap: GIAN"
-    },
-    {
-      "address": "0x01bbc289dbca25a379f79bf47f084f62fcce6355",
-      "nameTag": "BSCswap: GIO"
-    },
-    {
-      "address": "0x045278819aabad22f2899c616aaf5fedf2c49155",
-      "nameTag": "BSCswap: GMC"
-    },
-    {
-      "address": "0xff41a6230a6060d4bde3a429c0e632ae66a84f70",
-      "nameTag": "BSCswap: GOC"
-    },
-    {
-      "address": "0x0e70271370fbd885ae7ebd797f04e1455eb81ea6",
-      "nameTag": "BSCswap: GOOD"
-    },
-    {
-      "address": "0x7fdbd426edfaf581c5dee233c6cc2f0763975825",
-      "nameTag": "BSCswap: GOX"
-    },
-    {
-      "address": "0xbd86c1d5af574350e61245eb523bae9a241fd36a",
-      "nameTag": "BSCswap: Grimace"
-    },
-    {
-      "address": "0x8ceeef9620430648a2ea2c1b178e153aa683007d",
-      "nameTag": "BSCswap: GUNS"
-    },
-    {
-      "address": "0x79a535081b5344acafed5a17554c8cd92ded089e",
-      "nameTag": "BSCswap: GUNS-BUSD"
-    },
-    {
-      "address": "0x16546a33097cfe720e5138dba72064824a129725",
-      "nameTag": "BSCswap: GUNS-DAI"
-    },
-    {
-      "address": "0xab9480058f783f08691f1161e9f36c10fc8da6ae",
-      "nameTag": "BSCswap: GUNS-USD-T"
-    },
-    {
-      "address": "0x25561590e51dfcf8520610afeaf7a1b688f954e9",
-      "nameTag": "BSCswap: HAAI"
-    },
-    {
-      "address": "0x6eef76387bb79a2df40afe505b10ece4815a9bcf",
-      "nameTag": "BSCswap: HALO"
-    },
-    {
-      "address": "0x69c70286d7a40f693f65ef75d957fcbe0638b32e",
-      "nameTag": "BSCswap: HARD"
-    },
-    {
-      "address": "0x195e0ea388d5c126b51f10648b8c2813440bd4a6",
-      "nameTag": "BSCswap: HARD 2"
-    },
-    {
-      "address": "0xcc3cf56534434c71035acf5e23f33160361f920d",
-      "nameTag": "BSCswap: HDPL-HYPC"
-    },
-    {
-      "address": "0x9aa133c4c631a5eb6acbb7b20d579801673e1a9a",
-      "nameTag": "BSCswap: HEB"
-    },
-    {
-      "address": "0x1792a038f33880a982d41dabc60d2abca500dc5d",
-      "nameTag": "BSCswap: HFI"
-    },
-    {
-      "address": "0x2ddc462ba4fbfe6df4a34034e67fbdfbc4bbcedd",
-      "nameTag": "BSCswap: HOES"
-    },
-    {
-      "address": "0x90796bb9ca24c5fd66e77f3430ac68cfefb57346",
-      "nameTag": "BSCswap: HOES-DRUGS"
-    },
-    {
-      "address": "0x290bd3ba08e772c21816a4d96f09c4ab5076b5f9",
-      "nameTag": "BSCswap: HOP"
-    },
-    {
-      "address": "0x733f9d990c956f2f8b3af551a6685cdb070bc8ba",
-      "nameTag": "BSCswap: HOP-BHC"
-    },
-    {
-      "address": "0x114b77a103babded17d0c9d909392793874b3487",
-      "nameTag": "BSCswap: HOP-BSWAP"
-    },
-    {
-      "address": "0x128f277fd12b1a42b2a8ac3f6d10cd96e5122179",
-      "nameTag": "BSCswap: HOP-BUSD"
-    },
-    {
-      "address": "0xf31d079d82bf00c37c18854268817adcd9f20d9c",
-      "nameTag": "BSCswap: HOP-MOON"
-    },
-    {
-      "address": "0x90222c8b0d079f0de9f8659fefa68d6dbe7e3fb0",
-      "nameTag": "BSCswap: HOP-RABBIT"
-    },
-    {
-      "address": "0x95698bab6215d52babc8710616c439e9e8106f82",
-      "nameTag": "BSCswap: HORS"
-    },
-    {
-      "address": "0xc534b15792bb32a418489f9f33a3b644a8d294d1",
-      "nameTag": "BSCswap: HOTDOG-BUSD"
-    },
-    {
-      "address": "0x626cd83e7a89163c5390d2358d9ef540b1c8fa0f",
-      "nameTag": "BSCswap: HOTS"
-    },
-    {
-      "address": "0x5d2d897602f5d59b4eff014764601e6f0283af4c",
-      "nameTag": "BSCswap: hSOV"
-    },
-    {
-      "address": "0xd2bc33b0415ef97dd7157545d3e3a25b924e632d",
-      "nameTag": "BSCswap: HVT-BUSD"
-    },
-    {
-      "address": "0x3f46fcdf80be1d6f5d77abfe1d897e25757a0923",
-      "nameTag": "BSCswap: ICCF"
-    },
-    {
-      "address": "0xd5c10cef49086d97c9fa329573997bf1095e2739",
-      "nameTag": "BSCswap: ICE"
-    },
-    {
-      "address": "0xe75964cf06d292dd0f59ae825c8ee96db4ee1e10",
-      "nameTag": "BSCswap: ICM"
-    },
-    {
-      "address": "0xe61d0dbf43bb74d8f0e03a70f815a7c9f8626e15",
-      "nameTag": "BSCswap: IGSC"
-    },
-    {
-      "address": "0x7cfa7cffae38cdd9aa16e918f471430df27c5d5f",
-      "nameTag": "BSCswap: IGV"
-    },
-    {
-      "address": "0x28fdd9a4ae93bfb0b1613538575dc036cde6bb18",
-      "nameTag": "BSCswap: INNBC"
-    },
-    {
-      "address": "0xe2bbc0c72cdcabe1f1d42fa1f6a58ff70c979dd5",
-      "nameTag": "BSCswap: INNBC-BSWAP"
-    },
-    {
-      "address": "0x9926bfab22945df57e13892ba64af476ffb613c9",
-      "nameTag": "BSCswap: INNBC-BUSD"
-    },
-    {
-      "address": "0xd24fd89739fb52ffab0ace72123b87bf585d0754",
-      "nameTag": "BSCswap: INTEC"
-    },
-    {
-      "address": "0xe0c3ed0d312f296171db53c51f23d5a98f338e45",
-      "nameTag": "BSCswap: IOTX"
-    },
-    {
-      "address": "0x8e3aec9115d2d53df18486a527fb54e02076d733",
-      "nameTag": "BSCswap: IOX"
-    },
-    {
-      "address": "0x8bb91e605d418f924b8fb4263693380d7b49b778",
-      "nameTag": "BSCswap: IRON"
-    },
-    {
-      "address": "0xdb21b1bc388fb934627aba6a8860e188f40b0a99",
-      "nameTag": "BSCswap: IUM"
-    },
-    {
-      "address": "0xe813cb8af896a87215eea4fe2e5cb9c9b640c360",
-      "nameTag": "BSCswap: IUM-VAL"
-    },
-    {
-      "address": "0xbf60a261fd9c249041a757967a87796d4a41a352",
-      "nameTag": "BSCswap: JACKPOT"
-    },
-    {
-      "address": "0x3c432035a7823ced9da990c8c589524dc19caf95",
-      "nameTag": "BSCswap: JAG"
-    },
-    {
-      "address": "0xb5d2c09cc3b56bf32acc78b02a95c3b768912983",
-      "nameTag": "BSCswap: JASM"
-    },
-    {
-      "address": "0xfb4975f933c7993d0a29d585179a5b4f4ce4eb7b",
-      "nameTag": "BSCswap: JEO"
-    },
-    {
-      "address": "0xb8f5d98f5b4a3aeccb83b3782c26a218f7160c95",
-      "nameTag": "BSCswap: JFIN-T-BUSD"
-    },
-    {
-      "address": "0x383cb29d9c4b8686c9cf5ce07ede2b418e245984",
-      "nameTag": "BSCswap: JNTR"
-    },
-    {
-      "address": "0x3d0efaa9e6a664768fd0c15c0df263dacaaf35ff",
-      "nameTag": "BSCswap: JNTR/b"
-    },
-    {
-      "address": "0xee911a684201ffbc42b322e5a5234f4368c7e1d9",
-      "nameTag": "BSCswap: JNTR/b-BSWAP"
-    },
-    {
-      "address": "0x04f8269a4f0d359285b8e10c3093a30440af9260",
-      "nameTag": "BSCswap: JNTR/b-BUSD"
-    },
-    {
-      "address": "0xac414b82bb504f7eb06087831e0f6b72e472c12e",
-      "nameTag": "BSCswap: JNTR/b-DEGEN"
-    },
-    {
-      "address": "0x8f93b7d7b5e95bf1edf271b80b3b5125188c6ab6",
-      "nameTag": "BSCswap: JNTR/b-SANTA"
-    },
-    {
-      "address": "0xd901a981a6f820eb42fdb0aab4e920aa2c19353f",
-      "nameTag": "BSCswap: JUICY"
-    },
-    {
-      "address": "0x8df884c62b5dd60c0a48c4ff872afdc4b9435560",
-      "nameTag": "BSCswap: JULb"
-    },
-    {
-      "address": "0xed1c54c593219e154efd50fb89e82c65c328599d",
-      "nameTag": "BSCswap: JULb-BUSD"
-    },
-    {
-      "address": "0x3f50c0f02254ed28e23e1941a32090a0396377d1",
-      "nameTag": "BSCswap: KING"
-    },
-    {
-      "address": "0x59cbae9ebce329d3d71a1d9239ee7b1077c54aaf",
-      "nameTag": "BSCswap: KING-BSWAP"
-    },
-    {
-      "address": "0xc32cbbfad0811061fb2bb0bc977caf2440cd202e",
-      "nameTag": "BSCswap: KKC"
-    },
-    {
-      "address": "0xcc4c03ee30365ad9ecc81edc46f31a072a08cf7b",
-      "nameTag": "BSCswap: KOGE"
-    },
-    {
-      "address": "0x9f4d0bc3b29204eb23ba542b3e33c6e1f386dd0f",
-      "nameTag": "BSCswap: KOGE-BUSD"
-    },
-    {
-      "address": "0xb3432633e5315776e3a6cf77edb99b8c6da9393e",
-      "nameTag": "BSCswap: KOR"
-    },
-    {
-      "address": "0xb3bfbd68771696c773d58000ae7f4c2225b3a383",
-      "nameTag": "BSCswap: KOR-BUSD"
-    },
-    {
-      "address": "0x0590a75d60f42ebe7f6c016786fb993172329658",
-      "nameTag": "BSCswap: KP3R"
-    },
-    {
-      "address": "0xa76616e20374fb46c464220bebebbffe22aa3cde",
-      "nameTag": "BSCswap: KP3RB"
-    },
-    {
-      "address": "0x4bc2cab346ed6b778ccc7674a21d09f7e1d3c1e3",
-      "nameTag": "BSCswap: KP3RB-BSWAP"
-    },
-    {
-      "address": "0xe6a6a379f939b69c0d41303b85588295407ce992",
-      "nameTag": "BSCswap: KP3RB-DEGEN"
-    },
-    {
-      "address": "0xb3265af0e8e80e3580f6f02c2343d3831575c252",
-      "nameTag": "BSCswap: KRN"
-    },
-    {
-      "address": "0x12bccf40d1cfd6dd3682d88dd07e110144b1cda0",
-      "nameTag": "BSCswap: KURDO"
-    },
-    {
-      "address": "0xf07b3dc3bcb5493268f85d79f6f71a96e97cff8b",
-      "nameTag": "BSCswap: LAVA"
-    },
-    {
-      "address": "0xa7756b8abb57983867d516c10fe3c6a0fecbb320",
-      "nameTag": "BSCswap: LDS"
-    },
-    {
-      "address": "0xf6972fa6fd3c85fe002998312633a3f90b3a1a7f",
-      "nameTag": "BSCswap: LETSB-BUSD"
-    },
-    {
-      "address": "0xee5048609de821864071bc4b3b8c0e513c2aed30",
-      "nameTag": "BSCswap: LFI"
-    },
-    {
-      "address": "0x506f458fcfd60a49eb688842d49269305392367c",
-      "nameTag": "BSCswap: LFI 2"
-    },
-    {
-      "address": "0xb7524072b721670630d985fcd4cf0e4a57e03452",
-      "nameTag": "BSCswap: LFI-BAI"
-    },
-    {
-      "address": "0x93c770b0bb185c480d45dc754b214b2c7b1bb797",
-      "nameTag": "BSCswap: LFI-BIFI"
-    },
-    {
-      "address": "0x63b625bb1c20cc9fe8aa721ee6876110fb96ffd0",
-      "nameTag": "BSCswap: LFI-BSWAP"
-    },
-    {
-      "address": "0x27b2133ab4244d78bc051b9a2dd9b200141bdf70",
-      "nameTag": "BSCswap: LFI-BSWAP 2"
-    },
-    {
-      "address": "0xa5bd1e1429dfc8784ebff2f2fe75fd5283efdf29",
-      "nameTag": "BSCswap: LFI-BUSD"
-    },
-    {
-      "address": "0x1edc4447b7bea55d30905fc82524d4ee6d5db280",
-      "nameTag": "BSCswap: LFI-FROG"
-    },
-    {
-      "address": "0x0f99f41fce464a1dbc55c74bd3700f8120700dbd",
-      "nameTag": "BSCswap: LFX"
-    },
-    {
-      "address": "0x9fb1a2826c62b7a1b1e996fbdf221ffe70796d45",
-      "nameTag": "BSCswap: LIM"
-    },
-    {
-      "address": "0x77950fb3c601292054d433dcf24ee880cebf322c",
-      "nameTag": "BSCswap: LINK"
-    },
-    {
-      "address": "0xde81db848eb61d5189f3b9d83c7fc140547a4129",
-      "nameTag": "BSCswap: LMT"
-    },
-    {
-      "address": "0x27d491e54a915146baee053d6929fc9e8aefbcc5",
-      "nameTag": "BSCswap: LNA"
-    },
-    {
-      "address": "0x28f2f960971b7a97b67a83d4932c73afb3ec2aea",
-      "nameTag": "BSCswap: Love"
-    },
-    {
-      "address": "0xa34cd3dab8947995aedc766ef766174eb39b8138",
-      "nameTag": "BSCswap: LSB"
-    },
-    {
-      "address": "0xfc79185dd06517b635381d6d6ea78fca8302ed0e",
-      "nameTag": "BSCswap: LTC"
-    },
-    {
-      "address": "0x9e57e86a0147a91f8246abc93e84ceb21e4b5abd",
-      "nameTag": "BSCswap: LTC-USDT"
-    },
-    {
-      "address": "0x80fefadd48c08785daed38903f0d138d8b60687c",
-      "nameTag": "BSCswap: LTRT"
-    },
-    {
-      "address": "0xc78e20d5614589cd51926f6d602554d66e9d17f7",
-      "nameTag": "BSCswap: LUCHOW"
-    },
-    {
-      "address": "0xc3257c173b1475702e45048e4304ff28ce7f8207",
-      "nameTag": "BSCswap: MANC"
-    },
-    {
-      "address": "0x9d6af5ee257d400d9e09abf6f6790f312600a507",
-      "nameTag": "BSCswap: MANGO"
-    },
-    {
-      "address": "0xdbb9c2f105ed338799561611647946e9ee1e9d9d",
-      "nameTag": "BSCswap: MANGO-BTCB"
-    },
-    {
-      "address": "0xefdd942f7322d0ab091241cfadcd883485021e77",
-      "nameTag": "BSCswap: MANGO-BUSD"
-    },
-    {
-      "address": "0x478cd7b7d16cdc6920bde874751b1c737c0a25fa",
-      "nameTag": "BSCswap: MARS"
-    },
-    {
-      "address": "0x91e7d2d4c6158f24a20e505309b47c0e73f2217d",
-      "nameTag": "BSCswap: MARS 2"
-    },
-    {
-      "address": "0x658c30f10e42cfca612af8a1c6fd64a8a4d61790",
-      "nameTag": "BSCswap: MARS 3"
-    },
-    {
-      "address": "0x30e903a5c6ea33dee36e3f60e6679cfeff4a7bc7",
-      "nameTag": "BSCswap: Mastercard.Inc(NYSE)MA"
-    },
-    {
-      "address": "0x35ffe227326d3553766a44a9190f5108758ebb07",
-      "nameTag": "BSCswap: MBEP"
-    },
-    {
-      "address": "0x517f06c59d4e2eab554bf9d885777becd5157093",
-      "nameTag": "BSCswap: MCAPER"
-    },
-    {
-      "address": "0x5b56c8ace11a7afb723feb2f001ae2d90e937347",
-      "nameTag": "BSCswap: MEGRA"
-    },
-    {
-      "address": "0x53b625083a342c517aef3eb10223e522d3a66cfa",
-      "nameTag": "BSCswap: MEGRA-BSC-USD"
-    },
-    {
-      "address": "0x88b6368c5a4b83efc9e01a833f2d0eb511b8dd42",
-      "nameTag": "BSCswap: MER"
-    },
-    {
-      "address": "0x114febd714ba475a78224d1dbc089d3a5ba47f47",
-      "nameTag": "BSCswap: MERK"
-    },
-    {
-      "address": "0x27a130b6aa131e4714771136edf1c5e81f6a7746",
-      "nameTag": "BSCswap: METAVC-BSC-USD"
-    },
-    {
-      "address": "0xd1b25bec94852f765d74731b77f26a197604fccb",
-      "nameTag": "BSCswap: METAVC-BUSD"
-    },
-    {
-      "address": "0x1c95ad10e4892921d89baf13bc81a5f72a2ec3a5",
-      "nameTag": "BSCswap: MFI"
-    },
-    {
-      "address": "0x8bdda1a7bf88e280d25fa473f549b97c3b6fbf49",
-      "nameTag": "BSCswap: MFI-BUSD"
-    },
-    {
-      "address": "0xcfca87687c0fe5698e181b9acb7b3f1e9a9876ab",
-      "nameTag": "BSCswap: MGC"
-    },
-    {
-      "address": "0x6330c052e35f23ad219ad9afbaddf53a68f2b2b2",
-      "nameTag": "BSCswap: MILK"
-    },
-    {
-      "address": "0x525b322ba6eba3a69f432a2aab33e9497e8c0577",
-      "nameTag": "BSCswap: MILK-BUSD"
-    },
-    {
-      "address": "0x10c4c35e3207206d5e363960a6f037643db1cfe2",
-      "nameTag": "BSCswap: MIOT"
-    },
-    {
-      "address": "0xc9cde9e376a5cab8ebc5f68706c70fe1228d041c",
-      "nameTag": "BSCswap: MJACK"
-    },
-    {
-      "address": "0xc26e5dd39c31b204a6a24a98cc8b036914340237",
-      "nameTag": "BSCswap: MKN"
-    },
-    {
-      "address": "0x6cd511d5121ee2dd7c903a23edc6ad30a716519e",
-      "nameTag": "BSCswap: MKN-BSC-USD"
-    },
-    {
-      "address": "0x68e52abb2045c669055d18bbdcb502866512ec59",
-      "nameTag": "BSCswap: MNR"
-    },
-    {
-      "address": "0x6109cee326d69ad985126a95f6e84c14007c346a",
-      "nameTag": "BSCswap: MONI"
-    },
-    {
-      "address": "0x885bd735543389fc6046f09ca802dd0ec728de14",
-      "nameTag": "BSCswap: MOON"
-    },
-    {
-      "address": "0x14807ca0875506c2029a70099aa874792793c96d",
-      "nameTag": "BSCswap: MOON-BHC"
-    },
-    {
-      "address": "0x6f77930d1d9a4169424373217e398ebce478fe08",
-      "nameTag": "BSCswap: MOON-BSWAP"
-    },
-    {
-      "address": "0xc82c749e3fd95ecd9428228379b7710743e92db6",
-      "nameTag": "BSCswap: MOON-BUSD"
-    },
-    {
-      "address": "0x4c66abc954bba1d585762cf22b2c546bbf3b9441",
-      "nameTag": "BSCswap: MSX"
-    },
-    {
-      "address": "0x7c9de7a46e7408411981945330e754a0d2bd5b7b",
-      "nameTag": "BSCswap: MZI"
-    },
-    {
-      "address": "0x2b965ba55721c28bbcbc5d7e3463614eedb3a108",
-      "nameTag": "BSCswap: MZIT"
-    },
-    {
-      "address": "0x18423deac0d9dc48e550a2baab2a5d12c6dce00a",
-      "nameTag": "BSCswap: NAR"
-    },
-    {
-      "address": "0x1b189e764d57bed29f1283584dc802400194c71e",
-      "nameTag": "BSCswap: NAV"
-    },
-    {
-      "address": "0xbb5cf54c606027878b02ce64b7f047b4969c0c3e",
-      "nameTag": "BSCswap: NCT"
-    },
-    {
-      "address": "0x7cf38acce1422e5165349f6597e70047027d5837",
-      "nameTag": "BSCswap: NEW"
-    },
-    {
-      "address": "0x80c235afaa5f2af4b231a64e7d21ea9df0331d2f",
-      "nameTag": "BSCswap: NFT"
-    },
-    {
-      "address": "0x5bf649aa55bfe0a3365012dc6f53553fb4d399c7",
-      "nameTag": "BSCswap: NFT-BFI"
-    },
-    {
-      "address": "0xcdb5902499e856478dc5130779ba89408ffe3523",
-      "nameTag": "BSCswap: NGAIA"
-    },
-    {
-      "address": "0x1d23a56f0152478d3797d112e023c3c6ca054c16",
-      "nameTag": "BSCswap: NIUB"
-    },
-    {
-      "address": "0x337352b266630b352d13dc0126d88f4be3e66346",
-      "nameTag": "BSCswap: NKR"
-    },
-    {
-      "address": "0x0a9312ccdc2099ec8e648b4fb9d131e5bc9c3cd8",
-      "nameTag": "BSCswap: NOODLE"
-    },
-    {
-      "address": "0x38e59aed5922436311e17944d460f91cb34a7ce5",
-      "nameTag": "BSCswap: NOODLE 2"
-    },
-    {
-      "address": "0x491a4a72e4c0376459f4a7a1ce00f1efdf73f422",
-      "nameTag": "BSCswap: NRFX"
-    },
-    {
-      "address": "0x409c15bbdb32b979a0c800f701a7d2198400f2a5",
-      "nameTag": "BSCswap: NSP-BUSD-T"
-    },
-    {
-      "address": "0x8d0803d5b42646686279407d1822518e639ba718",
-      "nameTag": "BSCswap: NTQ"
-    },
-    {
-      "address": "0x3700a572ed6f8b4709826f73c4932ea2c323cf7e",
-      "nameTag": "BSCswap: NTQ 2"
-    },
-    {
-      "address": "0x5e34ccb24c621a4a6881725c06b942b7d7c0650c",
-      "nameTag": "BSCswap: NUT"
-    },
-    {
-      "address": "0x808e04ed1352a505eb5a377c4a22015656eb2e37",
-      "nameTag": "BSCswap: NWO"
-    },
-    {
-      "address": "0x4b6bcd0526f4ee8a67652422a3191ade2abc1b72",
-      "nameTag": "BSCswap: NYT-BUSD"
-    },
-    {
-      "address": "0x3583eefc9e14e7090ea47a43e9803a8ed7644340",
-      "nameTag": "BSCswap: OCT"
-    },
-    {
-      "address": "0xbe3b3194410dcc94a692e9a2e7bcb3746e37b99d",
-      "nameTag": "BSCswap: OGC"
-    },
-    {
-      "address": "0xb8a2ac17e81a1eb66ee95b509d371a4b85fddfd3",
-      "nameTag": "BSCswap: OIL"
-    },
-    {
-      "address": "0x4596f24c3685539c4a9fe00c602bf463fb8322a3",
-      "nameTag": "BSCswap: OLC"
-    },
-    {
-      "address": "0xf957f7957bfafaaee6b2ad72c2eef8a2dd6a6bde",
-      "nameTag": "BSCswap: ONO"
-    },
-    {
-      "address": "0xaee534bbae9c8650f8354202ec36d3bb36defb1d",
-      "nameTag": "BSCswap: ONT"
-    },
-    {
-      "address": "0x5cc4fb0ba1ebbda8352aab610e1837ead5544829",
-      "nameTag": "BSCswap: PASS"
-    },
-    {
-      "address": "0xd6210662036da8c339781e957c22bfbd870a8b89",
-      "nameTag": "BSCswap: PBANK"
-    },
-    {
-      "address": "0x8c3799179a3bd76ffacee1c31db18b3efd81a5f9",
-      "nameTag": "BSCswap: PBNB"
-    },
-    {
-      "address": "0xb5f7c732b0b1ebe72c558f484f702b1723b75936",
-      "nameTag": "BSCswap: PBNB-BUSD"
-    },
-    {
-      "address": "0x5be424ccbf0105beac548ca536cc11b77c78d9d6",
-      "nameTag": "BSCswap: PBNB-PBTC"
-    },
-    {
-      "address": "0x1968b5a6cbd7eaf220005485445211edb0a01813",
-      "nameTag": "BSCswap: PBNB-PETH"
-    },
-    {
-      "address": "0xcdcfe5387b7902db00bee7aab15054550cadf624",
-      "nameTag": "BSCswap: PBNB-PUSD"
-    },
-    {
-      "address": "0x4bcd7e327ed2696bec2cbab612a810505a5a74be",
-      "nameTag": "BSCswap: PBNB-PUSH"
-    },
-    {
-      "address": "0xffd17561c8904a3449698962f4594261e704b168",
-      "nameTag": "BSCswap: PBOM"
-    },
-    {
-      "address": "0xb97361bb0cfc5062122e19ed88dc9ec30f99e8ec",
-      "nameTag": "BSCswap: PBS"
-    },
-    {
-      "address": "0x92841ea920e0a8247bda2af551beed993a277347",
-      "nameTag": "BSCswap: PBTC"
-    },
-    {
-      "address": "0x56779d2b811ab0f580e35c04b8a507d24640514c",
-      "nameTag": "BSCswap: PBTC-PETH"
-    },
-    {
-      "address": "0x795406b068b0cf7c27458d52e42d20e864c01133",
-      "nameTag": "BSCswap: PBTC-PUSD"
-    },
-    {
-      "address": "0x387209b4633d8fbbaebba699494cd5e61ae19930",
-      "nameTag": "BSCswap: PEACH"
-    },
-    {
-      "address": "0xe17dc8499b546128b7af99555b476d513e7717bd",
-      "nameTag": "BSCswap: PEACH-BUSD"
-    },
-    {
-      "address": "0x1e96c6d41a210f741ccc8d47d6838ee9f1a09bdd",
-      "nameTag": "BSCswap: Peggle"
-    },
-    {
-      "address": "0xb8a0b321e6599249be071030eae2da1a094a80d1",
-      "nameTag": "BSCswap: PET"
-    },
-    {
-      "address": "0xf83a83d4c6b01644026120b536663e04370acd84",
-      "nameTag": "BSCswap: PETH-PUSD"
-    },
-    {
-      "address": "0x5e8535221f84da69ce39783c40ec332730755f6c",
-      "nameTag": "BSCswap: PETS"
-    },
-    {
-      "address": "0x809d08dcb5ac629068d52d2daf636d596c1d6e8d",
-      "nameTag": "BSCswap: PHO"
-    },
-    {
-      "address": "0xaceec0dc05582657e81d1f039a3b25cf84913df8",
-      "nameTag": "BSCswap: PHO-BUSD"
-    },
-    {
-      "address": "0x0667bdc431836778f6e8ff25b56d65eeacda5d1b",
-      "nameTag": "BSCswap: PigBoss"
-    },
-    {
-      "address": "0xd44f06d7002fa67b29c076fb1b7480178eb87c7e",
-      "nameTag": "BSCswap: pik"
-    },
-    {
-      "address": "0x9ade5ffbfb79d04e62b735aa98e10c8095c03188",
-      "nameTag": "BSCswap: PILO"
-    },
-    {
-      "address": "0x3de33261c5f5a04cc58e9fa3b99001a1006a075d",
-      "nameTag": "BSCswap: PIZ"
-    },
-    {
-      "address": "0xd4a96069d91bed61c27964ced301749e1c2e22a8",
-      "nameTag": "BSCswap: PLC"
-    },
-    {
-      "address": "0xf0ced6019b0ae9cbbe0e8aef244f71400fccc448",
-      "nameTag": "BSCswap: PLNT"
-    },
-    {
-      "address": "0x6d5cfba386312a93d13be3e195a4af569aa3511a",
-      "nameTag": "BSCswap: PLNT 2"
-    },
-    {
-      "address": "0x12456d05536f6554a737d5493f9a41d56a14dd2b",
-      "nameTag": "BSCswap: PLS"
-    },
-    {
-      "address": "0xe71b93dd975303ee09f04a7bb47fbb2a963523cf",
-      "nameTag": "BSCswap: POOL"
-    },
-    {
-      "address": "0x75770e2a14de54a3be4cc4e3e69858ead554edcf",
-      "nameTag": "BSCswap: PRE"
-    },
-    {
-      "address": "0xbe66a1229c9072e60be706097f5c916faa21cbcb",
-      "nameTag": "BSCswap: PROPEL"
-    },
-    {
-      "address": "0xccce135fc63dbf68ee36070a671fc2fde72505d1",
-      "nameTag": "BSCswap: PROPEL-BUSD"
-    },
-    {
-      "address": "0x5ff6cef0127b0288586e4b1574de3cec36311945",
-      "nameTag": "BSCswap: PROPEL-SANTA"
-    },
-    {
-      "address": "0x5b40956bb1080a92447a40e5f58f70d490914847",
-      "nameTag": "BSCswap: PRUL-BUSD"
-    },
-    {
-      "address": "0x9afdb8313115abab81bdd6de2479316c06428ab6",
-      "nameTag": "BSCswap: PTTP"
-    },
-    {
-      "address": "0x1d5d2cd4b3c4c3a905aedddbdbeee443b2be05c5",
-      "nameTag": "BSCswap: PTTP-BUSD"
-    },
-    {
-      "address": "0x76ab40a1f9542b27a2b12879e03135194316f808",
-      "nameTag": "BSCswap: PUB30"
-    },
-    {
-      "address": "0x30f21c44a1e79fb9866d8e3b0b9a0e520a424a31",
-      "nameTag": "BSCswap: PUMK"
-    },
-    {
-      "address": "0xba0a4e568ce567579db38a8088e3cc12b959eaa7",
-      "nameTag": "BSCswap: PUMK-BUSD"
-    },
-    {
-      "address": "0x20537d6c2737f0012b5aabe710f04a62d9e8ec83",
-      "nameTag": "BSCswap: PUMP"
-    },
-    {
-      "address": "0x5ebe41246933d5e375cdd312d3cd6799aa61321a",
-      "nameTag": "BSCswap: PUNK"
-    },
-    {
-      "address": "0x2300d0b5ebac36da65d0cc42276c59ecd385e503",
-      "nameTag": "BSCswap: PUSD"
-    },
-    {
-      "address": "0x6de02949f45b1e2cb3e77b33c2ea5211ef8a4d07",
-      "nameTag": "BSCswap: PUSH"
-    },
-    {
-      "address": "0xc097eea6b994f973b71d1078a8b7329db8f77854",
-      "nameTag": "BSCswap: PUSH-BUSD"
-    },
-    {
-      "address": "0xdae9b0f6e997b08819ca8ed8f6312e0ba6246c88",
-      "nameTag": "BSCswap: PUSH-PBTC"
-    },
-    {
-      "address": "0xcf63c01658433090939b4825632ecd83e67ca58a",
-      "nameTag": "BSCswap: PUSH-PETH"
-    },
-    {
-      "address": "0x706bd12fc310c652685136e6132b6e09f15daf7e",
-      "nameTag": "BSCswap: PUSH-PUSD"
-    },
-    {
-      "address": "0x022e51a020c2603ad4501244353f197a62101573",
-      "nameTag": "BSCswap: PYBS"
-    },
-    {
-      "address": "0x63dde6c120154d77fdb624d7a0098b6e221e7ac8",
-      "nameTag": "BSCswap: PYF"
-    },
-    {
-      "address": "0x15a41ec2a9258ba140351ef17b15415cece324f2",
-      "nameTag": "BSCswap: PYF-PUSH"
-    },
-    {
-      "address": "0x7ec32ac6f60f615d3ef180d4901a2713366d99c8",
-      "nameTag": "BSCswap: Q1W7X"
-    },
-    {
-      "address": "0xda421549d5ff7e1aa01eae34bf3728a740c33877",
-      "nameTag": "BSCswap: QAA"
-    },
-    {
-      "address": "0xe0b0706863d840a354d2f509f232457dc1b96c06",
-      "nameTag": "BSCswap: QTBC"
-    },
-    {
-      "address": "0x00c9c62c7dea113e081e4310d0985570946313b7",
-      "nameTag": "BSCswap: RAB"
-    },
-    {
-      "address": "0x52a8b75112c91b916fa2f8f2a1d4662be984d3ed",
-      "nameTag": "BSCswap: RABBIT"
-    },
-    {
-      "address": "0x1661605b5fee263d6021e2f4b88bf214d73631fa",
-      "nameTag": "BSCswap: RABBIT 2"
-    },
-    {
-      "address": "0x82e816d7765f6c7bd3b673fdd66953738e916cf7",
-      "nameTag": "BSCswap: RABBIT-BSWAP"
-    },
-    {
-      "address": "0x089f392781815dd30f04860dc78c6cd8a0f51677",
-      "nameTag": "BSCswap: RABBIT-BUSD"
-    },
-    {
-      "address": "0xa2ceac3a22fe229a3b0c6baa9a75418f40838df5",
-      "nameTag": "BSCswap: RABBIT-MOON"
-    },
-    {
-      "address": "0x942149a7d1e52767ff755a348c41279a50cb4cdb",
-      "nameTag": "BSCswap: Radium"
-    },
-    {
-      "address": "0xa601768bf0cf3481abd328517b2cc5013476f3bb",
-      "nameTag": "BSCswap: RAINBOW"
-    },
-    {
-      "address": "0x49242c52dc6553da8a59d4e134cab47ae082add4",
-      "nameTag": "BSCswap: rBHC"
-    },
-    {
-      "address": "0x498e3c3ceb88fe266a91f1396d22e2efdc2bbdeb",
-      "nameTag": "BSCswap: RBS-Royal.Bank.of.Scotland"
-    },
-    {
-      "address": "0xcf8369e48038db52b58df754ede0a2ca25fc6fb4",
-      "nameTag": "BSCswap: RBT"
-    },
-    {
-      "address": "0xc41e51ec283c7f45ac5a6e28b653f82cdd60c05d",
-      "nameTag": "BSCswap: RCK"
-    },
-    {
-      "address": "0x56fc219be98079f1e9564c1f16669f6761e4a97b",
-      "nameTag": "BSCswap: RCT"
-    },
-    {
-      "address": "0xb9895a1669329d4209d735c42fb106b9df0948e8",
-      "nameTag": "BSCswap: RDC"
-    },
-    {
-      "address": "0xd052b0d694b27826a9c94efffa6c52b08a4d3e1f",
-      "nameTag": "BSCswap: rDEGEN"
-    },
-    {
-      "address": "0x009fd4fc87c64131a6ddf34c1a23d4a94cbd148e",
-      "nameTag": "BSCswap: REAU"
-    },
-    {
-      "address": "0x894640027f2359e5fdad1535da4e13dc64f2816e",
-      "nameTag": "BSCswap: REEF"
-    },
-    {
-      "address": "0x0e981a83705ab0a285fb61bcb9e300281586e1b3",
-      "nameTag": "BSCswap: RFIBSC"
-    },
-    {
-      "address": "0x591dc15b28285f867886adaa314aff527e7bdd08",
-      "nameTag": "BSCswap: RFIBSC-BORGDAI"
-    },
-    {
-      "address": "0x9aa52a4c5cf6f6757f84b8547573245b696bd234",
-      "nameTag": "BSCswap: RGT"
-    },
-    {
-      "address": "0x3e16c72e31b24b710ce4c236123cc42e2efb9c85",
-      "nameTag": "BSCswap: rMOON"
-    },
-    {
-      "address": "0x725c300d31036e0d445569a13e355932648a310b",
-      "nameTag": "BSCswap: RMX"
-    },
-    {
-      "address": "0xecee35b2531bbe0e307d220a072220dd08af09c9",
-      "nameTag": "BSCswap: RNL"
-    },
-    {
-      "address": "0x00a004d4d2e6d960d872cee3af03531e103864d7",
-      "nameTag": "BSCswap: ROMS"
-    },
-    {
-      "address": "0x9c5e7dd5f594772e9bb721a69045313a5d2ee207",
-      "nameTag": "BSCswap: ROYAN"
-    },
-    {
-      "address": "0xca5fdbf6604384e1ca020f388c2c6583e295bfd5",
-      "nameTag": "BSCswap: RPC"
-    },
-    {
-      "address": "0xbf87a3bc84147fe08ff51ea28b6805cf3df43622",
-      "nameTag": "BSCswap: RUG_OCT15"
-    },
-    {
-      "address": "0x8d6faa3fc68a49889d863bf9a55efbfc6224c579",
-      "nameTag": "BSCswap: S-GOLD"
-    },
-    {
-      "address": "0xd9a11da36d58f8bd6f62e399aa1686e59a107826",
-      "nameTag": "BSCswap: SAFU"
-    },
-    {
-      "address": "0x960c25bbee1549b29c5224cb8568d057cbde578d",
-      "nameTag": "BSCswap: SAFU-BNX"
-    },
-    {
-      "address": "0x6d61d063310956ba6922dcb30fdaa9eb9d91ac7b",
-      "nameTag": "BSCswap: SAFU-BUSD"
-    },
-    {
-      "address": "0x1b33bd7947c1181916b6fc3892cb7f1f08299f3b",
-      "nameTag": "BSCswap: SAFU-FUNDS"
-    },
-    {
-      "address": "0x30bdcb397a3922b6c990b32cc53667b11bdfc6a5",
-      "nameTag": "BSCswap: SAGRADA"
-    },
-    {
-      "address": "0xa2c4ac9059a4f0be8620e9b0618b250f9a609bee",
-      "nameTag": "BSCswap: SAMOS"
-    },
-    {
-      "address": "0xf58a0db8b580aeb850aee2d15f38aaddb05977ef",
-      "nameTag": "BSCswap: SANTA"
-    },
-    {
-      "address": "0xcb0fcd54a1539cb0376d620fae884d903164601c",
-      "nameTag": "BSCswap: SANTA-BSWAP"
-    },
-    {
-      "address": "0xc42207496c243ed801be56aacabfa9c5c6880fa3",
-      "nameTag": "BSCswap: SANTA-BUSD"
-    },
-    {
-      "address": "0x7cf4def7ccaab0108b6e14228cf37d1208ae4f65",
-      "nameTag": "BSCswap: SANTA-INNBC"
-    },
-    {
-      "address": "0x94d614e01ade8dcc3e587d7febdabfe4bea61eef",
-      "nameTag": "BSCswap: SANTA-SPARTA"
-    },
-    {
-      "address": "0xe3ab5f1482fce3d65fa021ba4be61e5e02ddba0c",
-      "nameTag": "BSCswap: Saturn"
-    },
-    {
-      "address": "0x1eabd92fc8240fe6298302e96e606a36d09b7c2c",
-      "nameTag": "BSCswap: Saturn-BUSD"
-    },
-    {
-      "address": "0x83742cffbf8ca6479344f678f0de7b5a349c3180",
-      "nameTag": "BSCswap: SCAM"
-    },
-    {
-      "address": "0x285d9aae5f197ac71aa435c68a168be6c1e1d1ce",
-      "nameTag": "BSCswap: SCAM-BFI"
-    },
-    {
-      "address": "0xd4ebc03569df2ceae91ed89bb34a1cb63acc5e49",
-      "nameTag": "BSCswap: SCAM-BSW"
-    },
-    {
-      "address": "0x34caccd34f61b3abe3f636cfb03ed66325936505",
-      "nameTag": "BSCswap: SCAM-BSWAP"
-    },
-    {
-      "address": "0x4bd3bf15303879e81058e043f71ca3d0b4ccfde3",
-      "nameTag": "BSCswap: SCAM-EARTH"
-    },
-    {
-      "address": "0xc5677a00f7bab94b50c678dc8ea5e333e86865e3",
-      "nameTag": "BSCswap: SCAM-LFI"
-    },
-    {
-      "address": "0x0ccd5ce9611a8e7c07549e45e3b7c9bb1f67e02b",
-      "nameTag": "BSCswap: SCAM-LTC"
-    },
-    {
-      "address": "0x2bc499810fde11e752993a4589d06fb7601dfb55",
-      "nameTag": "BSCswap: SFXT"
-    },
-    {
-      "address": "0x36f2a4ddd0d00f1457667991cc3332b6765b906a",
-      "nameTag": "BSCswap: SGTK"
-    },
-    {
-      "address": "0xb8a11c3a208afb1f688e257d685e82568fc4052a",
-      "nameTag": "BSCswap: SHH"
-    },
-    {
-      "address": "0xe1e4c4ff200ed8874f6ea40bb4627eda2ce2f34b",
-      "nameTag": "BSCswap: SHIBAPAY"
-    },
-    {
-      "address": "0xdb9d76a8e71ebbb9912b4cd290c466330941a71b",
-      "nameTag": "BSCswap: ShinBSC"
-    },
-    {
-      "address": "0x4660b0556302cda06ece0de457c7a67f5f172e8a",
-      "nameTag": "BSCswap: SHREE2"
-    },
-    {
-      "address": "0x03d129b55f650a24ead430b478c059a8c7147d17",
-      "nameTag": "BSCswap: SNEED"
-    },
-    {
-      "address": "0xc7470414215b3d7a7272889ece1c3125f2cf7043",
-      "nameTag": "BSCswap: SNTK"
-    },
-    {
-      "address": "0x291fdc9c3c18ccef6eaa053833efc1bea78efc73",
-      "nameTag": "BSCswap: SOMA"
-    },
-    {
-      "address": "0x836c56e31a2644db352aeb7b02be2cfcb3a932bb",
-      "nameTag": "BSCswap: SOUL"
-    },
-    {
-      "address": "0x27c5b858807d42d7a835cfe6c00b8fe217947023",
-      "nameTag": "BSCswap: SOUL-BUSD"
-    },
-    {
-      "address": "0xdb740f15629d07086b13fab14e49a674721199ff",
-      "nameTag": "BSCswap: SOUL-USDT"
-    },
-    {
-      "address": "0x7270fd3bfe698db8be63b9e63c28fa0bcb3aed8c",
-      "nameTag": "BSCswap: SPARTA"
-    },
-    {
-      "address": "0x3afe0b02bbb29ad00bcc476520890984249384fa",
-      "nameTag": "BSCswap: SPARTA-ANY"
-    },
-    {
-      "address": "0x1d1421bfdaf334ed9d3e6672ee9cabd60f45c912",
-      "nameTag": "BSCswap: SPARTA-BUSD"
-    },
-    {
-      "address": "0x10b4b83b224d6e620e87fbc020ca52a035ecd3ce",
-      "nameTag": "BSCswap: SPONGS"
-    },
-    {
-      "address": "0x7105c1a7bcbe1b2d116d730c08ebe744e0ea9365",
-      "nameTag": "BSCswap: SPRAY"
-    },
-    {
-      "address": "0x1eadc91d43ffd1c4c34c33431b38aa5e3fd7cc07",
-      "nameTag": "BSCswap: Star"
-    },
-    {
-      "address": "0xf4a3677bb79aa22ef826763bd910ed886820ad81",
-      "nameTag": "BSCswap: STASI"
-    },
-    {
-      "address": "0x7ee465055f7fb726ba1e9b45d14b31efcb791a73",
-      "nameTag": "BSCswap: STM"
-    },
-    {
-      "address": "0x93324e72f28e7d5fc3847c63113aed5bad6aa2b9",
-      "nameTag": "BSCswap: STORM"
-    },
-    {
-      "address": "0x64b0366ba79fbec70adb2fad2798aadf08468b15",
-      "nameTag": "BSCswap: STR"
-    },
-    {
-      "address": "0x5f988dcf8ad7bf3cd59e2084c96b9800ee74fce0",
-      "nameTag": "BSCswap: STS"
-    },
-    {
-      "address": "0x88aac97d94c17c599f0f0c935485ce9dab5680be",
-      "nameTag": "BSCswap: SUIB"
-    },
-    {
-      "address": "0x323ed98df49de9cb4f1edf959461e03b61638d8b",
-      "nameTag": "BSCswap: SUS"
-    },
-    {
-      "address": "0x28615292d99b8763648aa53bc039d10d3f805fa2",
-      "nameTag": "BSCswap: SWGb"
-    },
-    {
-      "address": "0x6cd368c355a675f431c6924aa5f4323a37a7983f",
-      "nameTag": "BSCswap: SXP"
-    },
-    {
-      "address": "0xad02f90abf8abda052c5f0c1d3e9eb6fc859d865",
-      "nameTag": "BSCswap: SYRUP"
-    },
-    {
-      "address": "0x8c075cb1b9a57109b64693b64bb5138a36d8cbb6",
-      "nameTag": "BSCswap: SYRUP-BAKE"
-    },
-    {
-      "address": "0x121a301322e0d21114aea4a5e04c442b7b0e7a5a",
-      "nameTag": "BSCswap: SYRUP-BFI"
-    },
-    {
-      "address": "0x64f7522dd9e48df758b88f2549ff3ec88ec404dc",
-      "nameTag": "BSCswap: SYRUP-Cake"
-    },
-    {
-      "address": "0x8c58cf55b0d6f7b8db8423f1a3716bc66dfa00a0",
-      "nameTag": "BSCswap: SYRUP-ETH"
-    },
-    {
-      "address": "0xb27b94a83fdf0b5d2c17a845891a708c6aa92b1d",
-      "nameTag": "BSCswap: SYRUP-INNBC"
-    },
-    {
-      "address": "0xf80987e1fcb987be5cda8f0b67b59b9f305740d6",
-      "nameTag": "BSCswap: TANGPING"
-    },
-    {
-      "address": "0x2d467d103253391bcce1334fbec15c435039d3c8",
-      "nameTag": "BSCswap: TAUP"
-    },
-    {
-      "address": "0x2dbd6dec03e6b34a481cc47c66da27138549134c",
-      "nameTag": "BSCswap: TAXI"
-    },
-    {
-      "address": "0x6e022fdb58a3e05dc16648022b4505d560298ac6",
-      "nameTag": "BSCswap: TC"
-    },
-    {
-      "address": "0xbe026eca4059c2205a86deb82b097adbf612bd0c",
-      "nameTag": "BSCswap: TCORE"
-    },
-    {
-      "address": "0xc6925e505a644add84e62ea1dbdc26c515a1f49a",
-      "nameTag": "BSCswap: TCY"
-    },
-    {
-      "address": "0x5df21244eeec399b837cd686b754e21c470d40e2",
-      "nameTag": "BSCswap: Terk-BUSD"
-    },
-    {
-      "address": "0xdeb7f424f8b7ae62032810ba992bfae04f564e11",
-      "nameTag": "BSCswap: TES"
-    },
-    {
-      "address": "0xb70f57f66e6343f9d9089a50b3267d0b14f945ad",
-      "nameTag": "BSCswap: Tesla.Inc(NASDAQ)TSLA"
-    },
-    {
-      "address": "0x18c8a1cf45fdfd1645171c0101bcb1a3d50b4be8",
-      "nameTag": "BSCswap: test"
-    },
-    {
-      "address": "0xa51c7efa8b58d63a877467ef57cc7223cf8cd471",
-      "nameTag": "BSCswap: TestBSC"
-    },
-    {
-      "address": "0x913d0f0974a713c9989cdf9afe25aafeb9fb3c96",
-      "nameTag": "BSCswap: Th"
-    },
-    {
-      "address": "0xd9702f1179534d937096c8fec8c2c3e6c47d8f5e",
-      "nameTag": "BSCswap: THA"
-    },
-    {
-      "address": "0x8ece9d6d1ec1ea218614628191fd561ac0016a1f",
-      "nameTag": "BSCswap: THOR"
-    },
-    {
-      "address": "0x71c1b6302c7f9c49ee3e675224b22cde34ab5ac7",
-      "nameTag": "BSCswap: THUGS"
-    },
-    {
-      "address": "0x1596e30c9525aafd2e96662397084fb4ed23200f",
-      "nameTag": "BSCswap: THUGS-ANY"
-    },
-    {
-      "address": "0x3436655c0305b5ae5e0149b0c0d85d412ee55808",
-      "nameTag": "BSCswap: THUGS-BUSD"
-    },
-    {
-      "address": "0x74023b8037009af8f59f0ff55e31814be32ca3c2",
-      "nameTag": "BSCswap: THUNDER"
-    },
-    {
-      "address": "0x41e565d729d895c576b923d79533ca5866ac2594",
-      "nameTag": "BSCswap: TITANO"
-    },
-    {
-      "address": "0x89c9ae77be9e37fcc8a81d9600c8896e9ff17277",
-      "nameTag": "BSCswap: TOK"
-    },
-    {
-      "address": "0x9e6bee4cb286601f9f16712929499dfd51ac4f79",
-      "nameTag": "BSCswap: TOK-BUSD"
-    },
-    {
-      "address": "0x884a3a649cac4024a1295d840c5d0e4fe8a150ae",
-      "nameTag": "BSCswap: TOZ"
-    },
-    {
-      "address": "0xddca72aad919fa67c8814c3ffe050d305ad4d9cc",
-      "nameTag": "BSCswap: trhm"
-    },
-    {
-      "address": "0x412cab9a0e18b97f6061e3587f86c2f9568ed35e",
-      "nameTag": "BSCswap: TRUMP"
-    },
-    {
-      "address": "0xbf41ceac8b9ca0bdeb5a284453a03c38316f8b2d",
-      "nameTag": "BSCswap: TTNT"
-    },
-    {
-      "address": "0x9f68575fa36875487ce4f082d1cc96ab01b3251f",
-      "nameTag": "BSCswap: TUNA"
-    },
-    {
-      "address": "0xd10c6de8f7ecefb728358d4745e829919080e809",
-      "nameTag": "BSCswap: TUNA-BUSD"
-    },
-    {
-      "address": "0x8364ef37238ee5d2b11da0bb2b622646e0f24a9b",
-      "nameTag": "BSCswap: TWT"
-    },
-    {
-      "address": "0x90451d6394ce6a84dbcc6833d8f30f51c6db295d",
-      "nameTag": "BSCswap: TWT-BTCB"
-    },
-    {
-      "address": "0x1da55e7640a5e74604f3179dd025691abb1806e5",
-      "nameTag": "BSCswap: TWT-BUSD"
-    },
-    {
-      "address": "0xfa287c6cd20747564741ed65fb2bac88082fddff",
-      "nameTag": "BSCswap: TWT-DEGEN"
-    },
-    {
-      "address": "0x20c8dc1636d81358c79f9e23cc7df2e552a5b61b",
-      "nameTag": "BSCswap: TWT-SANTA"
-    },
-    {
-      "address": "0x9e780278c59b317e43c91cab507437c2b2083173",
-      "nameTag": "BSCswap: TWT-USDT"
-    },
-    {
-      "address": "0x8e69e230090cfd75d977c1af3eb144c73719afd0",
-      "nameTag": "BSCswap: UBEC-LP-BSWAP"
-    },
-    {
-      "address": "0xde11a9293a585a97b5389c31a89fea036a0e9479",
-      "nameTag": "BSCswap: UNFI"
-    },
-    {
-      "address": "0x76de4620e6a9d0999f9919bfda79ffa4c12ad43a",
-      "nameTag": "BSCswap: UnionPay银联International"
-    },
-    {
-      "address": "0x5cd3952edfb983b47d6cef49a22bd24998d41e61",
-      "nameTag": "BSCswap: USD-T-BAI"
-    },
-    {
-      "address": "0x12e048d01535e2b49675d22078f64fd2307d8a0c",
-      "nameTag": "BSCswap: USDT"
-    },
-    {
-      "address": "0x674fa471f6e2f94c1ff6afd3b5a38aea9928fb37",
-      "nameTag": "BSCswap: USDT 2"
-    },
-    {
-      "address": "0xd37d0776b2914acaf6e8b30a323242685262d491",
-      "nameTag": "BSCswap: USDT-ANKR"
-    },
-    {
-      "address": "0x4a85e2a27f6558e257e05766f07f480291767d0b",
-      "nameTag": "BSCswap: USDT-BAKE"
-    },
-    {
-      "address": "0x09f0a9e0b6580478f845537a3994720e906c5e10",
-      "nameTag": "BSCswap: USDT-BAND"
-    },
-    {
-      "address": "0xea7b0806b1d03c1bb00e402217066bca797a1d36",
-      "nameTag": "BSCswap: USDT-BCH"
-    },
-    {
-      "address": "0x8cfd267504e5ffc66d0b6ac24ca2f93e9450573c",
-      "nameTag": "BSCswap: USDT-BHC"
-    },
-    {
-      "address": "0x94d8174e88dafeeefb4be83f315e151bcdc4761d",
-      "nameTag": "BSCswap: USDT-BSWAP"
-    },
-    {
-      "address": "0xca23840322f69324219290ad08e03d5997ab6ef9",
-      "nameTag": "BSCswap: USDT-BTCB"
-    },
-    {
-      "address": "0xe0a781751e856227e445dfdc443b83070a17c486",
-      "nameTag": "BSCswap: USDT-BTCB 2"
-    },
-    {
-      "address": "0x045a663a018c124d3f509558ba2c205f11612d86",
-      "nameTag": "BSCswap: USDT-BURGER"
-    },
-    {
-      "address": "0xf68fd424597e6c872d46241fb745167e2c380063",
-      "nameTag": "BSCswap: USDT-BUSD"
-    },
-    {
-      "address": "0xaf66e810ad9b20f868d0e78d992aa1282dc363ae",
-      "nameTag": "BSCswap: USDT-DAU"
-    },
-    {
-      "address": "0xe2c38ae7039918315679cee37ae3cfc18b0aaa7c",
-      "nameTag": "BSCswap: USDT-DEGEN"
-    },
-    {
-      "address": "0xde2094b16077c501683eca78c6774b35d111a3e5",
-      "nameTag": "BSCswap: USDT-DEGEN 2"
-    },
-    {
-      "address": "0x99ca151efbb4afa7893ace1e5868f262b86d6420",
-      "nameTag": "BSCswap: USDT-DOT"
-    },
-    {
-      "address": "0x98528f9cba897d38b59a7b50d55e857b1eb112bd",
-      "nameTag": "BSCswap: USDT-DRUGS"
-    },
-    {
-      "address": "0x4461a16c3f3a337ab5576212eb730e5ddee76218",
-      "nameTag": "BSCswap: USDT-EOS"
-    },
-    {
-      "address": "0xd4a542019ed0010fd4fab72484e21a40d9d7464d",
-      "nameTag": "BSCswap: USDT-FOR"
-    },
-    {
-      "address": "0xa926311b9c8a2368582cbf075cd42e23b726b534",
-      "nameTag": "BSCswap: USDT-HOP"
-    },
-    {
-      "address": "0x2a26791d21f4a71bedfa6a39af11735a9e747594",
-      "nameTag": "BSCswap: USDT-LFI"
-    },
-    {
-      "address": "0x6cf43a0f2e00164e7a27990ba857d44baf455b92",
-      "nameTag": "BSCswap: USDT-LINK"
-    },
-    {
-      "address": "0xdab2bf2480a3ea844ba03cf06a3ce454511a81c2",
-      "nameTag": "BSCswap: USDT-MOON"
-    },
-    {
-      "address": "0x3165d635afc6835d8a5b7e28ec79a101c4a599b6",
-      "nameTag": "BSCswap: USDT-ONT"
-    },
-    {
-      "address": "0x6de9731445e6b4000f1c7dd93c5cb649033163a4",
-      "nameTag": "BSCswap: USDT-RABBIT"
-    },
-    {
-      "address": "0x4f41fa071862310993c5d378d49c300138880405",
-      "nameTag": "BSCswap: USDT-RABIT"
-    },
-    {
-      "address": "0x478216c835d4dfafd70f3f9de848f1f649d97492",
-      "nameTag": "BSCswap: USDT-Saturn"
-    },
-    {
-      "address": "0xaf9d62e95c45154eeb9ebbf25b684bb41d6be249",
-      "nameTag": "BSCswap: USDT-STM"
-    },
-    {
-      "address": "0x9f293e779bee35fb5a7dd9851833cf8cbc5754b9",
-      "nameTag": "BSCswap: USDT-THUGS"
-    },
-    {
-      "address": "0x476f0ff325c0f788b3f4bb6fc59139bbf0ae64a7",
-      "nameTag": "BSCswap: USDT-USD"
-    },
-    {
-      "address": "0xefc9707c5537a90d33baa8dffa172cfdb7dddfb8",
-      "nameTag": "BSCswap: USDT-XVS"
-    },
-    {
-      "address": "0xf6f1a8e8cbf695dd776af572ac5a0252449e21ee",
-      "nameTag": "BSCswap: USDT-YFII"
-    },
-    {
-      "address": "0x86ed221495bf8e6c217f77056778c05a91c02627",
-      "nameTag": "BSCswap: USI"
-    },
-    {
-      "address": "0x702e9dd4503d624d2a56e07317899dbeffc757b8",
-      "nameTag": "BSCswap: USSR"
-    },
-    {
-      "address": "0x448dfcb86f9be4cd570378ea8f462333c50b5d29",
-      "nameTag": "BSCswap: VAL"
-    },
-    {
-      "address": "0x92fea78f51188d69661e3f5d2c485e163bf70805",
-      "nameTag": "BSCswap: VEGAS"
-    },
-    {
-      "address": "0x2ffe5aa7955b630cf0ec3df4c35230f137844ad0",
-      "nameTag": "BSCswap: VIDT"
-    },
-    {
-      "address": "0x87ccbd36c015d874dad90ff89a62ed46b14077ed",
-      "nameTag": "BSCswap: VIDT 2"
-    },
-    {
-      "address": "0x994f2c2af48234e5bb983646526cd0545e56e340",
-      "nameTag": "BSCswap: VINT"
-    },
-    {
-      "address": "0x8ce7414e0c397e8d023554dff5dfd7c578a450f5",
-      "nameTag": "BSCswap: virgo"
-    },
-    {
-      "address": "0xee991cfc0c9ebd1016b9e02838d70492f007f2e3",
-      "nameTag": "BSCswap: Visa.Inc(NYSE):V"
-    },
-    {
-      "address": "0x9c79ad77194127148f1a7205c470e47988c0c119",
-      "nameTag": "BSCswap: VNF"
-    },
-    {
-      "address": "0x51c03563fad9a31bde556258d121d2c61ddcb670",
-      "nameTag": "BSCswap: VNF-BUSD"
-    },
-    {
-      "address": "0xc9c1cdb1ad05900d3de6e627a555527eb5b57888",
-      "nameTag": "BSCswap: VNF-SXP"
-    },
-    {
-      "address": "0x189242f118dcc94d811c5c279bc93660390f16b2",
-      "nameTag": "BSCswap: VNF-VGOLD"
-    },
-    {
-      "address": "0x0cf65da40aacaa60ec6d28eac4e778375308af49",
-      "nameTag": "BSCswap: VNF-VPLATİN"
-    },
-    {
-      "address": "0x967d4b2098664f0d0364ee7296b33a5c3bfe2f04",
-      "nameTag": "BSCswap: VNF-VSİLVER"
-    },
-    {
-      "address": "0x980ed1a8e484b70758bff3fbaceed58f81135bf5",
-      "nameTag": "BSCswap: VOOG"
-    },
-    {
-      "address": "0x542f4c999bd62c9592de61ce6d77fcca043dec81",
-      "nameTag": "BSCswap: vPT"
-    },
-    {
-      "address": "0x5a9c8c1a235936c0841a19d8483b7f460c1dc61b",
-      "nameTag": "BSCswap: VTBC"
-    },
-    {
-      "address": "0x3fcf5f223afb7087ef03ae88e0d419296eade8fc",
-      "nameTag": "BSCswap: VYM"
-    },
-    {
-      "address": "0xfb671e2d94635703f66351a50278598e1a1beeb3",
-      "nameTag": "BSCswap: WBTCBR-BTCB"
-    },
-    {
-      "address": "0x7b92e4968adf4379a53e3440e6ccce5a15393168",
-      "nameTag": "BSCswap: WDUCX"
-    },
-    {
-      "address": "0x70bf2378de9e0bec8b3b334415039d7099c8f433",
-      "nameTag": "BSCswap: WEP"
-    },
-    {
-      "address": "0x32ff704b4b5797da29c4710ca8f4e6562656bc98",
-      "nameTag": "BSCswap: whaxzer"
-    },
-    {
-      "address": "0x4da84acb1ffc840e621928bc392058d0da49e387",
-      "nameTag": "BSCswap: Winner"
-    },
-    {
-      "address": "0x185255fa4693f85c0d6931d6cda4b1551dfd1305",
-      "nameTag": "BSCswap: winy"
-    },
-    {
-      "address": "0x81a56300e0bff6dd04680b52f1708fce2bf06d15",
-      "nameTag": "BSCswap: WOWA"
-    },
-    {
-      "address": "0x507f71255f197cd5f1c8ce992b93c299e0fa06d9",
-      "nameTag": "BSCswap: WTGN"
-    },
-    {
-      "address": "0x8825bff0c4a6b79326330feebc9430063ea5a61a",
-      "nameTag": "BSCswap: WZCR"
-    },
-    {
-      "address": "0x4279836f4f76b4a79511790d3cec82ca09f61644",
-      "nameTag": "BSCswap: X3S"
-    },
-    {
-      "address": "0x9a89adc8c7291ea7381784211f02c05543288f9d",
-      "nameTag": "BSCswap: XRP"
-    },
-    {
-      "address": "0x1df63142c9683202e0c3629d26acb207658fa491",
-      "nameTag": "BSCswap: XRP-ADA"
-    },
-    {
-      "address": "0xdecee10982ec752c89850ef45823d62d2c60c4da",
-      "nameTag": "BSCswap: XRP-BSWAP"
-    },
-    {
-      "address": "0x19901349e032fdd1b2681ac3ecdbac4ce96817da",
-      "nameTag": "BSCswap: XRP-USDT"
-    },
-    {
-      "address": "0xc04e7736c9261017a5efe65e42646cbd17ba3a7a",
-      "nameTag": "BSCswap: XTR"
-    },
-    {
-      "address": "0x6ddc011ebc78e9990c0089af07dfbc6067b95e8b",
-      "nameTag": "BSCswap: XTZ"
-    },
-    {
-      "address": "0xf768e122f9e82f87c3ba4d239898611fc9889f84",
-      "nameTag": "BSCswap: XTZ-USDT"
-    },
-    {
-      "address": "0xa052223d255f8c7c2af536249392e38fd6e59589",
-      "nameTag": "BSCswap: XVS"
-    },
-    {
-      "address": "0xf2772f60fe39601cae505d0578c852a7926a36d9",
-      "nameTag": "BSCswap: XVS-BUSD"
-    },
-    {
-      "address": "0xb2e6b0f55141aa6e4fe3c88561573401bac7e9ce",
-      "nameTag": "BSCswap: XXXX-TTTT"
-    },
-    {
-      "address": "0x3064094fd8e31a1c3649326a27e8f64cfe1b1708",
-      "nameTag": "BSCswap: YAHOOFINANCE"
-    },
-    {
-      "address": "0x8972a3c8bd4e9ff88898af0eac88985c0a52f400",
-      "nameTag": "BSCswap: YBNB"
-    },
-    {
-      "address": "0x211936dca76bba217999285c0785d9e5e8f9ee86",
-      "nameTag": "BSCswap: YFAMT"
-    },
-    {
-      "address": "0x7aaca71cc727036d3af7111537811da25aa8d8b2",
-      "nameTag": "BSCswap: YFEU"
-    },
-    {
-      "address": "0x9a70401ae9d2a0c74f8ed3656f55ad625b98ef66",
-      "nameTag": "BSCswap: YFIG"
-    },
-    {
-      "address": "0xb4ed74b660d3472db06c1fef22a964bf54c8651b",
-      "nameTag": "BSCswap: YFII"
-    },
-    {
-      "address": "0x3e6e50b3a2256feb9854887d8b3265074a824c4a",
-      "nameTag": "BSCswap: YIN"
-    },
-    {
-      "address": "0xe1c1a7550b84934901ef7e204c181409576b491b",
-      "nameTag": "BSCswap: YNFI"
-    },
-    {
-      "address": "0xa5ae5b26e72b1811a8c9a65fd6248bb3c5d0bdfa",
-      "nameTag": "BSCswap: YRAB"
-    },
-    {
-      "address": "0xfea7241bdf8117b9a4e08ead6f82925b9d0f2df1",
-      "nameTag": "BSCswap: YUMI"
-    },
-    {
-      "address": "0x05d1952b2a0ddd23475b861f9014092117267346",
-      "nameTag": "BSCswap: ZAN"
-    },
-    {
-      "address": "0x2ea5145ebdee00a87d08104e64d2f589de978b30",
-      "nameTag": "BSCswap: ZBBT"
-    },
-    {
-      "address": "0xda5d4a84588f385ab2325ab09b2907ee507af02c",
-      "nameTag": "BSCswap: ZEBRO"
-    },
-    {
-      "address": "0x852d8b6cfaa53bb9a7a96c64b7537481cb562b82",
-      "nameTag": "BSCswap: ZEC"
-    },
-    {
-      "address": "0xe0bfcf1d9bb2797acb1d47ae085ecbfc4f9f5554",
-      "nameTag": "BSCswap: ZEC-USDT"
-    },
-    {
-      "address": "0xd99b7db75da0ff5dad462707683f6a25b723d89f",
-      "nameTag": "BSCswap: ZHM"
-    },
-    {
-      "address": "0xf2d36a180d45119b0cc4717cf703844bb0880f8a",
-      "nameTag": "BSCswap: ZHM-BUSD"
-    },
-    {
-      "address": "0x7dac8d914172418f3bfdf12e405828925188aac1",
-      "nameTag": "BSCswap: ZUM-ZUMD"
-    },
-    {
-      "address": "0x55cb869204722da9428830e6a05e73e3e9264efd",
-      "nameTag": "BSCswap: ZUMD"
-    },
-    {
-      "address": "0x65b4c293c23d029728e775d167c67b76421871bd",
-      "nameTag": "BSCswap: Сбербанк.SBERBANK"
-    },
-    {
-      "address": "0x4efa21115b860bede61df394f571993466775ef3",
-      "nameTag": "BSCswap: €Euro"
-    },
-    {
-      "address": "0xaeed0c66196fa8c5daef60aa8337264fd08c6437",
-      "nameTag": "BSCswap: ₯"
-    },
-    {
-      "address": "0xbc105340fccf2fc7c487ab025cd7c5498479f054",
-      "nameTag": "BSCswap: ₿itcoin(BTC)"
-    }
-  ]
-}
+[
+  {
+    "address": "0x81dab25be86f78c30e49ae2a7e4de2dcf8036ea7",
+    "nameTag": "BSCswap: $US.Dollar"
+  },
+  {
+    "address": "0x0c81e60ca44f4fcaf78a547e0ed23a7cd4658e4a",
+    "nameTag": "BSCswap: 100x"
+  },
+  {
+    "address": "0x3c63f39a9dfc53aba0ccf14f6ebcf8ad0cd7efb3",
+    "nameTag": "BSCswap: 1INCH"
+  },
+  {
+    "address": "0x5d8d7b8f24f5d9b6d5fb384631005b0d50384dbe",
+    "nameTag": "BSCswap: 2M1"
+  },
+  {
+    "address": "0x036fed94355289d42cec8f5d0d93948a894f1772",
+    "nameTag": "BSCswap: ACC-BUSD"
+  },
+  {
+    "address": "0x7bba70f484a5c5790c11a6275cd27ee69bed8177",
+    "nameTag": "BSCswap: AD2"
+  },
+  {
+    "address": "0x5a49500e3c348fe8387d73f60bc6e6d4d318eef2",
+    "nameTag": "BSCswap: AD2-BUSD"
+  },
+  {
+    "address": "0x3ad11a5a6f3a22ac2803f08625237c22ee1af87f",
+    "nameTag": "BSCswap: ADA"
+  },
+  {
+    "address": "0xee0a18067f897c24ebc9af7aaa0ae8697471feef",
+    "nameTag": "BSCswap: ADA-BHC"
+  },
+  {
+    "address": "0x7be04635513f18d3bc1a8ef7c56a8679d0d96ea0",
+    "nameTag": "BSCswap: ADA-PTTP"
+  },
+  {
+    "address": "0xcaad99cb68fc0197a54ce16be5f4ca7f1a1b5d70",
+    "nameTag": "BSCswap: ADA-USDT"
+  },
+  {
+    "address": "0x398e12403ca6d1295035a67ee58ae0a14a2ccd35",
+    "nameTag": "BSCswap: AISUI"
+  },
+  {
+    "address": "0x48f95612de9f86e2c82e32bca18ac6a8f94b2afa",
+    "nameTag": "BSCswap: ALGT-Cake"
+  },
+  {
+    "address": "0x994091118c8d7cd76a57e61814515a446f3d540c",
+    "nameTag": "BSCswap: ALPHA"
+  },
+  {
+    "address": "0x6db2012782b091497b46e5934bc296a82cca44e6",
+    "nameTag": "BSCswap: American.Express.Co(NYSE)AXP"
+  },
+  {
+    "address": "0xbfaa9882f42a79a460356fc5b17c30baf74ebdad",
+    "nameTag": "BSCswap: AmYesMoney"
+  },
+  {
+    "address": "0x70152d281466318f198b89be556e015c3ac47159",
+    "nameTag": "BSCswap: ANKR"
+  },
+  {
+    "address": "0x57face4d6c759bcd9a9e15e2c9502750d4b39db1",
+    "nameTag": "BSCswap: ANON"
+  },
+  {
+    "address": "0xa2109fb6e2e719ae81c010d66130d532278886e7",
+    "nameTag": "BSCswap: ANY"
+  },
+  {
+    "address": "0xd085110a7ac6570efcf13b9fbdb70c27117d3299",
+    "nameTag": "BSCswap: APX"
+  },
+  {
+    "address": "0x680bc4e1c96802efeeee36bc7d21c2387f502f9f",
+    "nameTag": "BSCswap: ARN"
+  },
+  {
+    "address": "0xa4836ee54240781286d6a0d4ffb492b258190ef4",
+    "nameTag": "BSCswap: ARSI"
+  },
+  {
+    "address": "0x6f0bd17cb79d21c37a4c42189f21b680b9134a09",
+    "nameTag": "BSCswap: ARSI 2"
+  },
+  {
+    "address": "0xeb9ead0aecee2293b558c85ced7e4131217005ce",
+    "nameTag": "BSCswap: ARUB-BSC-USD"
+  },
+  {
+    "address": "0xd08568577a1fc76c5bdebcc8d598e07dd1cb7dd7",
+    "nameTag": "BSCswap: ASTRODOGE"
+  },
+  {
+    "address": "0xdfaa3818147701a4588539d763984e0c44c41080",
+    "nameTag": "BSCswap: ATLS"
+  },
+  {
+    "address": "0xaa0cbf174f3de0e618d54afe83dfe036f39b41cf",
+    "nameTag": "BSCswap: ATOM"
+  },
+  {
+    "address": "0x96fada58daf870a5d9a14080a4c7066f1d72708c",
+    "nameTag": "BSCswap: ATOM-USDT"
+  },
+  {
+    "address": "0x2cfa28df8a507b829e2f93c98d66c806ddf968f0",
+    "nameTag": "BSCswap: AYAM"
+  },
+  {
+    "address": "0xc666c47a16e70b239aa537dd31da660132e805bf",
+    "nameTag": "BSCswap: BAI"
+  },
+  {
+    "address": "0xb7a5e84fb4a5af9fadda9652a1d8bddc28781a19",
+    "nameTag": "BSCswap: BAI-BUSD"
+  },
+  {
+    "address": "0x9af907fee40df1fb0bbe5cf00518e7caa5558760",
+    "nameTag": "BSCswap: BAKE"
+  },
+  {
+    "address": "0x851f49de2ee0fbbf9b2011285692fe1ec6a80aaf",
+    "nameTag": "BSCswap: BAKE-ANKR"
+  },
+  {
+    "address": "0x6bf8bb02757a3dc8dcfc8e1eae59f26b9a2e887e",
+    "nameTag": "BSCswap: BAKE-BUSD"
+  },
+  {
+    "address": "0x29c106e9756b4d50c7314bf0c6f4e97c458381bc",
+    "nameTag": "BSCswap: BAMBOO"
+  },
+  {
+    "address": "0x2709f04b8e5116b2ea190d7a701380f23c1ad2cc",
+    "nameTag": "BSCswap: BAMP"
+  },
+  {
+    "address": "0xaecbeec6e1547a19948237bbb6eb86b692faf178",
+    "nameTag": "BSCswap: BAND"
+  },
+  {
+    "address": "0x36e2b16af9c0c1710bc9e070a0bab57db17d3a0e",
+    "nameTag": "BSCswap: BAND-BUSD"
+  },
+  {
+    "address": "0x693e806ebce17b6a5036482f684f0a879074ac86",
+    "nameTag": "BSCswap: BANHMI"
+  },
+  {
+    "address": "0x86d792e1104571408827dfb7739d3d6284bd6657",
+    "nameTag": "BSCswap: BANK.OF.AMERICA"
+  },
+  {
+    "address": "0x5464bda8ad60b33368cc38fbc8e94529cdbbc866",
+    "nameTag": "BSCswap: BAT-SCAM"
+  },
+  {
+    "address": "0x9064eff09c09e7b803e8f698d536ddf7f34b507e",
+    "nameTag": "BSCswap: bATD"
+  },
+  {
+    "address": "0x64ee619367fbdf820384053d4031565be69ce028",
+    "nameTag": "BSCswap: BBTC"
+  },
+  {
+    "address": "0x37ab92ef1636477b0b4e7a019b9fb0bc760259fd",
+    "nameTag": "BSCswap: BBTC-TOK"
+  },
+  {
+    "address": "0xd83b725734b48670dccd25149d6d38949db36069",
+    "nameTag": "BSCswap: BC3"
+  },
+  {
+    "address": "0x0b0448da0f0a1fb19843c235a665f9b8630b5f49",
+    "nameTag": "BSCswap: BCC-BUSD"
+  },
+  {
+    "address": "0x7df90bd5563e97bad27823991e43a00a514d017b",
+    "nameTag": "BSCswap: BCH"
+  },
+  {
+    "address": "0xbd1f6e5acf2a79569c625d7e73ca902420adb727",
+    "nameTag": "BSCswap: BDC"
+  },
+  {
+    "address": "0x17727c7e429d14ce0e781aa7dda122faf7f3d82f",
+    "nameTag": "BSCswap: BEA"
+  },
+  {
+    "address": "0xc31991a493acad5f4dc39c3e08776cf11d23fb3f",
+    "nameTag": "BSCswap: Beer"
+  },
+  {
+    "address": "0x662e7d69529841b9967792b5738a0c0fe0e65d42",
+    "nameTag": "BSCswap: BEST"
+  },
+  {
+    "address": "0x96fe48765d954ee846449f372eb1ba552839f302",
+    "nameTag": "BSCswap: BETE"
+  },
+  {
+    "address": "0x37d2cc8c37523ea2679cabdac5924f16decd3656",
+    "nameTag": "BSCswap: BFI"
+  },
+  {
+    "address": "0xdcb409dfec5de4db774c8acf49b33fe61d7d5e38",
+    "nameTag": "BSCswap: BFI-BUSD"
+  },
+  {
+    "address": "0xb861d104f8ab0560d06044d7f5acaba20748841d",
+    "nameTag": "BSCswap: BFI-DEGEN"
+  },
+  {
+    "address": "0xdb3f632910c55aa66860b45a86c214ad407473d1",
+    "nameTag": "BSCswap: BFI-KEK"
+  },
+  {
+    "address": "0x428251f778b4aa8ae7089f6abe24c9a7c3859396",
+    "nameTag": "BSCswap: BFI-NFL"
+  },
+  {
+    "address": "0x307b8f0b6afab827fe4325994896aa5b9e293627",
+    "nameTag": "BSCswap: BGEO"
+  },
+  {
+    "address": "0xe99ce38eebdc4b3d5f8fed6dbf19240c969fcbd1",
+    "nameTag": "BSCswap: BHC"
+  },
+  {
+    "address": "0xb9bd935c04ec1e4eedbd79aacf85067fe98b256c",
+    "nameTag": "BSCswap: BHC-BUSD"
+  },
+  {
+    "address": "0xb67455cb6a9ba83c06c5421b8316ef09e5e6b5e1",
+    "nameTag": "BSCswap: BHC-DEGEN"
+  },
+  {
+    "address": "0x1a5628f0df6c112425006be0b2f3060625210f48",
+    "nameTag": "BSCswap: BHC-GIAN"
+  },
+  {
+    "address": "0xfdc2cc73c147746398a410305f4677f4dbb595df",
+    "nameTag": "BSCswap: BIDEN"
+  },
+  {
+    "address": "0xa3b27d3db149368492e7ce745c9d56e5e17e565b",
+    "nameTag": "BSCswap: BIDEN-TRUMP"
+  },
+  {
+    "address": "0x69dc95d1ae562e0701156ead9938d73926239f59",
+    "nameTag": "BSCswap: BIFI"
+  },
+  {
+    "address": "0x32ffb8adfe2704439044263a53b86282c66378a6",
+    "nameTag": "BSCswap: BIFI-BUSD"
+  },
+  {
+    "address": "0x7e6bcd1978723058e32be2a4d93c47e84d4dd93f",
+    "nameTag": "BSCswap: BIFI-SPARTA"
+  },
+  {
+    "address": "0x89ce6f2fef90b560524fe86785641008990e8d0c",
+    "nameTag": "BSCswap: BINA"
+  },
+  {
+    "address": "0xc117550b71e59f704c5da585834fb3237f7ded26",
+    "nameTag": "BSCswap: BIO-BUSD"
+  },
+  {
+    "address": "0x0dfbaab054ec5de3f9b329bccc804eb772aef28f",
+    "nameTag": "BSCswap: BIRDS-SPONGS"
+  },
+  {
+    "address": "0x22d7b81b9f16580f5a8055e139216028f4112e36",
+    "nameTag": "BSCswap: BKIT"
+  },
+  {
+    "address": "0x72599fdaa7bc582651466ab343ed4a72cd010707",
+    "nameTag": "BSCswap: BLF"
+  },
+  {
+    "address": "0xdbaa6d55078781cbab188c224b5ca574811a8812",
+    "nameTag": "BSCswap: blink-BSWAP"
+  },
+  {
+    "address": "0xb68c6dedf07921ec4112ce612afebc6cb3f076f7",
+    "nameTag": "BSCswap: BLOK"
+  },
+  {
+    "address": "0xd6b41eaf1f24c2f03afcacaffd933a6dae349967",
+    "nameTag": "BSCswap: BLP"
+  },
+  {
+    "address": "0xe1553922206d0cfc972c1a706157d269aac545f8",
+    "nameTag": "BSCswap: BLP 2"
+  },
+  {
+    "address": "0xc459ba66832399686cbb60d8780f214e8f6690b5",
+    "nameTag": "BSCswap: BLP 3"
+  },
+  {
+    "address": "0xbe31b646fd06cca722322d8d148724cbe39e1781",
+    "nameTag": "BSCswap: BLP-MOON"
+  },
+  {
+    "address": "0xd700b19b8e37e4d343ff91d425f830269a9d938e",
+    "nameTag": "BSCswap: Bluenosedoge-Blue Oggy"
+  },
+  {
+    "address": "0x843dc97660291ef2d370529153a627b0956633cd",
+    "nameTag": "BSCswap: BLUR"
+  },
+  {
+    "address": "0xb426668d0fcbdd03b629d6ba3ddc511ca775a59c",
+    "nameTag": "BSCswap: BMO-Bank.of.Montreal"
+  },
+  {
+    "address": "0x2af0f32b2ac6f60843bf3f7f48149821e63a9bf3",
+    "nameTag": "BSCswap: BMTK"
+  },
+  {
+    "address": "0x0ff0ee2851c03bc5fead9d41650c6b9c7ab3951e",
+    "nameTag": "BSCswap: BMZT"
+  },
+  {
+    "address": "0x05290e71a3391a3ad3ec84091508c8b28e105c32",
+    "nameTag": "BSCswap: BNB PAIR"
+  },
+  {
+    "address": "0x706a6b6b7d694a7de2d4a8e42ff43fcabe1eebcd",
+    "nameTag": "BSCswap: BNX"
+  },
+  {
+    "address": "0x1cae51693cdc2af30b55e68b5badbd92974eb06e",
+    "nameTag": "BSCswap: BOLO"
+  },
+  {
+    "address": "0xeefc84091da9c1d37b4f894b9654a3393c83a6cc",
+    "nameTag": "BSCswap: BOLO-BBTC"
+  },
+  {
+    "address": "0x317ea730858d242d454156bf5e04f6cd417f3e4e",
+    "nameTag": "BSCswap: BOLO-BOUSD"
+  },
+  {
+    "address": "0xa3b17ecb0d740deb5dfb0f00681072c2a22298a7",
+    "nameTag": "BSCswap: BOLO-BUSD"
+  },
+  {
+    "address": "0x59f19dba89feee719b7567465f2bd08558702b62",
+    "nameTag": "BSCswap: BOLO-TOK"
+  },
+  {
+    "address": "0x8340c93d853343c59d0d99da5fa389b414dc126b",
+    "nameTag": "BSCswap: BOLO-USD-T"
+  },
+  {
+    "address": "0xd0072957f059070577b12a2cb77467b54d1e34ba",
+    "nameTag": "BSCswap: BORGDAI"
+  },
+  {
+    "address": "0x87c75111ab78a41d0fa011def2a4b1261e7d7868",
+    "nameTag": "BSCswap: BORGDAI-BORG"
+  },
+  {
+    "address": "0x3faa7a3e1e7e31cd82a01acc27b0b991aa0f596b",
+    "nameTag": "BSCswap: BORGDAI-BUSD"
+  },
+  {
+    "address": "0x633ef1abb304882038cbb02797c8efc576f1766b",
+    "nameTag": "BSCswap: BPT"
+  },
+  {
+    "address": "0x18613a1337023be38d6a6591af5999eabcea0993",
+    "nameTag": "BSCswap: BROL"
+  },
+  {
+    "address": "0xdea0b7b6a366a46457a52334ac187a22bcac91c8",
+    "nameTag": "BSCswap: bROOBEE-BUSD"
+  },
+  {
+    "address": "0x021ac5be4c66dc086e04e6d3a5977b1b332a152c",
+    "nameTag": "BSCswap: BSC"
+  },
+  {
+    "address": "0x82798418f2ad808ad515d15c1a8645e4266c7973",
+    "nameTag": "BSCswap: BSC-USD-BTB"
+  },
+  {
+    "address": "0xddd4a7a82f417e9ab4435f196e2551c399f61b6c",
+    "nameTag": "BSCswap: BSC-USD-BUEOG"
+  },
+  {
+    "address": "0xff05a9f496039fb2abe2d17ddfa08477f226087d",
+    "nameTag": "BSCswap: BSC-USD-CDEI"
+  },
+  {
+    "address": "0xef99d4d637fe471e905835434d5b64c91c7159b5",
+    "nameTag": "BSCswap: BSC-USD-DEVS"
+  },
+  {
+    "address": "0xa713df44a90827d107a02b20fdec4b57a2700abc",
+    "nameTag": "BSCswap: BSC-USD-FRF"
+  },
+  {
+    "address": "0xb6d8f8e34794fd753d7efccc6b43a5049288ea12",
+    "nameTag": "BSCswap: BSC-USD-HVT"
+  },
+  {
+    "address": "0x16bfd8eb95af8c0fb3d74886e42d806cd5bbf7db",
+    "nameTag": "BSCswap: BSC-USD-KBCoin"
+  },
+  {
+    "address": "0x40bd9daa803be8fa562de4aafb1056fc2e192eba",
+    "nameTag": "BSCswap: BSC-USD-MCS"
+  },
+  {
+    "address": "0x435c197cdc4253464a096c6b6a0f04e40897b7f8",
+    "nameTag": "BSCswap: BSC-USD-PVM"
+  },
+  {
+    "address": "0x2fa80e0983d6cc5a218b42d26198b40d6ac537d5",
+    "nameTag": "BSCswap: BSC-USD-QFS"
+  },
+  {
+    "address": "0x4f5d82f6c3d5cd9a3658c03bd98736cd55f3f145",
+    "nameTag": "BSCswap: BSC-USD-REDEFI"
+  },
+  {
+    "address": "0xda395f68b160aa58456ba49c3ad2edc8c67d3558",
+    "nameTag": "BSCswap: BSC-USD-REVCC"
+  },
+  {
+    "address": "0xd4fdae545594c1efea7e076c5dd2c2f7dc9f15ea",
+    "nameTag": "BSCswap: BSC-USD-TANGPING"
+  },
+  {
+    "address": "0xf9d85a556d6e843ffc50c8005c9d62ed632d2f0d",
+    "nameTag": "BSCswap: BSC-USD-TITAN"
+  },
+  {
+    "address": "0x541879cf08056d99b2b1ed3ab4275f8ad605730a",
+    "nameTag": "BSCswap: BSC-USD-VXZ"
+  },
+  {
+    "address": "0x4a4eb663001e7032cdd180fb8a9ccaeefa517d1b",
+    "nameTag": "BSCswap: BSC-USDT"
+  },
+  {
+    "address": "0xb786431a801d0d0388b065e8ae371787d5825125",
+    "nameTag": "BSCswap: BSWAP"
+  },
+  {
+    "address": "0xc5c84863d32f41ad60eb2dead2d69c9553541616",
+    "nameTag": "BSCswap: BSWAP 2"
+  },
+  {
+    "address": "0xacc234978a5eb941665fd051ca48765610d82584",
+    "nameTag": "BSCswap: BSWAP Token"
+  },
+  {
+    "address": "0x4290f60573fa1bb28a95913f94f63de260bc6a84",
+    "nameTag": "BSCswap: BSWAP-BSWAP"
+  },
+  {
+    "address": "0x7b8b9f2cb422aea55be6e9bf867e759721ac678c",
+    "nameTag": "BSCswap: BSWAP-BUSD"
+  },
+  {
+    "address": "0x23825b2d4ca8733c2a709d67a1bbe38bf7e3d771",
+    "nameTag": "BSCswap: BSWAP-DEGEN"
+  },
+  {
+    "address": "0x041631dffb9ac88eee97eb1e6547861f9c1a594c",
+    "nameTag": "BSCswap: BSWAP-INNBC"
+  },
+  {
+    "address": "0x7d2fe79df023ebbcc81324a30c59e1e71d2b9ba9",
+    "nameTag": "BSCswap: BSWAP-METH"
+  },
+  {
+    "address": "0x7c14b0cd0e11d3a6705027b24ab6e30f1816f513",
+    "nameTag": "BSCswap: BSWAP-THUGS"
+  },
+  {
+    "address": "0xaed1652c624ea68a57bf9da5611c090f42220284",
+    "nameTag": "BSCswap: BSWAP-TRTC"
+  },
+  {
+    "address": "0x7c113b3f08725a3d06bfa75a9268d1f46a56094e",
+    "nameTag": "BSCswap: BTC"
+  },
+  {
+    "address": "0x354f3a729962e93181263a311ca8043fed1d4418",
+    "nameTag": "BSCswap: BTCB"
+  },
+  {
+    "address": "0x216e07879d0f680e65c60a8cf980ba18c17e4a35",
+    "nameTag": "BSCswap: BTCB-AXZ"
+  },
+  {
+    "address": "0xd43ac00eea7286c7f365122da998b8896fba7942",
+    "nameTag": "BSCswap: BTCB-BHC"
+  },
+  {
+    "address": "0x701c22400fac224869dc4d1d7cf9ba580d16ab32",
+    "nameTag": "BSCswap: BTCB-BIFI"
+  },
+  {
+    "address": "0xe6f566f5502364ccf62af53465d1ee5ee726c3d4",
+    "nameTag": "BSCswap: BTCB-BSWAP"
+  },
+  {
+    "address": "0x4a3c0e93777ada858f0a9f197885a47119a3614d",
+    "nameTag": "BSCswap: BTCB-BUSD"
+  },
+  {
+    "address": "0xe7236840d7742f138a4e6993d868d24389351244",
+    "nameTag": "BSCswap: BTCB-DEGEN"
+  },
+  {
+    "address": "0xed6b5974f9cd109ae0b4c9cca009e4380cc3b914",
+    "nameTag": "BSCswap: BTCB-HOP"
+  },
+  {
+    "address": "0x3fb00cf82d5caf375b6567ecd415bb83374c5a4e",
+    "nameTag": "BSCswap: BTCB-INNBC"
+  },
+  {
+    "address": "0x7d1c04c4eb4923c24c8f9f8480130c1fe8a749b3",
+    "nameTag": "BSCswap: BTCB-SANTA"
+  },
+  {
+    "address": "0x7336e1b8b556bdbde883670ad72f2cbdca258cee",
+    "nameTag": "BSCswap: BTCB-THUGS"
+  },
+  {
+    "address": "0x16a82026487ec08a0fc255dd5873b39a4c22f1db",
+    "nameTag": "BSCswap: BTCMV"
+  },
+  {
+    "address": "0x3872eb085bcf2268cbcc192a7b91f10eb0923b9c",
+    "nameTag": "BSCswap: BTCnow-BUSD"
+  },
+  {
+    "address": "0x2ea85b4b867565a9e7a3e680c0de2d9449f44f0d",
+    "nameTag": "BSCswap: btcw"
+  },
+  {
+    "address": "0x535c05ad8208a9b6c67def77bd26ac342681f41d",
+    "nameTag": "BSCswap: BTFE"
+  },
+  {
+    "address": "0xf148521d5804abad54c0822d61ac2f051462093d",
+    "nameTag": "BSCswap: BURGER"
+  },
+  {
+    "address": "0x80718191df6012bffc755ebff024505f45e9e60b",
+    "nameTag": "BSCswap: BURGER-BAKE"
+  },
+  {
+    "address": "0x5cf1c2d7dd695e68d9f34b0be9f79da09a9e3974",
+    "nameTag": "BSCswap: BURGER-BFI"
+  },
+  {
+    "address": "0x63507869588c3578cb15f4d05b494658c024a262",
+    "nameTag": "BSCswap: BURGER-BUSD"
+  },
+  {
+    "address": "0xc42500348b2ae3869a9fab09fc42bfcdead718c7",
+    "nameTag": "BSCswap: BURGER-SPARTA"
+  },
+  {
+    "address": "0xffa1b90274c7d12dd53d84931cdd9ad781c45e95",
+    "nameTag": "BSCswap: BURN"
+  },
+  {
+    "address": "0x7b8fcc78b18c5f27a3fd9c2c5756a20785ed7c7d",
+    "nameTag": "BSCswap: BURRITO"
+  },
+  {
+    "address": "0x1ebf0ee99971c6269062c3b480e8e23b7a74756b",
+    "nameTag": "BSCswap: BUSD"
+  },
+  {
+    "address": "0x026d1dc704302b96e77ecdcb536fb9483af51d0a",
+    "nameTag": "BSCswap: BUSD 2"
+  },
+  {
+    "address": "0x10560aabd03b3a92871d367a20fd8657367d4aee",
+    "nameTag": "BSCswap: BUSD-ANY"
+  },
+  {
+    "address": "0x20ec46963e6b1d4717bcdb37c5c19479f33aa627",
+    "nameTag": "BSCswap: BUSD-BSWAP"
+  },
+  {
+    "address": "0xbc20def3d0b4d9815d7cea494f4198baf00e7365",
+    "nameTag": "BSCswap: BUSD-BURN"
+  },
+  {
+    "address": "0x5ae03aabc209f86546d83d5aa41067b857a1bc59",
+    "nameTag": "BSCswap: BUSD-bWRKZ"
+  },
+  {
+    "address": "0x41be43cd6459e5f7652b733004a1145b60a26e5f",
+    "nameTag": "BSCswap: BUSD-DRUGS"
+  },
+  {
+    "address": "0x9564dcf78b71d2642585d27f01e5eeff78e665de",
+    "nameTag": "BSCswap: BUSD-LINK"
+  },
+  {
+    "address": "0xe6dcb4cac22b4e591d6e5d8eeb61600a2158b1dc",
+    "nameTag": "BSCswap: BUSD-POOL"
+  },
+  {
+    "address": "0xda3d43fd3236a9434159006dd90980d5e04d447c",
+    "nameTag": "BSCswap: BUSD-PUSD"
+  },
+  {
+    "address": "0x1e6b2146802dbb0f536460f0f3180f39bb6bb25b",
+    "nameTag": "BSCswap: BUSD-T-BOUSD"
+  },
+  {
+    "address": "0x9b90a059598025c7a3bd2672455ce14d27603cb4",
+    "nameTag": "BSCswap: BUSD-T-DOP"
+  },
+  {
+    "address": "0x4234df07c687b02c4c510a30de5c4468447e6d33",
+    "nameTag": "BSCswap: BUSD-T-LOVE"
+  },
+  {
+    "address": "0xc34b4ed2b878d2fbb2ba466e7ac4110da9252751",
+    "nameTag": "BSCswap: bWETH"
+  },
+  {
+    "address": "0x65fd4adf0db2db40377d310baf3a4adc7c4cd334",
+    "nameTag": "BSCswap: bWETH-THUGS"
+  },
+  {
+    "address": "0xa555529a32ca154aebafa4daeac26f98e0e570d9",
+    "nameTag": "BSCswap: bWRKZ"
+  },
+  {
+    "address": "0x7b23b62966bac2e081b87e86866fdb9261b8cb77",
+    "nameTag": "BSCswap: BZAR"
+  },
+  {
+    "address": "0x6a43f7e4ccfbe0da3ef262ba80b636c918fbd72d",
+    "nameTag": "BSCswap: BZAR-BTCB"
+  },
+  {
+    "address": "0xf40449379cbd9625dc9debba5f7f104808fd5ba1",
+    "nameTag": "BSCswap: BZAR-BUSD"
+  },
+  {
+    "address": "0xb7c8eca8756262e04c1278f0e840d1d42c1485eb",
+    "nameTag": "BSCswap: BZAR-EOS"
+  },
+  {
+    "address": "0x2179dcb358da0a79465292b8529189ca841ab2a2",
+    "nameTag": "BSCswap: BZAR-LFI"
+  },
+  {
+    "address": "0x510a85e79a79c520dd2adf06768059d708e681a5",
+    "nameTag": "BSCswap: BZAR-TWT"
+  },
+  {
+    "address": "0x9f91c06889fc7c8975f86adbf9ffcf0f410c8503",
+    "nameTag": "BSCswap: BZAR-USDT"
+  },
+  {
+    "address": "0xda7814e5a7d2c55c08b364c5577d53d3ec59f561",
+    "nameTag": "BSCswap: BZK"
+  },
+  {
+    "address": "0xc689f249622bc93b117404f74a1ba232183730c3",
+    "nameTag": "BSCswap: Cake"
+  },
+  {
+    "address": "0x53a8b1f38f96e006345ad59315824d681a4b3523",
+    "nameTag": "BSCswap: Cake-BUSD"
+  },
+  {
+    "address": "0xbd6c35135a28607949dd51500f3d4310c2f78380",
+    "nameTag": "BSCswap: Cake-DEGEN"
+  },
+  {
+    "address": "0x3986f021162b2fcaa3f6b81670a28e3fea57a3a8",
+    "nameTag": "BSCswap: Cake-DRUGS"
+  },
+  {
+    "address": "0x9c014b75492045aa6f6274255803f23bfc7116fd",
+    "nameTag": "BSCswap: Cake-MARS"
+  },
+  {
+    "address": "0xc2437e865f314f74f06f213173a29523342e2aa1",
+    "nameTag": "BSCswap: Cake-Saturn"
+  },
+  {
+    "address": "0x3d8666d417d7f30439958841bdfffe91d694a3ad",
+    "nameTag": "BSCswap: Cake-SPARTA"
+  },
+  {
+    "address": "0x9c5ae43b41a443d51897f5352371c1a147fa5f6e",
+    "nameTag": "BSCswap: Cake-SulX"
+  },
+  {
+    "address": "0x9c90a1c8f1d7d88046d0e9aae90c1749e89814bb",
+    "nameTag": "BSCswap: Cake-THUGS"
+  },
+  {
+    "address": "0xbabb960c2f90e9fe0205b35d9d6e57e22677084a",
+    "nameTag": "BSCswap: Cake-TWT"
+  },
+  {
+    "address": "0xd820869846f3222a67ebf54a1713841be359b3d0",
+    "nameTag": "BSCswap: Cake-USDT"
+  },
+  {
+    "address": "0xa4ab82b0d9fe7cf9f6c46ba99d137695583b6605",
+    "nameTag": "BSCswap: CARGILL"
+  },
+  {
+    "address": "0x3377ef9c77259a76692b058b0e820f9501193352",
+    "nameTag": "BSCswap: Cat"
+  },
+  {
+    "address": "0xcae8798e6559cfc5f52e531caf1e1b0a3e2b6c11",
+    "nameTag": "BSCswap: CAT-BUSD"
+  },
+  {
+    "address": "0x1a1e4d41b0794b954fb39cce768a3686a695f475",
+    "nameTag": "BSCswap: Cbit"
+  },
+  {
+    "address": "0x9c69cc2597bf64cf000d95167eb7ba846aaff406",
+    "nameTag": "BSCswap: CBT"
+  },
+  {
+    "address": "0x368974d98b5b9a7b84c142fa10a3b42e4bfe65f7",
+    "nameTag": "BSCswap: CDEI"
+  },
+  {
+    "address": "0xb5c2146f7065e166a14644caa07f8ce3c92c3537",
+    "nameTag": "BSCswap: CECO"
+  },
+  {
+    "address": "0x187489732760a53975fe74f7e2859c9b1e61bd06",
+    "nameTag": "BSCswap: CHA"
+  },
+  {
+    "address": "0xb6b066ee7186af64241651a1071af9929894acac",
+    "nameTag": "BSCswap: CISC"
+  },
+  {
+    "address": "0x5027c414c88acaad13ba09cfbd99bd97a6ce01b2",
+    "nameTag": "BSCswap: CLB"
+  },
+  {
+    "address": "0x268f6bc8bdfe223fe04b48d3d05a1b7fe1bcc46f",
+    "nameTag": "BSCswap: COFT"
+  },
+  {
+    "address": "0xc49d1cb3010756a25ae7488bbbf7e45722a8202e",
+    "nameTag": "BSCswap: COIN"
+  },
+  {
+    "address": "0xadfda5e40222ff578ce922781d4e4574ab0cea53",
+    "nameTag": "BSCswap: cowb"
+  },
+  {
+    "address": "0x146d7c44e68ff40b2dea24b8cb83ac8b552347c2",
+    "nameTag": "BSCswap: CPRZ"
+  },
+  {
+    "address": "0x9d9c198bc1b9181c03bc6dd6f2e64c5093ed4f2e",
+    "nameTag": "BSCswap: CPY"
+  },
+  {
+    "address": "0x83a8e84492a234ef5a2537c534bfbcdc79b08ae0",
+    "nameTag": "BSCswap: CR7"
+  },
+  {
+    "address": "0xdc429acfb6a3863c1ca30372fbef946b47599fa5",
+    "nameTag": "BSCswap: crBNB"
+  },
+  {
+    "address": "0x5b1f81cfbb2c0dca7a462d1e8c85d98927d4b110",
+    "nameTag": "BSCswap: CRCP"
+  },
+  {
+    "address": "0x1f6c3225e90dd9871610837429524f7d03e75a5d",
+    "nameTag": "BSCswap: CREAM"
+  },
+  {
+    "address": "0x2f331c53d7aa5da9986ab078ff025737ccb70b9d",
+    "nameTag": "BSCswap: CREAM-BUSD"
+  },
+  {
+    "address": "0xf33fe1d0c4ab6b8262a624840c10f5a6582365e1",
+    "nameTag": "BSCswap: CRED"
+  },
+  {
+    "address": "0x1af985b48ac59640113cccdec448a85415422ad9",
+    "nameTag": "BSCswap: CRP"
+  },
+  {
+    "address": "0xf737a8028cc98bdd9009e29d6c5694f55184947e",
+    "nameTag": "BSCswap: CYR"
+  },
+  {
+    "address": "0x2d9e38519fd59b8d0b178027324c0cbf613fc18e",
+    "nameTag": "BSCswap: CYR-USDT"
+  },
+  {
+    "address": "0x3e6568c5962fd20517edf7d2259e52d1fe975fb8",
+    "nameTag": "BSCswap: CYRUS"
+  },
+  {
+    "address": "0x9409f3ce6b1701f8a6df1b1b10345c38b6dd93c3",
+    "nameTag": "BSCswap: CZ"
+  },
+  {
+    "address": "0xb80ad32254a6e4f5b4a2e4bc47e5a6968e3a305b",
+    "nameTag": "BSCswap: CZ 2"
+  },
+  {
+    "address": "0x889c86a45495c04de180379a84821d29eab4bda4",
+    "nameTag": "BSCswap: CZ 3"
+  },
+  {
+    "address": "0x0cea0262ddce7e140666b1d29292b1293490e001",
+    "nameTag": "BSCswap: CZ 4"
+  },
+  {
+    "address": "0x2ba791c9e65406387ead2f767df562f387fc91b5",
+    "nameTag": "BSCswap: D10$"
+  },
+  {
+    "address": "0xd81ae81eaa92b3276f7783857b1b263d68b1c864",
+    "nameTag": "BSCswap: DAF"
+  },
+  {
+    "address": "0xf3010261b58b2874639ca2e860e9005e3be5de0b",
+    "nameTag": "BSCswap: DAI"
+  },
+  {
+    "address": "0xe7bc8c253a055a13ae53d17ca2998bb65503a61f",
+    "nameTag": "BSCswap: DAI-BORGDAI"
+  },
+  {
+    "address": "0x0b8409985cf4dcc7d6520efc3039c58776f70ad9",
+    "nameTag": "BSCswap: DAI-BUSD"
+  },
+  {
+    "address": "0x3cb7abdac5de34ffaadcc7994dd1be20f2c5771d",
+    "nameTag": "BSCswap: DAI-CIF"
+  },
+  {
+    "address": "0xd27425598f86fcd53b57a526836c0f84cf4a5fc5",
+    "nameTag": "BSCswap: DAI-DAU"
+  },
+  {
+    "address": "0x1ff6890e90f04b94d59a0f38d1ea27d5424aaba0",
+    "nameTag": "BSCswap: DAI-DEGEN"
+  },
+  {
+    "address": "0x77397b34893f9295a41aa1dd04d9c9136c24c499",
+    "nameTag": "BSCswap: DAI-DRUGS"
+  },
+  {
+    "address": "0x0c5316d6cb471b7c6024bcbd64949a3ffb36d1b6",
+    "nameTag": "BSCswap: DAI-HKG"
+  },
+  {
+    "address": "0xa9d49891a555ff938e9d515b16898a10ee604bfc",
+    "nameTag": "BSCswap: DAI-USDT"
+  },
+  {
+    "address": "0xd7cde59beed79e22a195623235d6fd8310bbd7b2",
+    "nameTag": "BSCswap: DAU"
+  },
+  {
+    "address": "0x75ebba200f753599b81785e4e0f973a4572e887f",
+    "nameTag": "BSCswap: DAU-BLP"
+  },
+  {
+    "address": "0x31b16161eb3924acab18b464b9185efcd6cbd998",
+    "nameTag": "BSCswap: DAU-BUSD"
+  },
+  {
+    "address": "0xbcf0246364fe102dffdad929407d876620999885",
+    "nameTag": "BSCswap: DB"
+  },
+  {
+    "address": "0x064aced1b794a2b34704261d720f84ad28c96909",
+    "nameTag": "BSCswap: DBDT-BSC-USD"
+  },
+  {
+    "address": "0xa27c9dba2121091fe1940fb1dbe9ccefc78672f8",
+    "nameTag": "BSCswap: DCT-BUSD"
+  },
+  {
+    "address": "0xe514264b927044ba7a7469093869e18ee51e95b5",
+    "nameTag": "BSCswap: DEFI"
+  },
+  {
+    "address": "0xcd9947a0174a12e599b8fed60e6263cb0137ed93",
+    "nameTag": "BSCswap: DEFI-BUSD"
+  },
+  {
+    "address": "0x74ed229d5cc16678876310a7f67ca13b541be11d",
+    "nameTag": "BSCswap: DEGEN"
+  },
+  {
+    "address": "0x8be7d7d871270aa181cb6aeb7c3a5bc5538e994a",
+    "nameTag": "BSCswap: DEGEN-BSWAP"
+  },
+  {
+    "address": "0x3be650f4215c2b4b755c96a169e3d4d73affecd1",
+    "nameTag": "BSCswap: DEGEN-BUSD"
+  },
+  {
+    "address": "0xaae8d15bb54a2533b6154a7fdde63156f4a6dc61",
+    "nameTag": "BSCswap: DEGO"
+  },
+  {
+    "address": "0xa7725028ded7f05010862f1bd41251a0334a0f2e",
+    "nameTag": "BSCswap: DES-USD"
+  },
+  {
+    "address": "0x9de7f4fb33eb85a5d446d32e0f570f1c83e0a692",
+    "nameTag": "BSCswap: DEVS"
+  },
+  {
+    "address": "0x9d0a849b40e1c3c133b06e429b01518d761541cf",
+    "nameTag": "BSCswap: DIC"
+  },
+  {
+    "address": "0xc8a39bedecad27052050396b24ae300896d7942e",
+    "nameTag": "BSCswap: Diners.Club.International"
+  },
+  {
+    "address": "0x4f90be7ca3e8e06c516c2fb04520c717568fa94d",
+    "nameTag": "BSCswap: DITC"
+  },
+  {
+    "address": "0xd71229da8633f7fe9bad02c6a49b8ad89daa5971",
+    "nameTag": "BSCswap: DLT"
+  },
+  {
+    "address": "0xe54d0ce3df4d9233157d4637b3543c0874317436",
+    "nameTag": "BSCswap: DN"
+  },
+  {
+    "address": "0x105e829220e2eb48dae0c0004efa9b02d1283dba",
+    "nameTag": "BSCswap: DOGEPi"
+  },
+  {
+    "address": "0xc03b5504b89cf8c81d23c8fdbd5921ec207315b4",
+    "nameTag": "BSCswap: DOP-BUSD"
+  },
+  {
+    "address": "0xd2e2bfd5cbfa4116cd0a026fe5263a9ba90836b2",
+    "nameTag": "BSCswap: DOSW"
+  },
+  {
+    "address": "0x784b8124d04d6ff5c5ecf234b5679f72a4527665",
+    "nameTag": "BSCswap: DOT"
+  },
+  {
+    "address": "0x80b5ae355fca2b5a90e9212d4aa999a95b392258",
+    "nameTag": "BSCswap: DOT-BFI"
+  },
+  {
+    "address": "0x13027ff4cec2d62fbd8fd3e77ad11fba36691155",
+    "nameTag": "BSCswap: DOT-BHC"
+  },
+  {
+    "address": "0x7523f6bc506fb2c218d86fab77d8ab2af6193e8e",
+    "nameTag": "BSCswap: DOT-MILK"
+  },
+  {
+    "address": "0x1ca9ce888bad438da8d02a0273118405f2df1b69",
+    "nameTag": "BSCswap: DOUC"
+  },
+  {
+    "address": "0x0c762d384f60c6bf4c9d2d833d4a0581752163aa",
+    "nameTag": "BSCswap: DPZ"
+  },
+  {
+    "address": "0xedb814b15774989669779042ffbf82a1361d031a",
+    "nameTag": "BSCswap: DRUGS"
+  },
+  {
+    "address": "0x8e05c5d32562de30f5f80ba7ce327760afb282b1",
+    "nameTag": "BSCswap: DTD"
+  },
+  {
+    "address": "0x32b2c7fe6e28c0bba60e3812f52ba059113b69d6",
+    "nameTag": "BSCswap: DUCX"
+  },
+  {
+    "address": "0x323da23fd5ae1f362236b04cfde93ee2fdb49880",
+    "nameTag": "BSCswap: Durga"
+  },
+  {
+    "address": "0x3f52cd281f4023755f6e8433fceb26f7c955510e",
+    "nameTag": "BSCswap: DzT"
+  },
+  {
+    "address": "0x38c2b18e5e7f9b3d9ee1f7658ce2172058d99a69",
+    "nameTag": "BSCswap: EARTH"
+  },
+  {
+    "address": "0x9e480a83256c3436fb2fcb1b2e885cbcc309f315",
+    "nameTag": "BSCswap: EARTH-BFI"
+  },
+  {
+    "address": "0x96d344cea3cc0732dd329af21efbba671757a792",
+    "nameTag": "BSCswap: EARTH-BHC"
+  },
+  {
+    "address": "0x850edda514f37ad94cc2d9989d35e5bd674da04b",
+    "nameTag": "BSCswap: EARTH-BSWAP"
+  },
+  {
+    "address": "0x79c5fdfbc6837b4ddd334ebe83b011107f399deb",
+    "nameTag": "BSCswap: EARTH-BUSD"
+  },
+  {
+    "address": "0x7163a1ffebe67757a943c846e84dc75f7583eb0c",
+    "nameTag": "BSCswap: EARTH-DEGEN"
+  },
+  {
+    "address": "0x3021118db68e2c282db14e766556cd30bb92c5f5",
+    "nameTag": "BSCswap: EARTH-MOON"
+  },
+  {
+    "address": "0x07eff53fdb1373dd88d1332da1f39f285a0d9696",
+    "nameTag": "BSCswap: EARTH-USDT"
+  },
+  {
+    "address": "0xcebddbfdec48754cf3b150d18e113463be8f64e2",
+    "nameTag": "BSCswap: ECARE-BUSD-T"
+  },
+  {
+    "address": "0x2924aa2532f1a5aee9c42f4990096ad239d53bad",
+    "nameTag": "BSCswap: EKIPA"
+  },
+  {
+    "address": "0x11f25a9cdd7e05e49d7744140f285c9591c0a518",
+    "nameTag": "BSCswap: ELON"
+  },
+  {
+    "address": "0xbb9f294c573f7963368a6f02d53fdf0ecda17fe3",
+    "nameTag": "BSCswap: EMC"
+  },
+  {
+    "address": "0x2949ead06c9d513ee6716d606a1c4772dc32ec6e",
+    "nameTag": "BSCswap: EOS"
+  },
+  {
+    "address": "0x2c3bc241a0956cf00e7efd86e37fb034f734204a",
+    "nameTag": "BSCswap: EOS-BUSD"
+  },
+  {
+    "address": "0x8937d3caf9c7c8a1de57dc116082b00a7b36a9b0",
+    "nameTag": "BSCswap: EOS-SANTA"
+  },
+  {
+    "address": "0xcd73937de76a345a37b8ddaa318e47847f3aaea1",
+    "nameTag": "BSCswap: EPC"
+  },
+  {
+    "address": "0xf142b6e94d198b5eb26e745a5d69c8a536403e78",
+    "nameTag": "BSCswap: ETH"
+  },
+  {
+    "address": "0x7a4c8ffc8ccb378ab37037f4f3fbd6a297dc3d78",
+    "nameTag": "BSCswap: ETH-BLOK"
+  },
+  {
+    "address": "0xb65e8e0c37bd54f26388b2e27d99eb4a3b5c4761",
+    "nameTag": "BSCswap: ETH-BSWAP"
+  },
+  {
+    "address": "0x6f5f49387417f145a7cb8a3313247981e339becf",
+    "nameTag": "BSCswap: ETH-BZAR"
+  },
+  {
+    "address": "0xc794130db47d266e71387f1540bc039a9fa6e66e",
+    "nameTag": "BSCswap: ETH-PTTP"
+  },
+  {
+    "address": "0x8379076c8ffc04cf3b1fb0a86598208c65bf6503",
+    "nameTag": "BSCswap: ETH-USDT"
+  },
+  {
+    "address": "0xb3e8fef890856b37a20e85615656680a8dd1eee2",
+    "nameTag": "BSCswap: Ether(ETH)"
+  },
+  {
+    "address": "0x27684c58c11c0d5023bad1d956d01e91e5d740c7",
+    "nameTag": "BSCswap: EXMOC"
+  },
+  {
+    "address": "0x631c52e429ddc1a4df6b2fcd25c2796001c41e99",
+    "nameTag": "BSCswap: FAIRY"
+  },
+  {
+    "address": "0x282c2ca9f3056c275643eb7df843506603c64893",
+    "nameTag": "BSCswap: FAKE"
+  },
+  {
+    "address": "0xc7052cb4a0fe05156dcb2d22a6905edc4b35ab6f",
+    "nameTag": "BSCswap: FARM"
+  },
+  {
+    "address": "0x10a279456b7ef99f838f7903415268fcfcacd74d",
+    "nameTag": "BSCswap: FCNT"
+  },
+  {
+    "address": "0x852783ef7189b2fc4a6ca550db79b7996e3432d4",
+    "nameTag": "BSCswap: FCNT 2"
+  },
+  {
+    "address": "0x8c954e0f64181a65d4a5cfbb9cf02c04ce0e28b2",
+    "nameTag": "BSCswap: FCNT-DEGEN"
+  },
+  {
+    "address": "0x810cf9c840871f592bea2eae21bda6d53d14fabe",
+    "nameTag": "BSCswap: FDL"
+  },
+  {
+    "address": "0x08a47abafee002728c3091052a7dae06c016c3d2",
+    "nameTag": "BSCswap: FIRE"
+  },
+  {
+    "address": "0x93362af1af2c706dbde71c0f23c5042335b19a30",
+    "nameTag": "BSCswap: FITFI"
+  },
+  {
+    "address": "0x4fc40b0482ce0c21e1e9c4c3878688db23e45a29",
+    "nameTag": "BSCswap: FIW"
+  },
+  {
+    "address": "0xe820860ee708a1f8e2c50daffcdcf733bd730642",
+    "nameTag": "BSCswap: FIZI"
+  },
+  {
+    "address": "0x1a6c46ddee5a68153020f6ed815858c8dde8ee72",
+    "nameTag": "BSCswap: FLOKI"
+  },
+  {
+    "address": "0x3c9f1fc3d164161d7eaaf85e6eabc2bcc9a9b94d",
+    "nameTag": "BSCswap: FLTR"
+  },
+  {
+    "address": "0xa8a227d97541160db096cf332ea6ea91aeae57f0",
+    "nameTag": "BSCswap: FN"
+  },
+  {
+    "address": "0x014c57bd41b59d2db9f21ee3ee009fb373aa58a9",
+    "nameTag": "BSCswap: FOR"
+  },
+  {
+    "address": "0xc6a54275c42ac3cee141fc548005eb95cd3589ee",
+    "nameTag": "BSCswap: FOX"
+  },
+  {
+    "address": "0xcf5eb4d708cda58c3491a7838fd307f6094f69ce",
+    "nameTag": "BSCswap: FREE"
+  },
+  {
+    "address": "0x08d4755938d8e1b6d1cb075f8a6918e99db6f224",
+    "nameTag": "BSCswap: FREE-BSWAP"
+  },
+  {
+    "address": "0x73b920ff688256187eb29509e232c3b73432b44f",
+    "nameTag": "BSCswap: Freedom"
+  },
+  {
+    "address": "0xf95bb1e6afc94cdd81c1de17284ba46f133af4b3",
+    "nameTag": "BSCswap: FRF-BUSD"
+  },
+  {
+    "address": "0x2b6ef1bca258230c213856b2da54dd5909d20d40",
+    "nameTag": "BSCswap: FRIES"
+  },
+  {
+    "address": "0xedf6c46e7eb97b4824577fce1c257e9ef66f6b8d",
+    "nameTag": "BSCswap: FRIES-BUSD"
+  },
+  {
+    "address": "0x9f7804769dadff9d55dd58ecb0e30e2542c727ac",
+    "nameTag": "BSCswap: FROG"
+  },
+  {
+    "address": "0x3770c98265c545f9accf985d927e8230bb570e02",
+    "nameTag": "BSCswap: FUN"
+  },
+  {
+    "address": "0x8fc8c3e3593f09698bad714d098ab77f13f214a7",
+    "nameTag": "BSCswap: FUNDS"
+  },
+  {
+    "address": "0x75d45db898d7c5d3ec959b807e4b60e52305aa3a",
+    "nameTag": "BSCswap: FYSH"
+  },
+  {
+    "address": "0x1dbb869cb03d28ceff38a2c9109c2a02c3a9bbfd",
+    "nameTag": "BSCswap: GAIA"
+  },
+  {
+    "address": "0x1b7047fc699298176aca45f1ad1eedd7cd2ffbb2",
+    "nameTag": "BSCswap: GARU"
+  },
+  {
+    "address": "0x6312df99b307d1d57f164c353478a04a1aeb6293",
+    "nameTag": "BSCswap: GBPC"
+  },
+  {
+    "address": "0x629c8e54b439e7d1042ebb955d68f10eb8693e1a",
+    "nameTag": "BSCswap: GFT"
+  },
+  {
+    "address": "0xe43aa6dc048ac610eed16a26727c242ad44ddcdc",
+    "nameTag": "BSCswap: GIAN"
+  },
+  {
+    "address": "0x01bbc289dbca25a379f79bf47f084f62fcce6355",
+    "nameTag": "BSCswap: GIO"
+  },
+  {
+    "address": "0x045278819aabad22f2899c616aaf5fedf2c49155",
+    "nameTag": "BSCswap: GMC"
+  },
+  {
+    "address": "0xff41a6230a6060d4bde3a429c0e632ae66a84f70",
+    "nameTag": "BSCswap: GOC"
+  },
+  {
+    "address": "0x0e70271370fbd885ae7ebd797f04e1455eb81ea6",
+    "nameTag": "BSCswap: GOOD"
+  },
+  {
+    "address": "0x7fdbd426edfaf581c5dee233c6cc2f0763975825",
+    "nameTag": "BSCswap: GOX"
+  },
+  {
+    "address": "0xbd86c1d5af574350e61245eb523bae9a241fd36a",
+    "nameTag": "BSCswap: Grimace"
+  },
+  {
+    "address": "0x8ceeef9620430648a2ea2c1b178e153aa683007d",
+    "nameTag": "BSCswap: GUNS"
+  },
+  {
+    "address": "0x79a535081b5344acafed5a17554c8cd92ded089e",
+    "nameTag": "BSCswap: GUNS-BUSD"
+  },
+  {
+    "address": "0x16546a33097cfe720e5138dba72064824a129725",
+    "nameTag": "BSCswap: GUNS-DAI"
+  },
+  {
+    "address": "0xab9480058f783f08691f1161e9f36c10fc8da6ae",
+    "nameTag": "BSCswap: GUNS-USD-T"
+  },
+  {
+    "address": "0x25561590e51dfcf8520610afeaf7a1b688f954e9",
+    "nameTag": "BSCswap: HAAI"
+  },
+  {
+    "address": "0x6eef76387bb79a2df40afe505b10ece4815a9bcf",
+    "nameTag": "BSCswap: HALO"
+  },
+  {
+    "address": "0x69c70286d7a40f693f65ef75d957fcbe0638b32e",
+    "nameTag": "BSCswap: HARD"
+  },
+  {
+    "address": "0x195e0ea388d5c126b51f10648b8c2813440bd4a6",
+    "nameTag": "BSCswap: HARD 2"
+  },
+  {
+    "address": "0xcc3cf56534434c71035acf5e23f33160361f920d",
+    "nameTag": "BSCswap: HDPL-HYPC"
+  },
+  {
+    "address": "0x9aa133c4c631a5eb6acbb7b20d579801673e1a9a",
+    "nameTag": "BSCswap: HEB"
+  },
+  {
+    "address": "0x1792a038f33880a982d41dabc60d2abca500dc5d",
+    "nameTag": "BSCswap: HFI"
+  },
+  {
+    "address": "0x2ddc462ba4fbfe6df4a34034e67fbdfbc4bbcedd",
+    "nameTag": "BSCswap: HOES"
+  },
+  {
+    "address": "0x90796bb9ca24c5fd66e77f3430ac68cfefb57346",
+    "nameTag": "BSCswap: HOES-DRUGS"
+  },
+  {
+    "address": "0x290bd3ba08e772c21816a4d96f09c4ab5076b5f9",
+    "nameTag": "BSCswap: HOP"
+  },
+  {
+    "address": "0x733f9d990c956f2f8b3af551a6685cdb070bc8ba",
+    "nameTag": "BSCswap: HOP-BHC"
+  },
+  {
+    "address": "0x114b77a103babded17d0c9d909392793874b3487",
+    "nameTag": "BSCswap: HOP-BSWAP"
+  },
+  {
+    "address": "0x128f277fd12b1a42b2a8ac3f6d10cd96e5122179",
+    "nameTag": "BSCswap: HOP-BUSD"
+  },
+  {
+    "address": "0xf31d079d82bf00c37c18854268817adcd9f20d9c",
+    "nameTag": "BSCswap: HOP-MOON"
+  },
+  {
+    "address": "0x90222c8b0d079f0de9f8659fefa68d6dbe7e3fb0",
+    "nameTag": "BSCswap: HOP-RABBIT"
+  },
+  {
+    "address": "0x95698bab6215d52babc8710616c439e9e8106f82",
+    "nameTag": "BSCswap: HORS"
+  },
+  {
+    "address": "0xc534b15792bb32a418489f9f33a3b644a8d294d1",
+    "nameTag": "BSCswap: HOTDOG-BUSD"
+  },
+  {
+    "address": "0x626cd83e7a89163c5390d2358d9ef540b1c8fa0f",
+    "nameTag": "BSCswap: HOTS"
+  },
+  {
+    "address": "0x5d2d897602f5d59b4eff014764601e6f0283af4c",
+    "nameTag": "BSCswap: hSOV"
+  },
+  {
+    "address": "0xd2bc33b0415ef97dd7157545d3e3a25b924e632d",
+    "nameTag": "BSCswap: HVT-BUSD"
+  },
+  {
+    "address": "0x3f46fcdf80be1d6f5d77abfe1d897e25757a0923",
+    "nameTag": "BSCswap: ICCF"
+  },
+  {
+    "address": "0xd5c10cef49086d97c9fa329573997bf1095e2739",
+    "nameTag": "BSCswap: ICE"
+  },
+  {
+    "address": "0xe75964cf06d292dd0f59ae825c8ee96db4ee1e10",
+    "nameTag": "BSCswap: ICM"
+  },
+  {
+    "address": "0xe61d0dbf43bb74d8f0e03a70f815a7c9f8626e15",
+    "nameTag": "BSCswap: IGSC"
+  },
+  {
+    "address": "0x7cfa7cffae38cdd9aa16e918f471430df27c5d5f",
+    "nameTag": "BSCswap: IGV"
+  },
+  {
+    "address": "0x28fdd9a4ae93bfb0b1613538575dc036cde6bb18",
+    "nameTag": "BSCswap: INNBC"
+  },
+  {
+    "address": "0xe2bbc0c72cdcabe1f1d42fa1f6a58ff70c979dd5",
+    "nameTag": "BSCswap: INNBC-BSWAP"
+  },
+  {
+    "address": "0x9926bfab22945df57e13892ba64af476ffb613c9",
+    "nameTag": "BSCswap: INNBC-BUSD"
+  },
+  {
+    "address": "0xd24fd89739fb52ffab0ace72123b87bf585d0754",
+    "nameTag": "BSCswap: INTEC"
+  },
+  {
+    "address": "0xe0c3ed0d312f296171db53c51f23d5a98f338e45",
+    "nameTag": "BSCswap: IOTX"
+  },
+  {
+    "address": "0x8e3aec9115d2d53df18486a527fb54e02076d733",
+    "nameTag": "BSCswap: IOX"
+  },
+  {
+    "address": "0x8bb91e605d418f924b8fb4263693380d7b49b778",
+    "nameTag": "BSCswap: IRON"
+  },
+  {
+    "address": "0xdb21b1bc388fb934627aba6a8860e188f40b0a99",
+    "nameTag": "BSCswap: IUM"
+  },
+  {
+    "address": "0xe813cb8af896a87215eea4fe2e5cb9c9b640c360",
+    "nameTag": "BSCswap: IUM-VAL"
+  },
+  {
+    "address": "0xbf60a261fd9c249041a757967a87796d4a41a352",
+    "nameTag": "BSCswap: JACKPOT"
+  },
+  {
+    "address": "0x3c432035a7823ced9da990c8c589524dc19caf95",
+    "nameTag": "BSCswap: JAG"
+  },
+  {
+    "address": "0xb5d2c09cc3b56bf32acc78b02a95c3b768912983",
+    "nameTag": "BSCswap: JASM"
+  },
+  {
+    "address": "0xfb4975f933c7993d0a29d585179a5b4f4ce4eb7b",
+    "nameTag": "BSCswap: JEO"
+  },
+  {
+    "address": "0xb8f5d98f5b4a3aeccb83b3782c26a218f7160c95",
+    "nameTag": "BSCswap: JFIN-T-BUSD"
+  },
+  {
+    "address": "0x383cb29d9c4b8686c9cf5ce07ede2b418e245984",
+    "nameTag": "BSCswap: JNTR"
+  },
+  {
+    "address": "0x3d0efaa9e6a664768fd0c15c0df263dacaaf35ff",
+    "nameTag": "BSCswap: JNTR/b"
+  },
+  {
+    "address": "0xee911a684201ffbc42b322e5a5234f4368c7e1d9",
+    "nameTag": "BSCswap: JNTR/b-BSWAP"
+  },
+  {
+    "address": "0x04f8269a4f0d359285b8e10c3093a30440af9260",
+    "nameTag": "BSCswap: JNTR/b-BUSD"
+  },
+  {
+    "address": "0xac414b82bb504f7eb06087831e0f6b72e472c12e",
+    "nameTag": "BSCswap: JNTR/b-DEGEN"
+  },
+  {
+    "address": "0x8f93b7d7b5e95bf1edf271b80b3b5125188c6ab6",
+    "nameTag": "BSCswap: JNTR/b-SANTA"
+  },
+  {
+    "address": "0xd901a981a6f820eb42fdb0aab4e920aa2c19353f",
+    "nameTag": "BSCswap: JUICY"
+  },
+  {
+    "address": "0x8df884c62b5dd60c0a48c4ff872afdc4b9435560",
+    "nameTag": "BSCswap: JULb"
+  },
+  {
+    "address": "0xed1c54c593219e154efd50fb89e82c65c328599d",
+    "nameTag": "BSCswap: JULb-BUSD"
+  },
+  {
+    "address": "0x3f50c0f02254ed28e23e1941a32090a0396377d1",
+    "nameTag": "BSCswap: KING"
+  },
+  {
+    "address": "0x59cbae9ebce329d3d71a1d9239ee7b1077c54aaf",
+    "nameTag": "BSCswap: KING-BSWAP"
+  },
+  {
+    "address": "0xc32cbbfad0811061fb2bb0bc977caf2440cd202e",
+    "nameTag": "BSCswap: KKC"
+  },
+  {
+    "address": "0xcc4c03ee30365ad9ecc81edc46f31a072a08cf7b",
+    "nameTag": "BSCswap: KOGE"
+  },
+  {
+    "address": "0x9f4d0bc3b29204eb23ba542b3e33c6e1f386dd0f",
+    "nameTag": "BSCswap: KOGE-BUSD"
+  },
+  {
+    "address": "0xb3432633e5315776e3a6cf77edb99b8c6da9393e",
+    "nameTag": "BSCswap: KOR"
+  },
+  {
+    "address": "0xb3bfbd68771696c773d58000ae7f4c2225b3a383",
+    "nameTag": "BSCswap: KOR-BUSD"
+  },
+  {
+    "address": "0x0590a75d60f42ebe7f6c016786fb993172329658",
+    "nameTag": "BSCswap: KP3R"
+  },
+  {
+    "address": "0xa76616e20374fb46c464220bebebbffe22aa3cde",
+    "nameTag": "BSCswap: KP3RB"
+  },
+  {
+    "address": "0x4bc2cab346ed6b778ccc7674a21d09f7e1d3c1e3",
+    "nameTag": "BSCswap: KP3RB-BSWAP"
+  },
+  {
+    "address": "0xe6a6a379f939b69c0d41303b85588295407ce992",
+    "nameTag": "BSCswap: KP3RB-DEGEN"
+  },
+  {
+    "address": "0xb3265af0e8e80e3580f6f02c2343d3831575c252",
+    "nameTag": "BSCswap: KRN"
+  },
+  {
+    "address": "0x12bccf40d1cfd6dd3682d88dd07e110144b1cda0",
+    "nameTag": "BSCswap: KURDO"
+  },
+  {
+    "address": "0xf07b3dc3bcb5493268f85d79f6f71a96e97cff8b",
+    "nameTag": "BSCswap: LAVA"
+  },
+  {
+    "address": "0xa7756b8abb57983867d516c10fe3c6a0fecbb320",
+    "nameTag": "BSCswap: LDS"
+  },
+  {
+    "address": "0xf6972fa6fd3c85fe002998312633a3f90b3a1a7f",
+    "nameTag": "BSCswap: LETSB-BUSD"
+  },
+  {
+    "address": "0xee5048609de821864071bc4b3b8c0e513c2aed30",
+    "nameTag": "BSCswap: LFI"
+  },
+  {
+    "address": "0x506f458fcfd60a49eb688842d49269305392367c",
+    "nameTag": "BSCswap: LFI 2"
+  },
+  {
+    "address": "0xb7524072b721670630d985fcd4cf0e4a57e03452",
+    "nameTag": "BSCswap: LFI-BAI"
+  },
+  {
+    "address": "0x93c770b0bb185c480d45dc754b214b2c7b1bb797",
+    "nameTag": "BSCswap: LFI-BIFI"
+  },
+  {
+    "address": "0x63b625bb1c20cc9fe8aa721ee6876110fb96ffd0",
+    "nameTag": "BSCswap: LFI-BSWAP"
+  },
+  {
+    "address": "0x27b2133ab4244d78bc051b9a2dd9b200141bdf70",
+    "nameTag": "BSCswap: LFI-BSWAP 2"
+  },
+  {
+    "address": "0xa5bd1e1429dfc8784ebff2f2fe75fd5283efdf29",
+    "nameTag": "BSCswap: LFI-BUSD"
+  },
+  {
+    "address": "0x1edc4447b7bea55d30905fc82524d4ee6d5db280",
+    "nameTag": "BSCswap: LFI-FROG"
+  },
+  {
+    "address": "0x0f99f41fce464a1dbc55c74bd3700f8120700dbd",
+    "nameTag": "BSCswap: LFX"
+  },
+  {
+    "address": "0x9fb1a2826c62b7a1b1e996fbdf221ffe70796d45",
+    "nameTag": "BSCswap: LIM"
+  },
+  {
+    "address": "0x77950fb3c601292054d433dcf24ee880cebf322c",
+    "nameTag": "BSCswap: LINK"
+  },
+  {
+    "address": "0xde81db848eb61d5189f3b9d83c7fc140547a4129",
+    "nameTag": "BSCswap: LMT"
+  },
+  {
+    "address": "0x27d491e54a915146baee053d6929fc9e8aefbcc5",
+    "nameTag": "BSCswap: LNA"
+  },
+  {
+    "address": "0x28f2f960971b7a97b67a83d4932c73afb3ec2aea",
+    "nameTag": "BSCswap: Love"
+  },
+  {
+    "address": "0xa34cd3dab8947995aedc766ef766174eb39b8138",
+    "nameTag": "BSCswap: LSB"
+  },
+  {
+    "address": "0xfc79185dd06517b635381d6d6ea78fca8302ed0e",
+    "nameTag": "BSCswap: LTC"
+  },
+  {
+    "address": "0x9e57e86a0147a91f8246abc93e84ceb21e4b5abd",
+    "nameTag": "BSCswap: LTC-USDT"
+  },
+  {
+    "address": "0x80fefadd48c08785daed38903f0d138d8b60687c",
+    "nameTag": "BSCswap: LTRT"
+  },
+  {
+    "address": "0xc78e20d5614589cd51926f6d602554d66e9d17f7",
+    "nameTag": "BSCswap: LUCHOW"
+  },
+  {
+    "address": "0xc3257c173b1475702e45048e4304ff28ce7f8207",
+    "nameTag": "BSCswap: MANC"
+  },
+  {
+    "address": "0x9d6af5ee257d400d9e09abf6f6790f312600a507",
+    "nameTag": "BSCswap: MANGO"
+  },
+  {
+    "address": "0xdbb9c2f105ed338799561611647946e9ee1e9d9d",
+    "nameTag": "BSCswap: MANGO-BTCB"
+  },
+  {
+    "address": "0xefdd942f7322d0ab091241cfadcd883485021e77",
+    "nameTag": "BSCswap: MANGO-BUSD"
+  },
+  {
+    "address": "0x478cd7b7d16cdc6920bde874751b1c737c0a25fa",
+    "nameTag": "BSCswap: MARS"
+  },
+  {
+    "address": "0x91e7d2d4c6158f24a20e505309b47c0e73f2217d",
+    "nameTag": "BSCswap: MARS 2"
+  },
+  {
+    "address": "0x658c30f10e42cfca612af8a1c6fd64a8a4d61790",
+    "nameTag": "BSCswap: MARS 3"
+  },
+  {
+    "address": "0x30e903a5c6ea33dee36e3f60e6679cfeff4a7bc7",
+    "nameTag": "BSCswap: Mastercard.Inc(NYSE)MA"
+  },
+  {
+    "address": "0x35ffe227326d3553766a44a9190f5108758ebb07",
+    "nameTag": "BSCswap: MBEP"
+  },
+  {
+    "address": "0x517f06c59d4e2eab554bf9d885777becd5157093",
+    "nameTag": "BSCswap: MCAPER"
+  },
+  {
+    "address": "0x5b56c8ace11a7afb723feb2f001ae2d90e937347",
+    "nameTag": "BSCswap: MEGRA"
+  },
+  {
+    "address": "0x53b625083a342c517aef3eb10223e522d3a66cfa",
+    "nameTag": "BSCswap: MEGRA-BSC-USD"
+  },
+  {
+    "address": "0x88b6368c5a4b83efc9e01a833f2d0eb511b8dd42",
+    "nameTag": "BSCswap: MER"
+  },
+  {
+    "address": "0x114febd714ba475a78224d1dbc089d3a5ba47f47",
+    "nameTag": "BSCswap: MERK"
+  },
+  {
+    "address": "0x27a130b6aa131e4714771136edf1c5e81f6a7746",
+    "nameTag": "BSCswap: METAVC-BSC-USD"
+  },
+  {
+    "address": "0xd1b25bec94852f765d74731b77f26a197604fccb",
+    "nameTag": "BSCswap: METAVC-BUSD"
+  },
+  {
+    "address": "0x1c95ad10e4892921d89baf13bc81a5f72a2ec3a5",
+    "nameTag": "BSCswap: MFI"
+  },
+  {
+    "address": "0x8bdda1a7bf88e280d25fa473f549b97c3b6fbf49",
+    "nameTag": "BSCswap: MFI-BUSD"
+  },
+  {
+    "address": "0xcfca87687c0fe5698e181b9acb7b3f1e9a9876ab",
+    "nameTag": "BSCswap: MGC"
+  },
+  {
+    "address": "0x6330c052e35f23ad219ad9afbaddf53a68f2b2b2",
+    "nameTag": "BSCswap: MILK"
+  },
+  {
+    "address": "0x525b322ba6eba3a69f432a2aab33e9497e8c0577",
+    "nameTag": "BSCswap: MILK-BUSD"
+  },
+  {
+    "address": "0x10c4c35e3207206d5e363960a6f037643db1cfe2",
+    "nameTag": "BSCswap: MIOT"
+  },
+  {
+    "address": "0xc9cde9e376a5cab8ebc5f68706c70fe1228d041c",
+    "nameTag": "BSCswap: MJACK"
+  },
+  {
+    "address": "0xc26e5dd39c31b204a6a24a98cc8b036914340237",
+    "nameTag": "BSCswap: MKN"
+  },
+  {
+    "address": "0x6cd511d5121ee2dd7c903a23edc6ad30a716519e",
+    "nameTag": "BSCswap: MKN-BSC-USD"
+  },
+  {
+    "address": "0x68e52abb2045c669055d18bbdcb502866512ec59",
+    "nameTag": "BSCswap: MNR"
+  },
+  {
+    "address": "0x6109cee326d69ad985126a95f6e84c14007c346a",
+    "nameTag": "BSCswap: MONI"
+  },
+  {
+    "address": "0x885bd735543389fc6046f09ca802dd0ec728de14",
+    "nameTag": "BSCswap: MOON"
+  },
+  {
+    "address": "0x14807ca0875506c2029a70099aa874792793c96d",
+    "nameTag": "BSCswap: MOON-BHC"
+  },
+  {
+    "address": "0x6f77930d1d9a4169424373217e398ebce478fe08",
+    "nameTag": "BSCswap: MOON-BSWAP"
+  },
+  {
+    "address": "0xc82c749e3fd95ecd9428228379b7710743e92db6",
+    "nameTag": "BSCswap: MOON-BUSD"
+  },
+  {
+    "address": "0x4c66abc954bba1d585762cf22b2c546bbf3b9441",
+    "nameTag": "BSCswap: MSX"
+  },
+  {
+    "address": "0x7c9de7a46e7408411981945330e754a0d2bd5b7b",
+    "nameTag": "BSCswap: MZI"
+  },
+  {
+    "address": "0x2b965ba55721c28bbcbc5d7e3463614eedb3a108",
+    "nameTag": "BSCswap: MZIT"
+  },
+  {
+    "address": "0x18423deac0d9dc48e550a2baab2a5d12c6dce00a",
+    "nameTag": "BSCswap: NAR"
+  },
+  {
+    "address": "0x1b189e764d57bed29f1283584dc802400194c71e",
+    "nameTag": "BSCswap: NAV"
+  },
+  {
+    "address": "0xbb5cf54c606027878b02ce64b7f047b4969c0c3e",
+    "nameTag": "BSCswap: NCT"
+  },
+  {
+    "address": "0x7cf38acce1422e5165349f6597e70047027d5837",
+    "nameTag": "BSCswap: NEW"
+  },
+  {
+    "address": "0x80c235afaa5f2af4b231a64e7d21ea9df0331d2f",
+    "nameTag": "BSCswap: NFT"
+  },
+  {
+    "address": "0x5bf649aa55bfe0a3365012dc6f53553fb4d399c7",
+    "nameTag": "BSCswap: NFT-BFI"
+  },
+  {
+    "address": "0xcdb5902499e856478dc5130779ba89408ffe3523",
+    "nameTag": "BSCswap: NGAIA"
+  },
+  {
+    "address": "0x1d23a56f0152478d3797d112e023c3c6ca054c16",
+    "nameTag": "BSCswap: NIUB"
+  },
+  {
+    "address": "0x337352b266630b352d13dc0126d88f4be3e66346",
+    "nameTag": "BSCswap: NKR"
+  },
+  {
+    "address": "0x0a9312ccdc2099ec8e648b4fb9d131e5bc9c3cd8",
+    "nameTag": "BSCswap: NOODLE"
+  },
+  {
+    "address": "0x38e59aed5922436311e17944d460f91cb34a7ce5",
+    "nameTag": "BSCswap: NOODLE 2"
+  },
+  {
+    "address": "0x491a4a72e4c0376459f4a7a1ce00f1efdf73f422",
+    "nameTag": "BSCswap: NRFX"
+  },
+  {
+    "address": "0x409c15bbdb32b979a0c800f701a7d2198400f2a5",
+    "nameTag": "BSCswap: NSP-BUSD-T"
+  },
+  {
+    "address": "0x8d0803d5b42646686279407d1822518e639ba718",
+    "nameTag": "BSCswap: NTQ"
+  },
+  {
+    "address": "0x3700a572ed6f8b4709826f73c4932ea2c323cf7e",
+    "nameTag": "BSCswap: NTQ 2"
+  },
+  {
+    "address": "0x5e34ccb24c621a4a6881725c06b942b7d7c0650c",
+    "nameTag": "BSCswap: NUT"
+  },
+  {
+    "address": "0x808e04ed1352a505eb5a377c4a22015656eb2e37",
+    "nameTag": "BSCswap: NWO"
+  },
+  {
+    "address": "0x4b6bcd0526f4ee8a67652422a3191ade2abc1b72",
+    "nameTag": "BSCswap: NYT-BUSD"
+  },
+  {
+    "address": "0x3583eefc9e14e7090ea47a43e9803a8ed7644340",
+    "nameTag": "BSCswap: OCT"
+  },
+  {
+    "address": "0xbe3b3194410dcc94a692e9a2e7bcb3746e37b99d",
+    "nameTag": "BSCswap: OGC"
+  },
+  {
+    "address": "0xb8a2ac17e81a1eb66ee95b509d371a4b85fddfd3",
+    "nameTag": "BSCswap: OIL"
+  },
+  {
+    "address": "0x4596f24c3685539c4a9fe00c602bf463fb8322a3",
+    "nameTag": "BSCswap: OLC"
+  },
+  {
+    "address": "0xf957f7957bfafaaee6b2ad72c2eef8a2dd6a6bde",
+    "nameTag": "BSCswap: ONO"
+  },
+  {
+    "address": "0xaee534bbae9c8650f8354202ec36d3bb36defb1d",
+    "nameTag": "BSCswap: ONT"
+  },
+  {
+    "address": "0x5cc4fb0ba1ebbda8352aab610e1837ead5544829",
+    "nameTag": "BSCswap: PASS"
+  },
+  {
+    "address": "0xd6210662036da8c339781e957c22bfbd870a8b89",
+    "nameTag": "BSCswap: PBANK"
+  },
+  {
+    "address": "0x8c3799179a3bd76ffacee1c31db18b3efd81a5f9",
+    "nameTag": "BSCswap: PBNB"
+  },
+  {
+    "address": "0xb5f7c732b0b1ebe72c558f484f702b1723b75936",
+    "nameTag": "BSCswap: PBNB-BUSD"
+  },
+  {
+    "address": "0x5be424ccbf0105beac548ca536cc11b77c78d9d6",
+    "nameTag": "BSCswap: PBNB-PBTC"
+  },
+  {
+    "address": "0x1968b5a6cbd7eaf220005485445211edb0a01813",
+    "nameTag": "BSCswap: PBNB-PETH"
+  },
+  {
+    "address": "0xcdcfe5387b7902db00bee7aab15054550cadf624",
+    "nameTag": "BSCswap: PBNB-PUSD"
+  },
+  {
+    "address": "0x4bcd7e327ed2696bec2cbab612a810505a5a74be",
+    "nameTag": "BSCswap: PBNB-PUSH"
+  },
+  {
+    "address": "0xffd17561c8904a3449698962f4594261e704b168",
+    "nameTag": "BSCswap: PBOM"
+  },
+  {
+    "address": "0xb97361bb0cfc5062122e19ed88dc9ec30f99e8ec",
+    "nameTag": "BSCswap: PBS"
+  },
+  {
+    "address": "0x92841ea920e0a8247bda2af551beed993a277347",
+    "nameTag": "BSCswap: PBTC"
+  },
+  {
+    "address": "0x56779d2b811ab0f580e35c04b8a507d24640514c",
+    "nameTag": "BSCswap: PBTC-PETH"
+  },
+  {
+    "address": "0x795406b068b0cf7c27458d52e42d20e864c01133",
+    "nameTag": "BSCswap: PBTC-PUSD"
+  },
+  {
+    "address": "0x387209b4633d8fbbaebba699494cd5e61ae19930",
+    "nameTag": "BSCswap: PEACH"
+  },
+  {
+    "address": "0xe17dc8499b546128b7af99555b476d513e7717bd",
+    "nameTag": "BSCswap: PEACH-BUSD"
+  },
+  {
+    "address": "0x1e96c6d41a210f741ccc8d47d6838ee9f1a09bdd",
+    "nameTag": "BSCswap: Peggle"
+  },
+  {
+    "address": "0xb8a0b321e6599249be071030eae2da1a094a80d1",
+    "nameTag": "BSCswap: PET"
+  },
+  {
+    "address": "0xf83a83d4c6b01644026120b536663e04370acd84",
+    "nameTag": "BSCswap: PETH-PUSD"
+  },
+  {
+    "address": "0x5e8535221f84da69ce39783c40ec332730755f6c",
+    "nameTag": "BSCswap: PETS"
+  },
+  {
+    "address": "0x809d08dcb5ac629068d52d2daf636d596c1d6e8d",
+    "nameTag": "BSCswap: PHO"
+  },
+  {
+    "address": "0xaceec0dc05582657e81d1f039a3b25cf84913df8",
+    "nameTag": "BSCswap: PHO-BUSD"
+  },
+  {
+    "address": "0x0667bdc431836778f6e8ff25b56d65eeacda5d1b",
+    "nameTag": "BSCswap: PigBoss"
+  },
+  {
+    "address": "0xd44f06d7002fa67b29c076fb1b7480178eb87c7e",
+    "nameTag": "BSCswap: pik"
+  },
+  {
+    "address": "0x9ade5ffbfb79d04e62b735aa98e10c8095c03188",
+    "nameTag": "BSCswap: PILO"
+  },
+  {
+    "address": "0x3de33261c5f5a04cc58e9fa3b99001a1006a075d",
+    "nameTag": "BSCswap: PIZ"
+  },
+  {
+    "address": "0xd4a96069d91bed61c27964ced301749e1c2e22a8",
+    "nameTag": "BSCswap: PLC"
+  },
+  {
+    "address": "0xf0ced6019b0ae9cbbe0e8aef244f71400fccc448",
+    "nameTag": "BSCswap: PLNT"
+  },
+  {
+    "address": "0x6d5cfba386312a93d13be3e195a4af569aa3511a",
+    "nameTag": "BSCswap: PLNT 2"
+  },
+  {
+    "address": "0x12456d05536f6554a737d5493f9a41d56a14dd2b",
+    "nameTag": "BSCswap: PLS"
+  },
+  {
+    "address": "0xe71b93dd975303ee09f04a7bb47fbb2a963523cf",
+    "nameTag": "BSCswap: POOL"
+  },
+  {
+    "address": "0x75770e2a14de54a3be4cc4e3e69858ead554edcf",
+    "nameTag": "BSCswap: PRE"
+  },
+  {
+    "address": "0xbe66a1229c9072e60be706097f5c916faa21cbcb",
+    "nameTag": "BSCswap: PROPEL"
+  },
+  {
+    "address": "0xccce135fc63dbf68ee36070a671fc2fde72505d1",
+    "nameTag": "BSCswap: PROPEL-BUSD"
+  },
+  {
+    "address": "0x5ff6cef0127b0288586e4b1574de3cec36311945",
+    "nameTag": "BSCswap: PROPEL-SANTA"
+  },
+  {
+    "address": "0x5b40956bb1080a92447a40e5f58f70d490914847",
+    "nameTag": "BSCswap: PRUL-BUSD"
+  },
+  {
+    "address": "0x9afdb8313115abab81bdd6de2479316c06428ab6",
+    "nameTag": "BSCswap: PTTP"
+  },
+  {
+    "address": "0x1d5d2cd4b3c4c3a905aedddbdbeee443b2be05c5",
+    "nameTag": "BSCswap: PTTP-BUSD"
+  },
+  {
+    "address": "0x76ab40a1f9542b27a2b12879e03135194316f808",
+    "nameTag": "BSCswap: PUB30"
+  },
+  {
+    "address": "0x30f21c44a1e79fb9866d8e3b0b9a0e520a424a31",
+    "nameTag": "BSCswap: PUMK"
+  },
+  {
+    "address": "0xba0a4e568ce567579db38a8088e3cc12b959eaa7",
+    "nameTag": "BSCswap: PUMK-BUSD"
+  },
+  {
+    "address": "0x20537d6c2737f0012b5aabe710f04a62d9e8ec83",
+    "nameTag": "BSCswap: PUMP"
+  },
+  {
+    "address": "0x5ebe41246933d5e375cdd312d3cd6799aa61321a",
+    "nameTag": "BSCswap: PUNK"
+  },
+  {
+    "address": "0x2300d0b5ebac36da65d0cc42276c59ecd385e503",
+    "nameTag": "BSCswap: PUSD"
+  },
+  {
+    "address": "0x6de02949f45b1e2cb3e77b33c2ea5211ef8a4d07",
+    "nameTag": "BSCswap: PUSH"
+  },
+  {
+    "address": "0xc097eea6b994f973b71d1078a8b7329db8f77854",
+    "nameTag": "BSCswap: PUSH-BUSD"
+  },
+  {
+    "address": "0xdae9b0f6e997b08819ca8ed8f6312e0ba6246c88",
+    "nameTag": "BSCswap: PUSH-PBTC"
+  },
+  {
+    "address": "0xcf63c01658433090939b4825632ecd83e67ca58a",
+    "nameTag": "BSCswap: PUSH-PETH"
+  },
+  {
+    "address": "0x706bd12fc310c652685136e6132b6e09f15daf7e",
+    "nameTag": "BSCswap: PUSH-PUSD"
+  },
+  {
+    "address": "0x022e51a020c2603ad4501244353f197a62101573",
+    "nameTag": "BSCswap: PYBS"
+  },
+  {
+    "address": "0x63dde6c120154d77fdb624d7a0098b6e221e7ac8",
+    "nameTag": "BSCswap: PYF"
+  },
+  {
+    "address": "0x15a41ec2a9258ba140351ef17b15415cece324f2",
+    "nameTag": "BSCswap: PYF-PUSH"
+  },
+  {
+    "address": "0x7ec32ac6f60f615d3ef180d4901a2713366d99c8",
+    "nameTag": "BSCswap: Q1W7X"
+  },
+  {
+    "address": "0xda421549d5ff7e1aa01eae34bf3728a740c33877",
+    "nameTag": "BSCswap: QAA"
+  },
+  {
+    "address": "0xe0b0706863d840a354d2f509f232457dc1b96c06",
+    "nameTag": "BSCswap: QTBC"
+  },
+  {
+    "address": "0x00c9c62c7dea113e081e4310d0985570946313b7",
+    "nameTag": "BSCswap: RAB"
+  },
+  {
+    "address": "0x52a8b75112c91b916fa2f8f2a1d4662be984d3ed",
+    "nameTag": "BSCswap: RABBIT"
+  },
+  {
+    "address": "0x1661605b5fee263d6021e2f4b88bf214d73631fa",
+    "nameTag": "BSCswap: RABBIT 2"
+  },
+  {
+    "address": "0x82e816d7765f6c7bd3b673fdd66953738e916cf7",
+    "nameTag": "BSCswap: RABBIT-BSWAP"
+  },
+  {
+    "address": "0x089f392781815dd30f04860dc78c6cd8a0f51677",
+    "nameTag": "BSCswap: RABBIT-BUSD"
+  },
+  {
+    "address": "0xa2ceac3a22fe229a3b0c6baa9a75418f40838df5",
+    "nameTag": "BSCswap: RABBIT-MOON"
+  },
+  {
+    "address": "0x942149a7d1e52767ff755a348c41279a50cb4cdb",
+    "nameTag": "BSCswap: Radium"
+  },
+  {
+    "address": "0xa601768bf0cf3481abd328517b2cc5013476f3bb",
+    "nameTag": "BSCswap: RAINBOW"
+  },
+  {
+    "address": "0x49242c52dc6553da8a59d4e134cab47ae082add4",
+    "nameTag": "BSCswap: rBHC"
+  },
+  {
+    "address": "0x498e3c3ceb88fe266a91f1396d22e2efdc2bbdeb",
+    "nameTag": "BSCswap: RBS-Royal.Bank.of.Scotland"
+  },
+  {
+    "address": "0xcf8369e48038db52b58df754ede0a2ca25fc6fb4",
+    "nameTag": "BSCswap: RBT"
+  },
+  {
+    "address": "0xc41e51ec283c7f45ac5a6e28b653f82cdd60c05d",
+    "nameTag": "BSCswap: RCK"
+  },
+  {
+    "address": "0x56fc219be98079f1e9564c1f16669f6761e4a97b",
+    "nameTag": "BSCswap: RCT"
+  },
+  {
+    "address": "0xb9895a1669329d4209d735c42fb106b9df0948e8",
+    "nameTag": "BSCswap: RDC"
+  },
+  {
+    "address": "0xd052b0d694b27826a9c94efffa6c52b08a4d3e1f",
+    "nameTag": "BSCswap: rDEGEN"
+  },
+  {
+    "address": "0x009fd4fc87c64131a6ddf34c1a23d4a94cbd148e",
+    "nameTag": "BSCswap: REAU"
+  },
+  {
+    "address": "0x894640027f2359e5fdad1535da4e13dc64f2816e",
+    "nameTag": "BSCswap: REEF"
+  },
+  {
+    "address": "0x0e981a83705ab0a285fb61bcb9e300281586e1b3",
+    "nameTag": "BSCswap: RFIBSC"
+  },
+  {
+    "address": "0x591dc15b28285f867886adaa314aff527e7bdd08",
+    "nameTag": "BSCswap: RFIBSC-BORGDAI"
+  },
+  {
+    "address": "0x9aa52a4c5cf6f6757f84b8547573245b696bd234",
+    "nameTag": "BSCswap: RGT"
+  },
+  {
+    "address": "0x3e16c72e31b24b710ce4c236123cc42e2efb9c85",
+    "nameTag": "BSCswap: rMOON"
+  },
+  {
+    "address": "0x725c300d31036e0d445569a13e355932648a310b",
+    "nameTag": "BSCswap: RMX"
+  },
+  {
+    "address": "0xecee35b2531bbe0e307d220a072220dd08af09c9",
+    "nameTag": "BSCswap: RNL"
+  },
+  {
+    "address": "0x00a004d4d2e6d960d872cee3af03531e103864d7",
+    "nameTag": "BSCswap: ROMS"
+  },
+  {
+    "address": "0x9c5e7dd5f594772e9bb721a69045313a5d2ee207",
+    "nameTag": "BSCswap: ROYAN"
+  },
+  {
+    "address": "0xca5fdbf6604384e1ca020f388c2c6583e295bfd5",
+    "nameTag": "BSCswap: RPC"
+  },
+  {
+    "address": "0xbf87a3bc84147fe08ff51ea28b6805cf3df43622",
+    "nameTag": "BSCswap: RUG_OCT15"
+  },
+  {
+    "address": "0x8d6faa3fc68a49889d863bf9a55efbfc6224c579",
+    "nameTag": "BSCswap: S-GOLD"
+  },
+  {
+    "address": "0xd9a11da36d58f8bd6f62e399aa1686e59a107826",
+    "nameTag": "BSCswap: SAFU"
+  },
+  {
+    "address": "0x960c25bbee1549b29c5224cb8568d057cbde578d",
+    "nameTag": "BSCswap: SAFU-BNX"
+  },
+  {
+    "address": "0x6d61d063310956ba6922dcb30fdaa9eb9d91ac7b",
+    "nameTag": "BSCswap: SAFU-BUSD"
+  },
+  {
+    "address": "0x1b33bd7947c1181916b6fc3892cb7f1f08299f3b",
+    "nameTag": "BSCswap: SAFU-FUNDS"
+  },
+  {
+    "address": "0x30bdcb397a3922b6c990b32cc53667b11bdfc6a5",
+    "nameTag": "BSCswap: SAGRADA"
+  },
+  {
+    "address": "0xa2c4ac9059a4f0be8620e9b0618b250f9a609bee",
+    "nameTag": "BSCswap: SAMOS"
+  },
+  {
+    "address": "0xf58a0db8b580aeb850aee2d15f38aaddb05977ef",
+    "nameTag": "BSCswap: SANTA"
+  },
+  {
+    "address": "0xcb0fcd54a1539cb0376d620fae884d903164601c",
+    "nameTag": "BSCswap: SANTA-BSWAP"
+  },
+  {
+    "address": "0xc42207496c243ed801be56aacabfa9c5c6880fa3",
+    "nameTag": "BSCswap: SANTA-BUSD"
+  },
+  {
+    "address": "0x7cf4def7ccaab0108b6e14228cf37d1208ae4f65",
+    "nameTag": "BSCswap: SANTA-INNBC"
+  },
+  {
+    "address": "0x94d614e01ade8dcc3e587d7febdabfe4bea61eef",
+    "nameTag": "BSCswap: SANTA-SPARTA"
+  },
+  {
+    "address": "0xe3ab5f1482fce3d65fa021ba4be61e5e02ddba0c",
+    "nameTag": "BSCswap: Saturn"
+  },
+  {
+    "address": "0x1eabd92fc8240fe6298302e96e606a36d09b7c2c",
+    "nameTag": "BSCswap: Saturn-BUSD"
+  },
+  {
+    "address": "0x83742cffbf8ca6479344f678f0de7b5a349c3180",
+    "nameTag": "BSCswap: SCAM"
+  },
+  {
+    "address": "0x285d9aae5f197ac71aa435c68a168be6c1e1d1ce",
+    "nameTag": "BSCswap: SCAM-BFI"
+  },
+  {
+    "address": "0xd4ebc03569df2ceae91ed89bb34a1cb63acc5e49",
+    "nameTag": "BSCswap: SCAM-BSW"
+  },
+  {
+    "address": "0x34caccd34f61b3abe3f636cfb03ed66325936505",
+    "nameTag": "BSCswap: SCAM-BSWAP"
+  },
+  {
+    "address": "0x4bd3bf15303879e81058e043f71ca3d0b4ccfde3",
+    "nameTag": "BSCswap: SCAM-EARTH"
+  },
+  {
+    "address": "0xc5677a00f7bab94b50c678dc8ea5e333e86865e3",
+    "nameTag": "BSCswap: SCAM-LFI"
+  },
+  {
+    "address": "0x0ccd5ce9611a8e7c07549e45e3b7c9bb1f67e02b",
+    "nameTag": "BSCswap: SCAM-LTC"
+  },
+  {
+    "address": "0x2bc499810fde11e752993a4589d06fb7601dfb55",
+    "nameTag": "BSCswap: SFXT"
+  },
+  {
+    "address": "0x36f2a4ddd0d00f1457667991cc3332b6765b906a",
+    "nameTag": "BSCswap: SGTK"
+  },
+  {
+    "address": "0xb8a11c3a208afb1f688e257d685e82568fc4052a",
+    "nameTag": "BSCswap: SHH"
+  },
+  {
+    "address": "0xe1e4c4ff200ed8874f6ea40bb4627eda2ce2f34b",
+    "nameTag": "BSCswap: SHIBAPAY"
+  },
+  {
+    "address": "0xdb9d76a8e71ebbb9912b4cd290c466330941a71b",
+    "nameTag": "BSCswap: ShinBSC"
+  },
+  {
+    "address": "0x4660b0556302cda06ece0de457c7a67f5f172e8a",
+    "nameTag": "BSCswap: SHREE2"
+  },
+  {
+    "address": "0x03d129b55f650a24ead430b478c059a8c7147d17",
+    "nameTag": "BSCswap: SNEED"
+  },
+  {
+    "address": "0xc7470414215b3d7a7272889ece1c3125f2cf7043",
+    "nameTag": "BSCswap: SNTK"
+  },
+  {
+    "address": "0x291fdc9c3c18ccef6eaa053833efc1bea78efc73",
+    "nameTag": "BSCswap: SOMA"
+  },
+  {
+    "address": "0x836c56e31a2644db352aeb7b02be2cfcb3a932bb",
+    "nameTag": "BSCswap: SOUL"
+  },
+  {
+    "address": "0x27c5b858807d42d7a835cfe6c00b8fe217947023",
+    "nameTag": "BSCswap: SOUL-BUSD"
+  },
+  {
+    "address": "0xdb740f15629d07086b13fab14e49a674721199ff",
+    "nameTag": "BSCswap: SOUL-USDT"
+  },
+  {
+    "address": "0x7270fd3bfe698db8be63b9e63c28fa0bcb3aed8c",
+    "nameTag": "BSCswap: SPARTA"
+  },
+  {
+    "address": "0x3afe0b02bbb29ad00bcc476520890984249384fa",
+    "nameTag": "BSCswap: SPARTA-ANY"
+  },
+  {
+    "address": "0x1d1421bfdaf334ed9d3e6672ee9cabd60f45c912",
+    "nameTag": "BSCswap: SPARTA-BUSD"
+  },
+  {
+    "address": "0x10b4b83b224d6e620e87fbc020ca52a035ecd3ce",
+    "nameTag": "BSCswap: SPONGS"
+  },
+  {
+    "address": "0x7105c1a7bcbe1b2d116d730c08ebe744e0ea9365",
+    "nameTag": "BSCswap: SPRAY"
+  },
+  {
+    "address": "0x1eadc91d43ffd1c4c34c33431b38aa5e3fd7cc07",
+    "nameTag": "BSCswap: Star"
+  },
+  {
+    "address": "0xf4a3677bb79aa22ef826763bd910ed886820ad81",
+    "nameTag": "BSCswap: STASI"
+  },
+  {
+    "address": "0x7ee465055f7fb726ba1e9b45d14b31efcb791a73",
+    "nameTag": "BSCswap: STM"
+  },
+  {
+    "address": "0x93324e72f28e7d5fc3847c63113aed5bad6aa2b9",
+    "nameTag": "BSCswap: STORM"
+  },
+  {
+    "address": "0x64b0366ba79fbec70adb2fad2798aadf08468b15",
+    "nameTag": "BSCswap: STR"
+  },
+  {
+    "address": "0x5f988dcf8ad7bf3cd59e2084c96b9800ee74fce0",
+    "nameTag": "BSCswap: STS"
+  },
+  {
+    "address": "0x88aac97d94c17c599f0f0c935485ce9dab5680be",
+    "nameTag": "BSCswap: SUIB"
+  },
+  {
+    "address": "0x323ed98df49de9cb4f1edf959461e03b61638d8b",
+    "nameTag": "BSCswap: SUS"
+  },
+  {
+    "address": "0x28615292d99b8763648aa53bc039d10d3f805fa2",
+    "nameTag": "BSCswap: SWGb"
+  },
+  {
+    "address": "0x6cd368c355a675f431c6924aa5f4323a37a7983f",
+    "nameTag": "BSCswap: SXP"
+  },
+  {
+    "address": "0xad02f90abf8abda052c5f0c1d3e9eb6fc859d865",
+    "nameTag": "BSCswap: SYRUP"
+  },
+  {
+    "address": "0x8c075cb1b9a57109b64693b64bb5138a36d8cbb6",
+    "nameTag": "BSCswap: SYRUP-BAKE"
+  },
+  {
+    "address": "0x121a301322e0d21114aea4a5e04c442b7b0e7a5a",
+    "nameTag": "BSCswap: SYRUP-BFI"
+  },
+  {
+    "address": "0x64f7522dd9e48df758b88f2549ff3ec88ec404dc",
+    "nameTag": "BSCswap: SYRUP-Cake"
+  },
+  {
+    "address": "0x8c58cf55b0d6f7b8db8423f1a3716bc66dfa00a0",
+    "nameTag": "BSCswap: SYRUP-ETH"
+  },
+  {
+    "address": "0xb27b94a83fdf0b5d2c17a845891a708c6aa92b1d",
+    "nameTag": "BSCswap: SYRUP-INNBC"
+  },
+  {
+    "address": "0xf80987e1fcb987be5cda8f0b67b59b9f305740d6",
+    "nameTag": "BSCswap: TANGPING"
+  },
+  {
+    "address": "0x2d467d103253391bcce1334fbec15c435039d3c8",
+    "nameTag": "BSCswap: TAUP"
+  },
+  {
+    "address": "0x2dbd6dec03e6b34a481cc47c66da27138549134c",
+    "nameTag": "BSCswap: TAXI"
+  },
+  {
+    "address": "0x6e022fdb58a3e05dc16648022b4505d560298ac6",
+    "nameTag": "BSCswap: TC"
+  },
+  {
+    "address": "0xbe026eca4059c2205a86deb82b097adbf612bd0c",
+    "nameTag": "BSCswap: TCORE"
+  },
+  {
+    "address": "0xc6925e505a644add84e62ea1dbdc26c515a1f49a",
+    "nameTag": "BSCswap: TCY"
+  },
+  {
+    "address": "0x5df21244eeec399b837cd686b754e21c470d40e2",
+    "nameTag": "BSCswap: Terk-BUSD"
+  },
+  {
+    "address": "0xdeb7f424f8b7ae62032810ba992bfae04f564e11",
+    "nameTag": "BSCswap: TES"
+  },
+  {
+    "address": "0xb70f57f66e6343f9d9089a50b3267d0b14f945ad",
+    "nameTag": "BSCswap: Tesla.Inc(NASDAQ)TSLA"
+  },
+  {
+    "address": "0x18c8a1cf45fdfd1645171c0101bcb1a3d50b4be8",
+    "nameTag": "BSCswap: test"
+  },
+  {
+    "address": "0xa51c7efa8b58d63a877467ef57cc7223cf8cd471",
+    "nameTag": "BSCswap: TestBSC"
+  },
+  {
+    "address": "0x913d0f0974a713c9989cdf9afe25aafeb9fb3c96",
+    "nameTag": "BSCswap: Th"
+  },
+  {
+    "address": "0xd9702f1179534d937096c8fec8c2c3e6c47d8f5e",
+    "nameTag": "BSCswap: THA"
+  },
+  {
+    "address": "0x8ece9d6d1ec1ea218614628191fd561ac0016a1f",
+    "nameTag": "BSCswap: THOR"
+  },
+  {
+    "address": "0x71c1b6302c7f9c49ee3e675224b22cde34ab5ac7",
+    "nameTag": "BSCswap: THUGS"
+  },
+  {
+    "address": "0x1596e30c9525aafd2e96662397084fb4ed23200f",
+    "nameTag": "BSCswap: THUGS-ANY"
+  },
+  {
+    "address": "0x3436655c0305b5ae5e0149b0c0d85d412ee55808",
+    "nameTag": "BSCswap: THUGS-BUSD"
+  },
+  {
+    "address": "0x74023b8037009af8f59f0ff55e31814be32ca3c2",
+    "nameTag": "BSCswap: THUNDER"
+  },
+  {
+    "address": "0x41e565d729d895c576b923d79533ca5866ac2594",
+    "nameTag": "BSCswap: TITANO"
+  },
+  {
+    "address": "0x89c9ae77be9e37fcc8a81d9600c8896e9ff17277",
+    "nameTag": "BSCswap: TOK"
+  },
+  {
+    "address": "0x9e6bee4cb286601f9f16712929499dfd51ac4f79",
+    "nameTag": "BSCswap: TOK-BUSD"
+  },
+  {
+    "address": "0x884a3a649cac4024a1295d840c5d0e4fe8a150ae",
+    "nameTag": "BSCswap: TOZ"
+  },
+  {
+    "address": "0xddca72aad919fa67c8814c3ffe050d305ad4d9cc",
+    "nameTag": "BSCswap: trhm"
+  },
+  {
+    "address": "0x412cab9a0e18b97f6061e3587f86c2f9568ed35e",
+    "nameTag": "BSCswap: TRUMP"
+  },
+  {
+    "address": "0xbf41ceac8b9ca0bdeb5a284453a03c38316f8b2d",
+    "nameTag": "BSCswap: TTNT"
+  },
+  {
+    "address": "0x9f68575fa36875487ce4f082d1cc96ab01b3251f",
+    "nameTag": "BSCswap: TUNA"
+  },
+  {
+    "address": "0xd10c6de8f7ecefb728358d4745e829919080e809",
+    "nameTag": "BSCswap: TUNA-BUSD"
+  },
+  {
+    "address": "0x8364ef37238ee5d2b11da0bb2b622646e0f24a9b",
+    "nameTag": "BSCswap: TWT"
+  },
+  {
+    "address": "0x90451d6394ce6a84dbcc6833d8f30f51c6db295d",
+    "nameTag": "BSCswap: TWT-BTCB"
+  },
+  {
+    "address": "0x1da55e7640a5e74604f3179dd025691abb1806e5",
+    "nameTag": "BSCswap: TWT-BUSD"
+  },
+  {
+    "address": "0xfa287c6cd20747564741ed65fb2bac88082fddff",
+    "nameTag": "BSCswap: TWT-DEGEN"
+  },
+  {
+    "address": "0x20c8dc1636d81358c79f9e23cc7df2e552a5b61b",
+    "nameTag": "BSCswap: TWT-SANTA"
+  },
+  {
+    "address": "0x9e780278c59b317e43c91cab507437c2b2083173",
+    "nameTag": "BSCswap: TWT-USDT"
+  },
+  {
+    "address": "0x8e69e230090cfd75d977c1af3eb144c73719afd0",
+    "nameTag": "BSCswap: UBEC-LP-BSWAP"
+  },
+  {
+    "address": "0xde11a9293a585a97b5389c31a89fea036a0e9479",
+    "nameTag": "BSCswap: UNFI"
+  },
+  {
+    "address": "0x76de4620e6a9d0999f9919bfda79ffa4c12ad43a",
+    "nameTag": "BSCswap: UnionPay银联International"
+  },
+  {
+    "address": "0x5cd3952edfb983b47d6cef49a22bd24998d41e61",
+    "nameTag": "BSCswap: USD-T-BAI"
+  },
+  {
+    "address": "0x12e048d01535e2b49675d22078f64fd2307d8a0c",
+    "nameTag": "BSCswap: USDT"
+  },
+  {
+    "address": "0x674fa471f6e2f94c1ff6afd3b5a38aea9928fb37",
+    "nameTag": "BSCswap: USDT 2"
+  },
+  {
+    "address": "0xd37d0776b2914acaf6e8b30a323242685262d491",
+    "nameTag": "BSCswap: USDT-ANKR"
+  },
+  {
+    "address": "0x4a85e2a27f6558e257e05766f07f480291767d0b",
+    "nameTag": "BSCswap: USDT-BAKE"
+  },
+  {
+    "address": "0x09f0a9e0b6580478f845537a3994720e906c5e10",
+    "nameTag": "BSCswap: USDT-BAND"
+  },
+  {
+    "address": "0xea7b0806b1d03c1bb00e402217066bca797a1d36",
+    "nameTag": "BSCswap: USDT-BCH"
+  },
+  {
+    "address": "0x8cfd267504e5ffc66d0b6ac24ca2f93e9450573c",
+    "nameTag": "BSCswap: USDT-BHC"
+  },
+  {
+    "address": "0x94d8174e88dafeeefb4be83f315e151bcdc4761d",
+    "nameTag": "BSCswap: USDT-BSWAP"
+  },
+  {
+    "address": "0xca23840322f69324219290ad08e03d5997ab6ef9",
+    "nameTag": "BSCswap: USDT-BTCB"
+  },
+  {
+    "address": "0xe0a781751e856227e445dfdc443b83070a17c486",
+    "nameTag": "BSCswap: USDT-BTCB 2"
+  },
+  {
+    "address": "0x045a663a018c124d3f509558ba2c205f11612d86",
+    "nameTag": "BSCswap: USDT-BURGER"
+  },
+  {
+    "address": "0xf68fd424597e6c872d46241fb745167e2c380063",
+    "nameTag": "BSCswap: USDT-BUSD"
+  },
+  {
+    "address": "0xaf66e810ad9b20f868d0e78d992aa1282dc363ae",
+    "nameTag": "BSCswap: USDT-DAU"
+  },
+  {
+    "address": "0xe2c38ae7039918315679cee37ae3cfc18b0aaa7c",
+    "nameTag": "BSCswap: USDT-DEGEN"
+  },
+  {
+    "address": "0xde2094b16077c501683eca78c6774b35d111a3e5",
+    "nameTag": "BSCswap: USDT-DEGEN 2"
+  },
+  {
+    "address": "0x99ca151efbb4afa7893ace1e5868f262b86d6420",
+    "nameTag": "BSCswap: USDT-DOT"
+  },
+  {
+    "address": "0x98528f9cba897d38b59a7b50d55e857b1eb112bd",
+    "nameTag": "BSCswap: USDT-DRUGS"
+  },
+  {
+    "address": "0x4461a16c3f3a337ab5576212eb730e5ddee76218",
+    "nameTag": "BSCswap: USDT-EOS"
+  },
+  {
+    "address": "0xd4a542019ed0010fd4fab72484e21a40d9d7464d",
+    "nameTag": "BSCswap: USDT-FOR"
+  },
+  {
+    "address": "0xa926311b9c8a2368582cbf075cd42e23b726b534",
+    "nameTag": "BSCswap: USDT-HOP"
+  },
+  {
+    "address": "0x2a26791d21f4a71bedfa6a39af11735a9e747594",
+    "nameTag": "BSCswap: USDT-LFI"
+  },
+  {
+    "address": "0x6cf43a0f2e00164e7a27990ba857d44baf455b92",
+    "nameTag": "BSCswap: USDT-LINK"
+  },
+  {
+    "address": "0xdab2bf2480a3ea844ba03cf06a3ce454511a81c2",
+    "nameTag": "BSCswap: USDT-MOON"
+  },
+  {
+    "address": "0x3165d635afc6835d8a5b7e28ec79a101c4a599b6",
+    "nameTag": "BSCswap: USDT-ONT"
+  },
+  {
+    "address": "0x6de9731445e6b4000f1c7dd93c5cb649033163a4",
+    "nameTag": "BSCswap: USDT-RABBIT"
+  },
+  {
+    "address": "0x4f41fa071862310993c5d378d49c300138880405",
+    "nameTag": "BSCswap: USDT-RABIT"
+  },
+  {
+    "address": "0x478216c835d4dfafd70f3f9de848f1f649d97492",
+    "nameTag": "BSCswap: USDT-Saturn"
+  },
+  {
+    "address": "0xaf9d62e95c45154eeb9ebbf25b684bb41d6be249",
+    "nameTag": "BSCswap: USDT-STM"
+  },
+  {
+    "address": "0x9f293e779bee35fb5a7dd9851833cf8cbc5754b9",
+    "nameTag": "BSCswap: USDT-THUGS"
+  },
+  {
+    "address": "0x476f0ff325c0f788b3f4bb6fc59139bbf0ae64a7",
+    "nameTag": "BSCswap: USDT-USD"
+  },
+  {
+    "address": "0xefc9707c5537a90d33baa8dffa172cfdb7dddfb8",
+    "nameTag": "BSCswap: USDT-XVS"
+  },
+  {
+    "address": "0xf6f1a8e8cbf695dd776af572ac5a0252449e21ee",
+    "nameTag": "BSCswap: USDT-YFII"
+  },
+  {
+    "address": "0x86ed221495bf8e6c217f77056778c05a91c02627",
+    "nameTag": "BSCswap: USI"
+  },
+  {
+    "address": "0x702e9dd4503d624d2a56e07317899dbeffc757b8",
+    "nameTag": "BSCswap: USSR"
+  },
+  {
+    "address": "0x448dfcb86f9be4cd570378ea8f462333c50b5d29",
+    "nameTag": "BSCswap: VAL"
+  },
+  {
+    "address": "0x92fea78f51188d69661e3f5d2c485e163bf70805",
+    "nameTag": "BSCswap: VEGAS"
+  },
+  {
+    "address": "0x2ffe5aa7955b630cf0ec3df4c35230f137844ad0",
+    "nameTag": "BSCswap: VIDT"
+  },
+  {
+    "address": "0x87ccbd36c015d874dad90ff89a62ed46b14077ed",
+    "nameTag": "BSCswap: VIDT 2"
+  },
+  {
+    "address": "0x994f2c2af48234e5bb983646526cd0545e56e340",
+    "nameTag": "BSCswap: VINT"
+  },
+  {
+    "address": "0x8ce7414e0c397e8d023554dff5dfd7c578a450f5",
+    "nameTag": "BSCswap: virgo"
+  },
+  {
+    "address": "0xee991cfc0c9ebd1016b9e02838d70492f007f2e3",
+    "nameTag": "BSCswap: Visa.Inc(NYSE):V"
+  },
+  {
+    "address": "0x9c79ad77194127148f1a7205c470e47988c0c119",
+    "nameTag": "BSCswap: VNF"
+  },
+  {
+    "address": "0x51c03563fad9a31bde556258d121d2c61ddcb670",
+    "nameTag": "BSCswap: VNF-BUSD"
+  },
+  {
+    "address": "0xc9c1cdb1ad05900d3de6e627a555527eb5b57888",
+    "nameTag": "BSCswap: VNF-SXP"
+  },
+  {
+    "address": "0x189242f118dcc94d811c5c279bc93660390f16b2",
+    "nameTag": "BSCswap: VNF-VGOLD"
+  },
+  {
+    "address": "0x0cf65da40aacaa60ec6d28eac4e778375308af49",
+    "nameTag": "BSCswap: VNF-VPLATİN"
+  },
+  {
+    "address": "0x967d4b2098664f0d0364ee7296b33a5c3bfe2f04",
+    "nameTag": "BSCswap: VNF-VSİLVER"
+  },
+  {
+    "address": "0x980ed1a8e484b70758bff3fbaceed58f81135bf5",
+    "nameTag": "BSCswap: VOOG"
+  },
+  {
+    "address": "0x542f4c999bd62c9592de61ce6d77fcca043dec81",
+    "nameTag": "BSCswap: vPT"
+  },
+  {
+    "address": "0x5a9c8c1a235936c0841a19d8483b7f460c1dc61b",
+    "nameTag": "BSCswap: VTBC"
+  },
+  {
+    "address": "0x3fcf5f223afb7087ef03ae88e0d419296eade8fc",
+    "nameTag": "BSCswap: VYM"
+  },
+  {
+    "address": "0xfb671e2d94635703f66351a50278598e1a1beeb3",
+    "nameTag": "BSCswap: WBTCBR-BTCB"
+  },
+  {
+    "address": "0x7b92e4968adf4379a53e3440e6ccce5a15393168",
+    "nameTag": "BSCswap: WDUCX"
+  },
+  {
+    "address": "0x70bf2378de9e0bec8b3b334415039d7099c8f433",
+    "nameTag": "BSCswap: WEP"
+  },
+  {
+    "address": "0x32ff704b4b5797da29c4710ca8f4e6562656bc98",
+    "nameTag": "BSCswap: whaxzer"
+  },
+  {
+    "address": "0x4da84acb1ffc840e621928bc392058d0da49e387",
+    "nameTag": "BSCswap: Winner"
+  },
+  {
+    "address": "0x185255fa4693f85c0d6931d6cda4b1551dfd1305",
+    "nameTag": "BSCswap: winy"
+  },
+  {
+    "address": "0x81a56300e0bff6dd04680b52f1708fce2bf06d15",
+    "nameTag": "BSCswap: WOWA"
+  },
+  {
+    "address": "0x507f71255f197cd5f1c8ce992b93c299e0fa06d9",
+    "nameTag": "BSCswap: WTGN"
+  },
+  {
+    "address": "0x8825bff0c4a6b79326330feebc9430063ea5a61a",
+    "nameTag": "BSCswap: WZCR"
+  },
+  {
+    "address": "0x4279836f4f76b4a79511790d3cec82ca09f61644",
+    "nameTag": "BSCswap: X3S"
+  },
+  {
+    "address": "0x9a89adc8c7291ea7381784211f02c05543288f9d",
+    "nameTag": "BSCswap: XRP"
+  },
+  {
+    "address": "0x1df63142c9683202e0c3629d26acb207658fa491",
+    "nameTag": "BSCswap: XRP-ADA"
+  },
+  {
+    "address": "0xdecee10982ec752c89850ef45823d62d2c60c4da",
+    "nameTag": "BSCswap: XRP-BSWAP"
+  },
+  {
+    "address": "0x19901349e032fdd1b2681ac3ecdbac4ce96817da",
+    "nameTag": "BSCswap: XRP-USDT"
+  },
+  {
+    "address": "0xc04e7736c9261017a5efe65e42646cbd17ba3a7a",
+    "nameTag": "BSCswap: XTR"
+  },
+  {
+    "address": "0x6ddc011ebc78e9990c0089af07dfbc6067b95e8b",
+    "nameTag": "BSCswap: XTZ"
+  },
+  {
+    "address": "0xf768e122f9e82f87c3ba4d239898611fc9889f84",
+    "nameTag": "BSCswap: XTZ-USDT"
+  },
+  {
+    "address": "0xa052223d255f8c7c2af536249392e38fd6e59589",
+    "nameTag": "BSCswap: XVS"
+  },
+  {
+    "address": "0xf2772f60fe39601cae505d0578c852a7926a36d9",
+    "nameTag": "BSCswap: XVS-BUSD"
+  },
+  {
+    "address": "0xb2e6b0f55141aa6e4fe3c88561573401bac7e9ce",
+    "nameTag": "BSCswap: XXXX-TTTT"
+  },
+  {
+    "address": "0x3064094fd8e31a1c3649326a27e8f64cfe1b1708",
+    "nameTag": "BSCswap: YAHOOFINANCE"
+  },
+  {
+    "address": "0x8972a3c8bd4e9ff88898af0eac88985c0a52f400",
+    "nameTag": "BSCswap: YBNB"
+  },
+  {
+    "address": "0x211936dca76bba217999285c0785d9e5e8f9ee86",
+    "nameTag": "BSCswap: YFAMT"
+  },
+  {
+    "address": "0x7aaca71cc727036d3af7111537811da25aa8d8b2",
+    "nameTag": "BSCswap: YFEU"
+  },
+  {
+    "address": "0x9a70401ae9d2a0c74f8ed3656f55ad625b98ef66",
+    "nameTag": "BSCswap: YFIG"
+  },
+  {
+    "address": "0xb4ed74b660d3472db06c1fef22a964bf54c8651b",
+    "nameTag": "BSCswap: YFII"
+  },
+  {
+    "address": "0x3e6e50b3a2256feb9854887d8b3265074a824c4a",
+    "nameTag": "BSCswap: YIN"
+  },
+  {
+    "address": "0xe1c1a7550b84934901ef7e204c181409576b491b",
+    "nameTag": "BSCswap: YNFI"
+  },
+  {
+    "address": "0xa5ae5b26e72b1811a8c9a65fd6248bb3c5d0bdfa",
+    "nameTag": "BSCswap: YRAB"
+  },
+  {
+    "address": "0xfea7241bdf8117b9a4e08ead6f82925b9d0f2df1",
+    "nameTag": "BSCswap: YUMI"
+  },
+  {
+    "address": "0x05d1952b2a0ddd23475b861f9014092117267346",
+    "nameTag": "BSCswap: ZAN"
+  },
+  {
+    "address": "0x2ea5145ebdee00a87d08104e64d2f589de978b30",
+    "nameTag": "BSCswap: ZBBT"
+  },
+  {
+    "address": "0xda5d4a84588f385ab2325ab09b2907ee507af02c",
+    "nameTag": "BSCswap: ZEBRO"
+  },
+  {
+    "address": "0x852d8b6cfaa53bb9a7a96c64b7537481cb562b82",
+    "nameTag": "BSCswap: ZEC"
+  },
+  {
+    "address": "0xe0bfcf1d9bb2797acb1d47ae085ecbfc4f9f5554",
+    "nameTag": "BSCswap: ZEC-USDT"
+  },
+  {
+    "address": "0xd99b7db75da0ff5dad462707683f6a25b723d89f",
+    "nameTag": "BSCswap: ZHM"
+  },
+  {
+    "address": "0xf2d36a180d45119b0cc4717cf703844bb0880f8a",
+    "nameTag": "BSCswap: ZHM-BUSD"
+  },
+  {
+    "address": "0x7dac8d914172418f3bfdf12e405828925188aac1",
+    "nameTag": "BSCswap: ZUM-ZUMD"
+  },
+  {
+    "address": "0x55cb869204722da9428830e6a05e73e3e9264efd",
+    "nameTag": "BSCswap: ZUMD"
+  },
+  {
+    "address": "0x65b4c293c23d029728e775d167c67b76421871bd",
+    "nameTag": "BSCswap: Сбербанк.SBERBANK"
+  },
+  {
+    "address": "0x4efa21115b860bede61df394f571993466775ef3",
+    "nameTag": "BSCswap: €Euro"
+  },
+  {
+    "address": "0xaeed0c66196fa8c5daef60aa8337264fd08c6437",
+    "nameTag": "BSCswap: ₯"
+  },
+  {
+    "address": "0xbc105340fccf2fc7c487ab025cd7c5498479f054",
+    "nameTag": "BSCswap: ₿itcoin(BTC)"
+  }
+]

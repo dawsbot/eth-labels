@@ -1,9 +1,6 @@
-{
-  "lastPulled": "2024-04-02T20:57:35.225Z",
-  "data": [
-    {
-      "address": "0x0d0707963952f2fba59dd06f2b425ace40b492fe",
-      "nameTag": "Gate.io: Withdrawal Address"
-    }
-  ]
-}
+[
+  {
+    "address": "0x0d070796...e40b492fe",
+    "nameTag": "Gate.io: Withdrawal Address"
+  }
+]

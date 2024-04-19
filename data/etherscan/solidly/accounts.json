@@ -1,77 +1,74 @@
-{
-  "lastPulled": "2024-04-02T20:49:42.154Z",
-  "data": [
-    {
-      "address": "0xfc9e7373109adacd18152cc24658bf8b34ac3dba",
-      "nameTag": "Solidly V3: AI"
-    },
-    {
-      "address": "0x51fdecc9511938674a82a8ba6963448554564a8c",
-      "nameTag": "Solidly V3: BYTE"
-    },
-    {
-      "address": "0x6339962d8b80749ce86d65affc0b2a4290aef42f",
-      "nameTag": "Solidly V3: DEFROGS"
-    },
-    {
-      "address": "0x70fe4a44ea505cfa3a57b95cf2862d4fd5f0f687",
-      "nameTag": "Solidly V3: Factory"
-    },
-    {
-      "address": "0x735bb16affe83a3dc4dc418abccf179617cf9ff2",
-      "nameTag": "Solidly V3: Factory (old)"
-    },
-    {
-      "address": "0xd61ab9b22148a7b09af060b18576d6e220d81356",
-      "nameTag": "Solidly V3: FTM"
-    },
-    {
-      "address": "0x3510e96226894fabc37d1eb0e3122e33791da225",
-      "nameTag": "Solidly V3: LINK"
-    },
-    {
-      "address": "0xe7b55e1e44aacede9a9e8bec29026920f6820807",
-      "nameTag": "Solidly V3: Metis"
-    },
-    {
-      "address": "0xe32511d552e0eedcd32886ba70a89a94b3328f78",
-      "nameTag": "Solidly V3: PANDORA"
-    },
-    {
-      "address": "0x0e1ea51dc94009e05b5001e49cbe0e47dc327238",
-      "nameTag": "Solidly V3: PORK"
-    },
-    {
-      "address": "0x53cce50d77f4e18c8bb633dd1c2fbe99e0fb71be",
-      "nameTag": "Solidly V3: SOLID"
-    },
-    {
-      "address": "0x831bf48183b999fde45294b14b55199072f0801b",
-      "nameTag": "Solidly V3: USDC"
-    },
-    {
-      "address": "0x0fcad8d794e47cdb1ee92fb0f566f8b7a35e4487",
-      "nameTag": "Solidly V3: USDC 2"
-    },
-    {
-      "address": "0x6146be494fee4c73540cb1c5f87536abf1452500",
-      "nameTag": "Solidly V3: USDC-USDT"
-    },
-    {
-      "address": "0x06959e210bbe713cfb91fc479c13205e4e1bfbd5",
-      "nameTag": "Solidly V3: USDT"
-    },
-    {
-      "address": "0x02704ed8b5a8e817f354d59432e115e0d8053394",
-      "nameTag": "Solidly V3: WBTC"
-    },
-    {
-      "address": "0x4370e48e610d2e02d3d091a9d79c8eb9a54c5b1c",
-      "nameTag": "Solidly V3: wstETH"
-    },
-    {
-      "address": "0xc7c537d9b5e15ea5ce735e7e2be78f4f013e846e",
-      "nameTag": "Solidly V3: wstETH-USDC"
-    }
-  ]
-}
+[
+  {
+    "address": "0xfc9e7373109adacd18152cc24658bf8b34ac3dba",
+    "nameTag": "Solidly V3: AI"
+  },
+  {
+    "address": "0x51fdecc9511938674a82a8ba6963448554564a8c",
+    "nameTag": "Solidly V3: BYTE"
+  },
+  {
+    "address": "0x6339962d8b80749ce86d65affc0b2a4290aef42f",
+    "nameTag": "Solidly V3: DEFROGS"
+  },
+  {
+    "address": "0x70fe4a44ea505cfa3a57b95cf2862d4fd5f0f687",
+    "nameTag": "Solidly V3: Factory"
+  },
+  {
+    "address": "0x735bb16affe83a3dc4dc418abccf179617cf9ff2",
+    "nameTag": "Solidly V3: Factory (old)"
+  },
+  {
+    "address": "0xd61ab9b22148a7b09af060b18576d6e220d81356",
+    "nameTag": "Solidly V3: FTM"
+  },
+  {
+    "address": "0x3510e96226894fabc37d1eb0e3122e33791da225",
+    "nameTag": "Solidly V3: LINK"
+  },
+  {
+    "address": "0xe7b55e1e44aacede9a9e8bec29026920f6820807",
+    "nameTag": "Solidly V3: Metis"
+  },
+  {
+    "address": "0xe32511d552e0eedcd32886ba70a89a94b3328f78",
+    "nameTag": "Solidly V3: PANDORA"
+  },
+  {
+    "address": "0x0e1ea51dc94009e05b5001e49cbe0e47dc327238",
+    "nameTag": "Solidly V3: PORK"
+  },
+  {
+    "address": "0x53cce50d77f4e18c8bb633dd1c2fbe99e0fb71be",
+    "nameTag": "Solidly V3: SOLID"
+  },
+  {
+    "address": "0x831bf48183b999fde45294b14b55199072f0801b",
+    "nameTag": "Solidly V3: USDC"
+  },
+  {
+    "address": "0x0fcad8d794e47cdb1ee92fb0f566f8b7a35e4487",
+    "nameTag": "Solidly V3: USDC 2"
+  },
+  {
+    "address": "0x6146be494fee4c73540cb1c5f87536abf1452500",
+    "nameTag": "Solidly V3: USDC-USDT"
+  },
+  {
+    "address": "0x06959e210bbe713cfb91fc479c13205e4e1bfbd5",
+    "nameTag": "Solidly V3: USDT"
+  },
+  {
+    "address": "0x02704ed8b5a8e817f354d59432e115e0d8053394",
+    "nameTag": "Solidly V3: WBTC"
+  },
+  {
+    "address": "0x4370e48e610d2e02d3d091a9d79c8eb9a54c5b1c",
+    "nameTag": "Solidly V3: wstETH"
+  },
+  {
+    "address": "0xc7c537d9b5e15ea5ce735e7e2be78f4f013e846e",
+    "nameTag": "Solidly V3: wstETH-USDC"
+  }
+]

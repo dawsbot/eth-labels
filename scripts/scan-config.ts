@@ -43,4 +43,12 @@ export const scanConfig = {
     website: "https://celoscan.io",
     htmlParser: new CeloScanParser(),
   },
+  linea: {
+    website: "https://lineascan.build/",
+    htmlParser: new ArbiscanHtmlParser(),
+  },
+  scroll: {
+    website: "https://scrollscan.com",
+    htmlParser: new ArbiscanHtmlParser(),
+  },
 } as const;

@@ -1,13 +1,5 @@
-{
-  "lastPulled": "2024-04-02T20:57:27.571Z",
-  "data": [
-    {
-      "address": "0xacd03d601e5bb1b275bb94076ff46ed9d753435a",
-      "nameTag": "Binance 1"
-    },
-    {
-      "address": "0x72a53cdbbcc1b9efa39c834a540550e23463aacb",
-      "nameTag": "Crypto.com"
-    }
-  ]
-}
+[
+  { "address": "0xacd03d60...9d753435a", "nameTag": "Binance 1" },
+  { "address": "0xd839c179...7593ae249", "nameTag": "Coinbase 15" },
+  { "address": "0x72a53cdb...23463aacb", "nameTag": "Crypto.com" }
+]

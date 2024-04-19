@@ -1,438 +1,419 @@
-{
-  "lastPulled": "2024-04-03T06:29:38.952Z",
-  "length": 108,
-  "data": [
-    {
-      "address": "0x277be44551a8c4d4004e2091ff7d3f69be21782f",
-      "nameTag": ""
-    },
-    {
-      "address": "0x54261774905f3e6e9718f2abb10ed6555cae308a",
-      "nameTag": ""
-    },
-    {
-      "address": "0x9611579c926294b0e29e5371a81a3e463650be17",
-      "nameTag": ""
-    },
-    {
-      "address": "0xc417b45e6090bd4201d9400b48f84c9f34f4d0a5",
-      "nameTag": ""
-    },
-    {
-      "address": "0xf4a71809fd0d5715a9685caadb6f0d8beafdf8af",
-      "nameTag": ""
-    },
-    {
-      "address": "0x976e33b07565b0c05b08b2e13affd3113e3d178d",
-      "nameTag": "Anyswap: AGA Token"
-    },
-    {
-      "address": "0x4ec16da4c9007462de151c0da9f5426c69978a7b",
-      "nameTag": "Anyswap: AGAr Token"
-    },
-    {
-      "address": "0xe7b91602ce96a537cb729f484b8ddb3c1fecbb45",
-      "nameTag": "Anyswap: ALICE Token"
-    },
-    {
-      "address": "0xf68c9df95a18b2a5a5fa1124d79eeeffbad0b6fa",
-      "nameTag": "Anyswap: ANY Token"
-    },
-    {
-      "address": "0x2ede13880e11b19b7d6113a86ac7ac84ac651042",
-      "nameTag": "Anyswap: anyCOMP Token"
-    },
-    {
-      "address": "0x1dc56f2705ff2983f31fb5964cc3e19749a7cba7",
-      "nameTag": "Anyswap: AnyDAI Token"
-    },
-    {
-      "address": "0x6f817a0ce8f7640add3bc0c1c2298635043c2423",
-      "nameTag": "Anyswap: anyETH Token"
-    },
-    {
-      "address": "0x4f6318e97011fe21fdfce3ffcf868d44e5f6994a",
-      "nameTag": "Anyswap: anyFSN Token"
-    },
-    {
-      "address": "0x232d9a35f3e0bfa1b34901cba525fe916d2af6d5",
-      "nameTag": "Anyswap: anyHT Token"
-    },
-    {
-      "address": "0x3af577f9d8c86ae8dbcbf51fe9836c9df825759d",
-      "nameTag": "Anyswap: anyLINK Token"
-    },
-    {
-      "address": "0x2cd598b0513abdb52bdd92a1ab4670fc4578570f",
-      "nameTag": "Anyswap: anyLTC Token"
-    },
-    {
-      "address": "0x5921dee8556c4593eefcfad3ca5e2f618606483b",
-      "nameTag": "Anyswap: anyMTLX Token"
-    },
-    {
-      "address": "0xe6358c1d7a91915abba46d9855bd6418898fc091",
-      "nameTag": "Anyswap: anyOMG Token"
-    },
-    {
-      "address": "0xb46d67fb63770052a07d5b7c14ed858a8c90f825",
-      "nameTag": "Anyswap: anyUSDT Token"
-    },
-    {
-      "address": "0x9883ae441105f815b472517389b979f031b5c87e",
-      "nameTag": "Anyswap: anyYFI Token"
-    },
-    {
-      "address": "0x7b2223aa112c08356b10e4675ce32724a10fac51",
-      "nameTag": "Anyswap: ARMOR Token"
-    },
-    {
-      "address": "0x0aaef3db5d2847b231468658001c278ee892b7e8",
-      "nameTag": "Anyswap: BAB Token"
-    },
-    {
-      "address": "0x83085138ed8a96ec0cbd2013ddfe1ebb975940cc",
-      "nameTag": "Anyswap: BAC Token"
-    },
-    {
-      "address": "0x753fbc5800a8c8e3fb6dc6415810d627a387dfc9",
-      "nameTag": "Anyswap: BADGER Token"
-    },
-    {
-      "address": "0x47eaf5f54d79d5c2b6537a90a0c58a534ab51c8c",
-      "nameTag": "Anyswap: BAO Token"
-    },
-    {
-      "address": "0x5e23bea955bc322f2894d94faceca744bb5c3cf9",
-      "nameTag": "Anyswap: BASv2 Token"
-    },
-    {
-      "address": "0x1f7216fdb338247512ec99715587bb97bbf96eae",
-      "nameTag": "Anyswap: bBadger Token"
-    },
-    {
-      "address": "0x5986d5c77c65e5801a5caa4fae80089f870a71da",
-      "nameTag": "Anyswap: bDIGG Token"
-    },
-    {
-      "address": "0x84c882a4d8eb448ce086ea19418ca0f32f106117",
-      "nameTag": "Anyswap: BFC Token"
-    },
-    {
-      "address": "0xad260f380c9a30b1d60e4548a75010ede630b665",
-      "nameTag": "Anyswap: BiFi Token"
-    },
-    {
-      "address": "0x518445f0db93863e5e93a7f70617c05afa8048f1",
-      "nameTag": "Anyswap: BITT Token"
-    },
-    {
-      "address": "0x56fb3fd352e5875c6f2771ca86f3fd361cc0d93e",
-      "nameTag": "Anyswap: BITX Token"
-    },
-    {
-      "address": "0xded6a27debe293d373bc4bfed4ae8d70fbc80001",
-      "nameTag": "Anyswap: BOOST Token"
-    },
-    {
-      "address": "0x6a545f9c64d8f7b957d8d2e6410b52095a9e6c29",
-      "nameTag": "Anyswap: CFI Token"
-    },
-    {
-      "address": "0x021750e46a47b2a02f4f860c93dcc774b1aba1d5",
-      "nameTag": "Anyswap: CHART Token"
-    },
-    {
-      "address": "0x2e8fd877cc691eda244fdfe000c91b22a498ab3f",
-      "nameTag": "Anyswap: CTSI Token"
-    },
-    {
-      "address": "0x4028433877f9c14764eb93d0bb6570573da2726f",
-      "nameTag": "Anyswap: CYC Token"
-    },
-    {
-      "address": "0x1fe5b870bca201db77bc0a8573fdebc35ee7a114",
-      "nameTag": "Anyswap: DEC Token"
-    },
-    {
-      "address": "0xc325bd4c437a9a78eb8de486b5321253e650cf0d",
-      "nameTag": "Anyswap: DEGEN Token"
-    },
-    {
-      "address": "0x930a7f05c5e38eaf90493325f8106806969fcbdf",
-      "nameTag": "Anyswap: Deployer 3"
-    },
-    {
-      "address": "0x13b432914a996b0a48695df9b2d701eda45ff264",
-      "nameTag": "Anyswap: Deployer 4"
-    },
-    {
-      "address": "0x9899a98b222fcb2f3dbee7df45d943093a4ff9ff",
-      "nameTag": "Anyswap: DFD Token"
-    },
-    {
-      "address": "0xe1e66e037dc20247c2fabda5ec89c911e68724e7",
-      "nameTag": "Anyswap: DFX Token"
-    },
-    {
-      "address": "0x08f6fe8f4dc577cf81e40e03e561d29b8b33e19b",
-      "nameTag": "Anyswap: DIGG Token"
-    },
-    {
-      "address": "0xab671ea900a8e3c959f5bd29ceb5e370ba75bb9e",
-      "nameTag": "Anyswap: DPI Token"
-    },
-    {
-      "address": "0xfa850eca95c34aa7dcd4213868ead3ec8927416f",
-      "nameTag": "Anyswap: DRGN Token"
-    },
-    {
-      "address": "0xac118686565af7393b0843587d483cbded9c3baf",
-      "nameTag": "Anyswap: EDDA Token"
-    },
-    {
-      "address": "0x564bef31ec942ffe1bff250786f76a5c5141b9f3",
-      "nameTag": "Anyswap: eQUAD Token"
-    },
-    {
-      "address": "0x43fbbe7a5397117b3da58722635832ba60905285",
-      "nameTag": "Anyswap: eRSDL Token"
-    },
-    {
-      "address": "0x72449ed79841981b19d4552861007a63da3963fe",
-      "nameTag": "Anyswap: ETHIX Token"
-    },
-    {
-      "address": "0x245d3238cbbe03f9b8e1bff4709d1ebdf22ced4b",
-      "nameTag": "Anyswap: FEG Token"
-    },
-    {
-      "address": "0x6bb751a8cabe31a60b56ba6bc162c33cfc3917af",
-      "nameTag": "Anyswap: FNX Token"
-    },
-    {
-      "address": "0xde2f075f6f14eb9d96755b24e416a53e736ca363",
-      "nameTag": "Anyswap: FXS Token"
-    },
-    {
-      "address": "0x7dd300a2d3f881f44b33c96fb751746e9a0175a8",
-      "nameTag": "Anyswap: GDAO Token"
-    },
-    {
-      "address": "0x794f976c12b2616fa2af3f38a73d3b61fbf68661",
-      "nameTag": "Anyswap: HGET Token"
-    },
-    {
-      "address": "0x9e0846677ea91ea5308d3f525c09e782ef17da21",
-      "nameTag": "Anyswap: KIF Token"
-    },
-    {
-      "address": "0xacbaf478216fbb2eb3607ec2c1a6b5d434bded2f",
-      "nameTag": "Anyswap: KOBE Token"
-    },
-    {
-      "address": "0x9179089a11feddc9411236b63c8aeb25eb45e2ac",
-      "nameTag": "Anyswap: LIEN Token"
-    },
-    {
-      "address": "0xcfb24d3c3767364391340a2e6d99c64f1cbd7a3d",
-      "nameTag": "Anyswap: LPOOL Token"
-    },
-    {
-      "address": "0xf5c8054efc6acd25f31a17963462b90e82fdecad",
-      "nameTag": "Anyswap: MDA Token"
-    },
-    {
-      "address": "0x37bdfd6ed491ee0e0fe2ce49de2cb573880e3734",
-      "nameTag": "Anyswap: MFI Token"
-    },
-    {
-      "address": "0x8ad96050318043166114884b59e2fc82210273b3",
-      "nameTag": "Anyswap: NEX Token"
-    },
-    {
-      "address": "0x1a6990fcce4fe96be417d48f60b7ea5cc329de80",
-      "nameTag": "Anyswap: NIF Token"
-    },
-    {
-      "address": "0xeaf26191ac1d35ae30baa19a5ad5558dd8156aef",
-      "nameTag": "Anyswap: NORD Token"
-    },
-    {
-      "address": "0x3516141b1ac8751c2042a8a1bc411ab8655464ac",
-      "nameTag": "Anyswap: OCEAN Protocol"
-    },
-    {
-      "address": "0x63a3d28bb9187809553dd16981c73f498b6b2687",
-      "nameTag": "Anyswap: OKExchain Bridge"
-    },
-    {
-      "address": "0xee88c8c7d02bce62c472dcd68a746bbe2ef07189",
-      "nameTag": "Anyswap: Old HYVE Token"
-    },
-    {
-      "address": "0xebd49b26169e1b52c04cfd19fcf289405df55f80",
-      "nameTag": "Anyswap: ORBS Token"
-    },
-    {
-      "address": "0x749fec660a245f8b4c3b9bbc8a1ebf1c22863c8e",
-      "nameTag": "Anyswap: PARETO Token"
-    },
-    {
-      "address": "0xe9b9c1c38dab5eab3b7e2ad295425e89bd8db066",
-      "nameTag": "Anyswap: PCNT Token"
-    },
-    {
-      "address": "0xce57283ce0e7446364e0bc479b5de5d74b5e0ffc",
-      "nameTag": "Anyswap: PKG Token"
-    },
-    {
-      "address": "0x6ab899f7c0a1bd4e9cab0501683ae90db34be1ce",
-      "nameTag": "Anyswap: PPBLZ Token"
-    },
-    {
-      "address": "0x3758428802fbeab2858d58aec5ff5176df464edd",
-      "nameTag": "Anyswap: PPDEX Token"
-    },
-    {
-      "address": "0x58a746553fff813f4301bc5605aaafc487b5328b",
-      "nameTag": "Anyswap: RAZOR Token"
-    },
-    {
-      "address": "0xc56406efdea74e00207e4026617e8a888376404e",
-      "nameTag": "Anyswap: ROOBEE Token"
-    },
-    {
-      "address": "0x18ac7323615f1fabf332ff4afca735eaf6dd9668",
-      "nameTag": "Anyswap: SOAR Token"
-    },
-    {
-      "address": "0x62334d3c6f48891deed7324abd0a3dcb23305f77",
-      "nameTag": "Anyswap: SPDR Token"
-    },
-    {
-      "address": "0x04068da6c83afcfa0e13ba15a6696662335d5b75",
-      "nameTag": "Anyswap: STAKE Token"
-    },
-    {
-      "address": "0x2c961ff9b386b597abc58a56f3ec63e313cada76",
-      "nameTag": "Anyswap: SUKU Token"
-    },
-    {
-      "address": "0x51ba0b044d96c3abfca52b64d733603ccc4f0d4d",
-      "nameTag": "Anyswap: SUPER Token"
-    },
-    {
-      "address": "0x84151755679590d3c79347315c5dbeff031f1b98",
-      "nameTag": "Anyswap: SUTER Token"
-    },
-    {
-      "address": "0xb614ad939e9477d5103baa32164db901214e2625",
-      "nameTag": "Anyswap: TFT Token"
-    },
-    {
-      "address": "0x148e03bee63200414aa68d52b1fed6c9b4defa2a",
-      "nameTag": "Anyswap: TRYb Token"
-    },
-    {
-      "address": "0xd185c16756873b907df064bd7b4815839de4e6b9",
-      "nameTag": "Anyswap: UNISTAKE Token"
-    },
-    {
-      "address": "0xf48fbc59e6b45cff26a7608ff7d5a22ebc40df7f",
-      "nameTag": "Anyswap: UNN Token"
-    },
-    {
-      "address": "0x91a22f94ee917efc8f804e251f385cbeb1c6d6bc",
-      "nameTag": "Anyswap: WAIF Token"
-    },
-    {
-      "address": "0xa86bfc69c99d04552808b425a68a06430fb9bddf",
-      "nameTag": "Anyswap: WSCRT Token"
-    },
-    {
-      "address": "0x5621b5a3f4a8008c4ccdd1b942b121c8b1944f1f",
-      "nameTag": "Anyswap: XED Token"
-    },
-    {
-      "address": "0x4a080377f83d669d7bb83b3184a8a5e61b500608",
-      "nameTag": "Anyswap: XEND Token"
-    },
-    {
-      "address": "0x99889048584c710b3a2383e322dd3841e2c77d34",
-      "nameTag": "Anyswap: XIV Token"
-    },
-    {
-      "address": "0x2442afe6cf6958bf6a026bce5d9c6cc07e03a6c9",
-      "nameTag": "Anyswap: YFLINK Token"
-    },
-    {
-      "address": "0x96058f8c3e16576d9bd68766f3836d9a33158f89",
-      "nameTag": "Bondly: BONDLY Token"
-    },
-    {
-      "address": "0x4b5c23cac08a567ecf0c1ffca8372a45a5d33743",
-      "nameTag": "Harvest Finance: FARM Token"
-    },
-    {
-      "address": "0xc10ef9f491c9b59f936957026020c321651ac078",
-      "nameTag": "Multichain: anyCall V6"
-    },
-    {
-      "address": "0x1282911d3600b202698997f61f46379db3b9f01e",
-      "nameTag": "Multichain: anyDAI Token"
-    },
-    {
-      "address": "0x865109a3eb981b2be9f66cbbc78653ba09e79128",
-      "nameTag": "Multichain: anyPOTS Token"
-    },
-    {
-      "address": "0x54f5a04417e29ff5d7141a6d33cb286f50d5d50e",
-      "nameTag": "Multichain: Anyswap Create2"
-    },
-    {
-      "address": "0x92c079d3155c2722dbf7e65017a5baf9cd15561c",
-      "nameTag": "Multichain: Bridge"
-    },
-    {
-      "address": "0x812764fa37a4fd731a5d39f0e519b6b8d61e82a0",
-      "nameTag": "Multichain: DAO Token"
-    },
-    {
-      "address": "0xfa9da51631268a30ec3ddd1ccbf46c65fad99251",
-      "nameTag": "Multichain: Deployer"
-    },
-    {
-      "address": "0x7e624fa0e1c4abfd309cc15719b7e2580887f570",
-      "nameTag": "Multichain: POLS Token"
-    },
-    {
-      "address": "0xbccff1c6c1ca650f533d3dcc5f4722aae6718337",
-      "nameTag": "Multichain: Router Config"
-    },
-    {
-      "address": "0xd1c5966f9f5ee6881ff6b261bbeda45972b1b5f3",
-      "nameTag": "Multichain: Router V4"
-    },
-    {
-      "address": "0xabd380327fe66724ffda91a87c772fb8d00be488",
-      "nameTag": "Multichain: Router V4 2"
-    },
-    {
-      "address": "0xe1d592c3322f1f714ca11f05b6bc0efef1907859",
-      "nameTag": "Multichain: Router V6"
-    },
-    {
-      "address": "0x400b971099e0ebfda2c03a3063739cb5398734a6",
-      "nameTag": "Multichain: Router V7"
-    },
-    {
-      "address": "0xea8c5b9c537f3ebbcc8f2df0573f2d084e9e2bdb",
-      "nameTag": "Somidax: SMDX Token"
-    },
-    {
-      "address": "0x1f63670f1fac519ec57fca17b986871d6cf7b52f",
-      "nameTag": "Statera: STA Token"
-    }
-  ]
-}
+[
+  { "address": "0x277be44551a8c4d4004e2091ff7d3f69be21782f", "nameTag": "" },
+  { "address": "0x54261774905f3e6e9718f2abb10ed6555cae308a", "nameTag": "" },
+  { "address": "0x9611579c926294b0e29e5371a81a3e463650be17", "nameTag": "" },
+  { "address": "0xc417b45e6090bd4201d9400b48f84c9f34f4d0a5", "nameTag": "" },
+  { "address": "0xf4a71809fd0d5715a9685caadb6f0d8beafdf8af", "nameTag": "" },
+  {
+    "address": "0x976e33b07565b0c05b08b2e13affd3113e3d178d",
+    "nameTag": "Anyswap: AGA Token"
+  },
+  {
+    "address": "0x4ec16da4c9007462de151c0da9f5426c69978a7b",
+    "nameTag": "Anyswap: AGAr Token"
+  },
+  {
+    "address": "0xe7b91602ce96a537cb729f484b8ddb3c1fecbb45",
+    "nameTag": "Anyswap: ALICE Token"
+  },
+  {
+    "address": "0xf68c9df95a18b2a5a5fa1124d79eeeffbad0b6fa",
+    "nameTag": "Anyswap: ANY Token"
+  },
+  {
+    "address": "0x2ede13880e11b19b7d6113a86ac7ac84ac651042",
+    "nameTag": "Anyswap: anyCOMP Token"
+  },
+  {
+    "address": "0x1dc56f2705ff2983f31fb5964cc3e19749a7cba7",
+    "nameTag": "Anyswap: AnyDAI Token"
+  },
+  {
+    "address": "0x6f817a0ce8f7640add3bc0c1c2298635043c2423",
+    "nameTag": "Anyswap: anyETH Token"
+  },
+  {
+    "address": "0x4f6318e97011fe21fdfce3ffcf868d44e5f6994a",
+    "nameTag": "Anyswap: anyFSN Token"
+  },
+  {
+    "address": "0x232d9a35f3e0bfa1b34901cba525fe916d2af6d5",
+    "nameTag": "Anyswap: anyHT Token"
+  },
+  {
+    "address": "0x3af577f9d8c86ae8dbcbf51fe9836c9df825759d",
+    "nameTag": "Anyswap: anyLINK Token"
+  },
+  {
+    "address": "0x2cd598b0513abdb52bdd92a1ab4670fc4578570f",
+    "nameTag": "Anyswap: anyLTC Token"
+  },
+  {
+    "address": "0x5921dee8556c4593eefcfad3ca5e2f618606483b",
+    "nameTag": "Anyswap: anyMTLX Token"
+  },
+  {
+    "address": "0xe6358c1d7a91915abba46d9855bd6418898fc091",
+    "nameTag": "Anyswap: anyOMG Token"
+  },
+  {
+    "address": "0xb46d67fb63770052a07d5b7c14ed858a8c90f825",
+    "nameTag": "Anyswap: anyUSDT Token"
+  },
+  {
+    "address": "0x9883ae441105f815b472517389b979f031b5c87e",
+    "nameTag": "Anyswap: anyYFI Token"
+  },
+  {
+    "address": "0x7b2223aa112c08356b10e4675ce32724a10fac51",
+    "nameTag": "Anyswap: ARMOR Token"
+  },
+  {
+    "address": "0x0aaef3db5d2847b231468658001c278ee892b7e8",
+    "nameTag": "Anyswap: BAB Token"
+  },
+  {
+    "address": "0x83085138ed8a96ec0cbd2013ddfe1ebb975940cc",
+    "nameTag": "Anyswap: BAC Token"
+  },
+  {
+    "address": "0x753fbc5800a8c8e3fb6dc6415810d627a387dfc9",
+    "nameTag": "Anyswap: BADGER Token"
+  },
+  {
+    "address": "0x47eaf5f54d79d5c2b6537a90a0c58a534ab51c8c",
+    "nameTag": "Anyswap: BAO Token"
+  },
+  {
+    "address": "0x5e23bea955bc322f2894d94faceca744bb5c3cf9",
+    "nameTag": "Anyswap: BASv2 Token"
+  },
+  {
+    "address": "0x1f7216fdb338247512ec99715587bb97bbf96eae",
+    "nameTag": "Anyswap: bBadger Token"
+  },
+  {
+    "address": "0x5986d5c77c65e5801a5caa4fae80089f870a71da",
+    "nameTag": "Anyswap: bDIGG Token"
+  },
+  {
+    "address": "0x84c882a4d8eb448ce086ea19418ca0f32f106117",
+    "nameTag": "Anyswap: BFC Token"
+  },
+  {
+    "address": "0xad260f380c9a30b1d60e4548a75010ede630b665",
+    "nameTag": "Anyswap: BiFi Token"
+  },
+  {
+    "address": "0x518445f0db93863e5e93a7f70617c05afa8048f1",
+    "nameTag": "Anyswap: BITT Token"
+  },
+  {
+    "address": "0x56fb3fd352e5875c6f2771ca86f3fd361cc0d93e",
+    "nameTag": "Anyswap: BITX Token"
+  },
+  {
+    "address": "0xded6a27debe293d373bc4bfed4ae8d70fbc80001",
+    "nameTag": "Anyswap: BOOST Token"
+  },
+  {
+    "address": "0x6a545f9c64d8f7b957d8d2e6410b52095a9e6c29",
+    "nameTag": "Anyswap: CFI Token"
+  },
+  {
+    "address": "0x021750e46a47b2a02f4f860c93dcc774b1aba1d5",
+    "nameTag": "Anyswap: CHART Token"
+  },
+  {
+    "address": "0x2e8fd877cc691eda244fdfe000c91b22a498ab3f",
+    "nameTag": "Anyswap: CTSI Token"
+  },
+  {
+    "address": "0x4028433877f9c14764eb93d0bb6570573da2726f",
+    "nameTag": "Anyswap: CYC Token"
+  },
+  {
+    "address": "0x1fe5b870bca201db77bc0a8573fdebc35ee7a114",
+    "nameTag": "Anyswap: DEC Token"
+  },
+  {
+    "address": "0xc325bd4c437a9a78eb8de486b5321253e650cf0d",
+    "nameTag": "Anyswap: DEGEN Token"
+  },
+  {
+    "address": "0x930a7f05c5e38eaf90493325f8106806969fcbdf",
+    "nameTag": "Anyswap: Deployer 3"
+  },
+  {
+    "address": "0x13b432914a996b0a48695df9b2d701eda45ff264",
+    "nameTag": "Anyswap: Deployer 4"
+  },
+  {
+    "address": "0x9899a98b222fcb2f3dbee7df45d943093a4ff9ff",
+    "nameTag": "Anyswap: DFD Token"
+  },
+  {
+    "address": "0xe1e66e037dc20247c2fabda5ec89c911e68724e7",
+    "nameTag": "Anyswap: DFX Token"
+  },
+  {
+    "address": "0x08f6fe8f4dc577cf81e40e03e561d29b8b33e19b",
+    "nameTag": "Anyswap: DIGG Token"
+  },
+  {
+    "address": "0xab671ea900a8e3c959f5bd29ceb5e370ba75bb9e",
+    "nameTag": "Anyswap: DPI Token"
+  },
+  {
+    "address": "0xfa850eca95c34aa7dcd4213868ead3ec8927416f",
+    "nameTag": "Anyswap: DRGN Token"
+  },
+  {
+    "address": "0xac118686565af7393b0843587d483cbded9c3baf",
+    "nameTag": "Anyswap: EDDA Token"
+  },
+  {
+    "address": "0x564bef31ec942ffe1bff250786f76a5c5141b9f3",
+    "nameTag": "Anyswap: eQUAD Token"
+  },
+  {
+    "address": "0x43fbbe7a5397117b3da58722635832ba60905285",
+    "nameTag": "Anyswap: eRSDL Token"
+  },
+  {
+    "address": "0x72449ed79841981b19d4552861007a63da3963fe",
+    "nameTag": "Anyswap: ETHIX Token"
+  },
+  {
+    "address": "0x245d3238cbbe03f9b8e1bff4709d1ebdf22ced4b",
+    "nameTag": "Anyswap: FEG Token"
+  },
+  {
+    "address": "0x6bb751a8cabe31a60b56ba6bc162c33cfc3917af",
+    "nameTag": "Anyswap: FNX Token"
+  },
+  {
+    "address": "0xde2f075f6f14eb9d96755b24e416a53e736ca363",
+    "nameTag": "Anyswap: FXS Token"
+  },
+  {
+    "address": "0x7dd300a2d3f881f44b33c96fb751746e9a0175a8",
+    "nameTag": "Anyswap: GDAO Token"
+  },
+  {
+    "address": "0x794f976c12b2616fa2af3f38a73d3b61fbf68661",
+    "nameTag": "Anyswap: HGET Token"
+  },
+  {
+    "address": "0x9e0846677ea91ea5308d3f525c09e782ef17da21",
+    "nameTag": "Anyswap: KIF Token"
+  },
+  {
+    "address": "0xacbaf478216fbb2eb3607ec2c1a6b5d434bded2f",
+    "nameTag": "Anyswap: KOBE Token"
+  },
+  {
+    "address": "0x9179089a11feddc9411236b63c8aeb25eb45e2ac",
+    "nameTag": "Anyswap: LIEN Token"
+  },
+  {
+    "address": "0xcfb24d3c3767364391340a2e6d99c64f1cbd7a3d",
+    "nameTag": "Anyswap: LPOOL Token"
+  },
+  {
+    "address": "0xf5c8054efc6acd25f31a17963462b90e82fdecad",
+    "nameTag": "Anyswap: MDA Token"
+  },
+  {
+    "address": "0x37bdfd6ed491ee0e0fe2ce49de2cb573880e3734",
+    "nameTag": "Anyswap: MFI Token"
+  },
+  {
+    "address": "0x8ad96050318043166114884b59e2fc82210273b3",
+    "nameTag": "Anyswap: NEX Token"
+  },
+  {
+    "address": "0x1a6990fcce4fe96be417d48f60b7ea5cc329de80",
+    "nameTag": "Anyswap: NIF Token"
+  },
+  {
+    "address": "0xeaf26191ac1d35ae30baa19a5ad5558dd8156aef",
+    "nameTag": "Anyswap: NORD Token"
+  },
+  {
+    "address": "0x3516141b1ac8751c2042a8a1bc411ab8655464ac",
+    "nameTag": "Anyswap: OCEAN Protocol"
+  },
+  {
+    "address": "0x63a3d28bb9187809553dd16981c73f498b6b2687",
+    "nameTag": "Anyswap: OKExchain Bridge"
+  },
+  {
+    "address": "0xee88c8c7d02bce62c472dcd68a746bbe2ef07189",
+    "nameTag": "Anyswap: Old HYVE Token"
+  },
+  {
+    "address": "0xebd49b26169e1b52c04cfd19fcf289405df55f80",
+    "nameTag": "Anyswap: ORBS Token"
+  },
+  {
+    "address": "0x749fec660a245f8b4c3b9bbc8a1ebf1c22863c8e",
+    "nameTag": "Anyswap: PARETO Token"
+  },
+  {
+    "address": "0xe9b9c1c38dab5eab3b7e2ad295425e89bd8db066",
+    "nameTag": "Anyswap: PCNT Token"
+  },
+  {
+    "address": "0xce57283ce0e7446364e0bc479b5de5d74b5e0ffc",
+    "nameTag": "Anyswap: PKG Token"
+  },
+  {
+    "address": "0x6ab899f7c0a1bd4e9cab0501683ae90db34be1ce",
+    "nameTag": "Anyswap: PPBLZ Token"
+  },
+  {
+    "address": "0x3758428802fbeab2858d58aec5ff5176df464edd",
+    "nameTag": "Anyswap: PPDEX Token"
+  },
+  {
+    "address": "0x58a746553fff813f4301bc5605aaafc487b5328b",
+    "nameTag": "Anyswap: RAZOR Token"
+  },
+  {
+    "address": "0xc56406efdea74e00207e4026617e8a888376404e",
+    "nameTag": "Anyswap: ROOBEE Token"
+  },
+  {
+    "address": "0x18ac7323615f1fabf332ff4afca735eaf6dd9668",
+    "nameTag": "Anyswap: SOAR Token"
+  },
+  {
+    "address": "0x62334d3c6f48891deed7324abd0a3dcb23305f77",
+    "nameTag": "Anyswap: SPDR Token"
+  },
+  {
+    "address": "0x04068da6c83afcfa0e13ba15a6696662335d5b75",
+    "nameTag": "Anyswap: STAKE Token"
+  },
+  {
+    "address": "0x2c961ff9b386b597abc58a56f3ec63e313cada76",
+    "nameTag": "Anyswap: SUKU Token"
+  },
+  {
+    "address": "0x51ba0b044d96c3abfca52b64d733603ccc4f0d4d",
+    "nameTag": "Anyswap: SUPER Token"
+  },
+  {
+    "address": "0x84151755679590d3c79347315c5dbeff031f1b98",
+    "nameTag": "Anyswap: SUTER Token"
+  },
+  {
+    "address": "0xb614ad939e9477d5103baa32164db901214e2625",
+    "nameTag": "Anyswap: TFT Token"
+  },
+  {
+    "address": "0x148e03bee63200414aa68d52b1fed6c9b4defa2a",
+    "nameTag": "Anyswap: TRYb Token"
+  },
+  {
+    "address": "0xd185c16756873b907df064bd7b4815839de4e6b9",
+    "nameTag": "Anyswap: UNISTAKE Token"
+  },
+  {
+    "address": "0xf48fbc59e6b45cff26a7608ff7d5a22ebc40df7f",
+    "nameTag": "Anyswap: UNN Token"
+  },
+  {
+    "address": "0x91a22f94ee917efc8f804e251f385cbeb1c6d6bc",
+    "nameTag": "Anyswap: WAIF Token"
+  },
+  {
+    "address": "0xa86bfc69c99d04552808b425a68a06430fb9bddf",
+    "nameTag": "Anyswap: WSCRT Token"
+  },
+  {
+    "address": "0x5621b5a3f4a8008c4ccdd1b942b121c8b1944f1f",
+    "nameTag": "Anyswap: XED Token"
+  },
+  {
+    "address": "0x4a080377f83d669d7bb83b3184a8a5e61b500608",
+    "nameTag": "Anyswap: XEND Token"
+  },
+  {
+    "address": "0x99889048584c710b3a2383e322dd3841e2c77d34",
+    "nameTag": "Anyswap: XIV Token"
+  },
+  {
+    "address": "0x2442afe6cf6958bf6a026bce5d9c6cc07e03a6c9",
+    "nameTag": "Anyswap: YFLINK Token"
+  },
+  {
+    "address": "0x96058f8c3e16576d9bd68766f3836d9a33158f89",
+    "nameTag": "Bondly: BONDLY Token"
+  },
+  {
+    "address": "0x4b5c23cac08a567ecf0c1ffca8372a45a5d33743",
+    "nameTag": "Harvest Finance: FARM Token"
+  },
+  {
+    "address": "0xc10ef9f491c9b59f936957026020c321651ac078",
+    "nameTag": "Multichain: anyCall V6"
+  },
+  {
+    "address": "0x1282911d3600b202698997f61f46379db3b9f01e",
+    "nameTag": "Multichain: anyDAI Token"
+  },
+  {
+    "address": "0x865109a3eb981b2be9f66cbbc78653ba09e79128",
+    "nameTag": "Multichain: anyPOTS Token"
+  },
+  {
+    "address": "0x54f5a04417e29ff5d7141a6d33cb286f50d5d50e",
+    "nameTag": "Multichain: Anyswap Create2"
+  },
+  {
+    "address": "0x92c079d3155c2722dbf7e65017a5baf9cd15561c",
+    "nameTag": "Multichain: Bridge"
+  },
+  {
+    "address": "0x812764fa37a4fd731a5d39f0e519b6b8d61e82a0",
+    "nameTag": "Multichain: DAO Token"
+  },
+  {
+    "address": "0xfa9da51631268a30ec3ddd1ccbf46c65fad99251",
+    "nameTag": "Multichain: Deployer"
+  },
+  {
+    "address": "0x7e624fa0e1c4abfd309cc15719b7e2580887f570",
+    "nameTag": "Multichain: POLS Token"
+  },
+  {
+    "address": "0xbccff1c6c1ca650f533d3dcc5f4722aae6718337",
+    "nameTag": "Multichain: Router Config"
+  },
+  {
+    "address": "0xd1c5966f9f5ee6881ff6b261bbeda45972b1b5f3",
+    "nameTag": "Multichain: Router V4"
+  },
+  {
+    "address": "0xabd380327fe66724ffda91a87c772fb8d00be488",
+    "nameTag": "Multichain: Router V4 2"
+  },
+  {
+    "address": "0xe1d592c3322f1f714ca11f05b6bc0efef1907859",
+    "nameTag": "Multichain: Router V6"
+  },
+  {
+    "address": "0x400b971099e0ebfda2c03a3063739cb5398734a6",
+    "nameTag": "Multichain: Router V7"
+  },
+  {
+    "address": "0xea8c5b9c537f3ebbcc8f2df0573f2d084e9e2bdb",
+    "nameTag": "Somidax: SMDX Token"
+  },
+  {
+    "address": "0x1f63670f1fac519ec57fca17b986871d6cf7b52f",
+    "nameTag": "Statera: STA Token"
+  }
+]

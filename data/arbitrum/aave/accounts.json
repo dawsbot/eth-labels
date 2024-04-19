@@ -1,197 +1,191 @@
-{
-  "lastPulled": "2024-04-02T21:00:28.064Z",
-  "data": [
-    {
-      "address": "0x70effc565db6eef7b927610155602d31b670e802",
-      "nameTag": ""
-    },
-    {
-      "address": "0xff1137243698caa18ee364cc966cf0e02a4e6327",
-      "nameTag": "Aave : Executor Lvl1"
-    },
-    {
-      "address": "0x89644ca1bb8064760312ae4f03ea41b05da3637c",
-      "nameTag": "Aave:  Payloads Controller"
-    },
-    {
-      "address": "0xf329e36c7bf6e5e86ce2150875a84ce77f477375",
-      "nameTag": "Aave: aAAVE Token V3"
-    },
-    {
-      "address": "0xb56c2f0b653b2e0b10c9b928c8580ac5df02c7c7",
-      "nameTag": "Aave: Aave Oracle V3"
-    },
-    {
-      "address": "0xa72636cbcaa8f5ff95b2cc47f3cdee83f3294a0b",
-      "nameTag": "Aave: ACL Manager V3"
-    },
-    {
-      "address": "0x82e64f49ed5ec1bc6e43dad4fc8af9bb3a2312ee",
-      "nameTag": "Aave: aDAI Token V3"
-    },
-    {
-      "address": "0x6d80113e533a2c0fe82eabd35f1875dcea89ea97",
-      "nameTag": "Aave: aEURS Token V3"
-    },
-    {
-      "address": "0x191c10aa4af7c30e871e70c95db0e4eb77237530",
-      "nameTag": "Aave: aLINK Token V3"
-    },
-    {
-      "address": "0x625e7708f30ca75bfd92586e17077590c60eb4cd",
-      "nameTag": "Aave: aUSDC Token V3"
-    },
-    {
-      "address": "0x6ab707aca953edaefbc4fd23ba73294241490620",
-      "nameTag": "Aave: aUSDT Token V3"
-    },
-    {
-      "address": "0x078f358208685046a11c85e8ad32895ded33a249",
-      "nameTag": "Aave: aWBTC Token V3"
-    },
-    {
-      "address": "0xe50fa9b3c56ffb159cb0fca61f5c9d750e8128c8",
-      "nameTag": "Aave: aWETH Token V3"
-    },
-    {
-      "address": "0x8aa68ca9e25aab6f9f41bf341d12ab407ae099e2",
-      "nameTag": "Aave: Fallback Oracle V3"
-    },
-    {
-      "address": "0x929ec64c34a17401f460460d4b9390518e5b473e",
-      "nameTag": "Aave: Incentives V3"
-    },
-    {
-      "address": "0x9abadecd08572e0ea5af4d47a9c7984a5aa503dc",
-      "nameTag": "Aave: L2 Encoder V3"
-    },
-    {
-      "address": "0xae9f94bd98ec2831a1330e0418be0fdb5c95c2b9",
-      "nameTag": "Aave: Paraswap Liquidity Swap Adapter V3"
-    },
-    {
-      "address": "0x32fdc26affa1eb331263bcdd59f2e46ecbcc2e24",
-      "nameTag": "Aave: Paraswap Repay Adapter"
-    },
-    {
-      "address": "0x770ef9f4fe897e59dacc474ef11238303f9552b6",
-      "nameTag": "Aave: Pool Addresses Provider Registry V3"
-    },
-    {
-      "address": "0xa97684ead0e402dc232d5a977953df7ecbab3cdb",
-      "nameTag": "Aave: Pool Addresses Provider V3"
-    },
-    {
-      "address": "0x8145edddf43f50276641b55bd3ad95944510021e",
-      "nameTag": "Aave: Pool Configurator V3"
-    },
-    {
-      "address": "0x69fa688f1dc47d4b5d8029d5a35fb7a548310654",
-      "nameTag": "Aave: Pool Data Provider V3"
-    },
-    {
-      "address": "0x794a61358d6845594f94dc1db02a252b5b4814ad",
-      "nameTag": "Aave: Pool V3"
-    },
-    {
-      "address": "0x2bb52f7779fa2a77be64e199c18bd6437801caac",
-      "nameTag": "Aave: Pull Rewards Transfer Strategy V3"
-    },
-    {
-      "address": "0xfaef6a702d15428e588d4c0614aefb4348d83d48",
-      "nameTag": "Aave: sAAVE Token V3"
-    },
-    {
-      "address": "0xd94112b5b62d53c9402e7a60289c6810def1dc9b",
-      "nameTag": "Aave: sDAI Token V3"
-    },
-    {
-      "address": "0xf15f26710c827dde8acba678682f3ce24f2fb56e",
-      "nameTag": "Aave: sEURS Token V3"
-    },
-    {
-      "address": "0x89d976629b7055ff1ca02b927ba3e020f22a44e4",
-      "nameTag": "Aave: sLINK Token V3"
-    },
-    {
-      "address": "0x307ffe186f84a3bc2613d1ea417a5737d69a7007",
-      "nameTag": "Aave: sUSDC Token V3"
-    },
-    {
-      "address": "0x633b207dd676331c413d4c013a6294b0fe47cd0e",
-      "nameTag": "Aave: sWBTC Token V3"
-    },
-    {
-      "address": "0xd8ad37849950903571df17049516a5cd4cbe55f6",
-      "nameTag": "Aave: sWETH Token V3"
-    },
-    {
-      "address": "0xc3301b30f4ecbfd59de0d74e89690c1a70c6f21b",
-      "nameTag": "Aave: Treasury Controller V3"
-    },
-    {
-      "address": "0x053d55f9b5af8694c503eb288a1b7e552f590710",
-      "nameTag": "Aave: Treasury V3"
-    },
-    {
-      "address": "0xefdd7374551897b11a23ec7b5694c713dfda76f1",
-      "nameTag": "Aave: Ui Incentive Data Provider V3"
-    },
-    {
-      "address": "0x3f960bb91e85ae2db561bdd01b515c5a5c65802b",
-      "nameTag": "Aave: Ui Pool Data Provider V3"
-    },
-    {
-      "address": "0xda67af3403555ce0ae3ffc22fdb7354458277358",
-      "nameTag": "Aave: UiIncentive Data Provider V3"
-    },
-    {
-      "address": "0x145de30c929a065582da84cf96f88460db9745a7",
-      "nameTag": "Aave: UiPool Data Provider V3"
-    },
-    {
-      "address": "0xe80761ea617f66f96274ea5e8c37f03960ecc679",
-      "nameTag": "Aave: vAAVE Token V3"
-    },
-    {
-      "address": "0x8619d80fb0141ba7f184cbf22fd724116d9f7ffc",
-      "nameTag": "Aave: vDAI Token V3"
-    },
-    {
-      "address": "0x4a1c3ad6ed28a636ee1751c69071f6be75deb8b8",
-      "nameTag": "Aave: vEURS Token V3"
-    },
-    {
-      "address": "0x953a573793604af8d41f306feb8274190db4ae0e",
-      "nameTag": "Aave: vLINK Token V3"
-    },
-    {
-      "address": "0xfccf3cabbe80101232d343252614b6a3ee81c989",
-      "nameTag": "Aave: vUSDC Token V3"
-    },
-    {
-      "address": "0xfb00ac187a8eb5afae4eace434f493eb62672df7",
-      "nameTag": "Aave: vUSDT Token V3"
-    },
-    {
-      "address": "0x92b42c66840c7ad907b4bf74879ff3ef7c529473",
-      "nameTag": "Aave: vWBTC Token V3"
-    },
-    {
-      "address": "0x0c84331e39d6658cd6e6b9ba04736cc4c4734351",
-      "nameTag": "Aave: vWETH Token V3"
-    },
-    {
-      "address": "0xbc790382b3686abffe4be14a030a96ac6154023a",
-      "nameTag": "Aave: Wallet Balance Provider V3"
-    },
-    {
-      "address": "0xc09e69e79106861df5d289da88349f10e2dc6b5c",
-      "nameTag": "Aave: WETH Gateway V3"
-    },
-    {
-      "address": "0xb5ee21786d28c5ba61661550879475976b707099",
-      "nameTag": "Aave: Wrapped Token Gateway V3"
-    }
-  ]
-}
+[
+  { "address": "0x70effc565db6eef7b927610155602d31b670e802", "nameTag": "" },
+  {
+    "address": "0xff1137243698caa18ee364cc966cf0e02a4e6327",
+    "nameTag": "Aave : Executor Lvl1"
+  },
+  {
+    "address": "0x89644ca1bb8064760312ae4f03ea41b05da3637c",
+    "nameTag": "Aave:  Payloads Controller"
+  },
+  {
+    "address": "0xf329e36c7bf6e5e86ce2150875a84ce77f477375",
+    "nameTag": "Aave: aAAVE Token V3"
+  },
+  {
+    "address": "0xb56c2f0b653b2e0b10c9b928c8580ac5df02c7c7",
+    "nameTag": "Aave: Aave Oracle V3"
+  },
+  {
+    "address": "0xa72636cbcaa8f5ff95b2cc47f3cdee83f3294a0b",
+    "nameTag": "Aave: ACL Manager V3"
+  },
+  {
+    "address": "0x82e64f49ed5ec1bc6e43dad4fc8af9bb3a2312ee",
+    "nameTag": "Aave: aDAI Token V3"
+  },
+  {
+    "address": "0x6d80113e533a2c0fe82eabd35f1875dcea89ea97",
+    "nameTag": "Aave: aEURS Token V3"
+  },
+  {
+    "address": "0x191c10aa4af7c30e871e70c95db0e4eb77237530",
+    "nameTag": "Aave: aLINK Token V3"
+  },
+  {
+    "address": "0x625e7708f30ca75bfd92586e17077590c60eb4cd",
+    "nameTag": "Aave: aUSDC Token V3"
+  },
+  {
+    "address": "0x6ab707aca953edaefbc4fd23ba73294241490620",
+    "nameTag": "Aave: aUSDT Token V3"
+  },
+  {
+    "address": "0x078f358208685046a11c85e8ad32895ded33a249",
+    "nameTag": "Aave: aWBTC Token V3"
+  },
+  {
+    "address": "0xe50fa9b3c56ffb159cb0fca61f5c9d750e8128c8",
+    "nameTag": "Aave: aWETH Token V3"
+  },
+  {
+    "address": "0x8aa68ca9e25aab6f9f41bf341d12ab407ae099e2",
+    "nameTag": "Aave: Fallback Oracle V3"
+  },
+  {
+    "address": "0x929ec64c34a17401f460460d4b9390518e5b473e",
+    "nameTag": "Aave: Incentives V3"
+  },
+  {
+    "address": "0x9abadecd08572e0ea5af4d47a9c7984a5aa503dc",
+    "nameTag": "Aave: L2 Encoder V3"
+  },
+  {
+    "address": "0xae9f94bd98ec2831a1330e0418be0fdb5c95c2b9",
+    "nameTag": "Aave: Paraswap Liquidity Swap Adapter V3"
+  },
+  {
+    "address": "0x32fdc26affa1eb331263bcdd59f2e46ecbcc2e24",
+    "nameTag": "Aave: Paraswap Repay Adapter"
+  },
+  {
+    "address": "0x770ef9f4fe897e59dacc474ef11238303f9552b6",
+    "nameTag": "Aave: Pool Addresses Provider Registry V3"
+  },
+  {
+    "address": "0xa97684ead0e402dc232d5a977953df7ecbab3cdb",
+    "nameTag": "Aave: Pool Addresses Provider V3"
+  },
+  {
+    "address": "0x8145edddf43f50276641b55bd3ad95944510021e",
+    "nameTag": "Aave: Pool Configurator V3"
+  },
+  {
+    "address": "0x69fa688f1dc47d4b5d8029d5a35fb7a548310654",
+    "nameTag": "Aave: Pool Data Provider V3"
+  },
+  {
+    "address": "0x794a61358d6845594f94dc1db02a252b5b4814ad",
+    "nameTag": "Aave: Pool V3"
+  },
+  {
+    "address": "0x2bb52f7779fa2a77be64e199c18bd6437801caac",
+    "nameTag": "Aave: Pull Rewards Transfer Strategy V3"
+  },
+  {
+    "address": "0xfaef6a702d15428e588d4c0614aefb4348d83d48",
+    "nameTag": "Aave: sAAVE Token V3"
+  },
+  {
+    "address": "0xd94112b5b62d53c9402e7a60289c6810def1dc9b",
+    "nameTag": "Aave: sDAI Token V3"
+  },
+  {
+    "address": "0xf15f26710c827dde8acba678682f3ce24f2fb56e",
+    "nameTag": "Aave: sEURS Token V3"
+  },
+  {
+    "address": "0x89d976629b7055ff1ca02b927ba3e020f22a44e4",
+    "nameTag": "Aave: sLINK Token V3"
+  },
+  {
+    "address": "0x307ffe186f84a3bc2613d1ea417a5737d69a7007",
+    "nameTag": "Aave: sUSDC Token V3"
+  },
+  {
+    "address": "0x633b207dd676331c413d4c013a6294b0fe47cd0e",
+    "nameTag": "Aave: sWBTC Token V3"
+  },
+  {
+    "address": "0xd8ad37849950903571df17049516a5cd4cbe55f6",
+    "nameTag": "Aave: sWETH Token V3"
+  },
+  {
+    "address": "0xc3301b30f4ecbfd59de0d74e89690c1a70c6f21b",
+    "nameTag": "Aave: Treasury Controller V3"
+  },
+  {
+    "address": "0x053d55f9b5af8694c503eb288a1b7e552f590710",
+    "nameTag": "Aave: Treasury V3"
+  },
+  {
+    "address": "0xefdd7374551897b11a23ec7b5694c713dfda76f1",
+    "nameTag": "Aave: Ui Incentive Data Provider V3"
+  },
+  {
+    "address": "0x3f960bb91e85ae2db561bdd01b515c5a5c65802b",
+    "nameTag": "Aave: Ui Pool Data Provider V3"
+  },
+  {
+    "address": "0xda67af3403555ce0ae3ffc22fdb7354458277358",
+    "nameTag": "Aave: UiIncentive Data Provider V3"
+  },
+  {
+    "address": "0x145de30c929a065582da84cf96f88460db9745a7",
+    "nameTag": "Aave: UiPool Data Provider V3"
+  },
+  {
+    "address": "0xe80761ea617f66f96274ea5e8c37f03960ecc679",
+    "nameTag": "Aave: vAAVE Token V3"
+  },
+  {
+    "address": "0x8619d80fb0141ba7f184cbf22fd724116d9f7ffc",
+    "nameTag": "Aave: vDAI Token V3"
+  },
+  {
+    "address": "0x4a1c3ad6ed28a636ee1751c69071f6be75deb8b8",
+    "nameTag": "Aave: vEURS Token V3"
+  },
+  {
+    "address": "0x953a573793604af8d41f306feb8274190db4ae0e",
+    "nameTag": "Aave: vLINK Token V3"
+  },
+  {
+    "address": "0xfccf3cabbe80101232d343252614b6a3ee81c989",
+    "nameTag": "Aave: vUSDC Token V3"
+  },
+  {
+    "address": "0xfb00ac187a8eb5afae4eace434f493eb62672df7",
+    "nameTag": "Aave: vUSDT Token V3"
+  },
+  {
+    "address": "0x92b42c66840c7ad907b4bf74879ff3ef7c529473",
+    "nameTag": "Aave: vWBTC Token V3"
+  },
+  {
+    "address": "0x0c84331e39d6658cd6e6b9ba04736cc4c4734351",
+    "nameTag": "Aave: vWETH Token V3"
+  },
+  {
+    "address": "0xbc790382b3686abffe4be14a030a96ac6154023a",
+    "nameTag": "Aave: Wallet Balance Provider V3"
+  },
+  {
+    "address": "0xc09e69e79106861df5d289da88349f10e2dc6b5c",
+    "nameTag": "Aave: WETH Gateway V3"
+  },
+  {
+    "address": "0xb5ee21786d28c5ba61661550879475976b707099",
+    "nameTag": "Aave: Wrapped Token Gateway V3"
+  }
+]

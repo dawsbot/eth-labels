@@ -1,26 +1,22 @@
-{
-  "lastPulled": "2024-04-03T06:30:18.429Z",
-  "length": 5,
-  "data": [
-    {
-      "address": "0x46940dc651bfe3f2cc3e04cf9dc5579b50cf0765",
-      "nameTag": "Morphex: Vault"
-    },
-    {
-      "address": "0xc48b0868df84436c6624de4859aeec6a87f805a3",
-      "nameTag": "Tryvium: Bounty Vault"
-    },
-    {
-      "address": "0x741523f00b1a2575d670d367f587c7c027f29762",
-      "nameTag": "Tryvium: Reserved Funds Vault"
-    },
-    {
-      "address": "0x74157b38ec19e823ea4501b0d169533b33418392",
-      "nameTag": "Tryvium: Sales Vault"
-    },
-    {
-      "address": "0x027f1e1a1d4c36b383e490da919c7f895afe3c89",
-      "nameTag": "Tryvium: Team Vault"
-    }
-  ]
-}
+[
+  {
+    "address": "0x46940dc651bfe3f2cc3e04cf9dc5579b50cf0765",
+    "nameTag": "Morphex: Vault"
+  },
+  {
+    "address": "0xc48b0868df84436c6624de4859aeec6a87f805a3",
+    "nameTag": "Tryvium: Bounty Vault"
+  },
+  {
+    "address": "0x741523f00b1a2575d670d367f587c7c027f29762",
+    "nameTag": "Tryvium: Reserved Funds Vault"
+  },
+  {
+    "address": "0x74157b38ec19e823ea4501b0d169533b33418392",
+    "nameTag": "Tryvium: Sales Vault"
+  },
+  {
+    "address": "0x027f1e1a1d4c36b383e490da919c7f895afe3c89",
+    "nameTag": "Tryvium: Team Vault"
+  }
+]

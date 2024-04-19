@@ -1,10 +1,6 @@
-{
-  "lastPulled": "2024-04-03T06:30:08.172Z",
-  "length": 1,
-  "data": [
-    {
-      "address": "0xc5f0f7b66764f6ec8c8dff7ba683102295e16409",
-      "nameTag": "First Digital USD: FDUSD Token"
-    }
-  ]
-}
+[
+  {
+    "address": "0xc5f0f7b66764f6ec8c8dff7ba683102295e16409",
+    "nameTag": "First Digital USD: FDUSD Token"
+  }
+]

@@ -1,45 +1,42 @@
-{
-  "lastPulled": "2024-04-02T20:41:27.416Z",
-  "data": [
-    {
-      "address": "0xdef1ca1fb7fbcdc777520aa7f396b4e015f497ab",
-      "nameTag": "CoW Protocol: COW Token"
-    },
-    {
-      "address": "0x5d06f06a61271aa38af23d1d2422212c9be83940",
-      "nameTag": "CoW Protocol: Deployer"
-    },
-    {
-      "address": "0x40a50cf069e992aa4536211b23f286ef88752187",
-      "nameTag": "CoW Protocol: Eth Flow"
-    },
-    {
-      "address": "0x68ffaac7a431f276fe73604c127bd78e49070c92",
-      "nameTag": "CoW Protocol: GnosisDAO Vesting"
-    },
-    {
-      "address": "0x9e7ae8bdba9aa346739792d219a808884996db67",
-      "nameTag": "CoW Protocol: GPv2AllowListAuthentication"
-    },
-    {
-      "address": "0x2c4c28ddbdac9c5e7055b4c863b72ea0149d8afe",
-      "nameTag": "CoW Protocol: GPv2AllowListAuthentication_Proxy"
-    },
-    {
-      "address": "0x9008d19f58aabd9ed0d60971565aa8510560ab41",
-      "nameTag": "CoW Protocol: GPv2Settlement"
-    },
-    {
-      "address": "0xc92e8bdf79f0507f65a392b0ab4667716bfe0110",
-      "nameTag": "CoW Protocol: GPv2VaultRelayer"
-    },
-    {
-      "address": "0xa1cb7762f40318ee0260f53e15de835ff001cb7e",
-      "nameTag": "CoW Protocol: Treasury"
-    },
-    {
-      "address": "0xd057b63f5e69cf1b929b356b579cba08d7688048",
-      "nameTag": "CoW Protocol: vCOW Token"
-    }
-  ]
-}
+[
+  {
+    "address": "0xdef1ca1fb7fbcdc777520aa7f396b4e015f497ab",
+    "nameTag": "CoW Protocol: COW Token"
+  },
+  {
+    "address": "0x5d06f06a61271aa38af23d1d2422212c9be83940",
+    "nameTag": "CoW Protocol: Deployer"
+  },
+  {
+    "address": "0x40a50cf069e992aa4536211b23f286ef88752187",
+    "nameTag": "CoW Protocol: Eth Flow"
+  },
+  {
+    "address": "0x68ffaac7a431f276fe73604c127bd78e49070c92",
+    "nameTag": "CoW Protocol: GnosisDAO Vesting"
+  },
+  {
+    "address": "0x9e7ae8bdba9aa346739792d219a808884996db67",
+    "nameTag": "CoW Protocol: GPv2AllowListAuthentication"
+  },
+  {
+    "address": "0x2c4c28ddbdac9c5e7055b4c863b72ea0149d8afe",
+    "nameTag": "CoW Protocol: GPv2AllowListAuthentication_Proxy"
+  },
+  {
+    "address": "0x9008d19f58aabd9ed0d60971565aa8510560ab41",
+    "nameTag": "CoW Protocol: GPv2Settlement"
+  },
+  {
+    "address": "0xc92e8bdf79f0507f65a392b0ab4667716bfe0110",
+    "nameTag": "CoW Protocol: GPv2VaultRelayer"
+  },
+  {
+    "address": "0xa1cb7762f40318ee0260f53e15de835ff001cb7e",
+    "nameTag": "CoW Protocol: Treasury"
+  },
+  {
+    "address": "0xd057b63f5e69cf1b929b356b579cba08d7688048",
+    "nameTag": "CoW Protocol: vCOW Token"
+  }
+]

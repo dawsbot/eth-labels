@@ -1,0 +1,18 @@
+[
+  {
+    "address": "0x8180a5ca4e3b94045e05a9313777955f7518d757",
+    "nameTag": "KyberSwap: Deployer"
+  },
+  {
+    "address": "0xaa96267806d5be3941bf9d8e4efc3dc8eb2bda0f",
+    "nameTag": "KyberSwap: Operations"
+  },
+  {
+    "address": "0x30c5322e4e08ad500c348007f92f120ab4e2b79e",
+    "nameTag": "KyberSwap: Zap In Router"
+  },
+  {
+    "address": "0xf0096e5b4aafeea1df557264091569ba125c1172",
+    "nameTag": "KyberSwap: Zap In Validator"
+  }
+]

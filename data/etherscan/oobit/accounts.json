@@ -1,29 +1,26 @@
-{
-  "lastPulled": "2024-04-02T20:47:32.148Z",
-  "data": [
-    {
-      "address": "0xf6be265fa72148dfb64106247d21bb15ce650e5e",
-      "nameTag": "Oobit 1"
-    },
-    {
-      "address": "0x65fb180c8bfaa811e9b2e3d2fa60ef27c15f8732",
-      "nameTag": "Oobit 2"
-    },
-    {
-      "address": "0xa8ee70f68fffaae3cb8475112409adb9282f3246",
-      "nameTag": "Oobit 3"
-    },
-    {
-      "address": "0xbf2ebf6c701068ccf046644315ff7417c879bd8a",
-      "nameTag": "Oobit 4"
-    },
-    {
-      "address": "0x0bc99404e0fca2028d7665e3b473869c6c6ff002",
-      "nameTag": "Oobit: Deployer"
-    },
-    {
-      "address": "0x07f9702ce093db82dfdc92c2c6e578d6ea8d5e22",
-      "nameTag": "Oobit: OBT Token"
-    }
-  ]
-}
+[
+  {
+    "address": "0xf6be265fa72148dfb64106247d21bb15ce650e5e",
+    "nameTag": "Oobit 1"
+  },
+  {
+    "address": "0x65fb180c8bfaa811e9b2e3d2fa60ef27c15f8732",
+    "nameTag": "Oobit 2"
+  },
+  {
+    "address": "0xa8ee70f68fffaae3cb8475112409adb9282f3246",
+    "nameTag": "Oobit 3"
+  },
+  {
+    "address": "0xbf2ebf6c701068ccf046644315ff7417c879bd8a",
+    "nameTag": "Oobit 4"
+  },
+  {
+    "address": "0x0bc99404e0fca2028d7665e3b473869c6c6ff002",
+    "nameTag": "Oobit: Deployer"
+  },
+  {
+    "address": "0x07f9702ce093db82dfdc92c2c6e578d6ea8d5e22",
+    "nameTag": "Oobit: OBT Token"
+  }
+]

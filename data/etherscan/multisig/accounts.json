@@ -1,161 +1,158 @@
-{
-  "lastPulled": "2024-04-02T20:46:22.297Z",
-  "data": [
-    {
-      "address": "0x9e2b6378ee8ad2a4a95fe481d63caba8fb0ebbf9",
-      "nameTag": "Alchemix Finance: Dev Multisig"
-    },
-    {
-      "address": "0x8392f6669292fa56123f71949b52d883ae57e225",
-      "nameTag": "Alchemix Finance: Treasury"
-    },
-    {
-      "address": "0xcafe1a77e84698c83ca8931f54a755176ef75f2c",
-      "nameTag": "Aragon: Multisig"
-    },
-    {
-      "address": "0x8d9d0bd75319a3780d3cab012759efbae334291b",
-      "nameTag": "Arcade City: Multisig"
-    },
-    {
-      "address": "0xab4e5b618fb8f1f3503689dfbdf801478ff6c252",
-      "nameTag": "Axie Infinity: Multisig"
-    },
-    {
-      "address": "0x5894110995b8c8401bd38262ba0c8ee41d4e4658",
-      "nameTag": "Bancor: Multisig 1"
-    },
-    {
-      "address": "0xcc1aac4513f751effc94e259daf8a37b76f9db75",
-      "nameTag": "Bancor: Multisig 3"
-    },
-    {
-      "address": "0x4f8af8e8734d02a21d73e2a4fb29941f35cbbeac",
-      "nameTag": "Bancor: Multisig 4"
-    },
-    {
-      "address": "0xc39e562defc6ddd1f44ee698cf9303092b86051d",
-      "nameTag": "Bancor: Multisig 5"
-    },
-    {
-      "address": "0xf26d1bb347a59f6c283c53156519cc1b1abaca51",
-      "nameTag": "Bankless DAO: Treasury"
-    },
-    {
-      "address": "0x4763cfa50311729b65815e5ae9ebbefdb94ec112",
-      "nameTag": "BLVKHVND: Multisig"
-    },
-    {
-      "address": "0x2323763d78bf7104b54a462a79c2ce858d118f2f",
-      "nameTag": "Civic: Multisig"
-    },
-    {
-      "address": "0x8c2251e028043e38f58ac64c00e1f940d305aa62",
-      "nameTag": "ElasticDAO: Multisig"
-    },
-    {
-      "address": "0x911143d946ba5d467bfc476491fdb235fef4d667",
-      "nameTag": "ENS: Multisig"
-    },
-    {
-      "address": "0xb35cd25e91b376eafba79abe71d78814dec3401a",
-      "nameTag": "Ethereum Magicians: Multisig"
-    },
-    {
-      "address": "0x9a60ad6de185c4ea95058601beaf16f63742782a",
-      "nameTag": "Ethos: Multisig"
-    },
-    {
-      "address": "0x6e95c8e8557abc08b46f3c347ba06f8dc012763f",
-      "nameTag": "Gnosis: MultiSig"
-    },
-    {
-      "address": "0x851b7f3ab81bd8df354f0d7640efcd7288553419",
-      "nameTag": "Gnosis: Multisig 2"
-    },
-    {
-      "address": "0xce52a8dd7c8ad08e94b44620622e3630f7c1fc90",
-      "nameTag": "Gnosis: MultiSig 3"
-    },
-    {
-      "address": "0xff1a8eda5eacdb6aaf729905492bdc6376dbe2dd",
-      "nameTag": "Gnosis: xDai Bridge Management Multisig"
-    },
-    {
-      "address": "0x7da82c7ab4771ff031b66538d2fb9b0b047f6cf9",
-      "nameTag": "Golem: Multisig"
-    },
-    {
-      "address": "0x83307d16c4dcebc69162ad7444a38cbf569e3603",
-      "nameTag": "Hundred Finance: Governance Multisig"
-    },
-    {
-      "address": "0xaf5800324e355c9eaa2075cad6717ff1ddf067db",
-      "nameTag": "Hundred Finance: Treasury Multisig"
-    },
-    {
-      "address": "0x51c2cef9efa48e08557a361b52db34061c025a1b",
-      "nameTag": "JPEGd: Multisig"
-    },
-    {
-      "address": "0x557068a9b7d66f97a61b97c80541eb17672e1e6f",
-      "nameTag": "LobsterDAO: Multisig"
-    },
-    {
-      "address": "0x7e6614722614e434c4df9901bab31e466ba12fa4",
-      "nameTag": "Mysterium: Multisig"
-    },
-    {
-      "address": "0x245cc372c84b3645bf0ffe6538620b04a217988b",
-      "nameTag": "OlympusDAO: DAO Funds"
-    },
-    {
-      "address": "0x09443d96cd5e208e11049ba17f4f197cd93543a0",
-      "nameTag": "Paribus: Ecosystem"
-    },
-    {
-      "address": "0x55390894452ae920f532e63dee9328258447e40d",
-      "nameTag": "Paribus: Foundation"
-    },
-    {
-      "address": "0xa52fd396891e7a74b641a2cb1a6999fcf56b077e",
-      "nameTag": "Redacted Cartel: Multisig"
-    },
-    {
-      "address": "0xdaeada3d210d2f45874724beea03c7d4bbd41674",
-      "nameTag": "Ribbon Finance: Multisig"
-    },
-    {
-      "address": "0xa33516e6f64c6c2869dff6744953a472cd60c8f6",
-      "nameTag": "Storj: Multisig 2"
-    },
-    {
-      "address": "0xe94b5eec1fa96ceecbd33ef5baa8d00e4493f4f3",
-      "nameTag": "SushiSwap: Treasury Multisig"
-    },
-    {
-      "address": "0x185f19b43d818e10a31be68f445ef8edcb8afb83",
-      "nameTag": "TenX: Multisig"
-    },
-    {
-      "address": "0x90b6c61b102ea260131ab48377e143d6eb3a9d4b",
-      "nameTag": "Tokemak: Coordinator Address"
-    },
-    {
-      "address": "0x8b4334d4812c530574bd4f2763fcd22de94a969b",
-      "nameTag": "Tokemak: Treasury Address"
-    },
-    {
-      "address": "0xb04e030140b30c27bcdfaafffa98c57d80eda7b4",
-      "nameTag": "Tornado.Cash: Community Fund"
-    },
-    {
-      "address": "0xc0f783edfebb995eb5e590af08e36e43d4c36cbd",
-      "nameTag": "VESQ: DAO Multisig"
-    },
-    {
-      "address": "0xc2cce1f4190d4451c63cf591678c807679c3d728",
-      "nameTag": "WeTrust: Multisig"
-    }
-  ]
-}
+[
+  {
+    "address": "0x9e2b6378ee8ad2a4a95fe481d63caba8fb0ebbf9",
+    "nameTag": "Alchemix Finance: Dev Multisig"
+  },
+  {
+    "address": "0x8392f6669292fa56123f71949b52d883ae57e225",
+    "nameTag": "Alchemix Finance: Treasury"
+  },
+  {
+    "address": "0xcafe1a77e84698c83ca8931f54a755176ef75f2c",
+    "nameTag": "Aragon: Multisig"
+  },
+  {
+    "address": "0x8d9d0bd75319a3780d3cab012759efbae334291b",
+    "nameTag": "Arcade City: Multisig"
+  },
+  {
+    "address": "0xab4e5b618fb8f1f3503689dfbdf801478ff6c252",
+    "nameTag": "Axie Infinity: Multisig"
+  },
+  {
+    "address": "0x5894110995b8c8401bd38262ba0c8ee41d4e4658",
+    "nameTag": "Bancor: Multisig 1"
+  },
+  {
+    "address": "0xcc1aac4513f751effc94e259daf8a37b76f9db75",
+    "nameTag": "Bancor: Multisig 3"
+  },
+  {
+    "address": "0x4f8af8e8734d02a21d73e2a4fb29941f35cbbeac",
+    "nameTag": "Bancor: Multisig 4"
+  },
+  {
+    "address": "0xc39e562defc6ddd1f44ee698cf9303092b86051d",
+    "nameTag": "Bancor: Multisig 5"
+  },
+  {
+    "address": "0xf26d1bb347a59f6c283c53156519cc1b1abaca51",
+    "nameTag": "Bankless DAO: Treasury"
+  },
+  {
+    "address": "0x4763cfa50311729b65815e5ae9ebbefdb94ec112",
+    "nameTag": "BLVKHVND: Multisig"
+  },
+  {
+    "address": "0x2323763d78bf7104b54a462a79c2ce858d118f2f",
+    "nameTag": "Civic: Multisig"
+  },
+  {
+    "address": "0x8c2251e028043e38f58ac64c00e1f940d305aa62",
+    "nameTag": "ElasticDAO: Multisig"
+  },
+  {
+    "address": "0x911143d946ba5d467bfc476491fdb235fef4d667",
+    "nameTag": "ENS: Multisig"
+  },
+  {
+    "address": "0xb35cd25e91b376eafba79abe71d78814dec3401a",
+    "nameTag": "Ethereum Magicians: Multisig"
+  },
+  {
+    "address": "0x9a60ad6de185c4ea95058601beaf16f63742782a",
+    "nameTag": "Ethos: Multisig"
+  },
+  {
+    "address": "0x6e95c8e8557abc08b46f3c347ba06f8dc012763f",
+    "nameTag": "Gnosis: MultiSig"
+  },
+  {
+    "address": "0x851b7f3ab81bd8df354f0d7640efcd7288553419",
+    "nameTag": "Gnosis: Multisig 2"
+  },
+  {
+    "address": "0xce52a8dd7c8ad08e94b44620622e3630f7c1fc90",
+    "nameTag": "Gnosis: MultiSig 3"
+  },
+  {
+    "address": "0xff1a8eda5eacdb6aaf729905492bdc6376dbe2dd",
+    "nameTag": "Gnosis: xDai Bridge Management Multisig"
+  },
+  {
+    "address": "0x7da82c7ab4771ff031b66538d2fb9b0b047f6cf9",
+    "nameTag": "Golem: Multisig"
+  },
+  {
+    "address": "0x83307d16c4dcebc69162ad7444a38cbf569e3603",
+    "nameTag": "Hundred Finance: Governance Multisig"
+  },
+  {
+    "address": "0xaf5800324e355c9eaa2075cad6717ff1ddf067db",
+    "nameTag": "Hundred Finance: Treasury Multisig"
+  },
+  {
+    "address": "0x51c2cef9efa48e08557a361b52db34061c025a1b",
+    "nameTag": "JPEGd: Multisig"
+  },
+  {
+    "address": "0x557068a9b7d66f97a61b97c80541eb17672e1e6f",
+    "nameTag": "LobsterDAO: Multisig"
+  },
+  {
+    "address": "0x7e6614722614e434c4df9901bab31e466ba12fa4",
+    "nameTag": "Mysterium: Multisig"
+  },
+  {
+    "address": "0x245cc372c84b3645bf0ffe6538620b04a217988b",
+    "nameTag": "OlympusDAO: DAO Funds"
+  },
+  {
+    "address": "0x09443d96cd5e208e11049ba17f4f197cd93543a0",
+    "nameTag": "Paribus: Ecosystem"
+  },
+  {
+    "address": "0x55390894452ae920f532e63dee9328258447e40d",
+    "nameTag": "Paribus: Foundation"
+  },
+  {
+    "address": "0xa52fd396891e7a74b641a2cb1a6999fcf56b077e",
+    "nameTag": "Redacted Cartel: Multisig"
+  },
+  {
+    "address": "0xdaeada3d210d2f45874724beea03c7d4bbd41674",
+    "nameTag": "Ribbon Finance: Multisig"
+  },
+  {
+    "address": "0xa33516e6f64c6c2869dff6744953a472cd60c8f6",
+    "nameTag": "Storj: Multisig 2"
+  },
+  {
+    "address": "0xe94b5eec1fa96ceecbd33ef5baa8d00e4493f4f3",
+    "nameTag": "SushiSwap: Treasury Multisig"
+  },
+  {
+    "address": "0x185f19b43d818e10a31be68f445ef8edcb8afb83",
+    "nameTag": "TenX: Multisig"
+  },
+  {
+    "address": "0x90b6c61b102ea260131ab48377e143d6eb3a9d4b",
+    "nameTag": "Tokemak: Coordinator Address"
+  },
+  {
+    "address": "0x8b4334d4812c530574bd4f2763fcd22de94a969b",
+    "nameTag": "Tokemak: Treasury Address"
+  },
+  {
+    "address": "0xb04e030140b30c27bcdfaafffa98c57d80eda7b4",
+    "nameTag": "Tornado.Cash: Community Fund"
+  },
+  {
+    "address": "0xc0f783edfebb995eb5e590af08e36e43d4c36cbd",
+    "nameTag": "VESQ: DAO Multisig"
+  },
+  {
+    "address": "0xc2cce1f4190d4451c63cf591678c807679c3d728",
+    "nameTag": "WeTrust: Multisig"
+  }
+]

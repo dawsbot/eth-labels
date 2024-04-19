@@ -1,21 +1,18 @@
-{
-  "lastPulled": "2024-04-02T21:01:16.599Z",
-  "data": [
-    {
-      "address": "0x1b02da8cb0d097eb8d57a175b88c7d8b47997506",
-      "nameTag": "SushiSwap: Router"
-    },
-    {
-      "address": "0xe592427a0aece92de3edee1f18e0157c05861564",
-      "nameTag": "Uniswap V3: Router"
-    },
-    {
-      "address": "0x68b3465833fb72a70ecdf485e0e4c7bd8665fc45",
-      "nameTag": "Uniswap V3: Router 2"
-    },
-    {
-      "address": "0xcf4d2994088a8cde52fb584fe29608b63ec063b2",
-      "nameTag": "xPollinate: Transaction Manager"
-    }
-  ]
-}
+[
+  {
+    "address": "0x1b02da8cb0d097eb8d57a175b88c7d8b47997506",
+    "nameTag": "SushiSwap: Router"
+  },
+  {
+    "address": "0xe592427a0aece92de3edee1f18e0157c05861564",
+    "nameTag": "Uniswap V3: Router"
+  },
+  {
+    "address": "0x68b3465833fb72a70ecdf485e0e4c7bd8665fc45",
+    "nameTag": "Uniswap V3: Router 2"
+  },
+  {
+    "address": "0xcf4d2994088a8cde52fb584fe29608b63ec063b2",
+    "nameTag": "xPollinate: Transaction Manager"
+  }
+]

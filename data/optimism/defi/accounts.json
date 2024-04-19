@@ -1,13 +1,10 @@
-{
-  "lastPulled": "2024-04-02T20:57:03.912Z",
-  "data": [
-    {
-      "address": "0x7b17fc02d85cb5589ec1d1c3db507dc557590c79",
-      "nameTag": "BOB: USDC - BOB 0.01% Uniswap V3 pool"
-    },
-    {
-      "address": "0x6432037739ccd0201987472604826097b55813e9",
-      "nameTag": "BOB: USDC - BOB 0.05% Uniswap V3 pool"
-    }
-  ]
-}
+[
+  {
+    "address": "0x7b17fc02...557590c79",
+    "nameTag": "BOB: USDC - BOB 0.01% Uniswap V3 pool"
+  },
+  {
+    "address": "0x64320377...7b55813e9",
+    "nameTag": "BOB: USDC - BOB 0.05% Uniswap V3 pool"
+  }
+]

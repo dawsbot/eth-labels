@@ -1,9 +1,6 @@
-{
-  "lastPulled": "2024-04-02T20:45:13.588Z",
-  "data": [
-    {
-      "address": "0x4d00bb8ee7bd558fe9c4e165a93b7cb761c90227",
-      "nameTag": "MADworld: Liquidity Pool"
-    }
-  ]
-}
+[
+  {
+    "address": "0x4d00bb8ee7bd558fe9c4e165a93b7cb761c90227",
+    "nameTag": "MADworld: Liquidity Pool"
+  }
+]

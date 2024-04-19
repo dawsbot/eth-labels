@@ -1,113 +1,110 @@
-{
-  "lastPulled": "2024-04-02T20:46:32.656Z",
-  "data": [
-    {
-      "address": "0xee6bd04c6164d7f0fa1cb03277c855639d99a7f6",
-      "nameTag": "MCH: Daily Action"
-    },
-    {
-      "address": "0xfd0174784ebce943bdb8832ecdea9fea30e7c7a9",
-      "nameTag": "MCH: Daily Action 2"
-    },
-    {
-      "address": "0x5e07b6f1b98a11f7e04e7ffa8707b63f1c177753",
-      "nameTag": "MCH: Daily Action 3"
-    },
-    {
-      "address": "0x97d99db7a938ad4f6dd8d607deb2083f1b36db0b",
-      "nameTag": "MCH: EMONT Gateway"
-    },
-    {
-      "address": "0xdceaf1652a131f32a821468dc03a92df0edd86ea",
-      "nameTag": "MCH: Extension"
-    },
-    {
-      "address": "0x46fc7b42f4522bfbd8b4565130aaed1e407d9957",
-      "nameTag": "MCH: Extension Gateway 1"
-    },
-    {
-      "address": "0xbe60333fe9d9d10d2801e11c2a0e5060c83c8b30",
-      "nameTag": "MCH: Extension Gateway 2"
-    },
-    {
-      "address": "0x4ae0ede482f825fb9cccce8f0fe089f0379eaa2a",
-      "nameTag": "MCH: Gum Gateway 1"
-    },
-    {
-      "address": "0x02ed6a253e406b8aff61dfbc808f57c98493c19d",
-      "nameTag": "MCH: Gum Gateway 10"
-    },
-    {
-      "address": "0xa30cbce69f520bf2a34c5c15193b7f5afe427a26",
-      "nameTag": "MCH: Gum Gateway 2"
-    },
-    {
-      "address": "0xc045c0bd4a26160a85039dbaf9c1ab4cd93249d3",
-      "nameTag": "MCH: Gum Gateway 3"
-    },
-    {
-      "address": "0xadcd61c78f052cf38ab9e67c353dec1da14e04b3",
-      "nameTag": "MCH: Gum Gateway 4"
-    },
-    {
-      "address": "0x20e94588391db2dce6570e700474fb6702942720",
-      "nameTag": "MCH: Gum Gateway 5"
-    },
-    {
-      "address": "0x7a2ab08612bd07c8bf661883e21240f49b58e944",
-      "nameTag": "MCH: Gum Gateway 6"
-    },
-    {
-      "address": "0x211b3c1f7893685e395553da61cf32c10764c23d",
-      "nameTag": "MCH: Gum Gateway 7"
-    },
-    {
-      "address": "0xeb0860422043a0b8541356a7b6f671cba9e8f85a",
-      "nameTag": "MCH: Gum Gateway 8"
-    },
-    {
-      "address": "0x88a386a12de4840160c4f16804be2a7dd1a30307",
-      "nameTag": "MCH: Gum Gateway 9"
-    },
-    {
-      "address": "0x273f7f8e6489682df756151f5525576e322d51a3",
-      "nameTag": "MCH: Hero"
-    },
-    {
-      "address": "0x138a35ee20e40f019e7e7c00386ab2ef42d66d1e",
-      "nameTag": "MCH: Hero Gateway 1"
-    },
-    {
-      "address": "0x185b257aa51fdc45176cf1ffac6a0bfb5cf28afd",
-      "nameTag": "MCH: Hero Gateway 2"
-    },
-    {
-      "address": "0x617913dd43dbdf4236b85ec7bdf9adfd7e35b340",
-      "nameTag": "MCH: Land"
-    },
-    {
-      "address": "0x4a627b324189014fa757ed7cc730b180879232d7",
-      "nameTag": "MCH: Land Pool"
-    },
-    {
-      "address": "0xd69f306549e9d96f183b1aeca30b8f4353c2ecc3",
-      "nameTag": "MCH: MCHC Token"
-    },
-    {
-      "address": "0xe7af11370c3bab51230d8307454350bdf6d68f4a",
-      "nameTag": "MCH: Owner"
-    },
-    {
-      "address": "0x946048a75af11c300a274344887ec39452218b3d",
-      "nameTag": "MCH: Presale"
-    },
-    {
-      "address": "0xdee34cd48d77183b3e70f4f9ea2718c89bfefeb4",
-      "nameTag": "MCH: Prime"
-    },
-    {
-      "address": "0xa1d2c7e6de2fa512f1fdf486ca17ab79b4dc5d01",
-      "nameTag": "MCH: Token Sale"
-    }
-  ]
-}
+[
+  {
+    "address": "0xee6bd04c6164d7f0fa1cb03277c855639d99a7f6",
+    "nameTag": "MCH: Daily Action"
+  },
+  {
+    "address": "0xfd0174784ebce943bdb8832ecdea9fea30e7c7a9",
+    "nameTag": "MCH: Daily Action 2"
+  },
+  {
+    "address": "0x5e07b6f1b98a11f7e04e7ffa8707b63f1c177753",
+    "nameTag": "MCH: Daily Action 3"
+  },
+  {
+    "address": "0x97d99db7a938ad4f6dd8d607deb2083f1b36db0b",
+    "nameTag": "MCH: EMONT Gateway"
+  },
+  {
+    "address": "0xdceaf1652a131f32a821468dc03a92df0edd86ea",
+    "nameTag": "MCH: Extension"
+  },
+  {
+    "address": "0x46fc7b42f4522bfbd8b4565130aaed1e407d9957",
+    "nameTag": "MCH: Extension Gateway 1"
+  },
+  {
+    "address": "0xbe60333fe9d9d10d2801e11c2a0e5060c83c8b30",
+    "nameTag": "MCH: Extension Gateway 2"
+  },
+  {
+    "address": "0x4ae0ede482f825fb9cccce8f0fe089f0379eaa2a",
+    "nameTag": "MCH: Gum Gateway 1"
+  },
+  {
+    "address": "0x02ed6a253e406b8aff61dfbc808f57c98493c19d",
+    "nameTag": "MCH: Gum Gateway 10"
+  },
+  {
+    "address": "0xa30cbce69f520bf2a34c5c15193b7f5afe427a26",
+    "nameTag": "MCH: Gum Gateway 2"
+  },
+  {
+    "address": "0xc045c0bd4a26160a85039dbaf9c1ab4cd93249d3",
+    "nameTag": "MCH: Gum Gateway 3"
+  },
+  {
+    "address": "0xadcd61c78f052cf38ab9e67c353dec1da14e04b3",
+    "nameTag": "MCH: Gum Gateway 4"
+  },
+  {
+    "address": "0x20e94588391db2dce6570e700474fb6702942720",
+    "nameTag": "MCH: Gum Gateway 5"
+  },
+  {
+    "address": "0x7a2ab08612bd07c8bf661883e21240f49b58e944",
+    "nameTag": "MCH: Gum Gateway 6"
+  },
+  {
+    "address": "0x211b3c1f7893685e395553da61cf32c10764c23d",
+    "nameTag": "MCH: Gum Gateway 7"
+  },
+  {
+    "address": "0xeb0860422043a0b8541356a7b6f671cba9e8f85a",
+    "nameTag": "MCH: Gum Gateway 8"
+  },
+  {
+    "address": "0x88a386a12de4840160c4f16804be2a7dd1a30307",
+    "nameTag": "MCH: Gum Gateway 9"
+  },
+  {
+    "address": "0x273f7f8e6489682df756151f5525576e322d51a3",
+    "nameTag": "MCH: Hero"
+  },
+  {
+    "address": "0x138a35ee20e40f019e7e7c00386ab2ef42d66d1e",
+    "nameTag": "MCH: Hero Gateway 1"
+  },
+  {
+    "address": "0x185b257aa51fdc45176cf1ffac6a0bfb5cf28afd",
+    "nameTag": "MCH: Hero Gateway 2"
+  },
+  {
+    "address": "0x617913dd43dbdf4236b85ec7bdf9adfd7e35b340",
+    "nameTag": "MCH: Land"
+  },
+  {
+    "address": "0x4a627b324189014fa757ed7cc730b180879232d7",
+    "nameTag": "MCH: Land Pool"
+  },
+  {
+    "address": "0xd69f306549e9d96f183b1aeca30b8f4353c2ecc3",
+    "nameTag": "MCH: MCHC Token"
+  },
+  {
+    "address": "0xe7af11370c3bab51230d8307454350bdf6d68f4a",
+    "nameTag": "MCH: Owner"
+  },
+  {
+    "address": "0x946048a75af11c300a274344887ec39452218b3d",
+    "nameTag": "MCH: Presale"
+  },
+  {
+    "address": "0xdee34cd48d77183b3e70f4f9ea2718c89bfefeb4",
+    "nameTag": "MCH: Prime"
+  },
+  {
+    "address": "0xa1d2c7e6de2fa512f1fdf486ca17ab79b4dc5d01",
+    "nameTag": "MCH: Token Sale"
+  }
+]

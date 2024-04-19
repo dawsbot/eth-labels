@@ -1,25 +1,22 @@
-{
-  "lastPulled": "2024-04-02T22:22:56.343Z",
-  "data": [
-    {
-      "address": "0xfbdd194376de19a88118e84e279b977f165d01b8",
-      "nameTag": "Beefy: BIFI Token"
-    },
-    {
-      "address": "0x09ef0e7b555599a9f810789fff68db8dbf4c51a0",
-      "nameTag": "Beefy: Community Treasury"
-    },
-    {
-      "address": "0xdeb0a777ba6f59c78c654b8c92f80238c8002dd2",
-      "nameTag": "Beefy: Staking"
-    },
-    {
-      "address": "0x6d28afd25a1fbc5409b1befff6aefeee2902d89f",
-      "nameTag": "Beefy: Timelock"
-    },
-    {
-      "address": "0xe37dd9a535c1d3c9fc33e3295b7e08bd1c42218d",
-      "nameTag": "Beefy: Treasury"
-    }
-  ]
-}
+[
+  {
+    "address": "0xfbdd194376de19a88118e84e279b977f165d01b8",
+    "nameTag": "Beefy: BIFI Token"
+  },
+  {
+    "address": "0x09ef0e7b555599a9f810789fff68db8dbf4c51a0",
+    "nameTag": "Beefy: Community Treasury"
+  },
+  {
+    "address": "0xdeb0a777ba6f59c78c654b8c92f80238c8002dd2",
+    "nameTag": "Beefy: Staking"
+  },
+  {
+    "address": "0x6d28afd25a1fbc5409b1befff6aefeee2902d89f",
+    "nameTag": "Beefy: Timelock"
+  },
+  {
+    "address": "0xe37dd9a535c1d3c9fc33e3295b7e08bd1c42218d",
+    "nameTag": "Beefy: Treasury"
+  }
+]

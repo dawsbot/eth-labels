@@ -1,9 +1,6 @@
-{
-  "lastPulled": "2024-04-02T20:50:07.979Z",
-  "data": [
-    {
-      "address": "0x085c4e9e09e030fefe9e620fe4d37ae2b273c951",
-      "nameTag": "Sumero: cUSCPI/USDC Staking"
-    }
-  ]
-}
+[
+  {
+    "address": "0x085c4e9e09e030fefe9e620fe4d37ae2b273c951",
+    "nameTag": "Sumero: cUSCPI/USDC Staking"
+  }
+]

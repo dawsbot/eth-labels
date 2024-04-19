@@ -1,45 +1,42 @@
-{
-  "lastPulled": "2024-04-02T20:44:47.400Z",
-  "data": [
-    {
-      "address": "0x6d6da471703647fd8b84ffb1a29e037686dbd8b2",
-      "nameTag": "Juicebox: Active 3 Days Funding Cycle Ballot"
-    },
-    {
-      "address": "0xef7480b6e7ced228ffb0854fe49a428f562a8982",
-      "nameTag": "Juicebox: Active 7 Days Funding Cycle Ballot"
-    },
-    {
-      "address": "0xf507b2a1dd7439201eb07f11e1d62afb29216e2e",
-      "nameTag": "Juicebox: Funding Cycles"
-    },
-    {
-      "address": "0xac43e14c018490d045a774008648c701cda8c6b3",
-      "nameTag": "Juicebox: Governance"
-    },
-    {
-      "address": "0xb9e4b658298c7a36bdf4c2832042a5d6700c3ab8",
-      "nameTag": "Juicebox: Mod Store"
-    },
-    {
-      "address": "0xab47304d987390e27ce3bc0fa4fe31e3a98b0db2",
-      "nameTag": "Juicebox: Operator Store"
-    },
-    {
-      "address": "0xa9537cc42555564206d4e57c0eb6943d56e83a30",
-      "nameTag": "Juicebox: Prices"
-    },
-    {
-      "address": "0x9b5a4053ffbb11ca9cd858aaee43cc95ab435418",
-      "nameTag": "Juicebox: Projects"
-    },
-    {
-      "address": "0x46c9999a2edcd5aa177ed7e8af90c68b7d75ba46",
-      "nameTag": "Juicebox: Terminal Directory"
-    },
-    {
-      "address": "0xee2ebccb7cdb34a8a822b589f9e8427c24351bfc",
-      "nameTag": "Juicebox: Ticket Booth"
-    }
-  ]
-}
+[
+  {
+    "address": "0x6d6da471703647fd8b84ffb1a29e037686dbd8b2",
+    "nameTag": "Juicebox: Active 3 Days Funding Cycle Ballot"
+  },
+  {
+    "address": "0xef7480b6e7ced228ffb0854fe49a428f562a8982",
+    "nameTag": "Juicebox: Active 7 Days Funding Cycle Ballot"
+  },
+  {
+    "address": "0xf507b2a1dd7439201eb07f11e1d62afb29216e2e",
+    "nameTag": "Juicebox: Funding Cycles"
+  },
+  {
+    "address": "0xac43e14c018490d045a774008648c701cda8c6b3",
+    "nameTag": "Juicebox: Governance"
+  },
+  {
+    "address": "0xb9e4b658298c7a36bdf4c2832042a5d6700c3ab8",
+    "nameTag": "Juicebox: Mod Store"
+  },
+  {
+    "address": "0xab47304d987390e27ce3bc0fa4fe31e3a98b0db2",
+    "nameTag": "Juicebox: Operator Store"
+  },
+  {
+    "address": "0xa9537cc42555564206d4e57c0eb6943d56e83a30",
+    "nameTag": "Juicebox: Prices"
+  },
+  {
+    "address": "0x9b5a4053ffbb11ca9cd858aaee43cc95ab435418",
+    "nameTag": "Juicebox: Projects"
+  },
+  {
+    "address": "0x46c9999a2edcd5aa177ed7e8af90c68b7d75ba46",
+    "nameTag": "Juicebox: Terminal Directory"
+  },
+  {
+    "address": "0xee2ebccb7cdb34a8a822b589f9e8427c24351bfc",
+    "nameTag": "Juicebox: Ticket Booth"
+  }
+]

@@ -1,21 +1,18 @@
-{
-  "lastPulled": "2024-04-02T20:40:54.424Z",
-  "data": [
-    {
-      "address": "0xcf1f6377f2756446b1ca87c8a2ca2b6ea692edae",
-      "nameTag": "Chibi Fighters: ETH Crystals"
-    },
-    {
-      "address": "0x9db37d15fefbf42dc390c3c81fee453465841038",
-      "nameTag": "Chibi Fighters: Proxy"
-    },
-    {
-      "address": "0x71c118b00759b0851785642541ceb0f4ceea0bd5",
-      "nameTag": "Chibifighters.io: CBF Token"
-    },
-    {
-      "address": "0x85dd50bb40b7770564d35d71b0c6eaf3ec1d9603",
-      "nameTag": "Founder Chibi Fighters Token"
-    }
-  ]
-}
+[
+  {
+    "address": "0xcf1f6377f2756446b1ca87c8a2ca2b6ea692edae",
+    "nameTag": "Chibi Fighters: ETH Crystals"
+  },
+  {
+    "address": "0x9db37d15fefbf42dc390c3c81fee453465841038",
+    "nameTag": "Chibi Fighters: Proxy"
+  },
+  {
+    "address": "0x71c118b00759b0851785642541ceb0f4ceea0bd5",
+    "nameTag": "Chibifighters.io: CBF Token"
+  },
+  {
+    "address": "0x85dd50bb40b7770564d35d71b0c6eaf3ec1d9603",
+    "nameTag": "Founder Chibi Fighters Token"
+  }
+]

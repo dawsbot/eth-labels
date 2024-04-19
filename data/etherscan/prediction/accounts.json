@@ -1,13 +1,10 @@
-{
-  "lastPulled": "2024-04-02T20:48:19.966Z",
-  "data": [
-    {
-      "address": "0x78355a20e61411dcf74888c332e4f859be6457ec",
-      "nameTag": "Balaji's Bet"
-    },
-    {
-      "address": "0x4cbe68d825d21cb4978f56815613eed06cf30152",
-      "nameTag": "Cobie: LUNA Bet Escrow"
-    }
-  ]
-}
+[
+  {
+    "address": "0x78355a20e61411dcf74888c332e4f859be6457ec",
+    "nameTag": "Balaji's Bet"
+  },
+  {
+    "address": "0x4cbe68d825d21cb4978f56815613eed06cf30152",
+    "nameTag": "Cobie: LUNA Bet Escrow"
+  }
+]

@@ -1,9 +1,6 @@
-{
-  "lastPulled": "2024-04-02T20:43:16.065Z",
-  "data": [
-    {
-      "address": "0x94a1b5cdb22c43faab4abeb5c74999895464ddaf",
-      "nameTag": "Tornado.Cash: Mixer 1"
-    }
-  ]
-}
+[
+  {
+    "address": "0x94a1b5cdb22c43faab4abeb5c74999895464ddaf",
+    "nameTag": "Tornado.Cash: Mixer 1"
+  }
+]

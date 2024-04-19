@@ -1,13 +1,4 @@
-{
-  "lastPulled": "2024-04-02T20:57:51.182Z",
-  "data": [
-    {
-      "address": "0x00005ea00ac477b1030ce78506496e8c2de24bf5",
-      "nameTag": "SeaDrop"
-    },
-    {
-      "address": "0x000000008924d42d98026c656545c3c1fb3ad31c",
-      "nameTag": "SeaDrop Factory"
-    }
-  ]
-}
+[
+  { "address": "0x00005ea0...c2de24bf5", "nameTag": "SeaDrop" },
+  { "address": "0x00000000...1fb3ad31c", "nameTag": "SeaDrop Factory" }
+]

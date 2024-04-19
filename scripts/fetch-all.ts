@@ -3,6 +3,7 @@ import type { Browser, Page } from "playwright";
 import { firefox } from "playwright";
 import { AnyscanPuller } from "./AnyscanPuller";
 import { parseError } from "./error-parse";
+import { scanConfig } from "./scan-config";
 
 async function openBrowser(): Promise<{ browser: Browser; page: Page }> {
   const browser = await firefox.launch({ headless: false });
@@ -31,28 +32,33 @@ void (async () => {
 
     const { browser, page } = await openBrowser();
 
-    const etherscanPuller = new AnyscanPuller("etherscan");
-    const basescanPuller = new AnyscanPuller("basescan");
-    const optimismPuller = new AnyscanPuller("optimism");
-    const arbiscanPuller = new AnyscanPuller("arbitrum");
-    const polygonPuller = new AnyscanPuller("polygonscan");
-    const bscscanPuller = new AnyscanPuller("bscscan");
-    const gnosisPuller = new AnyscanPuller("gnosisscan");
-    const ftmscanPuller = new AnyscanPuller("ftmscan");
-    const cleoPuller = new AnyscanPuller("celo");
+    // const etherscanPuller = new AnyscanPuller("etherscan");
+    // const basescanPuller = new AnyscanPuller("basescan");
+    // const optimismPuller = new AnyscanPuller("optimism");
+    // const arbiscanPuller = new AnyscanPuller("arbitrum");
+    // const polygonPuller = new AnyscanPuller("polygonscan");
+    // const bscscanPuller = new AnyscanPuller("bscscan");
+    // const gnosisPuller = new AnyscanPuller("gnosisscan");
+    // const ftmscanPuller = new AnyscanPuller("ftmscan");
+    // const cleoPuller = new AnyscanPuller("celo");
 
-    const sourcePullers = [
-      etherscanPuller,
-      basescanPuller,
-      optimismPuller,
-      arbiscanPuller,
-      polygonPuller,
-      bscscanPuller,
-      gnosisPuller,
-      ftmscanPuller,
-      cleoPuller,
-    ];
-
+    // const sourcePullers = [
+    //   etherscanPuller,
+    //   basescanPuller,
+    //   optimismPuller,
+    //   arbiscanPuller,
+    //   polygonPuller,
+    //   bscscanPuller,
+    //   gnosisPuller,
+    //   ftmscanPuller,
+    //   cleoPuller,
+    // ];
+    const sourcePullers = Object.entries(scanConfig).map(
+      ([name]) => new AnyscanPuller(name as keyof typeof scanConfig),
+    );
+    for (const puller of sourcePullers) {
+      await puller.login(page);
+    }
     for (const puller of sourcePullers.reverse()) {
       await puller.pullAndWriteAllAddresses(page);
     }

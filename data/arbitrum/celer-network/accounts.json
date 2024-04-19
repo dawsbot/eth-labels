@@ -1,21 +1,18 @@
-{
-  "lastPulled": "2024-04-02T21:01:02.119Z",
-  "data": [
-    {
-      "address": "0xbfa2f68bf9ad60dc3cfb1cef04730eb7fa251424",
-      "nameTag": "Celer Network"
-    },
-    {
-      "address": "0x1619de6b6b20ed217a58d00f37b9d47c7663feca",
-      "nameTag": "Celer Network: cBridge"
-    },
-    {
-      "address": "0xdd90e5e87a2081dcf0391920868ebc2ffb81a1af",
-      "nameTag": "Celer Network: cBridge 2.0"
-    },
-    {
-      "address": "0xfe0401bffbeece5d9fae7f1b9a8f1e03fa1c3184",
-      "nameTag": "Celer Network: WithdrawInbox"
-    }
-  ]
-}
+[
+  {
+    "address": "0xbfa2f68bf9ad60dc3cfb1cef04730eb7fa251424",
+    "nameTag": "Celer Network"
+  },
+  {
+    "address": "0x1619de6b6b20ed217a58d00f37b9d47c7663feca",
+    "nameTag": "Celer Network: cBridge"
+  },
+  {
+    "address": "0xdd90e5e87a2081dcf0391920868ebc2ffb81a1af",
+    "nameTag": "Celer Network: cBridge 2.0"
+  },
+  {
+    "address": "0xfe0401bffbeece5d9fae7f1b9a8f1e03fa1c3184",
+    "nameTag": "Celer Network: WithdrawInbox"
+  }
+]

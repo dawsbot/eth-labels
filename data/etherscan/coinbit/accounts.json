@@ -1,21 +1,18 @@
-{
-  "lastPulled": "2024-04-02T20:41:00.311Z",
-  "data": [
-    {
-      "address": "0x497baef294c11a5f0f5bea3f2adb3073db448b56",
-      "nameTag": "Coinbit: DEX Token"
-    },
-    {
-      "address": "0xfff3ada5a2555a2b59bff4f44dfad90146cce8cb",
-      "nameTag": "Coinbit: DEXTER Token"
-    },
-    {
-      "address": "0x4571f3a386d1bd18e25d70d117e7067fa0bd9d08",
-      "nameTag": "Coinbit: DEXTERG Token"
-    },
-    {
-      "address": "0xf29226914595052a04f5afbe6410d0c3ed707548",
-      "nameTag": "Coinbit: NEXT Token"
-    }
-  ]
-}
+[
+  {
+    "address": "0x497baef294c11a5f0f5bea3f2adb3073db448b56",
+    "nameTag": "Coinbit: DEX Token"
+  },
+  {
+    "address": "0xfff3ada5a2555a2b59bff4f44dfad90146cce8cb",
+    "nameTag": "Coinbit: DEXTER Token"
+  },
+  {
+    "address": "0x4571f3a386d1bd18e25d70d117e7067fa0bd9d08",
+    "nameTag": "Coinbit: DEXTERG Token"
+  },
+  {
+    "address": "0xf29226914595052a04f5afbe6410d0c3ed707548",
+    "nameTag": "Coinbit: NEXT Token"
+  }
+]

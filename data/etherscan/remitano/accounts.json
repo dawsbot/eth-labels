@@ -1,17 +1,14 @@
-{
-  "lastPulled": "2024-04-02T20:48:50.387Z",
-  "data": [
-    {
-      "address": "0xb8cf411b956b3f9013c1d0ac8c909b086218207c",
-      "nameTag": "Remitano 1"
-    },
-    {
-      "address": "0x2819c144d5946404c0516b6f817a960db37d4929",
-      "nameTag": "Remitano 2"
-    },
-    {
-      "address": "0x8365efb25d0822aaf15ee1d314147b6a7831c403",
-      "nameTag": "Remitano: Deposit Funder"
-    }
-  ]
-}
+[
+  {
+    "address": "0xb8cf411b956b3f9013c1d0ac8c909b086218207c",
+    "nameTag": "Remitano 1"
+  },
+  {
+    "address": "0x2819c144d5946404c0516b6f817a960db37d4929",
+    "nameTag": "Remitano 2"
+  },
+  {
+    "address": "0x8365efb25d0822aaf15ee1d314147b6a7831c403",
+    "nameTag": "Remitano: Deposit Funder"
+  }
+]

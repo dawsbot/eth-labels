@@ -1,49 +1,46 @@
-{
-  "lastPulled": "2024-04-02T20:50:33.189Z",
-  "data": [
-    {
-      "address": "0xdf3e63507100dfded269ee113d6c8fb9dc086546",
-      "nameTag": "Synapse Network: Vesting"
-    },
-    {
-      "address": "0x2796317b0ff8538f253012862c06787adfb8ceb6",
-      "nameTag": "Synapse: Bridge"
-    },
-    {
-      "address": "0x3ee02f08b801b1990ac844d8cd2f119ba6fb9bcf",
-      "nameTag": "Synapse: Bridge Config"
-    },
-    {
-      "address": "0x31fe393815822edacbd81c2262467402199efd0d",
-      "nameTag": "Synapse: Bridge Implementation"
-    },
-    {
-      "address": "0xa2569370a9d4841c9a62fc51269110f2eb7e0171",
-      "nameTag": "Synapse: Bridge Zap 1"
-    },
-    {
-      "address": "0x518b553fe47208389271745155a6abf4a961ef28",
-      "nameTag": "Synapse: Bridge Zap 2"
-    },
-    {
-      "address": "0x6571d6be3d8460cf5f7d6711cd9961860029d85f",
-      "nameTag": "Synapse: Bridge Zap 3"
-    },
-    {
-      "address": "0xd10ef2a513cee0db54e959ef16cac711470b62cf",
-      "nameTag": "Synapse: MiniChef"
-    },
-    {
-      "address": "0x1b84765de8b7566e4ceaf4d0fd3c5af52d3dde4f",
-      "nameTag": "Synapse: nUSD"
-    },
-    {
-      "address": "0x1116898dda4015ed8ddefb84b6e8bc24528af2d8",
-      "nameTag": "Synapse: Stable Liquidity Pool"
-    },
-    {
-      "address": "0x647489df0673e17db3163c47d5233ebb6f5cac70",
-      "nameTag": "Synapse: Timelock"
-    }
-  ]
-}
+[
+  {
+    "address": "0xdf3e63507100dfded269ee113d6c8fb9dc086546",
+    "nameTag": "Synapse Network: Vesting"
+  },
+  {
+    "address": "0x2796317b0ff8538f253012862c06787adfb8ceb6",
+    "nameTag": "Synapse: Bridge"
+  },
+  {
+    "address": "0x3ee02f08b801b1990ac844d8cd2f119ba6fb9bcf",
+    "nameTag": "Synapse: Bridge Config"
+  },
+  {
+    "address": "0x31fe393815822edacbd81c2262467402199efd0d",
+    "nameTag": "Synapse: Bridge Implementation"
+  },
+  {
+    "address": "0xa2569370a9d4841c9a62fc51269110f2eb7e0171",
+    "nameTag": "Synapse: Bridge Zap 1"
+  },
+  {
+    "address": "0x518b553fe47208389271745155a6abf4a961ef28",
+    "nameTag": "Synapse: Bridge Zap 2"
+  },
+  {
+    "address": "0x6571d6be3d8460cf5f7d6711cd9961860029d85f",
+    "nameTag": "Synapse: Bridge Zap 3"
+  },
+  {
+    "address": "0xd10ef2a513cee0db54e959ef16cac711470b62cf",
+    "nameTag": "Synapse: MiniChef"
+  },
+  {
+    "address": "0x1b84765de8b7566e4ceaf4d0fd3c5af52d3dde4f",
+    "nameTag": "Synapse: nUSD"
+  },
+  {
+    "address": "0x1116898dda4015ed8ddefb84b6e8bc24528af2d8",
+    "nameTag": "Synapse: Stable Liquidity Pool"
+  },
+  {
+    "address": "0x647489df0673e17db3163c47d5233ebb6f5cac70",
+    "nameTag": "Synapse: Timelock"
+  }
+]

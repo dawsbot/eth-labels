@@ -1,0 +1,126 @@
+[
+  {
+    "address": "0xdd3b8084af79b9bae3d1b668c0de08ccc2c9429a",
+    "nameTag": "Abracadabra Money: MIM Token"
+  },
+  {
+    "address": "0x6baa318cf7c51c76e17ae1ebe9bbff96ae017acb",
+    "nameTag": "Apecoin: APE Token"
+  },
+  {
+    "address": "0x5471ea8f739dd37e9b81be9c5c77754d8aa953e4",
+    "nameTag": "Avalabs: AVAX Token"
+  },
+  {
+    "address": "0xf5c6825015280cdfd0b56903f9f8b5a2233476f5",
+    "nameTag": "BNB Chain: BNB Token"
+  },
+  {
+    "address": "0x5b16228b94b68c7ce33af2acc5663ebde4dcfa2d",
+    "nameTag": "Chainlink: LINK Token"
+  },
+  {
+    "address": "0x176211869ca2b568f2a7d4ee941e073a821ee1ff",
+    "nameTag": "Circle: USDC Token"
+  },
+  {
+    "address": "0x1f031f8c523b339c7a831355879e3568fa3eb263",
+    "nameTag": "DeversiFi: DVF Token"
+  },
+  {
+    "address": "0xd1a3abf42f9e66be86cfdea8c5c2c74f041c5e14",
+    "nameTag": "Dmail Network: DMT Token"
+  },
+  {
+    "address": "0x9201f3b9dfab7c13cd659ac5695d12d605b5f1e6",
+    "nameTag": "Echodex: ECP Token"
+  },
+  {
+    "address": "0xa334884bf6b0a066d553d19e507315e839409e62",
+    "nameTag": "Ethos: ERN Token"
+  },
+  {
+    "address": "0x1a89e06b7677a4a321886a8330eec05a061c75ae",
+    "nameTag": "Frogwifcat: WEF Token"
+  },
+  {
+    "address": "0x0e5f2ee8c29e7ebc14e45da7ff90566d8c407db7",
+    "nameTag": "HAPI: HAPI Token"
+  },
+  {
+    "address": "0x0b1a02a7309dfbfad1cd4adc096582c87e8a3ac1",
+    "nameTag": "Horizondex: HZN Token"
+  },
+  {
+    "address": "0x12d950206c3ab03df64c7703e6ff4e368cf1a529",
+    "nameTag": "Huralya: LYA Token"
+  },
+  {
+    "address": "0x3b2f62d42db19b30588648bf1c184865d4c3b1d6",
+    "nameTag": "Kyber Network: KNC Token"
+  },
+  {
+    "address": "0x0963a1abaf36ca88c21032b82e479353126a1c4b",
+    "nameTag": "Leetswap: LEET Token"
+  },
+  {
+    "address": "0x0e076aafd86a71dceac65508daf975425c9d0cb6",
+    "nameTag": "Lido: LDO Token"
+  },
+  {
+    "address": "0xb97f21d1f2508ff5c73e7b5af02847640b1ff75d",
+    "nameTag": "Linea Bank: LAB Token"
+  },
+  {
+    "address": "0x07c14ecf64a6052b514f10c5dec7a73c862853a5",
+    "nameTag": "Linea Kishu: LKISHU Token"
+  },
+  {
+    "address": "0x7d43aabc515c356145049227cee54b608342c0ad",
+    "nameTag": "Linea: BUSD Token"
+  },
+  {
+    "address": "0xe5d7c2a44ffddf6b295a15c148167daaaf5cf34f",
+    "nameTag": "Linea: WETH Token"
+  },
+  {
+    "address": "0x4af15ec2a0bd43db75dd04e62faa3b8ef36b00d5",
+    "nameTag": "Maker: DAI Token"
+  },
+  {
+    "address": "0x2140ea50bc3b6ac3971f9e9ea93a1442665670e4",
+    "nameTag": "NFTEarth: NFTE Token"
+  },
+  {
+    "address": "0x997bf0ebf2a2a2e8189493cedfd19bcdb077c0d0",
+    "nameTag": "NoobysSwap: NBS Token"
+  },
+  {
+    "address": "0x7da14988e4f390c2e34ed41df1814467d3ade0c3",
+    "nameTag": "PEPE: PEPE Token"
+  },
+  {
+    "address": "0x265b25e22bcd7f10a5bd6e6410f10537cc7567e8",
+    "nameTag": "Polygon: MATIC Token"
+  },
+  {
+    "address": "0x99ad925c1dc14ac7cc6ca1244eef8043c74e99d5",
+    "nameTag": "Shiba Inu: SHIB Token"
+  },
+  {
+    "address": "0x68592c5c98c4f4a8a4bc6da2121e65da3d1c0917",
+    "nameTag": "Stable: USDLR Token"
+  },
+  {
+    "address": "0xa219439258ca9da29e9cc4ce5596924745e12b93",
+    "nameTag": "Tether: USDT Token"
+  },
+  {
+    "address": "0x636b22bc471c955a8db60f28d4795066a8201fa3",
+    "nameTag": "Uniswap: UNI Token"
+  },
+  {
+    "address": "0x3aab2285ddcddad8edf438c1bab47e1a9d05a9b4",
+    "nameTag": "Wrapped BTC: WBTC Token"
+  }
+]

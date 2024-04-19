@@ -1,9 +1,6 @@
-{
-  "lastPulled": "2024-04-02T20:44:38.957Z",
-  "data": [
-    {
-      "address": "0xd4a293ae8bb9e0be12e99eb19d48239e8c83a136",
-      "nameTag": "Insureum Token"
-    }
-  ]
-}
+[
+  {
+    "address": "0xd4a293ae8bb9e0be12e99eb19d48239e8c83a136",
+    "nameTag": "Insureum Token"
+  }
+]

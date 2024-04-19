@@ -1,13 +1,4 @@
-{
-  "lastPulled": "2024-04-02T20:57:17.126Z",
-  "data": [
-    {
-      "address": "0x71c7656ec7ab88b098defb751b7401b5f6d8976f",
-      "nameTag": "Etherscan: Donate"
-    },
-    {
-      "address": "0x41626ba92c0c2a1ad38fc83920300434082b1870",
-      "nameTag": "L2BEAT: Donate"
-    }
-  ]
-}
+[
+  { "address": "0x71c7656e...5f6d8976f", "nameTag": "Etherscan: Donate" },
+  { "address": "0x41626ba9...4082b1870", "nameTag": "L2BEAT: Donate" }
+]

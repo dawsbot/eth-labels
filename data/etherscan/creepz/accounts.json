@@ -1,37 +1,34 @@
-{
-  "lastPulled": "2024-04-02T20:41:32.021Z",
-  "data": [
-    {
-      "address": "0x5f4a54e29ccb8a02cdf7d7bfa8a0999a8330cced",
-      "nameTag": "Creepz: ARMS Token"
-    },
-    {
-      "address": "0xfe8c6d19365453d26af321d0e8c910428c23873f",
-      "nameTag": "Creepz: CBC Token"
-    },
-    {
-      "address": "0x4609ebf4827f67986316e5b05b52f03d6d574bd9",
-      "nameTag": "Creepz: Deployer 1"
-    },
-    {
-      "address": "0x1cc5c8544e370a0588d6dc00f5cad90ccb75cc1c",
-      "nameTag": "Creepz: Deployer 2"
-    },
-    {
-      "address": "0x058620596e3cf5d328dbbc4407b80038f2fde7e9",
-      "nameTag": "Creepz: Deployer 3"
-    },
-    {
-      "address": "0xc3503192343eae4b435e4a1211c5d28bf6f6a696",
-      "nameTag": "Creepz: Invasion Grounds"
-    },
-    {
-      "address": "0xf1083e064f92db0561fd540f982cbf73a4e2f8f6",
-      "nameTag": "Creepz: SHAPE Token"
-    },
-    {
-      "address": "0xa63673fd80e67aaeab5489c61760a490476a748a",
-      "nameTag": "Creepz: VAULT Token"
-    }
-  ]
-}
+[
+  {
+    "address": "0x5f4a54e29ccb8a02cdf7d7bfa8a0999a8330cced",
+    "nameTag": "Creepz: ARMS Token"
+  },
+  {
+    "address": "0xfe8c6d19365453d26af321d0e8c910428c23873f",
+    "nameTag": "Creepz: CBC Token"
+  },
+  {
+    "address": "0x4609ebf4827f67986316e5b05b52f03d6d574bd9",
+    "nameTag": "Creepz: Deployer 1"
+  },
+  {
+    "address": "0x1cc5c8544e370a0588d6dc00f5cad90ccb75cc1c",
+    "nameTag": "Creepz: Deployer 2"
+  },
+  {
+    "address": "0x058620596e3cf5d328dbbc4407b80038f2fde7e9",
+    "nameTag": "Creepz: Deployer 3"
+  },
+  {
+    "address": "0xc3503192343eae4b435e4a1211c5d28bf6f6a696",
+    "nameTag": "Creepz: Invasion Grounds"
+  },
+  {
+    "address": "0xf1083e064f92db0561fd540f982cbf73a4e2f8f6",
+    "nameTag": "Creepz: SHAPE Token"
+  },
+  {
+    "address": "0xa63673fd80e67aaeab5489c61760a490476a748a",
+    "nameTag": "Creepz: VAULT Token"
+  }
+]

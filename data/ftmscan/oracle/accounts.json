@@ -1,42 +1,38 @@
-{
-  "lastPulled": "2024-04-03T06:22:16.138Z",
-  "length": 9,
-  "data": [
-    {
-      "address": "0x8aa7e17f96647e08a54880521b2f3e7f99aa11ca",
-      "nameTag": "Based Finance: Oracle"
-    },
-    {
-      "address": "0x6b79d5f425e9deed2a3b83903da2bf88b31aa044",
-      "nameTag": "Creditum: Oracle"
-    },
-    {
-      "address": "0x3967e99b02d86ffc84fb69fd9a7c136952906201",
-      "nameTag": "DEUS Finance: Oracle"
-    },
-    {
-      "address": "0x022fc3e5df5d474ec1b40dbb83bd71c23fb8c664",
-      "nameTag": "Fantasm Finance: Master Oracle"
-    },
-    {
-      "address": "0x33dbc435ff3ec866d4d95bce35695943af3d074b",
-      "nameTag": "Fantasm Finance: Oracle FSM - FTM"
-    },
-    {
-      "address": "0x287d95c954bbfc19720b320a8bfb1a60cc8cf41b",
-      "nameTag": "Fantasm Finance: Oracle XFTM- FTM"
-    },
-    {
-      "address": "0xc417d14f3a527cce4a1bfc0ac7ce38f8121c0030",
-      "nameTag": "MiniVerse Finance: Oracle"
-    },
-    {
-      "address": "0x05cf468c96d8ae739222ad856d8d3c0b2d0d02ac",
-      "nameTag": "Revest Finance: Chainlink Oracle"
-    },
-    {
-      "address": "0xf010b09bfab30e9db9a51562211a215115ebb0c2",
-      "nameTag": "Revest Finance: Uniswap Oracle"
-    }
-  ]
-}
+[
+  {
+    "address": "0x8aa7e17f96647e08a54880521b2f3e7f99aa11ca",
+    "nameTag": "Based Finance: Oracle"
+  },
+  {
+    "address": "0x6b79d5f425e9deed2a3b83903da2bf88b31aa044",
+    "nameTag": "Creditum: Oracle"
+  },
+  {
+    "address": "0x3967e99b02d86ffc84fb69fd9a7c136952906201",
+    "nameTag": "DEUS Finance: Oracle"
+  },
+  {
+    "address": "0x022fc3e5df5d474ec1b40dbb83bd71c23fb8c664",
+    "nameTag": "Fantasm Finance: Master Oracle"
+  },
+  {
+    "address": "0x33dbc435ff3ec866d4d95bce35695943af3d074b",
+    "nameTag": "Fantasm Finance: Oracle FSM - FTM"
+  },
+  {
+    "address": "0x287d95c954bbfc19720b320a8bfb1a60cc8cf41b",
+    "nameTag": "Fantasm Finance: Oracle XFTM- FTM"
+  },
+  {
+    "address": "0xc417d14f3a527cce4a1bfc0ac7ce38f8121c0030",
+    "nameTag": "MiniVerse Finance: Oracle"
+  },
+  {
+    "address": "0x05cf468c96d8ae739222ad856d8d3c0b2d0d02ac",
+    "nameTag": "Revest Finance: Chainlink Oracle"
+  },
+  {
+    "address": "0xf010b09bfab30e9db9a51562211a215115ebb0c2",
+    "nameTag": "Revest Finance: Uniswap Oracle"
+  }
+]

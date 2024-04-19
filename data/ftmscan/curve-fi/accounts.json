@@ -1,90 +1,86 @@
-{
-  "lastPulled": "2024-04-03T06:21:57.593Z",
-  "length": 21,
-  "data": [
-    {
-      "address": "0x8866414733f22295b7563f9c5299715d2d76caf4",
-      "nameTag": "Curve.fi: 2Pool Gauge Token"
-    },
-    {
-      "address": "0x27e611fd27b276acbd5ffd632e5eaebec9761e40",
-      "nameTag": "Curve.fi: 2Pool Pool"
-    },
-    {
-      "address": "0xb9c05b8ee41fdcbd9956114b3af15834fdedcb54",
-      "nameTag": "Curve.fi: 2Pool Root Chain Gauge"
-    },
-    {
-      "address": "0x58e57ca18b7a47112b877e31929798cd3d703b0f",
-      "nameTag": "Curve.fi: 3CrvCrypto Token"
-    },
-    {
-      "address": "0x1e4f97b9f9f913c46f1632781732927b9019c68b",
-      "nameTag": "Curve.fi: CRV Token"
-    },
-    {
-      "address": "0x06e3c4da96fd076b97b7ca3ae23527314b6140df",
-      "nameTag": "Curve.fi: fUSDT Gauge Token"
-    },
-    {
-      "address": "0xfe1a3dd8b169fb5bf0d5dbfe813d956f39ff6310",
-      "nameTag": "Curve.fi: fUSDT Root Chain Gauge"
-    },
-    {
-      "address": "0x92d5ebf3593a92888c25c0abef126583d4b5312e",
-      "nameTag": "Curve.fi: fUSDT Token"
-    },
-    {
-      "address": "0xd4f94d0aaa640bbb72b5eec2d85f6d114d81a88e",
-      "nameTag": "Curve.fi: geist Gauge Token"
-    },
-    {
-      "address": "0xd02a30d33153877bc20e5721ee53dedee0422b2f",
-      "nameTag": "Curve.fi: geistCurve Token"
-    },
-    {
-      "address": "0xdf38ec60c0ec001142a33eaa039e49e9b84e64ed",
-      "nameTag": "Curve.fi: ibCurve Token"
-    },
-    {
-      "address": "0xdee85272eae1ab4afbc6433f4d819babc9c7045a",
-      "nameTag": "Curve.fi: ironbank Gauge Token"
-    },
-    {
-      "address": "0xbdff0c27dd073c119ebcb1299a68a6a92ae607f0",
-      "nameTag": "Curve.fi: renBTC Gauge Token"
-    },
-    {
-      "address": "0x5b5cfe992adac0c9d48e05854b2d91c73a003858",
-      "nameTag": "Curve.fi: renBTC LP Token"
-    },
-    {
-      "address": "0x3ef6a01a0f81d6046290f3e2a8c5b843e738e604",
-      "nameTag": "Curve.fi: renBTC Pool"
-    },
-    {
-      "address": "0xfdb129ea4b6f557b07bcdcede54f665b7b6bc281",
-      "nameTag": "Curve.fi: renBTC Root Chain Gauge"
-    },
-    {
-      "address": "0x00702bbdead24c40647f235f15971db0867f6bdb",
-      "nameTag": "Curve.fi: tricrypto Gauge Token"
-    },
-    {
-      "address": "0xa42bd395f183726d1a8774cfa795771f8acfd777",
-      "nameTag": "Curve: fUSDT Deposit"
-    },
-    {
-      "address": "0x0fa949783947bf6c1b171db13aeacbb488845b3f",
-      "nameTag": "Curve: geist"
-    },
-    {
-      "address": "0x4fc8d635c3cb1d0aa123859e2b2587d0ff2707b1",
-      "nameTag": "Curve: ironbank"
-    },
-    {
-      "address": "0x3a1659ddcf2339be3aea159ca010979fb49155ff",
-      "nameTag": "Curve: tricrypto"
-    }
-  ]
-}
+[
+  {
+    "address": "0x8866414733f22295b7563f9c5299715d2d76caf4",
+    "nameTag": "Curve.fi: 2Pool Gauge Token"
+  },
+  {
+    "address": "0x27e611fd27b276acbd5ffd632e5eaebec9761e40",
+    "nameTag": "Curve.fi: 2Pool Pool"
+  },
+  {
+    "address": "0xb9c05b8ee41fdcbd9956114b3af15834fdedcb54",
+    "nameTag": "Curve.fi: 2Pool Root Chain Gauge"
+  },
+  {
+    "address": "0x58e57ca18b7a47112b877e31929798cd3d703b0f",
+    "nameTag": "Curve.fi: 3CrvCrypto Token"
+  },
+  {
+    "address": "0x1e4f97b9f9f913c46f1632781732927b9019c68b",
+    "nameTag": "Curve.fi: CRV Token"
+  },
+  {
+    "address": "0x06e3c4da96fd076b97b7ca3ae23527314b6140df",
+    "nameTag": "Curve.fi: fUSDT Gauge Token"
+  },
+  {
+    "address": "0xfe1a3dd8b169fb5bf0d5dbfe813d956f39ff6310",
+    "nameTag": "Curve.fi: fUSDT Root Chain Gauge"
+  },
+  {
+    "address": "0x92d5ebf3593a92888c25c0abef126583d4b5312e",
+    "nameTag": "Curve.fi: fUSDT Token"
+  },
+  {
+    "address": "0xd4f94d0aaa640bbb72b5eec2d85f6d114d81a88e",
+    "nameTag": "Curve.fi: geist Gauge Token"
+  },
+  {
+    "address": "0xd02a30d33153877bc20e5721ee53dedee0422b2f",
+    "nameTag": "Curve.fi: geistCurve Token"
+  },
+  {
+    "address": "0xdf38ec60c0ec001142a33eaa039e49e9b84e64ed",
+    "nameTag": "Curve.fi: ibCurve Token"
+  },
+  {
+    "address": "0xdee85272eae1ab4afbc6433f4d819babc9c7045a",
+    "nameTag": "Curve.fi: ironbank Gauge Token"
+  },
+  {
+    "address": "0xbdff0c27dd073c119ebcb1299a68a6a92ae607f0",
+    "nameTag": "Curve.fi: renBTC Gauge Token"
+  },
+  {
+    "address": "0x5b5cfe992adac0c9d48e05854b2d91c73a003858",
+    "nameTag": "Curve.fi: renBTC LP Token"
+  },
+  {
+    "address": "0x3ef6a01a0f81d6046290f3e2a8c5b843e738e604",
+    "nameTag": "Curve.fi: renBTC Pool"
+  },
+  {
+    "address": "0xfdb129ea4b6f557b07bcdcede54f665b7b6bc281",
+    "nameTag": "Curve.fi: renBTC Root Chain Gauge"
+  },
+  {
+    "address": "0x00702bbdead24c40647f235f15971db0867f6bdb",
+    "nameTag": "Curve.fi: tricrypto Gauge Token"
+  },
+  {
+    "address": "0xa42bd395f183726d1a8774cfa795771f8acfd777",
+    "nameTag": "Curve: fUSDT Deposit"
+  },
+  {
+    "address": "0x0fa949783947bf6c1b171db13aeacbb488845b3f",
+    "nameTag": "Curve: geist"
+  },
+  {
+    "address": "0x4fc8d635c3cb1d0aa123859e2b2587d0ff2707b1",
+    "nameTag": "Curve: ironbank"
+  },
+  {
+    "address": "0x3a1659ddcf2339be3aea159ca010979fb49155ff",
+    "nameTag": "Curve: tricrypto"
+  }
+]

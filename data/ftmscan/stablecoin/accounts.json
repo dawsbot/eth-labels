@@ -1,22 +1,18 @@
-{
-  "lastPulled": "2024-04-03T06:22:21.866Z",
-  "length": 4,
-  "data": [
-    {
-      "address": "0xaa798bf5ec09b6e3bc059ea4d36d4ca53e063ef7",
-      "nameTag": "LayerZero: crvUSD Token"
-    },
-    {
-      "address": "0x91a40c733c97a6e1bf876eaf9ed8c08102eb491f",
-      "nameTag": "LayerZero: DAI Token"
-    },
-    {
-      "address": "0x28a92dde19d9989f39a49905d7c9c2fac7799bdf",
-      "nameTag": "LayerZero: USDC Token"
-    },
-    {
-      "address": "0xcc1b99ddac1a33c201a742a1851662e87bc7f22c",
-      "nameTag": "LayerZero: USDT Token"
-    }
-  ]
-}
+[
+  {
+    "address": "0xaa798bf5ec09b6e3bc059ea4d36d4ca53e063ef7",
+    "nameTag": "LayerZero: crvUSD Token"
+  },
+  {
+    "address": "0x91a40c733c97a6e1bf876eaf9ed8c08102eb491f",
+    "nameTag": "LayerZero: DAI Token"
+  },
+  {
+    "address": "0x28a92dde19d9989f39a49905d7c9c2fac7799bdf",
+    "nameTag": "LayerZero: USDC Token"
+  },
+  {
+    "address": "0xcc1b99ddac1a33c201a742a1851662e87bc7f22c",
+    "nameTag": "LayerZero: USDT Token"
+  }
+]

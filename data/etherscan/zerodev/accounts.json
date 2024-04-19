@@ -1,17 +1,8 @@
-{
-  "lastPulled": "2024-04-02T20:52:37.786Z",
-  "data": [
-    {
-      "address": "0x4e4946298614fc299b50c947289f4ad0572cb9ce",
-      "nameTag": ""
-    },
-    {
-      "address": "0xaee9762ce625e0a8f7b184670fb57c37bfe1d0f1",
-      "nameTag": ""
-    },
-    {
-      "address": "0x3cfeb8b4b35bd5093990798b30a8610c80809bd8",
-      "nameTag": "ZeroDev: ERC-4337 Bundler 1"
-    }
-  ]
-}
+[
+  { "address": "0x4e4946298614fc299b50c947289f4ad0572cb9ce", "nameTag": "" },
+  { "address": "0xaee9762ce625e0a8f7b184670fb57c37bfe1d0f1", "nameTag": "" },
+  {
+    "address": "0x3cfeb8b4b35bd5093990798b30a8610c80809bd8",
+    "nameTag": "ZeroDev: ERC-4337 Bundler 1"
+  }
+]

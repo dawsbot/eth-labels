@@ -1,49 +1,46 @@
-{
-  "lastPulled": "2024-04-02T20:41:11.436Z",
-  "data": [
-    {
-      "address": "0xbe0eb53f46cd790cd13851d5eff43d12404d33e8",
-      "nameTag": "Binance 7"
-    },
-    {
-      "address": "0x2b49ce21ad2004cfb3d0b51b2e8ec0406d632513",
-      "nameTag": "Bitbee"
-    },
-    {
-      "address": "0xe92d1a43df510f82c66382592a047d288f85226f",
-      "nameTag": "Bitfinex 19"
-    },
-    {
-      "address": "0x33683b94334eebc9bd3ea85ddbda4a86fb461405",
-      "nameTag": "Coinbene: Cold Wallet"
-    },
-    {
-      "address": "0x61edcdf5bb737adffe5043706e7c5bb1f1a56eea",
-      "nameTag": "Gemini 3"
-    },
-    {
-      "address": "0x6025d96932d378be7d0a46343b437678a126ecca",
-      "nameTag": "HitBTC: Hot Wallet"
-    },
-    {
-      "address": "0xd40cc2a93c84bf220b25b5b9b2dc49136f775a3c",
-      "nameTag": "Innovaminex: Cold Wallet"
-    },
-    {
-      "address": "0x53d284357ec70ce289d6d64134dfac8e511c8a3d",
-      "nameTag": "Kraken 6"
-    },
-    {
-      "address": "0x88e343f4599292c2cffe683c1bb93cd3480bdbab",
-      "nameTag": "PXN: Cold Wallet"
-    },
-    {
-      "address": "0xc9cf0ec93d764f5c9571fd12f764bae7fc87c84e",
-      "nameTag": "Upbit: Cold Wallet"
-    },
-    {
-      "address": "0x15c5312e24482547ff35899afedcaeb572ecb029",
-      "nameTag": "xs2.exchange"
-    }
-  ]
-}
+[
+  {
+    "address": "0xbe0eb53f46cd790cd13851d5eff43d12404d33e8",
+    "nameTag": "Binance 7"
+  },
+  {
+    "address": "0x2b49ce21ad2004cfb3d0b51b2e8ec0406d632513",
+    "nameTag": "Bitbee"
+  },
+  {
+    "address": "0xe92d1a43df510f82c66382592a047d288f85226f",
+    "nameTag": "Bitfinex 19"
+  },
+  {
+    "address": "0x33683b94334eebc9bd3ea85ddbda4a86fb461405",
+    "nameTag": "Coinbene: Cold Wallet"
+  },
+  {
+    "address": "0x61edcdf5bb737adffe5043706e7c5bb1f1a56eea",
+    "nameTag": "Gemini 3"
+  },
+  {
+    "address": "0x6025d96932d378be7d0a46343b437678a126ecca",
+    "nameTag": "HitBTC: Hot Wallet"
+  },
+  {
+    "address": "0xd40cc2a93c84bf220b25b5b9b2dc49136f775a3c",
+    "nameTag": "Innovaminex: Cold Wallet"
+  },
+  {
+    "address": "0x53d284357ec70ce289d6d64134dfac8e511c8a3d",
+    "nameTag": "Kraken 6"
+  },
+  {
+    "address": "0x88e343f4599292c2cffe683c1bb93cd3480bdbab",
+    "nameTag": "PXN: Cold Wallet"
+  },
+  {
+    "address": "0xc9cf0ec93d764f5c9571fd12f764bae7fc87c84e",
+    "nameTag": "Upbit: Cold Wallet"
+  },
+  {
+    "address": "0x15c5312e24482547ff35899afedcaeb572ecb029",
+    "nameTag": "xs2.exchange"
+  }
+]

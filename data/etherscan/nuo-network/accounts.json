@@ -1,61 +1,58 @@
-{
-  "lastPulled": "2024-04-02T20:47:10.658Z",
-  "data": [
-    {
-      "address": "0x78b37409628e10df0b661c6b205b872a4df8dd6e",
-      "nameTag": "Nuo Network: Account"
-    },
-    {
-      "address": "0xf5a38fbc26c720c79350b99d9c0bd42b3e9b8316",
-      "nameTag": "Nuo Network: Account Factory"
-    },
-    {
-      "address": "0x4e9d7f37eadc6fef64b5f5dccc4deb6224667677",
-      "nameTag": "Nuo Network: Account Factory v2"
-    },
-    {
-      "address": "0x431f429035a1e3059d5c6a9a83208c6d3143d925",
-      "nameTag": "Nuo Network: Config"
-    },
-    {
-      "address": "0x2929e21109901461659c0f26ad7f0e7633ea6539",
-      "nameTag": "Nuo Network: DateTime"
-    },
-    {
-      "address": "0x3e990e787a88cd4426fb3af9b90dd1d951e2cb87",
-      "nameTag": "Nuo Network: Deployer"
-    },
-    {
-      "address": "0xde4a88ef731cc55450c76e9307a64e94146006f7",
-      "nameTag": "Nuo Network: DS Guard"
-    },
-    {
-      "address": "0x8dc3bcbb4b506fa2becd065ff4425dee32f156a6",
-      "nameTag": "Nuo Network: Kernel"
-    },
-    {
-      "address": "0xaf38668f4719ecf9452dc0300be3f6c83cbf3721",
-      "nameTag": "Nuo Network: Kernel Escrow"
-    },
-    {
-      "address": "0x521550e569bc80f1b4957c4f3fd3d677d9ca31f1",
-      "nameTag": "Nuo Network: Kyber Connector"
-    },
-    {
-      "address": "0x740f8b58f5562c8379f2a8c2230c9be5c03ac3fc",
-      "nameTag": "Nuo Network: MKernel"
-    },
-    {
-      "address": "0x64d14595152b430cf6940da15c6e39545c7c5b7e",
-      "nameTag": "Nuo Network: Reserve"
-    },
-    {
-      "address": "0x802275979b020f0ec871c5ec1db6e412b72ff20b",
-      "nameTag": "Nuo Network: Reserve Escrow"
-    },
-    {
-      "address": "0x9550050d102ff42a2a683a9fa23b8f3fb2b378c8",
-      "nameTag": "Nuo Network: Uniswap Connector"
-    }
-  ]
-}
+[
+  {
+    "address": "0x78b37409628e10df0b661c6b205b872a4df8dd6e",
+    "nameTag": "Nuo Network: Account"
+  },
+  {
+    "address": "0xf5a38fbc26c720c79350b99d9c0bd42b3e9b8316",
+    "nameTag": "Nuo Network: Account Factory"
+  },
+  {
+    "address": "0x4e9d7f37eadc6fef64b5f5dccc4deb6224667677",
+    "nameTag": "Nuo Network: Account Factory v2"
+  },
+  {
+    "address": "0x431f429035a1e3059d5c6a9a83208c6d3143d925",
+    "nameTag": "Nuo Network: Config"
+  },
+  {
+    "address": "0x2929e21109901461659c0f26ad7f0e7633ea6539",
+    "nameTag": "Nuo Network: DateTime"
+  },
+  {
+    "address": "0x3e990e787a88cd4426fb3af9b90dd1d951e2cb87",
+    "nameTag": "Nuo Network: Deployer"
+  },
+  {
+    "address": "0xde4a88ef731cc55450c76e9307a64e94146006f7",
+    "nameTag": "Nuo Network: DS Guard"
+  },
+  {
+    "address": "0x8dc3bcbb4b506fa2becd065ff4425dee32f156a6",
+    "nameTag": "Nuo Network: Kernel"
+  },
+  {
+    "address": "0xaf38668f4719ecf9452dc0300be3f6c83cbf3721",
+    "nameTag": "Nuo Network: Kernel Escrow"
+  },
+  {
+    "address": "0x521550e569bc80f1b4957c4f3fd3d677d9ca31f1",
+    "nameTag": "Nuo Network: Kyber Connector"
+  },
+  {
+    "address": "0x740f8b58f5562c8379f2a8c2230c9be5c03ac3fc",
+    "nameTag": "Nuo Network: MKernel"
+  },
+  {
+    "address": "0x64d14595152b430cf6940da15c6e39545c7c5b7e",
+    "nameTag": "Nuo Network: Reserve"
+  },
+  {
+    "address": "0x802275979b020f0ec871c5ec1db6e412b72ff20b",
+    "nameTag": "Nuo Network: Reserve Escrow"
+  },
+  {
+    "address": "0x9550050d102ff42a2a683a9fa23b8f3fb2b378c8",
+    "nameTag": "Nuo Network: Uniswap Connector"
+  }
+]
