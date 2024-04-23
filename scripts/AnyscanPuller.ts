@@ -33,6 +33,7 @@ export type TokenRow = {
   tokenName: string;
   tokenSymbol: string;
   website: string;
+  tokenImage?: string;
 };
 export type AccountRows = Array<AccountRow>;
 export type TokenRows = Array<TokenRow>;

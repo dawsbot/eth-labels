@@ -8,6 +8,7 @@ const etherscanDirectory = "mocks/etherscan";
 const basescanDirectory = "mocks/basescan";
 const optimismDirectory = "mocks/optimism";
 const celoDirectory = "mocks/celo";
+const ftmscanDirectory = "mocks/ftmscan";
 
 function getMocks(directory: string) {
   return {
@@ -21,6 +22,7 @@ const basescanMocks = getMocks(basescanDirectory);
 const etherscanMocks = getMocks(etherscanDirectory);
 const optimismMocks = getMocks(optimismDirectory);
 const celoMocks = getMocks(celoDirectory);
+const ftmMocks = getMocks(ftmscanDirectory);
 
 describe("celo", () => {
   const htmlParser = scanConfig.celo.htmlParser;
@@ -181,5 +183,41 @@ describe("etherscan", () => {
       etherscanHtmlParser.selectAllAccountAddresses(invalidHtml);
     expect(addressRows).toHaveLength(0);
     expect(Array.isArray(addressRows)).toBe(true);
+  });
+});
+
+describe("ftmscan", () => {
+  const htmlParser = scanConfig.ftmscan.htmlParser;
+  test("should parse labelcloud", () => {
+    const allLabels = htmlParser.selectAllLabels(ftmMocks.mockLabelCloudHtml);
+
+    expect(allLabels).toHaveLength(115);
+    expect(allLabels[0]).toBe(`/accounts/label/0x-protocol?size=10000`);
+  });
+  test("should parse account addresses", () => {
+    const accountRows = htmlParser.selectAllAccountAddresses(
+      ftmMocks.mockAccountsHtml,
+    );
+
+    expect(accountRows).toHaveLength(52);
+    expect(accountRows).toContainEqual({
+      address: "0xf329e36C7bF6E5E86ce2150875a84Ce77f477375",
+      nameTag: "Aave: aAAVE Token V3",
+    });
+  });
+  test("should parse token addresses", () => {
+    const tokenRows = htmlParser.selectAllTokenAddresses(
+      ftmMocks.mockTokensHtml,
+    );
+
+    expect(tokenRows).toHaveLength(31);
+    expect(tokenRows).toContainEqual({
+      address: "0x4a1c3ad6ed28a636ee1751c69071f6be75deb8b8",
+      tokenName: "Aave Fantom Variable Debt WFTM",
+      tokenSymbol: "variableDebtFanWFTM",
+      tokenImage:
+        "https://ftmscan.com/assets/fantom/images/svg/empty-token.svg?v=24.3.4.0",
+      website: "",
+    });
   });
 });
