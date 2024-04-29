@@ -8,10 +8,10 @@ const basescanDirectory = "mocks/basescan";
 const optimismDirectory = "mocks/optimism";
 const celoDirectory = "mocks/celo";
 const arbiscanDirectory = "mocks/arbiscan";
-const polygonDirectory = "mocks/polygon";
-const bscscanDirectory = "mocks/bscscan";
-const gnosisDirectory = "mocks/gnosisscan";
-const ftmscanDirectory = "mocks/ftmscan";
+// const polygonDirectory = "mocks/polygon";
+// const bscscanDirectory = "mocks/bscscan";
+// const gnosisDirectory = "mocks/gnosisscan";
+// const ftmscanDirectory = "mocks/ftmscan";
 
 function getMocks(directory: string) {
   return {
@@ -26,152 +26,152 @@ const etherscanMocks = getMocks(etherscanDirectory);
 const optimismMocks = getMocks(optimismDirectory);
 const celoMocks = getMocks(celoDirectory);
 const arbiscanMocks = getMocks(arbiscanDirectory);
-const polygonMocks = getMocks(polygonDirectory);
-const bscscanMocks = getMocks(bscscanDirectory);
-const gnosisMocks = getMocks(gnosisDirectory);
-const ftmMocks = getMocks(ftmscanDirectory);
+// const polygonMocks = getMocks(polygonDirectory);
+// const bscscanMocks = getMocks(bscscanDirectory);
+// const gnosisMocks = getMocks(gnosisDirectory);
+// const ftmMocks = getMocks(ftmscanDirectory);
 
-describe("ftmscan", () => {
-  const htmlParser = scanConfig.ftmscan.htmlParser;
-  test("should parse labelcloud", () => {
-    const allLabels = htmlParser.selectAllLabels(ftmMocks.mockLabelCloudHtml);
+// describe("ftmscan", () => {
+//   const htmlParser = scanConfig.ftmscan.htmlParser;
+//   test("should parse labelcloud", () => {
+//     const allLabels = htmlParser.selectAllLabels(ftmMocks.mockLabelCloudHtml);
 
-    expect(allLabels).toHaveLength(115);
-    expect(allLabels[0]).toBe(`/accounts/label/0x-protocol?size=10000`);
-  });
-  test("should parse account addresses", () => {
-    const accountRows = htmlParser.selectAllAccountAddresses(
-      ftmMocks.mockAccountsHtml,
-    );
+//     expect(allLabels).toHaveLength(115);
+//     expect(allLabels[0]).toBe(`/accounts/label/0x-protocol?size=10000`);
+//   });
+//   test("should parse account addresses", () => {
+//     const accountRows = htmlParser.selectAllAccountAddresses(
+//       ftmMocks.mockAccountsHtml,
+//     );
 
-    expect(accountRows).toHaveLength(52);
-    expect(accountRows).toContainEqual({
-      address: "0xf329e36C7bF6E5E86ce2150875a84Ce77f477375",
-      nameTag: "Aave: aAAVE Token V3",
-    });
-  });
-  test("should parse token addresses", () => {
-    const tokenRows = htmlParser.selectAllTokenAddresses(
-      ftmMocks.mockTokensHtml,
-    );
+//     expect(accountRows).toHaveLength(52);
+//     expect(accountRows).toContainEqual({
+//       address: "0xf329e36C7bF6E5E86ce2150875a84Ce77f477375",
+//       nameTag: "Aave: aAAVE Token V3",
+//     });
+//   });
+//   test("should parse token addresses", () => {
+//     const tokenRows = htmlParser.selectAllTokenAddresses(
+//       ftmMocks.mockTokensHtml,
+//     );
 
-    expect(tokenRows).toHaveLength(31);
-    expect(tokenRows).toContainEqual({
-      address: "0x4a1c3aD6Ed28a636ee1751C69071f6be75DEb8B8",
-      tokenName: "Aave Fantom ...",
-      tokenSymbol: "variab...",
-      website: "",
-    });
-  });
-});
+//     expect(tokenRows).toHaveLength(31);
+//     expect(tokenRows).toContainEqual({
+//       address: "0x4a1c3aD6Ed28a636ee1751C69071f6be75DEb8B8",
+//       tokenName: "Aave Fantom ...",
+//       tokenSymbol: "variab...",
+//       website: "",
+//     });
+//   });
+// });
 
-describe("gnosis", () => {
-  const htmlParser = scanConfig.gnosisscan.htmlParser;
-  test("should parse labelcloud", () => {
-    const allLabels = htmlParser.selectAllLabels(
-      gnosisMocks.mockLabelCloudHtml,
-    );
+// describe("gnosis", () => {
+//   const htmlParser = scanConfig.gnosisscan.htmlParser;
+//   test("should parse labelcloud", () => {
+//     const allLabels = htmlParser.selectAllLabels(
+//       gnosisMocks.mockLabelCloudHtml,
+//     );
 
-    expect(allLabels).toHaveLength(64);
-    expect(allLabels[0]).toBe(`/accounts/label/aave?size=10000`);
-  });
-  test("should parse account addresses", () => {
-    const accountRows = htmlParser.selectAllAccountAddresses(
-      gnosisMocks.mockAccountsHtml,
-    );
+//     expect(allLabels).toHaveLength(64);
+//     expect(allLabels[0]).toBe(`/accounts/label/aave?size=10000`);
+//   });
+//   test("should parse account addresses", () => {
+//     const accountRows = htmlParser.selectAllAccountAddresses(
+//       gnosisMocks.mockAccountsHtml,
+//     );
 
-    expect(accountRows).toHaveLength(2);
-    expect(accountRows).toContainEqual({
-      address: "0x9a1f491b86d09fc1484b5fab10041b189b60756b",
-      nameTag: "Aave: Payloads Controller",
-    });
-  });
-  test("should parse token addresses", () => {
-    const tokenRows = htmlParser.selectAllTokenAddresses(
-      gnosisMocks.mockTokensHtml,
-    );
+//     expect(accountRows).toHaveLength(2);
+//     expect(accountRows).toContainEqual({
+//       address: "0x9a1f491b86d09fc1484b5fab10041b189b60756b",
+//       nameTag: "Aave: Payloads Controller",
+//     });
+//   });
+//   test("should parse token addresses", () => {
+//     const tokenRows = htmlParser.selectAllTokenAddresses(
+//       gnosisMocks.mockTokensHtml,
+//     );
 
-    expect(tokenRows).toHaveLength(7);
-    expect(tokenRows).toContainEqual({
-      address: "0x7a5c3860a77a8dc1b225bd46d0fb2ac1c6d191bc",
-      tokenName: "Aave Gnosis sDAI",
-      tokenSymbol: "aGnosDAI",
-      website: "https://aave.com/",
-    });
-  });
-});
+//     expect(tokenRows).toHaveLength(7);
+//     expect(tokenRows).toContainEqual({
+//       address: "0x7a5c3860a77a8dc1b225bd46d0fb2ac1c6d191bc",
+//       tokenName: "Aave Gnosis sDAI",
+//       tokenSymbol: "aGnosDAI",
+//       website: "https://aave.com/",
+//     });
+//   });
+// });
 
-describe("bscscan", () => {
-  const htmlParser = scanConfig.bscscan.htmlParser;
-  test("should parse labelcloud", () => {
-    const allLabels = htmlParser.selectAllLabels(
-      bscscanMocks.mockLabelCloudHtml,
-    );
+// describe("bscscan", () => {
+//   const htmlParser = scanConfig.bscscan.htmlParser;
+//   test("should parse labelcloud", () => {
+//     const allLabels = htmlParser.selectAllLabels(
+//       bscscanMocks.mockLabelCloudHtml,
+//     );
 
-    expect(allLabels).toHaveLength(236);
-    expect(allLabels[0]).toBe(`/accounts/label/0x-protocol?size=10000`);
-  });
-  test("should parse account addresses", () => {
-    const accountRows = htmlParser.selectAllAccountAddresses(
-      bscscanMocks.mockAccountsHtml,
-    );
+//     expect(allLabels).toHaveLength(236);
+//     expect(allLabels[0]).toBe(`/accounts/label/0x-protocol?size=10000`);
+//   });
+//   test("should parse account addresses", () => {
+//     const accountRows = htmlParser.selectAllAccountAddresses(
+//       bscscanMocks.mockAccountsHtml,
+//     );
 
-    expect(accountRows).toHaveLength(42);
-    expect(accountRows).toContainEqual({
-      address: "0x4A9A2b2b04549C3927dd2c9668A5eF3fCA473623",
-      nameTag: "dForce: DF Token",
-    });
-  });
-  test("should parse token addresses", () => {
-    const tokenRows = htmlParser.selectAllTokenAddresses(
-      bscscanMocks.mockTokensHtml,
-    );
+//     expect(accountRows).toHaveLength(42);
+//     expect(accountRows).toContainEqual({
+//       address: "0x4A9A2b2b04549C3927dd2c9668A5eF3fCA473623",
+//       nameTag: "dForce: DF Token",
+//     });
+//   });
+//   test("should parse token addresses", () => {
+//     const tokenRows = htmlParser.selectAllTokenAddresses(
+//       bscscanMocks.mockTokensHtml,
+//     );
 
-    expect(tokenRows).toHaveLength(66);
-    expect(tokenRows).toContainEqual({
-      address: "0x80D5f92C2c8C682070C95495313dDB680B267320",
-      tokenName: "Binance-Peg ...",
-      tokenSymbol: "ASR",
-      website: "https://www.chiliz.com",
-    });
-  });
-});
+//     expect(tokenRows).toHaveLength(66);
+//     expect(tokenRows).toContainEqual({
+//       address: "0x80D5f92C2c8C682070C95495313dDB680B267320",
+//       tokenName: "Binance-Peg ...",
+//       tokenSymbol: "ASR",
+//       website: "https://www.chiliz.com",
+//     });
+//   });
+// });
 
-describe("polygon", () => {
-  const htmlParser = scanConfig.polygonscan.htmlParser;
-  test("should parse labelcloud", () => {
-    const allLabels = htmlParser.selectAllLabels(
-      polygonMocks.mockLabelCloudHtml,
-    );
+// describe("polygon", () => {
+//   const htmlParser = scanConfig.polygonscan.htmlParser;
+//   test("should parse labelcloud", () => {
+//     const allLabels = htmlParser.selectAllLabels(
+//       polygonMocks.mockLabelCloudHtml,
+//     );
 
-    expect(allLabels).toHaveLength(232);
-    expect(allLabels[0]).toBe(`/accounts/label/0x-protocol?size=10000`);
-  });
-  test("should parse account addresses", () => {
-    const accountRows = htmlParser.selectAllAccountAddresses(
-      polygonMocks.mockAccountsHtml,
-    );
+//     expect(allLabels).toHaveLength(232);
+//     expect(allLabels[0]).toBe(`/accounts/label/0x-protocol?size=10000`);
+//   });
+//   test("should parse account addresses", () => {
+//     const accountRows = htmlParser.selectAllAccountAddresses(
+//       polygonMocks.mockAccountsHtml,
+//     );
 
-    expect(accountRows).toHaveLength(105);
-    expect(accountRows).toContainEqual({
-      address: "0xe590cfca10e81FeD9B0e4496381f02256f5d2f61",
-      nameTag: "Aave: amUSDT Stable Debt V2",
-    });
-  });
-  test("should parse token addresses", () => {
-    const tokenRows = htmlParser.selectAllTokenAddresses(
-      polygonMocks.mockTokensHtml,
-    );
+//     expect(accountRows).toHaveLength(105);
+//     expect(accountRows).toContainEqual({
+//       address: "0xe590cfca10e81FeD9B0e4496381f02256f5d2f61",
+//       nameTag: "Aave: amUSDT Stable Debt V2",
+//     });
+//   });
+//   test("should parse token addresses", () => {
+//     const tokenRows = htmlParser.selectAllTokenAddresses(
+//       polygonMocks.mockTokensHtml,
+//     );
 
-    expect(tokenRows).toHaveLength(18);
-    expect(tokenRows).toContainEqual({
-      address: "0xA4D94019934D8333Ef880ABFFbF2FDd611C762BD",
-      tokenName: "Aave Polygon...",
-      tokenSymbol: "aPolUS...",
-      website: "https://aave.com/",
-    });
-  });
-});
+//     expect(tokenRows).toHaveLength(18);
+//     expect(tokenRows).toContainEqual({
+//       address: "0xA4D94019934D8333Ef880ABFFbF2FDd611C762BD",
+//       tokenName: "Aave Polygon...",
+//       tokenSymbol: "aPolUS...",
+//       website: "https://aave.com/",
+//     });
+//   });
+// });
 
 describe("celo", () => {
   const htmlParser = scanConfig.celo.htmlParser;

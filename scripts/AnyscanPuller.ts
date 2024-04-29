@@ -33,6 +33,7 @@ export type TokenRow = {
   address: string;
   tokenName: string;
   tokenSymbol: string;
+  tokenImage: string;
   website: string;
 };
 export type AccountRows = Array<AccountRow>;
@@ -46,6 +47,7 @@ export class AnyscanPuller {
   #baseUrl: string;
   #directoryName: string;
   #htmlParser: HtmlParser;
+  public baseUrl: string;
   /**
    * @example
    * const etherscanPuller = new AnyscanPuller(etherscan);
@@ -53,6 +55,7 @@ export class AnyscanPuller {
   public constructor(directoryName: keyof typeof scanConfig) {
     const baseUrl: string = scanConfig[directoryName].website;
     this.#baseUrl = z.string().url().startsWith("https://").parse(baseUrl);
+    this.baseUrl = this.#baseUrl;
     const filenameRegex = /^[a-z0-9_\-.]+$/;
     this.#directoryName = z.string().regex(filenameRegex).parse(directoryName);
     this.#htmlParser = scanConfig[directoryName].htmlParser;
@@ -115,7 +118,7 @@ export class AnyscanPuller {
   /**
    * Enters a username and password, but submit is not automated so that operator can submit captcha.
    */
-  async #login(page: Page) {
+  public async login(page: Page) {
     await page.goto(`${this.#baseUrl}/login`);
     await page.fill(
       "#ContentPlaceHolder1_txtUserName",
@@ -127,7 +130,7 @@ export class AnyscanPuller {
     );
     console.log(`🐢 Waiting for operator to complete login...`);
     // TODO: Update this deprecated function to instead use "page.waitForURL" (https://playwright.dev/docs/api/class-page#page-wait-for-url)
-    await page.waitForNavigation({timeout: 300_000});
+    await page.waitForNavigation({ timeout: 300_000 });
     console.log(`✅ Login completed!`);
   }
 
@@ -246,7 +249,7 @@ export class AnyscanPuller {
       fs.mkdirSync(rootDirectory);
     }
 
-    await this.#login(page);
+    // await this.#login(page);
     const allLabels = await this.#fetchAllLabels(page);
 
     console.log(`\n🐌 Pulling all of tokens started...`);
@@ -263,16 +266,23 @@ export class AnyscanPuller {
         if (!fs.existsSync(outputDirectory)) {
           fs.mkdirSync(outputDirectory);
         }
+        sortedTokenRows.forEach((tokenRow) => {
+          tokenRow.tokenImage = `${this.#baseUrl}${tokenRow.tokenImage.substring(1)}`;
+        });
         fs.writeFileSync(
           path.join(outputDirectory, "tokens.json"),
-          JSON.stringify({lastPulled: new Date().toISOString(), data: sortedTokenRows}, null, 2),
+          JSON.stringify(sortedTokenRows),
+          // JSON.stringify(
+          //   {
+          //     lastPulled: new Date().toISOString(),
+          //     length: sortedTokenRows.length,
+          //     data: sortedTokenRows,
+          //   },
+          //   null,
+          //   2,
+          // ),
         );
       }
-      // console.dir({
-      //   url,
-      //   allAddresses,
-      //   length: allAddresses.length,
-      // });
     }
     console.log(`\n✅ Pulling all of tokens completed!`);
     console.log(`\n🐌 Pulling all of accounts started...`);
@@ -290,14 +300,18 @@ export class AnyscanPuller {
         const sortedAccountRows = this.#sortAccountRows(accountRows);
         fs.writeFileSync(
           path.join(outputDirectory, "accounts.json"),
-          JSON.stringify({lastPulled:new Date().toISOString(),data:sortedAccountRows}, null, 2),
+          JSON.stringify(sortedAccountRows),
+          // JSON.stringify(
+          //   {
+          //     lastPulled: new Date().toISOString(),
+          //     length: sortedAccountRows.length,
+          //     data: sortedAccountRows,
+          //   },
+          //   null,
+          //   2,
+          // ),
         );
       }
-      // console.dir({
-      //   url,
-      //   allAddresses,
-      //   length: allAddresses.length,
-      // });
     }
     bar1.stop();
     console.log(`✅ Pulling all of accounts completed!`);
