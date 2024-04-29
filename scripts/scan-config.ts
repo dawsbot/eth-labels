@@ -1,6 +1,7 @@
 import { CeloScanParser } from "./HtmlParser/CeloScanParser";
 import { EtherscanHtmlParser } from "./HtmlParser/EtherscanParser";
 import { OptimismHtmlParser } from "./HtmlParser/OptimismHtmlParser";
+import { PolygonscanHtmlParser } from "./HtmlParser/PolygonscanParser";
 
 export const scanConfig = {
   etherscan: {
@@ -22,5 +23,9 @@ export const scanConfig = {
   celo: {
     website: "https://celoscan.io",
     htmlParser: new CeloScanParser(),
+  },
+  polygon: {
+    website: "https://polygonscan.com",
+    htmlParser: new PolygonscanHtmlParser(),
   },
 } as const;
