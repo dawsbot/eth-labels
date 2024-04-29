@@ -2,8 +2,8 @@ import "dotenv/config";
 import type { Browser, Page } from "playwright";
 import { firefox } from "playwright";
 import { AnyscanPuller } from "./AnyscanPuller";
-import runCombine from "./combine";
 import { parseError } from "./error-parse";
+import { scanConfig } from "./scan-config";
 
 async function openBrowser(): Promise<{ browser: Browser; page: Page }> {
   const browser = await firefox.launch({ headless: false });
@@ -32,29 +32,40 @@ void (async () => {
 
     const { browser, page } = await openBrowser();
 
-    const etherscanPuller = new AnyscanPuller("etherscan");
-    const basescanPuller = new AnyscanPuller("basescan");
-    const optimismPuller = new AnyscanPuller("optimism");
-    const arbiscanPuller = new AnyscanPuller("arbitrum");
-    const cleoPuller = new AnyscanPuller("celo");
+    // const etherscanPuller = new AnyscanPuller("etherscan");
+    // const basescanPuller = new AnyscanPuller("basescan");
+    // const optimismPuller = new AnyscanPuller("optimism");
+    // const arbiscanPuller = new AnyscanPuller("arbitrum");
+    // const polygonPuller = new AnyscanPuller("polygonscan");
+    // const bscscanPuller = new AnyscanPuller("bscscan");
+    // const gnosisPuller = new AnyscanPuller("gnosisscan");
+    // const ftmscanPuller = new AnyscanPuller("ftmscan");
+    // const cleoPuller = new AnyscanPuller("celo");
 
-    const sourcePullers = [
-      etherscanPuller,
-      basescanPuller,
-      optimismPuller,
-      arbiscanPuller,
-      cleoPuller,
-    ];
-
+    // const sourcePullers = [
+    //   etherscanPuller,
+    //   basescanPuller,
+    //   optimismPuller,
+    //   arbiscanPuller,
+    //   polygonPuller,
+    //   bscscanPuller,
+    //   gnosisPuller,
+    //   ftmscanPuller,
+    //   cleoPuller,
+    // ];
+    const sourcePullers = Object.entries(scanConfig).map(
+      ([name]) => new AnyscanPuller(name as keyof typeof scanConfig),
+    );
+    // sourcePullers = [sourcePullers[sourcePullers.length-1]]
+    for (const puller of sourcePullers) {
+      await puller.login(page);
+    }
     for (const puller of sourcePullers) {
       await puller.pullAndWriteAllAddresses(page);
     }
     await closeBrowser(browser);
     const { hours, minutes, seconds } = parseTime(timerStart);
     console.log(`Time elapsed: ${hours}h ${minutes}m, ${seconds}s`);
-    console.log("🔀 Combining all json begin...");
-    await runCombine();
-    console.log("🔀 Combining all json done!");
   } catch (error) {
     parseError(error);
     process.exit(1);
