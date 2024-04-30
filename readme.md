@@ -59,6 +59,11 @@ basescan was last modified: March 28, 2024
 <img src="https://raw.githubusercontent.com/dawsbot/evm-labels/v1/docs/img/gnosis.svg" width="200"/></a>
 
 <!-- AUTO-GENERATED-CONTENT:START (lastEdited:dataDirectory=gnosis) -->
+
+gnosis was last modified: April 30, 2024
+
+[View labels here](data/gnosis)
+
 <!-- AUTO-GENERATED-CONTENT:END -->
 
 ## Celo
