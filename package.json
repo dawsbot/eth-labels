@@ -14,6 +14,7 @@
     "vitest": "vitest",
     "test": "npm run lint && npm run vitest -- --run && npm run build",
     "lint": "eslint . --fix --cache",
+    "combine-data": "npx tsx scripts/combine.ts && git add \"data/*/*/combined.json\" && npm run markdown-magic",
     "build": "rm -rf lib && npm run compile",
     "pull": "tsx scripts/fetch-all.ts",
     "build:json": "node scripts/build-json.js",
@@ -66,7 +67,7 @@
     "zod": "^3.22.4"
   },
   "lint-staged": {
-    "./data/**/*.json": "npx tsx scripts/combine.ts && git add \"data/*/*/combined.json\" && npm run markdown-magic",
+    "./data/**/*.json": "npm run combine-data",
     "*": "prettier -u --write"
   }
 }

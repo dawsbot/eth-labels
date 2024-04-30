@@ -1,0 +1,40 @@
+[
+  { "address": "0x4008541b729c0ef5021735cdda90e3e5795b33a1", "nameTag": "" },
+  { "address": "0xb6127ee29ab8b1e7c059c73e31dff3326ecfee18", "nameTag": "" },
+  {
+    "address": "0xe0228a1a996b9c3704bc8d2bb2415edca30167fe",
+    "nameTag": "BlackOwned: BLKO Token"
+  },
+  {
+    "address": "0x3ce9547414ae02711ee52195dcad6cff20e1796e",
+    "nameTag": "Cake Monster : Rewards"
+  },
+  {
+    "address": "0x3d6746946a80ed4a8e444e89268b16802bfe23d8",
+    "nameTag": "Cloud Defi: NFT Cloud Staking Base"
+  },
+  {
+    "address": "0x9bc752fde798bcccecc5d6dc4ab0ad74e5f684e4",
+    "nameTag": "Ecio Space: Liquidity"
+  },
+  {
+    "address": "0x6a0f383162d8326ae0b42c450d10ae5ef0574bed",
+    "nameTag": "Ecio Space: Play to Earn"
+  },
+  {
+    "address": "0x0b53b5da7d0f275c31a6a182622bdf02474af253",
+    "nameTag": "GhostMarket: GM Token"
+  },
+  {
+    "address": "0xfbb465c31e334dd1a3cf03c0fe151b683805eb12",
+    "nameTag": "Kawaii Islands: Ecosystem"
+  },
+  {
+    "address": "0x6b6955d107407e2c938846f1370d8a811a97b82c",
+    "nameTag": "Kekucingan : kekucinganNFT"
+  },
+  {
+    "address": "0x00000000000000adc04c56bf30ac9d3c0aaf14dc",
+    "nameTag": "Seaport 1.5"
+  }
+]

@@ -1,0 +1,198 @@
+[
+  {
+    "address": "0x540c428d67b6038c7e6199a02605cbb3b6626384",
+    "nameTag": "Azbit: Azbit 2"
+  },
+  {
+    "address": "0x01c952174c24e1210d26961d456a77a39e1f0bb0",
+    "nameTag": "Binance Hot Wallet 10"
+  },
+  {
+    "address": "0x631fc1ea2270e98fbd9d92658ece0f5a269aa161",
+    "nameTag": "Binance: Hot Wallet"
+  },
+  {
+    "address": "0xeb2d2f1b8c558a40207669291fda468e50c8a0bb",
+    "nameTag": "Binance: Hot Wallet 10"
+  },
+  {
+    "address": "0x161ba15a5f335c9f06bb5bbb0a9ce14076fbb645",
+    "nameTag": "Binance: Hot Wallet 11"
+  },
+  {
+    "address": "0x515b72ed8a97f42c568d6a143232775018f133c8",
+    "nameTag": "Binance: Hot Wallet 12"
+  },
+  {
+    "address": "0xbd612a3f30dca67bf60a39fd0d35e39b7ab80774",
+    "nameTag": "Binance: Hot Wallet 13"
+  },
+  {
+    "address": "0x7a8a34db9acd10c3b6277473b192fe47192569ca",
+    "nameTag": "Binance: Hot Wallet 14"
+  },
+  {
+    "address": "0xa180fe01b906a1be37be6c534a3300785b20d947",
+    "nameTag": "Binance: Hot Wallet 16"
+  },
+  {
+    "address": "0x29bdfbf7d27462a2d115748ace2bd71a2646946c",
+    "nameTag": "Binance: Hot Wallet 17"
+  },
+  {
+    "address": "0x73f5ebe90f27b46ea12e5795d16c4b408b19cc6f",
+    "nameTag": "Binance: Hot Wallet 18"
+  },
+  {
+    "address": "0x1fbe2acee135d991592f167ac371f3dd893a508b",
+    "nameTag": "Binance: Hot Wallet 19"
+  },
+  {
+    "address": "0xb1256d6b31e4ae87da1d56e5890c66be7f1c038e",
+    "nameTag": "Binance: Hot Wallet 2"
+  },
+  {
+    "address": "0xf977814e90da44bfa03b6295a0616a897441acec",
+    "nameTag": "Binance: Hot Wallet 20"
+  },
+  {
+    "address": "0x17b692ae403a8ff3a3b2ed7676cf194310dde9af",
+    "nameTag": "Binance: Hot Wallet 3"
+  },
+  {
+    "address": "0x8ff804cc2143451f454779a40de386f913dcff20",
+    "nameTag": "Binance: Hot Wallet 4"
+  },
+  {
+    "address": "0xad9ffffd4573b642959d3b854027735579555cbc",
+    "nameTag": "Binance: Hot Wallet 5"
+  },
+  {
+    "address": "0x8894e0a0c962cb723c1976a4421c95949be2d4e3",
+    "nameTag": "Binance: Hot Wallet 6"
+  },
+  {
+    "address": "0xe2fc31f816a9b94326492132018c3aecc4a93ae1",
+    "nameTag": "Binance: Hot Wallet 7"
+  },
+  {
+    "address": "0x3c783c21a0383057d128bae431894a5c19f9cf06",
+    "nameTag": "Binance: Hot Wallet 8"
+  },
+  {
+    "address": "0xdccf3b77da55107280bd850ea519df3705d1a75a",
+    "nameTag": "Binance: Hot Wallet 9"
+  },
+  {
+    "address": "0xc92afb747c0d6c54cfa414c4435360fd8427b635",
+    "nameTag": "BitDiamond: IndoEx Exchange"
+  },
+  {
+    "address": "0x73f7edc2c4e3dbb0728184e1ef565d3e05efbc05",
+    "nameTag": "BitKeep: NFT Exchange"
+  },
+  {
+    "address": "0x8c128dba2cb66399341aa877315be1054be75da8",
+    "nameTag": "Bitmart: Wallet"
+  },
+  {
+    "address": "0x328130164d0f2b9d7a52edc73b3632e713ff0ec6",
+    "nameTag": "Bitmart: Wallet 2"
+  },
+  {
+    "address": "0x660e3bd3bcda11538fa331282666f1d001b87a42",
+    "nameTag": "CoinDCX 1"
+  },
+  {
+    "address": "0x8c7efd5b04331efc618e8006f19019a3dc88973e",
+    "nameTag": "CoinDCX 2"
+  },
+  {
+    "address": "0xf379fcd9c996d85de025985ba9b1c9c96daa4a72",
+    "nameTag": "CoinDCX 3"
+  },
+  {
+    "address": "0xa1813f73448a7392e6f069299c23120aeeab879a",
+    "nameTag": "CoinField"
+  },
+  {
+    "address": "0x72a53cdbbcc1b9efa39c834a540550e23463aacb",
+    "nameTag": "Crypto.com"
+  },
+  {
+    "address": "0x4727250679294802377dd6ca6541b8e459077c95",
+    "nameTag": "FixedFloat: Hot Wallet"
+  },
+  {
+    "address": "0x0d0707963952f2fba59dd06f2b425ace40b492fe",
+    "nameTag": "Gate.io"
+  },
+  {
+    "address": "0xefdca55e4bce6c1d535cb2d0687b5567eef2ae83",
+    "nameTag": "Huobi 1"
+  },
+  {
+    "address": "0x53f78a071d04224b8e254e243fffc6d9f2f3fa23",
+    "nameTag": "Kucoin: Hot Wallet 2"
+  },
+  {
+    "address": "0x1349907c197731c5ed98d8442309a15107cb6bad",
+    "nameTag": "MaskEX 1"
+  },
+  {
+    "address": "0xc6acb77befebff0359cc581973859eee8cbaeda1",
+    "nameTag": "MaskEX 10"
+  },
+  {
+    "address": "0xd666ad8d95903bce9b4dcd2cacde5145e36405c2",
+    "nameTag": "MaskEX 11"
+  },
+  {
+    "address": "0xd7aed730a7c4cf8dfe313b16712af3406f6dca5b",
+    "nameTag": "MaskEX 12"
+  },
+  {
+    "address": "0x2161217d22fac0188775432f8ba32f1d4272dd19",
+    "nameTag": "MaskEX 2"
+  },
+  {
+    "address": "0x3dd878a95dcaef2800cd57bb065b5e8f2f438131",
+    "nameTag": "MaskEX 3"
+  },
+  {
+    "address": "0x46c75fc52e0263946f8f1a75a95c23a767d2f26e",
+    "nameTag": "MaskEX 4"
+  },
+  {
+    "address": "0x6e2673095545280f6f10e22eb861a555c6e94bec",
+    "nameTag": "MaskEX 5"
+  },
+  {
+    "address": "0x84457412efe8b3a05583cb496e1d2c03e6f36155",
+    "nameTag": "MaskEX 6"
+  },
+  {
+    "address": "0x8458c828d602230e92eb0aac5a6aed5580011b6a",
+    "nameTag": "MaskEX 7"
+  },
+  {
+    "address": "0xa310b3eeca53b9c115af529faf92bb5ca4b41494",
+    "nameTag": "MaskEX 8"
+  },
+  {
+    "address": "0xa4e71851a8c8eaefeb20a994159f4a443e46059b",
+    "nameTag": "MaskEX 9"
+  },
+  {
+    "address": "0x4982085c9e2f89f2ecb8131eca71afad896e89cb",
+    "nameTag": "mexc.com"
+  },
+  {
+    "address": "0x0211f3cedbef3143223d3acf0e589747933e8527",
+    "nameTag": "mexc.com 2"
+  },
+  {
+    "address": "0x2e8f79ad740de90dc5f5a9f0d8d9661a60725e64",
+    "nameTag": "Mexc.com 3"
+  }
+]
