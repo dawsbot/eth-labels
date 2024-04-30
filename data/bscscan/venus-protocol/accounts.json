@@ -1,0 +1,123 @@
+[
+  { "address": "", "nameTag": "" },
+  {
+    "address": "0x38b4efab9ea1bacd19dc81f19c4d1c2f9deae1b2",
+    "nameTag": "Venus: Comptroller Beacon"
+  },
+  {
+    "address": "0x3344417c9360b963ca93a4e8305361aede340ab9",
+    "nameTag": "Venus: DeFi Comptroller"
+  },
+  {
+    "address": "0x47bee99bd8cf5d8d7e815e2d2a3e2985cbccc04b",
+    "nameTag": "Venus: DeFi Swap Router"
+  },
+  {
+    "address": "0x1ca3ac3686071be692be7f1fbecd668641476d7e",
+    "nameTag": "Venus: Deployer"
+  },
+  {
+    "address": "0xfd36e2c2a6789db23113685031d7f16329158384",
+    "nameTag": "Venus: Distribution"
+  },
+  {
+    "address": "0x1b43ea8622e76627b81665b1ecebb4867566b963",
+    "nameTag": "Venus: GameFi Comptroller"
+  },
+  {
+    "address": "0x9b15462a79d0948bddf679e0e5a9841c44aafb7a",
+    "nameTag": "Venus: GameFi Swap router"
+  },
+  {
+    "address": "0x25e215cce40bd849b7c286912b85212f984ff1e0",
+    "nameTag": "Venus: Pool Lens"
+  },
+  {
+    "address": "0x9f7b01a536afa00ef10310a162877fd792cd0666",
+    "nameTag": "Venus: Pool Registry"
+  },
+  {
+    "address": "0xca01d5a9a248a830e9d93231e791b1affed7c446",
+    "nameTag": "Venus: Protocol Share Reserve"
+  },
+  {
+    "address": "0x6beb6d2695b67feb73ad4f172e8e2975497187e4",
+    "nameTag": "Venus: Proxy Admin"
+  },
+  {
+    "address": "0xdf31a28d68a2ab381d42b380649ead7ae2a76e42",
+    "nameTag": "Venus: Risk Fund"
+  },
+  {
+    "address": "0xf37530a8a810fcb501aa0ecd0b0699388f0f2209",
+    "nameTag": "Venus: Shortfall"
+  },
+  {
+    "address": "0x94c1495cd4c557f1560cbd68eab0d197e6291571",
+    "nameTag": "Venus: Stablecoin Comptroller"
+  },
+  {
+    "address": "0xbbd8e2b5d69fce9aaa599c50f0f0960aa58b32aa",
+    "nameTag": "Venus: Stablecoin Swap Router"
+  },
+  {
+    "address": "0x23b4404e4e5ec5ff5a6ffb70b7d14e3fabf237b0",
+    "nameTag": "Venus: Tron Comptroller"
+  },
+  {
+    "address": "0xacd270ed7dfd4466bd931d84fe5b904080e28bfc",
+    "nameTag": "Venus: Tron Swap router"
+  },
+  {
+    "address": "0x4bd17003473389a42daf6a0a729f6fdb328bbbd7",
+    "nameTag": "Venus: VAI Token"
+  },
+  {
+    "address": "0xa07c5b74c9b40447a954e1466938b865b6bbea36",
+    "nameTag": "Venus: vBNB Token"
+  },
+  {
+    "address": "0x882c173bc7ff3b7786ca16dfed3dfffb9ee7847b",
+    "nameTag": "Venus: vBTC Token"
+  },
+  {
+    "address": "0x95c78222b3d6e262426483d42cfa53685a67ab9d",
+    "nameTag": "Venus: vBUSD Token"
+  },
+  {
+    "address": "0xf508fcd89b8bd15579dc79a6827cb4686a3592c8",
+    "nameTag": "Venus: vETH Token"
+  },
+  {
+    "address": "0x57a5297f2cb2c0aac9d554660acd6d385ab50c6b",
+    "nameTag": "Venus: vLTC Token"
+  },
+  {
+    "address": "0x2ff3d0f6990a40261c66e1ff2017acbc282eb6d0",
+    "nameTag": "Venus: vSXP Token"
+  },
+  {
+    "address": "0x2b8a1c539abac89cbf7e2bc6987a0a38a5e660d4",
+    "nameTag": "Venus: VToken Beacon"
+  },
+  {
+    "address": "0xeca88125a5adbe82614ffc12d0db554e2e2867c8",
+    "nameTag": "Venus: vUSDC Token"
+  },
+  {
+    "address": "0xfd5840cd36d94d7229439859c0112a4185bc0255",
+    "nameTag": "Venus: vUSDT Token"
+  },
+  {
+    "address": "0xb248a295732e0225acd3337607cc01068e3b9c10",
+    "nameTag": "Venus: vXRP Token"
+  },
+  {
+    "address": "0x151b1e2635a717bcdc836ecd6fbb62b674fe3e1d",
+    "nameTag": "Venus: vXVS Token"
+  },
+  {
+    "address": "0xcf6bb5389c92bdda8a3747ddb454cb7a64626c63",
+    "nameTag": "Venus: XVS Token"
+  }
+]

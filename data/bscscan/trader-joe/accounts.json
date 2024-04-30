@@ -1,0 +1,54 @@
+[
+  {
+    "address": "0x57ff9d1a7cf23fd1a9fd9dc07823f950a22a718c",
+    "nameTag": "Trader Joe : APT Farm"
+  },
+  {
+    "address": "0xeb84fa19b7912fe2821f9fa4f5717a311b776c63",
+    "nameTag": "Trader Joe : APT Farm Lens"
+  },
+  {
+    "address": "0x1a83dc9533dd1e0dccdb51a7505e0b42f679d210",
+    "nameTag": "Trader Joe : BNB-USDT_15bps"
+  },
+  {
+    "address": "0x4f8bdc85e3eec5b9de67097c3f59b6db025d9986",
+    "nameTag": "Trader Joe : Factory V1"
+  },
+  {
+    "address": "0x8e42f2f4101563bf679975178e880fd87d3efd4e",
+    "nameTag": "Trader Joe : LB Factory"
+  },
+  {
+    "address": "0x43646a8e839b2f2766392c1bf8f60f6e587b6960",
+    "nameTag": "Trader Joe : LB Factory V2.0"
+  },
+  {
+    "address": "0xd76019a16606fda4651f636d9751f500ed776250",
+    "nameTag": "Trader Joe : LB Quoter"
+  },
+  {
+    "address": "0x89c71f2065aa505956a86fcadae4a625a5b5e842",
+    "nameTag": "Trader Joe : LB Quoter V2.0"
+  },
+  {
+    "address": "0x46ba84780f9a7b34c8b0e24df07a260fa952195d",
+    "nameTag": "Trader Joe : Limit Order Manager"
+  },
+  {
+    "address": "0xa3d87597fdafc3b8f3ac6b68f90cd1f4c05fa960",
+    "nameTag": "Trader Joe : Vault Factory"
+  },
+  {
+    "address": "0xb66a2704a0dabc1660941628be987b4418f7a9e8",
+    "nameTag": "Trader Joe: LBRouter v2.0"
+  },
+  {
+    "address": "0xb4315e873dbcf96ffd0acd8ea43f689d8c20fb30",
+    "nameTag": "Trader Joe: LBRouter v2.1"
+  },
+  {
+    "address": "0x89fa1974120d2a7f83a0cb80df3654721c6a38cd",
+    "nameTag": "Trader Joe: Router"
+  }
+]

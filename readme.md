@@ -54,6 +54,18 @@ basescan was last modified: March 28, 2024
 
 <!-- AUTO-GENERATED-CONTENT:END -->
 
+## Binance Smart Chain
+
+<img src="https://raw.githubusercontent.com/dawsbot/evm-labels/v1/docs/img/bscscan.svg" width="200"/></a>
+
+<!-- AUTO-GENERATED-CONTENT:START (lastEdited:dataDirectory=bscscan) -->
+
+bscscan was last modified: April 30, 2024
+
+[View labels here](data/bscscan)
+
+<!-- AUTO-GENERATED-CONTENT:END -->
+
 ## Gnosis Chain
 
 <img src="https://raw.githubusercontent.com/dawsbot/evm-labels/v1/docs/img/gnosis.svg" width="200"/></a>

@@ -1,0 +1,14 @@
+[
+  {
+    "address": "0x222412af183bceadefd72e4cb1b71f1889953b1c",
+    "nameTag": "Harvest finance: BSC Controller"
+  },
+  {
+    "address": "0xf00dd244228f51547f0563e60bca65a30fbf5f7f",
+    "nameTag": "Harvest finance: BSC Deployer"
+  },
+  {
+    "address": "0xf71042c88458ff1702c3870f62f4c764712cc9f0",
+    "nameTag": "Harvest finance: BSC Notify Helper"
+  }
+]
