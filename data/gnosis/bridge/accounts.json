@@ -1,0 +1,22 @@
+[
+  {
+    "address": "0x75df5af045d91108662d8080fd1fefad6aa0bb59",
+    "nameTag": "Gnosis: AMB-ETH-XDAI"
+  },
+  {
+    "address": "0xe47097cef3b0bcbb0095a21523714bf0022e2db8",
+    "nameTag": "Gnosis: GEN-xGEN Bridge"
+  },
+  {
+    "address": "0xf6a78083ca3e2a662d6dd1703c939c8ace2e268d",
+    "nameTag": "Gnosis: xDai Bridge"
+  },
+  {
+    "address": "0x7301cfa0e1756b71869e93d4e4dca5c7d0eb0aa6",
+    "nameTag": "Gnosis: xDai Bridge 2"
+  },
+  {
+    "address": "0xf75c28fe07e0647b05160288f172ad27cccd8f30",
+    "nameTag": "Gnosis: xMOON-MOON Bridge"
+  }
+]

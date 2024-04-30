@@ -24,7 +24,7 @@ export const scanConfig = {
     htmlParser: new CeloScanParser(),
   },
   gnosis: {
-    website: "https://gnoscan.io",
+    website: "https://gnosisscan.io/",
     htmlParser: new OptimismHtmlParser(),
   },
 } as const;

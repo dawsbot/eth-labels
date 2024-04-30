@@ -1,0 +1,673 @@
+[
+  { "address": "0x1a5aa5a1d38ab93dce71a6f15bb99dc40420f671", "nameTag": "" },
+  { "address": "0x21a42669643f45bc0e086b8fc2ed70c23d67509d", "nameTag": "" },
+  { "address": "0x2d5563da42b06fbbf9c67b7dc073cf6a7842239e", "nameTag": "" },
+  { "address": "0x34343a045dccb170983383013019a57858ab9d59", "nameTag": "" },
+  { "address": "0x4f4f9b8d5b4d0dc10506e5551b0513b61fd59e75", "nameTag": "" },
+  { "address": "0x532801ed6f82fffd2dab70a19fc2d7b2772c4f4b", "nameTag": "" },
+  { "address": "0x66f33ae36dd80327744207a48122f874634b3ada", "nameTag": "" },
+  { "address": "0x97edc0e345fbbbd8460847fcfa3bc2a13bf8641f", "nameTag": "" },
+  { "address": "0x9fb1d52596c44603198fb0aee434fac3a679f702", "nameTag": "" },
+  { "address": "0xa611a551b95b205ccd9490657acf7899daee5db7", "nameTag": "" },
+  { "address": "0xb363b0244c6cfa0707476f908ae338b720ef722e", "nameTag": "" },
+  { "address": "0xb90d6bec20993be5d72a5ab353343f7a0281f158", "nameTag": "" },
+  { "address": "0xb973ca96a3f0d61045f53255e319aedb6ed49240", "nameTag": "" },
+  { "address": "0xc45b3c1c24d5f54e7a2cf288ac668c74dd507a84", "nameTag": "" },
+  { "address": "0xcf964c89f509a8c0ac36391c5460df94b91daba5", "nameTag": "" },
+  { "address": "0xd057604a14982fe8d88c5fc25aac3267ea142a08", "nameTag": "" },
+  { "address": "0xd3d47d5578e55c880505dc40648f7f9307c3e7a8", "nameTag": "" },
+  { "address": "0xe887dc4fcb5240c0c080aeab8870421d3ebd0b28", "nameTag": "" },
+  { "address": "0xec3f3e6d7907acda3a7431abd230196cda3fbb19", "nameTag": "" },
+  { "address": "0xf093be4e78900800f9215aa0511ba12e5eee6129", "nameTag": "" },
+  { "address": "0xf4657ab08681214bcb1893aa8e9c7613459250ec", "nameTag": "" },
+  { "address": "0xf48f01dcb2cbb3ee1f6aab0e742c2d3941039d56", "nameTag": "" },
+  { "address": "0xfedb19ec000d38d92af4b21436870f115db22725", "nameTag": "" },
+  {
+    "address": "0x8c88ea1fd60462ef7004b9e288afcb4680a3c50c",
+    "nameTag": "0xMonero: 0xMR Token"
+  },
+  {
+    "address": "0x71850b7e9ee3f13ab46d67167341e4bdc905eef9",
+    "nameTag": "1Hive: HNY Token"
+  },
+  {
+    "address": "0x3a97704a1b25f08aa230ae53b352e2e72ef52843",
+    "nameTag": "Agave: AGVE Token"
+  },
+  {
+    "address": "0xd51e1ddd116fff9a71c1b8feeb58113afa2b4d93",
+    "nameTag": "AMIS: AMIS Token"
+  },
+  {
+    "address": "0x5a2696b7ad5eb8411f539b4e59335725f39ceceb",
+    "nameTag": "Arcadia Foundation DAO: AXX Token"
+  },
+  {
+    "address": "0xa4967b407c3069032023bf6102d5a45351904b9a",
+    "nameTag": "Arcadia Foundation DAO: PAXX Token"
+  },
+  {
+    "address": "0xce04833afe17a8de30b12bed1c3d6fde708ff143",
+    "nameTag": "Arcadia Foundation DAO: rAXX Token"
+  },
+  {
+    "address": "0x99c9df4bae3ae5630a146cae3fdec791ab0440c6",
+    "nameTag": "Augmented Finance: AGF Token"
+  },
+  {
+    "address": "0x1509706a6c66ca549ff0cb464de88231ddbe213b",
+    "nameTag": "Aura: AURA Token"
+  },
+  {
+    "address": "0x89718f712da063bac92cac3468f109db852b05ff",
+    "nameTag": "Ax Protocol: USX Token"
+  },
+  {
+    "address": "0xfd9e5a2a1bfc8b57a288a3e12e2c601b0cc7e476",
+    "nameTag": "Azuro Protocol: BET Token"
+  },
+  {
+    "address": "0xca30c93b02514f86d5c86a6e375e3a330b435fb5",
+    "nameTag": "Backed Finance"
+  },
+  {
+    "address": "0x52d134c6db5889fad3542a09eaf7aa90c0fdf9e4",
+    "nameTag": "Backed Finance 2"
+  },
+  {
+    "address": "0xbbcb0356bb9e6b3faa5cbf9e5f36185d53403ac9",
+    "nameTag": "Backed Finance: bCOIN Token"
+  },
+  {
+    "address": "0x1e2c4fb7ede391d116e6b41cd0608260e8801d59",
+    "nameTag": "Backed Finance: bCSPX Token"
+  },
+  {
+    "address": "0x2f11eeee0bf21e7661a22dbbbb9068f4ad191b86",
+    "nameTag": "Backed Finance: bNIU Token"
+  },
+  {
+    "address": "0x2f123cf3f37ce3328cc9b5b8415f9ec5109b45e7",
+    "nameTag": "Backed: bC3M Token"
+  },
+  {
+    "address": "0x20c64dee8fda5269a78f2d5bdba861ca1d83df7a",
+    "nameTag": "Backed: bHIGH Token"
+  },
+  {
+    "address": "0xdfc20ae04ed70bd9c7d720f449eedae19f659d65",
+    "nameTag": "BadgerDAO: BADGER Token"
+  },
+  {
+    "address": "0x7ef541e2a22058048904fe5744f9c7e4c57af717",
+    "nameTag": "Balancer: BAL Token"
+  },
+  {
+    "address": "0xdd96b45877d0e8361a4ddb732da741e97f3191ff",
+    "nameTag": "Binance USD: BUSD Token"
+  },
+  {
+    "address": "0xa899e4476ff5da39dcd9ddec7a6e2c651d8614bf",
+    "nameTag": "BitcoinBR: BTCBR Token"
+  },
+  {
+    "address": "0x83ff60e2f93f8edd0637ef669c69d5fb4f64ca8e",
+    "nameTag": "BrightID: BRIGHT Token"
+  },
+  {
+    "address": "0xddafbb505ad214d7b80b1f830fccc89b60fb7a83",
+    "nameTag": "Centre: USDC Token"
+  },
+  {
+    "address": "0xe2e73a1c69ecf83f464efce6a5be353a37ca09b2",
+    "nameTag": "ChainLink: LINK Token"
+  },
+  {
+    "address": "0x8b8407c6184f1f0fd1082e83d6a3b8349caced12",
+    "nameTag": "Circuits of Value: COVAL Token"
+  },
+  {
+    "address": "0x44cf74238d840a5febb0eaa089d05b763b73fab8",
+    "nameTag": "Connext: nextUSDC Token"
+  },
+  {
+    "address": "0x538e2ddbfdf476d24ccb1477a518a82c9ea81326",
+    "nameTag": "Connext: nextWETH Token"
+  },
+  {
+    "address": "0x177127622c4a00f3d409b75571e12cb3c8973d3c",
+    "nameTag": "CoW Protocol: COW Token"
+  },
+  {
+    "address": "0xc20c9c13e853fc64d054b73ff21d3636b2d97eab",
+    "nameTag": "CoW Protocol: vCOW Token"
+  },
+  {
+    "address": "0x44fa8e6f47987339850636f88629646662444217",
+    "nameTag": "Dai: DAI Token"
+  },
+  {
+    "address": "0xb0c5f3100a4d9d9532a4cfd68c55f1ae8da987eb",
+    "nameTag": "DAOhaus: HAUS Token"
+  },
+  {
+    "address": "0x3e12081dd66a3600fc0a2e6cc9e6b5b3b8f037f6",
+    "nameTag": "DAOstack: xGEN Token"
+  },
+  {
+    "address": "0xc60e38c6352875c051b481cbe79dd0383adb7817",
+    "nameTag": "DAppNode: NODE Token"
+  },
+  {
+    "address": "0xfbdd194376de19a88118e84e279b977f165d01b8",
+    "nameTag": "DeHive: DHV Token"
+  },
+  {
+    "address": "0x524b969793a64a602342d89bc2789d43a016b13a",
+    "nameTag": "Donut: DONUT Token"
+  },
+  {
+    "address": "0xeeeeeb57642040be42185f49c52f7e9b38f8eeee",
+    "nameTag": "Elk Finance: ELK Token"
+  },
+  {
+    "address": "0x6a8cb6714b1ee5b471a7d2ec4302cb4f5ff25ec2",
+    "nameTag": "Energy Web: EWTB Token"
+  },
+  {
+    "address": "0x48b1b0d077b4919b65b4e4114806dd803901e1d9",
+    "nameTag": "Etherisc DIP: DIP Token"
+  },
+  {
+    "address": "0xe7a7a22bae7d5d031822b66b9876cb9a2c198a45",
+    "nameTag": "Etho Protocol: Deployer"
+  },
+  {
+    "address": "0xb17d999e840e0c1b157ca5ab8039bd958b5fa317",
+    "nameTag": "Etho Protocol: ETHO Token"
+  },
+  {
+    "address": "0x03943c3ef00d92e130185cebc0bcc435def2cc94",
+    "nameTag": "Follow Me: FM Token"
+  },
+  {
+    "address": "0x2bf2ba13735160624a0feae98f6ac8f70885ea61",
+    "nameTag": "Fraction: FRACTION Token"
+  },
+  {
+    "address": "0xd589f00fa2eb83367f732ab3cda92ee0940389cf",
+    "nameTag": "Fuse: FUSE Token"
+  },
+  {
+    "address": "0x74e596525c63393f42c76987b6a66f4e52733efa",
+    "nameTag": "Gitcoin: KDO Token"
+  },
+  {
+    "address": "0xde378ea32af41b4a2b9c8baee1655761d526c0df",
+    "nameTag": "Giveth: NICE Token"
+  },
+  {
+    "address": "0x1834e58185048bce90a174f113a38d2c0cefb7a8",
+    "nameTag": "Gnosis: 1ELONINDEX Token"
+  },
+  {
+    "address": "0x7f7440c5098462f833e123b44b8a03e1d9785bab",
+    "nameTag": "Gnosis: 1INCH Token"
+  },
+  {
+    "address": "0xdf613af6b44a31299e48131e9347f034347e2f00",
+    "nameTag": "Gnosis: AAVE Token"
+  },
+  {
+    "address": "0x5f1f81de1d21b97a5d0d5d62d89bde9ddec27325",
+    "nameTag": "Gnosis: AC Token"
+  },
+  {
+    "address": "0x12dd44fc0dc52cba611e6d9c27d34cd6811c8531",
+    "nameTag": "Gnosis: ADA Token"
+  },
+  {
+    "address": "0xfb23cfd35046466fdba7f73dc2fccb5b17abf1aa",
+    "nameTag": "Gnosis: ALBC Token"
+  },
+  {
+    "address": "0x8a95ea379e1fa4c749dd0a7a21377162028c479e",
+    "nameTag": "Gnosis: AUDIO Token"
+  },
+  {
+    "address": "0xcae40062a887581a3d1661d0ac2b481c32e3e938",
+    "nameTag": "Gnosis: AUT Token"
+  },
+  {
+    "address": "0x82dfe19164729949fd66da1a37bc70dd6c4746ce",
+    "nameTag": "Gnosis: BAO Token"
+  },
+  {
+    "address": "0x778aa03021b0cd2b798b0b506403e070125d81c9",
+    "nameTag": "Gnosis: BDT Token"
+  },
+  {
+    "address": "0x2977893f4c04bfbd6efc68d0e46598d27810d3db",
+    "nameTag": "Gnosis: BID Token"
+  },
+  {
+    "address": "0x43bf77e8c21b0a57774fedd90ca8791b58c457d1",
+    "nameTag": "Gnosis: BUSD Token"
+  },
+  {
+    "address": "0xdbf3ea6f5bee45c02255b2c26a16f300502f68da",
+    "nameTag": "Gnosis: BZZ Token"
+  },
+  {
+    "address": "0x2133903d83971f44e4ef7826760321c71e61abef",
+    "nameTag": "Gnosis: Cake Token"
+  },
+  {
+    "address": "0xcc9d34a7be0c8b11e8390cce0b4b46a1b268aaa7",
+    "nameTag": "Gnosis: CCCS Token"
+  },
+  {
+    "address": "0x14411aeca652f5131834bf0c8ff581b5ddf3bc03",
+    "nameTag": "Gnosis: COIN Token"
+  },
+  {
+    "address": "0xdf6ff92bfdc1e8be45177dc1f4845d391d3ad8fd",
+    "nameTag": "Gnosis: COMP Token"
+  },
+  {
+    "address": "0x712b3d230f3c1c19db860d80619288b1f0bdd0bd",
+    "nameTag": "Gnosis: CRV Token"
+  },
+  {
+    "address": "0xfc8b2690f66b46fec8b3ceeb95ff4ac35a0054bc",
+    "nameTag": "Gnosis: DAI Token"
+  },
+  {
+    "address": "0xd7738ec74f08f3a14c478bbecce9c3f5603ba458",
+    "nameTag": "Gnosis: DOGE Token"
+  },
+  {
+    "address": "0xe51cf68301b30b06c72d38f5314fa85c94c8e5f1",
+    "nameTag": "Gnosis: DOT Token"
+  },
+  {
+    "address": "0x0a2fa3ab5e39af7bff663cecebf8cbee7180ffe1",
+    "nameTag": "Gnosis: ELON Token"
+  },
+  {
+    "address": "0x21a11b8e649a4de08eb7ab36b34f893e13aaeec0",
+    "nameTag": "Gnosis: ELONINDEX Token"
+  },
+  {
+    "address": "0xa5c7cb68cd81640d40c85b2e5ec9e4bb55be0214",
+    "nameTag": "Gnosis: ETH Token"
+  },
+  {
+    "address": "0x9c58bacc331c9aa871afd802db6379a98e80cedb",
+    "nameTag": "Gnosis: GNO Token"
+  },
+  {
+    "address": "0xfadc59d012ba3c110b08a15b7755a5cb7cbe77d7",
+    "nameTag": "Gnosis: GRT Token"
+  },
+  {
+    "address": "0xd9fa47e33d4ff7a1aca489de1865ac36c042b07a",
+    "nameTag": "Gnosis: HEX Token"
+  },
+  {
+    "address": "0x7838796b6802b18d7ef58fc8b757705d6c9d12b3",
+    "nameTag": "Gnosis: MANA Token"
+  },
+  {
+    "address": "0x7122d7661c4564b7c6cd4878b06766489a6028a2",
+    "nameTag": "Gnosis: MATIC Token"
+  },
+  {
+    "address": "0xc577cddabb7893cc2ca15ef4b5d5e5e13c3feed3",
+    "nameTag": "Gnosis: MCDC Token"
+  },
+  {
+    "address": "0xbab3cbdcbcc578445480a79ed80269c50bb5b718",
+    "nameTag": "Gnosis: MDZA Token"
+  },
+  {
+    "address": "0x722fc4daabfeaff81b97894fc623f91814a1bf68",
+    "nameTag": "Gnosis: mGNO Token"
+  },
+  {
+    "address": "0x1a186e7268f3ed5adfea6b9e0655f70059941e11",
+    "nameTag": "Gnosis: NIF Token"
+  },
+  {
+    "address": "0x4a88248baa5b39bb4a9caa697fb7f8ae0c3f0ddb",
+    "nameTag": "Gnosis: renBTC Token"
+  },
+  {
+    "address": "0x20cfc7c76c446f889e3969bedef46a950a2111f5",
+    "nameTag": "Gnosis: SANA Token"
+  },
+  {
+    "address": "0xaf204776c7245bf4147c2612bf6e5972ee483701",
+    "nameTag": "Gnosis: sDAI Token"
+  },
+  {
+    "address": "0x3a00e08544d589e19a8e7d97d0294331341cdbf6",
+    "nameTag": "Gnosis: SNX Token"
+  },
+  {
+    "address": "0x2995d1317dcd4f0ab89f4ae60f3f020a4f17c7ce",
+    "nameTag": "Gnosis: SUSHI Token"
+  },
+  {
+    "address": "0xeddd81e0792e764501aae206eb432399a0268db5",
+    "nameTag": "Gnosis: TRAC Token"
+  },
+  {
+    "address": "0xd10cc63531a514bba7789682e487add1f15a51e2",
+    "nameTag": "Gnosis: USDC Token"
+  },
+  {
+    "address": "0xc90132d5d1b87730da162ec9cd34885828769cc3",
+    "nameTag": "Gnosis: USDT Token"
+  },
+  {
+    "address": "0xca8d20f3e0144a72c6b5d576e9bd3fd8557e2b04",
+    "nameTag": "Gnosis: WBNB Token"
+  },
+  {
+    "address": "0x3e9e2fc92c92bc161226b072fba6bb67e62859d0",
+    "nameTag": "Gnosis: WMATIC Token"
+  },
+  {
+    "address": "0xbbd5b2cf8e9a27795166aada6f1bf28b11608059",
+    "nameTag": "Gnosis: ZEC Token"
+  },
+  {
+    "address": "0x6ab6d61428fde76768d7b45d8bfeec19c6ef91a8",
+    "nameTag": "Graviton: GTON Token"
+  },
+  {
+    "address": "0x3bc1a0ad72417f2d411118085256fc53cbddd137",
+    "nameTag": "Hats Protocol:  Token"
+  },
+  {
+    "address": "0x2aa5d15eb36e5960d056e8fea6e7bb3e2a06a351",
+    "nameTag": "Hedgey Finance: HDGY Token"
+  },
+  {
+    "address": "0xb44825cf0d8d4dd552f2434056c41582415aaaa1",
+    "nameTag": "Honeyswap: HFD Token"
+  },
+  {
+    "address": "0x38fb649ad3d6ba1113be5f57b927053e97fc5bf7",
+    "nameTag": "Honeyswap: xCOMB Token"
+  },
+  {
+    "address": "0xb1ea9fed58a317f81eeefc18715dd323fdef45c4",
+    "nameTag": "Hop Protocol: hDAI Token"
+  },
+  {
+    "address": "0xc46f2004006d4c770346f60a7baa3f1cc67dfd1c",
+    "nameTag": "Hop Protocol: hETH Token"
+  },
+  {
+    "address": "0xe38faf9040c7f09958c638bbdb977083722c5156",
+    "nameTag": "Hop Protocol: hMATIC Token"
+  },
+  {
+    "address": "0x5300648b1cfaa951bbc1d56a4457083d92cfa33f",
+    "nameTag": "Hop Protocol: HOP - DAI Token"
+  },
+  {
+    "address": "0xb9cca4ed3f082a459c0851058d9fba0b78dd6c7d",
+    "nameTag": "Hop Protocol: HOP - ETH Token"
+  },
+  {
+    "address": "0x5c2048094baade483d0b1da85c3da6200a88a849",
+    "nameTag": "Hop Protocol: HOP - MATIC Token"
+  },
+  {
+    "address": "0x300aa02c86bdcefb9b7af85b736823c56a302512",
+    "nameTag": "Hop Protocol: HOP-LP-WBTC Token"
+  },
+  {
+    "address": "0x9d373d22fd091d7f9a6649eb067557cc12fb1a0a",
+    "nameTag": "Hop Protocol: HOP-USDC Token"
+  },
+  {
+    "address": "0x5b10222f2ada260aaf6c6fc274bd5810af9d33c0",
+    "nameTag": "Hop Protocol: HOP-USDT Token"
+  },
+  {
+    "address": "0x9ec9551d4a1a1593b0ee8124d98590cc71b3b09d",
+    "nameTag": "Hop Protocol: hUSDC Token"
+  },
+  {
+    "address": "0x91f8490ec27cbb1b2faedd29c2ec23011d7355fb",
+    "nameTag": "Hop Protocol: hUSDT Token"
+  },
+  {
+    "address": "0x16284c7323c35f4960540583998c98b1cfc581a7",
+    "nameTag": "Hop Protocol: hWBTC Token"
+  },
+  {
+    "address": "0xc5102fe9359fd9a28f877a67e36b0f050d81a3cc",
+    "nameTag": "Hop: HOP Token"
+  },
+  {
+    "address": "0x43d13d7b83607f14335cf2cb75e87da369d056c7",
+    "nameTag": "HOPR: HOPR Boost Token"
+  },
+  {
+    "address": "0xd4fdec44db9d44b8f2b6d529620f9c0c7066a2c1",
+    "nameTag": "HOPR: wxHOPR Token"
+  },
+  {
+    "address": "0xccf1279c3406ad1181bee00dab4b28b23d17ddb1",
+    "nameTag": "Jarvis Network: JRT Token"
+  },
+  {
+    "address": "0x431d5dff03120afa4bdf332c61a6e1766ef37bdb",
+    "nameTag": "JPY Coin: JPYC Token"
+  },
+  {
+    "address": "0x417602f4fbdd471a431ae29fb5fe0a681964c11b",
+    "nameTag": "JPYC: JPYC Token"
+  },
+  {
+    "address": "0xa9c04f23ee2298613285a102a41267922c6cc205",
+    "nameTag": "Kingdom: KDM Token"
+  },
+  {
+    "address": "0x37b60f4e9a31a64ccc0024dce7d0fd07eaa0f7b3",
+    "nameTag": "Kleros: PNK Token"
+  },
+  {
+    "address": "0x6c76971f98945ae98dd7d4dfca8711ebea946ea6",
+    "nameTag": "Lido: wstETH Token"
+  },
+  {
+    "address": "0x3f56e0c36d275367b8c502090edf38289b3dea0d",
+    "nameTag": "Mai Finance: MAI Token"
+  },
+  {
+    "address": "0x512a2eb0277573ae9be0d48c782590b624048fdf",
+    "nameTag": "MEME: MEME Token"
+  },
+  {
+    "address": "0xbcfefea1e83060dbcef2ed0513755d049fde952c",
+    "nameTag": "Momint: MOMINT ⏸ Token"
+  },
+  {
+    "address": "0xcb444e90d8198415266c6a2724b7900fb12fc56e",
+    "nameTag": "Monerium: EURe Token"
+  },
+  {
+    "address": "0x1e16aa4df73d29c029d94ceda3e3114ec191e25a",
+    "nameTag": "Moons: xMOON Token"
+  },
+  {
+    "address": "0xfa57aa7beed63d03aaf85ffd1753f5f6242588fb",
+    "nameTag": "Mt Pelerin Shares: MPS Token"
+  },
+  {
+    "address": "0x3405a1bd46b85c5c029483fbecf2f3e611026e45",
+    "nameTag": "Multichain: anyCRV Token"
+  },
+  {
+    "address": "0xc931f61b1534eb21d8c11b24f3f5ab2471d4ab50",
+    "nameTag": "Multichain: anyESR Token"
+  },
+  {
+    "address": "0x0dcb0cb0120d355cde1ce56040be57add0185baa",
+    "nameTag": "Multichain: anyHND Token"
+  },
+  {
+    "address": "0xc9baa8cfdde8e328787e29b4b078abf2dadc2055",
+    "nameTag": "Multichain: anyMAI Token"
+  },
+  {
+    "address": "0xa649325aa7c5093d12d6f98eb4378deae68ce23f",
+    "nameTag": "Multichain: anyQI Token"
+  },
+  {
+    "address": "0x10010078a54396f62c96df8532dc2b4847d47ed3",
+    "nameTag": "Multichain: HND Token"
+  },
+  {
+    "address": "0x981fb9ba94078a2275a8fc906898ea107b9462a8",
+    "nameTag": "Panvala Pan: PAN Token"
+  },
+  {
+    "address": "0xb5d592f85ab2d955c25720ebe6ff8d4d1e1be300",
+    "nameTag": "Particle: PRTCLE Token"
+  },
+  {
+    "address": "0x7ecf26cd9a36990b8ea477853663092333f59979",
+    "nameTag": "Perpetual Protocol: PERP Token"
+  },
+  {
+    "address": "0x4a99cc509f7facf58d7b67e99236db5e0921ef81",
+    "nameTag": "RealT: 10639-STRATMAN Token"
+  },
+  {
+    "address": "0x9b5b4886033b4abc5eb0552fff7c15a67c3c47c7",
+    "nameTag": "RealT: 11300-ROXBURY Token"
+  },
+  {
+    "address": "0x9d918ee39a356be8ef99734599c7e70160db4db6",
+    "nameTag": "RealT: 12405-SANTA-ROSA Token"
+  },
+  {
+    "address": "0xe7b6de709ffc3bd237c2f2c800e1002f97a760f3",
+    "nameTag": "RealT: 4852-4854-W.CORTEZ Token"
+  },
+  {
+    "address": "0xdd833d0eef6d5d7cec781b03c19f3b425f3039df",
+    "nameTag": "Realt: REALTOKEN-S-11957-OLGA-ST-DETROIT-MI Token"
+  },
+  {
+    "address": "0x2f0e755efe6b58238a67db420ff3513ec1fb31ef",
+    "nameTag": "Rocket Pool: RPL Token"
+  },
+  {
+    "address": "0xeb148e4ec13aaa65328c0ba089a278138e9e53f9",
+    "nameTag": "Sablier: SAB-V2-LOCKUP-DYN Token"
+  },
+  {
+    "address": "0x685e92c9ca2bb23f1b596d0a7d749c0603e88585",
+    "nameTag": "Sablier: SAB-V2-LOCKUP-LIN Token"
+  },
+  {
+    "address": "0x4d18815d14fe5c3304e87b3fa18318baa5c23820",
+    "nameTag": "Safe: SAFE Token"
+  },
+  {
+    "address": "0xa67f1c6c96cb5dd6ef24b07a77893693c210d846",
+    "nameTag": "Sismo: SBADGE Token"
+  },
+  {
+    "address": "0xa802b4b10e4376a552113445a442cca007b079f3",
+    "nameTag": "Spore Engineering: SPORE Token"
+  },
+  {
+    "address": "0x6ac78efae880282396a335ca2f79863a1e6831d4",
+    "nameTag": "StakeWise Reward GNO: rGNO Token"
+  },
+  {
+    "address": "0x256eb8a51f382650b2a1e946b8811953640ee47d",
+    "nameTag": "Streamr: DATA Token"
+  },
+  {
+    "address": "0x84e2c67cbefae6b5148fca7d02b341b12ff4b5bb",
+    "nameTag": "Swash: SWASH token"
+  },
+  {
+    "address": "0xaad66432d27737ecf6ed183160adc5ef36ab99f2",
+    "nameTag": "Tellor Tributes: TRB Token"
+  },
+  {
+    "address": "0x4ecaba5870353805a9f068101a40e0f32ed605c6",
+    "nameTag": "Tether: USDT Token"
+  },
+  {
+    "address": "0x22c1f6050e56d2876009903609a2cc3fef83b415",
+    "nameTag": "The Proof of Attendance Protocol: POAP Token"
+  },
+  {
+    "address": "0xcb7bbe3825f41e9d16277245515804caed9ad476",
+    "nameTag": "TIME Token: D2 Token"
+  },
+  {
+    "address": "0xc03cdcda5541ad2435baccecd2618c07e8590977",
+    "nameTag": "TIME: TIME Token"
+  },
+  {
+    "address": "0x5df8339c5e282ee48c0c7ce8a7d01a73d38b3b27",
+    "nameTag": "Token Engineering Commons: TEC Token"
+  },
+  {
+    "address": "0x364b5975385b4de226cf450df82d7ed69902ac5a",
+    "nameTag": "TORG: TORG Token"
+  },
+  {
+    "address": "0x703120f2f2011a0d03a03a531ac0e84e81f15989",
+    "nameTag": "UNCL: UNCL Token"
+  },
+  {
+    "address": "0x0116e28b43a358162b96f70b4de14c98a4465f25",
+    "nameTag": "UniCrypt: UNCX Token"
+  },
+  {
+    "address": "0x4537e328bf7e4efa29d05caea260d7fe26af9d74",
+    "nameTag": "Uniswap: UNI Token"
+  },
+  {
+    "address": "0x8e5bbbb09ed1ebde8674cda39a0c169401db4252",
+    "nameTag": "Wrapped BTC: WBTC Token"
+  },
+  {
+    "address": "0x6a023ccd1ff6f2045c3309768ead9e68f978f6e1",
+    "nameTag": "Wrapped Ether: WETH Token"
+  },
+  {
+    "address": "0xb7d311e2eb55f2f68a9440da38e7989210b9a05e",
+    "nameTag": "xDai: STAKE Token"
+  },
+  {
+    "address": "0x988d1be68f2c5cde2516a2287c59bd6302b7d20d",
+    "nameTag": "xDaiPunks: PUNK Token"
+  },
+  {
+    "address": "0x9f0b5b31e7fbde3d9b1af4e482ef262b4ae9ed90",
+    "nameTag": "xDaiPunks: xDaiPunks Token"
+  },
+  {
+    "address": "0xc25af3123d2420054c8fcd144c21113aa2853f39",
+    "nameTag": "Xion Finance: XGT Token"
+  },
+  {
+    "address": "0xbf65bfcb5da067446cee6a706ba3fe2fb1a9fdfd",
+    "nameTag": "Yearn Finance: YFI Token"
+  }
+]
