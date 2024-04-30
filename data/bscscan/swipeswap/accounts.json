@@ -1,0 +1,66 @@
+[
+  {
+    "address": "0x98fb4fa5776f1300017dd11365c761dc142fe7bf",
+    "nameTag": "SwipeSwap: ADA-WBNB"
+  },
+  {
+    "address": "0xa12128bbb1c24fb851d8ba6ec6836f00916712c2",
+    "nameTag": "SwipeSwap: BTCB-WBNB"
+  },
+  {
+    "address": "0xa3b511a340017e858dc572355a594db035525137",
+    "nameTag": "SwipeSwap: BUSD-T-BUSD"
+  },
+  {
+    "address": "0xa14dd52106abc9fb12ada0e8d7bdebe95943f831",
+    "nameTag": "SwipeSwap: BUSD-T-WBNB"
+  },
+  {
+    "address": "0xdaeab56550ee42bb5b094511bcfcd92844527126",
+    "nameTag": "SwipeSwap: DAI-WBNB"
+  },
+  {
+    "address": "0x95b7693a9dfeca69e1b46031390d5a36bfcaab9e",
+    "nameTag": "SwipeSwap: DOT-WBNB"
+  },
+  {
+    "address": "0xfd08e722343ab852f627c3442d924b60ccc5449a",
+    "nameTag": "SwipeSwap: ETH-WBNB"
+  },
+  {
+    "address": "0x70b31abf9be826edc188a15fc35cc6037103a58f",
+    "nameTag": "SwipeSwap: SXP-BTCB"
+  },
+  {
+    "address": "0xf570d6e751976d0d10aa64acfa829a5ea4a51727",
+    "nameTag": "SwipeSwap: SXP-BUSD"
+  },
+  {
+    "address": "0xb450606703743d557a1c8384fffe6b941f8f60f4",
+    "nameTag": "SwipeSwap: SXP-WBNB"
+  },
+  {
+    "address": "0xad68d41305fb22171716c98f81f801f39880cbda",
+    "nameTag": "SwipeSwap: TWT-WBNB"
+  },
+  {
+    "address": "0x3f97fa8420d67d2b778c2b3318dd8c59fa0cc2ec",
+    "nameTag": "SwipeSwap: USDC-WBNB"
+  },
+  {
+    "address": "0xbe3e418441cf4ec44147af1a48dee11fa91da87d",
+    "nameTag": "SwipeSwap: VAI-BUSD"
+  },
+  {
+    "address": "0xc61fb584daf69bedf912768aedc0658b11a1a75c",
+    "nameTag": "SwipeSwap: VAI-WBNB"
+  },
+  {
+    "address": "0xb4e861775e0e3ee83862149e81245985ad82b861",
+    "nameTag": "SwipeSwap: WBNB-BUSD"
+  },
+  {
+    "address": "0xdca1d335d30c9f185d4d70a3fcac6feef9eb440c",
+    "nameTag": "SwipeSwap: WBNB-XVS"
+  }
+]
