@@ -28,4 +28,8 @@ export const scanConfig = {
     website: "https://bscscan.com",
     htmlParser: new BscscanHtmlParser(),
   },
+  gnosis: {
+    website: "https://gnosisscan.io/",
+    htmlParser: new OptimismHtmlParser(),
+  },
 } as const;
