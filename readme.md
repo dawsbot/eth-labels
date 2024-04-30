@@ -60,7 +60,7 @@ basescan was last modified: March 28, 2024
 
 <!-- AUTO-GENERATED-CONTENT:START (lastEdited:dataDirectory=bscscan) -->
 
-bscscan was last modified:
+bscscan was last modified: April 30, 2024
 
 [View labels here](data/bscscan)
 
