@@ -1,0 +1,102 @@
+[
+  {
+    "address": "0xa3bd5c569c097cedcf1cd878c8e25695a3db6926",
+    "nameTag": "Polyquity: Active Pool"
+  },
+  {
+    "address": "0x4c1454d083127257335da0990f71c56fa4a8f1d6",
+    "nameTag": "Polyquity: Borrower Operations"
+  },
+  {
+    "address": "0x037cd3ba0a938164b958aecd44c7ad61ffc49db3",
+    "nameTag": "Polyquity: Coll Surplus Pool"
+  },
+  {
+    "address": "0xa979d0bdabeab79e21f28cdb679ff175fab42112",
+    "nameTag": "Polyquity: Community Issuance"
+  },
+  {
+    "address": "0x96fadd64d7752e8fceb982240a0c82479f7627b1",
+    "nameTag": "Polyquity: Default Pool"
+  },
+  {
+    "address": "0xa3aa1e2079123923c92136530c4ec0a56e2ad677",
+    "nameTag": "Polyquity: Gas Pool"
+  },
+  {
+    "address": "0x951f6e3680e2aa0c9b18c258cc7d4862c84c7242",
+    "nameTag": "Polyquity: Hint Helpers"
+  },
+  {
+    "address": "0xe55943b7ef657fff2f684d4ce90ed26cd765f198",
+    "nameTag": "Polyquity: LockIn Half Life"
+  },
+  {
+    "address": "0xa54abc5beea1ad83db5f4fd2b4c6fd6af7674fe3",
+    "nameTag": "Polyquity: LQTY(PoS) Pool"
+  },
+  {
+    "address": "0x71c58a551e17c69b3d8673f418da50fe43237bcd",
+    "nameTag": "Polyquity: Multi Trove Getter"
+  },
+  {
+    "address": "0xf89e6a4dccd475729988728f57668da1b18eff94",
+    "nameTag": "Polyquity: Multisig Address For Liquidity"
+  },
+  {
+    "address": "0x8d63b25e0728e5b9c1d90b6a5f924f5771517947",
+    "nameTag": "Polyquity: Multisig Address For PUSD Reward"
+  },
+  {
+    "address": "0xe431f5b1fabacf2558f27395c47e30467c780bd2",
+    "nameTag": "Polyquity: Multisig Address For Top Defi"
+  },
+  {
+    "address": "0xd266c77d7ab0648eafdb5b45c313ac2c14b00b31",
+    "nameTag": "Polyquity: Price Feed"
+  },
+  {
+    "address": "0x9af3b7dc29d3c4b1a5731408b6a9656fa7ac3b72",
+    "nameTag": "Polyquity: PUSD Token"
+  },
+  {
+    "address": "0xcb881b62a97cb733d01c59eb8326b239e283e6a4",
+    "nameTag": "Polyquity: PUSD Unipool"
+  },
+  {
+    "address": "0xf2f4326e96ccc834216a7f95b96bd51239880048",
+    "nameTag": "Polyquity: PYQ Staking"
+  },
+  {
+    "address": "0x5a3064cbdccf428ae907796cf6ad5a664cd7f3d8",
+    "nameTag": "Polyquity: PYQ Token"
+  },
+  {
+    "address": "0x2b8e5367628df1481be945b685adf0968f1965e7",
+    "nameTag": "Polyquity: PYQ Unipool"
+  },
+  {
+    "address": "0xb50c8d564b0f9076226ad9b0031e280a23fd64b5",
+    "nameTag": "Polyquity: Sorted Troves"
+  },
+  {
+    "address": "0x445098d74b6eb4f3bcf20865989b777ee405a48c",
+    "nameTag": "Polyquity: Stability Pool"
+  },
+  {
+    "address": "0xc30d6bc42911aa21a63e51c7121b33b3e65cc3c4",
+    "nameTag": "Polyquity: SushiSwap-LP USDC/PUSD"
+  },
+  {
+    "address": "0xd3924ad8f881514eff89503be9027b877e9e2bd0",
+    "nameTag": "Polyquity: SushiSwap-lp USDC/PYQ"
+  },
+  {
+    "address": "0xa2a065dbcbae680df2e6bfb7e5e41f1f1710e63b",
+    "nameTag": "Polyquity: Trove Manager"
+  },
+  {
+    "address": "0x58170c01f3794ca28c706fabd7b9b139285f78db",
+    "nameTag": "Polyquity: X Half Life"
+  }
+]

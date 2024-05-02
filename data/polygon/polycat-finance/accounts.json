@@ -1,0 +1,26 @@
+[
+  {
+    "address": "0x1cb757f1eb92f25a917ce9a92ed88c1ac0734334",
+    "nameTag": "Polycat Finance: Deployer"
+  },
+  {
+    "address": "0x3a3df212b7aa91aa0402b9035b098891d276572b",
+    "nameTag": "Polycat Finance: FISH Token"
+  },
+  {
+    "address": "0x8cfd1b9b7478e7b0422916b72d1db6a9d513d734",
+    "nameTag": "Polycat Finance: MasterChef LP Staking Pool"
+  },
+  {
+    "address": "0xb67ad6c2fe7dd6ba346706b833ccf4234256266d",
+    "nameTag": "Polycat Finance: Referrer Handler"
+  },
+  {
+    "address": "0xf5a824b077cc0aaf50cf83a9e82714b89b684925",
+    "nameTag": "Polycat Finance: Timelock"
+  },
+  {
+    "address": "0xbda1f897e851c7ef22cd490d2cf2dace4645a904",
+    "nameTag": "Polycat Finance: VaultChef"
+  }
+]

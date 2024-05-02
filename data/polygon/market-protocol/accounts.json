@@ -1,0 +1,50 @@
+[
+  {
+    "address": "0x606af64e16bf85f587e9ac27fa2e8461c5258321",
+    "nameTag": "Market Protocol: Beefy LP Master Price Oracle V2"
+  },
+  {
+    "address": "0x00cb8686a4ddcb60565f8a0f1a10307ec1d91b58",
+    "nameTag": "Market Protocol: Chainlink Price Oracle V2"
+  },
+  {
+    "address": "0xb1205172aadaad4c67318ea77a34c1f1caa784ee",
+    "nameTag": "Market Protocol: Fee Distributor"
+  },
+  {
+    "address": "0x29535b9035500827fff73206e17a3d16635a1b48",
+    "nameTag": "Market Protocol: Fuse Safe Liquidator"
+  },
+  {
+    "address": "0x5beb233453d3573490383884bd4b9cba0663218a",
+    "nameTag": "Market Protocol: Green Average Locker"
+  },
+  {
+    "address": "0x70e84d964b59bc3609254e0e1f259afe6809ee11",
+    "nameTag": "Market Protocol: Index Coop Pool"
+  },
+  {
+    "address": "0x5a8a67541c024916b83943f4a1cec372f3826daa",
+    "nameTag": "Market Protocol: Lens V3"
+  },
+  {
+    "address": "0xf64d2699d30aa02e139a2ca3c2e86d6a889a4ce4",
+    "nameTag": "Market Protocol: Lens V3 Paginate"
+  },
+  {
+    "address": "0x296233b4f2fef1ce7977340ceb3cec4cbe3ada42",
+    "nameTag": "Market Protocol: Mai x Beefy Leverage Locker"
+  },
+  {
+    "address": "0xa2a1cb88d86a939a37770fe5e9530e8700dee56b",
+    "nameTag": "Market Protocol: Pool Directory"
+  },
+  {
+    "address": "0xcc5f01efd5647c77861ce15c923731f9e27e3132",
+    "nameTag": "Market Protocol: Preferred Price Oracle USDC V2"
+  },
+  {
+    "address": "0x2bf93d365e5ca26619dc3b496ffa5ae49cd219a0",
+    "nameTag": "Market Protocol: Stablecoin Pool"
+  }
+]

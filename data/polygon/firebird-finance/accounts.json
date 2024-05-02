@@ -1,0 +1,42 @@
+[
+  {
+    "address": "0xa20ca7c6705fb88847cbf50549d7a38f4e99d32c",
+    "nameTag": "Firebird Finance: Deployer"
+  },
+  {
+    "address": "0x5de74546d3b86c8df7feec30253865e1149818c8",
+    "nameTag": "Firebird Finance: Factory"
+  },
+  {
+    "address": "0xd78c475133731cd54dadcb430f7aae4f03c1e660",
+    "nameTag": "Firebird Finance: HOPE Token"
+  },
+  {
+    "address": "0xe9a8b6ea3e7431e6befca51258cb472df2dd21d4",
+    "nameTag": "Firebird Finance: MasterChef LP Staking Pool"
+  },
+  {
+    "address": "0x12bdad0abfccb9d88e9cc047f1e4cfab94947af3",
+    "nameTag": "Firebird Finance: mHOPE Token"
+  },
+  {
+    "address": "0xd2891f9a9fdbffc2db3ec9d4194409a7678cbc51",
+    "nameTag": "Firebird Finance: OneSwap Factory"
+  },
+  {
+    "address": "0x9f197f9ff460355a40b3c9a10f7d1ca65f365b83",
+    "nameTag": "Firebird Finance: OneSwap Router"
+  },
+  {
+    "address": "0xf6fa9ea1f64f1bbfa8d71f7f43faf6d45520bfac",
+    "nameTag": "Firebird Finance: Router"
+  },
+  {
+    "address": "0xbadc009227a5fe0b423b994669dd68d0d3cc722c",
+    "nameTag": "Firebird Finance: Staking Pool Controller"
+  },
+  {
+    "address": "0xfaee56c9aa45a233b44faedff51dadda30f15369",
+    "nameTag": "Firebird Finance: Zap"
+  }
+]

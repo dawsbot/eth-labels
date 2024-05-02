@@ -1,0 +1,90 @@
+[
+  {
+    "address": "0x9242559e737380e9ab79f3633e9b2aa12c87ac56",
+    "nameTag": "Advalorem: Staking"
+  },
+  {
+    "address": "0x25b1742e61722e7d9d6c1263fdc987ba89563461",
+    "nameTag": "Aimedis : Ecosystem Incentives Token Locker"
+  },
+  {
+    "address": "0xf609cd040e320525f49f58cd56ebcf8d2864d239",
+    "nameTag": "Aimedis: Foundation Token Locker"
+  },
+  {
+    "address": "0xcd9b59e23e7a9c8e70d59f37e2439a0971b9b10e",
+    "nameTag": "Aimedis: Staking Token Locker"
+  },
+  {
+    "address": "0xb82b44846e578b66fb47ae0c6426237d29084cb4",
+    "nameTag": "Aimedis: Team Token Locker"
+  },
+  {
+    "address": "0xe645d18bdc873a561b36169a3b60025553fbc58c",
+    "nameTag": "Aimedis: Treasury Token Locker"
+  },
+  {
+    "address": "0x6ad70613d14c34aa69e1604af91c39e0591a132e",
+    "nameTag": "Augury Finance: Masterchef Staking"
+  },
+  {
+    "address": "0xca2deac853225f5a4dfc809ae0b7c6e39104fce5",
+    "nameTag": "CafeSwap: Staking"
+  },
+  {
+    "address": "0x8888888ac6aa2482265e5346832cdd963c70a0d1",
+    "nameTag": "Cerby: Staking Pool"
+  },
+  {
+    "address": "0xe9a8b6ea3e7431e6befca51258cb472df2dd21d4",
+    "nameTag": "Firebird Finance: MasterChef LP Staking Pool"
+  },
+  {
+    "address": "0x4d70a031fc76da6a9bc0c922101a05fa95c3a227",
+    "nameTag": "KlimaDAO: Staking"
+  },
+  {
+    "address": "0x47df563de92bd0a36754f5b7124598cae0dafecf",
+    "nameTag": "MacaronSwap: Autostaking Vault"
+  },
+  {
+    "address": "0xc200ce4853d97e5f11320bb8ee17f4d895f5e7bb",
+    "nameTag": "MacaronSwap: Main Staking"
+  },
+  {
+    "address": "0x117ff6cf6157392816df5b3e19cd16d2008f740a",
+    "nameTag": "NFTY: Staking"
+  },
+  {
+    "address": "0x4eef9cb4d2da4ab2a76a4477e9d2b07f403f0675",
+    "nameTag": "Nidhi Dao: Staking"
+  },
+  {
+    "address": "0xa70ef20f26d400ba5b240a615d0fe948bfebdbab",
+    "nameTag": "Playermon: Staking Vesting"
+  },
+  {
+    "address": "0x8cfd1b9b7478e7b0422916b72d1db6a9d513d734",
+    "nameTag": "Polycat Finance: MasterChef LP Staking Pool"
+  },
+  {
+    "address": "0x217cf04c783818e5b15ae0723b22ee2415ab5fe3",
+    "nameTag": "PolyPulsar: Masterchef Staking Pool"
+  },
+  {
+    "address": "0x34bc3d36845d8a7ca6964261fbd28737d0d6510f",
+    "nameTag": "Polywhale Finance: Masterchef Staking Pool"
+  },
+  {
+    "address": "0x2dc11b394bd0f1cc6ac0a269cfe3cc0b333601b4",
+    "nameTag": "PolyYeld Finance: Masterchef Staking Pool"
+  },
+  {
+    "address": "0x574fe4e8120c4da1741b5fd45584de7a5b521f0f",
+    "nameTag": "Qi DAO: Masterchef Staking Pool"
+  },
+  {
+    "address": "0xa88c84a25e1dd32df24801e2d48869466316dfb1",
+    "nameTag": "Ramp Defi: Staking"
+  }
+]

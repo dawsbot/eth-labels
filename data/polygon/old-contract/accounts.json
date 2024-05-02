@@ -1,0 +1,511 @@
+[
+  { "address": "0x16594930d16f3970e1a4317c6016555cb2e7b7fc", "nameTag": "" },
+  {
+    "address": "0x681013a465e702e92d1c3cf7aebadfbc2c97b146",
+    "nameTag": "Abitcoingold: Old ABG Token"
+  },
+  {
+    "address": "0xc8e36f0a44fbeca89fdd5970439cbe62eb4b5d03",
+    "nameTag": "AdEx Network: Old ADX Token"
+  },
+  {
+    "address": "0x7b4554c4ab1b4a61a2ff4ce35900f5c7be47ba2e",
+    "nameTag": "Akiverse: Old AKV Token"
+  },
+  {
+    "address": "0x28cac3219cde0e7abe91c80033b9e470740afde0",
+    "nameTag": "AltaFin: Old raAFN Token"
+  },
+  {
+    "address": "0xca4d1ae53e08f4dc432c3a7ed92afeabcfe33439",
+    "nameTag": "AltaFin: Old rdAFN Token"
+  },
+  {
+    "address": "0x4409a35082ccefb6559d59855e7699f299b7beba",
+    "nameTag": "Ares3 Network: Old ARES Token"
+  },
+  {
+    "address": "0xb46dd73ac86ed8706c0761e593858187023e71ef",
+    "nameTag": "Aurus.io: Old AWX Token"
+  },
+  {
+    "address": "0xaee0ffb690b37449b7f1c49b199e1e3ec6084490",
+    "nameTag": "Aurus: Old AWG Token"
+  },
+  {
+    "address": "0x24ad14a4f0bb79a9dcf201514cb0e651c79db76b",
+    "nameTag": "Aurus: Old AWS Token"
+  },
+  {
+    "address": "0xa96d47c621a8316d4f9539e3b38180c7067e84ca",
+    "nameTag": "Aurus: Old AWS Token 2"
+  },
+  {
+    "address": "0x56a0efefc9f1fbb54fbd25629ac2aa764f1b56f7",
+    "nameTag": "AurusDeFi: Old AWX Token"
+  },
+  {
+    "address": "0x9246a5f10a79a5a939b0c2a75a3ad196aafdb43b",
+    "nameTag": "Betswirl: Old BETS Token"
+  },
+  {
+    "address": "0xf3feedf3c9142abc5ab71efd70cd8f069d3409fa",
+    "nameTag": "BetVerse: Old BVT Token"
+  },
+  {
+    "address": "0xbd2173e33ae4f2fb482e139db4d5c2ef1f9aa181",
+    "nameTag": "BetVerse: Old BVT Token 2"
+  },
+  {
+    "address": "0xff88434e29d1e2333ad6baa08d358b436196da6b",
+    "nameTag": "BoringDAO: Old BOR Token"
+  },
+  {
+    "address": "0x491a4eb4f1fc3bff8e1d2fc856a6a46663ad556f",
+    "nameTag": "Brazilian Digital: Old BRZ Token"
+  },
+  {
+    "address": "0xe745d88a390e89e6562b29f6ac17ec03804050ad",
+    "nameTag": "Brewlabs: Old BREWLABS Token"
+  },
+  {
+    "address": "0x5d146d8b1dacb1ebba5cb005ae1059da8a1fbf57",
+    "nameTag": "CAD Coin: Old CADC Token"
+  },
+  {
+    "address": "0x9a6acc4ca864cb818d53d5aeaa1818122d57069d",
+    "nameTag": "Carbify: Old CBY Token"
+  },
+  {
+    "address": "0x51f7c5dbafc47fc15c77768a35f72c84280cdcad",
+    "nameTag": "Carbify: Old CBY Token 2"
+  },
+  {
+    "address": "0x2ef5411d77b38460cd5e8a24d576926af8cdf793",
+    "nameTag": "Celestial Plain: Old CEL Token"
+  },
+  {
+    "address": "0x5e85211fe63eb29c5adb6d95c9ad578fd6f7be86",
+    "nameTag": "Centus: Old CENTUS Token"
+  },
+  {
+    "address": "0x19d300d25360f9b23aaf87b0ae5720482f20abb8",
+    "nameTag": "Cipher: Old CPR Token"
+  },
+  {
+    "address": "0xd92fbed627af1c9ac28ac92b9a802c83b32331a7",
+    "nameTag": "CityMonk: Old CIMO Token"
+  },
+  {
+    "address": "0x062b60bfe61ea679e843f44ee05a68bd3ba1e469",
+    "nameTag": "CrickDAO: Old CRIC Token"
+  },
+  {
+    "address": "0xd1e6354fb05bf72a8909266203dab80947dceccf",
+    "nameTag": "Cryption Network: Old CNT Token"
+  },
+  {
+    "address": "0xbcba862fbd0fb77929b1889eb6aac70da34e02c8",
+    "nameTag": "D Frame Foundation: Old DFT Token"
+  },
+  {
+    "address": "0xa286a23b2247e0c2aadfc130194ad1e630948fbc",
+    "nameTag": "Dark Earth: Old MC Token"
+  },
+  {
+    "address": "0xde12c7959e1a72bbe8a5f7a1dc8f8eef9ab011b3",
+    "nameTag": "Deus Finance: Old DEI Token"
+  },
+  {
+    "address": "0xe7804d91dfcde7f776c90043e03eaa6df87e6395",
+    "nameTag": "DFX Finance: Old DFX Token"
+  },
+  {
+    "address": "0xc3b70dd22e92e5283e9e90ff3e816b507b3b0f18",
+    "nameTag": "DigitalFlyer: Old DFGT Token"
+  },
+  {
+    "address": "0x253f34dc019d41082ddc12d3a960cbc99e7380fd",
+    "nameTag": "Doaibu: Old DOA Token"
+  },
+  {
+    "address": "0xffd3e1db8020b2e9f8706963be77db2fa3280106",
+    "nameTag": "Dongle Space: Old DGL Token"
+  },
+  {
+    "address": "0x5e4ab6b3d3b3a8e61b3a58594a4a2ed9d614f604",
+    "nameTag": "Duende V2: Old DUENDE Token"
+  },
+  {
+    "address": "0x6e7118b82fb9608342c288a90eeb5e614aaee2e9",
+    "nameTag": "Edgeware: Old EDG Token"
+  },
+  {
+    "address": "0xda3bd278a39ae57439ee26b361118173bc70f21f",
+    "nameTag": "EGPTEX: Old EGPT Token"
+  },
+  {
+    "address": "0x08ce2d030cdd9b4661933504cf4dade5679a76ec",
+    "nameTag": "EMG: Old EMG Token"
+  },
+  {
+    "address": "0xecb51acf9967331b7f282f855079671fe22c56c3",
+    "nameTag": "Entice: Old NTIC Token"
+  },
+  {
+    "address": "0x4ca5ec27655e99457d918aa9c16d06060cd29589",
+    "nameTag": "Epigeon: Old EPG Token"
+  },
+  {
+    "address": "0x719f2bf201da2fb78031bfa9d43963e0c3fcfef5",
+    "nameTag": "Epigeon: Old EPG Token 2"
+  },
+  {
+    "address": "0x0cd022dde27169b20895e0e2b2b8a33b25e63579",
+    "nameTag": "EverRise: Old RISE Token"
+  },
+  {
+    "address": "0x01296da17460cc88fcdbfdf0196357d2f6e57472",
+    "nameTag": "F-NFT: Old FNFT Token"
+  },
+  {
+    "address": "0xae820d92772ab9d167421fac2b3db6729ab069e3",
+    "nameTag": "Fabwelt: Old FWLT Token"
+  },
+  {
+    "address": "0x5028d20d0886a18c7a412024e26caaa2a9a9f3a6",
+    "nameTag": "Final Fighters: Old FF Token"
+  },
+  {
+    "address": "0x5f7c22c66a9034a877eb6548ddcb24e3dfb694f0",
+    "nameTag": "Final Fighters: Old FF Token 2"
+  },
+  {
+    "address": "0x371b97c779e8c5197426215225de0eeac7dd13af",
+    "nameTag": "Flowerpatch: Old SEED Token"
+  },
+  {
+    "address": "0x80d55041e3954405664694899ff9f202c13c0e1c",
+    "nameTag": "Flowerpatch: Old SEED Token 2"
+  },
+  {
+    "address": "0x649ebee9cddf8373376dc7aeabe8b975fc8706b8",
+    "nameTag": "Follow Me: Old FMS Token 2"
+  },
+  {
+    "address": "0xd07728a2783253508b381386168ab94f1d492e3c",
+    "nameTag": "Forge Token: Old FOR Token"
+  },
+  {
+    "address": "0xdb725f82818de83e99f1dac22a9b5b51d3d04dd4",
+    "nameTag": "GET Protocol: Old GET Token"
+  },
+  {
+    "address": "0x3e49e9c890cd5b015a18ed76e7a4093f569f1a04",
+    "nameTag": "GET Protocol: Old Staking"
+  },
+  {
+    "address": "0x4c3769451027f502a8abfa94d3f8ed3625ed564b",
+    "nameTag": "Gitshock Finance: Old GTFX Token"
+  },
+  {
+    "address": "0xbb8f0cf1ff0621d4121a060ce4c8011365b901e0",
+    "nameTag": "GlimNetwork: Old GLIM Token"
+  },
+  {
+    "address": "0x261c127d841b12f24d2e517e980df523744fdb4b",
+    "nameTag": "GlimNetwork: Old GLIM Token 2"
+  },
+  {
+    "address": "0x8cb96e95c714e0996e6d299f617f518d965e352e",
+    "nameTag": "GLOBALTRUSTFUND: Old GTF Token"
+  },
+  {
+    "address": "0xa69b35951c7b90080e9f3aef15ca918a0849829d",
+    "nameTag": "Gold Bar: Old GXB Token"
+  },
+  {
+    "address": "0xf9a75e8881af1be80ae80050616185f0b924a03e",
+    "nameTag": "Grexie: Old GREX Token"
+  },
+  {
+    "address": "0x299317d2d55fb1277e9142e36a9f5a82f6faf729",
+    "nameTag": "Halofi : Cupid Pool"
+  },
+  {
+    "address": "0x87f0428e33cd2e2284e7ce7459acfa3cf16f378e",
+    "nameTag": "Halofi : ETH Merge Hodl Pool"
+  },
+  {
+    "address": "0x2eadc3afa195339a195d0a412a128e49021c66ae",
+    "nameTag": "Halofi : Evil Pool"
+  },
+  {
+    "address": "0xd8ca269c2a929fee284f822b591b591c40ce5d85",
+    "nameTag": "Halofi : Save2Save Spirals ReFi DAO"
+  },
+  {
+    "address": "0x8d7a9b528cf9f31c439742ef2d49b6f0a524acb7",
+    "nameTag": "Halofi : Save2Save Spirals Toucan"
+  },
+  {
+    "address": "0xb1cb9d9c85aa10c332083bcd03d2fcf871556e52",
+    "nameTag": "IBAX Crypto: Old GCN Token"
+  },
+  {
+    "address": "0xb08ba4ad6bc291f4f1e79c4c7f9395141b8d5797",
+    "nameTag": "INTDESTCOIN: Old INTD Token"
+  },
+  {
+    "address": "0x9440146ea1df0142ee1892602416da896c7876e8",
+    "nameTag": "ISLAMICOIN: Old iGold Token"
+  },
+  {
+    "address": "0x9732b09ff102417668d2e9a6b5c2a28ed07db638",
+    "nameTag": "JUGEM: Old JUGEM Token"
+  },
+  {
+    "address": "0x8e26032650a389bf9cf16c17c4cd605742f1ef8d",
+    "nameTag": "Kapital DAO: Old KAP Token"
+  },
+  {
+    "address": "0x5a55b82cdb9e8a700d52bbdef3ee428666e9104a",
+    "nameTag": "Kaxaa: Old KAX Token"
+  },
+  {
+    "address": "0x40f4864ce6369988cfbe59dac73a7779afbcabf8",
+    "nameTag": "Koolpeace: Old KOOL Token"
+  },
+  {
+    "address": "0x838101ed50d66dfbc4fa2923b22e069431009b61",
+    "nameTag": "Layka DAO: Old LP Token"
+  },
+  {
+    "address": "0x4e9c734befa0c61ef6090a953ca880a3e3de1970",
+    "nameTag": "Lepasa: Old Lepasa Centaur Token"
+  },
+  {
+    "address": "0x053ee2b19f0d53d85156ab187f0c5807f4e6dacd",
+    "nameTag": "Lepasa: Old Lepasa Crypto Bull Token"
+  },
+  {
+    "address": "0xcce4bb895132dc7595311d59dc9aab700a7f929d",
+    "nameTag": "Lepasa: Old Lepasa Magicorn Token"
+  },
+  {
+    "address": "0x56ac3cb5e74b8a5a25ec9dc05155af1dad2715bd",
+    "nameTag": "LIF3: Old LIF3 Token"
+  },
+  {
+    "address": "0x230fb676fbd70990e14671924d6521402d90958b",
+    "nameTag": "Liquid ICP: Old LICP Token"
+  },
+  {
+    "address": "0xfd46f44a5ad3227a7325b695b6ea1aa549862309",
+    "nameTag": "Lira: Old LIRA Token"
+  },
+  {
+    "address": "0xca7bf3c514d412ac12d10eff302301a81153f557",
+    "nameTag": "LunaFi: Old LFI Token"
+  },
+  {
+    "address": "0x34ad6a664b4112a9c6bac7b54b4094a05e3ff775",
+    "nameTag": "Maricoin: Old MCOIN Token"
+  },
+  {
+    "address": "0x8a1be7700c25e09cef0982435e92a22ef806014c",
+    "nameTag": "Mentora: Old MWP Token"
+  },
+  {
+    "address": "0xd449c874d17c429e5ab461e6963640dd15a43315",
+    "nameTag": "Metacoms: Old MEAC Token"
+  },
+  {
+    "address": "0x86557c01b77c0e65c8ab87fba6d221e94edc81e4",
+    "nameTag": "Metacoms: Old MEAC Token 2"
+  },
+  {
+    "address": "0x21c44564c2a19cf29e96794943204fc51137630c",
+    "nameTag": "Metacoms:Old MEAC Token"
+  },
+  {
+    "address": "0x0448a732bf0f5babebe1514a2c2d5978773fe3b2",
+    "nameTag": "Metaverse Sagas: Old MVS Token"
+  },
+  {
+    "address": "0x0a36dc1cc379e5277c1ff88be736d6cccbb8dab7",
+    "nameTag": "Minerio: Old RIO Token"
+  },
+  {
+    "address": "0xb3afb63a5ec74ab2de7e33198af285a79f99e0cb",
+    "nameTag": "Minnapad: Old MINNA Token"
+  },
+  {
+    "address": "0x2237c1299473b80c5f482e4974d8a0ecc318f775",
+    "nameTag": "Miracleplay: Old MPT Token"
+  },
+  {
+    "address": "0x0a9c1da5d20d32999d7f694deeabc6ea174b37df",
+    "nameTag": "NFTickit: Old NFTICKIT Token"
+  },
+  {
+    "address": "0x81a05a0b2b71482220354712835f75a9b626b462",
+    "nameTag": "NFTouring: Old NFTR Token"
+  },
+  {
+    "address": "0x8cf6e82919f69ae382def8f94e581a43ce1e70c1",
+    "nameTag": "Nori: Old NORI Token"
+  },
+  {
+    "address": "0x337af08bb6980ecb68389c5ed8876d08643abf8a",
+    "nameTag": "Novawchi: Old NVS Token"
+  },
+  {
+    "address": "0x40817e1ab07fc872b7af6a959c4b7a8febf6c4ab",
+    "nameTag": "OpenOcean: Old OOE Token"
+  },
+  {
+    "address": "0xaae18267f451e11695bea7920f119f28390d3d77",
+    "nameTag": "OSIS: Old OSIS Token"
+  },
+  {
+    "address": "0x8303396ea8b5419e187950ce609ea1f610289912",
+    "nameTag": "OSIS: Old OSIS Token 2"
+  },
+  {
+    "address": "0x2ac24ae11334cf60f47dbf59e69be4bd928c838c",
+    "nameTag": "OSIS: Old OSIS Token 3"
+  },
+  {
+    "address": "0xa9f31589e0a8c0b12068329736ed6385a8f77b62",
+    "nameTag": "Paycer Protocol: Old PCR Token"
+  },
+  {
+    "address": "0x70ec1dbf992729f2cd0a2ae056599f23820522ef",
+    "nameTag": "Petto: Old PETTO Token"
+  },
+  {
+    "address": "0xd0cafe6f67e40e633ea9a2e9d661d17a295bed04",
+    "nameTag": "Pixels: Old BERRY Token"
+  },
+  {
+    "address": "0x6faab3bf1f555db14ead20f4bf5452c6112c5ee9",
+    "nameTag": "Pixels: Old BERRY Token 2"
+  },
+  {
+    "address": "0xfc5a11d0fe8b5ad23b8a643df5eae60b979ce1bf",
+    "nameTag": "PolyWhirl: Old WHIRL Token"
+  },
+  {
+    "address": "0x01b3b7b4656f60e849ab6016ec70fcb0d1f336c8",
+    "nameTag": "POZZ: Old POZZ Token"
+  },
+  {
+    "address": "0x00d9b589fc7518256bb504168f92116e8454ee15",
+    "nameTag": "Qawalla: Old QWLA Token"
+  },
+  {
+    "address": "0x831753dd7087cac61ab5644b308642cc1c33dc13",
+    "nameTag": "QuickSwap: Old QUICK Token"
+  },
+  {
+    "address": "0xf21917bc081afea1ec687508c374264d9f721477",
+    "nameTag": "Realms of Ethernity: Old RETH Token"
+  },
+  {
+    "address": "0xd6c23852b94fede6ab571e4b4cfdb745b49dc9eb",
+    "nameTag": "Ren: Old renBTC Token"
+  },
+  {
+    "address": "0xc299dfc5f65532da6df982f43935b3cf814081cd",
+    "nameTag": "SeaLightSwap: Old SEAS Token"
+  },
+  {
+    "address": "0xd748f23cbdf67b2debfa79ed3ad9ee9e53cbb4b5",
+    "nameTag": "Sharp Token: Old SHARP Token"
+  },
+  {
+    "address": "0x8d546026012bf75073d8a586f24a5d5ff75b9716",
+    "nameTag": "Sphere Finance: Old SPHERE Token"
+  },
+  {
+    "address": "0x35db0dfb42dfe164a3e4d39f91459878d564fa5b",
+    "nameTag": "SPYRIT: Old SPYRIT Token"
+  },
+  {
+    "address": "0x068ce3b9dabf80123d0a921ede5e8212214c8678",
+    "nameTag": "Story Earth: Old Earth Token"
+  },
+  {
+    "address": "0x3cabd2d298b9172533ad47d3f692e8fe13673160",
+    "nameTag": "StreetCredit: Old SCRED Token"
+  },
+  {
+    "address": "0xdf9b4b57865b403e08c85568442f95c26b7896b0",
+    "nameTag": "Sunflower Farmers: Old SFF Token"
+  },
+  {
+    "address": "0xb5dfabd7ff7f83bab83995e72a52b97abb7bcf63",
+    "nameTag": "Tangible: Old USDR Token"
+  },
+  {
+    "address": "0xaf0d9d65fc54de245cda37af3d18cbec860a4d4b",
+    "nameTag": "Tangible: Old wUSDR Token"
+  },
+  {
+    "address": "0x515d720b9d219f1931205d5b8d842be1fe2febde",
+    "nameTag": "TeleportDAO: Old TELEBTC Token"
+  },
+  {
+    "address": "0xefcfece12a99d1dbbf6f3264ee97f8c045e97f1f",
+    "nameTag": "The Unfettered: Old SOULS Token"
+  },
+  {
+    "address": "0x27387362a24b27129da9fb8e4b68a170b72c9e74",
+    "nameTag": "Tres Leches: Old 3Leches Token"
+  },
+  {
+    "address": "0x2275059f310e31c2f43b24a9932882196659e1c4",
+    "nameTag": "TrotelCoin: Old TROTEL Token"
+  },
+  {
+    "address": "0xe36623d602c23df136f77bca72f883870f65de25",
+    "nameTag": "Versity: Old SITY Token"
+  },
+  {
+    "address": "0xf16ec50ec49abc95fa793c7871682833b6bc47e7",
+    "nameTag": "Volt Inu V2: Old VOLT Token"
+  },
+  {
+    "address": "0x84363f235865cd0e1f3fea6d601e75aac80cbbd7",
+    "nameTag": "VORZ: Old VORZ Token"
+  },
+  {
+    "address": "0xf02d2fb78944f04ae3bcbf9ae05c5cdb84909324",
+    "nameTag": "Vude: Old VUDE Token"
+  },
+  {
+    "address": "0x69f8cf649960d27969e593b488ce0dd49f46cee7",
+    "nameTag": "White Pigeon: Old WP Token"
+  },
+  {
+    "address": "0x5a242099c159722a5e44798aeabe54cabcd844bb",
+    "nameTag": "Wunderpar: Old WUNDR Token"
+  },
+  {
+    "address": "0x063a1b6cea11a9349e5e76d6672b423682454942",
+    "nameTag": "Xotik: Old $XOTIK Token"
+  },
+  {
+    "address": "0x530759199116b9c261211d95686fd46a5f9b3175",
+    "nameTag": "XR Coin: Old XR Token"
+  },
+  {
+    "address": "0x765bba5e38e76bafd42c58f37c42038d3b04243a",
+    "nameTag": "ZED: Old ZED Token"
+  },
+  {
+    "address": "0xc35de09873d366eee607a975903b49ab8de7b90c",
+    "nameTag": "ZelaaPayAE: Old ZPAE Token"
+  }
+]

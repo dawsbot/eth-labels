@@ -1,0 +1,18 @@
+[
+  {
+    "address": "0x8f5bbb2bb8c2ee94639e55d5f41de9b4839c1280",
+    "nameTag": "Synapse: Bridge"
+  },
+  {
+    "address": "0xff0047e2156b2d62055a77fe9abbd01baa11d54a",
+    "nameTag": "Synapse: Bridge Zap"
+  },
+  {
+    "address": "0x7875af1a6878bda1c129a4e2356a3fd040418be5",
+    "nameTag": "Synapse: MiniChef"
+  },
+  {
+    "address": "0xa12a034fe81a17d11593c1f85930d20090ec1747",
+    "nameTag": "Synapse: Timelock"
+  }
+]

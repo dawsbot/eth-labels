@@ -1,0 +1,50 @@
+[
+  {
+    "address": "0xa8d394fe7380b8ce6145d5f85e6ac22d4e91acde",
+    "nameTag": "Wormhole: BUSD Token"
+  },
+  {
+    "address": "0x9cd6746665d9557e1b9a775819625711d0693439",
+    "nameTag": "Wormhole: LUNA Token"
+  },
+  {
+    "address": "0xd93f7e271cb87c23aaa73edc008a79646d1f9912",
+    "nameTag": "Wormhole: SOL Token"
+  },
+  {
+    "address": "0x5a58505a96d1dbf8df91cb21b54419fc36e93fde",
+    "nameTag": "Wormhole: Token Bridge"
+  },
+  {
+    "address": "0x4318cb63a2b8edf2de971e2f17f77097e499459d",
+    "nameTag": "Wormhole: USDCet Token"
+  },
+  {
+    "address": "0x576cf361711cd940cd9c397bb98c4c896cbd38de",
+    "nameTag": "Wormhole: USDCso Token"
+  },
+  {
+    "address": "0x3553f861dec0257bada9f8ed268bf0d74e45e89c",
+    "nameTag": "Wormhole: USDT Token"
+  },
+  {
+    "address": "0x9417669fbf23357d2774e9d421307bd5ea1006d2",
+    "nameTag": "Wormhole: USDTet Token"
+  },
+  {
+    "address": "0xe6469ba6d2fd6130788e0ea9c0a0515900563b59",
+    "nameTag": "Wormhole: UST Token"
+  },
+  {
+    "address": "0x7bb11e7f8b10e9e571e5d8eace04735fdfb2358a",
+    "nameTag": "Wormhole: WAVAX Token"
+  },
+  {
+    "address": "0xecdcb5b88f8e3c15f95c720c51c71c9e2080525d",
+    "nameTag": "Wormhole: WBNB Token"
+  },
+  {
+    "address": "0x5d49c278340655b56609fdf8976eb0612af3a0c3",
+    "nameTag": "Wormhole: WBTC Token"
+  }
+]

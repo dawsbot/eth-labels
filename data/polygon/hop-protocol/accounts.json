@@ -1,0 +1,222 @@
+[
+  {
+    "address": "0x2e929203d8f2fcf88c4ff7b7362d08169b6f661c",
+    "nameTag": "Hop Protocol: DAI Base Root Tunnel"
+  },
+  {
+    "address": "0x10b6cbdfe187c04d63f179b87067c49e7a1e91af",
+    "nameTag": "Hop Protocol: DAI Bonder V2"
+  },
+  {
+    "address": "0xecf268be00308980b5b3fcd0975d47c4c8e1382a",
+    "nameTag": "Hop Protocol: DAI Bridge"
+  },
+  {
+    "address": "0x25fb92e505f752f730cad0bd4fa17ece4a384266",
+    "nameTag": "Hop Protocol: DAI Liquidity Pool"
+  },
+  {
+    "address": "0x340a633f6940f6893f350eba8a6606d8d1575cdb",
+    "nameTag": "Hop Protocol: DAI Messenger"
+  },
+  {
+    "address": "0x4aeb0b5b1f3e74314a7fa934db090af603e8289b",
+    "nameTag": "Hop Protocol: DAI Rewards Contract"
+  },
+  {
+    "address": "0xd6dc6f69f81537fe9decc18152b7005b45dc2ee7",
+    "nameTag": "Hop Protocol: DAI Rewards Contract 2"
+  },
+  {
+    "address": "0x28529fec439cff6d7d1d5917e956dee62cd3be5c",
+    "nameTag": "Hop Protocol: DAI Wrapper"
+  },
+  {
+    "address": "0x924ac9910c09a0215b06458653b30471a152022f",
+    "nameTag": "Hop Protocol: Deployer"
+  },
+  {
+    "address": "0xdec8005ca1a3f90168c211406fefafa412467d81",
+    "nameTag": "Hop Protocol: ETH Base Root Tunnel"
+  },
+  {
+    "address": "0x710bda329b2a6224e4b44833de30f38e7f81d564",
+    "nameTag": "Hop Protocol: ETH Bonders"
+  },
+  {
+    "address": "0xb98454270065a31d71bf635f6f7ee6a518dfb849",
+    "nameTag": "Hop Protocol: ETH Bridge"
+  },
+  {
+    "address": "0x266e2dc3c4c59e42aa07afee5b09e964cffe6778",
+    "nameTag": "Hop Protocol: ETH Liquidity Pool"
+  },
+  {
+    "address": "0xab1b280057a42a16e22a523e53318d5b04d03da3",
+    "nameTag": "Hop Protocol: ETH Messenger"
+  },
+  {
+    "address": "0x7bceda1db99d64f25efa279bb11ce48e15fda427",
+    "nameTag": "Hop Protocol: ETH Rewards Contract"
+  },
+  {
+    "address": "0xaa7b3a4a084e6461d486e53a03cf45004f0963b7",
+    "nameTag": "Hop Protocol: ETH Rewards Contract 2"
+  },
+  {
+    "address": "0xc315239cfb05f1e130e7e28e603cea4c014c57f0",
+    "nameTag": "Hop Protocol: Ethereum Bridge"
+  },
+  {
+    "address": "0xb8901acb165ed027e32754e0ffe830802919727f",
+    "nameTag": "Hop Protocol: hDAI Token"
+  },
+  {
+    "address": "0x1fdeaf938267ca43388ed1fdb879eaf91e920c7a",
+    "nameTag": "Hop Protocol: hETH Token"
+  },
+  {
+    "address": "0x712f0cf37bdb8299d0666727f73a5caba7c1c24c",
+    "nameTag": "Hop Protocol: hMATIC Token"
+  },
+  {
+    "address": "0x8b7aa8f5cc9996216a88d900df8b8a0a3905939a",
+    "nameTag": "Hop Protocol: HOP - DAI Token"
+  },
+  {
+    "address": "0xbc4fb4ed825c65ff48163af7e59d49e32edb5269",
+    "nameTag": "Hop Protocol: HOP - MATIC Token"
+  },
+  {
+    "address": "0x881296edcb252080bd476c464ceb521d08df7631",
+    "nameTag": "Hop Protocol: HOP Bonder"
+  },
+  {
+    "address": "0x58c61aee5ed3d748a1467085ed2650b697a66234",
+    "nameTag": "Hop Protocol: HOP Bridge"
+  },
+  {
+    "address": "0xbd8a7bebe8a0e1486a56657eac3d534c76f105e2",
+    "nameTag": "Hop Protocol: HOP Messenger"
+  },
+  {
+    "address": "0x971039bf0a49c8d8a675f839739ee7a42511ec91",
+    "nameTag": "Hop Protocol: HOP-ETH Token"
+  },
+  {
+    "address": "0x9d373d22fd091d7f9a6649eb067557cc12fb1a0a",
+    "nameTag": "Hop Protocol: HOP-USDC Token"
+  },
+  {
+    "address": "0x3ca3218d6c52b640b0857cc19b69aa9427bc842c",
+    "nameTag": "Hop Protocol: HOP-USDT Token"
+  },
+  {
+    "address": "0x9ec9551d4a1a1593b0ee8124d98590cc71b3b09d",
+    "nameTag": "Hop Protocol: hUSDC Token"
+  },
+  {
+    "address": "0x9f93aca246f457916e49ec923b8ed099e313f763",
+    "nameTag": "Hop Protocol: hUSDT Token"
+  },
+  {
+    "address": "0x40ec5b33f54e0e8a33a975908c5ba1c14e5bbbdf",
+    "nameTag": "Hop Protocol: L1 Pos Predicate"
+  },
+  {
+    "address": "0xd8781ca9163e9f132a4d8392332e64115688013a",
+    "nameTag": "Hop Protocol: Matic Bonder"
+  },
+  {
+    "address": "0x553bc791d746767166fa3888432038193ceed5e2",
+    "nameTag": "Hop Protocol: MATIC Bridge"
+  },
+  {
+    "address": "0x3d4cc8a61c7528fd86c55cfe061a78dcba48edd1",
+    "nameTag": "Hop Protocol: MATIC Liquidity Pool"
+  },
+  {
+    "address": "0x2b7cf93d722bb716468194373254125b7f5dd4b8",
+    "nameTag": "Hop Protocol: MATIC Messenger"
+  },
+  {
+    "address": "0x7deebcad1416110022f444b03aeb1d20eb4ea53f",
+    "nameTag": "Hop Protocol: MATIC Rewards Contract"
+  },
+  {
+    "address": "0x884d1aa15f9957e1aeaa86a82a72e49bc2bfcbe3",
+    "nameTag": "Hop Protocol: MATIC Wrapper"
+  },
+  {
+    "address": "0xa6a688f107851131f0e1dce493ebbebfaf99203e",
+    "nameTag": "Hop Protocol: USDC Bonders"
+  },
+  {
+    "address": "0x25d8039bb044dc227f741a9e381ca4ceae2e6ae8",
+    "nameTag": "Hop Protocol: USDC Bridge"
+  },
+  {
+    "address": "0x5c32143c8b198f392d01f8446b754c181224ac26",
+    "nameTag": "Hop Protocol: USDC Liquidity Pool"
+  },
+  {
+    "address": "0xbec7b65bdd0e46ab5c7d37f99ecdb6f00b59667a",
+    "nameTag": "Hop Protocol: USDC Matic Messenger"
+  },
+  {
+    "address": "0x2c2ab81cf235e86374468b387e241df22459a265",
+    "nameTag": "Hop Protocol: USDC Rewards Contract"
+  },
+  {
+    "address": "0x7811737716942967ae6567b26a5051cc72af550e",
+    "nameTag": "Hop Protocol: USDC Rewards Contract 2"
+  },
+  {
+    "address": "0x76b22b8c1079a44f1211d867d68b1eda76a635a7",
+    "nameTag": "Hop Protocol: USDC Wrapper"
+  },
+  {
+    "address": "0x15ec4512516d980090050fe101de21832c8edfee",
+    "nameTag": "Hop Protocol: USDT Bonder"
+  },
+  {
+    "address": "0x6c9a1acf73bd85463a46b0afc076fbdf602b690b",
+    "nameTag": "Hop Protocol: USDT Bridge"
+  },
+  {
+    "address": "0xb2f7d27b21a69a033f85c42d5eb079043baadc81",
+    "nameTag": "Hop Protocol: USDT Liquidity Pool"
+  },
+  {
+    "address": "0x893246facf345c99e4235e5a7bbee7404c988b96",
+    "nameTag": "Hop Protocol: USDT Messenger"
+  },
+  {
+    "address": "0x07932e9a5ab8800922b2688fb1fa0daad8341772",
+    "nameTag": "Hop Protocol: USDT Rewards Contract"
+  },
+  {
+    "address": "0x297e5079df8173ae1696899d3eacd708f0af82ce",
+    "nameTag": "Hop Protocol: USDT Rewards Contract 2"
+  },
+  {
+    "address": "0x8741ba6225a6bf91f9d73531a98a89807857a2b3",
+    "nameTag": "Hop Protocol: USDT Wrapper"
+  },
+  {
+    "address": "0xae6dc7fed207fb7bf3f406fc197f70607cea618a",
+    "nameTag": "Hop Protocol:HOP Base Root Tunnel"
+  },
+  {
+    "address": "0xa0c68c638235ee32657e8f720a23cec1bfc77c77",
+    "nameTag": "Hop Protocol:L1 Pos Root Chain Manager"
+  },
+  {
+    "address": "0x9aa99c23f67c81701c772b106b4f83f6e858dd2e",
+    "nameTag": "Hop: Deployer"
+  },
+  {
+    "address": "0xc5102fe9359fd9a28f877a67e36b0f050d81a3cc",
+    "nameTag": "Hop: HOP Token"
+  }
+]

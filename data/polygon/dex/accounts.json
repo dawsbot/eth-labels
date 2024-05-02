@@ -1,0 +1,42 @@
+[
+  {
+    "address": "0x5ede3f4e7203bf1f12d57af1810448e5db20f46c",
+    "nameTag": "CafeSwap: Factory"
+  },
+  {
+    "address": "0x9055682e58c74fc8ddbfc55ad2428ab1f96098fc",
+    "nameTag": "Cafeswap: Router"
+  },
+  {
+    "address": "0xca2deac853225f5a4dfc809ae0b7c6e39104fce5",
+    "nameTag": "CafeSwap: Staking"
+  },
+  {
+    "address": "0xa102072a4c07f06ec3b4900fdc4c7b80b6c57429",
+    "nameTag": "DFYN Network: Router"
+  },
+  {
+    "address": "0x2fa4334cfd7c56a0e7ca02bd81455205fcbdc5e9",
+    "nameTag": "DODO: Router"
+  },
+  {
+    "address": "0x1a1ec25dc08e98e5e93f1104b5e5cdd298707d31",
+    "nameTag": "Metamask: Swap Router"
+  },
+  {
+    "address": "0xa5e0829caced8ffdd4de3c43696c57f7d7a678ff",
+    "nameTag": "QuickSwap: Router"
+  },
+  {
+    "address": "0xec52a30e4bfe2d6b0ba1d0dbf78f265c0a119286",
+    "nameTag": "Rubic Exchange"
+  },
+  {
+    "address": "0x31efc4aeaa7c39e54a33fdc3c46ee2bd70ae0a09",
+    "nameTag": "xPollinate: Transaction Manager"
+  },
+  {
+    "address": "0x6090de2ec76eb1dc3b5d632734415c93c44fd113",
+    "nameTag": "xPollinate: Transaction Manager 2"
+  }
+]

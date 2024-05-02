@@ -1,0 +1,42 @@
+[
+  {
+    "address": "0x0000000000000000000000000000000000000001",
+    "nameTag": "Null: 0x000...001"
+  },
+  {
+    "address": "0x0000000000000000000000000000000000000002",
+    "nameTag": "Null: 0x000...002"
+  },
+  {
+    "address": "0x0000000000000000000000000000000000000003",
+    "nameTag": "Null: 0x000...003"
+  },
+  {
+    "address": "0x000000000000000000000000000000000000dead",
+    "nameTag": "Null: 0x000...dEaD"
+  },
+  {
+    "address": "0x0000000000000000000000000000000000000000",
+    "nameTag": "Null: 0x000…000"
+  },
+  {
+    "address": "0x1111111111111111111111111111111111111111",
+    "nameTag": "Null: 0x111...111"
+  },
+  {
+    "address": "0x3333333333333333333333333333333333333333",
+    "nameTag": "Null: 0x333...333"
+  },
+  {
+    "address": "0xdead000000000000000042069420694206942069",
+    "nameTag": "Null: 0xdea...069"
+  },
+  {
+    "address": "0xeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeee",
+    "nameTag": "Null: 0xeee...eee"
+  },
+  {
+    "address": "0xffffffffffffffffffffffffffffffffffffffff",
+    "nameTag": "Null: 0xfff...fff"
+  }
+]

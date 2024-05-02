@@ -1,0 +1,18 @@
+[
+  {
+    "address": "0x9c2c5fd7b07e95ee044ddeba0e97a665f142394f",
+    "nameTag": "1inch: 1INCH Token"
+  },
+  {
+    "address": "0x0000000000004946c0e9f43f4dee607b0ef1fa1c",
+    "nameTag": "1inch: CHI Token"
+  },
+  {
+    "address": "0x7e1e3334130355799f833ffec2d731bca3e68af6",
+    "nameTag": "1inch: Deployer"
+  },
+  {
+    "address": "0x11111112542d85b3ef69ae05771c2dccff4faa26",
+    "nameTag": "1inch: V3"
+  }
+]

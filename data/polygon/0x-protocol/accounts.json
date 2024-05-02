@@ -1,0 +1,22 @@
+[
+  {
+    "address": "0xdef1c0ded9bec7f1a1670819833240f027b25eff",
+    "nameTag": "0x: Exchange Proxy"
+  },
+  {
+    "address": "0xdb6f1920a889355780af7570773609bd8cb1f498",
+    "nameTag": "0x: Exchange Proxy Flash Wallet"
+  },
+  {
+    "address": "0x4d3e56c56a55d23fc7aa9a9ffad61631cf7d1ae6",
+    "nameTag": "0x: Exchange Proxy Governor"
+  },
+  {
+    "address": "0x4dd97080adf36103bd3db822f9d3c0e44890fd69",
+    "nameTag": "0x: Exchange Proxy Liquidity Provider Sandbox"
+  },
+  {
+    "address": "0xe6d9207df11c55bce2f7a189ae95e3222d5484d3",
+    "nameTag": "0x: Exchange Proxy Transformer Deployer"
+  }
+]

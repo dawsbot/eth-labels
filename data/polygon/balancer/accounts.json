@@ -1,0 +1,38 @@
+[
+  {
+    "address": "0xba12222222228d8ba445958a75a0704d566bf2c8",
+    "nameTag": "Balancer V2"
+  },
+  {
+    "address": "0xa331d84ec860bf466b4cdccfb4ac09a1b43f3ae6",
+    "nameTag": "Balancer: Authorizer"
+  },
+  {
+    "address": "0xc38c5f97b34e175ffd35407fc91a937300e33860",
+    "nameTag": "Balancer: Liquid Mining Safe"
+  },
+  {
+    "address": "0x751a0bc0e3f75b38e01cf25bfce7ff36de1c87de",
+    "nameTag": "Balancer: Liquidity Bootstrapping Pool Factory"
+  },
+  {
+    "address": "0xee071f4b516f69a1603da393cde8e76c40e5be85",
+    "nameTag": "Balancer: Polygon DAO Multisig"
+  },
+  {
+    "address": "0x7c68c42de679ffb0f16216154c996c354cf1161b",
+    "nameTag": "Balancer: Protocol Fees Multisig"
+  },
+  {
+    "address": "0xc66ba2b6595d3613ccab350c886ace23866ede24",
+    "nameTag": "Balancer: Stable Pool Factory"
+  },
+  {
+    "address": "0xa5bf2ddf098bb0ef6d120c98217dd6b141c74ee0",
+    "nameTag": "Balancer: Weighted Pool 2 Tokens Factory"
+  },
+  {
+    "address": "0x8e9aa87e45e92bad84d5f8dd1bff34fb92637de9",
+    "nameTag": "Balancer: Weighted Pool Factory"
+  }
+]

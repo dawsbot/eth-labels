@@ -1,0 +1,14 @@
+[
+  {
+    "address": "0xd4f1ff97298f6793839fae27e759da45ace057c3",
+    "nameTag": "Circle: Deployer"
+  },
+  {
+    "address": "0x3c499c542cef5e3811e1192ce70d8cc03d5c3359",
+    "nameTag": "Circle: USDC Token"
+  },
+  {
+    "address": "0x2791bca1f2de4661ed88a30c99a7a9449aa84174",
+    "nameTag": "Circle: USDC.e Token"
+  }
+]

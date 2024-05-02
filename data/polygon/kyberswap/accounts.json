@@ -1,0 +1,266 @@
+[
+  {
+    "address": "0xfade2934b8e7685070149034384fb7863860d86e",
+    "nameTag": "Aureus: Rewards"
+  },
+  {
+    "address": "0xbb2d00675b775e0f8acd590e08da081b2a36d3a6",
+    "nameTag": "Kyber LP : USDC-jGBP"
+  },
+  {
+    "address": "0xd8b9e9444fcbf26bea4badd6142dd6a962bca86a",
+    "nameTag": "Kyber LP: KNC-WETH"
+  },
+  {
+    "address": "0x3f1f398887525d2d9acd154ec5e4a3979adffae6",
+    "nameTag": "Kyber LP: PGX-USDT"
+  },
+  {
+    "address": "0xa0fb4487c0935f01cbf9f0274fe3cdb21a965340",
+    "nameTag": "Kyber LP: USDC-AUR-0112"
+  },
+  {
+    "address": "0xa623aacf9eb4fc0a29515f08bdabb0d8ce385cf7",
+    "nameTag": "Kyber LP: USDC-AUR-FEB22"
+  },
+  {
+    "address": "0x439e6a13a5ce7fdca2cc03bf31fb631b3f5ef157",
+    "nameTag": "Kyber LP: USDC-jCHF"
+  },
+  {
+    "address": "0xa1219dbe76eecbf7571fed6b020dd9154396b70e",
+    "nameTag": "Kyber LP: USDC-jEUR"
+  },
+  {
+    "address": "0x2616f7285bdcb9c3d0422745b1c8a5751e0ea204",
+    "nameTag": "Kyber LP: USDC-xUSD"
+  },
+  {
+    "address": "0x5f1fe642060b5b9658c15721ea22e982643c095c",
+    "nameTag": "Kyber Swap: Factory"
+  },
+  {
+    "address": "0x063dd8b5a42aae93a014ce5fabb5b70474667961",
+    "nameTag": "Kyber Swap: Reward Locker"
+  },
+  {
+    "address": "0x546c79662e028b661dfb4767664d0273184e4dd1",
+    "nameTag": "Kyber Swap: Router"
+  },
+  {
+    "address": "0x1fc3607fa67b58deddb0faf7a116f417a20c551c",
+    "nameTag": "Kyber: Aggregation Router"
+  },
+  {
+    "address": "0x91c9d4373b077ef8082f468c7c97f2c499e36f5b",
+    "nameTag": "Kyber: DAO Multisig Wallet"
+  },
+  {
+    "address": "0x7018c0bd73255c8966d0b26634e0bc0c7595d255",
+    "nameTag": "Kyber: DMM USDC-DAI"
+  },
+  {
+    "address": "0x3904ac366d348636694cb6720aa1540e76441b1b",
+    "nameTag": "Kyber: DMM USDC-USDT"
+  },
+  {
+    "address": "0x95d708e9ee04b0136b98579141624d19c89b9d68",
+    "nameTag": "Kyber: DMM USDC-WETH"
+  },
+  {
+    "address": "0x45963db838a070cf7be8e7046fd63e23d376c665",
+    "nameTag": "Kyber: DMM WMATIC-DAI"
+  },
+  {
+    "address": "0x37e6449b0e99befd2a708ea048d970f4ff4dc65d",
+    "nameTag": "Kyber: DMM WMATIC-KNC"
+  },
+  {
+    "address": "0x1c954e8fe737f99f68fa1ccda3e51ebdb291948c",
+    "nameTag": "Kyber: KNC Token"
+  },
+  {
+    "address": "0x8180a5ca4e3b94045e05a9313777955f7518d757",
+    "nameTag": "KyberSwap: Deployer"
+  },
+  {
+    "address": "0xcab2fa2eeab7065b45cbcf6e3936dde2506b4f6c",
+    "nameTag": "KyberSwap: Double Signatures Limit Order"
+  },
+  {
+    "address": "0xe222fbe074a436145b255442d919e4e3a6c6a480",
+    "nameTag": "KyberSwap: Elastic Anti-Snipping Position Manager"
+  },
+  {
+    "address": "0xc7a590291e07b9fe9e64b86c58fd8fc764308c4a",
+    "nameTag": "KyberSwap: Elastic Factory"
+  },
+  {
+    "address": "0x5f1dddbf348ac2fbe22a163e30f99f9ece3dd50a",
+    "nameTag": "KyberSwap: Elastic Legacy Factory"
+  },
+  {
+    "address": "0xda474537ce9b687b78b236452a05631f09b6eb6a",
+    "nameTag": "KyberSwap: Elastic Legacy Position Desc"
+  },
+  {
+    "address": "0x8abd8c92f1901cf204590c16b5ef690a35b3741e",
+    "nameTag": "KyberSwap: Elastic Legacy Position Desc Proxy"
+  },
+  {
+    "address": "0x2b1c7b41f6a8f2b2bc45c3233a5d5fb3cd6dc9a8",
+    "nameTag": "KyberSwap: Elastic Legacy Position Manager"
+  },
+  {
+    "address": "0x0d125c15d54ca1f8a813c74a81aee34ebb508c1f",
+    "nameTag": "KyberSwap: Elastic Legacy Quoter V2"
+  },
+  {
+    "address": "0xc1e7dfe73e1598e3910ef4c7845b68a9ab6f4c83",
+    "nameTag": "KyberSwap: Elastic Legacy Router"
+  },
+  {
+    "address": "0x165c68077ac06c83800d19200e6e2b08d02de75d",
+    "nameTag": "KyberSwap: Elastic Legacy Ticks Fees Reader"
+  },
+  {
+    "address": "0xbdec4a045446f583dc564c0a227ffd475b329bf0",
+    "nameTag": "KyberSwap: Elastic Liquidity Mining"
+  },
+  {
+    "address": "0x5c503d4b7de0633f031229bbaa6a5e4a31cc35d8",
+    "nameTag": "KyberSwap: Elastic Liquidity Mining 2"
+  },
+  {
+    "address": "0x049beffdb026d6d1d64cfc8fe29bd12142967b09",
+    "nameTag": "KyberSwap: Elastic Pool Oracle"
+  },
+  {
+    "address": "0xd8ac7f696ae99cd7b689726cf03c5711dd8dcdb4",
+    "nameTag": "KyberSwap: Elastic Pool Oracle Proxy"
+  },
+  {
+    "address": "0x98565fcad2080c5c19c3136fa367ce371cd40bd6",
+    "nameTag": "KyberSwap: Elastic Position Desc"
+  },
+  {
+    "address": "0x58f1d0f9bff9d695010c92fb93d100cef5113f3e",
+    "nameTag": "KyberSwap: Elastic Position Desc Proxy"
+  },
+  {
+    "address": "0x4d47fd5a29904dae0ef51b1c450c9750f15d7856",
+    "nameTag": "KyberSwap: Elastic Quoter V2"
+  },
+  {
+    "address": "0xf9c2b5746c946ef883ab2660bbbb1f10a5bdeab4",
+    "nameTag": "KyberSwap: Elastic Router"
+  },
+  {
+    "address": "0xe44ec65521b85612fa7bc45d842645fb4b690e4b",
+    "nameTag": "KyberSwap: Elastic Static Farm"
+  },
+  {
+    "address": "0xa70a1ad0f91c52c79e177c5a18a7c9e1c4360e0e",
+    "nameTag": "KyberSwap: Elastic Static Farm 2"
+  },
+  {
+    "address": "0x3d6afe2fb73ffed2e3dd00c501a174554e147a43",
+    "nameTag": "KyberSwap: Elastic Static Farm 3"
+  },
+  {
+    "address": "0xf2bcdf38baa52f6b0c1db5b025dfff01ae1d6dbd",
+    "nameTag": "KyberSwap: Elastic Static Farm 4"
+  },
+  {
+    "address": "0xd7ab1699280980e756c446769b4c0f04550f88c9",
+    "nameTag": "KyberSwap: Elastic Tick Fees Reader"
+  },
+  {
+    "address": "0x8fd8cb948965d9305999d767a02bf79833eadbb3",
+    "nameTag": "KyberSwap: Elastic Ticks Fees Reader"
+  },
+  {
+    "address": "0x35be3f4fd8239a35a7f120756d4d69e5c5e10870",
+    "nameTag": "KyberSwap: ElasticLM Helper"
+  },
+  {
+    "address": "0x7d5ba536ab244aaa1ea42ab88428847f25e3e676",
+    "nameTag": "KyberSwap: ElasticLMv1"
+  },
+  {
+    "address": "0x829c27fd3013b944cbe76e92c3d6c45767c0c789",
+    "nameTag": "KyberSwap: Fair Launch 1"
+  },
+  {
+    "address": "0x3add3034fcf921f20c74c6149fb44921709595b1",
+    "nameTag": "KyberSwap: Fair Launch 2"
+  },
+  {
+    "address": "0xc0601973451d9369252aee01397c0270cd2ecd60",
+    "nameTag": "KyberSwap: Fair Launch 3"
+  },
+  {
+    "address": "0x7eb05d3115984547a50ff0e2d247fb6948e1c252",
+    "nameTag": "KyberSwap: Fair Launch 4"
+  },
+  {
+    "address": "0xc940acee228893c14274ef1bb64e631308e96e1a",
+    "nameTag": "KyberSwap: Fair Launch 5"
+  },
+  {
+    "address": "0xc39bd0fae646cb026c73943c5b50e703de2a6532",
+    "nameTag": "KyberSwap: Fair Launch 6"
+  },
+  {
+    "address": "0x0baf410dcfcf168f659f46bf1e28d29f68a25e77",
+    "nameTag": "KyberSwap: Fair Launch v2"
+  },
+  {
+    "address": "0xffd22921947d75342bfe1f8efacee4b8b3b5183f",
+    "nameTag": "KyberSwap: FairLaunch2"
+  },
+  {
+    "address": "0x1c758af0688502e49140230f6b0ebd376d429be5",
+    "nameTag": "KyberSwap: KSFactory"
+  },
+  {
+    "address": "0x5649b4dd00780e99bab7abb4a3d581ea1aeb23d0",
+    "nameTag": "KyberSwap: KSRouter"
+  },
+  {
+    "address": "0x227b0c196ea8db17a665ea6824d972a64202e936",
+    "nameTag": "KyberSwap: Limit Order"
+  },
+  {
+    "address": "0x617dee16b86534a5d792a4d7a62fb491b544111e",
+    "nameTag": "KyberSwap: Meta Aggregation Router"
+  },
+  {
+    "address": "0xaa96267806d5be3941bf9d8e4efc3dc8eb2bda0f",
+    "nameTag": "KyberSwap: Operations"
+  },
+  {
+    "address": "0x6a4c79289fb5b7a7ddb71f7eff6a2cbe59be5e60",
+    "nameTag": "KyberSwap: Reward Distributor"
+  },
+  {
+    "address": "0xbcb4e8362dbb34e4ce10b4c8b2f600a7fa0a25db",
+    "nameTag": "KyberSwap: Reward Locker"
+  },
+  {
+    "address": "0x30c5322e4e08ad500c348007f92f120ab4e2b79e",
+    "nameTag": "KyberSwap: Zap In Router"
+  },
+  {
+    "address": "0xf0096e5b4aafeea1df557264091569ba125c1172",
+    "nameTag": "KyberSwap: Zap In Validator"
+  },
+  {
+    "address": "0x83d4908c1b4f9ca423bee264163bc1d50f251c31",
+    "nameTag": "KyberSwap: ZapIn"
+  },
+  {
+    "address": "0x2abe8750e4a65584d7452316356128c936273e0d",
+    "nameTag": "KyberSwap: ZapIn V2"
+  }
+]

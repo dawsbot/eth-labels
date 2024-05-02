@@ -1,0 +1,96 @@
+[
+  { "address": "0xcc649f54645f09751b3f3e7bef57abfd6a8885dc", "nameTag": "" },
+  { "address": "0xe80bf394d190851e215d5f67b67f8f5a52783f1e", "nameTag": "" },
+  {
+    "address": "0xc2544a32872a91f4a553b404c6950e89de901fdb",
+    "nameTag": "Frax Finance:Fraxswap Factory V1"
+  },
+  {
+    "address": "0x9bc2152fd37b196c0ff3c16f5533767c9a983971",
+    "nameTag": "Frax Finance:Fraxswap Router V1"
+  },
+  {
+    "address": "0x7af43f23f33642c4ea8bf10211a26d5a028a555f",
+    "nameTag": "Gains Network: Callbacks 1"
+  },
+  {
+    "address": "0x1e87e8703883a46ccdec4c8868043abe40235bed",
+    "nameTag": "Gains Network: Callbacks 2"
+  },
+  {
+    "address": "0xd39a38bd2d2d552f3908ff698a5530aa397fb92d",
+    "nameTag": "Gains Network: Dev Fund"
+  },
+  {
+    "address": "0x8aaaff79c94debf411d4a4166c1aeab7a63ebeec",
+    "nameTag": "Gains Network: GFarm Aggregator V5"
+  },
+  {
+    "address": "0x821be1daa25d209ab952d72ccfbea1719e4eed99",
+    "nameTag": "Gains Network: GFarm Price Aggregator"
+  },
+  {
+    "address": "0x176586dec2b70df5b72a6efe158a87f210551798",
+    "nameTag": "Gains Network: GFarm Vault V5"
+  },
+  {
+    "address": "0x5fb47355828c0902acbbe759cee1b8342c41178b",
+    "nameTag": "Gains Network: GNS Price Aggregator V6"
+  },
+  {
+    "address": "0xd8d177efc926a18ee455da6f5f6a6cfcee5f8f58",
+    "nameTag": "Gains Network: GNS Trading"
+  },
+  {
+    "address": "0x170cc5a70d6f544e5456881b586eb58180998a37",
+    "nameTag": "Gains Network: GNS Trading Callbacks"
+  },
+  {
+    "address": "0xcf63914f5160e596bc574bf4fd52c13a8d270e28",
+    "nameTag": "Gains Network: GNS Trading Callbacks V6"
+  },
+  {
+    "address": "0x96059f17be7d2e59406be75e77e23c128141672e",
+    "nameTag": "Gains Network: Trading 1"
+  },
+  {
+    "address": "0x37c11410b2c2a1cd4b3a0de2bd3a1808e0528ebe",
+    "nameTag": "Gains Network: Trading 2"
+  },
+  {
+    "address": "0xf8a140db8b05bec52c7e86d0d40d72f8e54fe559",
+    "nameTag": "Gains Network: Trading V6"
+  },
+  {
+    "address": "0xfb694dbaa0f78a8b07be4a1a92ae12d2845138fb",
+    "nameTag": "Gains Network:GFarm Aggregator V4"
+  },
+  {
+    "address": "0x780bedfce47ad1c665c270616da09230e7036116",
+    "nameTag": "Gains Network:GFarm Pool V4"
+  },
+  {
+    "address": "0x203f5c9567d533038d2da70cbc20e6e8b3f309f9",
+    "nameTag": "Gains Network:GFarm Pool V5"
+  },
+  {
+    "address": "0x835c1f54b79d9de40755999463960082b2afaf06",
+    "nameTag": "Gains Network:GFarm Trading V3"
+  },
+  {
+    "address": "0xb28d7cea60db2da4d3afd19fa8b8f14a7487745e",
+    "nameTag": "Gains Network:GFarm Trading V4"
+  },
+  {
+    "address": "0x03cd7506dd538bfd4d6c37ebcd090b65aed6b00c",
+    "nameTag": "Metavault: Old Order Book"
+  },
+  {
+    "address": "0x0f3137e09349449b62144f0918135de548fdfeee",
+    "nameTag": "PoolTogether: Receiver Timelock Trigger"
+  },
+  {
+    "address": "0x1b396cf90504686b7ede2760eebb053d30d1f389",
+    "nameTag": "Reality Metaverse: Old RLTM Token"
+  }
+]

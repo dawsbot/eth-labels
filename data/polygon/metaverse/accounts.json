@@ -1,0 +1,26 @@
+[
+  {
+    "address": "0x25b1742e61722e7d9d6c1263fdc987ba89563461",
+    "nameTag": "Aimedis : Ecosystem Incentives Token Locker"
+  },
+  {
+    "address": "0xf609cd040e320525f49f58cd56ebcf8d2864d239",
+    "nameTag": "Aimedis: Foundation Token Locker"
+  },
+  {
+    "address": "0xcd9b59e23e7a9c8e70d59f37e2439a0971b9b10e",
+    "nameTag": "Aimedis: Staking Token Locker"
+  },
+  {
+    "address": "0xb82b44846e578b66fb47ae0c6426237d29084cb4",
+    "nameTag": "Aimedis: Team Token Locker"
+  },
+  {
+    "address": "0xe645d18bdc873a561b36169a3b60025553fbc58c",
+    "nameTag": "Aimedis: Treasury Token Locker"
+  },
+  {
+    "address": "0xd93d5c1d0ec1a35d76188906aeeb214bdb170808",
+    "nameTag": "Gynchain: Market Development"
+  }
+]

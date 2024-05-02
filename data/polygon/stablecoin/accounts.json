@@ -1,0 +1,18 @@
+[
+  {
+    "address": "0x8149c0a6f5b5417d30f70e00a05d8d15cf471853",
+    "nameTag": "Cerby: Stable Coin Reserve"
+  },
+  {
+    "address": "0xe840b73e5287865eec17d250bfb1536704b43b21",
+    "nameTag": "mStable: mStable USD (Polygon PoS) Token"
+  },
+  {
+    "address": "0x1305f6b6df9dc47159d12eb7ac2804d4a33173c2",
+    "nameTag": "Superfluid: DAIx Token"
+  },
+  {
+    "address": "0xcaa7349cea390f89641fe306d93591f87595dc1f",
+    "nameTag": "Superfluid: USDCx Token"
+  }
+]

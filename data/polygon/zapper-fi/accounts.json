@@ -1,0 +1,18 @@
+[
+  {
+    "address": "0x8dfdea6a4818d2aa7463edb9a8841cb0c04255af",
+    "nameTag": "Zapper.Fi: Aave Zap In"
+  },
+  {
+    "address": "0xf231be40d73a9e73d859955344a4ff74f448df34",
+    "nameTag": "Zapper.Fi: Quickswap Zap In"
+  },
+  {
+    "address": "0x6d608c51c198c728c0a00bfdfa8fef5d57ff4424",
+    "nameTag": "Zapper.Fi: Quickswap Zap Out"
+  },
+  {
+    "address": "0x47b0ec1bea7d8ecc7cf70c3bf82c5f5d15a96b6d",
+    "nameTag": "Zapper.Fi: SushiSwap Zap In"
+  }
+]

@@ -1,0 +1,34 @@
+[
+  {
+    "address": "0xc10ef9f491c9b59f936957026020c321651ac078",
+    "nameTag": "Multichain: anyCall V6"
+  },
+  {
+    "address": "0xd4d4139b2f64b0367f522732b27be7701d36e187",
+    "nameTag": "Multichain: anyHND Token"
+  },
+  {
+    "address": "0x54f5a04417e29ff5d7141a6d33cb286f50d5d50e",
+    "nameTag": "Multichain: Anyswap Create2"
+  },
+  {
+    "address": "0xe3eeda11f06a656fcaee19de663e84c7e61d3cac",
+    "nameTag": "Multichain: anyUSDT Token"
+  },
+  {
+    "address": "0x25864a712c80d33ba1ad7c23cffa18b46f2fc00c",
+    "nameTag": "Multichain: Fantom Bridge"
+  },
+  {
+    "address": "0x4f3aff3a747fcade12598081e80c6605a8be192f",
+    "nameTag": "Multichain: Router V4"
+  },
+  {
+    "address": "0x6ff0609046a38d76bd40c5863b4d1a2dce687f73",
+    "nameTag": "Multichain: Router V4 2"
+  },
+  {
+    "address": "0x72c290f3f13664b024ee611983aa2d5621ebe917",
+    "nameTag": "Multichain: Router V6"
+  }
+]

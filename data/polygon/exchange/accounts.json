@@ -1,0 +1,42 @@
+[
+  {
+    "address": "0x082489a616ab4d46d1947ee3f912e080815b08da",
+    "nameTag": "Binance"
+  },
+  {
+    "address": "0xf977814e90da44bfa03b6295a0616a897441acec",
+    "nameTag": "Binance: Hot Wallet"
+  },
+  {
+    "address": "0xe7804c37c13166ff0b37f5ae0bb07a3aebb6e245",
+    "nameTag": "Binance: Hot Wallet 2"
+  },
+  {
+    "address": "0x290275e3db66394c52272398959845170e4dcb88",
+    "nameTag": "Binance: Hot Wallet 3"
+  },
+  {
+    "address": "0x505e71695e9bc45943c58adec1650577bca68fd9",
+    "nameTag": "Binance: Hot Wallet 4"
+  },
+  {
+    "address": "0x876eabf441b2ee5b5b0554fd502a8e0600950cfa",
+    "nameTag": "Bitfinex: MATIC Staking Rewards"
+  },
+  {
+    "address": "0x72a53cdbbcc1b9efa39c834a540550e23463aacb",
+    "nameTag": "Crypto.com"
+  },
+  {
+    "address": "0xd70250731a72c33bfb93016e3d1f0ca160df7e42",
+    "nameTag": "Huobi 1"
+  },
+  {
+    "address": "0x51e3d44172868acc60d68ca99591ce4230bc75e0",
+    "nameTag": "MEXC.com"
+  },
+  {
+    "address": "0x576b81f0c21edbc920ad63feeeb2b0736b018a58",
+    "nameTag": "MEXC.com 2"
+  }
+]

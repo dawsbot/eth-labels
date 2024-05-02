@@ -1,0 +1,22 @@
+[
+  {
+    "address": "0xdfe4665328dd5c5485a05c2a5252bb44bf6e65dc",
+    "nameTag": "PolyPup Finance: BONE Timelock"
+  },
+  {
+    "address": "0xeb168c9d678dc34d64337f4ea12cf14ed6fbe34b",
+    "nameTag": "PolyPup Finance: BONE/WMATIC"
+  },
+  {
+    "address": "0xfa256781ff98ac55f1e531d8217a7eb7fd54f7a2",
+    "nameTag": "PolyPup Finance: PUP Timelock"
+  },
+  {
+    "address": "0x8d5ee0596db94f520629ce539a726f442f52e7e5",
+    "nameTag": "PolyPup Finance: PUP/USDC Pool"
+  },
+  {
+    "address": "0x0abfbcfe1fdcb15c394fe6dcb5d0579f8fea0c91",
+    "nameTag": "PolyPup Finance: PUP/WMATIC Pool"
+  }
+]

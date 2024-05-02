@@ -1,0 +1,26 @@
+[
+  {
+    "address": "0xe2f736b7d1f6071124cbb5fc23e93d141cd24e12",
+    "nameTag": "SushiSwap: BentoBox"
+  },
+  {
+    "address": "0xa3378ca78633b3b9b2255eaa26748770211163ae",
+    "nameTag": "SushiSwap: ComplexRewarderTime"
+  },
+  {
+    "address": "0x0769fd68dfb93167989c6f7254cd0d766fb2841f",
+    "nameTag": "SushiSwap: MiniChefV2"
+  },
+  {
+    "address": "0x1b02da8cb0d097eb8d57a175b88c7d8b47997506",
+    "nameTag": "SushiSwap: Router"
+  },
+  {
+    "address": "0x0b3f868e0be5597d5db7feb59e1cadbb0fdda50a",
+    "nameTag": "SushiSwap: SUSHI Token"
+  },
+  {
+    "address": "0xc35dadb65012ec5796536bd9864ed8773abc74c4",
+    "nameTag": "SushiSwap: V2 Factory"
+  }
+]

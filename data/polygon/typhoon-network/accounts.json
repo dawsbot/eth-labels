@@ -1,0 +1,22 @@
+[
+  {
+    "address": "0xe6ff16572470f1c441f8fd81db3cc2b4cdcd0a93",
+    "nameTag": "Typhoon Network: 0.1 MATIC"
+  },
+  {
+    "address": "0x92a6a8cec29eb26bf11158e9cd943530743ee498",
+    "nameTag": "Typhoon Network: 1 MATIC"
+  },
+  {
+    "address": "0x01c5ae9557bd0d4bd9a978f1d5d578fd000466ad",
+    "nameTag": "Typhoon Network: 10 MATIC"
+  },
+  {
+    "address": "0xe8002c984be93cb283a7a69cb9c3e1e113088982",
+    "nameTag": "Typhoon Network: 100 MATIC"
+  },
+  {
+    "address": "0x7cfe74d60eae55a88f7d38b33169fec8840cc344",
+    "nameTag": "Typhoon Network: 1000 MATIC"
+  }
+]

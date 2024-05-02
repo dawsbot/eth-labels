@@ -1,0 +1,26 @@
+[
+  {
+    "address": "0xd9c7c4ed4b66858301d0cb28cc88bf655fe34861",
+    "nameTag": "Polygon: Child Chain"
+  },
+  {
+    "address": "0x8397259c983751daf40400790063935a11afa28a",
+    "nameTag": "Polygon: Fx Child"
+  },
+  {
+    "address": "0x80a708b92939b373e86ef8e8cfc9e05efe2f5e49",
+    "nameTag": "Polygon: Fx ERC1155 Child Tunnel"
+  },
+  {
+    "address": "0x0cc2caed31490b546c741bd93dbba8ab387f7f2c",
+    "nameTag": "Polygon: Fx ERC20 Child Tunnel"
+  },
+  {
+    "address": "0x2b4732e448b3023131a7b25046b3a5ef50cfcf71",
+    "nameTag": "Polygon: Fx ERC721 Child Tunnel"
+  },
+  {
+    "address": "0x0000000000000000000000000000000000001010",
+    "nameTag": "Polygon: MATIC Token"
+  }
+]
