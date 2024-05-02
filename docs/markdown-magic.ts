@@ -11,7 +11,7 @@ const readmePath = path.join(__dirname, "..", "README.md");
 
 const getLastModifiedDate = (folderName: string): string => {
   const directoryPath = path.join(__dirname, "..", "data", folderName);
-  const gitCommand = `git log -1 --format=%cd --date=format:"%B %d, %Y" -- ${directoryPath}`;
+  const gitCommand = `git log -1 --format=%cd --date=format:"%B %d, %Y" -- "${directoryPath}"`;
   const lastModifiedDate = execSync(gitCommand).toString().trim();
   return lastModifiedDate;
 };
