@@ -66,6 +66,16 @@ celo was last modified: April 12, 2024
 
 <!-- AUTO-GENERATED-CONTENT:END -->
 
+## Polygon
+
+<!-- AUTO-GENERATED-CONTENT:START (lastEdited:dataDirectory=polygon) -->
+
+polygon was last modified: May 01, 2024
+
+[View labels here](data/polygon)
+
+<!-- AUTO-GENERATED-CONTENT:END -->
+
 <!-- | Label                                                                                              | CSV                                              | JSON                                               | Updated      |
 | -------------------------------------------------------------------------------------------------- | ------------------------------------------------ | -------------------------------------------------- | ------------ |
 | [`exchange`](https://etherscan.io/accounts/label/exchange) (Centralized Exchanges)                 | [View CSV](./src/mainnet/exchange/all.csv)       | [View JSON](./src/mainnet/exchange/all.json)       | May 9, 2022  |
