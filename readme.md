@@ -68,6 +68,8 @@ celo was last modified: April 12, 2024
 
 ## Polygon
 
+<img src="https://raw.githubusercontent.com/dawsbot/evm-labels/v1/docs/img/polygonscan.svg" width="200"/></a>
+
 <!-- AUTO-GENERATED-CONTENT:START (lastEdited:dataDirectory=polygon) -->
 
 polygon was last modified: May 01, 2024
