@@ -45,6 +45,7 @@ export class AnyscanPuller {
   #baseUrl: string;
   #directoryName: string;
   #htmlParser: HtmlParser;
+  #useApiForTokenRows: boolean;
   /**
    * @example
    * const etherscanPuller = new AnyscanPuller(etherscan);
@@ -55,6 +56,9 @@ export class AnyscanPuller {
     const filenameRegex = /^[a-z0-9_\-.]+$/;
     this.#directoryName = z.string().regex(filenameRegex).parse(directoryName);
     this.#htmlParser = scanConfig[directoryName].htmlParser;
+    this.#useApiForTokenRows = z
+      .boolean()
+      .parse(scanConfig[directoryName].useApiForTokenRows);
   }
 
   #fetchAllLabels = async (page: Page): Promise<AllLabels> => {
@@ -135,7 +139,13 @@ export class AnyscanPuller {
       page,
       "tr > td > div > a",
     );
-    const tokenRows = this.#htmlParser.selectAllTokenAddresses(addressesHtml);
+    const tokenRows = this.#useApiForTokenRows
+      ? await this.#htmlParser.selectAllTokenAddressesApi(
+          page,
+          this.#baseUrl,
+          url,
+        )
+      : this.#htmlParser.selectAllTokenAddresses(addressesHtml);
     return tokenRows.map((tokenRow) => {
       const newTokenRow = {
         ...tokenRow,

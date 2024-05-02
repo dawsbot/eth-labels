@@ -8,6 +8,7 @@ const etherscanDirectory = "mocks/etherscan";
 const basescanDirectory = "mocks/basescan";
 const optimismDirectory = "mocks/optimism";
 const celoDirectory = "mocks/celo";
+const polygonDirectory = "mocks/polygon";
 
 function getMocks(directory: string) {
   return {
@@ -21,6 +22,43 @@ const basescanMocks = getMocks(basescanDirectory);
 const etherscanMocks = getMocks(etherscanDirectory);
 const optimismMocks = getMocks(optimismDirectory);
 const celoMocks = getMocks(celoDirectory);
+const polygonMocks = getMocks(polygonDirectory);
+
+describe("polygon", () => {
+  const htmlParser = scanConfig.polygon.htmlParser;
+  test("should parse labelcloud", () => {
+    const allLabels = htmlParser.selectAllLabels(
+      polygonMocks.mockLabelCloudHtml,
+    );
+
+    expect(allLabels).toHaveLength(232);
+    expect(allLabels[0]).toBe(`/accounts/label/0x-protocol?size=10000`);
+  });
+  test("should parse account addresses", () => {
+    const accountRows = htmlParser.selectAllAccountAddresses(
+      polygonMocks.mockAccountsHtml,
+    );
+
+    expect(accountRows).toHaveLength(105);
+    expect(accountRows).toContainEqual({
+      address: "0xe590cfca10e81FeD9B0e4496381f02256f5d2f61",
+      nameTag: "Aave: amUSDT Stable Debt V2",
+    });
+  });
+  test("should parse token addresses", () => {
+    const tokenRows = htmlParser.selectAllTokenAddresses(
+      polygonMocks.mockTokensHtml,
+    );
+
+    expect(tokenRows).toHaveLength(18);
+    expect(tokenRows).toContainEqual({
+      address: "0xA4D94019934D8333Ef880ABFFbF2FDd611C762BD",
+      tokenName: "Aave Polygon wstETH",
+      tokenSymbol: "aPolwstETH",
+      website: "https://aave.com/",
+    });
+  });
+});
 
 describe("celo", () => {
   const htmlParser = scanConfig.celo.htmlParser;
