@@ -1,0 +1,30 @@
+[
+  {
+    "address": "0xda004964446e99a4b6326aec6b04199f75153228",
+    "nameTag": "0xDAO: Ox Pool Factory"
+  },
+  {
+    "address": "0xa01c3d760738c79e10334408ae59684aa36b1131",
+    "nameTag": "Degen Haus: Factory"
+  },
+  {
+    "address": "0x08b3cca975a82cfa6f912e0eedde53a629770d3f",
+    "nameTag": "Excalibur Exchange: Factory"
+  },
+  {
+    "address": "0xde1c04855c2828431ba637675b6929a684f84c7f",
+    "nameTag": "LlamaPay: Factory"
+  },
+  {
+    "address": "0x39720e5fe53beeeb9de4759cb91d8e7d42c17b76",
+    "nameTag": "ProtoFi: Factory"
+  },
+  {
+    "address": "0x35c052bbf8338b06351782a565aa9aad173432ea",
+    "nameTag": "Tarot: Factory"
+  },
+  {
+    "address": "0xc831a5cbfb4ac2da5ed5b194385dfd9bf5bfcba7",
+    "nameTag": "WigoSwap: Factory"
+  }
+]

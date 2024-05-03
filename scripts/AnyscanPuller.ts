@@ -33,7 +33,6 @@ export type TokenRow = {
   tokenName: string;
   tokenSymbol: string;
   website: string;
-  tokenImage?: string;
 };
 export type AccountRows = Array<AccountRow>;
 export type TokenRows = Array<TokenRow>;
@@ -46,6 +45,7 @@ export class AnyscanPuller {
   #baseUrl: string;
   #directoryName: string;
   #htmlParser: HtmlParser;
+  #useApiForTokenRows: boolean;
   /**
    * @example
    * const etherscanPuller = new AnyscanPuller(etherscan);
@@ -56,6 +56,9 @@ export class AnyscanPuller {
     const filenameRegex = /^[a-z0-9_\-.]+$/;
     this.#directoryName = z.string().regex(filenameRegex).parse(directoryName);
     this.#htmlParser = scanConfig[directoryName].htmlParser;
+    this.#useApiForTokenRows = z
+      .boolean()
+      .parse(scanConfig[directoryName].useApiForTokenRows);
   }
 
   #fetchAllLabels = async (page: Page): Promise<AllLabels> => {
@@ -126,7 +129,7 @@ export class AnyscanPuller {
     );
     console.log(`🐢 Waiting for operator to complete login...`);
     // TODO: Update this deprecated function to instead use "page.waitForURL" (https://playwright.dev/docs/api/class-page#page-wait-for-url)
-    await page.waitForNavigation();
+    await page.waitForNavigation({ timeout: 300000 });
     console.log(`✅ Login completed!`);
   }
 
@@ -136,7 +139,13 @@ export class AnyscanPuller {
       page,
       "tr > td > div > a",
     );
-    const tokenRows = this.#htmlParser.selectAllTokenAddresses(addressesHtml);
+    const tokenRows: TokenRows = this.#useApiForTokenRows
+      ? await this.#htmlParser.selectAllTokenAddressesApi(
+          page,
+          this.#baseUrl,
+          url,
+        ) // Add type annotation to ensure correct type
+      : this.#htmlParser.selectAllTokenAddresses(addressesHtml); // Add type annotation to ensure correct type
     return tokenRows.map((tokenRow) => {
       const newTokenRow = {
         ...tokenRow,

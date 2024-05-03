@@ -1,0 +1,90 @@
+[
+  {
+    "address": "0xe5009dd5912a68b0d7c6f874cd0b4492c9f0e5cd",
+    "nameTag": "Based Finance: Acropolis"
+  },
+  {
+    "address": "0x9ec66b9409d4cd8d4a4c90950ff0fd26bb39ad84",
+    "nameTag": "Based Finance: Based Genesis Reward Pool"
+  },
+  {
+    "address": "0x8d7d3409881b51466b483b11ea1b8a03cded89ae",
+    "nameTag": "Based Finance: BASED Token"
+  },
+  {
+    "address": "0xac0fa95058616d7539b6eecb6418a68e7c18a746",
+    "nameTag": "Based Finance: BShare Reward Pool"
+  },
+  {
+    "address": "0x49c290ff692149a4e16611c694fded42c954ab7a",
+    "nameTag": "Based Finance: BSHARE Token"
+  },
+  {
+    "address": "0xa0e0f462d66de459711bc721ce1fdcc3d9405831",
+    "nameTag": "Based Finance: DAO Wallet"
+  },
+  {
+    "address": "0x1252e3f03e0caa840cbb35442d817a1686a62586",
+    "nameTag": "Based Finance: Deployer"
+  },
+  {
+    "address": "0x8aa7e17f96647e08a54880521b2f3e7f99aa11ca",
+    "nameTag": "Based Finance: Oracle"
+  },
+  {
+    "address": "0x59bdd7397e3f988af72ffa3245b1f5bb452aaa42",
+    "nameTag": "Based Finance: Team Wallet"
+  },
+  {
+    "address": "0x4a78d38ccaecf3be5644d63370091356805953c0",
+    "nameTag": "Based Finance: Team Wallet 10"
+  },
+  {
+    "address": "0xc0ad1703d2062fb32db92cb31492bd41220d16d1",
+    "nameTag": "Based Finance: Team Wallet 11"
+  },
+  {
+    "address": "0x386b5ab400a0546db9c8831e5b0e6c1a77be3885",
+    "nameTag": "Based Finance: Team Wallet 12"
+  },
+  {
+    "address": "0x084d4ba0a80bd5d35a0eb6c47b417fc60cb351d0",
+    "nameTag": "Based Finance: Team Wallet 13"
+  },
+  {
+    "address": "0x387dfb7fca2606acaacd769fb59803f6539c8269",
+    "nameTag": "Based Finance: Team Wallet 2"
+  },
+  {
+    "address": "0x76bfcd12502990cb01bfa134338e5c5bdc0f414e",
+    "nameTag": "Based Finance: Team Wallet 3"
+  },
+  {
+    "address": "0x6fd0c2f6cef3b83c2a463d561739d6f7ca9cf809",
+    "nameTag": "Based Finance: Team Wallet 4"
+  },
+  {
+    "address": "0x39bb82e080e8a1b0895ab74b20a737498c56c18e",
+    "nameTag": "Based Finance: Team Wallet 5"
+  },
+  {
+    "address": "0x702bf114d3e80c98694389749d42ff645f0b6128",
+    "nameTag": "Based Finance: Team Wallet 6"
+  },
+  {
+    "address": "0x99af40c84de03e4dc27a3882309bd2cb67434403",
+    "nameTag": "Based Finance: Team Wallet 7"
+  },
+  {
+    "address": "0xf1b86a431f6c990fb37d57866bdc7ebd2f151e72",
+    "nameTag": "Based Finance: Team Wallet 8"
+  },
+  {
+    "address": "0x65768e988006e0be65c6d6ab378a6d7509c6cf40",
+    "nameTag": "Based Finance: Team Wallet 9"
+  },
+  {
+    "address": "0x25430e2acb1255453135b2c64436c6b1ff8153c5",
+    "nameTag": "Based Finance: Treasury"
+  }
+]

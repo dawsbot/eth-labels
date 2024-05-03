@@ -1,0 +1,42 @@
+[
+  {
+    "address": "0x1001009911e3fe1d5b45ff8efea7732c33a6c012",
+    "nameTag": "Hundred Finance: Admin"
+  },
+  {
+    "address": "0xf347b0e405249c78d8b261b7c493449b9275b946",
+    "nameTag": "Hundred Finance: B.Protocol Backtop MasterChef"
+  },
+  {
+    "address": "0x0a190202ad82f2bea8be994e34d588f6e235083e",
+    "nameTag": "Hundred Finance: Beets HND Rewarder"
+  },
+  {
+    "address": "0x0f390559f258eb8591c8e31cf0905e97cf36ace2",
+    "nameTag": "Hundred Finance: Comptroller"
+  },
+  {
+    "address": "0xd0bb8e4e4dd5fdcd5d54f78263f5ec8f33da4c95",
+    "nameTag": "Hundred Finance: Governance Multisig"
+  },
+  {
+    "address": "0x42b458056f887fd665ed6f160a59afe932e1f559",
+    "nameTag": "Hundred Finance: Minter"
+  },
+  {
+    "address": "0x053d7e3611eedb390db9b8fc9381d215069e0276",
+    "nameTag": "Hundred Finance: Olympus Pro Bond Treasury"
+  },
+  {
+    "address": "0xfc2d09642a3ef8b9bef2264138e23e6dceac20db",
+    "nameTag": "Hundred Finance: Olympus Pro Custom Bond"
+  },
+  {
+    "address": "0x772918d032cfd4ff09ea7af623e56e2d8d96bb65",
+    "nameTag": "Hundred Finance: Reward Policy"
+  },
+  {
+    "address": "0x29ddb4c4f9baae366dbd40eff79d364e004425b0",
+    "nameTag": "Hundred Finance: Rewards Treasury"
+  }
+]

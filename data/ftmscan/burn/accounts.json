@@ -1,0 +1,23 @@
+[
+  { "address": "0x0000000000000000000000000000000000000000", "nameTag": "" },
+  {
+    "address": "0x7ef2416e62cfa60ea946d0e9883654d3a6c3c56e",
+    "nameTag": "Nova: Burning Allocations"
+  },
+  {
+    "address": "0x0000000000000000000000000000000000000001",
+    "nameTag": "Null: 0x000...001"
+  },
+  {
+    "address": "0x0000000000000000000000000000000000000002",
+    "nameTag": "Null: 0x000...002"
+  },
+  {
+    "address": "0x000000000000000000000000000000000000dead",
+    "nameTag": "Null: 0x000...dEaD"
+  },
+  {
+    "address": "0xffffffffffffffffffffffffffffffffffffffff",
+    "nameTag": "Null: 0xfff...fff"
+  }
+]

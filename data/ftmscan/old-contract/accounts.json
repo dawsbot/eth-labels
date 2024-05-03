@@ -1,0 +1,74 @@
+[
+  {
+    "address": "0x3e01b7e242d5af8064cb9a8f9468ac0f8683617c",
+    "nameTag": "Anyswap: ORBS Token"
+  },
+  {
+    "address": "0x5a33869045db8a6a16c9f351293501cfd92cf7ed",
+    "nameTag": "Betswap.gg: Old BSGG Token"
+  },
+  {
+    "address": "0xc30d1b0ce932c3dd3373a2c23ada4e9608caf345",
+    "nameTag": "Casper DeFi: Old CASPER Token"
+  },
+  {
+    "address": "0xde12c7959e1a72bbe8a5f7a1dc8f8eef9ab011b3",
+    "nameTag": "Deus Finance: Old DEI Token 2"
+  },
+  {
+    "address": "0xde5ed76e7c05ec5e4572cfc88d1acea165109e44",
+    "nameTag": "Deus Finance: Old DEUS Token"
+  },
+  {
+    "address": "0x0cd022dde27169b20895e0e2b2b8a33b25e63579",
+    "nameTag": "EverRise: Old RISE Token"
+  },
+  {
+    "address": "0xb0c96020aac0003e61c609bd51e1629389e43674",
+    "nameTag": "Fantom Node Capital: Old FNC Token"
+  },
+  {
+    "address": "0xc8da1a26abef9e2e41b4c89c1b345cc05ce034e8",
+    "nameTag": "JustYours: Old JUST Token"
+  },
+  {
+    "address": "0xfd46f44a5ad3227a7325b695b6ea1aa549862309",
+    "nameTag": "Lira: Old LIRA Token"
+  },
+  {
+    "address": "0xa588c99de311d93479c0c4b4eaa24b751f443efa",
+    "nameTag": "MCash Exchange: Old MBCASH Token"
+  },
+  {
+    "address": "0xe5a4c0af6f5f7ab5d6c1d38254bcf4cc26d688ed",
+    "nameTag": "Moon Bay: Old BAY Token"
+  },
+  {
+    "address": "0xc45d2733819b9c9e2ec87088c1ab82bcd256c3c4",
+    "nameTag": "OwlDAO: Old OWL Token"
+  },
+  {
+    "address": "0x99edb1be74144c45914d12dcc3dbdc5ced1de6c9",
+    "nameTag": "Potluck Protocol: Old Fang Token"
+  },
+  {
+    "address": "0x6a403ffbbf8545ee0d99a63a72e5f335dfcae2bd",
+    "nameTag": "Rave Names: Old FNS Token"
+  },
+  {
+    "address": "0x924828a9fb17d47d0eb64b57271d10706699ff11",
+    "nameTag": "Saffron: Old SFI Token"
+  },
+  {
+    "address": "0xddc0385169797937066bbd8ef409b5b3c0dfeb52",
+    "nameTag": "Wonderland: Old wMEMO"
+  },
+  {
+    "address": "0x530759199116b9c261211d95686fd46a5f9b3175",
+    "nameTag": "XR Coin: Old XR Token"
+  },
+  {
+    "address": "0x09e145a1d53c0045f41aeef25d8ff982ae74dd56",
+    "nameTag": "Zoo Coin: Old ZOO Token"
+  }
+]

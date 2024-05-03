@@ -1,0 +1,142 @@
+[
+  {
+    "address": "0x8b1f4432f943c465a973fedc6d7aa50fc96f1f65",
+    "nameTag": "Axelar: AXL Token"
+  },
+  {
+    "address": "0x3bb68cb55fc9c22511467c18e42d14e8c959c4da",
+    "nameTag": "Axelar: axlATOM Token"
+  },
+  {
+    "address": "0xd5d5350f42cb484036a1c1af5f2df77eafadcaff",
+    "nameTag": "Axelar: axlDAI Token"
+  },
+  {
+    "address": "0xbe71e68fb36d14565f523c9c36ab2a8be0c26d55",
+    "nameTag": "Axelar: axlFRAX Token"
+  },
+  {
+    "address": "0x1b6382dbdea11d97f24495c9a90b7c88469134a4",
+    "nameTag": "Axelar: axlUSDC Token"
+  },
+  {
+    "address": "0xd226392c23fb3476274ed6759d4a478db3197d82",
+    "nameTag": "Axelar: axlUSDT Token"
+  },
+  {
+    "address": "0xa57adce1d2fe72949e4308867d894cd7e7de0ef2",
+    "nameTag": "Axelar: Deployer 1"
+  },
+  {
+    "address": "0x4000ab030f3615d1616b4c71e7129bbe3f1f9c55",
+    "nameTag": "Axelar: EEUR Token"
+  },
+  {
+    "address": "0xe743a49f04f2f77eb2d3b753ae3ad599de8cea84",
+    "nameTag": "Axelar: Express Relayer 1"
+  },
+  {
+    "address": "0x2879da536d9d107d6b92d95d7c4cfaa5de7088f4",
+    "nameTag": "Axelar: Gas Receiver"
+  },
+  {
+    "address": "0x2d5d7d31f671f86c782533cc367f14109a082712",
+    "nameTag": "Axelar: Gas Service"
+  },
+  {
+    "address": "0x304acf330bbe08d1e512eefaa92f6a57871fd895",
+    "nameTag": "Axelar: Gateway"
+  },
+  {
+    "address": "0x5e3c572a97d898fe359a2cea31c7d46ba5386895",
+    "nameTag": "Axelar: LUNA Token"
+  },
+  {
+    "address": "0xe549caf5f0c3e80b8738cb03ae4fbb4c15b0dd86",
+    "nameTag": "Axelar: NGM Token"
+  },
+  {
+    "address": "0xe523f25dd88ee2b77efb3ab1fb23beef5724819a",
+    "nameTag": "Axelar: Relayer (Legacy)"
+  },
+  {
+    "address": "0xbf095fe6b60e18ce71b54a731f719801f09069b8",
+    "nameTag": "Axelar: Relayer 1"
+  },
+  {
+    "address": "0xcd5a6286f376306c2bbf7a231166beee4f6d1a25",
+    "nameTag": "Axelar: Relayer 10"
+  },
+  {
+    "address": "0x0a7103b9b9fac09d42c8493d965ef444643f957d",
+    "nameTag": "Axelar: Relayer 11"
+  },
+  {
+    "address": "0x43407208b44d5cc074029de25020392d8cd0d26f",
+    "nameTag": "Axelar: Relayer 12"
+  },
+  {
+    "address": "0x0707357b48a02c299b8a6965b51a6c1f3b6ac664",
+    "nameTag": "Axelar: Relayer 13"
+  },
+  {
+    "address": "0x7f9d41de4716040486ee15ec5ceabb629491870d",
+    "nameTag": "Axelar: Relayer 14"
+  },
+  {
+    "address": "0x26ff577818a40d1333944b7492e23619303f5d84",
+    "nameTag": "Axelar: Relayer 15"
+  },
+  {
+    "address": "0xc58e085c81620584ef02cb336f73c0a60b47affb",
+    "nameTag": "Axelar: Relayer 16"
+  },
+  {
+    "address": "0x14b8f80045225744c865d327e7df6a43c7c37f30",
+    "nameTag": "Axelar: Relayer 17"
+  },
+  {
+    "address": "0xdc4bf78224cbd20428dff4787b1e32bbfd04a90d",
+    "nameTag": "Axelar: Relayer 18"
+  },
+  {
+    "address": "0xc77820eef59629fc8d88154977bc8de8a1b2f4ae",
+    "nameTag": "Axelar: Relayer 19"
+  },
+  {
+    "address": "0x2102c32a09cbced4146c3db2d27ae21a185bda43",
+    "nameTag": "Axelar: Relayer 2"
+  },
+  {
+    "address": "0xb28837949e7a3f1ac862036e8a0ae392c9ff9bb4",
+    "nameTag": "Axelar: Relayer 3"
+  },
+  {
+    "address": "0x345662abfe0e257e23552a434d02ef274ccb6a90",
+    "nameTag": "Axelar: Relayer 4"
+  },
+  {
+    "address": "0xd36aac0c9676e984d72823fb662ce94d3ab5e551",
+    "nameTag": "Axelar: Relayer 5"
+  },
+  {
+    "address": "0xb65a5773c27fa5f53208326d5eb0da063fe213ee",
+    "nameTag": "Axelar: Relayer 6"
+  },
+  {
+    "address": "0x8dbee8f3917049bc30fef01924a7ac79d16cf2b9",
+    "nameTag": "Axelar: Relayer 7"
+  },
+  {
+    "address": "0xcbca62dcf3bb6e01f9002b1744835752e09967e3",
+    "nameTag": "Axelar: Relayer 8"
+  },
+  {
+    "address": "0x51a3c407f130163b28b762513864e596a1de1bd9",
+    "nameTag": "Axelar: Relayer 9"
+  },
+  {
+    "address": "0x2b9d3f168905067d88d93f094c938bacee02b0cb",
+    "nameTag": "Axelar: UST Token"
+  }
+]

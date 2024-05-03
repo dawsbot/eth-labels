@@ -1,0 +1,18 @@
+[
+  {
+    "address": "0x20dd72ed959b6147912c2e529f0a0c651c33c9ce",
+    "nameTag": "Beethoven X: Vault"
+  },
+  {
+    "address": "0x245cd6d33578de9af75a3c0c636c726b1a8cbdaa",
+    "nameTag": "Morphex: Vault"
+  },
+  {
+    "address": "0x3923e7edbcb3d0ce78087ac58273e732fffb82cf",
+    "nameTag": "Revest Finance: Token Vault"
+  },
+  {
+    "address": "0x876f890135091381c23be437fa1cec2251b7c117",
+    "nameTag": "YieldWolf: Vaults"
+  }
+]

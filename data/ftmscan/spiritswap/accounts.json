@@ -1,0 +1,58 @@
+[
+  {
+    "address": "0x0bf34815d05f0f6cc91a6fccb3ceacd4a1254ea1",
+    "nameTag": "SpiritSwap: Burner"
+  },
+  {
+    "address": "0x4fb2bb19df86fef113b2016e051898065f963cc5",
+    "nameTag": "SpiritSwap: Deployer 2"
+  },
+  {
+    "address": "0xef45d134b73241eda7703fa787148d9c9f4950b0",
+    "nameTag": "SpiritSwap: Factory"
+  },
+  {
+    "address": "0x18cef75c2b032d7060e9cf96f29adf74a9a17ce6",
+    "nameTag": "SpiritSwap: Fee Distributor"
+  },
+  {
+    "address": "0x420b17f69618610de18cacd1499460efb29e1d8f",
+    "nameTag": "SpiritSwap: Gauge Proxy"
+  },
+  {
+    "address": "0x2fbff41a9efaeae77538bd63f1ea489494acdc08",
+    "nameTag": "SpiritSwap: inSpirit Token"
+  },
+  {
+    "address": "0xf9f6792ece33743664fc82eeab3cc6acaf2a8fe8",
+    "nameTag": "SpiritSwap: Maker"
+  },
+  {
+    "address": "0x9083ea3756bde6ee6f27a6e996806fbd37f6f093",
+    "nameTag": "SpiritSwap: MasterChef LP Staking Pool"
+  },
+  {
+    "address": "0x3554f3369a3530abc031d938d2f717006fe01fa1",
+    "nameTag": "SpiritSwap: minSPIRIT Token"
+  },
+  {
+    "address": "0x16327e3fbdaca3bcf7e38f5af2599d2ddc33ae52",
+    "nameTag": "SpiritSwap: Router"
+  },
+  {
+    "address": "0xb835bb6ec5219660a4e906efb3c8c00d5e6f0cef",
+    "nameTag": "SpiritSwap: Smart Wallet Whitelist"
+  },
+  {
+    "address": "0x5cec66f552b1d3406f65eb1a4a4914f448f98e9c",
+    "nameTag": "SpiritSwap: Spirit Maker"
+  },
+  {
+    "address": "0x5cc61a78f164885776aa610fb0fe1257df78e59b",
+    "nameTag": "SpiritSwap: SPIRIT Token"
+  },
+  {
+    "address": "0x07e820762910672613636d44c6e70954a6c6052a",
+    "nameTag": "SpiritSwap: Vesting"
+  }
+]

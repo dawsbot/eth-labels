@@ -1,0 +1,18 @@
+[
+  {
+    "address": "0xbfa2f68bf9ad60dc3cfb1cef04730eb7fa251424",
+    "nameTag": "Celer Network"
+  },
+  {
+    "address": "0x374b8a9f3ec5eb2d97eca84ea27aca45aa1c57ef",
+    "nameTag": "Celer Network: cBridge"
+  },
+  {
+    "address": "0x3795c36e7d12a8c252a20c5a7b455f7c57b60283",
+    "nameTag": "Celer Network: cBridge 2"
+  },
+  {
+    "address": "0x7d91603e79ea89149baf73c9038c51669d8f03e9",
+    "nameTag": "Celer Network: Original Token Vault"
+  }
+]

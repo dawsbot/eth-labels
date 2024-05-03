@@ -1,0 +1,46 @@
+[
+  {
+    "address": "0x76b2e3c5a183970aaad2a48cf6ae79e3e16d3a0e",
+    "nameTag": "Alchemix Finance: Alchemist USD"
+  },
+  {
+    "address": "0xb67fa6defce4042070eb1ae1511dcd6dcc6a532e",
+    "nameTag": "Alchemix Finance: alUSD Token"
+  },
+  {
+    "address": "0x13c716188c38ce27b9b2b672a59543cf1170eabe",
+    "nameTag": "Alchemix Finance: Deployer"
+  },
+  {
+    "address": "0x70f9fd19f857411b089977e7916c05a0fc477ac9",
+    "nameTag": "Alchemix Finance: gALCX Token"
+  },
+  {
+    "address": "0x5a07d36d1f543960ee7806d35827e995539fe5cf",
+    "nameTag": "Alchemix Finance: Transmuter Buffer alUSD"
+  },
+  {
+    "address": "0x486fcc9385dcd16fe9ac21a959b072dcb58912e0",
+    "nameTag": "Alchemix Finance: Transmuter DAI"
+  },
+  {
+    "address": "0xae653176d1af6a68b5ce57481427a065e1bac49f",
+    "nameTag": "Alchemix Finance: Transmuter USDC"
+  },
+  {
+    "address": "0x53f05426d48e667c6a131f17db1b6f7ac535abc6",
+    "nameTag": "Alchemix Finance: Transmuter USDT"
+  },
+  {
+    "address": "0xe68e8a676d496851bb054e10ff3915c056293102",
+    "nameTag": "Alchemix Finance: Yearn Adapter USDC"
+  },
+  {
+    "address": "0x99e439401a57d67251431b12777d4ce7be8e3fc1",
+    "nameTag": "Alchemix Finance: Yearn Adapter USDT"
+  },
+  {
+    "address": "0xa6f7e861fccd07af4a5e94d050c2be3d9ff75d9a",
+    "nameTag": "Alchemix Finance: ​Yearn Adapter DAI"
+  }
+]

@@ -1,0 +1,62 @@
+[
+  {
+    "address": "0x4c3c043f8c4103c048de6fb437b95ef8209038d1",
+    "nameTag": "WigoSwap: Core Team Initial Liquidity Lock"
+  },
+  {
+    "address": "0xc831a5cbfb4ac2da5ed5b194385dfd9bf5bfcba7",
+    "nameTag": "WigoSwap: Factory"
+  },
+  {
+    "address": "0xa1a938855735c0651a6cfe2e93a32a28a236d0e9",
+    "nameTag": "WigoSwap: Master Farmer"
+  },
+  {
+    "address": "0x5023882f4d1ec10544fcb2066abe9c1645e95aa0",
+    "nameTag": "WigoSwap: Router"
+  },
+  {
+    "address": "0x870c3f3bd7f1898e76640fefb43ba7cbcf9f7642",
+    "nameTag": "WigoSwap: Seed Funder 1 120 DayTimelock"
+  },
+  {
+    "address": "0xa1dc8780380dd99bdc1622ff4364b381ec4f937f",
+    "nameTag": "WigoSwap: Seed Funder 1 180 DayTimelock"
+  },
+  {
+    "address": "0xa3b6ca020da0861017ff4906c435da268efb50db",
+    "nameTag": "WigoSwap: Seed Funder 1 240 DayTimelock"
+  },
+  {
+    "address": "0x58b1bd5e631bae7739ef5b9350aebdcc7ae4ed90",
+    "nameTag": "WigoSwap: Seed Funder 1 60 DayTimelock"
+  },
+  {
+    "address": "0x330b6ba54f16df0db2e1092f1ba06ffd95d5d10e",
+    "nameTag": "WigoSwap: Seed Funder 1 Initial Timelock"
+  },
+  {
+    "address": "0xbd5cd655be1aba80bebfa0e938cef806146ce3ab",
+    "nameTag": "WigoSwap: Seed Funder 2 120 DayTimelock"
+  },
+  {
+    "address": "0x47a88fa16f48a91c201a523cc796e31ef0efc630",
+    "nameTag": "WigoSwap: Seed Funder 2 180 DayTimelock"
+  },
+  {
+    "address": "0x515be0f005e657222d059c764726895598f0a911",
+    "nameTag": "WigoSwap: Seed Funder 2 240 DayTimelock"
+  },
+  {
+    "address": "0xb16bc9fb77437d86ece369ca40ef22b918934a29",
+    "nameTag": "WigoSwap: Seed Funder 2 60 DayTimelock"
+  },
+  {
+    "address": "0xf5df3d0e928f18c02e06b5e7db54f42a8b931078",
+    "nameTag": "WigoSwap: Seed Funder 2 Initial Timelock"
+  },
+  {
+    "address": "0x4178e335bd36295ffbc250490edbb6801081d022",
+    "nameTag": "WigoSwap: Vault"
+  }
+]
