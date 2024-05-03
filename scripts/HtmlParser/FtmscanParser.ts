@@ -1,5 +1,6 @@
-// import { FtmScanHtmlParser } from './FtmScanParser';
+// import { PolygonscanHtmlParser } from './PolygonscanParser';
 import * as cheerio from "cheerio";
+import type { Page } from "playwright";
 import type {
   AccountRow,
   AccountRows,
@@ -33,6 +34,22 @@ export class FtmScanHtmlParser extends HtmlParser {
     return addressesInfo;
   }
 
+  public async login(page: Page, baseUrl: string) {
+    await page.goto(`${baseUrl}/login`);
+    await page.fill(
+      "#ContentPlaceHolder1_txtUserName",
+      process.env.ETHERSCAN_EMAIL || "",
+    );
+    await page.fill(
+      "#ContentPlaceHolder1_txtPassword",
+      process.env.ETHERSCAN_PASSWORD || "",
+    );
+    console.log(`🐢 Waiting for operator to complete login...`);
+    // TODO: Update this deprecated function to instead use "page.waitForURL" (https://playwright.dev/docs/api/class-page#page-wait-for-url)
+    await page.waitForNavigation({ timeout: 300000 });
+    console.log(`✅ Login completed!`);
+  }
+
   public selectAllTokenAddresses(html: string): TokenRows {
     const $ = cheerio.load(html);
 
@@ -64,10 +81,17 @@ export class FtmScanHtmlParser extends HtmlParser {
           .text()
           .slice(1, -1) ||
         "";
+
+      // let tokenImage = $(tableCells[2]).find("a > img").attr("src") || "";
       const website = ($(tableCells[5]).find("a").attr("href") || "") // had to change .attr("data-original-title") to .attr("href") for arbiscan
         .toLowerCase();
+      // image path is relative to prepend with root URL
+      // if (tokenImage.startsWith("/")) {
+      //   tokenImage = `https://ftmscan.com${tokenImage}`;
+      // }
+
       const tokenRow: TokenRow = {
-        address: address.trim(),
+        address: address.trim().toLowerCase(),
         tokenName: tokenName || "",
         tokenSymbol: tokenSymbol || "",
         website,

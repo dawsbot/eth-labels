@@ -212,11 +212,9 @@ describe("ftmscan", () => {
 
     expect(tokenRows).toHaveLength(31);
     expect(tokenRows).toContainEqual({
-      address: "0x4a1c3ad6ed28a636ee1751c69071f6be75deb8b8",
-      tokenName: "Aave Fantom Variable Debt WFTM",
-      tokenSymbol: "variableDebtFanWFTM",
-      tokenImage:
-        "https://ftmscan.com/assets/fantom/images/svg/empty-token.svg?v=24.3.4.0",
+      address: "0x82e64f49ed5ec1bc6e43dad4fc8af9bb3a2312ee",
+      tokenName: "Aave Fantom ...",
+      tokenSymbol: "aFanDA...",
       website: "",
     });
   });
