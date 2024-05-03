@@ -10,6 +10,7 @@ function sleep(ms: number): Promise<void> {
 }
 
 export abstract class HtmlParser {
+  #useApiForTokenRows: boolean = false;
   /**
    * Find all the label urls on a labelcloud page
    * @param html - the labelcloud page content
@@ -47,9 +48,15 @@ export abstract class HtmlParser {
     return anchors;
   };
 
+  public setUseApiForTokenRows(useApiForTokenRows: boolean): void {
+    this.#useApiForTokenRows = useApiForTokenRows;
+  }
+  public getUseApiForTokenRows(): boolean {
+    return this.#useApiForTokenRows;
+  }
+
   public async selectAllTokenAddressesApi(
     page: Page,
-    baseUrl: string,
     url: string,
   ): Promise<TokenRows> {
     const context: BrowserContext = page.context();
@@ -58,10 +65,11 @@ export abstract class HtmlParser {
       .map((cookie) => `${cookie.name}=${cookie.value}`)
       .join("; ");
     // console.log(cookiesString, baseUrl);
-    const apiParser: ApiParser = new ApiParser(baseUrl);
+    const baseUrl = url.split("/").slice(0, 3).join("/");
     const tokenName = `/${url.split("/").slice(3).join("/")}`;
+
+    const apiParser: ApiParser = new ApiParser(baseUrl);
     const tokenRows = await apiParser.fetchTokens(tokenName, cookiesString);
-    // console.log({tokenRows})
     const sleepTime = Math.floor(Math.random() * 2000) + 1000; // Random time between 1 and 3 seconds in milliseconds
     await sleep(sleepTime);
     return tokenRows;

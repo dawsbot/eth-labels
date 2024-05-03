@@ -45,7 +45,7 @@ export class AnyscanPuller {
   #baseUrl: string;
   #directoryName: string;
   #htmlParser: HtmlParser;
-  #useApiForTokenRows: boolean;
+  #useApi: boolean;
   /**
    * @example
    * const etherscanPuller = new AnyscanPuller(etherscan);
@@ -56,11 +56,8 @@ export class AnyscanPuller {
     const filenameRegex = /^[a-z0-9_\-.]+$/;
     this.#directoryName = z.string().regex(filenameRegex).parse(directoryName);
     this.#htmlParser = scanConfig[directoryName].htmlParser;
-    this.#useApiForTokenRows = z
-      .boolean()
-      .parse(scanConfig[directoryName].useApiForTokenRows);
+    this.#useApi = this.#htmlParser.getUseApiForTokenRows();
   }
-
   #fetchAllLabels = async (page: Page): Promise<AllLabels> => {
     const PAGE_URL = `${this.#baseUrl}/labelcloud`;
 
@@ -139,12 +136,8 @@ export class AnyscanPuller {
       page,
       "tr > td > div > a",
     );
-    const tokenRows: TokenRows = this.#useApiForTokenRows
-      ? await this.#htmlParser.selectAllTokenAddressesApi(
-          page,
-          this.#baseUrl,
-          url,
-        ) // Add type annotation to ensure correct type
+    const tokenRows: TokenRows = this.#useApi
+      ? await this.#htmlParser.selectAllTokenAddressesApi(page, url)
       : this.#htmlParser.selectAllTokenAddresses(addressesHtml); // Add type annotation to ensure correct type
     return tokenRows.map((tokenRow) => {
       const newTokenRow = {

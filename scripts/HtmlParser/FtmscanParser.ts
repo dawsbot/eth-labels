@@ -10,6 +10,10 @@ import type {
 import { HtmlParser } from "./HtmlParser";
 
 export class FtmScanHtmlParser extends HtmlParser {
+  public constructor() {
+    super();
+    super.setUseApiForTokenRows(true);
+  }
   public selectAllAccountAddresses(html: string): AccountRows {
     const $ = cheerio.load(html);
     const selector = `#table-subcatid-0 > tbody`;

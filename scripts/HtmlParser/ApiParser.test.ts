@@ -19,11 +19,7 @@ describe("ApiParsing", () => {
     const url = "https://ftmscan.com/tokens/label/yield-farming?size=100";
     await page.goto(url);
     await new Promise((resolve) => setTimeout(resolve, 2000));
-    const data = await ftmScanHtmlParser.selectAllTokenAddressesApi(
-      page,
-      baseUrl,
-      url,
-    );
+    const data = await ftmScanHtmlParser.selectAllTokenAddressesApi(page, url);
     expect(data).toContainEqual({
       tokenName: "OliveCash Token",
       tokenSymbol: "fOLIVE",
