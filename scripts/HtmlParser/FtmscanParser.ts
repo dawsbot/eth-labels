@@ -1,12 +1,7 @@
 // import { PolygonscanHtmlParser } from './PolygonscanParser';
 import * as cheerio from "cheerio";
 import type { Page } from "playwright";
-import type {
-  AccountRow,
-  AccountRows,
-  TokenRow,
-  TokenRows,
-} from "../AnyscanPuller";
+import type { AccountRow, AccountRows, TokenRow, TokenRows } from "../../types";
 import { HtmlParser } from "./HtmlParser";
 
 export class FtmScanHtmlParser extends HtmlParser {

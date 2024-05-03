@@ -1,10 +1,5 @@
 import * as cheerio from "cheerio";
-import type {
-  AccountRow,
-  AccountRows,
-  TokenRow,
-  TokenRows,
-} from "../AnyscanPuller";
+import type { AccountRow, AccountRows, TokenRow, TokenRows } from "../../types";
 import { HtmlParser } from "./HtmlParser";
 
 export class EtherscanHtmlParser extends HtmlParser {

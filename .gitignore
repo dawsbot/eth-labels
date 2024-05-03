@@ -1,6 +1,5 @@
 node_modules
 dist
 lib
-types
 .env
 .eslintcache

@@ -1,11 +1,8 @@
-// import { ApiParser } from './../ApiParser';
 import "dotenv/config";
 import type { Browser, Page } from "playwright";
 import { describe, expect, test } from "vitest";
 import { scanConfig } from "../scan-config";
 import { closeBrowser, openBrowser } from "./BrowserUtil";
-// import { ApiParser } from "../ApiParser";
-// import type { HtmlParser } from "./HtmlParser";
 
 describe("ApiParsing", () => {
   test("should pull exanded ftm", async () => {

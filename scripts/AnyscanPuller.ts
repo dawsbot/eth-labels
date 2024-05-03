@@ -5,6 +5,7 @@ import fs from "fs";
 import path from "path";
 import type { Page } from "playwright";
 import { z } from "zod";
+import type { AccountRows, AllLabels, TokenRows } from "../types";
 import { parseError } from "./error-parse";
 
 import { fileURLToPath } from "url";
@@ -18,24 +19,6 @@ function sleep(ms: number): Promise<void> {
     setTimeout(resolve, ms);
   });
 }
-
-type AllLabels = {
-  accounts: Array<string>;
-  tokens: Array<string>;
-  blocks: ReadonlyArray<string>;
-};
-export type AccountRow = {
-  address: string;
-  nameTag: string;
-};
-export type TokenRow = {
-  address: string;
-  tokenName: string;
-  tokenSymbol: string;
-  website: string;
-};
-export type AccountRows = Array<AccountRow>;
-export type TokenRows = Array<TokenRow>;
 const bar1: SingleBar = new cliProgress.SingleBar(
   {},
   cliProgress.Presets.shades_classic,

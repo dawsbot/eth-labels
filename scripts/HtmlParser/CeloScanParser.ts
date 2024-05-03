@@ -1,6 +1,6 @@
 import * as cheerio from "cheerio";
 import { z } from "zod";
-import type { TokenRow, TokenRows } from "../AnyscanPuller";
+import type { TokenRow, TokenRows } from "../../types";
 import { EtherscanHtmlParser } from "./EtherscanParser";
 
 export class CeloScanParser extends EtherscanHtmlParser {

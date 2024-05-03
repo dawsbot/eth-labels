@@ -1,6 +1,6 @@
 import * as cheerio from "cheerio";
 import type { BrowserContext, Page } from "playwright";
-import type { AccountRows, TokenRows } from "../AnyscanPuller";
+import type { AccountRows, TokenRows } from "../../types";
 import { ApiParser } from "../ApiParser";
 
 function sleep(ms: number): Promise<void> {
