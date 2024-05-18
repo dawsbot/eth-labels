@@ -8,6 +8,7 @@ const etherscanDirectory = "mocks/etherscan";
 const basescanDirectory = "mocks/basescan";
 const optimismDirectory = "mocks/optimism";
 const celoDirectory = "mocks/celo";
+const bscScanDirectory = "mocks/bscscan";
 
 function getMocks(directory: string) {
   return {
@@ -21,7 +22,51 @@ const basescanMocks = getMocks(basescanDirectory);
 const etherscanMocks = getMocks(etherscanDirectory);
 const optimismMocks = getMocks(optimismDirectory);
 const celoMocks = getMocks(celoDirectory);
+const bscscanMocks = getMocks(bscScanDirectory);
 
+describe("bscscan", () => {
+  const htmlParser = scanConfig.bscscan.htmlParser;
+  test("should parse labelcloud", () => {
+    const allLabels = htmlParser.selectAllLabels(
+      bscscanMocks.mockLabelCloudHtml,
+    );
+
+    expect(allLabels).toHaveLength(240);
+    expect(allLabels[0]).toBe(`/accounts/label/0x-protocol?size=10000`);
+  });
+  test("should parse account addresses", () => {
+    const accountRows = htmlParser.selectAllAccountAddresses(
+      bscscanMocks.mockAccountsHtml,
+    );
+
+    expect(accountRows).toHaveLength(100);
+    expect(accountRows).toContainEqual({
+      address: "0x81dab25be86f78c30e49ae2a7e4de2dcf8036ea7",
+      nameTag: "BSCswap: $US.Dollar",
+    });
+  });
+  test("should parse token addresses", () => {
+    const tokenRows = htmlParser.selectAllTokenAddresses(
+      bscscanMocks.mockTokensHtml,
+    );
+
+    expect(tokenRows).toHaveLength(100);
+    // not abbreviated
+    expect(tokenRows).toContainEqual({
+      address: "0x9840652dc04fb9db2c43853633f0f62be6f00f98",
+      tokenName: "ChainGPT",
+      tokenSymbol: "CGPT",
+      website: "https://www.chaingpt.org/",
+    });
+    // abbreviated
+    // expect(tokenRows).toContainEqual({
+    //   address: "0x03aa6298f1370642642415edc0db8b957783e8d6",
+    //   tokenName: "NetMind Token",
+    //   tokenSymbol: "NMT",
+    //   website: "https://power.netmind.ai/",
+    // });
+  });
+});
 describe("celo", () => {
   const htmlParser = scanConfig.celo.htmlParser;
   test("should parse labelcloud", () => {
