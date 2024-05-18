@@ -22,7 +22,7 @@ export class BscscanHtmlParser extends HtmlParser {
 
       const address = anchorWithDataBsTitle.attr("data-highlight-target") || "";
       const newAddressInfo: AccountRow = {
-        address: address.trim(),
+        address: address.trim().toLowerCase(),
         nameTag: $(tableCells[1]).text().trim(),
       };
 
@@ -63,7 +63,7 @@ export class BscscanHtmlParser extends HtmlParser {
       const website = ($(tableCells[5]).find("a").attr("href") || "") // had to change .attr("data-original-title") to .attr("href") for arbiscan
         .toLowerCase();
       const tokenRow: TokenRow = {
-        address: address.trim(),
+        address: address.trim().toLowerCase(),
         tokenName: tokenName || "",
         tokenSymbol: tokenSymbol || "",
         website,
