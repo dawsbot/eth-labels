@@ -1,4 +1,14 @@
 [
+  { "address": "0x07ac38003467d3ba54bfd4e49485af4e782f710f", "nameTag": "" },
+  { "address": "0x1486e522dff3895d4aa6c7cc79aff656c96ecddf", "nameTag": "" },
+  { "address": "0x60a16547abdd597fc9bb32e8ed1829a80a98d36d", "nameTag": "" },
+  { "address": "0x64ea2f8c2d86e63c6e7c0e5af1e78a176074e56d", "nameTag": "" },
+  { "address": "0x6b5e91f9eae1da0aaf5729ed9b33697af9b4005f", "nameTag": "" },
+  { "address": "0x84cad8a5364d0d0c1ecab15027dfe61854b66e73", "nameTag": "" },
+  { "address": "0x8e4ae2e42460181b2ea05da2f23bee26fd65aa0e", "nameTag": "" },
+  { "address": "0x9c1389a2af2425c1c720436f6e6899e9c0aeb8ed", "nameTag": "" },
+  { "address": "0xa6df89634adde22815897c2ce38fcc016b4ffdce", "nameTag": "" },
+  { "address": "0xbe9460b50f515169e14545aaddf60b3c9db7e5fb", "nameTag": "" },
   {
     "address": "0x94546e31a8eca3da6143eff3a0012be3af1ba7b8",
     "nameTag": "Fake_Phishing1"
@@ -650,6 +660,74 @@
   {
     "address": "0x6734a9f000af1901f50010429e83b91285c26c9b",
     "nameTag": "Fake_Phishing326880"
+  },
+  {
+    "address": "0x2d1a4d28f7a2bc17b3c27832dd50912ef44f582d",
+    "nameTag": "Fake_Phishing326881"
+  },
+  {
+    "address": "0x5bb5b6d41c3e5e41d9b9ed33d12f1537a1293d5f",
+    "nameTag": "Fake_Phishing327281"
+  },
+  {
+    "address": "0xbd2fccc6b57b5c765e1afeb5b73d585f7f8f5fa3",
+    "nameTag": "Fake_Phishing327282"
+  },
+  {
+    "address": "0x248799204cb0e053f83027cf930791853049beda",
+    "nameTag": "Fake_Phishing327283"
+  },
+  {
+    "address": "0x5cb0be4e41c87c42e293a9a462e5d6d4e24a3693",
+    "nameTag": "Fake_Phishing327284"
+  },
+  {
+    "address": "0xae9e4a95eddc1fb566927637ed92f4f2cd707182",
+    "nameTag": "Fake_Phishing327285"
+  },
+  {
+    "address": "0xcca518184bd2bd194e0ca804f4c6c1faf2ecf2bd",
+    "nameTag": "Fake_Phishing327286"
+  },
+  {
+    "address": "0x5fd5b45bbeefea6ebefe34ebd25618fc1bd50097",
+    "nameTag": "Fake_Phishing327287"
+  },
+  {
+    "address": "0x403c5a92b243b117cc5f2db4c85033649275c446",
+    "nameTag": "Fake_Phishing327289"
+  },
+  {
+    "address": "0xb1e6462a2340fb6ef08a221a0bad6ed036d302c8",
+    "nameTag": "Fake_Phishing327290"
+  },
+  {
+    "address": "0x247a26ac939c5c4e926d049e0d9adc1b237bdd92",
+    "nameTag": "Fake_Phishing327291"
+  },
+  {
+    "address": "0xde1ac2696edc7315b7123a1007b62dd2f23c8844",
+    "nameTag": "Fake_Phishing327292"
+  },
+  {
+    "address": "0xda70e916e26cd68140b1e0ff12672bbd478b81f5",
+    "nameTag": "Fake_Phishing327293"
+  },
+  {
+    "address": "0x1aa5f86f86ac85635dc81c69d43282ae6f889238",
+    "nameTag": "Fake_Phishing327294"
+  },
+  {
+    "address": "0x3dbbe761ca91f4fa8f9c0211e785bcd6154b9b7e",
+    "nameTag": "Fake_Phishing327295"
+  },
+  {
+    "address": "0xa4fe92532e5e9244fc0a3731b245f74516bfdf33",
+    "nameTag": "Fake_Phishing327296"
+  },
+  {
+    "address": "0x0000bc6e85ec6e512b2ded1e4621734240600000",
+    "nameTag": "Fake_Phishing327297"
   },
   {
     "address": "0x232e2fd91c88f8e2a06acdaa0ed199516ba31efa",

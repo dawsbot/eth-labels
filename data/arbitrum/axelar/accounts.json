@@ -26,5 +26,13 @@
   {
     "address": "0xd36aac0c9676e984d72823fb662ce94d3ab5e551",
     "nameTag": "Axelar: Relayer 5"
+  },
+  {
+    "address": "0xc77820eef59629fc8d88154977bc8de8a1b2f4ae",
+    "nameTag": "Axelar: Relayer 6"
+  },
+  {
+    "address": "0x26ff577818a40d1333944b7492e23619303f5d84",
+    "nameTag": "Axelar: Relayer 7"
   }
 ]

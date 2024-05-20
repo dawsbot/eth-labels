@@ -82,9 +82,7 @@
   { "address": "0xef888bca6ab6b1d26dbec977c455388ecd794794", "nameTag": "" },
   { "address": "0xf4d48ce3ee1ac3651998971541badbb9a14d7234", "nameTag": "" },
   { "address": "0xf80d589b3dbe130c270a69f1a69d050f268786df", "nameTag": "" },
-  { "address": "0xf97f4df75117a78c1a5a0dbb814af92458539fb4", "nameTag": "" },
   { "address": "0xfa51b42d4c9ea35f1758828226aaedbec50dd54e", "nameTag": "" },
-  { "address": "0xfa7f8980b0f1e64a2062791cc3b0871572f1f7f0", "nameTag": "" },
   { "address": "0xfea31d704deb0975da8e77bf13e04239e70d7c28", "nameTag": "" },
   {
     "address": "0xff970a61a04b1ca14834a43f5de4533ebddb5cc8",
@@ -93,6 +91,10 @@
   {
     "address": "0x031d35296154279dc1984dcd93e392b1f946737b",
     "nameTag": "CAP: CAP Token"
+  },
+  {
+    "address": "0xf97f4df75117a78c1a5a0dbb814af92458539fb4",
+    "nameTag": "Chainlink: LINK Token"
   },
   {
     "address": "0x354a6da3fcde098f8389cad84b0182725c6c91de",
@@ -109,14 +111,6 @@
   {
     "address": "0xae6aab43c4f3e0cea4ab83752c278f8debaba689",
     "nameTag": "dForce: DF Token"
-  },
-  {
-    "address": "0x6c2c06790b3e3e3c38e12ee22f8183b37a13ee55",
-    "nameTag": "Dopex: DPX Token"
-  },
-  {
-    "address": "0x32eb7902d4134bf98a28b963d26de779af92a212",
-    "nameTag": "Dopex: rDPX Token"
   },
   {
     "address": "0x3cd1833ce959e087d0ef0cb45ed06bffe60f23ba",
@@ -165,6 +159,10 @@
   {
     "address": "0x539bde0d7dbd336b79148aa742883198bbf60342",
     "nameTag": "Treasure DAO: Magic Token"
+  },
+  {
+    "address": "0xfa7f8980b0f1e64a2062791cc3b0871572f1f7f0",
+    "nameTag": "Uniswap Protocol: UNI Token"
   },
   {
     "address": "0xcafcd85d8ca7ad1e1c6f82f651fa15e33aefd07b",

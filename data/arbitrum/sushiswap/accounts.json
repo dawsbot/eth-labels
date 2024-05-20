@@ -1,10 +1,42 @@
 [
   {
+    "address": "0xc79ae87e9f55761c08e346b98dddf070c9872787",
+    "nameTag": "SushiSwap: Constant Product Pool Factory"
+  },
+  {
     "address": "0x0c1cf6883efa1b496b01f654e247b9b419873054",
     "nameTag": "Sushiswap: DPX"
   },
   {
+    "address": "0xf30cf8d373d78d7964a2f7793b730bf7ae0970a8",
+    "nameTag": "SushiSwap: Furo Stream Router"
+  },
+  {
+    "address": "0x312a8e33d78d3ab79e62971e86e5e8c9c5e28d64",
+    "nameTag": "SushiSwap: Furo Vesting Router"
+  },
+  {
+    "address": "0x4ab2fc6e258a0ca7175d05ff10c5cf798a672cae",
+    "nameTag": "SushiSwap: FuroStream"
+  },
+  {
+    "address": "0x0689640d190b10765f09310fcfe9c670ede4e25b",
+    "nameTag": "SushiSwap: FuroVesting"
+  },
+  {
     "address": "0x1b02da8cb0d097eb8d57a175b88c7d8b47997506",
     "nameTag": "SushiSwap: Router"
+  },
+  {
+    "address": "0xc2fb256aba36852dccea92181ec6b355f09a0288",
+    "nameTag": "SushiSwap: Stable Pool Factory"
+  },
+  {
+    "address": "0x53b08dbd70327b7ba3b7886fc9987bc985d27262",
+    "nameTag": "SushiSwap: SushiXSwap"
+  },
+  {
+    "address": "0xd9988b4b5bbc53a794240496cfa9bf5b1f8e0523",
+    "nameTag": "SushiSwap: Trident Router"
   }
 ]

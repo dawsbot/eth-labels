@@ -24,6 +24,14 @@
     "nameTag": "DFX Finance: Old DFX Token"
   },
   {
+    "address": "0x6c2c06790b3e3e3c38e12ee22f8183b37a13ee55",
+    "nameTag": "Dopex: Old DPX Token"
+  },
+  {
+    "address": "0x32eb7902d4134bf98a28b963d26de779af92a212",
+    "nameTag": "Dopex: Old rDPX Token"
+  },
+  {
     "address": "0x6e7118b82fb9608342c288a90eeb5e614aaee2e9",
     "nameTag": "Edgeware: Old EDG Token"
   },
@@ -70,6 +78,10 @@
   {
     "address": "0x30424981429c8b944e9d44d5bd992ee874f1b188",
     "nameTag": "OpenOcean: Old OOE Token"
+  },
+  {
+    "address": "0x964cbf436ddb782d09465930ce8b431311cb54f4",
+    "nameTag": "Pingu Exchange: Old PINGU Token"
   },
   {
     "address": "0x0c4681e6c0235179ec3d4f4fc4df3d14fdd96017",

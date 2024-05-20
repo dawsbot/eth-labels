@@ -40,6 +40,14 @@
     "nameTag": "Hop Protocol: hUSDT Token"
   },
   {
+    "address": "0x50a3a623d00fd8b8a4f3cbc5aa53d0bc6fa912dd",
+    "nameTag": "Hop Protocol: MAGIC Wrapper"
+  },
+  {
+    "address": "0x16e08c02e4b78b0a5b3a917ff5feaedd349a5a95",
+    "nameTag": "Hop Protocol: rETH Wrapper"
+  },
+  {
     "address": "0x0e0e3d2c5c292161999474247956ef542cabf8dd",
     "nameTag": "Hop Protocol: USDC Bridge"
   },

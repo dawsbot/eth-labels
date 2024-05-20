@@ -3,6 +3,7 @@
   { "address": "0x1797367ffb6d18ca4cf6e4ab67e00cd044ec2e87", "nameTag": "" },
   { "address": "0x33bcaeb9392009b7fe90c73b00fa66bbaa69ad7c", "nameTag": "" },
   { "address": "0x45c4d1376943ab28802b995acffc04903eb5223f", "nameTag": "" },
+  { "address": "0x4b019aaa21e98e212d31e54c843e73ff34d25717", "nameTag": "" },
   { "address": "0x519cce718fcd11ac09194cff4517f12d263be067", "nameTag": "" },
   { "address": "0x567ecfcb22205d279bb8eed3e066989902bf03d5", "nameTag": "" },
   { "address": "0x5a7f39435fd9c381e4932fa2047c9a5136a5e3e7", "nameTag": "" },
@@ -160,6 +161,10 @@
     "nameTag": "Aegis: AEG Token"
   },
   {
+    "address": "0xc227e25544edd261a9066932c71a25f4504972f1",
+    "nameTag": "Aethir: ATHCL Token"
+  },
+  {
     "address": "0x848e0ba28b637e8490d88bae51fa99c87116409b",
     "nameTag": "Agave: AGVE Token"
   },
@@ -236,6 +241,10 @@
     "nameTag": "Alongside Crypto Market Index: AMKT Token"
   },
   {
+    "address": "0xa41f68a5a8f17bce7600df244b46b4f020046fec",
+    "nameTag": "Alph Network: ALPH Token"
+  },
+  {
     "address": "0xb2d948be3a74ecce80378d4093e6cd7f4dc1cf9c",
     "nameTag": "Alt Markets: AMX Token"
   },
@@ -262,6 +271,14 @@
   {
     "address": "0x004626a008b1acdc4c74ab51644093b155e59a23",
     "nameTag": "Angle Protocol: stEUR Token"
+  },
+  {
+    "address": "0x0022228a2cc5e7ef0274a7baa600d44da5ab5776",
+    "nameTag": "Angle Protocol: stUSD Token"
+  },
+  {
+    "address": "0x0000206329b97db379d5e1bf586bbdb969c63274",
+    "nameTag": "Angle Protocol: USDA Token"
   },
   {
     "address": "0xc559afe7449a778a130fcf8193c7111625481bfe",
@@ -294,6 +311,10 @@
   {
     "address": "0xb86851c7f7c1b904a034f07dd819382f8afd7893",
     "nameTag": "ApeX Protocol: esApeX Token"
+  },
+  {
+    "address": "0x18719d2e1e57a1a64708e4550ff3def9d1074621",
+    "nameTag": "April: APRIL Token"
   },
   {
     "address": "0x5f006745a9a192a7cd1236089f704f9b35d3b9cd",
@@ -342,6 +363,10 @@
   {
     "address": "0x2404572eaa937c5a64c84ee597faae4c13823782",
     "nameTag": "Arbi Wiz: Awiz Token"
+  },
+  {
+    "address": "0xc45f7ee10bd015fc0f9dbb1d9c1c4695f6dac326",
+    "nameTag": "ArbiBabes: Babes Token"
   },
   {
     "address": "0xd5954c3084a1ccd70b4da011e67760b8e78aee84",
@@ -532,6 +557,14 @@
     "nameTag": "AsgardX: ODIN Token"
   },
   {
+    "address": "0xfc87753df5ef5c368b5fba8d4c5043b77e8c5b39",
+    "nameTag": "Aspida: aETH Token"
+  },
+  {
+    "address": "0xf1617882a71467534d14eee865922de1395c9e89",
+    "nameTag": "Aspida: saETH Token"
+  },
+  {
     "address": "0xd3188e0df68559c0b63361f6160c57ad88b239d8",
     "nameTag": "Astra DAO: ASTRADAO Token"
   },
@@ -562,6 +595,10 @@
   {
     "address": "0xd5da32ad4c7510457c0e46fa4332f75f6c4c4dc0",
     "nameTag": "AutoEarn: ATE Token"
+  },
+  {
+    "address": "0x064f8b858c2a603e1b106a2039f5446d32dc81c1",
+    "nameTag": "Autonolas: OLAS Token"
   },
   {
     "address": "0x5117f4ad0bc70dbb3b05bf39a1ec1ee40dd67654",
@@ -642,6 +679,10 @@
   {
     "address": "0xaafc48331db4e98fb8618ec0f3316e13b7d24486",
     "nameTag": "Base Jumper: BJ Token"
+  },
+  {
+    "address": "0xa3210cd727fe6daf8386af5623ba51a367e46263",
+    "nameTag": "Basket: BSKT Token"
   },
   {
     "address": "0x872bad41cfc8ba731f811fea8b2d0b9fd6369585",
@@ -732,6 +773,10 @@
     "nameTag": "Bonk: Bonk Token"
   },
   {
+    "address": "0x7f7d7806f4eb90d63b0b278daf32a2db2c2001bd",
+    "nameTag": "BonusBlock: BONUS Token"
+  },
+  {
     "address": "0x04e087d2ee6398375e04c7486c10bb8a2e199a6a",
     "nameTag": "Bored Arb Yacht Club: bAyc Token"
   },
@@ -774,6 +819,10 @@
   {
     "address": "0x8073600f2aba6d5fa496e3826e0b46b7ea6fe2ba",
     "nameTag": "Burnitrum: Burni Token"
+  },
+  {
+    "address": "0x847503fbf003ce8b005546aa3c03b80b7c2f9771",
+    "nameTag": "Byte: BYTE Token"
   },
   {
     "address": "0x3d9907f9a368ad0a51be60f7da3b97cf940982d8",
@@ -840,6 +889,10 @@
     "nameTag": "CatMouseWorld: RICE Token"
   },
   {
+    "address": "0x4244767db3e8bef314ffd0f3505570da3f7dc2d0",
+    "nameTag": "Cats in masks: $MASKS Token"
+  },
+  {
     "address": "0xb1cd1d319f5363ed57fce58a85055ada0e15a957",
     "nameTag": "Cats: CATS Token"
   },
@@ -888,6 +941,10 @@
     "nameTag": "Cloudbit Classic: CDBC Token"
   },
   {
+    "address": "0xa586b3b80d7e3e8d439e25fbc16bc5bcee3e2c85",
+    "nameTag": "Codyfight: CTOK Token"
+  },
+  {
     "address": "0x1debd73e752beaf79865fd6446b0c970eae7732f",
     "nameTag": "Coinbase Assets: cbETH Token"
   },
@@ -918,6 +975,10 @@
   {
     "address": "0x27c2de0ccd05b15f5ec2047ffc8b46cefde915ad",
     "nameTag": "Core DAO: COREDAO Token"
+  },
+  {
+    "address": "0xfd3b912fc1c5026a1b73d7fbc0b9bc3106b10605",
+    "nameTag": "Crab: CRAB Token"
   },
   {
     "address": "0xad7a2880e99cbd9458de20e5628c294d821791ad",
@@ -968,6 +1029,10 @@
     "nameTag": "CUDL Finance: CUDL Token"
   },
   {
+    "address": "0x498bf2b1e120fed3ad3d42ea2165e9b73f99c1e5",
+    "nameTag": "Curve.fi: crvUSD Token"
+  },
+  {
     "address": "0x2f303cb499e2e874a03dcec9e3fef01ea55a470b",
     "nameTag": "Cwin Capital: CWIN Token"
   },
@@ -1010,6 +1075,10 @@
   {
     "address": "0x9a830330f262d57903ea67a6c425bd708ce7f7ab",
     "nameTag": "DATA2073: DATA Token"
+  },
+  {
+    "address": "0x8a823dfdb9bf6e109f97fa77d790a138010fa434",
+    "nameTag": "DAU: DAU Token"
   },
   {
     "address": "0x1673e687d2d9522d0f96a774c29cdef06297a35d",
@@ -1124,6 +1193,10 @@
     "nameTag": "Divitrend: TRND Token"
   },
   {
+    "address": "0x050c24dbf1eec17babe5fc585f06116a259cc77a",
+    "nameTag": "DLC.Link: DLCBTC Token"
+  },
+  {
     "address": "0xc30113ff6f1718b73604a0223540217e96d44a3a",
     "nameTag": "DOGESHIT: DOGSHIT Token"
   },
@@ -1184,6 +1257,10 @@
     "nameTag": "DTRUMP INU: DTRUMP Token"
   },
   {
+    "address": "0xee095eb6354473e4066054c5b06c82e99fa2b96e",
+    "nameTag": "Duke of Arbitrum: DUKE Token"
+  },
+  {
     "address": "0xf0c4af5be52b52f9512d34c1af88553d25d7b802",
     "nameTag": "DYOR: DYOR Token"
   },
@@ -1216,12 +1293,28 @@
     "nameTag": "ENO: ENO Token"
   },
   {
+    "address": "0x7319c62e62cf8bdd59ff1b68bf272a30145c4daa",
+    "nameTag": "Enter The Garden:  Token"
+  },
+  {
+    "address": "0xe6195e728bf95c91e1d439505eb7fbc7f7eff799",
+    "nameTag": "Epic Level: EPV Token"
+  },
+  {
     "address": "0x87aaffdf26c6885f6010219208d5b161ec7609c0",
     "nameTag": "Equation: EQU Token"
   },
   {
     "address": "0xbfbcfe8873fe28dfa25f1099282b088d52bbad9c",
     "nameTag": "Equilibria Finance: EQB Token"
+  },
+  {
+    "address": "0xd96385447f60c8e981a8faa979b273f5a4f9fe2d",
+    "nameTag": "Era Of Explorers: EST Token"
+  },
+  {
+    "address": "0xe4838fdf04825221d825434194ec28e90f62f63e",
+    "nameTag": "ETF Rocks: ETF Token"
   },
   {
     "address": "0x1f6e4b5ffc94cca08cf6bb1479148d6329d4baf5",
@@ -1246,6 +1339,10 @@
   {
     "address": "0xa334884bf6b0a066d553d19e507315e839409e62",
     "nameTag": "Ethos Reserve Note: ERN Token"
+  },
+  {
+    "address": "0x19d854511ad7625b7f126058e2583b767ae6fbf4",
+    "nameTag": "ETHxCAT: EXCT Token"
   },
   {
     "address": "0xcf985aba4647a432e60efceeb8054bbd64244305",
@@ -1334,6 +1431,10 @@
   {
     "address": "0xe2105bea3819d3131b5b2306d44eb3271bfcfe0e",
     "nameTag": "Fief Protocol: FIEF Token"
+  },
+  {
+    "address": "0xc223c546539e7b4002065cff5b2fa67173e1e72d",
+    "nameTag": "Find: Find Token"
   },
   {
     "address": "0xc628534100180582e43271448098cb2c185795bd",
@@ -1440,8 +1541,16 @@
     "nameTag": "Frax Finance: sfrxETH Token"
   },
   {
+    "address": "0x93c2bc619b2d175d2960b8b41d8bea0ea40a8d50",
+    "nameTag": "FrozenAi: FROZE Token"
+  },
+  {
     "address": "0x2a3b32ee6b34c27ebc03fa33fd80c42ea5998434",
     "nameTag": "FTDex: FTD Token"
+  },
+  {
+    "address": "0xd7ee10047a75fa603591bce0524b8a52fef7b672",
+    "nameTag": "Fugazi Ai: FGZ Token"
   },
   {
     "address": "0xc3b2c658e89d9767b40c48166ffc9e5a5858bb69",
@@ -1474,6 +1583,10 @@
   {
     "address": "0xd3f1da62cafb7e7bc6531ff1cef6f414291f03d3",
     "nameTag": "Galleon: DBL Token"
+  },
+  {
+    "address": "0xc24a365a870821eb83fd216c9596edd89479d8d7",
+    "nameTag": "GAM3S.GG: G3 Token"
   },
   {
     "address": "0x01dc7c21d0bfcfecd310b3c9dde8819b1b2ec38b",
@@ -1572,6 +1685,10 @@
     "nameTag": "Gnosis: GNO Token"
   },
   {
+    "address": "0x9b092c17f7ff12bdfbcdf6f34d05cc948507f13d",
+    "nameTag": "Goat.Tech: GOAT Token"
+  },
+  {
     "address": "0xfd559867b6d3445f9589074c3ac46418fdfffda4",
     "nameTag": "Goblin: GOBLIN Token"
   },
@@ -1616,6 +1733,10 @@
     "nameTag": "Gravita Protocol: GRAI Token"
   },
   {
+    "address": "0xf518f2ebea5df8ca2b5e9c7996a2a25e8010014b",
+    "nameTag": "Green Chain: GREEN Token"
+  },
+  {
     "address": "0x2f27118e3d2332afb7d165140cf1bb127ea6975d",
     "nameTag": "Gridex: GDX Token"
   },
@@ -1642,6 +1763,10 @@
   {
     "address": "0xbb786be2f489dcef92fc91c76222a089e22d173c",
     "nameTag": "Gud Guess: tGG Token"
+  },
+  {
+    "address": "0xca5d8f8a8d49439357d3cf46ca2e720702f132b8",
+    "nameTag": "Gyroscope: GYD Token"
   },
   {
     "address": "0x02150e97271fdc0d6e3a16d9094a0948266f07dd",
@@ -1682,6 +1807,10 @@
   {
     "address": "0x8616e8ea83f048ab9a5ec513c9412dd2993bce3f",
     "nameTag": "handle.fi: fxUSD"
+  },
+  {
+    "address": "0x255f1b39172f65dc6406b8bee8b08155c45fe1b6",
+    "nameTag": "HarambeCoin: HARAMBE Token"
   },
   {
     "address": "0x3c2cdcf91cbb267f37d341687acb899f14a06af8",
@@ -1804,6 +1933,10 @@
     "nameTag": "HYDREN: HYDREN Token"
   },
   {
+    "address": "0xa0995d43901551601060447f9abf93ebc277cec2",
+    "nameTag": "hypeboy: HIP Token"
+  },
+  {
     "address": "0xa02f08a09d563bbd690f50d292b16e7f4ace1add",
     "nameTag": "Ibiza token: IBZ Token"
   },
@@ -1824,12 +1957,44 @@
     "nameTag": "Impossible Finance: IDIA Token"
   },
   {
+    "address": "0x67d2373f0321cd24a1b58e3c81fc1b6ef15b205c",
+    "nameTag": "Index Coop: ETH2X Token"
+  },
+  {
+    "address": "0xfa69f1e2e48b411b98a105fb693fb381764dc857",
+    "nameTag": "Index Protocol: BTC2X Token"
+  },
+  {
+    "address": "0x53765a7cf4933bc939e32fa560fff3d8e1d63473",
+    "nameTag": "Index Protocol: BTC3X Token"
+  },
+  {
+    "address": "0x9737c658272e66faad39d7ad337789ee6d54f500",
+    "nameTag": "Index Protocol: DPI Token"
+  },
+  {
     "address": "0x95b11aca35d35ac8b8a88e1f7792873bbea7cebb",
     "nameTag": "Index Protocol: dsETH Token"
   },
   {
+    "address": "0x0bef95cc308027c9a754d7674de0844ae1dcd5b1",
+    "nameTag": "Index Protocol: ETH3X Token"
+  },
+  {
+    "address": "0xcad2b03e289260ccf59209cf059778342d1cf33b",
+    "nameTag": "Index Protocol: iBTC1X Token"
+  },
+  {
     "address": "0xf6553cd90bd48ff0dc17c60baeaaf1ca325fe3b0",
     "nameTag": "Index Protocol: icETH Token"
+  },
+  {
+    "address": "0xaa61dda963d0cf89da3c13fe635c84a1b8b6b988",
+    "nameTag": "Index Protocol: iETH1X Token"
+  },
+  {
+    "address": "0x0104a6fa30540dc1d9f45d2797f05eea79304525",
+    "nameTag": "Index Protocol: MVI Token"
   },
   {
     "address": "0x941da804aa45b3272a8518d9226883e1572e525e",
@@ -1874,6 +2039,10 @@
   {
     "address": "0x6fc6dd0ced22982d6a3b3b4789de959a08563a26",
     "nameTag": "Jarvis Network: jUSD Token"
+  },
+  {
+    "address": "0x83e1d2310ade410676b1733d16e89f91822fd5c3",
+    "nameTag": "Jito Network: JitoSOL Token"
   },
   {
     "address": "0x10393c20975cf177a3513071bc110f7962cd67da",
@@ -1942,6 +2111,10 @@
   {
     "address": "0xdc7179416c08c15f689d9214a3bec2dd003deabc",
     "nameTag": "KillSwitch Finance: KSW Token"
+  },
+  {
+    "address": "0x9e30239205320b4b23c71e1b087ed2550d9971be",
+    "nameTag": "Kitty Inu: kitty Token"
   },
   {
     "address": "0xb58609ca9c91073d815067bdacd3cb2fc3beb41f",
@@ -2212,6 +2385,10 @@
     "nameTag": "Magpie WOM: mWOM Token"
   },
   {
+    "address": "0x346af1954e3d6be46b96da713a1f7fd2d1928f1d",
+    "nameTag": "MAGPIE: CKP Token"
+  },
+  {
     "address": "0xa61f74247455a40b01b0559ff6274441fafa22a3",
     "nameTag": "Magpie: MGP Token"
   },
@@ -2232,6 +2409,10 @@
     "nameTag": "Makx: aMKX Token"
   },
   {
+    "address": "0x3ed03e95dd894235090b3d4a49e0c3239edce59e",
+    "nameTag": "Malaysian Ringgit Coin: MYRC Token"
+  },
+  {
     "address": "0xc654b39265ba3c3ba18eb75f291de6bd4c029e8c",
     "nameTag": "MallowSwap: MALLOW Token"
   },
@@ -2246,6 +2427,10 @@
   {
     "address": "0xf9df075716b2d9b95616341dc6bc64c85e56645c",
     "nameTag": "Mayfair: $MAY Token"
+  },
+  {
+    "address": "0x4d01397994aa636bdcc65c9e8024bc497498c3bb",
+    "nameTag": "Mchain Network: MARK Token"
   },
   {
     "address": "0x05814372e9820c0ebdcba26d0a7c20655f4ff23f",
@@ -2270,6 +2455,10 @@
   {
     "address": "0x15a808ed3846d25e88ae868de79f1bcb1ac382b5",
     "nameTag": "Metavault DAO: MVD Token"
+  },
+  {
+    "address": "0x98b941a891bdacc51412114293a06fb8d80a08da",
+    "nameTag": "Meticulous: MET Token"
   },
   {
     "address": "0x3b60ff35d3f7f62d636b067dd0dc0dfdad670e4e",
@@ -2298,6 +2487,10 @@
   {
     "address": "0xae56c981f9bb8b07e380b209fcd1498c5876fd4c",
     "nameTag": "Mineable: 0xMT Token"
+  },
+  {
+    "address": "0x3e4ffeb394b371aaaa0998488046ca19d870d9ba",
+    "nameTag": "Mineral Token: MXTK Token"
   },
   {
     "address": "0xc4a2bcf59767afcda03f63f3bc73701f254c5327",
@@ -2350,6 +2543,10 @@
   {
     "address": "0x59d9356e565ab3a36dd77763fc0d87feaf85508c",
     "nameTag": "Mountain Protocol: USDM Token"
+  },
+  {
+    "address": "0x57f5e098cad7a3d1eed53991d4d66c45c9af7812",
+    "nameTag": "Mountain Protocol: wUSDM Token"
   },
   {
     "address": "0x20547341e58fb558637fa15379c92e11f7b7f710",
@@ -2672,8 +2869,16 @@
     "nameTag": "Nulswap: NSWAP Token"
   },
   {
+    "address": "0x7fb7ede54259cb3d4e1eaf230c7e2b1ffc951e9a",
+    "nameTag": "Numa: NUMA Token"
+  },
+  {
     "address": "0xfb9fed8cb962548a11fe7f6f282949061395c7f5",
     "nameTag": "Nuon: NUON Token"
+  },
+  {
+    "address": "0x88266f9eb705f5282a2507a9c418821a2ac9f8bd",
+    "nameTag": "Nutcash: NCASH Token"
   },
   {
     "address": "0xee9801669c6138e84bd50deb500827b776777d28",
@@ -2732,6 +2937,14 @@
     "nameTag": "Open Contracts: OPN Token"
   },
   {
+    "address": "0x221a0f68770658c15b525d0f89f5da2baab5f321",
+    "nameTag": "Open Dollar: OD Token"
+  },
+  {
+    "address": "0x000d636bd52bfc1b3a699165ef5aa340bea8939c",
+    "nameTag": "Open Dollar: ODG Token"
+  },
+  {
     "address": "0x547c669cbbf746652e19f4686716763c8dba703f",
     "nameTag": "Open Meta Trade: OMT Token"
   },
@@ -2744,6 +2957,10 @@
     "nameTag": "OpenBlox: OBX Token"
   },
   {
+    "address": "0xf84d28a8d28292842dd73d1c5f99476a80b6666a",
+    "nameTag": "OpenEden: TBILL Token"
+  },
+  {
     "address": "0xd4d026322c88c2d49942a75dff920fcfbc5614c1",
     "nameTag": "OpenLeverage: Old OLE Token"
   },
@@ -2754,6 +2971,10 @@
   {
     "address": "0x58cb98a966f62aa6f2190eb3aa03132a0c3de3d5",
     "nameTag": "OpenWorld: OPEN Token"
+  },
+  {
+    "address": "0x1473bf0eda84f41f455d852df4e8878c268b6351",
+    "nameTag": "Opulous: OPT Token"
   },
   {
     "address": "0x0c5fa0e07949f941a6c2c29a008252db1527d6ee",
@@ -2862,6 +3083,18 @@
   {
     "address": "0xbad58ed9b5f26a002ea250d7a60dc6729a4a2403",
     "nameTag": "Paribus: PBX Token"
+  },
+  {
+    "address": "0xfc675adfdd721064ba923d07a8a238a9e52d8ace",
+    "nameTag": "Parifi: esPRF Token"
+  },
+  {
+    "address": "0xe11508d3e0cf09e6fd6e94fdf41e83836d83ce50",
+    "nameTag": "Parifi: pfUSDC Token"
+  },
+  {
+    "address": "0x13a78809528b02ad5e7c42f39232d332761dfb1d",
+    "nameTag": "Parifi: pfWETH Token"
   },
   {
     "address": "0x1310952bc5594852459ee45bfd0df70b34ac5509",
@@ -3240,6 +3473,10 @@
     "nameTag": "PigsCanFly: Pork Token"
   },
   {
+    "address": "0x83e60b9f7f4db5cdb0877659b1740e73c662c55b",
+    "nameTag": "Pingu Exchange: PINGU Token"
+  },
+  {
     "address": "0xfb17d52f77db6e32b5a082ed4307fcfb0a86beee",
     "nameTag": "Pizon: PZT Token"
   },
@@ -3322,6 +3559,10 @@
   {
     "address": "0xc337208bb7ffb850a913ae26621cee5ef30bf11d",
     "nameTag": "PooChain: POOP Token"
+  },
+  {
+    "address": "0xcf934e2402a5e072928a39a956964eb8f2b5b79c",
+    "nameTag": "Pool Together: POOL Token"
   },
   {
     "address": "0x903ca00944d0b51e50d9f4fc96167c89f211542a",
@@ -3512,6 +3753,14 @@
     "nameTag": "Relay Chain: RELAY Token"
   },
   {
+    "address": "0x2416092f143378750bb29b79ed961ab195cceea5",
+    "nameTag": "Renzo Protocol : ezETH  Token"
+  },
+  {
+    "address": "0x412f4b922bb9afdc65c7e9b669f4bec6e554452a",
+    "nameTag": "RepubliK: RPK Token"
+  },
+  {
     "address": "0x9ed7e4b1bff939ad473da5e7a218c771d1569456",
     "nameTag": "Reunit Wallet: REUNI Token"
   },
@@ -3632,6 +3881,10 @@
     "nameTag": "Scattering: sRealm Token"
   },
   {
+    "address": "0x35ca1e5a9b1c09fa542fa18d1ba4d61c8edff852",
+    "nameTag": "Schrodi: SCHRODI Token"
+  },
+  {
     "address": "0x699c2d6138e15a772f4399b9d63ce0b5feaca626",
     "nameTag": "Second City Studio: CITY Token"
   },
@@ -3646,6 +3899,10 @@
   {
     "address": "0xf36a65fd3b7df848860d174115f1864e6aa2db5e",
     "nameTag": "Seneca: senUSD Token"
+  },
+  {
+    "address": "0x3124678d62d2aa1f615b54525310fbfda6dcf7ae",
+    "nameTag": "Sensay: SNSY Token"
   },
   {
     "address": "0x77194621143f0693394430953a3fedda1ec0f5b3",
@@ -3690,6 +3947,10 @@
   {
     "address": "0xb2b27a1191f4d2f4735d03ee0ead6d69ee591768",
     "nameTag": "SHE PROTOCOL: SHE Token"
+  },
+  {
+    "address": "0xe47ba52f326806559c1dec7ddd997f6957d0317d",
+    "nameTag": "Shell Protocol: SHELL Token"
   },
   {
     "address": "0x17afc249db786fc300f2d26381fec5cf0c3913fb",
@@ -3768,6 +4029,10 @@
     "nameTag": "SPACE ID .arb Name Service: SIDARB Token"
   },
   {
+    "address": "0xf0a479c9c3378638ec603b8b6b0d75903902550b",
+    "nameTag": "SpaceCatch: CATCH Token"
+  },
+  {
     "address": "0x11f98c7e42a367dab4f200d2fdc460fb445ce9a8",
     "nameTag": "SpartaDex: SPARTA Token"
   },
@@ -3836,6 +4101,18 @@
     "nameTag": "Starfish Finance: SEAN Token"
   },
   {
+    "address": "0xaa4bf442f024820b2c28cd0fd72b82c63e66f56c",
+    "nameTag": "Stargate Finance: S*FRAX Token"
+  },
+  {
+    "address": "0x600e576f9d853c95d58029093a16ee49646f3ca5",
+    "nameTag": "Stargate Finance: S*LUSD Token"
+  },
+  {
+    "address": "0xf39b7be294cb36de8c510e267b82bb588705d977",
+    "nameTag": "Stargate Finance: S*MAI Token"
+  },
+  {
     "address": "0x915a55e36a01285a14f05de6e81ed9ce89772f8e",
     "nameTag": "Stargate Finance: S*SGETH Token"
   },
@@ -3854,6 +4131,10 @@
   {
     "address": "0x6694340fc020c5e6b96567843da2df01b2ce1eb6",
     "nameTag": "Stargate Finance: STG Token"
+  },
+  {
+    "address": "0xb299751b088336e165da313c33e3195b8c6663a6",
+    "nameTag": "StarHeroes: STAR Token"
   },
   {
     "address": "0xddbfbd5dc3ba0feb96cb513b689966b2176d4c09",
@@ -3876,8 +4157,16 @@
     "nameTag": "STFX: STFX Token"
   },
   {
+    "address": "0xacc51ffdef63fb0c014c882267c3a17261a5ed50",
+    "nameTag": "Stryke: SYK Token"
+  },
+  {
     "address": "0x60f7fd9977584793961d2ef293b8cbd6b3689710",
     "nameTag": "Subsmate: SUBS Token"
+  },
+  {
+    "address": "0x1337420ded5adb9980cfc35f8f2b054ea86f8ab1",
+    "nameTag": "Subsquid: SQD Token"
   },
   {
     "address": "0x352f4bf396a7353a0877f99e99757e5d294df374",
@@ -3952,6 +4241,10 @@
     "nameTag": "Tangle: TNGL Token"
   },
   {
+    "address": "0x05cbef357cb14f9861c01f90ac7d5c90ce0ef05e",
+    "nameTag": "TaoBank: TBANK Token"
+  },
+  {
     "address": "0x6688b00f0c23a4a546beaae51a7c90c439895d48",
     "nameTag": "Tarot: TAROT Token"
   },
@@ -4020,8 +4313,16 @@
     "nameTag": "THOREUM: THOREUM Token"
   },
   {
+    "address": "0x429fed88f10285e61b12bdf00848315fbdfcc341",
+    "nameTag": "THORWallet: TGT Token"
+  },
+  {
     "address": "0x6c84a8f1c29108f47a79964b5fe888d4f4d0de40",
     "nameTag": "Threshold Network: tBTC Token"
+  },
+  {
+    "address": "0xa279301414012c53bc7b7a21788d33e244efbecc",
+    "nameTag": "Thrupenny: TPY Token"
   },
   {
     "address": "0x3a33473d7990a605a88ac72a78ad4efc40a54adb",
@@ -4032,6 +4333,10 @@
     "nameTag": "TIME Token Finance: D2 Token"
   },
   {
+    "address": "0x57685ddbc1498f7873963cee5c186c7d95d91688",
+    "nameTag": "TIME Token Finance: TUP Token"
+  },
+  {
     "address": "0x0f8f39b92776d9136408280c7209bebe4351123b",
     "nameTag": "TIME: TIME Token"
   },
@@ -4040,8 +4345,20 @@
     "nameTag": "Times SquareC: TSC Token"
   },
   {
+    "address": "0x88bc5d8043195d3362262a6f35a8e416e416fa97",
+    "nameTag": "TimeswapV2: Timeswap Token"
+  },
+  {
     "address": "0x55678cd083fcdc2947a0df635c93c838c89454a3",
     "nameTag": "Tokenlon: LON Token"
+  },
+  {
+    "address": "0xb0929fb58978acb02e34abf457e49a5ec4262fe6",
+    "nameTag": "Torque: tBTC Token"
+  },
+  {
+    "address": "0x18ab2e5ce4d0b75e6353b62085cbb6122ef8586b",
+    "nameTag": "Torque: tETH Token"
   },
   {
     "address": "0xb56c29413af8778977093b9b4947efeea7136c36",
@@ -4108,6 +4425,10 @@
     "nameTag": "Umami: cmUMAMI Token"
   },
   {
+    "address": "0x76bc2e765414e6c8b596c0f52c4240f80268f41d",
+    "nameTag": "Unibit: UIBT Token"
+  },
+  {
     "address": "0x5429706887fcb58a595677b73e9b0441c25d993d",
     "nameTag": "Unidex: UNIDX Token"
   },
@@ -4138,6 +4459,10 @@
   {
     "address": "0xb5a628803ee72d82098d4bcaf29a42e63531b441",
     "nameTag": "Unstoppable: UND Token"
+  },
+  {
+    "address": "0x1266d582f65366b7cddc40f870593e31b31d8453",
+    "nameTag": "ununx: UNX Token"
   },
   {
     "address": "0xc7d91ec2b29cd22c45c15760abc189c4e78e8036",
@@ -4284,6 +4609,10 @@
     "nameTag": "WeatherXM: WXM Token"
   },
   {
+    "address": "0x5aebac007b835cc9dc6a35ce0d1bf8fc71ce9577",
+    "nameTag": "Weave Name: WN Token"
+  },
+  {
     "address": "0x488e88db8708759c1b53deb48d9e780d80c96cd5",
     "nameTag": "Web3 WorkRoom: W3W Token"
   },
@@ -4330,6 +4659,10 @@
   {
     "address": "0x4e51ac49bc5e2d87e0ef713e9e5ab2d71ef4f336",
     "nameTag": "Wormhole: CELO Token"
+  },
+  {
+    "address": "0xb0ffa8000886e57f86dd5264b9582b2ad87b2b91",
+    "nameTag": "Wormhole: W Token"
   },
   {
     "address": "0x5979d7b546e38e414f7e9822514be443a4800529",
