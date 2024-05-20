@@ -26,11 +26,11 @@ etherscan was last modified: March 28, 2024
 
 ## Arbitrum
 
-<!-- AUTO-GENERATED-CONTENT:START (lastEdited:dataDirectory=arbitrum) -->
+<!-- AUTO-GENERATED-CONTENT:START (lastEdited:dataDirectory=arbiscan) -->
 
-arbitrum was last modified: March 28, 2024
+arbiscan was last modified:
 
-[View labels here](data/arbitrum)
+[View labels here](data/arbiscan)
 
 <!-- AUTO-GENERATED-CONTENT:END -->
 
