@@ -16,18 +16,15 @@ export class ArbitrumHtmlParser extends OptimismHtmlParser {
 
       const anchorWithDataBsTitle = $(tableCells[1]).find("a");
 
-      const address = anchorWithDataBsTitle.text();
-      if (typeof address !== "string") {
-        return;
-      }
+      const address = z.string().parse(anchorWithDataBsTitle.text());
       const tokenNameColumn = $(tableCells[2]).text().trim();
 
       let tokenName = "";
       let tokenSymbol = "";
       if (tokenNameColumn.includes("...")) {
-        const regex = /^.*\n(.*)\n\s+\((.*)\)/;
-        const match = tokenNameColumn.match(regex);
-        tokenSymbol = match?.[2] as string;
+        const tokenSymbolRegex = /.*\((.*)\)/;
+        const match = tokenNameColumn.match(tokenSymbolRegex);
+        tokenSymbol = match?.[1] as string;
         const tokenNameCell = tableCells[2];
         tokenName = z
           .string()
