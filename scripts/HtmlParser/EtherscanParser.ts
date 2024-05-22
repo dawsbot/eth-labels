@@ -1,4 +1,5 @@
 import * as cheerio from "cheerio";
+import type { Page } from "playwright";
 import type {
   AccountRow,
   AccountRows,
@@ -6,15 +7,13 @@ import type {
   TokenRows,
 } from "../AnyscanPuller";
 import { HtmlParser } from "./HtmlParser";
-import type { Page } from "playwright";
 
 export class EtherscanHtmlParser extends HtmlParser {
-
   public constructor() {
     super();
     super.setUseApiForTokenRows(true);
   }
-  
+
   public selectAllAccountAddresses(
     html: string,
     subcatId: string = "0",
@@ -60,7 +59,6 @@ export class EtherscanHtmlParser extends HtmlParser {
     await page.waitForNavigation({ timeout: 300000 });
     console.log(`✅ Login completed!`);
   }
-
 
   public selectAllTokenAddresses(html: string): TokenRows {
     const $ = cheerio.load(html);

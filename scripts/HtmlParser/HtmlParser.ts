@@ -28,7 +28,7 @@ export abstract class HtmlParser {
   public getUseApiForTokenRows(): boolean {
     return this.#useApiForTokenRows;
   }
-  
+
   public selectAllLabels = (html: string): ReadonlyArray<string> => {
     const $ = cheerio.load(html);
     const parent = $("div > div > div.row.mb-3");
@@ -68,7 +68,11 @@ export abstract class HtmlParser {
     const tokenName = `/${url.split("/").slice(3).join("/")}`;
 
     const apiParser: ApiParser = new ApiParser(baseUrl);
-    const tokenRows = await apiParser.fetchTokens(tokenName, cookiesString);
+    const tokenRows = await apiParser.fetchTokens(
+      tokenName,
+      cookiesString,
+      page,
+    );
     const sleepTime = Math.floor(Math.random() * 2000) + 1000; // Random time between 1 and 3 seconds in milliseconds
     await sleep(sleepTime);
     return tokenRows;
