@@ -20,7 +20,7 @@ function closeBrowser(browser: Browser) {
 void (async () => {
   try {
     const { browser, page } = await openBrowser();
-    const etherscanPuller = new AnyscanPuller("bscscan");
+    const etherscanPuller = new AnyscanPuller("arbiscan");
     await etherscanPuller.pullAndWriteAllAddresses(page);
     await closeBrowser(browser);
   } catch (error) {

@@ -1,0 +1,183 @@
+[
+  { "address": "0x02db1d8f4ace29ef744e5b6a96a534732ab1f922", "nameTag": "" },
+  { "address": "0x07e49d5de43dda6162fa28d24d5935c151875283", "nameTag": "" },
+  { "address": "0x0d225f671221131dba93c05bf6be5d23160b5d3b", "nameTag": "" },
+  { "address": "0x0d7d0efdcbfe5466b387e127709f24603920f671", "nameTag": "" },
+  { "address": "0x0d81e50bc677fa67341c44d7eaa9228dee64a4e1", "nameTag": "" },
+  { "address": "0x0e15258734300290a651fdbae8deb039a8e7a2fa", "nameTag": "" },
+  { "address": "0x0f61b24272af65eacf6adfe507028957698e032f", "nameTag": "" },
+  { "address": "0x11cdb42b0eb46d95f990bedd4695a6e3fa034978", "nameTag": "" },
+  { "address": "0x1d54aa7e322e02a0453c0f2fa21505ce7f2e9e93", "nameTag": "" },
+  { "address": "0x20865e63b111b2649ef829ec220536c82c58ad7b", "nameTag": "" },
+  { "address": "0x20f9628a485ebcc566622314f6e07e7ee61ff332", "nameTag": "" },
+  { "address": "0x2338a5d62e9a766289934e8d2e83a443e8065b83", "nameTag": "" },
+  { "address": "0x250f471385894fc81183a99d6fde8ce9c5b142d6", "nameTag": "" },
+  { "address": "0x2ad62674a64e698c24831faf824973c360430140", "nameTag": "" },
+  { "address": "0x2ed14d1788dfb780fd216706096aed018514eccd", "nameTag": "" },
+  { "address": "0x326c33fd1113c1f29b35b4407f3d6312a8518431", "nameTag": "" },
+  { "address": "0x3816e40c1eb106c8fb7c05f901cfd58c7292d051", "nameTag": "" },
+  { "address": "0x391457f1e5300d3ca03f1620d404796cb440c5d5", "nameTag": "" },
+  { "address": "0x3a8b787f78d775aecfeea15706d4221b40f345ab", "nameTag": "" },
+  { "address": "0x3e6648c5a70a150a88bce65f4ad4d506fe15d2af", "nameTag": "" },
+  { "address": "0x4425742f1ec8d98779690b5a3a6276db85ddc01a", "nameTag": "" },
+  { "address": "0x46d0ce7de6247b0a95f67b43b589b4041bae7fbe", "nameTag": "" },
+  { "address": "0x488cc08935458403a0458e45e20c0159c8ab2c92", "nameTag": "" },
+  { "address": "0x4d15a3a2286d883af0aa1b3f21367843fac63e07", "nameTag": "" },
+  { "address": "0x4e91f2af1ee0f84b529478f19794f5afd423e4a6", "nameTag": "" },
+  { "address": "0x4f947b40beeb9d8130437781a560e5c7d089730f", "nameTag": "" },
+  { "address": "0x5298060a95205be6dd4abc21910a4bb23d6dcd8b", "nameTag": "" },
+  { "address": "0x5298ee77a8f9e226898403ebac33e68a62f770a0", "nameTag": "" },
+  { "address": "0x52f5d9b3a2bb89d3aec5829a3415c21115acd633", "nameTag": "" },
+  { "address": "0x53236015a675fcb937485f1ae58040e4fb920d5b", "nameTag": "" },
+  { "address": "0x552e4e96a0ce6d36d161b63984848c8dac471ea2", "nameTag": "" },
+  { "address": "0x55704a0e9e2eb59e176c5b69655dbd3dcdcfc0f0", "nameTag": "" },
+  { "address": "0x55ff62567f09906a85183b866df84bf599a4bf70", "nameTag": "" },
+  { "address": "0x69eb4fa4a2fbd498c257c57ea8b7655a2559a581", "nameTag": "" },
+  { "address": "0x6e6a3d8f1affac703b1aef1f43b8d2321be40043", "nameTag": "" },
+  { "address": "0x6f67043201c903bbcbc129750cb3b328dd56a0a5", "nameTag": "" },
+  { "address": "0x6fe14d3cc2f7bddffba5cdb3bbe7467dd81ea101", "nameTag": "" },
+  { "address": "0x753d224bcf9aafacd81558c32341416df61d3dac", "nameTag": "" },
+  { "address": "0x75c9bc761d88f70156daf83aa010e84680baf131", "nameTag": "" },
+  { "address": "0x7ba4a00d54a07461d9db2aef539e91409943adc9", "nameTag": "" },
+  { "address": "0x7cb16cb78ea464ad35c8a50abf95dff3c9e09d5d", "nameTag": "" },
+  { "address": "0x8038f3c971414fd1fc220ba727f2d4a0fc98cb65", "nameTag": "" },
+  { "address": "0x82155ab6b6c1113cfb352c7573b010a88f5974bd", "nameTag": "" },
+  { "address": "0x82e3a8f066a6989666b031d916c43672085b1582", "nameTag": "" },
+  { "address": "0x8d1c89dcf613e3e709afe9abecae591d0e2b64ca", "nameTag": "" },
+  { "address": "0x965772e0e9c84b6f359c8597c891108dcf1c5b1a", "nameTag": "" },
+  { "address": "0x969131d8ddc06c2be11a13e6e7facf22cf57d95e", "nameTag": "" },
+  { "address": "0x9892bc2df882275958c56827acdf98be4be57e9b", "nameTag": "" },
+  { "address": "0x989d099d29f62b839c8cbd41c82c6554a5515752", "nameTag": "" },
+  { "address": "0x995c235521820f2637303ca1970c7c044583df44", "nameTag": "" },
+  { "address": "0x99f40b01ba9c469193b360f72740e416b17ac332", "nameTag": "" },
+  { "address": "0x9ab3fd50fcae73a1aeda959468fd0d662c881b42", "nameTag": "" },
+  { "address": "0x9b3fa2a7c3eb36d048a5d38d81e7fafc6bc47b25", "nameTag": "" },
+  { "address": "0x9c67ee39e3c4954396b9142010653f17257dd39c", "nameTag": "" },
+  { "address": "0x9d95795f33bc541620d073c2511ddfb95145aa41", "nameTag": "" },
+  { "address": "0xa0459edcad5aac14dc32775d22ff7bd33027cac7", "nameTag": "" },
+  { "address": "0xa5ec9d64b64b8b9e94feaa7538c084b38117e7ba", "nameTag": "" },
+  { "address": "0xa72159fc390f0e3c6d415e658264c7c4051e9b87", "nameTag": "" },
+  { "address": "0xa970af1a584579b618be4d69ad6f73459d112f95", "nameTag": "" },
+  { "address": "0xaaa62d9584cbe8e4d68a43ec91bff4ff1fadb202", "nameTag": "" },
+  { "address": "0xac9ac2c17cdfed4abc80a53c5553388575714d03", "nameTag": "" },
+  { "address": "0xae6e3540e97b0b9ea8797b157b510e133afb6282", "nameTag": "" },
+  { "address": "0xaef5bbcbfa438519a5ea80b4c7181b4e78d419f2", "nameTag": "" },
+  { "address": "0xb965029343d55189c25a7f3e0c9394dc0f5d41b1", "nameTag": "" },
+  { "address": "0xba9a5dd807c9f072850be15a52df3408ba25fd18", "nameTag": "" },
+  { "address": "0xbdef0e9ef12e689f366fe494a7a7d0dad25d9286", "nameTag": "" },
+  { "address": "0xbfa641051ba0a0ad1b0acf549a89536a0d76472e", "nameTag": "" },
+  { "address": "0xc3ae0333f0f34aa734d5493276223d95b8f9cb37", "nameTag": "" },
+  { "address": "0xc9c2b86cd4cdbab70cd65d22eb044574c3539f6c", "nameTag": "" },
+  { "address": "0xcd0bb43a0d0497db701c9147588a12666155010a", "nameTag": "" },
+  { "address": "0xcd14c3a2ba27819b352aae73414a26e2b366dc50", "nameTag": "" },
+  { "address": "0xce32aa8d60807182c0003ef9cc1976fa10e5d312", "nameTag": "" },
+  { "address": "0xd44e8f8768d4ed25119921a53802d8758a5b20dd", "nameTag": "" },
+  { "address": "0xd5d3aa404d7562d09a848f96a8a8d5d65977bf90", "nameTag": "" },
+  { "address": "0xde903e2712288a1da82942dddf2c20529565ac30", "nameTag": "" },
+  { "address": "0xdeba25af35e4097146d7629055e0ec3c71706324", "nameTag": "" },
+  { "address": "0xe212f5e733257ed5628a2febcedbc9222e535f51", "nameTag": "" },
+  { "address": "0xe71db7a96dab25cdb9f4cbc7f686da02192b0e88", "nameTag": "" },
+  { "address": "0xea986d33ef8a20a96120ecc44dbdd49830192043", "nameTag": "" },
+  { "address": "0xeb4f5c48cfe3795d4a1cf52aaee76a10d422dae1", "nameTag": "" },
+  { "address": "0xef888bca6ab6b1d26dbec977c455388ecd794794", "nameTag": "" },
+  { "address": "0xf4d48ce3ee1ac3651998971541badbb9a14d7234", "nameTag": "" },
+  { "address": "0xf80d589b3dbe130c270a69f1a69d050f268786df", "nameTag": "" },
+  { "address": "0xfa51b42d4c9ea35f1758828226aaedbec50dd54e", "nameTag": "" },
+  { "address": "0xfea31d704deb0975da8e77bf13e04239e70d7c28", "nameTag": "" },
+  {
+    "address": "0xff970a61a04b1ca14834a43f5de4533ebddb5cc8",
+    "nameTag": "Arbitrum: USDC Token"
+  },
+  {
+    "address": "0x031d35296154279dc1984dcd93e392b1f946737b",
+    "nameTag": "CAP: CAP Token"
+  },
+  {
+    "address": "0xf97f4df75117a78c1a5a0dbb814af92458539fb4",
+    "nameTag": "Chainlink: LINK Token"
+  },
+  {
+    "address": "0x354a6da3fcde098f8389cad84b0182725c6c91de",
+    "nameTag": "Compound: COMP Token"
+  },
+  {
+    "address": "0x91f5dc90979b058eba3be6b7b7e523df7e84e137",
+    "nameTag": "Dev Protocol: DEV Token"
+  },
+  {
+    "address": "0xa7aa2921618e3d63da433829d448b58c9445a4c3",
+    "nameTag": "DeversiFi: DVF Token"
+  },
+  {
+    "address": "0xae6aab43c4f3e0cea4ab83752c278f8debaba689",
+    "nameTag": "dForce: DF Token"
+  },
+  {
+    "address": "0x3cd1833ce959e087d0ef0cb45ed06bffe60f23ba",
+    "nameTag": "Farmland: LAND Token"
+  },
+  {
+    "address": "0xa0b862f60edef4452f25b4160f177db44deb6cf1",
+    "nameTag": "Gnosis: GNO Token"
+  },
+  {
+    "address": "0xda10009cbd5d07dd0cecc66161fc93d7c9000da1",
+    "nameTag": "Maker DAO: DAI Token"
+  },
+  {
+    "address": "0x4e352cf164e64adcbad318c3a1e222e9eba4ce42",
+    "nameTag": "MUX Protocol: MCB Token"
+  },
+  {
+    "address": "0x68ead55c258d6fa5e46d67fc90f53211eab885be",
+    "nameTag": "Popcorn: POP Token"
+  },
+  {
+    "address": "0x51fc0f6660482ea73330e414efd7808811a57fa2",
+    "nameTag": "Premia: PREMIA Token"
+  },
+  {
+    "address": "0xec70dcb4a1efa46b8f2d97c310c9c4790ba5ffa8",
+    "nameTag": "Rocket Pool: rETH Token"
+  },
+  {
+    "address": "0xb766039cc6db368759c1e56b79affe831d0cc507",
+    "nameTag": "Rocket Pool: RPL Token"
+  },
+  {
+    "address": "0xd4d42f0b6def4ce0383636770ef773390d85c61a",
+    "nameTag": "SushiSwap: SushiToken"
+  },
+  {
+    "address": "0xfd086bc7cd5c481dcc9c85ebe478a1c0b69fcbb9",
+    "nameTag": "Tether: USDT Token"
+  },
+  {
+    "address": "0x9623063377ad1b27544c965ccd7342f7ea7e88c7",
+    "nameTag": "The Graph: GRT Token"
+  },
+  {
+    "address": "0x539bde0d7dbd336b79148aa742883198bbf60342",
+    "nameTag": "Treasure DAO: Magic Token"
+  },
+  {
+    "address": "0xfa7f8980b0f1e64a2062791cc3b0871572f1f7f0",
+    "nameTag": "Uniswap Protocol: UNI Token"
+  },
+  {
+    "address": "0xcafcd85d8ca7ad1e1c6f82f651fa15e33aefd07b",
+    "nameTag": "Woo: WOO Token"
+  },
+  {
+    "address": "0x2f2a2543b76a4166549f7aab2e75bef0aefc5b0f",
+    "nameTag": "Wrapped BTC: WBTC Token"
+  },
+  {
+    "address": "0x82af49447d8a07e3bd95bd0d56f35241523fbab1",
+    "nameTag": "Wrapped Ether"
+  },
+  {
+    "address": "0xf0a5717ec0883ee56438932b0fe4a20822735fba",
+    "nameTag": "xToken: XTK Token"
+  }
+]
