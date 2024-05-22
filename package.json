@@ -12,7 +12,7 @@
   ],
   "scripts": {
     "vitest": "vitest",
-    "test": "concurrently -n \"eslint,vitest,build\" -c \"#341BAB,#A6CC66,#3077C6\" \"npm run lint\" \"npm run vitest -- --run\" \"npm run build\"",
+    "test": "concurrently -g -n \"eslint,vitest,build\" -c \"#341BAB,#A6CC66,#3077C6\" \"npm run lint\" \"npm run vitest -- --run\" \"npm run build\"",
     "lint": "eslint . --fix --cache",
     "combine-data": "npx tsx scripts/combine.ts && git add \"data/*/*/combined.json\" && npm run markdown-magic",
     "build": "rm -rf lib && npm run compile",
