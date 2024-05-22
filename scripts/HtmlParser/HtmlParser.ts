@@ -21,6 +21,14 @@ export abstract class HtmlParser {
    * );
    * ```
    */
+  #useApiForTokenRows: boolean = false;
+  public setUseApiForTokenRows(useApiForTokenRows: boolean): void {
+    this.#useApiForTokenRows = useApiForTokenRows;
+  }
+  public getUseApiForTokenRows(): boolean {
+    return this.#useApiForTokenRows;
+  }
+  
   public selectAllLabels = (html: string): ReadonlyArray<string> => {
     const $ = cheerio.load(html);
     const parent = $("div > div > div.row.mb-3");
