@@ -28,7 +28,7 @@ etherscan was last modified: May 22, 2024
 
 <!-- AUTO-GENERATED-CONTENT:START (lastEdited:dataDirectory=arbiscan) -->
 
-arbiscan was last modified:
+arbiscan was last modified: May 22, 2024
 
 [View labels here](data/arbiscan)
 
