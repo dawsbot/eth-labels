@@ -88,16 +88,16 @@
     "nameTag": "KuCoin 9"
   },
   {
-    "address": "0x2602669a92fccf44e5319ff51b0f453aab9db021",
-    "nameTag": "KuCoin Contract"
-  },
-  {
     "address": "0xf2b16510270a214130c6b17ff0e9bf87585126bd",
     "nameTag": "KuCoin: Deployer"
   },
   {
     "address": "0x061f7937b7b2bc7596539959804f86538b6368dc",
     "nameTag": "KuCoin: Deposit Funder"
+  },
+  {
+    "address": "0x2602669a92fccf44e5319ff51b0f453aab9db021",
+    "nameTag": "KuCoin: Deposit Funder 2"
   },
   {
     "address": "0xd91efec7e42f80156d1d9f660a69847188950747",

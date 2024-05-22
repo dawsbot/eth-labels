@@ -113,6 +113,10 @@
     "nameTag": "OKX: Deposit Funder"
   },
   {
+    "address": "0x24c654f6b143dc5cae3c02fbb527ca63aa555dbc",
+    "nameTag": "OKX: Deposit Funder 10"
+  },
+  {
     "address": "0x4a8f1f5b2a3652131eac54a6f183a4a2cf44a9a6",
     "nameTag": "OKX: Deposit Funder 2"
   },
@@ -123,10 +127,6 @@
   {
     "address": "0xaad8ad7dfa05bc354e011890dd61636842c2cb96",
     "nameTag": "OKX: Deposit Funder 4"
-  },
-  {
-    "address": "0x24c654f6b143dc5cae3c02fbb527ca63aa555dbc",
-    "nameTag": "OKX: Deposit Supplier"
   },
   {
     "address": "0x75231f58b43240c9718dd58b4967c5114342a86c",

@@ -210,6 +210,10 @@
     "nameTag": "Aluna.Social: Old ALN Token"
   },
   {
+    "address": "0xb893a8049f250b57efa8c62d51527a22404d7c9a",
+    "nameTag": "American Shiba: Old USHIBA Token"
+  },
+  {
     "address": "0xe3b37b6a88df57acc55ac920200354e416ddc27c",
     "nameTag": "AmongUs Finance: Old AUF Token 2"
   },
@@ -742,6 +746,10 @@
     "nameTag": "Caacon: Old CC Token"
   },
   {
+    "address": "0x597981eac8a293054a1826c7b60cbf92972a36c1",
+    "nameTag": "Caacon: Old CC Token 2"
+  },
+  {
     "address": "0x7600bf5112945f9f006c216d5d6db0df2806edc6",
     "nameTag": "Caelum: Old Token"
   },
@@ -832,6 +840,10 @@
   {
     "address": "0x3b73c1b2ea59835cbfcadade5462b6ab630d9890",
     "nameTag": "ChainSwap: Old TOKEN Token"
+  },
+  {
+    "address": "0xee3200f94a1a2345e6cc486032a5df1d50cb621c",
+    "nameTag": "ChartAI: Old CX Token"
   },
   {
     "address": "0x1dcf92bfa88082d1c5fe57e93df21aa82396cf5a",
@@ -1060,6 +1072,14 @@
   {
     "address": "0xf66493f8a7c25b272c6d56ae8f55f0b7668b10a7",
     "nameTag": "CryptoZen: Old NINJA Token"
+  },
+  {
+    "address": "0xf56b164efd3cfc02ba739b719b6526a6fa1ca32a",
+    "nameTag": "CurioInvest: Old CGT Token"
+  },
+  {
+    "address": "0x13339fd07934cd674269726edf3b5ccee9dd93de",
+    "nameTag": "CurioInvest: Old CUR Token"
   },
   {
     "address": "0x2e60cf74d81ac34eb21eeff58db4d385920ef419",
@@ -1296,6 +1316,10 @@
   {
     "address": "0xbc4171f45ef0ef66e76f979df021a34b46dcc81d",
     "nameTag": "Dora Factory: Old DORA Token"
+  },
+  {
+    "address": "0x24ec2ca132abf8f6f8a6e24a1b97943e31f256a7",
+    "nameTag": "dotmoovs: Old MOOV Token"
   },
   {
     "address": "0x3aca71c508e06dc6b2758dab6eb20f7654572fb7",
@@ -1622,6 +1646,10 @@
     "nameTag": "EURT:undefined"
   },
   {
+    "address": "0x29d578cec46b50fa5c88a99c6a4b70184c062953",
+    "nameTag": "Everscale: Old WEVER Token"
+  },
+  {
     "address": "0x69d1ff85004a445a892dfbd88df00d48fb0af638",
     "nameTag": "EveryApe: Old EVAPE Token"
   },
@@ -1858,6 +1886,14 @@
     "nameTag": "GeraCoin: Old GERA Token"
   },
   {
+    "address": "0x8a854288a5976036a725879164ca3e91d30c6a1b",
+    "nameTag": "GET Protocol: Old GET Token"
+  },
+  {
+    "address": "0x3e49e9c890cd5b015a18ed76e7a4093f569f1a04",
+    "nameTag": "GET Protocol: Old Staking"
+  },
+  {
     "address": "0x96d8fbf95f72f5abe9ef04f1ade94e1ba79be508",
     "nameTag": "Giftz: Old Token"
   },
@@ -1892,6 +1928,10 @@
   {
     "address": "0x287609a15a683640a5bbc4d93d4d5f4ed6bad3a0",
     "nameTag": "GLOBRIDGE: Old PICK Token"
+  },
+  {
+    "address": "0xbc7250c8c3eca1dfc1728620af835fca489bfdf3",
+    "nameTag": "gm: Old GM Token"
   },
   {
     "address": "0x1d464ac5e046e5fe280c9588edf8eb681b07008f",
@@ -2650,6 +2690,10 @@
     "nameTag": "MANTRA DAO: Old OM Token"
   },
   {
+    "address": "0x9e976f211daea0d652912ab99b0dc21a7fd728e4",
+    "nameTag": "MAP Protocol: Old MAP Token"
+  },
+  {
     "address": "0x06b05ce580df7ae8cbba7e12438428e4e34e61d7",
     "nameTag": "Market Protocol: Old Token"
   },
@@ -2774,6 +2818,14 @@
     "nameTag": "MeteoriaNFT: Old MTO Token"
   },
   {
+    "address": "0xd35e07be55790484dc5ed7a9a54f5a94d720e476",
+    "nameTag": "Meteorite Finance: Old HOBA Token"
+  },
+  {
+    "address": "0x34f57282e9dc31da36940e540e072f781b9db9c3",
+    "nameTag": "Meteorite Finance: Old METEOR Token"
+  },
+  {
     "address": "0xfde4d126c4a0310fe25affa80528d60132fea071",
     "nameTag": "Metroxynth: Old MXH Token"
   },
@@ -2796,6 +2848,10 @@
   {
     "address": "0x717376111a6f1572cf14aa2a236ec9e743b4b2e7",
     "nameTag": "MinePlex: Old PLEX Token"
+  },
+  {
+    "address": "0x9e54b485f2e2a891b0ad6b0b8069e5115efbad69",
+    "nameTag": "Mineral Token: Old MXTK Token"
   },
   {
     "address": "0x1a95b271b0535d15fa49932daba31ba612b52946",
@@ -2890,6 +2946,10 @@
     "nameTag": "mStable: Old Savings Manager 1.0"
   },
   {
+    "address": "0xa49d7499271ae71cd8ab9ac515e6694c755d400c",
+    "nameTag": "Mute: Old MUTE Token"
+  },
+  {
     "address": "0x94298f1e0ab2dfad6eeffb1426846a3c29d98090",
     "nameTag": "MyBit: Old Token"
   },
@@ -2972,6 +3032,10 @@
   {
     "address": "0x5c6183d10a00cd747a6dbb5f658ad514383e9419",
     "nameTag": "Nexxus Coin: Old Token"
+  },
+  {
+    "address": "0x8eecaad83a1ea77bd88a818d4628fafc4cad7969",
+    "nameTag": "NFAi: Old NFAi Token"
   },
   {
     "address": "0x0f9b80fc3c8b9123d0aef43df58ebdbc034a8901",
@@ -3126,6 +3190,10 @@
     "nameTag": "PARSIQ: Old PRQ Token"
   },
   {
+    "address": "0xaecc217a749c2405b5ebc9857a16d58bdc1c367f",
+    "nameTag": "Pawthereum: Old PAWTH Token"
+  },
+  {
     "address": "0x1fe72034da777ef22533eaa6dd7cbe1d80be50fa",
     "nameTag": "PayAccept: Old PAY Token"
   },
@@ -3236,6 +3304,10 @@
   {
     "address": "0x61b5c3aee3a25f6f83531d548a4d2ee58450f5d9",
     "nameTag": "Probably Nothing: Old PN Token"
+  },
+  {
+    "address": "0x3b798f65e12f54fef9b2ce198c5a027e841641a7",
+    "nameTag": "ProductShare: Old PSS Token"
   },
   {
     "address": "0xd806c5d1b820c352196c70cb672cbff8cb3d9778",
@@ -3424,6 +3496,10 @@
   {
     "address": "0x38a40d9cb9a4122f69a42c3f7bdf455dd9123753",
     "nameTag": "Rocket Vault: Old RVF Token"
+  },
+  {
+    "address": "0xdc8af07a7861bedd104b8093ae3e9376fc8596d2",
+    "nameTag": "Rocket Vault: Old RVF Token 2"
   },
   {
     "address": "0x19b1ebed784a86ed33c421c359a6ef4a49154a39",
@@ -3718,6 +3794,10 @@
     "nameTag": "STATUS: Old STATUS Token 2"
   },
   {
+    "address": "0x30c81d711253cf61804bc86d223051cb960d5878",
+    "nameTag": "StellaryAI: Old stelAI Token"
+  },
+  {
     "address": "0xae5652ea226bfae00b8d542e58231362af836fda",
     "nameTag": "STeX Exchange: Old Token"
   },
@@ -3732,6 +3812,10 @@
   {
     "address": "0xbe9375c6a420d2eeb258962efb95551a5b722803",
     "nameTag": "StormX Global: Old STMX Token"
+  },
+  {
+    "address": "0x9186d4e828b286b077253fb685dd9b8657533468",
+    "nameTag": "Streamer Inu: Old STRM Token"
   },
   {
     "address": "0x611171923b84185e9328827cfaae6630481ecc7a",

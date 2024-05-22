@@ -169,6 +169,22 @@
     "nameTag": "Aave: aETH Token"
   },
   {
+    "address": "0xb82fa9f31612989525992fcfbb09ab22eff5c85a",
+    "nameTag": "Aave: aEthcrvUSD Token"
+  },
+  {
+    "address": "0x82f9c5ad306bba1ad0de49bb5fa6f01bf61085ef",
+    "nameTag": "Aave: aEthFXS Token"
+  },
+  {
+    "address": "0x0c0d01abf3e6adfca0989ebba9d6e85dd58eab1e",
+    "nameTag": "Aave: aEthPYUSD Token"
+  },
+  {
+    "address": "0xbdfa7b7893081b35fb54027489e2bc7a38275129",
+    "nameTag": "Aave: aEthweETH Token"
+  },
+  {
     "address": "0xd37ee7e4f452c6638c96536e68090de8cbcdb583",
     "nameTag": "Aave: aGUSD Token V2"
   },
@@ -383,6 +399,10 @@
   {
     "address": "0x2fbb0c60a41cb7ea5323071624dcead3d213d0fa",
     "nameTag": "Aave: Deployer 2"
+  },
+  {
+    "address": "0x86c5d9efb1377dba0535cf944bd6f5736c4290cb",
+    "nameTag": "Aave: Deployer 23"
   },
   {
     "address": "0x51f22ac850d29c879367a77d241734acb276b815",

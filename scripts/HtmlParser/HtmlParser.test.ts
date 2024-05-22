@@ -25,8 +25,44 @@ const etherscanMocks = getMocks(etherscanDirectory);
 const optimismMocks = getMocks(optimismDirectory);
 const celoMocks = getMocks(celoDirectory);
 const bscscanMocks = getMocks(bscscanDirectory);
-const arbiscanMocks = getMocks(arbiscanDirectory);
 const gnosisMocks = getMocks(gnosisDirectory);
+const arbiscanMocks = getMocks(arbiscanDirectory);
+
+describe("gnosis", () => {
+  const htmlParser = scanConfig.gnosis.htmlParser;
+  test("should parse labelcloud", () => {
+    const allLabels = htmlParser.selectAllLabels(
+      gnosisMocks.mockLabelCloudHtml,
+    );
+
+    expect(allLabels).toHaveLength(64);
+    expect(allLabels[0]).toBe(`/accounts/label/aave?size=10000`);
+  });
+  test("should parse account addresses", () => {
+    const accountRows = htmlParser.selectAllAccountAddresses(
+      gnosisMocks.mockAccountsHtml,
+    );
+
+    expect(accountRows).toHaveLength(2);
+    expect(accountRows).toContainEqual({
+      address: "0x9a1f491b86d09fc1484b5fab10041b189b60756b",
+      nameTag: "Aave: Payloads Controller",
+    });
+  });
+  test("should parse token addresses", () => {
+    const tokenRows = htmlParser.selectAllTokenAddresses(
+      gnosisMocks.mockTokensHtml,
+    );
+
+    expect(tokenRows).toHaveLength(7);
+    expect(tokenRows).toContainEqual({
+      address: "0x7a5c3860a77a8dc1b225bd46d0fb2ac1c6d191bc",
+      tokenName: "Aave Gnosis sDAI",
+      tokenSymbol: "aGnosDAI",
+      website: "https://aave.com/",
+    });
+  });
+});
 
 describe("gnosis", () => {
   const htmlParser = scanConfig.gnosis.htmlParser;
@@ -301,6 +337,7 @@ describe("etherscan", () => {
       tokenName: "Maker",
       tokenSymbol: "MKR",
       website: "https://makerdao.com/",
+      tokenImage: "/token/images/mkr-etherscan-35.png",
     });
   });
 

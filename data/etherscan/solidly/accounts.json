@@ -4,6 +4,10 @@
     "nameTag": "Solidly V3: AI"
   },
   {
+    "address": "0x9987dce4f9093dde8041ab6a9c04fc6c19ea57d1",
+    "nameTag": "Solidly V3: ASHBIE"
+  },
+  {
     "address": "0x51fdecc9511938674a82a8ba6963448554564a8c",
     "nameTag": "Solidly V3: BYTE"
   },
@@ -22,6 +26,10 @@
   {
     "address": "0xd61ab9b22148a7b09af060b18576d6e220d81356",
     "nameTag": "Solidly V3: FTM"
+  },
+  {
+    "address": "0xff64b25c46114242aef2a3c55788faef2024075a",
+    "nameTag": "Solidly V3: HACHI"
   },
   {
     "address": "0x3510e96226894fabc37d1eb0e3122e33791da225",
