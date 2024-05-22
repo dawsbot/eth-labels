@@ -1,3 +1,4 @@
+import { ArbitrumHtmlParser } from "./HtmlParser/ArbitrumHtmlParser";
 import { BscscanHtmlParser } from "./HtmlParser/BscscanHtmlParser";
 import { CeloScanParser } from "./HtmlParser/CeloScanParser";
 import { EtherscanHtmlParser } from "./HtmlParser/EtherscanParser";
@@ -16,9 +17,9 @@ export const scanConfig = {
     website: "https://optimistic.etherscan.io",
     htmlParser: new OptimismHtmlParser(),
   },
-  arbitrum: {
+  arbiscan: {
     website: "https://arbiscan.io",
-    htmlParser: new OptimismHtmlParser(),
+    htmlParser: new ArbitrumHtmlParser(),
   },
   celo: {
     website: "https://celoscan.io",
