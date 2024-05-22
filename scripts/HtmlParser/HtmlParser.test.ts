@@ -238,7 +238,7 @@ describe("etherscan", () => {
       nameTag: "AmadeusRelay",
     });
   });
-  test.only("should parse token addresses", () => {
+  test("should parse token addresses", () => {
     const tokenRows = htmlParser.selectAllTokenAddresses(
       etherscanMocks.mockTokensHtml,
     );
@@ -249,7 +249,7 @@ describe("etherscan", () => {
       tokenName: "Maker",
       tokenSymbol: "MKR",
       website: "https://makerdao.com/",
-      tokenImage: "https://etherscan.io/token/images/mkr-etherscan-35.png"
+      tokenImage: "/token/images/mkr-etherscan-35.png",
     });
   });
 

@@ -96,6 +96,10 @@
     "nameTag": "Index Protocol: Flash Mint Leveraged v2"
   },
   {
+    "address": "0xc4506022fb8090774e8a628d5084eed61d9b99ee",
+    "nameTag": "Index Protocol: hyETH Token"
+  },
+  {
     "address": "0x7c07f7abe10ce8e33dc6c5ad68fe033085256a84",
     "nameTag": "Index Protocol: icETH Token"
   },

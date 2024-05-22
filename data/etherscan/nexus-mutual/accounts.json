@@ -80,6 +80,10 @@
     "nameTag": "Nexus Mutual: Membership Proxy"
   },
   {
+    "address": "0xcafea54f03e1cc036653444e581a10a43b2487cd",
+    "nameTag": "Nexus Mutual: NXM Minter"
+  },
+  {
     "address": "0xd7c49cee7e9188cca6ad8ff264c1da2e69d4cf3b",
     "nameTag": "Nexus Mutual: NXM Token"
   },

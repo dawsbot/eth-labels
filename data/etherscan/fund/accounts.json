@@ -254,10 +254,6 @@
     "nameTag": "Fund: 0xef9...336"
   },
   {
-    "address": "0xf1556137e7f45817e774096c5922f32c68ab15ae",
-    "nameTag": "Fund: 0xf15...5ae"
-  },
-  {
     "address": "0xfa9b5f7fdc8ab34aaf3099889475d47febf830d7",
     "nameTag": "Fund: 0xfa9...0d7"
   },
@@ -279,7 +275,7 @@
   },
   {
     "address": "0x5ba33e59528404daca7319ca186b0e000a55551e",
-    "nameTag": "HashKey: 0x5bA...51E"
+    "nameTag": "HashKey 1"
   },
   {
     "address": "0x9d9588c082634fd4c7f54cb0243d6792cfd7b4c4",
@@ -344,6 +340,14 @@
   {
     "address": "0x085af684acdb1220d111fee971b733c5e5ae6ccd",
     "nameTag": "Three Arrows Capital: Binance Deposit"
+  },
+  {
+    "address": "0xa59b29d7dbc9794d1e7f45123c48b2b8d0a34636",
+    "nameTag": "UNICEF France"
+  },
+  {
+    "address": "0xb1be5e4c68b16c5b434b24d55c252e5852f7aa29",
+    "nameTag": "UNICEF HQ"
   },
   {
     "address": "0xdbf5e9c5206d0db70a90108bf936da60221dc080",

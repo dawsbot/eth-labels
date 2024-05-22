@@ -192,6 +192,10 @@
     "nameTag": "Chainlink: cbETH/USD Price Feed"
   },
   {
+    "address": "0x80226fc0ee2b096224eeac085bb9a8cba1146f7d",
+    "nameTag": "Chainlink: CCIP Router"
+  },
+  {
     "address": "0x75fbd83b4bd51dee765b2a01e8d3aa1b020f9d33",
     "nameTag": "Chainlink: CEL/ETH Price Feed"
   },
@@ -954,6 +958,10 @@
   {
     "address": "0xec8761a0a73c34329ca5b1d3dc7ed07f30e836e2",
     "nameTag": "Chainlink: Total Marketcap/USD Price Feed"
+  },
+  {
+    "address": "0x66598216d8e4d9afe0f06d525b335b762229842f",
+    "nameTag": "Chainlink: Transporter"
   },
   {
     "address": "0x84a24deca415acc0c395872a9e6a63e27d6225c8",

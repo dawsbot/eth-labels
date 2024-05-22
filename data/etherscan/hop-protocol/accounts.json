@@ -48,6 +48,10 @@
     "nameTag": "Hop Protocol: HOP Bridge"
   },
   {
+    "address": "0xf074540eb83c86211f305e145eb31743e228e57d",
+    "nameTag": "Hop Protocol: MAGIC Bridge"
+  },
+  {
     "address": "0xd8781ca9163e9f132a4d8392332e64115688013a",
     "nameTag": "Hop Protocol: Matic Bonder"
   },

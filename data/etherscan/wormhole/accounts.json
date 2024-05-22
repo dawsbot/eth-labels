@@ -1,5 +1,4 @@
 [
-  { "address": "0xe3adaa4fb7c92ab833ee08b3561d9c434aa2a3ee", "nameTag": "" },
   {
     "address": "0xb9f747162ab1e95d07361f9048bcdf6edda9eea7",
     "nameTag": "Wormhole: ATLAS Token"
@@ -25,6 +24,10 @@
     "nameTag": "Wormhole: SOL Token"
   },
   {
+    "address": "0xe3adaa4fb7c92ab833ee08b3561d9c434aa2a3ee",
+    "nameTag": "Wormhole: SRM"
+  },
+  {
     "address": "0x7cd167b101d2808cfd2c45d17b2e7ea9f46b74b6",
     "nameTag": "Wormhole: USDCbs Token"
   },
@@ -37,12 +40,12 @@
     "nameTag": "Wormhole: USDCso Token"
   },
   {
-    "address": "0xde60adfddaabaaac3dafa57b26acc91cb63728c4",
-    "nameTag": "Wormhole: USDTbs Token"
+    "address": "0x1cdd2eab61112697626f7b4bb0e23da4febf7b7c",
+    "nameTag": "Wormhole: USDT Token"
   },
   {
-    "address": "0x1cdd2eab61112697626f7b4bb0e23da4febf7b7c",
-    "nameTag": "Wormhole: USDTso Token"
+    "address": "0xde60adfddaabaaac3dafa57b26acc91cb63728c4",
+    "nameTag": "Wormhole: USDTbs Token"
   },
   {
     "address": "0xa693b19d2931d498c5b318df961919bb4aee87a5",
