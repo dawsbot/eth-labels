@@ -33,6 +33,7 @@ export type TokenRow = {
   tokenName: string;
   tokenSymbol: string;
   website: string;
+  tokenImage?: string;
 };
 export type AccountRows = Array<AccountRow>;
 export type TokenRows = Array<TokenRow>;
@@ -42,7 +43,7 @@ const bar1: SingleBar = new cliProgress.SingleBar(
 );
 
 export class AnyscanPuller {
-  #baseUrl: string;
+  protected baseUrl: string;
   #directoryName: string;
   #htmlParser: HtmlParser;
   /**
@@ -51,14 +52,14 @@ export class AnyscanPuller {
    */
   public constructor(directoryName: keyof typeof scanConfig) {
     const baseUrl: string = scanConfig[directoryName].website;
-    this.#baseUrl = z.string().url().startsWith("https://").parse(baseUrl);
+    this.baseUrl = z.string().url().startsWith("https://").parse(baseUrl);
     const filenameRegex = /^[a-z0-9_\-.]+$/;
     this.#directoryName = z.string().regex(filenameRegex).parse(directoryName);
     this.#htmlParser = scanConfig[directoryName].htmlParser;
   }
 
   #fetchAllLabels = async (page: Page): Promise<AllLabels> => {
-    const PAGE_URL = `${this.#baseUrl}/labelcloud`;
+    const PAGE_URL = `${this.baseUrl}/labelcloud`;
 
     const labelCloudHtml = await this.#fetchPageHtml(
       PAGE_URL,
@@ -71,7 +72,7 @@ export class AnyscanPuller {
       .parse(
         this.#htmlParser
           .selectAllLabels(labelCloudHtml)
-          .map((anchor) => `${this.#baseUrl}${anchor}`),
+          .map((anchor) => `${this.baseUrl}${anchor}`),
       );
     const allLabels: AllLabels = { accounts: [], tokens: [], blocks: [] };
     allAnchors.forEach((url) => {
@@ -114,7 +115,7 @@ export class AnyscanPuller {
    * Enters a username and password, but submit is not automated so that operator can submit captcha.
    */
   async #login(page: Page) {
-    await page.goto(`${this.#baseUrl}/login`);
+    await page.goto(`${this.baseUrl}/login`);
     await page.fill(
       "#ContentPlaceHolder1_txtUserName",
       process.env.ETHERSCAN_EMAIL || "",
@@ -250,7 +251,18 @@ export class AnyscanPuller {
     for (const [index, url] of allLabels.tokens.entries()) {
       bar1.update(index);
       // fetch all addresses from all tables
-      const tokenRows = await this.#pullTokenRows(url, page);
+      const tokenRowsRaw: TokenRows = await this.#pullTokenRows(url, page);
+      const tokenRows = tokenRowsRaw.map((tokenRow: TokenRow) => {
+        if (tokenRow.tokenImage) {
+          const newTokenRow = {
+            ...tokenRow,
+            tokenImage: `${this.baseUrl}${tokenRow.tokenImage}`,
+          };
+          return newTokenRow;
+        }
+        return tokenRow;
+      });
+
       const labelName = z.string().parse(url.split("/").pop()?.split("?")[0]);
 
       if (tokenRows.length > 0) {

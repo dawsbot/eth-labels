@@ -172,6 +172,10 @@
     "nameTag": "Celo: ETH Helper"
   },
   {
+    "address": "0x66598216d8e4d9afe0f06d525b335b762229842f",
+    "nameTag": "Chainlink: Transporter"
+  },
+  {
     "address": "0x8898b472c54c31894e3b9bb83cea802a5d0e63c6",
     "nameTag": "Connext: Bridge"
   },

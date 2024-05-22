@@ -3,4 +3,4 @@
 
 npx lint-staged --concurrent false
 npm run test
-npm run markdown-magic
+npm run combine-data

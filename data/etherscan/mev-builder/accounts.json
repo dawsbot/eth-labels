@@ -1,4 +1,5 @@
 [
+  { "address": "0x1f9090aae28b8a3dceadf281b0f12828e676c326", "nameTag": "" },
   {
     "address": "0xc9d945721ed37c6451e457b3c7f1e0cec42417fb",
     "nameTag": "antbuilder"
@@ -34,6 +35,10 @@
   {
     "address": "0xbd3afb0bb76683ecb4225f9dbc91f998713c3b01",
     "nameTag": "BuildAI.net"
+  },
+  {
+    "address": "0x000000000000d3b2c76221467d2f8c8f1de832a2",
+    "nameTag": "Builder Smith"
   },
   {
     "address": "0x690b9a9e9aa1c9db991c7721a92d351db4fac990",
@@ -80,6 +85,10 @@
     "nameTag": "Manta-builder"
   },
   {
+    "address": "0xbeed9a1a750945966cfc8800abd4cf7eecd22500",
+    "nameTag": "MEV Bot: 0xbEE...500"
+  },
+  {
     "address": "0x00066282d9fac206f8f0fd0b935958ae55e13333",
     "nameTag": "MEV Builder: 0x000...333"
   },
@@ -124,10 +133,6 @@
     "nameTag": "MEV Builder: 0x195...886"
   },
   {
-    "address": "0x1b63142628311395ceafeea5667e7c9026c862ca",
-    "nameTag": "MEV Builder: 0x1B...2Ca"
-  },
-  {
     "address": "0x1b887aa026f7a90a0f7173c2f0722d263c7cec45",
     "nameTag": "MEV Builder: 0x1b8...C45"
   },
@@ -138,6 +143,10 @@
   {
     "address": "0x1e54945fbf1872e34d76b7d72151b861704df8b2",
     "nameTag": "MEV Builder: 0x1e54...8B2"
+  },
+  {
+    "address": "0x2194331af2cf9de9adb36cf09654fad65cafb58b",
+    "nameTag": "MEV Builder: 0x219...58b"
   },
   {
     "address": "0x229b8325bb9ac04602898b7e8989998710235d5f",
@@ -304,6 +313,10 @@
     "nameTag": "MEV Builder: 0xC4b...777"
   },
   {
+    "address": "0xc6108744c9d5db8b30f8004053a16d5683cd3489",
+    "nameTag": "MEV Builder: 0xC61...489"
+  },
+  {
     "address": "0xcda9d71bdfae59b89cee131ed3079f8ac4c77062",
     "nameTag": "MEV Builder: 0xcDA...062"
   },
@@ -320,6 +333,10 @@
     "nameTag": "MEV Builder: 0xd11...633"
   },
   {
+    "address": "0xda795b000c29e6f47c2b2a5f3a35c5647695e301",
+    "nameTag": "MEV Builder: 0xda7...301"
+  },
+  {
     "address": "0xdcca982701a264e8d629a6e8cfba9c1a27912623",
     "nameTag": "MEV Builder: 0xDcc...623"
   },
@@ -334,10 +351,6 @@
   {
     "address": "0xce0babc8398144aa98d9210d595e3a9714910748",
     "nameTag": "payload"
-  },
-  {
-    "address": "0x1f9090aae28b8a3dceadf281b0f12828e676c326",
-    "nameTag": "rsync-builder"
   },
   {
     "address": "0x4838b106fce9647bdf1e7877bf73ce8b0bad5f97",

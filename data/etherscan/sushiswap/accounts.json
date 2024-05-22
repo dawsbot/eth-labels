@@ -1008,6 +1008,10 @@
     "nameTag": "SushiSwap: AYAME"
   },
   {
+    "address": "0xf03d716fade3d7adf8bff4d01e9d38eb2f17c745",
+    "nameTag": "SushiSwap: AZTG"
+  },
+  {
     "address": "0x03e0507956aa9381b12ad69ffa13e9af4ad65fa2",
     "nameTag": "SushiSwap: AZUKI"
   },
@@ -1022,6 +1026,10 @@
   {
     "address": "0x4f7a52fb837c403cc1d9df1e32a1915a73b63c53",
     "nameTag": "SushiSwap: AZZIP"
+  },
+  {
+    "address": "0x5050d0fb45685351a92dd376a970dd8cefead444",
+    "nameTag": "SushiSwap: B-A"
   },
   {
     "address": "0x5d2be03434fd42e232a6a34abcc764681bccb458",
@@ -2062,6 +2070,10 @@
   {
     "address": "0xae769aa87ed220da1a964c1267790241ba58e303",
     "nameTag": "SushiSwap: BUILD"
+  },
+  {
+    "address": "0xd46004eed3885e0a74d452811c80eb41270a5728",
+    "nameTag": "SushiSwap: BUILD-DAI"
   },
   {
     "address": "0xe725fd658d9bde5b13a006810b8e9851fff4e760",
@@ -3960,6 +3972,10 @@
     "nameTag": "SushiSwap: DRGN"
   },
   {
+    "address": "0x6010dea010d8baf17f6ce6aab64338a170d2eb8e",
+    "nameTag": "SushiSwap: DRIFT-USDT"
+  },
+  {
     "address": "0xc77d4407edb92445626b9cb2c01aab3d4d6b9358",
     "nameTag": "SushiSwap: DRINK"
   },
@@ -4118,6 +4134,10 @@
   {
     "address": "0x725e6d38243561110aa2f64d42b57a2a13c92b2b",
     "nameTag": "SushiSwap: DYSTO"
+  },
+  {
+    "address": "0xe9565acca88ba16b5b3cc7acf0dede8f513a86bb",
+    "nameTag": "SushiSwap: E3D"
   },
   {
     "address": "0xb651bb2e04ae563aa9e6887dd92c84705902f075",
@@ -4496,12 +4516,20 @@
     "nameTag": "SushiSwap: ESPL"
   },
   {
+    "address": "0x64e94eb8136d851b1dd864cdb27e47b46f2b6497",
+    "nameTag": "SushiSwap: ESPR"
+  },
+  {
     "address": "0x03616c1bb1699d50a8f7a468fcc27593f5936e1b",
     "nameTag": "SushiSwap: ESS"
   },
   {
     "address": "0x71c0628d7d569ca8c8d7ff4002388e949b19ea55",
     "nameTag": "SushiSwap: ESSO"
+  },
+  {
+    "address": "0xd9fd5b4d140e314ef3775e48aa4dee981eea9e56",
+    "nameTag": "SushiSwap: ETER"
   },
   {
     "address": "0x21fa9160e6a324224621c9c127263156258e5f16",
@@ -6608,6 +6636,10 @@
     "nameTag": "SushiSwap: KLAYME"
   },
   {
+    "address": "0xfd2e37fd2757922cb83fd07b3eebcf8d8996d49c",
+    "nameTag": "SushiSwap: KMS"
+  },
+  {
     "address": "0x306776f36f1a61a114c9b61037851a4ba96582cf",
     "nameTag": "SushiSwap: kmxSUSHI/USDT-LINK-USDT"
   },
@@ -7564,6 +7596,10 @@
     "nameTag": "SushiSwap: MAXPEP"
   },
   {
+    "address": "0xa38e563f340cf1876f08b029de3214a5793aedfc",
+    "nameTag": "SushiSwap: MAY4TH"
+  },
+  {
     "address": "0xc5817a4c5e8ec6488c9a26c6862ff3060757b498",
     "nameTag": "SushiSwap: MAYC"
   },
@@ -7606,6 +7642,10 @@
   {
     "address": "0x07da95e0c7f0b399a6383f76a8301847340aeefb",
     "nameTag": "SushiSwap: MCIC"
+  },
+  {
+    "address": "0x332f42f65c6244faeefed4ef63532a22e23074ca",
+    "nameTag": "SushiSwap: MCT"
   },
   {
     "address": "0x05ea8ccfac10528b5901585e216b481a866ba95c",
@@ -8326,6 +8366,10 @@
   {
     "address": "0x6469b34a2a4723163c4902dbbdea728d20693c12",
     "nameTag": "SushiSwap: NEAR"
+  },
+  {
+    "address": "0xf93f1a88fc3c99431599d16fbfd35a9299a70dd6",
+    "nameTag": "SushiSwap: NEAR-USDC"
   },
   {
     "address": "0x2481be8425f4e1750cdf50d72183c56c58565898",
@@ -9162,6 +9206,10 @@
   {
     "address": "0x109b93edb9b30844e7b1e3a5f7d7ab7a5caea5ab",
     "nameTag": "SushiSwap: pEth"
+  },
+  {
+    "address": "0x7d6c409b535d5bf49609161e3cb3363971ae6548",
+    "nameTag": "SushiSwap: PETH 2"
   },
   {
     "address": "0xcf49939251f57fd5e6edc7ca9626b1358881f51f",
@@ -10260,6 +10308,10 @@
     "nameTag": "SushiSwap: REWIND"
   },
   {
+    "address": "0xcbab2825b85202eaa441ef71bab6f3d18f654d81",
+    "nameTag": "SushiSwap: RFD"
+  },
+  {
     "address": "0x6fc4819aff0eae81f43ec8fc00bf224128bec902",
     "nameTag": "SushiSwap: RFI"
   },
@@ -10546,6 +10598,10 @@
   {
     "address": "0xd1c6776b82626d680d15927bed677d951804766b",
     "nameTag": "SushiSwap: RWC-USDT"
+  },
+  {
+    "address": "0xb0705c198ed23dcd57259657efe93236e7715c6d",
+    "nameTag": "SushiSwap: RYOSHI"
   },
   {
     "address": "0xaaac83f7a153b1ae998df8dd5c1da1b89e2587a1",
@@ -10986,6 +11042,10 @@
   {
     "address": "0xe93c7c454e20b7a3029a56778bcecdb04f727dfb",
     "nameTag": "SushiSwap: SHOOB"
+  },
+  {
+    "address": "0x4b097e7c2705d5a560f028b40bb6de57865c9653",
+    "nameTag": "SushiSwap: SHOOT"
   },
   {
     "address": "0x6ebc79c1e44833589483c6dabf14e31d6d82bd7b",
@@ -13752,6 +13812,10 @@
     "nameTag": "SushiSwap: USDT 3"
   },
   {
+    "address": "0x356273cb86fed1b9d3b51939933026ac7a44d250",
+    "nameTag": "SushiSwap: USDT 4"
+  },
+  {
     "address": "0xd6b7406537e43eee23196fafd02021b0c0495bd8",
     "nameTag": "SushiSwap: USDT-$PONZI"
   },
@@ -13938,6 +14002,14 @@
   {
     "address": "0xb6c77fd0e8ba6e25cb78034cd6c4376dea7ee020",
     "nameTag": "SushiSwap: USHARD"
+  },
+  {
+    "address": "0x0c145dd95f4c9860b6a9ec48d96a5efdd3fb6d42",
+    "nameTag": "SushiSwap: USHIBA"
+  },
+  {
+    "address": "0xf40bf146c8edde106cbdfab3d56afce3fbda3c98",
+    "nameTag": "SushiSwap: USHIBA-USDC"
   },
   {
     "address": "0x8b00ee8606cc70c2dce68dea0cefe632cca0fb7b",
@@ -14670,6 +14742,10 @@
   {
     "address": "0xac7b426f56921b1a04cd606f5df8d730aaeed52d",
     "nameTag": "SushiSwap: wNXM-USDC"
+  },
+  {
+    "address": "0x60104e49b21b53e6d8d65315906f7666e856ee30",
+    "nameTag": "SushiSwap: WOJAK"
   },
   {
     "address": "0xd482792508470f629491302570cfead2dd4da564",
@@ -15486,6 +15562,10 @@
   {
     "address": "0x88fc3c8e5c12fe0aac65704b4b5ac3812409ed9b",
     "nameTag": "SushiSwap: YOGA 2"
+  },
+  {
+    "address": "0x54555739fc3e7d04951f26d7faac33650a263de7",
+    "nameTag": "SushiSwap: YOMI"
   },
   {
     "address": "0xe4275e185074afa0b760a6b0787ef42f4b030813",
