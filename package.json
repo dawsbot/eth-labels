@@ -12,7 +12,7 @@
   ],
   "scripts": {
     "vitest": "vitest",
-    "test": "npm run lint && npm run vitest -- --run && npm run build",
+    "test": "concurrently -n \"eslint,vitest,build\" -c \"#341BAB,#A6CC66,#3077C6\" \"npm run lint\" \"npm run vitest -- --run\" \"npm run build\"",
     "lint": "eslint . --fix --cache",
     "combine-data": "npx tsx scripts/combine.ts && git add \"data/*/*/combined.json\" && npm run markdown-magic",
     "build": "rm -rf lib && npm run compile",
@@ -47,6 +47,7 @@
     "@types/node": "^20.11.30",
     "cheerio": "^1.0.0-rc.12",
     "cli-progress": "^3.12.0",
+    "concurrently": "^8.2.2",
     "csv-parse": "^5.0.4",
     "dotenv": "^16.4.5",
     "eslint": "^8.57.0",
