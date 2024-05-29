@@ -4,3 +4,6 @@ lib
 types
 .env
 .eslintcache
+
+package-lock.json
+yarn.lock
