@@ -12,18 +12,18 @@
   ],
   "scripts": {
     "vitest": "vitest",
-    "test": "concurrently -g -n \"eslint,vitest,build\" -c \"#341BAB,#A6CC66,#3077C6\" \"npm run lint\" \"npm run vitest -- --run\" \"npm run build\"",
+    "test": "concurrently -g -n \"eslint,vitest,build\" -c \"#341BAB,#A6CC66,#3077C6\" \"bun run lint\" \"bun run vitest -- --run\" \"bun run build\"",
     "lint": "eslint . --fix --cache",
-    "combine-data": "npx tsx scripts/combine.ts && git add \"data/*/*/combined.json\" && npm run markdown-magic",
-    "build": "rm -rf lib && npm run compile",
+    "combine-data": "npx tsx scripts/combine.ts && git add \"data/*/*/combined.json\" && bun run markdown-magic",
+    "build": "rm -rf lib && bun run compile",
     "pull": "tsx scripts/fetch-all.ts",
     "build:json": "node scripts/build-json.js",
-    "prepare": "husky install",
+    "prepare": "husky",
     "compile": "npm-run-all --parallel tsc:esm tsc:cjs",
     "tsc:esm": "tsc -p tsconfig.json",
     "tsc:cjs": "tsc -p tsconfig-cjs.json",
     "postversion": "git push --follow-tags",
-    "prepublishOnly": "npm run build",
+    "prepublishOnly": "bun run build",
     "markdown-magic": "npx tsx docs/markdown-magic.ts"
   },
   "repository": {
@@ -68,7 +68,7 @@
     "zod": "^3.22.4"
   },
   "lint-staged": {
-    "./data/**/*.json": "npm run combine-data",
+    "./data/**/*.json": "bun run combine-data",
     "*": "prettier -u --write"
   }
 }
