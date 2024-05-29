@@ -1,5 +1,9 @@
 import * as cheerio from "cheerio";
+import type { BrowserContext, Page } from "playwright";
 import type { AccountRows, TokenRows } from "../AnyscanPuller";
+import { ApiParser } from "../ApiParser";
+import { sleep } from "../utils";
+
 export abstract class HtmlParser {
   /**
    * Find all the label urls on a labelcloud page
@@ -12,6 +16,14 @@ export abstract class HtmlParser {
    * );
    * ```
    */
+  #useApiForTokenRows: boolean = false;
+  public setUseApiForTokenRows(useApiForTokenRows: boolean): void {
+    this.#useApiForTokenRows = useApiForTokenRows;
+  }
+  public getUseApiForTokenRows(): boolean {
+    return this.#useApiForTokenRows;
+  }
+
   public selectAllLabels = (html: string): ReadonlyArray<string> => {
     const $ = cheerio.load(html);
     const parent = $("div > div > div.row.mb-3");
@@ -37,6 +49,29 @@ export abstract class HtmlParser {
     });
     return anchors;
   };
+
+  public async selectAllTokenAddressesApi(
+    page: Page,
+    url: string,
+  ): Promise<TokenRows> {
+    const context: BrowserContext = page.context();
+    const cookies = await context.cookies();
+    const cookiesString: string = cookies
+      .map((cookie) => `${cookie.name}=${cookie.value}`)
+      .join("; ");
+    const baseUrl = url.split("/").slice(0, 3).join("/");
+    const tokenName = `/${url.split("/").slice(3).join("/")}`;
+
+    const apiParser: ApiParser = new ApiParser(baseUrl);
+    const tokenRows = await apiParser.fetchTokens(
+      tokenName,
+      cookiesString,
+      page,
+    );
+    const sleepTime = Math.floor(Math.random() * 2000) + 1000; // Random time between 1 and 3 seconds in milliseconds
+    await sleep(sleepTime);
+    return tokenRows;
+  }
 
   public abstract selectAllTokenAddresses(html: string): TokenRows;
 

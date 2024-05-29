@@ -2968,6 +2968,10 @@
     "nameTag": "SushiSwap: CTHULHU"
   },
   {
+    "address": "0xb3b5c34a5c6deb504385a6d111d2f0915158282a",
+    "nameTag": "SushiSwap: CTWR"
+  },
+  {
     "address": "0x2a93167ed63a31f35ca4788e2eb9fbd9fa6089d0",
     "nameTag": "SushiSwap: CTX"
   },
@@ -5198,6 +5202,14 @@
   {
     "address": "0xd39b35a0dac6d213ef592638ea978e91ed1b8a7a",
     "nameTag": "SushiSwap: FUC"
+  },
+  {
+    "address": "0x6d228ecee7f12fb47282083a17c9e206e5149c24",
+    "nameTag": "SushiSwap: FuckPauly"
+  },
+  {
+    "address": "0x63afb5534f4e73b20fd9cbd398191ed066a7ce88",
+    "nameTag": "SushiSwap: FuckPauly 2"
   },
   {
     "address": "0x485e50a65210aa4e7bf59a7d079cabb9ec3206a0",

@@ -12,9 +12,11 @@
   ],
   "scripts": {
     "vitest": "vitest",
-    "test": "concurrently -g -n \"eslint,vitest,build\" -c \"#341BAB,#A6CC66,#3077C6\" \"bun run lint\" \"bun run vitest -- --run\" \"bun run build\"",
+    "vitest:unit": "bun run vitest unit --run",
+    "vitest:integration": "bun run vitest integration --run",
+    "test": "concurrently -g -n \"eslint,vitest:unit,vitest:integration,build\" -c \"#341BAB,#A6CC66,#A6CC66,#3077C6\" \"bun run lint\" \"bun run vitest:unit\" \"bun run vitest:integration\" \"bun run build\"",
     "lint": "eslint . --fix --cache",
-    "combine-data": "npx tsx scripts/combine.ts && git add \"data/*/*/combined.json\" && bun run markdown-magic",
+    "combine-data": "npx tsx scripts/combine.ts && git add \"data/**/combined.json\" && bun run markdown-magic",
     "build": "rm -rf lib && bun run compile",
     "pull": "tsx scripts/fetch-all.ts",
     "build:json": "node scripts/build-json.js",
@@ -68,7 +70,10 @@
     "zod": "^3.22.4"
   },
   "lint-staged": {
-    "./data/**/*.json": "bun run combine-data",
     "*": "prettier -u --write"
+  },
+  "dependencies": {
+    "@elysiajs/swagger": "^1.0.5",
+    "elysia": "^1.0.22"
   }
 }
