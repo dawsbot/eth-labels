@@ -20,7 +20,7 @@ export class ApiParser {
   public constructor(url: string) {
     this.#baseUrl = url;
   }
-  private filterResponse(data: TokenRows): TokenRows {
+  public filterResponse(data: TokenRows): TokenRows {
     data.forEach((token: TokenRow) => {
       const $1 = cheerio.load(token.tokenName);
       let title: string = $1("a > div > span").html() || "";
