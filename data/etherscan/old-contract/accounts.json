@@ -1482,6 +1482,10 @@
     "nameTag": "EnterCoin: Old Token"
   },
   {
+    "address": "0x469084939d1c20fae3c73704fe963941c51be863",
+    "nameTag": "Envision: Old VIS Token"
+  },
+  {
     "address": "0x86fa049857e0209aa7d9e616f7eb3b3b78ecfdb0",
     "nameTag": "EOS: Old Token"
   },
@@ -1892,6 +1896,10 @@
   {
     "address": "0x3e49e9c890cd5b015a18ed76e7a4093f569f1a04",
     "nameTag": "GET Protocol: Old Staking"
+  },
+  {
+    "address": "0x35609dc59e15d03c5c865507e1348fa5abb319a8",
+    "nameTag": "GhostMarket: Old GM Token"
   },
   {
     "address": "0x96d8fbf95f72f5abe9ef04f1ade94e1ba79be508",
@@ -3066,6 +3074,10 @@
     "nameTag": "NovaChain: Old Token"
   },
   {
+    "address": "0x33ba0f96980314cf962bd6224b5c3befa5946202",
+    "nameTag": "nsurance: Old n Token"
+  },
+  {
     "address": "0x7542013f90df4d24ae1b18641bd9e223f5524320",
     "nameTag": "NuclearCoin: Old Token"
   },
@@ -3828,6 +3840,10 @@
   {
     "address": "0xb8b7791b1a445fb1e202683a0a329504772e0e52",
     "nameTag": "Student Coin: Old STC Token"
+  },
+  {
+    "address": "0xa962fc9d092c1e2de00bf600e261cf058b5685b1",
+    "nameTag": "STYLE Protocol: Old STYLE Token"
   },
   {
     "address": "0xebe499ae537484f182b48ec9d8f72ae5a293f366",

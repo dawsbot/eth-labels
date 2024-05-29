@@ -1,0 +1,50 @@
+[
+  {
+    "address": "0xd60247c6848b7ca29eddf63aa924e53db6ddd8ec",
+    "nameTag": "Taiko: Bridge"
+  },
+  {
+    "address": "0x3c90963cfba436400b0f9c46aa9224cb379c2c40",
+    "nameTag": "Taiko: Bridged ERC1155"
+  },
+  {
+    "address": "0x79bc0aada00fcf6e7ab514bfeb093b5fae3653e3",
+    "nameTag": "Taiko: Bridged ERC20"
+  },
+  {
+    "address": "0xc3310905e2bc9cfb198695b75ef3e5b69c6a1bf7",
+    "nameTag": "Taiko: Bridged ERC721"
+  },
+  {
+    "address": "0x000001043b3b967d62657116fb4ff349cba08974",
+    "nameTag": "Taiko: Deployer"
+  },
+  {
+    "address": "0xaf145913ea4a56be22e120ed9c24589659881702",
+    "nameTag": "Taiko: ERC1155 Vault"
+  },
+  {
+    "address": "0x996282ca11e5deb6b5d122cc3b9a1fcaad4415ab",
+    "nameTag": "Taiko: ERC20 Vault"
+  },
+  {
+    "address": "0x0b470dd3a0e1c41228856fb319649e7c08f419aa",
+    "nameTag": "Taiko: ERC721 Vault"
+  },
+  {
+    "address": "0x91f67118dd47d502b1f0c354d0611997b022f29e",
+    "nameTag": "Taiko: Quota Manager"
+  },
+  {
+    "address": "0xef9eaa1dd30a9aa1df01c36411b5f082aa65fbaa",
+    "nameTag": "Taiko: Shared Address Manager"
+  },
+  {
+    "address": "0x9e0a24964e5397b566c1ed39258e21ab5e35c77c",
+    "nameTag": "Taiko: Signal Service"
+  },
+  {
+    "address": "0x10dea67478c5f8c5e2d90e5e9b26dbe60c54d800",
+    "nameTag": "Taiko: TAIKO Token"
+  }
+]
