@@ -12,7 +12,9 @@
   ],
   "scripts": {
     "vitest": "vitest",
-    "test": "concurrently -g -n \"eslint,vitest,build\" -c \"#341BAB,#A6CC66,#3077C6\" \"bun run lint\" \"bun run vitest -- --run\" \"bun run build\"",
+    "vitest:unit": "bun run vitest unit --run",
+    "vitest:integration": "bun run vitest integration --run",
+    "test": "concurrently -g -n \"eslint,vitest:unit,vitest:integration,build\" -c \"#341BAB,#A6CC66,#A6CC66,#3077C6\" \"bun run lint\" \"bun run vitest:unit\" \"bun run vitest:integration\" \"bun run build\"",
     "lint": "eslint . --fix --cache",
     "combine-data": "npx tsx scripts/combine.ts && git add \"data/*/*/combined.json\" && bun run markdown-magic",
     "build": "rm -rf lib && bun run compile",

@@ -2,12 +2,7 @@ import * as cheerio from "cheerio";
 import type { BrowserContext, Page } from "playwright";
 import type { AccountRows, TokenRows } from "../AnyscanPuller";
 import { ApiParser } from "../ApiParser";
-
-async function sleep(ms: number): Promise<void> {
-  return new Promise((resolve) => {
-    setTimeout(resolve, ms);
-  });
-}
+import { sleep } from "../utils";
 
 export abstract class HtmlParser {
   /**

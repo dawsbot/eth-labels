@@ -10,14 +10,9 @@ import { parseError } from "./error-parse";
 import { fileURLToPath } from "url";
 import type { HtmlParser } from "./HtmlParser/HtmlParser";
 import { scanConfig } from "./scan-config";
+import { sleep } from "./utils";
 const __filename = fileURLToPath(import.meta.url);
 const __dirname = path.dirname(__filename);
-
-function sleep(ms: number): Promise<void> {
-  return new Promise((resolve) => {
-    setTimeout(resolve, ms);
-  });
-}
 
 type AllLabels = {
   accounts: Array<string>;
