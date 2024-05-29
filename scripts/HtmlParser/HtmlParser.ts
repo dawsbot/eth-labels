@@ -1,7 +1,7 @@
 import * as cheerio from "cheerio";
 import type { BrowserContext, Page } from "playwright";
 import type { AccountRows, TokenRows } from "../AnyscanPuller";
-import { ApiParser } from "../ApiParser";
+import { ApiParser } from "../ApiParser/ApiParser";
 import { sleep } from "../utils";
 
 export abstract class HtmlParser {

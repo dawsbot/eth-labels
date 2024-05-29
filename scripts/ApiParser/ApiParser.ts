@@ -1,7 +1,7 @@
 import * as cheerio from "cheerio";
 import type { Page } from "playwright";
 import { z } from "zod";
-import type { TokenRow, TokenRows } from "./AnyscanPuller";
+import type { TokenRow, TokenRows } from "./../AnyscanPuller";
 
 type ApiResponse = {
   d: {
