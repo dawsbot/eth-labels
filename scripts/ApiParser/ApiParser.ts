@@ -8,7 +8,7 @@ type ApiResponse = {
     data: Array<{
       tokenName: string;
       tokenSymbol: string;
-      tokenImage?: string | null;
+      tokenImage?: string;
       website: string;
       contractAddress: string;
     }>;
