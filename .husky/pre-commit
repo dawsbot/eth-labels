@@ -2,5 +2,5 @@
 . "$(dirname "$0")/_/husky.sh"
 
 npx lint-staged --concurrent false
-npm run test
-npm run combine-data
+bun run test
+bun run combine-data
