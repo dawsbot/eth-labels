@@ -1,8 +1,6 @@
 import { describe, expect, test } from "vitest";
 import { FileUtilities } from "../FileSystem/FileSystem";
-import { ApiParser } from "./ApiParser";
-// import { scanConfig } from "../scan-config";
-// import { EtherscanHtmlParser } from "./EtherscanParser";
+import { EtherscanApiParser } from "./EtherscanApiParser";
 const fileUtilities = new FileUtilities(import.meta.url);
 
 type ApiResponse = {
@@ -30,7 +28,7 @@ const getMocks = (directory: string): Array<ApiResponse> => {
 const etherscanMocks = getMocks(etherscanDirectory);
 
 describe("EtherscanParser", () => {
-  const apiParser = new ApiParser("https://etherscan.io");
+  const apiParser = new EtherscanApiParser("https://etherscan.io");
   test("should parse api json", () => {
     const rawTokens = apiParser.convertToTokenRows(etherscanMocks[0]);
     const parsedTokens = apiParser.filterResponse(rawTokens);

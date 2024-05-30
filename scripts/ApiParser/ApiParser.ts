@@ -15,14 +15,18 @@ type ApiResponse = {
   };
 };
 
-export class ApiParser {
-  #baseUrl: string;
+export abstract class ApiParser {
+  protected readonly baseUrl: string;
   public constructor(url: string) {
-    this.#baseUrl = url;
+    this.baseUrl = url;
   }
+
   public filterResponse(data: TokenRows): TokenRows {
     data.forEach((token: TokenRow) => {
       const $1 = cheerio.load(token.tokenName);
+      const $2 = cheerio.load(token.website);
+      const $3 = cheerio.load(z.string().parse(token.address));
+
       let title: string = $1("a > div > span").html() || "";
       let symbol: string = $1("a > div > span:nth-child(2)").html() || "";
       const tokenImage: string = $1("a > img").attr("src") || "";
@@ -31,23 +35,27 @@ export class ApiParser {
         title = title.split(" ").slice(4).join(" ");
         const regex = /"(.*?)"/g;
         const matches = title.match(regex)?.map((match) => match.slice(1, -1));
-        title = matches?.join() || ""; // Add null check and assign empty string as fallback
+        title = matches?.join() || "";
       }
+
+      // filter out the cases for different formats of token symbol
       if (symbol?.startsWith("(<span")) {
         symbol = symbol.split(" ").slice(4).join(" ");
         const regex = /"(.*?)"/g;
         const matches = symbol.match(regex)?.map((match) => match.slice(1, -1));
-        symbol = matches?.join() || ""; // Add null check and assign empty string as fallback
+        symbol = matches?.join() || "";
       } else if (symbol?.startsWith("(")) {
         symbol = symbol.slice(1, -1);
       }
+
+      const website = $2("a").attr("href") || token.website;
+      const address = $3("a").attr("data-bs-title") || token.address;
+
       token.tokenSymbol = symbol;
       token.tokenName = title;
       token.tokenImage = tokenImage;
-      const $2 = cheerio.load(token.website);
-      token.website = $2("a").attr("href") || token.website;
-      const $3 = cheerio.load(z.string().parse(token.address));
-      token.address = $3("a").attr("data-bs-title") || token.address;
+      token.website = website;
+      token.address = address;
     });
     return data;
   }
@@ -62,41 +70,9 @@ export class ApiParser {
     return tokens;
   }
 
-  public async fetchTokens(
+  public abstract fetchTokens(
     tokenName: string,
     cookie: string,
     page: Page,
-  ): Promise<TokenRows> {
-    const baseUrl = this.#baseUrl;
-    const response: ApiResponse = await page.evaluate(
-      async (params: {
-        baseUrl: string;
-        cookie: string;
-        tokenName: string;
-      }) => {
-        const data: Response = await fetch(
-          `${params.baseUrl}/tokens.aspx/GetTokensBySubLabel`,
-          {
-            headers: {
-              accept: "application/json, text/javascript, */*; q=0.01",
-              "accept-language": "en-GB,en-US;q=0.9,en;q=0.8",
-              "content-type": "application/json",
-              priority: "u=1, i",
-              cookie: params.cookie,
-              Referer: `${params.baseUrl}${params.tokenName}&subcatid=1`,
-            },
-
-            body: `{"dataTableModel":{"draw":2,"columns":[{"data":"number","name":"","searchable":true,"orderable":false,"search":{"value":"","regex":false}},{"data":"contractAddress","name":"","searchable":true,"orderable":false,"search":{"value":"","regex":false}},{"data":"tokenName","name":"","searchable":true,"orderable":true,"search":{"value":"","regex":false}},{"data":"marketCap","name":"","searchable":true,"orderable":true,"search":{"value":"","regex":false}},{"data":"holders","name":"","searchable":true,"orderable":true,"search":{"value":"","regex":false}},{"data":"website","name":"","searchable":true,"orderable":false,"search":{"value":"","regex":false}}],"order":[{"column":3,"dir":"desc"}],"start":0,"length":100,"search":{"value":"","regex":false}},"labelModel":{"label":"${params.tokenName.split("/")[3].split("?")[0]}","subCategoryId":"1"}}`,
-            method: "POST",
-          },
-        );
-        const json: ApiResponse = (await data.json()) as ApiResponse;
-        return json;
-      },
-      { baseUrl, cookie, tokenName },
-    );
-    const tokensRaw = this.convertToTokenRows(response);
-    const tokens: TokenRows = this.filterResponse(tokensRaw);
-    return tokens;
-  }
+  ): Promise<TokenRows>;
 }
