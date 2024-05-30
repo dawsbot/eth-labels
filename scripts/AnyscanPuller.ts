@@ -5,12 +5,12 @@ import fs from "fs";
 import path from "path";
 import type { Page } from "playwright";
 import { z } from "zod";
-import { parseError } from "./error-parse";
+import { parseError } from "./util/error-parse";
 
 import { fileURLToPath } from "url";
 import type { HtmlParser } from "./HtmlParser/HtmlParser";
 import { scanConfig } from "./scan-config";
-import { sleep } from "./utils";
+import { sleep } from "./util/sleep";
 const __filename = fileURLToPath(import.meta.url);
 const __dirname = path.dirname(__filename);
 

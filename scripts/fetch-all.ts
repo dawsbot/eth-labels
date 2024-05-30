@@ -1,7 +1,7 @@
 import "dotenv/config";
 import { AnyscanPuller } from "./AnyscanPuller";
-import { closeBrowser, openBrowser } from "./BrowserUtil";
-import { parseError } from "./error-parse";
+import { closeBrowser, openBrowser } from "./util/browser";
+import { parseError } from "./util/error-parse";
 
 void (async () => {
   try {

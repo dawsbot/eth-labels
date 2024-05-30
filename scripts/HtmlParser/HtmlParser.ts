@@ -3,7 +3,7 @@ import type { BrowserContext, Page } from "playwright";
 import type { AccountRows, TokenRows } from "../AnyscanPuller";
 import type { ApiParser } from "../ApiParser/ApiParser";
 import { EtherscanApiParser } from "../ApiParser/EtherscanApiParser";
-import { sleep } from "../utils";
+import { sleep } from "../util/sleep";
 
 export abstract class HtmlParser {
   /**
