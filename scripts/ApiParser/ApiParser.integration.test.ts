@@ -1,7 +1,7 @@
 import "dotenv/config";
 import type { Browser, Page } from "playwright";
 import { describe, expect, test } from "vitest";
-import { closeBrowser, openBrowser } from "../util/browser";
+import { closeBrowser, openBrowser } from "../utils/browser";
 import { scanConfig } from "./../scan-config";
 
 describe("ApiParsing", () => {
