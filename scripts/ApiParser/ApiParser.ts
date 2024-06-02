@@ -7,13 +7,29 @@ export type ApiResponse = {
   d: {
     data: Array<{
       tokenName: string;
-      tokenSymbol: string;
       tokenImage?: string;
       website: string;
       contractAddress: string;
     }>;
   };
 };
+
+const ApiResponseSchema = z.object({
+  d: z
+    .object({
+      data: z.array(
+        z
+          .object({
+            tokenName: z.string(),
+            tokenImage: z.string().optional(),
+            website: z.string(),
+            contractAddress: z.string(),
+          })
+          .passthrough(),
+      ),
+    })
+    .passthrough(),
+});
 
 export abstract class ApiParser {
   protected readonly baseUrl: string;
@@ -52,8 +68,10 @@ export abstract class ApiParser {
         symbol = symbol.slice(1, -1);
       }
 
-      const website = $tokenWebsite("a").attr("href") || token.website;
-      const address = $tokenAddress("a").attr("data-bs-title") || token.address;
+      const website = z.string().parse($tokenWebsite("a").attr("href"));
+      const address = z
+        .string()
+        .parse($tokenAddress("a").attr("data-bs-title"));
 
       token.tokenSymbol = symbol;
       token.tokenName = title;
@@ -67,7 +85,7 @@ export abstract class ApiParser {
   public convertToTokenRows(data: ApiResponse): TokenRows {
     const tokens = data.d.data.map((obj) => ({
       tokenName: obj.tokenName,
-      tokenSymbol: obj.tokenSymbol,
+      tokenSymbol: "",
       website: obj.website,
       address: obj.contractAddress,
     }));
@@ -79,4 +97,14 @@ export abstract class ApiParser {
     cookie: string,
     page: Page,
   ): Promise<TokenRows>;
+
+  public verifyApiResponse(response: unknown): void {
+    try {
+      ApiResponseSchema.parse(response);
+    } catch (error) {
+      throw new Error(
+        `Invalid response. The structure of the response is not as expected. Error: ${(error as Error).message}`,
+      );
+    }
+  }
 }

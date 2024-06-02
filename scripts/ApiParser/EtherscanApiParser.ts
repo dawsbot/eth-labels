@@ -37,6 +37,7 @@ export class EtherscanApiParser extends ApiParser {
       },
       { baseUrl, cookie, tokenName },
     );
+    this.verifyApiResponse(response);
     const tokensRaw = this.convertToTokenRows(response);
     const tokens: TokenRows = this.filterResponse(tokensRaw);
     return tokens;
