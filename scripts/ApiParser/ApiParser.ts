@@ -42,7 +42,6 @@ export abstract class ApiParser {
       const $tokenName = cheerio.load(token.tokenName);
       const $tokenWebsite = cheerio.load(token.website);
       const $tokenAddress = cheerio.load(token.address);
-
       let title: string = z.string().parse($tokenName("a > div > span").html());
       let symbol: string = z
         .string()
@@ -52,19 +51,20 @@ export abstract class ApiParser {
         .parse($tokenName("a > img").attr("src"));
 
       if (title?.startsWith("<span")) {
-        title = title.split(" ").slice(4).join(" ");
-        const regex = /"(.*?)"/g;
-        const matches = title.match(regex)?.map((match) => match.slice(1, -1));
-        title = matches?.join() || "";
+        title = z
+          .string()
+          .parse($tokenName("a > div > span > span").attr("title"));
       }
 
-      // filter out the cases for different formats of token symbol
       if (symbol?.startsWith("(<span")) {
-        symbol = symbol.split(" ").slice(4).join(" ");
-        const regex = /"(.*?)"/g;
-        const matches = symbol.match(regex)?.map((match) => match.slice(1, -1));
-        symbol = matches?.join() || "";
-      } else if (symbol?.startsWith("(")) {
+        symbol = z
+          .string()
+          .parse(
+            $tokenName("a > div > span:nth-child(2) > span").attr("title"),
+          );
+      }
+
+      if (symbol?.startsWith("(")) {
         symbol = symbol.slice(1, -1);
       }
 
