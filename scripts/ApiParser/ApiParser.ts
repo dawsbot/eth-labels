@@ -23,13 +23,17 @@ export abstract class ApiParser {
 
   public filterResponse(data: TokenRows): TokenRows {
     data.forEach((token: TokenRow) => {
-      const $1 = cheerio.load(token.tokenName);
-      const $2 = cheerio.load(token.website);
-      const $3 = cheerio.load(z.string().parse(token.address));
+      const $tokenName = cheerio.load(token.tokenName);
+      const $tokenWebsite = cheerio.load(token.website);
+      const $tokenAddress = cheerio.load(token.address);
 
-      let title: string = $1("a > div > span").html() || "";
-      let symbol: string = $1("a > div > span:nth-child(2)").html() || "";
-      const tokenImage: string = $1("a > img").attr("src") || "";
+      let title: string = z.string().parse($tokenName("a > div > span").html());
+      let symbol: string = z
+        .string()
+        .parse($tokenName("a > div > span:nth-child(2)").html());
+      const tokenImage: string = z
+        .string()
+        .parse($tokenName("a > img").attr("src"));
 
       if (title?.startsWith("<span")) {
         title = title.split(" ").slice(4).join(" ");
@@ -48,8 +52,8 @@ export abstract class ApiParser {
         symbol = symbol.slice(1, -1);
       }
 
-      const website = $2("a").attr("href") || token.website;
-      const address = $3("a").attr("data-bs-title") || token.address;
+      const website = $tokenWebsite("a").attr("href") || token.website;
+      const address = $tokenAddress("a").attr("data-bs-title") || token.address;
 
       token.tokenSymbol = symbol;
       token.tokenName = title;
