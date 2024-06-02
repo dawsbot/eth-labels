@@ -1,18 +1,7 @@
 import type { Page } from "playwright";
 import type { TokenRows } from "./../AnyscanPuller";
+import type { ApiResponse } from "./ApiParser";
 import { ApiParser } from "./ApiParser";
-
-type ApiResponse = {
-  d: {
-    data: Array<{
-      tokenName: string;
-      tokenSymbol: string;
-      tokenImage?: string;
-      website: string;
-      contractAddress: string;
-    }>;
-  };
-};
 
 export class EtherscanApiParser extends ApiParser {
   public async fetchTokens(

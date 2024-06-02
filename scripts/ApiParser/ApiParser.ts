@@ -3,7 +3,7 @@ import type { Page } from "playwright";
 import { z } from "zod";
 import type { TokenRow, TokenRows } from "./../AnyscanPuller";
 
-type ApiResponse = {
+export type ApiResponse = {
   d: {
     data: Array<{
       tokenName: string;

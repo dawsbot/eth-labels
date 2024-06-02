@@ -1,19 +1,8 @@
 import { describe, expect, test } from "vitest";
 import { FileUtilities } from "../FileSystem/FileSystem";
+import type { ApiResponse } from "./ApiParser";
 import { EtherscanApiParser } from "./EtherscanApiParser";
 const fileUtilities = new FileUtilities(import.meta.url);
-
-type ApiResponse = {
-  d: {
-    data: Array<{
-      tokenName: string;
-      tokenSymbol: string;
-      tokenImage?: string;
-      website: string;
-      contractAddress: string;
-    }>;
-  };
-};
 
 const etherscanDirectory = "mocks/etherscan";
 
