@@ -41,13 +41,13 @@ export abstract class ApiParser {
         .string()
         .parse($tokenName("a > img").attr("src"));
 
-      if (title?.startsWith("<span")) {
+      if (title.startsWith("<span")) {
         title = z
           .string()
           .parse($tokenName("a > div > span > span").attr("title"));
       }
 
-      if (symbol?.startsWith("(<span")) {
+      if (symbol.startsWith("(<span")) {
         symbol = z
           .string()
           .parse(
@@ -55,7 +55,7 @@ export abstract class ApiParser {
           );
       }
 
-      if (symbol?.startsWith("(")) {
+      if (symbol.startsWith("(")) {
         symbol = symbol.slice(1, -1);
       }
 
