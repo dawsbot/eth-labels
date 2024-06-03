@@ -1,8 +1,8 @@
 import "dotenv/config";
 import type { Browser, Page } from "playwright";
 import { describe, expect, test } from "vitest";
-import { closeBrowser, openBrowser } from "./BrowserUtil";
-import { scanConfig } from "./scan-config";
+import { closeBrowser, openBrowser } from "../utils/browser";
+import { scanConfig } from "./../scan-config";
 
 describe("ApiParsing", () => {
   test("should pull exanded etherscan", async () => {

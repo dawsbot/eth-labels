@@ -1,8 +1,9 @@
 import * as cheerio from "cheerio";
 import type { BrowserContext, Page } from "playwright";
 import type { AccountRows, TokenRows } from "../AnyscanPuller";
-import { ApiParser } from "../ApiParser";
-import { sleep } from "../utils";
+import type { ApiParser } from "../ApiParser/ApiParser";
+import { EtherscanApiParser } from "../ApiParser/EtherscanApiParser";
+import { sleep } from "../utils/sleep";
 
 export abstract class HtmlParser {
   /**
@@ -62,7 +63,7 @@ export abstract class HtmlParser {
     const baseUrl = url.split("/").slice(0, 3).join("/");
     const tokenName = `/${url.split("/").slice(3).join("/")}`;
 
-    const apiParser: ApiParser = new ApiParser(baseUrl);
+    const apiParser: ApiParser = new EtherscanApiParser(baseUrl);
     const tokenRows = await apiParser.fetchTokens(
       tokenName,
       cookiesString,

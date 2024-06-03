@@ -10,6 +10,7 @@ export async function openBrowser(): Promise<{ browser: Browser; page: Page }> {
   const page = await context.newPage();
   return { browser, page };
 }
+
 export function closeBrowser(browser: Browser) {
   return browser.close();
 }
