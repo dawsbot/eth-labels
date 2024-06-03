@@ -3,17 +3,6 @@ import type { Page } from "playwright";
 import { z } from "zod";
 import type { TokenRow, TokenRows } from "./../AnyscanPuller";
 
-export type ApiResponse = {
-  d: {
-    data: Array<{
-      tokenName: string;
-      tokenImage?: string;
-      website: string;
-      contractAddress: string;
-    }>;
-  };
-};
-
 const ApiResponseSchema = z.object({
   d: z
     .object({
@@ -30,6 +19,8 @@ const ApiResponseSchema = z.object({
     })
     .passthrough(),
 });
+
+export type ApiResponse = z.infer<typeof ApiResponseSchema>;
 
 export abstract class ApiParser {
   protected readonly baseUrl: string;
