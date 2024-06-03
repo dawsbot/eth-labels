@@ -41,7 +41,6 @@
     "cheerio": "^1.0.0-rc.12",
     "cli-progress": "^3.12.0",
     "concurrently": "^8.2.2",
-    "csv-parse": "^5.0.4",
     "dotenv": "^16.4.5",
     "eslint": "^8.57.0",
     "eslint-config-prettier": "^9.1.0",
