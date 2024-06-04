@@ -95,6 +95,16 @@ More chains coming soon
 - Where does this data come from?
   - This data is already organized by the kind folks at Etherscan. Unfortunately that data is not accessible for researchers, so we've copied the data out and into a more shareable format here.
 
+## API (Pre-Alpha)
+
+A public API to consume this data is under active development. To use this api locally, you can start it with the following commands:
+
+```sh
+bun run dev:api
+```
+
+Documentation for the API is available via swagger at `/swagger`
+
 ## Star History
 
 [![Star History Chart](https://api.star-history.com/svg?repos=dawsbot/evm-labels&type=Date)](https://star-history.com/#dawsbot/evm-labels&Date)
