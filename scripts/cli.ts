@@ -8,13 +8,13 @@ export async function getChainConfig(): Promise<
   ReadonlyArray<KeyOfScanConfig>
 > {
   const chains = Object.keys(scanConfig);
-  const selected: Answers = (await inquirer.prompt([
+  const selected = await inquirer.prompt<Answers>([
     {
       type: "checkbox",
       name: "chains",
       message: "Select chains to pull",
       choices: chains,
     },
-  ])) as Answers;
+  ]);
   return selected.chains as ReadonlyArray<KeyOfScanConfig>;
 }
