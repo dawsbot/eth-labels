@@ -37,6 +37,7 @@
   },
   "devDependencies": {
     "@types/cli-progress": "^3.11.5",
+    "@types/inquirer": "^9.0.7",
     "@types/markdown-magic": "^1.0.4",
     "@types/node": "^20.14.1",
     "cheerio": "^1.0.0-rc.12",
@@ -65,6 +66,7 @@
   },
   "dependencies": {
     "@elysiajs/swagger": "^1.0.5",
-    "elysia": "^1.0.22"
+    "elysia": "^1.0.22",
+    "inquirer": "^9.2.23"
   }
 }
