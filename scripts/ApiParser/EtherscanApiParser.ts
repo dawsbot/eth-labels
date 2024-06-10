@@ -38,27 +38,22 @@ export class EtherscanApiParser extends ApiParser {
         },
         { baseUrl, cookie, tokenName },
       )
-      .then((received) => {
-        received.d.data = received.d.data.filter((token) => {
+      .then((res) => {
+        res.d.data = res.d.data.filter((token) => {
           if (token.website === null || token.tokenName === null) {
             return false;
           }
           return true;
         });
-        return received;
+        return res;
       })
-      .then((received) => {
-        this.verifyApiResponse(received);
-        return received;
+      .then((res) => {
+        this.verifyApiResponse(res);
+        return res;
       })
-      .then((verifiedResponse) => this.convertToTokenRows(verifiedResponse))
-      .then((tokensRaw) => {
-        console.log(tokenName.split("/")[3].split("?")[0], tokensRaw.length);
-        return tokensRaw;
-      })
-      .then((tokensRaw) => this.filterResponse(tokensRaw))
-      .catch((error) => {
-        console.log(error, tokenName.split("/")[3].split("?")[0]);
+      .then((verifiedRes) => this.convertToTokenRows(verifiedRes))
+      .then((data) => this.filterResponse(data))
+      .catch(() => {
         return [];
       });
 
