@@ -8,6 +8,7 @@ export class EtherscanApiParser extends ApiParser {
     tokenName: string,
     cookie: string,
     page: Page,
+    subcatId: string,
   ): Promise<TokenRows> {
     const baseUrl: string = this.baseUrl;
     const response: TokenRows = await page
@@ -16,6 +17,7 @@ export class EtherscanApiParser extends ApiParser {
           baseUrl: string;
           cookie: string;
           tokenName: string;
+          subcatId: string;
         }) => {
           const data: Response = await fetch(
             `${params.baseUrl}/tokens.aspx/GetTokensBySubLabel`,
@@ -26,17 +28,17 @@ export class EtherscanApiParser extends ApiParser {
                 "content-type": "application/json",
                 priority: "u=1, i",
                 cookie: params.cookie,
-                Referer: `${params.baseUrl}${params.tokenName}&subcatid=1`,
+                Referer: `${params.baseUrl}${params.tokenName}&subcatid=${params.subcatId}`,
               },
 
-              body: `{"dataTableModel":{"draw":2,"columns":[{"data":"number","name":"","searchable":true,"orderable":false,"search":{"value":"","regex":false}},{"data":"contractAddress","name":"","searchable":true,"orderable":false,"search":{"value":"","regex":false}},{"data":"tokenName","name":"","searchable":true,"orderable":true,"search":{"value":"","regex":false}},{"data":"marketCap","name":"","searchable":true,"orderable":true,"search":{"value":"","regex":false}},{"data":"holders","name":"","searchable":true,"orderable":true,"search":{"value":"","regex":false}},{"data":"website","name":"","searchable":true,"orderable":false,"search":{"value":"","regex":false}}],"order":[{"column":3,"dir":"desc"}],"start":0,"length":100,"search":{"value":"","regex":false}},"labelModel":{"label":"${params.tokenName.split("/")[3].split("?")[0]}","subCategoryId":"0"}}`,
+              body: `{"dataTableModel":{"draw":2,"columns":[{"data":"number","name":"","searchable":true,"orderable":false,"search":{"value":"","regex":false}},{"data":"contractAddress","name":"","searchable":true,"orderable":false,"search":{"value":"","regex":false}},{"data":"tokenName","name":"","searchable":true,"orderable":true,"search":{"value":"","regex":false}},{"data":"marketCap","name":"","searchable":true,"orderable":true,"search":{"value":"","regex":false}},{"data":"holders","name":"","searchable":true,"orderable":true,"search":{"value":"","regex":false}},{"data":"website","name":"","searchable":true,"orderable":false,"search":{"value":"","regex":false}}],"order":[{"column":3,"dir":"desc"}],"start":0,"length":100,"search":{"value":"","regex":false}},"labelModel":{"label":"${params.tokenName.split("/")[3].split("?")[0]}","subCategoryId":"${params.subcatId}"}}`,
               method: "POST",
             },
           );
           const json: ApiResponse = (await data.json()) as ApiResponse;
           return json;
         },
-        { baseUrl, cookie, tokenName },
+        { baseUrl, cookie, tokenName, subcatId },
       )
       .then((res) => {
         res.d.data = res.d.data.filter((token) => {
