@@ -136,7 +136,9 @@ export class AnyscanPuller {
     if (navPills.length > 0) {
       const anchors = navPills.find("li > a");
       const subcatIds: Array<string> = anchors.toArray().map((anchor) => {
-        const subcatId = z.string().parse($(anchor).attr("val"));
+        const subcatId = z
+          .string()
+          .parse($(anchor).attr("data-sub-category-id"));
         return subcatId;
       });
       for (const subcatId of subcatIds) {
@@ -150,7 +152,6 @@ export class AnyscanPuller {
         tokenRows = [...tokenRows, ...subcatTokens];
       }
     } else {
-      console.log(`no navpills for ${url}`);
       tokenRows = this.#useApi
         ? await this.#htmlParser.selectAllTokenAddressesApi(page, url, "0")
         : this.#htmlParser.selectAllTokenAddresses(tokensHtml);
@@ -193,7 +194,6 @@ export class AnyscanPuller {
         accountRows = [...accountRows, ...subcatAddresses];
       }
     } else {
-      console.log(`no navpills for ${url}`);
       accountRows = this.#htmlParser.selectAllAccountAddresses(
         addressesHtml,
         "0",
