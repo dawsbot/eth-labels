@@ -54,6 +54,7 @@ export abstract class HtmlParser {
   public async selectAllTokenAddressesApi(
     page: Page,
     url: string,
+    subcatId: string,
   ): Promise<TokenRows> {
     const context: BrowserContext = page.context();
     const cookies = await context.cookies();
@@ -68,6 +69,7 @@ export abstract class HtmlParser {
       tokenName,
       cookiesString,
       page,
+      subcatId,
     );
     const sleepTime = Math.floor(Math.random() * 2000) + 1000; // Random time between 1 and 3 seconds in milliseconds
     await sleep(sleepTime);

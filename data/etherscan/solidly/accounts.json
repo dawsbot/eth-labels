@@ -28,6 +28,10 @@
     "nameTag": "Solidly V3: FTM"
   },
   {
+    "address": "0x18f68584ef08e312085f72c2a77889b71f1c024b",
+    "nameTag": "Solidly V3: G"
+  },
+  {
     "address": "0xff64b25c46114242aef2a3c55788faef2024075a",
     "nameTag": "Solidly V3: HACHI"
   },
@@ -50,6 +54,10 @@
   {
     "address": "0x53cce50d77f4e18c8bb633dd1c2fbe99e0fb71be",
     "nameTag": "Solidly V3: SOLID"
+  },
+  {
+    "address": "0xb3ccf7e0836408aa8b69f5f1ddbe8a1fdbf21f00",
+    "nameTag": "Solidly V3: TRUMP"
   },
   {
     "address": "0x831bf48183b999fde45294b14b55199072f0801b",

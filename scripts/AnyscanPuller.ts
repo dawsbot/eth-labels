@@ -128,14 +128,35 @@ export class AnyscanPuller {
   }
 
   #pullTokenRows = async (url: string, page: Page): Promise<TokenRows> => {
-    const addressesHtml = await this.#fetchPageHtml(
-      url,
-      page,
-      "tr > td > div > a",
-    );
-    const tokenRows: TokenRows = this.#useApi
-      ? await this.#htmlParser.selectAllTokenAddressesApi(page, url)
-      : this.#htmlParser.selectAllTokenAddresses(addressesHtml); // Add type annotation to ensure correct type
+    const tokensSelector = "tr > td > div > a";
+    const tokensHtml = await this.#fetchPageHtml(url, page, tokensSelector);
+    const $ = cheerio.load(tokensHtml);
+    const navPills = $(".nav-pills");
+    let tokenRows: TokenRows = [];
+    if (navPills.length > 0) {
+      const anchors = navPills.find("li > a");
+      const subcatIds: Array<string> = anchors.toArray().map((anchor) => {
+        const subcatId = z
+          .string()
+          .parse($(anchor).attr("data-sub-category-id"));
+        return subcatId;
+      });
+      for (const subcatId of subcatIds) {
+        const subcatTokens = this.#useApi
+          ? await this.#htmlParser.selectAllTokenAddressesApi(
+              page,
+              url,
+              subcatId,
+            )
+          : this.#htmlParser.selectAllTokenAddresses(tokensHtml);
+        tokenRows = [...tokenRows, ...subcatTokens];
+      }
+    } else {
+      tokenRows = this.#useApi
+        ? await this.#htmlParser.selectAllTokenAddressesApi(page, url, "0")
+        : this.#htmlParser.selectAllTokenAddresses(tokensHtml);
+    }
+    // Add type annotation to ensure correct type
     return tokenRows.map((tokenRow) => {
       const newTokenRow = {
         ...tokenRow,
@@ -173,7 +194,6 @@ export class AnyscanPuller {
         accountRows = [...accountRows, ...subcatAddresses];
       }
     } else {
-      console.log(`no navpills for ${url}`);
       accountRows = this.#htmlParser.selectAllAccountAddresses(
         addressesHtml,
         "0",
