@@ -598,6 +598,10 @@
     "nameTag": "Black Rabbit AI: Old BRAIN Token"
   },
   {
+    "address": "0xf434908dcf8206691bb99cae9232d4833ec257d4",
+    "nameTag": "Blackjack.fun Coin: Old JACK Token"
+  },
+  {
     "address": "0xaec7e1f531bb09115103c53ba76829910ec48966",
     "nameTag": "Blank: Old BLANK Token"
   },
@@ -612,6 +616,10 @@
   {
     "address": "0x3607f34271b8d734e323690dd71a0212627f91e5",
     "nameTag": "Blockchain Labs Asia: Old Token 2"
+  },
+  {
+    "address": "0x8a6d4c8735371ebaf8874fbd518b56edd66024eb",
+    "nameTag": "BLOCKS DAO: Old BLOCKS Token"
   },
   {
     "address": "0x6750c97aa8a1b388ed560a06aefd64d457455ba7",
@@ -2592,6 +2600,10 @@
   {
     "address": "0x3bcfe4786ce5669fe06282ebf11afe3d0f606cda",
     "nameTag": "Leaxcoin: Old Token"
+  },
+  {
+    "address": "0xd4568d313fa2d5c6eba37c9f30f6fb8d1c552ddd",
+    "nameTag": "Ledgity Yield: Old LDY Token"
   },
   {
     "address": "0x7bec98609cb6378d6f995e8f8097ee78376fbec9",

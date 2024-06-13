@@ -24,10 +24,6 @@
     "nameTag": "1inch v3: Aggregation Router"
   },
   {
-    "address": "0x1111111254fb6c44bac0bed2854e76f90643097d",
-    "nameTag": "1inch v4: Aggregation Router"
-  },
-  {
     "address": "0x1111111254eeb25477b68fb85ed929f73a960582",
     "nameTag": "1inch v5: Aggregation Router"
   },
@@ -142,5 +138,9 @@
   {
     "address": "0xf779bdde38c39138dcaf1514b8a6b8a6c165642d",
     "nameTag": "1inch: Whitelist info"
+  },
+  {
+    "address": "0x1111111254fb6c44bac0bed2854e76f90643097d",
+    "nameTag": "Aggregation Router V4"
   }
 ]

@@ -88,6 +88,10 @@
     "nameTag": "SushiSwap: $TRIA"
   },
   {
+    "address": "0xd9a1df87e01b31f1154f788041625030af1927be",
+    "nameTag": "SushiSwap: $TUCKER"
+  },
+  {
     "address": "0x4ed15b5fe78a6c6c9bf098cfd1bbf2a3fdb6897a",
     "nameTag": "SushiSwap: $VDOGE"
   },
@@ -642,6 +646,10 @@
   {
     "address": "0x201e6a9e75df132a8598720433af35fe8d73e94d",
     "nameTag": "SushiSwap: ANT 2"
+  },
+  {
+    "address": "0xc51d83bccc8963e5e3714242e6ae97b9050e0bcd",
+    "nameTag": "SushiSwap: ANTI-USDT"
   },
   {
     "address": "0xa3ca378c543ff48ee25d4132e4eb3fed1d3fcda1",
@@ -2274,6 +2282,10 @@
   {
     "address": "0xe6c780d5f8f58c46f3b7736c5fface303b0f5c0a",
     "nameTag": "SushiSwap: CAT 3"
+  },
+  {
+    "address": "0x81b851786b8541c4b22a89a3896aab90c800e343",
+    "nameTag": "SushiSwap: CATAI"
   },
   {
     "address": "0x8ee965691c81a16a33642b14ff73fbd9ecac7fe4",
@@ -7392,6 +7404,10 @@
     "nameTag": "SushiSwap: LYRA"
   },
   {
+    "address": "0x476aad8dcd77401c78dd3d029ef3523d9a10a7e5",
+    "nameTag": "SushiSwap: MAG"
+  },
+  {
     "address": "0xa5c2584e54864e5b5a4d468ee0a3172abd93a08d",
     "nameTag": "SushiSwap: MAGI"
   },
@@ -9192,6 +9208,10 @@
     "nameTag": "SushiSwap: PepeBurn"
   },
   {
+    "address": "0x2e5111fa53695734d6a351481a2978d35e32260d",
+    "nameTag": "SushiSwap: PEPECN"
+  },
+  {
     "address": "0xf14b332340b120e9bb226941bc29f848f44fd133",
     "nameTag": "SushiSwap: PEPEPE"
   },
@@ -9974,6 +9994,10 @@
   {
     "address": "0xe193569cc499d606fd08220166b56c1835495b5d",
     "nameTag": "SushiSwap: RACE"
+  },
+  {
+    "address": "0x7a6b3713765d881756bae0a06799f59f11b8df98",
+    "nameTag": "SushiSwap: RACKS"
   },
   {
     "address": "0x42cb55ad916db46574ce1a962beb9012ce5f2b34",
@@ -12980,6 +13004,10 @@
     "nameTag": "SushiSwap: TTT"
   },
   {
+    "address": "0xd1056e5ee04f505212793c45ad137d72c00dddad",
+    "nameTag": "SushiSwap: TTT 2"
+  },
+  {
     "address": "0xbee7f1bf6ed4d9c6929b8db9a7c1ed4e5bebbb77",
     "nameTag": "SushiSwap: TTT-USDT"
   },
@@ -13068,6 +13096,10 @@
     "nameTag": "SushiSwap: TWOGE"
   },
   {
+    "address": "0xec7a362d55e816de0f92c3abf2ad3920cb791481",
+    "nameTag": "SushiSwap: TWR"
+  },
+  {
     "address": "0xb2c98ff85c650d642402a16e02d87d8a433f1212",
     "nameTag": "SushiSwap: TWT"
   },
@@ -13078,6 +13110,10 @@
   {
     "address": "0x1365707157a1ec841064a18d2a1771c677df9a1c",
     "nameTag": "SushiSwap: TXL"
+  },
+  {
+    "address": "0x4366fdaea42d34a5dd1208b97278ab5ba4ee1393",
+    "nameTag": "SushiSwap: TYBENG"
   },
   {
     "address": "0xad5e7d53dadebe7e59f67ef10632a6b2149a981d",
@@ -13422,6 +13458,10 @@
   {
     "address": "0x5326f93507bd2629d3126bec9eef7124d93fcb64",
     "nameTag": "SushiSwap: USDC-AMPL"
+  },
+  {
+    "address": "0x827ab52b6a1400005fea8470df70361f65eabf75",
+    "nameTag": "SushiSwap: USDC-ANTI"
   },
   {
     "address": "0x81ef0c70fa76c8e7563cb26ee34a2e7f2a77c410",
@@ -14666,6 +14706,10 @@
   {
     "address": "0x6a0ad455a6a6b809e8e177d094bab1f04ae36497",
     "nameTag": "SushiSwap: WHL"
+  },
+  {
+    "address": "0x6507165dfad25a215149387962a60153db482a1f",
+    "nameTag": "SushiSwap: wHVT"
   },
   {
     "address": "0x839b6ceca69a2d5d572d793b693bbb2d6e91d940",

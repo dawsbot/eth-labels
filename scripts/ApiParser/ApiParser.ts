@@ -87,6 +87,7 @@ export abstract class ApiParser {
     tokenName: string,
     cookie: string,
     page: Page,
+    subcatId: string,
   ): Promise<TokenRows>;
 
   public verifyApiResponse(response: unknown): void {

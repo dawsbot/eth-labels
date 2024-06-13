@@ -12,10 +12,6 @@
     "nameTag": "1inch v2: Aggregation Router"
   },
   {
-    "address": "0x1111111254fb6c44bac0bed2854e76f90643097d",
-    "nameTag": "1inch v4: Aggregation Router"
-  },
-  {
     "address": "0x1111111254eeb25477b68fb85ed929f73a960582",
     "nameTag": "1inch v5: Aggregation Router"
   },
@@ -42,6 +38,10 @@
   {
     "address": "0xe8fff15bb5e14095bfdfa8bb85d83cc900c23c56",
     "nameTag": "AfroDex"
+  },
+  {
+    "address": "0x1111111254fb6c44bac0bed2854e76f90643097d",
+    "nameTag": "Aggregation Router V4"
   },
   {
     "address": "0x4572f2554421bd64bef1c22c8a81840e8d496bea",

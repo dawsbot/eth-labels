@@ -19,6 +19,7 @@ describe("ApiParsing", () => {
     const data = await etherscanHtmlParser.selectAllTokenAddressesApi(
       page,
       url,
+      "1",
     );
     expect(data).toContainEqual({
       tokenName: "Aave interest bearing WBTC",
