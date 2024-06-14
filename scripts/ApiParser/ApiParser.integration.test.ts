@@ -1,8 +1,9 @@
 import "dotenv/config";
 import type { Browser, Page } from "playwright";
 import { describe, expect, test } from "vitest";
+import { EtherscanChain } from "../Chain/EtherscanChain";
+import type { EtherscanHtmlParser } from "../HtmlParser/EtherscanParser";
 import { closeBrowser, openBrowser } from "../utils/browser";
-import { scanConfig } from "./../scan-config";
 
 describe("ApiParsing", () => {
   test("should pull exanded etherscan", async () => {
@@ -10,8 +11,10 @@ describe("ApiParsing", () => {
       browser: Browser;
       page: Page;
     };
-    const etherscanHtmlParser = scanConfig["etherscan"].htmlParser;
-    const baseUrl = scanConfig["etherscan"].website;
+    const etherscanChain = new EtherscanChain();
+    const etherscanHtmlParser = etherscanChain.puller as EtherscanHtmlParser;
+    const baseUrl = etherscanChain.website;
+
     await etherscanHtmlParser.login(page, baseUrl);
     const url = "https://etherscan.io/tokens/label/aave?size=100";
     await page.goto(url);

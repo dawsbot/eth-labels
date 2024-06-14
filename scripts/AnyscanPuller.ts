@@ -8,8 +8,8 @@ import { z } from "zod";
 import { parseError } from "./utils/error-parse";
 
 import { fileURLToPath } from "url";
+import type { Chain } from "./Chain/Chain";
 import type { HtmlParser } from "./HtmlParser/HtmlParser";
-import { scanConfig } from "./scan-config";
 import { sleep } from "./utils/sleep";
 const __filename = fileURLToPath(import.meta.url);
 const __dirname = path.dirname(__filename);
@@ -46,12 +46,19 @@ export class AnyscanPuller {
    * @example
    * const etherscanPuller = new AnyscanPuller(etherscan);
    */
-  public constructor(directoryName: keyof typeof scanConfig) {
-    const baseUrl: string = scanConfig[directoryName].website;
-    this.baseUrl = z.string().url().startsWith("https://").parse(baseUrl);
-    const filenameRegex = /^[a-z0-9_\-.]+$/;
-    this.#directoryName = z.string().regex(filenameRegex).parse(directoryName);
-    this.#htmlParser = scanConfig[directoryName].htmlParser;
+  // public constructor(directoryName: keyof typeof scanConfig) {
+  //   const baseUrl: string = scanConfig[directoryName].website;
+  //   this.baseUrl = z.string().url().startsWith("https://").parse(baseUrl);
+  //   const filenameRegex = /^[a-z0-9_\-.]+$/;
+  //   this.#directoryName = z.string().regex(filenameRegex).parse(directoryName);
+  //   this.#htmlParser = scanConfig[directoryName].htmlParser;
+  //   this.#useApi = this.#htmlParser.getUseApiForTokenRows();
+  // }
+
+  public constructor(chain: Chain) {
+    this.baseUrl = chain.website;
+    this.#directoryName = chain.chainName;
+    this.#htmlParser = chain.puller;
     this.#useApi = this.#htmlParser.getUseApiForTokenRows();
   }
 
