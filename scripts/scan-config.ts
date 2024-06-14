@@ -1,36 +1,17 @@
-import { ArbitrumHtmlParser } from "./HtmlParser/ArbitrumHtmlParser";
-import { BscscanHtmlParser } from "./HtmlParser/BscscanHtmlParser";
-import { CeloScanParser } from "./HtmlParser/CeloScanParser";
-import { EtherscanHtmlParser } from "./HtmlParser/EtherscanParser";
-import { OptimismHtmlParser } from "./HtmlParser/OptimismHtmlParser";
+import { ArbiscanChain } from "./Chain/ArbiscanChain";
+import { BasescanChain } from "./Chain/BasescanChain";
+import { BscscanChain } from "./Chain/BscscanChain";
+import { CeloChain } from "./Chain/CeloChain";
+import { EtherscanChain } from "./Chain/EtherscanChain";
+import { GnosisChain } from "./Chain/GnosisChain";
+import { OptimismChain } from "./Chain/OptimismChain";
 
-export const scanConfig = {
-  etherscan: {
-    website: "https://etherscan.io",
-    htmlParser: new EtherscanHtmlParser(),
-  },
-  basescan: {
-    website: "https://basescan.org",
-    htmlParser: new OptimismHtmlParser(),
-  },
-  optimism: {
-    website: "https://optimistic.etherscan.io",
-    htmlParser: new OptimismHtmlParser(),
-  },
-  arbiscan: {
-    website: "https://arbiscan.io",
-    htmlParser: new ArbitrumHtmlParser(),
-  },
-  celo: {
-    website: "https://celoscan.io",
-    htmlParser: new CeloScanParser(),
-  },
-  bscscan: {
-    website: "https://bscscan.com",
-    htmlParser: new BscscanHtmlParser(),
-  },
-  gnosis: {
-    website: "https://gnosisscan.io/",
-    htmlParser: new OptimismHtmlParser(),
-  },
-} as const;
+export const scanConfig = [
+  new EtherscanChain(),
+  new BasescanChain(),
+  new OptimismChain(),
+  new ArbiscanChain(),
+  new CeloChain(),
+  new BscscanChain(),
+  new GnosisChain(),
+] as const;
