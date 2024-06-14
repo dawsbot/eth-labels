@@ -1,7 +1,7 @@
 import { BscscanHtmlParser } from "../HtmlParser/BscscanHtmlParser";
 import { Chain } from "./Chain";
 
-export class BscscanChain extends Chain {
+export class BscscanChain extends Chain<BscscanHtmlParser> {
   public constructor() {
     const website = "https://bscscan.com";
     const chainName = "bscscan";

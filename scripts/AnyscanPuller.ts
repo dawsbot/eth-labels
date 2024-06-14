@@ -42,20 +42,7 @@ export class AnyscanPuller {
   #directoryName: string;
   #htmlParser: HtmlParser;
   #useApi: boolean;
-  /**
-   * @example
-   * const etherscanPuller = new AnyscanPuller(etherscan);
-   */
-  // public constructor(directoryName: keyof typeof scanConfig) {
-  //   const baseUrl: string = scanConfig[directoryName].website;
-  //   this.baseUrl = z.string().url().startsWith("https://").parse(baseUrl);
-  //   const filenameRegex = /^[a-z0-9_\-.]+$/;
-  //   this.#directoryName = z.string().regex(filenameRegex).parse(directoryName);
-  //   this.#htmlParser = scanConfig[directoryName].htmlParser;
-  //   this.#useApi = this.#htmlParser.getUseApiForTokenRows();
-  // }
-
-  public constructor(chain: Chain) {
+  public constructor(chain: Chain<HtmlParser>) {
     this.baseUrl = chain.website;
     this.#directoryName = chain.chainName;
     this.#htmlParser = chain.puller;

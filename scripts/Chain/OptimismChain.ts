@@ -1,7 +1,7 @@
 import { OptimismHtmlParser } from "../HtmlParser/OptimismHtmlParser";
 import { Chain } from "./Chain";
 
-export class OptimismChain extends Chain {
+export class OptimismChain extends Chain<OptimismHtmlParser> {
   public constructor() {
     const website = "https://optimistic.etherscan.io";
     const chainName = "optimism";

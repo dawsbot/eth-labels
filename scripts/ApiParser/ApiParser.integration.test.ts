@@ -2,7 +2,6 @@ import "dotenv/config";
 import type { Browser, Page } from "playwright";
 import { describe, expect, test } from "vitest";
 import { EtherscanChain } from "../Chain/EtherscanChain";
-import type { EtherscanHtmlParser } from "../HtmlParser/EtherscanParser";
 import { closeBrowser, openBrowser } from "../utils/browser";
 
 describe("ApiParsing", () => {
@@ -12,7 +11,7 @@ describe("ApiParsing", () => {
       page: Page;
     };
     const etherscanChain = new EtherscanChain();
-    const etherscanHtmlParser = etherscanChain.puller as EtherscanHtmlParser;
+    const etherscanHtmlParser = etherscanChain.puller;
     const baseUrl = etherscanChain.website;
 
     await etherscanHtmlParser.login(page, baseUrl);

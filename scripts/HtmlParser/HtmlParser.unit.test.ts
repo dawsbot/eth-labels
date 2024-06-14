@@ -7,11 +7,7 @@ import { GnosisChain } from "../Chain/GnosisChain";
 import { OptimismChain } from "../Chain/OptimismChain";
 import { FileUtilities } from "../FileSystem/FileSystem";
 import { ArbiscanChain } from "./../Chain/ArbiscanChain";
-import type { ArbitrumHtmlParser } from "./ArbitrumHtmlParser";
-import type { BscscanHtmlParser } from "./BscscanHtmlParser";
-import type { CeloScanParser } from "./CeloScanParser";
 import { EtherscanHtmlParser } from "./EtherscanParser";
-import type { OptimismHtmlParser } from "./OptimismHtmlParser";
 
 const fileUtilities = new FileUtilities(import.meta.url);
 
@@ -41,7 +37,7 @@ const arbiscanMocks = getMocks(arbiscanDirectory);
 
 describe("gnosis", () => {
   const gnosisChain = new GnosisChain();
-  const htmlParser = gnosisChain.puller as OptimismHtmlParser;
+  const htmlParser = gnosisChain.puller;
   test("should parse labelcloud", () => {
     const allLabels = htmlParser.selectAllLabels(
       gnosisMocks.mockLabelCloudHtml,
@@ -78,7 +74,7 @@ describe("gnosis", () => {
 
 describe("arbiscan", () => {
   const arbiscanChain = new ArbiscanChain();
-  const htmlParser = arbiscanChain.puller as ArbitrumHtmlParser;
+  const htmlParser = arbiscanChain.puller;
   test("should parse labelcloud", () => {
     const allLabels = htmlParser.selectAllLabels(
       arbiscanMocks.mockLabelCloudHtml,
@@ -129,7 +125,7 @@ describe("arbiscan", () => {
 });
 describe("bscscan", () => {
   const bscscanChain = new BscscanChain();
-  const htmlParser = bscscanChain.puller as BscscanHtmlParser;
+  const htmlParser = bscscanChain.puller;
   test("should parse labelcloud", () => {
     const allLabels = htmlParser.selectAllLabels(
       bscscanMocks.mockLabelCloudHtml,
@@ -173,7 +169,7 @@ describe("bscscan", () => {
 });
 describe("celo", () => {
   const celoChain = new CeloChain();
-  const htmlParser = celoChain.puller as CeloScanParser;
+  const htmlParser = celoChain.puller;
   test("should parse labelcloud", () => {
     const allLabels = htmlParser.selectAllLabels(celoMocks.mockLabelCloudHtml);
 
@@ -215,7 +211,7 @@ describe("celo", () => {
 });
 describe("optimism", () => {
   const optimismChain = new OptimismChain();
-  const htmlParser = optimismChain.puller as OptimismHtmlParser;
+  const htmlParser = optimismChain.puller;
   test("should parse labelcloud", () => {
     const allLabels = htmlParser.selectAllLabels(
       optimismMocks.mockLabelCloudHtml,
@@ -251,7 +247,7 @@ describe("optimism", () => {
 });
 describe("basescan", () => {
   const basescanChain = new BasescanChain();
-  const htmlParser = basescanChain.puller as OptimismHtmlParser;
+  const htmlParser = basescanChain.puller;
   test("should parse labelcloud", () => {
     const allLabels = htmlParser.selectAllLabels(
       basescanMocks.mockLabelCloudHtml,
@@ -288,7 +284,7 @@ describe("basescan", () => {
 
 describe("etherscan", () => {
   const etherscanChain = new EtherscanChain();
-  const htmlParser = etherscanChain.puller as EtherscanHtmlParser;
+  const htmlParser = etherscanChain.puller;
   test("should parse labelcloud", () => {
     const allLabels = htmlParser.selectAllLabels(
       etherscanMocks.mockLabelCloudHtml,
