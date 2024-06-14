@@ -1,7 +1,6 @@
 import fs from "fs";
 import path from "path";
 import { fileURLToPath } from "url";
-import { FileFormatter } from "./FileFormatter";
 
 export class FileUtilities {
   #__dirname: string;
@@ -23,19 +22,14 @@ export class FileUtilities {
     const fullPath = path.join(this.#__dirname, dirPath);
     return fs.readdirSync(fullPath, "utf8");
   }
-  public async writeFile(
-    file: string,
-    data: string | ReadonlyArray<string>,
-  ): Promise<void> {
+  public writeFile(file: string, data: string | ReadonlyArray<string>): void {
     const fullPath = path.join(this.#__dirname, file);
-    const fileFormatter = new FileFormatter();
     const stringData: string = (() => {
       if (Array.isArray(data)) {
         return JSON.stringify(data.sort());
       }
       return data as string;
     })();
-    const formattedData = await fileFormatter.formatFile(file, stringData);
-    return fs.writeFileSync(fullPath, formattedData);
+    return fs.writeFileSync(fullPath, stringData);
   }
 }
