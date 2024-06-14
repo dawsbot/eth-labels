@@ -3,4 +3,4 @@
 
 npx lint-staged --concurrent false
 npx concurrently -g -n "eslint,vitest:unit,build" -c "#341BAB,#A6CC66,#3077C6" "bun run lint" "bun run vitest:unit" "bun run build"
-bun run combine-data
+bun run markdown-magic
