@@ -14,7 +14,7 @@
 
 ## Ethereum
 
-<img src="https://raw.githubusercontent.com/dawsbot/evm-labels/v1/docs/img/etherscan.png" width="200"/></a>
+<a><img src="https://raw.githubusercontent.com/dawsbot/evm-labels/v1/docs/img/etherscan.svg" width="200"/></a>
 
 <!-- AUTO-GENERATED-CONTENT:START (lastEdited:dataDirectory=etherscan) -->
 
@@ -26,6 +26,8 @@ etherscan was last modified: May 29, 2024
 
 ## Arbitrum
 
+<a><img src="https://raw.githubusercontent.com/dawsbot/evm-labels/v1/docs/img/arbiscan.svg" width="200"/></a>
+
 <!-- AUTO-GENERATED-CONTENT:START (lastEdited:dataDirectory=arbiscan) -->
 
 arbiscan was last modified: May 22, 2024
@@ -35,6 +37,8 @@ arbiscan was last modified: May 22, 2024
 <!-- AUTO-GENERATED-CONTENT:END -->
 
 ## Optimism
+
+<a><img src="https://raw.githubusercontent.com/dawsbot/evm-labels/v1/docs/img/optimism.svg" width="200"/></a>
 
 <!-- AUTO-GENERATED-CONTENT:START (lastEdited:dataDirectory=optimism) -->
 
@@ -46,6 +50,8 @@ optimism was last modified: March 28, 2024
 
 ## Base
 
+<a><img src="https://raw.githubusercontent.com/dawsbot/evm-labels/v1/docs/img/basescan.svg" width="200"/></a>
+
 <!-- AUTO-GENERATED-CONTENT:START (lastEdited:dataDirectory=basescan) -->
 
 basescan was last modified: March 28, 2024
@@ -56,7 +62,7 @@ basescan was last modified: March 28, 2024
 
 ## Binance Smart Chain
 
-<img src="https://raw.githubusercontent.com/dawsbot/evm-labels/v1/docs/img/bscscan.svg" width="200"/></a>
+<a><img src="https://raw.githubusercontent.com/dawsbot/evm-labels/v1/docs/img/bscscan.svg" width="200"/></a>
 
 <!-- AUTO-GENERATED-CONTENT:START (lastEdited:dataDirectory=bscscan) -->
 
@@ -68,7 +74,7 @@ bscscan was last modified: April 30, 2024
 
 ## Gnosis Chain
 
-<img src="https://raw.githubusercontent.com/dawsbot/evm-labels/v1/docs/img/gnosis.svg" width="200"/></a>
+<a><img src="https://raw.githubusercontent.com/dawsbot/evm-labels/v1/docs/img/gnosis.svg" width="200"/></a>
 
 <!-- AUTO-GENERATED-CONTENT:START (lastEdited:dataDirectory=gnosis) -->
 
@@ -80,7 +86,7 @@ gnosis was last modified: April 30, 2024
 
 ## Celo
 
-<img src="https://raw.githubusercontent.com/dawsbot/evm-labels/v1/docs/img/celo.svg" width="200"/></a>
+<a><img src="https://raw.githubusercontent.com/dawsbot/evm-labels/v1/docs/img/celo.svg" width="200"/></a>
 
 <!-- AUTO-GENERATED-CONTENT:START (lastEdited:dataDirectory=celo) -->
 
