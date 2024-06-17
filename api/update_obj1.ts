@@ -1,3 +1,4 @@
+//worked to update 0x-protocol accounts w/ label & chainId of etherscan
 import { readFileSync, writeFileSync } from "fs";
 import path from "path";
 
