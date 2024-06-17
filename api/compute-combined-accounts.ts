@@ -25,20 +25,20 @@ const addLabelAndChainIdToJSON = (filePath: string) => {
   const jsonData = JSON.parse(fileContent) as Array<AccountRow>;
 
   // Get the parent directory name (e.g., 0x-protocol)
-  const parentDir = path.basename(path.dirname(filePath));
+  const labelName = path.basename(path.dirname(filePath));
 
   // Get the grandparent directory name (e.g., etherscan)
-  const grandparentDir = path.basename(path.dirname(path.dirname(filePath)));
+  const chainName = path.basename(path.dirname(path.dirname(filePath)));
 
   // Determine the chainId based on the grandparent directory name
-  const chainId = chainIdMapping[grandparentDir.toLowerCase()];
+  const chainId = chainIdMapping[chainName.toLowerCase()];
 
   const toReturn: Array<AccountDBRow> = [];
   // Add the "label" and "chainId" keys to each object
   jsonData.forEach((obj) => {
     const newObject = {
       ...obj,
-      label: parentDir,
+      label: labelName,
       chainId: chainId,
     };
     toReturn.push(newObject);
