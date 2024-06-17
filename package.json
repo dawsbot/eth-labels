@@ -5,6 +5,7 @@
   "license": "MIT",
   "type": "module",
   "scripts": {
+    "dev": "bun --watch api/index.ts",
     "dev:api": "bun run --hot api/index.ts",
     "vitest": "vitest",
     "vitest:unit": "bun run vitest unit --run",
