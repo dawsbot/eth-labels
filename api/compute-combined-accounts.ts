@@ -2,7 +2,7 @@ import { readdirSync, readFileSync } from "fs";
 import path from "path";
 import type { AccountRow } from "../scripts/AnyscanPuller";
 
-// Mapping of grandparent directory names to chain IDs
+// Mapping of chainName to chain IDs
 const chainIdMapping: { [key: string]: number } = {
   etherscan: 1,
   arbiscan: 42161,
@@ -24,13 +24,13 @@ const addLabelAndChainIdToJSON = (filePath: string) => {
   const fileContent = readFileSync(filePath, "utf-8");
   const jsonData = JSON.parse(fileContent) as Array<AccountRow>;
 
-  // Get the parent directory name (e.g., 0x-protocol)
+  // Get the labelName from parent directory (e.g., 0x-protocol)
   const labelName = path.basename(path.dirname(filePath));
 
-  // Get the grandparent directory name (e.g., etherscan)
+  // Get the "chainName" name from grandparent directory(e.g., etherscan)
   const chainName = path.basename(path.dirname(path.dirname(filePath)));
 
-  // Determine the chainId based on the grandparent directory name
+  // Determine the chainId based on the chainName
   const chainId = chainIdMapping[chainName.toLowerCase()];
 
   const toReturn: Array<AccountDBRow> = [];
@@ -50,7 +50,7 @@ const addLabelAndChainIdToJSON = (filePath: string) => {
 // Function to recursively traverse directories and process accounts.json files
 const loadDirOrFileFromFS = (dir: string) => {
   const entries = readdirSync(dir, { withFileTypes: true });
-  let combinedData: Array<Array<AccountDBRow>> = [];
+  let combinedData: Array<AccountDBRow> = [];
 
   entries.forEach((entry) => {
     const fullPath = path.join(dir, entry.name);
