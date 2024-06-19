@@ -1,6 +1,7 @@
-import { readdirSync, readFileSync } from "fs";
+import { readFileSync } from "fs";
+import { globbySync } from "globby";
 import path from "path";
-import type { AccountRow } from "../scripts/AnyscanPuller";
+import { z } from "zod";
 
 // Mapping of grandparent directory names to chain IDs
 export const chainIdMapping: { [key: string]: number } = {
@@ -12,65 +13,49 @@ export const chainIdMapping: { [key: string]: number } = {
   bscscan: 56,
   gnosis: 100,
 };
-type AccountDBRow = {
-  chainId: number;
-  address: string;
-  label: string;
-  nameTag?: string;
-};
+const accountDBRowSchema = z.object({
+  chainId: z.number(),
+  address: z.string(),
+  label: z.string(),
+  nameTag: z.string(),
+});
+type AccountDBRow = z.infer<typeof accountDBRowSchema>;
 // Function to add "label" and "chainId" keys to each object in the JSON file
 const addLabelAndChainIdToJSON = (filePath: string) => {
   // Read the JSON file synchronously
   const fileContent = readFileSync(filePath, "utf-8");
-  const jsonData = JSON.parse(fileContent) as Array<AccountRow>;
+  const anyObjectSchema = z.object({}).passthrough();
+  const jsonData = z.array(anyObjectSchema).parse(JSON.parse(fileContent));
 
-  // Get the parent directory name (e.g., 0x-protocol)
-  const labelName = path.basename(path.dirname(filePath));
-
-  // Get the grandparent directory name (e.g., etherscan)
-  const chainName = path.basename(path.dirname(path.dirname(filePath)));
-
+  // eslint-disable-next-line @typescript-eslint/no-unused-vars
+  const [_, labelName, chainName] = filePath.split("/").reverse();
   // Determine the chainId based on the grandparent directory name
-  const chainId = chainIdMapping[chainName.toLowerCase()];
+  const chainId = chainIdMapping[chainName];
 
   const toReturn: Array<AccountDBRow> = [];
   // Add the "label" and "chainId" keys to each object
   jsonData.forEach((obj) => {
-    const newObject = {
+    const newObject = accountDBRowSchema.parse({
       ...obj,
       label: labelName,
       chainId: chainId,
-    };
+    });
     toReturn.push(newObject);
   });
 
   return toReturn;
 };
 
-// Function to recursively traverse directories and process accounts.json files
-const loadDirOrFileFromFS = (dir: string) => {
-  const entries = readdirSync(dir, { withFileTypes: true });
-  let combinedData: Array<AccountDBRow> = [];
-
-  entries.forEach((entry) => {
-    const fullPath = path.join(dir, entry.name);
-
-    if (entry.isDirectory()) {
-      // Recursively process subdirectories
-      combinedData = combinedData.concat(loadDirOrFileFromFS(fullPath));
-    } else if (entry.isFile() && entry.name === "accounts.json") {
-      // Process the accounts.json file and combine the data
-      combinedData = combinedData.concat(addLabelAndChainIdToJSON(fullPath));
-    }
-  });
-
-  return combinedData;
-};
-
-export const loadAllAccountsFromFS = () => {
-  // Base directory where the data folders are located
+const generateAllAccountFilePaths = () => {
   const baseDir = path.resolve(__dirname, "../data");
-
-  const combinedData = loadDirOrFileFromFS(baseDir);
-  return combinedData;
+  const regex = path.join(baseDir, "*/*/accounts.json");
+  const allAccountFilePaths = globbySync(regex);
+  return allAccountFilePaths;
+};
+export const loadAllAccountsFromFS = () => {
+  const allAccountFilePaths = generateAllAccountFilePaths();
+  const allFileContents = allAccountFilePaths.map((filePath) => {
+    return addLabelAndChainIdToJSON(filePath);
+  });
+  return allFileContents.flat();
 };
