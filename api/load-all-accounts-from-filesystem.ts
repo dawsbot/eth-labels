@@ -15,9 +15,9 @@ export const chainIdMapping: { [key: string]: number } = {
   gnosis: 100,
 };
 const accountDBRowSchema = z.object({
-  chainId: z.number(),
-  address: z.string(), // todo: make this always lowercase
-  label: z.string(),
+  chainId: z.number().int().min(1),
+  address: z.string().length(42).toLowerCase(), // todo: make this always lowercase
+  label: z.string().min(2),
   nameTag: z.union([z.string().min(2), z.null()]),
 });
 type AccountDBRow = z.infer<typeof accountDBRowSchema>;
@@ -38,7 +38,7 @@ const addLabelAndChainIdToJSON = (filePath: string) => {
   const toReturn: Array<AccountDBRow> = [];
   // Add the "label" and "chainId" keys to each object
   jsonData.forEach((obj) => {
-    const newObject = accountDBRowSchema.parse({
+    const newObject = {
       ...obj,
       label: labelName,
       chainId: chainId,
@@ -46,8 +46,15 @@ const addLabelAndChainIdToJSON = (filePath: string) => {
         typeof obj.nameTag === "string" && obj.nameTag?.length < 2
           ? null
           : obj.nameTag,
-    });
-    toReturn.push(newObject);
+    };
+    try {
+      toReturn.push(accountDBRowSchema.parse(newObject));
+    } catch {
+      console.log(
+        "info: ignoring address because zod parsing failed for the following object. This is NOT a problem unless there are hundreds of these: ",
+      );
+      console.dir(newObject);
+    }
   });
 
   return toReturn;
