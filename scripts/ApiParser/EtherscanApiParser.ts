@@ -5,18 +5,19 @@ import { ApiParser } from "./ApiParser";
 
 export class EtherscanApiParser extends ApiParser {
   public async fetchTokens(
-    tokenName: string,
-    cookie: string,
-    page: Page,
+    tokenUrl: string,
     subcatId: string,
   ): Promise<TokenRows> {
-    const baseUrl: string = this.baseUrl;
+    const baseUrl = this.baseUrl;
+    const cookie = this.cookies;
+    const page: Page = this.page;
+    const tokenName = tokenUrl.split("/")[5].split("?")[0];
     const response: TokenRows = await page
       .evaluate(
         async (params: {
           baseUrl: string;
-          cookie: string;
           tokenName: string;
+          cookie: string;
           subcatId: string;
         }) => {
           const data: Response = await fetch(
@@ -31,7 +32,7 @@ export class EtherscanApiParser extends ApiParser {
                 Referer: `${params.baseUrl}${params.tokenName}&subcatid=${params.subcatId}`,
               },
 
-              body: `{"dataTableModel":{"draw":2,"columns":[{"data":"number","name":"","searchable":true,"orderable":false,"search":{"value":"","regex":false}},{"data":"contractAddress","name":"","searchable":true,"orderable":false,"search":{"value":"","regex":false}},{"data":"tokenName","name":"","searchable":true,"orderable":true,"search":{"value":"","regex":false}},{"data":"marketCap","name":"","searchable":true,"orderable":true,"search":{"value":"","regex":false}},{"data":"holders","name":"","searchable":true,"orderable":true,"search":{"value":"","regex":false}},{"data":"website","name":"","searchable":true,"orderable":false,"search":{"value":"","regex":false}}],"order":[{"column":3,"dir":"desc"}],"start":0,"length":100,"search":{"value":"","regex":false}},"labelModel":{"label":"${params.tokenName.split("/")[3].split("?")[0]}","subCategoryId":"${params.subcatId}"}}`,
+              body: `{"dataTableModel":{"draw":2,"columns":[{"data":"number","name":"","searchable":true,"orderable":false,"search":{"value":"","regex":false}},{"data":"contractAddress","name":"","searchable":true,"orderable":false,"search":{"value":"","regex":false}},{"data":"tokenName","name":"","searchable":true,"orderable":true,"search":{"value":"","regex":false}},{"data":"marketCap","name":"","searchable":true,"orderable":true,"search":{"value":"","regex":false}},{"data":"holders","name":"","searchable":true,"orderable":true,"search":{"value":"","regex":false}},{"data":"website","name":"","searchable":true,"orderable":false,"search":{"value":"","regex":false}}],"order":[{"column":3,"dir":"desc"}],"start":0,"length":100,"search":{"value":"","regex":false}},"labelModel":{"label":"${params.tokenName}","subCategoryId":"${params.subcatId}"}}`,
               method: "POST",
             },
           );

@@ -1,6 +1,6 @@
-import * as cheerio from "cheerio";
 import type { Page } from "playwright";
 import { z } from "zod";
+import { CheerioParser } from "../CheerioParser";
 import type { TokenRow, TokenRows } from "./../AnyscanPuller";
 
 const ApiResponseSchema = z.object({
@@ -24,45 +24,58 @@ export type ApiResponse = z.infer<typeof ApiResponseSchema>;
 
 export abstract class ApiParser {
   protected readonly baseUrl: string;
+  protected cookies: string = "";
+  protected page: Page = undefined as unknown as Page;
+
   public constructor(url: string) {
     this.baseUrl = url;
   }
 
+  public setCookies(cookies: string): void {
+    this.cookies = cookies;
+  }
+
+  public setPage(page: Page): void {
+    this.page = page;
+  }
+
   public filterResponse(data: TokenRows): TokenRows {
     data.forEach((token: TokenRow) => {
-      const $tokenName = cheerio.load(token.tokenName);
-      const $tokenWebsite = cheerio.load(token.website);
-      const $tokenAddress = cheerio.load(token.address);
-      let title: string = z.string().parse($tokenName("a > div > span").html());
+      const cheerio = new CheerioParser();
+      cheerio.loadHtml(token.tokenName);
+      let title: string = z
+        .string()
+        .parse(cheerio.querySelector("a > div > span").html());
       let symbol: string = z
         .string()
-        .parse($tokenName("a > div > span:nth-child(2)").html());
+        .parse(cheerio.querySelector("a > div > span:nth-child(2)").html());
       const tokenImage: string = z
         .string()
-        .parse($tokenName("a > img").attr("src"));
-
+        .parse(cheerio.querySelector("a > img").attr("src"));
       if (title.startsWith("<span")) {
         title = z
           .string()
-          .parse($tokenName("a > div > span > span").attr("title"));
+          .parse(cheerio.querySelector("a > div > span > span").attr("title"));
       }
-
       if (symbol.startsWith("(<span")) {
         symbol = z
           .string()
           .parse(
-            $tokenName("a > div > span:nth-child(2) > span").attr("title"),
+            cheerio
+              .querySelector("a > div > span:nth-child(2) > span")
+              .attr("title"),
           );
       }
-
       if (symbol.startsWith("(")) {
         symbol = symbol.slice(1, -1);
       }
 
-      const website = z.string().parse($tokenWebsite("a").attr("href"));
+      cheerio.loadHtml(token.website);
+      const website = z.string().parse(cheerio.querySelector("a").attr("href"));
+      cheerio.loadHtml(token.address);
       const address = z
         .string()
-        .parse($tokenAddress("a").attr("data-bs-title"));
+        .parse(cheerio.querySelector("a").attr("data-bs-title"));
 
       token.tokenSymbol = symbol;
       token.tokenName = title;
@@ -85,8 +98,6 @@ export abstract class ApiParser {
 
   public abstract fetchTokens(
     tokenName: string,
-    cookie: string,
-    page: Page,
     subcatId: string,
   ): Promise<TokenRows>;
 

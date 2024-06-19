@@ -31,4 +31,24 @@ export class CheerioParser {
     const elements = this.#$(selector);
     return elements;
   };
+
+  public text(element: Element) {
+    return this.#$(element).text();
+  }
+
+  public selectAllLabels = (html: string): ReadonlyArray<string> => {
+    this.loadHtml(html);
+    const parent = this.querySelector("div > div > div.row.mb-3");
+    let anchors: ReadonlyArray<string> = [];
+    parent.find("a").each((index, element) => {
+      const pathname = this.getAttr(element, "href");
+      if (typeof pathname !== "string") {
+        console.log(`returning early because "${pathname}" is not a string`);
+        return;
+      }
+      const href = `${pathname}?size=100&start=0`;
+      anchors = [...anchors, href];
+    });
+    return anchors;
+  };
 }

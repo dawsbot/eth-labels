@@ -1,7 +1,7 @@
 import type { Answers } from "inquirer";
 import inquirer from "inquirer";
+import type { ApiParser } from "./ApiParser/ApiParser";
 import type { Chain } from "./Chain/Chain";
-import type { HtmlParser } from "./HtmlParser/HtmlParser";
 import { scanConfig } from "./scan-config";
 
 export async function getChainConfig() {
@@ -16,6 +16,6 @@ export async function getChainConfig() {
       message: "Select chains to pull",
       choices: chains,
     },
-  ])) as { chains: ReadonlyArray<Chain<HtmlParser>> };
+  ])) as { chains: ReadonlyArray<Chain<ApiParser>> };
   return selected.chains;
 }

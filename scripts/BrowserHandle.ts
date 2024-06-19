@@ -50,8 +50,12 @@ export class BrowserHandle {
       .map((cookie) => `${cookie.name}=${cookie.value}`)
       .join("; ");
     this.#chain.puller.setCookies(cookieString);
-
+    this.#chain.puller.setPage(this.#page);
     console.log(`✅ Login completed!`);
+  }
+
+  public async navigate(url: string) {
+    await this.#page.goto(url);
   }
 
   public async fetchPageHtml(url: string): Promise<string> {

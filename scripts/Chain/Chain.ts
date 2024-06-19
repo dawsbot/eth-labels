@@ -1,7 +1,7 @@
 import { z } from "zod";
-import type { HtmlParser } from "../HtmlParser/HtmlParser";
+import type { ApiParser } from "../ApiParser/ApiParser";
 
-export class Chain<T extends HtmlParser> {
+export class Chain<T extends ApiParser> {
   public website: string;
   public chainName: string;
   public puller: T;
