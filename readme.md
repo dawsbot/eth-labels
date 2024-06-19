@@ -1,12 +1,12 @@
 <p align="center">
-  <a><img src="https://raw.githubusercontent.com/dawsbot/evm-labels/v1/docs/img/etherscan.png" title="Logo" width="400"/></a>
+  <a><img src="https://raw.githubusercontent.com/dawsbot/eth-labels/v1/docs/img/etherscan.png" title="Logo" width="400"/></a>
 </p>
 <p align="center">
   <b>
-    EVM Labels
+    Eth Labels
   </b>
   <br>
-  <i>A public dataset of crypto addresses labeled (<a href="https://etherscan.io/labelcloud">Ethereum and more</a></i>)
+  <i>A public dataset of crypto addresses labeled (<a href="https://etherscan.io/labelcloud">Ethereum and MANY more EVM chains</a></i>)
   <br>
 </p>
 
@@ -14,7 +14,7 @@
 
 ## Ethereum
 
-<img src="https://raw.githubusercontent.com/dawsbot/evm-labels/v1/docs/img/etherscan.png" width="200"/></a>
+<img src="https://raw.githubusercontent.com/dawsbot/eth-labels/v1/docs/img/etherscan.png" width="200"/></a>
 
 <!-- AUTO-GENERATED-CONTENT:START (lastEdited:dataDirectory=etherscan) -->
 
@@ -56,7 +56,7 @@ basescan was last modified: June 14, 2024
 
 ## Binance Smart Chain
 
-<img src="https://raw.githubusercontent.com/dawsbot/evm-labels/v1/docs/img/bscscan.svg" width="200"/></a>
+<img src="https://raw.githubusercontent.com/dawsbot/eth-labels/v1/docs/img/bscscan.svg" width="200"/></a>
 
 <!-- AUTO-GENERATED-CONTENT:START (lastEdited:dataDirectory=bscscan) -->
 
@@ -68,7 +68,7 @@ bscscan was last modified: June 14, 2024
 
 ## Gnosis Chain
 
-<img src="https://raw.githubusercontent.com/dawsbot/evm-labels/v1/docs/img/gnosis.svg" width="200"/></a>
+<img src="https://raw.githubusercontent.com/dawsbot/eth-labels/v1/docs/img/gnosis.svg" width="200"/></a>
 
 <!-- AUTO-GENERATED-CONTENT:START (lastEdited:dataDirectory=gnosis) -->
 
@@ -80,7 +80,7 @@ gnosis was last modified: June 14, 2024
 
 ## Celo
 
-<img src="https://raw.githubusercontent.com/dawsbot/evm-labels/v1/docs/img/celo.svg" width="200"/></a>
+<img src="https://raw.githubusercontent.com/dawsbot/eth-labels/v1/docs/img/celo.svg" width="200"/></a>
 
 <!-- AUTO-GENERATED-CONTENT:START (lastEdited:dataDirectory=celo) -->
 
@@ -107,4 +107,4 @@ Documentation for the API is available via swagger at `/swagger`
 
 ## Star History
 
-[![Star History Chart](https://api.star-history.com/svg?repos=dawsbot/evm-labels&type=Date)](https://star-history.com/#dawsbot/evm-labels&Date)
+[![Star History Chart](https://api.star-history.com/svg?repos=dawsbot/eth-labels&type=Date)](https://star-history.com/#dawsbot/eth-labels&Date)
