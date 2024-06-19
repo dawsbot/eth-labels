@@ -17,7 +17,8 @@
     "tsc": "tsc -p tsconfig.json",
     "postversion": "git push --follow-tags",
     "prepublishOnly": "bun run build",
-    "markdown-magic": "npx tsx docs/markdown-magic.ts"
+    "markdown-magic": "npx tsx docs/markdown-magic.ts",
+    "db:migrate": "npx tsx scripts/db/migrator.ts"
   },
   "repository": {
     "type": "git",
@@ -35,10 +36,12 @@
     ]
   },
   "devDependencies": {
+    "@types/better-sqlite3": "^7.6.10",
     "@types/cli-progress": "^3.11.5",
     "@types/inquirer": "^9.0.7",
     "@types/markdown-magic": "^1.0.4",
     "@types/node": "^20.14.1",
+    "better-sqlite3": "^11.0.0",
     "cheerio": "^1.0.0-rc.12",
     "cli-progress": "^3.12.0",
     "concurrently": "^8.2.2",
@@ -49,6 +52,7 @@
     "globby": "^14.0.1",
     "husky": "^9.0.11",
     "inquirer": "^9.2.23",
+    "kysely": "^0.27.3",
     "lint-staged": "^15.2.5",
     "markdown-magic": "^2.6.1",
     "npm-run-all": "^4.1.5",
