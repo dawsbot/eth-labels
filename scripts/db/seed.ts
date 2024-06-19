@@ -1,5 +1,5 @@
 import { loadAllAccountsFromFS } from "../../api/load-all-accounts-from-filesystem";
-import { createAccounts } from "./AccountsRepository";
+import { AccountsRepository } from "./repositories/AccountsRepository";
 
 const allAccountRows = loadAllAccountsFromFS();
-await createAccounts(allAccountRows);
+await AccountsRepository.createAccounts(allAccountRows);

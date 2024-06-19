@@ -16,7 +16,7 @@ export const chainIdMapping: { [key: string]: number } = {
 };
 const accountDBRowSchema = z.object({
   chainId: z.number(),
-  address: z.string(),
+  address: z.string(), // todo: make this always lowercase
   label: z.string(),
   nameTag: z.union([z.string().min(2), z.null()]),
 });
