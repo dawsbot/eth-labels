@@ -1,5 +1,5 @@
 <p align="center">
-  <a><img src="https://raw.githubusercontent.com/dawsbot/eth-labels/v1/docs/img/etherscan.png" title="Logo" width="400"/></a>
+  <a><img src="https://raw.githubusercontent.com/dawsbot/eth-labels/v1/docs/img/etherscan.svg" title="Logo" width="400"/></a>
 </p>
 <p align="center">
   <b>
@@ -14,7 +14,7 @@
 
 ## Ethereum
 
-<img src="https://raw.githubusercontent.com/dawsbot/eth-labels/v1/docs/img/etherscan.png" width="200"/></a>
+<img src="https://raw.githubusercontent.com/dawsbot/eth-labels/v1/docs/img/etherscan.svg" width="200"/></a>
 
 <!-- AUTO-GENERATED-CONTENT:START (lastEdited:dataDirectory=etherscan) -->
 
