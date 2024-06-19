@@ -46,14 +46,14 @@ const addLabelAndChainIdToJSON = (filePath: string) => {
   return toReturn;
 };
 
-const generateAllAccountFilePaths = () => {
+const computeAllAccountFilePaths = () => {
   const baseDir = path.resolve(__dirname, "../data");
   const regex = path.join(baseDir, "*/*/accounts.json");
   const allAccountFilePaths = globbySync(regex);
   return allAccountFilePaths;
 };
 export const loadAllAccountsFromFS = () => {
-  const allAccountFilePaths = generateAllAccountFilePaths();
+  const allAccountFilePaths = computeAllAccountFilePaths();
   const allFileContents = allAccountFilePaths.map((filePath) => {
     return addLabelAndChainIdToJSON(filePath);
   });
