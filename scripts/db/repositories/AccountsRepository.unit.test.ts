@@ -4,9 +4,8 @@ import { AccountsRepository } from "./AccountsRepository";
 describe("AccountsRepository", () => {
   test("selectAllAccounts", async () => {
     const accountRows = await AccountsRepository.selectAllAccounts();
-    expect(accountRows.length).toBe(93_708);
+    expect(accountRows.length).toBe(55_231);
     expect(accountRows).toContainEqual({
-      id: 26134,
       chainId: 1,
       address: "0x4f86d1d365434bfbc1e818534d353ffc1a06f8fe",
       label: "coinbase",
@@ -19,7 +18,6 @@ describe("AccountsRepository", () => {
     expect(accountRows.length).toBeGreaterThan(130);
     expect(accountRows.length).toBeLessThan(150);
     expect(accountRows).toContainEqual({
-      id: 26134,
       chainId: 1,
       address: "0x4f86d1d365434bfbc1e818534d353ffc1a06f8fe",
       label: "coinbase",
@@ -36,7 +34,6 @@ describe("AccountsRepository", () => {
       expect(accountRows).toContainEqual({
         address: "0x0000000000000000000000000000000000000000",
         chainId: 1,
-        id: 21452,
         label: "blocked",
         nameTag: "Null: 0x000...000",
       });
@@ -50,7 +47,6 @@ describe("AccountsRepository", () => {
       expect(accountRows).toContainEqual({
         address: "0xb8487eed31cf5c559bf3f4edd166b949553d0d11",
         chainId: 1,
-        id: 26088,
         label: "coinbase",
         nameTag: "Coinbase Cold 10",
       });

@@ -17,8 +17,7 @@
     "tsc": "tsc -p tsconfig.json",
     "postversion": "git push --follow-tags",
     "prepublishOnly": "bun run build",
-    "markdown-magic": "npx tsx docs/markdown-magic.ts",
-    "db:migrate": "npx tsx scripts/db/migrator.ts"
+    "markdown-magic": "npx tsx docs/markdown-magic.ts"
   },
   "repository": {
     "type": "git",

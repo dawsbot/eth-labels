@@ -3,19 +3,37 @@ import type { NewAccount } from "../types";
 
 export class AccountsRepository {
   public static selectAllAccounts() {
-    return db.selectFrom("accounts").selectAll().execute();
+    return db
+      .selectFrom("accounts")
+      .select([
+        "accounts.address",
+        "accounts.chainId",
+        "accounts.label",
+        "accounts.nameTag",
+      ])
+      .execute();
   }
   public static selectAccountsByLabel(label: string) {
     return db
       .selectFrom("accounts")
-      .selectAll()
+      .select([
+        "accounts.address",
+        "accounts.chainId",
+        "accounts.label",
+        "accounts.nameTag",
+      ])
       .where("label", "=", label)
       .execute();
   }
   public static selectAccountsByAddress(address: string) {
     return db
       .selectFrom("accounts")
-      .selectAll()
+      .select([
+        "accounts.address",
+        "accounts.chainId",
+        "accounts.label",
+        "accounts.nameTag",
+      ])
       .where("address", "=", address.toLowerCase())
       .execute();
   }
