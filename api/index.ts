@@ -1,25 +1,33 @@
 import { swagger } from "@elysiajs/swagger";
 import { Elysia } from "elysia";
+import { loadAllAccountsFromFS } from "./load-all-accounts-from-filesystem";
 
 const PORT = 3000;
+const app = new Elysia();
+const jsonData = loadAllAccountsFromFS();
 
-new Elysia()
-  .use(
-    swagger({
-      documentation: {
-        info: {
-          title: "Eth Labels API",
-          version: "0.0.0",
-        },
+app.use(
+  swagger({
+    documentation: {
+      info: {
+        title: "Eth Labels API",
+        version: "0.0.0",
       },
-    }),
-  )
-  .get("/health", () => "OK")
-  .get("/labels/:address", ({ params: { address } }) => {
-    // TODO: return all labels here which match the inputted eth address
-    // const matchingNameTags = NameTagSearcher.getMatchingNameTags(address);
-    return `TODO: return all labels here which match the inputted eth address "${address}"`;
-  })
-  .listen(PORT);
+    },
+  }),
+);
+app.get("/health", () => "OK");
 
+app.get("/labels/:address", ({ params }) => {
+  const { address } = params;
+  const matchingObjects = jsonData.filter((obj) =>
+    obj.address.includes(address),
+  );
+
+  return matchingObjects;
+});
+
+app.listen(3000, () => {
+  console.log("Server is runing on http://localhost:3000");
+});
 console.log(`Listening on port ${PORT}. Open /swagger to see the API docs.`);
