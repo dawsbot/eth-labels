@@ -80,7 +80,7 @@ export class ChainPuller {
     }
   }
 
-  public async runAndPullAllLabels() {
+  public async pullAndWriteAllLabels() {
     await this.#browser.init();
     await this.#browser.login();
     const labels = await this.#pullAllLabels();
