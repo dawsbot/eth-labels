@@ -8,9 +8,9 @@ import { OptimismChain } from "./Chain/OptimismChain";
 
 export const scanConfig = [
   new EtherscanChain(),
-  new BasescanChain(),
   new OptimismChain(),
   new ArbiscanChain(),
+  new BasescanChain(),
   new CeloChain(),
   new BscscanChain(),
   new GnosisChain(),
