@@ -3,14 +3,14 @@ import path from "path";
 import type { AccountRow } from "../scripts/AnyscanPuller";
 
 // Mapping of grandparent directory names to chain IDs
-const chainIdMapping: { [key: string]: number } = {
+export const chainIdMapping: { [key: string]: number } = {
   etherscan: 1,
+  optimism: 10,
   arbiscan: 42161,
   basescan: 8453,
-  bscscan: 56,
   celo: 42220,
+  bscscan: 56,
   gnosis: 100,
-  optimism: 10,
 };
 type AccountDBRow = {
   chainId: number;
@@ -50,7 +50,7 @@ const addLabelAndChainIdToJSON = (filePath: string) => {
 // Function to recursively traverse directories and process accounts.json files
 const loadDirOrFileFromFS = (dir: string) => {
   const entries = readdirSync(dir, { withFileTypes: true });
-  let combinedData: Array<Array<AccountDBRow>> = [];
+  let combinedData: Array<AccountDBRow> = [];
 
   entries.forEach((entry) => {
     const fullPath = path.join(dir, entry.name);
@@ -74,5 +74,3 @@ export const loadAllAccountsFromFS = () => {
   const combinedData = loadDirOrFileFromFS(baseDir);
   return combinedData;
 };
-
-console.log(loadAllAccountsFromFS());
