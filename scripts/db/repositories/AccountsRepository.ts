@@ -2,6 +2,16 @@ import { db } from "../database";
 import type { NewAccount } from "../types";
 
 export class AccountsRepository {
+  public static selectAllAccounts() {
+    return db.selectFrom("accounts").selectAll().execute();
+  }
+  public static selectAccountsByLabel(label: string) {
+    return db
+      .selectFrom("accounts")
+      .selectAll()
+      .where("label", "=", label)
+      .execute();
+  }
   public static selectAccountsByAddress(address: string) {
     return db
       .selectFrom("accounts")

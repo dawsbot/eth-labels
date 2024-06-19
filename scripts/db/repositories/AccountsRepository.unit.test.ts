@@ -2,6 +2,31 @@ import { describe, expect, test } from "vitest";
 import { AccountsRepository } from "./AccountsRepository";
 
 describe("AccountsRepository", () => {
+  test("selectAllAccounts", async () => {
+    const accountRows = await AccountsRepository.selectAllAccounts();
+    expect(accountRows.length).toBe(93_708);
+    expect(accountRows).toContainEqual({
+      id: 26134,
+      chainId: 1,
+      address: "0x4f86d1d365434bfbc1e818534d353ffc1a06f8fe",
+      label: "coinbase",
+      nameTag: "Coinbase: Deposit Funder 12",
+    });
+  });
+  test("selectAccountsByLabel", async () => {
+    const label = "coinbase";
+    const accountRows = await AccountsRepository.selectAccountsByLabel(label);
+    expect(accountRows.length).toBeGreaterThan(130);
+    expect(accountRows.length).toBeLessThan(150);
+    expect(accountRows).toContainEqual({
+      id: 26134,
+      chainId: 1,
+      address: "0x4f86d1d365434bfbc1e818534d353ffc1a06f8fe",
+      label: "coinbase",
+      nameTag: "Coinbase: Deposit Funder 12",
+    });
+  });
+
   describe("selectAccountsByAddress", () => {
     test("null address multiple response", async () => {
       const address = "0x0000000000000000000000000000000000000000";
