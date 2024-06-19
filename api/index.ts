@@ -23,11 +23,9 @@ app.get("/labels/:address", ({ params }) => {
   const matchingObjects = jsonData.filter((obj) =>
     obj.address.includes(address),
   );
-
   return matchingObjects;
 });
 
-app.listen(3000, () => {
-  console.log("Server is runing on http://localhost:3000");
+app.listen(PORT, () => {
+  console.log(`Listening on port ${PORT}. Open /swagger to see the API docs.`);
 });
-console.log(`Listening on port ${PORT}. Open /swagger to see the API docs.`);
