@@ -1,5 +1,5 @@
 <p align="center">
-  <a><img src="https://raw.githubusercontent.com/dawsbot/eth-labels/v1/docs/img/etherscan.png" title="Logo" width="400"/></a>
+  <a><img src="https://raw.githubusercontent.com/dawsbot/eth-labels/v1/docs/img/etherscan.svg" title="Logo" width="400"/></a>
 </p>
 <p align="center">
   <b>
@@ -14,7 +14,7 @@
 
 ## Ethereum
 
-<img src="https://raw.githubusercontent.com/dawsbot/eth-labels/v1/docs/img/etherscan.png" width="200"/></a>
+<img src="https://raw.githubusercontent.com/dawsbot/eth-labels/v1/docs/img/etherscan.svg" width="200"/></a>
 
 <!-- AUTO-GENERATED-CONTENT:START (lastEdited:dataDirectory=etherscan) -->
 
@@ -26,6 +26,8 @@ etherscan was last modified: June 14, 2024
 
 ## Arbitrum
 
+<a><img src="https://raw.githubusercontent.com/dawsbot/evm-labels/v1/docs/img/arbiscan.svg" width="200"/></a>
+
 <!-- AUTO-GENERATED-CONTENT:START (lastEdited:dataDirectory=arbiscan) -->
 
 arbiscan was last modified: June 14, 2024
@@ -36,6 +38,8 @@ arbiscan was last modified: June 14, 2024
 
 ## Optimism
 
+<a><img src="https://raw.githubusercontent.com/dawsbot/evm-labels/v1/docs/img/optimism.svg" width="200"/></a>
+
 <!-- AUTO-GENERATED-CONTENT:START (lastEdited:dataDirectory=optimism) -->
 
 optimism was last modified: June 14, 2024
@@ -45,6 +49,8 @@ optimism was last modified: June 14, 2024
 <!-- AUTO-GENERATED-CONTENT:END -->
 
 ## Base
+
+<a><img src="https://raw.githubusercontent.com/dawsbot/evm-labels/v1/docs/img/basescan.svg" width="200"/></a>
 
 <!-- AUTO-GENERATED-CONTENT:START (lastEdited:dataDirectory=basescan) -->
 
