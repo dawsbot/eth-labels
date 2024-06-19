@@ -13,7 +13,7 @@ interface AccountsTable {
   chainId: number;
   address: string;
   label: string;
-  nameTag: string;
+  nameTag: string | null;
 }
 
 // You should not use the table schema interfaces directly. Instead, you should

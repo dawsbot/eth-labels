@@ -2,4 +2,4 @@ import { loadAllAccountsFromFS } from "../../api/load-all-accounts-from-filesyst
 import { createAccounts } from "./AccountsRepository";
 
 const allAccountRows = loadAllAccountsFromFS();
-await createAccounts(allAccountRows.slice(0, 100));
+await createAccounts(allAccountRows);
