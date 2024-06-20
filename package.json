@@ -39,7 +39,7 @@
     "@types/cli-progress": "^3.11.5",
     "@types/inquirer": "^9.0.7",
     "@types/markdown-magic": "^1.0.4",
-    "@types/node": "^20.14.1",
+    "@types/node": "^20.14.6",
     "better-sqlite3": "^11.0.0",
     "cheerio": "^1.0.0-rc.12",
     "cli-progress": "^3.12.0",
@@ -52,16 +52,16 @@
     "husky": "^9.0.11",
     "inquirer": "^9.2.23",
     "kysely": "^0.27.3",
-    "lint-staged": "^15.2.5",
+    "lint-staged": "^15.2.7",
     "markdown-magic": "^2.6.1",
     "npm-run-all": "^4.1.5",
     "playwright": "^1.44.1",
-    "prettier": "^3.3.0",
+    "prettier": "^3.3.2",
     "prettier-plugin-organize-imports": "^3.2.4",
     "rollup": "^4.18.0",
-    "tsx": "^4.11.2",
+    "tsx": "^4.15.6",
     "typescript": "^5.4.5",
-    "typescript-eslint": "^7.12.0",
+    "typescript-eslint": "^7.13.1",
     "vitest": "^1.6.0",
     "zod": "^3.23.8"
   },
@@ -70,6 +70,6 @@
   },
   "dependencies": {
     "@elysiajs/swagger": "^1.0.5",
-    "elysia": "^1.0.22"
+    "elysia": "^1.0.24"
   }
 }
