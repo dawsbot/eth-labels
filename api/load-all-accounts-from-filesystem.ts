@@ -2,6 +2,7 @@ import { readFileSync } from "fs";
 import { globbySync } from "globby";
 import path from "path";
 import { fileURLToPath } from "url";
+import { isAddress } from "viem";
 import { z } from "zod";
 
 // Mapping of grandparent directory names to chain IDs
@@ -16,7 +17,12 @@ export const chainIdMapping: { [key: string]: number } = {
 };
 const accountDBRowSchema = z.object({
   chainId: z.number().int().min(1),
-  address: z.string().length(42).toLowerCase(), // todo: make this always lowercase
+  address: z
+    .string()
+    .toLowerCase()
+    .refine((val) => isAddress(val), {
+      message: "Invalid ethereuma address found",
+    }),
   label: z.string().min(2),
   nameTag: z.union([z.string().min(2), z.null()]),
 });
