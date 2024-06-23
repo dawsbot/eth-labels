@@ -54,7 +54,7 @@ module.exports = {
       },
     ],
     "@typescript-eslint/array-type": ["error", { default: "generic" }],
-    "new-cap": "error",
+    "new-cap": "warn",
     "tsdoc/syntax": "error",
   },
 };

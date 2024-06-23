@@ -67,6 +67,7 @@
   },
   "dependencies": {
     "@elysiajs/swagger": "^1.0.5",
-    "elysia": "^1.0.22"
+    "elysia": "^1.0.22",
+    "viem": "^2.16.1"
   }
 }
