@@ -1,6 +1,6 @@
 import { swagger } from "@elysiajs/swagger";
-import { Elysia } from "elysia";
-import { createPublicClient, http } from "viem";
+import { Elysia, t } from "elysia";
+import { createPublicClient, http, isAddress } from "viem";
 import { mainnet } from "viem/chains";
 import { normalize } from "viem/ens";
 import { loadAllAccountsFromFS } from "./load-all-accounts-from-filesystem";
@@ -25,31 +25,39 @@ app.use(
 );
 app.get("/health", () => "OK");
 
-app.get("/labels/:address", async ({ params }) => {
-  const { address } = params;
-  if (address.includes(".eth")) {
-    try {
-      const ensAddress = await publicClient.getEnsAddress({
-        name: normalize(address),
-      });
-      if (ensAddress === null) {
-        return { error: "ENS address not found" };
+function findMatchingRows(address: string) {
+  address = address.toLowerCase();
+  const matchingObjects = jsonData.filter((obj) =>
+    obj.address.includes(address),
+  );
+  return matchingObjects;
+}
+app.get(
+  "/labels/:address",
+  async ({ params }) => {
+    const { address } = params;
+    if (address.includes(".")) {
+      try {
+        const ensAddress = await publicClient.getEnsAddress({
+          name: normalize(address),
+        });
+        if (ensAddress === null) {
+          return { error: "ENS address not found" };
+        }
+        return findMatchingRows(ensAddress);
+      } catch (error) {
+        console.error("Error resolving ENS address:", error);
+        return { error: "Failed to resolve ENS address" };
       }
-      const matchingObjects = jsonData.filter((obj) =>
-        obj.address.includes(ensAddress),
-      );
-      return matchingObjects;
-    } catch (error) {
-      console.error("Error resolving ENS address:", error);
-      return { error: "Failed to resolve ENS address" };
+    } else {
+      if (!isAddress(address)) {
+        return { error: "Invalid address format" };
+      }
+      return findMatchingRows(address);
     }
-  } else {
-    const matchingObjects = jsonData.filter((obj) =>
-      obj.address.includes(address),
-    );
-    return matchingObjects;
-  }
-});
+  },
+  { params: t.Object({ address: t.String() }) },
+);
 
 app.listen(PORT, () => {
   console.log(`Listening on port ${PORT}. Open /swagger to see the API docs.`);
