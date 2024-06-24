@@ -65,18 +65,42 @@ export class ChainPuller {
     });
     return allLabels;
   }
+  
+  async #pullTokenStaging(tokenUrl: string) {
+    const tokenHtml = await this.#browser.fetchPageHtml(tokenUrl);
+    this.#cheerioParser.loadHtml(tokenHtml);
+    const navPills = this.#cheerioParser.querySelector(".nav-pills");
+    let subcatUrlsToPull: Array<string> = [];
+    if (navPills.length > 0) {
+      const anchors = navPills.find("li > a");
+      const subcatIds: Array<string> = anchors.toArray().map((anchor) => {
+        const subcatId = z.string().parse(this.#cheerioParser.getAttr(anchor, "data-sub-category-id"));
+        return subcatId;
+      });
+      for (const subcatId of subcatIds) {
+        const subcatUrl = `${tokenUrl}&subcatid=${subcatId}`;
+        subcatUrlsToPull = [...subcatUrlsToPull, subcatUrl];
+      }
+    } else {
+      subcatUrlsToPull = [`${tokenUrl}&subcatid=0`];
+    }
+    let tokenRows: TokenRows = [];
+    for (const subcatUrl of subcatUrlsToPull) {
+      tokenRows = [...tokenRows, ...await this.#chain.puller.fetchTokens(subcatUrl)];
+    }
+    return tokenRows;
+  }
 
   async #pullAllTokens(tokens: Array<string>) {
     for (const tokenUrl of tokens) {
-      await this.#browser.navigate(tokenUrl);
-      const tokenRows = await this.#chain.puller.fetchTokens(tokenUrl, "0");
-      console.log(tokenRows);
+      const tokenRows = await this.#pullTokenStaging(tokenUrl);
+      // await this.writeTokens(tokenRows);
     }
   }
 
   async #pullAllAccounts(accounts: Array<string>) {
-    for (const account of accounts) {
-      await sleep(1000);
+    for (const accountUrl of accounts) {
+      // const accountRows = await this.#pullAccountStaging(accountUrl);
     }
   }
 
