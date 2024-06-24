@@ -58,6 +58,14 @@ export class BrowserHandle {
     await this.#page.goto(url);
   }
 
+  public async waitForSelector(selector: string) {
+    try{
+    await this.#page.waitForSelector(selector, {timeout: 1_000 * 15});
+    } catch (e) {
+      console.log(`❌ Selector not found: ${selector}`);
+    }
+  }
+
   public async fetchPageHtml(url: string): Promise<string> {
     await this.#page.goto(url);
     const content = await this.#page.content();
