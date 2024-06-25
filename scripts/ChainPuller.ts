@@ -114,7 +114,6 @@ export class ChainPuller {
   }
 
   public async pullAndWriteAllLabels() {
-    await this.#browser.login();
     const labels = await this.#pullAllLabels();
     await this.#pullAllTokens(labels.tokens);
     await this.#pullAllAccounts(labels.accounts);
