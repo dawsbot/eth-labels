@@ -105,7 +105,6 @@ export abstract class ApiParser {
   }
 
   public async fetchTokens(tokenUrl: string): Promise<TokenRows> {
-    console.log(tokenUrl);
     const baseUrl = this.baseUrl;
     const cookie = this.cookies;
     const page: Page = this.page;
@@ -155,14 +154,8 @@ export abstract class ApiParser {
         this.verifyApiResponse(res);
         return res;
       })
-      // .then((res)=> {return res;})
       .then((verifiedRes) => this.convertToTokenRows(verifiedRes))
-      // .then((data) => { return data;})
-      .then((data) => this.filterResponse(data))
-      .then((data) => {
-        console.log(data.length);
-        return data;
-      });
+      .then((data) => this.filterResponse(data));
 
     if (shouldKeepPulling) {
       const nextTokenUrl = `${tokenUrl.split("&start=")[0]}&start=${parseInt(start) + 100}&subcatid=${subcatId}`;
