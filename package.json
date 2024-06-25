@@ -13,7 +13,7 @@
     "lint": "eslint . --fix --cache",
     "build": "bun run tsc",
     "pull": "tsx scripts/fetch-all.ts",
-    "prepare": "husky",
+    "prepare": "husky || true",
     "tsc": "tsc -p tsconfig.json",
     "postversion": "git push --follow-tags",
     "prepublishOnly": "bun run build",
