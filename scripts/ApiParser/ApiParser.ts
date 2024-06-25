@@ -106,7 +106,7 @@ export abstract class ApiParser {
     const start = tokenUrl.split("&start=")[1].split("&")[0];
     let shouldKeepPulling = false;
 
-    const response: TokenRows = await page
+    const response = await page
       .evaluate(
         async (params: {
           baseUrl: string;
@@ -132,7 +132,7 @@ export abstract class ApiParser {
               method: "POST",
             },
           );
-          const json: ApiResponse = (await data.json()) as ApiResponse;
+          const json = (await data.json()) as ApiResponse;
           return json;
         },
         { baseUrl, cookie, tokenName, subcatId, tokenUrl, start },
