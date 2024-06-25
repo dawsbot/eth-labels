@@ -25,15 +25,24 @@ export type AccountRows = Array<AccountRow>;
 export type TokenRows = Array<TokenRow>;
 
 export class ChainPuller {
-  #browser: BrowserHandle;
+  #browser = undefined as unknown as BrowserHandle;
   #chain: Chain<ApiParser>;
   #cheerioParser = new CheerioParser();
   public baseUrl: string;
 
-  public constructor(chain: Chain<ApiParser>) {
+  private constructor(chain: Chain<ApiParser>) {
     this.#chain = chain;
     this.baseUrl = chain.website;
-    this.#browser = new BrowserHandle(chain);
+  }
+
+  private async setup() {
+    this.#browser = await BrowserHandle.init(this.#chain);
+  }
+
+  public static async init(chain: Chain<ApiParser>) {
+    const self = new ChainPuller(chain);
+    await self.setup();
+    return self;
   }
 
   async #pullAllLabels() {
@@ -105,7 +114,6 @@ export class ChainPuller {
   }
 
   public async pullAndWriteAllLabels() {
-    await this.#browser.init();
     await this.#browser.login();
     const labels = await this.#pullAllLabels();
     await this.#pullAllTokens(labels.tokens);

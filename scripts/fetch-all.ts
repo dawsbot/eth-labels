@@ -7,7 +7,7 @@ void (async () => {
   try {
     const chainsToPull = await getChainConfig();
     await Promise.all(chainsToPull.map(async (chain) => {
-      const chainPuller = new ChainPuller(chain);
+      const chainPuller = await ChainPuller.init(chain);
       await chainPuller.pullAndWriteAllLabels();
     }));
   } catch (error) {
