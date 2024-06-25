@@ -1,17 +1,17 @@
 import "dotenv/config";
 import { describe, expect, test } from "vitest";
-import { EtherscanChain } from "../Chain/EtherscanChain";
 import { BrowserHandle } from "../BrowserHandle";
+import { EtherscanChain } from "../Chain/EtherscanChain";
 
 describe("ApiParsing", () => {
   test("should pull exanded etherscan", async () => {
     const etherscanChain = new EtherscanChain();
     const browser = await BrowserHandle.init(etherscanChain);
-    await browser.login();
 
     const apiPuller = etherscanChain.puller;
 
-    const url = "https://etherscan.io/tokens/label/aave?size=100&start=0&subcatid=1";
+    const url =
+      "https://etherscan.io/tokens/label/aave?size=100&start=0&subcatid=1";
     await browser.navigate(url);
     const data = await apiPuller.fetchTokens(url);
 

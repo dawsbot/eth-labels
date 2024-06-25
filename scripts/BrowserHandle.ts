@@ -27,6 +27,7 @@ export class BrowserHandle {
     const { browser, page } = await openBrowser();
     this.#browser = browser;
     this.#page = page;
+    await this.login();
   }
 
   public async kill() {
