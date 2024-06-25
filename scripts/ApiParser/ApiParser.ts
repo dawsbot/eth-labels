@@ -96,14 +96,12 @@ export abstract class ApiParser {
     return tokens;
   }
 
-  public async fetchTokens(
-    tokenUrl: string,
-  ): Promise<TokenRows> {
-    console.log(tokenUrl)
+  public async fetchTokens(tokenUrl: string): Promise<TokenRows> {
+    console.log(tokenUrl);
     const baseUrl = this.baseUrl;
     const cookie = this.cookies;
     const page: Page = this.page;
-    const tokenName = tokenUrl.split("/")[5].split("?")[0];
+    const tokenName = tokenUrl.split("/").reverse()[0].split("?")[0];
     const subcatId = tokenUrl.split("subcatid=")[1].split("&")[0];
     const start = tokenUrl.split("&start=")[1].split("&")[0];
     let shouldKeepPulling = false;
@@ -147,9 +145,13 @@ export abstract class ApiParser {
       })
       .then((res) => {
         res.d.data = res.d.data.filter((token) => {
-          if (token.website === null) {return false;}
-          else if (token.tokenName === null) {return false;}
-          else if (token.contractAddress === null) {return false;}
+          if (token.website === null) {
+            return false;
+          } else if (token.tokenName === null) {
+            return false;
+          } else if (token.contractAddress === null) {
+            return false;
+          }
           return true;
         });
         return res;
@@ -168,8 +170,8 @@ export abstract class ApiParser {
 
     if (shouldKeepPulling) {
       const nextTokenUrl = `${tokenUrl.split("&start=")[0]}&start=${parseInt(start) + 100}&subcatid=${subcatId}`;
-      return [...response, ...await this.fetchTokens(nextTokenUrl)];
-    }else{
+      return [...response, ...(await this.fetchTokens(nextTokenUrl))];
+    } else {
       return response;
     }
   }
