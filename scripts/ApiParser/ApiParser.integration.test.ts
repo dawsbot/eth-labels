@@ -6,8 +6,7 @@ import { BrowserHandle } from "../BrowserHandle";
 describe("ApiParsing", () => {
   test("should pull exanded etherscan", async () => {
     const etherscanChain = new EtherscanChain();
-    const browser = new BrowserHandle(etherscanChain);
-    await browser.init();
+    const browser = await BrowserHandle.init(etherscanChain);
     await browser.login();
 
     const apiPuller = etherscanChain.puller;

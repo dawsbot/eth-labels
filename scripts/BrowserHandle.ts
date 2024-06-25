@@ -10,14 +10,20 @@ export class BrowserHandle {
   #baseUrl: string;
   #chain: Chain<ApiParser>;
 
-  public constructor(chain: Chain<ApiParser>) {
+  private constructor(chain: Chain<ApiParser>) {
     this.#chain = chain;
     this.#baseUrl = chain.website;
     this.#browser = undefined as unknown as Browser;
     this.#page = undefined as unknown as Page;
   }
 
-  public async init() {
+  public static async init(chain: Chain<ApiParser>) {
+    const self = new BrowserHandle(chain);
+    await self.setup()
+    return self;
+  }
+
+  private async setup() {
     const { browser, page } = await openBrowser();
     this.#browser = browser;
     this.#page = page;
