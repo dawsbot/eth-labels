@@ -9,9 +9,9 @@ const ApiResponseSchema = z.object({
       data: z.array(
         z
           .object({
-            tokenName: z.string(),
+            tokenName: z.string().nullable(),
             tokenImage: z.string().optional(),
-            website: z.string(),
+            website: z.string().nullable(),
             contractAddress: z.string(),
           })
           .passthrough(),
@@ -42,16 +42,21 @@ export abstract class ApiParser {
   public filterResponse(data: TokenRows): TokenRows {
     data.forEach((token: TokenRow) => {
       const cheerio = new CheerioParser();
-      cheerio.loadHtml(token.tokenName);
-      let title: string = z
-        .string()
-        .parse(cheerio.querySelector("a > div > span").html());
-      let symbol: string = z
-        .string()
-        .parse(cheerio.querySelector("a > div > span:nth-child(2)").html());
-      const tokenImage: string = z
-        .string()
-        .parse(cheerio.querySelector("a > img").attr("src"));
+      let title: string = "";
+      let symbol: string = "";
+      let tokenImage: string = "";
+      if (token.tokenName) {
+        cheerio.loadHtml(token.tokenName);
+        title = z
+          .string()
+          .parse(cheerio.querySelector("a > div > span").html());
+        symbol = z
+          .string()
+          .parse(cheerio.querySelector("a > div > span:nth-child(2)").html());
+        tokenImage = z
+          .string()
+          .parse(cheerio.querySelector("a > img").attr("src"));
+      }
       if (title.startsWith("<span")) {
         title = z
           .string()
@@ -70,17 +75,20 @@ export abstract class ApiParser {
         symbol = symbol.slice(1, -1);
       }
 
-      cheerio.loadHtml(token.website);
-      const website = z.string().parse(cheerio.querySelector("a").attr("href"));
+      let website = "";
+      if (token.website) {
+        cheerio.loadHtml(token.website);
+        website = z.string().parse(cheerio.querySelector("a").attr("href"));
+      }
       cheerio.loadHtml(token.address);
       const address = z
         .string()
         .parse(cheerio.querySelector("a").attr("data-bs-title"));
 
-      token.tokenSymbol = symbol;
-      token.tokenName = title;
-      token.tokenImage = tokenImage;
-      token.website = website;
+      token.tokenSymbol = symbol === "" ? null : symbol;
+      token.tokenName = title === "" ? null : title;
+      token.tokenImage = tokenImage === "" ? undefined : tokenImage;
+      token.website = website === "" ? null : website;
       token.address = address;
     });
     return data;
@@ -144,19 +152,6 @@ export abstract class ApiParser {
         return res;
       })
       .then((res) => {
-        res.d.data = res.d.data.filter((token) => {
-          if (token.website === null) {
-            return false;
-          } else if (token.tokenName === null) {
-            return false;
-          } else if (token.contractAddress === null) {
-            return false;
-          }
-          return true;
-        });
-        return res;
-      })
-      .then((res) => {
         this.verifyApiResponse(res);
         return res;
       })
@@ -164,8 +159,9 @@ export abstract class ApiParser {
       .then((verifiedRes) => this.convertToTokenRows(verifiedRes))
       // .then((data) => { return data;})
       .then((data) => this.filterResponse(data))
-      .catch(() => {
-        return [];
+      .then((data) => {
+        console.log(data.length);
+        return data;
       });
 
     if (shouldKeepPulling) {

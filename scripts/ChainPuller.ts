@@ -3,7 +3,6 @@ import type { ApiParser } from "./ApiParser/ApiParser";
 import { BrowserHandle } from "./BrowserHandle";
 import type { Chain } from "./Chain/Chain";
 import { CheerioParser } from "./CheerioParser";
-import { sleep } from "./utils/sleep";
 
 type AllLabels = {
   accounts: Array<string>;
@@ -16,9 +15,9 @@ export type AccountRow = {
 };
 export type TokenRow = {
   address: string;
-  tokenName: string;
-  tokenSymbol: string;
-  website: string;
+  tokenName: string | null;
+  tokenSymbol: string | null;
+  website: string | null;
   tokenImage?: string;
 };
 export type AccountRows = Array<AccountRow>;
@@ -74,7 +73,7 @@ export class ChainPuller {
     });
     return allLabels;
   }
-  
+
   async #pullTokenStaging(tokenUrl: string) {
     const tokenHtml = await this.#browser.fetchPageHtml(tokenUrl);
     this.#cheerioParser.loadHtml(tokenHtml);
@@ -83,7 +82,9 @@ export class ChainPuller {
     if (navPills.length > 0) {
       const anchors = navPills.find("li > a");
       const subcatIds: Array<string> = anchors.toArray().map((anchor) => {
-        const subcatId = z.string().parse(this.#cheerioParser.getAttr(anchor, "data-sub-category-id"));
+        const subcatId = z
+          .string()
+          .parse(this.#cheerioParser.getAttr(anchor, "data-sub-category-id"));
         return subcatId;
       });
       for (const subcatId of subcatIds) {
@@ -95,7 +96,10 @@ export class ChainPuller {
     }
     let tokenRows: TokenRows = [];
     for (const subcatUrl of subcatUrlsToPull) {
-      tokenRows = [...tokenRows, ...await this.#chain.puller.fetchTokens(subcatUrl)];
+      tokenRows = [
+        ...tokenRows,
+        ...(await this.#chain.puller.fetchTokens(subcatUrl)),
+      ];
     }
     return tokenRows;
   }
