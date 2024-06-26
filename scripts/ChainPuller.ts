@@ -23,6 +23,9 @@ export type TokenRow = {
 export type AccountRows = Array<AccountRow>;
 export type TokenRows = Array<TokenRow>;
 
+/**
+ * Pulls and writes everything for a given chain
+ */
 export class ChainPuller {
   #browser = undefined as unknown as BrowserHandle;
   #chain: Chain<ApiParser>;
