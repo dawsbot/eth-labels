@@ -151,7 +151,7 @@ export abstract class ApiParser {
 
     if (shouldKeepPulling) {
       const nextTokenUrl = `${tokenUrl.split("&start=")[0]}&start=${parseInt(start) + 100}&subcatid=${subcatId}`;
-      return [...response, ...(await this.fetchTokens(nextTokenUrl))];
+      return response.concat(await this.fetchTokens(nextTokenUrl));
     } else {
       return response;
     }
