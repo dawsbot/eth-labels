@@ -1,5 +1,5 @@
 import type { Generated, Insertable, Selectable, Updateable } from "kysely";
-import { TokenDBRow } from "../../api/load-all-tokens-from-filesystem";
+import type { TokenDBRow } from "../../api/load-all-tokens-from-filesystem";
 
 export interface Database {
   accounts: AccountsTable;
