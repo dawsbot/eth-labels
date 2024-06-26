@@ -46,16 +46,16 @@ export const up = async (db: Kysely<unknown>) => {
   await db.schema
     .createTable("accounts")
     .addColumn("id", "integer", (col) => col.primaryKey())
-    .addColumn("chain_id", "integer", (col) => col.notNull())
+    .addColumn("chainId", "integer", (col) => col.notNull())
     .addColumn("address", "text", (col) => col.notNull())
     .addColumn("label", "text", (col) => col.notNull())
     .addColumn("nameTag", "text", (col) => col) // nullable
     .execute();
 
   await db.schema
-    .createIndex("label_address_unique_index")
+    .createIndex("accounts_address_unique_index")
     .on("accounts")
-    .column("chain_id")
+    .column("chainId")
     .column("address")
     .column("label")
     .column("nameTag")

@@ -24,13 +24,13 @@ const tokenDBRowSchema = z.object({
       message: "Invalid ethereum address found",
     }),
   label: z.string().min(2),
-  tokenName: z.union([z.string(), z.null()]),
-  tokenSymbol: z.union([z.string(), z.null()]),
-  website: z.union([z.string().optional(), z.null()]),
-  tokenImage: z.string().url().optional(),
+  name: z.union([z.string(), z.null()]),
+  symbol: z.union([z.string(), z.null()]),
+  website: z.union([z.string(), z.null()]),
+  image: z.union([z.string().url(), z.null()]),
 });
 
-type TokenDBRow = z.infer<typeof tokenDBRowSchema>;
+export type TokenDBRow = z.infer<typeof tokenDBRowSchema>;
 // Function to add "label" and "chainId" keys to each object in the JSON file
 const addLabelAndChainIdToJSON = (filePath: string) => {
   // Read the JSON file synchronously
@@ -47,13 +47,18 @@ const addLabelAndChainIdToJSON = (filePath: string) => {
   // Add the "label" and "chainId" keys to each object
   jsonData.forEach((obj) => {
     const newObject = {
-      ...obj,
+      address: obj.address,
+
+      name: obj.tokenName,
+      symbol: obj.tokenSymbol,
+      website: obj.website,
       label: labelName,
       chainId: chainId,
+      image: obj.tokenImage || null,
     };
     try {
       toReturn.push(tokenDBRowSchema.parse(newObject));
-    } catch {
+    } catch (err) {
       console.log(
         "info: ignoring address because zod parsing failed for the following object. This is NOT a problem unless there are hundreds of these: ",
       );

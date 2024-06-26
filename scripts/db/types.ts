@@ -1,7 +1,9 @@
 import type { Generated, Insertable, Selectable, Updateable } from "kysely";
+import { TokenDBRow } from "../../api/load-all-tokens-from-filesystem";
 
 export interface Database {
   accounts: AccountsTable;
+  tokens: TokensTable;
 }
 
 interface AccountsTable {
@@ -25,3 +27,7 @@ interface AccountsTable {
 export type Account = Selectable<AccountsTable>;
 export type NewAccount = Insertable<AccountsTable>;
 export type AccountUpdate = Updateable<AccountsTable>;
+
+type TokensTable = { id: Generated<number> } & TokenDBRow;
+
+export type NewToken = Insertable<TokensTable>;
