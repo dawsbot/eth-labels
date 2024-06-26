@@ -4,6 +4,7 @@ import { createPublicClient, http, isAddress } from "viem";
 import { mainnet } from "viem/chains";
 import { normalize } from "viem/ens";
 import { loadAllAccountsFromFS } from "./load-all-accounts-from-filesystem";
+import { loadAlltokensFromFS } from "./load-all-tokens-from-filesystem";
 
 const publicClient = createPublicClient({
   chain: mainnet,
@@ -11,7 +12,9 @@ const publicClient = createPublicClient({
 });
 const PORT = process.env.PORT || 3000;
 const app = new Elysia();
-const jsonData = loadAllAccountsFromFS();
+const accountsJsonData = loadAllAccountsFromFS();
+const tokensJsonData = loadAlltokensFromFS();
+const jsonData = [...accountsJsonData, ...tokensJsonData];
 
 app.use(
   swagger({
