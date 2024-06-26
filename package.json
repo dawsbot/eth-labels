@@ -13,7 +13,7 @@
     "lint": "eslint . --fix --cache",
     "build": "bun run tsc",
     "pull": "tsx scripts/fetch-all.ts",
-    "prepare": "husky",
+    "prepare": "husky || true",
     "tsc": "tsc -p tsconfig.json",
     "postversion": "git push --follow-tags",
     "prepublishOnly": "bun run build",
@@ -62,7 +62,6 @@
     "tsx": "^4.15.6",
     "typescript": "^5.4.5",
     "typescript-eslint": "^7.13.1",
-    "viem": "^2.15.1",
     "vitest": "^1.6.0",
     "zod": "^3.23.8"
   },
@@ -71,6 +70,7 @@
   },
   "dependencies": {
     "@elysiajs/swagger": "^1.0.5",
-    "elysia": "^1.0.24"
+    "elysia": "^1.0.24",
+    "viem": "^2.16.1"
   }
 }
