@@ -19,7 +19,7 @@ export class BrowserHandle {
 
   public static async init(chain: Chain<ApiParser>) {
     const self = new BrowserHandle(chain);
-    await self.setup()
+    await self.setup();
     return self;
   }
 
@@ -66,8 +66,8 @@ export class BrowserHandle {
   }
 
   public async waitForSelector(selector: string) {
-    try{
-    await this.#page.waitForSelector(selector, {timeout: 1_000 * 15});
+    try {
+      await this.#page.waitForSelector(selector, { timeout: 1_000 * 15 });
     } catch (e) {
       console.log(`❌ Selector not found: ${selector}`);
     }
