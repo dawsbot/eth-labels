@@ -44,25 +44,29 @@ import type { Kysely } from "kysely";
 
 export const up = async (db: Kysely<unknown>) => {
   await db.schema
-    .createTable("accounts")
+    .createTable("tokens")
     .addColumn("id", "integer", (col) => col.primaryKey())
     .addColumn("chainId", "integer", (col) => col.notNull())
     .addColumn("address", "text", (col) => col.notNull())
     .addColumn("label", "text", (col) => col.notNull())
-    .addColumn("nameTag", "text", (col) => col) // nullable
+    .addColumn("name", "text", (col) => col.notNull())
+    .addColumn("symbol", "text", (col) => col.notNull())
+
+    .addColumn("website", "text", (col) => col) // nullable
+    .addColumn("image", "text", (col) => col) // nullable
+
     .execute();
 
   await db.schema
-    .createIndex("accounts_address_unique_index")
-    .on("accounts")
+    .createIndex("tokens_address_unique_index")
+    .on("tokens")
     .column("chainId")
     .column("address")
     .column("label")
-    .column("nameTag")
     .unique()
     .execute();
 };
 
 export const down = async (db: Kysely<unknown>) => {
-  await db.schema.dropTable("accounts").ifExists().execute();
+  await db.schema.dropTable("tokens").ifExists().execute();
 };
