@@ -10,7 +10,7 @@ const publicClient = createPublicClient({
   chain: mainnet,
   transport: http(),
 });
-const PORT = 3000;
+const PORT = process.env.PORT || 3000;
 const app = new Elysia();
 const accountsJsonData = loadAllAccountsFromFS();
 const tokensJsonData = loadAlltokensFromFS();
