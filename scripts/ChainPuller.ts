@@ -104,15 +104,19 @@ export class ChainPuller {
     return tokenRows;
   }
 
-  async #pullAllTokens(tokens: Array<string>) {
-    for (const tokenUrl of tokens) {
+  async #pullAllTokens(tokenUrls: Array<string>) {
+    // const fileUtilies = new FileUtilities(import.meta.url);
+    for (const tokenUrl of tokenUrls) {
       const tokenRows = await this.#pullTokenStaging(tokenUrl);
+      console.dir({ tokenUrl, tokenRows });
+      // fileUtilies.writeFile("tokens.json", JSON.stringify(tokenRows));
       // await this.writeTokens(tokenRows);
     }
   }
 
-  async #pullAllAccounts(accounts: Array<string>) {
-    for (const accountUrl of accounts) {
+  async #pullAllAccounts(accountUrls: Array<string>) {
+    for (const accountUrl of accountUrls) {
+      // console.dir({ tokenRows });
       // const accountRows = await this.#pullAccountStaging(accountUrl);
     }
   }
