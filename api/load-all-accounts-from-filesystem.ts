@@ -21,7 +21,7 @@ const accountDBRowSchema = z.object({
     .string()
     .toLowerCase()
     .refine((val) => isAddress(val), {
-      message: "Invalid ethereuma address found",
+      message: "Invalid Ethereum address found",
     }),
   label: z.string().min(2),
   nameTag: z.union([z.string().min(2), z.null()]),
