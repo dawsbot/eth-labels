@@ -8,7 +8,7 @@ describe("ApiParsing", () => {
     const etherscanChain = new EtherscanChain();
     const browser = await BrowserHandle.init(etherscanChain);
 
-    const apiPuller = etherscanChain.puller;
+    const apiPuller = etherscanChain.apiPuller;
 
     const url =
       "https://etherscan.io/tokens/label/aave?size=100&start=0&subcatid=1";

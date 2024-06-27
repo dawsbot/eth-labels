@@ -50,9 +50,13 @@ export abstract class ApiParser {
         title = z
           .string()
           .parse(cheerio.querySelector("a > div > span").html());
-        symbol = z
-          .string()
-          .parse(cheerio.querySelector("a > div > span:nth-child(2)").html());
+        try {
+          symbol = z
+            .string()
+            .parse(cheerio.querySelector("a > div > span:nth-child(2)").html());
+        } catch (e) {
+          symbol = "";
+        }
         tokenImage = z
           .string()
           .parse(cheerio.querySelector("a > img").attr("src"));
@@ -105,7 +109,6 @@ export abstract class ApiParser {
   }
 
   public async fetchTokens(tokenUrl: string): Promise<TokenRows> {
-    const MAX_PAGE_LENGTH = 100;
     const baseUrl = this.baseUrl;
     const cookie = this.cookies;
     const page: Page = this.page;
@@ -118,6 +121,7 @@ export abstract class ApiParser {
       .evaluate(
         async (params) => {
           const url = `${params.baseUrl}/tokens.aspx/GetTokensBySubLabel`;
+          const MAX_PAGE_LENGTH = 100;
           const data: Response = await fetch(url, {
             headers: {
               accept: "application/json, text/javascript, */*; q=0.01",
