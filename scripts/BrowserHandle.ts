@@ -10,24 +10,18 @@ export class BrowserHandle {
   #baseUrl: string;
   #chain: Chain<ApiParser>;
 
-  private constructor(chain: Chain<ApiParser>) {
+  private constructor(chain: Chain<ApiParser>, browser: Browser, page: Page) {
     this.#chain = chain;
     this.#baseUrl = chain.website;
-    this.#browser = undefined as unknown as Browser;
-    this.#page = undefined as unknown as Page;
+    this.#browser = browser;
+    this.#page = page;
   }
 
   public static async init(chain: Chain<ApiParser>) {
-    const self = new BrowserHandle(chain);
-    await self.setup()
-    return self;
-  }
-
-  private async setup() {
     const { browser, page } = await openBrowser();
-    this.#browser = browser;
-    this.#page = page;
-    await this.login();
+    const self = new BrowserHandle(chain, browser, page);
+    await self.login();
+    return self;
   }
 
   public async kill() {
@@ -66,8 +60,8 @@ export class BrowserHandle {
   }
 
   public async waitForSelector(selector: string) {
-    try{
-    await this.#page.waitForSelector(selector, {timeout: 1_000 * 15});
+    try {
+      await this.#page.waitForSelector(selector, { timeout: 1_000 * 15 });
     } catch (e) {
       console.log(`❌ Selector not found: ${selector}`);
     }

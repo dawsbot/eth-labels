@@ -26,6 +26,9 @@ export type TokenRow = {
 export type AccountRows = Array<AccountRow>;
 export type TokenRows = Array<TokenRow>;
 
+/**
+ * Pulls and writes everything for a given chain
+ */
 export class ChainPuller {
   #browser = undefined as unknown as BrowserHandle;
   #chain: Chain<ApiParser, HtmlParser>;
@@ -122,8 +125,9 @@ export class ChainPuller {
     }
   }
 
-  async #pullAllTokens(tokens: Array<string>) {
-    for (const tokenUrl of tokens) {
+  async #pullAllTokens(tokenUrls: Array<string>) {
+    // const fileUtilies = new FileUtilities(import.meta.url);
+    for (const tokenUrl of tokenUrls) {
       const tokenRows = await this.#pullTokenStaging(tokenUrl);
       const label = z.string().parse(tokenUrl.split("/").pop()?.split("?")[0]);
       await this.#writeTokens(tokenRows, label);
