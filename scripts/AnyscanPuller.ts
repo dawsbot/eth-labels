@@ -1,18 +1,15 @@
 import * as cheerio from "cheerio";
-import type { SingleBar } from "cli-progress";
 import cliProgress from "cli-progress";
-import fs from "fs";
-import path from "path";
 import type { Page } from "playwright";
 import { z } from "zod";
 import { parseError } from "./utils/error-parse";
 
-import { fileURLToPath } from "url";
 import type { Chain } from "./Chain/Chain";
 import type { HtmlParser } from "./HtmlParser/HtmlParser";
+import { AccountsRepository } from "./db/repositories/AccountsRepository";
+import { TokensRepository } from "./db/repositories/TokensRepository";
+import type { NewAccount, NewToken } from "./db/types";
 import { sleep } from "./utils/sleep";
-const __filename = fileURLToPath(import.meta.url);
-const __dirname = path.dirname(__filename);
 
 type AllLabels = {
   accounts: Array<string>;
@@ -21,31 +18,30 @@ type AllLabels = {
 };
 export type AccountRow = {
   address: string;
-  nameTag: string;
+  nameTag: string | null;
 };
 export type TokenRow = {
   address: string;
-  tokenName: string;
-  tokenSymbol: string;
   website: string;
-  tokenImage?: string;
+  name: string | null;
+  symbol: string | null;
+  image: string | null;
 };
 export type AccountRows = Array<AccountRow>;
 export type TokenRows = Array<TokenRow>;
-const bar1: SingleBar = new cliProgress.SingleBar(
-  {},
-  cliProgress.Presets.shades_classic,
-);
+const bar1 = new cliProgress.SingleBar({}, cliProgress.Presets.shades_classic);
 
 export class AnyscanPuller {
   protected baseUrl: string;
   #directoryName: string;
   #htmlParser: HtmlParser;
   #useApi: boolean;
+  #chainId: number;
   public constructor(chain: Chain<HtmlParser>) {
     this.baseUrl = chain.website;
     this.#directoryName = chain.chainName;
     this.#htmlParser = chain.puller;
+    this.#chainId = chain.chainId;
     this.#useApi = this.#htmlParser.getUseApiForTokenRows();
   }
 
@@ -185,7 +181,7 @@ export class AnyscanPuller {
           subcatAddressesHtml,
           subcatId,
         );
-        accountRows = [...accountRows, ...subcatAddresses];
+        accountRows = accountRows.concat(subcatAddresses);
       }
     } else {
       accountRows = this.#htmlParser.selectAllAccountAddresses(
@@ -202,59 +198,12 @@ export class AnyscanPuller {
     });
   };
 
-  #sortTokenRows(tokenRows: TokenRows): TokenRows {
-    const sortedAddresses = tokenRows.sort((a, b) => {
-      const addressA = a.address.toLowerCase();
-      const addressB = b.address.toLowerCase();
-      if (addressA < addressB) {
-        return -1;
-      }
-      if (addressA > addressB) {
-        return 1;
-      }
-      return 0;
-    });
-    return sortedAddresses;
-  }
-  #sortAccountRows(accountAddresses: AccountRows): AccountRows {
-    const sortedAddresses = accountAddresses.sort((a, b) => {
-      const nameTagA = a.nameTag.toLowerCase();
-      const nameTagB = b.nameTag.toLowerCase();
-      if (nameTagA < nameTagB) {
-        return -1;
-      }
-      if (nameTagA > nameTagB) {
-        return 1;
-      }
-      // If nameTags are the same, sort by address
-      const addressA = a.address;
-      const addressB = b.address;
-      if (addressA < addressB) {
-        return -1;
-      }
-      if (addressA > addressB) {
-        return 1;
-      }
-      return 0;
-    });
-    return sortedAddresses;
-  }
   async #randomSleep() {
     const randomDelay = Math.random() * 600;
     await sleep(randomDelay + 500);
   }
 
   public async pullAndWriteAllAddresses(page: Page) {
-    const rootDirectory = path.join(
-      __dirname,
-      "..",
-      "data",
-      this.#directoryName,
-    );
-    if (!fs.existsSync(rootDirectory)) {
-      fs.mkdirSync(rootDirectory);
-    }
-
     await this.#login(page);
     const allLabels = await this.#fetchAllLabels(page);
 
@@ -264,12 +213,12 @@ export class AnyscanPuller {
     for (const [index, url] of allLabels.tokens.entries()) {
       bar1.update(index);
       // fetch all addresses from all tables
-      const tokenRowsRaw: TokenRows = await this.#pullTokenRows(url, page);
-      const tokenRows = tokenRowsRaw.map((tokenRow: TokenRow) => {
-        if (tokenRow.tokenImage) {
+      const tokenRowsRaw = await this.#pullTokenRows(url, page);
+      const tokenRows = tokenRowsRaw.map((tokenRow) => {
+        if (tokenRow.image) {
           const newTokenRow = {
             ...tokenRow,
-            tokenImage: `${this.baseUrl}${tokenRow.tokenImage}`,
+            tokenImage: `${this.baseUrl}${tokenRow.image}`,
           };
           return newTokenRow;
         }
@@ -277,23 +226,14 @@ export class AnyscanPuller {
       });
 
       const labelName = z.string().parse(url.split("/").pop()?.split("?")[0]);
-
-      if (tokenRows.length > 0) {
-        const outputDirectory = path.join(rootDirectory, labelName);
-        const sortedTokenRows = this.#sortTokenRows(tokenRows);
-        if (!fs.existsSync(outputDirectory)) {
-          fs.mkdirSync(outputDirectory);
-        }
-        fs.writeFileSync(
-          path.join(outputDirectory, "tokens.json"),
-          JSON.stringify(sortedTokenRows),
-        );
-      }
-      // console.dir({
-      //   url,
-      //   allAddresses,
-      //   length: allAddresses.length,
-      // });
+      const insertableTokenRows: Array<NewToken> = tokenRows.map((tokenRow) => {
+        return {
+          ...tokenRow,
+          chainId: this.#chainId,
+          label: labelName,
+        };
+      });
+      await TokensRepository.createTokens(insertableTokenRows);
     }
     console.log(`\n✅ Pulling all of tokens completed!`);
     console.log(`\n🐌 Pulling all of accounts started...`);
@@ -301,24 +241,18 @@ export class AnyscanPuller {
       bar1.update(allLabels.tokens.length + index);
       // fetch all addresses from all tables
       const accountRows = await this.#pullAccountRows(url, page);
-      const labelName = z.string().parse(url.split("/").pop()?.split("?")[0]);
 
-      if (accountRows.length > 0) {
-        const outputDirectory = path.join(rootDirectory, labelName);
-        if (!fs.existsSync(outputDirectory)) {
-          fs.mkdirSync(outputDirectory);
-        }
-        const sortedAccountRows = this.#sortAccountRows(accountRows);
-        fs.writeFileSync(
-          path.join(outputDirectory, "accounts.json"),
-          JSON.stringify(sortedAccountRows),
-        );
-      }
-      // console.dir({
-      //   url,
-      //   allAddresses,
-      //   length: allAddresses.length,
-      // });
+      const labelName = z.string().parse(url.split("/").pop()?.split("?")[0]);
+      const insertableAccountRows: Array<NewAccount> = accountRows.map(
+        (accountRow) => {
+          return {
+            ...accountRow,
+            chainId: this.#chainId,
+            label: labelName,
+          };
+        },
+      );
+      await AccountsRepository.createAccounts(insertableAccountRows);
     }
     bar1.stop();
     console.log(`✅ Pulling all of accounts completed!`);

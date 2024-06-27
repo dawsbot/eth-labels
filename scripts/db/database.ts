@@ -6,7 +6,13 @@ import type { Database } from "./types"; // this is the Database interface we de
 const __filename = fileURLToPath(import.meta.url); // get the resolved path to the file
 const __dirname = path.dirname(__filename); // get the name of the directory
 
-const databasePath = path.resolve(__dirname, "db.sqlite3");
+export const databasePath = path.resolve(
+  __dirname,
+  "..",
+  "..",
+  "data",
+  "db.sqlite3",
+);
 console.log(`loading in sqlite from file "${databasePath}"`);
 const dialect = new SqliteDialect({
   database: new SQLite(databasePath),

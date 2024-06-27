@@ -35,7 +35,7 @@ export class EtherscanApiParser extends ApiParser {
               method: "POST",
             },
           );
-          const json: ApiResponse = (await data.json()) as ApiResponse;
+          const json = (await data.json()) as ApiResponse;
           return json;
         },
         { baseUrl, cookie, tokenName, subcatId },

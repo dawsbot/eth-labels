@@ -85,10 +85,10 @@ export class EtherscanHtmlParser extends HtmlParser {
       const website = $(tableCells[5]).text().trim().toLowerCase();
       const tokenRow: TokenRow = {
         address: address.trim(),
-        tokenName: tokenName || "",
-        tokenSymbol: tokenSymbol || "",
         website,
-        tokenImage: tokenImage || "",
+        name: tokenName || null,
+        symbol: tokenSymbol || null,
+        image: tokenImage || null,
       };
 
       addressesInfo = [...addressesInfo, tokenRow];
