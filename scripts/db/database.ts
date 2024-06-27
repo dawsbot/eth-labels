@@ -1,5 +1,6 @@
-import SQLite from "better-sqlite3";
-import { CamelCasePlugin, Kysely, SqliteDialect } from "kysely";
+import SQLite from "bun:sqlite";
+import { CamelCasePlugin, Kysely } from "kysely";
+import { BunSqliteDialect } from "kysely-bun-sqlite";
 import path from "path";
 import { fileURLToPath } from "url";
 import type { Database } from "./types"; // this is the Database interface we defined earlier
@@ -13,9 +14,10 @@ export const databasePath = path.resolve(
   "data",
   "db.sqlite3",
 );
-console.log(`loading in sqlite from file "${databasePath}"`);
-const dialect = new SqliteDialect({
-  database: new SQLite(databasePath),
+console.log(`Loading SQLite from file "${databasePath}"`);
+const database = new SQLite(databasePath);
+const dialect = new BunSqliteDialect({
+  database,
 });
 
 // Database interface is passed to Kysely's constructor, and from now on, Kysely

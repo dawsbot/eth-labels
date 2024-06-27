@@ -10,7 +10,7 @@ const ApiResponseSchema = z.object({
         z
           .object({
             tokenName: z.string(),
-            tokenImage: z.string().optional(),
+            image: z.string().optional(),
             website: z.string(),
             contractAddress: z.string(),
           })
@@ -37,9 +37,7 @@ export abstract class ApiParser {
       let symbol: string = z
         .string()
         .parse($tokenName("a > div > span:nth-child(2)").html());
-      const tokenImage: string = z
-        .string()
-        .parse($tokenName("a > img").attr("src"));
+      const image: string = z.string().parse($tokenName("a > img").attr("src"));
 
       if (title.startsWith("<span")) {
         title = z
@@ -66,7 +64,7 @@ export abstract class ApiParser {
 
       token.symbol = symbol;
       token.name = title;
-      token.image = tokenImage;
+      token.image = image;
       token.website = website;
       token.address = address;
     });

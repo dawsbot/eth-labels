@@ -218,7 +218,7 @@ export class AnyscanPuller {
         if (tokenRow.image) {
           const newTokenRow = {
             ...tokenRow,
-            tokenImage: `${this.baseUrl}${tokenRow.image}`,
+            image: `${this.baseUrl}${tokenRow.image}`,
           };
           return newTokenRow;
         }

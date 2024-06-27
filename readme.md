@@ -18,7 +18,7 @@
 
 <!-- AUTO-GENERATED-CONTENT:START (lastEdited:dataDirectory=etherscan) -->
 
-etherscan was last modified: June 14, 2024
+etherscan was last modified: June 26, 2024
 
 [View labels here](data/etherscan)
 
@@ -30,7 +30,7 @@ etherscan was last modified: June 14, 2024
 
 <!-- AUTO-GENERATED-CONTENT:START (lastEdited:dataDirectory=arbiscan) -->
 
-arbiscan was last modified: June 14, 2024
+arbiscan was last modified: June 26, 2024
 
 [View labels here](data/arbiscan)
 
@@ -42,7 +42,7 @@ arbiscan was last modified: June 14, 2024
 
 <!-- AUTO-GENERATED-CONTENT:START (lastEdited:dataDirectory=optimism) -->
 
-optimism was last modified: June 14, 2024
+optimism was last modified: June 26, 2024
 
 [View labels here](data/optimism)
 
@@ -54,7 +54,7 @@ optimism was last modified: June 14, 2024
 
 <!-- AUTO-GENERATED-CONTENT:START (lastEdited:dataDirectory=basescan) -->
 
-basescan was last modified: June 14, 2024
+basescan was last modified: June 26, 2024
 
 [View labels here](data/basescan)
 
@@ -66,7 +66,7 @@ basescan was last modified: June 14, 2024
 
 <!-- AUTO-GENERATED-CONTENT:START (lastEdited:dataDirectory=bscscan) -->
 
-bscscan was last modified: June 14, 2024
+bscscan was last modified: June 26, 2024
 
 [View labels here](data/bscscan)
 
@@ -78,7 +78,7 @@ bscscan was last modified: June 14, 2024
 
 <!-- AUTO-GENERATED-CONTENT:START (lastEdited:dataDirectory=gnosis) -->
 
-gnosis was last modified: June 14, 2024
+gnosis was last modified: June 26, 2024
 
 [View labels here](data/gnosis)
 

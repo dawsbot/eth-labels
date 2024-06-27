@@ -1,4 +1,4 @@
-import SQLite from "better-sqlite3";
+import SQLite from "bun:sqlite";
 import fs from "fs";
 import path from "path";
 import { fileURLToPath } from "url";
