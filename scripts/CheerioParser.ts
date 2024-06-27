@@ -12,8 +12,8 @@ export class CheerioParser {
     this.#$ = cheerio.load(html);
   };
 
-  public find = (element: Cheerio<Element>, selector: string) => {
-    const elements = element.find(selector);
+  public find = (element: Element, selector: string) => {
+    const elements = this.#$(element).find(selector);
     return elements;
   };
 

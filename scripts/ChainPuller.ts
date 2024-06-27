@@ -3,6 +3,9 @@ import type { ApiParser } from "./ApiParser/ApiParser";
 import { BrowserHandle } from "./BrowserHandle";
 import type { Chain } from "./Chain/Chain";
 import { CheerioParser } from "./CheerioParser";
+import type { HtmlParser } from "./HtmlParser/HtmlParser";
+import { AccountsRepository } from "./db/repositories/AccountsRepository";
+import { TokensRepository } from "./db/repositories/TokensRepository";
 
 type AllLabels = {
   accounts: Array<string>;
@@ -25,11 +28,11 @@ export type TokenRows = Array<TokenRow>;
 
 export class ChainPuller {
   #browser = undefined as unknown as BrowserHandle;
-  #chain: Chain<ApiParser>;
+  #chain: Chain<ApiParser, HtmlParser>;
   #cheerioParser = new CheerioParser();
   public baseUrl: string;
 
-  private constructor(chain: Chain<ApiParser>) {
+  private constructor(chain: Chain<ApiParser, HtmlParser>) {
     this.#chain = chain;
     this.baseUrl = chain.website;
   }
@@ -38,7 +41,7 @@ export class ChainPuller {
     this.#browser = await BrowserHandle.init(this.#chain);
   }
 
-  public static async init(chain: Chain<ApiParser>) {
+  public static async init(chain: Chain<ApiParser, HtmlParser>) {
     const self = new ChainPuller(chain);
     await self.setup();
     return self;
@@ -98,22 +101,83 @@ export class ChainPuller {
     for (const subcatUrl of subcatUrlsToPull) {
       tokenRows = [
         ...tokenRows,
-        ...(await this.#chain.puller.fetchTokens(subcatUrl)),
+        ...(await this.#chain.apiPuller.fetchTokens(subcatUrl)),
       ];
     }
     return tokenRows;
   }
 
+  async #writeTokens(tokenRows: TokenRows, label: string) {
+    for (const tokenRow of tokenRows) {
+      const newToken = {
+        chainId: this.#chain.chainId,
+        address: tokenRow.address,
+        label: label,
+        name: tokenRow.tokenName,
+        symbol: tokenRow.tokenSymbol,
+        website: tokenRow.website,
+        image: tokenRow.tokenImage,
+      };
+      await TokensRepository.createToken(newToken);
+    }
+  }
+
   async #pullAllTokens(tokens: Array<string>) {
     for (const tokenUrl of tokens) {
       const tokenRows = await this.#pullTokenStaging(tokenUrl);
-      // await this.writeTokens(tokenRows);
+      const label = z.string().parse(tokenUrl.split("/").pop()?.split("?")[0]);
+      await this.#writeTokens(tokenRows, label);
     }
+  }
+
+  async #writeAccounts(accountRows: AccountRows, label: string) {
+    for (const accountRow of accountRows) {
+      const newAccount = {
+        chainId: this.#chain.chainId,
+        address: accountRow.address,
+        label: label,
+        nameTag: accountRow.nameTag,
+      };
+      await AccountsRepository.createAccount(newAccount);
+    }
+  }
+
+  async #pullAccountStaging(accountUrl: string) {
+    const accountHtml = await this.#browser.fetchPageHtml(accountUrl);
+    this.#cheerioParser.loadHtml(accountHtml);
+    const navPills = this.#cheerioParser.querySelector(".nav-pills");
+    let accountRows: AccountRows = [];
+    if (navPills.length > 0) {
+      const anchors = navPills.find("li > a");
+      const subcatIds: Array<string> = anchors.toArray().map((anchor) => {
+        const subcatId = z
+          .string()
+          .parse(this.#cheerioParser.getAttr(anchor, "val"));
+        return subcatId;
+      });
+      for (const subcatId of subcatIds) {
+        const subcatAccounts = this.#chain.htmlPuller.selectAllAccountAddresses(
+          accountHtml,
+          subcatId,
+        );
+        accountRows = [...accountRows, ...subcatAccounts];
+      }
+    } else {
+      accountRows = this.#chain.htmlPuller.selectAllAccountAddresses(
+        accountHtml,
+        "0",
+      );
+    }
+    return accountRows;
   }
 
   async #pullAllAccounts(accounts: Array<string>) {
     for (const accountUrl of accounts) {
-      // const accountRows = await this.#pullAccountStaging(accountUrl);
+      const accountRows = await this.#pullAccountStaging(accountUrl);
+      const label = z
+        .string()
+        .parse(accountUrl.split("/").pop()?.split("?")[0]);
+      await this.#writeAccounts(accountRows, label);
     }
   }
 
