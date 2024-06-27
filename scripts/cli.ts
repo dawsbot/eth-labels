@@ -1,4 +1,3 @@
-import type { Answers } from "inquirer";
 import inquirer from "inquirer";
 import type { ApiParser } from "./ApiParser/ApiParser";
 import type { Chain } from "./Chain/Chain";
@@ -10,7 +9,7 @@ export async function getChainConfig() {
     name: chain.chainName,
     value: chain,
   }));
-  const selected = (await inquirer.prompt<Answers>([
+  const selected = (await inquirer.prompt([
     {
       type: "checkbox",
       name: "chains",
