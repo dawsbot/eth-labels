@@ -4,8 +4,10 @@ import { BrowserHandle } from "./BrowserHandle";
 import type { Chain } from "./Chain/Chain";
 import { CheerioParser } from "./CheerioParser";
 import type { HtmlParser } from "./HtmlParser/HtmlParser";
+import { ProgressBar } from "./ProgressBar";
 import { AccountsRepository } from "./db/repositories/AccountsRepository";
 import { TokensRepository } from "./db/repositories/TokensRepository";
+import { sleep } from "./utils/sleep";
 
 type AllLabels = {
   accounts: Array<string>;
@@ -33,6 +35,8 @@ export class ChainPuller {
   #browser = undefined as unknown as BrowserHandle;
   #chain: Chain<ApiParser, HtmlParser>;
   #cheerioParser = new CheerioParser();
+  #progressBar = new ProgressBar();
+
   public baseUrl: string;
 
   private constructor(chain: Chain<ApiParser, HtmlParser>) {
@@ -123,16 +127,21 @@ export class ChainPuller {
       };
       try {
         await TokensRepository.createToken(newToken);
-      } catch (e) {} //duplicate or missing name. eat the error for now
+      } catch (e) {
+        // console.log("duplicate")
+      } //duplicate or missing name. eat the error for now
     }
   }
 
   async #pullAllTokens(tokenUrls: Array<string>) {
     // const fileUtilies = new FileUtilities(import.meta.url);
     for (const tokenUrl of tokenUrls) {
+      const randomWait = Math.floor((Math.random() * 1000) / 3) + 150;
+      await sleep(randomWait);
       const tokenRows = await this.#pullTokenStaging(tokenUrl);
       const label = z.string().parse(tokenUrl.split("/").pop()?.split("?")[0]);
       await this.#writeTokens(tokenRows, label);
+      this.#progressBar.step();
     }
   }
 
@@ -144,7 +153,11 @@ export class ChainPuller {
         label: label,
         nameTag: accountRow.nameTag,
       };
-      await AccountsRepository.createAccount(newAccount);
+      try {
+        await AccountsRepository.createAccount(newAccount);
+      } catch (e) {
+        // console.log(e)
+      }
     }
   }
 
@@ -179,17 +192,30 @@ export class ChainPuller {
 
   async #pullAllAccounts(accounts: Array<string>) {
     for (const accountUrl of accounts) {
+      const randomWait = Math.floor(Math.random() * 1000) + 300;
+      await sleep(randomWait);
       const accountRows = await this.#pullAccountStaging(accountUrl);
       const label = z
         .string()
         .parse(accountUrl.split("/").pop()?.split("?")[0]);
       await this.#writeAccounts(accountRows, label);
+      this.#progressBar.step();
     }
   }
 
   public async pullAndWriteAllLabels() {
     const labels = await this.#pullAllLabels();
+    console.log(`\n🐢 Pulling tokens...`);
+    this.#progressBar.start(labels.tokens.length);
     await this.#pullAllTokens(labels.tokens);
+    console.log(`\n✅ Tokens completed!`);
+    console.log(`\n🐢 Pulling accounts...`);
+    this.#progressBar.start(labels.accounts.length);
     await this.#pullAllAccounts(labels.accounts);
+    console.log(`\n✅ Accounts completed!`);
+  }
+
+  public async close() {
+    await this.#browser.kill();
   }
 }

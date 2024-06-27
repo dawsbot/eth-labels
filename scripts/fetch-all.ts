@@ -10,8 +10,10 @@ void (async () => {
       chainsToPull.map(async (chain) => {
         const chainPuller = await ChainPuller.init(chain);
         await chainPuller.pullAndWriteAllLabels();
+        await chainPuller.close();
       }),
     );
+    process.exit(0);
   } catch (error) {
     parseError(error);
     process.exit(1);

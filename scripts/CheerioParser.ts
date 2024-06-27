@@ -46,8 +46,21 @@ export class CheerioParser {
         console.log(`returning early because "${pathname}" is not a string`);
         return;
       }
-      const href = `${pathname}?size=100&start=0`;
-      anchors = [...anchors, href];
+      const maxRecordsLength = 10_000;
+      const size = this.text(element);
+      const regex = /\((.*?)\)/;
+      const recordCount = Number(regex.exec(size)?.[1]);
+
+      if (pathname.includes("tokens")) {
+        const href = `${pathname}?size=100&start=0`;
+        anchors = [...anchors, href];
+      } else if (
+        pathname.includes("accounts") &&
+        recordCount < maxRecordsLength
+      ) {
+        const href = `${pathname}?size=${maxRecordsLength}`;
+        anchors = [...anchors, href];
+      }
     });
     return anchors;
   };
