@@ -17,11 +17,9 @@
 <img src="https://raw.githubusercontent.com/dawsbot/eth-labels/v1/docs/img/etherscan.svg" width="200"/></a>
 
 <!-- AUTO-GENERATED-CONTENT:START (lastEdited:dataDirectory=etherscan) -->
-
 etherscan was last modified: June 26, 2024
 
 [View labels here](data/etherscan)
-
 <!-- AUTO-GENERATED-CONTENT:END -->
 
 ## Arbitrum
@@ -29,11 +27,9 @@ etherscan was last modified: June 26, 2024
 <a><img src="https://raw.githubusercontent.com/dawsbot/evm-labels/v1/docs/img/arbiscan.svg" width="200"/></a>
 
 <!-- AUTO-GENERATED-CONTENT:START (lastEdited:dataDirectory=arbiscan) -->
-
 arbiscan was last modified: June 26, 2024
 
 [View labels here](data/arbiscan)
-
 <!-- AUTO-GENERATED-CONTENT:END -->
 
 ## Optimism
@@ -41,11 +37,9 @@ arbiscan was last modified: June 26, 2024
 <a><img src="https://raw.githubusercontent.com/dawsbot/evm-labels/v1/docs/img/optimism.svg" width="200"/></a>
 
 <!-- AUTO-GENERATED-CONTENT:START (lastEdited:dataDirectory=optimism) -->
-
 optimism was last modified: June 26, 2024
 
 [View labels here](data/optimism)
-
 <!-- AUTO-GENERATED-CONTENT:END -->
 
 ## Base
@@ -53,11 +47,9 @@ optimism was last modified: June 26, 2024
 <a><img src="https://raw.githubusercontent.com/dawsbot/evm-labels/v1/docs/img/basescan.svg" width="200"/></a>
 
 <!-- AUTO-GENERATED-CONTENT:START (lastEdited:dataDirectory=basescan) -->
-
 basescan was last modified: June 26, 2024
 
 [View labels here](data/basescan)
-
 <!-- AUTO-GENERATED-CONTENT:END -->
 
 ## Binance Smart Chain
@@ -65,11 +57,9 @@ basescan was last modified: June 26, 2024
 <img src="https://raw.githubusercontent.com/dawsbot/eth-labels/v1/docs/img/bscscan.svg" width="200"/></a>
 
 <!-- AUTO-GENERATED-CONTENT:START (lastEdited:dataDirectory=bscscan) -->
-
 bscscan was last modified: June 26, 2024
 
 [View labels here](data/bscscan)
-
 <!-- AUTO-GENERATED-CONTENT:END -->
 
 ## Gnosis Chain
@@ -77,11 +67,9 @@ bscscan was last modified: June 26, 2024
 <img src="https://raw.githubusercontent.com/dawsbot/eth-labels/v1/docs/img/gnosis.svg" width="200"/></a>
 
 <!-- AUTO-GENERATED-CONTENT:START (lastEdited:dataDirectory=gnosis) -->
-
 gnosis was last modified: June 26, 2024
 
 [View labels here](data/gnosis)
-
 <!-- AUTO-GENERATED-CONTENT:END -->
 
 ## Celo
