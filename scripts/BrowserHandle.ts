@@ -2,22 +2,27 @@ import "dotenv/config";
 import type { Browser, BrowserContext, Page } from "playwright";
 import type { ApiParser } from "./ApiParser/ApiParser";
 import type { Chain } from "./Chain/Chain";
+import { HtmlParser } from "./HtmlParser/HtmlParser";
 import { openBrowser } from "./utils/browser";
 
 export class BrowserHandle {
   #browser: Browser;
   #page: Page;
   #baseUrl: string;
-  #chain: Chain<ApiParser>;
+  #chain: Chain<ApiParser, HtmlParser>;
 
-  private constructor(chain: Chain<ApiParser>, browser: Browser, page: Page) {
+  private constructor(
+    chain: Chain<ApiParser, HtmlParser>,
+    browser: Browser,
+    page: Page,
+  ) {
     this.#chain = chain;
     this.#baseUrl = chain.website;
     this.#browser = browser;
     this.#page = page;
   }
 
-  public static async init(chain: Chain<ApiParser>) {
+  public static async init(chain: Chain<ApiParser, HtmlParser>) {
     const { browser, page } = await openBrowser();
     const self = new BrowserHandle(chain, browser, page);
     await self.login();
@@ -50,8 +55,8 @@ export class BrowserHandle {
     const cookieString = cookies
       .map((cookie) => `${cookie.name}=${cookie.value}`)
       .join("; ");
-    this.#chain.puller.setCookies(cookieString);
-    this.#chain.puller.setPage(this.#page);
+    this.#chain.apiPuller.setCookies(cookieString);
+    this.#chain.apiPuller.setPage(this.#page);
     console.log(`✅ Login completed!`);
   }
 

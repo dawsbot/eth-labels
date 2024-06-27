@@ -121,7 +121,9 @@ export class ChainPuller {
         website: tokenRow.website,
         image: tokenRow.tokenImage,
       };
-      await TokensRepository.createToken(newToken);
+      try {
+        await TokensRepository.createToken(newToken);
+      } catch (e) {} //duplicate or missing name. eat the error for now
     }
   }
 
