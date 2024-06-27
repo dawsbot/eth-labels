@@ -61,7 +61,6 @@
     "tsx": "^4.15.6",
     "typescript": "^5.4.5",
     "typescript-eslint": "^7.13.1",
-    "vitest": "^1.6.0",
     "zod": "^3.23.8"
   },
   "lint-staged": {
