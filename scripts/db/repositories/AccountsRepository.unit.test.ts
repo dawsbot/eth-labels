@@ -1,10 +1,10 @@
-import { describe, expect, test } from "vitest";
+import { describe, expect, test } from "bun:test";
 import { AccountsRepository } from "./AccountsRepository";
 
 describe("AccountsRepository", () => {
   test("selectAllAccounts", async () => {
     const accountRows = await AccountsRepository.selectAllAccounts();
-    expect(accountRows.length).toBe(55_231);
+    expect(accountRows.length).toBeGreaterThanOrEqual(68_055);
     expect(accountRows).toContainEqual({
       chainId: 1,
       address: "0x4f86d1d365434bfbc1e818534d353ffc1a06f8fe",

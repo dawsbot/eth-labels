@@ -1,4 +1,4 @@
-import { describe, expect, test } from "vitest";
+import { describe, expect, test } from "bun:test";
 import { BasescanChain } from "../Chain/BasescanChain";
 import { BscscanChain } from "../Chain/BscscanChain";
 import { CeloChain } from "../Chain/CeloChain";

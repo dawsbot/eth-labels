@@ -6,10 +6,9 @@
   "type": "module",
   "scripts": {
     "dev:api": "bun run --hot api/index.ts",
-    "vitest": "vitest",
-    "vitest:unit": "bun run vitest unit --run",
-    "vitest:integration": "bun run vitest integration --run",
-    "test": "concurrently -g -n \"eslint,vitest:unit,vitest:integration,build\" -c \"#341BAB,#A6CC66,#A6CC66,#3077C6\" \"bun run lint\" \"bun run vitest:unit\" \"bun run vitest:integration\" \"bun run build\"",
+    "test:unit": "bun test unit",
+    "test:integration": "bun test integration",
+    "test": "concurrently -g -n \"eslint,test:unit,test:integration,build\" -c \"#341BAB,#A6CC66,#A6CC66,#3077C6\" \"bun run lint\" \"bun run test:unit\" \"bun run test:integration\" \"bun run build\"",
     "lint": "eslint . --fix --cache",
     "build": "bun run tsc",
     "pull": "tsx scripts/fetch-all.ts",
@@ -40,7 +39,6 @@
     "@types/inquirer": "^9.0.7",
     "@types/markdown-magic": "^1.0.4",
     "@types/node": "^20.14.6",
-    "better-sqlite3": "^11.0.0",
     "cheerio": "^1.0.0-rc.12",
     "cli-progress": "^3.12.0",
     "concurrently": "^8.2.2",
@@ -58,10 +56,8 @@
     "playwright": "^1.44.1",
     "prettier": "^3.3.2",
     "prettier-plugin-organize-imports": "^3.2.4",
-    "tsx": "^4.15.6",
     "typescript": "^5.4.5",
     "typescript-eslint": "^7.13.1",
-    "vitest": "^1.6.0",
     "zod": "^3.23.8"
   },
   "lint-staged": {
@@ -70,6 +66,7 @@
   "dependencies": {
     "@elysiajs/swagger": "^1.0.5",
     "elysia": "^1.0.24",
+    "kysely-bun-sqlite": "^0.3.2",
     "viem": "^2.16.1"
   }
 }
