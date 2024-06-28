@@ -1,4 +1,4 @@
-import { describe, expect, test } from "vitest";
+import { describe, expect, test } from "bun:test";
 import { FileUtilities } from "../FileSystem/FileSystem";
 import type { ApiResponse } from "./ApiParser";
 import { EtherscanApiParser } from "./EtherscanApiParser";

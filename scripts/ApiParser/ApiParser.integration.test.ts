@@ -1,6 +1,6 @@
+import { describe, expect, test } from "bun:test";
 import "dotenv/config";
 import type { Browser, Page } from "playwright";
-import { describe, expect, test } from "vitest";
 import { EtherscanChain } from "../Chain/EtherscanChain";
 import { closeBrowser, openBrowser } from "../utils/browser";
 
