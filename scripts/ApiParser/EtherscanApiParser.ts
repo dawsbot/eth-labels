@@ -10,16 +10,11 @@ export class EtherscanApiParser extends ApiParser {
     page: Page,
     subcatId: string,
   ): Promise<TokenRows> {
-    const baseUrl: string = this.baseUrl;
-    const response: TokenRows = await page
+    const baseUrl = this.baseUrl;
+    const response = await page
       .evaluate(
-        async (params: {
-          baseUrl: string;
-          cookie: string;
-          tokenName: string;
-          subcatId: string;
-        }) => {
-          const data: Response = await fetch(
+        async (params) => {
+          const data = await fetch(
             `${params.baseUrl}/tokens.aspx/GetTokensBySubLabel`,
             {
               headers: {
