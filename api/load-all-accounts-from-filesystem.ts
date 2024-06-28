@@ -49,7 +49,7 @@ const addLabelAndChainIdToJSON = (filePath: string) => {
       label: labelName,
       chainId: chainId,
       nameTag:
-        typeof obj.nameTag === "string" && obj.nameTag?.length < 2
+        typeof obj.nameTag === "string" && obj.nameTag.length < 2
           ? null
           : obj.nameTag,
     };

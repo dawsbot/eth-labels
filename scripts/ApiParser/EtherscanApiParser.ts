@@ -42,6 +42,7 @@ export class EtherscanApiParser extends ApiParser {
       )
       .then((res) => {
         res.d.data = res.d.data.filter((token) => {
+          // eslint-disable-next-line @typescript-eslint/no-unnecessary-condition
           if (token.website === null || token.tokenName === null) {
             return false;
           }
