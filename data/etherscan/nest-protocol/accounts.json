@@ -1,0 +1,90 @@
+[
+  {
+    "address": "0xa38afc5c1e33f85b06d4b8c2b4312c1dc1054882",
+    "nameTag": "NEST Protocol: Deployer"
+  },
+  {
+    "address": "0xc2cdf3457819a61720166d524f6e320c5451092c",
+    "nameTag": "NEST Protocol: ETH Revenue Savings"
+  },
+  {
+    "address": "0x472c31697633dacd24c4674b4571d4a393d54870",
+    "nameTag": "NEST Protocol: Guardian Node Allocation"
+  },
+  {
+    "address": "0xc3591ce63edd202bf3b583e559b7257c1c2f76e3",
+    "nameTag": "NEST Protocol: Income Distribution"
+  },
+  {
+    "address": "0xae2d09d7974a933c6ddc06b8039cf09783f4bae8",
+    "nameTag": "NEST Protocol: Income Savings"
+  },
+  {
+    "address": "0x2f979c933aef4fcddd27c0fa5c54d8a780555b0a",
+    "nameTag": "NEST Protocol: Mining Pool"
+  },
+  {
+    "address": "0xcd6926193308d3b371fdd6a6219067e550000000",
+    "nameTag": "NEST Protocol: NEST Token"
+  },
+  {
+    "address": "0x99bd363a144fb61feae863b182f1f200667a1879",
+    "nameTag": "NEST Protocol: nToken Oracle"
+  },
+  {
+    "address": "0x2a7a0d0065966f80d0277b4aa0c1f699f09b681a",
+    "nameTag": "NEST Protocol: nToken Oracle 2"
+  },
+  {
+    "address": "0xc40d7b9ca90eaca4a6e067b6ec689fd29f4a8b3c",
+    "nameTag": "NEST Protocol: nToken Oracle 3"
+  },
+  {
+    "address": "0x385111f23a00aed181b0774e6900c846c0336dd4",
+    "nameTag": "NEST Protocol: nToken Oracle Auction"
+  },
+  {
+    "address": "0x4f391c202a906eed9e2b63fdd387f28e952782e2",
+    "nameTag": "NEST Protocol: Old Oracle"
+  },
+  {
+    "address": "0x607b80a3498f01f87b889486f4e7f82c98cf0584",
+    "nameTag": "NEST Protocol: Old Revenue Pool"
+  },
+  {
+    "address": "0x43d99d54f14c64994fd9666beab6023b0069de20",
+    "nameTag": "NEST Protocol: Oracle"
+  },
+  {
+    "address": "0x7722891ee45ad38ae05bda8349ba4cf23cfd270f",
+    "nameTag": "NEST Protocol: Oracle Call"
+  },
+  {
+    "address": "0xc83e009c7794e8f6d1954dc13c23a35fc4d039f6",
+    "nameTag": "NEST Protocol: Oracle ETH/USDT"
+  },
+  {
+    "address": "0x923f80828663e44e0ffd5eb499686dc1ccc78476",
+    "nameTag": "NEST Protocol: Pool"
+  },
+  {
+    "address": "0xf67b829397dc05751a98f243dbde5db63f86e7f6",
+    "nameTag": "NEST Protocol: Revenue Distribution"
+  },
+  {
+    "address": "0x43121397631551357ea511e62163b76e39d44852",
+    "nameTag": "NEST Protocol: Revenue Pool"
+  },
+  {
+    "address": "0x561d0d6c498a379574eaaa4a5f2532b223ffaebf",
+    "nameTag": "NEST Protocol: Token Earnings Verification"
+  },
+  {
+    "address": "0x03904f4b9fb54c61aaf96d0acdd2e42a46c99102",
+    "nameTag": "NEST Protocol: Token Verification"
+  },
+  {
+    "address": "0x6cd5698e8854fb6879d6b1c694223b389b465dea",
+    "nameTag": "NEST Protocol: Voting"
+  }
+]

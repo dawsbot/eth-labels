@@ -1,0 +1,70 @@
+[
+  {
+    "address": "0x37f1e47461465fc5cffd6cf0cc0bad3214ff4d38",
+    "nameTag": "Biconomy: ERC-4337 Bundler 1"
+  },
+  {
+    "address": "0x962718024f19a40959dc25f1546216b3293f1da1",
+    "nameTag": "Biconomy: ERC-4337 Bundler 10"
+  },
+  {
+    "address": "0x85ea2ed4e0ef2121b02a05c2da5ce5f4a7d6548d",
+    "nameTag": "Biconomy: ERC-4337 Bundler 11"
+  },
+  {
+    "address": "0x6dcdd525084aef7ba3819ba819b3fbba0bf9af2e",
+    "nameTag": "Biconomy: ERC-4337 Bundler 12"
+  },
+  {
+    "address": "0x42cd60db9fec81eeb6059c3a39c8c1411418896a",
+    "nameTag": "Biconomy: ERC-4337 Bundler 13"
+  },
+  {
+    "address": "0x67b4a9832dfbec071319e492f70e582ee316afc0",
+    "nameTag": "Biconomy: ERC-4337 Bundler 14"
+  },
+  {
+    "address": "0x80213f829c8543eda6b1f0f303e94b8e504b53d8",
+    "nameTag": "Biconomy: ERC-4337 Bundler 15"
+  },
+  {
+    "address": "0xbae8a5e668769ad612f45758306dc1961de9a645",
+    "nameTag": "Biconomy: ERC-4337 Bundler 2"
+  },
+  {
+    "address": "0xc251a9fb38f6272813f7d8b50dfc1b68400764b4",
+    "nameTag": "Biconomy: ERC-4337 Bundler 3"
+  },
+  {
+    "address": "0x931ea9c1f469c56481fa33c23d365092e3f473cb",
+    "nameTag": "Biconomy: ERC-4337 Bundler 4"
+  },
+  {
+    "address": "0xa0104fd8afbe3cf0b8b21ccf0890a8100941cf2d",
+    "nameTag": "Biconomy: ERC-4337 Bundler 5"
+  },
+  {
+    "address": "0x125ad1988cf1ec8c2dd7357621ad825603768365",
+    "nameTag": "Biconomy: ERC-4337 Bundler 6"
+  },
+  {
+    "address": "0x3540b9de3c81b87d565884d4b73e3a48465744e6",
+    "nameTag": "Biconomy: ERC-4337 Bundler 7"
+  },
+  {
+    "address": "0xf5e78bb0fae26ddf88b5cf36fe8be63a51d66b95",
+    "nameTag": "Biconomy: ERC-4337 Bundler 8"
+  },
+  {
+    "address": "0x38de38e6c2140e7382f4cc473775e290bda1f7ec",
+    "nameTag": "Biconomy: ERC-4337 Bundler 9"
+  },
+  {
+    "address": "0x000000f9ee1842bb72f6bbdd75e6d3d4e3e9594c",
+    "nameTag": "Biconomy: ERC-4337 Factory 1"
+  },
+  {
+    "address": "0x000031dd6d9d3a133e663660b959162870d755d4",
+    "nameTag": "Biconomy: ERC-4337 Paymaster 1"
+  }
+]

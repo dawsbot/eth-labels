@@ -1,0 +1,22 @@
+[
+  {
+    "address": "0xdc37844caf520649f1ce3bf450bbaed000c77539",
+    "nameTag": "Scroll Network: Escrow 1"
+  },
+  {
+    "address": "0xbd2efc57869a44a942cf4f693422c932a5e3e33f",
+    "nameTag": "Scroll Network: Escrow 2"
+  },
+  {
+    "address": "0xe2aea422decfd9676f1963677458cf214d5236d9",
+    "nameTag": "Scroll Network: Escrow 3"
+  },
+  {
+    "address": "0x1d12516664fd8f471868d5c3dbc9b03503838316",
+    "nameTag": "Scroll Network: Locked Funds"
+  },
+  {
+    "address": "0xb4a04505a487fcf16232d74ebb76429e232b1f21",
+    "nameTag": "Scroll Network: Protocol Interaction"
+  }
+]

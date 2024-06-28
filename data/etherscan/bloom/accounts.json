@@ -1,0 +1,18 @@
+[
+  {
+    "address": "0xceec7aaa57e3a77c73a9954b9b7d5b32ab688318",
+    "nameTag": "Bloom: Attestation Logic"
+  },
+  {
+    "address": "0x107c4504cd79c5d2696ea0030a8dd4e92601b82e",
+    "nameTag": "Bloom: BLT Token"
+  },
+  {
+    "address": "0x9d217bcbd0bfae4d7f8f12c7702108d162e3ab79",
+    "nameTag": "Bloom: MultiSig"
+  },
+  {
+    "address": "0xb547cc51ce58293e6945ba08d664ce051563d9ac",
+    "nameTag": "Bloom: Token Sale"
+  }
+]

@@ -1,0 +1,262 @@
+[
+  {
+    "address": "0x444cd42baeddeb707eed823f7177b9abcc779c04",
+    "nameTag": "Gearbox Protocol: Account Factory"
+  },
+  {
+    "address": "0x7b1aaf21ac0d420666b5966338ff9aee763c29df",
+    "nameTag": "Gearbox Protocol: Account Miner"
+  },
+  {
+    "address": "0x523da3a8961e4dd4f6206dbf7e6c749f51796bb3",
+    "nameTag": "Gearbox Protocol: ACL"
+  },
+  {
+    "address": "0xcf64698aff7e5f27a11dff868af228653ba53be0",
+    "nameTag": "Gearbox Protocol: Address Provier"
+  },
+  {
+    "address": "0xffbf344741654a1b9ab1286cf05a42f275f67839",
+    "nameTag": "Gearbox Protocol: BlackList Helper"
+  },
+  {
+    "address": "0xa50d4e7d8946a7c90652339cdbd262c375d54d99",
+    "nameTag": "Gearbox Protocol: Contracts Register"
+  },
+  {
+    "address": "0xf5feec362ff9c4b4882272b8ca99a9dc23240bfd",
+    "nameTag": "Gearbox Protocol: Convex 3Crv Pool DAI V2.1"
+  },
+  {
+    "address": "0xe677ac4cd6631c03fc8434f9771d780cb8193e87",
+    "nameTag": "Gearbox Protocol: Convex Booster DAI V2.1"
+  },
+  {
+    "address": "0xe81c0fa73ed0d8550e7c1292e120dec347290f01",
+    "nameTag": "Gearbox Protocol: Convex FRAX/USDC Pool DAI V2.1"
+  },
+  {
+    "address": "0x51171e6f7a990b1b8d96423ae4d9a721ec798ea1",
+    "nameTag": "Gearbox Protocol: Convex FRAX3CRV Pool DAI V2.1"
+  },
+  {
+    "address": "0x3269b778e3f21820c099f16934f73d4adce9a624",
+    "nameTag": "Gearbox Protocol: Convex GUSD Pool DAI V2.1"
+  },
+  {
+    "address": "0x5af1a1598fc759b3f98a3ff51dc07de7e4ac7119",
+    "nameTag": "Gearbox Protocol: Convex LUSD3CRV Pool DAI V2.1"
+  },
+  {
+    "address": "0x550c41628a4bc99b3cdbccf51f5e7e9fdb1ad6cb",
+    "nameTag": "Gearbox Protocol: Convex steCRV Pool DAI V2.1"
+  },
+  {
+    "address": "0xa0c58a5e9c0c2fb0ee9f839b9c81bace6560d36f",
+    "nameTag": "Gearbox Protocol: Convex sUSD Pool DAI V2.1"
+  },
+  {
+    "address": "0x59b7b8dd9e6e1f934c9c3def4a1eb69bc17ec9cc",
+    "nameTag": "Gearbox Protocol: Create2 Factory"
+  },
+  {
+    "address": "0x373a292b93ff9017d28e64154ef83b99d5c4e270",
+    "nameTag": "Gearbox Protocol: Credit Account"
+  },
+  {
+    "address": "0x28b1d625ef7f35afdc35f2b1f4143ccf8efd375f",
+    "nameTag": "Gearbox Protocol: Credit Configurator DAI V2.1"
+  },
+  {
+    "address": "0xd4fe3ed38250c38a0094224c4b0224b5d5d0e7d9",
+    "nameTag": "Gearbox Protocol: Credit Facade DAI V2.1"
+  },
+  {
+    "address": "0xf6f4f24ae50206a07b8b32629aeb6cb1837d854f",
+    "nameTag": "Gearbox Protocol: Credit Facade V2 (Deprecated)"
+  },
+  {
+    "address": "0x672461bfc20dd783444a830ad4c38b345ab6e2f7",
+    "nameTag": "Gearbox Protocol: Credit Manager DAI V2.1"
+  },
+  {
+    "address": "0x30595eab856da31de9432c1a1d9f59837d3a0ac1",
+    "nameTag": "Gearbox Protocol: Curve 3Crv Pool DAI V2.1"
+  },
+  {
+    "address": "0xfb8057c67f22f98a827c20941207d1949634eb2c",
+    "nameTag": "Gearbox Protocol: Curve FRAX Pool DAI V2.1"
+  },
+  {
+    "address": "0x26ed78c07fc5eca1c673be7ac065948155c7e212",
+    "nameTag": "Gearbox Protocol: Curve FRAX/USDC Pool DAI V2.1"
+  },
+  {
+    "address": "0x20624d6384a909b5ca1a20a6ada55159504e22c7",
+    "nameTag": "Gearbox Protocol: Curve GUSD Pool DAI V2.1"
+  },
+  {
+    "address": "0xe12203278ae91c403b0dc7856d9abe31607b812b",
+    "nameTag": "Gearbox Protocol: Curve LUSD Pool DAI V2.1"
+  },
+  {
+    "address": "0x54729dad62bc43ed8fcc5a6faa7f60f2086aebd4",
+    "nameTag": "Gearbox Protocol: Curve stETH Gateway DAI V2.1"
+  },
+  {
+    "address": "0x74e97161fc54355864fa897a4f71f49ff884d256",
+    "nameTag": "Gearbox Protocol: Curve sUSD Deposit DAI V2.1"
+  },
+  {
+    "address": "0x87a8a4e7f9c6d7f63b09bb5e45897680173ec6d4",
+    "nameTag": "Gearbox Protocol: Curve sUSD Pool DAI V2.1"
+  },
+  {
+    "address": "0x252f025b962cfb5bd16dc9a4e41621e223cd20d7",
+    "nameTag": "Gearbox Protocol: DAI Credit Interest Rate Model"
+  },
+  {
+    "address": "0x24946bcbbd028d5abb62ad9b635eb1b1a67af668",
+    "nameTag": "Gearbox Protocol: DAI Credit Pool Service"
+  },
+  {
+    "address": "0x0a2ca503153cd5cb2892a0928ac0f71f49a3c194",
+    "nameTag": "Gearbox Protocol: Data Compressor"
+  },
+  {
+    "address": "0xb829a5b349b01fc71afe46e50dd6ec0222a6e599",
+    "nameTag": "Gearbox Protocol: Degen NFT"
+  },
+  {
+    "address": "0x20da9f3d7d5cb96c2822338830cfd6dee6d508d8",
+    "nameTag": "Gearbox Protocol: Deployer"
+  },
+  {
+    "address": "0xc411db5f5eb3f7d552f9b8454b2d74097ccde6e3",
+    "nameTag": "Gearbox Protocol: Diesel Token (dUSDC)"
+  },
+  {
+    "address": "0xba3335588d9403515223f109edc4eb7269a9ab5d",
+    "nameTag": "Gearbox Protocol: GEAR Token"
+  },
+  {
+    "address": "0x294786b04196b515a275e4102b9495e7693b826c",
+    "nameTag": "Gearbox Protocol: Lido StETH Gateway DAI V2.1"
+  },
+  {
+    "address": "0x140a896808bbc8c7187a67f1751d796705cd7798",
+    "nameTag": "Gearbox Protocol: Old Credit Configurator DAI V2"
+  },
+  {
+    "address": "0x948d33a9537cf13bcc656218b385d19e5b6693e8",
+    "nameTag": "Gearbox Protocol: Old Credit Filter DAI V1"
+  },
+  {
+    "address": "0x777e23a2acb2fcbb35f6ccf98272d03c722ba6eb",
+    "nameTag": "Gearbox Protocol: Old Credit Manager DAI V1"
+  },
+  {
+    "address": "0x49b34e58bab86b3cd23b0be0af4a152be1056902",
+    "nameTag": "Gearbox Protocol: Old CurveV1Adapter DAI V1"
+  },
+  {
+    "address": "0x815e1373f2932b1c4d0b710f80100de8d1165e2d",
+    "nameTag": "Gearbox Protocol: Old UniV2Adapter 2 DAI V1"
+  },
+  {
+    "address": "0xedbf8f73908c86a89f4d42344c8e01b82fe4aaa6",
+    "nameTag": "Gearbox Protocol: Old UniV2Adapter DAI V1"
+  },
+  {
+    "address": "0x088809824d03858c4113538bb82aa4ca7964ba78",
+    "nameTag": "Gearbox Protocol: Old UniV3Adapter DAI V1"
+  },
+  {
+    "address": "0x2a3e48cf8485fefc05d40049b0efa237e869d7d7",
+    "nameTag": "Gearbox Protocol: Old Yearn Adapter 2 DAI V1"
+  },
+  {
+    "address": "0x403e98b110a4dc89da963394dc8518b5f0e2d5fb",
+    "nameTag": "Gearbox Protocol: Old Yearn Adapter DAI V1"
+  },
+  {
+    "address": "0x0e74a08443c5e39108520589176ac12ef65ab080",
+    "nameTag": "Gearbox Protocol: Price Oracle"
+  },
+  {
+    "address": "0x02b51ebf3e96b659078ffa48b3b79b8bf768fb37",
+    "nameTag": "Gearbox Protocol: Router"
+  },
+  {
+    "address": "0x97212ed712c6d641a7937feabe74601d2043884d",
+    "nameTag": "Gearbox Protocol: Sushiswap Router DAI V2.1"
+  },
+  {
+    "address": "0xa7d5ddc1b8557914f158076b228aa91ef613f1d5",
+    "nameTag": "Gearbox Protocol: Technical Multisig"
+  },
+  {
+    "address": "0xf7512b2b20cf427add8b01d8cdeef97a4b0e2c27",
+    "nameTag": "Gearbox Protocol: Token Distributor"
+  },
+  {
+    "address": "0x7b065fcb0760df0cea8cfd144e08554f3cea73d1",
+    "nameTag": "Gearbox Protocol: Treasury Multisig"
+  },
+  {
+    "address": "0x1addf15a6b6662cc084a89ccdbec6dcd0a07f9dd",
+    "nameTag": "Gearbox Protocol: Uniswap V2 Router DAI V2.1"
+  },
+  {
+    "address": "0x3487c853bd3d884755a6d88c908d367a55dafb5f",
+    "nameTag": "Gearbox Protocol: Uniswap V3 Router DAI V2.1"
+  },
+  {
+    "address": "0xb460f4a66153bd3d059cee424796eb213508d313",
+    "nameTag": "Gearbox Protocol: Universal Adapter DAI V2.1"
+  },
+  {
+    "address": "0x95357303f995e184a7998da6c6ea35cc728a1900",
+    "nameTag": "Gearbox Protocol: USDC Credit Manager V2.1"
+  },
+  {
+    "address": "0xc0f4d46e1d9f62337872127050931ca3a087badd",
+    "nameTag": "Gearbox Protocol: USDC Interest Rate Model"
+  },
+  {
+    "address": "0x86130bdd69143d8a4e5fc50bf4323d48049e98e4",
+    "nameTag": "Gearbox Protocol: USDC Pool Service"
+  },
+  {
+    "address": "0x4f952c4c5415b2609899abdc2f8f352f600d14d6",
+    "nameTag": "Gearbox Protocol: WETH Gateway"
+  },
+  {
+    "address": "0x6737dfbe3f10055c6f58fd7657bddeab2dc0bd66",
+    "nameTag": "Gearbox Protocol: Yearn Curve Frax Vault DAI V2.1"
+  },
+  {
+    "address": "0x7383a232acfefb952e2aa25af5cbe4de60e7a6c6",
+    "nameTag": "Gearbox Protocol: Yearn Curve stETH Vault DAI V2.1"
+  },
+  {
+    "address": "0x887a20d142c7a7ab7e35601ec7cd0669d3891abc",
+    "nameTag": "Gearbox Protocol: Yearn DAI Vault DAI V2.1"
+  },
+  {
+    "address": "0x50426dbaba7ffb5970bed4853c1651828b3eac6f",
+    "nameTag": "Gearbox Protocol: Yearn USDC Vault DAI V2.1"
+  },
+  {
+    "address": "0xf3636395de0c87493b4b7ed4222ca46a87f159e8",
+    "nameTag": "Gearbox Protocol: Yearn WBTC Vault DAI V2.1"
+  },
+  {
+    "address": "0xae604a05647c395ef6f4010a63e7834ea1d90170",
+    "nameTag": "Gearbox Protocol: Yearn WETH Vault DAI V2.1"
+  },
+  {
+    "address": "0xa7df60785e556d65292a2c9a077bb3a8fbf048bc",
+    "nameTag": "GearBox: Airdrop Distributor"
+  }
+]

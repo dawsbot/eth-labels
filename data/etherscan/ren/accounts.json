@@ -1,0 +1,94 @@
+[
+  {
+    "address": "0x9992e9341e496be5bc8f424dfc1f78a7388d3a58",
+    "nameTag": "Ren: ChaosDEX"
+  },
+  {
+    "address": "0x2d7b6c95afeffa50c068d50f89c5c0014e054f0a",
+    "nameTag": "Ren: Darknode Registry Proxy"
+  },
+  {
+    "address": "0xfe45ab17919759cfa2ce35215ead5ca4d1fc73c7",
+    "nameTag": "Ren: Deployer"
+  },
+  {
+    "address": "0xe80d347df1209a76dd9d2319d62912ba98c54ddd",
+    "nameTag": "Ren: Gateway Registry"
+  },
+  {
+    "address": "0xc25167ffa19b4d9d03c7d5aa4682c7063f345b66",
+    "nameTag": "Ren: Protocol"
+  },
+  {
+    "address": "0x408e41876cccdc0f92210600ef50372656052a38",
+    "nameTag": "Ren: REN Token"
+  },
+  {
+    "address": "0xcc4ff5b8a4a7adb35f00ff0cbf53784e07c3c52f",
+    "nameTag": "Ren: renBCH Gateway"
+  },
+  {
+    "address": "0x459086f2376525bdceba5bdda135e4e9d3fef5bf",
+    "nameTag": "Ren: renBCH Token"
+  },
+  {
+    "address": "0x32666b64e9fd0f44916e1378efb2cfa3b3b96e80",
+    "nameTag": "Ren: RenBridge"
+  },
+  {
+    "address": "0xeb4c2781e4eba804ce9a9803c67d0893436bb27d",
+    "nameTag": "Ren: renBTC Token"
+  },
+  {
+    "address": "0x05387a10bb3ef789b6c2a9ce2d6c21d5a8c6b1aa",
+    "nameTag": "Ren: renDGB Gateway"
+  },
+  {
+    "address": "0xe3cb486f3f5c639e98ccbaf57d95369375687f80",
+    "nameTag": "Ren: renDGB Token"
+  },
+  {
+    "address": "0x2362843745615368f4ef0a43d7502353649c0783",
+    "nameTag": "Ren: renDOGE Gateway"
+  },
+  {
+    "address": "0x3832d2f059e55934220881f831be501d180671a7",
+    "nameTag": "Ren: renDOGE Token"
+  },
+  {
+    "address": "0xed7d080aa1d2a4d468c615a5d481125bb56bf1bf",
+    "nameTag": "Ren: renFIL Gateway"
+  },
+  {
+    "address": "0xd5147bc8e386d91cc5dbe72099dac6c9b99276f5",
+    "nameTag": "Ren: renFIL Token"
+  },
+  {
+    "address": "0xd7d7deab930b6d3f98b35a26a4c431630d5ab874",
+    "nameTag": "Ren: renLUNA Gateway"
+  },
+  {
+    "address": "0x52d87f22192131636f93c5ab18d0127ea52cb641",
+    "nameTag": "Ren: renLUNA Token"
+  },
+  {
+    "address": "0xc3bbd5adb611dd74eca6123f05b18acc886e122d",
+    "nameTag": "Ren: renZEC Gateway"
+  },
+  {
+    "address": "0x1c5db575e2ff833e46a2e9864c22f4b22e0b37c2",
+    "nameTag": "Ren: renZEC Token"
+  },
+  {
+    "address": "0x88c64a7d2ecc882d558dd16abc1537515a78bb7d",
+    "nameTag": "Ren: ZBTC Token"
+  },
+  {
+    "address": "0x60ab11fe605d2a2c3cf351824816772a131f8782",
+    "nameTag": "RenVM: Darknode Staking"
+  },
+  {
+    "address": "0xe33417797d6b8aec9171d0d6516e88002fbe23e7",
+    "nameTag": "RenVM: Darknodes Fee renBTC"
+  }
+]

@@ -1,0 +1,26 @@
+[
+  {
+    "address": "0xd4bddf5e3d0435d7a6214a0b949c7bb58621f37c",
+    "nameTag": "Coinhako"
+  },
+  {
+    "address": "0x19d97aa29cd33bd966d52e2bc9dfc719f2bb9ae1",
+    "nameTag": "Coinhako: Deployer"
+  },
+  {
+    "address": "0xa193c943980a9340f306b3d59deb183dc501b35f",
+    "nameTag": "Coinhako: Old Address"
+  },
+  {
+    "address": "0x1d1bd550197c7c0787b9ad0aea9c1cca66ee0e90",
+    "nameTag": "Coinhako: Old Address 2"
+  },
+  {
+    "address": "0xf2d4766ad705e3a5c9ba5b0436b473085f82f82f",
+    "nameTag": "Coinhako: Old Warm Wallet"
+  },
+  {
+    "address": "0xe66baa0b612003af308d78f066bbdb9a5e00ff6c",
+    "nameTag": "Coinhako: Warm Wallet"
+  }
+]

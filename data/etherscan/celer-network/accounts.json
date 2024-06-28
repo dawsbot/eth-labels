@@ -1,0 +1,42 @@
+[
+  {
+    "address": "0x841ce48f9446c8e281d3f1444cb859b4a6d0738c",
+    "nameTag": "Celer Network: cBridge"
+  },
+  {
+    "address": "0xc578cbaf5a411dfa9f0d227f97dadaa4074ad062",
+    "nameTag": "Celer Network: cBridge 2.0"
+  },
+  {
+    "address": "0x4f9254c83eb525f9fcf346490bbb3ed28a81c667",
+    "nameTag": "Celer Network: CELR Token"
+  },
+  {
+    "address": "0xb22dc759f194f5d00f1981bf47ab5c3572562c96",
+    "nameTag": "Celer Network: Deployer"
+  },
+  {
+    "address": "0x9a66644084108a1bc23a9ccd50d6d63e53098db6",
+    "nameTag": "Celer Network: Relay Executor 1"
+  },
+  {
+    "address": "0x98e9d288743839e96a8005a6b51c770bbf7788c0",
+    "nameTag": "Celer Network: Relay Executor 2"
+  },
+  {
+    "address": "0xd10c833f4305e1053a64bc738c550381f48104ca",
+    "nameTag": "Celer Network: Relay Executor 3"
+  },
+  {
+    "address": "0xbfa2f68bf9ad60dc3cfb1cef04730eb7fa251424",
+    "nameTag": "Celer Network: Relay Executor 4"
+  },
+  {
+    "address": "0xc75a0ff40db54203d66bff76315ed25d66037ce1",
+    "nameTag": "Celer Network: Relay Node 1"
+  },
+  {
+    "address": "0xc16251b5401087902e0956a2968cb3e0e4a52760",
+    "nameTag": "Celer Network: Relay Node 2"
+  }
+]

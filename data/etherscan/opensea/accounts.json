@@ -1,0 +1,74 @@
+[
+  {
+    "address": "0xf2458bd228d8a39b64bd3b9f84890e957cac3bbc",
+    "nameTag": "OpenSea Pro: Marketplace"
+  },
+  {
+    "address": "0x1e0049783f008a0085193e00003d00cd54003c71",
+    "nameTag": "OpenSea: Conduit"
+  },
+  {
+    "address": "0x939c8d89ebc11fa45e576215e2353673ad0ba18a",
+    "nameTag": "OpenSea: Deployer"
+  },
+  {
+    "address": "0x9c4e9cce4780062942a7fe34fa2fa7316c872956",
+    "nameTag": "OpenSea: ENS Resolver"
+  },
+  {
+    "address": "0x8de9c5a032463c561423387a9648c5c7bcc5bc90",
+    "nameTag": "OpenSea: Fees"
+  },
+  {
+    "address": "0x34ba0f2379bf9b81d09f7259892e26a8b0885095",
+    "nameTag": "OpenSea: Fees 2"
+  },
+  {
+    "address": "0x0000a26b00c1f0df003000390027140000faa719",
+    "nameTag": "OpenSea: Fees 3"
+  },
+  {
+    "address": "0x495f947276749ce646f68ac8c248420045cb7b5e",
+    "nameTag": "OpenSea: OPENSTORE Token"
+  },
+  {
+    "address": "0x004c00500000ad104d7dbd00e3ae0a5c00560c00",
+    "nameTag": "OpenSea: Pausable Zone"
+  },
+  {
+    "address": "0x18c2e87d183c5338a9142f97db176f3832b1d6de",
+    "nameTag": "OpenSea: Payments"
+  },
+  {
+    "address": "0xa5409ec958c83c3f309868babaca7c86dcb077c1",
+    "nameTag": "OpenSea: Registry"
+  },
+  {
+    "address": "0x9b814233894cd227f561b78cc65891aa55c62ad2",
+    "nameTag": "OpenSea: Royalties Distributor"
+  },
+  {
+    "address": "0x0000000000c2d145a2526bd8c716263bfebe1a72",
+    "nameTag": "OpenSea: Transfer Helper"
+  },
+  {
+    "address": "0x5b3256965e7c3cf26e11fcaf296dfc8807c01073",
+    "nameTag": "OpenSea: Wallet"
+  },
+  {
+    "address": "0x7be8076f4ea4a4ad08075c2508e481d6c946d12b",
+    "nameTag": "OpenSea: Wyvern Exchange v1"
+  },
+  {
+    "address": "0x7f268357a8c2552623316e2562d90e642bb538e5",
+    "nameTag": "OpenSea: Wyvern Exchange v2"
+  },
+  {
+    "address": "0x00005ea00ac477b1030ce78506496e8c2de24bf5",
+    "nameTag": "SeaDrop"
+  },
+  {
+    "address": "0x000000008924d42d98026c656545c3c1fb3ad31c",
+    "nameTag": "SeaDrop Factory"
+  }
+]

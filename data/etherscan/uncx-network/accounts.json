@@ -1,0 +1,66 @@
+[
+  {
+    "address": "0x60e2e1b2a317edfc870b6fc6886f69083fb2099a",
+    "nameTag": "UNCX Network : Deployer 5"
+  },
+  {
+    "address": "0x3518e38ff48b4a5fde0ffec4133111856ddadbc8",
+    "nameTag": "UNCX Network : Tax Token Minter"
+  },
+  {
+    "address": "0xadb2437e6f65682b85f814fbc12fec0508a7b1d0",
+    "nameTag": "UNCX Network : UNCX Token"
+  },
+  {
+    "address": "0x231278edd38b00b07fbd52120cef685b9baebcc1",
+    "nameTag": "UNCX Network Lockers: V3 Proof of Reserves"
+  },
+  {
+    "address": "0x7f5c649856f900d15c83741f45ae46f5c6858234",
+    "nameTag": "UNCX Network Lockers: V3 Proof of Reserves 2"
+  },
+  {
+    "address": "0xdba68f07d1b7ca219f78ae8582c213d975c25caf",
+    "nameTag": "UNCX Network Security : Token Vesting"
+  },
+  {
+    "address": "0xcf16a850ba80ebe4273083e78967a80454796b9c",
+    "nameTag": "UNCX Network: Multi signature Reserves"
+  },
+  {
+    "address": "0x2f4eb47a1b1f4488c71fc10e39a4aa56af33dd49",
+    "nameTag": "UNCX Network: UNCL Token"
+  },
+  {
+    "address": "0x098ab6bbe708f191648b1f2cb3e702bbb00e3d02",
+    "nameTag": "Unicrypt: Deployer"
+  },
+  {
+    "address": "0xc95c5edda5c2b1d415e77d05e71f3132fe19da1a",
+    "nameTag": "Unicrypt: Deployer 2"
+  },
+  {
+    "address": "0xfcdd591498e86876f086524c0b2e9af41a0c9fcd",
+    "nameTag": "Unicrypt: Deployer 3"
+  },
+  {
+    "address": "0x0eeb86aa7e7b0d846ffef65d93147f22cde44c7c",
+    "nameTag": "Unicrypt: Deployer 4"
+  },
+  {
+    "address": "0xf29e46887ffae92f1ff87dfe39713875da541373",
+    "nameTag": "Unicrypt: Old UNC Token"
+  },
+  {
+    "address": "0x1853d3a53fa33ce6c74c44b03455770aa10ca19b",
+    "nameTag": "Unicrypt: UNC Community Reserve Vault"
+  },
+  {
+    "address": "0x582869e276d50bb0afe5ba39ab041f5da22ec722",
+    "nameTag": "Unicrypt: UNC Developer Reserve Vault"
+  },
+  {
+    "address": "0x029e3dd04b567e3c41b92b5456a15b9895d0a229",
+    "nameTag": "Unicrypt: UNC Team Reserve Vault"
+  }
+]

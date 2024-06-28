@@ -1,0 +1,26 @@
+[
+  {
+    "address": "0x7fdcd2a1e52f10c28cb7732f46393e297ecadda1",
+    "nameTag": "HyperDragons Token"
+  },
+  {
+    "address": "0x67a5de922c1f4d1a4dbd848466b86b5455fb6a3b",
+    "nameTag": "HyperDragons: Contract 1"
+  },
+  {
+    "address": "0xe05ebd94ca833855133f63190d7fb2d7ba640462",
+    "nameTag": "HyperDragons: Contract 2"
+  },
+  {
+    "address": "0x2842a67ce34a8a9cf06564bfa50260c8272b397d",
+    "nameTag": "HyperDragons: Contract 3"
+  },
+  {
+    "address": "0x92cace836fa29f8b5ac5ef02c7ad241614d78ee2",
+    "nameTag": "HyperDragons: Contract 4"
+  },
+  {
+    "address": "0xc5807256e2e2fe85ca94c3617c4bc5ff2bd9cfb6",
+    "nameTag": "HyperDragons: DST Token"
+  }
+]

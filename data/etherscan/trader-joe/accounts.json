@@ -1,0 +1,14 @@
+[
+  {
+    "address": "0xdc8d77b69155c7e68a95a4fb0f06a71ff90b943a",
+    "nameTag": "Trader Joe : LB Factory"
+  },
+  {
+    "address": "0x4d6dbd1b52807c71b9a148e222b167247a7ca789",
+    "nameTag": "Trader Joe : LB Quoter"
+  },
+  {
+    "address": "0x9a93a421b74f1c5755b83dd2c211614dc419c44b",
+    "nameTag": "Trader Joe : LB Router"
+  }
+]

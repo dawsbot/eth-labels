@@ -1,0 +1,26 @@
+[
+  {
+    "address": "0xa432da0ed5a2c15cbc681227ccec3b375908fdcb",
+    "nameTag": "Validator Group: Mission Quorum Group"
+  },
+  {
+    "address": "0x39b01620ecdeb8347270ee78dc962b0ea583b57a",
+    "nameTag": "Validator: Mission Quorum 1"
+  },
+  {
+    "address": "0x9e8a03768c2711c22bcc7999359d6655b7cdb710",
+    "nameTag": "Validator: Mission Quorum 2"
+  },
+  {
+    "address": "0xdb2e80840f40033761a5cdfa3b09fe24f95a4aaa",
+    "nameTag": "Validator: Mission Quorum 3"
+  },
+  {
+    "address": "0xc538583c030227de48e3279c1009646f29dc097e",
+    "nameTag": "Validator: Mission Quorum 4"
+  },
+  {
+    "address": "0xc1a42a4550301b16eb557b46c15d27c222761ef7",
+    "nameTag": "Validator: Mission Quorum 5"
+  }
+]

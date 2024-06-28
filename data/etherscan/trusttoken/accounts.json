@@ -1,0 +1,46 @@
+[
+  {
+    "address": "0x00006100f7090010005f1bd7ae6122c3c2cf0090",
+    "nameTag": "TrueAUD"
+  },
+  {
+    "address": "0x00000100f2a2bd000715001920eb70d229700085",
+    "nameTag": "TrueCAD"
+  },
+  {
+    "address": "0x00000000441378008ea67f4284a57932b1c000a5",
+    "nameTag": "TrueGBP"
+  },
+  {
+    "address": "0x0000852600ceb001e08e00bc008be620d60031f2",
+    "nameTag": "TrueHKD"
+  },
+  {
+    "address": "0xd6c03398c2113447d736c869a5c9118823cce9ca",
+    "nameTag": "TrueUSD: Implementation"
+  },
+  {
+    "address": "0x8dd5fbce2f6a956c3022ba3663759011dd51e73e",
+    "nameTag": "TrueUSD: Legacy Contract"
+  },
+  {
+    "address": "0x0000000000075efbee23fe2de1bd0b7690883cc9",
+    "nameTag": "TrueUSD: Token Controller"
+  },
+  {
+    "address": "0x21c464af99159ab6b220dc169ff3f57fe1cdfaf4",
+    "nameTag": "TrueUSD: Token Controller Implementation"
+  },
+  {
+    "address": "0x0000000000085d4780b73119b644ae5ecd22b376",
+    "nameTag": "TrueUSD: TUSD Token"
+  },
+  {
+    "address": "0x0000000000013949f288172bd7e36837bddc7211",
+    "nameTag": "TrustToken: Registry"
+  },
+  {
+    "address": "0x3583950a5273624c83bf3219a30a97c28e740480",
+    "nameTag": "TrustToken: Registry Implementation"
+  }
+]

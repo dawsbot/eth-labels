@@ -1,0 +1,506 @@
+[
+  {
+    "address": "0x71660c4005ba85c37ccec55d0c4493e66fe775d3",
+    "nameTag": "Coinbase 1"
+  },
+  {
+    "address": "0xa9d1e08c7793af67e9d92fe308d5697fb81d3e43",
+    "nameTag": "Coinbase 10"
+  },
+  {
+    "address": "0x77696bb39917c91a0c3908d577d5e322095425ca",
+    "nameTag": "Coinbase 11"
+  },
+  {
+    "address": "0x7c195d981abfdc3ddecd2ca0fed0958430488e34",
+    "nameTag": "Coinbase 12"
+  },
+  {
+    "address": "0x95a9bd206ae52c4ba8eecfc93d18eacdd41c88cc",
+    "nameTag": "Coinbase 13"
+  },
+  {
+    "address": "0xb739d0895772dbb71a89a3754a160269068f0d45",
+    "nameTag": "Coinbase 14"
+  },
+  {
+    "address": "0x4a4e859565d9b563afc8e63641542455cff0dfd2",
+    "nameTag": "Coinbase 15"
+  },
+  {
+    "address": "0xe1a0ddeb9b5b55e489977b438764e60e314e917c",
+    "nameTag": "Coinbase 16"
+  },
+  {
+    "address": "0x19ab546e77d0cd3245b2aad46bd80dc4707d6307",
+    "nameTag": "Coinbase 17"
+  },
+  {
+    "address": "0xc070a61d043189d99bbf4baa58226bf0991c7b11",
+    "nameTag": "Coinbase 18"
+  },
+  {
+    "address": "0xc8373edfad6d5c5f600b6b2507f78431c5271ff5",
+    "nameTag": "Coinbase 19"
+  },
+  {
+    "address": "0x503828976d22510aad0201ac7ec88293211d23da",
+    "nameTag": "Coinbase 2"
+  },
+  {
+    "address": "0xb624219480543c54603fb6b07d5eb347e51bffe0",
+    "nameTag": "Coinbase 20"
+  },
+  {
+    "address": "0x20fe51a9229eef2cf8ad9e89d91cab9312cf3b7a",
+    "nameTag": "Coinbase 21"
+  },
+  {
+    "address": "0x333d17d3b42bf7930dbc6e852ca7bcf560a69003",
+    "nameTag": "Coinbase 22"
+  },
+  {
+    "address": "0x9810762578accf1f314320cca5b72506ae7d7630",
+    "nameTag": "Coinbase 23"
+  },
+  {
+    "address": "0x3dd1d15b3c78d6acfd75a254e857cbe5b9ff0af2",
+    "nameTag": "Coinbase 24"
+  },
+  {
+    "address": "0xf491d040110384dbcf7f241ffe2a546513fd873d",
+    "nameTag": "Coinbase 25"
+  },
+  {
+    "address": "0xc7bf35c9a3bdd1b1c19a6963de669cb45191a019",
+    "nameTag": "Coinbase 26"
+  },
+  {
+    "address": "0x05e3a758fdd29d28435019ac453297ea37b61b62",
+    "nameTag": "Coinbase 27"
+  },
+  {
+    "address": "0xa3682fe8fd73b90a7564585a436ec2d2aeb612ee",
+    "nameTag": "Coinbase 28"
+  },
+  {
+    "address": "0x739120ade7ed878fca5bbdb806263a8258fe2360",
+    "nameTag": "Coinbase 29"
+  },
+  {
+    "address": "0xddfabcdc4d8ffc6d5beaf154f18b778f892a0740",
+    "nameTag": "Coinbase 3"
+  },
+  {
+    "address": "0x8af8485e1f178be06386cd3877fde20626e0284f",
+    "nameTag": "Coinbase 30"
+  },
+  {
+    "address": "0x6dcbce46a8b494c885d0e7b6817d2b519df64467",
+    "nameTag": "Coinbase 31"
+  },
+  {
+    "address": "0xa656f7d2a93a6f5878aa768f24eb38ec8c827fe2",
+    "nameTag": "Coinbase 32"
+  },
+  {
+    "address": "0xd34ea7278e6bd48defe656bbe263aef11101469c",
+    "nameTag": "Coinbase 34"
+  },
+  {
+    "address": "0xe68ee8a12c611fd043fb05d65e1548dc1383f2b9",
+    "nameTag": "Coinbase 35"
+  },
+  {
+    "address": "0x28c5b0445d0728bc25f143f8eba5c5539fae151a",
+    "nameTag": "Coinbase 36"
+  },
+  {
+    "address": "0xc9aaa6ca0e05b87d53a3e51edbc44b406eeaf299",
+    "nameTag": "Coinbase 37"
+  },
+  {
+    "address": "0x7ed53f6e3de6b2b4156fa8e618506e60d8e65843",
+    "nameTag": "Coinbase 38"
+  },
+  {
+    "address": "0x5122e9aa635c13afd2fc31de3953e0896bac7ab4",
+    "nameTag": "Coinbase 39"
+  },
+  {
+    "address": "0x3cd751e6b0078be393132286c442345e5dc49699",
+    "nameTag": "Coinbase 4"
+  },
+  {
+    "address": "0xd839c179a4606f46abd7a757f7bb77d7593ae249",
+    "nameTag": "Coinbase 40"
+  },
+  {
+    "address": "0x1985ea6e9c68e1c272d8209f3b478ac2fdb25c87",
+    "nameTag": "Coinbase 41"
+  },
+  {
+    "address": "0xb4807865a786e9e9e26e6a9610f2078e7fc507fb",
+    "nameTag": "Coinbase 42"
+  },
+  {
+    "address": "0x731307f3b12cc56191ade83ea630a377d9a941f6",
+    "nameTag": "Coinbase 43"
+  },
+  {
+    "address": "0x28e71d0b7f7f29106a1be2a5b289cab331e7b56f",
+    "nameTag": "Coinbase 44"
+  },
+  {
+    "address": "0xb5d85cbf7cb3ee0d56b3bb207d5fc4b82f43f511",
+    "nameTag": "Coinbase 5"
+  },
+  {
+    "address": "0xeb2629a2734e272bcc07bda959863f316f4bd4cf",
+    "nameTag": "Coinbase 6"
+  },
+  {
+    "address": "0xd688aea8f7d450909ade10c47faa95707b0682d9",
+    "nameTag": "Coinbase 7"
+  },
+  {
+    "address": "0x02466e547bfdab679fc49e96bbfc62b9747d997c",
+    "nameTag": "Coinbase 8"
+  },
+  {
+    "address": "0x6b76f8b1e9e59913bfe758821887311ba1805cab",
+    "nameTag": "Coinbase 9"
+  },
+  {
+    "address": "0x6f52730dba7b02beefcaf0d6998c9ae901ea04f9",
+    "nameTag": "Coinbase Cold 1"
+  },
+  {
+    "address": "0xb8487eed31cf5c559bf3f4edd166b949553d0d11",
+    "nameTag": "Coinbase Cold 10"
+  },
+  {
+    "address": "0x5ffc99b5b23c5ab8f463f6090342879c286a29be",
+    "nameTag": "Coinbase Cold 11"
+  },
+  {
+    "address": "0x3d2e397f94e415d7773e72e44d5b5338a99e77d9",
+    "nameTag": "Coinbase Cold 12"
+  },
+  {
+    "address": "0xe04cf52e9fafa3d9bf14c407afff94165ef835f7",
+    "nameTag": "Coinbase Cold 13"
+  },
+  {
+    "address": "0x19d599012788b991ff542f31208bab21ea38403e",
+    "nameTag": "Coinbase Cold 14"
+  },
+  {
+    "address": "0xcad50671877eb564d42ddd76b5fec46ac60ef1bd",
+    "nameTag": "Coinbase Cold 15"
+  },
+  {
+    "address": "0xeba20d0f74ecc13130579d21bb53d63c96258652",
+    "nameTag": "Coinbase Cold 2"
+  },
+  {
+    "address": "0x281055afc982d96fab65b3a49cac8b878184cb16",
+    "nameTag": "Coinbase Cold 3"
+  },
+  {
+    "address": "0xf27daff52c38b2c373ad2b9392652ddf433303c4",
+    "nameTag": "Coinbase Cold 4"
+  },
+  {
+    "address": "0x93745feeb3c42f6ab0f9890cbce65b360145b4ab",
+    "nameTag": "Coinbase Cold 5"
+  },
+  {
+    "address": "0x90e63c3d53e0ea496845b7a03ec7548b70014a91",
+    "nameTag": "Coinbase Cold 6"
+  },
+  {
+    "address": "0x6c37a68dbb44c3f437d15dc405c67bf5778b8637",
+    "nameTag": "Coinbase Cold 7"
+  },
+  {
+    "address": "0x9a1ed80ebc9936cee2d3db944ee6bd8d407e7f9f",
+    "nameTag": "Coinbase Cold 8"
+  },
+  {
+    "address": "0x4fd166478b440fb2a0bc64321ec35ed48f9cdb16",
+    "nameTag": "Coinbase Cold 9"
+  },
+  {
+    "address": "0xedc7001e99a37c3d23b5f7974f837387e09f9c93",
+    "nameTag": "Coinbase Deposit 2"
+  },
+  {
+    "address": "0x382ffce2287252f930e1c8dc9328dac5bf282ba1",
+    "nameTag": "Coinbase Fees"
+  },
+  {
+    "address": "0xceb69f6342ece283b2f5c9088ff249b5d0ae66ea",
+    "nameTag": "Coinbase Prime 2"
+  },
+  {
+    "address": "0x1e7016f7c23859d097668c27b72c170ed7129a10",
+    "nameTag": "Coinbase Prime 3"
+  },
+  {
+    "address": "0xdfd76bbfeb9eb8322f3696d3567e03f894c40d6c",
+    "nameTag": "Coinbase Prime 4"
+  },
+  {
+    "address": "0xa86309988947559b6e72ef716c5058f479386c0f",
+    "nameTag": "Coinbase Prime: Custody Deposit Funder 1"
+  },
+  {
+    "address": "0x1565f0c48c06bc006095591a4c3fe4a6f39712cf",
+    "nameTag": "Coinbase Prime: Deposit Funder 1"
+  },
+  {
+    "address": "0x72cef07728b199e7ad11ff03f02d2d65f91ad553",
+    "nameTag": "Coinbase Prime: Deposit Funder 2"
+  },
+  {
+    "address": "0xa7927364e94e162102e7cf2447e33e01fc629e68",
+    "nameTag": "Coinbase: AAVE Hot 1"
+  },
+  {
+    "address": "0x75590f473d2a7b377c1ba991790900f28532f329",
+    "nameTag": "Coinbase: AAVE Hot 2"
+  },
+  {
+    "address": "0xbe3c68821d585cf1552214897a1c091014b1eb0a",
+    "nameTag": "Coinbase: Account Blacklister"
+  },
+  {
+    "address": "0xefe9a82d56cd965d7b332c7ac1feb15c53cd4340",
+    "nameTag": "Coinbase: Batch Deposit 1"
+  },
+  {
+    "address": "0x2cc5146929a893d1d73bc34fb37815cc1a44ae33",
+    "nameTag": "Coinbase: Circle Deposit 1"
+  },
+  {
+    "address": "0x7915f087685fffd71608e5d118f3b70c27d9ef4e",
+    "nameTag": "Coinbase: Coinbase Commerce"
+  },
+  {
+    "address": "0xf6874c88757721a02f47592140905c4336dfbc61",
+    "nameTag": "Coinbase: Coinbase Commerce 2"
+  },
+  {
+    "address": "0x0bf5ec06f44e9aa068732b1c203f007855a5eed8",
+    "nameTag": "Coinbase: Cold Migration 1"
+  },
+  {
+    "address": "0x829e3c7781a6ac8cd864cd8437a664ec07da75a8",
+    "nameTag": "Coinbase: Cold Migration 2"
+  },
+  {
+    "address": "0x6aac5e7c12d3c9259cff8e10b5bbdb1064c382a5",
+    "nameTag": "Coinbase: Cold Migration 3"
+  },
+  {
+    "address": "0xf0eefa46ee509eb8fab42f62917db8a93432e2ef",
+    "nameTag": "Coinbase: Cold Migration 4"
+  },
+  {
+    "address": "0x0af5035a8dff53f5a89bfc083fdec94c7332ad7a",
+    "nameTag": "Coinbase: Cold Migration 5"
+  },
+  {
+    "address": "0x38024b883c72f23d6d6c1f3f869034e849e8b121",
+    "nameTag": "Coinbase: Cold Migration 6"
+  },
+  {
+    "address": "0x881d4032abe4188e2237efcd27ab435e81fc6bb1",
+    "nameTag": "Coinbase: Commerce"
+  },
+  {
+    "address": "0x6c8dd0e9cc58c07429e065178d88444b60e60b80",
+    "nameTag": "Coinbase: Commerce Fee"
+  },
+  {
+    "address": "0xbc8ec259e3026ae0d87bc442d034d6882ce4a35c",
+    "nameTag": "Coinbase: Commerce Fee 2"
+  },
+  {
+    "address": "0x02d24cab4f2c3bf6e6eb07ea07e45f96baccffe7",
+    "nameTag": "Coinbase: Commerce Fee 3"
+  },
+  {
+    "address": "0xce352e98934499be70f641353f16a47d9e1e3abd",
+    "nameTag": "Coinbase: Commerce Fee 4"
+  },
+  {
+    "address": "0x90e18a6920985dbacc3d76cf27a3f2131923c720",
+    "nameTag": "Coinbase: Commerce Fee 5"
+  },
+  {
+    "address": "0x4b23d52eff7c67f5992c2ab6d3f69b13a6a33561",
+    "nameTag": "Coinbase: Commerce Fee 6"
+  },
+  {
+    "address": "0xd2276af80582cac230edc4c42e9a9c096f3c09aa",
+    "nameTag": "Coinbase: Deposit 1"
+  },
+  {
+    "address": "0x91d66b38ae24292e9e12dd962bbb3aecf4ab769a",
+    "nameTag": "Coinbase: Deposit Funder 1"
+  },
+  {
+    "address": "0x47d43ac7eea761c4959b2a4318e620603be7fd4f",
+    "nameTag": "Coinbase: Deposit Funder 10"
+  },
+  {
+    "address": "0x8535d5ed435e405a881545ffb2f8d6b81f6c9d41",
+    "nameTag": "Coinbase: Deposit Funder 11"
+  },
+  {
+    "address": "0x4f86d1d365434bfbc1e818534d353ffc1a06f8fe",
+    "nameTag": "Coinbase: Deposit Funder 12"
+  },
+  {
+    "address": "0x55e6513dbcdd1dcaf4c6710ac423c698a56eb68a",
+    "nameTag": "Coinbase: Deposit Funder 13"
+  },
+  {
+    "address": "0xe49916b3ff411fc6a83dc31f130e2e85be4a9385",
+    "nameTag": "Coinbase: Deposit Funder 14"
+  },
+  {
+    "address": "0x33ae106bc06effa33e6db5813b619710f2dfb5d4",
+    "nameTag": "Coinbase: Deposit Funder 2"
+  },
+  {
+    "address": "0x660629fe43b0825acf3402e10a999c563075a32c",
+    "nameTag": "Coinbase: Deposit Funder 3"
+  },
+  {
+    "address": "0xf2f07ef4a923f48fc4d47f0af115f8895177f075",
+    "nameTag": "Coinbase: Deposit Funder 4"
+  },
+  {
+    "address": "0x76a1b88be943bc5dc6c9b641a0835970a2cc2dc4",
+    "nameTag": "Coinbase: Deposit Funder 5"
+  },
+  {
+    "address": "0xd69b42d93af96cf278b1149bffb2d668d0154b7d",
+    "nameTag": "Coinbase: Deposit Funder 6"
+  },
+  {
+    "address": "0x1553767e6ab6d26695b34366f61340b48d8b7a62",
+    "nameTag": "Coinbase: Deposit Funder 7"
+  },
+  {
+    "address": "0xff9fbb429c186029c28f1e30361271ea002847ad",
+    "nameTag": "Coinbase: Deposit Funder 8"
+  },
+  {
+    "address": "0x04d4876932c7c375efcaeb7ae0ad00591acf09f6",
+    "nameTag": "Coinbase: Deposit Funder 9"
+  },
+  {
+    "address": "0x1bbe1be1fb532a010762665cfcbed31595367e5d",
+    "nameTag": "Coinbase: ERC20 Distributor"
+  },
+  {
+    "address": "0x9620e530995d4b497f16652419dbb60f7834010a",
+    "nameTag": "Coinbase: GRT Hot 1"
+  },
+  {
+    "address": "0x251e93d51c5f2a1e60b7bc90bc8b2534b68e8f40",
+    "nameTag": "Coinbase: LINK Hot 1"
+  },
+  {
+    "address": "0xe0e65c40bcb1225d4ab3a13f3a9e21abbd83f9d0",
+    "nameTag": "Coinbase: LINK Hot 10"
+  },
+  {
+    "address": "0x3f1137cf8e6468669959c3b99a9250a400a76574",
+    "nameTag": "Coinbase: LINK Hot 11"
+  },
+  {
+    "address": "0x0a74db66f8248554d406832e305555043fe3bfd7",
+    "nameTag": "Coinbase: LINK Hot 12"
+  },
+  {
+    "address": "0x898f293e97d59b375939ec3654ac548be2759d41",
+    "nameTag": "Coinbase: LINK Hot 13"
+  },
+  {
+    "address": "0x221cec08c3df34763eed468705dc779cbe750ceb",
+    "nameTag": "Coinbase: LINK Hot 14"
+  },
+  {
+    "address": "0xa818c01c2fdf04f24f8d6bda3512e901f33a575e",
+    "nameTag": "Coinbase: LINK Hot 15"
+  },
+  {
+    "address": "0x707e8eaf4c1586fea01f8fd0242daac009d4f60e",
+    "nameTag": "Coinbase: LINK Hot 16"
+  },
+  {
+    "address": "0xc9ebc59a7590e52b0904817f172ac82fc66a530b",
+    "nameTag": "Coinbase: LINK Hot 17"
+  },
+  {
+    "address": "0xd6974e28ecee4005a4d03c4c6ed0aac71fb46b94",
+    "nameTag": "Coinbase: LINK Hot 18"
+  },
+  {
+    "address": "0x204ad5bed7eb66e002329a018bb96d87a8db1aa8",
+    "nameTag": "Coinbase: LINK Hot 19"
+  },
+  {
+    "address": "0x80cf6275294bddce597789c855691cf4cdf01386",
+    "nameTag": "Coinbase: LINK Hot 2"
+  },
+  {
+    "address": "0xdf61e3281fb5b1c3da3ff92865875d7751ad830b",
+    "nameTag": "Coinbase: LINK Hot 3"
+  },
+  {
+    "address": "0x292bf41e2506f88aa3e73721aabc75b4f08e664e",
+    "nameTag": "Coinbase: LINK Hot 4"
+  },
+  {
+    "address": "0x2bdcda44d935c12c3a76972c4339975782842a12",
+    "nameTag": "Coinbase: LINK Hot 5"
+  },
+  {
+    "address": "0x9dcaf485e72f812dee725ce64b6667a7a83f73dd",
+    "nameTag": "Coinbase: LINK Hot 6"
+  },
+  {
+    "address": "0xe3d6d8bcdc4eb4e24ad7523d98c394960e8c1d32",
+    "nameTag": "Coinbase: LINK Hot 7"
+  },
+  {
+    "address": "0x3c070dceac7f99aec493de5b56619d71fa31e131",
+    "nameTag": "Coinbase: LINK Hot 8"
+  },
+  {
+    "address": "0xb35d425a3f49c49181ef8e72583efb070b54202e",
+    "nameTag": "Coinbase: LINK Hot 9"
+  },
+  {
+    "address": "0x55c4bf24450ecb6f818f6be5881a4fc491deb01e",
+    "nameTag": "Coinbase: MANA Hot 1"
+  },
+  {
+    "address": "0xf27182c5568beafb967140286e25807250eacc4c",
+    "nameTag": "Coinbase: MANA Hot 2"
+  },
+  {
+    "address": "0x46ce00ec0866e7a045d2f2778558efee05c4fb08",
+    "nameTag": "Coinbase: MATIC Hot 1"
+  },
+  {
+    "address": "0xa090e606e30bd747d4e6245a1517ebe430f0057e",
+    "nameTag": "Coinbase: Miscellaneous"
+  }
+]

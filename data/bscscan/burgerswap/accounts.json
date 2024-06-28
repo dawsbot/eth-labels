@@ -1,0 +1,3262 @@
+[
+  {
+    "address": "0xbd15a67c44c292ea0411cc49ce4b9b7073fa0d5d",
+    "nameTag": "BurgerSwap: 100x"
+  },
+  {
+    "address": "0xa4436cb7a01e04fb27f523a9b94bd601c70443e8",
+    "nameTag": "BurgerSwap: 1337"
+  },
+  {
+    "address": "0x1c79a17bd3e960ff05e4b081d698b49b9d64a308",
+    "nameTag": "BurgerSwap: 1XC"
+  },
+  {
+    "address": "0x2a728556e0833c4332ec1f9fb99075f49856fbb4",
+    "nameTag": "BurgerSwap: 7UP"
+  },
+  {
+    "address": "0x3739155fa1b15123b7b6a382f3333c28b45a1f0b",
+    "nameTag": "BurgerSwap: 7UP-BURGER"
+  },
+  {
+    "address": "0xf44a96b16557eaa2ef4bcc9fd28d919b886cee56",
+    "nameTag": "BurgerSwap: 7UP-WTC"
+  },
+  {
+    "address": "0xe9a4b7a12dd14dce397cbf996140fd5744dc9cae",
+    "nameTag": "BurgerSwap: AAA"
+  },
+  {
+    "address": "0x40426c4a6dc5023146e131f9a9656da395f0fd4e",
+    "nameTag": "BurgerSwap: aaac"
+  },
+  {
+    "address": "0x244e348d22958da93805ad7095f5fca04464743b",
+    "nameTag": "BurgerSwap: AAC"
+  },
+  {
+    "address": "0x39e21b0e2cfd3caf813ed6a0db8cbcae4a1e8c75",
+    "nameTag": "BurgerSwap: AAC-BAKE"
+  },
+  {
+    "address": "0xb98677442b9d67a02717f8a06048c5622b102832",
+    "nameTag": "BurgerSwap: AAC-BURGER"
+  },
+  {
+    "address": "0xe5caddaafad4fad666726e3be3fbba8d6da8fa8a",
+    "nameTag": "BurgerSwap: AAC-DEK"
+  },
+  {
+    "address": "0xd022292a8dae5150bec1989f3e3a4d6d219c9119",
+    "nameTag": "BurgerSwap: AAC-xBURGER"
+  },
+  {
+    "address": "0x8bedf7b6745b56df0a25d8eac62565c61ac0875c",
+    "nameTag": "BurgerSwap: abc"
+  },
+  {
+    "address": "0xc479bcb9326551879539c42a09dce49a3af8d36a",
+    "nameTag": "BurgerSwap: abc 2"
+  },
+  {
+    "address": "0xcfcad87824a6e73bc860a6d16f95570ab95b1bb5",
+    "nameTag": "BurgerSwap: abc 3"
+  },
+  {
+    "address": "0x135ca6415b617de76fb8638e06495f3ee3359b7d",
+    "nameTag": "BurgerSwap: abc 4"
+  },
+  {
+    "address": "0xa5435d0dff5d1a7755697dd76d74b0a71d3dff3d",
+    "nameTag": "BurgerSwap: abc 5"
+  },
+  {
+    "address": "0xdc07786aa32a4f28b70c12deb59027a1bb9be701",
+    "nameTag": "BurgerSwap: ABC 6"
+  },
+  {
+    "address": "0xe4fc25471498216a495589a04e5fb17455e8b3f8",
+    "nameTag": "BurgerSwap: ABC-BURGER"
+  },
+  {
+    "address": "0x7718bb93382554ba84b387b990b210b7502c851b",
+    "nameTag": "BurgerSwap: ABC-GAG"
+  },
+  {
+    "address": "0xc9ed2c21d99e7b0b4314626197573051e5d3c2f8",
+    "nameTag": "BurgerSwap: ABIC-BSC-USD"
+  },
+  {
+    "address": "0x5e8fe7f3e912def6b4e615121878850d69068947",
+    "nameTag": "BurgerSwap: ACTN"
+  },
+  {
+    "address": "0xd7ed95d00e57b14178dac767d2a5948213e0ca9b",
+    "nameTag": "BurgerSwap: ADA"
+  },
+  {
+    "address": "0xe8c32cb9faca23abce5e73916f408e13e502a967",
+    "nameTag": "BurgerSwap: ADA-BURGER"
+  },
+  {
+    "address": "0x7ba7bf34873661838ab7e8d9ef375a339f9d7221",
+    "nameTag": "BurgerSwap: ADA-BUSD"
+  },
+  {
+    "address": "0x77c16de598de180d8171b1c397da3f788f0352ef",
+    "nameTag": "BurgerSwap: ADA-DOT"
+  },
+  {
+    "address": "0x718345b2dd93c30d83f5a0a0db516a35656aecfc",
+    "nameTag": "BurgerSwap: ADR-BUSD"
+  },
+  {
+    "address": "0x6372b708b35447482c1657efa4c491fef3d22d79",
+    "nameTag": "BurgerSwap: AGN"
+  },
+  {
+    "address": "0x53a63bc1ea2b205e3dce53b271e11f43ebef9aec",
+    "nameTag": "BurgerSwap: AGN-BURGER"
+  },
+  {
+    "address": "0x4e5f12bfec9be4be18f96632f8130be43478814b",
+    "nameTag": "BurgerSwap: AIRx"
+  },
+  {
+    "address": "0x4f5aa036193dd07340fc5d1f429e2af544df4518",
+    "nameTag": "BurgerSwap: ALET"
+  },
+  {
+    "address": "0xab484930f387fcbda95b567fc94eeb86bf7714a8",
+    "nameTag": "BurgerSwap: ALPA"
+  },
+  {
+    "address": "0x135be7252ec4a0f4c39dabb6e25241a6260b9aba",
+    "nameTag": "BurgerSwap: AMAN-BURGER"
+  },
+  {
+    "address": "0xcc51efb4de1a04bb3ffe3e5dd00148f5bb5ae8e1",
+    "nameTag": "BurgerSwap: AMPT"
+  },
+  {
+    "address": "0x2a417902396cb21413bb7dc864d7b625f1e43376",
+    "nameTag": "BurgerSwap: AMPT-BURGER"
+  },
+  {
+    "address": "0xcdd4f80594f653f8e9af8276fc64dbd18cb59766",
+    "nameTag": "BurgerSwap: ANKR"
+  },
+  {
+    "address": "0x9308975c0c6049b7005cfe10c3344ef351334b39",
+    "nameTag": "BurgerSwap: ANY"
+  },
+  {
+    "address": "0x17704aa646999e4aa9dca6d4ae274a4e225e882d",
+    "nameTag": "BurgerSwap: ARC"
+  },
+  {
+    "address": "0xe8da266054d743886bc09a017aa40dc651364558",
+    "nameTag": "BurgerSwap: ARTS"
+  },
+  {
+    "address": "0x42d83d51fe44012fd43016318dda83ae011eaefc",
+    "nameTag": "BurgerSwap: ARTS 2"
+  },
+  {
+    "address": "0xab2a265a99b4dd660760e389e4163363b2643262",
+    "nameTag": "BurgerSwap: ARTS-BURGER"
+  },
+  {
+    "address": "0xe84c33c415ffe85d7a1eb871c02624e97661fafc",
+    "nameTag": "BurgerSwap: ASCOR"
+  },
+  {
+    "address": "0xf9d45bba7b401ab11dd6863c916f28e78a1fc225",
+    "nameTag": "BurgerSwap: asd-BURGER"
+  },
+  {
+    "address": "0x6906ee53e026ce389c6d29b24b0bdc4aa7bb62e7",
+    "nameTag": "BurgerSwap: asd-xBURGER"
+  },
+  {
+    "address": "0xe9475a7d747bd8781e8c06459bce855129464c2a",
+    "nameTag": "BurgerSwap: ATD"
+  },
+  {
+    "address": "0x459b8c55578a1f4473cb84c93e6360bb9efa52a9",
+    "nameTag": "BurgerSwap: AURO"
+  },
+  {
+    "address": "0x9a680d92283dbb13c73a5643dcb1ecdc3a6212d5",
+    "nameTag": "BurgerSwap: AVX-BUSD"
+  },
+  {
+    "address": "0x7215fad4be74bcd2aff7c54ca3b7b599609226ab",
+    "nameTag": "BurgerSwap: bAIRx"
+  },
+  {
+    "address": "0x3bf3e2f52194d1bd6021d76f78842aa917ac582e",
+    "nameTag": "BurgerSwap: bAIRx-BURGER"
+  },
+  {
+    "address": "0x4261b08af9c0bf59a3e75f73fe7a3916cbe16392",
+    "nameTag": "BurgerSwap: BAKE"
+  },
+  {
+    "address": "0x564246b57477f66f78d9fcf4c66d5bb72b6ec17b",
+    "nameTag": "BurgerSwap: bALBT"
+  },
+  {
+    "address": "0x8c77588dbea63a96dc2e9b422e7f78a39a496a1e",
+    "nameTag": "BurgerSwap: bALBT-BURGER"
+  },
+  {
+    "address": "0x7ed142a316fa164c43866623c63448c7bee8b7b0",
+    "nameTag": "BurgerSwap: bALPA"
+  },
+  {
+    "address": "0xaf79e777f2a70a539e29894f65a9f9a5fdf40af3",
+    "nameTag": "BurgerSwap: BAND"
+  },
+  {
+    "address": "0x5da100d9c15cd4facf4574659f1142d2f36468c0",
+    "nameTag": "BurgerSwap: BAND-BURGER"
+  },
+  {
+    "address": "0x5a71a99b0d36640932f6977f62baa0474a3d8256",
+    "nameTag": "BurgerSwap: BAND-BUSD"
+  },
+  {
+    "address": "0x7722bd537d6f08acbfcc72fa711f7fb95129087e",
+    "nameTag": "BurgerSwap: bat"
+  },
+  {
+    "address": "0x1c0b3af9d7af0d5155e338c72e79fb85813aeb48",
+    "nameTag": "BurgerSwap: BAT 2"
+  },
+  {
+    "address": "0x94d5cc8a37ca36b770fc82d378814e82fd9e1dec",
+    "nameTag": "BurgerSwap: BAT-BURGER"
+  },
+  {
+    "address": "0xda0addacaa4dbb8a6253a48a5bd79d1c5f21c760",
+    "nameTag": "BurgerSwap: BAT-BUSD"
+  },
+  {
+    "address": "0x661db759ed92d72a2766c2d84224af7e203c7bd2",
+    "nameTag": "BurgerSwap: bATD"
+  },
+  {
+    "address": "0xeb564063c32495022e218522d3a179dce971a461",
+    "nameTag": "BurgerSwap: bbao"
+  },
+  {
+    "address": "0x757f85c26111285cd1343504ffbb31998a9e145c",
+    "nameTag": "BurgerSwap: BBB"
+  },
+  {
+    "address": "0x71b80e326dbe05dd095ddd2d6a34ac04332865a2",
+    "nameTag": "BurgerSwap: bBITTO"
+  },
+  {
+    "address": "0x8f0efeb5daec54551453ad6eb35ccc6a7e8b1ad5",
+    "nameTag": "BurgerSwap: bBNS"
+  },
+  {
+    "address": "0xcb8590e68c5958a07f6264ad6b1902d72d14c0ba",
+    "nameTag": "BurgerSwap: bBONDLY"
+  },
+  {
+    "address": "0x0db6287dbed17ded9887618c8f6dc70db61e641b",
+    "nameTag": "BurgerSwap: bBPAL"
+  },
+  {
+    "address": "0x749f133ed42a134cf33d52178a9f5aa492c84a76",
+    "nameTag": "BurgerSwap: BBQ"
+  },
+  {
+    "address": "0x40cb801b8d740883e963576c7fd87fc29747c52b",
+    "nameTag": "BurgerSwap: BBTC"
+  },
+  {
+    "address": "0xe76d898354b912f13597ec6f3991e18c19f639ef",
+    "nameTag": "BurgerSwap: bBUSD"
+  },
+  {
+    "address": "0x1201aadaf16f43ab226cc6fa93084f65477f7520",
+    "nameTag": "BurgerSwap: bBUSD-BURGER"
+  },
+  {
+    "address": "0x2a4f7e1fa0595828994dbc5a67c20a9e2d9341a0",
+    "nameTag": "BurgerSwap: bBZAR"
+  },
+  {
+    "address": "0xe90ed14b4778cd4a60e89cc49cfb87429be78222",
+    "nameTag": "BurgerSwap: bBzB"
+  },
+  {
+    "address": "0x6e7e9c80b94edb7003e6654f452c219632776d5f",
+    "nameTag": "BurgerSwap: bBzB-BURGER"
+  },
+  {
+    "address": "0xfd3717da610d3cf05809a151b74945509e8f3918",
+    "nameTag": "BurgerSwap: bCAPC"
+  },
+  {
+    "address": "0xb658f2e115072ab89b6f273a3e493c711c2d6dca",
+    "nameTag": "BurgerSwap: bCAPC-BURGER"
+  },
+  {
+    "address": "0x98c633e6221264405c227031e9f2e36defcecfd8",
+    "nameTag": "BurgerSwap: bCBS3-BUSD"
+  },
+  {
+    "address": "0xc3c873b1569bf8f987e269764d000f57476f4f99",
+    "nameTag": "BurgerSwap: bCEZ"
+  },
+  {
+    "address": "0x646a3871723492910a6bac48275b0fcbd762b6be",
+    "nameTag": "BurgerSwap: BCH"
+  },
+  {
+    "address": "0x1fdeae303db7d949c644589812d502ac59cd8bbe",
+    "nameTag": "BurgerSwap: BCH-BURGER"
+  },
+  {
+    "address": "0xa154ec2ea0b61e41b6ade894f3eec19c195d3f7d",
+    "nameTag": "BurgerSwap: BCH-BUSD"
+  },
+  {
+    "address": "0x767d8eb33bf918fa5b92655879d1a1f2499a8954",
+    "nameTag": "BurgerSwap: bCHBS"
+  },
+  {
+    "address": "0xbe07e9f9e0abdc61bdb0fe1f2594b686f375e4f8",
+    "nameTag": "BurgerSwap: bCHBS-BURGER"
+  },
+  {
+    "address": "0x3e06cc644b567396e1e32d01d5c0e008c399927b",
+    "nameTag": "BurgerSwap: bCYFM"
+  },
+  {
+    "address": "0x15d3eeab12a7596898c7c8e4223571806645a34d",
+    "nameTag": "BurgerSwap: bCZH-BURGER"
+  },
+  {
+    "address": "0xd4bf945e06263477106dd2f19ca31d9d1546205b",
+    "nameTag": "BurgerSwap: bDAI"
+  },
+  {
+    "address": "0x885bd8c025c299e81d22c2f3e4f537917808f4e2",
+    "nameTag": "BurgerSwap: bDAM"
+  },
+  {
+    "address": "0x3598c19fe378ba64441362b91a510954fd772827",
+    "nameTag": "BurgerSwap: bDAM-BURGER"
+  },
+  {
+    "address": "0x5d198fff445d89863101de08f9342c5bc027fd47",
+    "nameTag": "BurgerSwap: bDBD"
+  },
+  {
+    "address": "0x9b8b70ae4e7379414973b39d960916b4d6ea40b0",
+    "nameTag": "BurgerSwap: bDFSocial"
+  },
+  {
+    "address": "0x46beb8aee822b0ac48f3bb335a4db166acea79be",
+    "nameTag": "BurgerSwap: bDFSocial-BURGER"
+  },
+  {
+    "address": "0xe1d3979ca9efe59fc673345241633294a195b6d7",
+    "nameTag": "BurgerSwap: bDJ15"
+  },
+  {
+    "address": "0xb8d6fb09ef18e70c7044cbb5e9719797b2ca4f12",
+    "nameTag": "BurgerSwap: bDOGEN"
+  },
+  {
+    "address": "0x0e9ec751e85a1e43d78fbbd897be6f05faba7726",
+    "nameTag": "BurgerSwap: bDOV"
+  },
+  {
+    "address": "0xf5bbeaa5dfd89ef49051830331bdef0417064c7b",
+    "nameTag": "BurgerSwap: bEASY"
+  },
+  {
+    "address": "0xf0b068d6cf73d370049f97aa41930abffdfaecd7",
+    "nameTag": "BurgerSwap: bEASY-BURGER"
+  },
+  {
+    "address": "0x15e5bb092df753b43fdbb1c58d3ab6911577989f",
+    "nameTag": "BurgerSwap: bEASY-BUSD-T"
+  },
+  {
+    "address": "0x23cc17de40f6c1fff3c9e278d7948a1d9e284bc0",
+    "nameTag": "BurgerSwap: bELON"
+  },
+  {
+    "address": "0xb701ab2267ed1646bf68bfb3c278dfa1fd3c16d5",
+    "nameTag": "BurgerSwap: bETGF"
+  },
+  {
+    "address": "0x77cd1e1a94f68bc6e73c7ecd9d41ea72f575d0da",
+    "nameTag": "BurgerSwap: BETH"
+  },
+  {
+    "address": "0x27822b3306d201ef62a08c9c125418e806c8ba63",
+    "nameTag": "BurgerSwap: BFC"
+  },
+  {
+    "address": "0x93a99e20a588fa1673a8983eac3bc042d6aca604",
+    "nameTag": "BurgerSwap: bFGP"
+  },
+  {
+    "address": "0xdc3a5ce3ef512ef864e7385d0d368e1e33fbf853",
+    "nameTag": "BurgerSwap: BFI"
+  },
+  {
+    "address": "0x3216e18215660388e4fee1252087077717188365",
+    "nameTag": "BurgerSwap: BFI 2"
+  },
+  {
+    "address": "0x442348ad70c72b8f09e6a8921292d0f43093df74",
+    "nameTag": "BurgerSwap: BFI-BURGER"
+  },
+  {
+    "address": "0x9b7d7ed6ad1442e0145499f116f4fb016262a254",
+    "nameTag": "BurgerSwap: BFIC"
+  },
+  {
+    "address": "0xf49fa4992b7a2fae81e18210ca92547b01b3f3e6",
+    "nameTag": "BurgerSwap: bFLAP"
+  },
+  {
+    "address": "0x2611556d9c38d8d4a3ed28f8af9786413025d25d",
+    "nameTag": "BurgerSwap: BFMOON"
+  },
+  {
+    "address": "0x729d2432387ce10040078ce4ba8e1bac1339ad18",
+    "nameTag": "BurgerSwap: BFMOON-BUSD"
+  },
+  {
+    "address": "0xe8ffbc5ab8572937131d57abe4963a057b69bfa7",
+    "nameTag": "BurgerSwap: bFREDX"
+  },
+  {
+    "address": "0xc647dac733978df2440bb737e9d022d3c8cec402",
+    "nameTag": "BurgerSwap: bFREDX-BURGER"
+  },
+  {
+    "address": "0x88fd91dfa373886eb43c08ebe0896d16a8ecc09a",
+    "nameTag": "BurgerSwap: bFREE"
+  },
+  {
+    "address": "0x995992c25e2920dbe0c8b39f235303717a8d5909",
+    "nameTag": "BurgerSwap: bFREE-BURGER"
+  },
+  {
+    "address": "0xa63021cef6ffa990930abd079766c518c3a29edb",
+    "nameTag": "BurgerSwap: bFuture-AI"
+  },
+  {
+    "address": "0x6ffdfa07130ac98016e3ee4f1ace17041f87e465",
+    "nameTag": "BurgerSwap: bGL"
+  },
+  {
+    "address": "0xd1407fc3c04337874c8535d64fd61e962f0301f2",
+    "nameTag": "BurgerSwap: bGL-BURGER"
+  },
+  {
+    "address": "0x4587a2a4db4aef8644ad8f2d75755470611011ff",
+    "nameTag": "BurgerSwap: bGOOGAM"
+  },
+  {
+    "address": "0xcb1372e52bb2b99c0d66c69d0fe2304d7418d079",
+    "nameTag": "BurgerSwap: BGOV"
+  },
+  {
+    "address": "0x7ed0934f5d2749ffdf9dc9989f3440c2a1193028",
+    "nameTag": "BurgerSwap: bGXC"
+  },
+  {
+    "address": "0x92f738d23d15ea44737f65a2e62a5caa49d7e489",
+    "nameTag": "BurgerSwap: BHC"
+  },
+  {
+    "address": "0xbd37f7bea930e2adcfc0b6c81812cb50be16e383",
+    "nameTag": "BurgerSwap: BHC 2"
+  },
+  {
+    "address": "0xd0796a187b75670c41258450d6549c0270f694a6",
+    "nameTag": "BurgerSwap: BHC-BURGER"
+  },
+  {
+    "address": "0x0a43923f84f6c15f3ac29436d986642d8702efc4",
+    "nameTag": "BurgerSwap: bHGET"
+  },
+  {
+    "address": "0x9f3da12eb1ba540c3c7642cdb56df5e58825d6ba",
+    "nameTag": "BurgerSwap: BIFI"
+  },
+  {
+    "address": "0x73928b7e7b77141ef4784640397e375c244550d3",
+    "nameTag": "BurgerSwap: big fly"
+  },
+  {
+    "address": "0xc8c49cedaf126a614abd45ce16c809ad5d347c4f",
+    "nameTag": "BurgerSwap: big fly-BURGER"
+  },
+  {
+    "address": "0x21fbacc8096753b730b3e8c1ece067afbcc21640",
+    "nameTag": "BurgerSwap: bIMTY"
+  },
+  {
+    "address": "0xfe5d5131412855188bb4042a1b16c053ef7b6fdc",
+    "nameTag": "BurgerSwap: bIMTY-BURGER"
+  },
+  {
+    "address": "0xb46a702bc8a9bec383b6060794aff30a74820e5f",
+    "nameTag": "BurgerSwap: bINNBC"
+  },
+  {
+    "address": "0x47e62830921e35e4f14b3300e733439c4b73bbcb",
+    "nameTag": "BurgerSwap: bJEX-BURGER"
+  },
+  {
+    "address": "0x622fa68cb9cac53bbfa91e052dffcb7030239b52",
+    "nameTag": "BurgerSwap: bJEX-QUSD"
+  },
+  {
+    "address": "0xf7ef3ce874b94cdc26ccd80498cb9a53f04365ad",
+    "nameTag": "BurgerSwap: bKANGAL"
+  },
+  {
+    "address": "0x0393d0435adcf71a45cb60d071a10024c591a14a",
+    "nameTag": "BurgerSwap: BKIT"
+  },
+  {
+    "address": "0xfe0378e48ea9b59e587122ee005557827078632f",
+    "nameTag": "BurgerSwap: BKIT-BUSD"
+  },
+  {
+    "address": "0x0666b0524e19b23f5faa45951e9686801c692f25",
+    "nameTag": "BurgerSwap: BKIT-YONG"
+  },
+  {
+    "address": "0x88cda113189bdbad5dda461086db6e81861a1963",
+    "nameTag": "BurgerSwap: bLEVL"
+  },
+  {
+    "address": "0x09d3677312833d68accf3d3d3b4dcae9163d9035",
+    "nameTag": "BurgerSwap: bLINK"
+  },
+  {
+    "address": "0xd433332f422d58eda016ba4c0e85ab01a7c95dfe",
+    "nameTag": "BurgerSwap: bLINK-BURGER"
+  },
+  {
+    "address": "0x241b8a58ad81a16cdf2240614b68b1e1d3a279da",
+    "nameTag": "BurgerSwap: bLIT"
+  },
+  {
+    "address": "0x621460fe6b6a82056698b6c92da946c7a56ebc5d",
+    "nameTag": "BurgerSwap: BM"
+  },
+  {
+    "address": "0x9356e111f00a284cd5fd9a1e245323452954ee24",
+    "nameTag": "BurgerSwap: bMIXS"
+  },
+  {
+    "address": "0x4adf387e1a70934bb8d1770d43b0424d66091a37",
+    "nameTag": "BurgerSwap: bMYC-BURGER"
+  },
+  {
+    "address": "0x62ea10992e73de1d7b29c067f7f87d3b7c6968d8",
+    "nameTag": "BurgerSwap: BNBM"
+  },
+  {
+    "address": "0xa6fce313dd837adffc8956cb4fca195f5f57cd1f",
+    "nameTag": "BurgerSwap: BNBRM"
+  },
+  {
+    "address": "0x70c4b88eb24017e5fa27ba7b2ff3f27b2f4b2948",
+    "nameTag": "BurgerSwap: BNBX"
+  },
+  {
+    "address": "0x4a0c64f146e0f67098e0ce89c9c9182797f39519",
+    "nameTag": "BurgerSwap: bNOODLE"
+  },
+  {
+    "address": "0xee0e508fde33e7b876b5fe61878990963ed7ed5c",
+    "nameTag": "BurgerSwap: bNTK"
+  },
+  {
+    "address": "0x3cc624eca8909784b7a0ec519f002d59c7f104b2",
+    "nameTag": "BurgerSwap: bNTK-BURGER"
+  },
+  {
+    "address": "0x991b74fcc935c8c2625c88054dbc052879e70eeb",
+    "nameTag": "BurgerSwap: BONUM"
+  },
+  {
+    "address": "0x3054ccfdaab4a89ca4fb4d979cd52befdf1835d6",
+    "nameTag": "BurgerSwap: BOT"
+  },
+  {
+    "address": "0x5a06983a66505eb8d0e2a6305bd6b3907651e7fd",
+    "nameTag": "BurgerSwap: BPB"
+  },
+  {
+    "address": "0xdcf58442f2a3a457bc679a5d9d369a1b2347a831",
+    "nameTag": "BurgerSwap: BPG"
+  },
+  {
+    "address": "0xb2e6056612112e9837651a2fcdd1ab17e75ce9d7",
+    "nameTag": "BurgerSwap: bPOG"
+  },
+  {
+    "address": "0x95a4e5904595c8373b47329531853ba3386182e7",
+    "nameTag": "BurgerSwap: bPoor"
+  },
+  {
+    "address": "0xb0cad5803d3cc7218c9a8d4768e19d8ac9e37d7d",
+    "nameTag": "BurgerSwap: bPoor-BURGER"
+  },
+  {
+    "address": "0xb5be4725e9e45cf9418a669fdb149ef851750ae3",
+    "nameTag": "BurgerSwap: bPPBLZ"
+  },
+  {
+    "address": "0xc9d9acef1c00e75ee3fbc47516f81e12dd414fdb",
+    "nameTag": "BurgerSwap: bPPDEX"
+  },
+  {
+    "address": "0xdff26253a91f0f4b4620af78a7600a7d777d69c6",
+    "nameTag": "BurgerSwap: bPPDEX-BURGER"
+  },
+  {
+    "address": "0xae4871640a1d22d7f65d4755cc82511f457adbf3",
+    "nameTag": "BurgerSwap: bPROM"
+  },
+  {
+    "address": "0xbaf4e262d69780fd4b85bcd2647c309cebb86046",
+    "nameTag": "BurgerSwap: bPROM-BURGER"
+  },
+  {
+    "address": "0xd831800b1dfe29adbf102df888dc3e5087008db8",
+    "nameTag": "BurgerSwap: bPROM-xBURGER"
+  },
+  {
+    "address": "0xd1fb645fd2bcb0d3551f5a5bedd4653476c5a5a3",
+    "nameTag": "BurgerSwap: bPRQ"
+  },
+  {
+    "address": "0xe8e311585a4c6cbe420b2b5b8ba543b2e523a267",
+    "nameTag": "BurgerSwap: bPRQ-BURGER"
+  },
+  {
+    "address": "0x72d2e5f0537bfc73595b0238b6ff947e7c548ab4",
+    "nameTag": "BurgerSwap: bPRT-BUSD"
+  },
+  {
+    "address": "0x99b19d233fc80560aa82489bb3ed9c825178ab11",
+    "nameTag": "BurgerSwap: bRANKER"
+  },
+  {
+    "address": "0xc0ec4bf46af91acb1a91eb48d5d1244da8cb3b64",
+    "nameTag": "BurgerSwap: brDAO"
+  },
+  {
+    "address": "0x99af26ba98f74320b86b133ad4e80b9780c28053",
+    "nameTag": "BurgerSwap: bREEF"
+  },
+  {
+    "address": "0x54cf52c6a8ec1d8827fcc4a3c2962850746063e6",
+    "nameTag": "BurgerSwap: bREEF-BURGER"
+  },
+  {
+    "address": "0xba66dfbf6dece41745c1b4210f5a64875b16146f",
+    "nameTag": "BurgerSwap: bREVO"
+  },
+  {
+    "address": "0x215adbc2608b1c623329b805fc41a4c711822c48",
+    "nameTag": "BurgerSwap: BRG"
+  },
+  {
+    "address": "0xc5f43b28afab786cc7b5b1ad4643eafb12b1724f",
+    "nameTag": "BurgerSwap: bRNT-BURGER"
+  },
+  {
+    "address": "0xbf9126ee3a9f0f57d645c7fcc691ec478dd27642",
+    "nameTag": "BurgerSwap: bRNT-USD-T"
+  },
+  {
+    "address": "0x2e48db6c5c73e37be4c2c3bfdd6ec3c8e017ed4f",
+    "nameTag": "BurgerSwap: bROOBEE"
+  },
+  {
+    "address": "0x7d8b3f4282cc7497122dcb4027251062fa55bd2f",
+    "nameTag": "BurgerSwap: bROOBEE-BUSD"
+  },
+  {
+    "address": "0x9c93724eeaf494bb0f898e6c1ff024a0c4bd0371",
+    "nameTag": "BurgerSwap: BSC"
+  },
+  {
+    "address": "0x07f0a669eb618abe6be63c53687b274200f2c745",
+    "nameTag": "BurgerSwap: BSC-BURGER"
+  },
+  {
+    "address": "0x7a9fc97cd64dc3a208268d769f0ad544b14a05c9",
+    "nameTag": "BurgerSwap: BSC-USD-bECX"
+  },
+  {
+    "address": "0x3c99d64c0521e960416755ea6c143a4b77f40307",
+    "nameTag": "BurgerSwap: BSC-USD-BONUM"
+  },
+  {
+    "address": "0x93c752c850923e51516baf2e55e92f3222327f73",
+    "nameTag": "BurgerSwap: BSC-USD-DAPF"
+  },
+  {
+    "address": "0x92c0cfcb37dbcdd87f715f9af8007287158ab995",
+    "nameTag": "BurgerSwap: BSC-USD-GDX"
+  },
+  {
+    "address": "0x984926c3fe7235012c5c0858f72414dd6e8b55bf",
+    "nameTag": "BurgerSwap: BSC-USD-SHARIA"
+  },
+  {
+    "address": "0xcafce068b9222ccaf44b7b14fbdfa7c90f075528",
+    "nameTag": "BurgerSwap: BSC-USD-TVF"
+  },
+  {
+    "address": "0xc5714ca3b2142aaf04c88d3517e83234e7779771",
+    "nameTag": "BurgerSwap: BSC-USD-WAK"
+  },
+  {
+    "address": "0xea4baa9f65da44eec2588e597f5adfb5105e562f",
+    "nameTag": "BurgerSwap: BSC-USD-WELB"
+  },
+  {
+    "address": "0x55d2836580f0fe23b3d24aee5d3ba7a4922cecb1",
+    "nameTag": "BurgerSwap: bSCooBi"
+  },
+  {
+    "address": "0x4b1811a0e879f25481aab9f5ee0675f488823560",
+    "nameTag": "BurgerSwap: bSHIB"
+  },
+  {
+    "address": "0xa7d1e5420d8aef27178f7c3baf725c017152519d",
+    "nameTag": "BurgerSwap: bSNN"
+  },
+  {
+    "address": "0x6a0468bc3d670bc4d12e7e0f72fc19b1d53b943f",
+    "nameTag": "BurgerSwap: bSRK-BURGER"
+  },
+  {
+    "address": "0x6d5ca96cb393a55a9eeb15de8a7f1956fc155eeb",
+    "nameTag": "BurgerSwap: bSTONKS"
+  },
+  {
+    "address": "0xeeefe4541625918db998696afb2e0c1896fcd8d1",
+    "nameTag": "BurgerSwap: bStrong"
+  },
+  {
+    "address": "0xe372e55f7bc47c251f2f5e3a32565e0ff0277bad",
+    "nameTag": "BurgerSwap: bStrong-BURGER"
+  },
+  {
+    "address": "0xda1518275c23aaa511bac2af61e75d5a35609726",
+    "nameTag": "BurgerSwap: BT"
+  },
+  {
+    "address": "0x034da709a74762cb167c58b29d7079ad17df89a6",
+    "nameTag": "BurgerSwap: BT-BURGER"
+  },
+  {
+    "address": "0x31d95176052ba491097e0761f5e7b1321de13eb9",
+    "nameTag": "BurgerSwap: bTAD"
+  },
+  {
+    "address": "0x81153b546bfc26ab32972b8e5d34772fe7090bc5",
+    "nameTag": "BurgerSwap: bTBB"
+  },
+  {
+    "address": "0x40432719166bf5f9199242cc1477535d6c0570f4",
+    "nameTag": "BurgerSwap: BTCB"
+  },
+  {
+    "address": "0x54ca570ffe6fb3d031aab5b62ee04f173e0be718",
+    "nameTag": "BurgerSwap: BTCB-BURGER"
+  },
+  {
+    "address": "0x765e2953d73f1c11c47502bb8119be6b4f410259",
+    "nameTag": "BurgerSwap: BTCB-BUSD"
+  },
+  {
+    "address": "0x68577d05905b8f4a947404c845909ecf24e69fef",
+    "nameTag": "BurgerSwap: BTCB-LINK"
+  },
+  {
+    "address": "0x4523289b98c14ecc208388cb543c27410051caa8",
+    "nameTag": "BurgerSwap: BTCB-SPARTA"
+  },
+  {
+    "address": "0x74bafee417cd3807d0671b87ae2b77f265817802",
+    "nameTag": "BurgerSwap: BTCBR"
+  },
+  {
+    "address": "0x18778b2b326bcf060d73e4ff5329ee30bed90f49",
+    "nameTag": "BurgerSwap: BTCBR-BSC-USD"
+  },
+  {
+    "address": "0x57c5ca55cdfeafc26e92082530e6dd3d7dcc9d98",
+    "nameTag": "BurgerSwap: BTCMY"
+  },
+  {
+    "address": "0x60cf49d8f9e16505d511baaf4a61f73e9d1239c5",
+    "nameTag": "BurgerSwap: bTHR"
+  },
+  {
+    "address": "0xecc5a779c59b5a64e40901e0128e1a670747ce71",
+    "nameTag": "BurgerSwap: bTRADE"
+  },
+  {
+    "address": "0xab8c59a240968fcb74655e918fe3776bc914ff26",
+    "nameTag": "BurgerSwap: bTRADE-BURGER"
+  },
+  {
+    "address": "0x0f2e7a440d6c73538ea3fd853c2b28b50b91ce46",
+    "nameTag": "BurgerSwap: bTRS"
+  },
+  {
+    "address": "0xe43525d81f12f20347dae318e08b3d1f49d3b59d",
+    "nameTag": "BurgerSwap: bTSD"
+  },
+  {
+    "address": "0x87ed9faeb504795e861aec3301718b3875155442",
+    "nameTag": "BurgerSwap: Bul"
+  },
+  {
+    "address": "0xc989de021772b7d53e918ee0348f8c17a76f1547",
+    "nameTag": "BurgerSwap: bULT"
+  },
+  {
+    "address": "0xa2d723705f2a76d7ea5da93403e622d5babc17bf",
+    "nameTag": "BurgerSwap: bUNI"
+  },
+  {
+    "address": "0x78bcecb18a6e8b235ab6d4f5a8dca520ff554b2e",
+    "nameTag": "BurgerSwap: bUNI-V2-BURGER"
+  },
+  {
+    "address": "0x7ac55ac530f2c29659573bde0700c6758d69e677",
+    "nameTag": "BurgerSwap: BURGER"
+  },
+  {
+    "address": "0x2b435b86cf2ea63649ffca943984b8681d896b45",
+    "nameTag": "BurgerSwap: BURGER-ALET"
+  },
+  {
+    "address": "0x7fc1f173fddd2c89b3debf0e46ebf4fa50b66f59",
+    "nameTag": "BurgerSwap: BURGER-ALPA"
+  },
+  {
+    "address": "0x4caaa9cdd9beb6b399471780745deefb5aff61b5",
+    "nameTag": "BurgerSwap: BURGER-ALPHA"
+  },
+  {
+    "address": "0x31d969ff1255ed655e82477c2939a68784cb5b33",
+    "nameTag": "BurgerSwap: BURGER-ALPHA 2"
+  },
+  {
+    "address": "0x022a2c70e4c597df3c1ddceb0e06dc3b75783d7c",
+    "nameTag": "BurgerSwap: BURGER-ANKR"
+  },
+  {
+    "address": "0x0a2a9c6347dcf1cf1a81125c310a2a21008f7bdd",
+    "nameTag": "BurgerSwap: BURGER-ANY"
+  },
+  {
+    "address": "0x9c8a8ea7cad781a2aa90085e1c43c828ad4eca57",
+    "nameTag": "BurgerSwap: BURGER-BAKE"
+  },
+  {
+    "address": "0x429a16758695b48b4a0b1bf4953d4a0ec4d9cb55",
+    "nameTag": "BurgerSwap: BURGER-bBONDLY"
+  },
+  {
+    "address": "0x3f820d0bd7ce1cc0a993325cd46cae870a8d8bdc",
+    "nameTag": "BurgerSwap: BURGER-BBQ"
+  },
+  {
+    "address": "0x4e1b52bfa2c483fc02e64ee751d55e46d67b7997",
+    "nameTag": "BurgerSwap: BURGER-bCEZ"
+  },
+  {
+    "address": "0xeef2098bd3d65a25799e6ab289d3ea542c30789a",
+    "nameTag": "BurgerSwap: BURGER-bDBD"
+  },
+  {
+    "address": "0x3865846ce9c5bff1c36e8aa8067eb056522a4ee3",
+    "nameTag": "BurgerSwap: BURGER-bDGAS"
+  },
+  {
+    "address": "0xaaa14bc1292afe4537090a4eef0bc206a2c723f7",
+    "nameTag": "BurgerSwap: BURGER-bELON"
+  },
+  {
+    "address": "0xf43d5fe673771b50afb7299fb2b18ba986922bc9",
+    "nameTag": "BurgerSwap: BURGER-bETGF"
+  },
+  {
+    "address": "0x9fde011509e81f093cf0f20ed4b73a42168e7087",
+    "nameTag": "BurgerSwap: BURGER-bFAB"
+  },
+  {
+    "address": "0xa02d23c9f64e0601830df955daed607db50226e2",
+    "nameTag": "BurgerSwap: BURGER-bFGP"
+  },
+  {
+    "address": "0x650b1263febb622123a1d7fd9e781cdcb5192881",
+    "nameTag": "BurgerSwap: BURGER-bFuture-AI"
+  },
+  {
+    "address": "0x45217cbb6f12557650e2ce3605207585a0fed747",
+    "nameTag": "BurgerSwap: BURGER-BIFI"
+  },
+  {
+    "address": "0xa59c60140c2f24c54ae35f75c1867997d9243077",
+    "nameTag": "BurgerSwap: BURGER-bKANGAL"
+  },
+  {
+    "address": "0x27463a47c629aa680ef8c50b8602eed07f0dd32a",
+    "nameTag": "BurgerSwap: BURGER-bPPBLZ"
+  },
+  {
+    "address": "0x1364ee5c320c8fca7586fb206aad1e4841ca1e1b",
+    "nameTag": "BurgerSwap: BURGER-bROOBEE"
+  },
+  {
+    "address": "0xb9b3dc81e974e60e99221726bb6e6d3751581cf9",
+    "nameTag": "BurgerSwap: BURGER-bSHIB"
+  },
+  {
+    "address": "0x512d93b67c4922f592a70f3ec097eb95cc6aaffb",
+    "nameTag": "BurgerSwap: BURGER-bSTONKS"
+  },
+  {
+    "address": "0xc97f7370c4194f0d18d0911f99cb97bd9220113b",
+    "nameTag": "BurgerSwap: BURGER-bULT"
+  },
+  {
+    "address": "0x75ea2c842dc49983b67e6eedf4eba027698e20d7",
+    "nameTag": "BurgerSwap: BURGER-BUSD"
+  },
+  {
+    "address": "0xdbacc7689400d89c4fdfafd833c6d17d7819deaf",
+    "nameTag": "BurgerSwap: BURGER-Candy"
+  },
+  {
+    "address": "0xd3a34035256194dcca55994127eb5ab03dd5d22a",
+    "nameTag": "BurgerSwap: BURGER-CFNX"
+  },
+  {
+    "address": "0xce2bed56fb1ff5c5db99f1f6d1bdd27293f7a706",
+    "nameTag": "BurgerSwap: BURGER-CRAD"
+  },
+  {
+    "address": "0x8d118fb789d8330f24aff16f8278a81e859512ee",
+    "nameTag": "BurgerSwap: BURGER-CREAM"
+  },
+  {
+    "address": "0xa5814666c1fd9de3e952d38225f6acf401211604",
+    "nameTag": "BurgerSwap: BURGER-CSLT"
+  },
+  {
+    "address": "0xd396a0762a45de539edd6b11595eba5f1179c977",
+    "nameTag": "BurgerSwap: BURGER-DEK"
+  },
+  {
+    "address": "0xfc3e533920558457a50e16c94a5915437720ab7d",
+    "nameTag": "BurgerSwap: BURGER-DFY"
+  },
+  {
+    "address": "0xf4c4495bbb041ac8d5ed6378411b7db3278fb7a6",
+    "nameTag": "BurgerSwap: BURGER-EDEN"
+  },
+  {
+    "address": "0x30de7f088050405ff1dd833d5e9398a294758ebb",
+    "nameTag": "BurgerSwap: BURGER-EGG"
+  },
+  {
+    "address": "0xce17f0178462f72ea89af68a85bc6c6201ebd8b8",
+    "nameTag": "BurgerSwap: BURGER-ELASTIC"
+  },
+  {
+    "address": "0x437a7a14bba20f450490ae6c69629148c030e0d0",
+    "nameTag": "BurgerSwap: BURGER-FAIRY"
+  },
+  {
+    "address": "0x45959d775bec17797ea103c243490155c60dece0",
+    "nameTag": "BurgerSwap: BURGER-fake"
+  },
+  {
+    "address": "0xa0729ca96fb81ba95eadda3120966d40add482f5",
+    "nameTag": "BurgerSwap: BURGER-fake 2"
+  },
+  {
+    "address": "0x348677fa0a6feef94aa84ac883738bcfe05fb5c1",
+    "nameTag": "BurgerSwap: BURGER-fake 3"
+  },
+  {
+    "address": "0x4a7851a588335b62931496135d9f030af05eaa3b",
+    "nameTag": "BurgerSwap: BURGER-FLOKI"
+  },
+  {
+    "address": "0xda86b8b814907b4aa9421714ce310e8df19ce78a",
+    "nameTag": "BurgerSwap: BURGER-FNX"
+  },
+  {
+    "address": "0xdd947d3954315c289ab6726e8e969824a0911556",
+    "nameTag": "BurgerSwap: BURGER-FUN"
+  },
+  {
+    "address": "0xfd0b85368ceaca0e44c53b668de55580a198e60b",
+    "nameTag": "BurgerSwap: BURGER-GAG"
+  },
+  {
+    "address": "0x4e6eed870423da12c284c396b5c35e5c4da7137f",
+    "nameTag": "BurgerSwap: BURGER-HASH"
+  },
+  {
+    "address": "0x49f4fb21ef8940718e6af2005f95abf80852726c",
+    "nameTag": "BurgerSwap: BURGER-HGET"
+  },
+  {
+    "address": "0xa9850c255e8a04e84ef8bf6cca924f7b96788e67",
+    "nameTag": "BurgerSwap: BURGER-HT"
+  },
+  {
+    "address": "0xd0cb706d168ef8b428e750cf84bbd1ab0e55b203",
+    "nameTag": "BurgerSwap: BURGER-hxBURGER"
+  },
+  {
+    "address": "0x9d34e304982ef132ba5818d23bf0c96ebf19618a",
+    "nameTag": "BurgerSwap: BURGER-INJ"
+  },
+  {
+    "address": "0x52bf67700d19bd11fdf2eefcc30cff6349dff79a",
+    "nameTag": "BurgerSwap: BURGER-JGN"
+  },
+  {
+    "address": "0x2de6b467f2163d289f8bbdda5fad99470352a56f",
+    "nameTag": "BurgerSwap: BURGER-KOGE"
+  },
+  {
+    "address": "0x0afff660eda302d48ee4de24f653903eab91eacb",
+    "nameTag": "BurgerSwap: BURGER-LINK"
+  },
+  {
+    "address": "0x34e565f3008118e128d7e0a9bfd77a0285028de1",
+    "nameTag": "BurgerSwap: BURGER-LION"
+  },
+  {
+    "address": "0x688e97011525fbd124244373e7e7b3fcee0eacaf",
+    "nameTag": "BurgerSwap: BURGER-MEDI"
+  },
+  {
+    "address": "0x79463a40184ae4d020692efdc90882ab1a03b365",
+    "nameTag": "BurgerSwap: BURGER-MXC"
+  },
+  {
+    "address": "0x98e1e7e908e29f9dcd21601b87bf75c26953ffc2",
+    "nameTag": "BurgerSwap: BURGER-ONT"
+  },
+  {
+    "address": "0x3a1a6c6b07e19091a9e55466250137ac07031cac",
+    "nameTag": "BurgerSwap: BURGER-OPEN"
+  },
+  {
+    "address": "0x69083ed5a16f0158938c5b4d1604d791d374108c",
+    "nameTag": "BurgerSwap: BURGER-POLIS"
+  },
+  {
+    "address": "0xf4314d04265ca126bb14528eb742000e6573ab15",
+    "nameTag": "BurgerSwap: BURGER-PROM"
+  },
+  {
+    "address": "0x3ae37108b434ccd5a22eed87c7408bc8b9dbe905",
+    "nameTag": "BurgerSwap: BURGER-QUSD"
+  },
+  {
+    "address": "0x708649fd698b630f0132b7b162a21be3516c4f06",
+    "nameTag": "BurgerSwap: BURGER-RAVEN"
+  },
+  {
+    "address": "0xbe99791d3b1d0df4bbe2a6ff7e20a6c6d90d1ae4",
+    "nameTag": "BurgerSwap: BURGER-REEF"
+  },
+  {
+    "address": "0x8ab87e0618df9b2f54046e822723e9798d6d087b",
+    "nameTag": "BurgerSwap: BURGER-rich"
+  },
+  {
+    "address": "0x2a0478fc6c64acd46e0d50d030cc1a798b73f253",
+    "nameTag": "BurgerSwap: BURGER-SAM"
+  },
+  {
+    "address": "0x28db660c96f2a39fac9d5ca6c5f39bed8c7a20ad",
+    "nameTag": "BurgerSwap: BURGER-SANTA"
+  },
+  {
+    "address": "0x523d8e60925606022cf4635eddb01d07f23131e6",
+    "nameTag": "BurgerSwap: BURGER-SATO"
+  },
+  {
+    "address": "0x220861a9261acabdd725fc5edf991102428cf245",
+    "nameTag": "BurgerSwap: BURGER-SPARTA"
+  },
+  {
+    "address": "0xfdac9589b3ad4e1118c93909cfe0fb3262c7b027",
+    "nameTag": "BurgerSwap: BURGER-STORM"
+  },
+  {
+    "address": "0x466b6e232d184278194f1b56d40971a14272124d",
+    "nameTag": "BurgerSwap: BURGER-THUGS"
+  },
+  {
+    "address": "0x8e051d5fb36932a1cd9306a0ea420367ecdc3ffb",
+    "nameTag": "BurgerSwap: BURGER-TOK"
+  },
+  {
+    "address": "0xb2e9a9925078b929af048cdde62086837e8cf2bc",
+    "nameTag": "BurgerSwap: BURGER-TPT"
+  },
+  {
+    "address": "0xaeb89b1170de3c2141a491720de7ae850f596330",
+    "nameTag": "BurgerSwap: BURGER-TVF"
+  },
+  {
+    "address": "0x6f9def541bb0f73b1568589422363c4b9ccace4a",
+    "nameTag": "BurgerSwap: BURGER-TWT"
+  },
+  {
+    "address": "0xf5868869ccbfef9167828c1c0e3cfcc6b0ee299a",
+    "nameTag": "BurgerSwap: BURGER-UNI"
+  },
+  {
+    "address": "0x105b6a3dc7cec0dde0babc651544abb212472be9",
+    "nameTag": "BurgerSwap: BURGER-USDT"
+  },
+  {
+    "address": "0x253f9ed777a45d3f344227d1f47ce298e58845c5",
+    "nameTag": "BurgerSwap: BURGER-USDY"
+  },
+  {
+    "address": "0x25d09281680acf2437b4a8567a3bae5c05f4a1c9",
+    "nameTag": "BurgerSwap: BURGER-xBURGER"
+  },
+  {
+    "address": "0xb944d8f339a6c135ce1d5dc1889b176d3eba16a4",
+    "nameTag": "BurgerSwap: BURGER-xiaodao"
+  },
+  {
+    "address": "0x939834368bc5dd0654336b088101ef168c6a8bef",
+    "nameTag": "BurgerSwap: BURGER-XSD"
+  },
+  {
+    "address": "0x851070de7b745caf6ec640b263cbcbdf31063610",
+    "nameTag": "BurgerSwap: BURGER-YONG"
+  },
+  {
+    "address": "0xf53d195fd9df8f97fb3cabd1e8281b1c2de93b51",
+    "nameTag": "BurgerSwap: BURGER-YYKMR"
+  },
+  {
+    "address": "0xa5e6519e1623547b7c6b1ec8f0f4f918bbace5dd",
+    "nameTag": "BurgerSwap: BUSD"
+  },
+  {
+    "address": "0x2e72570119349f761e76178a52e6886a1eb18170",
+    "nameTag": "BurgerSwap: BUSD 2"
+  },
+  {
+    "address": "0x3a3c0133a895bf00c3da02fb5b8629d619522284",
+    "nameTag": "BurgerSwap: BUSD-BFIC"
+  },
+  {
+    "address": "0xa4d05364ec5eea9f0fecb6d44e2e3aad7076ed63",
+    "nameTag": "BurgerSwap: BUSD-LINK"
+  },
+  {
+    "address": "0xc27d8763e6e66322d3b520a75acef8730570a645",
+    "nameTag": "BurgerSwap: BUSD-T-ARTS"
+  },
+  {
+    "address": "0xf06e84648e741b0dfaf78b0e87e454f1dcbb23ad",
+    "nameTag": "BurgerSwap: BUSD-T-B-ball"
+  },
+  {
+    "address": "0xf94c851880852a4b6c6a0c421ba19279ceefb03c",
+    "nameTag": "BurgerSwap: BUSD-T-BBQ"
+  },
+  {
+    "address": "0x3225b2472862b887fed109d340f2da1aa238884d",
+    "nameTag": "BurgerSwap: BUSD-T-DEK"
+  },
+  {
+    "address": "0xf65d214c415bc55400470a7383d7112b6fb1f927",
+    "nameTag": "BurgerSwap: BUSD-T-ERC20"
+  },
+  {
+    "address": "0xcd22e399f9a81596abd5c59aeb17d05a34ac1f80",
+    "nameTag": "BurgerSwap: BUSD-T-FUN"
+  },
+  {
+    "address": "0xe5bd8cde6aa4fb12d7d02a1c6ce2609b42361f30",
+    "nameTag": "BurgerSwap: BUSD-T-Helmet"
+  },
+  {
+    "address": "0xb359aecb1da676bc139820d65be977c7d5e11b18",
+    "nameTag": "BurgerSwap: BUSD-T-hxBURGER"
+  },
+  {
+    "address": "0x43c90a1abf298610214fc80dd6862e8f63ffff4f",
+    "nameTag": "BurgerSwap: BUSD-T-IME"
+  },
+  {
+    "address": "0x35af333a577cc138f4bc5570606fa372e7932559",
+    "nameTag": "BurgerSwap: BUSD-T-MTV"
+  },
+  {
+    "address": "0x0f49a47c0fa0615a08e826cd639913a344a6598d",
+    "nameTag": "BurgerSwap: BUSD-T-ROCKS"
+  },
+  {
+    "address": "0xd291be88b021321fe02684fc548510eca0405537",
+    "nameTag": "BurgerSwap: BUSD-T-SANTA"
+  },
+  {
+    "address": "0x7213482b2146f9a92d25eea27e4d0ee8ea6a37c2",
+    "nameTag": "BurgerSwap: BUSD-T-SATO"
+  },
+  {
+    "address": "0x494c0bbf1188a9d00e09b952ef0cee3046ea7bee",
+    "nameTag": "BurgerSwap: BUSD-T-UNEX"
+  },
+  {
+    "address": "0x03b89d517fe95478d9de3af60e4332fd3bdded8b",
+    "nameTag": "BurgerSwap: BUSD-T-UNI"
+  },
+  {
+    "address": "0x02e162fae2867b9585476dcdccb93534e61b90ca",
+    "nameTag": "BurgerSwap: BUSD-T-USDY"
+  },
+  {
+    "address": "0xfd76ac6eb8893c5edf222e4a258259b14a709017",
+    "nameTag": "BurgerSwap: BUSD-T-xBURGER"
+  },
+  {
+    "address": "0x720f4b7d4e44ed29b6d793d53153544adc5ba80e",
+    "nameTag": "BurgerSwap: bUSDC"
+  },
+  {
+    "address": "0x50185a0699119b2c8c2262092f2b3bdd26d7e8d0",
+    "nameTag": "BurgerSwap: bUSDC-BURGER"
+  },
+  {
+    "address": "0x617ef089c86fc5f85f736d5b0131a799d7ca91d6",
+    "nameTag": "BurgerSwap: bUSDT"
+  },
+  {
+    "address": "0x58a79e4cafc5400e2fb179fd74b1723f1d300018",
+    "nameTag": "BurgerSwap: bUSDT-BURGER"
+  },
+  {
+    "address": "0xfb317ab397402f8701f6606ee6cc54b41becf082",
+    "nameTag": "BurgerSwap: bUSDT-MTV"
+  },
+  {
+    "address": "0xeab57ceb4bad5f391b8439cf509eba9bf567b5b5",
+    "nameTag": "BurgerSwap: bUSxD-BUSD-T"
+  },
+  {
+    "address": "0x7d06969f700bf9302e75cc4ed40fb52b36616cb7",
+    "nameTag": "BurgerSwap: BV3"
+  },
+  {
+    "address": "0x7776d278cfc064c268b5f9fe53531c6236caf2bd",
+    "nameTag": "BurgerSwap: bVLO"
+  },
+  {
+    "address": "0xca13c813e953779ed9f0a5cdcb676be8299d7381",
+    "nameTag": "BurgerSwap: bVLO-BURGER"
+  },
+  {
+    "address": "0xc7431c39b2f86ef308495a3bf4f8633cf670c6d8",
+    "nameTag": "BurgerSwap: bWAIF"
+  },
+  {
+    "address": "0x6b29ba82853ee0a04c61be1086078d08a0c8ec95",
+    "nameTag": "BurgerSwap: bWAIF-BURGER"
+  },
+  {
+    "address": "0x6b6726c610692a738d27295a7f247f044ca656ac",
+    "nameTag": "BurgerSwap: bWASABI-BURGER"
+  },
+  {
+    "address": "0xa591b8bd39d03b84058275b24c887b995dfeb6aa",
+    "nameTag": "BurgerSwap: bWBUNNY"
+  },
+  {
+    "address": "0x57a12f106d7ada32351c106846d6216ba0835e38",
+    "nameTag": "BurgerSwap: bWETH"
+  },
+  {
+    "address": "0x2097560f25821465b47a9dde8f4415591e21a5fd",
+    "nameTag": "BurgerSwap: bWETH-BURGER"
+  },
+  {
+    "address": "0xfa36550551f57486378208e80623445557aa5679",
+    "nameTag": "BurgerSwap: bWETH-BUSD"
+  },
+  {
+    "address": "0xa5c92db883069c240465ddad0305bf9eea8fd39a",
+    "nameTag": "BurgerSwap: bWFC"
+  },
+  {
+    "address": "0x389f5dbdcdae20591e00d62e552e07f02f0c282f",
+    "nameTag": "BurgerSwap: bWHF"
+  },
+  {
+    "address": "0x3faff8f78d50d169d576b66f60c176c70a1954a1",
+    "nameTag": "BurgerSwap: bWSF"
+  },
+  {
+    "address": "0xc7a8a494ecf888a1a467740dd0ffe52592335e53",
+    "nameTag": "BurgerSwap: bXED"
+  },
+  {
+    "address": "0x346f91d69e7ab426c7d13d9932f68178761a669c",
+    "nameTag": "BurgerSwap: bYFTE"
+  },
+  {
+    "address": "0x9daa61d234b7f0b80100096a9d1c6be673217c9c",
+    "nameTag": "BurgerSwap: bYFTE-BURGER"
+  },
+  {
+    "address": "0xe5460555c3f691d8075e169e2f956fd9739601a9",
+    "nameTag": "BurgerSwap: BZAR"
+  },
+  {
+    "address": "0x7e2c6c95824456f40869392eb3461e186d646ebd",
+    "nameTag": "BurgerSwap: BZOOM"
+  },
+  {
+    "address": "0x2717c3ab329c894680f16714fffc1cc2a2d3608b",
+    "nameTag": "BurgerSwap: C4G3"
+  },
+  {
+    "address": "0x547551d7d8dbc6db19cc5ff9426d0d1b914884db",
+    "nameTag": "BurgerSwap: Cake"
+  },
+  {
+    "address": "0xb4ed2f6c004fd2214955d7a685005d2ca7989e70",
+    "nameTag": "BurgerSwap: Cake-BURGER"
+  },
+  {
+    "address": "0x7ce71db155c9d532337bc2ec78b3b61ed855869e",
+    "nameTag": "BurgerSwap: Cake-BUSD"
+  },
+  {
+    "address": "0x733e895e38b3103866cb75ede902244c7dad015a",
+    "nameTag": "BurgerSwap: Cake-CREAM"
+  },
+  {
+    "address": "0xc8d3b5e1a0e5cf581aa536892815667b7d94d358",
+    "nameTag": "BurgerSwap: Cake-FRIES"
+  },
+  {
+    "address": "0x218e9633f260bb663b80fa3fbc5bb866e7aae841",
+    "nameTag": "BurgerSwap: Cake-LP-BURGER"
+  },
+  {
+    "address": "0x34ab705dbdc1fd20aed0b2a7523e1444101c8ab6",
+    "nameTag": "BurgerSwap: CAN"
+  },
+  {
+    "address": "0x08fc173d0f4023f6e9feaf6baaea43d6cf41f7d0",
+    "nameTag": "BurgerSwap: CAN-BURGER"
+  },
+  {
+    "address": "0x4c61f62d05f06cd017de9454fa95b117f78eeefc",
+    "nameTag": "BurgerSwap: CANDY"
+  },
+  {
+    "address": "0x925e0eb3c2bca8ed54a28403e40e7e1962210432",
+    "nameTag": "BurgerSwap: Candy 2"
+  },
+  {
+    "address": "0x673400393a5e65266ea484a6c2dfa12c8e31bc4d",
+    "nameTag": "BurgerSwap: CAPSULE-JMP"
+  },
+  {
+    "address": "0x20b48e3b4ee83d5bc41c63d7337af0291b8343ec",
+    "nameTag": "BurgerSwap: CAT"
+  },
+  {
+    "address": "0x7eb3e9df51aee4dc369a6ae5f270595da9ab14ae",
+    "nameTag": "BurgerSwap: CBIX-FRIES"
+  },
+  {
+    "address": "0x34eefb49cadd61d370ae6e04a4f97ace57f24ae4",
+    "nameTag": "BurgerSwap: CBIX-P"
+  },
+  {
+    "address": "0x34df886202cb5615cf8db5939d43afc8215237e7",
+    "nameTag": "BurgerSwap: CBIX-P-BUSD"
+  },
+  {
+    "address": "0xa0ecf5d3d055576a25f6f01519581b03c2b4f496",
+    "nameTag": "BurgerSwap: CCC"
+  },
+  {
+    "address": "0xe8f30800713d452d97c7ff1febc84a37cdb96270",
+    "nameTag": "BurgerSwap: CCLT"
+  },
+  {
+    "address": "0xc4e964b3ad7419fcbb3f60e4b1a81b0050ea823e",
+    "nameTag": "BurgerSwap: CEO"
+  },
+  {
+    "address": "0x00f141074f61a2dfdbc2da3705303bd3aa86134f",
+    "nameTag": "BurgerSwap: CHAI"
+  },
+  {
+    "address": "0x85946ce1c0cdaeeb061e2a77f9ac04c0fb8570ec",
+    "nameTag": "BurgerSwap: CHAIR"
+  },
+  {
+    "address": "0xed15545687aa2adcbf9489502c3f96f50cc19777",
+    "nameTag": "BurgerSwap: CHEF"
+  },
+  {
+    "address": "0xb05926907cf41ef6ab549036c82322ae20f37b50",
+    "nameTag": "BurgerSwap: CHEF-BURGER"
+  },
+  {
+    "address": "0xb6aebf467332771f209f537ad1fa55f4c86d01d9",
+    "nameTag": "BurgerSwap: CHZM2"
+  },
+  {
+    "address": "0x8198fca8f8591d3be3922994c1a4ab898e91ce3f",
+    "nameTag": "BurgerSwap: CLBK"
+  },
+  {
+    "address": "0x08357812bc0ea0bdc20b14755f0606a0b4aef2ff",
+    "nameTag": "BurgerSwap: cMOON"
+  },
+  {
+    "address": "0x98defe684c2e58beb52175a79760f6e802db5f7d",
+    "nameTag": "BurgerSwap: COCO"
+  },
+  {
+    "address": "0xac10ef46c02fcb3af381dfd52f4fc1066649a2b6",
+    "nameTag": "BurgerSwap: COCO 2"
+  },
+  {
+    "address": "0x3990e0384c8c0a707a489b5bfd788fd6f2f524cd",
+    "nameTag": "BurgerSwap: COIX"
+  },
+  {
+    "address": "0x49e8819331fa22e58d4d4e9340d983fc231a58c2",
+    "nameTag": "BurgerSwap: COKE-BURGER"
+  },
+  {
+    "address": "0x1c6d3a36f90f9dc3bcd2dcf9160fcc88ac870936",
+    "nameTag": "BurgerSwap: COKE-BURGER 2"
+  },
+  {
+    "address": "0xab59e51b81cf57b18d5073b4b18fba102f758a17",
+    "nameTag": "BurgerSwap: COLA-BURGER"
+  },
+  {
+    "address": "0xd6c8aea92052c00eeb4e6e665f8607a69f31b488",
+    "nameTag": "BurgerSwap: Covidve"
+  },
+  {
+    "address": "0x4489d2219849c85328c03e61f9c26709cea645a7",
+    "nameTag": "BurgerSwap: CRAD"
+  },
+  {
+    "address": "0xfede95015ee932fd12f594842e0f1401c832cbde",
+    "nameTag": "BurgerSwap: CREAM"
+  },
+  {
+    "address": "0x84b72b4b974bf49993ccc1f9ad9d7b7cd5467bbc",
+    "nameTag": "BurgerSwap: CREAM-BUSD"
+  },
+  {
+    "address": "0xffc087b4d1f33f738dd5193c1dd69b6132086b8e",
+    "nameTag": "BurgerSwap: CRISPY-BUSD"
+  },
+  {
+    "address": "0x32ec81a43b2c57be5d46cfa4df460d0fac819d36",
+    "nameTag": "BurgerSwap: CRO"
+  },
+  {
+    "address": "0x324b1852438e7f9165068a358dbb9b068a17ad80",
+    "nameTag": "BurgerSwap: CRP"
+  },
+  {
+    "address": "0x2dc73cfb9405c5396e2e9402f0a1a95efa8dc0e4",
+    "nameTag": "BurgerSwap: CRP-BURGER"
+  },
+  {
+    "address": "0xc2fe1723564244f01c54747d61a36bb0c2204d11",
+    "nameTag": "BurgerSwap: CRP-BUSD"
+  },
+  {
+    "address": "0x948655e8f93ce33944e18d6840d44c8b13d68948",
+    "nameTag": "BurgerSwap: CRP-EOS"
+  },
+  {
+    "address": "0x340a3b576dab0caeabc21b6642ca7264cd2f5117",
+    "nameTag": "BurgerSwap: CRP-USDT"
+  },
+  {
+    "address": "0x7c8aa2dc10e088ecfc8f568e467424b53c82b71e",
+    "nameTag": "BurgerSwap: CRP-USDX"
+  },
+  {
+    "address": "0x2a4b1d07db0a46ebb1e9dee4bc383314b3371f9b",
+    "nameTag": "BurgerSwap: CRP-USDY"
+  },
+  {
+    "address": "0xfc742ae6e990d66ae3abc1454349daa6a8d11b81",
+    "nameTag": "BurgerSwap: CSK"
+  },
+  {
+    "address": "0x74f721ced10df8b29010ac9af26b64d1af64c8e9",
+    "nameTag": "BurgerSwap: CSLT"
+  },
+  {
+    "address": "0x8068f2a2fe9a8a57f739f29dd10de8ecfd227ea2",
+    "nameTag": "BurgerSwap: Ctrl2XY"
+  },
+  {
+    "address": "0xe12f09efa0f221833fb43d6692386060dcc8b09f",
+    "nameTag": "BurgerSwap: CUPCAKE"
+  },
+  {
+    "address": "0xc04f3e24b7ee587bc41b6cc0da9b204818b06668",
+    "nameTag": "BurgerSwap: CXY"
+  },
+  {
+    "address": "0x02d99d3b1eb5c769903d894488c784216d8aaa3b",
+    "nameTag": "BurgerSwap: CYC"
+  },
+  {
+    "address": "0x9ce6bfed2893d8d43cc577f8e40a3a57f93ca571",
+    "nameTag": "BurgerSwap: CYFM"
+  },
+  {
+    "address": "0x96f09f024986626f65b99d053ad7bb23dd0a002a",
+    "nameTag": "BurgerSwap: CZ"
+  },
+  {
+    "address": "0xf7ea8d4e331dfaf427907e60c2bfa8c3bd13b7b2",
+    "nameTag": "BurgerSwap: CZG"
+  },
+  {
+    "address": "0x03c4485c102119b892c05192a0cad1b0efff4ee6",
+    "nameTag": "BurgerSwap: DAI"
+  },
+  {
+    "address": "0xdd01801a8b0d40e98c3148177ca06d1ec46138e8",
+    "nameTag": "BurgerSwap: DAI-ADA"
+  },
+  {
+    "address": "0x387193dd90b750a00fbbf3874d3d151e051bfdda",
+    "nameTag": "BurgerSwap: DAI-BURGER"
+  },
+  {
+    "address": "0x4f2082ca7a333b91b3a465a72ccfb00a657271dd",
+    "nameTag": "BurgerSwap: DAI-BUSD"
+  },
+  {
+    "address": "0xb07b7680150a26be6b5f8a62b6879b69a8f83b85",
+    "nameTag": "BurgerSwap: DAI-ETH"
+  },
+  {
+    "address": "0xa3c4c17766031254da5103a78adaaacff7d108b3",
+    "nameTag": "BurgerSwap: DAI-USDT"
+  },
+  {
+    "address": "0xe7bb60168f91c4191738a9f295b0d765e8369e99",
+    "nameTag": "BurgerSwap: DANGO"
+  },
+  {
+    "address": "0x7d177ebe340c1c6982a35968e00f1031fc9e0883",
+    "nameTag": "BurgerSwap: DANGO-BUSD"
+  },
+  {
+    "address": "0xd7b22df7367875057572c3e2e5fd5a2b444fd318",
+    "nameTag": "BurgerSwap: DARUMA"
+  },
+  {
+    "address": "0x2061320a19cc67e61eb9037ecc119ae5647e6214",
+    "nameTag": "BurgerSwap: DARUMA-BURGER"
+  },
+  {
+    "address": "0xc69fcead574fdaa15a0f27afd3b8555e1cb04601",
+    "nameTag": "BurgerSwap: DB"
+  },
+  {
+    "address": "0xb5d9bdd3713cf84b4fe069d1fabc9eb50efff9fa",
+    "nameTag": "BurgerSwap: DCH"
+  },
+  {
+    "address": "0x2a0c0c2c845074951b0c59d2231edf9e9092fe3f",
+    "nameTag": "BurgerSwap: DDG"
+  },
+  {
+    "address": "0xee58bb6e085de174c8894f126938466087b72581",
+    "nameTag": "BurgerSwap: DDG-BURGER"
+  },
+  {
+    "address": "0xd972e5750d81044c60d0e76974b532af76fb3278",
+    "nameTag": "BurgerSwap: DDOS-BSC-USD"
+  },
+  {
+    "address": "0x184f7c2f29a0f452d5623aa96c7fb64f293f6f42",
+    "nameTag": "BurgerSwap: DEFI"
+  },
+  {
+    "address": "0x4b5b962aef73dcb8f2c4145760bf662e7f570c70",
+    "nameTag": "BurgerSwap: DEFI-BURGER"
+  },
+  {
+    "address": "0x200d178d1c4bd6557b3d9ddfd2adf79a3ada9a23",
+    "nameTag": "BurgerSwap: DEGO"
+  },
+  {
+    "address": "0xaa50b37d4902b6c431d6d42e3a8bdf4f07ab84e5",
+    "nameTag": "BurgerSwap: DEGO-BURGER"
+  },
+  {
+    "address": "0x9d6b349081981fa4011b989ad9b662a58284f46d",
+    "nameTag": "BurgerSwap: DEK"
+  },
+  {
+    "address": "0xda2522a16ac71646e1eff9e40887ec5c62a15b34",
+    "nameTag": "BurgerSwap: DEK-BUSD"
+  },
+  {
+    "address": "0xdff7abd4c8ecb45a9c843cf834eabd6e9a724cde",
+    "nameTag": "BurgerSwap: DEL"
+  },
+  {
+    "address": "0x1fa5cca0d606bfed1b855f8e3cc9b0df6c526a40",
+    "nameTag": "BurgerSwap: DEL-BUSD"
+  },
+  {
+    "address": "0x573aeb6f2102ba5979c52b04e07aa85047f9ba7c",
+    "nameTag": "BurgerSwap: DFY"
+  },
+  {
+    "address": "0x7bb1844f960a197f0249f1253815cda47675fcbd",
+    "nameTag": "BurgerSwap: DICE"
+  },
+  {
+    "address": "0x3396aa5a30ab25cd27f88a554c0f8791bc3ebe7a",
+    "nameTag": "BurgerSwap: DICE-BURGER"
+  },
+  {
+    "address": "0xd87c1fff8f515593a1a07711435fbdd318750db3",
+    "nameTag": "BurgerSwap: DOT"
+  },
+  {
+    "address": "0x0b300b70e9492f28000175454afd6bd69c3021c3",
+    "nameTag": "BurgerSwap: DOT-BURGER"
+  },
+  {
+    "address": "0xd7acc30319c7f2670a0ba3779169363b7942a312",
+    "nameTag": "BurgerSwap: DOT-BUSD"
+  },
+  {
+    "address": "0x6c0200ccc91d76b0570d9573202a11d1936acd13",
+    "nameTag": "BurgerSwap: DOT-LINK"
+  },
+  {
+    "address": "0xa78deb35a3f174dbb384acd3ae7706af418cee31",
+    "nameTag": "BurgerSwap: DOT-QUSD"
+  },
+  {
+    "address": "0x85882c507ccbc76ad04d899fd3beb51851b7446f",
+    "nameTag": "BurgerSwap: dou"
+  },
+  {
+    "address": "0x5f761a1fab200932d8babc1eebf01f3ae372c772",
+    "nameTag": "BurgerSwap: DPK Token"
+  },
+  {
+    "address": "0xcb9efb97d3caebfda434f1d03f4a63c4a8b72b54",
+    "nameTag": "BurgerSwap: DRC"
+  },
+  {
+    "address": "0x32c2fba3f436c38a5d9060d2d762d0404f41b693",
+    "nameTag": "BurgerSwap: DSWAP"
+  },
+  {
+    "address": "0xa5631dd533d013837c2c2e8c1b5690025f272424",
+    "nameTag": "BurgerSwap: DTX-TXC"
+  },
+  {
+    "address": "0x1aa156db04d4672ba4d603bdc7196abcddfd12c4",
+    "nameTag": "BurgerSwap: DUCK"
+  },
+  {
+    "address": "0xba75ff711b62599d2cc21622457366825452fc2b",
+    "nameTag": "BurgerSwap: DUCX"
+  },
+  {
+    "address": "0x9133f1bc34dd9f47d168012fb570b5a2fde50887",
+    "nameTag": "BurgerSwap: DXW"
+  },
+  {
+    "address": "0xdf251e66473f3838f6b35b2503421d960bf01104",
+    "nameTag": "BurgerSwap: DXW-BURGER"
+  },
+  {
+    "address": "0x765545754e2317badc4a0db003cf4bf550cd1286",
+    "nameTag": "BurgerSwap: EDEN"
+  },
+  {
+    "address": "0x8385c89606568a1538af186d7193f242549cf641",
+    "nameTag": "BurgerSwap: EDG-RNG"
+  },
+  {
+    "address": "0x15ba862fe76e8a6ad21a779995b443be9da9ac6c",
+    "nameTag": "BurgerSwap: EGG-BURGER"
+  },
+  {
+    "address": "0x44b24a6e2833d0c254b0d74e5ddc5bc44c88ac9a",
+    "nameTag": "BurgerSwap: ELASTIC"
+  },
+  {
+    "address": "0xeb6a9ed1baa46aabc1740b51843da645dd950bcd",
+    "nameTag": "BurgerSwap: ELASTIC-BUSD"
+  },
+  {
+    "address": "0x704b9c6efa9a020f92da05fc3036571fb3fd8b0d",
+    "nameTag": "BurgerSwap: EOS"
+  },
+  {
+    "address": "0xcee55816f6d16fb37251be709036dbadb0f2b49a",
+    "nameTag": "BurgerSwap: EOS-BCH"
+  },
+  {
+    "address": "0xca175251b4ef1a457bbac6d20fa2a6e90dca37d1",
+    "nameTag": "BurgerSwap: EOS-BTCB"
+  },
+  {
+    "address": "0x47ef25e0de28d05b27577068d0f980daf52976ab",
+    "nameTag": "BurgerSwap: EOS-BURGER"
+  },
+  {
+    "address": "0x6db9747f93dccdea96f58b2df381570414bd31d1",
+    "nameTag": "BurgerSwap: EOS-BUSD"
+  },
+  {
+    "address": "0xdab1c455131f529c962af54f7e63f815c86b61d1",
+    "nameTag": "BurgerSwap: ERC20"
+  },
+  {
+    "address": "0x18b17ccdc14bb423f847f3f83640601dd3a8560f",
+    "nameTag": "BurgerSwap: ETC-BURGER"
+  },
+  {
+    "address": "0xba44d8adbeb9b48e68c7468d89e049610d8321c9",
+    "nameTag": "BurgerSwap: ETC-QUSD"
+  },
+  {
+    "address": "0x0be9294dfbad7e5c88fb442a61f1ddeb56e87aa4",
+    "nameTag": "BurgerSwap: ETH"
+  },
+  {
+    "address": "0x6cb53a67fdb81476d9eafdb8e2439a8678055476",
+    "nameTag": "BurgerSwap: ETH-ADA"
+  },
+  {
+    "address": "0x4345a29856303b19149813de24c41196b8a10203",
+    "nameTag": "BurgerSwap: ETH-BAND"
+  },
+  {
+    "address": "0xe397c2b76a755cff1c04ac3092b00c3a8d952dce",
+    "nameTag": "BurgerSwap: ETH-BTCB"
+  },
+  {
+    "address": "0x16e83bea8d4528207e8f7b12cc4b78136d801992",
+    "nameTag": "BurgerSwap: ETH-BURGER"
+  },
+  {
+    "address": "0xba33d7861991b9b4a5c60a1dc26525e316b7e354",
+    "nameTag": "BurgerSwap: ETH-BUSD"
+  },
+  {
+    "address": "0x148233a16c84d9071ad56975c2326c8669674553",
+    "nameTag": "BurgerSwap: ETH-DOT"
+  },
+  {
+    "address": "0xe57552e66e4b32fe1dc2590c689a4cdcdd22c9c3",
+    "nameTag": "BurgerSwap: ETH-EOS"
+  },
+  {
+    "address": "0x662e4dffa336d35ba77a34125f868cb77b2fd861",
+    "nameTag": "BurgerSwap: ETH-LINK"
+  },
+  {
+    "address": "0x168104fb00a4896f632be8af4c3e24a1d6a514cb",
+    "nameTag": "BurgerSwap: ETH-SPARTA"
+  },
+  {
+    "address": "0xa7c853e71a7f653163e3d0b14c582aeb9ff129ec",
+    "nameTag": "BurgerSwap: ETH-USDT"
+  },
+  {
+    "address": "0x968ce6970bb57c390c7403d238a399d2e9022752",
+    "nameTag": "BurgerSwap: ETHM"
+  },
+  {
+    "address": "0xfdcfeb10810345901bf4445a2c0aac0f62037bd5",
+    "nameTag": "BurgerSwap: ETHPAD"
+  },
+  {
+    "address": "0x6f80e2cb3ffd7d1b73aa0c8631d766c7732030c7",
+    "nameTag": "BurgerSwap: ETHPAD-BURGER"
+  },
+  {
+    "address": "0x5cc1a017c85d3ef7586dd97044ee2097e7715b2e",
+    "nameTag": "BurgerSwap: FAIRY"
+  },
+  {
+    "address": "0xd0cc66157b293fc2973b51655f47425378e478f5",
+    "nameTag": "BurgerSwap: fake-BURGER"
+  },
+  {
+    "address": "0x4f030217dab3dc811dbf7447263eecacc8ff321c",
+    "nameTag": "BurgerSwap: fake-BURGER 2"
+  },
+  {
+    "address": "0x5ada5697e92c63622306cf19f9a3442fdd8c79da",
+    "nameTag": "BurgerSwap: FAN"
+  },
+  {
+    "address": "0xef4c7d4cf9b408b29666f39cb0c9a72ec5841c16",
+    "nameTag": "BurgerSwap: FIL"
+  },
+  {
+    "address": "0xc66a6e1d2f202aaf101ed14db4495b5ef144089d",
+    "nameTag": "BurgerSwap: FIL-BURGER"
+  },
+  {
+    "address": "0x8f8b0afd3128abf39089c1e5e13afb6736ead733",
+    "nameTag": "BurgerSwap: FISH"
+  },
+  {
+    "address": "0xd9bf19d55796d1cdcaaab6d10b876040f2131c98",
+    "nameTag": "BurgerSwap: FKK"
+  },
+  {
+    "address": "0x81e96b592f5b555a0ea38f9ff902b32b2002ad5e",
+    "nameTag": "BurgerSwap: FKK2"
+  },
+  {
+    "address": "0x3cf57e64218af7456094e003b2f6b9b279fb25b4",
+    "nameTag": "BurgerSwap: FLOKI"
+  },
+  {
+    "address": "0x1f02587a6d319cc9358c8f516f81a37b6f7f5c9c",
+    "nameTag": "BurgerSwap: FNX-BUSD"
+  },
+  {
+    "address": "0xfc73047b22848c908060c1537b6c99064dd194d1",
+    "nameTag": "BurgerSwap: FOC"
+  },
+  {
+    "address": "0xf6b25d0c44603388be414e724c341f31a25ce422",
+    "nameTag": "BurgerSwap: FOR"
+  },
+  {
+    "address": "0x04cb38b91225083204bc5bc43ab3e815637a45bb",
+    "nameTag": "BurgerSwap: FOR 2"
+  },
+  {
+    "address": "0x49289be0b6c12aa7f96f9ce6c1ea6b41e59d5e7f",
+    "nameTag": "BurgerSwap: FOR-BURGER"
+  },
+  {
+    "address": "0xb22a64fba814e752ed93353d663431d0ca1f8059",
+    "nameTag": "BurgerSwap: FOR-BUSD"
+  },
+  {
+    "address": "0xb171ae149315f6f3c975a76cfcd7ae29fca66603",
+    "nameTag": "BurgerSwap: FOR-DOT"
+  },
+  {
+    "address": "0xf959ab25953c9439e1353f50254ed7ded3a8f46d",
+    "nameTag": "BurgerSwap: FOR-SANTA"
+  },
+  {
+    "address": "0xb2d7c3a1d31b70ce366eee196aa4a325dc98b04c",
+    "nameTag": "BurgerSwap: FREE"
+  },
+  {
+    "address": "0xe8d628def0272179e05be8d5dc9d7f5ece71b57d",
+    "nameTag": "BurgerSwap: FREE-BURGER"
+  },
+  {
+    "address": "0xa85a86b624161ed74981ad1357b002a0939fad15",
+    "nameTag": "BurgerSwap: FREE-BUSD"
+  },
+  {
+    "address": "0x7261fc33e510437203fcbf371716bc79497d7520",
+    "nameTag": "BurgerSwap: FREE-USDT"
+  },
+  {
+    "address": "0x3cd3bd4c81bb06bc8f34bd8c18f21c2cfe84ff71",
+    "nameTag": "BurgerSwap: FRIES"
+  },
+  {
+    "address": "0x93f3f609eb716116aa5309662624b4e095fb2442",
+    "nameTag": "BurgerSwap: FRIES-BAKE"
+  },
+  {
+    "address": "0x9f59de5a2a5b28cbee5f9fdc3bb909d5e67cba76",
+    "nameTag": "BurgerSwap: FRIES-BURGER"
+  },
+  {
+    "address": "0x7f824af1b759bcd00e065b754fba94e9a79ade73",
+    "nameTag": "BurgerSwap: FRIES-BUSD"
+  },
+  {
+    "address": "0x32ee3b7e43b35adc1ad5d3d32f64d58666578213",
+    "nameTag": "BurgerSwap: FSDFDSFSD"
+  },
+  {
+    "address": "0x4b57a86f80d6dd33e823593dd37b8853c7f05350",
+    "nameTag": "BurgerSwap: FUN"
+  },
+  {
+    "address": "0x2e4484dc627c44f0eb56c93102cf522962b65d3e",
+    "nameTag": "BurgerSwap: FUNB"
+  },
+  {
+    "address": "0xdfe770001cf167da3d0f52490a2cdf1879898a2e",
+    "nameTag": "BurgerSwap: FUSDT"
+  },
+  {
+    "address": "0xe82d79e63ffb0ab83b391a15edf71cc2d1cef508",
+    "nameTag": "BurgerSwap: FVF"
+  },
+  {
+    "address": "0x357de13922e6ef93d0d50b083536a4a859fbe5f5",
+    "nameTag": "BurgerSwap: GDT"
+  },
+  {
+    "address": "0x2e058571c3705da46d13d6ee4d66fe259835d537",
+    "nameTag": "BurgerSwap: GMC-BUSD"
+  },
+  {
+    "address": "0x9f37273524d577f28e95519e381e6873a99411c7",
+    "nameTag": "BurgerSwap: GMX"
+  },
+  {
+    "address": "0x6cb44a7c73da29ff1ad4a44a384c737f99aed7b4",
+    "nameTag": "BurgerSwap: GOD"
+  },
+  {
+    "address": "0x789b30f6785761a5879612421202beb746863d8b",
+    "nameTag": "BurgerSwap: GST"
+  },
+  {
+    "address": "0xfdfb5fc79231c401397a0667b602d47b0a724517",
+    "nameTag": "BurgerSwap: GT"
+  },
+  {
+    "address": "0x6a2a11b737a59cf773ac684274341488b34c92c4",
+    "nameTag": "BurgerSwap: GTEX"
+  },
+  {
+    "address": "0x58804536469ce1d7c2d0c08bb4e833a22bd77277",
+    "nameTag": "BurgerSwap: GTEX-BURGER"
+  },
+  {
+    "address": "0xadc260db8e945e2f71cf535b368019fd0883acca",
+    "nameTag": "BurgerSwap: GTEX-BUSD"
+  },
+  {
+    "address": "0xbdc4e418dca628875ecbf0c4c9a4fd2780c3fab4",
+    "nameTag": "BurgerSwap: GTEX-USDT"
+  },
+  {
+    "address": "0x08456cc5e49e554982ece1012f5bf35cf6c7ecf9",
+    "nameTag": "BurgerSwap: GUA"
+  },
+  {
+    "address": "0x00201101f5fd2cba32e6d3cf7d431e4475b16d4e",
+    "nameTag": "BurgerSwap: gwUSDN"
+  },
+  {
+    "address": "0xdc1889d88a4fc904d809b884f646e5f55f14b584",
+    "nameTag": "BurgerSwap: gwUSDN 2"
+  },
+  {
+    "address": "0x701c97105ec4e518464710be8457f444f87b5e5d",
+    "nameTag": "BurgerSwap: Gzc"
+  },
+  {
+    "address": "0xdae6e69c81319a50e0b41e74f0d9628029f32c5b",
+    "nameTag": "BurgerSwap: HASH"
+  },
+  {
+    "address": "0xe6fd2ea52b86d21dbdcbb5c89a91222fe80d637e",
+    "nameTag": "BurgerSwap: HBANK"
+  },
+  {
+    "address": "0x4d25549e5d615b2758ff6535f60db496620dbdcd",
+    "nameTag": "BurgerSwap: HCK"
+  },
+  {
+    "address": "0xcf0230d39151cfb43b39e5d1a192ccf3ef34a5d1",
+    "nameTag": "BurgerSwap: HEFI"
+  },
+  {
+    "address": "0x211a1d0e2f790a4cba6bd5ffed9b61d881d1e2f7",
+    "nameTag": "BurgerSwap: Helmet"
+  },
+  {
+    "address": "0x4685ba3784702c6bb5bf9f61d1c9781644f5f206",
+    "nameTag": "BurgerSwap: Helmet-BURGER"
+  },
+  {
+    "address": "0xfc63e62e950fafc056c8024b20d1899154e55340",
+    "nameTag": "BurgerSwap: Helmet-hxBURGER"
+  },
+  {
+    "address": "0x1c087c97350e8c32d9d7679115b366a1fb83ab63",
+    "nameTag": "BurgerSwap: Helmet-xBURGER"
+  },
+  {
+    "address": "0x46850f78cca8ce5c67445020bedd23b2386907a6",
+    "nameTag": "BurgerSwap: hg"
+  },
+  {
+    "address": "0x763acedf6a5b3b3af0508a2ac4187afe588d00cc",
+    "nameTag": "BurgerSwap: HGET"
+  },
+  {
+    "address": "0x70efad75687db57634077b781193cab4a6a6b3a0",
+    "nameTag": "BurgerSwap: HGET-BUSD"
+  },
+  {
+    "address": "0x27c61acfa49f3a8ac1d7c811f8f88dfdf30038da",
+    "nameTag": "BurgerSwap: HLB"
+  },
+  {
+    "address": "0x9b182849c76add2786d907959414c1f8cdd34462",
+    "nameTag": "BurgerSwap: HSWAP"
+  },
+  {
+    "address": "0x1d77f22bc91f07efd45847b5082094bb6ac5d17c",
+    "nameTag": "BurgerSwap: HT"
+  },
+  {
+    "address": "0x3d08a1b4b3030c35c2bb376c89ec91dfa184be8e",
+    "nameTag": "BurgerSwap: HT 2"
+  },
+  {
+    "address": "0x7271b7557851e4d60cf8b06d7839b54a34df70c3",
+    "nameTag": "BurgerSwap: HT 3"
+  },
+  {
+    "address": "0x98542428885b5cb70054e91c89241b631bc267b4",
+    "nameTag": "BurgerSwap: ht 4"
+  },
+  {
+    "address": "0x1acf6dab0fa3798404f2485127ee0056c1e4bb29",
+    "nameTag": "BurgerSwap: ht-BUSD"
+  },
+  {
+    "address": "0x0affca3680aa96bbbbde3a9aaf6a0bee73222bdf",
+    "nameTag": "BurgerSwap: hxBURGER-BUSD"
+  },
+  {
+    "address": "0xbecbe23b1638c3d8d83712e36d23325fb8b8f3c3",
+    "nameTag": "BurgerSwap: IEON"
+  },
+  {
+    "address": "0x24e6212664ff264eaebb53926811680d1d9e6ac5",
+    "nameTag": "BurgerSwap: IMO"
+  },
+  {
+    "address": "0x57a3c130a06effa3122240764086ceefd0ec727f",
+    "nameTag": "BurgerSwap: INKS"
+  },
+  {
+    "address": "0x5bc2bad13215fa3f3d9bf6aadea015a57627f029",
+    "nameTag": "BurgerSwap: ITC"
+  },
+  {
+    "address": "0xd2d5ac3c37c13da62071f1981ab82a07c06acb08",
+    "nameTag": "BurgerSwap: JACKPOT"
+  },
+  {
+    "address": "0xa9c114d56d589e3ab0a29a59a031f0d1384df15e",
+    "nameTag": "BurgerSwap: JDI"
+  },
+  {
+    "address": "0xd998d31fb604052abda34914fc68f3c710be8386",
+    "nameTag": "BurgerSwap: JEO"
+  },
+  {
+    "address": "0xd08101a9a995c1781726c513a8bc534e9593328f",
+    "nameTag": "BurgerSwap: JMP"
+  },
+  {
+    "address": "0xbc1e2dd430bf0ab82175b931d7f42870620e1810",
+    "nameTag": "BurgerSwap: JNTR/b"
+  },
+  {
+    "address": "0x825093a651f789c29cefba5d8781f2e55e149adc",
+    "nameTag": "BurgerSwap: JNTR/b-BURGER"
+  },
+  {
+    "address": "0x997041b3a1dd621632309cba52bab89e6fc44417",
+    "nameTag": "BurgerSwap: JNTR/b-BUSD"
+  },
+  {
+    "address": "0x30c7d8b552f94c1a7676a8836766f11e289f5476",
+    "nameTag": "BurgerSwap: JULb"
+  },
+  {
+    "address": "0x4294e9daf77d1f890714da149b6e50d7630318f2",
+    "nameTag": "BurgerSwap: JULb-BURGER"
+  },
+  {
+    "address": "0x3154ba59a2bcae1458618b969c499933fabf2f36",
+    "nameTag": "BurgerSwap: JUV"
+  },
+  {
+    "address": "0x8e9112780c81330ba6891e45b8227d2a11e4a875",
+    "nameTag": "BurgerSwap: JYB"
+  },
+  {
+    "address": "0x0f3cbab8b66546b7e7adb5260d3073b3ebfc3f25",
+    "nameTag": "BurgerSwap: KIT1-BURGER"
+  },
+  {
+    "address": "0x41b521b4f59d581a07a789689ccb3590053ffb2a",
+    "nameTag": "BurgerSwap: KOGE"
+  },
+  {
+    "address": "0x25e8540b33c8fa5a5b0ae174666f88fef4bfa0f0",
+    "nameTag": "BurgerSwap: KOGE-BUSD"
+  },
+  {
+    "address": "0x2c78f5fae98c0335b69d06e874553d3c46299086",
+    "nameTag": "BurgerSwap: KOR"
+  },
+  {
+    "address": "0xdd51eb937f2085d6defc56ea9a21c3ae35615723",
+    "nameTag": "BurgerSwap: KOR-BURGER"
+  },
+  {
+    "address": "0x952a31854580df94b02ef58edb93339621ebdab9",
+    "nameTag": "BurgerSwap: KOR-BUSD"
+  },
+  {
+    "address": "0x7b63a86e1bd9f707dcc5c94f86dcf0bab1096cee",
+    "nameTag": "BurgerSwap: KUN-BURGER"
+  },
+  {
+    "address": "0x3d2a857c9ecbfd2e72c7aad34ede08cde4ea5233",
+    "nameTag": "BurgerSwap: KUN-QUSD"
+  },
+  {
+    "address": "0xa6199e5fbfcc2b53ac28110f2542340da90fbc3e",
+    "nameTag": "BurgerSwap: KUTTA-BUSD"
+  },
+  {
+    "address": "0xdd3077844ef2cdcf7a39840c56612412e0b5af15",
+    "nameTag": "BurgerSwap: LAKE"
+  },
+  {
+    "address": "0xbcfe224c0d5a53be21bfb3fc8d3a272a1c639b97",
+    "nameTag": "BurgerSwap: LG-BURGER"
+  },
+  {
+    "address": "0x91d9ba070d161d04d5c91617709feb0d9458c16a",
+    "nameTag": "BurgerSwap: LG-BUSD"
+  },
+  {
+    "address": "0x1dda658d5dc8da68552b772d3482f678ed06a6b5",
+    "nameTag": "BurgerSwap: LINK"
+  },
+  {
+    "address": "0xd3fc201b8cb769ff048ccebdc18b0421ebbf1862",
+    "nameTag": "BurgerSwap: Link 2"
+  },
+  {
+    "address": "0xd6ad12093f75d8bd699824b0c0df81608338834b",
+    "nameTag": "BurgerSwap: LION"
+  },
+  {
+    "address": "0xfaacf4041aea4d2a0d5a71e12035f40365820845",
+    "nameTag": "BurgerSwap: LMT"
+  },
+  {
+    "address": "0x65567f16a02a4661cc14272a968ef30569adde30",
+    "nameTag": "BurgerSwap: logo"
+  },
+  {
+    "address": "0x2b4a9dbf5ff9e9386f83f25738b6744ba8d0632b",
+    "nameTag": "BurgerSwap: Love"
+  },
+  {
+    "address": "0x1e89692b16817fe9da12e705ac5ee7bf66a2a116",
+    "nameTag": "BurgerSwap: LTC"
+  },
+  {
+    "address": "0x57a5eda44c1539aa80d66cb92bf54951584268e3",
+    "nameTag": "BurgerSwap: LTC-BCH"
+  },
+  {
+    "address": "0x5509b77e2a880912c37b63695e6a01ce24a1061b",
+    "nameTag": "BurgerSwap: LTC-BURGER"
+  },
+  {
+    "address": "0x00af854f8e5522c1f0c22f7dd5f37cdb9ad1dd74",
+    "nameTag": "BurgerSwap: LTC-USDT"
+  },
+  {
+    "address": "0x6132e7e3fa9180a6d8eab5ef4f3ff600cff14066",
+    "nameTag": "BurgerSwap: LU"
+  },
+  {
+    "address": "0xb7f68da00f3fb9e0694c5b35c7870b2b1e9230e5",
+    "nameTag": "BurgerSwap: LU 2"
+  },
+  {
+    "address": "0xaa0c676fd15fdf868010358b1c6500f3d374a05c",
+    "nameTag": "BurgerSwap: LUCHOW"
+  },
+  {
+    "address": "0x4f9158448ef6af8149490c58276777839d3e7a4d",
+    "nameTag": "BurgerSwap: LUNAR"
+  },
+  {
+    "address": "0xd410ee822a5f3607c2bb0f293899680d563c16a1",
+    "nameTag": "BurgerSwap: maml"
+  },
+  {
+    "address": "0xde9c0de688ab045305cf8b2063a16cd9bf977800",
+    "nameTag": "BurgerSwap: MASRLE"
+  },
+  {
+    "address": "0xb17b9e2d4e3e1875ddf626746708d876cec2e66d",
+    "nameTag": "BurgerSwap: MASRLE-BURGER"
+  },
+  {
+    "address": "0x53d9a173bd285c6f93063d5a9c911ff201d93bd1",
+    "nameTag": "BurgerSwap: MAT"
+  },
+  {
+    "address": "0x0f9cec9f5968917da235a31192fcb47f36e71cdd",
+    "nameTag": "BurgerSwap: mbgold"
+  },
+  {
+    "address": "0xa1119e45893856b0eaa71fd2921e36bb32c86d3e",
+    "nameTag": "BurgerSwap: MBM"
+  },
+  {
+    "address": "0xeaabd53ee99199fa64cdcf52db785c5cb9b35bb2",
+    "nameTag": "BurgerSwap: MBOX"
+  },
+  {
+    "address": "0x206e36135650878fe15735dc887337095e08acb3",
+    "nameTag": "BurgerSwap: MBOX-BURGER"
+  },
+  {
+    "address": "0xd7b046af83e7b2a732c9f0043616b73e6c1cc93a",
+    "nameTag": "BurgerSwap: MCUM"
+  },
+  {
+    "address": "0x530af9e170827d6e86b03565cb8694b5ab88f671",
+    "nameTag": "BurgerSwap: MEDI"
+  },
+  {
+    "address": "0x6125d24276291845ef1189ebf320afcb6592c6b4",
+    "nameTag": "BurgerSwap: Medusa"
+  },
+  {
+    "address": "0xa892c7083a83ce72990f75b31e0e3e8bd7da2a8a",
+    "nameTag": "BurgerSwap: MER"
+  },
+  {
+    "address": "0xca61e73fc5d31c2b54b16f1adaad4d433ff7f7cc",
+    "nameTag": "BurgerSwap: METH"
+  },
+  {
+    "address": "0x2eeb1e98210d2448b0ea69c28a647c0c528f9e73",
+    "nameTag": "BurgerSwap: MEWS-BUSD"
+  },
+  {
+    "address": "0x74b301198b29ea317ca3ea66b355df4353382789",
+    "nameTag": "BurgerSwap: MFTU"
+  },
+  {
+    "address": "0xe1c8115947a5e8ab24bca9e86746bb6e4daa4dd5",
+    "nameTag": "BurgerSwap: MGA"
+  },
+  {
+    "address": "0x4bdcf7db537199dc84ae3494a3c99a7523a3b919",
+    "nameTag": "BurgerSwap: MGA-BURGER"
+  },
+  {
+    "address": "0x4ecfcebf4543a162dd1643971f2a424ec036115b",
+    "nameTag": "BurgerSwap: MGA-xBURGER"
+  },
+  {
+    "address": "0xe4925e2ed3424fa44064e2203ccecd87a7543577",
+    "nameTag": "BurgerSwap: MGA-xMGA"
+  },
+  {
+    "address": "0x1f110a38738ef0eb2b0e59a05aebfb39df4de761",
+    "nameTag": "BurgerSwap: MILK"
+  },
+  {
+    "address": "0x4708e854943d62cc5cfea8c56576b26d28821075",
+    "nameTag": "BurgerSwap: MILK-BURGER"
+  },
+  {
+    "address": "0xa2ef59d29fb50d232b049fd1612d4a0f845cb1c4",
+    "nameTag": "BurgerSwap: MKN-BRG"
+  },
+  {
+    "address": "0xf873da02aa4ea6e50c67b7fd8f6942fc99506a44",
+    "nameTag": "BurgerSwap: MLA"
+  },
+  {
+    "address": "0x04d7ab866520d465de3bc4d662f01c04bab11b6a",
+    "nameTag": "BurgerSwap: MLM"
+  },
+  {
+    "address": "0x103b3188ae141b5a5b4e45d5c7cea240ced4b58f",
+    "nameTag": "BurgerSwap: MOMO"
+  },
+  {
+    "address": "0x190efb7044e11b519651d1839b220525563b851a",
+    "nameTag": "BurgerSwap: MONI"
+  },
+  {
+    "address": "0xfa3bae89a99670acefbcaf9429732d7ee5a2a51d",
+    "nameTag": "BurgerSwap: MRZ-BUSD"
+  },
+  {
+    "address": "0x6edafbbd6d27bffecb1f698a01bacc00d61be514",
+    "nameTag": "BurgerSwap: MSB"
+  },
+  {
+    "address": "0x87bdd3d38fc615f07346eff048290cda6d3017ec",
+    "nameTag": "BurgerSwap: MT"
+  },
+  {
+    "address": "0x941711ef07796e31932f3d330e56bd73a8ee73e0",
+    "nameTag": "BurgerSwap: MT2"
+  },
+  {
+    "address": "0x09920e4ab8bb8fccd838c22b8a2eba3fa6741224",
+    "nameTag": "BurgerSwap: MTV"
+  },
+  {
+    "address": "0xb55e39bf3171f83f67669aa3bdbee2069afdf9e6",
+    "nameTag": "BurgerSwap: MTV-BURGER"
+  },
+  {
+    "address": "0x880700c84ccabe8bbfc4c1f073a1a55ce89bcb32",
+    "nameTag": "BurgerSwap: MTV-xBURGER"
+  },
+  {
+    "address": "0x299eb97320b54f78bda5ed9ec47bb78ffb706d6b",
+    "nameTag": "BurgerSwap: MUSK-BUSD-T"
+  },
+  {
+    "address": "0x20d7178c91bd4bb4953d04d263a26e7e31368192",
+    "nameTag": "BurgerSwap: MXC"
+  },
+  {
+    "address": "0x2511ed5dcf41a99e6db16ebc69f3eba061f2a702",
+    "nameTag": "BurgerSwap: Mytoken"
+  },
+  {
+    "address": "0xb2e4d46fac33352921f4025ec0b39f5957703048",
+    "nameTag": "BurgerSwap: NBBB"
+  },
+  {
+    "address": "0xf1a383b7692496a5d1b2d78aa7b874487e52b14c",
+    "nameTag": "BurgerSwap: NEWB"
+  },
+  {
+    "address": "0x40d810c2a55de976f652011445c5c5f896f593ab",
+    "nameTag": "BurgerSwap: NEWB-BURGER"
+  },
+  {
+    "address": "0xdfe452b9f1ff118d0d61086f28981f9868ce31fe",
+    "nameTag": "BurgerSwap: NEWO"
+  },
+  {
+    "address": "0xc8c8a87b01ebcb9bb87cf063e7121fbed88fd89b",
+    "nameTag": "BurgerSwap: NIRX"
+  },
+  {
+    "address": "0xe8d7701bbbf62089071c10eef02bcaefe51da101",
+    "nameTag": "BurgerSwap: NOODS"
+  },
+  {
+    "address": "0xe5461085f39d5c4a44262a399f0072607441c3e2",
+    "nameTag": "BurgerSwap: NSB"
+  },
+  {
+    "address": "0x3ea74095687a6b227f17edd7913620cb75da0f3b",
+    "nameTag": "BurgerSwap: OFF"
+  },
+  {
+    "address": "0x346b4e2dca00e49c963ccf06d60b832d159754d0",
+    "nameTag": "BurgerSwap: olN"
+  },
+  {
+    "address": "0x0f570cdfd6d2db49925b75213fd9d0902a9b456f",
+    "nameTag": "BurgerSwap: ONE"
+  },
+  {
+    "address": "0x9ea69186b6e082aec28b1ee8360119be221326ac",
+    "nameTag": "BurgerSwap: ONT"
+  },
+  {
+    "address": "0x34ca77ad329997e0d6b9b3afe29f7dac4668d9ea",
+    "nameTag": "BurgerSwap: OPEN"
+  },
+  {
+    "address": "0x988899145e868c6f298d7643554df4b4722ce4a6",
+    "nameTag": "BurgerSwap: ORBS"
+  },
+  {
+    "address": "0xd74703ecb60ccbcb14b9a9440958fd84049eb22d",
+    "nameTag": "BurgerSwap: ORG"
+  },
+  {
+    "address": "0xb3f1148dca88f904ac66bbbde306ef3c19c06753",
+    "nameTag": "BurgerSwap: ORG-BURGER"
+  },
+  {
+    "address": "0xe05a72f7bab0b03c4fb88314f3305407f4787cf9",
+    "nameTag": "BurgerSwap: PBS"
+  },
+  {
+    "address": "0xa57b4a16a0313bfd4081f610b190ff46b470a50b",
+    "nameTag": "BurgerSwap: PEACH"
+  },
+  {
+    "address": "0x727eef7cdeec3198165d73f004e51c7f254cfa2e",
+    "nameTag": "BurgerSwap: PEACH-BURGER"
+  },
+  {
+    "address": "0xe53be13fc875f5c437b5dbf8689f327e1bfbcb2e",
+    "nameTag": "BurgerSwap: PHO"
+  },
+  {
+    "address": "0xc818665856289c48b394d40f23544d405e50b2f0",
+    "nameTag": "BurgerSwap: PIM"
+  },
+  {
+    "address": "0x186c5d49e1c35aaf403026f844fe5030c47904b5",
+    "nameTag": "BurgerSwap: PIZZA-BURGER"
+  },
+  {
+    "address": "0xa72b20e5a9175002b547350139de5e72afa533e1",
+    "nameTag": "BurgerSwap: PKGB"
+  },
+  {
+    "address": "0xac1092203e3213a0882aa296902915c2648cd9fe",
+    "nameTag": "BurgerSwap: PNW"
+  },
+  {
+    "address": "0x85f47dccac8ccf28030c45cb97eb1ade6ad2565f",
+    "nameTag": "BurgerSwap: POGE"
+  },
+  {
+    "address": "0xfa8e06cc8c77dfdd93f268c1ca297ddd680178ae",
+    "nameTag": "BurgerSwap: POLIS"
+  },
+  {
+    "address": "0x2d37806feace2f7d2fcbde1fb99f5a6bd8b9e458",
+    "nameTag": "BurgerSwap: POLIS 2"
+  },
+  {
+    "address": "0x07d3b0783c92bd6df2aa07a02bb82b2064f10340",
+    "nameTag": "BurgerSwap: POOM"
+  },
+  {
+    "address": "0xd06dc8eec9a551a2788f64639b70dced3e992c4c",
+    "nameTag": "BurgerSwap: PROM"
+  },
+  {
+    "address": "0xd898dcfecb871304e0a829a3e4cb0ba553745e62",
+    "nameTag": "BurgerSwap: PROM 2"
+  },
+  {
+    "address": "0x77b168f8175541099a366f1cd3de928b1dee9890",
+    "nameTag": "BurgerSwap: PROM-BUSD"
+  },
+  {
+    "address": "0xe9b2c74249e1e55ed0c5431edb8efed6458a9577",
+    "nameTag": "BurgerSwap: PROM-DPK Token"
+  },
+  {
+    "address": "0xa57bad03faf38dbd6523e734c4f949be0e2c2a00",
+    "nameTag": "BurgerSwap: PROPEL"
+  },
+  {
+    "address": "0x87d03553a96c3fe0b5af6d574fa184b9914ffd8f",
+    "nameTag": "BurgerSwap: PROPEL 2"
+  },
+  {
+    "address": "0x05aa69440f9e76b2df5beff4a291f73aa8de938c",
+    "nameTag": "BurgerSwap: PROPEL-BURGER"
+  },
+  {
+    "address": "0xa5a0ad2d6e4ec1262e2a5484874af1a5f28c1d5a",
+    "nameTag": "BurgerSwap: QA"
+  },
+  {
+    "address": "0x8e0f61442c565da1914c4827a19356799e63822c",
+    "nameTag": "BurgerSwap: QA-BURGER"
+  },
+  {
+    "address": "0x1cefa42fc036c59d03b0e216fed7888a50cce902",
+    "nameTag": "BurgerSwap: QAA"
+  },
+  {
+    "address": "0x26dc4c4362dc8c7f0e7692020c3feacf81e608e6",
+    "nameTag": "BurgerSwap: QQQ"
+  },
+  {
+    "address": "0x0f536523b92ac552b4cadabf07b697ab1240c802",
+    "nameTag": "BurgerSwap: QRC"
+  },
+  {
+    "address": "0xa32bc1428a06289eb3395febcad265c2ed6cb9be",
+    "nameTag": "BurgerSwap: QST"
+  },
+  {
+    "address": "0x956ab52684a49b2cc011947f29d0ac13537a070d",
+    "nameTag": "BurgerSwap: QUSD"
+  },
+  {
+    "address": "0x88c9dc883298f2909fb8f34f41c1ab364335e771",
+    "nameTag": "BurgerSwap: QUSD-BUSD"
+  },
+  {
+    "address": "0xb1e373aaf37cb2b44d7fb588ec46230f607e0bb1",
+    "nameTag": "BurgerSwap: RAB"
+  },
+  {
+    "address": "0x2f21e2a7017d7ce76e2ba9dafa495f224012fd62",
+    "nameTag": "BurgerSwap: RAB-BUSD"
+  },
+  {
+    "address": "0x11f7c77f0fd1713e9635507c8cdc96db8418ebfe",
+    "nameTag": "BurgerSwap: RAFFLES"
+  },
+  {
+    "address": "0x9dd034bb3e7b8113a36c43a5d2cbd6e7af9044ec",
+    "nameTag": "BurgerSwap: RAVEN"
+  },
+  {
+    "address": "0xd021563827c40a1e412da007973d32325517973a",
+    "nameTag": "BurgerSwap: RCB"
+  },
+  {
+    "address": "0xc40ef3e4249ed440d86a2ac6a9f3d71690c7f74e",
+    "nameTag": "BurgerSwap: REEF"
+  },
+  {
+    "address": "0x8c3f7c566ac9c15732107ae721bf79cc9eea9e8e",
+    "nameTag": "BurgerSwap: RICK"
+  },
+  {
+    "address": "0xb1fd8a88c290f270862cd6b46599f6e7ab0d4804",
+    "nameTag": "BurgerSwap: RICK-BURGER"
+  },
+  {
+    "address": "0xe8037924015edcdce59f7e5579e6f534a31bc483",
+    "nameTag": "BurgerSwap: ROCKS"
+  },
+  {
+    "address": "0x5bf59e3b02f734e5acc559fd1dc59e0a7bda5252",
+    "nameTag": "BurgerSwap: ROCKS-BURGER"
+  },
+  {
+    "address": "0x1e6ca59388a0c3747a1d70595a599e0b6ce2e45d",
+    "nameTag": "BurgerSwap: ROCKS-BUSD"
+  },
+  {
+    "address": "0x8ec12ea7f9cc568e9431bfb259d17521df079190",
+    "nameTag": "BurgerSwap: SAFEMARSCASH"
+  },
+  {
+    "address": "0x48faeb836b6a845343d883b25ce6c879495bc017",
+    "nameTag": "BurgerSwap: SAM"
+  },
+  {
+    "address": "0xfeb35dd48a24896df00621de9f34086681c2bf10",
+    "nameTag": "BurgerSwap: SANTA"
+  },
+  {
+    "address": "0x223772d81a0f39b77e984bbfd9780e9e4c3c0e89",
+    "nameTag": "BurgerSwap: SANTA-BUSD"
+  },
+  {
+    "address": "0x85d8e571c2c45b3c85d6e485aed565571a69b41d",
+    "nameTag": "BurgerSwap: SANTA-JGN"
+  },
+  {
+    "address": "0x1ee703efe8a6edcdae00180394014bf8ba08d07b",
+    "nameTag": "BurgerSwap: SANTA-KOGE"
+  },
+  {
+    "address": "0x614f8263dd794aa7aa982175db362b11f3596fb5",
+    "nameTag": "BurgerSwap: SATT"
+  },
+  {
+    "address": "0xe08f1acbc9bfaebf876f6b3b6447dee3b026a023",
+    "nameTag": "BurgerSwap: sb"
+  },
+  {
+    "address": "0xe7a539c27fa4fc29cc2aaa9d37c4e6a82bc97197",
+    "nameTag": "BurgerSwap: sb-BURGER"
+  },
+  {
+    "address": "0x28885d4504ebd59dcee7fd88906cc1cbdc8ce037",
+    "nameTag": "BurgerSwap: SBCC"
+  },
+  {
+    "address": "0xa4356cd092fcc8a09ec0545ffbe9ae2032ee51cb",
+    "nameTag": "BurgerSwap: SBM"
+  },
+  {
+    "address": "0xbeea43cf3447a2e5815133748cc1aebbfbd305c7",
+    "nameTag": "BurgerSwap: SCUSD"
+  },
+  {
+    "address": "0xf258338cfac47c905cb46046798ff3644dcf4204",
+    "nameTag": "BurgerSwap: SHARIA"
+  },
+  {
+    "address": "0x0b05d0a8edff17a593f9a54298d3a3137ec7cbba",
+    "nameTag": "BurgerSwap: SHEET"
+  },
+  {
+    "address": "0xae856c014c510b738f767fb37cf1d43e7e29f27e",
+    "nameTag": "BurgerSwap: SHEPHERD"
+  },
+  {
+    "address": "0x79ff015dec3940545bb22c9aa209e3895ad838e3",
+    "nameTag": "BurgerSwap: SHIK"
+  },
+  {
+    "address": "0x8acc66183e44396934a748e7dea066da81114d9e",
+    "nameTag": "BurgerSwap: SHLIAPA"
+  },
+  {
+    "address": "0xb5279929d532f96a1deced0dc3e73f6b74dae7d3",
+    "nameTag": "BurgerSwap: SHLIAPA-BURGER"
+  },
+  {
+    "address": "0x809a7e19059aee6a97bd2b21be77391d7736d252",
+    "nameTag": "BurgerSwap: SiBoSi"
+  },
+  {
+    "address": "0x0d02cc498dadfc7b7ce0570a0c08a2b6bd759dd2",
+    "nameTag": "BurgerSwap: siri-BURGER"
+  },
+  {
+    "address": "0xe60acbb3a49550889f1a5700339d8edfced006c6",
+    "nameTag": "BurgerSwap: siri-xBURGER"
+  },
+  {
+    "address": "0x30d3cd0fd402e3422bebd7e791596336e444583f",
+    "nameTag": "BurgerSwap: SKRRR"
+  },
+  {
+    "address": "0x1983e9392dbe6eac0849282ef5437c8f78b75638",
+    "nameTag": "BurgerSwap: SMRT"
+  },
+  {
+    "address": "0x02dc47b319f37142c72ac61728409686379c7f79",
+    "nameTag": "BurgerSwap: SNEED"
+  },
+  {
+    "address": "0x68f3e5b070668f4bc9f62f5aa5ad5880b8ccabe4",
+    "nameTag": "BurgerSwap: SPARTA"
+  },
+  {
+    "address": "0x3befeb7524b1a34e7c436bd5396e27a4de5e4ebf",
+    "nameTag": "BurgerSwap: SPARTA-BUSD"
+  },
+  {
+    "address": "0xcb025ae7dafc845de455f3ecfb609e5cc841bf47",
+    "nameTag": "BurgerSwap: ssha"
+  },
+  {
+    "address": "0x61e181f1b5793f318de4c52373414386d374dfe1",
+    "nameTag": "BurgerSwap: SSP"
+  },
+  {
+    "address": "0x323778f8dfa1991be5d41bed645b92bf833325a1",
+    "nameTag": "BurgerSwap: STATE"
+  },
+  {
+    "address": "0x29f7acc1fdf1b45ea87c4726ee4e46e61a9acf8d",
+    "nameTag": "BurgerSwap: STM"
+  },
+  {
+    "address": "0x7e357973783a59221a9baee610c8021b762210ad",
+    "nameTag": "BurgerSwap: STORM"
+  },
+  {
+    "address": "0x56c97739df89e5694fdb8518b170e496a27e634e",
+    "nameTag": "BurgerSwap: STR"
+  },
+  {
+    "address": "0x0e1b09f0310cf1f912c78b2ddae8a1b06ac1d6ce",
+    "nameTag": "BurgerSwap: STV"
+  },
+  {
+    "address": "0x3494a417349d9b3e2173567eef58bd4250116847",
+    "nameTag": "BurgerSwap: SXP-BURGER"
+  },
+  {
+    "address": "0x946c55c486d9d832a46894073bc2f1279344447a",
+    "nameTag": "BurgerSwap: SXP-QUSD"
+  },
+  {
+    "address": "0x8666ec23266026214549aec846528b5cdab5a597",
+    "nameTag": "BurgerSwap: SYRUP"
+  },
+  {
+    "address": "0x10093cc61d2be15c3e4b812818696f02095ad3a6",
+    "nameTag": "BurgerSwap: SYRUP-BURGER"
+  },
+  {
+    "address": "0xee8d6f2abf2c86e907934434845666e39d769db0",
+    "nameTag": "BurgerSwap: SYRUP-Cake"
+  },
+  {
+    "address": "0x6cb4fb6ac00825fac12e77852d65eaf27d04fc4d",
+    "nameTag": "BurgerSwap: TEN"
+  },
+  {
+    "address": "0x287e794f6c0518f2d01eb3c373817ff4dbe2bace",
+    "nameTag": "BurgerSwap: TEN 2"
+  },
+  {
+    "address": "0x6e360070578501ca0a8031152c259b1fae61279d",
+    "nameTag": "BurgerSwap: TEN-BURGER"
+  },
+  {
+    "address": "0x968a4104e94352057ac63af72704caf79155ecce",
+    "nameTag": "BurgerSwap: TENET-BURGER"
+  },
+  {
+    "address": "0xecbf249b2c40dd8b0411afc03a490d2cd1a30b8a",
+    "nameTag": "BurgerSwap: TER-BURGER"
+  },
+  {
+    "address": "0xda54e54acffe68fe5827d220dd6a0e7261ffeaeb",
+    "nameTag": "BurgerSwap: TEST2"
+  },
+  {
+    "address": "0x55822e71b712890b4b0fa613c64194676341e576",
+    "nameTag": "BurgerSwap: THUGS"
+  },
+  {
+    "address": "0x0674ac0bed965cc7f3f9c71a320ba1627da8dd5e",
+    "nameTag": "BurgerSwap: TIGS-BUSD"
+  },
+  {
+    "address": "0x98bae4ffa2a86f527878f99d2cb6f4cdfe42058a",
+    "nameTag": "BurgerSwap: TITS"
+  },
+  {
+    "address": "0x2af075942b392be494eb8c16bc5a321d15f89c24",
+    "nameTag": "BurgerSwap: TLT"
+  },
+  {
+    "address": "0x8b57eac836016ef5334ef85281272e2d9a5bfe7d",
+    "nameTag": "BurgerSwap: TMD"
+  },
+  {
+    "address": "0x5239e2e193c86aa4afd55808083bca23a6d3f066",
+    "nameTag": "BurgerSwap: TNH"
+  },
+  {
+    "address": "0x222d3f46377fbba9bca4003091118ec4c6c7fb84",
+    "nameTag": "BurgerSwap: TNT"
+  },
+  {
+    "address": "0x22bbcbae57e2ca847b4edf261f6c0d4e866009db",
+    "nameTag": "BurgerSwap: TogoKiller"
+  },
+  {
+    "address": "0x0875fd46ba0437a0ea0e873616c485126f8b3fae",
+    "nameTag": "BurgerSwap: TOK"
+  },
+  {
+    "address": "0xaa74c2bccc5696281b75e02df713fc9820bbd348",
+    "nameTag": "BurgerSwap: TRNN-BURGER"
+  },
+  {
+    "address": "0x0d1a0ddf795cac193eba7dea409eeb364782df60",
+    "nameTag": "BurgerSwap: TTT"
+  },
+  {
+    "address": "0xb88c3b5447f3b91ea857705fe429430e365d712c",
+    "nameTag": "BurgerSwap: TUNA"
+  },
+  {
+    "address": "0x30d357ecab435098d644d96077d3b9d385be7f6a",
+    "nameTag": "BurgerSwap: TUNA-BURGER"
+  },
+  {
+    "address": "0xe6d8070443e8931183277dc6d1cda2665ce0e3eb",
+    "nameTag": "BurgerSwap: TUNA-BUSD-T"
+  },
+  {
+    "address": "0xb2296f642049c7b81c642e4db225f71fe4f2390a",
+    "nameTag": "BurgerSwap: TVF"
+  },
+  {
+    "address": "0x589cf626a7bb90da6b1c9aa2f62f4263fe04d6dc",
+    "nameTag": "BurgerSwap: TWI-BURGER"
+  },
+  {
+    "address": "0x6f8d3fb3b284792cb1108d72ca24b0a16fb96816",
+    "nameTag": "BurgerSwap: TWT"
+  },
+  {
+    "address": "0x80cd0d8919b9bfb34050889b4a0cde0c65dc1fcf",
+    "nameTag": "BurgerSwap: UNI"
+  },
+  {
+    "address": "0xb1ef97eb730e130870b598122ddea0ba4622c0e9",
+    "nameTag": "BurgerSwap: UnionPay银联International"
+  },
+  {
+    "address": "0x92b8e894cb69eba393dd4fe643ba7674b00a21bf",
+    "nameTag": "BurgerSwap: UNQT"
+  },
+  {
+    "address": "0x52d11d3441fe69788928984f1b59c125faaa38dd",
+    "nameTag": "BurgerSwap: UNSTP"
+  },
+  {
+    "address": "0x9898102e3d8c20da1e30ac49c3e1a9a86c2dfb8e",
+    "nameTag": "BurgerSwap: USDC-BURGER"
+  },
+  {
+    "address": "0x34b6fe110bb18c852e005891e039b8584fde2410",
+    "nameTag": "BurgerSwap: USDC-DEK"
+  },
+  {
+    "address": "0x077f1e30ee4998eeb34596fdde95800a2eb9220c",
+    "nameTag": "BurgerSwap: USDQ-QDAO"
+  },
+  {
+    "address": "0x47ca50d7e8a078176bbcbea42a43c3010efe62a0",
+    "nameTag": "BurgerSwap: USDT"
+  },
+  {
+    "address": "0x8e391e8e7f7a15671d57cab9561a340835a3fec3",
+    "nameTag": "BurgerSwap: USDT 2"
+  },
+  {
+    "address": "0x38b30afaa52dee30b63848a665ba2fb4a6308ea4",
+    "nameTag": "BurgerSwap: USDT 3"
+  },
+  {
+    "address": "0xea90edcb111af6eeb32aeea380ed1597dda1fcad",
+    "nameTag": "BurgerSwap: USDT 4"
+  },
+  {
+    "address": "0xbf5f478dbcd1b65f7887d7cb88eb7bcf29e7c005",
+    "nameTag": "BurgerSwap: USDT-abc"
+  },
+  {
+    "address": "0xc9ceef595d01821018efd108427cd8b08b4e83f6",
+    "nameTag": "BurgerSwap: USDT-BAKE"
+  },
+  {
+    "address": "0xa1518876b638983111fdf0235fc7ad2fb1d1b749",
+    "nameTag": "BurgerSwap: USDT-BAND"
+  },
+  {
+    "address": "0x197d2234f8ac3ea86f6671e011c2e2d4299e5241",
+    "nameTag": "BurgerSwap: USDT-BCH"
+  },
+  {
+    "address": "0x7a45abf932a925527fabc5f713e178b7acccbf10",
+    "nameTag": "BurgerSwap: USDT-BTCB"
+  },
+  {
+    "address": "0x8fac10119daed63b94636f669bd4afd866f5a48e",
+    "nameTag": "BurgerSwap: USDT-BTCB 2"
+  },
+  {
+    "address": "0x034772cdcd90f5baabb2da325a879d6aa6840f6e",
+    "nameTag": "BurgerSwap: USDT-BURGER"
+  },
+  {
+    "address": "0x51e2c5218ea6acc5c77215778aba1fe51669fd3d",
+    "nameTag": "BurgerSwap: USDT-BURGER 2"
+  },
+  {
+    "address": "0x04279ad762a08a4230b5fd5bb625df05988a79f6",
+    "nameTag": "BurgerSwap: USDT-BURGER 3"
+  },
+  {
+    "address": "0x16ac737683d0cdc49677cdab46d8c05d1f85a65a",
+    "nameTag": "BurgerSwap: USDT-BUSD"
+  },
+  {
+    "address": "0x41bc9e404bacc7d32bac755b572a28710404d063",
+    "nameTag": "BurgerSwap: USDT-CREAM"
+  },
+  {
+    "address": "0x08a77a7609498d8f0be8c73fad2587445a7483a6",
+    "nameTag": "BurgerSwap: USDT-DOT"
+  },
+  {
+    "address": "0xeb1f96ec214dffee1d3d2487e6f16c05dd2d5740",
+    "nameTag": "BurgerSwap: USDT-EOS"
+  },
+  {
+    "address": "0x330f81d3775629271578f332601bd044815ccc80",
+    "nameTag": "BurgerSwap: USDT-FOR"
+  },
+  {
+    "address": "0x4632de79a66c96b023f8dbfecc8d87bc41c2832d",
+    "nameTag": "BurgerSwap: USDT-GAG"
+  },
+  {
+    "address": "0xb5b73337c78d963a75b7c18e2279cb26a1e5e7d3",
+    "nameTag": "BurgerSwap: USDT-GT"
+  },
+  {
+    "address": "0xed9793f8b2559d00eaf4abfbdbad307693ea98a9",
+    "nameTag": "BurgerSwap: USDT-KIT1"
+  },
+  {
+    "address": "0x9d700a4d764fa6759604f6a42bf303e513265b67",
+    "nameTag": "BurgerSwap: USDT-LINK"
+  },
+  {
+    "address": "0xa79d846038c74a497f58ef27e4f972496f31ad41",
+    "nameTag": "BurgerSwap: USDT-PROPEL"
+  },
+  {
+    "address": "0xa8fffe4448130c08dc444fdbcdd96590c3898ca4",
+    "nameTag": "BurgerSwap: USDT-SPARTA"
+  },
+  {
+    "address": "0xa0165034c7db067a789003889603376582d22202",
+    "nameTag": "BurgerSwap: USDX"
+  },
+  {
+    "address": "0x222d85b7f7d098d20325559be9b0753202041796",
+    "nameTag": "BurgerSwap: USDY"
+  },
+  {
+    "address": "0xbba0266e95b24cc6d7aa45900f6289aa8076bc5e",
+    "nameTag": "BurgerSwap: USDY-BUSD"
+  },
+  {
+    "address": "0x5055904b7c8667b8bfb9ae237e3ab07275e2682b",
+    "nameTag": "BurgerSwap: UUU"
+  },
+  {
+    "address": "0x51d599f03bed4548a324d485f9a573c56aadd13c",
+    "nameTag": "BurgerSwap: VACC-CORD"
+  },
+  {
+    "address": "0xd1f9567a21661ec4bf700ce09876120819446d97",
+    "nameTag": "BurgerSwap: VAI-BUSD"
+  },
+  {
+    "address": "0xc1dcf31fa8802efc6cfac1b7cb55e10a513611fa",
+    "nameTag": "BurgerSwap: VIBE"
+  },
+  {
+    "address": "0x293a25adc7449f41d413731f67200066d31678f8",
+    "nameTag": "BurgerSwap: VNB"
+  },
+  {
+    "address": "0x76226b1588a49206e4ef75a8e8a2f6c0522d0947",
+    "nameTag": "BurgerSwap: VSION"
+  },
+  {
+    "address": "0x9d1541e125dc60432c2380f4ea97164778e712d5",
+    "nameTag": "BurgerSwap: VTECH"
+  },
+  {
+    "address": "0x08e185d28002b92ef4546de6d6439cf57afbf0b6",
+    "nameTag": "BurgerSwap: wALV-BSC-USD"
+  },
+  {
+    "address": "0x7826b6d0b072035189fd7f080778523da322e49b",
+    "nameTag": "BurgerSwap: WASABI"
+  },
+  {
+    "address": "0x80ffdfcf647b54b1872bbd579fb331881d17ff01",
+    "nameTag": "BurgerSwap: WASABI-BURGER"
+  },
+  {
+    "address": "0x100257a6603bbd1a56d43c6317b190cca2b38a96",
+    "nameTag": "BurgerSwap: WDUCX"
+  },
+  {
+    "address": "0x88a52bdb9393c56c56dd89884aa822d7af118218",
+    "nameTag": "BurgerSwap: WEAPON-BAKE"
+  },
+  {
+    "address": "0xd61c61a49edea115d7185cde1e8d06e670b3b573",
+    "nameTag": "BurgerSwap: weew"
+  },
+  {
+    "address": "0x0d9f090ed12e79ed8f423d6621b1baf1e73772e4",
+    "nameTag": "BurgerSwap: WELB"
+  },
+  {
+    "address": "0x2dff6159ae54d325aee6549917078378bfa42e8b",
+    "nameTag": "BurgerSwap: WELB-BURGER"
+  },
+  {
+    "address": "0x262ee56ca358012f7cc7a229301cb95b350c7d5c",
+    "nameTag": "BurgerSwap: WKB"
+  },
+  {
+    "address": "0xec46a71217d3560fba8393d9f49ed9e161ea89a7",
+    "nameTag": "BurgerSwap: WKT"
+  },
+  {
+    "address": "0x4b0b379135c0c071c18c650d6723eed1dae128cd",
+    "nameTag": "BurgerSwap: WMUE"
+  },
+  {
+    "address": "0x426afee720b9a93417fe88e663a98fadbf19f029",
+    "nameTag": "BurgerSwap: WTC-BURGER"
+  },
+  {
+    "address": "0x3e66e3f861257e99b3243180c13926ea7305dcf3",
+    "nameTag": "BurgerSwap: WTC-QUSD"
+  },
+  {
+    "address": "0x0850a9293127412df623080dd13fe9bd1d6b5603",
+    "nameTag": "BurgerSwap: WTF"
+  },
+  {
+    "address": "0xc038a779a16ab47721b9df378240f49294017cd5",
+    "nameTag": "BurgerSwap: WZCR"
+  },
+  {
+    "address": "0xcafccbfd924a7893ca07704740420abf9ef25d22",
+    "nameTag": "BurgerSwap: XAN"
+  },
+  {
+    "address": "0xee679facdac1a80e05e1f749ac451b98c4a33b0e",
+    "nameTag": "BurgerSwap: xBURGER"
+  },
+  {
+    "address": "0x4430a7420deaf537c5f4374f300ebf3228aebad6",
+    "nameTag": "BurgerSwap: xBURGER-BUSD"
+  },
+  {
+    "address": "0x828da5e3009e34cbddb158d57176d5b7cbd066e0",
+    "nameTag": "BurgerSwap: xiaodao"
+  },
+  {
+    "address": "0x879cba0cc8034f0ca444c9066ff5a80c0136d51b",
+    "nameTag": "BurgerSwap: XLS"
+  },
+  {
+    "address": "0x7775f9bb73a3ced141555cc76f425d8cab793a1f",
+    "nameTag": "BurgerSwap: XMAN"
+  },
+  {
+    "address": "0xe8d5e015429111de6a2b410eaae699ecbc418c3e",
+    "nameTag": "BurgerSwap: XMAN-BURGER"
+  },
+  {
+    "address": "0x08c0441c4e8f26f8f3e714e72413618059964a46",
+    "nameTag": "BurgerSwap: XMPT"
+  },
+  {
+    "address": "0x72c2eec0a4ace20559956ee8f5c5bf4e47cc804c",
+    "nameTag": "BurgerSwap: XMPT-BUSD"
+  },
+  {
+    "address": "0x5b2936568b8c4541aa6e36796fee9043e807904b",
+    "nameTag": "BurgerSwap: XMPT-USDT"
+  },
+  {
+    "address": "0x660b4f124e4eab6e3c7ec5a910da81a9bf7e8a1a",
+    "nameTag": "BurgerSwap: XRP"
+  },
+  {
+    "address": "0x5b8f031a3db7670dae4f5d60bec6e878ef251e01",
+    "nameTag": "BurgerSwap: XRP-ADA"
+  },
+  {
+    "address": "0x148528c742f89c5dab2df5baab2125c87285c200",
+    "nameTag": "BurgerSwap: XRP-BCH"
+  },
+  {
+    "address": "0x3230c57d9d4fbf87b6a94a692d4930534b66623b",
+    "nameTag": "BurgerSwap: XRP-BTCB"
+  },
+  {
+    "address": "0x32b8541ae9dd407c77977d1b5d21e758ce767acb",
+    "nameTag": "BurgerSwap: XRP-BURGER"
+  },
+  {
+    "address": "0x47f9f7bba79226fe1d775a7579593f3ad967e572",
+    "nameTag": "BurgerSwap: XRP-EOS"
+  },
+  {
+    "address": "0x6c556aa8df5dfe3742bbebe0eb69cc32a84fae91",
+    "nameTag": "BurgerSwap: XRP-LTC"
+  },
+  {
+    "address": "0xc3fd9cdb2f6f9f88630f5b06e5e808fea94dff59",
+    "nameTag": "BurgerSwap: XRP-USDT"
+  },
+  {
+    "address": "0x2c21bcd4953e39746114949bfafe4f45324a377a",
+    "nameTag": "BurgerSwap: XSD"
+  },
+  {
+    "address": "0xb16777412ff7a20984a3e5f759462b9f486e11ef",
+    "nameTag": "BurgerSwap: XTZ"
+  },
+  {
+    "address": "0xb020ae0929f1029c7e2acac08ae073c01f305d70",
+    "nameTag": "BurgerSwap: XTZ-ADA"
+  },
+  {
+    "address": "0x0660e22a109610e791e6601f19fba343ae220361",
+    "nameTag": "BurgerSwap: XTZ-BURGER"
+  },
+  {
+    "address": "0x98138593c90cb2331e21922b1cda8c2600a83c50",
+    "nameTag": "BurgerSwap: XTZ-USDT"
+  },
+  {
+    "address": "0xb79896cf00eb5fc88dd000bd0236a7ea61de77c5",
+    "nameTag": "BurgerSwap: YAL"
+  },
+  {
+    "address": "0x61f0e2c18dd12bcc59d9e26380c28df192e3e44f",
+    "nameTag": "BurgerSwap: yeye"
+  },
+  {
+    "address": "0x11f801547a9d6c4341637670c68723b4570eaed9",
+    "nameTag": "BurgerSwap: YFI"
+  },
+  {
+    "address": "0x44dbd196f3fab034b37d379351409e774dfe8f5a",
+    "nameTag": "BurgerSwap: YFIG"
+  },
+  {
+    "address": "0xe8dd16ef39eac31c8e2c1a2f99333f4149eeb724",
+    "nameTag": "BurgerSwap: YFII"
+  },
+  {
+    "address": "0x521ce28aca751932b308a19c8ee5de06109ec61d",
+    "nameTag": "BurgerSwap: YODA"
+  },
+  {
+    "address": "0x174b6f251c09a9a136da8d2435d12ac8cd5181ba",
+    "nameTag": "BurgerSwap: YONG"
+  },
+  {
+    "address": "0x2d131d09511cf528de962ac9acd6dba621f4afaf",
+    "nameTag": "BurgerSwap: YONG-BUSD"
+  },
+  {
+    "address": "0x11b17aa19c5e7b07cbd0346c1bf41a80e71d1cff",
+    "nameTag": "BurgerSwap: YYANG"
+  },
+  {
+    "address": "0xba3e1be30f5c6fb0f91641218ff4ae78506032b3",
+    "nameTag": "BurgerSwap: YYANG-BURGER"
+  },
+  {
+    "address": "0xcb3503babaa4f7ebce56824d09e75ac5f4335a52",
+    "nameTag": "BurgerSwap: YYCB"
+  },
+  {
+    "address": "0xa88a5494e926f2115aed9e90147dbb9f09b27783",
+    "nameTag": "BurgerSwap: YYCB-BURGER"
+  },
+  {
+    "address": "0x0cc4e6656f6e43d99067ade68f776e8b68f9e6cb",
+    "nameTag": "BurgerSwap: YYKMR"
+  },
+  {
+    "address": "0x9cb8ebc874f49f4f2c1e7b649734a5515594f975",
+    "nameTag": "BurgerSwap: YZT"
+  },
+  {
+    "address": "0x13fc75201d5c1c032a5a41ee475593a978eaa247",
+    "nameTag": "BurgerSwap: ZALUPA"
+  },
+  {
+    "address": "0xdb71dbb4d47a6e03989c5daa5c7f677fac030415",
+    "nameTag": "BurgerSwap: ZAR"
+  },
+  {
+    "address": "0x9fa141a1708a9af19721a79f275cd0b5e6c4b72e",
+    "nameTag": "BurgerSwap: ZEAL-BSC-USD"
+  },
+  {
+    "address": "0x4f5a4299a2d4f6ac4a3610967b104ec972a2e2e0",
+    "nameTag": "BurgerSwap: ZEAL-BUSD"
+  },
+  {
+    "address": "0x1037c5dff4719a5225cd66dd5cc7dd1fe2dc9d03",
+    "nameTag": "BurgerSwap: ZHU"
+  },
+  {
+    "address": "0x8ed4d9c8e5c7353f58b050ba92f0c07f4ffcd98e",
+    "nameTag": "BurgerSwap: ZUMD"
+  },
+  {
+    "address": "0xc09a9a41b8fc1b3676c3160f0d8ae2652a2ea2ee",
+    "nameTag": "BurgerSwap: ZUMD-BUSD"
+  }
+]
