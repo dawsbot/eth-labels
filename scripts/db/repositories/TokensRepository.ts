@@ -2,47 +2,34 @@ import { db } from "../database";
 import type { NewToken } from "../types";
 
 export class TokensRepository {
+  private static allColumns = [
+    "tokens.address",
+    "tokens.chainId",
+    "tokens.label",
+    "tokens.name",
+    "tokens.symbol",
+    "tokens.website",
+    "tokens.image",
+  ] as const;
   public static selectAllTokens() {
     return db
       .selectFrom("tokens")
-      .select([
-        "tokens.address",
-        "tokens.chainId",
-        "tokens.label",
-        "tokens.name",
-        "tokens.symbol",
-        "tokens.website",
-        "tokens.image",
-      ])
+      .select(TokensRepository.allColumns)
+      .orderBy("tokens.chainId asc")
+      .orderBy("tokens.label asc")
       .execute();
   }
   public static selectTokensByLabel(label: string) {
     return db
       .selectFrom("tokens")
-      .select([
-        "tokens.address",
-        "tokens.chainId",
-        "tokens.label",
-        "tokens.name",
-        "tokens.symbol",
-        "tokens.website",
-        "tokens.image",
-      ])
+      .select(this.allColumns)
       .where("label", "=", label)
       .execute();
   }
   public static selectTokensByAddress(address: string) {
     return db
       .selectFrom("tokens")
-      .select([
-        "tokens.address",
-        "tokens.chainId",
-        "tokens.label",
-        "tokens.name",
-        "tokens.symbol",
-        "tokens.website",
-        "tokens.image",
-      ])
+      .select(this.allColumns)
       .where("address", "=", address.toLowerCase())
       .execute();
   }

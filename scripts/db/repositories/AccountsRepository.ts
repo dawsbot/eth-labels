@@ -2,38 +2,31 @@ import { db } from "../database";
 import type { NewAccount } from "../types";
 
 export class AccountsRepository {
+  private static allColumns = [
+    "accounts.address",
+    "accounts.chainId",
+    "accounts.label",
+    "accounts.nameTag",
+  ] as const;
   public static selectAllAccounts() {
     return db
       .selectFrom("accounts")
-      .select([
-        "accounts.address",
-        "accounts.chainId",
-        "accounts.label",
-        "accounts.nameTag",
-      ])
+      .select(this.allColumns)
+      .orderBy("accounts.chainId asc")
+      .orderBy("accounts.label asc")
       .execute();
   }
   public static selectAccountsByLabel(label: string) {
     return db
       .selectFrom("accounts")
-      .select([
-        "accounts.address",
-        "accounts.chainId",
-        "accounts.label",
-        "accounts.nameTag",
-      ])
+      .select(this.allColumns)
       .where("label", "=", label)
       .execute();
   }
   public static selectAccountsByAddress(address: string) {
     return db
       .selectFrom("accounts")
-      .select([
-        "accounts.address",
-        "accounts.chainId",
-        "accounts.label",
-        "accounts.nameTag",
-      ])
+      .select(this.allColumns)
       .where("address", "=", address.toLowerCase())
       .execute();
   }
