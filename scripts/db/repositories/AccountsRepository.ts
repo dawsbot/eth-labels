@@ -31,6 +31,15 @@ export class AccountsRepository {
       .where("address", "=", address.toLowerCase())
       .execute();
   }
+  public static selectAllLabels = async () => {
+    const allRows = await db
+      .selectFrom("accounts")
+      .select(["label"])
+      .distinct()
+      .orderBy("label")
+      .execute();
+    return allRows.map((row) => row.label);
+  };
 
   public static insertAccount(newAccount: NewAccount) {
     return db.insertInto("accounts").values(newAccount).execute();
