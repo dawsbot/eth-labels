@@ -81,14 +81,14 @@ export class EtherscanHtmlParser extends HtmlParser {
       const match = tokenNameColumn.match(regex);
       const tokenName = match?.[1];
       const tokenSymbol = match?.[2];
-      const tokenImage = $(tableCells[2]).find("a > img").attr("src");
+      const image = $(tableCells[2]).find("a > img").attr("src");
       const website = $(tableCells[5]).text().trim().toLowerCase();
       const tokenRow: TokenRow = {
         address: address.trim(),
-        tokenName: tokenName || "",
-        tokenSymbol: tokenSymbol || "",
         website,
-        tokenImage: tokenImage || "",
+        name: tokenName || null,
+        symbol: tokenSymbol || null,
+        image: image || null,
       };
 
       addressesInfo = [...addressesInfo, tokenRow];

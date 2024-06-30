@@ -65,9 +65,10 @@ describe("gnosis", () => {
     expect(tokenRows).toHaveLength(7);
     expect(tokenRows).toContainEqual({
       address: "0x7a5c3860a77a8dc1b225bd46d0fb2ac1c6d191bc",
-      tokenName: "Aave Gnosis sDAI",
-      tokenSymbol: "aGnosDAI",
+      name: "Aave Gnosis sDAI",
+      symbol: "aGnosDAI",
       website: "https://aave.com/",
+      image: null,
     });
   });
 });
@@ -103,23 +104,26 @@ describe("arbiscan", () => {
     // not abbreviated
     expect(tokenRows).toContainEqual({
       address: "0xf0cb2dc0db5e6c66B9a70Ac27B06b878da017028",
-      tokenName: "Olympus",
-      tokenSymbol: "OHM",
+      name: "Olympus",
+      symbol: "OHM",
       website: "https://www.olympusdao.finance/",
+      image: null,
     });
     // abbreviated
     expect(tokenRows).toContainEqual({
       address: "0xd91903d548f19c0fc0a6b9ed09d2f72b4dfe7144",
-      tokenName: "Impossible Decentralized Incubator Access Token",
-      tokenSymbol: "IDIA",
+      name: "Impossible Decentralized Incubator Access Token",
+      symbol: "IDIA",
       website: "https://impossible.finance/",
+      image: null,
     });
     // not abbreviated but tricky
     expect(tokenRows).toContainEqual({
       address: "0xe6045890b20945d00e6f3c01878265c03c5435d3",
-      tokenName: "Impossible Decentralized Incubat",
-      tokenSymbol: "IDIA",
+      name: "Impossible Decentralized Incubat",
+      symbol: "IDIA",
       website: "https://impossible.finance/",
+      image: null,
     });
   });
 });
@@ -154,15 +158,16 @@ describe("bscscan", () => {
     // not abbreviated
     expect(tokenRows).toContainEqual({
       address: "0x9840652dc04fb9db2c43853633f0f62be6f00f98",
-      tokenName: "ChainGPT",
-      tokenSymbol: "CGPT",
+      name: "ChainGPT",
+      symbol: "CGPT",
       website: "https://www.chaingpt.org/",
+      image: null,
     });
     // abbreviated
     // expect(tokenRows).toContainEqual({
     //   address: "0x03aa6298f1370642642415edc0db8b957783e8d6",
-    //   tokenName: "NetMind Token",
-    //   tokenSymbol: "NMT",
+    //   name: "NetMind Token",
+    //   symbol: "NMT",
     //   website: "https://power.netmind.ai/",
     // });
   });
@@ -195,17 +200,19 @@ describe("celo", () => {
     expect(tokenRows).toHaveLength(22);
     expect(tokenRows).toContainEqual({
       address: "0x2cfd4b2827f35624ae12c858da969e16d5d730a2",
-      tokenName: "ERC-20 TOKEN*",
-      tokenSymbol: "",
+      name: "ERC-20 TOKEN*",
+      symbol: "",
       website: "",
+      image: null,
     });
     // this html has one extra row artificially added from
     // https://celoscan.io/tokens/label/bitfinex?subcatid=0&size=50&start=0&col=3&order=desc
     expect(tokenRows).toContainEqual({
       address: "0x48065fbbe25f71c9282ddf5e1cd6d6a887483d5e",
-      tokenName: "Tether USD",
-      tokenSymbol: "USD₮",
+      name: "Tether USD",
+      symbol: "USD₮",
       website: "https://tether.to/",
+      image: null,
     });
   });
 });
@@ -239,9 +246,10 @@ describe("optimism", () => {
     expect(tokenRows).toHaveLength(13);
     expect(tokenRows).toContainEqual({
       address: "0x00b8d5a5e1ac97cb4341c4bc4367443c8776e8d9",
-      tokenName: "Synth sAAVE",
-      tokenSymbol: "sAAVE",
+      name: "Synth sAAVE",
+      symbol: "sAAVE",
       website: "https://synthetix.io/",
+      image: null,
     });
   });
 });
@@ -275,9 +283,10 @@ describe("basescan", () => {
     expect(tokenRows).toHaveLength(3);
     expect(tokenRows).toContainEqual({
       address: "0x0a1d576f3efef75b330424287a95a366e8281d54",
-      tokenName: "Aave Base USDbC",
-      tokenSymbol: "aBasUSDbC",
+      name: "Aave Base USDbC",
+      symbol: "aBasUSDbC",
       website: "https://aave.com/",
+      image: null,
     });
   });
 });
@@ -312,10 +321,10 @@ describe("etherscan", () => {
     expect(tokenRows).toHaveLength(11);
     expect(tokenRows).toContainEqual({
       address: "0x9f8f72aa9304c8b593d555f12ef6589cc3a579a2",
-      tokenName: "Maker",
-      tokenSymbol: "MKR",
+      name: "Maker",
+      symbol: "MKR",
       website: "https://makerdao.com/",
-      tokenImage: "/token/images/mkr-etherscan-35.png",
+      image: "/token/images/mkr-etherscan-35.png",
     });
   });
 

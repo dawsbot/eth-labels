@@ -10,7 +10,7 @@ const ApiResponseSchema = z.object({
         z
           .object({
             tokenName: z.string(),
-            tokenImage: z.string().optional(),
+            image: z.string().optional(),
             website: z.string(),
             contractAddress: z.string(),
           })
@@ -30,16 +30,14 @@ export abstract class ApiParser {
 
   public filterResponse(data: TokenRows): TokenRows {
     data.forEach((token: TokenRow) => {
-      const $tokenName = cheerio.load(token.tokenName);
+      const $tokenName = cheerio.load(z.string().parse(token.name));
       const $tokenWebsite = cheerio.load(token.website);
       const $tokenAddress = cheerio.load(token.address);
       let title: string = z.string().parse($tokenName("a > div > span").html());
       let symbol: string = z
         .string()
         .parse($tokenName("a > div > span:nth-child(2)").html());
-      const tokenImage: string = z
-        .string()
-        .parse($tokenName("a > img").attr("src"));
+      const image: string = z.string().parse($tokenName("a > img").attr("src"));
 
       if (title.startsWith("<span")) {
         title = z
@@ -64,9 +62,9 @@ export abstract class ApiParser {
         .string()
         .parse($tokenAddress("a").attr("data-bs-title"));
 
-      token.tokenSymbol = symbol;
-      token.tokenName = title;
-      token.tokenImage = tokenImage;
+      token.symbol = symbol;
+      token.name = title;
+      token.image = image;
       token.website = website;
       token.address = address;
     });
@@ -75,10 +73,11 @@ export abstract class ApiParser {
 
   public convertToTokenRows(data: ApiResponse): TokenRows {
     const tokens = data.d.data.map((obj) => ({
-      tokenName: obj.tokenName,
-      tokenSymbol: "",
+      name: obj.tokenName,
       website: obj.website,
       address: obj.contractAddress,
+      symbol: null,
+      image: null, // TODO: Add image parsing here
     }));
     return tokens;
   }

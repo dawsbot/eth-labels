@@ -12,85 +12,83 @@
 
 <br/>
 
-## Ethereum
+## API (Pre-Alpha)
+
+A public API to consume this data is under active development. You can [use it remotely here](https://eth-labels-production.up.railway.app/swagger), or to use this API locally, start it like this:
+
+```sh
+bun run dev:api
+```
+
+Documentation for the API is available via swagger at `/swagger`
+
+<br/>
+
+### Ethereum
 
 <img src="https://raw.githubusercontent.com/dawsbot/eth-labels/v1/docs/img/etherscan.svg" width="200"/></a>
 
-<!-- AUTO-GENERATED-CONTENT:START (lastEdited:dataDirectory=etherscan) -->
-
-etherscan was last modified: June 14, 2024
+<!-- AUTO-GENERATED-CONTENT:START (lastEdited:chainName=etherscan) -->
 
 [View labels here](data/etherscan)
 
 <!-- AUTO-GENERATED-CONTENT:END -->
 
-## Arbitrum
+### Arbitrum
 
-<a><img src="https://raw.githubusercontent.com/dawsbot/evm-labels/v1/docs/img/arbiscan.svg" width="200"/></a>
+<a><img src="https://raw.githubusercontent.com/dawsbot/eth-labels/v1/docs/img/arbiscan.svg" width="200"/></a>
 
-<!-- AUTO-GENERATED-CONTENT:START (lastEdited:dataDirectory=arbiscan) -->
-
-arbiscan was last modified: June 14, 2024
+<!-- AUTO-GENERATED-CONTENT:START (lastEdited:chainName=arbiscan) -->
 
 [View labels here](data/arbiscan)
 
 <!-- AUTO-GENERATED-CONTENT:END -->
 
-## Optimism
+### Optimism
 
-<a><img src="https://raw.githubusercontent.com/dawsbot/evm-labels/v1/docs/img/optimism.svg" width="200"/></a>
+<a><img src="https://raw.githubusercontent.com/dawsbot/eth-labels/v1/docs/img/optimism.svg" width="200"/></a>
 
-<!-- AUTO-GENERATED-CONTENT:START (lastEdited:dataDirectory=optimism) -->
-
-optimism was last modified: June 14, 2024
+<!-- AUTO-GENERATED-CONTENT:START (lastEdited:chainName=optimism) -->
 
 [View labels here](data/optimism)
 
 <!-- AUTO-GENERATED-CONTENT:END -->
 
-## Base
+### Base
 
-<a><img src="https://raw.githubusercontent.com/dawsbot/evm-labels/v1/docs/img/basescan.svg" width="200"/></a>
+<a><img src="https://raw.githubusercontent.com/dawsbot/eth-labels/v1/docs/img/basescan.svg" width="200"/></a>
 
-<!-- AUTO-GENERATED-CONTENT:START (lastEdited:dataDirectory=basescan) -->
-
-basescan was last modified: June 14, 2024
+<!-- AUTO-GENERATED-CONTENT:START (lastEdited:chainName=basescan) -->
 
 [View labels here](data/basescan)
 
 <!-- AUTO-GENERATED-CONTENT:END -->
 
-## Binance Smart Chain
+### Binance Smart Chain
 
 <img src="https://raw.githubusercontent.com/dawsbot/eth-labels/v1/docs/img/bscscan.svg" width="200"/></a>
 
-<!-- AUTO-GENERATED-CONTENT:START (lastEdited:dataDirectory=bscscan) -->
-
-bscscan was last modified: June 14, 2024
+<!-- AUTO-GENERATED-CONTENT:START (lastEdited:chainName=bscscan) -->
 
 [View labels here](data/bscscan)
 
 <!-- AUTO-GENERATED-CONTENT:END -->
 
-## Gnosis Chain
+### Gnosis Chain
 
 <img src="https://raw.githubusercontent.com/dawsbot/eth-labels/v1/docs/img/gnosis.svg" width="200"/></a>
 
-<!-- AUTO-GENERATED-CONTENT:START (lastEdited:dataDirectory=gnosis) -->
-
-gnosis was last modified: June 14, 2024
+<!-- AUTO-GENERATED-CONTENT:START (lastEdited:chainName=gnosis) -->
 
 [View labels here](data/gnosis)
 
 <!-- AUTO-GENERATED-CONTENT:END -->
 
-## Celo
+### Celo
 
 <img src="https://raw.githubusercontent.com/dawsbot/eth-labels/v1/docs/img/celo.svg" width="200"/></a>
 
-<!-- AUTO-GENERATED-CONTENT:START (lastEdited:dataDirectory=celo) -->
-
-celo was last modified: April 12, 2024
+<!-- AUTO-GENERATED-CONTENT:START (lastEdited:chainName=celo) -->
 
 [View labels here](data/celo)
 
@@ -100,16 +98,6 @@ More chains coming soon
 
 - Where does this data come from?
   - This data is already organized by the kind folks at Etherscan. Unfortunately that data is not accessible for researchers, so we've copied the data out and into a more shareable format here.
-
-## API (Pre-Alpha)
-
-A public API to consume this data is under active development. To use this api locally, you can start it with the following commands:
-
-```sh
-bun run dev:api
-```
-
-Documentation for the API is available via swagger at `/swagger`
 
 ## Star History
 

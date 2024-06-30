@@ -58,9 +58,10 @@ export class OptimismHtmlParser extends HtmlParser {
       ).toLowerCase();
       const tokenRow: TokenRow = {
         address: address.trim(),
-        tokenName: tokenName || "",
-        tokenSymbol: tokenSymbol || "",
+        name: tokenName || "",
+        symbol: tokenSymbol || "",
         website,
+        image: null, // TODO: Add image parsing here
       };
 
       addressesInfo = [...addressesInfo, tokenRow];

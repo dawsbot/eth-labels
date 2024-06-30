@@ -22,17 +22,17 @@ describe("EtherscanParser", () => {
     const rawTokens = apiParser.convertToTokenRows(etherscanMocks[0]);
     const parsedTokens = apiParser.filterResponse(rawTokens);
     expect(parsedTokens[0]).toEqual({
-      tokenName: "Aave interest bearing ENJ",
-      tokenSymbol: "aENJ",
+      name: "Aave interest bearing ENJ",
+      symbol: "aENJ",
       website: "https://aave.com/atokens",
       address: "0xac6df26a590f08dcc95d5a4705ae8abbc88509ef",
-      tokenImage: "/token/images/Aave_aENJ_32.png",
+      image: "/token/images/Aave_aENJ_32.png",
     });
     expect(parsedTokens).toContainEqual({
       address: "0x05ec93c0365baaeabf7aeffb0972ea7ecdd39cf1",
-      tokenImage: "/token/images/Aave_aBAT_32.png",
-      tokenName: "Aave interest bearing BAT",
-      tokenSymbol: "aBAT",
+      image: "/token/images/Aave_aBAT_32.png",
+      name: "Aave interest bearing BAT",
+      symbol: "aBAT",
       website: "https://aave.com/atokens",
     });
   });

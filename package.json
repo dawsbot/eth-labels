@@ -1,5 +1,5 @@
 {
-  "name": "evm-labels",
+  "name": "eth-labels",
   "version": "0.0.3",
   "description": "A public dataset of Etherscan labels",
   "license": "MIT",
@@ -15,19 +15,18 @@
     "prepare": "husky || true",
     "tsc": "tsc -p tsconfig.json",
     "postversion": "git push --follow-tags",
-    "prepublishOnly": "bun run build",
-    "markdown-magic": "npx tsx docs/markdown-magic.ts"
+    "prepublishOnly": "bun run build"
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/dawsbot/evm-labels.git"
+    "url": "git+https://github.com/dawsbot/eth-labels.git"
   },
   "keywords": [],
   "author": "",
   "bugs": {
-    "url": "https://github.com/dawsbot/evm-labels/issues"
+    "url": "https://github.com/dawsbot/eth-labels/issues"
   },
-  "homepage": "https://github.com/dawsbot/evm-labels#readme",
+  "homepage": "https://github.com/dawsbot/eth-labels#readme",
   "prettier": {
     "plugins": [
       "prettier-plugin-organize-imports"
@@ -37,8 +36,7 @@
     "@types/better-sqlite3": "^7.6.10",
     "@types/cli-progress": "^3.11.5",
     "@types/inquirer": "^9.0.7",
-    "@types/markdown-magic": "^1.0.4",
-    "@types/node": "^20.14.6",
+    "@types/node": "^20.14.9",
     "cheerio": "^1.0.0-rc.12",
     "cli-progress": "^3.12.0",
     "concurrently": "^8.2.2",
@@ -48,16 +46,15 @@
     "eslint-plugin-tsdoc": "^0.2.17",
     "globby": "^14.0.1",
     "husky": "^9.0.11",
-    "inquirer": "^9.2.23",
+    "inquirer": "^9.3.1",
     "kysely": "^0.27.3",
     "lint-staged": "^15.2.7",
-    "markdown-magic": "^2.6.1",
     "npm-run-all": "^4.1.5",
-    "playwright": "^1.44.1",
+    "playwright": "^1.45.0",
     "prettier": "^3.3.2",
     "prettier-plugin-organize-imports": "^3.2.4",
-    "typescript": "^5.4.5",
-    "typescript-eslint": "^7.13.1",
+    "typescript": "^5.5.2",
+    "typescript-eslint": "^7.14.1",
     "zod": "^3.23.8"
   },
   "lint-staged": {
@@ -65,8 +62,8 @@
   },
   "dependencies": {
     "@elysiajs/swagger": "^1.0.5",
-    "elysia": "^1.0.24",
-    "kysely-bun-sqlite": "^0.3.2",
-    "viem": "^2.16.1"
+    "elysia": "^1.0.25",
+    "viem": "^2.16.3",
+    "kysely-bun-sqlite": "^0.3.2"
   }
 }
