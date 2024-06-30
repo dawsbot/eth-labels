@@ -1,3 +1,4 @@
+import { z } from "zod";
 import { db } from "../database";
 import type { NewAccount } from "../types";
 
@@ -33,6 +34,16 @@ export class AccountsRepository {
 
   public static insertAccount(newAccount: NewAccount) {
     return db.insertInto("accounts").values(newAccount).execute();
+  }
+
+  public static async computeLastModifiedDate(chainId: number) {
+    const result = await db
+      .selectFrom("tokens")
+      .select(({ fn }) => [fn.max("modified_at").as("latest_updated_at")])
+      .where("chainId", "=", chainId)
+      .executeTakeFirst();
+
+    return z.string().parse(result?.latest_updated_at);
   }
 
   /**

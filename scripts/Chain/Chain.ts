@@ -7,7 +7,7 @@ export class Chain<T extends HtmlParser> {
   public chainId: number;
   public puller: T;
 
-  #chainIdMapping: { [key: string]: number } = {
+  public static chainIdMapping: { [key: string]: number } = {
     etherscan: 1,
     optimism: 10,
     arbiscan: 42161,
@@ -22,6 +22,6 @@ export class Chain<T extends HtmlParser> {
     const filenameRegex = /^[a-z0-9_\-.]+$/;
     this.chainName = z.string().regex(filenameRegex).parse(chainName);
     this.puller = puller;
-    this.chainId = this.#chainIdMapping[chainName];
+    this.chainId = Chain.chainIdMapping[chainName];
   }
 }

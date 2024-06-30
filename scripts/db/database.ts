@@ -15,7 +15,8 @@ export const databasePath = path.resolve(
   "db.sqlite3",
 );
 console.log(`Loading SQLite from file "${databasePath}"`);
-const database = new SQLite(databasePath);
+// don't import database directly, use the "db" variable from kysely instead
+export const database = new SQLite(databasePath);
 const dialect = new BunSqliteDialect({
   database,
 });
