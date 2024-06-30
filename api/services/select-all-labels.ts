@@ -6,5 +6,5 @@ export const selectAllLabels = async (): Promise<ReadonlyArray<string>> => {
     TokensRepository.selectAllLabels(),
     AccountsRepository.selectAllLabels(),
   ]);
-  return allTokenLabels.concat(allAccountLabels);
+  return allTokenLabels.concat(allAccountLabels).sort();
 };

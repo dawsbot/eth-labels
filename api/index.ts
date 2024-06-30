@@ -4,7 +4,7 @@ import { selectAllLabels } from "./services/select-all-labels";
 import { selectMatchingLabels } from "./services/select-matching-labels";
 
 const PORT = process.env.PORT || 3000;
-const app = new Elysia();
+export const app = new Elysia();
 
 app.use(
   swagger({
