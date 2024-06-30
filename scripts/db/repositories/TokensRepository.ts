@@ -35,6 +35,16 @@ export class TokensRepository {
       .execute();
   }
 
+  public static selectAllLabels = async () => {
+    const allRows = await db
+      .selectFrom("tokens")
+      .select(["label"])
+      .distinct()
+      .orderBy("label")
+      .execute();
+    return allRows.map((row) => row.label);
+  };
+
   public static insertToken(newToken: NewToken) {
     return db.insertInto("tokens").values(newToken).execute();
   }
