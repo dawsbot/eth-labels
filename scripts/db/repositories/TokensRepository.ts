@@ -1,60 +1,58 @@
+import { z } from "zod";
 import { db } from "../database";
 import type { NewToken } from "../types";
 
 export class TokensRepository {
+  private static allColumns = [
+    "tokens.address",
+    "tokens.chainId",
+    "tokens.label",
+    "tokens.name",
+    "tokens.symbol",
+    "tokens.website",
+    "tokens.image",
+  ] as const;
   public static selectAllTokens() {
     return db
       .selectFrom("tokens")
-      .select([
-        "tokens.address",
-        "tokens.chainId",
-        "tokens.label",
-        "tokens.name",
-        "tokens.symbol",
-        "tokens.website",
-        "tokens.image",
-      ])
+      .select(TokensRepository.allColumns)
+      .orderBy("tokens.chainId asc")
+      .orderBy("tokens.label asc")
       .execute();
   }
   public static selectTokensByLabel(label: string) {
     return db
       .selectFrom("tokens")
-      .select([
-        "tokens.address",
-        "tokens.chainId",
-        "tokens.label",
-        "tokens.name",
-        "tokens.symbol",
-        "tokens.website",
-        "tokens.image",
-      ])
+      .select(this.allColumns)
       .where("label", "=", label)
       .execute();
   }
   public static selectTokensByAddress(address: string) {
     return db
       .selectFrom("tokens")
-      .select([
-        "tokens.address",
-        "tokens.chainId",
-        "tokens.label",
-        "tokens.name",
-        "tokens.symbol",
-        "tokens.website",
-        "tokens.image",
-      ])
+      .select(this.allColumns)
       .where("address", "=", address.toLowerCase())
       .execute();
   }
 
-  public static createToken(newToken: NewToken) {
+  public static insertToken(newToken: NewToken) {
     return db.insertInto("tokens").values(newToken).execute();
+  }
+
+  public static async computeLastModifiedDate(chainId: number) {
+    const result = await db
+      .selectFrom("tokens")
+      .select(({ fn }) => [fn.max("modified_at").as("latest_updated_at")])
+      .where("chainId", "=", chainId)
+      .executeTakeFirst();
+
+    return z.string().parse(result?.latest_updated_at);
   }
 
   /**
    * Multi-insert tokens
    */
-  public static async createTokens(newTokens: Array<NewToken>) {
+  public static async insertTokens(newTokens: Array<NewToken>) {
     const MAX_ROW_INSERT_LENGTH = 1_000;
     let remainingRows = newTokens;
     do {

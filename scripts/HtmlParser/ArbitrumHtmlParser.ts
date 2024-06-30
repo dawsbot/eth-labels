@@ -48,9 +48,10 @@ export class ArbitrumHtmlParser extends OptimismHtmlParser {
       ).toLowerCase();
       const tokenRow: TokenRow = {
         address: address.trim(),
-        tokenName: tokenName,
-        tokenSymbol: tokenSymbol,
+        name: tokenName,
+        symbol: tokenSymbol,
         website,
+        image: null,
       };
       addressesInfo = [...addressesInfo, tokenRow];
     });

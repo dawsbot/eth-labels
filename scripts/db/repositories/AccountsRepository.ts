@@ -1,51 +1,55 @@
+import { z } from "zod";
 import { db } from "../database";
 import type { NewAccount } from "../types";
 
 export class AccountsRepository {
+  private static allColumns = [
+    "accounts.address",
+    "accounts.chainId",
+    "accounts.label",
+    "accounts.nameTag",
+  ] as const;
   public static selectAllAccounts() {
     return db
       .selectFrom("accounts")
-      .select([
-        "accounts.address",
-        "accounts.chainId",
-        "accounts.label",
-        "accounts.nameTag",
-      ])
+      .select(this.allColumns)
+      .orderBy("accounts.chainId asc")
+      .orderBy("accounts.label asc")
       .execute();
   }
   public static selectAccountsByLabel(label: string) {
     return db
       .selectFrom("accounts")
-      .select([
-        "accounts.address",
-        "accounts.chainId",
-        "accounts.label",
-        "accounts.nameTag",
-      ])
+      .select(this.allColumns)
       .where("label", "=", label)
       .execute();
   }
   public static selectAccountsByAddress(address: string) {
     return db
       .selectFrom("accounts")
-      .select([
-        "accounts.address",
-        "accounts.chainId",
-        "accounts.label",
-        "accounts.nameTag",
-      ])
+      .select(this.allColumns)
       .where("address", "=", address.toLowerCase())
       .execute();
   }
 
-  public static createAccount(newAccount: NewAccount) {
+  public static insertAccount(newAccount: NewAccount) {
     return db.insertInto("accounts").values(newAccount).execute();
+  }
+
+  public static async computeLastModifiedDate(chainId: number) {
+    const result = await db
+      .selectFrom("tokens")
+      .select(({ fn }) => [fn.max("modified_at").as("latest_updated_at")])
+      .where("chainId", "=", chainId)
+      .executeTakeFirst();
+
+    return z.string().parse(result?.latest_updated_at);
   }
 
   /**
    * Multi-insert accounts
    */
-  public static async createAccounts(newAccounts: Array<NewAccount>) {
+  public static async insertAccounts(newAccounts: Array<NewAccount>) {
     const MAX_ROW_INSERT_LENGTH = 1_000;
     let remainingRows = newAccounts;
     do {

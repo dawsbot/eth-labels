@@ -7,6 +7,7 @@ export async function getChainConfig() {
   const chains = scanConfig.map((chain) => ({
     name: chain.chainName,
     value: chain,
+    chainId: chain.chainId,
   }));
   const selected = (await inquirer.prompt([
     {
