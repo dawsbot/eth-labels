@@ -31,14 +31,14 @@ export class AccountsRepository {
       .execute();
   }
 
-  public static createAccount(newAccount: NewAccount) {
+  public static insertAccount(newAccount: NewAccount) {
     return db.insertInto("accounts").values(newAccount).execute();
   }
 
   /**
    * Multi-insert accounts
    */
-  public static async createAccounts(newAccounts: Array<NewAccount>) {
+  public static async insertAccounts(newAccounts: Array<NewAccount>) {
     const MAX_ROW_INSERT_LENGTH = 1_000;
     let remainingRows = newAccounts;
     do {

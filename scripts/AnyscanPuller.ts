@@ -233,7 +233,7 @@ export class AnyscanPuller {
           label: labelName,
         };
       });
-      await TokensRepository.createTokens(insertableTokenRows);
+      await TokensRepository.insertTokens(insertableTokenRows);
     }
     console.log(`\n✅ Pulling all of tokens completed!`);
     console.log(`\n🐌 Pulling all of accounts started...`);
@@ -252,7 +252,7 @@ export class AnyscanPuller {
           };
         },
       );
-      await AccountsRepository.createAccounts(insertableAccountRows);
+      await AccountsRepository.insertAccounts(insertableAccountRows);
     }
     bar1.stop();
     console.log(`✅ Pulling all of accounts completed!`);

@@ -34,14 +34,14 @@ export class TokensRepository {
       .execute();
   }
 
-  public static createToken(newToken: NewToken) {
+  public static insertToken(newToken: NewToken) {
     return db.insertInto("tokens").values(newToken).execute();
   }
 
   /**
    * Multi-insert tokens
    */
-  public static async createTokens(newTokens: Array<NewToken>) {
+  public static async insertTokens(newTokens: Array<NewToken>) {
     const MAX_ROW_INSERT_LENGTH = 1_000;
     let remainingRows = newTokens;
     do {
