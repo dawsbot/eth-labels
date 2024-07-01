@@ -11,7 +11,7 @@
     "test": "concurrently -g -n \"eslint,test:unit,test:integration,build\" -c \"#341BAB,#A6CC66,#A6CC66,#3077C6\" \"bun run lint\" \"bun run test:unit\" \"bun run test:integration\" \"bun run build\"",
     "lint": "eslint . --fix --cache",
     "build": "bun run tsc",
-    "pull": "tsx scripts/fetch-all.ts",
+    "pull": "bun run scripts/fetch-all.ts",
     "prepare": "husky || true",
     "tsc": "tsc -p tsconfig.json",
     "postversion": "git push --follow-tags",
