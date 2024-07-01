@@ -2,7 +2,7 @@ import "dotenv/config";
 import type { Browser, BrowserContext, Page } from "playwright";
 import type { ApiParser } from "./ApiParser/ApiParser";
 import type { Chain } from "./Chain/Chain";
-import { HtmlParser } from "./HtmlParser/HtmlParser";
+import type { HtmlParser } from "./HtmlParser/HtmlParser";
 import { openBrowser } from "./utils/browser";
 
 export class BrowserHandle {

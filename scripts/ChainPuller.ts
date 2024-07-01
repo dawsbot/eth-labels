@@ -126,7 +126,7 @@ export class ChainPuller {
         image: tokenRow.tokenImage,
       };
       try {
-        await TokensRepository.createToken(newToken);
+        await TokensRepository.insertToken(newToken);
       } catch (e) {
         // console.log("duplicate")
       } //duplicate or missing name. eat the error for now
@@ -154,7 +154,7 @@ export class ChainPuller {
         nameTag: accountRow.nameTag,
       };
       try {
-        await AccountsRepository.createAccount(newAccount);
+        await AccountsRepository.insertAccount(newAccount);
       } catch (e) {
         // console.log(e)
       }
