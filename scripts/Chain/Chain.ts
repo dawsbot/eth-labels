@@ -9,6 +9,16 @@ export class Chain<T extends ApiParser, T2 extends HtmlParser> {
   public apiPuller: T;
   public htmlPuller: T2;
 
+  public static chainIdMapping: { [key: string]: number } = {
+    etherscan: 1,
+    optimism: 10,
+    arbiscan: 42161,
+    basescan: 8453,
+    celo: 42220,
+    bscscan: 56,
+    gnosis: 100,
+  };
+
   public constructor(
     website: string,
     chainName: string,

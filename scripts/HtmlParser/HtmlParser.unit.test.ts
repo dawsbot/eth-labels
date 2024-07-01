@@ -1,4 +1,4 @@
-import { describe, expect, test } from "vitest";
+import { describe, expect, test } from "bun:test";
 import { BasescanChain } from "../Chain/BasescanChain";
 import { BscscanChain } from "../Chain/BscscanChain";
 import { CeloChain } from "../Chain/CeloChain";
@@ -58,9 +58,10 @@ describe("gnosis", () => {
     expect(tokenRows).toHaveLength(7);
     expect(tokenRows).toContainEqual({
       address: "0x7a5c3860a77a8dc1b225bd46d0fb2ac1c6d191bc",
-      tokenName: "Aave Gnosis sDAI",
-      tokenSymbol: "aGnosDAI",
+      name: "Aave Gnosis sDAI",
+      symbol: "aGnosDAI",
       website: "https://aave.com/",
+      image: null,
     });
   });
 });
@@ -96,23 +97,26 @@ describe("arbiscan", () => {
     // not abbreviated
     expect(tokenRows).toContainEqual({
       address: "0xf0cb2dc0db5e6c66B9a70Ac27B06b878da017028",
-      tokenName: "Olympus",
-      tokenSymbol: "OHM",
+      name: "Olympus",
+      symbol: "OHM",
       website: "https://www.olympusdao.finance/",
+      image: null,
     });
     // abbreviated
     expect(tokenRows).toContainEqual({
       address: "0xd91903d548f19c0fc0a6b9ed09d2f72b4dfe7144",
-      tokenName: "Impossible Decentralized Incubator Access Token",
-      tokenSymbol: "IDIA",
+      name: "Impossible Decentralized Incubator Access Token",
+      symbol: "IDIA",
       website: "https://impossible.finance/",
+      image: null,
     });
     // not abbreviated but tricky
     expect(tokenRows).toContainEqual({
       address: "0xe6045890b20945d00e6f3c01878265c03c5435d3",
-      tokenName: "Impossible Decentralized Incubat",
-      tokenSymbol: "IDIA",
+      name: "Impossible Decentralized Incubat",
+      symbol: "IDIA",
       website: "https://impossible.finance/",
+      image: null,
     });
   });
 });
@@ -130,6 +134,28 @@ describe("bscscan", () => {
       address: "0x81dab25be86f78c30e49ae2a7e4de2dcf8036ea7",
       nameTag: "BSCswap: $US.Dollar",
     });
+  });
+  test("should parse token addresses", () => {
+    const tokenRows = htmlParser.selectAllTokenAddresses(
+      bscscanMocks.mockTokensHtml,
+    );
+
+    expect(tokenRows).toHaveLength(100);
+    // not abbreviated
+    expect(tokenRows).toContainEqual({
+      address: "0x9840652dc04fb9db2c43853633f0f62be6f00f98",
+      name: "ChainGPT",
+      symbol: "CGPT",
+      website: "https://www.chaingpt.org/",
+      image: null,
+    });
+    // abbreviated
+    // expect(tokenRows).toContainEqual({
+    //   address: "0x03aa6298f1370642642415edc0db8b957783e8d6",
+    //   name: "NetMind Token",
+    //   symbol: "NMT",
+    //   website: "https://power.netmind.ai/",
+    // });
   });
 });
 describe("celo", () => {
@@ -152,6 +178,29 @@ describe("celo", () => {
       nameTag: "Fake_Phishing9",
     });
   });
+  test("should parse token addresses", () => {
+    const tokenRows = htmlParser.selectAllTokenAddresses(
+      celoMocks.mockTokensHtml,
+    );
+
+    expect(tokenRows).toHaveLength(22);
+    expect(tokenRows).toContainEqual({
+      address: "0x2cfd4b2827f35624ae12c858da969e16d5d730a2",
+      name: "ERC-20 TOKEN*",
+      symbol: "",
+      website: "",
+      image: null,
+    });
+    // this html has one extra row artificially added from
+    // https://celoscan.io/tokens/label/bitfinex?subcatid=0&size=50&start=0&col=3&order=desc
+    expect(tokenRows).toContainEqual({
+      address: "0x48065fbbe25f71c9282ddf5e1cd6d6a887483d5e",
+      name: "Tether USD",
+      symbol: "USD₮",
+      website: "https://tether.to/",
+      image: null,
+    });
+  });
 });
 describe("optimism", () => {
   const optimismChain = new OptimismChain();
@@ -166,6 +215,20 @@ describe("optimism", () => {
     expect(accountRows).toContainEqual({
       address: "0x76d3030728e52deb8848d5613abade88441cbc59",
       nameTag: "Aave: Wrapped Token Gateway V3",
+    });
+  });
+  test("should parse token addresses", () => {
+    const tokenRows = htmlParser.selectAllTokenAddresses(
+      optimismMocks.mockTokensHtml,
+    );
+
+    expect(tokenRows).toHaveLength(13);
+    expect(tokenRows).toContainEqual({
+      address: "0x00b8d5a5e1ac97cb4341c4bc4367443c8776e8d9",
+      name: "Synth sAAVE",
+      symbol: "sAAVE",
+      website: "https://synthetix.io/",
+      image: null,
     });
   });
 });
@@ -184,6 +247,20 @@ describe("basescan", () => {
       nameTag: "Aave : Executor Lvl1",
     });
   });
+  test("should parse token addresses", () => {
+    const tokenRows = htmlParser.selectAllTokenAddresses(
+      basescanMocks.mockTokensHtml,
+    );
+
+    expect(tokenRows).toHaveLength(3);
+    expect(tokenRows).toContainEqual({
+      address: "0x0a1d576f3efef75b330424287a95a366e8281d54",
+      name: "Aave Base USDbC",
+      symbol: "aBasUSDbC",
+      website: "https://aave.com/",
+      image: null,
+    });
+  });
 });
 
 describe("etherscan", () => {
@@ -198,6 +275,20 @@ describe("etherscan", () => {
     expect(tokenRows).toContainEqual({
       address: "0x0e8ba001a821f3ce0734763d008c9d7c957f5852",
       nameTag: "AmadeusRelay",
+    });
+  });
+  test("should parse token addresses", () => {
+    const tokenRows = htmlParser.selectAllTokenAddresses(
+      etherscanMocks.mockTokensHtml,
+    );
+
+    expect(tokenRows).toHaveLength(11);
+    expect(tokenRows).toContainEqual({
+      address: "0x9f8f72aa9304c8b593d555f12ef6589cc3a579a2",
+      name: "Maker",
+      symbol: "MKR",
+      website: "https://makerdao.com/",
+      image: "/token/images/mkr-etherscan-35.png",
     });
   });
 
