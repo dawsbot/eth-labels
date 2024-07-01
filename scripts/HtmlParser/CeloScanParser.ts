@@ -35,9 +35,10 @@ export class CeloScanParser extends EtherscanHtmlParser {
       ).toLowerCase();
       const tokenRow: TokenRow = {
         address: address.trim(),
-        tokenName: tokenName || "",
-        tokenSymbol: tokenSymbol,
+        symbol: tokenSymbol,
         website,
+        name: tokenName,
+        image: null, // TODO: Add image parsing here
       };
 
       addressesInfo = [...addressesInfo, tokenRow];

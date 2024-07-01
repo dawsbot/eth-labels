@@ -100,10 +100,11 @@ export abstract class ApiParser {
 
   public convertToTokenRows(data: ApiResponse): TokenRows {
     const tokens = data.d.data.map((obj) => ({
-      tokenName: obj.tokenName,
-      tokenSymbol: "",
+      name: obj.tokenName,
       website: obj.website,
       address: obj.contractAddress,
+      symbol: null,
+      image: null, // TODO: Add image parsing here
     }));
     return tokens;
   }
