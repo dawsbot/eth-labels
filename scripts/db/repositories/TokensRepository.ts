@@ -117,8 +117,8 @@ export class TokensRepository {
         | `symbol`;
       if (this.allColumns.includes(`tokens.${verifiedKey}`) && value) {
         console.log("verified", verifiedKey, value);
-        if (key === "name") {
-          query = query.where("name", "like", `%${value}%`);
+        if (key === "name" || key === "symbol") {
+          query = query.where(key, "like", `%${value}%`);
         } else {
           query = query.where(verifiedKey, "=", value);
         }
