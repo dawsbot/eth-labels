@@ -1,11 +1,13 @@
 import { z } from "zod";
+import type { ApiParser } from "../ApiParser/ApiParser";
 import type { HtmlParser } from "../HtmlParser/HtmlParser";
 
-export class Chain<T extends HtmlParser> {
+export class Chain<T extends ApiParser, T2 extends HtmlParser> {
   public website: string;
   public chainName: string;
   public chainId: number;
-  public puller: T;
+  public apiPuller: T;
+  public htmlPuller: T2;
 
   public static chainIdMapping: { [key: string]: number } = {
     etherscan: 1,
@@ -17,11 +19,17 @@ export class Chain<T extends HtmlParser> {
     gnosis: 100,
   };
 
-  public constructor(website: string, chainName: string, puller: T) {
+  public constructor(
+    website: string,
+    chainName: string,
+    apiPuller: T,
+    htmlPuller: T2,
+  ) {
     this.website = z.string().url().startsWith("https://").parse(website);
     const filenameRegex = /^[a-z0-9_\-.]+$/;
     this.chainName = z.string().regex(filenameRegex).parse(chainName);
-    this.puller = puller;
+    this.apiPuller = apiPuller;
+    this.htmlPuller = htmlPuller;
     this.chainId = Chain.chainIdMapping[chainName];
   }
 }

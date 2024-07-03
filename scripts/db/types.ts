@@ -1,5 +1,5 @@
 import type { Generated, Insertable, Selectable, Updateable } from "kysely";
-import type { AccountRow, TokenRow } from "../AnyscanPuller";
+import type { AccountRow, TokenRow } from "../ChainPuller";
 
 export interface Database {
   accounts: AccountsTable;
