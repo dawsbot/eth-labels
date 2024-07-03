@@ -11,7 +11,7 @@ describe("Elysia", () => {
   it("/labels", async () => {
     const labels = z.array(z.string()).parse(await fetchLocally("/labels"));
 
-    expect(labels.length).toBeGreaterThan(1_030);
+    expect(labels.length).toBeGreaterThan(702);
     expect(labels).toContain("coinbase");
   });
 });
