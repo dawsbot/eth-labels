@@ -1,5 +1,5 @@
-import type { Address } from "viem";
 import { z } from "zod";
+import type { EthAddress } from "../../../src/domain/EthAddress";
 import { db } from "../database";
 import type { NewAccount } from "../types";
 
@@ -25,11 +25,11 @@ export class AccountsRepository {
       .where("label", "=", label)
       .execute();
   }
-  public static selectAccountsByAddress(address: Address) {
+  public static selectAccountsByAddress(ethAddress: EthAddress) {
     return db
       .selectFrom("accounts")
       .select(this.allColumns)
-      .where("address", "=", address.toLowerCase() as Address)
+      .where("address", "=", ethAddress.value)
       .execute();
   }
   public static selectAllLabels = async () => {
