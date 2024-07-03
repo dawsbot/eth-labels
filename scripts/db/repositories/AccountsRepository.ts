@@ -1,3 +1,4 @@
+import type { Address } from "viem";
 import { z } from "zod";
 import { db } from "../database";
 import type { NewAccount } from "../types";
@@ -24,11 +25,11 @@ export class AccountsRepository {
       .where("label", "=", label)
       .execute();
   }
-  public static selectAccountsByAddress(address: string) {
+  public static selectAccountsByAddress(address: Address) {
     return db
       .selectFrom("accounts")
       .select(this.allColumns)
-      .where("address", "=", address.toLowerCase())
+      .where("address", "=", address.toLowerCase() as Address)
       .execute();
   }
   public static selectAllLabels = async () => {
@@ -48,7 +49,7 @@ export class AccountsRepository {
   public static async computeLastModifiedDate(chainId: number) {
     const result = await db
       .selectFrom("tokens")
-      .select(({ fn }) => [fn.max("modified_at").as("latest_updated_at")])
+      .select(({ fn }) => [fn.max("updated_at").as("latest_updated_at")])
       .where("chainId", "=", chainId)
       .executeTakeFirst();
 

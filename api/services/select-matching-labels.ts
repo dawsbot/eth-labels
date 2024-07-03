@@ -1,3 +1,4 @@
+import type { Address } from "viem";
 import { createPublicClient, http, isAddress } from "viem";
 import { mainnet } from "viem/chains";
 import { normalize } from "viem/ens";
@@ -8,8 +9,8 @@ const publicClient = createPublicClient({
   chain: mainnet,
   transport: http(),
 });
-async function findMatchingRows(address: string) {
-  address = address.toLowerCase();
+async function findMatchingRows(address: Address) {
+  address = address.toLowerCase() as Address;
   const matchingRows = await Promise.all([
     TokensRepository.selectTokensByAddress(address),
     AccountsRepository.selectAccountsByAddress(address),

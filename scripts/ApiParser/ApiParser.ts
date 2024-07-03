@@ -1,5 +1,6 @@
 import * as cheerio from "cheerio";
 import type { Page } from "playwright";
+import type { Address } from "viem";
 import { z } from "zod";
 import type { TokenRow, TokenRows } from "./../AnyscanPuller";
 
@@ -66,7 +67,7 @@ export abstract class ApiParser {
       token.name = title;
       token.image = image;
       token.website = website;
-      token.address = address;
+      token.address = address as Address;
     });
     return data;
   }
@@ -75,7 +76,7 @@ export abstract class ApiParser {
     const tokens = data.d.data.map((obj) => ({
       name: obj.tokenName,
       website: obj.website,
-      address: obj.contractAddress,
+      address: obj.contractAddress as Address,
       symbol: null,
       image: null, // TODO: Add image parsing here
     }));

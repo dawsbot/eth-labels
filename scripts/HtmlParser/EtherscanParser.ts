@@ -1,5 +1,6 @@
 import * as cheerio from "cheerio";
 import type { Page } from "playwright";
+import type { Address } from "viem";
 import type {
   AccountRow,
   AccountRows,
@@ -34,7 +35,7 @@ export class EtherscanHtmlParser extends HtmlParser {
         return;
       }
       const newAddressInfo: AccountRow = {
-        address: address.trim(),
+        address: address.trim() as Address,
         nameTag: $(tableCells[1]).text().trim(),
       };
 
@@ -84,7 +85,7 @@ export class EtherscanHtmlParser extends HtmlParser {
       const image = $(tableCells[2]).find("a > img").attr("src");
       const website = $(tableCells[5]).text().trim().toLowerCase();
       const tokenRow: TokenRow = {
-        address: address.trim(),
+        address: address.trim() as Address,
         website,
         name: tokenName || null,
         symbol: tokenSymbol || null,

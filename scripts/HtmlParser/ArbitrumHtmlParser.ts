@@ -1,4 +1,5 @@
 import * as cheerio from "cheerio";
+import type { Address } from "viem";
 import { z } from "zod";
 import type { TokenRow, TokenRows } from "../AnyscanPuller";
 import { OptimismHtmlParser } from "./OptimismHtmlParser";
@@ -47,7 +48,7 @@ export class ArbitrumHtmlParser extends OptimismHtmlParser {
         $(tableCells[5]).find("a").attr("data-original-title") || ""
       ).toLowerCase();
       const tokenRow: TokenRow = {
-        address: address.trim(),
+        address: address.trim() as Address,
         name: tokenName,
         symbol: tokenSymbol,
         website,

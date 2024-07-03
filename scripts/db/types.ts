@@ -15,7 +15,7 @@ type AccountsTable = {
   chainId: number;
   label: string;
   created_at: Generated<string>;
-  modified_at: Generated<string>;
+  updated_at: Generated<string>;
 } & AccountRow;
 
 // You should not use the table schema interfaces directly. Instead, you should
@@ -33,7 +33,7 @@ type TokensTable = {
   chainId: number;
   label: string;
   created_at: Generated<string>;
-  modified_at: Generated<string>;
+  updated_at: Generated<string>;
 } & TokenRow;
 
 export type NewToken = Insertable<TokensTable>;

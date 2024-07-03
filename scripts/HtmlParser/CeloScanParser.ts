@@ -1,4 +1,5 @@
 import * as cheerio from "cheerio";
+import type { Address } from "viem";
 import { z } from "zod";
 import type { TokenRow, TokenRows } from "../AnyscanPuller";
 import { EtherscanHtmlParser } from "./EtherscanParser";
@@ -34,7 +35,7 @@ export class CeloScanParser extends EtherscanHtmlParser {
         $(tableCells[5]).find("a").attr("href") || ""
       ).toLowerCase();
       const tokenRow: TokenRow = {
-        address: address.trim(),
+        address: address.trim() as Address,
         symbol: tokenSymbol,
         website,
         name: tokenName,
