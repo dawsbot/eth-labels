@@ -1,12 +1,11 @@
 import * as cheerio from "cheerio";
-import type { Page } from "playwright";
 import type { Address } from "viem";
 import type {
   AccountRow,
   AccountRows,
   TokenRow,
   TokenRows,
-} from "../AnyscanPuller";
+} from "../ChainPuller";
 import { HtmlParser } from "./HtmlParser";
 
 export class EtherscanHtmlParser extends HtmlParser {
@@ -43,22 +42,6 @@ export class EtherscanHtmlParser extends HtmlParser {
     });
 
     return addressesInfo;
-  }
-
-  public async login(page: Page, baseUrl: string) {
-    await page.goto(`${baseUrl}/login`);
-    await page.fill(
-      "#ContentPlaceHolder1_txtUserName",
-      process.env.ETHERSCAN_EMAIL || "",
-    );
-    await page.fill(
-      "#ContentPlaceHolder1_txtPassword",
-      process.env.ETHERSCAN_PASSWORD || "",
-    );
-    console.log(`🐢 Waiting for operator to complete login...`);
-    // TODO: Update this deprecated function to instead use "page.waitForURL" (https://playwright.dev/docs/api/class-page#page-wait-for-url)
-    await page.waitForNavigation({ timeout: 300000 });
-    console.log(`✅ Login completed!`);
   }
 
   public selectAllTokenAddresses(html: string): TokenRows {
