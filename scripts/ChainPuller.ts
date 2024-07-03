@@ -140,7 +140,6 @@ export class ChainPuller {
   }
 
   async #pullAllTokens(tokenUrls: Array<string>) {
-    // const fileUtilies = new FileUtilities(import.meta.url);
     for (const tokenUrl of tokenUrls) {
       const randomWait = Math.floor(Math.random() * 500) + 500;
       await sleep(randomWait);
