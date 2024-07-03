@@ -5,7 +5,7 @@ import type {
   AccountRows,
   TokenRow,
   TokenRows,
-} from "../AnyscanPuller";
+} from "../ChainPuller";
 import { HtmlParser } from "./HtmlParser";
 
 export class BscscanHtmlParser extends HtmlParser {
