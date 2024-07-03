@@ -1,4 +1,5 @@
 import * as cheerio from "cheerio";
+import type { Address } from "viem";
 import type {
   AccountRow,
   AccountRows,
@@ -22,7 +23,7 @@ export class OptimismHtmlParser extends HtmlParser {
 
       const address = anchorWithDataBsTitle.text();
       const newAddressInfo: AccountRow = {
-        address: address.trim(),
+        address: address.trim() as Address,
         nameTag: $(tableCells[1]).text().trim(),
       };
 
@@ -57,7 +58,7 @@ export class OptimismHtmlParser extends HtmlParser {
         $(tableCells[5]).find("a").attr("data-original-title") || ""
       ).toLowerCase();
       const tokenRow: TokenRow = {
-        address: address.trim(),
+        address: address.trim() as Address,
         name: tokenName || "",
         symbol: tokenSymbol || "",
         website,
