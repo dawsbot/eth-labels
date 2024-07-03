@@ -1,5 +1,5 @@
-import type { Address } from "viem";
 import { z } from "zod";
+import type { EthAddress } from "../../../src/domain/EthAddress";
 import { db } from "../database";
 import type { NewToken } from "../types";
 
@@ -28,11 +28,11 @@ export class TokensRepository {
       .where("label", "=", label)
       .execute();
   }
-  public static selectTokensByAddress(address: Address) {
+  public static selectTokensByAddress(address: EthAddress) {
     return db
       .selectFrom("tokens")
       .select(this.allColumns)
-      .where("address", "=", address.toLowerCase() as Address)
+      .where("address", "=", address.value)
       .execute();
   }
 
