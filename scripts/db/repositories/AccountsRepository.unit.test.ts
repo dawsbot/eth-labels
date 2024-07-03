@@ -1,4 +1,5 @@
 import { describe, expect, test } from "bun:test";
+import type { Address } from "viem";
 import { AccountsRepository } from "./AccountsRepository";
 
 describe("AccountsRepository", () => {
@@ -41,7 +42,7 @@ describe("AccountsRepository", () => {
     test("one coinbase address on arbiscan", async () => {
       const address = "0xb8487eed31cf5c559bf3f4edd166b949553d0d11";
       const accountRows = await AccountsRepository.selectAccountsByAddress(
-        address.toUpperCase(), // ensures we ignore casing in search
+        address.toUpperCase() as Address, // ensures we ignore casing in search
       );
       expect(accountRows.length).toBe(1);
       expect(accountRows).toContainEqual({

@@ -4,6 +4,7 @@ import type { Page } from "playwright";
 import { z } from "zod";
 import { parseError } from "./utils/error-parse";
 
+import type { Address } from "viem";
 import type { Chain } from "./Chain/Chain";
 import type { HtmlParser } from "./HtmlParser/HtmlParser";
 import { AccountsRepository } from "./db/repositories/AccountsRepository";
@@ -17,11 +18,11 @@ type AllLabels = {
   blocks: ReadonlyArray<string>;
 };
 export type AccountRow = {
-  address: string;
+  address: Address;
   nameTag: string | null;
 };
 export type TokenRow = {
-  address: string;
+  address: Address;
   website: string;
   name: string | null;
   symbol: string | null;
@@ -150,7 +151,7 @@ export class AnyscanPuller {
     return tokenRows.map((tokenRow) => {
       const newTokenRow = {
         ...tokenRow,
-        address: tokenRow.address.toLowerCase(),
+        address: tokenRow.address.toLowerCase() as Address,
       };
       return newTokenRow;
     });
@@ -192,7 +193,7 @@ export class AnyscanPuller {
     return accountRows.map((accountRow) => {
       const newAccountRow = {
         ...accountRow,
-        address: accountRow.address.toLowerCase(),
+        address: accountRow.address.toLowerCase() as Address,
       };
       return newAccountRow;
     });

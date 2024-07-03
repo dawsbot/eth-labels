@@ -1,3 +1,4 @@
+import type { Address } from "viem";
 import { z } from "zod";
 import { db } from "../database";
 import type { NewToken } from "../types";
@@ -27,11 +28,11 @@ export class TokensRepository {
       .where("label", "=", label)
       .execute();
   }
-  public static selectTokensByAddress(address: string) {
+  public static selectTokensByAddress(address: Address) {
     return db
       .selectFrom("tokens")
       .select(this.allColumns)
-      .where("address", "=", address.toLowerCase())
+      .where("address", "=", address.toLowerCase() as Address)
       .execute();
   }
 
@@ -45,6 +46,32 @@ export class TokensRepository {
     return allRows.map((row) => row.label);
   };
 
+  public static selectMissingSymbols = () => {
+    return db
+      .selectFrom("tokens")
+      .selectAll()
+      .where("symbol", "=", "")
+      .execute();
+  };
+  public static selectMissingNames = () => {
+    return db.selectFrom("tokens").selectAll().where("name", "=", "").execute();
+  };
+
+  public static updateTokenSymbol(id: number, symbol: string) {
+    return db
+      .updateTable("tokens")
+      .set({ symbol, updated_at: new Date().toISOString() })
+      .where("id", "=", id)
+      .execute();
+  }
+  public static updateTokenName(id: number, name: string) {
+    return db
+      .updateTable("tokens")
+      .set({ name, updated_at: new Date().toISOString() })
+      .where("id", "=", id)
+      .execute();
+  }
+
   public static insertToken(newToken: NewToken) {
     return db.insertInto("tokens").values(newToken).execute();
   }
@@ -52,7 +79,7 @@ export class TokensRepository {
   public static async computeLastModifiedDate(chainId: number) {
     const result = await db
       .selectFrom("tokens")
-      .select(({ fn }) => [fn.max("modified_at").as("latest_updated_at")])
+      .select(({ fn }) => [fn.max("updated_at").as("latest_updated_at")])
       .where("chainId", "=", chainId)
       .executeTakeFirst();
 
