@@ -6,5 +6,7 @@ export const selectAllLabels = async (): Promise<ReadonlyArray<string>> => {
     TokensRepository.selectAllLabels(),
     AccountsRepository.selectAllLabels(),
   ]);
-  return allTokenLabels.concat(allAccountLabels).sort();
+  const sortedLabels = allTokenLabels.concat(allAccountLabels).sort();
+  // deduplicate repeats
+  return Array.from(new Set(sortedLabels));
 };
