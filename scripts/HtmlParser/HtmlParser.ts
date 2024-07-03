@@ -1,8 +1,5 @@
 import * as cheerio from "cheerio";
-import type { BrowserContext, Page } from "playwright";
-import type { AccountRows, TokenRows } from "../AnyscanPuller";
-import { EtherscanApiParser } from "../ApiParser/EtherscanApiParser";
-import { sleep } from "../utils/sleep";
+import type { AccountRows } from "../ChainPuller";
 
 export abstract class HtmlParser {
   /**
@@ -49,33 +46,6 @@ export abstract class HtmlParser {
     });
     return anchors;
   };
-
-  public async selectAllTokenAddressesApi(
-    page: Page,
-    url: string,
-    subcatId: string,
-  ): Promise<TokenRows> {
-    const context: BrowserContext = page.context();
-    const cookies = await context.cookies();
-    const cookiesString: string = cookies
-      .map((cookie) => `${cookie.name}=${cookie.value}`)
-      .join("; ");
-    const baseUrl = url.split("/").slice(0, 3).join("/");
-    const tokenName = `/${url.split("/").slice(3).join("/")}`;
-
-    const apiParser = new EtherscanApiParser(baseUrl);
-    const tokenRows = await apiParser.fetchTokens(
-      tokenName,
-      cookiesString,
-      page,
-      subcatId,
-    );
-    const sleepTime = Math.floor(Math.random() * 2000) + 1000; // Random time between 1 and 3 seconds in milliseconds
-    await sleep(sleepTime);
-    return tokenRows;
-  }
-
-  public abstract selectAllTokenAddresses(html: string): TokenRows;
 
   public abstract selectAllAccountAddresses(
     html: string,

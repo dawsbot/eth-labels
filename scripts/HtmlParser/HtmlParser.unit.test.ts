@@ -37,7 +37,7 @@ const arbiscanMocks = getMocks(arbiscanDirectory);
 
 describe("gnosis", () => {
   const gnosisChain = new GnosisChain();
-  const htmlParser = gnosisChain.puller;
+  const htmlParser = gnosisChain.htmlPuller;
   test("should parse labelcloud", () => {
     const allLabels = htmlParser.selectAllLabels(
       gnosisMocks.mockLabelCloudHtml,
@@ -57,25 +57,11 @@ describe("gnosis", () => {
       nameTag: "Aave: Payloads Controller",
     });
   });
-  test("should parse token addresses", () => {
-    const tokenRows = htmlParser.selectAllTokenAddresses(
-      gnosisMocks.mockTokensHtml,
-    );
-
-    expect(tokenRows).toHaveLength(7);
-    expect(tokenRows).toContainEqual({
-      address: "0x7a5c3860a77a8dc1b225bd46d0fb2ac1c6d191bc",
-      name: "Aave Gnosis sDAI",
-      symbol: "aGnosDAI",
-      website: "https://aave.com/",
-      image: null,
-    });
-  });
 });
 
 describe("arbiscan", () => {
   const arbiscanChain = new ArbiscanChain();
-  const htmlParser = arbiscanChain.puller;
+  const htmlParser = arbiscanChain.htmlPuller;
   test("should parse labelcloud", () => {
     const allLabels = htmlParser.selectAllLabels(
       arbiscanMocks.mockLabelCloudHtml,
@@ -129,7 +115,7 @@ describe("arbiscan", () => {
 });
 describe("bscscan", () => {
   const bscscanChain = new BscscanChain();
-  const htmlParser = bscscanChain.puller;
+  const htmlParser = bscscanChain.htmlPuller;
   test("should parse labelcloud", () => {
     const allLabels = htmlParser.selectAllLabels(
       bscscanMocks.mockLabelCloudHtml,
@@ -174,7 +160,7 @@ describe("bscscan", () => {
 });
 describe("celo", () => {
   const celoChain = new CeloChain();
-  const htmlParser = celoChain.puller;
+  const htmlParser = celoChain.htmlPuller;
   test("should parse labelcloud", () => {
     const allLabels = htmlParser.selectAllLabels(celoMocks.mockLabelCloudHtml);
 
@@ -218,7 +204,7 @@ describe("celo", () => {
 });
 describe("optimism", () => {
   const optimismChain = new OptimismChain();
-  const htmlParser = optimismChain.puller;
+  const htmlParser = optimismChain.htmlPuller;
   test("should parse labelcloud", () => {
     const allLabels = htmlParser.selectAllLabels(
       optimismMocks.mockLabelCloudHtml,
@@ -255,7 +241,7 @@ describe("optimism", () => {
 });
 describe("basescan", () => {
   const basescanChain = new BasescanChain();
-  const htmlParser = basescanChain.puller;
+  const htmlParser = basescanChain.htmlPuller;
   test("should parse labelcloud", () => {
     const allLabels = htmlParser.selectAllLabels(
       basescanMocks.mockLabelCloudHtml,
@@ -293,7 +279,7 @@ describe("basescan", () => {
 
 describe("etherscan", () => {
   const etherscanChain = new EtherscanChain();
-  const htmlParser = etherscanChain.puller;
+  const htmlParser = etherscanChain.htmlPuller;
   test("should parse labelcloud", () => {
     const allLabels = htmlParser.selectAllLabels(
       etherscanMocks.mockLabelCloudHtml,
