@@ -37,3 +37,22 @@ type TokensTable = {
 } & TokenRow;
 
 export type NewToken = Insertable<TokensTable>;
+
+export type AccountSearchOptions = {
+  chainId?: string;
+  address?: string;
+  label?: string;
+  nameTag?: string;
+  offset?: string;
+  limit?: string;
+};
+export type TokenSearchOptions = {
+  chainId?: string;
+  address?: string;
+  label?: string;
+  name?: string;
+  website?: string;
+  symbol?: string;
+  offset?: string;
+  limit?: string;
+};

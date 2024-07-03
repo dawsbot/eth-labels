@@ -1,7 +1,7 @@
 import type { Address } from "viem";
 import { z } from "zod";
 import { db } from "../database";
-import type { NewToken } from "../types";
+import type { NewToken, TokenSearchOptions } from "../types";
 
 export class TokensRepository {
   private static allColumns = [
@@ -103,5 +103,27 @@ export class TokensRepository {
         )
         .execute();
     } while (remainingRows.length > 0);
+  }
+
+  public static selectTokensByObj(obj: TokenSearchOptions) {
+    let query = db.selectFrom("tokens").select(this.allColumns);
+    for (const [key, value] of Object.entries(obj)) {
+      const verifiedKey = key as
+        | `address`
+        | `chainId`
+        | `label`
+        | `name`
+        | `website`
+        | `symbol`;
+      if (this.allColumns.includes(`tokens.${verifiedKey}`) && value) {
+        console.log("verified", verifiedKey, value);
+        if (key === "name") {
+          query = query.where("name", "like", `%${value}%`);
+        } else {
+          query = query.where(verifiedKey, "=", value);
+        }
+      }
+    }
+    return query.execute();
   }
 }
