@@ -1,16 +1,17 @@
 import { describe, expect, test } from "bun:test";
 import { FileUtilities } from "../FileSystem/FileSystem";
-import type { ApiResponse } from "./ApiParser";
+import { tokenApiResponseSchema, type TokenApiResponse } from "./ApiParser";
 import { EtherscanApiParser } from "./EtherscanApiParser";
 const fileUtilities = new FileUtilities(import.meta.url);
 
 const etherscanDirectory = "mocks/etherscan";
 
-const getMocks = (directory: string): Array<ApiResponse> => {
+const getMocks = (directory: string): Array<TokenApiResponse> => {
   const mockFiles: ReadonlyArray<string> = fileUtilities.readDir(directory);
   return mockFiles.map((file: string) => {
-    const stringdata = fileUtilities.readFile(`${directory}/${file}`);
-    return JSON.parse(stringdata) as ApiResponse;
+    const filePath = `${directory}/${file}`;
+    const stringData = fileUtilities.readFile(filePath);
+    return tokenApiResponseSchema.parse(JSON.parse(stringData));
   });
 };
 
@@ -19,7 +20,7 @@ const etherscanMocks = getMocks(etherscanDirectory);
 describe("EtherscanParser", () => {
   const apiParser = new EtherscanApiParser("https://etherscan.io");
   test("should parse api json", () => {
-    const rawTokens = apiParser.convertToTokenRows(etherscanMocks[0]);
+    const rawTokens = apiParser.convertToTokenRows(etherscanMocks[0].d.data);
     const parsedTokens = apiParser.filterResponse(rawTokens);
     expect(parsedTokens[0]).toEqual({
       name: "Aave interest bearing ENJ",

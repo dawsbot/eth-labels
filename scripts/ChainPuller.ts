@@ -56,6 +56,13 @@ export class ChainPuller {
     const labelCloudHtml = await fetch(`${this.baseUrl}/labelcloud`).then(
       (res) => res.text(),
     );
+    if (labelCloudHtml.includes("Just a moment...")) {
+      console.error(
+        '\nAPI rate limit exceeded for GET to "labelcloud", come back later',
+      );
+      return process.exit(0);
+    }
+
     const allAnchors = z
       .array(z.string().url().startsWith("https://"))
       .parse(
@@ -126,7 +133,8 @@ export class ChainPuller {
       try {
         await TokensRepository.insertToken(newToken);
       } catch (e) {
-        // console.log("duplicate")
+        console.log("issue with token ", newToken);
+        console.warn(e);
       } //duplicate or missing name. eat the error for now
     }
   }
@@ -134,7 +142,7 @@ export class ChainPuller {
   async #pullAllTokens(tokenUrls: Array<string>) {
     // const fileUtilies = new FileUtilities(import.meta.url);
     for (const tokenUrl of tokenUrls) {
-      const randomWait = Math.floor((Math.random() * 1000) / 3) + 150;
+      const randomWait = Math.floor(Math.random() * 500) + 500;
       await sleep(randomWait);
       const tokenRows = await this.#pullTokenStaging(tokenUrl);
       const label = z.string().parse(tokenUrl.split("/").pop()?.split("?")[0]);
@@ -154,6 +162,7 @@ export class ChainPuller {
       try {
         await AccountsRepository.insertAccount(newAccount);
       } catch (e) {
+        console.warn("issue inserting account ", newAccount);
         // console.log(e)
       }
     }

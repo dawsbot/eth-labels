@@ -3,7 +3,7 @@ import { z } from "zod";
 import { CheerioParser } from "../CheerioParser";
 import type { TokenRow, TokenRows } from "./../ChainPuller";
 
-const ApiResponseSchema = z.object({
+export const tokenApiResponseSchema = z.object({
   d: z
     .object({
       data: z.array(
@@ -20,7 +20,7 @@ const ApiResponseSchema = z.object({
     .passthrough(),
 });
 
-export type ApiResponse = z.infer<typeof ApiResponseSchema>;
+export type TokenApiResponse = z.infer<typeof tokenApiResponseSchema>;
 
 export abstract class ApiParser {
   protected readonly baseUrl: string;
@@ -93,8 +93,8 @@ export abstract class ApiParser {
     return data;
   }
 
-  public convertToTokenRows(data: ApiResponse): TokenRows {
-    const tokens = data.d.data.map((obj) => ({
+  public convertToTokenRows(data: TokenApiResponse["d"]["data"]): TokenRows {
+    const tokens = data.map((obj) => ({
       name: obj.tokenName,
       website: obj.website,
       address: obj.contractAddress as Address,
@@ -117,48 +117,61 @@ export abstract class ApiParser {
       const subcatId = tokenUrl.split("subcatid=")[1].split("&")[0];
       const start = tokenUrl.split("&start=")[1].split("&")[0];
       const url = `${baseUrl}/tokens.aspx/GetTokensBySubLabel`;
-      console.log(cookie);
+      const body = `{"dataTableModel":{"draw":1,"columns":[{"data":"number","name":"","searchable":true,"orderable":false,"search":{"value":"","regex":false}},{"data":"contractAddress","name":"","searchable":true,"orderable":false,"search":{"value":"","regex":false}},{"data":"tokenName","name":"","searchable":true,"orderable":true,"search":{"value":"","regex":false}},{"data":"marketCap","name":"","searchable":true,"orderable":true,"search":{"value":"","regex":false}},{"data":"holders","name":"","searchable":true,"orderable":true,"search":{"value":"","regex":false}},{"data":"website","name":"","searchable":true,"orderable":false,"search":{"value":"","regex":false}}],"order":[{"column":3,"dir":"desc"}],"start":${start},"length":${MAX_PAGE_LENGTH},"search":{"value":"","regex":false}},"labelModel":{"label":"${tokenName}","subCategoryId":"${subcatId}"}}`;
+
       const response: TokenRows = await fetch(url, {
         headers: {
           accept: "application/json, text/javascript, */*; q=0.01",
-          "accept-language": "en-GB,en-US;q=0.9,en;q=0.8",
+          "accept-language": "en-US,en;q=0.9",
+          "cache-control": "no-cache",
           "content-type": "application/json",
+          pragma: "no-cache",
           priority: "u=1, i",
-          cookie: cookie,
+          "sec-ch-ua":
+            '"Not/A)Brand";v="8", "Chromium";v="126", "Brave";v="126"',
+          "sec-ch-ua-mobile": "?0",
+          "sec-ch-ua-model": '""',
+          "sec-ch-ua-platform": '"macOS"',
+          "sec-ch-ua-platform-version": '"14.5.0"',
+          "sec-fetch-dest": "empty",
+          "sec-fetch-mode": "cors",
+          "sec-fetch-site": "same-origin",
+          "sec-gpc": "1",
+          "x-requested-with": "XMLHttpRequest",
+          cookie,
+          Referer: tokenUrl,
           "Referrer-Policy": "origin-when-cross-origin",
+          "user-agent":
+            "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/126.0.0.0 Safari/537.36",
         },
-        body: `{"dataTableModel":{"draw":1,"columns":[{"data":"number","name":"","searchable":true,"orderable":false,"search":{"value":"","regex":false}},{"data":"contractAddress","name":"","searchable":true,"orderable":false,"search":{"value":"","regex":false}},{"data":"tokenName","name":"","searchable":true,"orderable":true,"search":{"value":"","regex":false}},{"data":"marketCap","name":"","searchable":true,"orderable":true,"search":{"value":"","regex":false}},{"data":"holders","name":"","searchable":true,"orderable":true,"search":{"value":"","regex":false}},{"data":"website","name":"","searchable":true,"orderable":false,"search":{"value":"","regex":false}}],"order":[{"column":3,"dir":"desc"}],"start":${start},"length":${MAX_PAGE_LENGTH},"search":{"value":"","regex":false}},"labelModel":{"label":"${tokenName}","subCategoryId":"${subcatId}"}}`,
+        body,
         method: "POST",
       })
-        .then((res) => {
-          console.log(res);
-          return res.json() as Promise<ApiResponse>;
+        .then(async (res) => {
+          const text = await res.text();
+          if (text.includes("Just a moment...")) {
+            console.error(
+              '\nAPI rate limit exceeded for POST to "GetTokensBySubLabel", come back later',
+            );
+            return process.exit(0);
+          }
+
+          return res.json();
         })
-        .then((res) => {
-          if (res.d.data.length === 100) {
+        .then((res) => tokenApiResponseSchema.parse(res))
+        .then((res) => res.d.data)
+        .then((data) => {
+          if (data.length === MAX_PAGE_LENGTH) {
             shouldKeepPulling = true;
           }
-          return res;
+          return data;
         })
-        .then((res) => {
-          this.verifyApiResponse(res);
-          return res;
-        })
-        .then((verifiedRes) => this.convertToTokenRows(verifiedRes))
+        .then((data) => this.convertToTokenRows(data))
         .then((data) => this.filterResponse(data));
-      tokenUrl = `${tokenUrl.split("&start=")[0]}&start=${parseInt(start) + 100}&subcatid=${subcatId}`;
+
+      tokenUrl = `${tokenUrl.split("&start=")[0]}&start=${parseInt(start) + MAX_PAGE_LENGTH}&subcatid=${subcatId}`;
       tokens = [...tokens, ...response];
     }
     return tokens;
-  }
-
-  public verifyApiResponse(response: unknown): void {
-    try {
-      ApiResponseSchema.parse(response);
-    } catch (error) {
-      throw new Error(
-        `Invalid response. The structure of the response is not as expected. Error: ${(error as Error).message}`,
-      );
-    }
   }
 }
