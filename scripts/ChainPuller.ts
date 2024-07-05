@@ -7,6 +7,7 @@ import type { HtmlParser } from "./HtmlParser/HtmlParser";
 import { ProgressBar } from "./ProgressBar";
 import { AccountsRepository } from "./db/repositories/AccountsRepository";
 import { TokensRepository } from "./db/repositories/TokensRepository";
+import { fetchHtml } from "./fetch-html";
 import { sleep } from "./utils/sleep";
 
 type AllLabels = {
@@ -53,15 +54,7 @@ export class ChainPuller {
   }
 
   async #pullAllLabels() {
-    const labelCloudHtml = await fetch(`${this.baseUrl}/labelcloud`).then(
-      (res) => res.text(),
-    );
-    if (labelCloudHtml.includes("Just a moment...")) {
-      console.error(
-        '\nAPI rate limit exceeded for GET to "labelcloud", come back later',
-      );
-      return process.exit(0);
-    }
+    const labelCloudHtml = await fetchHtml(`${this.baseUrl}/labelcloud`);
 
     const allAnchors = z
       .array(z.string().url().startsWith("https://"))
@@ -89,8 +82,8 @@ export class ChainPuller {
     return allLabels;
   }
 
-  async #pullTokenStaging(tokenUrl: string) {
-    const tokenHtml = await fetch(tokenUrl).then((res) => res.text());
+  async #pullTokens(tokenUrl: string) {
+    const tokenHtml = await fetchHtml(tokenUrl);
     this.#cheerioParser.loadHtml(tokenHtml);
     const navPills = this.#cheerioParser.querySelector(".nav-pills");
     let subcatUrlsToPull: Array<string> = [];
@@ -141,12 +134,12 @@ export class ChainPuller {
 
   async #pullAllTokens(tokenUrls: Array<string>) {
     for (const tokenUrl of tokenUrls) {
-      const randomWait = Math.floor(Math.random() * 500) + 500;
-      await sleep(randomWait);
-      const tokenRows = await this.#pullTokenStaging(tokenUrl);
+      const tokenRows = await this.#pullTokens(tokenUrl);
       const label = z.string().parse(tokenUrl.split("/").pop()?.split("?")[0]);
       await this.#writeTokens(tokenRows, label);
       this.#progressBar.step();
+      const randomWait = Math.floor(Math.random() * 500) + 500;
+      await sleep(randomWait);
     }
   }
 
@@ -168,7 +161,7 @@ export class ChainPuller {
   }
 
   async #pullAccountStaging(accountUrl: string) {
-    const accountHtml = await fetch(accountUrl).then((res) => res.text());
+    const accountHtml = await fetchHtml(accountUrl);
     this.#cheerioParser.loadHtml(accountHtml);
     const navPills = this.#cheerioParser.querySelector(".nav-pills");
     let accountRows: AccountRows = [];
