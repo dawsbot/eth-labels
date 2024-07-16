@@ -25,9 +25,11 @@ export class AccountsRepository {
       .where("label", "=", label)
       .execute();
   }
-  public static selectAccountsByObj(obj: AccountSearchOptions) {
+  public static selectAccountsByObj(
+    accountSearchOptions: AccountSearchOptions,
+  ) {
     let query = db.selectFrom("accounts").select(this.allColumns);
-    for (const [key, value] of Object.entries(obj)) {
+    for (const [key, value] of Object.entries(accountSearchOptions)) {
       const verifiedKey = key as `address` | `chainId` | `label` | `nameTag`;
       if (this.allColumns.includes(`accounts.${verifiedKey}`) && value) {
         console.log("verified", verifiedKey, value);

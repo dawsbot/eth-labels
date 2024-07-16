@@ -105,9 +105,9 @@ export class TokensRepository {
     } while (remainingRows.length > 0);
   }
 
-  public static selectTokensByObj(obj: TokenSearchOptions) {
+  public static selectTokensByObj(tokenSearchOptions: TokenSearchOptions) {
     let query = db.selectFrom("tokens").select(this.allColumns);
-    for (const [key, value] of Object.entries(obj)) {
+    for (const [key, value] of Object.entries(tokenSearchOptions)) {
       const verifiedKey = key as
         | `address`
         | `chainId`
