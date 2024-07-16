@@ -119,7 +119,7 @@ export class TokensRepository {
         if (key === "name" || key === "symbol") {
           query = query.where(key, "like", `%${value}%`);
         } else {
-          query = query.where(verifiedKey, "=", value);
+          query = query.where(verifiedKey, "=", value.toLowerCase());
         }
       }
     }

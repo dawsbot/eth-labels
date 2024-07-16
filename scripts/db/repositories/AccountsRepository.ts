@@ -32,11 +32,10 @@ export class AccountsRepository {
     for (const [key, value] of Object.entries(accountSearchOptions)) {
       const verifiedKey = key as `address` | `chainId` | `label` | `nameTag`;
       if (this.allColumns.includes(`accounts.${verifiedKey}`) && value) {
-        console.log("verified", verifiedKey, value);
         if (key === "nameTag") {
           query = query.where("nameTag", "like", `%${value}%`);
         } else {
-          query = query.where(verifiedKey, "=", value);
+          query = query.where(verifiedKey, "=", value.toLowerCase());
         }
       }
     }
