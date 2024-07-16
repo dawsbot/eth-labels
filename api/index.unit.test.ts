@@ -18,7 +18,7 @@ describe("Elysia", () => {
   it("/accounts", async () => {
     const coinbaseAccounts = z
       .array(z.object({ address: z.string(), nameTag: z.string() }))
-      .parse(await fetchLocally("/accounts?nameTag=cOinBase%208&cHaInId=1"));
+      .parse(await fetchLocally("/accounts?nameTag=cOinBase%208&chainId=1"));
 
     expect(coinbaseAccounts.length).toBe(1);
     expect(coinbaseAccounts).toContainEqual({

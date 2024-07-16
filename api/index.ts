@@ -37,49 +37,77 @@ app.get(
   { params: t.Object({ address: t.String() }) },
 );
 
-app.get("/accounts", async ({ query }) => {
-  const {
-    chainId,
-    address,
-    label,
-    nameTag,
-    offset,
-    limit,
-  }: AccountSearchOptions = query;
-  const conditions: AccountSearchOptions = {
-    chainId,
-    address,
-    label,
-    nameTag,
-    offset,
-    limit,
-  };
-  return selectMatchingLabelsFromQueryAccounts(conditions);
-});
+app.get(
+  "/accounts",
+  async ({ query }) => {
+    const {
+      chainId,
+      address,
+      label,
+      nameTag,
+      offset,
+      limit,
+    }: AccountSearchOptions = query;
+    const conditions: AccountSearchOptions = {
+      chainId,
+      address,
+      label,
+      nameTag,
+      offset,
+      limit,
+    };
+    return selectMatchingLabelsFromQueryAccounts(conditions);
+  },
+  {
+    query: t.Object({
+      chainId: t.Optional(t.String()),
+      address: t.Optional(t.String()),
+      label: t.Optional(t.String()),
+      nameTag: t.Optional(t.String()),
+      offset: t.Optional(t.String()),
+      limit: t.Optional(t.String()),
+    }),
+  },
+);
 
-app.get("/tokens", ({ query }) => {
-  const {
-    chainId,
-    address,
-    label,
-    name,
-    website,
-    symbol,
-    offset,
-    limit,
-  }: TokenSearchOptions = query;
-  const conditions: TokenSearchOptions = {
-    chainId,
-    address,
-    label,
-    name,
-    website,
-    symbol,
-    offset,
-    limit,
-  };
-  return selectMatchingLabelsFromQueryTokens(conditions);
-});
+app.get(
+  "/tokens",
+  ({ query }) => {
+    const {
+      chainId,
+      address,
+      label,
+      name,
+      website,
+      symbol,
+      offset,
+      limit,
+    }: TokenSearchOptions = query;
+    const conditions: TokenSearchOptions = {
+      chainId,
+      address,
+      label,
+      name,
+      website,
+      symbol,
+      offset,
+      limit,
+    };
+    return selectMatchingLabelsFromQueryTokens(conditions);
+  },
+  {
+    query: t.Object({
+      chainId: t.Optional(t.String()),
+      address: t.Optional(t.String()),
+      label: t.Optional(t.String()),
+      name: t.Optional(t.String()),
+      website: t.Optional(t.String()),
+      symbol: t.Optional(t.String()),
+      offset: t.Optional(t.String()),
+      limit: t.Optional(t.String()),
+    }),
+  },
+);
 
 app.get("/health", () => "OK");
 
