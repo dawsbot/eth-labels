@@ -1,5 +1,5 @@
 module.exports = {
-  ignorePatterns: ["lib/**", "**/*.js"],
+  ignorePatterns: ["**/*.js", "web/**"],
   parser: "@typescript-eslint/parser",
   plugins: ["@typescript-eslint", "tsdoc"],
   extends: [
