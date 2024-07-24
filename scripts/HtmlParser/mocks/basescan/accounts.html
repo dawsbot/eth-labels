@@ -1,0 +1,1907 @@
+<!-- originally from https://basescan.org/accounts/label/aave -->
+<html lang="en">
+  <head>
+    <title>Base Top Accounts by ETH Balance | BaseScan</title>
+    <meta charset="utf-8" />
+    <meta
+      name="viewport"
+      content="width=device-width, initial-scale=1, shrink-to-fit=no"
+    />
+    <meta name="author" content="basescan.org" />
+    <meta
+      name="keywords"
+      content="ethereum, explorer, ether, L2, search, blockchain, crypto, currency"
+    />
+    <meta name="format-detection" content="telephone=no" />
+    <meta
+      name="Description"
+      content="Base allows you to explore and search the Base Network for transactions, addresses, tokens, prices and other activities taking place on the Base Network"
+    />
+    <meta name="author" content="basescan.org" />
+    <meta
+      name="keywords"
+      content="Base, explorer, search, blockchain, crypto, currency"
+    />
+    <meta
+      property="og:title"
+      content="Base Top Accounts by ETH Balance | BaseScan"
+    />
+    <meta
+      property="og:description"
+      content="The top accounts in BaseScan in descending order by the number of ETH balance in an account and the percentage of the ETH that the account hold."
+    />
+    <meta property="og:type" content="website" />
+    <meta property="og:site_name" content="Base Explorer" />
+    <meta property="og:url" content="http://basescan.org/accounts" />
+    <meta
+      property="og:image"
+      content="https://basescan.org/images/brandassets/logo.jpg?v=24.3.2.2"
+    />
+    <meta property="og:image:alt" content="Visit basescan.org" />
+    <meta name="twitter:card" content="summary" />
+    <meta name="twitter:site" content="@BaseScan" />
+    <meta
+      name="twitter:title"
+      content="Base Top Accounts by ETH Balance | BaseScan"
+    />
+    <meta
+      property="twitter:description"
+      content="The top accounts in BaseScan in descending order by the number of ETH balance in an account and the percentage of the ETH that the account hold."
+    />
+    <meta
+      property="twitter:image"
+      content="https://basescan.org/images/brandassets/logo.jpg?v=24.3.2.2"
+    />
+
+    <link rel="shortcut icon" href="/images/favicon.ico?v=24.3.2.2" />
+
+    <script
+      async=""
+      src="https://www.googletagmanager.com/gtag/js?id=G-TWEL8GRQ12"
+    ></script>
+    <script>
+      window.dataLayer = window.dataLayer || [];
+      function gtag() {
+        dataLayer.push(arguments);
+      }
+      gtag("js", new Date());
+      gtag("config", "G-TWEL8GRQ12", { anonymize_ip: true });
+    </script>
+
+    <script>
+      //Search box text ad
+      var availableAd = [];
+      var gotAd = [];
+
+      availableAd = [];
+      gotAd = ["ShowAds					"];
+    </script>
+
+    <!-- Google Fonts -->
+
+    <link
+      rel="stylesheet"
+      href="/assets/vendor/font-awesome/css/fontawesome-all.min.css?v=24.3.2.2"
+    />
+    <link
+      rel="stylesheet"
+      href="/assets/vendor/animate.css/animate.min.css?v=24.3.2.2"
+    />
+    <link
+      rel="stylesheet"
+      href="/assets/vendor/hs-megamenu/src/hs.megamenu.css?v=24.3.2.2"
+    />
+    <link
+      rel="stylesheet"
+      href="/assets/vendor/malihu-custom-scrollbar-plugin/jquery.mCustomScrollbar.css?v=24.3.2.2"
+    />
+
+    <link
+      rel="stylesheet"
+      href="/assets/vendor/select2/dist/css/select2.min.css?v=24.3.2.2"
+    />
+    <link rel="stylesheet" href="/assets/css/theme.min.css?v=24.3.2.2" />
+    <link rel="stylesheet" href="/assets/css/custom.css?v=24.3.2.2" />
+
+    <script src="/assets/vendor/jquery/dist/jquery.min.js?v=24.3.2.2"></script>
+    <script type="text/javascript" src="/jss/blockies.js?v=24.3.2.2"></script>
+
+    <style>
+      .ui-autocomplete {
+        position: absolute;
+        top: 0;
+        left: 0;
+        cursor: default;
+      }
+      .ui-state-active {
+        border-color: #e7eaf3;
+        background: #f8fafd;
+      }
+      body.dark-mode .ui-state-active {
+        background-color: #132a47;
+        border-color: #18365b;
+      }
+      .autolink-safari a {
+        pointer-events: none !important;
+        text-decoration: none !important;
+        color: inherit !important;
+      }
+    </style>
+
+    <style>
+      .card-header.sticky-card-header {
+        position: sticky;
+        top: 0;
+        z-index: 10;
+      }
+
+      .dataTable > thead > tr > th[class*="remove-icon"]:before,
+      .dataTable > thead > tr > th[class*="remove-icon"]:after {
+        content: "" !important;
+      }
+
+      table.dataTable thead th.sorting:before,
+      table.dataTable thead th.sorting_asc:before,
+      table.dataTable thead th.sorting_desc:before,
+      table.dataTable thead th.sorting:after,
+      table.dataTable thead th.sorting_asc:after,
+      table.dataTable thead th.sorting_desc:after {
+        content: none;
+      }
+
+      .dataTables_processing {
+        z-index: 100;
+      }
+
+      .hideFooter {
+        display: none;
+      }
+
+      table tfoot th {
+        font-weight: 400;
+      }
+
+      .fadeout {
+        position: relative;
+        bottom: 4em;
+        height: 4em;
+        background: -webkit-linear-gradient(
+          rgba(255, 255, 255, 0) 0%,
+          rgba(255, 255, 255, 1) 100%
+        );
+        background-image: -moz-linear-gradient(
+          rgba(255, 255, 255, 0) 0%,
+          rgba(255, 255, 255, 1) 100%
+        );
+        background-image: -o-linear-gradient(
+          rgba(255, 255, 255, 0) 0%,
+          rgba(255, 255, 255, 1) 100%
+        );
+        background-image: linear-gradient(
+          rgba(255, 255, 255, 0) 0%,
+          rgba(255, 255, 255, 1) 100%
+        );
+        background-image: -ms-linear-gradient(
+          rgba(255, 255, 255, 0) 0%,
+          rgba(255, 255, 255, 1) 100%
+        );
+      }
+    </style>
+    <link
+      rel="stylesheet"
+      type="text/css"
+      href="/assets/vendor/datatables/datatables.min.css?v=24.3.2.2"
+    />
+    <script
+      type="text/javascript"
+      src="/assets/vendor/datatables/datatables.min.js?v=24.3.2.2"
+    ></script>
+    <script>
+      function showSignInPopUp(tableid) {
+        if ($("#signInPopUp_" + tableid).attr("style")) {
+          $("#signInPopUp_" + tableid).removeAttr("style");
+          $("#signInPopUp_" + tableid)
+            .addClass("show")
+            .addClass("active");
+        }
+
+        if (!$("#paywall_mask_" + tableid).hasClass("paywall-mask")) {
+          $("#paywall_mask_" + tableid).addClass("paywall-mask");
+        }
+
+        return;
+      }
+
+      function hideSignInPopUp(tableid) {
+        if (!$("#signInPopUp_" + tableid).attr("style")) {
+          $("#signInPopUp_" + tableid).attr("style", "display:none;");
+          $("#signInPopUp_" + tableid)
+            .removeClass("show")
+            .removeClass("active");
+        }
+
+        if ($("#paywall_mask_" + tableid).hasClass("paywall-mask")) {
+          $("#paywall_mask_" + tableid).removeClass("paywall-mask");
+        }
+
+        return;
+      }
+    </script>
+    <meta
+      name="description"
+      content="The top accounts in BaseScan in descending order by the number of ETH balance in an account and the percentage of the ETH that the account hold."
+    />
+    <script src="https://basescan.org/assets/vendor/jquery-mousewheel/3.1.13/jquery.mousewheel.min.js"></script>
+  </head>
+  <body id="body">
+    <div class="wrapper">
+      <header id="header" class="u-header">
+        <div class="u-header__section">
+          <div id="logoAndNav" class="container">
+            <nav
+              class="js-mega-menu navbar navbar-expand-md u-header__navbar u-header__navbar--no-space hs-menu-initialized hs-menu-horizontal"
+            >
+              <div class="w-lg-auto">
+                <a
+                  class="navbar-brand pt-md-0"
+                  href="/"
+                  target="_parent"
+                  aria-label="Etherscan"
+                >
+                  <img
+                    id="logo-header"
+                    width="140"
+                    src="/images/logo-ether.svg?v=0.0.7"
+                    alt="Site Logo"
+                  />
+                </a>
+
+                <div id="ethPrice">
+                  <div
+                    class="d-none d-md-inline-block u-label u-label--price rounded mt-1 ml-n1 text-nowrap"
+                  >
+                    <span class="text-dark">Eth: $3,561.22</span
+                    ><span
+                      data-toggle="tooltip"
+                      data-placement="top"
+                      data-title="Changes in the last 24 hours"
+                      data-original-title=""
+                      title=""
+                      ><span class="text-danger"> (-1.24%)</span></span
+                    >
+                  </div>
+                </div>
+              </div>
+              <div>
+                <button
+                  type="button"
+                  class="navbar-toggler btn u-hamburger"
+                  aria-label="Toggle navigation"
+                  aria-expanded="false"
+                  aria-controls="navBar"
+                  data-toggle="collapse"
+                  data-target="#navBar"
+                >
+                  <span id="hamburgerTrigger" class="u-hamburger__box">
+                    <span class="u-hamburger__inner"></span>
+                  </span>
+                </button>
+              </div>
+              <div class="d-flex flex-column w-100">
+                <div
+                  id="navBar"
+                  class="collapse navbar-collapse u-header__navbar-collapse order-md-2"
+                >
+                  <ul class="navbar-nav u-header__navbar-nav px-2 px-md-0">
+                    <li
+                      id="LI_default"
+                      class="nav-item u-header__nav-item"
+                      data-event="hover"
+                      data-animation-in="slideInUp"
+                      data-animation-out="fadeOut"
+                    >
+                      <a
+                        class="nav-link u-header__nav-link"
+                        href="/"
+                        aria-haspopup="true"
+                        aria-expanded="false"
+                        aria-labelledby="pagesSubMenu"
+                        >Home</a
+                      >
+                    </li>
+                    <li
+                      id="LI_blockchain"
+                      class="nav-item hs-has-sub-menu u-header__nav-item active"
+                      data-event="hover"
+                      data-animation-in="slideInUp"
+                      data-animation-out="fadeOut"
+                    >
+                      <a
+                        id="blockchainMegaMenu"
+                        class="nav-link u-header__nav-link u-header__nav-link-toggle"
+                        href="javascript:;"
+                        aria-haspopup="true"
+                        aria-expanded="false"
+                        aria-labelledby="pagesSubMenu"
+                        >Blockchain</a
+                      >
+
+                      <ul
+                        id="blockchainSubMenu"
+                        class="hs-sub-menu u-header__sub-menu u-header__sub-menu--spacer"
+                        aria-labelledby="blockchainMegaMenu"
+                        style="min-width: 230px; display: none"
+                      >
+                        <li id="LI12">
+                          <a
+                            href="/txs"
+                            class="nav-link u-header__sub-menu-nav-link"
+                            >Transactions</a
+                          >
+                        </li>
+                        <li id="LI41">
+                          <a
+                            href="/txsEnqueued"
+                            class="nav-link u-header__sub-menu-nav-link"
+                            >Latest L1→L2 Transactions</a
+                          >
+                        </li>
+                        <li id="LI66">
+                          <a
+                            href="/txsExit"
+                            class="nav-link u-header__sub-menu-nav-link"
+                            >Latest L2→L1 Transactions</a
+                          >
+                        </li>
+
+                        <li id="LI14">
+                          <a
+                            href="/txsInternal"
+                            class="nav-link u-header__sub-menu-nav-link"
+                            >Contract Internal Transactions</a
+                          >
+                        </li>
+                        <li class="dropdown-divider"></li>
+                        <li id="LI_blocks">
+                          <a
+                            id="navBlocks"
+                            class="nav-link u-header__sub-menu-nav-link"
+                            href="/blocks"
+                            aria-haspopup="true"
+                            aria-expanded="false"
+                            aria-controls="navSubBlocks"
+                            >View Blocks</a
+                          >
+                        </li>
+                        <li id="LI_batches">
+                          <a
+                            id="navBatches"
+                            class="nav-link u-header__sub-menu-nav-link"
+                            href="/batches"
+                            aria-haspopup="true"
+                            aria-expanded="false"
+                            aria-controls="navSubBlocks"
+                            >View L1 Transaction Batches</a
+                          >
+                        </li>
+                        <li id="LI_statebatches">
+                          <a
+                            id="navStateBatch"
+                            class="nav-link u-header__sub-menu-nav-link"
+                            href="/statebatches"
+                            aria-haspopup="true"
+                            aria-expanded="false"
+                            aria-controls="navSubBlocks"
+                            >View L1 State Batches</a
+                          >
+                        </li>
+
+                        <li class="dropdown-divider"></li>
+                        <li id="LI_accountall">
+                          <a
+                            href="/accounts"
+                            class="nav-link u-header__sub-menu-nav-link"
+                            >Top Accounts</a
+                          >
+                        </li>
+                        <li id="LI_contract_verified">
+                          <a
+                            href="/contractsVerified"
+                            class="nav-link u-header__sub-menu-nav-link"
+                            >Verified Contracts</a
+                          >
+                        </li>
+                      </ul>
+                    </li>
+                    <li
+                      id="LI_tokens"
+                      class="nav-item hs-has-sub-menu u-header__nav-item"
+                      data-event="hover"
+                      data-animation-in="slideInUp"
+                      data-animation-out="fadeOut"
+                    >
+                      <a
+                        id="tokensMegaMenu"
+                        class="nav-link u-header__nav-link u-header__nav-link-toggle"
+                        href="javascript:;"
+                        aria-haspopup="true"
+                        aria-expanded="false"
+                        aria-labelledby="tokensSubMenu"
+                        >Tokens</a
+                      >
+
+                      <!-- Tokens - Submenu -->
+                      <ul
+                        id="tokensSubMenu"
+                        class="hs-sub-menu u-header__sub-menu u-header__sub-menu--spacer"
+                        aria-labelledby="tokensMegaMenu"
+                        style="min-width: 230px; display: none"
+                      >
+                        <li id="LI21">
+                          <a
+                            class="nav-link u-header__sub-menu-nav-link"
+                            href="/tokens"
+                            >ERC20 Top Tokens</a
+                          >
+                        </li>
+                        <li id="LI1">
+                          <a
+                            class="nav-link u-header__sub-menu-nav-link"
+                            href="/tokentxns"
+                            >View ERC20 Transfers</a
+                          >
+                        </li>
+
+                        <li class="dropdown-divider"></li>
+                        <li id="LI42">
+                          <a
+                            class="nav-link u-header__sub-menu-nav-link"
+                            href="/tokens-nft"
+                            >ERC721 Top Tokens</a
+                          >
+                        </li>
+                        <li id="LI40">
+                          <a
+                            class="nav-link u-header__sub-menu-nav-link"
+                            href="/tokentxns-nft"
+                            >View ERC721 Transfers</a
+                          >
+                        </li>
+                        <li class="dropdown-divider"></li>
+                        <li id="LI30">
+                          <a
+                            class="nav-link u-header__sub-menu-nav-link"
+                            href="/tokens-nft1155"
+                            >ERC1155 Top Tokens</a
+                          >
+                        </li>
+                        <li id="LI33">
+                          <a
+                            class="nav-link u-header__sub-menu-nav-link"
+                            href="/tokentxns-nft1155"
+                            >View ERC1155 Transfers <sup></sup
+                          ></a>
+                        </li>
+                      </ul>
+                    </li>
+                    <li
+                      id="LI_resources"
+                      class="nav-item hs-has-sub-menu u-header__nav-item"
+                      data-event="hover"
+                      data-animation-in="slideInUp"
+                      data-animation-out="fadeOut"
+                    >
+                      <a
+                        id="resourcesMegaMenu"
+                        class="nav-link u-header__nav-link u-header__nav-link-toggle"
+                        href="javascript:;"
+                        aria-haspopup="true"
+                        aria-expanded="false"
+                        aria-labelledby="resourcesSubMenu"
+                        >Resources</a
+                      >
+                      <ul
+                        id="resourcesSubMenu"
+                        class="hs-sub-menu u-header__sub-menu u-header__sub-menu--spacer"
+                        aria-labelledby="resourcesMegaMenu"
+                        style="min-width: 230px; display: none"
+                      >
+                        <li id="LI_charts2">
+                          <a
+                            class="nav-link u-header__sub-menu-nav-link"
+                            href="/charts"
+                            >Charts &amp; Stats</a
+                          >
+                        </li>
+                      </ul>
+                    </li>
+                    <li
+                      id="LI_services2"
+                      class="nav-item hs-has-mega-menu u-header__nav-item"
+                      data-event="hover"
+                      data-animation-in="slideInUp"
+                      data-animation-out="fadeOut"
+                      data-position="right"
+                    >
+                      <a
+                        id="moreMegaMenu"
+                        class="nav-link u-header__nav-link u-header__nav-link-toggle"
+                        href="javascript:;"
+                        aria-haspopup="true"
+                        aria-expanded="false"
+                        >More</a
+                      >
+                      <div
+                        class="hs-mega-menu w-80 u-header__sub-menu"
+                        aria-labelledby="moreMegaMenu"
+                        style="display: none"
+                      >
+                        <div class="row u-header__mega-menu-wrapper">
+                          <div class="col-sm-6 col-md-4 col-lg mb-4 mb-lg-0">
+                            <span class="u-header__sub-menu-title"
+                              >Developers</span
+                            >
+                            <ul class="u-header__sub-menu-nav-group mb-3">
+                              <li id="LI_BASE_MAINNET_Docs">
+                                <a
+                                  class="nav-link u-header__sub-menu-nav-link"
+                                  href="/apis"
+                                  ><i class="fa fa-angle-right small mr-1"></i
+                                  >APIs</a
+                                >
+                              </li>
+                              <li id="LI17">
+                                <a
+                                  class="nav-link u-header__sub-menu-nav-link"
+                                  href="/verifyContract"
+                                  ><i class="fa fa-angle-right small mr-1"></i
+                                  >Verify Contract</a
+                                >
+                              </li>
+                              <li id="LI24">
+                                <a
+                                  class="nav-link u-header__sub-menu-nav-link"
+                                  href="/opcode-tool"
+                                  ><i class="fa fa-angle-right small mr-1"></i
+                                  >Byte to Opcode</a
+                                >
+                              </li>
+                              <li id="LI54">
+                                <a
+                                  class="nav-link u-header__sub-menu-nav-link"
+                                  href="/contractdiffchecker"
+                                  ><i class="fa fa-angle-right small mr-1"></i
+                                  >Contract Diff Checker<sup
+                                    ><span
+                                      class="badge badge-success font-size-default ml-1"
+                                      >New</span
+                                    ></sup
+                                  ></a
+                                >
+                              </li>
+                              <li id="LI27">
+                                <a
+                                  class="nav-link u-header__sub-menu-nav-link"
+                                  href="/vyper"
+                                  ><i class="fa fa-angle-right small mr-1"></i
+                                  >Vyper Online Compiler</a
+                                >
+                              </li>
+                            </ul>
+                          </div>
+
+                          <div class="col-sm-6 col-md-4 col-lg mb-4 mb-lg-0">
+                            <span class="u-header__sub-menu-title"
+                              >Explore</span
+                            >
+                            <ul class="u-header__sub-menu-nav-group mb-3">
+                              <li id="LI6">
+                                <a
+                                  class="nav-link u-header__sub-menu-nav-link"
+                                  href="/name-lookup-search"
+                                >
+                                  <i class="fa fa-angle-right small mr-1"></i
+                                  >Domain Name Lookup<sup
+                                    ><span
+                                      class="badge badge-success font-size-default ml-1"
+                                    >
+                                      New</span
+                                    ></sup
+                                  >
+                                </a>
+                              </li>
+                            </ul>
+                          </div>
+
+                          <div class="col-sm-6 col-md-4 col-lg mb-4 mb-lg-0">
+                            <span class="u-header__sub-menu-title">Tools</span>
+                            <ul class="u-header__sub-menu-nav-group mb-3">
+                              <li id="LI2">
+                                <a
+                                  class="nav-link u-header__sub-menu-nav-link"
+                                  href="/labelcloud"
+                                  ><i class="fa fa-angle-right small mr-1"></i
+                                  >Label Word Cloud</a
+                                >
+                              </li>
+                              <li id="LI22">
+                                <a
+                                  class="nav-link u-header__sub-menu-nav-link"
+                                  href="/verifiedSignatures"
+                                  ><i class="fa fa-angle-right small mr-1"></i
+                                  >Verified Signature</a
+                                >
+                              </li>
+
+                              <li id="LI29">
+                                <a
+                                  class="nav-link u-header__sub-menu-nav-link"
+                                  href="/advanced-filter"
+                                  ><i class="fa fa-angle-right small mr-1"></i
+                                  >Advanced Filter
+                                  <sup
+                                    ><span class="badge badge-secondary ml-1"
+                                      >Beta</span
+                                    ></sup
+                                  ></a
+                                >
+                              </li>
+                              <li id="LI5">
+                                <a
+                                  class="nav-link u-header__sub-menu-nav-link"
+                                  href="/exportDataMain"
+                                  ><i class="fa fa-angle-right small mr-1"></i
+                                  >Export Data</a
+                                >
+                              </li>
+                              <li id="LI9">
+                                <a
+                                  class="nav-link u-header__sub-menu-nav-link"
+                                  href="/tokenapprovalchecker"
+                                  ><i class="fa fa-angle-right small mr-1"></i
+                                  >Token Approvals
+                                  <sup
+                                    ><span
+                                      class="badge badge-secondary font-size-default ml-1"
+                                    >
+                                      Beta</span
+                                    ></sup
+                                  ></a
+                                >
+                              </li>
+                            </ul>
+                          </div>
+                        </div>
+                      </div>
+                    </li>
+
+                    <li class="nav-item my-2 my-md-0">
+                      <a class="u-header__nav-link" href="/login">
+                        <i class="fa fa-user-circle mr-1"></i>Sign In
+                      </a>
+                    </li>
+
+                    <li class="u-header__nav-separator"></li>
+                    <li
+                      class="nav-item hs-has-sub-menu u-header__nav-item my-md-n1"
+                      data-event="hover"
+                      data-animation-in="slideInUp"
+                      data-animation-out="fadeOut"
+                    >
+                      <a
+                        id="explorersWithDropdown"
+                        class="nav-link u-header__nav-link u-header__nav-link-toggle u-header__nav-link-toggle--mobile pr-0"
+                        href="javascript:;"
+                        aria-haspopup="true"
+                        aria-expanded="false"
+                        aria-labelledby="explorersDropdown"
+                      >
+                        <span
+                          class="btn btn-sm btn-icon btn-soft-primary cursor-pointer d-none d-md-inline-block"
+                        >
+                          <img
+                            id="logo-header-icon"
+                            img=""
+                            class="u-xs-avatar btn-icon__inner"
+                            src="/images/logo-symbol.svg"
+                            alt="Logo"
+                          />
+                        </span>
+
+                        <span class="d-inline-block d-md-none">Explorers</span>
+                      </a>
+                      <ul
+                        id="explorersDropdown"
+                        class="hs-sub-menu u-header__sub-menu u-header__sub-menu--spacer dropdown-menu-md-right animated fadeOut"
+                        aria-labelledby="explorersWithDropdown"
+                        style="min-width: 170px; display: none"
+                      >
+                        <li id="LI_Mainnet_Base">
+                          <a
+                            class="nav-link u-header__sub-menu-nav-link"
+                            href="https://basescan.org/"
+                            >Base Mainnet</a
+                          >
+                        </li>
+
+                        <li id="LI_Sepolia_Base">
+                          <a
+                            class="nav-link u-header__sub-menu-nav-link"
+                            href="https://sepolia.basescan.org/"
+                            >Base Sepolia</a
+                          >
+                        </li>
+                      </ul>
+                    </li>
+                  </ul>
+                </div>
+                <div id="form1">
+                  <form
+                    class="w-100 w-lg-60 order-md-1 ml-md-auto mt-2 mb-2 mb-md-0"
+                    action="/search"
+                    method="GET"
+                    autocomplete="off"
+                    spellcheck="false"
+                  >
+                    <div class="input-group input-group-sm">
+                      <div class="input-group-prepend d-none d-md-block">
+                        <!-- Select -->
+                        <select
+                          name="f"
+                          class="custom-select custom-select-sm custom-arrow-select input-group-text font-size-base filterby text-left"
+                        >
+                          <option selected="" value="0">All Filters</option>
+                          <option value="1">Addresses</option>
+                          <option value="2">Tokens</option>
+
+                          <option value="5">Websites</option>
+                        </select>
+                        <!-- End Select -->
+                      </div>
+
+                      <input
+                        type="text"
+                        class="form-control searchautocomplete ui-autocomplete-input list-unstyled py-3 mb-0"
+                        autocomplete="off"
+                        spellcheck="false"
+                        id="txtSearchInput"
+                        name="q"
+                        placeholder="Search by Address / Txn Hash / Batch / Token / Domain Name"
+                        aria-label="Search by Address / Txhash / Batch / Token / Domain Name"
+                        aria-describedby="button-header-search"
+                        onkeyup="handleSearchText(this);"
+                        maxlength="68"
+                      />
+
+                      <input type="hidden" value="" id="hdnSearchText" />
+                      <input type="hidden" value="" id="hdnSearchLabel" />
+                      <input id="hdnIsTestNet" value="False" type="hidden" />
+                      <div class="input-group-append">
+                        <button class="btn btn-primary" type="submit">
+                          <span class="fas fa-search"></span>
+                        </button>
+                      </div>
+                    </div>
+                  </form>
+                </div>
+              </div>
+            </nav>
+          </div>
+        </div>
+      </header>
+      <main id="content" role="main">
+        <input type="hidden" name="hdnAgeText" id="hdnAgeText" value="Age" />
+        <input
+          type="hidden"
+          name="hdnDateTimeText"
+          id="hdnDateTimeText"
+          value="Date Time (UTC)"
+        />
+        <input
+          type="hidden"
+          name="hdnAgeTitle"
+          id="hdnAgeTitle"
+          value="Click to show Age Format"
+        />
+        <input
+          type="hidden"
+          name="hdnDateTimeTitle"
+          id="hdnDateTimeTitle"
+          value="Click to show Datetime Format"
+        />
+        <input
+          type="hidden"
+          name="hdnTxnText"
+          id="hdnTxnText"
+          value="Txn Fee"
+        />
+        <input
+          type="hidden"
+          name="hdnGasPriceText"
+          id="hdnGasPriceText"
+          value="Gas Price"
+        />
+        <input
+          type="hidden"
+          name="hdnTxnFeeTitle"
+          id="hdnTxnFeeTitle"
+          value="(Gas Price * Gas) in ETH"
+        />
+        <input
+          type="hidden"
+          name="hdnGasPriceTitle"
+          id="hdnGasPriceTitle"
+          value="Gas Price in Gwei"
+        />
+
+        <div class="container">
+          <div
+            class="d-md-flex justify-content-between align-items-center py-3"
+          >
+            <div class="mb-1 mb-md-0">
+              <h1 class="h4 font-weight-normal mb-0">
+                Accounts&nbsp;<span class="small text-secondary">Aave</span>
+              </h1>
+            </div>
+            <nav aria-label="breadcrumb">
+              <ol class="breadcrumb small p-0 mb-0">
+                <li class="breadcrumb-item">
+                  <a href="/labelcloud"
+                    ><i class="fa fa-cloud"></i> Label Cloud</a
+                  >
+                </li>
+                <li class="breadcrumb-item active">Aave</li>
+              </ol>
+            </nav>
+          </div>
+        </div>
+
+        <!-- Ads -->
+        <div class="container">
+          <div class="border-top py-3">
+            <div class="d-flex text-secondary" style="line-height: 2.2">
+              <span id="ContentPlaceHolder1_lblAdResult"
+                ><!-- Revive Adserver Asynchronous JS Tag - Generated with Revive Adserver v5.0.5 --><ins
+                  data-revive-zoneid="2"
+                  data-revive-id="94930f9d02164723d814eabe9168eb46"
+                ></ins>
+                <script
+                  async=""
+                  src="//abt-optimistic.etherscan.io/www/d/asyncjses.php?v=0.01"
+                ></script></span
+              >&nbsp;
+            </div>
+          </div>
+        </div>
+
+        <!--<div class="container border-top py-4">
+         <script async src="//pagead2.googlesyndication.com/pagead/js/adsbygoogle.js"></script>-->
+        <!-- Testnet Banner -->
+        <!--<ins class="adsbygoogle"
+             style="display: block"
+             data-ad-client="ca-pub-9365010058051645"
+             data-ad-slot="4376794054"
+             data-ad-format="horizontal"></ins>
+         <script>
+             (adsbygoogle = window.adsbygoogle || []).push({});
+         </script>
+    </div>-->
+
+        <div class="container space-bottom-2">
+          <div class="d-flex align-items-center my-3">
+            <span class="font-weight-bold mr-3">Related labels:</span
+            ><a
+              class="u-label u-label--sm u-label--secondary mr-2"
+              href="/tokens/label/aave"
+              >Tokens (3)</a
+            >
+          </div>
+          <div class="card mb-3">
+            <div class="card-body">
+              <span
+                ><strong
+                  ><a href="https://aave.com/" rel="nofollow" target="_blank"
+                    >Aave</a
+                  > </strong
+                >is an Open Source and Non-Custodial protocol to earn interest
+                on deposits &amp; borrow assets.</span
+              >
+            </div>
+          </div>
+
+          <div class="card">
+            <div class="card-body">
+              <div
+                id="ContentPlaceHolder1_topPageDiv"
+                class="d-md-flex justify-content-between"
+              >
+                <p class="mb-2 mb-md-0"></p>
+                <nav aria-label="page navigation"></nav>
+              </div>
+
+              <div class="tab-content" id="tabContent">
+                <div
+                  class="tab-pane fade show active"
+                  id="subcattab-0"
+                  role="tabpanel"
+                  aria-labelledby="0-tab"
+                >
+                  <div
+                    class="table-responsive mb-2 mb-md-0"
+                    id="paywall_mask_table-subcatid-0"
+                  >
+                    <div
+                      id="table-subcatid-0_wrapper"
+                      class="dataTables_wrapper dt-bootstrap4 no-footer"
+                    >
+                      <div class="top d-md-flex justify-content-between mb-3">
+                        <div class="text-secondary d-flex">
+                          <div
+                            class="dataTables_info"
+                            id="table-subcatid-0_info"
+                            role="status"
+                            aria-live="polite"
+                          >
+                            A total of 2 accounts found
+                          </div>
+                        </div>
+                        <div class="pagination-sm d-flex"></div>
+                      </div>
+                      <div
+                        id="table-subcatid-0_processing"
+                        class="dataTables_processing card"
+                        style="display: none"
+                      >
+                        Processing...
+                      </div>
+                      <table
+                        class="table table-hover dataTable no-footer"
+                        style="width: 100%"
+                        id="table-subcatid-0"
+                        aria-describedby="table-subcatid-0_info"
+                        role="grid"
+                      >
+                        <thead class="thead-light">
+                          <tr role="row">
+                            <th
+                              scope="col"
+                              width="370"
+                              class="sorting_disabled"
+                              rowspan="1"
+                              colspan="1"
+                              style="width: 370px"
+                            >
+                              Address
+                            </th>
+                            <th
+                              class="remove-icon sorting_disabled"
+                              scope="col"
+                              rowspan="1"
+                              colspan="1"
+                              style="width: 476px"
+                            >
+                              Name Tag
+                            </th>
+                            <th
+                              scope="col"
+                              class="sorting_disabled"
+                              rowspan="1"
+                              colspan="1"
+                              style="width: 196px"
+                            >
+                              Balance
+                            </th>
+                            <th
+                              scope="col"
+                              class="sorting_disabled"
+                              rowspan="1"
+                              colspan="1"
+                              style="width: 224px"
+                            >
+                              Txn Count
+                            </th>
+                          </tr>
+                        </thead>
+                        <tbody>
+                          <tr class="odd" role="row">
+                            <td>
+                              <span style="white-space: nowrap"
+                                ><i
+                                  data-toggle="tooltip"
+                                  title=""
+                                  class="far fa-file-alt text-secondary mr-1"
+                                  data-original-title="Contract"
+                                ></i
+                                ><a
+                                  href="/address/0x9390b1735def18560c509e2d0bc090e9d6ba257a"
+                                  >0x9390b1735def18560c509e2d0bc090e9d6ba257a</a
+                                ></span
+                              >
+                            </td>
+                            <td>Aave : Executor Lvl1</td>
+                            <td>0<b>.</b>01 ETH</td>
+                            <td>3</td>
+                          </tr>
+                          <tr class="even" role="row">
+                            <td>
+                              <span style="white-space: nowrap"
+                                ><i
+                                  data-toggle="tooltip"
+                                  title=""
+                                  class="far fa-file-alt text-secondary mr-1"
+                                  data-original-title="Contract"
+                                ></i
+                                ><a
+                                  href="/address/0x2dc219e716793fb4b21548c0f009ba3af753ab01"
+                                  >0x2dc219e716793fb4b21548c0f009ba3af753ab01</a
+                                ></span
+                              >
+                            </td>
+                            <td>Aave: Payloads Controller</td>
+                            <td>0 ETH</td>
+                            <td>19</td>
+                          </tr>
+                        </tbody>
+                      </table>
+                      <div class="bottom d-md-flex justify-content-between">
+                        <div class="text-secondary d-flex"></div>
+                        <div class="pagination-sm d-flex"></div>
+                      </div>
+                      <div class="clear"></div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+
+              <form method="post" action="./aave" id="ctl00">
+                <div class="aspNetHidden">
+                  <input
+                    type="hidden"
+                    name="__VIEWSTATE"
+                    id="__VIEWSTATE"
+                    value="RfyvCiT8J2QvSdONuh6E7bF9BmeDsE9IuHtqTvXoq/jhTnirvWLPNEyp1bZXsBPpiQVUO/fh112/ATxSVrzciw9zkReuyfSghF19EwOz9oA="
+                  />
+                </div>
+
+                <div class="aspNetHidden">
+                  <input
+                    type="hidden"
+                    name="__VIEWSTATEGENERATOR"
+                    id="__VIEWSTATEGENERATOR"
+                    value="A75D1253"
+                  />
+                </div>
+
+                <script type="text/javascript">
+                  //<![CDATA[
+                  $("#spinwheel").remove(); //]]>
+                </script>
+              </form>
+            </div>
+          </div>
+
+          <div class="text-right text-secondary px-3 mt-3">
+            <span
+              >Note : Labels source attribution required if used
+              externally</span
+            >
+          </div>
+        </div>
+
+        <input type="hidden" id="hdnLabelFilter" value="aave" />
+        <script>
+          var resetSortAfterClickDictionary = {};
+          var resetSortDictionary = {};
+          var resetPageDictionary = {};
+          var visitedTabDictionary = {};
+          var queryStringDictionary = {};
+          var currentLengthDictionary = {};
+          var currentTab = "0";
+          var refreshToDefaultDictionary = { "table-subcatid-0": false };
+          var defaultLength = 25;
+          var defaultSort = { column: 1, dir: "asc" };
+
+          function updateUrl(subCatId) {
+            var queryString = "";
+            queryString += "subcatid=" + subCatId;
+
+            var length = queryStringDictionary["length_" + subCatId];
+            if (length) {
+              if (length < 0) {
+                length = 7;
+              }
+              queryString += "&size=" + length;
+            }
+
+            var start = queryStringDictionary["start_" + subCatId];
+            if (start !== undefined) {
+              queryString += "&start=" + start;
+            }
+
+            var col = queryStringDictionary["col_" + subCatId];
+            if (col !== undefined) {
+              queryString += "&col=" + col;
+            }
+
+            var order = queryStringDictionary["order_" + subCatId];
+            if (order !== undefined) {
+              queryString += "&order=" + order;
+            }
+
+            var baseUrl = window.location.href.split("?")[0];
+            history.pushState("", document.title, baseUrl + "?" + queryString);
+          }
+
+          function selectTab(el) {
+            $(".nav-link.active").removeClass("active");
+            el.classList.add("active");
+
+            var id = $(".nav-link.active").attr("val");
+            $("#subcattab-" + currentTab)
+              .removeClass("show")
+              .removeClass("active");
+
+            $("#subcattab-" + id)
+              .addClass("show")
+              .addClass("active");
+
+            if (!visitedTabDictionary["subCat_" + id]) {
+              visitedTabDictionary["subCat_" + id] = true;
+              $("#table-subcatid-" + id)
+                .DataTable()
+                .ajax.reload();
+            }
+
+            updateUrl(id);
+            currentTab = id;
+
+            //show correct footer
+            var subCategoryId = $(".nav-link.active").attr("val");
+            $('tfoot[class!="hideFooter"]').addClass("hideFooter");
+            $("#sublabel-" + subCategoryId.toString()).removeClass(
+              "hideFooter",
+            );
+          }
+
+          function generateLabelModel() {
+            var id = $("#hdnId").val();
+            var label = $("#hdnLabelFilter").val();
+            var subCategoryId = $(".nav-link.active").attr("val");
+
+            return { id: id, label: label, subCategoryId: subCategoryId };
+          }
+
+          $(document).ready(function () {
+            visitedTabDictionary["subCat_" + currentTab] = true;
+            resetSortAfterClickDictionary["table-subcatid-" + currentTab] =
+              false;
+
+            var config = {
+              dom: '<"top d-md-flex justify-content-between mb-3"<"text-secondary d-flex"i><"pagination-sm d-flex"p>>rt<"bottom d-md-flex justify-content-between"<"text-secondary d-flex"l><"pagination-sm d-flex"p>><"clear">',
+              language: {
+                paginate: {
+                  next: '<i class="fa fa-chevron-right small"></i>',
+                  previous: '<i class="fa fa-chevron-left small"></i>',
+                },
+                lengthMenu: "Show _MENU_ Records",
+                info: "A total of _MAX_ accounts found",
+              },
+              searching: false,
+              pagingType: "full",
+              order: [[1, "asc"]],
+              columnDefs: [
+                {
+                  orderable: true,
+                  targets: 2,
+                  orderSequence: ["desc", "asc", "reset"],
+                },
+                {
+                  orderable: true,
+                  targets: 3,
+                  orderSequence: ["desc", "asc", "reset"],
+                },
+                { orderable: false, targets: "_all" },
+              ],
+              paging: false,
+              processing: true,
+              serverSide: true,
+              ordering: false,
+              pageLength: 25,
+              displayStart: 0,
+              deferLoading: 2,
+              ajax: {
+                type: "POST",
+                contentType: "application/json",
+                url: "/accounts.aspx/GetTableEntriesBySubLabel",
+                data: function (d, settings) {
+                  // note: d is created by datatable, the structure of d is the same with DataTableParameters model above
+                  var labelModel = generateLabelModel();
+
+                  if (
+                    refreshToDefaultDictionary[
+                      settings.nTable.getAttribute("id")
+                    ]
+                  ) {
+                    d.length = defaultLength;
+                    d.order[0] = defaultSort;
+                  }
+
+                  if (
+                    currentLengthDictionary[
+                      settings.nTable.getAttribute("id")
+                    ] != d.length
+                  ) {
+                    if (
+                      currentLengthDictionary[
+                        settings.nTable.getAttribute("id")
+                      ] != undefined
+                    ) {
+                      d.start = 0;
+                      resetPageDictionary[settings.nTable.getAttribute("id")] =
+                        true;
+                    }
+                    currentLengthDictionary[
+                      settings.nTable.getAttribute("id")
+                    ] = d.length;
+                  }
+
+                  if (
+                    (d.order[0] && d.order[0].dir === "reset") ||
+                    resetSortAfterClickDictionary[
+                      settings.nTable.getAttribute("id")
+                    ]
+                  ) {
+                    d.order[0] = { column: 1, dir: "desc" };
+                    resetSortDictionary[settings.nTable.getAttribute("id")] =
+                      true;
+                  } else {
+                    resetSortDictionary[settings.nTable.getAttribute("id")] =
+                      false;
+                  }
+                  return JSON.stringify({
+                    dataTableModel: d,
+                    labelModel: labelModel,
+                  });
+                },
+                dataType: "json",
+                dataFilter: function (res) {
+                  var parsed = JSON.parse(res);
+                  var morp = parsed.d;
+                  return JSON.stringify(morp);
+                },
+              },
+              columns: [
+                { data: "address" },
+                { data: "nameTag" },
+                { data: "balance" },
+                { data: "txnCount" },
+              ],
+              //footerCallback: function (row, data, start, end, display) {
+              //    var api = this.api(), data;
+              //    var json = api.ajax.json();
+
+              //    if (!json)
+              //        return;
+
+              //    //Total entries on this page
+              //    if (api.column(1).data().length) {
+              //        var entryTotal = json.columnTotal;
+              //    }
+              //    else { entryTotal = "" };
+
+              //    //Total Balance on this page
+              //    if (api.column(2).data().length) {
+              //        var balanceTotal = json.balanceTotal;
+              //    }
+              //    else { balanceTotal = "" };
+
+              //    // Total txn on this page
+              //    if (api.column(3).data().length) {
+              //        var txnTotal = json.txTotal;
+              //    }
+              //    else { txnTotal = "" };
+
+              //    // Update footer
+              //    $(api.column(1).footer()).html(
+              //        entryTotal
+              //    );
+
+              //    $(api.column(2).footer()).html(
+              //        balanceTotal
+              //    );
+
+              //    $(api.column(3).footer()).html(
+              //        txnTotal
+              //    );
+              //},
+              drawCallback: function (settings) {
+                //bypass standard datatables sorting selection
+                //if (resetSortDictionary[this.attr('id')] || resetSortAfterClickDictionary[this.attr('id')]) {
+                //    this.api().order([1, 'desc']); // column 1 is the default sorting column
+                //    resetSortAfterClickDictionary[this.attr('id')] = false;
+                //    $("#" + this.attr('id') + " .sorting_desc").not(".default-sort").removeClass("sorting_desc").addClass("sorting").removeAttr("aria-sort");
+                //    $("#" + this.attr('id') + " .sorting_asc").not(".default-sort").removeClass("sorting_asc").addClass("sorting").removeAttr("aria-sort");
+                //}
+
+                //if (resetPageDictionary[this.attr('id')]) {
+                //    this.api().page(0);
+                //    resetPageDictionary[this.attr('id')] = false;
+                //}
+
+                //change sorting icon and position
+                $("#" + this.attr("id") + " th.sorting_asc")
+                  .not(".remove-icon")
+                  .each(function () {
+                    var text = $(this).text();
+                    text = '<i class="fad fa-sort-up"></i>' + text;
+                    $(this).html(text);
+                  });
+
+                $("#" + this.attr("id") + " th.sorting_desc")
+                  .not(".remove-icon")
+                  .each(function () {
+                    var text = $(this).text();
+                    text = '<i class="fad fa-sort-down"></i>' + text;
+                    $(this).html(text);
+                  });
+
+                $("#" + this.attr("id") + " th.sorting")
+                  .not(".remove-icon")
+                  .each(function () {
+                    var text = $(this).text();
+                    text = '<i class="fad fa-sort"></i>' + text;
+                    $(this).html(text);
+                  });
+
+                var api = this.api();
+                var json = api.ajax.json();
+                if (!json) {
+                  var currentPageDisp = "1";
+
+                  //reload state if querystring is available
+                  var urlParams = new URLSearchParams(window.location.search);
+                  var existLength = urlParams.get("size");
+                  if (existLength) {
+                    api.page.len(existLength);
+                    currentLengthDictionary[this.attr("id")] =
+                      parseInt(existLength);
+
+                    var existStart = urlParams.get("start");
+                    if (!existStart) {
+                      existStart = 0;
+                    }
+                    currentPage = Math.floor(existStart / existLength);
+                    api.page(currentPage);
+                    currentPageDisp = currentPage + 1;
+                  }
+
+                  var existCol = urlParams.get("col");
+                  var existOrder = urlParams.get("order");
+
+                  if (existCol && existOrder) {
+                    this.api().order([parseInt(existCol), existOrder]);
+                  }
+
+                  $(
+                    ".custom-select.custom-select-sm.form-control.form-control-sm",
+                  )
+                    .removeAttr("class")
+                    .addClass("custom-select custom-select-xs mx-2");
+                  var totalPage = 1;
+                  $(
+                    "#" +
+                      this.attr("id") +
+                      "_wrapper .paginate_button.previous",
+                  ).after(
+                    "<li class='page-item disabled'><span class='page-link'>Page <strong class='font-weight-medium'>" +
+                      currentPageDisp +
+                      "</strong> of <strong class='font-weight-medium'>" +
+                      totalPage +
+                      "</strong></span></li>",
+                  );
+                  return;
+                } else {
+                  $(
+                    "#" +
+                      this.attr("id") +
+                      "_wrapper .paginate_button.previous",
+                  ).after(
+                    "<li class='page-item disabled'><span class='page-link'>Page <strong class='font-weight-medium'>" +
+                      json.currentPage +
+                      "</strong> of <strong class='font-weight-medium'>" +
+                      json.totalPage +
+                      "</strong></span></li>",
+                  );
+
+                  if (
+                    refreshToDefaultDictionary[
+                      settings.nTable.getAttribute("id")
+                    ]
+                  ) {
+                    refreshToDefaultDictionary[
+                      settings.nTable.getAttribute("id")
+                    ] = false;
+                    this.api().page.len(defaultLength);
+                    this.api().order([
+                      defaultSort["column"],
+                      defaultSort["dir"],
+                    ]);
+                    $("#" + this.attr("id") + " .default-sort")
+                      .not("no-login")
+                      .removeClass("sorting")
+                      .addClass("sorting_desc");
+                    $("#" + this.attr("id") + " .sorting_desc")
+                      .not(".default-sort")
+                      .removeClass("sorting_desc")
+                      .addClass("sorting")
+                      .removeAttr("aria-sort");
+                    $("#" + this.attr("id") + " .sorting_asc")
+                      .not(".default-sort")
+                      .removeClass("sorting_asc")
+                      .addClass("sorting")
+                      .removeAttr("aria-sort");
+                  }
+
+                  //bypass standard datatables sorting selection
+                  if (
+                    resetSortDictionary[this.attr("id")] ||
+                    resetSortAfterClickDictionary[this.attr("id")]
+                  ) {
+                    this.api().order([1, "desc"]); //the default sorting is column 3
+                    resetSortAfterClickDictionary[this.attr("id")] = false;
+                    $("#" + this.attr("id") + " .default-sort")
+                      .not("no-login")
+                      .removeClass("sorting")
+                      .addClass("sorting_desc");
+                    $("#" + this.attr("id") + " .sorting_desc")
+                      .not(".default-sort")
+                      .removeClass("sorting_desc")
+                      .addClass("sorting")
+                      .removeAttr("aria-sort");
+                    $("#" + this.attr("id") + " .sorting_asc")
+                      .not(".default-sort")
+                      .removeClass("sorting_asc")
+                      .addClass("sorting")
+                      .removeAttr("aria-sort");
+                  }
+
+                  if (resetPageDictionary[this.attr("id")]) {
+                    this.api().page(0);
+                    resetPageDictionary[this.attr("id")] = false;
+                  }
+
+                  $("#" + this.attr("id") + " th.sorting_asc")
+                    .not(".remove-icon")
+                    .each(function () {
+                      var text = $(this).text();
+                      text = '<i class="fad fa-sort-up"></i> ' + text;
+                      $(this).html(text);
+                    });
+
+                  $("#" + this.attr("id") + " th.sorting_desc")
+                    .not(".remove-icon")
+                    .each(function () {
+                      var text = $(this).text();
+                      text = '<i class="fad fa-sort-down"></i> ' + text;
+                      $(this).html(text);
+                    });
+
+                  $("#" + this.attr("id") + " th.sorting")
+                    .not(".remove-icon")
+                    .each(function () {
+                      var text = $(this).text();
+                      text = '<i class="fad fa-sort"></i> ' + text;
+                      $(this).html(text);
+                    });
+                }
+
+                //if (json.showPopUp) {
+                //    showSignInPopUp(this.attr('id'));
+                //}
+                //else {
+                //    hideSignInPopUp(this.attr('id'))
+                //}
+
+                var subCatId = $(".nav-link.active").attr("val");
+
+                //get page info
+                var pageInfo = this.api().page.info();
+
+                if (pageInfo.length) {
+                  queryStringDictionary["length_" + subCatId] = pageInfo.length;
+                }
+
+                if (pageInfo.start !== undefined) {
+                  queryStringDictionary["start_" + subCatId] = pageInfo.start;
+                }
+
+                //get ordering info
+                var orderInfo = this.api().order();
+                queryStringDictionary["col_" + subCatId] = orderInfo[0][0];
+                queryStringDictionary["order_" + subCatId] = orderInfo[0][1];
+
+                updateUrl(subCatId);
+                $('[data-toggle="tooltip"]').tooltip();
+              },
+            };
+            $("#table-subcatid-0").DataTable(config);
+          });
+        </script>
+      </main>
+      <div id="push"></div>
+      <div
+        class="modal fade"
+        tabindex="-1"
+        role="dialog"
+        aria-labelledby="myModalLabel"
+        id="emailSubscribeModalBox"
+        aria-hidden="true"
+      >
+        <div class="modal-dialog modal-sm" role="document">
+          <div class="modal-content">
+            <div class="modal-body">
+              <button
+                type="button"
+                class="close close-md"
+                data-dismiss="modal"
+                aria-label="Close"
+              >
+                <span aria-hidden="true">×</span>
+              </button>
+              <div class="text-center py-5-alt px-4">
+                <div id="emailSubscribeModalBoxText"></div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <footer class="bg-dark py-4">
+      <div class="container">
+        <div class="row justify-content-sm-between align-items-center">
+          <div class="col-sm-6 mb-3 mb-sm-0">
+            <div class="d-flex align-items-center">
+              <img
+                width="25"
+                src="/images/svg/brands/main.svg?v=24.3.2.2"
+                alt="Logo"
+              />
+
+              <span class="h5 text-white mb-0 ml-3">Powered By Base</span>
+            </div>
+          </div>
+
+          <div class="col-sm-6 align-self-bottom">
+            <!-- Preferences -->
+            <div class="d-flex justify-content-sm-end align-items-center mb-4">
+              <span>
+                <button
+                  type="button"
+                  class="btn btn-xss btn-soft-light text-nowrap d-flex align-items-center mr-2"
+                  onclick="addNetwork('web3');"
+                >
+                  <img
+                    class="mr-1"
+                    width="15"
+                    src="/images/svg/brands/metamask.svg"
+                    alt="Metamask"
+                  />Add Base to Metamask
+                </button>
+              </span>
+
+              <a class="btn btn-xss btn-soft-light mr-2" href="/settings">
+                <i class="fa fa-cogs mr-1"></i>Preferences
+              </a>
+
+              <button
+                id="darkModaBtn"
+                type="button"
+                data-toggle="tooltip"
+                data-title="Day/Night Mode"
+                class="btn btn-sm btn-icon btn-soft-light"
+                data-original-title=""
+                title=""
+              >
+                <i id="darkModaBtnIcon" class="fa fa-moon"></i>
+              </button>
+            </div>
+            <!-- End Preferences -->
+          </div>
+        </div>
+        <!-- End Fotoer Content -->
+
+        <hr class="opacity-md" />
+        <div class="row justify-content-between align-items-center font-size-1">
+          <div class="col-md-6 mb-2 mb-md-0 d-flex">
+            <p class="mb-0 text-white">
+              BaseScan © 2024 (BASE-B1) <span class="mx-1">|</span> ⛏ Built by
+              the same team behind
+              <a
+                class="text-primary"
+                href="https://etherscan.io/"
+                target="_blank"
+                ><b>Etherscan</b></a
+              >
+              <span class="mx-1">|</span>
+              <a
+                class="text-white-70"
+                href="/address/0x71c7656ec7ab88b098defb751b7401b5f6d8976f"
+                >Donate</a
+              >
+              <i class="fas fa-heart text-danger"></i>
+            </p>
+          </div>
+          <div class="col-md-6 text-md-right">
+            <ul class="list-inline mb-0">
+              <li class="list-inline-item">
+                <a
+                  class="unordered-list-text"
+                  rel="nofollow noopener"
+                  target="_blank"
+                  href="/terms"
+                  >Terms of Service</a
+                >
+              </li>
+
+              <li class="list-inline-item">
+                <a
+                  class="unordered-list-text"
+                  rel="nofollow noopener"
+                  target="_blank"
+                  href="https://basescan.statuspage.io/"
+                  >Network Status</a
+                >
+              </li>
+
+              <li class="list-inline-item">
+                <a
+                  class="btn btn-sm btn-icon btn-soft-light btn-pill"
+                  href="mailto:info@basescan.org"
+                  data-toggle="tooltip"
+                  data-placement="top"
+                  title=""
+                  data-original-title="Contact Us"
+                >
+                  <i class="far fa-envelope btn-icon__inner"></i>
+                </a>
+              </li>
+            </ul>
+          </div>
+        </div>
+      </div>
+    </footer>
+
+    <div
+      id="divcookie"
+      class="fixed-bottom w-md-75 w-xl-60 mx-md-auto mx-3"
+      style="display: block"
+    >
+      <div class="alert alert-light border shadow p-3" role="alert">
+        <div class="d-md-flex justify-content-center-alt1 align-items-center">
+          <span>
+            <p class="text-dark mr-3 mb-2 mb-md-0">
+              <i class="far fa-cookie-bite text-secondary mr-1"></i>This website
+              <a href="/terms#cookiestatement" target="_blank"
+                >uses cookies to improve your experience</a
+              >. By continuing to use this website, you agree to its
+              <a href="/terms" target="_blank">Terms</a> and
+              <a href="/privacyPolicy">Privacy Policy</a>.
+            </p>
+          </span>
+          <div>
+            <button
+              id="btnCookie"
+              class="btn btn-sm btn-primary text-nowrap py-1"
+              data-dismiss="alert"
+              aria-label="Close"
+            >
+              Got It
+            </button>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <a
+      class="js-go-to u-go-to animated"
+      href="#"
+      data-position='{"bottom": 20, "right": 15 }'
+      data-type="fixed"
+      data-offset-top="400"
+      data-compensation="#header"
+      data-show-effect="slideInUp"
+      data-hide-effect="slideOutDown"
+      style="
+        display: inline-block;
+        position: fixed;
+        opacity: 0;
+        bottom: 20px;
+        right: 15px;
+      "
+    >
+      <span class="fa fa-arrow-up u-go-to__inner"></span>
+    </a>
+
+    <script src="/assets/vendor/jquery-ui/jquery-ui.min.js?v=24.3.2.2"></script>
+    <script src="/assets/vendor/jquery-migrate/dist/jquery-migrate.min.js?v=24.3.2.2"></script>
+    <script src="/assets/vendor/popper.js/dist/umd/popper.min.js?v=24.3.2.2"></script>
+    <script src="/assets/vendor/bootstrap/bootstrap.min.js?v=24.3.2.2"></script>
+
+    <!-- JS Implementing Plugins -->
+    <script src="/assets/vendor/hs-megamenu/src/hs.megamenu.js?v=24.3.2.2"></script>
+    <script src="/assets/vendor/malihu-custom-scrollbar-plugin/jquery.mCustomScrollbar.concat.min.js?v=24.3.2.2"></script>
+    <script src="/assets/vendor/cubeportfolio/js/jquery.cubeportfolio.min.js?v=24.3.2.2"></script>
+
+    <!-- JS Front -->
+    <script src="/assets/js/hs.core.js?v=24.3.2.2"></script>
+    <script src="/assets/js/components/hs.header.js?v=24.3.2.2"></script>
+    <script src="/assets/js/components/hs.unfold.js?v=24.3.2.2"></script>
+    <script src="/assets/js/components/hs.malihu-scrollbar.js?v=24.3.2.2"></script>
+    <script src="/assets/js/components/hs.focus-state.js?v=24.3.2.2"></script>
+    <script src="/assets/js/components/hs.go-to.js?v=24.3.2.2"></script>
+    <script src="/assets/js/components/hs.cubeportfolio.js?v=24.3.2.2"></script>
+    <script src="/assets/js/custom/combine-js-bottom2.js?v=24.3.2.2"></script>
+
+    <!-- JS Plugins Init. -->
+    <script>
+      $(window).on("load", function () {
+        // initialization of HSMegaMenu component
+        $(".js-mega-menu").HSMegaMenu({
+          event: "hover",
+          pageContainer: $(".container"),
+          breakpoint: 767.98,
+          hideTimeOut: 0,
+        });
+        myfn_subscribeNewsletter.startFn(
+          "#btnSubscribeNewsletter",
+          "#signupSrEmail",
+        );
+      });
+
+      $(document).on("ready", function () {
+        // initialization of header
+        $.HSCore.components.HSHeader.init($("#header"));
+
+        // initialization of unfold component
+        $.HSCore.components.HSUnfold.init($("[data-unfold-target]"), {
+          afterOpen: function () {
+            $(this).find('input[type="search"]').focus();
+          },
+        });
+
+        // initialization of malihu scrollbar
+        $.HSCore.components.HSMalihuScrollBar.init($(".js-scrollbar"));
+
+        // initialization of focus state
+        $.HSCore.components.HSFocusState.init();
+
+        // initialization of go to
+        $.HSCore.components.HSGoTo.init(".js-go-to");
+
+        // initialization of cubeportfolio
+        //$.HSCore.components.HSCubeportfolio.init('.cbp');
+      });
+    </script>
+    <script type="text/javascript">
+      var sid = "8a303c1e2a576a425fa47807acb79801";
+      var strGlobal = getCookie("site_switch_age_datetime");
+      var strGlobalFee = sessionStorage.getItem("ShowFee");
+      var cookieconsent = getCookie("Base" + "_cookieconsent");
+      if (cookieconsent !== "True") {
+        document.getElementById("divcookie").style.display = "block";
+      }
+      function getCookie(cname) {
+        var name = cname + "=";
+        var ca = document.cookie.split(";");
+        for (var i = 0; i < ca.length; i++) {
+          var c = ca[i];
+          while (c.charAt(0) === " ") {
+            c = c.substring(1);
+          }
+          if (c.indexOf(name) === 0) {
+            return c.substring(name.length, c.length);
+          }
+        }
+        return "";
+      }
+      $("#btnCookie").click(function () {
+        $("#divcookie").fadeOut("slow", function () {
+          var d = new Date();
+          d.setTime(d.getTime() + 1095 * 24 * 60 * 60 * 1000);
+          var expires = "expires=" + d.toUTCString();
+          document.cookie =
+            "Base" + "_cookieconsent=True" + ";" + expires + ";path=/";
+        });
+      });
+      function handleSearchText(data) {
+        searchAddress = false;
+        if ($("txtSearchInput").val() == "") {
+          $("#hdnSearchText").val("");
+          $("#hdnSearchLabel").val("");
+        }
+      }
+    </script>
+
+    <script src="/assets/js/custom/web3.min.js?v=0.5.2.2"></script>
+    <script type="text/javascript">
+      var web3Obj;
+      var isTestnet = "false";
+      var SiteNetID = "8453";
+      var SiteNetChainID = "0x2105";
+      var SiteNetName = "Base";
+      var SiteName = "BaseScan";
+      var SiteErc20 = "ERC20";
+      var SiteErc721 = "ERC721";
+      var SiteErc1155 = "ERC1155";
+      var sv = "24.3.2.2";
+      var allowErc1155 = "";
+
+      async function addNetwork(type) {
+        if (type === "web3") {
+          if (typeof ethereum !== "undefined") {
+            if (window.ethereum.providers?.length) {
+              if (window.ethereum.isMetaMask) {
+                ethereum = window.ethereum.providers.find(
+                  (provider) => provider.isMetaMask,
+                );
+                web3Obj = new Web3(ethereum);
+              }
+            } else {
+              web3Obj = new Web3(ethereum);
+            }
+          } else if (typeof web3 !== "undefined") {
+            web3Obj = new Web3(web3.givenProvider);
+          } else {
+            web3Obj = new Web3(ethereum);
+          }
+        }
+
+        if (typeof web3Obj !== "undefined") {
+          var network = 0;
+          network = await web3Obj.eth.getChainId();
+          netID = network.toString();
+          var params;
+          if (netID == SiteNetID) {
+            alert("Base Network has already been added to Metamask.");
+            return;
+          } else {
+            params = [
+              {
+                chainId: SiteNetChainID,
+                chainName: "Base",
+                nativeCurrency: {
+                  name: "ETH",
+                  symbol: "ETH",
+                  decimals: 18,
+                },
+                rpcUrls: ["https://mainnet.base.org/"],
+                blockExplorerUrls: ["https://basescan.org"],
+              },
+            ];
+          }
+
+          window.ethereum
+            .request({ method: "wallet_addEthereumChain", params })
+            .then(() => console.log("Success"))
+            .catch((error) => console.log("Error", error.message));
+        } else {
+          alert("Unable to locate a compatible web3 browser!");
+        }
+      }
+    </script>
+
+    <ul
+      id="ui-id-1"
+      tabindex="0"
+      class="ui-menu ui-widget ui-widget-content ui-autocomplete ui-front"
+      style="display: none"
+    ></ul>
+    <div
+      role="status"
+      aria-live="assertive"
+      aria-relevant="additions"
+      class="ui-helper-hidden-accessible"
+    ></div>
+  </body>
+</html>

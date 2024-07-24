@@ -1,126 +1,104 @@
 <p align="center">
-  <a><img src="https://etherscan.io/images/logo-ether.png?v=0.0.2" title="Logo" width="400"/></a>
+  <a><img src="https://raw.githubusercontent.com/dawsbot/eth-labels/v1/docs/img/etherscan.svg" title="Logo" width="400"/></a>
 </p>
 <p align="center">
   <b>
-    EVM Labels
+    Eth Labels
   </b>
   <br>
-  <i>A public dataset of crypto addresses labeled (<a href="https://etherscan.io/labelcloud">Ethereum and more</a></i>)
+  <i>A public dataset of crypto addresses labeled (<a href="https://etherscan.io/labelcloud">Ethereum and MANY more EVM chains</a></i>)
   <br>
 </p>
 
 <br/>
 
-## Ethereum
+## API (Pre-Alpha)
 
-| Label                                                                                              | CSV                                              | JSON                                               | Updated      |
-| -------------------------------------------------------------------------------------------------- | ------------------------------------------------ | -------------------------------------------------- | ------------ |
-| [`exchange`](https://etherscan.io/accounts/label/exchange) (Centralized Exchanges)                 | [View CSV](./src/mainnet/exchange/all.csv)       | [View JSON](./src/mainnet/exchange/all.json)       | May 9, 2022  |
-| [`phish-hack`](https://etherscan.io/accounts/label/phish-hack) (Phishing/Hacking)                  | [View CSV](./src/mainnet/phish-hack/all.csv)     | [View JSON](./src/mainnet/phish-hack/all.json)     | May 15, 2022 |
-| [`genesis`](https://etherscan.io/accounts/label/genesis) (Null/black hole addresses)               | [View CSV](./src/mainnet/genesis/all.csv)        | [View JSON](./src/mainnet/genesis/all.json)        | May 21, 2022 |
-| [`token-contract`](https://etherscan.io/accounts/label/token-contract) (ERC-20 and similar tokens) | [View CSV](./src/mainnet/token-contract/all.csv) | [View JSON](./src/mainnet/token-contract/all.json) | May 25, 2022 |
+A public API to consume this data is under active development. You can [use it remotely here](https://eth-labels-production.up.railway.app/swagger), or to use this API locally, start it like this:
+
+```sh
+bun run dev:api
+```
+
+Documentation for the API is available via swagger at `/swagger`
+
+<br/>
+
+### Ethereum
+
+<img src="https://raw.githubusercontent.com/dawsbot/eth-labels/v1/docs/img/etherscan.svg" width="200"/></a>
+
+<!-- AUTO-GENERATED-CONTENT:START (lastEdited:chainName=etherscan) -->
+
+[View labels here](data/etherscan)
+
+<!-- AUTO-GENERATED-CONTENT:END -->
+
+### Arbitrum
+
+<a><img src="https://raw.githubusercontent.com/dawsbot/eth-labels/v1/docs/img/arbiscan.svg" width="200"/></a>
+
+<!-- AUTO-GENERATED-CONTENT:START (lastEdited:chainName=arbiscan) -->
+
+[View labels here](data/arbiscan)
+
+<!-- AUTO-GENERATED-CONTENT:END -->
+
+### Optimism
+
+<a><img src="https://raw.githubusercontent.com/dawsbot/eth-labels/v1/docs/img/optimism.svg" width="200"/></a>
+
+<!-- AUTO-GENERATED-CONTENT:START (lastEdited:chainName=optimism) -->
+
+[View labels here](data/optimism)
+
+<!-- AUTO-GENERATED-CONTENT:END -->
+
+### Base
+
+<a><img src="https://raw.githubusercontent.com/dawsbot/eth-labels/v1/docs/img/basescan.svg" width="200"/></a>
+
+<!-- AUTO-GENERATED-CONTENT:START (lastEdited:chainName=basescan) -->
+
+[View labels here](data/basescan)
+
+<!-- AUTO-GENERATED-CONTENT:END -->
+
+### Binance Smart Chain
+
+<img src="https://raw.githubusercontent.com/dawsbot/eth-labels/v1/docs/img/bscscan.svg" width="200"/></a>
+
+<!-- AUTO-GENERATED-CONTENT:START (lastEdited:chainName=bscscan) -->
+
+[View labels here](data/bscscan)
+
+<!-- AUTO-GENERATED-CONTENT:END -->
+
+### Gnosis Chain
+
+<img src="https://raw.githubusercontent.com/dawsbot/eth-labels/v1/docs/img/gnosis.svg" width="200"/></a>
+
+<!-- AUTO-GENERATED-CONTENT:START (lastEdited:chainName=gnosis) -->
+
+[View labels here](data/gnosis)
+
+<!-- AUTO-GENERATED-CONTENT:END -->
+
+### Celo
+
+<img src="https://raw.githubusercontent.com/dawsbot/eth-labels/v1/docs/img/celo.svg" width="200"/></a>
+
+<!-- AUTO-GENERATED-CONTENT:START (lastEdited:chainName=celo) -->
+
+[View labels here](data/celo)
 
 More chains coming soon
 
-<br/>
+## Q & A
 
-## Install
+- Where does this data come from?
+  - This data is already organized by the kind folks at Etherscan. Unfortunately that data is not accessible for researchers, so we've copied the data out and into a more shareable format here.
 
-```sh
-npm install --save evm-labels
+## Star History
 
-# or with yarn
-yarn add evm-labels
-```
-
-<br/>
-
-## Use
-
-You can install the CSV or JSON manually if you are not a dev. If you want to use this in code:
-
-### Exchange (CEX's)
-
-```js
-import { exchange } from "evm-labels";
-
-// A Coinbase hot wallet
-const COINBASE_ADDRESS = "0x71660c4005ba85c37ccec55d0c4493e66fe775d3";
-exchange.isExchangeAddress(COINBASE_ADDRESS);
-// true
-
-const NULL_ADDRESS = "0x0000000000000000000000000000000000000000";
-exchange.isExchangeAddress(NULL_ADDRESS);
-// false
-```
-
-### Phish/Hack (Addresses that performed phishing or hacks)
-
-```js
-import { phishHack } from "evm-labels";
-
-// A Nexus Mutual Hacker
-const HACKER_ADDRESS = "0x09923e35f19687a524bbca7d42b92b6748534f25";
-phishHack.isPhishHackAddress(HACKER_ADDRESS);
-// true
-
-const NULL_ADDRESS = "0x0000000000000000000000000000000000000000";
-phishHack.isPhishHackAddress(NULL_ADDRESS);
-// false
-```
-
-### Genesis
-
-```js
-import { genesis } from "evm-labels";
-
-const GENESIS_ADDRESS = "0x0000000000000000000000000000000000000002";
-genesis.isGenesisAddress(GENESIS_ADDRESS);
-// true
-
-const OATHER_ADDRESS = "0x09923e35f19687a524bbca7d42b92b6748534f25";
-genesis.isGenesisAddress(OATHER_ADDRESS);
-// false
-```
-
-### Token Contract
-
-```js
-import { tokenContract } from "evm-labels";
-
-const TOKEN_CONTRACT_ADDRESS = "0x5dd57da40e6866c9fcc34f4b6ddc89f1ba740dfe";
-tokenContract.isTokenContractAddress(TOKEN_CONTRACT_ADDRESS);
-// true
-
-const OATHER_ADDRESS = "0x0000000000000000000000000000000000000002";
-tokenContract.isTokenContractAddress(OATHER_ADDRESS);
-// false
-```
-
-<br/>
-
-## Contributing
-
-Each label is currently pulled with custom scripts. Partially documented, partially not.
-
-### Phish / Hack addresses
-
-1. Install [tampermonkey](https://chrome.google.com/webstore/detail/tampermonkey/dhdgffkkebhmkfjojejmpbldmpobfkfo?utm_source=chrome-ntp-icon)
-2. Copy [scripts/phishhack-userscript.js](scripts/phishhack-userscript.js) to tampermonkey extension
-3. Open the URL `https://etherscan.io/accounts/label/phish-hack?subcatid=undefined&size=100&start=0&col=1&order=asc`. only support size = 100
-4. Open the chrome dev tools. Copy the outputted csv and json to `src/phish-hack`
-
-### Genesis addresses
-
-1. Install [tampermonkey](https://chrome.google.com/webstore/detail/tampermonkey/dhdgffkkebhmkfjojejmpbldmpobfkfo?utm_source=chrome-ntp-icon)
-2. Copy [scripts/genesis-userscript.js](scripts/genesis-userscript.js) to tampermonkey extension
-3. Open the URL `https://etherscan.io/accounts/label/genesis?subcatid=1&size=100&start=0&col=1&order=asc`. only support size = 100
-4. Open the chrome dev tools. Copy the outputted csv and json to `src/genesis`
-
-### Token Contract addresses
-
-1. Install [tampermonkey](https://chrome.google.com/webstore/detail/tampermonkey/dhdgffkkebhmkfjojejmpbldmpobfkfo?utm_source=chrome-ntp-icon)
-2. Copy [scripts/tokencontract-userscript.js](scripts/tokencontract-userscript.js) to tampermonkey extension
-3. Open the URL `https://etherscan.io/accounts/label/token-contract?subcatid=undefined&size=100&start=0&col=1&order=asc`. only support size = 100
-4. Open the chrome dev tools. Copy the outputted csv and json to `src/token-contract`
+[![Star History Chart](https://api.star-history.com/svg?repos=dawsbot/eth-labels&type=Date)](https://star-history.com/#dawsbot/eth-labels&Date)

@@ -2,3 +2,8 @@ node_modules
 dist
 lib
 types
+.env
+.eslintcache
+
+package-lock.json
+yarn.lock
