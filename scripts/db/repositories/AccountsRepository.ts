@@ -1,7 +1,7 @@
 import type { Address } from "viem";
 import { z } from "zod";
 import { db } from "../database";
-import type { NewAccount } from "../types";
+import type { AccountSearchOptions, NewAccount } from "../types";
 
 export class AccountsRepository {
   private static allColumns = [
@@ -25,6 +25,23 @@ export class AccountsRepository {
       .where("label", "=", label)
       .execute();
   }
+  public static selectAccountsByObj(
+    accountSearchOptions: AccountSearchOptions,
+  ) {
+    let query = db.selectFrom("accounts").select(this.allColumns);
+    for (const [key, value] of Object.entries(accountSearchOptions)) {
+      const verifiedKey = key as `address` | `chainId` | `label` | `nameTag`;
+      if (this.allColumns.includes(`accounts.${verifiedKey}`) && value) {
+        if (key === "nameTag") {
+          query = query.where("nameTag", "like", `%${value}%`);
+        } else {
+          query = query.where(verifiedKey, "=", value.toLowerCase());
+        }
+      }
+    }
+    return query.execute();
+  }
+
   public static selectAccountsByAddress(address: Address) {
     return db
       .selectFrom("accounts")

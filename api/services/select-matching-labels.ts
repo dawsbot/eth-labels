@@ -4,6 +4,10 @@ import { mainnet } from "viem/chains";
 import { normalize } from "viem/ens";
 import { AccountsRepository } from "../../scripts/db/repositories/AccountsRepository";
 import { TokensRepository } from "../../scripts/db/repositories/TokensRepository";
+import type {
+  AccountSearchOptions,
+  TokenSearchOptions,
+} from "../../scripts/db/types";
 
 const publicClient = createPublicClient({
   chain: mainnet,
@@ -38,4 +42,16 @@ export const selectMatchingLabels = async (address: string) => {
     }
     return findMatchingRows(address);
   }
+};
+
+export const selectMatchingLabelsFromQueryAccounts = (
+  accounts: AccountSearchOptions,
+) => {
+  return AccountsRepository.selectAccountsByObj(accounts);
+};
+
+export const selectMatchingLabelsFromQueryTokens = (
+  tokens: TokenSearchOptions,
+) => {
+  return TokensRepository.selectTokensByObj(tokens);
 };
