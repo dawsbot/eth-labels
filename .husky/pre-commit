@@ -3,4 +3,4 @@
 
 bun run scripts/db/generate-db-json.ts
 npx lint-staged --concurrent false
-npx concurrently -g -n "eslint,test:unit,build" -c "#341BAB,#A6CC66,#3077C6" "bun run lint" "bun test unit" "bun run build"
+npx concurrently -g -n "eslint,test:unit,build,web" -c "#341BAB,#A6CC66,#3077C6,#FEDE65" "bun run lint" "bun test unit" "bun run build" "cd web && bun run precommit"
