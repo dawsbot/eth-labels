@@ -12,15 +12,9 @@
 
 <br/>
 
-## API (Pre-Alpha)
+## API
 
-A public API to consume this data is under active development. You can [use it remotely here](https://eth-labels-production.up.railway.app/swagger), or to use this API locally, start it like this:
-
-```sh
-bun run dev:api
-```
-
-Documentation for the API is available via swagger at `/swagger`
+A public API to consume this data is available for free. You can [use it remotely here](https://eth-labels-production.up.railway.app/swagger)
 
 <br/>
 
@@ -28,71 +22,43 @@ Documentation for the API is available via swagger at `/swagger`
 
 <img src="https://raw.githubusercontent.com/dawsbot/eth-labels/v1/docs/img/etherscan.svg" width="200"/></a>
 
-<!-- AUTO-GENERATED-CONTENT:START (lastEdited:chainName=etherscan) -->
-
-[View labels here](data/etherscan)
-
-<!-- AUTO-GENERATED-CONTENT:END -->
-
-### Arbitrum
-
-<a><img src="https://raw.githubusercontent.com/dawsbot/eth-labels/v1/docs/img/arbiscan.svg" width="200"/></a>
-
-<!-- AUTO-GENERATED-CONTENT:START (lastEdited:chainName=arbiscan) -->
-
-[View labels here](data/arbiscan)
-
-<!-- AUTO-GENERATED-CONTENT:END -->
-
-### Optimism
-
-<a><img src="https://raw.githubusercontent.com/dawsbot/eth-labels/v1/docs/img/optimism.svg" width="200"/></a>
-
-<!-- AUTO-GENERATED-CONTENT:START (lastEdited:chainName=optimism) -->
-
-[View labels here](data/optimism)
-
-<!-- AUTO-GENERATED-CONTENT:END -->
+[View labels here](https://eth-labels-production.up.railway.app/accounts?chainId=1)
 
 ### Base
 
 <a><img src="https://raw.githubusercontent.com/dawsbot/eth-labels/v1/docs/img/basescan.svg" width="200"/></a>
 
-<!-- AUTO-GENERATED-CONTENT:START (lastEdited:chainName=basescan) -->
+[View labels here](https://eth-labels-production.up.railway.app/accounts?chainId=8453)
 
-[View labels here](data/basescan)
+### Arbitrum
 
-<!-- AUTO-GENERATED-CONTENT:END -->
+<a><img src="https://raw.githubusercontent.com/dawsbot/eth-labels/v1/docs/img/arbiscan.svg" width="200"/></a>
+
+[View labels here](https://eth-labels-production.up.railway.app/accounts?chainId=42161)
+
+### Optimism
+
+<a><img src="https://raw.githubusercontent.com/dawsbot/eth-labels/v1/docs/img/optimism.svg" width="200"/></a>
+
+[View labels here](https://eth-labels-production.up.railway.app/accounts?chainId=10)
 
 ### Binance Smart Chain
 
 <img src="https://raw.githubusercontent.com/dawsbot/eth-labels/v1/docs/img/bscscan.svg" width="200"/></a>
 
-<!-- AUTO-GENERATED-CONTENT:START (lastEdited:chainName=bscscan) -->
-
-[View labels here](data/bscscan)
-
-<!-- AUTO-GENERATED-CONTENT:END -->
+[View labels here](https://eth-labels-production.up.railway.app/accounts?chainId=56)
 
 ### Gnosis Chain
 
 <img src="https://raw.githubusercontent.com/dawsbot/eth-labels/v1/docs/img/gnosis.svg" width="200"/></a>
 
-<!-- AUTO-GENERATED-CONTENT:START (lastEdited:chainName=gnosis) -->
-
-[View labels here](data/gnosis)
-
-<!-- AUTO-GENERATED-CONTENT:END -->
+[View labels here](https://eth-labels-production.up.railway.app/accounts?chainId=100)
 
 ### Celo
 
 <img src="https://raw.githubusercontent.com/dawsbot/eth-labels/v1/docs/img/celo.svg" width="200"/></a>
 
-<!-- AUTO-GENERATED-CONTENT:START (lastEdited:chainName=celo) -->
-
-[View labels here](data/celo)
-
-More chains coming soon
+[View labels here](https://eth-labels-production.up.railway.app/accounts?chainId=42220)
 
 ## Q & A
 
@@ -102,3 +68,13 @@ More chains coming soon
 ## Star History
 
 [![Star History Chart](https://api.star-history.com/svg?repos=dawsbot/eth-labels&type=Date)](https://star-history.com/#dawsbot/eth-labels&Date)
+
+## Development
+
+To use this API locally, start it like this:
+
+```sh
+bun run dev:api
+```
+
+Documentation for the API is available via swagger at `http://localhost:3000/swagger`
