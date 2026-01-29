@@ -1,0 +1,20 @@
+{
+  "name": "eth-labels-mcp",
+  "version": "1.0.0",
+  "description": "MCP server for looking up Ethereum address labels",
+  "type": "module",
+  "bin": {
+    "eth-labels-mcp": "./dist/index.js"
+  },
+  "scripts": {
+    "build": "tsc -p tsconfig.json",
+    "start": "node dist/index.js"
+  },
+  "dependencies": {
+    "@modelcontextprotocol/sdk": "^1.0.0",
+    "zod": "^3.23.8"
+  },
+  "devDependencies": {
+    "typescript": "^5.5.3"
+  }
+}
