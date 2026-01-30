@@ -1,5 +1,5 @@
 module.exports = {
-  ignorePatterns: ["lib/**", "**/*.js"],
+  ignorePatterns: ["lib/**", "**/*.js", "mcp/**"],
   parser: "@typescript-eslint/parser",
   plugins: ["@typescript-eslint", "tsdoc"],
   extends: [
@@ -61,7 +61,10 @@ module.exports = {
       },
     ],
     "@typescript-eslint/array-type": ["error", { default: "generic" }],
-    "new-cap": "warn",
+    "new-cap": [
+      "warn",
+      { capIsNewExceptions: ["Optional", "String", "Object"] },
+    ],
     "tsdoc/syntax": "error",
   },
 };

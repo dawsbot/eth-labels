@@ -1,0 +1,26 @@
+{
+  "d": {
+    "__type": "BlockEther.DataTableTokenResponseModel",
+    "currentPage": "1",
+    "totalPage": "1",
+    "showPopUp": false,
+    "draw": 1,
+    "recordsTotal": 1,
+    "recordsFiltered": 1,
+    "customRep": null,
+    "rawExportLink": null,
+    "data": [
+      {
+        "number": "1",
+        "contractAddress": "\u003cdiv class=\"d-flex align-items-center gap-1\"\u003e\r\n                \u003ca href=\"/address/0xec43e92046c1527586dfaf02031622c30af9a1d6\"  data-bs-toggle=\"tooltip\" data-bs-trigger=\"hover\" data-bs-title=\"0xec43e92046c1527586dfaf02031622c30af9a1d6\"\u003e\u003cspan data-highlight-target=\"0xeC43e92046C1527586dfAf02031622c30Af9A1D6\"\u003e0xeC43e920...0Af9A1D6\u003c/span\u003e\u003c/a\u003e\r\n                \u003ca class='js-clipboard link-secondary  ' href='javascript:;' data-clipboard-text='0xeC43e92046C1527586dfAf02031622c30Af9A1D6'\u003e\u003ci id='linkIcon_1' class='far fa-copy fa-fw'\u003e\u003c/i\u003e \u003c/a\u003e\r\n            \u003c/div\u003e",
+        "tokenName": "\u003ca class=\"d-flex align-items-center gap-1 link-dark\" href=\"/token/0xec43e92046c1527586dfaf02031622c30af9a1d6\"\u003e\r\n                \u003cdiv class=\"d-flex gap-1\"\u003e\r\n                    \u003cspan class=\"hash-tag text-truncate\"\u003eVerse Works\u003c/span\u003e\r\n                \u003c/div\u003e\r\n            \u003c/a\u003e",
+        "marketCap": "$0.00",
+        "holders": "10",
+        "website": null,
+        "imageUrl": null,
+        "divisor": 0,
+        "symbol": null
+      }
+    ]
+  }
+}

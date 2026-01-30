@@ -1,6 +1,5 @@
-#!/bin/sh
-. "$(dirname "$0")/_/husky.sh"
-
 bun run scripts/db/generate-db-json.ts
+npx prettier -u --write data/json/accounts.json data/json/tokens.json
+git add data/json/accounts.json data/json/tokens.json
 npx lint-staged --concurrent false
 npx concurrently -g -n "eslint,test:unit,build" -c "#341BAB,#A6CC66,#3077C6" "bun run lint" "bun test unit" "bun run build"

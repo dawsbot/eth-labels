@@ -19,8 +19,26 @@ const etherscanMocks = getMocks(etherscanDirectory);
 
 describe("EtherscanParser", () => {
   const apiParser = new EtherscanApiParser("https://etherscan.io");
+  test("should handle tokens with no image", () => {
+    const noImageMock = getMocks(etherscanDirectory).find((mock) =>
+      mock.d.data.some((d) => d.tokenName?.includes("Verse Works")),
+    )!;
+    const rawTokens = apiParser.convertToTokenRows(noImageMock.d.data);
+    const parsedTokens = apiParser.filterResponse(rawTokens);
+    expect(parsedTokens[0]).toEqual({
+      name: "Verse Works",
+      symbol: null,
+      website: null,
+      address: "0xec43e92046c1527586dfaf02031622c30af9a1d6",
+      image: null,
+    });
+  });
+
   test("should parse api json", () => {
-    const rawTokens = apiParser.convertToTokenRows(etherscanMocks[0].d.data);
+    const aaveMock = etherscanMocks.find((mock) =>
+      mock.d.data.some((d) => d.tokenName?.includes("Aave")),
+    )!;
+    const rawTokens = apiParser.convertToTokenRows(aaveMock.d.data);
     const parsedTokens = apiParser.filterResponse(rawTokens);
     expect(parsedTokens[0]).toEqual({
       name: "Aave interest bearing ENJ",
