@@ -62,32 +62,149 @@ A public API to consume this data is available for free. You can [use it remotel
 
 ## MCP Server
 
-Use eth-labels as a tool in Claude Code, Cursor, Windsurf, or any MCP-compatible AI assistant. Ask your AI to identify any crypto address or search for known wallets.
+Give your AI the ability to identify any crypto address. Works with Claude, Cursor, Windsurf, VS Code, and any MCP-compatible client.
 
-### Setup
+**170k+ labeled addresses and tokens across EVM chains.**
+
+### Quick Setup
 
 ```sh
-# Clone and build
 git clone https://github.com/dawsbot/eth-labels.git
 cd eth-labels/mcp
 npm install
 npm run build
 ```
 
-### Add to Claude Code
+Then add the server to your AI tool of choice:
 
-Add to your `~/.claude/claude_desktop_config.json`:
+---
+
+<details>
+<summary><b>Claude Code</b></summary>
+
+Run this from your terminal:
+
+```sh
+claude mcp add eth-labels -- node /absolute/path/to/eth-labels/mcp/dist/index.js
+```
+
+Or manually add to `~/.claude.json`:
 
 ```json
 {
   "mcpServers": {
     "eth-labels": {
       "command": "node",
-      "args": ["/path/to/eth-labels/mcp/dist/index.js"]
+      "args": ["/absolute/path/to/eth-labels/mcp/dist/index.js"]
     }
   }
 }
 ```
+
+</details>
+
+<details>
+<summary><b>Claude Desktop</b></summary>
+
+Add to your config file:
+- **macOS**: `~/Library/Application Support/Claude/claude_desktop_config.json`
+- **Windows**: `%APPDATA%\Claude\claude_desktop_config.json`
+- **Linux**: `~/.config/Claude/claude_desktop_config.json`
+
+```json
+{
+  "mcpServers": {
+    "eth-labels": {
+      "command": "node",
+      "args": ["/absolute/path/to/eth-labels/mcp/dist/index.js"]
+    }
+  }
+}
+```
+
+Restart Claude Desktop after saving.
+
+</details>
+
+<details>
+<summary><b>Cursor</b></summary>
+
+Open **Settings → Features → MCP Servers → Add new MCP server**, then add:
+
+```json
+{
+  "mcpServers": {
+    "eth-labels": {
+      "command": "node",
+      "args": ["/absolute/path/to/eth-labels/mcp/dist/index.js"]
+    }
+  }
+}
+```
+
+Or add to `.cursor/mcp.json` in your project root.
+
+</details>
+
+<details>
+<summary><b>Windsurf</b></summary>
+
+Add to `~/.codeium/windsurf/mcp_config.json`:
+
+```json
+{
+  "mcpServers": {
+    "eth-labels": {
+      "command": "node",
+      "args": ["/absolute/path/to/eth-labels/mcp/dist/index.js"]
+    }
+  }
+}
+```
+
+</details>
+
+<details>
+<summary><b>VS Code (Copilot)</b></summary>
+
+Add to your `.vscode/settings.json`:
+
+```json
+{
+  "mcp": {
+    "servers": {
+      "eth-labels": {
+        "command": "node",
+        "args": ["/absolute/path/to/eth-labels/mcp/dist/index.js"]
+      }
+    }
+  }
+}
+```
+
+</details>
+
+<details>
+<summary><b>Cline</b></summary>
+
+Open **Cline → MCP Servers → Configure**, then add:
+
+```json
+{
+  "mcpServers": {
+    "eth-labels": {
+      "command": "node",
+      "args": ["/absolute/path/to/eth-labels/mcp/dist/index.js"]
+    }
+  }
+}
+```
+
+</details>
+
+---
+
+> **💡 Tip:** Replace `/absolute/path/to/eth-labels` with where you cloned the repo. Use the full path — relative paths won't work with most MCP clients.
 
 ### Tools
 
@@ -95,7 +212,7 @@ Add to your `~/.claude/claude_desktop_config.json`:
 | ---------------- | ---------------------------------------------------------------------------------- |
 | `lookup_address` | Look up any Ethereum/EVM address to get its label and name tag                     |
 | `search_labels`  | Search by project name, label, or token symbol (e.g. "uniswap", "binance", "USDC") |
-| `dataset_stats`  | Get dataset statistics — 68k+ accounts, 27k+ tokens, 95k+ total entries            |
+| `dataset_stats`  | Get dataset statistics — 115k+ accounts, 54k+ tokens, 170k+ total entries          |
 
 ### Example
 
