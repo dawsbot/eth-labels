@@ -1,20 +1,45 @@
 {
   "name": "eth-labels-mcp",
   "version": "1.0.0",
-  "description": "MCP server for looking up Ethereum address labels",
+  "description": "MCP server for looking up 170k+ labeled Ethereum addresses and tokens across EVM chains",
   "type": "module",
   "bin": {
     "eth-labels-mcp": "./dist/index.js"
   },
+  "files": [
+    "dist/**/*"
+  ],
   "scripts": {
     "build": "tsc -p tsconfig.json",
-    "start": "node dist/index.js"
+    "prebuild": "mkdir -p dist/data && cp ../data/json/accounts.json dist/data/accounts.json && cp ../data/json/tokens.json dist/data/tokens.json",
+    "start": "node dist/index.js",
+    "prepublishOnly": "npm run build"
   },
+  "keywords": [
+    "mcp",
+    "ethereum",
+    "labels",
+    "crypto",
+    "addresses",
+    "model-context-protocol",
+    "claude",
+    "cursor",
+    "ai"
+  ],
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/dawsbot/eth-labels.git",
+    "directory": "mcp"
+  },
+  "homepage": "https://github.com/dawsbot/eth-labels#mcp-server",
+  "license": "MIT",
+  "author": "Dawson Botsford",
   "dependencies": {
     "@modelcontextprotocol/sdk": "^1.0.0",
     "zod": "^3.23.8"
   },
   "devDependencies": {
+    "@types/node": "^25.1.0",
     "typescript": "^5.5.3"
   }
 }
