@@ -121,3 +121,40 @@ bun run dev:api
 ```
 
 Documentation for the API is available via swagger at `http://localhost:3000/swagger`
+
+### Automated Scraping
+
+This project includes an automated scraper that logs into Etherscan and pulls label data. No manual cookie copy-paste required!
+
+#### Setup
+
+1. Create a `.env` file in the project root (see `.env.example`):
+
+```env
+ETHERSCAN_USERNAME=your_etherscan_username
+ETHERSCAN_PASSWORD=your_etherscan_password
+```
+
+2. Run the scraper:
+
+```sh
+bun run pull
+```
+
+The scraper will:
+- Automatically log into Etherscan using Puppeteer
+- Extract session cookies
+- Use those cookies to scrape label data from Etherscan and other supported chains
+- No manual intervention needed!
+
+#### How it works
+
+The scraper uses Puppeteer to automate the login process:
+1. Launches a headless browser
+2. Navigates to etherscan.io/login
+3. Fills in credentials from environment variables
+4. Submits the login form
+5. Extracts session cookies after successful login
+6. Uses those cookies for all subsequent requests
+
+This bypasses Cloudflare challenges and rate limits automatically.

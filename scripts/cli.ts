@@ -1,19 +1,25 @@
+import "dotenv/config";
 import inquirer from "inquirer";
 import type { ApiParser } from "./ApiParser/ApiParser";
 import type { Chain } from "./Chain/Chain";
 import type { HtmlParser } from "./HtmlParser/HtmlParser";
 import { scanConfig } from "./scan-config";
+import { getEtherscanCookies } from "./browser-auth";
 
 export async function getChainConfig() {
-  // const answer = await inquirer.prompt<{ cookie: string }>([
-  //   {
-  //     type: "input",
-  //     name: "cookie",
-  //     message: "enter your chain cookie",
-  //   },
-  // ]);
-  // const cookie = answer.cookie;
-  const cookie = `TODO_COOKIE_HERE`;
+  // Automated login - get cookies via Puppeteer
+  console.log("\n🔄 Authenticating with Etherscan...\n");
+  let cookie: string;
+  try {
+    cookie = await getEtherscanCookies();
+  } catch (error) {
+    console.error("\n❌ Failed to authenticate with Etherscan.");
+    console.error(
+      "Please ensure you have created a .env file with ETHERSCAN_USERNAME and ETHERSCAN_PASSWORD"
+    );
+    throw error;
+  }
+
   const chains = scanConfig.map((chain) => ({
     name: chain.chainName,
     value: chain,

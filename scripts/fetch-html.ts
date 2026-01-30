@@ -1,5 +1,10 @@
-export function fetchHtml(url: string) {
-  return fetch(url).then(async (res) => {
+export function fetchHtml(url: string, cookie?: string) {
+  const headers: HeadersInit = {};
+  if (cookie) {
+    headers.Cookie = cookie;
+  }
+
+  return fetch(url, { headers }).then(async (res) => {
     const text = await res.text();
     if (text.includes("Just a moment...")) {
       console.error(
