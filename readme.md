@@ -64,43 +64,22 @@ A public API to consume this data is available for free. You can [use it remotel
 
 Give your AI the ability to identify any crypto address. Works with Claude, Cursor, Windsurf, VS Code, and any MCP-compatible client.
 
-**170k+ labeled addresses and tokens across EVM chains.**
+**170k+ labeled addresses and tokens across EVM chains. No clone. No build. Just install.**
 
 > **Requires:** Node.js 18+
 
-### Install
+### Setup
 
-#### Option A: npx (no clone needed)
+Pick your AI client and follow the instructions. Every option uses the [eth-labels-mcp](https://www.npmjs.com/package/eth-labels-mcp) npm package — no need to clone this repo.
 
-<!-- Coming soon: `npx eth-labels-mcp` -->
-
-```sh
-npm install -g eth-labels-mcp
-```
-
-Then use `eth-labels-mcp` as the command in your client config below (instead of the `node /path/to/...` approach).
-
-#### Option B: From source
+<details open>
+<summary><b>Claude Code</b></summary>
 
 ```sh
-git clone https://github.com/dawsbot/eth-labels.git
-cd eth-labels/mcp
-npm install
-npm run build
+claude mcp add eth-labels-mcp -- npx eth-labels-mcp
 ```
 
-### Add to your AI client
-
-After installing, add the server to your tool. Replace `/absolute/path/to/eth-labels` with where you cloned the repo.
-
-<details>
-<summary><b>Claude Code</b> (one-liner)</summary>
-
-```sh
-claude mcp add eth-labels -- node /absolute/path/to/eth-labels/mcp/dist/index.js
-```
-
-That's it. Claude Code handles the rest.
+Done.
 
 </details>
 
@@ -119,8 +98,8 @@ Edit your config file:
 {
   "mcpServers": {
     "eth-labels": {
-      "command": "node",
-      "args": ["/absolute/path/to/eth-labels/mcp/dist/index.js"]
+      "command": "npx",
+      "args": ["eth-labels-mcp"]
     }
   }
 }
@@ -139,8 +118,8 @@ Add to `.cursor/mcp.json` in your project root (or open **Settings → Features 
 {
   "mcpServers": {
     "eth-labels": {
-      "command": "node",
-      "args": ["/absolute/path/to/eth-labels/mcp/dist/index.js"]
+      "command": "npx",
+      "args": ["-y", "eth-labels-mcp"]
     }
   }
 }
@@ -157,8 +136,8 @@ Add to `~/.codeium/windsurf/mcp_config.json`:
 {
   "mcpServers": {
     "eth-labels": {
-      "command": "node",
-      "args": ["/absolute/path/to/eth-labels/mcp/dist/index.js"]
+      "command": "npx",
+      "args": ["-y", "eth-labels-mcp"]
     }
   }
 }
@@ -176,8 +155,8 @@ Add to `.vscode/settings.json` in your project:
   "mcp": {
     "servers": {
       "eth-labels": {
-        "command": "node",
-        "args": ["/absolute/path/to/eth-labels/mcp/dist/index.js"]
+        "command": "npx",
+        "args": ["-y", "eth-labels-mcp"]
       }
     }
   }
@@ -195,8 +174,8 @@ Open **Cline → MCP Servers → Configure**, then add:
 {
   "mcpServers": {
     "eth-labels": {
-      "command": "node",
-      "args": ["/absolute/path/to/eth-labels/mcp/dist/index.js"]
+      "command": "npx",
+      "args": ["-y", "eth-labels-mcp"]
     }
   }
 }
@@ -204,17 +183,15 @@ Open **Cline → MCP Servers → Configure**, then add:
 
 </details>
 
-> **💡 Tip:** Always use absolute paths. Relative paths fail silently in most MCP clients.
-
 ### Verify it works
 
 Once configured, ask your AI:
 
 ```
-Who is 0xd8dA6BF26964aF9D7eEd9e03E53415D37aA96045?
+Search for "uniswap" addresses
 ```
 
-If it responds with "Vitalik Buterin" — you're in.
+If it returns labeled Uniswap addresses — you're in. 🎉
 
 ### Tools
 
