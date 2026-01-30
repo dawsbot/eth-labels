@@ -55,7 +55,7 @@ describe("Elysia", () => {
         await fetchLocally("/tokens?name=UbEsWaP&symbol=ubE"), // test case sensitivity
       );
 
-    expect(tokens.length).toBe(3);
+    expect(tokens.length).toBe(4);
     expect(tokens).toContainEqual({
       address: "0x00be915b9dcf56a3cbe739d9b9c202ca692409ec",
       label: "defi",

@@ -12,6 +12,5 @@
     "resolveJsonModule": true,
     "noEmit": true
   },
-  "types": ["node"],
-  "exclude": []
+  "exclude": ["mcp"]
 }

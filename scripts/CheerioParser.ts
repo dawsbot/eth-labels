@@ -1,5 +1,6 @@
-import type { Cheerio, CheerioAPI, Element } from "cheerio";
+import type { Cheerio, CheerioAPI } from "cheerio";
 import * as cheerio from "cheerio";
+import type { Element } from "domhandler";
 
 export class CheerioParser {
   #$: CheerioAPI;

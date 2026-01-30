@@ -1,13 +1,15 @@
-import type { Address } from "viem";
+import { type Address, createPublicClient, erc20Abi, http } from "viem";
+import { mainnet } from "viem/chains";
 import { z } from "zod";
 import type { ApiParser } from "./ApiParser/ApiParser";
+import type { BrowserFetcher } from "./browser-fetch";
 import type { Chain } from "./Chain/Chain";
 import { CheerioParser } from "./CheerioParser";
-import type { HtmlParser } from "./HtmlParser/HtmlParser";
-import { ProgressBar } from "./ProgressBar";
 import { AccountsRepository } from "./db/repositories/AccountsRepository";
 import { TokensRepository } from "./db/repositories/TokensRepository";
 import { fetchHtml } from "./fetch-html";
+import type { HtmlParser } from "./HtmlParser/HtmlParser";
+import { ProgressBar } from "./ProgressBar";
 import { sleep } from "./utils/sleep";
 
 type AllLabels = {
@@ -36,25 +38,33 @@ export class ChainPuller {
   #chain: Chain<ApiParser, HtmlParser>;
   #cheerioParser = new CheerioParser();
   #progressBar = new ProgressBar();
+  #browserFetcher: BrowserFetcher;
 
   public baseUrl: string;
 
-  private constructor(chain: Chain<ApiParser, HtmlParser>, cookie: string) {
+  private constructor(
+    chain: Chain<ApiParser, HtmlParser>,
+    browserFetcher: BrowserFetcher,
+  ) {
     this.#chain = chain;
     this.baseUrl = chain.website;
-    this.#chain.apiPuller.setCookies(cookie);
+    this.#browserFetcher = browserFetcher;
+    this.#chain.apiPuller.setBrowserFetcher(browserFetcher);
   }
 
   public static async init(
     chain: Chain<ApiParser, HtmlParser>,
-    cookie: string,
+    browserFetcher: BrowserFetcher,
   ) {
-    const self = new ChainPuller(chain, cookie);
+    const self = new ChainPuller(chain, browserFetcher);
     return Promise.resolve(self);
   }
 
   async #pullAllLabels() {
-    const labelCloudHtml = await fetchHtml(`${this.baseUrl}/labelcloud`);
+    const labelCloudHtml = await fetchHtml(
+      `${this.baseUrl}/labelcloud`,
+      this.#browserFetcher,
+    );
 
     const allAnchors = z
       .array(z.string().url().startsWith("https://"))
@@ -83,7 +93,7 @@ export class ChainPuller {
   }
 
   async #pullTokens(tokenUrl: string) {
-    const tokenHtml = await fetchHtml(tokenUrl);
+    const tokenHtml = await fetchHtml(tokenUrl, this.#browserFetcher);
     this.#cheerioParser.loadHtml(tokenHtml);
     const navPills = this.#cheerioParser.querySelector(".nav-pills");
     let subcatUrlsToPull: Array<string> = [];
@@ -112,14 +122,57 @@ export class ChainPuller {
     return tokenRows;
   }
 
+  async #fetchErc20Metadata(
+    address: Address,
+  ): Promise<{ name: string | null; symbol: string | null }> {
+    const rpcUrl = process.env.ETHEREUM_RPC;
+    if (!rpcUrl) return { name: null, symbol: null };
+
+    const client = createPublicClient({
+      chain: mainnet,
+      transport: http(rpcUrl),
+    });
+
+    const [name, symbol] = await Promise.all([
+      client
+        .readContract({ address, abi: erc20Abi, functionName: "name" })
+        .catch(() => null),
+      client
+        .readContract({ address, abi: erc20Abi, functionName: "symbol" })
+        .catch(() => null),
+    ]);
+
+    return { name: name ?? null, symbol: symbol ?? null };
+  }
+
   async #writeTokens(tokenRows: TokenRows, label: string) {
     for (const tokenRow of tokenRows) {
+      let { name, symbol } = tokenRow;
+
+      if (!name || !symbol) {
+        const onChain = await this.#fetchErc20Metadata(tokenRow.address);
+        name = name ?? onChain.name;
+        symbol = symbol ?? onChain.symbol;
+        if (onChain.name || onChain.symbol) {
+          console.log(
+            `  ⛓️ Fetched on-chain metadata for ${tokenRow.address}: name=${name}, symbol=${symbol}`,
+          );
+        }
+      }
+
+      if (!name || !symbol) {
+        console.warn(
+          `  ⚠️ Skipping token ${tokenRow.address} — missing name=${name}, symbol=${symbol}`,
+        );
+        continue;
+      }
+
       const newToken = {
         chainId: this.#chain.chainId,
         address: tokenRow.address,
         label: label,
-        name: tokenRow.name,
-        symbol: tokenRow.symbol,
+        name,
+        symbol,
         website: tokenRow.website,
         image: tokenRow.image,
       };
@@ -128,7 +181,7 @@ export class ChainPuller {
       } catch (e) {
         console.log("issue with token ", newToken);
         console.warn(e);
-      } //duplicate or missing name. eat the error for now
+      }
     }
   }
 
@@ -161,7 +214,7 @@ export class ChainPuller {
   }
 
   async #pullAccountStaging(accountUrl: string) {
-    const accountHtml = await fetchHtml(accountUrl);
+    const accountHtml = await fetchHtml(accountUrl, this.#browserFetcher);
     this.#cheerioParser.loadHtml(accountHtml);
     const navPills = this.#cheerioParser.querySelector(".nav-pills");
     let accountRows: AccountRows = [];

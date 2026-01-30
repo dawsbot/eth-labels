@@ -5,15 +5,6 @@ import type { HtmlParser } from "./HtmlParser/HtmlParser";
 import { scanConfig } from "./scan-config";
 
 export async function getChainConfig() {
-  // const answer = await inquirer.prompt<{ cookie: string }>([
-  //   {
-  //     type: "input",
-  //     name: "cookie",
-  //     message: "enter your chain cookie",
-  //   },
-  // ]);
-  // const cookie = answer.cookie;
-  const cookie = `TODO_COOKIE_HERE`;
   const chains = scanConfig.map((chain) => ({
     name: chain.chainName,
     value: chain,
@@ -32,6 +23,5 @@ export async function getChainConfig() {
   ]);
   return {
     chains: selected.chains,
-    cookie,
   };
 }
