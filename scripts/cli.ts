@@ -5,15 +5,22 @@ import type { HtmlParser } from "./HtmlParser/HtmlParser";
 import { scanConfig } from "./scan-config";
 
 export async function getChainConfig() {
-  // const answer = await inquirer.prompt<{ cookie: string }>([
-  //   {
-  //     type: "input",
-  //     name: "cookie",
-  //     message: "enter your chain cookie",
-  //   },
-  // ]);
-  // const cookie = answer.cookie;
-  const cookie = `TODO_COOKIE_HERE`;
+  console.log('\n⚠️  Etherscan requires valid browser cookies to bypass Cloudflare protection.');
+  console.log('📋 How to get cookies:');
+  console.log('   1. Open etherscan.io in your browser');
+  console.log('   2. Open DevTools (F12) → Network tab');
+  console.log('   3. Refresh page and click any request');
+  console.log('   4. Copy the full "Cookie:" header value');
+  console.log('   5. Paste it below\n');
+  
+  const answer = await inquirer.prompt<{ cookie: string }>([
+    {
+      type: "input",
+      name: "cookie",
+      message: "Enter your Etherscan cookie string:",
+    },
+  ]);
+  const cookie = answer.cookie;
   const chains = scanConfig.map((chain) => ({
     name: chain.chainName,
     value: chain,
