@@ -121,3 +121,28 @@ bun run dev:api
 ```
 
 Documentation for the API is available via swagger at `http://localhost:3000/swagger`
+
+### Scraping Fresh Data
+
+⚠️ **Cloudflare Protection:** Etherscan now requires valid browser cookies to access all pages.
+
+To pull fresh label data from Etherscan:
+
+```sh
+bun run pull
+```
+
+The scraper will prompt you for cookies. To get them:
+
+1. Open [etherscan.io](https://etherscan.io) in Chrome/Firefox
+2. Complete any Cloudflare challenge if prompted
+3. Open DevTools (F12) → **Network** tab
+4. Refresh the page
+5. Click any request to `etherscan.io`
+6. Scroll to **Request Headers** section
+7. Copy the entire `Cookie:` header value
+8. Paste it when the scraper prompts for cookies
+
+**Note:** Cookies expire after ~24 hours. You'll need fresh cookies each time you run the scraper.
+
+For debugging issues, see [ETHERSCAN_SCRAPE_FINDINGS.md](./ETHERSCAN_SCRAPE_FINDINGS.md).
