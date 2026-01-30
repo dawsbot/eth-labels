@@ -1,4 +1,7 @@
-import puppeteer from "puppeteer";
+import puppeteer from 'puppeteer-extra';
+import StealthPlugin from 'puppeteer-extra-plugin-stealth';
+
+puppeteer.use(StealthPlugin());
 
 /**
  * Automated login to Etherscan using Puppeteer
@@ -16,12 +19,22 @@ export async function getEtherscanCookies(): Promise<string> {
 
   console.log("🌐 Launching browser...");
   const browser = await puppeteer.launch({
-    headless: false, // Using headed mode to debug
-    args: ["--no-sandbox", "--disable-setuid-sandbox"],
+    headless: false,
+    args: [
+      '--no-sandbox',
+      '--disable-setuid-sandbox',
+      '--disable-blink-features=AutomationControlled',
+      '--disable-features=IsolateOrigins,site-per-process',
+    ],
   });
 
   try {
     const page = await browser.newPage();
+
+    // Additional stealth measures
+    await page.evaluateOnNewDocument(() => {
+      Object.defineProperty(navigator, 'webdriver', { get: () => undefined });
+    });
 
     // Set a realistic user agent to avoid detection
     await page.setUserAgent(
