@@ -36,11 +36,13 @@ export class ChainPuller {
   #chain: Chain<ApiParser, HtmlParser>;
   #cheerioParser = new CheerioParser();
   #progressBar = new ProgressBar();
+  #cookie: string;
 
   public baseUrl: string;
 
   private constructor(chain: Chain<ApiParser, HtmlParser>, cookie: string) {
     this.#chain = chain;
+    this.#cookie = cookie;
     this.baseUrl = chain.website;
     this.#chain.apiPuller.setCookies(cookie);
   }
@@ -54,7 +56,7 @@ export class ChainPuller {
   }
 
   async #pullAllLabels() {
-    const labelCloudHtml = await fetchHtml(`${this.baseUrl}/labelcloud`);
+    const labelCloudHtml = await fetchHtml(`${this.baseUrl}/labelcloud`, this.#cookie);
 
     const allAnchors = z
       .array(z.string().url().startsWith("https://"))
@@ -83,7 +85,7 @@ export class ChainPuller {
   }
 
   async #pullTokens(tokenUrl: string) {
-    const tokenHtml = await fetchHtml(tokenUrl);
+    const tokenHtml = await fetchHtml(tokenUrl, this.#cookie);
     this.#cheerioParser.loadHtml(tokenHtml);
     const navPills = this.#cheerioParser.querySelector(".nav-pills");
     let subcatUrlsToPull: Array<string> = [];
@@ -161,7 +163,7 @@ export class ChainPuller {
   }
 
   async #pullAccountStaging(accountUrl: string) {
-    const accountHtml = await fetchHtml(accountUrl);
+    const accountHtml = await fetchHtml(accountUrl, this.#cookie);
     this.#cheerioParser.loadHtml(accountHtml);
     const navPills = this.#cheerioParser.querySelector(".nav-pills");
     let accountRows: AccountRows = [];
