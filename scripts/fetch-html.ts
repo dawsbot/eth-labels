@@ -1,21 +1,23 @@
-import { USER_AGENT } from "./utils/constants";
+import type { BrowserFetcher } from "./browser-fetch";
 
-export function fetchHtml(url: string, cookie?: string) {
-  const headers: HeadersInit = {
-    "user-agent": USER_AGENT,
-  };
-  if (cookie) {
-    headers.Cookie = cookie;
+/**
+ * Fetch HTML through the browser to bypass Cloudflare.
+ * Falls back to direct fetch if no browser is available.
+ */
+export async function fetchHtml(url: string, browserFetcher?: BrowserFetcher): Promise<string> {
+  if (browserFetcher) {
+    return browserFetcher.fetchHtml(url);
   }
 
-  return fetch(url, { headers }).then(async (res) => {
-    const text = await res.text();
-    if (text.includes("Just a moment...")) {
-      console.error(
-        "\nCloudflare blocked the request. Your cookies may have expired.",
-      );
-      return process.exit(0);
-    }
-    return text;
-  });
+  // Fallback: direct fetch (will likely get blocked by Cloudflare)
+  const res = await fetch(url);
+  const text = await res.text();
+  if (text.includes("Just a moment...")) {
+    console.error(
+      "\nCloudflare blocked the request. A running Chrome browser is required.",
+      "\nStart Clawdbot or launch Chrome with: --remote-debugging-port=9222",
+    );
+    return process.exit(0);
+  }
+  return text;
 }

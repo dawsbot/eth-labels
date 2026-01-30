@@ -1,6 +1,7 @@
 import type { Address } from "viem";
 import { z } from "zod";
 import type { ApiParser } from "./ApiParser/ApiParser";
+import { BrowserFetcher } from "./browser-fetch";
 import type { Chain } from "./Chain/Chain";
 import { CheerioParser } from "./CheerioParser";
 import type { HtmlParser } from "./HtmlParser/HtmlParser";
@@ -36,27 +37,27 @@ export class ChainPuller {
   #chain: Chain<ApiParser, HtmlParser>;
   #cheerioParser = new CheerioParser();
   #progressBar = new ProgressBar();
-  #cookie: string;
+  #browserFetcher: BrowserFetcher;
 
   public baseUrl: string;
 
-  private constructor(chain: Chain<ApiParser, HtmlParser>, cookie: string) {
+  private constructor(chain: Chain<ApiParser, HtmlParser>, browserFetcher: BrowserFetcher) {
     this.#chain = chain;
-    this.#cookie = cookie;
     this.baseUrl = chain.website;
-    this.#chain.apiPuller.setCookies(cookie);
+    this.#browserFetcher = browserFetcher;
+    this.#chain.apiPuller.setBrowserFetcher(browserFetcher);
   }
 
   public static async init(
     chain: Chain<ApiParser, HtmlParser>,
-    cookie: string,
+    browserFetcher: BrowserFetcher,
   ) {
-    const self = new ChainPuller(chain, cookie);
+    const self = new ChainPuller(chain, browserFetcher);
     return Promise.resolve(self);
   }
 
   async #pullAllLabels() {
-    const labelCloudHtml = await fetchHtml(`${this.baseUrl}/labelcloud`, this.#cookie);
+    const labelCloudHtml = await fetchHtml(`${this.baseUrl}/labelcloud`, this.#browserFetcher);
 
     const allAnchors = z
       .array(z.string().url().startsWith("https://"))
@@ -85,7 +86,7 @@ export class ChainPuller {
   }
 
   async #pullTokens(tokenUrl: string) {
-    const tokenHtml = await fetchHtml(tokenUrl, this.#cookie);
+    const tokenHtml = await fetchHtml(tokenUrl, this.#browserFetcher);
     this.#cheerioParser.loadHtml(tokenHtml);
     const navPills = this.#cheerioParser.querySelector(".nav-pills");
     let subcatUrlsToPull: Array<string> = [];
@@ -163,7 +164,7 @@ export class ChainPuller {
   }
 
   async #pullAccountStaging(accountUrl: string) {
-    const accountHtml = await fetchHtml(accountUrl, this.#cookie);
+    const accountHtml = await fetchHtml(accountUrl, this.#browserFetcher);
     this.#cheerioParser.loadHtml(accountHtml);
     const navPills = this.#cheerioParser.querySelector(".nav-pills");
     let accountRows: AccountRows = [];
