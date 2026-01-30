@@ -7,3 +7,7 @@ types
 
 package-lock.json
 yarn.lock
+
+# MCP server build artifacts
+mcp/dist
+mcp/node_modules

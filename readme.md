@@ -60,6 +60,49 @@ A public API to consume this data is available for free. You can [use it remotel
 
 [View labels here](https://eth-labels-production.up.railway.app/accounts?chainId=42220)
 
+## MCP Server
+
+Use eth-labels as a tool in Claude Code, Cursor, Windsurf, or any MCP-compatible AI assistant. Ask your AI to identify any crypto address or search for known wallets.
+
+### Setup
+
+```sh
+# Clone and build
+git clone https://github.com/dawsbot/eth-labels.git
+cd eth-labels/mcp
+npm install
+npm run build
+```
+
+### Add to Claude Code
+
+Add to your `~/.claude/claude_desktop_config.json`:
+
+```json
+{
+  "mcpServers": {
+    "eth-labels": {
+      "command": "node",
+      "args": ["/path/to/eth-labels/mcp/dist/index.js"]
+    }
+  }
+}
+```
+
+### Tools
+
+| Tool             | Description                                                                        |
+| ---------------- | ---------------------------------------------------------------------------------- |
+| `lookup_address` | Look up any Ethereum/EVM address to get its label and name tag                     |
+| `search_labels`  | Search by project name, label, or token symbol (e.g. "uniswap", "binance", "USDC") |
+| `dataset_stats`  | Get dataset statistics — 68k+ accounts, 27k+ tokens, 95k+ total entries            |
+
+### Example
+
+Ask your AI: _"Who owns 0xa6baaed2053058a3c8f11e0c7a9716304454b09e?"_
+
+<img src="https://raw.githubusercontent.com/dawsbot/eth-labels/v1/docs/img/mcp-example-1.png" width="600"/>
+
 ## Q & A
 
 - Where does this data come from?
