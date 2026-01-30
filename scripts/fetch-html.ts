@@ -1,5 +1,9 @@
+import { USER_AGENT } from "./utils/constants";
+
 export function fetchHtml(url: string, cookie?: string) {
-  const headers: HeadersInit = {};
+  const headers: HeadersInit = {
+    "user-agent": USER_AGENT,
+  };
   if (cookie) {
     headers.Cookie = cookie;
   }
@@ -8,7 +12,7 @@ export function fetchHtml(url: string, cookie?: string) {
     const text = await res.text();
     if (text.includes("Just a moment...")) {
       console.error(
-        '\nAPI rate limit exceeded for POST to "GetTokensBySubLabel", come back later',
+        "\nCloudflare blocked the request. Your cookies may have expired.",
       );
       return process.exit(0);
     }

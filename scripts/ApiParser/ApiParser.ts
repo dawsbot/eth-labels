@@ -2,6 +2,7 @@ import type { Address } from "viem";
 import { z } from "zod";
 import { CheerioParser } from "../CheerioParser";
 import type { TokenRow, TokenRows } from "./../ChainPuller";
+import { SEC_CH_UA, USER_AGENT } from "../utils/constants";
 
 export const tokenApiResponseSchema = z.object({
   d: z
@@ -127,8 +128,7 @@ export abstract class ApiParser {
           "content-type": "application/json",
           pragma: "no-cache",
           priority: "u=1, i",
-          "sec-ch-ua":
-            '"Not/A)Brand";v="8", "Chromium";v="126", "Brave";v="126"',
+          "sec-ch-ua": SEC_CH_UA,
           "sec-ch-ua-mobile": "?0",
           "sec-ch-ua-model": '""',
           "sec-ch-ua-platform": '"macOS"',
@@ -141,8 +141,7 @@ export abstract class ApiParser {
           cookie,
           Referer: tokenUrl,
           "Referrer-Policy": "origin-when-cross-origin",
-          "user-agent":
-            "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/126.0.0.0 Safari/537.36",
+          "user-agent": USER_AGENT,
         },
         body,
         method: "POST",
@@ -151,12 +150,12 @@ export abstract class ApiParser {
           const text = await res.text();
           if (text.includes("Just a moment...")) {
             console.error(
-              '\nAPI rate limit exceeded for POST to "GetTokensBySubLabel", come back later',
+              "\nCloudflare blocked the request. Your cookies may have expired.",
             );
             return process.exit(0);
           }
 
-          return res.json();
+          return JSON.parse(text);
         })
         .then((res) => tokenApiResponseSchema.parse(res))
         .then((res) => res.d.data)
