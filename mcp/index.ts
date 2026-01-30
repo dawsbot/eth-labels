@@ -30,11 +30,11 @@ interface Token {
 }
 
 // Load data once at startup
-function loadData(): { accounts: Account[]; tokens: Token[] } {
-  const accounts: Account[] = JSON.parse(
+function loadData(): { accounts: Array<Account>; tokens: Array<Token> } {
+  const accounts: Array<Account> = JSON.parse(
     readFileSync(join(DATA_DIR, "accounts.json"), "utf-8")
   );
-  const tokens: Token[] = JSON.parse(
+  const tokens: Array<Token> = JSON.parse(
     readFileSync(join(DATA_DIR, "tokens.json"), "utf-8")
   );
   return { accounts, tokens };
@@ -43,7 +43,7 @@ function loadData(): { accounts: Account[]; tokens: Token[] } {
 const { accounts, tokens } = loadData();
 
 // Build lookup maps for fast search
-const accountsByAddress = new Map<string, Account[]>();
+const accountsByAddress = new Map<string, Array<Account>>();
 for (const account of accounts) {
   const key = account.address.toLowerCase();
   if (!accountsByAddress.has(key)) {
@@ -52,7 +52,7 @@ for (const account of accounts) {
   accountsByAddress.get(key)!.push(account);
 }
 
-const tokensByAddress = new Map<string, Token[]>();
+const tokensByAddress = new Map<string, Array<Token>>();
 for (const token of tokens) {
   const key = token.address.toLowerCase();
   if (!tokensByAddress.has(key)) {
@@ -62,7 +62,7 @@ for (const token of tokens) {
 }
 
 // Build label index for search
-const accountsByLabel = new Map<string, Account[]>();
+const accountsByLabel = new Map<string, Array<Account>>();
 for (const account of accounts) {
   const key = account.label.toLowerCase();
   if (!accountsByLabel.has(key)) {
@@ -71,7 +71,7 @@ for (const account of accounts) {
   accountsByLabel.get(key)!.push(account);
 }
 
-const tokensByLabel = new Map<string, Token[]>();
+const tokensByLabel = new Map<string, Array<Token>>();
 for (const token of tokens) {
   const key = token.label.toLowerCase();
   if (!tokensByLabel.has(key)) {
@@ -112,7 +112,7 @@ server.tool(
       };
     }
 
-    const parts: string[] = [];
+    const parts: Array<string> = [];
 
     if (matchedAccounts.length > 0) {
       parts.push("**Accounts:**");
@@ -160,7 +160,7 @@ server.tool(
   },
   async ({ query, limit }) => {
     const q = query.toLowerCase().trim();
-    const results: string[] = [];
+    const results: Array<string> = [];
 
     // Search accounts by label and nameTag
     for (const account of accounts) {

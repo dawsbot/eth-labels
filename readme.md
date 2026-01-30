@@ -91,17 +91,17 @@ Add to your `~/.claude/claude_desktop_config.json`:
 
 ### Tools
 
-| Tool | Description |
-|------|-------------|
-| `lookup_address` | Look up any Ethereum/EVM address to get its label and name tag |
-| `search_labels` | Search by project name, label, or token symbol (e.g. "uniswap", "binance", "USDC") |
-| `dataset_stats` | Get dataset statistics — 68k+ accounts, 27k+ tokens, 95k+ total entries |
+| Tool             | Description                                                                        |
+| ---------------- | ---------------------------------------------------------------------------------- |
+| `lookup_address` | Look up any Ethereum/EVM address to get its label and name tag                     |
+| `search_labels`  | Search by project name, label, or token symbol (e.g. "uniswap", "binance", "USDC") |
+| `dataset_stats`  | Get dataset statistics — 68k+ accounts, 27k+ tokens, 95k+ total entries            |
 
 ### Example
 
-Ask your AI: *"Who owns 0xa6baaed2053058a3c8f11e0c7a9716304454b09e?"*
+Ask your AI: _"Who owns 0xa6baaed2053058a3c8f11e0c7a9716304454b09e?"_
 
-→ **0x: Uniswap Bridge** (label: 0x-protocol, chainId: 1)
+<img src="https://raw.githubusercontent.com/dawsbot/eth-labels/v1/docs/img/mcp-example-1.png" width="600"/>
 
 ## Q & A
 
