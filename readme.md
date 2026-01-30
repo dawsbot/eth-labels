@@ -66,7 +66,21 @@ Give your AI the ability to identify any crypto address. Works with Claude, Curs
 
 **170k+ labeled addresses and tokens across EVM chains.**
 
-### Quick Setup
+> **Requires:** Node.js 18+
+
+### Install
+
+#### Option A: npx (no clone needed)
+
+<!-- Coming soon: `npx eth-labels-mcp` -->
+
+```sh
+npm install -g eth-labels-mcp
+```
+
+Then use `eth-labels-mcp` as the command in your client config below (instead of the `node /path/to/...` approach).
+
+#### Option B: From source
 
 ```sh
 git clone https://github.com/dawsbot/eth-labels.git
@@ -75,41 +89,31 @@ npm install
 npm run build
 ```
 
-Then add the server to your AI tool of choice:
+### Add to your AI client
 
----
+After installing, add the server to your tool. Replace `/absolute/path/to/eth-labels` with where you cloned the repo.
 
 <details>
-<summary><b>Claude Code</b></summary>
-
-Run this from your terminal:
+<summary><b>Claude Code</b> (one-liner)</summary>
 
 ```sh
 claude mcp add eth-labels -- node /absolute/path/to/eth-labels/mcp/dist/index.js
 ```
 
-Or manually add to `~/.claude.json`:
-
-```json
-{
-  "mcpServers": {
-    "eth-labels": {
-      "command": "node",
-      "args": ["/absolute/path/to/eth-labels/mcp/dist/index.js"]
-    }
-  }
-}
-```
+That's it. Claude Code handles the rest.
 
 </details>
 
 <details>
 <summary><b>Claude Desktop</b></summary>
 
-Add to your config file:
-- **macOS**: `~/Library/Application Support/Claude/claude_desktop_config.json`
-- **Windows**: `%APPDATA%\Claude\claude_desktop_config.json`
-- **Linux**: `~/.config/Claude/claude_desktop_config.json`
+Edit your config file:
+
+| OS | Path |
+|----|------|
+| macOS | `~/Library/Application Support/Claude/claude_desktop_config.json` |
+| Windows | `%APPDATA%\Claude\claude_desktop_config.json` |
+| Linux | `~/.config/Claude/claude_desktop_config.json` |
 
 ```json
 {
@@ -129,7 +133,7 @@ Restart Claude Desktop after saving.
 <details>
 <summary><b>Cursor</b></summary>
 
-Open **Settings → Features → MCP Servers → Add new MCP server**, then add:
+Add to `.cursor/mcp.json` in your project root (or open **Settings → Features → MCP Servers → Add**):
 
 ```json
 {
@@ -141,8 +145,6 @@ Open **Settings → Features → MCP Servers → Add new MCP server**, then add:
   }
 }
 ```
-
-Or add to `.cursor/mcp.json` in your project root.
 
 </details>
 
@@ -165,9 +167,9 @@ Add to `~/.codeium/windsurf/mcp_config.json`:
 </details>
 
 <details>
-<summary><b>VS Code (Copilot)</b></summary>
+<summary><b>VS Code (GitHub Copilot)</b></summary>
 
-Add to your `.vscode/settings.json`:
+Add to `.vscode/settings.json` in your project:
 
 ```json
 {
@@ -202,9 +204,17 @@ Open **Cline → MCP Servers → Configure**, then add:
 
 </details>
 
----
+> **💡 Tip:** Always use absolute paths. Relative paths fail silently in most MCP clients.
 
-> **💡 Tip:** Replace `/absolute/path/to/eth-labels` with where you cloned the repo. Use the full path — relative paths won't work with most MCP clients.
+### Verify it works
+
+Once configured, ask your AI:
+
+```
+Who is 0xd8dA6BF26964aF9D7eEd9e03E53415D37aA96045?
+```
+
+If it responds with "Vitalik Buterin" — you're in.
 
 ### Tools
 
