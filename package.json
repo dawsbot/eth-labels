@@ -54,15 +54,16 @@
     "prettier-plugin-organize-imports": "^3.2.4",
     "typescript": "^5.5.3",
     "typescript-eslint": "^7.14.1",
-    "zod": "^3.23.8"
+    "zod": "^3.25.76"
   },
   "lint-staged": {
     "*": "prettier -u --write"
   },
   "dependencies": {
     "@elysiajs/swagger": "^1.0.5",
+    "@modelcontextprotocol/sdk": "^1.25.3",
     "elysia": "^1.0.25",
-    "viem": "^2.16.3",
-    "kysely-bun-sqlite": "^0.3.2"
+    "kysely-bun-sqlite": "^0.3.2",
+    "viem": "^2.16.3"
   }
 }
