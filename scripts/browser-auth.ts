@@ -1,46 +1,73 @@
-import puppeteer from 'puppeteer-extra';
-import StealthPlugin from 'puppeteer-extra-plugin-stealth';
-
-puppeteer.use(StealthPlugin());
+import puppeteer from 'puppeteer-core';
 
 /**
- * Automated login to Etherscan using Puppeteer
- * Extracts session cookies after successful login
+ * Automated login to Etherscan using Chrome DevTools Protocol
+ * Connects to an already-running Chrome instance to avoid automation detection
  */
 export async function getEtherscanCookies(): Promise<string> {
+  // Try CDP endpoints
+  const endpoints = [
+    'http://127.0.0.1:18800/json/version',  // Clawdbot managed browser
+    'http://127.0.0.1:9222/json/version',    // Standard Chrome DevTools
+  ];
+  
+  for (const endpoint of endpoints) {
+    try {
+      const resp = await fetch(endpoint);
+      const data = await resp.json();
+      const wsUrl = data.webSocketDebuggerUrl;
+      if (wsUrl) {
+        console.log(`✅ Found Chrome at ${endpoint}`);
+        return await loginAndExtractCookies(wsUrl);
+      }
+    } catch (error) {
+      // Silently continue to next endpoint
+    }
+  }
+  
+  // Fallback: check .env for manual cookie
+  if (process.env.ETHERSCAN_COOKIE) {
+    console.log('ℹ️  Using ETHERSCAN_COOKIE from .env');
+    return process.env.ETHERSCAN_COOKIE;
+  }
+  
+  throw new Error(
+    '❌ No Chrome instance found and no ETHERSCAN_COOKIE in .env.\n' +
+    '\n' +
+    'Options:\n' +
+    '1. Start Chrome with remote debugging:\n' +
+    '   /Applications/Google\\ Chrome.app/Contents/MacOS/Google\\ Chrome --remote-debugging-port=9222\n' +
+    '2. Use Clawdbot managed browser (should be running at port 18800)\n' +
+    '3. Manually extract cookies and add ETHERSCAN_COOKIE to .env\n' +
+    '\n' +
+    'See README for more details.'
+  );
+}
+
+/**
+ * Connect to Chrome via CDP, login to Etherscan, and extract cookies
+ */
+async function loginAndExtractCookies(wsUrl: string): Promise<string> {
   const username = process.env.ETHERSCAN_USERNAME;
   const password = process.env.ETHERSCAN_PASSWORD;
 
   if (!username || !password) {
     throw new Error(
-      "Missing credentials! Please create a .env file with ETHERSCAN_USERNAME and ETHERSCAN_PASSWORD"
+      "Missing credentials! Please add ETHERSCAN_USERNAME and ETHERSCAN_PASSWORD to your .env file"
     );
   }
 
-  console.log("🌐 Launching browser...");
-  const browser = await puppeteer.launch({
-    headless: false,
-    args: [
-      '--no-sandbox',
-      '--disable-setuid-sandbox',
-      '--disable-blink-features=AutomationControlled',
-      '--disable-features=IsolateOrigins,site-per-process',
-    ],
+  console.log("🔗 Connecting to Chrome via CDP...");
+  const browser = await puppeteer.connect({
+    browserWSEndpoint: wsUrl,
+    defaultViewport: null,
   });
 
+  let page;
   try {
-    const page = await browser.newPage();
-
-    // Additional stealth measures
-    await page.evaluateOnNewDocument(() => {
-      Object.defineProperty(navigator, 'webdriver', { get: () => undefined });
-    });
-
-    // Set a realistic user agent to avoid detection
-    await page.setUserAgent(
-      "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36"
-    );
-
+    // Create a new page/tab
+    page = await browser.newPage();
+    
     console.log("🔐 Navigating to Etherscan login page...");
     await page.goto("https://etherscan.io/login", {
       waitUntil: "networkidle2",
@@ -52,19 +79,19 @@ export async function getEtherscanCookies(): Promise<string> {
       timeout: 30000,
     });
 
-    // Wait for CAPTCHA to load (if present)
-    await new Promise((resolve) => setTimeout(resolve, 3000));
+    // Wait a moment for any dynamic content to load
+    await new Promise((resolve) => setTimeout(resolve, 2000));
 
     console.log("✍️  Filling in credentials...");
     
-    // Fill in username
+    // Fill in username with realistic typing delay
     await page.type(
       'input[name="ctl00$ContentPlaceHolder1$txtUserName"]',
       username,
       { delay: 100 }
     );
 
-    // Fill in password
+    // Fill in password with realistic typing delay
     await page.type(
       'input[name="ctl00$ContentPlaceHolder1$txtPassword"]',
       password,
@@ -72,7 +99,7 @@ export async function getEtherscanCookies(): Promise<string> {
     );
 
     console.log("\n⚠️  IMPORTANT: Etherscan requires solving a CAPTCHA");
-    console.log("   A browser window should be open. Please:");
+    console.log("   A browser tab should be open. Please:");
     console.log("   1. Solve the CAPTCHA");
     console.log("   2. Click the 'Sign In' button");
     console.log("   3. Wait for the page to load");
@@ -87,21 +114,30 @@ export async function getEtherscanCookies(): Promise<string> {
 
     console.log("✅ Login successful!");
 
-    // Extract cookies
-    const cookies = await page.cookies();
+    // Extract cookies using CDP (includes httpOnly cookies)
+    const client = await page.target().createCDPSession();
+    const { cookies } = await client.send('Network.getCookies', { 
+      urls: ['https://etherscan.io'] 
+    });
     
-    // Format cookies as a cookie header string (name=value; name2=value2)
+    // Format cookies as a cookie header string
     const cookieString = cookies
       .map((cookie) => `${cookie.name}=${cookie.value}`)
       .join("; ");
 
-    console.log(`🍪 Extracted ${cookies.length} cookies`);
+    console.log(`🍪 Extracted ${cookies.length} cookies (including httpOnly)`);
 
     return cookieString;
   } catch (error) {
     console.error("❌ Error during automated login:", error);
     throw error;
   } finally {
-    await browser.close();
+    // CRITICAL: Close only the page/tab, NOT the browser!
+    if (page) {
+      await page.close();
+      console.log("🧹 Closed login tab (browser still running)");
+    }
+    // Disconnect from the browser but don't close it
+    browser.disconnect();
   }
 }

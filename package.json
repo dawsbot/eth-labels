@@ -64,9 +64,7 @@
     "@modelcontextprotocol/sdk": "^1.25.3",
     "elysia": "^1.0.25",
     "kysely-bun-sqlite": "^0.3.2",
-    "puppeteer": "^24.36.1",
-    "puppeteer-extra": "^3.3.6",
-    "puppeteer-extra-plugin-stealth": "^2.11.2",
+    "puppeteer-core": "^24.36.1",
     "viem": "^2.16.3"
   }
 }

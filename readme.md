@@ -124,7 +124,7 @@ Documentation for the API is available via swagger at `http://localhost:3000/swa
 
 ### Automated Scraping
 
-This project includes an automated scraper that logs into Etherscan and pulls label data. No manual cookie copy-paste required!
+This project includes an automated scraper that logs into Etherscan and pulls label data. **No manual cookie copy-paste required!**
 
 #### Setup
 
@@ -135,26 +135,44 @@ ETHERSCAN_USERNAME=your_etherscan_username
 ETHERSCAN_PASSWORD=your_etherscan_password
 ```
 
-2. Run the scraper:
+2. Start Chrome with remote debugging (one of the following):
+
+**Option A: Clawdbot Managed Browser (recommended if you use Clawdbot)**
+- Clawdbot runs a managed Chrome instance at `ws://127.0.0.1:18800`
+- The scraper will automatically detect and use it
+
+**Option B: Manual Chrome with DevTools**
+```sh
+# macOS
+/Applications/Google\ Chrome.app/Contents/MacOS/Google\ Chrome --remote-debugging-port=9222
+
+# Linux
+google-chrome --remote-debugging-port=9222
+```
+
+**Option C: Manual Cookie (fallback)**
+If you can't run Chrome with remote debugging, you can manually extract cookies:
+1. Log into Etherscan in your browser
+2. Open DevTools → Application → Cookies → https://etherscan.io
+3. Copy all cookies as a single string: `name1=value1; name2=value2; ...`
+4. Add to `.env`: `ETHERSCAN_COOKIE=your_cookie_string_here`
+
+3. Run the scraper:
 
 ```sh
 bun run pull
 ```
 
-The scraper will:
-- Automatically log into Etherscan using Puppeteer
-- Extract session cookies
-- Use those cookies to scrape label data from Etherscan and other supported chains
-- No manual intervention needed!
-
 #### How it works
 
-The scraper uses Puppeteer to automate the login process:
-1. Launches a headless browser
-2. Navigates to etherscan.io/login
-3. Fills in credentials from environment variables
-4. Submits the login form
-5. Extracts session cookies after successful login
-6. Uses those cookies for all subsequent requests
+The scraper uses **Chrome DevTools Protocol (CDP)** to connect to an already-running Chrome instance:
+1. Detects Chrome running at port 18800 (Clawdbot) or 9222 (standard DevTools)
+2. Connects via CDP (not launching a new browser — avoids Cloudflare automation detection!)
+3. Opens a new tab and navigates to etherscan.io/login
+4. Fills in credentials from environment variables
+5. Waits for you to solve the CAPTCHA (if present)
+6. Extracts cookies using CDP (including httpOnly cookies)
+7. Closes only the login tab (browser stays running)
+8. Uses those cookies for all subsequent requests
 
-This bypasses Cloudflare challenges and rate limits automatically.
+**Why CDP?** Connecting to a real Chrome instance avoids Cloudflare's automation detection. Unlike Puppeteer's `launch()`, which gets blocked, connecting to an existing browser looks like a normal browsing session.
