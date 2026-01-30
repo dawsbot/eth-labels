@@ -58,9 +58,7 @@ export abstract class ApiParser {
         } catch (e) {
           symbol = "";
         }
-        tokenImage = z
-          .string()
-          .parse(cheerio.querySelector("a > img").attr("src"));
+        tokenImage = cheerio.querySelector("a > img").attr("src") ?? "";
       }
       if (title.startsWith("<span")) {
         title = z
@@ -126,12 +124,48 @@ export abstract class ApiParser {
         dataTableModel: {
           draw: 1,
           columns: [
-            { data: "number", name: "", searchable: true, orderable: false, search: { value: "", regex: false } },
-            { data: "contractAddress", name: "", searchable: true, orderable: false, search: { value: "", regex: false } },
-            { data: "tokenName", name: "", searchable: true, orderable: true, search: { value: "", regex: false } },
-            { data: "marketCap", name: "", searchable: true, orderable: true, search: { value: "", regex: false } },
-            { data: "holders", name: "", searchable: true, orderable: true, search: { value: "", regex: false } },
-            { data: "website", name: "", searchable: true, orderable: false, search: { value: "", regex: false } },
+            {
+              data: "number",
+              name: "",
+              searchable: true,
+              orderable: false,
+              search: { value: "", regex: false },
+            },
+            {
+              data: "contractAddress",
+              name: "",
+              searchable: true,
+              orderable: false,
+              search: { value: "", regex: false },
+            },
+            {
+              data: "tokenName",
+              name: "",
+              searchable: true,
+              orderable: true,
+              search: { value: "", regex: false },
+            },
+            {
+              data: "marketCap",
+              name: "",
+              searchable: true,
+              orderable: true,
+              search: { value: "", regex: false },
+            },
+            {
+              data: "holders",
+              name: "",
+              searchable: true,
+              orderable: true,
+              search: { value: "", regex: false },
+            },
+            {
+              data: "website",
+              name: "",
+              searchable: true,
+              orderable: false,
+              search: { value: "", regex: false },
+            },
           ],
           order: [{ column: 3, dir: "desc" }],
           start: parseInt(start),
@@ -159,7 +193,9 @@ export abstract class ApiParser {
         });
         responseText = await res.text();
         if (responseText.includes("Just a moment...")) {
-          console.error("\nCloudflare blocked the request. A running Chrome browser is required.");
+          console.error(
+            "\nCloudflare blocked the request. A running Chrome browser is required.",
+          );
           return process.exit(0);
         }
       }

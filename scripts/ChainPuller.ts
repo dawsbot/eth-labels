@@ -1,14 +1,15 @@
-import type { Address } from "viem";
+import { type Address, createPublicClient, erc20Abi, http } from "viem";
+import { mainnet } from "viem/chains";
 import { z } from "zod";
 import type { ApiParser } from "./ApiParser/ApiParser";
-import { BrowserFetcher } from "./browser-fetch";
+import type { BrowserFetcher } from "./browser-fetch";
 import type { Chain } from "./Chain/Chain";
 import { CheerioParser } from "./CheerioParser";
-import type { HtmlParser } from "./HtmlParser/HtmlParser";
-import { ProgressBar } from "./ProgressBar";
 import { AccountsRepository } from "./db/repositories/AccountsRepository";
 import { TokensRepository } from "./db/repositories/TokensRepository";
 import { fetchHtml } from "./fetch-html";
+import type { HtmlParser } from "./HtmlParser/HtmlParser";
+import { ProgressBar } from "./ProgressBar";
 import { sleep } from "./utils/sleep";
 
 type AllLabels = {
@@ -41,7 +42,10 @@ export class ChainPuller {
 
   public baseUrl: string;
 
-  private constructor(chain: Chain<ApiParser, HtmlParser>, browserFetcher: BrowserFetcher) {
+  private constructor(
+    chain: Chain<ApiParser, HtmlParser>,
+    browserFetcher: BrowserFetcher,
+  ) {
     this.#chain = chain;
     this.baseUrl = chain.website;
     this.#browserFetcher = browserFetcher;
@@ -57,7 +61,10 @@ export class ChainPuller {
   }
 
   async #pullAllLabels() {
-    const labelCloudHtml = await fetchHtml(`${this.baseUrl}/labelcloud`, this.#browserFetcher);
+    const labelCloudHtml = await fetchHtml(
+      `${this.baseUrl}/labelcloud`,
+      this.#browserFetcher,
+    );
 
     const allAnchors = z
       .array(z.string().url().startsWith("https://"))
@@ -115,14 +122,57 @@ export class ChainPuller {
     return tokenRows;
   }
 
+  async #fetchErc20Metadata(
+    address: Address,
+  ): Promise<{ name: string | null; symbol: string | null }> {
+    const rpcUrl = process.env.ETHEREUM_RPC;
+    if (!rpcUrl) return { name: null, symbol: null };
+
+    const client = createPublicClient({
+      chain: mainnet,
+      transport: http(rpcUrl),
+    });
+
+    const [name, symbol] = await Promise.all([
+      client
+        .readContract({ address, abi: erc20Abi, functionName: "name" })
+        .catch(() => null),
+      client
+        .readContract({ address, abi: erc20Abi, functionName: "symbol" })
+        .catch(() => null),
+    ]);
+
+    return { name: name ?? null, symbol: symbol ?? null };
+  }
+
   async #writeTokens(tokenRows: TokenRows, label: string) {
     for (const tokenRow of tokenRows) {
+      let { name, symbol } = tokenRow;
+
+      if (!name || !symbol) {
+        const onChain = await this.#fetchErc20Metadata(tokenRow.address);
+        name = name ?? onChain.name;
+        symbol = symbol ?? onChain.symbol;
+        if (onChain.name || onChain.symbol) {
+          console.log(
+            `  ⛓️ Fetched on-chain metadata for ${tokenRow.address}: name=${name}, symbol=${symbol}`,
+          );
+        }
+      }
+
+      if (!name || !symbol) {
+        console.warn(
+          `  ⚠️ Skipping token ${tokenRow.address} — missing name=${name}, symbol=${symbol}`,
+        );
+        continue;
+      }
+
       const newToken = {
         chainId: this.#chain.chainId,
         address: tokenRow.address,
         label: label,
-        name: tokenRow.name,
-        symbol: tokenRow.symbol,
+        name,
+        symbol,
         website: tokenRow.website,
         image: tokenRow.image,
       };
@@ -131,7 +181,7 @@ export class ChainPuller {
       } catch (e) {
         console.log("issue with token ", newToken);
         console.warn(e);
-      } //duplicate or missing name. eat the error for now
+      }
     }
   }
 
