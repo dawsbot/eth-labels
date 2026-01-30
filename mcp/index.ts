@@ -8,9 +8,15 @@ import { join, dirname } from "path";
 import { fileURLToPath } from "url";
 
 const __dirname = dirname(fileURLToPath(import.meta.url));
-// When compiled, __dirname is mcp/dist. Data is at repo root: ../../data/json
-// When run from mcp/, __dirname is mcp/dist, so we go up to mcp/ then up to repo root
-const DATA_DIR = join(__dirname, "..", "..", "data", "json");
+// Data is bundled in the dist/data/ directory at build time (via prepublish script).
+// Fallback: when running from source inside the repo, check ../../data/json.
+const BUNDLED_DATA_DIR = join(__dirname, "data");
+const REPO_DATA_DIR = join(__dirname, "..", "..", "data", "json");
+
+import { existsSync } from "fs";
+const DATA_DIR = existsSync(join(BUNDLED_DATA_DIR, "accounts.json"))
+  ? BUNDLED_DATA_DIR
+  : REPO_DATA_DIR;
 
 interface Account {
   address: string;
