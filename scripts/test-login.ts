@@ -18,4 +18,4 @@ async function testLogin() {
   }
 }
 
-testLogin();
+void testLogin();

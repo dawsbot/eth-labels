@@ -1,0 +1,1 @@
+- When parsing unknown/external JSON data (e.g. `resp.json()`, `JSON.parse()`), always use zod validation instead of type assertions or inline type annotations. This ensures runtime safety.

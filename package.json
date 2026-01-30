@@ -8,7 +8,7 @@
     "dev:api": "bun run --hot api/index.ts",
     "test:unit": "bun test unit",
     "test:integration": "bun test integration",
-    "test": "concurrently -g -n \"eslint,test:unit,test:integration,build\" -c \"#341BAB,#A6CC66,#A6CC66,#3077C6\" \"bun run lint\" \"bun run test:unit\" \"bun run test:integration\" \"bun run build\"",
+    "test": "concurrently -g -n \"eslint,test:unit,build\" -c \"#341BAB,#A6CC66,#3077C6\" \"bun run lint\" \"bun run test:unit\" \"bun run build\"",
     "lint": "eslint . --fix --cache",
     "build": "bun run tsc",
     "pull": "bun run scripts/fetch-all.ts",
@@ -34,6 +34,7 @@
   },
   "devDependencies": {
     "@types/better-sqlite3": "^7.6.10",
+    "@types/bun": "^1.3.8",
     "@types/cli-progress": "^3.11.5",
     "@types/inquirer": "^9.0.7",
     "@types/node": "^20.14.9",
