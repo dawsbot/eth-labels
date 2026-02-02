@@ -1,6 +1,6 @@
 /**
  * Shared constants for web scraping
- * 
+ *
  * IMPORTANT: The User-Agent must match the browser that solved the Cloudflare challenge.
  * The cf_clearance cookie is bound to the User-Agent that passed the challenge.
  */

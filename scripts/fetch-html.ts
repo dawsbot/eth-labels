@@ -4,7 +4,10 @@ import type { BrowserFetcher } from "./browser-fetch";
  * Fetch HTML through the browser to bypass Cloudflare.
  * Falls back to direct fetch if no browser is available.
  */
-export async function fetchHtml(url: string, browserFetcher?: BrowserFetcher): Promise<string> {
+export async function fetchHtml(
+  url: string,
+  browserFetcher?: BrowserFetcher,
+): Promise<string> {
   if (browserFetcher) {
     return browserFetcher.fetchHtml(url);
   }
