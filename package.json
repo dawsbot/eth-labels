@@ -67,6 +67,6 @@
     "kysely-bun-sqlite": "^0.3.2",
     "puppeteer-core": "^24.36.1",
     "tsx": "^4.21.0",
-    "viem": "^2.16.3"
+    "viem": "^2.45.1"
   }
 }
