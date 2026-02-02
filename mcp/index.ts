@@ -2,12 +2,10 @@
 
 import { McpServer } from "@modelcontextprotocol/sdk/server/mcp.js";
 import { StdioServerTransport } from "@modelcontextprotocol/sdk/server/stdio.js";
+import { isAddress, JsonRpcProvider } from "essential-eth";
 import { readFileSync } from "fs";
 import { dirname, join } from "path";
 import { fileURLToPath } from "url";
-import { createPublicClient, http, isAddress } from "viem";
-import { mainnet } from "viem/chains";
-import { normalize } from "viem/ens";
 import { z } from "zod";
 
 const __dirname = dirname(fileURLToPath(import.meta.url));
@@ -89,11 +87,8 @@ for (const token of tokens) {
   tokensByLabel.get(key)!.push(token);
 }
 
-// Viem client for ENS resolution
-const publicClient = createPublicClient({
-  chain: mainnet,
-  transport: http(),
-});
+// Provider for ENS resolution
+const provider = new JsonRpcProvider("https://quickrpc.com/api/eth");
 
 // Create server
 const server = new McpServer({
@@ -119,20 +114,10 @@ server.tool(
 
     if (isAddress(input)) {
       resolvedAddress = input;
-      // Reverse-resolve ENS name
-      try {
-        ensName = await publicClient.getEnsName({
-          address: input as `0x${string}`,
-        });
-      } catch {
-        // ENS reverse resolution failed, continue without it
-      }
     } else {
       // Treat as ENS name
       try {
-        const address = await publicClient.getEnsAddress({
-          name: normalize(input),
-        });
+        const address = await provider.resolveName(input);
         if (address) {
           resolvedAddress = address;
           ensName = input;
