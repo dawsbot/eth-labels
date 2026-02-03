@@ -36,7 +36,7 @@
   "author": "Dawson Botsford",
   "dependencies": {
     "@modelcontextprotocol/sdk": "^1.0.0",
-    "viem": "^2.45.1",
+    "essential-eth": "^1.1.0",
     "zod": "^3.23.8"
   },
   "devDependencies": {
