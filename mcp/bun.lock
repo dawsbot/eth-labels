@@ -6,7 +6,7 @@
       "name": "eth-labels-mcp",
       "dependencies": {
         "@modelcontextprotocol/sdk": "^1.0.0",
-        "essential-eth": "^1.0.0",
+        "essential-eth": "^1.1.0",
         "zod": "^3.23.8",
       },
       "devDependencies": {
@@ -144,7 +144,7 @@
 
     "escape-html": ["escape-html@1.0.3", "", {}, "sha512-NiSupZ4OeuGwr68lGIeym/ksIZMJodUGOSCZ/FSnTxcrekbvqrgdUxlJOMpijaKZVjAJrWrGs/6Jy8OMuyj9ow=="],
 
-    "essential-eth": ["essential-eth@1.0.0", "", { "dependencies": { "@noble/hashes": "^2.0.1", "@noble/secp256k1": "^1.5.5", "ethers": "^5.7.2", "isomorphic-unfetch": "^3.1.0", "sha3": "^2.1.4" } }, "sha512-L89X2mI/uz69IRvlqGyHj6bU5sdZ7vQJgo+KX8+3PIK2hfKUqBo1iodh3zKSjDHxcjBdedncXHSPCY/6DBGcbA=="],
+    "essential-eth": ["essential-eth@1.1.0", "", { "dependencies": { "@noble/hashes": "^2.0.1", "@noble/secp256k1": "^1.5.5", "ethers": "^5.7.2", "isomorphic-unfetch": "^3.1.0", "sha3": "^2.1.4" } }, "sha512-wM3Yr3PJoV++mFx4Bytog/+4zxSXb1qd9PbVmEErEA7ozkDoN0YeX9uNf3+kkrqfW9smnEmB8FQhtZYw2f8qTQ=="],
 
     "etag": ["etag@1.8.1", "", {}, "sha512-aIL5Fx7mawVa300al2BnEE4iNvo1qETxLrPI/o05L7z6go7fCw1J6EQmbK4FmJ2AS7kgVF/KEZWufBfdClMcPg=="],
 

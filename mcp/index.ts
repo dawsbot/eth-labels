@@ -114,6 +114,12 @@ server.tool(
 
     if (isAddress(input)) {
       resolvedAddress = input;
+      // Reverse-resolve ENS name
+      try {
+        ensName = await provider.lookupAddress(input);
+      } catch {
+        // ENS reverse resolution failed, continue without it
+      }
     } else {
       // Treat as ENS name
       try {
