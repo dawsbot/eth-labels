@@ -14,7 +14,7 @@
 
 ## API
 
-A public API to consume this data is available for free. You can [use it remotely here](https://eth-labels-production.up.railway.app/swagger)
+A public API to consume this data is available for free. You can [use it remotely here](https://eth-labels.com/swagger)
 
 <br/>
 
@@ -22,43 +22,43 @@ A public API to consume this data is available for free. You can [use it remotel
 
 <img src="https://raw.githubusercontent.com/dawsbot/eth-labels/v1/docs/img/etherscan.svg" width="200"/></a>
 
-[View labels here](https://eth-labels-production.up.railway.app/accounts?chainId=1)
+[View labels here](https://eth-labels.com/accounts?chainId=1)
 
 ### Base
 
 <a><img src="https://raw.githubusercontent.com/dawsbot/eth-labels/v1/docs/img/basescan.svg" width="200"/></a>
 
-[View labels here](https://eth-labels-production.up.railway.app/accounts?chainId=8453)
+[View labels here](https://eth-labels.com/accounts?chainId=8453)
 
 ### Arbitrum
 
 <a><img src="https://raw.githubusercontent.com/dawsbot/eth-labels/v1/docs/img/arbiscan.svg" width="200"/></a>
 
-[View labels here](https://eth-labels-production.up.railway.app/accounts?chainId=42161)
+[View labels here](https://eth-labels.com/accounts?chainId=42161)
 
 ### Optimism
 
 <a><img src="https://raw.githubusercontent.com/dawsbot/eth-labels/v1/docs/img/optimism.svg" width="200"/></a>
 
-[View labels here](https://eth-labels-production.up.railway.app/accounts?chainId=10)
+[View labels here](https://eth-labels.com/accounts?chainId=10)
 
 ### Binance Smart Chain
 
 <img src="https://raw.githubusercontent.com/dawsbot/eth-labels/v1/docs/img/bscscan.svg" width="200"/></a>
 
-[View labels here](https://eth-labels-production.up.railway.app/accounts?chainId=56)
+[View labels here](https://eth-labels.com/accounts?chainId=56)
 
 ### Gnosis Chain
 
 <img src="https://raw.githubusercontent.com/dawsbot/eth-labels/v1/docs/img/gnosis.svg" width="200"/></a>
 
-[View labels here](https://eth-labels-production.up.railway.app/accounts?chainId=100)
+[View labels here](https://eth-labels.com/accounts?chainId=100)
 
 ### Celo
 
 <img src="https://raw.githubusercontent.com/dawsbot/eth-labels/v1/docs/img/celo.svg" width="200"/></a>
 
-[View labels here](https://eth-labels-production.up.railway.app/accounts?chainId=42220)
+[View labels here](https://eth-labels.com/accounts?chainId=42220)
 
 ## MCP Server
 
@@ -109,11 +109,11 @@ That's it. Claude Code handles the rest.
 
 Edit your config file:
 
-| OS | Path |
-|----|------|
-| macOS | `~/Library/Application Support/Claude/claude_desktop_config.json` |
-| Windows | `%APPDATA%\Claude\claude_desktop_config.json` |
-| Linux | `~/.config/Claude/claude_desktop_config.json` |
+| OS      | Path                                                              |
+| ------- | ----------------------------------------------------------------- |
+| macOS   | `~/Library/Application Support/Claude/claude_desktop_config.json` |
+| Windows | `%APPDATA%\Claude\claude_desktop_config.json`                     |
+| Linux   | `~/.config/Claude/claude_desktop_config.json`                     |
 
 ```json
 {
@@ -265,10 +265,12 @@ ETHERSCAN_PASSWORD=your_etherscan_password
 2. Start Chrome with remote debugging (one of the following):
 
 **Option A: Clawdbot Managed Browser (recommended if you use Clawdbot)**
+
 - Clawdbot runs a managed Chrome instance at `ws://127.0.0.1:18800`
 - The scraper will automatically detect and use it
 
 **Option B: Manual Chrome with DevTools**
+
 ```sh
 # macOS
 /Applications/Google\ Chrome.app/Contents/MacOS/Google\ Chrome --remote-debugging-port=9222
@@ -279,12 +281,13 @@ google-chrome --remote-debugging-port=9222
 
 **Option C: Manual Cookie (fallback)**
 If you can't run Chrome with remote debugging, you can manually extract cookies:
+
 1. Log into Etherscan in your browser
 2. Open DevTools → Application → Cookies → https://etherscan.io
 3. Copy all cookies as a single string: `name1=value1; name2=value2; ...`
 4. Add to `.env`: `ETHERSCAN_COOKIE=your_cookie_string_here`
 
-3. Run the scraper:
+5. Run the scraper:
 
 ```sh
 bun run pull
@@ -293,6 +296,7 @@ bun run pull
 #### How it works
 
 The scraper uses **Chrome DevTools Protocol (CDP)** to connect to an already-running Chrome instance:
+
 1. Detects Chrome running at port 18800 (Clawdbot) or 9222 (standard DevTools)
 2. Connects via CDP (not launching a new browser — avoids Cloudflare automation detection!)
 3. Opens a new tab and navigates to etherscan.io/login

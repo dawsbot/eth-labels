@@ -12,7 +12,22 @@ import {
 } from "./services/select-matching-labels";
 
 const PORT = process.env.PORT || 3000;
+const CACHE_TTL = 60 * 60; // 1 hour
+const cacheHeaders = {
+  "Cache-Control": `public, s-maxage=${CACHE_TTL}, stale-while-revalidate=${CACHE_TTL * 2}`,
+};
+
 export const app = new Elysia();
+
+// Redirect old Railway domain to new domain
+app.onBeforeHandle(({ request, set }) => {
+  const url = new URL(request.url);
+  if (url.hostname === "eth-labels-production.up.railway.app") {
+    set.redirect = `https://eth-labels.com${url.pathname}${url.search}`;
+    set.status = 301;
+    return set.redirect;
+  }
+});
 
 app.use(
   swagger({
@@ -25,12 +40,14 @@ app.use(
   }),
 );
 
-app.get("/labels", () => {
+app.get("/labels", ({ set }) => {
+  set.headers = cacheHeaders;
   return selectAllLabels();
 });
 app.get(
   "/labels/:address",
-  async ({ params }) => {
+  async ({ params, set }) => {
+    set.headers = cacheHeaders;
     const { address } = params;
     return selectMatchingLabels(address);
   },
@@ -39,7 +56,8 @@ app.get(
 
 app.get(
   "/accounts",
-  async ({ query }) => {
+  async ({ query, set }) => {
+    set.headers = cacheHeaders;
     const {
       chainId,
       address,
@@ -72,7 +90,8 @@ app.get(
 
 app.get(
   "/tokens",
-  ({ query }) => {
+  ({ query, set }) => {
+    set.headers = cacheHeaders;
     const {
       chainId,
       address,
