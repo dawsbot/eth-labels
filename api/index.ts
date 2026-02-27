@@ -19,16 +19,6 @@ const cacheHeaders = {
 
 export const app = new Elysia();
 
-// Redirect old Railway domain to new domain
-app.onBeforeHandle(({ request, set }) => {
-  const url = new URL(request.url);
-  if (url.hostname === "eth-labels-production.up.railway.app") {
-    set.redirect = `https://eth-labels.com${url.pathname}${url.search}`;
-    set.status = 301;
-    return set.redirect;
-  }
-});
-
 app.use(
   swagger({
     documentation: {
