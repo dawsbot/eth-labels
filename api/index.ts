@@ -120,6 +120,23 @@ app.get(
 
 app.get("/health", () => "OK");
 
-app.listen(PORT, () => {
-  console.log(`Listening on port ${PORT}. Open /swagger to see the API docs.`);
+// Elysia's redirect() is bugged in 1.4 (no Location header), so we
+// handle the old-domain redirect at the Bun server level instead.
+const OLD_RAILWAY_HOST = "eth-labels-production.up.railway.app";
+
+Bun.serve({
+  port: PORT,
+  fetch(request) {
+    const host = request.headers.get("host");
+    if (host === OLD_RAILWAY_HOST) {
+      const { pathname, search } = new URL(request.url);
+      return new Response(null, {
+        status: 301,
+        headers: { Location: `https://eth-labels.com${pathname}${search}` },
+      });
+    }
+    return app.fetch(request);
+  },
 });
+
+console.log(`Listening on port ${PORT}. Open /swagger to see the API docs.`);
