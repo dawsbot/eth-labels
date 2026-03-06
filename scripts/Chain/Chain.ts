@@ -17,6 +17,14 @@ export class Chain<T extends ApiParser, T2 extends HtmlParser> {
     celo: 42220,
     bscscan: 56,
     gnosis: 100,
+    avalanche: 43114,
+    polygon: 137,
+    mantle: 5000,
+    scroll: 534352,
+    linea: 59144,
+    blast: 81457,
+    berachain: 80094,
+    worldchain: 480,
   };
 
   public constructor(
