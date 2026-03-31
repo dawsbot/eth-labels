@@ -12,9 +12,9 @@ import {
 } from "./services/select-matching-labels";
 
 const PORT = process.env.PORT || 3000;
-const CACHE_TTL = 60 * 60 * 24; // 24 hours
+const CACHE_TTL = 60 * 60 * 24 * 3; // 3 days
 const cacheHeaders = {
-  "Cache-Control": `public, s-maxage=${CACHE_TTL}, stale-while-revalidate=${CACHE_TTL * 7}`,
+  "Cache-Control": `public, s-maxage=${CACHE_TTL}, stale-while-revalidate=${CACHE_TTL * 3}`,
 };
 
 export const app = new Elysia();
