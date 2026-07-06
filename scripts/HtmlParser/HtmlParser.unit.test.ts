@@ -67,8 +67,11 @@ describe("arbiscan", () => {
       arbiscanMocks.mockLabelCloudHtml,
     );
 
-    expect(allLabels).toHaveLength(167);
+    expect(allLabels).toHaveLength(170);
     expect(allLabels[0]).toBe(`/accounts/label/0x-protocol?size=10000`);
+    // token labels with more than 100 rows must not be dropped; they are
+    // paginated via the "start" cursor (defi has 388 rows in this fixture)
+    expect(allLabels).toContain(`/tokens/label/defi?size=100&start=0`);
   });
   test("should parse account addresses", () => {
     const accountRows = htmlParser.selectAllAccountAddresses(
@@ -121,8 +124,11 @@ describe("bscscan", () => {
       bscscanMocks.mockLabelCloudHtml,
     );
 
-    expect(allLabels).toHaveLength(240);
+    expect(allLabels).toHaveLength(263);
     expect(allLabels[0]).toBe(`/accounts/label/0x-protocol?size=10000`);
+    // token labels with more than 100 rows must not be dropped (blockchain
+    // has 291 rows in this fixture)
+    expect(allLabels).toContain(`/tokens/label/blockchain?size=100&start=0`);
   });
   test("should parse account addresses", () => {
     const accountRows = htmlParser.selectAllAccountAddresses(
@@ -210,8 +216,11 @@ describe("optimism", () => {
       optimismMocks.mockLabelCloudHtml,
     );
 
-    expect(allLabels).toHaveLength(101);
+    expect(allLabels).toHaveLength(102);
     expect(allLabels[0]).toBe(`/accounts/label/0x-protocol?size=10000`);
+    // token labels with 100+ rows must not be dropped (defi has exactly 100
+    // rows in this fixture and was previously skipped)
+    expect(allLabels).toContain(`/tokens/label/defi?size=100&start=0`);
   });
   test("should parse account addresses", () => {
     const accountRows = htmlParser.selectAllAccountAddresses(
@@ -285,8 +294,14 @@ describe("etherscan", () => {
       etherscanMocks.mockLabelCloudHtml,
     );
 
-    expect(allLabels).toHaveLength(899);
+    expect(allLabels).toHaveLength(934);
     expect(allLabels[0]).toBe(`/accounts/label/0x-protocol?size=10000`);
+    // token label urls carry a "start" pagination cursor for
+    // ApiParser.fetchTokens
+    expect(allLabels).toContain(`/tokens/label/0x-protocol?size=100&start=0`);
+    // token labels with more than 100 rows must not be dropped (defi has
+    // 2101 rows in this fixture and was previously silently skipped)
+    expect(allLabels).toContain(`/tokens/label/defi?size=100&start=0`);
   });
   test("should parse account addresses", () => {
     const tokenRows = htmlParser.selectAllAccountAddresses(
