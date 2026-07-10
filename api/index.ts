@@ -12,6 +12,11 @@ import {
 } from "./services/select-matching-labels";
 
 const PORT = process.env.PORT || 3000;
+const CACHE_TTL = 60 * 60 * 24 * 3; // 3 days
+const cacheHeaders = {
+  "Cache-Control": `public, s-maxage=${CACHE_TTL}, stale-while-revalidate=${CACHE_TTL * 3}`,
+};
+
 export const app = new Elysia();
 
 app.use(
@@ -25,12 +30,14 @@ app.use(
   }),
 );
 
-app.get("/labels", () => {
+app.get("/labels", ({ set }) => {
+  set.headers = cacheHeaders;
   return selectAllLabels();
 });
 app.get(
   "/labels/:address",
-  async ({ params }) => {
+  async ({ params, set }) => {
+    set.headers = cacheHeaders;
     const { address } = params;
     return selectMatchingLabels(address);
   },
@@ -39,7 +46,8 @@ app.get(
 
 app.get(
   "/accounts",
-  async ({ query }) => {
+  async ({ query, set }) => {
+    set.headers = cacheHeaders;
     const {
       chainId,
       address,
@@ -72,7 +80,8 @@ app.get(
 
 app.get(
   "/tokens",
-  ({ query }) => {
+  ({ query, set }) => {
+    set.headers = cacheHeaders;
     const {
       chainId,
       address,
@@ -111,6 +120,23 @@ app.get(
 
 app.get("/health", () => "OK");
 
-app.listen(PORT, () => {
-  console.log(`Listening on port ${PORT}. Open /swagger to see the API docs.`);
+// Elysia's redirect() is bugged in 1.4 (no Location header), so we
+// handle the old-domain redirect at the Bun server level instead.
+const OLD_RAILWAY_HOST = "eth-labels-production.up.railway.app";
+
+Bun.serve({
+  port: PORT,
+  fetch(request) {
+    const host = request.headers.get("host");
+    if (host === OLD_RAILWAY_HOST) {
+      const { pathname, search } = new URL(request.url);
+      return new Response(null, {
+        status: 301,
+        headers: { Location: `https://eth-labels.com${pathname}${search}` },
+      });
+    }
+    return app.fetch(request);
+  },
 });
+
+console.log(`Listening on port ${PORT}. Open /swagger to see the API docs.`);

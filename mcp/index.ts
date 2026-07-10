@@ -2,15 +2,22 @@
 
 import { McpServer } from "@modelcontextprotocol/sdk/server/mcp.js";
 import { StdioServerTransport } from "@modelcontextprotocol/sdk/server/stdio.js";
-import { z } from "zod";
+import { isAddress, JsonRpcProvider } from "essential-eth";
 import { readFileSync } from "fs";
-import { join, dirname } from "path";
+import { dirname, join } from "path";
 import { fileURLToPath } from "url";
+import { z } from "zod";
 
 const __dirname = dirname(fileURLToPath(import.meta.url));
-// When compiled, __dirname is mcp/dist. Data is at repo root: ../../data/json
-// When run from mcp/, __dirname is mcp/dist, so we go up to mcp/ then up to repo root
-const DATA_DIR = join(__dirname, "..", "..", "data", "json");
+// Data is bundled in the dist/data/ directory at build time (via prepublish script).
+// Fallback: when running from source inside the repo, check ../../data/json.
+const BUNDLED_DATA_DIR = join(__dirname, "data");
+const REPO_DATA_DIR = join(__dirname, "..", "..", "data", "json");
+
+import { existsSync } from "fs";
+const DATA_DIR = existsSync(join(BUNDLED_DATA_DIR, "accounts.json"))
+  ? BUNDLED_DATA_DIR
+  : REPO_DATA_DIR;
 
 interface Account {
   address: string;
@@ -32,10 +39,10 @@ interface Token {
 // Load data once at startup
 function loadData(): { accounts: Array<Account>; tokens: Array<Token> } {
   const accounts: Array<Account> = JSON.parse(
-    readFileSync(join(DATA_DIR, "accounts.json"), "utf-8")
+    readFileSync(join(DATA_DIR, "accounts.json"), "utf-8"),
   );
   const tokens: Array<Token> = JSON.parse(
-    readFileSync(join(DATA_DIR, "tokens.json"), "utf-8")
+    readFileSync(join(DATA_DIR, "tokens.json"), "utf-8"),
   );
   return { accounts, tokens };
 }
@@ -80,6 +87,9 @@ for (const token of tokens) {
   tokensByLabel.get(key)!.push(token);
 }
 
+// Provider for ENS resolution
+const provider = new JsonRpcProvider("https://quickrpc.com/api/eth");
+
 // Create server
 const server = new McpServer({
   name: "eth-labels",
@@ -89,42 +99,80 @@ const server = new McpServer({
 // Tool: lookup address
 server.tool(
   "lookup_address",
-  "Look up a crypto address to get its label, name tag, and associated token info. Works for Ethereum and EVM-compatible chains.",
+  "Look up a crypto address or ENS name to get its label, name tag, and associated token info. Accepts an Ethereum address (0x...) or an ENS name (e.g. vitalik.eth). When an address is provided, also attempts to resolve its ENS name.",
   {
-    address: z
+    addressOrEns: z
       .string()
-      .describe("The Ethereum/EVM address to look up (0x...)"),
+      .describe(
+        "An Ethereum/EVM address (0x...) or ENS name (e.g. vitalik.eth)",
+      ),
   },
-  async ({ address }) => {
-    const normalized = address.toLowerCase().trim();
+  async ({ addressOrEns }) => {
+    const input = addressOrEns.trim();
+    let resolvedAddress: string | null = null;
+    let ensName: string | null = null;
 
+    if (isAddress(input)) {
+      resolvedAddress = input;
+      // Reverse-resolve ENS name
+      try {
+        ensName = await provider.lookupAddress(input);
+      } catch {
+        // ENS reverse resolution failed, continue without it
+      }
+    } else {
+      // Treat as ENS name
+      try {
+        const address = await provider.resolveName(input);
+        if (address) {
+          resolvedAddress = address;
+          ensName = input;
+        }
+      } catch {
+        // ENS resolution failed
+      }
+
+      if (!resolvedAddress) {
+        return {
+          content: [
+            {
+              type: "text" as const,
+              text: `Could not resolve ENS name "${input}" to an address`,
+            },
+          ],
+        };
+      }
+    }
+
+    const normalized = resolvedAddress.toLowerCase();
     const matchedAccounts = accountsByAddress.get(normalized) || [];
     const matchedTokens = tokensByAddress.get(normalized) || [];
 
+    const parts: Array<string> = [];
+
+    if (ensName) {
+      parts.push(`**ENS:** ${ensName}`);
+    }
+    parts.push(`**Address:** ${resolvedAddress}`);
+
     if (matchedAccounts.length === 0 && matchedTokens.length === 0) {
+      parts.push("\nNo labels found in the dataset for this address.");
       return {
-        content: [
-          {
-            type: "text" as const,
-            text: `No labels found for address ${address}`,
-          },
-        ],
+        content: [{ type: "text" as const, text: parts.join("\n") }],
       };
     }
 
-    const parts: Array<string> = [];
-
     if (matchedAccounts.length > 0) {
-      parts.push("**Accounts:**");
+      parts.push("\n**Accounts:**");
       for (const a of matchedAccounts) {
         parts.push(
-          `- **${a.nameTag}** (label: ${a.label}, chainId: ${a.chainId})`
+          `- **${a.nameTag}** (label: ${a.label}, chainId: ${a.chainId})`,
         );
       }
     }
 
     if (matchedTokens.length > 0) {
-      parts.push("**Tokens:**");
+      parts.push("\n**Tokens:**");
       for (const t of matchedTokens) {
         const details = [
           `**${t.name}** (${t.symbol})`,
@@ -139,7 +187,7 @@ server.tool(
     return {
       content: [{ type: "text" as const, text: parts.join("\n") }],
     };
-  }
+  },
 );
 
 // Tool: search by label/name
@@ -150,7 +198,7 @@ server.tool(
     query: z
       .string()
       .describe(
-        "Search query — a project name, label, or token symbol (e.g. 'uniswap', 'binance', 'USDC')"
+        "Search query — a project name, label, or token symbol (e.g. 'uniswap', 'binance', 'USDC')",
       ),
     limit: z
       .number()
@@ -170,7 +218,7 @@ server.tool(
         (account.nameTag || "").toLowerCase().includes(q)
       ) {
         results.push(
-          `- **${account.nameTag}** — \`${account.address}\` (label: ${account.label}, chainId: ${account.chainId})`
+          `- **${account.nameTag}** — \`${account.address}\` (label: ${account.label}, chainId: ${account.chainId})`,
         );
       }
     }
@@ -184,7 +232,7 @@ server.tool(
         (token.symbol || "").toLowerCase().includes(q)
       ) {
         results.push(
-          `- **${token.name}** (${token.symbol}) — \`${token.address}\` (label: ${token.label}, chainId: ${token.chainId})`
+          `- **${token.name}** (${token.symbol}) — \`${token.address}\` (label: ${token.label}, chainId: ${token.chainId})`,
         );
       }
     }
@@ -208,7 +256,7 @@ server.tool(
         },
       ],
     };
-  }
+  },
 );
 
 // Tool: get stats
@@ -237,7 +285,7 @@ server.tool(
         },
       ],
     };
-  }
+  },
 );
 
 // Start server
