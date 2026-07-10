@@ -1,4 +1,6 @@
 import { describe, expect, test } from "bun:test";
+import { z } from "zod";
+import type { BrowserFetcher } from "../browser-fetch";
 import { FileUtilities } from "../FileSystem/FileSystem";
 import { tokenApiResponseSchema, type TokenApiResponse } from "./ApiParser";
 import { EtherscanApiParser } from "./EtherscanApiParser";
@@ -54,5 +56,58 @@ describe("EtherscanParser", () => {
       symbol: "aBAT",
       website: "https://aave.com/atokens",
     });
+  });
+
+  test("should paginate labels with more than 100 rows", async () => {
+    const paginatingApiParser = new EtherscanApiParser("https://etherscan.io");
+    const aaveMock = etherscanMocks.find((mock) =>
+      mock.d.data.some((d) => d.tokenName?.includes("Aave")),
+    )!;
+    const templateRow = aaveMock.d.data[0];
+
+    // build synthetic rows from real fixture html, each with a unique address
+    const makeRow = (index: number) => {
+      const address = `0x${index.toString(16).padStart(40, "0")}`;
+      return {
+        ...templateRow,
+        contractAddress: templateRow.contractAddress.replace(
+          /0x[a-fA-F0-9]{40}/g,
+          address,
+        ),
+      };
+    };
+    const buildPage = (startIndex: number, rowCount: number) =>
+      JSON.stringify({
+        d: {
+          data: Array.from({ length: rowCount }, (_, i) =>
+            makeRow(startIndex + i),
+          ),
+        },
+      });
+
+    const requestedStarts: Array<number> = [];
+    const stubFetcher = {
+      postJson: (url: string, body: string) => {
+        const { start } = z
+          .object({ dataTableModel: z.object({ start: z.number() }) })
+          .parse(JSON.parse(body)).dataTableModel;
+        requestedStarts.push(start);
+        // first page is full (100 rows), second page is partial (20 rows)
+        return Promise.resolve(
+          start === 0 ? buildPage(0, 100) : buildPage(100, 20),
+        );
+      },
+    } as unknown as BrowserFetcher;
+    paginatingApiParser.setBrowserFetcher(stubFetcher);
+
+    const tokens = await paginatingApiParser.fetchTokens(
+      "https://etherscan.io/tokens/label/aave?size=100&start=0&subcatid=0",
+    );
+
+    // both pages were requested with an advancing "start" cursor
+    expect(requestedStarts).toEqual([0, 100]);
+    // all 120 rows are captured, none truncated at the 100-row page limit
+    expect(tokens).toHaveLength(120);
+    expect(new Set(tokens.map((token) => token.address)).size).toBe(120);
   });
 });

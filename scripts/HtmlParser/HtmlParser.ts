@@ -32,14 +32,19 @@ export abstract class HtmlParser {
         console.log(`returning early because "${pathname}" is not a string`);
         return;
       }
-      // tokens has a max page size of 100 while accounts seems to allow 10,000+
-      // TODO: repull tokens which have a page length > 100
-      const maxRecordsLength = pathname.includes("tokens") ? 100 : 10_000;
+      const maxRecordsLength = 10_000;
       const size = $(element).text();
       const regex = /\((.*?)\)/;
       const recordCount = Number(regex.exec(size)?.[1]);
-      // if statement needed because otherwise we freeze forever on URL's like "beacon-depositor"
-      if (recordCount < maxRecordsLength) {
+
+      if (pathname.includes("tokens")) {
+        // tokens has a max page size of 100. Labels with more rows than that
+        // are paginated by ApiParser.fetchTokens, which keeps advancing the
+        // "start" cursor until a page comes back with fewer than 100 rows.
+        const href = `${pathname}?size=100&start=0`;
+        anchors = [...anchors, href];
+      } else if (recordCount < maxRecordsLength) {
+        // if statement needed because otherwise we freeze forever on URL's like "beacon-depositor"
         const href = `${pathname}?size=${maxRecordsLength}`;
         anchors = [...anchors, href];
       }
