@@ -39,12 +39,13 @@ describe("AccountsRepository", () => {
         nameTag: "Null: 0x000...000",
       });
     });
-    test("one coinbase address on arbiscan", async () => {
+    test("finds coinbase address case-insensitively across chains", async () => {
       const address = "0xb8487eed31cf5c559bf3f4edd166b949553d0d11";
       const accountRows = await AccountsRepository.selectAccountsByAddress(
         address.toUpperCase() as Address, // ensures we ignore casing in search
       );
-      expect(accountRows.length).toBe(1);
+      // Same address can appear on multiple chains after multi-chain pulls.
+      expect(accountRows.length).toBeGreaterThanOrEqual(1);
       expect(accountRows).toContainEqual({
         address: "0xb8487eed31cf5c559bf3f4edd166b949553d0d11",
         chainId: 1,
