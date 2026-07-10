@@ -16,6 +16,7 @@ export class BrowserFetcher {
   #browser: Browser | null = null;
   #page: Page | null = null;
   #ready = false;
+  #activeOrigin: string | null = null;
 
   /**
    * Connect to a running Chrome instance and prepare for fetching.
@@ -41,23 +42,7 @@ export class BrowserFetcher {
           });
           this.#page = await this.#browser.newPage();
 
-          // Navigate to etherscan to establish Cloudflare clearance
-          console.log("  🔐 Establishing Cloudflare clearance...");
-          await this.#page.goto("https://etherscan.io/labelcloud", {
-            waitUntil: "networkidle2",
-            timeout: 60000,
-          });
-
-          // Check if we got through Cloudflare
-          const title = await this.#page.title();
-          if (title.includes("Just a moment")) {
-            // Cloudflare challenge - wait for it to resolve
-            console.log("  ⏳ Solving Cloudflare challenge...");
-            await this.#page.waitForFunction(
-              () => !document.title.includes("Just a moment"),
-              { timeout: 30000 },
-            );
-          }
+          await this.setActiveOrigin("https://etherscan.io");
 
           this.#ready = true;
           console.log("  ✅ Browser fetch ready\n");
@@ -70,8 +55,38 @@ export class BrowserFetcher {
 
     throw new Error(
       "No Chrome instance found. Start Clawdbot or launch Chrome with:\n" +
-        "  /Applications/Google\\ Chrome.app/Contents/MacOS/Google\\ Chrome --remote-debugging-port=9222",
+        "  /Applications/Google\\ Chrome.app/Contents/MacOS/Google\\ Chrome --remote-debugging-port=9222 --user-data-dir=/tmp/chrome-devtools-eth-labels",
     );
+  }
+
+  /**
+   * Prime Cloudflare/session state for a target origin.
+   * Must be called when switching chains (different explorer domains).
+   */
+  public async setActiveOrigin(originOrUrl: string): Promise<void> {
+    if (!this.#page) throw new Error("BrowserFetcher not initialized");
+
+    const origin = new URL(originOrUrl).origin;
+    if (this.#activeOrigin === origin) return;
+
+    console.log(`  🔐 Establishing Cloudflare clearance for ${origin}...`);
+    await this.#page.goto(`${origin}/labelcloud`, {
+      waitUntil: "networkidle2",
+      timeout: 60000,
+    });
+
+    const title = await this.#page.title();
+    if (title.includes("Just a moment")) {
+      console.log("  ⏳ Solving Cloudflare challenge...");
+      await this.#page.waitForFunction(
+        () => !document.title.includes("Just a moment"),
+        { timeout: 30000 },
+      );
+      // Give the site a moment to set cookies/session state after challenge.
+      await new Promise((r) => setTimeout(r, 1500));
+    }
+
+    this.#activeOrigin = origin;
   }
 
   /**
@@ -81,28 +96,25 @@ export class BrowserFetcher {
     if (!this.#page || !this.#ready)
       throw new Error("BrowserFetcher not initialized");
 
-    const result = await this.#page.evaluate(async (fetchUrl: string) => {
-      const res = await fetch(fetchUrl);
-      return { status: res.status, text: await res.text() };
-    }, url);
-
-    if (result.status !== 200 || result.text.includes("Just a moment...")) {
-      // Navigate directly to the page to pass Cloudflare challenge
-      await this.#page.goto(url, { waitUntil: "networkidle2", timeout: 60000 });
-
-      // Wait for Cloudflare if needed
-      const title = await this.#page.title();
-      if (title.includes("Just a moment")) {
-        await this.#page.waitForFunction(
-          () => !document.title.includes("Just a moment"),
-          { timeout: 30000 },
-        );
-      }
-
-      return await this.#page.content();
+    const origin = new URL(url).origin;
+    if (this.#activeOrigin !== origin) {
+      await this.setActiveOrigin(origin);
     }
 
-    return result.text;
+    // Navigation-based fetch is slower than page.evaluate(fetch), but far more
+    // reliable across explorers and Cloudflare policies.
+    await this.#page.goto(url, { waitUntil: "networkidle2", timeout: 60000 });
+
+    const title = await this.#page.title();
+    if (title.includes("Just a moment")) {
+      await this.#page.waitForFunction(
+        () => !document.title.includes("Just a moment"),
+        { timeout: 30000 },
+      );
+      await new Promise((r) => setTimeout(r, 1500));
+    }
+
+    return await this.#page.content();
   }
 
   /**
@@ -112,21 +124,34 @@ export class BrowserFetcher {
     if (!this.#page || !this.#ready)
       throw new Error("BrowserFetcher not initialized");
 
-    const result = await this.#page.evaluate(
-      async (fetchUrl: string, fetchBody: string) => {
-        const res = await fetch(fetchUrl, {
-          method: "POST",
-          headers: {
-            "Content-Type": "application/json",
-            "X-Requested-With": "XMLHttpRequest",
-          },
-          body: fetchBody,
-        });
-        return { status: res.status, text: await res.text() };
-      },
-      url,
-      body,
-    );
+    const origin = new URL(url).origin;
+    if (this.#activeOrigin !== origin) {
+      await this.setActiveOrigin(origin);
+    }
+
+    const attemptPost = async () =>
+      this.#page!.evaluate(
+        async (fetchUrl: string, fetchBody: string) => {
+          const res = await fetch(fetchUrl, {
+            method: "POST",
+            headers: {
+              "Content-Type": "application/json",
+              "X-Requested-With": "XMLHttpRequest",
+            },
+            body: fetchBody,
+          });
+          return { status: res.status, text: await res.text() };
+        },
+        url,
+        body,
+      );
+
+    let result = await attemptPost();
+    if (result.status !== 200 || result.text.includes("Just a moment...")) {
+      // Re-prime once and retry the POST.
+      await this.setActiveOrigin(origin);
+      result = await attemptPost();
+    }
 
     if (result.status !== 200 || result.text.includes("Just a moment...")) {
       throw new Error(
@@ -174,5 +199,6 @@ export class BrowserFetcher {
       this.#browser = null;
     }
     this.#ready = false;
+    this.#activeOrigin = null;
   }
 }
