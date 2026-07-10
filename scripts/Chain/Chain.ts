@@ -20,7 +20,6 @@ export class Chain<T extends ApiParser, T2 extends HtmlParser> {
     avalanche: 43114,
     polygon: 137,
     mantle: 5000,
-    scroll: 534352,
     linea: 59144,
     blast: 81457,
     berachain: 80094,

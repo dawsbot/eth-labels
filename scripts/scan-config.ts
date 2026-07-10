@@ -11,7 +11,6 @@ import { LineaChain } from "./Chain/LineaChain";
 import { MantleChain } from "./Chain/MantleChain";
 import { OptimismChain } from "./Chain/OptimismChain";
 import { PolygonChain } from "./Chain/PolygonChain";
-import { ScrollChain } from "./Chain/ScrollChain";
 import { WorldChain } from "./Chain/WorldChain";
 
 export const scanConfig = [
@@ -25,7 +24,6 @@ export const scanConfig = [
   new AvalancheChain(),
   new PolygonChain(),
   new MantleChain(),
-  new ScrollChain(),
   new LineaChain(),
   new BlastChain(),
   new BerachainChain(),

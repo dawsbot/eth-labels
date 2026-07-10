@@ -3,6 +3,14 @@ import "dotenv/config";
 import { z } from "zod";
 import type { ApiParser } from "./ApiParser/ApiParser";
 import { BrowserFetcher } from "./browser-fetch";
+import {
+  CEX_LABEL_KEYWORDS,
+  CEX_NAMETAG_KEYWORDS,
+  expandDefiLlamaNameToKeywords,
+  isCexLabel as matchCexLabel,
+  normalize,
+  shouldWriteCexAccount,
+} from "./cex-filter";
 import type { Chain } from "./Chain/Chain";
 import type { AccountRows } from "./ChainPuller";
 import { CheerioParser } from "./CheerioParser";
@@ -12,86 +20,6 @@ import { fetchHtml } from "./fetch-html";
 import type { HtmlParser } from "./HtmlParser/HtmlParser";
 import { parseError } from "./utils/error-parse";
 import { sleep } from "./utils/sleep";
-
-const CEX_LABEL_KEYWORDS = [
-  "cex",
-  "exchange",
-  "deposit",
-  "hot-wallet",
-  "cold-wallet",
-  "binance",
-  "coinbase",
-  "kraken",
-  "kucoin",
-  "okx",
-  "okex",
-  "huobi",
-  "htx",
-  "bybit",
-  "gate-io",
-  "gateio",
-  "bitfinex",
-  "mexc",
-  "bitget",
-  "gemini",
-  "bitstamp",
-  "poloniex",
-  "crypto-com",
-  "cryptocom",
-  "upbit",
-  "bithumb",
-  "lbank",
-  "bingx",
-] as const;
-
-const CEX_NAMETAG_KEYWORDS = [
-  "cex",
-  "exchange",
-  "deposit",
-  "hot wallet",
-  "cold wallet",
-  "custody",
-  "custodian",
-  "binance",
-  "coinbase",
-  "kraken",
-  "kucoin",
-  "okx",
-  "okex",
-  "huobi",
-  "htx",
-  "bybit",
-  "gate.io",
-  "bitfinex",
-  "mexc",
-  "bitget",
-  "gemini",
-  "bitstamp",
-  "poloniex",
-  "crypto.com",
-  "upbit",
-  "bithumb",
-  "lbank",
-  "bingx",
-] as const;
-
-const EXCLUDED_CEX_LABELS = new Set(["biconomy"]);
-const EXCLUDED_CEX_NAMETAGS = new Set(["biconomy"]);
-const EXCLUDED_CEX_LABEL_TERMS = [
-  "exploit",
-  "hack",
-  "phish",
-  "phishing",
-  "scam",
-  "drainer",
-  "drain",
-  "attack",
-  "hacker",
-  "compromised",
-  "suspicious",
-  "fraud",
-  "stolen",
-] as const;
 
 let runtimeLabelKeywords: Array<string> = [...CEX_LABEL_KEYWORDS];
 let runtimeNameTagKeywords: Array<string> = [...CEX_NAMETAG_KEYWORDS];
@@ -123,70 +51,15 @@ function parseOptionsFromArgs(argv: Array<string>): PullOptions {
   return { no10kLimit: hasNo10kLimit, pageSize };
 }
 
-function normalize(text: string): string {
-  return text.toLowerCase().replace(/\s+/g, " ").trim();
+function filterOptions() {
+  return {
+    labelKeywords: runtimeLabelKeywords,
+    nameTagKeywords: runtimeNameTagKeywords,
+  };
 }
 
-function slugify(text: string): string {
-  return text
-    .toLowerCase()
-    .replace(/[^a-z0-9]+/g, "-")
-    .replace(/-+/g, "-")
-    .replace(/^-|-$/g, "");
-}
-
-function escapeRegex(input: string): string {
-  return input.replace(/[.*+?^${}()|[\]\\]/g, "\\$&");
-}
-
-function hasKeyword(text: string, keyword: string): boolean {
-  const normalizedText = normalize(text);
-  const normalizedKeyword = normalize(keyword);
-  const keywordRegex = new RegExp(
-    `(^|[^a-z0-9])${escapeRegex(normalizedKeyword)}([^a-z0-9]|$)`,
-    "i",
-  );
-  return keywordRegex.test(normalizedText);
-}
-
-function expandDefiLlamaNameToKeywords(name: string): Array<string> {
-  const raw = normalize(name);
-  const rawSlug = slugify(name);
-  const noSuffix = normalize(
-    raw.replace(/\b(cex|exchange|global|international|holdings|group)\b/g, " "),
-  );
-  const noSuffixSlug = slugify(noSuffix);
-  const domainLike = normalize(raw.replace(/\./g, "-"));
-  const domainLikeNoDots = normalize(raw.replace(/\./g, ""));
-
-  const candidates = [
-    raw,
-    rawSlug,
-    noSuffix,
-    noSuffixSlug,
-    domainLike,
-    domainLikeNoDots,
-  ];
-
-  const stopWords = new Set([
-    "cex",
-    "exchange",
-    "global",
-    "group",
-    "network",
-    "protocol",
-    "chain",
-    "labs",
-    "finance",
-  ]);
-
-  return Array.from(
-    new Set(
-      candidates
-        .map((value) => normalize(value))
-        .filter((value) => value.length >= 3 && !stopWords.has(value)),
-    ),
-  );
+function isCexLabel(label: string): boolean {
+  return matchCexLabel(label, filterOptions());
 }
 
 async function loadDefiLlamaCexKeywords(): Promise<Array<string>> {
@@ -226,23 +99,6 @@ async function loadDefiLlamaCexKeywords(): Promise<Array<string>> {
 
 function urlToLabel(url: string): string {
   return z.string().parse(url.split("/").pop()?.split("?")[0]);
-}
-
-function isCexLabel(label: string): boolean {
-  const normalizedLabel = normalize(label);
-  if (EXCLUDED_CEX_LABELS.has(normalizedLabel)) return false;
-  if (
-    EXCLUDED_CEX_LABEL_TERMS.some((term) => hasKeyword(normalizedLabel, term))
-  ) {
-    return false;
-  }
-  return runtimeLabelKeywords.some((keyword) => hasKeyword(label, keyword));
-}
-
-function isCexNameTag(nameTag: string | null): boolean {
-  if (!nameTag) return false;
-  if (EXCLUDED_CEX_NAMETAGS.has(normalize(nameTag))) return false;
-  return runtimeNameTagKeywords.some((keyword) => hasKeyword(nameTag, keyword));
 }
 
 async function getAccountLabelUrls(
@@ -414,7 +270,7 @@ async function writeCexAccounts(
   accountRows: AccountRows,
 ) {
   for (const row of accountRows) {
-    if (!isCexNameTag(row.nameTag) && !isCexLabel(label)) continue;
+    if (!shouldWriteCexAccount(label, row.nameTag, filterOptions())) continue;
 
     try {
       await AccountsRepository.insertAccount({
