@@ -15,6 +15,7 @@ void (async () => {
 
     // Process chains sequentially to avoid overwhelming the browser tab
     for (const chain of chainsToPull) {
+      await browserFetcher.setActiveOrigin(chain.website);
       const chainPuller = await ChainPuller.init(chain, browserFetcher);
       await chainPuller.pullAndWriteAllLabels();
     }
