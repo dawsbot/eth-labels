@@ -6,7 +6,7 @@
     Eth Labels
   </b>
   <br>
-  <i>A public dataset of crypto addresses labeled (<a href="https://etherscan.io/labelcloud">Ethereum and MANY more EVM chains</a></i>)
+  <i>A dataset of crypto addresses labeled (<a href="https://etherscan.io/labelcloud">Ethereum and MANY more EVM chains</a></i>)
   <br>
 </p>
 
@@ -14,7 +14,7 @@
 
 ## API
 
-A public API to consume this data is available for free. You can [use it remotely here](https://eth-labels.com/swagger)
+Run it locally or serve it yourself
 
 <br/>
 
